@@ -1,0 +1,388 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC395">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>395</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Under D. 9</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>366</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Iohannes de Rupescissa OFM, Liber de consideratione quintae essentiae. Ramón Lull,
+                    Tertia distinctio. Alchemical Tracts</head>
+                <head type="James">Alchemica</head>
+                <p function="Codicology"><material>Vellum and paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">219</height>
+                        <width unit="mm">146</width>
+                    </measureGrp><measureGrp type="James">8.7 x 5.5</measureGrp>, <extent>ff. 2 + 133 + 1</extent>,
+                    mostly 30 lines to a page. Cent. <origDate>xv</origDate>, <handNote>in various hands of foreign
+                        aspect, apparently Catalan</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>2 flyleaves, 1<num>20</num>-6<num>20</num> (outer and middle sheets vellum, except in 3)
+                        7 (thirteen), one flyleaf</collation>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-ii + 1-2 + 2a + 3-133 + iii + c</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="cat">Latin and Catalan.</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="48r">
+                        <head type="CCC"><name type="author">Iohannes de Rupescissa OFM</name>, <title>Quinta
+                                essentia</title></head>
+                        <head type="Nasmith">
+                            <title>Liber de consideratione quintae essentiae [per <name type="author">Ioannem de
+                                    Rupescissa</name>]</title>
+                        </head>
+
+                        <rubric locus="1" locusNew="1r">Primus liber de consideratione quinte essencie omnium rerum
+                            transmutabilium. In nomine domini nostri Ihesu Christi. Incipit liber de famulatu
+                            philosophie datus ab angelis domini nostri Ihesu Christi pauperibus euangelicis
+                            viris</rubric>
+
+                        <ab>Sixteenth century notes from Ecclus. iii, John xvii and: o curas hominum o quantum est in
+                            rebus inane</ab>
+
+                        <ab>Prologue</ab>
+                        <incipit locusNew="1r">Dixit <name type="person">Salomon</name> sapientie capitulo septimo. Deus
+                            dedit michi horum scienciam</incipit>
+                        <explicit locusNew="2r">iuxta ordinem titulorum inferius scribendorum</explicit>
+                        <incipit locus="3" locusNew="2r">Secretum primum est. quia per virtutem quam contulit
+                            deus</incipit>
+                        <explicit locusNew="48r">in eius absencia aqua ardens. Deo omnipotenti patri pariterque filio
+                            suo atque spiritui santo sit laus per infinita secula seculorum. Amen</explicit>
+
+                        <rubric locusNew="48r">Explicit liber (2<abbr rend="superscript">us</abbr>) de consideratione
+                            quinte essencie omnium rerum pauperibus et euangelicis viris erogatum</rubric>
+
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="48v" locusEnd="51r">
+                        <head type="CCC">
+                            <title>De uirtutibus lunariis</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Tractatus de virtutibus lunariae</title>
+                        </head>
+
+                        <ab>
+                            <quote>cum figuris illius plantae haud ineleganter illuminatis</quote>
+                        </ab>
+
+                        <ab>
+                            <handNote>A later hand</handNote>
+                        </ab>
+                        <rubric locus="98" locusNew="48v">Hic sequuntur virtutes lunarie prout habetur in libris
+                            hermetis</rubric>
+                        <incipit locusNew="48v">Quedam est planta que dicitur (borisa uel) loathii in latino vero
+                            vocatur lunaria</incipit>
+                        <explicit locusNew="49r">figura ipsius herbe sequitur in foliis sequentibus</explicit>
+                        <ab>
+                            <decoNote>Coloured drawings by an earlier hand:</decoNote>
+                        </ab>
+
+                        <ab locus="100" locusNew="49v">
+                            <decoNote>Two plants. At top, Sun and Moon</decoNote>
+                        </ab>
+                        <ab locus="101" locusNew="50r">
+                            <decoNote>Youth in blue gown holding up label inscribed: certes alli desus se troba que es
+                                stellaria e lunaria. la qual yo se per estrologia</decoNote>
+                            <decoNote>Two strange plants: Sun and Moon above</decoNote>
+                        </ab>
+
+
+                        <ab locus="102" locusNew="50v">
+                            <decoNote>Three plants with leaves and flowers, well drawn</decoNote>
+                        </ab>
+                        <ab>Inscriptions begin:<lb/> Aquesta es la lunaria blaua perco com fa la floreta blaua,
+                            etc.<lb/> La quarta lunaria es aquesta. E com la trobaras cerqua la lunaria dins, etc. <lb/>
+                            Aquesta es reymerola o lunaria menor, etc.<lb/> Martagon en senis etc.</ab>
+
+                        <ab>p. <locus locusNew="51r">103</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="51v" locusEnd="59v">
+
+                        <head type="Nasmith">
+                            <title>Tabula planetarum cum explanatione</title>
+                        </head>
+
+                        <ab locus="104" locusNew="51v">Table of planets, names of the week-days in Catalan at top</ab>
+                        <rubric locus="105" locusNew="52r">Declaratio de la taula precedent</rubric>
+                        <incipit locusNew="52r">Si tu uols saber les set planetes com regne en lo dia y en la
+                            nyt</incipit>
+                        <explicit locusNew="53r">apparra be alhom be intuent. deo gracias</explicit>
+                        <ab>pp. <locus locusNew="53v">108</locus>-<locus locusNew="56r">113</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="56v" locusEnd="59v">
+                        <head type="CCC"><name type="author">Robert Green of Welby</name>, <title>De fama</title></head>
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Roberti de Welbe</name> de fama,
+                                <date>1506</date></title>
+                        </head>
+
+                        <ab>
+                            <handNote>Later hand of no. 2</handNote>
+                        </ab>
+                        <rubric locus="114" locusNew="56v">Omnibus asumptis rebus maneat tibi fama Intemerata. minus sic
+                            tua fata lues</rubric>
+                        <incipit locusNew="56v">Fama namque si tibi sit integra serues quisquis es pro viribus</incipit>
+                        <explicit locusNew="57v">et causas euita que oppugnarent eam. Et hec de fama
+                            sufficiant</explicit>
+                        <ab>(over erasure: <name type="person">Robertus G(rene) de Welbe</name>. Anno <date>1506</date>.
+                            in las..)</ab>
+                        <ab>
+                            <supplied agent="JamesCorrigenda"><name type="person">Rob. Grene de Welbe</name>. <name
+                                    type="person">Robert Welby</name> proctor <date>1479-80</date> occurs in <ref
+                                    type="bibl" target="Leathes 1897">Grace Book A, pp. xxxii and 142</ref>: Robert
+                                Welby in <ref type="bibl" target="Bateson 1905">Grace Book B I for ad eiusdem degrees
+                                        <date>1492 and 3</date>, pp. 38, 65</ref> (H. P. S.)</supplied>
+                        </ab>
+                        <ab>pp. <locus locusNew="58r">117</locus>-<locus locusNew="59v">120</locus> blank</ab>
+
+
+                    </msItem>
+
+                    <msItem n="5" locusStart="60r" locusEnd="120r">
+                        <head type="CCC"><name type="author">Ramón Lull</name>, <title>Tertia distinctio</title></head>
+                        <head type="Nasmith">
+                            <title>Tertia distinctio seu pars libri <name type="author">Raymundi</name> de quinta
+                                essentia</title>
+                        </head>
+
+                        <ab>
+                            <handNote>Hand probably that of no. 1</handNote>
+                        </ab>
+
+                        <rubric locus="121" locusNew="60r">Incipit tercia disti(n)ctio que est de alteracione metallorum
+                            et de magisterio eorum et medicina</rubric>
+                        <incipit locusNew="60r">Hec est tercia distincio huius libri que est de cura
+                            metallorum</incipit>
+                        <ab>
+                            <decoNote>Good diagrams, and a pretty volvel on <locus locusNew="61v">124</locus>, <locus
+                                    locusNew="62r">125</locus>, <locus locusNew="78v">158</locus></decoNote>
+                        </ab>
+                        <ab>Text seems to end</ab>
+                        <explicit locus="227" locusNew="113r">omnium principiorum ut secundum ea que dicta
+                            sunt</explicit>
+                        <ab><locus locusNew="113v">228</locus>, <locus locusNew="114r">229</locus> are occupied by a
+                            table</ab>
+
+                        <rubric locus="231" locusNew="115r">Taula en pla de les significations de les letres del arbre e
+                            de les figuras posades en aquesta art transmutatoria. E primerament del arbre</rubric>
+                        <incipit locusNew="115r">A significa chaos que uol dir confussio</incipit>
+                        <ab>Two similar sections, <locus locusNew="115v">232</locus>, <locus locusNew="116r"
+                            >233</locus></ab>
+                        <ab>Receipts in Catalan</ab>
+                        <incipit locusNew="116v">Recipe ço es prenets una onça de luna bona e fina</incipit>
+                        <ab><locus locusNew="119v">240</locus>, <locus locusNew="120r">241</locus> blank</ab>
+
+
+                    </msItem>
+
+                    <msItem n="6" locusStart="120v" locusEnd="124v">
+                        <head type="CCC"><name type="author">Hortulanos</name>, <title>Commentary on the Emerald Table
+                                of Hermes</title>. <name type="author">Averroes</name>, <title>Operatio
+                            lapidis</title></head>
+                        <head type="Nasmith">
+                            <title>Expositio epistolae <name type="person">Hermetis</name>, et operatio lapidis per
+                                    <name type="author">Averroem</name></title>
+                        </head>
+
+                        <ab>
+                            <handNote>Later hand</handNote>
+                        </ab>
+                        <rubric locusNew="120v">Expositio epistole <name type="person">hermetis</name> post <name
+                                type="person">Ortholanum</name> et est <name type="author">Auerrois</name>
+                            prologus</rubric>
+                        <incipit locusNew="120v">Huius libelli series sequentibus splendet capitulis</incipit>
+                        <rubric locusNew="120v">Sequitur epistola</rubric>
+                        <incipit locusNew="120v">Dicit ergo philosophus sic. Verum est et verissimum</incipit>
+
+                        <explicit locusNew="120v">quod dixi de operacione solis</explicit>
+                        <rubric locusNew="120v">Explicit epistola</rubric>
+                        <rubric locusNew="120v">Exposicio</rubric>
+                        <incipit locusNew="120v">Exponitur sic. Verum est dicit ad dandum intelligi</incipit>
+
+                        <explicit locusNew="124r">Et sic completum est quod dixit de operacione solis. Et sic explicit
+                            expositio epistolae <name type="person">hermetis</name> secundum <name type="author"
+                                >Auerroys</name> philosophum</explicit>
+                        <rubric locusNew="124r">deo gracias</rubric>
+
+                        <seg>
+                            <rubric locus="249" locusNew="124r">Sequitur operacio lapidis eiusdem <name type="author"
+                                    >Auerroys</name></rubric>
+                            <incipit locusNew="124r">Primo accipe mercurium(?) sublimatum bis</incipit>
+                            <rubric locus="250" locusNew="124v">Operacio ad Rubeum</rubric>
+
+                            <explicit locusNew="124v">lapis fuerit optime preparatus. Et sic explicit <name
+                                    type="author">Auerroys</name></explicit>
+                            <rubric locusNew="124v">Deo gracias</rubric>
+                        </seg>
+
+                    </msItem>
+
+                    <msItem n="7" locusStart="125r" locusEnd="127r">
+
+                        <head type="CCC"><name type="author">Robert Green of Welby</name>, <title>Quaestiones super
+                                benedicti lapidis philosophici compositione</title></head>
+
+                        <head type="Nasmith">
+                            <title>Questiones perutiles de lapide philosophorum</title>
+                        </head>
+
+                        <ab>
+                            <handNote>Hand of no. 2</handNote>
+                        </ab>
+                        <rubric locusNew="125r">Questiones perutiles super benedicti lapidis philosophici
+                            compositione</rubric>
+                        <incipit locusNew="125r">Questiones lapidis benedicti. Questio prima. quoniam aqua nostra ex
+                            plumbo</incipit>
+                        <explicit locusNew="127r">cum paciencia consequeris. Hic concluditur tota sciencia</explicit>
+                        <rubric locusNew="127r">Explicit</rubric>
+
+                        <ab>[<name type="person">R. G. de Welbe</name>]</ab>
+
+                    </msItem>
+                    <msItem n="8" locusStart="127v" locusEnd="130r">
+                        <head type="CCC">
+                            <name type="author">Robert Green of Welby</name>, <title>Secretum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Tractatus qui dicitur, Secretum meum michi</title>
+                        </head>
+
+                        <rubric locus="256" locusNew="127v">Secretum meum michi</rubric>
+                        <incipit locusNew="127v">Est enim medicine nostre inicium ut soluatur corpus</incipit>
+                        <explicit locusNew="129v">infinita maroa videri posset. Deo gracias</explicit>
+                        <rubric locusNew="129v">Explicit Secretum meum michi omni laude dignissimum</rubric>
+                        <ab>[<name type="person">R. de Welbe</name>]</ab>
+
+                        <ab><locus locusNew="130r">261</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="9" locusStart="130v" locusEnd="131v">
+                        <head type="CCC">
+                            <name type="author">Robert Green of Welby</name>, <title>Pulchrum somnium</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Visio</title>
+                        </head>
+
+                        <rubric locus="262" locusNew="130v">In nomine Ihesu Christi Visio</rubric>
+                        <incipit locusNew="130v">Dum eram Iuuenis ibam per mundum uniuersum secreta creatoris altissimi
+                            eterne indagans</incipit>
+                        <explicit locusNew="131v">piissimo Ihesu adiuuante cui sit laus honor et gloria per infinita
+                            seculorum secula. Amen</explicit>
+                        <rubric locusNew="131v">Explicit pulcrum sompnium verum et utile</rubric>
+
+                        <ab>[<name type="person">R. Green</name>]</ab>
+                    </msItem>
+
+                    <msItem n="10" locusStart="132r" locusEnd="132v">
+
+
+                        <head type="CCC">
+                            <name type="author">Robert Green of Welby</name>, <title>Dialogus inter <name type="person"
+                                    >Hilardum</name> necromanticum et quendam spiritum</title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>Dialogus inter <name type="person">Hilardum</name> necromanticum et quendam
+                                spiritum</title>
+                        </head>
+
+                        <ab>
+                            <quote>Quatuor ultimis tractatibus subscribitur nomen <name type="person">R. G. de
+                                    Welbe</name>, sed utrum ipse fuerit eorum autor vel saltem possessor codicis
+                                dubito</quote>
+                        </ab>
+
+                        <ab>
+                            <handNote>Another hand</handNote>
+                        </ab>
+                        <rubric locus="265" locusNew="132r">Dialogus inter <name type="person">hylardum</name>
+                            necromanticum et quendam spiritum feliciter incipit</rubric>
+                        <incipit locusNew="132r"><name type="person">Hilardus</name>. Utrum potest fieri lapis qui
+                            dicitur philosophorum transformans omnia metalla in auri et argenti speciem.<lb/> Spiritus.
+                            In auro sunt omnia metalla</incipit>
+
+                        <explicit locusNew="132v">et super hoc cessauit nec ulterius loqui voluit</explicit>
+                        <rubric locusNew="132v">Explicit dialogus inter <name type="person">Hilardum</name> et
+                            spiritum</rubric>
+
+
+                        <ab>[<name type="person">R. Green de Welbe</name> ]</ab>
+                        <ab>Occurs also in MS. <ref type="ms" target="OBL639">Ashmole 1472</ref>, art. iii</ab>
+
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJC 27.06.08 CF 11.07.08</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

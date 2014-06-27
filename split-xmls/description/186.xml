@@ -1,0 +1,183 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC186">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>186</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>P. 22</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>249</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">William de Montibus, Distinctiones theologicae, Versarius, Numerale</head>
+                <head type="James">Will. de Montibus</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">280</height>
+                        <width unit="mm">203</width>
+                    </measureGrp><measureGrp type="James">11.1 x 7.8</measureGrp>, <extent>ff. 173</extent>, two
+                    volumes. Cent. <origDate>xiii</origDate>.</p>
+
+                <p function="Multivolume"><lb/>
+                    <label>Volume I:</label>
+                    <supplied>(Item 1)</supplied>
+                    <handNote>In a larger hand than <supplied>item</supplied> 2</handNote>, <layout>about 38 lines to a
+                        page</layout>; <supplied>(Item 2)</supplied>
+                    <handNote>In a smaller finer hand throughout</handNote>: <layout>40 lines to a page</layout>
+                    <lb/><label>Volume II:</label>
+                    <layout>Double columns of 40 lines</layout>, <handNote>in a thick regular hand</handNote></p>
+
+                <p><label>Collation:</label>
+                    <collation>(? quire gone) 1<num>8</num> 2<num>8</num> 3<num>4</num> | 4<num>8</num> 5<num>10</num>
+                            6<num>8</num>-16<num>8</num> || 17<num>8</num>-22<num>8</num> (wants 8)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>lux desiderium</secFol>.</p>
+
+                <p function="Provenance">No trace of ownership appears to exist.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-173 + iii-iv</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="1r" locusEnd="20v">
+                        <head type="CCC">
+                            <name type="author">William de Montibus</name>, <title>Distinctiones theologicae</title>
+                        </head>
+
+
+                        <ab>Distinctiones, alphabetical, in verse. Beginning imperfectly in <q>Actiones</q> (?)</ab>
+                        <incipit locusNew="1r">
+                            <lg>
+                                <l>Est longinqua deus non causa propinqua malorum</l>
+                                <l>Causa quidem culpe dici nequid inmediate</l>
+                            </lg>
+                        </incipit>
+                        <ab>The verses are in a large hand. The notes upon them smaller</ab>
+                        <ab>The next heading is <q>aduersitas</q></ab>
+                        <incipit locusNew="1r">
+                            <lg>
+                                <l>Set sine qua non est dici poterit mediante</l>
+                                <l>Iustus in aduersis non spernitur immo probatur</l>
+                            </lg>
+                        </incipit>
+                        <ab>Continues with <q>bonum</q></ab>
+                        <ab>The last heading is <q>vita et mors</q>. Ends</ab>
+                        <explicit locus="20v">
+                            <lg>
+                                <l>Est culpe pene non ignorata uetustas</l>
+                                <l>Gratia gloria dant gratam nobis nouitatem</l>
+                            </lg>
+                        </explicit>
+                    </msItem>
+
+                    <msItem n="2" locusStart="21r" locusEnd="126v">
+                        <head type="CCC">
+                            <name type="author">William de Montibus</name>, <title>Versarius</title>
+                        </head>
+
+
+                        <ab>The first heading is <q>de primo aduentu</q>. The first verse</ab>
+                        <incipit locusNew="21r">
+                            <lg>
+                                <l>Quis ueniat uideas quo quando quomodo quare</l>
+                            </lg>
+                        </incipit>
+                        <ab>If I mistake not, the hand of vol. II appears in this portion as annotating</ab>
+                        <ab>There are numerous pencil notes to the effect: <q>hic deficiunt ii versus,</q> or the
+                            like</ab>
+                        <ab>The last heading is <q>Christus. Miracula Christi</q></ab>
+                        <incipit locusNew="126v">
+                            <lg>
+                                <l>Firmant et fulgent Christi miracula terrent</l>
+                            </lg>
+                        </incipit>
+                        <ab>I suspect that no. 1 is a supplement to 2, of omitted portions</ab>
+                        <ab>This copy is mentioned by <ref type="bibl" target="Tanner 1748">Tanner</ref></ab>
+
+
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="3" locusStart="127r" locusEnd="173v">
+                        <head type="CCC">
+                            <name type="author">William de Montibus</name>, <title>Numerale</title>
+                        </head>
+
+                        <ab/>
+                        <rubric locus="127r">Incipit numerale <name type="author">Magistri Willelmi de
+                            Montibus</name></rubric>
+                        <incipit locusNew="127r">Introducendis in facultatem theologicam quedam compendiose prelibanda
+                            sunt</incipit>
+                        <incipit locusNew="127r">Unus dominus. contra sunt domini multi</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="173r">cui nomen numerale imponimus. plura quidem hic omissa in aliis opusculis
+                            nostris copiosius sunt exarata</explicit>
+                        <rubric locusNew="173r">Explicit</rubric>
+                        <ab>f. <locus>173v</locus> blank</ab>
+                    </msItem>
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: NJM 3/12/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,281 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC462">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>462</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>N. 13</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>176</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Recapitulatio historiarum bibliae. Lanfranc OSB, Consuetudines</head>
+                <head type="James">Recapitulatio Bibliorum. Lanfranci consuetudines, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">168</height>
+                        <width unit="mm">115</width>
+                    </measureGrp>, <measureGrp type="James">6.6 x 4.5</measureGrp>, <extent>ff. 153</extent>, <layout>30
+                        and 28 lines and double columns of 29 lines</layout>. Cent. <origDate>xii</origDate>,
+                        <handNote>in good hands, some resembling the <name type="place">Christ Church</name>
+                        type</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>10</num> (+ slip after 4) 2<num>10</num> 3<num>8</num> 4<num>8</num> 6<num>6</num>
+                        | 7<num>8</num>-10<num>8</num> 11<num>6</num> | 12<num>10</num> 13<num>8</num>-18<num>8</num>
+                        (wants 8) | 19<num>8</num>. Old foliation incorrect, but used here</collation>.</p>
+                <p function="Provenance">From <name type="place">Dover Priory</name>: at bottom of f. <locus>1r</locus>
+                    is: <figure xml:id="figure392b1"/> and at bottom of f. <locus>2r</locus>: <figure
+                        xml:id="figure392b2"/><lb/> Interpretaciones ebraicorum (title) ... speciem tenens dicit (dictio
+                    probatoria) ... 142 (leaves in volume) ... 5 (number of tracts)<lb/> At top of f. <locus>1r</locus>
+                    is:<lb/> Liber Conuentus de communi (?).<lb/> See <ref type="bibl" target="James 1903">
+                        <hi rend="italic">Ancient Libraries</hi> p. 486 (no. 385)</ref>. The Purgatorium S. Patricii is
+                    not named there, and has been added at a later time.</p>
+                <p type="CCC">
+                    <foliation>ff. i + 1-4 + 4a + 5-69 + 69a + 70-82 + 82a + 83-108 + 108a + 109-150 +
+                    ii</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="frm">Latin and Anglo-Norman.</textLang>
+
+                    <label>Contents</label>
+
+
+                    <milestone n="I" unit="volume"/>
+                    <msItem n="1" locusStart="1r" locusEnd="41r">
+                        <head type="CCC">
+                            <title>Recapitulatio historiarum bibliae</title>
+                        </head>
+                        <head type="James">
+                            <title>Recapitulatio historiarum biblie (Gen.-Ruth)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Recapitulatio Bibliorum usque ad librum Ruth inclusive</title>
+                        </head>
+
+                        <ab>
+                            <handNote>In fine round hand which changes or modifies shortly</handNote>
+                        </ab>
+                        <incipit locusNew="1r">Recapitulatio de paradiso fonte ac fluminibus et ligno uite. Plantauerat
+                            autem dominus deus paradysum</incipit>
+                        <explicit locusNew="39v">quibus pollicitus est per filium suum Ihesum Christum dominum regem et
+                            saluatorem nostrum cum quo illi honor est et gloria in secula seculorum. Amen</explicit>
+                        <incipit locus="39v"><name type="person">Iacob</name> pro emendis frumentis filios dirigens in
+                            egyptum sumite ait de fructibus terre (the meaning of these expounded)</incipit>
+                        <explicit locusNew="41r">sic transeamus ad caritatem que foras mittit timorem</explicit>
+                    </msItem>
+
+                    <msItem n="2" locusStart="41v" locusEnd="42r">
+                        <head type="CCC">
+                            <title>Charter of <name type="person">Henry I</name> giving <name type="place">S. Martin's,
+                                    Dover</name>, to <name type="place">Christ Church, Canterbury</name></title>
+                        </head>
+                        <head type="James">
+                            <title>Charter of <name type="person">Henry I</name> giving <name type="place">S. Martin's,
+                                    Dover</name>, to <name type="place">Christ Church, Canterbury</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta <name type="person">Henrici I</name>. de donatione ecclesiae <name type="place"
+                                    >B. Mariae Doveriae</name> conventui <name type="place">ecclesiae Christi
+                                    Cantuar.</name></title>
+                        </head>
+                        <ab locusNew="41v">
+                            <handNote>Hand of cent. <origDate>xiv early (?)</origDate></handNote>
+                        </ab>
+
+                        <ab>Another copy on f. <locus>135v</locus> in older hand. The first copy ends</ab>
+                        <explicit locusNew="42r"><name type="person">Rob. de essexie</name>, <name type="person">Ric.
+                                Bassat.</name>
+                            <name type="person">Albricus de veer.</name>, Apud <name type="place">Northamtoniam</name>
+                            data et concessa set apud <name type="place">Westmon.</name> confirmata communi celebrato
+                            consilio</explicit>
+                        <ab>The other ends</ab>
+                        <explicit locusNew="135v"><name type="person">R. de essexe</name>, Ap. <name type="place"
+                                >Nordhamtune</name>. Anno ab incarnatione domini <date>m. c. xxxi</date> peracta
+                            feliciter in Christo</explicit>
+                    </msItem>
+
+                    <msItem n="3" locusStart="42r" locusEnd="42v">
+                        <head type="CCC">
+                            <title>Confirmation by <name type="person">Innocent II</name> to <name type="person">William
+                                    de Corbeil, Archbishop of Canterbury</name> of Charter of <name type="person">Henry
+                                    I</name> giving <name type="place">S. Martin's, Dover</name>, to <name type="place"
+                                    >Christ Church, Canterbury</name></title>
+                        </head>
+                        <head type="James">
+                            <title>Confirmation by <name type="person">Innocent</name> to <name type="person">William
+                                    Abp of Canterbury</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Confirmatio ejusdem donationis per <name type="person">Innocentium
+                                papam</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+                    <msItem n="4" locusStart="43r" locusEnd="86v">
+                        <head type="CCC">
+                            <title>Interpretation of Hebrew and Greek names occurring in Holy Scripture</title>
+                        </head>
+                        <head type="James">
+                            <title>Interpretationes nominum</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Interpretatio nominum Hebraeorum et Graecorum in S. S. occurrentium</title>
+                        </head>
+                        <ab>
+                            <layout>Double columns</layout>
+                        </ab>
+
+                        <incipit locusNew="43r">(Genesis) Aethiopiam. tenebras uel caliginem. (XXIII 817)</incipit>
+                        <explicit locusNew="48v">Zazomin. preparati in acie uel que est hec aqua</explicit>
+                        <incipit locus="48r" locusNew="48v">(Exodus) Aharon mons fortitudinis, etc.</incipit>
+                        <ab>Ends (de Epistola Barnabe)</ab>
+                        <explicit locusNew="83v">Sathan aduersarius uel preuaricator</explicit>
+                        <ab locusNew="83v">Hebrew alphabet</ab>
+                        <incipit locus="83v">Aleph mille uel doctrina</incipit>
+                        <explicit locusNew="83v">tau signum uel subter</explicit>
+                        <ab locus="84r">Greek alphabet twice, once with meanings</ab>
+                        <incipit locusNew="84r">A (Alfa) agricola B (Beta) uetus, etc.</incipit>
+                        <ab locusNew="84r">then with numerical equivalents</ab>
+                        <ab locusNew="84v">Extract. Magister <name type="person">Gilebertus</name></ab>
+                        <incipit locusNew="84v">Redemisti uirgam hereditatis tue</incipit>
+                        <ab locus="85r">blank</ab>
+                        <ab>Notes from Pliny</ab>
+                        <ab locus="85v"> Si quis cor talpe recens palpitansque deuorauerit </ab>
+                        <ab locus="86v">blank</ab>
+                    </msItem>
+
+                    <milestone n="III" unit="volume"/>
+                    <msItem n="5" locusStart="87r" locusEnd="135v">
+                        <head type="CCC">
+                            <name type="author">Lanfranc OSB</name>, <title>Consuetudines</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Consuetudines <name type="person">Lanfranci episcopi</name></title>
+                        </head>
+                        <rubric locus="87r">Incipiunt consuetudines <name type="author">lanfranci
+                            archiepiscopi</name></rubric>
+                        <incipit locusNew="87r"><name type="author">Lanfrancus</name> indignus ... <name type="person"
+                                >henrico priori</name> ...</incipit>
+                        <incipit locusNew="87r">Mittimus uobis nostri ordinis consuetudines scriptas (cl. 444)</incipit>
+                        <explicit locusNew="135r">fiantque cetera que pro fratre congregationis in congregatione
+                            defuncto fieri solent</explicit>
+                        <ab><ref type="bibl" target="d'Achery 1648">Opera p. 253</ref>, cf. <ref type="ms"
+                                target="CCC063">MS 63. 18</ref>. See an article by <ref type="bibl"
+                                target="Armitage Robinson 1909b">Dean J. Armitage Robinson (<hi rend="italic">Church
+                                    Quarterly Review</hi>, 199)</ref></ab>
+                        <ab locus="135v">Second copy of <name type="person">Henry I</name>'s charter <handNote>in <name
+                                    type="place">Christ Church</name> hand</handNote></ab>
+                    </msItem>
+
+                    <msItem n="6" locusStart="136r" locusEnd="142v">
+                        <head type="CCC">
+                            <title>Passio sanctarum uirginum Spei Fidei Karitatis et matris earum Sapientiae</title>
+                        </head>
+
+                        <rubric locus="136r">Incipit passio sanctarum virginum Spei Fidei Karitatis et matris earum
+                            Sapientie Kal. Aug.</rubric>
+                        <incipit locusNew="136r">Mulier quedam nomine sapientia de genere primo ualde diues</incipit>
+                        <ab>(<ref type="bibl" target="Bollandists 1899">BHL</ref>. 2970)</ab>
+                        <explicit locusNew="141v">die kalendarum augustarum <name type="place">Rome</name> sub <name
+                                type="person">adriano imperatore</name>. Regnante in perpetuum domino nostro Ihesu
+                            Christo cui est honor et gloria et potestas in secula seculorum. Amen</explicit>
+                        <ab>On f. <locus>142r</locus> in faint pencil an old table of contents</ab>
+                        <ab>On f. <locus>142v</locus> (<origDate>xiv</origDate>) at top, faint: ego <name type="person"
+                                >thomas acolitus</name> professionem meam deo et beate marie stabilitatem meam</ab>
+                        <ab locus="142v">Notes and proverbial verses</ab>
+                    </msItem>
+
+                    <milestone n="IV" unit="volume"/>
+                    <msItem n="7" locusStart="143r" locusEnd="152v">
+                        <head type="CCC">
+                            <name type="author">H[enry?] of Sawtry OCist</name>, <title>Purgatorium Sancti
+                                Patricii</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De <name type="person">S. Patricio</name> et ejus purgatorio</title>
+                        </head>
+                        <ab>On smaller <material>vellum</material>, <handNote>in a fine small hand</handNote> of cent.
+                                <origDate>xiii early</origDate></ab>
+                        <rubric locus="143r">Incipit purgatorium sancti patricii</rubric>
+                        <incipit locusNew="143r">Dicitur magnus <name type="person">sanctus patricius</name> qui a primo
+                            est secundus qui dum in <name type="place">hybernia</name> uerbum dei predicaret</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="152v" locusNew="150v">vocatur autem ecclesia predictorum canonicorum reglis
+                            iuxta linguam patrie memorate</explicit>
+                        <incipit locusNew="150v">De statu animarum defunctorum</incipit>
+                        <explicit locusNew="150v">in libro etiam sentenciarum circa finem per totum</explicit>
+                        <ab>Without the prologue of <name type="person">Henry of Sawtry</name> or the epilogue. See <ref
+                                type="bibl" target="Ward 1893">Ward, <hi rend="italic">Cat. of Romances</hi> II</ref>
+                            435 sqq.</ab>
+                        <ab locus="152v" locusNew="150v">Poem in French (<origDate>xiii</origDate>) written as
+                            prose</ab>
+                        <ab locusNew="150v">
+                            <q>Penset cheitif de cele mort. Ki iesu sufri pur nus a tort ... ben vus dut sa mort
+                                attreire. de li amer seruir e pleire. Kar greindre amur ne vus pout muttrer. Ki sei pur
+                                vus a mort liurer</q>
+                        </ab>
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 15/05/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

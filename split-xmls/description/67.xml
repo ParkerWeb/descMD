@@ -1,0 +1,141 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC067">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>67</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>N. 6</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>170</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Gilbert de la Porrée, Gloss on the Psalms</head>
+                <head type="James">Remigius Autissiodorensis in Psalmos</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">298</height>
+                        <width unit="mm">205</width>
+                    </measureGrp><measureGrp type="James">11.8 x 8.2</measureGrp>, <extent>ff. 143</extent>,
+                        <layout>double columns of 40 lines</layout>. Cent. <origDate>xii</origDate>, <handNote>in fine
+                        small upright hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num> (wants 1, 2) 2<num>8</num>-13<num>8</num> (1 canc.)
+                            14<num>8</num>-18<num>8</num> 19 (two)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>desperarent</secFol>.</p>
+
+                <p function="Additions">At top of f. <locus>1r</locus>, <origDate>xvi early?</origDate>: <q>B. 38.
+                        (erasure not recoverable) <name type="author">Remigius</name> in psalmos claruit Anno domini
+                            <date>880</date></q>.</p>
+
+                <p function="Provenance">Possibly from <name type="place">Norwich</name>.</p>
+                <p function="Research">
+                    <supplied agent="JamesCorrigenda">This is not the commentary printed as <name type="author"
+                            >Remigius</name>'s in <ref type="bibl" target="Migne 131">P. L. CXXXI</ref> and elsewhere,
+                        but is that attributed to <name type="author">Gilbert of Hoyland (Gilbertus Magnus)</name> by
+                            <ref type="bibl" target="Pits 1619">Pits</ref> and <ref type="bibl" target="Tanner 1748"
+                            >Tanner</ref>.</supplied>
+                </p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-144 + iii-iv</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="144v">
+                        <head type="CCC">
+                            <name type="author">Gilbert de la Porrée</name>, <title>Gloss on the Psalms</title></head>
+                        <head type="James">
+                            <title><name type="author">Remigius Autissiodorensis</name> in Psalmos</title>
+                        </head>
+
+                        <incipit locus="1r">Christus integer caput cum menbris materia huius libri</incipit>
+                        <explicit locusNew="1v">dictum singulariter in libro psalmorum</explicit>
+                        <ab>
+                            <decoNote>Red capitals</decoNote>
+                        </ab>
+                        <rubric locusNew="1v">Incipit liber himnorum vel soliloquiorum de Christo</rubric>
+                        <incipit locus="1v">Beatus uir etc. Huic psalmo non est ausus <name type="person">hesdras</name>
+                            apponere titulum</incipit>
+                        <ab locusNew="1v">
+                            <decoNote>Handsome initial in blue with green and red ornament</decoNote>
+                        </ab>
+                        <explicit locusNew="144v">uolens intelligi ita conclusit: omnis spiritus laudet
+                            dominum</explicit>
+                        <ab>
+                            <decoNote>Ps. li has a large initial and also ci. The ordinary initials are plain blue, red
+                                or green. Titles in red</decoNote>
+                        </ab>
+                        <ab>Marginalia in pen and pencil from cent. <origDate>xiii to xv</origDate></ab>
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJM 09.08.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

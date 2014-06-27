@@ -1,0 +1,153 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+
+                <msIdentifier xml:id="CCC259">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>259</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>A. 6</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>6</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Ranulf Higden OSB, Polychronicon (to 1338)</head>
+
+
+                <head type="James">Ranulf Higden Polychronicon</head>
+
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">275</height>
+                        <width unit="mm">172</width>
+                    </measureGrp><measureGrp type="James">11 x 6.8</measureGrp>, <extent>ff. 204</extent>; <layout>52,
+                        45, 40 lines to a page</layout>. Cent. <origDate>xiv (first half)</origDate>, <quote>seculo
+                            <origDate>xv</origDate> scriptus</quote>, <handNote>in several hands</handNote>.</p>
+
+
+                <p><label>2 fo.:</label>
+                    <secFol>l. 6 | bi.</secFol>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>12</num>-17<num>12</num> (modern foliation incorrect by two)</collation>.</p>
+
+
+                <p function="Additions">Notes from <name type="person">Bale</name> on <material>paper</material> flyleaf
+                        <supplied>(f. <locus>iv</locus>)</supplied>.</p>
+
+                <p function="Research">This MS. is noticed in the <ref type="bibl" target="Babington 1865">Rolls ed. of
+                        the Polychronicon (I p. xx note)</ref> as being of the type to which the name of <name
+                        type="person">Roger of Chester</name> is attached.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i + 1-204 + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="200r">
+
+                        <head type="CCC"><name type="author">Ranulf Higden OSB</name>, <title>Polychronicon (to
+                                1338)</title></head>
+
+                        <head type="James">
+                            <name type="author">Ranulf Higden</name>
+                            <title>Polychronicon</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Polycratica temporum <name type="person">Rogeri Cestriensis</name></title>
+                        </head>
+
+
+
+
+                        <ab>Text</ab>
+                        <incipit locus="1r">Intrabo in agros priscorum subsequens metentes</incipit>
+                        <ab>There are rather copious marginal notes of cent. <date>xvi</date></ab>
+                        <ab><handNote>Several hands have been employed</handNote>: the last begins on f. <locus
+                                locusNew="188r">190r</locus></ab>
+                        <ab>
+                            <quote>Historia desinit in anno <date>1338</date></quote>
+                        </ab>
+                        <ab>Liber VII ends in <date>1338</date></ab>
+                        <explicit locusNew="200r">Conferentes se ad portum de <name type="place">Hamptone</name> ubi
+                            duas naues statim postea conbusserunt</explicit>
+
+                    </msItem>
+
+
+
+
+
+
+                </msContents>
+
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text:copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, but not by a second person</p>
+                            <p>msCheck: NJC 01.06.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

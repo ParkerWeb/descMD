@@ -1,0 +1,167 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC014">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>14</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Under B. 8</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>353</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Vincent of Beauvais OP, Speculum historiale, books 17-24</head>
+
+                <head type="James">Vincentii Speculum Historiale. Libri XVII-XXIV</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">265</height>
+                        <width unit="mm">250</width>
+                    </measureGrp><measureGrp type="James">14.2 x 9.8</measureGrp>, <extent>ff. 328 + 4</extent>,
+                        <layout>double columns of 50 lines</layout>. Cent. <origDate>xiii-xiv</origDate>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>4</num> 1<num>12</num>-6<num>12</num> 7<num>10</num> 8<num>12</num>-19<num>12</num>
+                            20<num>4</num> 21<num>12</num>-25<num>12</num> (+2) 26<num>10</num> (+1) 27<num>12</num>
+                            28<num>12</num> (+1)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>miscente</secFol>.</p>
+
+
+
+                <p function="Provenance">On the flyleaf: <q>Liber <name type="person">Thome Abbatis</name>. Tertium
+                        volumen speculi historialis. D(ist.) <name type="person">Th. Abbatis</name></q>. From <name
+                        type="place" key="CantAu">St Augustine's, Canterbury</name>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-iv + 1-328 + v + c-d</foliation>.</p>
+
+
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="iir" locusEnd="328v">
+
+                        <head type="CCC"><name type="author" key="ViBe01">Vincent of Beauvais OP</name>, <title>Speculum
+                                historiale, books 17-24</title></head>
+
+                        <head type="James"><name type="author" key="ViBe01">Vincentii</name>
+                            <title>Speculum Historiale</title>. Libri XVII-XXIV</head>
+
+
+                        <ab locus="iir">Table</ab>
+
+                        <ab locus="1r">Capitula XVII</ab>
+                        <ab locus="1v">Text</ab>
+                        <incipit locusNew="1v">Ab anno primo <name type="person">graciani</name></incipit>
+                        <ab>
+                            <decoNote>Initial, pink ground chequered. Above a king seated addresses a group of 3
+                                civilians and a soldier on R. Below, between buildings, a group of 3 civilians addresses
+                                another who points them to R.</decoNote>
+                        </ab>
+
+
+                        <ab locus="34v" locusNew="33v">Liber XVIII</ab>
+                        <ab>Capitula</ab>
+                        <ab locus="35v" locusNew="34v">Text. <decoNote>Fine decorative initial</decoNote>
+                        </ab>
+
+                        <ab locus="71r">Liber XIX</ab>
+                        <ab>Capitula</ab>
+                        <ab locus="71v">Text. <decoNote>Fine decorative initial</decoNote></ab>
+
+                        <ab locus="107v">Liber XX</ab>
+                        <ab>Capitula</ab>
+                        <ab locus="109r">Text. <decoNote>Fine decorative initial</decoNote></ab>
+
+                        <ab locus="154v">Liber XXI</ab>
+                        <ab>Capitula</ab>
+                        <ab locus="155v">Text. <decoNote>Fine decorative initial</decoNote></ab>
+
+                        <ab locus="188v">Liber XXII</ab>
+                        <ab>Capitula</ab>
+                        <ab locus="189v">Text. <decoNote>Fine decorative initial</decoNote></ab>
+
+                        <ab locus="230r">Liber XXIII</ab>
+                        <ab>Capitula</ab>
+                        <ab locus="231r">Text. <decoNote>Fine decorative initial</decoNote></ab>
+
+                        <ab locus="267r">Liber XXIV</ab>
+                        <ab>Capitula</ab>
+                        <ab locus="268v">Text. <decoNote>Fine decorative initial</decoNote>
+                        </ab>
+                        <ab>Ending</ab>
+                        <explicit locus="328v">regem <name type="place">ytalie</name> ordinatum collaudant</explicit>
+
+
+                    </msItem>
+
+                </msContents>
+
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, CF 2nd</p>
+                            <p>msCheck: NJM 10.7.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

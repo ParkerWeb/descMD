@@ -1,0 +1,448 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC004">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>4</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Under C. 5</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>358</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">The Dover Bible, Volume II</head>
+                <head type="James">Bibliorum Pars II</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">532</height>
+                        <width unit="mm">360</width>
+                    </measureGrp>, <measureGrp type="James">21 x 14</measureGrp>, <extent>ff. 283</extent>,
+                        <layout>double columns of 44 lines</layout>. Cent. <origDate>xv and xii</origDate>. <handNote>It
+                        is the second volume of <ref type="ms" target="CCC003">MS 3</ref> and (with the exception of the
+                        first quire) seems to be in the same hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>I<num>8</num> (+1) II<num>8</num>-XX<num>8</num> XXI<num>12</num> (2 canc. in 2nd half)
+                            XXII<num>8</num>-XXXV<num>8</num>. The old foliation remains</collation>.</p>
+
+
+
+                <p function="Provenance">The <name type="place">Dover</name> press-mark has disappeared but there is no
+                    doubt of the provenance.</p>
+                <p function="Provenance" rend="withinContents">I think the artist who illuminated no. 4 was not the
+                    illuminator of <ref type="ms" target="CCC003">MS 3</ref>. It also seems to me that the illuminator
+                    of no. 4 and <name type="person">Eadwine</name>, the artist of the <ref type="ms" target="CTC987"
+                        >Canterbury Psalter at Trinity College</ref>, have a good deal in common. It is antecedently
+                    probable that this Bible was made at <name type="place">Christ Church Canterbury</name>, of which
+                        <name type="place">Dover Priory</name> was a dependency.</p>
+
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-283 + iii-iv</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="283v">
+                        <head type="CCC">
+
+                            <title>The Dover Bible, Volume II</title>
+
+                        </head>
+
+                        <ab>The first quire is a 'supply' of <origDate>cent. xv</origDate>
+                            <handNote>in a fine upright narrow English hand</handNote></ab>
+                        <ab locusNew="1r">Prologue to <name type="person">Job</name></ab>
+                        <ab>1.</ab>
+                        <incipit locus="1r">Cogor per singulos</incipit>
+                        <ab>2.</ab>
+                        <incipit locus="1v">Si aut[em] fiscellam</incipit>
+                        <ab>3.</ab>
+                        <incipit locus="1v"><name type="person">Iob</name> exemplar</incipit>
+                        <ab locus="2r">Capitula</ab>
+                        <ab locus="2v">
+                            <decoNote>Initial in blue and red to text</decoNote>
+                        </ab>
+                        <ab locusNew="9v">This quire ends in c. xxix</ab>
+                        <ab locus="9r" locusNew="10r">
+                            <handNote>The original hand begins</handNote>
+                        </ab>
+                        <ab locusNew="10r">liberassem pauperem (xxix 12)</ab>
+                        <rubric locus="12v" locusNew="13v">In nomine domini incipit origo prophetie <name type="person"
+                                >dauid</name> regis psalmorum numero centum quinquaginta</rubric>
+                        <incipit locusNew="13v"><name type="person">Dauid</name> filius <name type="person"
+                            >Jesse</name></incipit>
+                        <rubric locus="13r" locusNew="14r">Psalterium rome dudum positus</rubric>
+                        <ab locusNew="14r">
+                            <decoNote>Initial. <q>Beatus vir</q>, red and white ground. Above, <name type="person"
+                                    >David</name> crowned plays psaltery and strikes gold bells (5) with hammer. A woman
+                                (?) on R. blows a pipe. Below. <name type="person">David</name> as shepherd plays harp:
+                                ox, rain, and goat nibbling tree on R.</decoNote>
+                        </ab>
+                        <ab locus="22v" locusNew="23v"><q>Quid gloriaris</q> (Ps. li), <decoNote>fine decorative
+                                initial</decoNote></ab>
+                        <ab locus="32v" locusNew="33v"><q>Domine exaudi</q> (Ps. ci), <decoNote>fine decorative initial,
+                                stork, snake, and rabbit-headed dragon</decoNote></ab>
+                        <ab locus="35r" locusNew="36r"><q>Dixit dominus</q> (Ps. cix) <decoNote>has blue initial larger
+                                than the rest</decoNote></ab>
+                        <ab locus="41r" locusNew="42v">Ps. cli (<q>Pusillus eram</q>) is appended</ab>
+                        <ab locusNew="43r">Prologues to Proverbs</ab>
+                        <ab>1.</ab>
+                        <incipit locus="42r" locusNew="43r">Jungat epistola</incipit>
+                        <ab>2.</ab>
+                        <incipit locus="42r" locusNew="43r">Tribus nominibus uocatum</incipit>
+                        <ab>3.</ab>
+                        <incipit locus="42r" locusNew="43v">Tres libros <name type="person">Salomonis</name></incipit>
+                        <ab locus="42v" locusNew="43v">Capitula (60)</ab>
+                        <ab locusNew="44r">
+                            <decoNote>Initial, red and white ground. <name type="person">Solomon</name> crowned, with
+                                book, teaches <name type="person">Rehoboam</name> (in cope) and another on R.</decoNote>
+                        </ab>
+                        <rubric locusNew="53r">Explicit liber prouerborum VI D CC XL</rubric>
+                        <ab locus="52v" locusNew="53v">Capitula of Ecclesiastes (31)</ab>
+                        <ab locusNew="53v">
+                            <decoNote>Initial decorative, with fox</decoNote>
+                        </ab>
+                        <rubric locusNew="56v">Explicit liber Ecclesiastes uersus D CCC V</rubric>
+                        <ab locusNew="57r">
+                            <decoNote>Initial to Canticles. <name type="person">Solomon</name> crowned, richly dressed,
+                                holds scroll of which one end is in a wooden case: <q>Ecce tu pulchra es amica
+                                mea</q></decoNote>
+                        </ab>
+                        <rubric locusNew="58v">Explicit liber cantica canticorum v. num. CCLXXX</rubric>
+                        <ab locusNew="58v">Prologue to Wisdom</ab>
+                        <incipit locus="57v" locusNew="58v">Liber sapientie apud hebreos</incipit>
+                        <ab locusNew="58v">Capitula (47)</ab>
+                        <ab locus="58r" locusNew="59r">
+                            <decoNote>Initial. (Reproduced in <ref type="bibl" target="CAS 1893"><hi rend="italic">Camb.
+                                        Ant. Soc. Proc</hi>., Vol. VII, pl. VIII (2)</ref>) Above in segmental space
+                                (white ground) Christ half-length crossnimbed holding scroll (one end of it in a wooden
+                                case) <q>Diligite iustitiam qui iudicatis terram</q>. On either side of His head in blue
+                                the letters <q>R(ex) R(egum) D(ominus) D(ominantium)</q>. Below, on green ground with
+                                white band, in C. nude criminal with loincloth and bandaged eyes stands full face: a
+                                ring confines his legs closely together. His arms are bound behind him. On L. and R.
+                                groups of seated judges, two hold red stones (?), one a staff</decoNote>
+                        </ab>
+                        <ab locus="64v" locusNew="65v">Prologue to Ecclesiasticus</ab>
+                        <incipit locusNew="65v">Multorum nobis etc.</incipit>
+                        <rubric locusNew="66r">Explicit prefatio Ieronimi presbiteri (!)</rubric>
+                        <ab locusNew="66r">Capitula (129)</ab>
+                        <ab locusNew="66v">
+                            <decoNote>Initial. A bearded man sits face R. in a chair on whose back is carved a human
+                                head. A Dove with cross-nimbus is at the writer's ear, and he has on a board before him
+                                a leaf inscribed: <q>omnis sapientia</q>. Red and white ground. The desk in this picture
+                                is interesting</decoNote>
+                        </ab>
+                        <ab locusNew="85r">The last chapter of Ecclus. is Oratio Salomonis</ab>
+                        <rubric locusNew="85r">Explicit liber ecclesiasticus v num. II DCCC</rubric>
+                        <ab locusNew="85r">Prologue to Chronicles</ab>
+                        <incipit locus="84r" locusNew="85r">Septuaginta interpretum</incipit>
+                        <ab locus="84v" locusNew="85v">
+                            <decoNote>Initial A with three tiers of busts on different coloured grounds, one bust in the
+                                top row and three in each of the others: all of bearded men, the topmost wearing a red
+                                hat</decoNote>
+                        </ab>
+                        <ab locus="96v" locusNew="97v">2 Chron. <decoNote>Decorative initial, the central part gold with
+                                ornament in black</decoNote></ab>
+                        <ab locusNew="113r">Prologue to <name type="person">Ezra</name></ab>
+                        <incipit locus="112r" locusNew="113r">Utrum difficilius</incipit>
+                        <ab locusNew="113v">
+                            <decoNote>Decorative initial</decoNote>
+                        </ab>
+                        <ab locus="116v" locusNew="117v"><name type="person">Nehemiah</name>, <decoNote>small
+                                initial</decoNote></ab>
+                        <ab locusNew="123v">Prologue to <name type="person">Esther</name></ab>
+                        <incipit locus="122v" locusNew="123v">Librum <name type="person">hester</name> uariis</incipit>
+                        <ab locusNew="124r">
+                            <decoNote>Decorative initial</decoNote>
+                        </ab>
+                        <ab locusNew="129v">Prologue to <name type="person">Tobit</name></ab>
+                        <incipit locus="128v" locusNew="129v"><name type="person">Chromatio</name> et <name
+                                type="person">Heliodoro</name></incipit>
+                        <incipit locusNew="129v"><name type="person">Tobi</name> filius <name type="person"
+                                >ananihel</name></incipit>
+                        <ab locusNew="129v">
+                            <decoNote>Panelled gold initial</decoNote>
+                        </ab>
+                        <ab locusNew="133v">Prologue to <name type="person">Judith</name></ab>
+                        <incipit locus="132v" locusNew="133v"><name type="person">Iudith</name> uidua</incipit>
+                        <incipit locusNew="133v">Apud hebreos liber <name type="person">iudith</name></incipit>
+                        <ab locusNew="134r">
+                            <decoNote>Decorative initial with dragon</decoNote>
+                        </ab>
+                        <ab locus="138v" locusNew="139v">Capitula of 1 Maccabees (60)</ab>
+                        <ab locus="139r" locusNew="140r">Prologue</ab>
+                        <incipit locusNew="140r">Machabeorum libri duo prenotant</incipit>
+                        <ab locus="139v" locusNew="140v">
+                            <decoNote>Initial. <name type="person">Alexander</name> crowned in C. crowns two small
+                                youths standing on R. and L., he on L. holds a sword. The ground has been blue, now
+                                scraped off</decoNote>
+                        </ab>
+                        <ab locus="153v" locusNew="154v">Capitula of 2 Macc. (53)</ab>
+                        <ab locusNew="155r">
+                            <decoNote>Decorative initial, blue ground carefully scraped off</decoNote>
+                        </ab>
+                        <rubric locusNew="165r">Explicit Machabeorum lib. II<abbr rend="superscript">us</abbr> uer.
+                            habet I DCCC</rubric>
+                        <ab locus="164v" locusNew="165v">
+                            <decoNote>Canons of the Gospels in fine arcaded frames of gold and colour with foliage at
+                                top</decoNote>
+                        </ab>
+                        <ab locusNew="167r">Epistola beati <name type="author">Ieronimi</name> ad <name type="person"
+                                >Damasum</name> (<decoNote>title in large coloured capitals</decoNote>)</ab>
+                        <rubric locus="166r" locusNew="167r">Beatissimo pape <name type="person">Damaso</name></rubric>
+                        <ab locusNew="167v">Prologues</ab>
+                        <ab>1.</ab>
+                        <incipit locus="166v" locusNew="167v">Plures fuisse</incipit>
+                        <ab>2.</ab>
+                        <rubric locus="166v" locusNew="168r"><name type="person">Eusebius</name> carpiano</rubric>
+                        <ab>3.</ab>
+                        <rubric locus="167v" locusNew="168v">
+                            <name type="person">Ieronimus</name>
+                            <name type="person">damaso</name>
+                        </rubric>
+                        <incipit locusNew="168v">Sciendum etiam nequis</incipit>
+                        <ab locusNew="168v">Argumentum</ab>
+                        <incipit locusNew="168v"><name type="person">Matheus</name> ex iudea</incipit>
+                        <ab locusNew="168v">Breviarium</ab>
+                        <incipit locusNew="168v">Nativitas Christi (Capitula 28)</incipit>
+                        <ab locusNew="169v">
+                            <decoNote>Initial large. <name type="person">Matthew</name> nimbed seated turns to R. and
+                                holds up book. Ground blue scraped off</decoNote>
+                        </ab>
+                        <ab locus="183r" locusNew="184r">
+                            <decoNote>Initial to Mark (no prologue) decorative</decoNote>
+                        </ab>
+                        <ab locus="191v" locusNew="193v">
+                            <decoNote>Initial to <name type="person">Luke</name>. <name type="person">Luke</name> nimbed
+                                in blue chasuble, stole and alb, plunges a knife into the throat of a red ox. Brown
+                                ground</decoNote>
+                        </ab>
+                        <ab locus="208r" locusNew="209r">
+                            <decoNote>Initial to <name type="person">John</name>. Splendid decorative I with central
+                                medallion containing a nimbed bearded head</decoNote>
+                        </ab>
+                        <ab locusNew="220v">Prologues to Acts</ab>
+                        <ab>1.</ab>
+                        <incipit locus="219v" locusNew="220v">Actus apostolorum nudam quidem</incipit>
+                        <ab>2.</ab>
+                        <incipit locus="219v" locusNew="220v"><name type="person">Lucas</name> natione syrus</incipit>
+                        <ab locusNew="220v">Capitula (71)</ab>
+                        <ab locus="220v" locusNew="221v">
+                            <decoNote>Initial. <name type="person">Luke</name> nimbed seated holds up a tablet with
+                                rounded top in R. hand and metal stylus in L. Green ground</decoNote>
+                        </ab>
+                        <ab locusNew="236r">Prol. Epistolarum apostolorum</ab>
+                        <incipit locus="235r" locusNew="236r">Non ita ordo</incipit>
+                        <ab locus="235v" locusNew="236v">Capitula to <name type="person">James</name> (19).
+                            Argument</ab>
+                        <incipit locus="235v" locusNew="236v"><name type="person">Jacobus</name> apostolus
+                            sanctum</incipit>
+                        <ab locusNew="236v">
+                            <decoNote>Initial represents trunk of a tree with blue snake twined about it</decoNote>
+                        </ab>
+                        <ab locus="237r" locusNew="238r">Capitula 1 <name type="person">Peter</name> (21). Argument</ab>
+                        <incipit locus="237r" locusNew="238r">Discipulos saluatoris</incipit>
+                        <ab locusNew="238r">
+                            <decoNote>Initial. <name type="person">Peter</name> throned full-face, with curtain hung
+                                behind. He is in low mitre, chasuble (red) with pall, blue dalmatic, stole, alb and has
+                                pastoral staff. Blue ground scraped</decoNote>
+                        </ab>
+                        <ab locusNew="239v">Capitula 2 <name type="person">Peter</name> (11). Argument</ab>
+                        <incipit locus="239r" locusNew="240r">Per fidem</incipit>
+                        <ab locusNew="240r">
+                            <decoNote>Initial. Above, fox and cock crowing, both red : below, wolf (?) and stork
+                                extracting bone from his throat. Blue ground scraped</decoNote>
+                        </ab>
+                        <ab locus="240r" locusNew="241r">Capitula 1 <name type="person">John</name> (20).
+                                <decoNote>Initial decorative</decoNote></ab>
+                        <ab locusNew="242v">Capitula 2 <name type="person">John</name> (5). Argument</ab>
+                        <incipit locus="241v" locusNew="242v">Usque adeo</incipit>
+                        <ab locusNew="242v">
+                            <decoNote>Initial decorative, blue and white, and black on gold</decoNote>
+                        </ab>
+                        <ab locusNew="242v">Capitula 3 <name type="person">John</name> (5). Argument</ab>
+                        <incipit locus="241v" locusNew="242v">Gaium pietatis causa</incipit>
+                        <ab locusNew="242v">
+                            <decoNote>Initial. On R. man rubbing blue lump (?lapis lazuli) on marble block (?grinding
+                                colour): green ground: on L. man with palette painting wall. Blue ground,
+                                scraped</decoNote>
+                        </ab>
+                        <ab locus="242r" locusNew="243r">Capitula of <name type="person">Jude</name> (7), no argument.
+                                <decoNote>Decorative initial</decoNote></ab>
+                        <ab locus="242v" locusNew="243v">Prologues to <name type="person">Pauline</name> Epistles</ab>
+                        <ab>1.</ab>
+                        <incipit locusNew="243v">Epistole <name type="person">pauli</name> ad romanos causa</incipit>
+                        <ab>2.</ab>
+                        <incipit locusNew="243v"><name type="person">Pauli</name> apostoli epistole numero
+                            xiiii</incipit>
+                        <incipit locusNew="243v">Omnis textus uel numerus epistolarum</incipit>
+                        <ab>3.</ab>
+                        <incipit locus="243r" locusNew="244r">Primum queritur quare</incipit>
+                        <ab locusNew="244r">Argumentum ep. ad Rom.</ab>
+                        <incipit locusNew="244r">Romani ex iudeis</incipit>
+                        <incipit locusNew="244v">Romani sunt in partibus</incipit>
+                        <rubric locusNew="244v">Versus <name type="person">Damasi</name></rubric>
+                        <incipit locusNew="244v">Iam dudum saulus</incipit>
+                        <ab locusNew="245r">Capitula (30)</ab>
+                        <ab locusNew="245r">List of 14 Epistles</ab>
+                        <ab locus="244r" locusNew="245r">
+                            <decoNote>Initial to Rom. <name type="person">Paul</name> with long cross and book. Blue
+                                ground scraped</decoNote>
+                        </ab>
+                        <ab locus="250r" locusNew="251r">1 Cor. Capitula 24. <decoNote>Decorative initial rather
+                                plain</decoNote></ab>
+                        <ab locus="255v" locusNew="256r">2 Cor. Prol.</ab>
+                        <incipit locusNew="256v">Post actam penitentiam</incipit>
+                        <ab locusNew="256v">Capitula 20</ab>
+                        <ab locusNew="256v">
+                            <decoNote>Initial. <name type="person">Paul</name> seated with book blessing. Blue ground
+                                scraped</decoNote>
+                        </ab>
+                        <rubric locusNew="260r">Explicit epistola secunda ad corinthios scripta de macedonia. uersus
+                            DXC</rubric>
+                        <ab locus="259r" locusNew="260r">Gal. Prol. Galathe sunt greci. Capitula 12</ab>
+                        <ab locusNew="260r">
+                            <decoNote>Initial decorative</decoNote>
+                        </ab>
+                        <rubric locusNew="262r">Explicit epistola ad Galathas S(c)ribens eis ad epheso uersus CC
+                            XCII</rubric>
+                        <ab locusNew="262r">Eph. Prol.</ab>
+                        <incipit locusNew="262r">Ephesii sunt asiani. Capitula 10</incipit>
+                        <ab locus="261r" locusNew="262r">
+                            <decoNote>Initial. <name type="person">Paul</name> in an almost dancing attitude holds up
+                                book</decoNote>
+                        </ab>
+                        <ab locus="263r" locusNew="264r">Phil. Prol.</ab>
+                        <incipit locusNew="264r">Philipenses sunt macedones</incipit>
+                        <ab locusNew="264r">Capitula 8</ab>
+                        <ab locusNew="264r">
+                            <decoNote>Initial like 1 Cor.</decoNote>
+                        </ab>
+                        <ab locus="264v" locusNew="265v">Col. Prol.</ab>
+                        <incipit locusNew="265v">Colosenses et hi</incipit>
+                        <ab locusNew="265v">Capitula 10</ab>
+                        <ab locusNew="265v">
+                            <decoNote>Initial in colour as last</decoNote>
+                        </ab>
+                        <ab locus="265v" locusNew="266v">1 Thess. Prol.</ab>
+                        <incipit locusNew="266v">Thessalonicenses sunt macedones</incipit>
+                        <ab locusNew="266v">Capitula 9</ab>
+                        <ab locusNew="267r">
+                            <decoNote>Initial ut supra</decoNote>
+                        </ab>
+                        <ab locus="267r" locusNew="268r">2 Thess. Prol.</ab>
+                        <incipit locusNew="268r">Ad Thessalonicenses secundam</incipit>
+                        <ab locusNew="268r">Capitula 6</ab>
+                        <ab locusNew="268r">
+                            <decoNote>Initial decorative with gold</decoNote>
+                        </ab>
+                        <ab locus="267v" locusNew="268v">1 Tim. Prol.</ab>
+                        <incipit locusNew="268v"><name type="person">Timotheum</name> instruit</incipit>
+                        <ab locusNew="268v">Capitula 12</ab>
+                        <ab locusNew="269r">
+                            <decoNote>Initial without gold</decoNote>
+                        </ab>
+                        <ab locus="269v" locusNew="270r">2 Tim. Prol.</ab>
+                        <incipit locusNew="270r">Item timotheo</incipit>
+                        <ab locusNew="270v">Capitula 7</ab>
+                        <ab locusNew="270v">
+                            <decoNote>Initial without gold</decoNote>
+                        </ab>
+                        <ab locus="270v" locusNew="271v">Tit. Prol.</ab>
+                        <incipit locusNew="271v"><name type="person">Titum</name> commonefacit</incipit>
+                        <ab locusNew="271v">Capitula 6</ab>
+                        <ab locusNew="271v">
+                            <decoNote>Initial without gold</decoNote>
+                        </ab>
+                        <ab locus="271r" locusNew="272r">Philem. Prol.</ab>
+                        <incipit locusNew="272r"><name type="person">Phylemoni</name> familiares</incipit>
+                        <ab locusNew="272r">Capitula 4 <supplied>(3)</supplied></ab>
+                        <ab locusNew="272r">
+                            <decoNote>Initial without gold</decoNote>
+                        </ab>
+                        <ab locus="271v" locusNew="272v">Heb. Prol.</ab>
+                        <incipit locusNew="272v">In primis dicendum</incipit>
+                        <ab locusNew="272v">Capitula 23</ab>
+                        <ab locusNew="272v">
+                            <decoNote>Gold and coloured initial</decoNote>
+                        </ab>
+                        <ab locus="275v" locusNew="276v">Laodicenses. Capitula 4</ab>
+                        <ab locusNew="276v">Prol. to Apoc.</ab>
+                        <incipit locus="275v" locusNew="276v"><name type="person">Iohannes</name> apostolus et
+                            euangelista</incipit>
+                        <ab locusNew="277r">Capitula 24</ab>
+                        <ab locus="276r" locusNew="277r">
+                            <decoNote>Initial. <name type="person">John</name> sleeps on island. Divine hand in cloud on
+                                R. Blue ground, scraped</decoNote>
+                        </ab>
+                        <ab locus="282r" locusNew="283r">Text ends</ab>
+
+
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJM 13/08/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

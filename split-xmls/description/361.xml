@@ -1,0 +1,138 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC361">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>361</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>2. 13</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>310</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Gregory the Great, De cura pastorali</head>
+                <head type="James">Gregorius de Cura Pastorali</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">265</height>
+                        <width unit="mm">170</width>
+                    </measureGrp><measureGrp type="James">10 x 6.2</measureGrp>, <extent>ff. 1 + 104</extent>,
+                        <layout>28 lines to a page</layout>. Cent. <origDate>xi</origDate>, <handNote>mostly in one
+                        large clear hand, rather sloping</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num>-13<num>8</num></collation>.</p>
+
+                <p function="Provenance">From <name type="place">Malmesbury</name>. On f. <locus>ir</locus> in faint
+                    ink: Iste liber est de monasterio <name type="place">Malmesburye</name> et in custodia <name
+                        type="person">ffratris Thome</name>... </p>
+
+                <p function="Additions">On f. <locus>ir</locus> various notes and verses:<lb/> Qui tegigit tegigit
+                    &#183; tu desine uiuere parue<lb/> Ne feriat feriat &#183; uirga secunda caue.<lb/>Collect
+                    and Preciosa for <name type="person">St Gregory</name>. Notes from <name type="person"
+                        >Bernard</name> and <name type="person">Benedict</name>. f. <locus>iv</locus> blank</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i + 1-104 + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="104r">
+                        <head type="CCC">
+                            <name type="author">Gregory the Great</name>, <title>De cura pastorali</title>
+                        </head>
+
+                        <head type="James">
+                            <title><name type="author">Gregorius</name> de Cura Pastorali</title>
+                        </head>
+
+                        <ab>
+                            <decoNote>Title in red capitals</decoNote>
+                        </ab>
+                        <rubric locus="1r">Incipiunt regule pastorales <name type="author">Gregorii pape</name> urbis
+                            Rome. scripte ad <name type="person">Iohannem episcopum Rauenne urbis</name></rubric>
+                        <ab>(<ref type="bibl" target="Migne 077"><supplied>P. L.</supplied> LXXVII 13</ref>)</ab>
+                        <incipit locusNew="1r">Pastoralis cure me pondera fugere</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="104r">tui meriti manus levet</explicit>
+                        <rubric locusNew="104r">Explicit liber Pastoralis. Deo gratias amen</rubric>
+                    </msItem>
+
+                    <msItem n="2" locusStart="104v" locusEnd="104v">
+                        <head type="CCC">
+                            <title>Passio of <name type="person">Mauricius</name>, <name type="person">Exuperius</name>
+                                and <name type="person">Candidus</name></title>
+                        </head>
+
+                        <ab>On f. <locus>104v</locus>, <handNote>in another large hand</handNote>, the beginning of the
+                            Passion of <name type="person">St Maurice</name></ab>
+                        <incipit locusNew="104v">Temporibus <name type="person">diocliani imperatoris</name> cum ipse ad
+                            consortium</incipit>
+                        <explicit locusNew="104v">Tunc hi preerant legioni mites affatu. dixerunt ad</explicit>
+                        <ab>This incipit does not occur in <ref type="bibl" target="Bollandists 1900-1">BHL</ref></ab>
+
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: RJR 28.11.07</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

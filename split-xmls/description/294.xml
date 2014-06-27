@@ -1,0 +1,348 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC294">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>294</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>K. 4</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>109</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Hugh of Saint-Victor OSA, Various Works</head>
+
+                <head type="James">Hugo de S. Victore</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">250</height>
+                        <width unit="mm">175</width>
+                    </measureGrp>
+                    <measureGrp type="James">9.8 x 6.8</measureGrp>, <extent>ff. 127 + 2</extent>, <supplied>four
+                        volumes</supplied>, <layout>double columns of 31 and 38 lines</layout>. Cent.
+                        <origDate>xii</origDate>, <quote>seculo <origDate>xiii </origDate>scriptus</quote>, <handNote>in
+                        a good upright narrow black hand and another of earlier type</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>10</num>-c<num>10</num> d<num>8</num> e<num>8</num> | 1<num>8</num> (+1*)
+                            II<num>8</num>-V<num>8</num> VII<num>8</num> | VIII<num>8</num> IX<num>12</num> X (two), two
+                        flyleaves</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>misericors est</secFol>.</p>
+
+
+                <p function="Additions">A list of contents of cent. <origDate>xvi</origDate> is stuck on the flyleaf
+                        <supplied>(f. <locus>viv</locus>)</supplied>.</p>
+
+                <p function="Provenance">In red (<origDate>xv-xvi</origDate>) on the last flyleaf <supplied>(f.
+                            <locus>129r</locus>)</supplied> is: <q>liber M<abbr rend="superscript">ri</abbr> Ric<abbr
+                            rend="superscript">i</abbr> Mabot sacre theologie bachalarii et eccl. cathedralis beate
+                        Marie Lincoln. canonici.</q><lb/><supplied agent="JamesCorrigenda"><name type="person">Rich.
+                            Mabot</name> occurs in <ref type="bibl" target="Searle 1908">Grace Book C p. 61, as B.A.
+                            1507-8</ref>: in <ref type="bibl" target="Bateson 1903b">Grace Book B I p. 240, Mabot is
+                            B.A. in 1509</ref> (H. P. S.)</supplied></p>
+
+                <p type="CCC">
+                    <foliation>ff. i-vi + 1-131 + vii-xii</foliation>
+                </p>
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="enm">Latin and Middle English.</textLang>
+
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+                    <msItem n="1" locusStart="1r" locusEnd="41r">
+
+                        <head type="CCC"><name type="author">Hugh of Saint-Victor OSA</name>, <title>De arca Noe morali
+                                et mystica</title></head>
+
+                        <head type="Nasmith">
+                            <title>De archa Noe pro archa sapientiae cum archa ecclesiae et archa matris lib. v.</title>
+                        </head>
+
+                        <incipit locus="1r">Cum sederem aliquando</incipit>
+                        <ab>(<ref type="bibl" target="Migne 176"><supplied>P. L.</supplied> CLXXVI 618</ref>)</ab>
+                        <explicit locus="41r">affectum suum prouocet. Sit deus benedictus per cuncta seculorum secula.
+                            Amen</explicit>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="41r" locusEnd="47r">
+
+                        <head type="CCC"><name type="author">Hugh of Saint-Victor OSA</name>, <title>De uirtute
+                                orandi</title></head>
+
+                        <head type="Nasmith">
+                            <title>De modo orandi</title>
+                        </head>
+
+                        <incipit locus="41r">Quo studio et quo affectu</incipit>
+                        <ab>(<ref type="bibl" target="Migne 176"><supplied>P. L.</supplied> CLXXVI 977</ref>)</ab>
+
+                        <explicit locus="46v">in ara cordis adoletur</explicit>
+
+                        <ab>
+                            <locus>47r</locus> blank</ab>
+
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="3" locusStart="47v" locusEnd="89v">
+
+                        <head type="CCC"><name type="author">Hugh of Saint-Victor OSA</name>, <title>Didascalicon de
+                                studio legendi</title></head>
+
+                        <head type="Nasmith">
+                            <title>Didascalicon. lib. v</title>
+                        </head>
+
+                        <ab>On f. <locus>47v</locus> the prologue to the following tract <handNote>in another
+                                hand</handNote>. A fresh numeration of quires begins here and the earlier tracts were
+                            prefixed later to the volume</ab>
+
+                        <incipit locus="47v">Multi sunt quos ipsa</incipit>
+                        <explicit locusNew="47v">torpere ocio</explicit>
+                        <ab>Text</ab>
+                        <incipit locus="48r">Tria sunt. sapientia virtus necessitas</incipit>
+                        <explicit locus="89r">ad puram et sine animalibus cenam</explicit>
+                        <ab><locus>89v</locus> blank</ab>
+
+                    </msItem>
+
+
+                    <milestone n="III" unit="volume"/>
+
+                    <msItem n="4" locusStart="90r" locusEnd="105v">
+
+                        <head type="CCC"><name type="author">Hugh of Saint-Victor OSA</name>, <title>De institutione
+                                nouiciorum</title></head>
+
+                        <head type="Nasmith">
+                            <title>De institutione Novitiorum</title>
+                        </head>
+
+                        <incipit locus="90r">Quia largiente domino</incipit>
+
+                        <explicit locus="105v">manus illesa remanet et sic de ceteris</explicit>
+                        <ab>(<ref type="bibl" target="Migne 156"><supplied>P. L.</supplied> ? CLVI 1179</ref>)</ab>
+
+
+                    </msItem>
+
+
+                    <milestone n="IV" unit="volume"/>
+
+                    <msItem n="5" locusStart="106r" locusEnd="113r">
+
+                        <head type="CCC"><name type="author">Hugh of Saint-Victor OSA</name>, <title>Soliloquium de arra
+                                animae</title></head>
+
+                        <head type="Nasmith">
+                            <title>De arra animae</title>
+                        </head>
+
+                        <ab locusNew="106r">
+                            <handNote>Older type of hand</handNote>
+                        </ab>
+
+                        <incipit locus="106r">Dilecto fratri G.</incipit>
+                        <incipit locusNew="106r">Loquar secreto anime</incipit>
+                        <ab>(<ref type="bibl" target="Migne 176"><supplied>P. L.</supplied> CLXXVI 951</ref>)</ab>
+                        <explicit locus="113r">totis precordiis concupisco</explicit>
+
+                    </msItem>
+
+
+                    <msItem n="6" locusStart="113r" locusEnd="115r">
+
+                        <head type="CCC"><name type="author">Hildebert of Lavardin</name>, <title>Sermo de natiuitate
+                                Christi (sermon 100)</title></head>
+
+                        <head type="Nasmith">
+                            <title>Sermo de nativitate Christi</title>
+                        </head>
+
+                        <incipit locus="113r">Cantate domino canticum nouum</incipit>
+
+                    </msItem>
+
+
+                    <msItem n="7" locusStart="115r" locusEnd="117r">
+
+                        <head type="CCC"><name type="author">Hildebert of Lavardin</name>, <title>Sermo de sacramentis
+                                altaris (sermon 54)</title></head>
+
+                        <head type="Nasmith">
+                            <title>Sermo de corpore domini</title>
+                        </head>
+
+                        <incipit locus="115r">Apposita nobis ad manducandum</incipit>
+                        <ab>(<ref type="bibl" target="Migne 171"><supplied>P. L.</supplied> CLXXI 601</ref>)</ab>
+
+                    </msItem>
+
+                    <msItem n="8" locusStart="117r" locusEnd="117v">
+
+                        <head type="Nasmith">
+                            <title>Sermo de corpore Christi</title>
+                        </head>
+
+                        <incipit locus="117r">In sacramento altaris tria primo loco</incipit>
+
+                    </msItem>
+
+                    <msItem n="9" locusStart="117v" locusEnd="118v">
+
+                        <head type="Nasmith">
+                            <title>Sermo de reparatione hominis</title>
+                        </head>
+
+                        <incipit locus="117v">Dei sapientia reparare uolens hominem</incipit>
+
+                    </msItem>
+
+                    <msItem n="10" locusStart="118v" locusEnd="119r">
+
+                        <head type="Nasmith">
+                            <title>De fide</title>
+                        </head>
+
+                        <incipit locus="118v">Apostolus diffinitionem fidei proponens</incipit>
+
+                    </msItem>
+
+                    <msItem n="11" locusStart="119v" locusEnd="121r">
+
+                        <head type="CCC"><name type="author">Hugh of Saint-Victor OSA</name>, <title>De
+                                meditatione</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>De meditatione</title>
+                        </head>
+
+                        <incipit locus="119v">Meditatio est frequens cogitatio</incipit>
+                        <ab>(<ref type="bibl" target="Migne 176"><supplied>P. L.</supplied> CLXXVI 993</ref>)</ab>
+
+                    </msItem>
+
+
+                    <msItem n="12" locusStart="121r" locusEnd="125v">
+
+                        <head type="Nasmith">
+                            <title>De throno <name type="person">Solomonis</name></title>
+                        </head>
+
+                        <incipit locus="121r">Tronum fecit <name type="person">Salomon</name> ex ebore</incipit>
+
+                    </msItem>
+
+
+                    <msItem n="13" locusStart="125v" locusEnd="127v">
+
+
+                        <head type="Nasmith">
+                            <title>Sermo in <q>Videns turbas Iesu</q></title>
+                        </head>
+
+                        <incipit locus="125v">Uidens turbas Ihesus ascendit in montem</incipit>
+                        <ab><locus>126r</locus>-<locus>127v</locus> in another hand</ab>
+
+                        <ab>Ends</ab>
+                        <explicit locus="127v">mihi autem adherere bonum est deo</explicit>
+
+                        <ab locusNew="130r">Loose in the volume <supplied>(now bound)</supplied> is a small vellum leaf
+                            written in cent. <origDate>xv</origDate>. On the recto</ab>
+                        <incipit locus="130r">Quare velociter ascendit Christus (?) tantum spacium in momento ...<lb/>
+                            Also crist ste&#541; up hastely In on stounde so fer to go<lb/> As <name type="person"
+                                >dauid</name> in his prophecy. told before hit schuld be so.<lb/> Exultauit ut gigas,
+                            etc.<lb/> But how fer he lepe &#541;e schyn se. as &#254;e philosophur says here
+                                <lb/><name type="person">Raby moyses</name> leue &#541;e me. &#254;et writes of
+                            hit in &#254;is manere</incipit>
+                        <ab>Ending</ab>
+                        <explicit locusNew="130r">&#254;us have I acounted here how crist lepte &#254;orow his
+                            mercy <lb/>to vij &#254;ousand h<abbr rend="superscript">t</abbr> wyl amount
+                            &#541;if &#254;ay truly metun ben</explicit>
+                        <ab>
+                            <supplied agent="JamesCorrigenda">The matter of the English rhymes about the Ascension is
+                                taken from the <ref type="bibl" target="Graesse 1846"><hi rend="italic">Legenda
+                                        Aurea</hi>, cap. 72, de ascensione domini (ed. Graesse, p. 321)</ref></supplied>
+                        </ab>
+                        <ab locusNew="130r">Latin and French notes on distance from earth to sun and moon, wounds of
+                            Christ, nomina regum tocius christianitatis, etc.</ab>
+                        <ab>On the verso</ab>
+
+                        <incipit locus="130v">Unus est imperator Romanus qui tribus coronis debet coronari,
+                            etc.</incipit>
+                        <ab locusNew="130v">On the descendants of <name type="person">Ethelbrictus Rex
+                            Cantuar.</name></ab>
+                        <explicit locusNew="130v">de merwaldo vero et s. dompneua nate sunt tres virgines sanctissime
+                            scilicet <name type="person">Milburga</name>
+                            <name type="person">Mildreda</name> et <name type="person">Milgwyda</name></explicit>
+
+                    </msItem>
+
+                </msContents>
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, BA</p>
+                            <p>msCheck: NJM 14.8.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,533 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC084">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>84</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>P. 14</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>245</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">William of Mont Lauzun, Sacramentale. Gloss on the Constitutiones Clementinae. English
+                    Episcopal Documents</head>
+                <head type="James">Gul. de Monte Handuno. Constitutiones Anglicanae</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">380</height>
+                        <width unit="mm">255</width>
+                    </measureGrp>
+                    <measureGrp type="James">15 x 10</measureGrp>, <extent>ff. 192</extent>, <layout>double columns of
+                        48-49 lines</layout>,Cent. <origDate>xv</origDate>, <handNote>clearly written</handNote>. </p>
+
+
+                <p><label>Collation:</label>
+                    <collation>a<num>12</num> b<num>12</num> | c<num>12</num>-g<num>12</num> (wants 1, 2, 11, 12)
+                            h<num>12</num>-k<num>12</num> (2, 3, 10, 11 remain) l<num>12</num>-p<num>12</num> | <hi
+                            rend="italic">a</hi><num>12</num>
+                        <hi rend="italic">b</hi><num>12</num></collation>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-192 + iii-iv</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="24v">
+
+                        <head type="CCC">
+                            <name type="author">William of Mont Lauzun</name>, <title>Sacramentale</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title><name type="author">Gulielmi de monte Landuno</name> sacramentale</title>
+                        </head>
+
+                        <ab>
+                            <quote>(fine mutilatum)</quote>
+                        </ab>
+
+                        <incipit locusNew="1r">(C)arissimo filio suo ac socio speciali poncio de villa muro etc. <name
+                                type="author">G. de monte hauduno</name></incipit>
+                        <ab>Text</ab>
+                        <incipit locusNew="1r">Signatum est super nos lumen uultus tui</incipit>
+                        <ab>Only two quires remain, ending in</ab>
+                        <rubric locusNew="24v">De ordine subdiaconatus</rubric>
+
+                        <ab>Next should follow quires <hi rend="italic">a</hi> and <hi rend="italic">b</hi> at the end,
+                            ff. <locus>169r</locus>-<locus>192v</locus>, containing Nasmith's items 15-22</ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="25r" locusEnd="25v">
+
+                        <head type="CCC">
+                            <name type="author">Richard of Dover</name>, <title>Constitutions
+                                (<date>1175</date>)</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Constitutiones <name type="author">Richardi archiepiscopi Cantuariensis</name> apud
+                                    <name type="place">Westmonasterium</name>, [<date>A. D. 1175</date>]</title>
+                        </head>
+
+                        <ab>
+                            <supplied>This item begins on f. <locus>192v</locus> after item 22 and continues
+                                here</supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="3" locusStart="25v" locusEnd="28r">
+
+                        <head type="CCC">
+                            <name type="author">Edmund Rich</name>, <title>Constitutions</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Constitutiones provinciales <name type="author">Sancti Edmundi Cantuariensis
+                                    archiepiscopi</name></title>
+                        </head>
+
+
+                        <rubric locus="25v">
+                            <name type="author">Edmund</name>
+                        </rubric>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="28r" locusEnd="29v">
+
+                        <head type="CCC">
+                            <name type="author">Simon Meopham</name>, <title>Constitutions</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Constitutiones provinciales <name type="author">D. Stephani Mepham Cantuariensis
+                                    archiepiscopi</name> editae apud <name type="place">Lamhethe</name></title>
+                        </head>
+
+
+                        <rubric locus="28r">
+                            <name type="author">Stephanus (!) Mepham</name>
+                        </rubric>
+
+                    </msItem>
+
+                    <msItem n="5" locusStart="29v" locusEnd="29v">
+
+                        <head type="CCC">
+                            <name type="author">Robert Winchelsey</name>, <title>Constitutions</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Constitutio <name type="author">D. D. Roberti Winchelse</name> et W- et secundum
+                                quosdam <name type="person">Simonis Islep archiepiscopi Cantuariensis</name>, quid
+                                parochiani invenire debeant in ecclesia et quid rectores</title>
+                        </head>
+
+
+                        <rubric locus="29v"><name type="author">Wynchelse</name> etc.</rubric>
+
+                    </msItem>
+
+                    <msItem n="6" locusStart="29v" locusEnd="30r">
+
+                        <head type="CCC">
+                            <name type="author">Simon Islip</name>, <title>Constitutions (<date>1362</date>)</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Constitutiones <name type="author">D. Simonis de Islep archiepiscopi
+                                    Cantuariensis</name> de presbiteris annualia celebrandis et aliis non curatis ut
+                                curis deserviant desolatis, datae apud <name type="place">Lamhethe</name>, A. D.
+                                    <date>1362</date></title>
+                        </head>
+
+
+                        <rubric locus="29v">
+                            <name type="author">Islep</name>
+                        </rubric>
+
+                    </msItem>
+
+                    <msItem n="7" locusStart="30r" locusEnd="31v">
+
+                        <head type="CCC">
+                            <name type="author">Robert Winchelsey</name>, <title>Constitutions
+                                (<date>1305</date>)</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Constitutio <name type="author">D. Roberti de Wynchelsey archiepiscopi
+                                    Cantuariensis</name> facta in visitatione sua, A. D. <date>1305</date></title>
+                        </head>
+
+
+                        <rubric locus="30r">
+                            <name type="author">Wynchelse</name>
+                        </rubric>
+                        <ab>(<date>1305</date>)</ab>
+                    </msItem>
+
+                    <msItem n="8" locusStart="31v" locusEnd="32v">
+
+                        <head type="CCC">
+                            <title>Articuli cleri (<date>1316</date>)</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Carta <name type="person">Edwardi regis</name> de casibus in quibus judex
+                                ecclesiasticus potest cognoscere regia prohibitione non obstante</title>
+                        </head>
+
+
+                        <rubric locus="31v">Casus in quibus iudex etc.</rubric>
+
+                    </msItem>
+
+                    <msItem n="9" locusStart="32v" locusEnd="32v">
+
+                        <head type="CCC">
+                            <title>Circumspecte agatis</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Litera domini regis directa justiciariis suis pro moderandis prohibitionibus
+                                regiis</title>
+                        </head>
+
+
+                        <rubric locus="32v">Littera domini regis</rubric>
+
+                    </msItem>
+
+                    <msItem n="10" locusStart="32v" locusEnd="33v">
+
+                        <head type="CCC">
+                            <name type="author">Simon Islip</name>, <title>Constitutions (<date>1362</date>)</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Constitutio <name type="author">D. Simonis de Islep</name> de festis per annum
+                                observandis, data apud <name type="place">Maghefeld</name>, A. D.
+                                <date>1362</date></title>
+                        </head>
+
+
+                        <rubric locus="33r">
+                            <name type="author">Islep</name>
+                        </rubric>
+                        <ab>(<name type="place">Mayfield</name>)</ab>
+
+                    </msItem>
+
+                    <msItem n="11" locusStart="33v" locusEnd="38v">
+
+                        <head type="CCC">
+                            <name type="author">John Stratford</name>, <title>Constitutions (<date>1342</date>)</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Constitutiones <name type="author">D. Ioannis de Stratford Cantuariensis
+                                    archiepiscopi</name> editae, A. D. <date>1342</date> in <name type="place">ecclesia
+                                    Sancti Pauli London</name></title>
+                        </head>
+
+
+                        <rubric locus="33v">
+                            <name type="author">Stratford</name>
+                        </rubric>
+                        <ab>(<date>1342</date>)</ab>
+
+                    </msItem>
+
+                    <msItem n="12" locusStart="38v" locusEnd="42v">
+
+                        <head type="CCC">
+                            <name type="author">Thomas Arundel</name>, <title>Constitutions (<date>1407</date>)</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Constitutiones <name type="author">D. Thomae Arundell archiepiscopi
+                                    Cantuariensis</name> editae in concilio provinciali celebrato <name type="place"
+                                    >Oxoniis</name>, A. D. <date>1407</date></title>
+                        </head>
+
+
+                        <rubric locus="38v">
+                            <name type="author">Arundel</name>
+                        </rubric>
+                        <ab>(<date>1407</date>)</ab>
+                        <ab locusNew="41v">Ending <locus>41v</locus></ab>
+                        <ab>f. <locus>42r</locus>-<locus>42v</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="13" locusStart="43r" locusEnd="105v">
+
+                        <head type="CCC">
+                            <name type="author">Otto Candidus, cardinal-legate</name>, <title>Constitutions
+                                    (<date>1237</date>)</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Constitutiones <name type="author">D. Othonis apostolicae sedis legati</name>
+                                celebratae <name type="place">Londoniis</name>, A. D. <date>1237</date> cum
+                                glossa</title>
+                        </head>
+
+
+                        <rubric locus="43r">
+                            <name type="author">Othonis</name>
+                        </rubric>
+                        <ab>(Cum glossa <name type="author">J. de Aton</name>)</ab>
+                        <incipit locusNew="43r">Ad succidendos palmites</incipit>
+                        <ab locusNew="43r">
+                            <decoNote>This has a very beautiful initial with highly burnished gold ground, and partial
+                                border: English work</decoNote>
+                        </ab>
+                        <ab>Some leaves are lost before the end</ab>
+                        <explicit locus="105v">ult. in cle. etc.</explicit>
+
+                    </msItem>
+
+                    <msItem n="14" locusStart="105v" locusEnd="168v">
+
+                        <head type="CCC">
+                            <name type="author">Ottobuono Fieschi, cardinal-legate</name>, <title>Canons of legatine
+                                council (<date>1268</date>)</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Constitutiones <name type="author">Ottoboni apostolicae sedis legati</name> cum
+                                glossa</title>
+                        </head>
+
+                        <rubric locus="105v"><name type="author">Othoboni</name> cum glossa</rubric>
+                        <incipit locusNew="105v">Mandata dei</incipit>
+                        <ab locusNew="105v">
+                            <decoNote>Fine initials and partial borders on ff. <locus>105v</locus>,
+                                <locus>106r</locus></decoNote>
+                        </ab>
+                        <ab locus="168v">Ends imperfectly in the section <q>De infirmis</q></ab>
+
+
+                    </msItem>
+
+                    <msItem n="15" locusStart="169r" locusEnd="173r">
+
+                        <head type="CCC">
+                            <name type="author">Stephen Langton</name>, <title>Constitutions (<date>1222</date>)</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Constitutiones provinciales in concilio <name type="place">Oxoniis</name> celebrato
+                                editae per <name type="author">D. Stephanum Cantuariensem archiepiscopum</name>,
+                                    <date>1222</date></title>
+                        </head>
+
+                        <rubric locus="169r">Incipit constitutiones prouinciales in consilio <name type="place"
+                                >Oxoniis</name> celebrato edite per <name type="author">dominum Stephanum Cantuariensem
+                                Archiepiscopum</name> anno domini <date>mill. ccxxii<abbr rend="superscript"
+                                >o</abbr></date> et <date>anno regni <name type="person">regis henrici filii
+                                    Johannis</name> octauo</date></rubric>
+
+                        <incipit locusNew="169r">Ex auctoritate dei patris</incipit>
+
+                    </msItem>
+
+                    <msItem n="16" locusStart="173r" locusEnd="177v">
+
+                        <head type="CCC">
+                            <name type="author">Boniface of Savoy</name>, <title>Constitutions</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Constitutiones <name type="author">D. Bonefacii archiepiscopi Cantuariensis</name> in
+                                concilio <name type="place">Westmonasteriis</name></title>
+                        </head>
+
+                        <rubric locus="173r"><name type="author">Bonifacius</name>. <name type="place"
+                                >Westmonasterium</name></rubric>
+
+
+                    </msItem>
+
+                    <msItem n="17" locusStart="177v" locusEnd="179v">
+
+                        <head type="CCC">
+                            <name type="author">John Pecham OFM</name>, <title>Constitutiones prouinciales (<name
+                                    type="place">Reading</name>, <date>1279</date>)</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Constitutiones de <name type="place">Redynge</name> editae ibidem per <name
+                                    type="author">fratrem Ioannem Pecham Cantuariensem archiepiscopum</name></title>
+                        </head>
+
+                        <rubric locus="177v"><name type="place">Redyng</name>. <name type="author"
+                            >Peccham</name></rubric>
+
+
+                    </msItem>
+
+                    <msItem n="18" locusStart="179v" locusEnd="180v">
+
+                        <head type="CCC">
+                            <name type="author">Robert Winchelsey (attrib.)</name>, <title>Constitutions (<date>c.
+                                    1305</date>)</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Constitutiones <name type="author">D. Robert de Wynchelsey</name> apud <name
+                                    type="place">Merton</name> editae, A. D. <date>1360</date></title>
+                        </head>
+
+                        <rubric locus="179v"><name type="place">Merton</name>. <name type="author"
+                            >Wynchelsey</name></rubric>
+
+
+                    </msItem>
+
+                    <msItem n="19" locusStart="180v" locusEnd="181r">
+
+                        <head type="CCC">
+                            <name type="author">Stephen Langton</name>, <title>Constitutions</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Constitutiones de <name type="place">Lamhethe</name> per <name type="author">D.
+                                    Stephanum de Langton archiepiscopum Cantuariensem</name></title>
+                        </head>
+
+                        <rubric locus="180v"><name type="place">Lambethe</name>. <name type="author"
+                            >Langton</name></rubric>
+
+
+                    </msItem>
+
+                    <msItem n="20" locusStart="181r" locusEnd="187v">
+
+                        <head type="CCC">
+                            <name type="author">John Pecham OFM</name>, <title>Constitutiones prouinciales (<name
+                                    type="place">Lambeth</name>, <date>1281</date>)</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Constitutiones <name type="author">fratris Ioannis Peckham archiepiscopi
+                                    Cantuariensis</name> apud <name type="place">Lamhethe</name> editae, A. D.
+                                    <date>1281</date></title>
+                        </head>
+
+                        <rubric locus="181r"><name type="place">Lambethe</name>. <name type="author"
+                            >Peccham</name></rubric>
+
+
+                    </msItem>
+
+                    <msItem n="21" locusStart="187v" locusEnd="189r">
+
+                        <head type="CCC">
+                            <name type="author">Simon Meopham</name>, <title>Constitutions (<date>1328</date>)</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Constitutiones venerabilis patris <name type="author">D. Symonis Mepham archiepiscopi
+                                    Cantuariensi</name> in concilio provinciali apud <name type="place">London</name>.
+                                A. D. <date>1328</date></title>
+                        </head>
+
+                        <rubric locus="187v"><name type="place">London</name>. <name type="author"
+                            >Mepham</name></rubric>
+
+
+                    </msItem>
+
+                    <msItem n="22" locusStart="189r" locusEnd="192v">
+
+                        <head type="CCC">
+                            <name type="author">John Stratford</name>, <title>Constitutions (<date>1342</date>)</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Constitutiones provinciales <name type="author">Iohannis Stratford</name> editae
+                                    <name type="place">Londoniis</name>, A. D. <date>1342</date></title>
+                        </head>
+
+                        <rubric locus="189r"><name type="place">London</name>. <name type="author"
+                            >Stratford</name></rubric>
+
+
+                        <ab>Then the beginning of no. 2</ab>
+
+                        <rubric locus="192v"><name type="place">Westmonasterium</name>. <name type="author"
+                                >Richard</name>
+                            <date>1165</date></rubric>
+
+                        <ab>Continued on f. <locus>25r</locus></ab>
+
+                    </msItem>
+
+                </msContents>
+
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF, BA, CF 2nd</p>
+                            <p>msCheck: NJC 03/11/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

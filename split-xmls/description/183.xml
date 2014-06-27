@@ -1,0 +1,1320 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC183">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>183</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Under D. 5</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>369</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Bede the Venerable, Two Lives of St Cuthbert with Regnal Lists, etc.</head>
+                <head type="James">Bedae Vita Cuthberti. Genealogiae etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">295</height>
+                        <width unit="mm">195</width>
+                    </measureGrp>, <measureGrp type="James">11.5 x 7.9</measureGrp>, <extent>ff. 96</extent>,
+                        <layout>mostly with 26 lines to a page</layout>. Cent. <origDate>ix</origDate> (<ref type="bibl"
+                        target="Bradshaw 1889a">Bradshaw</ref>), <handNote>in a very beautiful Anglo-Celtic hand: two
+                        scribes are distinguishable</handNote>.</p>
+
+
+
+                <p><label>Collation:</label>
+                    <collation>A<num>8</num>-I<num>8</num> (wants 6) K<num>8</num> L<num>8</num> (4, 5 are singles)
+                            M<num>8</num> (+ 1)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>Incipit prefatio</secFol> or <secFol>Scripta erant</secFol>.</p>
+
+                <p function="Provenance">f. <locus>1r</locus> is blank but for the letter W at top (<date>xvi</date>),
+                    possibly indicating that <name type="person">Nicholas Wotton</name> was the donor.<lb/> It can
+                    hardly be doubted that the book is from <name type="place">Durham Priory</name>, but I cannot
+                    identify it with anything in the <ref type="bibl" target="Botfield 1838">
+                        <hi rend="italic">Catalogi Veteres</hi>
+                    </ref>. See further below.</p>
+                <p function="Provenance"><ref type="bibl" target="Plummer 1896a">Plummer (<hi rend="italic">Bede</hi>, I
+                        cxlvii, note)</ref> refers to <name type="person">Symeon of Durham</name> (<ref type="bibl"
+                        target="Hodgson Hinde 1868">I 211</ref>) as saying that in <date>931</date>
+                    <name type="person">Æthelstan</name> gave a copy of <name type="person">Bede</name>'s lives of
+                    Cuthbert to the see, which was then at <name type="place">Chester-le-Street</name>, and adds :
+                        <q>This copy is now in the Library of C. C. C. Cambridge, no. 183.</q> The words in the charter
+                    quoted by Symeon are <q>unam sancti Cuthberti uitam metrice et prosaice scriptam.</q> If this
+                    interesting identification is correct (as I believe it to be), <decoNote>we must suppose that the
+                        picture at the beginning of the book represents Æthelstan offering the volume to <name
+                            type="person">St Cuthbert</name></decoNote>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-97 + iii-iv</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="ang">Latin and Old English.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1.1" locusStart="1v" locusEnd="58r">
+                        <head type="CCC"><name type="author">Bede the Venerable</name>, <title>Vita <name type="person"
+                                    >Sancti Cuthberti</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Liber <name type="author">Bedae</name> presbiteri de vita et miraculis <name
+                                    type="person">S. Cuthberti</name></title>
+                        </head>
+
+                        <ab>
+                            <decoNote>On f. <locus>1v</locus> is a fine full-page picture. The frame is of yellow,
+                                enclosing panels of conventional foliage with birds and a lion, in white on deep-red
+                                ground, exceedingly sharp and good.<lb/> The ground of the picture is plain. On L. a
+                                king in short dark (purple) mantle over lighter tunic, red hose, crown, yellow hair and
+                                beard, stands under an arch with tiled dome: he bends over to R. and holds an open book.
+                                On R. a church with tiled roof, clerestory and aisles (tiled): rectangular window in W.
+                                gable: ornament at the summit of each gable. In front of it (at W. end) stands a nimbed
+                                beardless saint, tonsured, in chasuble (red) over alb, holding up his R. hand, a book in
+                                L. On the identification of the figures see below.</decoNote>
+                        </ab>
+
+                        <rubric locus="2r">Incipit prefatio <name type="author">bede</name> presbiteri de uita sancti
+                                <name type="person">cu&#240;berhti</name> lindisfarnensis episcopi ad <name
+                                type="person">eadfridum</name> episcopum</rubric>
+                        <ab>(<ref type="bibl" target="Migne 094"><hi rend="italic">P. L.</hi> XCIV 575</ref>)</ab>
+                        <incipit locusNew="2r">Domino sancto ac beatissimo</incipit>
+                        <ab>(<decoNote>capitals, filled in with red and yellow: large initial, principally in red and
+                                yellow, with bird's head</decoNote>)</ab>
+                        <explicit locusNew="3v">dilectissimi fratres et domini mei. Amen</explicit>
+                        <rubric locusNew="3v">Explicit prologus libri sequentis deo gratias. fiat</rubric>
+                        <rubric locus="3v">Incipiunt capitule (corr. to a) libri sequentis</rubric>
+                        <ab>(xlvi)</ab>
+                        <rubric locus="5v">Incipit liber de vita et miraculis sancti <name type="person"
+                                >cuthberhti</name> lindisfarnensi episcopi</rubric>
+                        <ab>
+                            <decoNote>in fine red capitals</decoNote>
+                        </ab>
+                        <incipit locusNew="6r">Principium nobis scribendi de uita beati <name type="person"
+                                >cu&#240;berhti</name></incipit>
+                        <ab>
+                            <decoNote>Fine initial: framework in red: panels of acanthus and other patterns in white on
+                                yellow</decoNote>
+                        </ab>
+                        <ab><decoNote>Numerals of chapters are in red, usually placed central, in a line by themselves.
+                                Initials of chapters are very prettily done in red, green, and blue, sometimes in single
+                                colours: sometimes with heads of beasts</decoNote>. The number xviii is written
+                            xiiiiiiii</ab>
+                        <ab>Cap. xlv ends</ab>
+                        <explicit locusNew="56r">misericordia et miseratione coronat. Amen</explicit>
+                        <rubric locusNew="56r">xlvi. Explicit liber de uita et miraculis <name type="person">sancti
+                                cu&#240;berhti</name> lindisfarnensis aecclesie episcopi feliciter. Amen</rubric>
+                        <rubric locus="56r">Item ex libro historiae aecclesiastice gentis anglorum quarto kapitulo
+                            uicesimo nono</rubric>
+                        <ab>(<hi rend="italic">Historia Ecclesiastica</hi> IV 31 edd.)</ab>
+                        <incipit locusNew="56r">Erat in eodem monasterio frater quidam</incipit>
+                        <ab locusNew="57r">xlvii (<hi rend="italic">Historia Ecclesiastica</hi> IV 32)</ab>
+                        <incipit locus="57r">Nec silentio praetereundum quod ante triennium</incipit>
+                        <explicit locusNew="58r">tumoris apparuisset. deo gratias</explicit>
+                        <ab locus="58v">blank</ab>
+                    </msItem>
+
+                    <msItem n="1.2" locusStart="59r" locusEnd="60r">
+                        <head type="CCC">
+                            <title>List of Popes</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Pontificum sedis apostolicae</title>
+                        </head>
+
+                        <ab><supplied>After Item 1</supplied> follow lists of the Popes, of the 70 disciples, and of
+                            English Bishops and Kings. I give the text of these in full (excepting that of the Popes)
+                            and also a collation with the earliest MS. of the lists, <ref type="ms" target="LBLVB6"
+                                >Vespasian B. 6 (V)</ref>. This, though often differing in spelling, agrees with 183 in
+                            some of its most curious errors. <supplied>Note: James' lists appear here. For his
+                                comparison with the Vespasian manuscript see the following figures: <figure
+                                    xml:id="figure428a"/><figure xml:id="figure429a"/><figure xml:id="figure430a"
+                                    /><figure xml:id="figure431a"/><figure xml:id="figure432a"/><figure
+                                    xml:id="figure433a"/><figure xml:id="figure434a"/><figure xml:id="figure435a"
+                                    /><figure xml:id="figure436a"/><figure xml:id="figure437a"/><figure
+                                    xml:id="figure438a"/></supplied></ab>
+
+
+
+                        <rubric locus="59r">Nomina pontificum sedis (apostolice erased)</rubric>
+                        <ab>Column 1</ab>
+                        <ab>i. <name type="person">Petrus</name><lb/> ii. <name type="person">Linus</name><lb/> to<lb/>
+                            xxv. <name type="person">Xistus</name></ab>
+                        <ab>Column 2</ab>
+                        <ab>xxvi. <name type="person">Dionisius</name><lb/> to<lb/> l. <name type="person"
+                            >Felix</name></ab>
+                        <ab locus="59v">Column 1</ab>
+                        <ab>li. <name type="person">Gelasius</name><lb/> to<lb/> lxxvi. <name type="person"
+                                >Martinus</name></ab>
+                        <ab locus="59v">Column 2</ab>
+                        <ab>lxxvii. <name type="person">Eugenius</name><lb/> ...<lb/> xcviii. <name type="person"
+                                >Hadrianus</name><lb/> xcviiii. <name type="person">Leo</name><lb/> c. <name
+                                type="person">Stephanus</name><lb/> ci. <name type="person">Pascual</name><lb/> cii.
+                                <name type="person">Eugenius</name></ab>
+                        <ab locus="60r">Column 1</ab>
+                        <ab> ciii. <name type="person">Ualentinus</name><lb/> ciiii. <name type="person"
+                                >Gregorius</name><lb/> cv. <name type="person">Sergius</name><lb/> cvi. <name
+                                type="person">Leo</name><lb/> cvii. <name type="person">Benedictus</name><lb/> cviii.
+                                <name type="person">Nicolaus</name><lb/> cviiii. <name type="person"
+                            >Adrianus</name><lb/> cx. <name type="person">Iohannis</name><lb/> cxi. <name type="person"
+                                >Marinus</name><lb/> cxii. <name type="person">Adrianus</name>
+                        </ab>
+                        <ab>The numbering is continued, without names, to cxviii.</ab>
+                    </msItem>
+
+                    <msItem n="1.2" locusStart="60r" locusEnd="60v">
+                        <head type="CCC">
+                            <title>The Seventy-Two Disciples of Christ</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Septuaginta duorum discipulorum Christi</title>
+                        </head>
+                        <ab locus="60r">Column 2</ab>
+                        <rubric locus="60r">Nomina septuaginta duorum discipulorum Christi</rubric>
+                        <ab> i. <name type="person">Iacobus Iustus</name><lb/> ii. <name type="person"
+                            >Mathias</name><lb/> iii. <name type="person">Ioseph</name><lb/> iiii. alius <name
+                                type="person">Ioseph</name><lb/> v. <name type="person">Marcus euuangelista</name><lb/>
+                            vi. <name type="person">barnabas</name><lb/> vii. <name type="person">lucas
+                                euuangelista</name><lb/> viii. <name type="person">cleophas</name><lb/> viiii. <name
+                                type="person">seneca</name><lb/> x. <name type="person">symeon</name><lb/> xi. <name
+                                type="person">lucius</name><lb/> xii. <name type="person">manain</name><lb/> xiii. <name
+                                type="person">sostenes</name><lb/> xiiii. <name type="person">caefas</name><lb/> xv.
+                                <name type="person">thaddeus</name><lb/> xvi. <name type="person">ermen</name> (qui) et
+                            pastor<lb/> xvii. <name type="person">andronicus</name><lb/> xviii. <name type="person"
+                                >Iohannas</name><lb/> xviiii. <name type="person">Amplias</name><lb/> xx. <name
+                                type="person">Urbanus</name><lb/> xxi. <name type="person">erodiones</name><lb/> xxii.
+                                <name type="person">asyncritis</name><lb/> xxiii. <name type="person"
+                            >Iasonem</name><lb/> xxiiii. <name type="person">Stephanus</name> prius martir </ab>
+                        <ab locus="60v">Column 1</ab>
+                        <ab> xxv. <name type="person">Philippus</name><lb/> xxvi. <name type="person"
+                            >Prochorus</name><lb/> xxvii. <name type="person">Nicanor</name><lb/> xxviii. <name
+                                type="person">Timon</name><lb/> xxviiii. <name type="person">Parmena</name><lb/> xxx.
+                                <name type="person">Aquilas</name><lb/> xxxi. <name type="person">Iudas qui uocabatur
+                                barnabas</name><lb/> xxxii. <name type="person">Silas</name><lb/> xxxiii. <name
+                                type="person">Siluanus</name><lb/> xxxiiii. <name type="person">Symon
+                            cleophe</name><lb/> xxxv. <name type="person">Nason</name><lb/> xxxvi. <name type="person"
+                                >Agabas</name><lb/> xxxvii. <name type="person">Ananias</name><lb/> xxxviii. <name
+                                type="person">Ignatius</name><lb/> xxxviiii. <name type="person">Symon</name><lb/> xl.
+                                <name type="person">quirenense</name><lb/> xli. <name type="person"
+                            >Alexander</name><lb/> xlii. <name type="person">Rufus</name><lb/> xliii. <name
+                                type="person">Nathanael</name><lb/> xliiii. <name type="person">Nichodemus</name><lb/>
+                            xlv. <name type="person">Cleophas</name><lb/> xlvi. <name type="person">Symon</name><lb/>
+                            xlvii. <name type="person">Iudas</name><lb/> xlviii. <name type="person">Iacobus</name><lb/>
+                            xlviiii. <name type="person">Symon Coriarius</name><lb/> l. <name type="person">Lucas</name>
+                        </ab>
+                        <ab locus="60v">Column 2</ab>
+                        <ab> li. <name type="person">barnabas</name><lb/> lii. <name type="person">Iohannes</name><lb/>
+                            liii. <name type="person">barnabas</name><lb/> liiii. <name type="person"
+                            >Stephanus</name><lb/> lv. <name type="person">chorisius</name><lb/> lvi. <name
+                                type="person">milichus</name><lb/> lvii. <name type="person">gaius</name><lb/> lviii.
+                                <name type="person">Flegonta</name><lb/> lviiii. <name type="person">Ermen</name><lb/>
+                            Hi sunt qui electi fuerunt ab apostolis in ordinem pro quibus(dam) qui recesserunt<lb/> lx.
+                                <name type="person">appellen</name> probabilis<lb/> lxi. <name type="person">dyonisius
+                                ariopagita</name><lb/> lxii. <name type="person">æpenetus</name><lb/> lxiii. <name
+                                type="person">Iesus qui dicitur Iustus</name><lb/> lxiiii. <name type="person"
+                                >Stachin</name><lb/> lxv. <name type="person">Ponplius</name><lb/> lxvi. <name
+                                type="person">Aristobolus</name><lb/> lxvii. <name type="person">Stephanus
+                                Corinthiensis</name><lb/> lxviii. <name type="person">Erodius</name><lb/> lxviiii. <name
+                                type="person">Rufus</name><lb/> lxx. <name type="person">Olymphus</name><lb/> lxxi.
+                                <name type="person">Titus</name><lb/> lxxii. <name type="person">Filimonem</name>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="1.3" locusStart="61r" locusEnd="61r">
+                        <head type="CCC">
+                            <title>Archbishops of <name type="place">Canterbury</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Archiepiscoporum <name type="place">Dorobernensis ecclesiae</name></title>
+                        </head>
+                        <rubric locus="61r">Nomina archiepiscoporum <name type="place">dorobernensis
+                            ecclesie</name></rubric>
+                        <ab locus="61r"> i. <name type="person">Agustinus</name><lb/> ii. <name type="person"
+                                >Laurentius</name><lb/> iii. <name type="person">Mellitus</name><lb/> iiii. <name
+                                type="person">Iustus</name><lb/> v. <name type="person">Honorius</name><lb/> vi. <name
+                                type="person">Deusdedit</name><lb/> vii. <name type="person">Theodorus</name><lb/> viii.
+                                <name type="person">berhtuualdus</name><lb/> viiii. <name type="person"
+                            >Tatuuinus</name><lb/> x. <name type="person">No&#240;helmus</name><lb/> xi. <name
+                                type="person">Cu&#240;berhtus</name><lb/> xii. <name type="person"
+                                >Iaenberhtus</name><lb/> xiii. <name type="person">breguuinus</name><lb/> xiiii. <name
+                                type="person">æ&#240;elheardus</name><lb/> xv. <name type="person"
+                            >uulfredus</name><lb/> xvi. <name type="person">feologeldus</name><lb/> xvii. <name
+                                type="person">ceolno&#240;us</name><lb/> xviii. <name type="person"
+                                >æ&#240;elredus</name><lb/> xviiii. <name type="person">plegmundus</name><lb/> xx.
+                                <name type="person">æ&#240;elhelmus</name><lb/> xxi. <name type="person"
+                                >Uulfhelmus</name>
+                        </ab>
+                        <ab>xxii. (The number original: the name <name type="person">Odo</name> added in <date>cent.
+                                xvi</date>)<lb/> xxiii. (The number original: the name <name type="person"
+                                >Dunstanus</name> added in <date>cent. xvi</date>)<lb/> xxiiii. (The number original:
+                            the name <name type="person">Athelgarus</name> added in <date>cent. xvi</date>)</ab>
+                        <ab>xxv. The last original number. The series is continued to no. 70 (<name type="person"
+                                >Matthew Parker</name>). Dates are added for all the Archbishops in the same hand of
+                                <date>cent. xvi</date></ab>
+                    </msItem>
+
+                    <msItem n="1.4" locusStart="61v" locusEnd="61v">
+                        <head type="CCC">
+                            <title>Bishops of <name type="place">Rochester</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Episcoporum <name type="place">Hrofensis ecclesiae</name></title>
+                        </head>
+                        <rubric locus="61v">Nomina episcoporum <name type="place">hrofens ecclesie</name></rubric>
+                        <ab locus="61v"> i. <name type="person">Paulinus</name><lb/> ii. <name type="person"
+                                >Ithamar</name><lb/> iii. <name type="person">Putta</name><lb/> iiii. <name
+                                type="person">Cuuichelm</name><lb/> v. <name type="person">Gebmund</name><lb/> vi. <name
+                                type="person">Tobias</name><lb/> vii. <name type="person">Alduulf</name><lb/> viii.
+                                <name type="person">Dunn</name><lb/> viiii. <name type="person">Earduulf</name><lb/> x.
+                                <name type="person">Deora</name><lb/> xi. <name type="person">Uuærmund</name><lb/> xii.
+                                <name type="person">beornmod</name>
+                        </ab>
+                        <ab>The numbering is continued to xviii</ab>
+                    </msItem>
+
+                    <msItem n="1.5" locusStart="61v" locusEnd="61v">
+                        <head type="CCC">
+                            <title>Bishops of the East Saxons</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Episcoporum Horientalium Saxonum</title>
+                        </head>
+                        <rubric locus="61v">Nomina episcoporum horientalium saxonum</rubric>
+                        <ab locus="61v"> i. <name type="person">Mellitus</name><lb/> ii. <name type="person"
+                            >Cedd</name><lb/> iii. <name type="person">Ercnuuald</name><lb/> iiii. <name type="person"
+                                >Uualdhere</name><lb/> v. <name type="person">Inguuald</name><lb/> vi. <name
+                                type="person">Ecguulf</name><lb/> vii. <name type="person">Sigh&#230;h</name><lb/>
+                            viii. <name type="person">Eadberht</name><lb/> viiii. <name type="person">Eadgar</name><lb/>
+                            x. <name type="person">Coenuualh</name><lb/> xi. <name type="person">Eadbald</name><lb/>
+                            xii. <name type="person">Ha&#240;oberht</name><lb/> xiii. <name type="person"
+                                >Osmund</name><lb/> xiiii. <name type="person"
+                            >&#198;&#254;elno&#240;</name><lb/> xv. <name type="person">Ceolberht</name>
+                        </ab>
+                        <ab>The numbering is continued to xviii</ab>
+                    </msItem>
+
+                    <msItem n="1.6" locusStart="62r" locusEnd="62r">
+                        <head type="CCC">
+                            <title>Bishops of the South Saxons</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Episcoporum Australium Saxonum</title>
+                        </head>
+                        <rubric locus="62r">Nomina episcoporum australium saxonum</rubric>
+                        <ab locus="62r"> i. <name type="person">Eadberht</name><lb/> ii. <name type="person"
+                                >Eolla</name><lb/> iii. <name type="person">Sicgga</name><lb/> iiii. <name type="person"
+                                >Aluberht</name><lb/> v. <name type="person">Osa</name><lb/> vi. <name type="person"
+                                >Gislhere</name><lb/> vii. <name type="person">Tota</name><lb/> viii. <name
+                                type="person">&#503;iohthun</name><lb/> viiii. <name type="person"
+                                >&#230;&#254;eluulf</name><lb/> x. <name type="person">Cynred</name><lb/> xi.
+                                <name type="person">Gu&#240;heard</name>
+                        </ab>
+                        <ab>The numbering is continued to xviii</ab>
+                    </msItem>
+
+                    <msItem n="1.7" locusStart="62r" locusEnd="62v">
+                        <head type="CCC">
+                            <title>Bishops of the West Saxons and <name type="place">Winchester</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Episcoporum Occidentalium Saxonum et <name type="place">Wentanae
+                                civitatis</name></title>
+                        </head>
+                        <rubric locus="62r">Nomina episcoporum occidentalium saxonum</rubric>
+                        <ab locus="62r"> i. <name type="person">birinus</name> fuit episcopus qui cum consilio <name
+                                type="person">honorii</name> pape venerat brittaniam<lb/> ii. <name type="person"
+                                >Agilberht</name><lb/> iii. <name type="person">&#503;ine</name><lb/> iiii. <name
+                                type="person">leutherius</name><lb/> v. <name type="person">h&#230;dde</name><lb/>
+                            deinde in duas parrochias diuisus est. altera <name type="place">uuenta</name> cenorum
+                            ecclesie altera <name type="place">scireburnensis ecclesie</name>
+                        </ab>
+                        <rubric locus="62r"><name type="place">uuentane ciuitatis</name> episcopi</rubric>
+                        <ab locus="62r"> vi. <name type="person">Danihel</name><lb/> vii. <name type="person"
+                                >Hunfri&#240;</name><lb/> viii. <name type="person">Cynheard</name><lb/> viiii.
+                                <name type="person">&#198;&#254;elheard</name><lb/> x. <name type="person"
+                                >Ecgbald</name><lb/> xi. <name type="person">dudd</name><lb/> xii. <name type="person"
+                                >Cynebryht</name><lb/> xiii. <name type="person">Alhmund</name><lb/> xiiii. <name
+                                type="person">&#503;ig&#254;egn</name><lb/> xv. <name type="person"
+                                >Herefer&#240;</name><lb/> xvi. <name type="person">Eadhun</name><lb/> xvii. <name
+                                type="person">Helmstan</name>
+                        </ab>
+
+                        <ab locusNew="62v"> xviii. <name type="person">S&#447;i&#240;hun</name><lb/>
+                            xviiii.<lb/> xx. <name type="person">Dene&#447;ulf</name><lb/> xxi. <name type="person"
+                                >Fri&#254;estan</name><lb/> xxii. <name type="person">&#198;lfheah</name><lb/>
+                            xxiii.<lb/> xxiiii. Deinde <name type="place">uuintoni</name><lb/> xxv. ensis ecclesia in
+                            duas<lb/> xxvi. parrochias<lb/> xxvii. diuisa est tempore<lb/> xxviii. <name type="person"
+                                >Fri&#254;estani</name>. unam tenu<lb/> xxviiii. it <name type="person"
+                                >Fri&#240;estan</name>. et alteram<lb/> xxx. &#198;&#254;elstan. postea.
+                                <name type="person">Oda</name>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="1.8" locusStart="62v" locusEnd="62v">
+                        <head type="CCC">
+                            <title>Bishops of <name type="place">Sherborne</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Episcoporum <name type="place">Scireburnensis ecclesiae</name></title>
+                        </head>
+                        <rubric locus="62v"><name type="place">Scireburnensis ecclesie</name> episcopi</rubric>
+                        <ab locus="62v"> i. <name type="person">Adhelm</name><lb/> ii. <name type="person"
+                                >For&#240;here</name><lb/> iii. <name type="person">Hereuuald</name><lb/> iiii.
+                                <name type="person">&#198;&#240;elmod</name><lb/> v. <name type="person"
+                                >Denefri&#240;</name><lb/> vi. <name type="person">&#503;igbriht</name><lb/>
+                            vii. <name type="person">[E]alhstan</name><hi rend="footnote">E added</hi><lb/> viii. <name
+                                type="person">heahmund</name><lb/> viiii. <name type="person"
+                                >&#230;&#254;elheah</name><lb/> x. <name type="person"
+                            >&#503;ulfsige</name><lb/> xi. <name type="person">asser</name><lb/> xii. <name
+                                type="person">&#230;&#240;el&#447;eard</name>
+                        </ab>
+                        <ab>deinde in tres parrochias diuisa est. <name type="place">&#447;illensis ecclesie</name>
+                            et <name type="place">cridiensi(s) ecclesie</name></ab>
+                        <rubric locus="62v">
+                            <name type="place">Scireburnensis ecclesie</name>
+                        </rubric>
+                        <ab locus="62v"> xiii. <name type="person">&#447;&#230;rstan</name><lb/> xiiii. <name
+                                type="person">&#230;&#254;elbald</name><lb/> xv. <name type="person"
+                                >Sigelm</name><lb/> xvi. <name type="person">&#230;lfred</name>
+                        </ab>
+
+
+                    </msItem>
+
+                    <msItem n="1.9" locusStart="62v" locusEnd="62v">
+                        <head type="CCC">
+                            <title>Bishops of <name type="place">Wells</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Episcoporum <name type="place">Wellensis ecclesiae</name></title>
+                        </head>
+                        <rubric locusNew="62v">
+                            <name type="place">Uuillensis ecclesie</name>
+                        </rubric>
+                        <ab locusNew="62v"> i. <name type="person">&#230;&#447;elmus</name><lb/> ii. <name
+                                type="person">uulfhelmus</name><lb/> iii. <name type="person">&#230;lfheah</name>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="1.10" locusStart="62v" locusEnd="62v">
+                        <head type="CCC">
+                            <title>Bishops of <name type="place">Crediton</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Episcoporum <name type="place">Cridiensis ecclesiae</name></title>
+                        </head>
+                        <rubric locusNew="62v">
+                            <name type="place">Cridiensis aecclesie</name>
+                        </rubric>
+                        <ab locusNew="62v"> i. <name type="person">Eaduulf</name><lb/> (ii). <name type="person"
+                                >&#230;&#254;elgar</name>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="1.11" locusStart="62v" locusEnd="63r">
+                        <head type="CCC">
+                            <title>Bishops of the Hwicce after <name type="person">Seax&#447;ulf</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="place">Hwicciorum</name> post <name type="person"
+                                >Seaxwulfum</name></title>
+                        </head>
+                        <rubric locusNew="62v">Nomina episcoporum <name type="place">huuicciorum</name> post <name
+                                type="person">seax&#447;ulfum</name></rubric>
+                        <ab locusNew="62v"> i. <name type="person">bosel</name><lb/> ii. <name type="person"
+                                >oftfor</name><lb/> iii. <name type="person">Ecg&#447;ine</name><lb/> iiii. <name
+                                type="person">&#447;ilfrid</name><lb/> v. <name type="person">milred</name><lb/> vi.
+                                <name type="person">&#447;&#230;rmund</name>
+                        </ab>
+                        <ab locus="63r"> vii. <name type="person">tilhere</name><lb/> viii. <name type="person"
+                                >hea&#240;ored</name><lb/> viiii. <name type="person">denebriht</name><lb/> x. <name
+                                type="person">heaberht</name>
+                        </ab>
+                        <ab>The numbering goes on to xv</ab>
+                    </msItem>
+
+                    <msItem n="1.12" locusStart="63r" locusEnd="63v">
+                        <head type="CCC">
+                            <title>Bishops of the Mercians</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Episcoporum <name type="place">provinciae Merciorum</name></title>
+                        </head>
+                        <rubric locusNew="63r">Nomina episcoporum <name type="place">prouinciae
+                            merciorum</name></rubric>
+                        <incipit locusNew="63r">Primus in <name type="place">prouintia merciorum</name> et <name
+                                type="place">lindisfarorum</name> ac mediterraneorum anglorum episcopus</incipit>
+                        <ab locusNew="63r"> i. <name type="person">Diuina</name><lb/> ii. <name type="person">Cella
+                                hambo de scotia</name><lb/> iii. <name type="person">Trumhere de natione
+                            anglorum</name><lb/> iiii. <name type="person">Gearomon</name><lb/> v. <name type="person"
+                                >Ceadda</name><lb/> vi. <name type="person">Vuynfri&#240;</name><lb/> vii. <name
+                                type="person">Seaxuulf</name><lb/> Postea uero in .v. parrochias diuiditur. post <name
+                                type="person">seaxuulfum</name>
+                            <name type="place">prouinciae merciorum</name> duos episcopos habuit. <name type="person"
+                                >headdan</name> et <name type="person">uuilfri&#240;um</name>. postea <name
+                                type="person">uuilfri&#240;us</name> eiectus. et <name type="person">headda</name>
+                            prefatus regebat ambas parrochias. deinde <name type="person">alduuine</name> quiet uuor
+                            nominabatur. Iterum diuisa est in duas parrochias<lb/> i. <name type="person"
+                                >Torhthelm</name><lb/> ii. <name type="person">Eadberht</name>
+                        </ab>
+                        <ab locus="63v"> iii. <name type="person">un&#447;ona</name><lb/> iiii. <name type="person"
+                                >&#503;erenberht</name><lb/> v. <name type="person"
+                                >r&#230;&#240;h&#250;n</name><lb/> vi. <name type="person"
+                            >aldred</name><lb/> vii. <name type="person">ciolred</name><lb/> i. <name type="person"
+                                >h&#447;ita</name><lb/> ii. <name type="person">h&#230;mele</name><lb/> iii.
+                                <name type="person">cu&#240;fri&#240;</name><lb/> iiii. <name type="person"
+                                >berhthun</name><lb/> v. <name type="person">hygeberht</name><lb/> vi. <name
+                                type="person">alduulf</name><lb/> vii. <name type="person">here&#447;ine</name><lb/>
+                            viii. <name type="person">&#230;&#254;eluuald</name><lb/> viiii. <name type="person"
+                                >humberht</name><lb/> x. <name type="person">cynefer&#240;</name>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="1.13" locusStart="63v" locusEnd="63v">
+                        <head type="CCC">
+                            <title>Bishops of <name type="place">Hereford</name></title>
+                        </head>
+
+                        <rubric locusNew="63v">Nomina episcoporum <name type="place">uuestor elih'</name> post <name
+                                type="person">seaxuulfum</name></rubric>
+                        <ab locusNew="63v"> i. <name type="person">Putta</name><lb/> ii. <name type="person"
+                                >Tyrhthelm</name><lb/> iii. <name type="person">Torhthere</name><lb/> iiii. <name
+                                type="person">&#503;alhstod</name><lb/> v. <name type="person"
+                                >Cu&#240;berht</name><lb/> vi. <name type="person">Podda</name><lb/> vii. <name
+                                type="person">Acca</name><lb/> viii. <name type="person">headda</name><lb/> viiii. <name
+                                type="person">Aldberht</name><lb/> x. <name type="person">esne</name><lb/> xi. <name
+                                type="person">Ceolmund</name><lb/> xiii. <name type="person">Utel</name><lb/> xiii.
+                                <name type="person">Uulfheard</name><lb/> xiiii. <name type="person">beonna</name><lb/>
+                            xv. <name type="person">ead&#447;ulf</name><lb/> xvi. <name type="person"
+                                >cu&#240;&#447;ulf</name><lb/> xvii. </ab>
+                    </msItem>
+
+                    <msItem n="1.14" locusStart="63v" locusEnd="63v">
+                        <head type="CCC">
+                            <title>Bishops of <name type="place">Lindsey</name></title>
+                        </head>
+
+                        <rubric locusNew="63v">Nomina episcoporum <name type="place">lindisfarorum</name> post <name
+                                type="person">seaxulfum</name></rubric>
+                        <ab locusNew="63v"> i. <name type="person">eadh&#230;&#240;</name><lb/> ii. <name
+                                type="person">&#230;&#254;el&#447;ine</name><lb/> iii. <name type="person"
+                                >eadgar</name><lb/> iiii. <name type="person">cynebert</name><lb/> v. <name
+                                type="person">alo&#447;ioh</name><lb/> vi. <name type="person"
+                                >ald&#447;ulf</name><lb/> vii. <name type="person">ceol&#447;ulf</name><lb/>
+                            viii. <name type="person">ead&#447;ulf</name><lb/> viiii. <name type="person"
+                                >beorhtred</name>
+                        </ab>
+                        <ab>The numbering is continued to xvii, ending in col. 3</ab>
+
+                    </msItem>
+
+                    <msItem n="1.15" locusStart="63v" locusEnd="63v">
+                        <head type="CCC">
+                            <title>Bishops of the East Anglians</title>
+                        </head>
+
+                        <rubric locusNew="63v">Nomina episcoporum orientalium Anglorum</rubric>
+                        <ab locusNew="63v"> i. <name type="person">Felix</name><lb/> ii. <name type="person"
+                                >Thomas</name><lb/> iii. <name type="person">berhtgisl</name><lb/> iiii. <name
+                                type="person">bisi</name><lb/> Postea in duas parrochias diuiditur<lb/> i. <name
+                                type="person">beade&#447;ine</name><lb/> ii. <name type="person"
+                                >no&#240;berht</name><lb/> iii. <name type="person"
+                                >hea&#240;ol&#225;c</name><lb/> iiii. <name type="person"
+                                >&#230;&#254;elfri&#240;</name><lb/> v. <name type="person"
+                                >eanfri&#240;</name><lb/> vi. <name type="person"
+                                >&#230;&#254;el&#447;ulf</name><lb/> vii. <name type="person"
+                                >alhheard</name><lb/> viii. <name type="person">Sibba</name><lb/> viiii. <name
+                                type="person">H&#250;nfer&#240;</name><lb/> x. <name type="person"
+                                >H&#250;nberht</name><lb/> xi.<lb/> xii. </ab>
+                    </msItem>
+
+                    <msItem n="1.16" locusStart="64r" locusEnd="64r">
+                        <head type="CCC">
+                            <title>Bishops of <name type="place">Dunwich</name></title>
+                        </head>
+
+                        <ab locus="64r"> i. <name type="person">Aecce</name><lb/> ii. <name type="person"
+                                >Aescuulf</name><lb/> iii. <name type="person">eardred</name><lb/> iiii. <name
+                                type="person">cu&#240;&#447;ine</name><lb/> v. <name type="person"
+                                >aldberht</name><lb/> vi. <name type="person">ecglaf</name><lb/> vii. <name
+                                type="person">heardred</name><lb/> viii. <name type="person"
+                                >&#230;lfh&#250;n</name><lb/> viiii. <name type="person"
+                            >Tidfri&#240;</name><lb/> x. <name type="person">&#503;&#230;rmund</name><lb/>
+                            xi. <name type="person">&#503;illred</name>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="1.17" locusStart="64r" locusEnd="64r">
+                        <head type="CCC">
+                            <title>Archbishops of <name type="place">York</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Archiepiscoporum <name type="place">Eboracensium</name></title>
+                        </head>
+                        <rubric locusNew="64r">Nomina episcoporum gentis <name type="place"
+                                >nor&#254;anhymbrorum</name></rubric>
+                        <incipit locusNew="64r">Primus <name type="person">paulinus</name> a iusto archiepiscopus
+                            ordinatus ii <name type="person">&#230;&#254;an</name> iii <name type="person"
+                                >Fines</name> iiii <name type="person">colman</name> v. <name type="person">tuda</name>.
+                            Post ea in duas parrochias diuiditur. <name type="person">C&#230;dda</name> eboracensi
+                            ecclesie ordinatum. <name type="person">uuilfri&#240; hagstaldensie</name> ordinatur
+                            depositoque <name type="person">uuilfri&#240;o</name> a rege <name type="person"
+                                >Ecgfri&#240;o</name>
+                            <name type="person">eata</name> pro eo ordinatur episcopum hagstaldensie pro <name
+                                type="person">ceddan</name>
+                            <name type="person">bosa</name> eboraci defuncto <name type="person">eatan</name>
+                            <name type="person">iohannis</name> pro eo ordinatur post longum uero exilium <name
+                                type="person">uuilfri&#240;</name> iterum in episcopatu hagstaldensie. receptus est
+                            et idem <name type="person">iohan</name> defuncto <name type="person">bosan</name> eboraci
+                            substitutus</incipit>
+                        <rubric locusNew="64r"><name type="place">Eboracens</name> ecclesiae</rubric>
+                        <ab locusNew="64r"> i. <name type="person">Uuilfri&#240;</name><lb/> ii. <name type="person"
+                                >Ecgberht</name><lb/> iii. <name type="person">Coena</name><lb/> iiii. <name
+                                type="person">Eanbald</name><lb/> v. <name type="person">Eanbald</name><lb/> vi. <name
+                                type="person">Uulfsige</name><lb/> vii. <name type="person">&#503;igmund</name>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="1.18" locusStart="64v" locusEnd="64v">
+                        <head type="CCC">
+                            <title>Bishops of <name type="place">Hexham</name></title>
+                        </head>
+
+                        <rubric locusNew="64v">Nomina episcoporum <name type="place">hagustaldensis
+                            ecclesiae</name></rubric>
+                        <ab locusNew="64v"> i. <name type="person">Acca</name><lb/> ii. <name type="person"
+                                >Frio&#254;eberht</name><lb/> iii. <name type="person">Alhmund</name><lb/> iiii.
+                                <name type="person">Tilberht</name><lb/> v. <name type="person"
+                                >&#230;&#254;ilberht</name><lb/> vi. <name type="person">heardred</name><lb/>
+                            vii. <name type="person">eanberht</name><lb/> viii.<lb/> viiii.<lb/> x.<lb/> xi. </ab>
+                    </msItem>
+
+                    <msItem n="1.19" locusStart="64v" locusEnd="64v">
+                        <head type="CCC">
+                            <title>Bishops of <name type="place">Lindisfarne</name></title>
+                        </head>
+
+                        <rubric locusNew="64v">Nomina episcoporum <name type="place">lindesfarnensis
+                            insule</name></rubric>
+                        <ab locusNew="64v"> i. <name type="person">&#230;&#240;an</name><lb/> ii. <name
+                                type="person">Fines</name><lb/> iii. <name type="person">Colman</name><lb/> iiii. <name
+                                type="person">Eata</name><lb/> v. <name type="person">Cu&#240;berht</name><lb/> vi.
+                                <name type="person">Eadberht</name><lb/> vii. <name type="person"
+                                >Eadfri&#240;</name><lb/> viii. <name type="person"
+                                >Oi&#240;il&#447;ald</name><lb/> viiii. <name type="person"
+                                >Cyne&#447;ulf</name><lb/> x. <name type="person">hygebald</name><lb/> xi. <name
+                                type="person">Ecgberht</name>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="1.20" locusStart="64v" locusEnd="64v">
+                        <head type="CCC">
+                            <title>Bishops of <name type="place">Whithorn</name></title>
+                        </head>
+
+                        <rubric locusNew="64v">Nomina episcoporum ecclesie, quae dicitur <name type="place">casa
+                                Candida</name></rubric>
+                        <ab locusNew="64v"> i. <name type="person">Pehthelm</name><lb/> ii. <name type="person"
+                                >Frio&#254;ouuald</name><lb/> iii. <name type="person">Peht&#447;ine</name><lb/>
+                            iiii. <name type="person">&#198;&#254;elberht</name><lb/> v. <name type="person"
+                                >bead&#447;ulf</name>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="1.21" locusStart="65r" locusEnd="65v">
+                        <head type="CCC">
+                            <title>Genealogies of Northumbrian kings</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Genealogiae regum Brittanniae regnantium in diversis locis</title>
+                        </head>
+                        <rubric locusNew="65r">Haec sunt genelogie per partes brittanie regum regnantium per diversa
+                            loca</rubric>
+                        <rubric locusNew="65r">
+                            <name type="place">Nor&#240;hymbrorum</name>
+                        </rubric>
+                        <ab locusNew="65r">
+
+                            <name type="person">Ead&#447;ine &#230;lling</name>
+                            <lb/>
+                            <name type="person">&#230;lle yffing</name>
+                            <lb/>
+                            <name type="person">yffe uuscfreaing</name>
+                            <lb/>
+                            <name type="person">uuscfrea uuilgisling</name>
+                            <lb/>
+                            <name type="person">uuilgils uuestor&#447;aling</name>
+                            <lb/>
+                            <name type="person">uuestorualcna soemling</name>
+                            <lb/>
+                            <name type="person">soemel s&#230;fuguling</name>
+                            <lb/>
+                            <name type="person">s&#230;fugel s&#230;balding</name>
+                            <lb/>
+                            <name type="person">s&#230;bald siggeoting</name>
+                            <lb/>
+                            <name type="person">siggeot suebd&#230;ging</name>
+                            <lb/>
+                            <name type="person">suebd&#230;g siggaring</name>
+                            <lb/>
+                            <name type="person">siggar uu&#230;gd&#230;ging</name>
+                            <lb/>
+                            <name type="person">uuegd&#230;g uuodening</name>
+                            <lb/>
+                            <name type="person">uuoden frealafing</name>
+
+                        </ab>
+
+                        <rubric locusNew="65r">Item <name type="place">nor&#254;ahymbrorum</name></rubric>
+                        <ab locusNew="65r">
+
+                            <name type="person">ecgfri&#240; os&#447;eoing</name>
+                            <lb/>
+                            <name type="person">os&#447;io &#230;&#240;elfri&#240;ing</name>
+                            <lb/>
+                            <name type="person">ae&#254;elfri&#240; ae&#254;elricing</name>
+                            <lb/>
+                            <name type="person">ae&#240;elric iding</name>
+                            <lb/>
+                            <name type="person">ida eopping</name>
+                            <lb/>
+                            <name type="person">eoppa oesing</name>
+                            <lb/>
+                            <name type="person">oesa &#230;&#254;elberhting</name>
+                            <lb/>
+                            <name type="person">ae&#240;elberht angengeoting</name>
+                            <lb/>
+                            <name type="person">angengiot alusing</name>
+                            <lb/>
+                            <name type="person">alusa ingebranding</name>
+                            <lb/>
+                            <name type="person">ingebrand &#447;&#230;gbranding</name>
+                            <lb/>
+                            <name type="person">&#447;gbrand beornicing</name>
+                            <lb/>
+                            <name type="person">beornic b&#230;ld&#230;ging</name>
+                            <lb/>
+                            <name type="person">b&#230;ld&#230;g &#447;odning</name>
+                            <lb/>
+                            <name type="person">&#447;oden frealafing</name>
+
+                        </ab>
+                        <rubric locus="65v">Item <name type="place">nor&#254;anhymbrorum</name></rubric>
+                        <ab locus="65v">
+
+                            <name type="person">Ceol&#447;ulf Cu&#254;&#447;ining</name>
+                            <lb/>
+                            <name type="person">Cu&#254;&#447;ine Leod&#447;alding</name>
+                            <lb/>
+                            <name type="person">leod&#447;ald eadhelming</name>
+                            <lb/>
+                            <name type="person">ecg&#447;ald ocgting</name>
+                            <lb/>
+                            <name type="person">eadhelm iding</name>
+                            <lb/>
+                            <name type="person">ocg eating</name>
+                            <lb/>
+                            <name type="person">eadberht leod&#447;alding</name>
+                            <lb/>
+                            <name type="person">eata</name>
+
+                        </ab>
+                        <rubric locusNew="65v">Item <name type="place">nor&#240;anhymbrorum</name></rubric>
+                        <ab locusNew="65v">
+
+                            <name type="person">Alhred Ean&#447;ining</name>
+                            <lb/>
+                            <name type="person">Ean&#447;ine byrnhoming</name>
+                            <lb/>
+                            <name type="person">byrnhom bofing</name>
+                            <lb/>
+                            <name type="person">bofa bl&#230;cmoning</name>
+                            <lb/>
+                            <name type="person">bl&#230;cmon eadricing</name>
+                            <lb/>
+                            <name type="person">eadric iding</name>
+
+                        </ab>
+                    </msItem>
+
+                    <msItem n="1.22" locusStart="65v" locusEnd="65v">
+                        <head type="CCC">
+                            <title>Lengths of reigns of Northumbrian kings</title>
+                        </head>
+
+                        <ab locusNew="65v">
+                            <name type="person">Ida</name> regnauit xi. annos<lb/>
+                            <name type="person">Glappa</name> i.<lb/>
+                            <name type="person">Adda</name>viii.<lb/>
+                            <name type="person">&#230;&#254;elric</name> vii.<lb/>
+                            <name type="person">&#240;eodric</name> vii.<lb/>
+                            <name type="person">Frio&#254;o&#447;ald</name> vii.<lb/>
+                            <name type="person">hussa</name> vii.<lb/>
+                            <name type="person">&#230;&#254;elfri&#240;</name> xxvii.<lb/>
+                            <name type="person">ead&#447;ine</name> xvii. x paganus 7 vii christianus<lb/>
+                            <name type="person">&#243;s&#447;ald</name> viiii.<lb/>
+                            <name type="person">&#243;s&#447;io</name> xxviii.<lb/>
+                            <name type="person">ecgfri&#240;</name> xv.<lb/>
+                            <name type="person">aldfri&#240;</name> xx.<lb/>
+                            <name type="person">&#243;sred</name> xi.<lb/>
+                            <name type="person">coenred</name> ii.<lb/>
+                            <name type="person">&#243;sric</name> xi.<lb/>
+                            <name type="person">ceol&#447;ulf</name> viii.<lb/>
+                            <name type="person">Eadberht</name> xxi.<lb/>
+                            <name type="person">&#243;s&#447;ulf</name> i.<lb/>
+                            <name type="person">&#230;&#254;il&#447;ald</name> vi.<lb/>
+                            <name type="person">alhred</name> viiii.<lb/>
+                            <name type="person">&#230;&#254;ilred</name> iiii.<lb/>
+                            <name type="person">&#230;lf&#447;ald</name> x.<lb/>
+                            <name type="person">&#243;sred</name> .i. Item <name type="person"
+                                >&#230;&#254;ilred</name> vii </ab>
+                    </msItem>
+
+                    <msItem n="1.23" locusStart="66r" locusEnd="66r">
+                        <head type="CCC">
+                            <title>Lengths of reigns of Mercian kings</title>
+                        </head>
+
+                        <ab locusNew="66r">
+                            <name type="person">Penda</name> regnavit annos xxi.<lb/>
+                            <name type="person">Peada</name> i.<lb/>
+                            <name type="person">&#447;ulfhere</name> xvii.<lb/>
+                            <name type="person">&#230;&#254;elred</name> xxviiii.<lb/>
+                            <name type="person">Coenred</name> v.<lb/>
+                            <name type="person">Ceolred</name> vii.<lb/>
+                            <name type="person">&#230;&#254;elbald</name> xli.<lb/>
+                            <name type="person">offa</name> xxxviiii.<lb/>
+                            <name type="person">ecgfri&#240;</name> cxli. dies.<lb/>
+                            <name type="person">coen&#447;ulf</name><lb/>
+                            <name type="person">ceol&#447;ulf</name><lb/>
+                            <name type="person">beorn&#447;ulf</name><lb/>
+                            <name type="person">ludeca</name><lb/>
+                            <name type="person">&#447;iglaf</name><lb/>
+                            <name type="person">beorht&#447;ulf</name>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="1.24" locusStart="66r" locusEnd="66r">
+                        <head type="CCC">
+                            <title>Genealogy of Mercian kings</title>
+                        </head>
+
+                        <rubric locusNew="66r">Item <name type="place">merciorum</name></rubric>
+                        <ab locusNew="66r">
+
+                            <name type="person">&#230;&#240;elbald al&#447;ing</name>
+                            <lb/>
+                            <name type="person">alh&#447;ih eo&#447;ing</name>
+                            <lb/>
+                            <name type="person">eo&#447;a Pybbing</name>
+
+                        </ab>
+                    </msItem>
+
+                    <msItem n="1.25" locusStart="66r" locusEnd="66v">
+                        <head type="CCC">
+                            <title>Genealogy of Mercian kings</title>
+                        </head>
+
+                        <rubric locusNew="66r">
+                            <name type="place">Merciorum</name>
+                        </rubric>
+                        <ab locusNew="66r">
+
+                            <name type="person">&#230;&#240;elred Pending</name>
+                            <lb/>
+                            <name type="person">Penda Pybbing</name>
+                            <lb/>
+                            <name type="person">Pybba Creoding</name>
+                            <lb/>
+                            <name type="person">Creoda Cyne&#447;alding</name>
+                            <lb/>
+                            <name type="person">Cyne&#447;ald Cnebbing</name>
+                            <lb/>
+                            <name type="person">Cnebba Icling</name>
+                            <lb/>
+                            <name type="person">Icel eom&#230;ring</name>
+                            <lb/>
+                            <name type="person">eom&#230;r angengeoting</name>
+                            <lb/>
+                            <name type="person">angengiot offing</name>
+                            <lb/>
+                            <name type="person">offa &#447;&#230;rmunding</name>
+                            <lb/>
+                            <name type="person">&#447;&#230;rmund &#447;ihtl&#230;ging</name>
+                            <lb/>
+                            <name type="person">&#447;ihtl&#230;g &#447;io&#254;olgeoting</name>
+                            <lb/>
+                            <name type="person">&#447;eo&#254;olgiot &#447;odning</name>
+                            <lb/>
+                            <name type="person">&#447;oden frealafing</name>
+
+                        </ab>
+                        <rubric locusNew="66r">Item <name type="place">merciorum</name></rubric>
+                        <ab locusNew="66r">
+
+                            <name type="person">ecgfri&#254; offing</name>
+                            <lb/>
+                            <name type="person">offa &#254;ingfer&#254;ing</name>
+                            <lb/>
+                            <name type="person">&#254;ingfer&#254; ean&#447;ulfing</name>
+                            <lb/>
+                            <name type="person">ean&#447;ulf &#243;smoding</name>
+                            <lb/>
+                            <name type="person">&#243;smod eo&#447;ing</name>
+                            <lb/>
+                            <name type="person">eo&#447;a Pybbing</name>
+
+                        </ab>
+                        <rubric locusNew="66r">Item <name type="place">merciorum</name></rubric>
+                        <ab locusNew="66r">
+
+                            <name type="person">Coen&#447;ulf cu&#254;brihting</name>
+                            <lb/>
+                            <name type="person">Cu&#240;briht bassing</name>
+                            <lb/>
+                            <name type="person">bassa ceonreo&#447;ing</name>
+
+                        </ab>
+                        <ab locusNew="66v">
+
+                            <name type="person">Cynreo&#447; Cent&#447;ining</name>
+                            <lb/>
+                            <name type="person">Cent&#447;ine Cu&#254;&#447;aling</name>
+                            <lb/>
+                            <name type="person">Cu&#254;&#447;alh Cen&#447;aling</name>
+                            <lb/>
+                            <name type="person">Cen&#447;alh Pybbing</name>
+
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="1.26" locusStart="66v" locusEnd="66v">
+                        <head type="CCC">
+                            <title>Kings of Lindsey</title>
+                        </head>
+
+                        <rubric locusNew="66v">
+                            <name type="place">lindisfearna</name>
+                        </rubric>
+                        <ab locusNew="66v">
+
+                            <name type="person">Aldfri&#254; eating</name>
+                            <lb/>
+                            <name type="person">eata eanfer&#254;ing</name>
+                            <lb/>
+                            <name type="person">Eanfer&#254; bisceoping</name>
+                            <lb/>
+                            <name type="person">beoscep beding</name>
+                            <lb/>
+                            <name type="person">beda bubbing</name>
+                            <lb/>
+                            <name type="person">bubba c&#230;db&#230;ding</name>
+                            <lb/>
+                            <name type="person">c&#230;dbed c&#447;edgilsing</name>
+                            <lb/>
+                            <name type="person">c&#447;edgils cretting</name>
+                            <lb/>
+                            <name type="person">cretta &#447;inting</name>
+                            <lb/>
+                            <name type="person">&#447;inta &#447;odning</name>
+                            <lb/>
+                            <name type="person">&#447;oden frealafing</name>
+                            <lb/>
+                            <name type="person">frealaf frio&#254;o&#447;ulsing (so)</name>
+                            <lb/>
+                            <name type="person">freo&#254;o&#447;ulf <supplied>finning</supplied></name>
+                            <lb/>
+                            <name type="person"><supplied>finn</supplied> god&#447;ulfing</name>
+                            <lb/>
+                            <name type="person">god&#447;ulf geating</name>
+
+                        </ab>
+                    </msItem>
+
+                    <msItem n="1.27" locusStart="66v" locusEnd="66v">
+                        <head type="CCC">
+                            <title>Kings of Kent</title>
+                        </head>
+
+                        <rubric locusNew="66v">
+                            <name type="place">Cant&#447;ariorum</name>
+                        </rubric>
+                        <ab locusNew="66v">
+
+                            <name type="person">æ&#254;elbriht &#447;ihtreding</name>
+                            <lb/>
+                            <name type="person">&#447;ihtred ecgberhting</name>
+                            <lb/>
+                            <name type="person">ecgberht erconberhting</name>
+                            <lb/>
+                            <name type="person">erconberht eadbalding</name>
+                            <lb/>
+                            <name type="person">eadbald &#230;&#254;elberhting</name>
+
+                        </ab>
+                        <ab locusNew="66v">(col. 2)</ab>
+                        <ab locusNew="66v">
+
+                            <name type="person">&#230;&#254;elberht eormenricing</name>
+                            <lb/>
+                            <name type="person">eormenric oesing</name>
+                            <lb/>
+                            <name type="person">oese ocging</name>
+                            <lb/>
+                            <name type="person">ocga hengesting</name>
+                            <lb/>
+                            <name type="person">hengest &#447;itting</name>
+                            <lb/>
+                            <name type="person">&#447;itta &#447;ihtgisling</name>
+                            <lb/>
+                            <name type="person">&#447;ihtgisl &#447;&#230;gd&#230;ging</name>
+                            <lb/>
+                            <name type="person">&#447;&#230;gd&#230;g &#447;odning</name>
+                            <lb/>
+                            <name type="person">&#447;oden frealafing</name>
+
+                        </ab>
+                    </msItem>
+
+                    <msItem n="1.28" locusStart="66v" locusEnd="66v">
+                        <head type="CCC">
+                            <title>Kings of the East Angles</title>
+                        </head>
+
+                        <rubric locusNew="66v">
+                            <name type="place">easter engla</name>
+                        </rubric>
+                        <ab locusNew="66v">
+
+                            <name type="person">ælf&#447;ald ald&#447;ulfing</name>
+                            <lb/>
+                            <name type="person">ald&#447;ulf &#230;&#254;elricing</name>
+                            <lb/>
+                            <name type="person">&#230;&#254;elric ening</name>
+                            <lb/>
+                            <name type="person">eni Tyttling</name>
+                            <lb/>
+                            <name type="person">tyttla &#447;uffing</name>
+                            <lb/>
+                            <name type="person">&#447;uffa &#447;ehhing</name>
+                            <lb/>
+                            <name type="person">&#447;ehh &#447;ilhelming</name>
+                            <lb/>
+                            <name type="person">&#447;ilfhelm hrypping</name>
+                            <lb/>
+                            <name type="person">hryp hro&#240;munding</name>
+                            <lb/>
+                            <name type="person">hro&#240;mund Trygling</name>
+                            <lb/>
+                            <name type="person">Trygil Tytmaning</name>
+                            <lb/>
+                            <name type="person">Tytman casering</name>
+                            <lb/>
+                            <name type="person">caser &#447;odning</name>
+                            <lb/>
+                            <name type="person">&#447;oden frealafing</name>
+
+                        </ab>
+                    </msItem>
+
+                    <msItem n="1.29" locusStart="67r" locusEnd="67r">
+                        <head type="CCC">
+                            <title>Kings of the West Saxons</title>
+                        </head>
+
+                        <rubric locusNew="67r">Occidentalium Saxonum</rubric>
+                        <ab>
+                            <name type="person">Ine Cenreding</name><lb/>
+                            <name type="person">Cenred Ceol&#447;alding</name><lb/>
+                            <name type="person">Ceol&#447;ald Cu&#254;&#447;ulfing</name><lb/>
+                            <name type="person">Cu&#254;&#447;ulf Cu&#254;&#447;ining</name><lb/>
+                            <name type="person">Cu&#254;&#447;ine Celing</name><lb/>
+                            <name type="person">Celin Cynricing</name><lb/>
+                            <name type="person">Cynric Creoding</name><lb/>
+                            <name type="person">Creoda Cerdicing</name><lb/>
+                            <name type="person">Cerdic Alucing</name><lb/>
+                            <name type="person">Aluca Gi&#447;ising</name><lb/>
+                            <name type="person">Gi&#447;is branding</name><lb/>
+                            <name type="person">brand b&#230;ld&#230;ging</name><lb/>
+                            <name type="person">b&#230;ld&#230;g &#447;odning</name><lb/> &#447;oden
+                            frealafing </ab>
+                        <ab>This ends the genealogies</ab>
+                    </msItem>
+
+                    <msItem n="1.30" locusStart="67r" locusEnd="70r">
+                        <head type="CCC">
+                            <title>Notes on the Ages of the World and other subjects</title>
+                        </head>
+                        <ab>Immediately upon the last of the genealogies follows a paragraph, partly perhaps taken from
+                            the <hi rend="italic">Historia Britonum</hi><hi rend="footnote">The attribution of any part
+                                of this paragraph to the <hi rend="italic">Historia Britonum</hi> is contested by <name
+                                    type="person">Mr H. Munro Chadwick</name>, who says in a note to me: <q>I doubt the
+                                    borrowing of the note <hi rend="italic">Quando Gratianus</hi> etc. from the <hi
+                                        rend="italic">H. Br.</hi>, partly on account of the form <hi rend="italic"
+                                        >Wyrtgeorno</hi>, and still more because of <hi rend="italic">quarta</hi>, which
+                                    apparently does not occur in any text of the <hi rend="italic">H. Br</hi>. As <hi
+                                        rend="italic">H. Br.</hi> in §§ 57—65 has clearly used a text related to 183
+                                    (containing (1) genealogies (2) lists of kings) there is some reason for thinking
+                                    that the borrowing may have been the other way. Again, the gist of the whole passage
+                                        <hi rend="italic">Britannia—sexcenti</hi> is in <name type="person">Bede</name>
+                                    <hi rend="italic">H. E.</hi> 11, whereas the latter part (circuitus) does not occur
+                                    in <hi rend="italic">H. Br.</hi>, or (so far as I know) in any Celtic
+                                writer.</q></hi> (see <ref type="bibl" target="Mommsen 1898">Mommsen in MGH. pp. 132,
+                                172</ref>), partly from <name type="person">Pliny</name> (<hi rend="italic">N. H.</hi>
+                            IV 16. 102) or <name type="person">Solinus</name> (22. 10)</ab>
+                        <ab locus="67r"> Quando <name type="person">gratianus</name> consul fuit secundo et <name
+                                type="person">equitius</name><lb/>quarta. tunc his consulibus saxones a <name
+                                type="person">&#447;yrtgeorno</name> in<lb/><name type="place">brittannia</name>
+                            suscepti sunt. anno <date>ccc<abbr rend="superscript">o</abbr> xlviiii</date> a passione
+                            christi. <name type="place">Britannia</name> insula habet in longitudine dccc milia et in
+                            latitudine cc milia et in circuitu habet tria milia<lb/>milium et sexcenti </ab>
+                        <ab>This is followed by a group of paragraphs of a different kind</ab>
+                        <rubric locusNew="67r">de trina Incarnatione Christi</rubric>
+                        <ab locusNew="67r"> Dominus noster Iesus Christus ter carnaliter huic mundo ortus est. Prima
+                            incarnatio quando in utero <name type="person">sancte marie uirginis</name> conceptus est.
+                            viii. kl. Ap. vi. fer. luna uidelicet illo tempore xxvii </ab>
+                        <ab locus="67v"> Secunda quando natus est viii. kl. Jan. iii fer. luna eo tempore xvii. regnante
+                            cesare augusto. n<abbr rend="superscript">o</abbr>. <name type="person">octauianus</name> ut
+                            sacra testatur ueritas euangelica. Tertia resurrectio quando excitatus catulus surrexit vi.
+                            kl. Apr. die dominico. luna ipso tempore xvi. secundum legem <name type="person"
+                                >moysi</name> .xiiii. die lune passus. regnante <name type="person">tiberio
+                                cesare</name>
+                        </ab>
+                        <rubric>de annis domini</rubric>
+                        <ab> Sunt ergo anni domini nostri Iesu Christi in corpore conuersantes .xxxii. et menses .iii.
+                            hoc est dierum .xi. milia. dcclxx. ex qua autem die baptizatus est dominus usque in diem
+                            passionis sue, recepti sunt dies iuxta seriem mensium .dcccxx </ab>
+                        <ab> Prima aetas ab <name type="person">adam</name> usque ad <name type="person">noe</name> ann
+                            .ii. ccxlii etc. </ab>
+                        <ab locus="68v">Ending</ab>
+                        <explicit locus="68v">ab origine mundi usque in aduentum domini anni .v. milia
+                            cxcviiii</explicit>
+                        <ab>After this point a good deal of the matter is found, in a different order, in <ref type="ms"
+                                target="LBLVB6">Vesp. B. VI (V)</ref></ab>
+                        <incipit locus="68v">Prima aetas infantia vii annis. Secunda pueritia xiiii</incipit>
+                        <explicit>senium nullo certo annorum numero finitur</explicit>
+                        <ab>(<ref type="ms" target="LBLVB6">V, f. 107r</ref>)</ab>
+                        <ab> Ossa hominis sunt numero .cc.xviiii. Numerus uenarum .ccclxv. </ab>
+                        <ab> Dentium numerus in perfecta aetate .xxxii. </ab>
+                        <ab>(<ref type="ms" target="LBLVB6">V, f. 106v, line 1</ref>)</ab>
+                        <ab>
+                            <name type="person">Christianus historicus</name> dicit longitudinem mundi esse .xii. milium
+                            (milia <ref type="ms" target="LBLVB6">V</ref>) latitudo (+ uero <ref type="ms"
+                                target="LBLVB6">V</ref>) vi. miliarum </ab>
+                        <ab>(<ref type="ms" target="LBLVB6">V, f. 106v</ref>)</ab>
+                        <ab> Longitudo templi (+ habens <ref type="ms" target="LBLVB6">V</ref>) .lx. cubitos in
+                            longitudine et .xxx. cubitos in latitudine et .xxx. cubitos in altitudine </ab>
+                        <ab> Tabernaculum habens longitudinis cubitos .xxx. latitudinis .x. altitudinis aeque .x. </ab>
+                        <ab> Longitudo <name type="place">ecclesie sancti petri</name> .lx. passus. latitudo xl passus
+                            (latitudine (o) cubitos .xl. passus <ref type="ms" target="LBLVB6">V</ref>). passus .v.
+                            pedes sunt .ccxx. columnis sustentatur. scala sancti petri gressibus .xlii.bus
+                                ascen/<locus>69r</locus>/dens. Altitudo turris v. milia .clxxiiii. passus .i. xl. v.
+                            dccc. lxxx. pedum </ab>
+                        <ab> De arca <name type="person">noe</name> .ccc. cubitorum in longitudine in latitudine l.
+                            cubitorum in altitudine xxx cubitorum </ab>
+
+                        <ab>De nouo et uetere canone libri sunt .lxxii. sicque et linguarum numero aeque et discipulorum
+                            christi sine numero (numerus <ref type="ms" target="LBLVB6">V</ref>) .xii. apostolorum (<ref
+                                type="ms" target="LBLVB6">V, f. 106v-107r, l. 1</ref>)</ab>
+                        <ab> Hic est numerus in psalterio uersu. In prima quinquaginta dccxc. In secundo dcclxxui. In
+                            tertio dccclii. Id est duo milia. cccclii </ab>
+                        <ab> In .i. miliario perticarum .cccclxxx. pedum .v. milia .dcclx. pedum on furlonge .cccclxxx </ab>
+                        <ab>(<ref type="ms" target="LBLVB6">V, f. 106v, ll. 4-6</ref>)</ab>
+                        <ab> Duo grana ordei. digiti unius transuersio est. sedecim digiti transuersi pedem efficiunt.
+                            duo uero pedes et dimidium faciunt gressum. duo autem (the sign <figure xml:id="figure440a"
+                            /> for autem is used both here and in <ref type="ms" target="LBLVB6">V</ref>) gressus passum
+                            implent. Passus quoque .cxx. stadium est. Et viii stadia mille passus efficiunt. xii pedes
+                            perticam faciunt. xii pertice arripinam faciunt. xii arripine (-ae <ref type="ms"
+                                target="LBLVB6">V</ref>) uigem (sic, and in <ref type="ms" target="LBLVB6">V</ref>)
+                            faciunt </ab>
+                        <ab>(<ref type="ms" target="LBLVB6">V, f. 107r</ref>)</ab>
+                        <ab> In principio creauit deus caelum et terram mare et omnia. que in eis sunt simul. Prima die
+                            lucem .ii. firmamentum .iii. herbas et ligna pomifera .iiii. solem et lunam et stellas et
+                            omnia sidera </ab>
+                        <ab locus="69v">Ending</ab>
+                        <explicit locus="69v">et sanctificauit ilium, quia in ipso requieuit ab omni opere suo quod
+                            creauit</explicit>
+                        <ab>(Not in <ref type="ms" target="LBLVB6">V</ref>)</ab>
+                        <ab>This group of paragraphs, from <hi rend="italic">De trina incarnatione</hi>, occurs again in
+                                <ref type="ms" target="CCC320">MS 320, ff. 95-100</ref>. Some of the matter is also
+                            found in <ref type="ms" target="LBLJA2">Julius A. 2</ref> in Anglo-Saxon, printed by <ref
+                                type="bibl" target="Napier 1889">Napier, <hi rend="italic">Anglia</hi>, XI, 1</ref>.<lb/>
+                            <hi rend="italic">Christianus Historicus</hi> I believe to be <name type="person">Cosmas
+                                Indicopleustes</name>. The dimensions of the earth according to him agree with those
+                            given above. He conceives of it as oblong in form, and compares it with the tabernacle and
+                            the ark. I connect the citation of him here with a letter of <name type="person">Koaena
+                                archbishop of York</name> to <name type="person">Lullus of Mainz</name>, in which
+                            certain <q>libri cosmografiorum</q> are mentioned. (<ref type="bibl" target="Jaffé 1866"
+                                >Jaffe, <hi rend="italic">Monumenta Moguntina</hi>, p. 291</ref>.) See <ref type="bibl"
+                                target="Winstedt 1909">Mr E. O. Winstedt's <hi rend="italic">Cosmas Indicopleustes</hi>,
+                                Cambridge, 1909, p. ix</ref></ab>
+                    </msItem>
+
+                    <msItem n="2" locusStart="70r" locusEnd="92v">
+                        <head type="CCC"><name type="author">Bede the Venerable</name>, <title>Vita <name type="person"
+                                    >Sancti Cuthberti</name> metrica, with glossary</title></head>
+                        <head type="Nasmith">
+                            <title>Liber de miraculis sancti <name type="person">Cuthberti</name> episcopi,
+                                versu</title>
+                        </head>
+                        <ab>Next follows a list of the difficult words that occur in the metrical Life of <name
+                                type="person">St Cuthbert</name>, with their interpretations. About one-third are in
+                            Anglo-Saxon</ab>
+                        <rubric locus="70r">Haec sunt quae in libello sequenti caraxata sunt atque archana</rubric>
+                        <ab> Tetricas obscuritates<lb/> ...<lb/> Chalubum est de qua optimum ferrum uenit </ab>
+                        <ab>
+                            <supplied>
+                                <ref type="bibl" target="Cameron 1973">Cameron D5</ref>
+                            </supplied>
+                        </ab>
+                        <rubric locus="71r">Incipit epistola <name type="author">bede</name> presbiter ad <name
+                                type="person">iohannem presbiterum</name></rubric>
+                        <ab>(<ref type="bibl" target="Migne 094">XCIV 575</ref>)</ab>
+                        <incipit locusNew="71r">Domino in domino dominorum dilectissimo</incipit>
+                        <explicit>intercedere memineris</explicit>
+                        <rubric locus="72r">Incipit liber de miraculis Sancti <name type="person">Cudberhti</name>
+                            episcopi</rubric>
+                        <incipit locus="72r">Multa suis dominus fulgescere lumina saeclis</incipit>
+                        <ab>
+                            <decoNote>Initials after the first are plain capitals filled with colour</decoNote>
+                        </ab>
+                        <ab>Ends</ab>
+                        <explicit locus="92v">Vita manens castis lumenque salusque per aeuum</explicit>
+                        <rubric locus="92v"><name type="author">baede</name> famuli Christi et presbiteri. Explicit
+                            liber de uirtutibus Sancti <name type="person">Cudberhti</name> lindisfarnensis aecclesie
+                            episcopi deo gratias. Amen</rubric>
+                    </msItem>
+
+                    <msItem n="3" locusStart="92v" locusEnd="96v">
+                        <head type="CCC">
+                            <title>Mass and Office of <name type="person">St Cuthbert</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Missa et officium S. <name type="person">Cuthberti</name></title>
+                        </head>
+                        <rubric locus="92v">Incipit hymnus Sancti <name type="person">Cudberhti</name> episcopi</rubric>
+                        <incipit locusNew="92v">
+                            <lg>
+                                <l>Magnus miles mirabilis</l>
+                                <l>...</l>
+                                <l>Gloria patri ingenito. gloria unigenito</l>
+                            </lg>
+                        </incipit>
+                        <rubric locus="93r">Missa Sancti <name type="person">Cudberhti</name> xiii kal. Aprilis siue II.
+                            non. septembris quod est translatio eius</rubric>
+                        <ab>With marginal additions, noted (of cent. <origDate>xi ?</origDate>), to the Preface</ab>
+                        <rubric locus="94r">In uigilia Sancti <name type="person">Cudberhti</name> ad uesperos</rubric>
+                        <ab locus="95v">Ending with Antiphons <hi rend="italic">in matutinis laudibus</hi></ab>
+                        <ab locus="96r">blank</ab>
+                        <ab locus="96v">in three hands</ab>
+                        <ab>(a)</ab>
+                        <ab><decoNote>with neumes</decoNote>: sequence for <name type="person">St Cuthbert</name>:
+                                <handNote>in a fine hand</handNote> (<date>x?</date>)</ab>
+                        <incipit>Hodiernus sacratior uenerandus in orbe dies preclarus ubique</incipit>
+                        <explicit>Hoc nobis cunctipotens tribuat clementiam domine</explicit>
+                        <ab>(b)</ab>
+                        <ab>a list of vessels etc. in Anglo-Saxon (<origDate>x-xi?</origDate>)</ab>
+                        <ab> Tea . calices 7<!--&#8266;--> sex . disces . 7<!--&#8266;--> . t&#447;oegentig
+                            bleod<lb/>. 7<!--&#8266;--> . feo&#447;er steapas . 7<!--&#8266;--> . an
+                            b&#230;lt. 7<!--&#8266;--> an hana 7<!--&#8266;--><lb/>&#240;rea . condel.
+                            stafas . 7<!--&#8266;--> . fif. tene . cuppa . 7<!--&#8266;--> . fiftene bleda
+                            7<!--&#8266;--> nion leoda 7<!--&#8266;--> an cetel . 7<!--&#8266;-->
+                            fif<lb/>calices . 7<!--&#8266;--> fea&#447;er . discas . 7<!--&#8266;--> sex
+                            tene . hornas . gerinade . 7<!--&#8266;--> &#240;rea . un . rinade </ab>
+                        <ab>
+                            <supplied>
+                                <ref type="bibl" target="Cameron 1973">Cameron B16.8.4</ref>
+                            </supplied>
+                        </ab>
+                        <ab>This list coincides to a slight extent only with the list of presents made to <name
+                                type="place">St Cuthbert's church</name> by <name type="person">Aethelstan</name> in
+                                <date>931</date>: see above</ab>
+                        <ab>(c)</ab>
+                        <ab>One line erased, beginning with a W</ab>
+                        <ab>(d)</ab>
+                        <ab> Walchear b. 7 eal sce cu&#240;berhtes hyred sealdan ealdgy&#240;e &#254;at land
+                            &#230;t &#240;ornhla&#447;a<lb/>to &#254;yse male &#254;at is
+                            &#254;us &#254;at gyf heo hit forl&#230;te&#240; beo hit &#230;t deadum
+                            o&#240;&#240;e &#230;t c&#447;icum <lb/> s&#447;a s&#447;a hyre
+                            &#254;earfe sy . &#254;at mala is viii exen 7 xii cyg. 7 iiii menn. 7 eac
+                            h&#233;l&#230;nde hyre &#254;at land &#230;t &#447;inde gatum ealle
+                            &#240;a h&#447;ile &#254;e hyre &#254;earf by&#240; </ab>
+                        <ab>
+                            <supplied>
+                                <ref type="bibl" target="Cameron 1973">Cameron B16.8.2</ref>
+                            </supplied>
+                        </ab>
+                    </msItem>
+
+
+
+
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, SP 7/10/08, CF</p>
+                            <p>msCheck: RJR </p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

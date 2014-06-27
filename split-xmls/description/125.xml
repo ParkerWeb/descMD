@@ -1,0 +1,170 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC125">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>125</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Misc. 9</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Martin Bucer, Constans defensio. Hermann von Wied, Archbishop of Cologne, Apologia,
+                    Appellatio contra capitulum Coloniense</head>
+                <head type="James">M. Bucer. Abp Hermann</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">302</height>
+                        <width unit="mm">193</width>
+                    </measureGrp>
+                    <measureGrp type="James">11.8 x 7.5</measureGrp>, <extent>706 pp. of manuscript numbered</extent>.
+                    Cent. <origDate>xvi</origDate>, <handNote>very neatly written in red and black: probably all in the
+                        hand of <name type="person">Martin Brem</name> who writes the dedication</handNote>.</p>
+
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-iii + 1-125 + 125a + 126-209 (210 missing) + 211-392 + c-d</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="2r">
+                        <head type="CCC">
+                            <name type="author">Martin Brem</name>, <title>Dedicatory letter to <name type="person"
+                                    >Matthew Parker</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Epistola dedicatoria <name type="author">Martini Brem</name> ad <name type="person"
+                                    >M. Parker</name></title>
+                        </head>
+                        <ab>
+                            <quote>
+                                <q>Hic <name type="author">Martinus</name> amanuensis fuit <name type="person">D.
+                                        Martini Buceri</name>, post cujus obitum <name type="person">Mattheus
+                                        Parker</name> Magister <name type="place">Collegii Corporis Christi
+                                        Cantabrigiae</name> eum fovit in collegio suo, qui hunc librum de Germanico
+                                    transtulit et exaravit A.D. <date>1550</date></q>
+                            </quote>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="2" locusStart="2r" locusEnd="2v">
+                        <head type="CCC">
+                            <name type="author">Matthew Parker</name>, <title>Testimonium of <name type="person">Hermann
+                                    von Wied</name>'s Apologia</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Testimonium <name type="author">Parkeri</name> de hoc opere</title>
+                        </head>
+                        <ab>
+                            <quote>
+                                <q>In hoc commentario condendo tantum elaboravit <name type="person">D. Martinus
+                                        Bucerus</name>, ut aliquoties <name type="author">D. Mattheo Parkero</name> viva
+                                    voce Cantabrigiae testatus sit, se totum hoc opere (si unquam vel ingenio valuerit
+                                    vel diligentia vel eruditione) exhibuisse. Cujus rei periculum si diligens lector
+                                    facere velit, primum in manum sumat eum librum quern ipse nomine <name type="person"
+                                        >Hermanni Coloniensis archiepiscopi</name> scripsit, cui titulum fecit
+                                    Reformatio Coloniensis ecclesiae, secundo legat <name type="place"
+                                        >Coloniensium</name> scriptum quod Anti(di)dagma vocant, postremo hoc responsum
+                                    evolvat diligenter conferat et judicet.</q>
+                            </quote>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="3" locusStart="3r" locusEnd="370r">
+                        <head type="CCC">
+                            <name type="author">Hermann von Wied, Archbishop of Cologne</name>, <title>Apologia</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Apologia scripta nomine <name type="author">Hermanni</name></title>
+                        </head>
+                        <ab>There is a red chalk pagination at the beginning from 30 to 83: these pages contain <name
+                                type="author">Hermann</name>'s Apologia and Table. The Apologia follows the title-page
+                            immediately. There is an erasure on the title-page</ab>
+                    </msItem>
+
+                    <msItem n="4" locusStart="370v" locusEnd="379v">
+                        <head type="CCC">
+                            <name type="author">Martin Bucer</name>, <title>Constans defensio</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Martini Buceri</name> responsio ad anti(di)dagma
+                                Coloniense</title>
+                        </head>
+                        <ab>The <hi rend="italic">Antididagma</hi> was printed in <date>1544</date> and
+                                <date>1549</date>. I do not find that this reply was ever printed</ab>
+                    </msItem>
+
+                    <msItem n="5" locusStart="380r" locusEnd="391v">
+                        <head type="CCC">
+                            <name type="author">Hermann von Wied, Archbishop of Cologne</name>, <title>Appellatio contra
+                                capitulum Coloniense</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Appellatio <name type="author">Hermanni archiepiscopi Coloniensis</name> contra
+                                capitulum Coloniense, <date>1545</date></title>
+                        </head>
+                        <ab>The printed <hi rend="italic">Appellatio Hermanni</hi> at the end occupies 12 leaves</ab>
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: NJC 2/12/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

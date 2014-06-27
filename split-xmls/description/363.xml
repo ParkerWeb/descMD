@@ -1,0 +1,126 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC363">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>363</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>19. 12</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Nennius (attrib.), Historia Brittonum</head>
+                <head type="James"><q>Gildas</q> (Historia Brittonum)</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">248</height>
+                        <width unit="mm">181</width>
+                    </measureGrp>, <measureGrp type="James">9.8 x 7.3</measureGrp>, <extent>ff. 13</extent>, <layout>35
+                        lines to a page</layout>. Cent. <origDate>xv late? or xvi early</origDate>, <handNote>in a
+                        careful hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a quire of 12 (one canc. and two prefixed)</collation>.</p>
+
+                <p function="Research" rend="afterContent">The text is of course not <name type="author">Gildas</name>,
+                    but the <hi rend="italic">Historia Brittonum</hi> commonly known as <name type="author"
+                        >Nennius</name>. This copy is mentioned by <ref type="bibl" target="Mommsen 1898">Mommsen in his
+                        edition (p. 122)</ref> but is not collated.</p>
+
+                <p type="CCC">
+                    <foliation>ff. 1-2 + 2a + 3-13</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="eng">Latin and English.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="13v">
+                        <head type="CCC">
+                            <name type="author">Nennius (attrib.)</name>, <title>Historia Brittonum</title>
+                        </head>
+
+                        <ab>ff. <locus>1r</locus>-<locus>2r</locus> are <handNote>in a different (and later)
+                                hand</handNote> from that of the text following</ab>
+                        <incipit locus="1r"><name type="author">Gildas</name> vir grandis autoritatis in
+                            historia</incipit>
+                        <explicit locusNew="2r">Et patet ex his paucis qualis sit processus libri illius quem de gestis
+                            brittonium scripsit auctor superius memoratus</explicit>
+
+                        <ab locus="2r">An English anecdote (<origDate>xvi</origDate>) of <name type="person"
+                                >Themistocles</name></ab>
+                        <ab>f. <locus>2v</locus> blank</ab>
+                        <rubric locus="3r">Hic incipit liber <name type="author">Gilde</name> sapientis de gestis
+                            Britonum</rubric>
+                        <incipit locusNew="3r">A principio mundi usque ad diluuium anni II. cc. xl. ii<abbr
+                                rend="superscript">o</abbr></incipit>
+                        <ab>On the margins of f. <locus>5r</locus> are scribbled names (<origDate>xvi</origDate>):
+                                <lb/><name type="person">Robert</name>, <name type="person">Gilbert</name>, <name
+                                type="person">James</name>, <lb/><name type="person">Hargreues</name>, <lb/><name
+                                type="person">Seleres</name></ab>
+
+                        <ab>Ends:</ab>
+                        <explicit locus="13r">quamvis habitaret solus in extremis finibus cosmi</explicit>
+
+
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: NJC 9/12/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

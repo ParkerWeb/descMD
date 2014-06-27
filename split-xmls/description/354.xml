@@ -1,0 +1,108 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC354">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>354</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>11. 6</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>331</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Ranulf Higden OSB, Polychronicon, transl. by John Trevisa</head>
+                <head type="James">Trevisa's Polychronicon</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">295</height>
+                        <width unit="mm">204</width>
+                    </measureGrp>, <measureGrp type="James">11.5 x 8.5</measureGrp>, <extent>ff. cir. 200</extent>,
+                        <layout>50 and more lines to a page</layout>. Cent. <origDate>xv-xvi</origDate>, <handNote>in
+                        various hands, very irregularly and badly written:</handNote> some leaves are bound upside down:
+                    a very shabby ugly book.</p>
+
+                <p type="CCC">
+                    <foliation>ff. 1-182</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="eng">English.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="182v">
+                        <head type="CCC">
+                            <name type="author">Ranulf Higden OSB</name>, <title>Polychronicon, transl. by <name
+                                    type="author">John Trevisa</name></title>
+                        </head>
+
+                        <ab>Begins imperfectly (Liber I, capitulum 23)</ab>
+                        <incipit locusNew="1r"><name type="person">Isidorus</name> li<abbr rend="superscript">o</abbr>
+                                14<abbr rend="superscript">o</abbr>. We redeth in stories</incipit>
+                        <ab>See <ref type="bibl" target="Babington 1865">Rolls</ref> edition, I 199</ab>
+                        <ab>Ends liber VII, capitulum 22</ab>
+                        <explicit locusNew="182v">&#254;is <name type="person">Ioachym</name> &#254;at he
+                            descryued as it were by prophecye &#254;e maners</explicit>
+                        <ab>(<ref type="bibl" target="Lumby 1882">Rolls</ref> edition, vol. VIII, p. 43, l. 5)</ab>
+                        <ab>It was not used for the Rolls edition</ab>
+
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 19/03/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

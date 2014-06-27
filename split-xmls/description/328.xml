@@ -1,0 +1,298 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC328">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>328</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>J. 12</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>102</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Lives of Saints Dunstan, Odo, Maiolus and Odilo</head>
+                <head type="James">Vitae Dunstani, Odonis, Maioli, Odilonis</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">225</height>
+                        <width unit="mm">148</width>
+                    </measureGrp>, <measureGrp type="James">8.9 x 6</measureGrp>, <extent>ff. 41 + 75</extent>,
+                        <layout>32 and 29 lines to a page: two volumes</layout> of cent. <origDate>xi and xii
+                        early</origDate>, <handNote>the first in the <name type="place">Christ Church
+                            (Canterbury)</name> hand, the second in a larger and rounder hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num> (+1*) 2<num>8</num> 3<num>10</num> 4<num>8</num> 5<num>6</num> ||
+                            I<num>12</num>-III<num>12</num> IV<num>10</num>-VII<num>10</num> (wants 10): old pagination
+                        incorrect</collation>.</p>
+
+                <p function="Provenance">Belonged to <name type="place">Winchester Cathedral Priory</name>: at the
+                    bottom of the first leaf (<supplied>previously</supplied> covered with paper) in a large hand of
+                    cent. <date>xiii-xiv</date>:<lb/> Liber <name type="place">ecclesie sancti Swythuni
+                    Wyntonie</name><lb/> Vita beati <name type="person">Dunstani archiepiscopi</name><lb/> Vita beati
+                        <name type="person">Odonis abbatis</name>.<lb/> I have little doubt that the first volume was
+                    written at <name type="place">Canterbury</name> and sent to <name type="place"
+                    >Winchester</name>.</p>
+
+
+                <p type="CCC">
+                    <foliation>pp. a-d + i-ii + 1-230 + e-h</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+                    <milestone n="I" unit="volume"/>
+                    <msItem n="1.1" locusStart="1" locusEnd="75">
+                        <head type="CCC">
+                            <name type="author">Osbern of Canterbury OSB</name>, <title>Vita et miracula <name
+                                    type="person">Sancti Dunstani</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Vita <name type="person">sancti Dunstani archiepiscopi</name> et confessoris per
+                                    <name type="author">Osbernum</name> libri ii. Inseritur missa de <name type="person"
+                                    >Sancto Dunstano</name> cum notis musicis</title>
+                        </head>
+
+                        <ab locus="1">
+                            <decoNote>Title in red capitals. Initial of text, in outline washed with red and green, has
+                                dragons</decoNote>
+                        </ab>
+                        <rubric locusNew="1">Epistola de vita <name type="person">Sancti Dunstani
+                            archiepiscopi</name></rubric>
+                        <rubric locusNew="1">Universis catholice matris ecclesie filiis ... <name type="author"
+                                >osbearnus</name></rubric>
+                        <explicit locusNew="2">ista aggredi temptabo</explicit>
+                        <rubric locusNew="2">Explicit Epistola</rubric>
+                        <rubric locus="2">Incipit vita <name type="person">Sancti Dunstani archiepiscopi</name> et
+                            confessoris</rubric>
+                        <ab>
+                            <decoNote>(red and green capitals)</decoNote>
+                        </ab>
+                        <incipit locusNew="3">Regnante magnifico rege Anglorum <name type="person"
+                            >Ethelstano</name></incipit>
+                        <ab locus="49">Liber II</ab>
+                        <ab>Ends</ab>
+                        <explicit locusNew="75">Gloria spiritui sancto qui illum sua gratia illuminauit. uni. soli. uiuo
+                            et uero deo. laus. et gratiarum actio per infinita secula seculorum. amen</explicit>
+                        <ab>Printed in <ref type="bibl" target="Stubbs 1874">Stubbs' Memorials of Dunstan</ref>, p.
+                            69</ab>
+
+
+                    </msItem>
+
+                    <msItem n="1.2" locusStart="75" locusEnd="79">
+                        <head type="CCC">
+                            <title>Mass for <name type="person">St Dunstan</name></title>
+                        </head>
+
+                        <rubric locus="75">Missa de <name type="person">Sancto Dunstano</name></rubric>
+                        <ab>
+                            <decoNote>The prose is noted</decoNote>
+                        </ab>
+                        <ab><ref type="bibl" target="Stubbs 1874">Stubbs, Memorials of Dunstan</ref>, p. 442</ab>
+
+                    </msItem>
+
+                    <msItem n="1.3" locusStart="79" locusEnd="80">
+                        <head type="CCC">
+                            <name type="author">Eadmer</name>, <title>Vita <name type="person">Sancti Dunstani</name>
+                                (abridged excerpts)</title>
+                        </head>
+
+                        <ab locus="79"> On this page, <handNote>in a different hand</handNote>, is a rather confused
+                            text. The first part begins</ab>
+
+                        <incipit locus="79">Ordo clericalis ea tempestate plurimum erat corruptus</incipit>
+                        <ab>It has the story of <name type="person">Aethelwold</name> and the Canons of <name
+                                type="place">Winchester</name> and is an abridgment of <name type="author"
+                            >Eadmer</name>'s <ref type="bibl" target="Stubbs 1874">Life of Dunstan</ref>, pp.
+                            211-13</ab>
+                        <explicit locusNew="79">Audiuimus uere. Resederunt</explicit>
+
+                        <ab>It concludes with the miracle of the chasuble hanging in air (<ref type="bibl"
+                                target="Stubbs 1874">Eadmer</ref>, p. 204)</ab>
+
+
+                        <ab>p. <locus>80</locus> blank</ab>
+                    </msItem>
+
+
+
+                    <milestone n="II" unit="volume"/>
+                    <msItem n="2" locusStart="81" locusEnd="174">
+                        <head type="CCC">
+
+                            <title>Life of <name type="person">St Odo of Cluny</name></title>
+
+                        </head>
+                        <head type="Nasmith">
+                            <title>Vita <name type="person">Odonis abbatis Cluniacensis</name> per <name type="author"
+                                    >Iohannem fratrem</name> libri iii. </title>
+                        </head>
+                        <ab>
+                            <quote>Hic <name type="author">Iohannes</name> discipulus fuit <name type="person"
+                                    >Odonis</name> et claruit seculo <date>X</date>, non <date>XI<abbr
+                                        rend="superscript">o</abbr></date>, ut, nescio qua autoritate, asseritur in
+                                veteri catalogo</quote>
+                        </ab>
+
+
+                        <ab>
+                            <decoNote>Title in red capitals. Initial in red with some ornament</decoNote>
+                        </ab>
+                        <rubric locus="81">Incipit Prologus in vita <name type="person">Beati Odonis
+                            abbatis</name></rubric>
+                        <incipit locusNew="81">Dominis et in Christo fratribus dilectissimis Salerniensibus seruus
+                            Christi <name type="author">Iohannes</name>. Librum quem doctissimus <name type="person"
+                                >palladius</name></incipit>
+
+                        <explicit locusNew="83">cum metullus (me tellus) italica edidit. et intra sept[e]a ecclesie
+                            nutriuit</explicit>
+                        <rubric locusNew="83">Explicit prologus</rubric>
+                        <rubric locus="83">Incipit vita ipsius domni <name type="person">Odonis abbatis</name></rubric>
+                        <incipit locusNew="83"><name type="person">Odo</name> igitur uir beatissimus ex francorum
+                            prosapia extitit</incipit>
+                        <ab locus="116">Liber II</ab>
+                        <ab locus="141"><supplied>Liber</supplied> III</ab>
+                        <explicit locusNew="174">resplendet candore beate immortalitatis per christum dominum nostrum
+                            qui uiuit et regnat in secula seculorum. amen</explicit>
+                        <ab>Cf. <ref type="ms" target="CCC161">MS 161. 12</ref></ab>
+
+                    </msItem>
+
+
+                    <msItem n="3" locusStart="174" locusEnd="200">
+                        <head type="CCC">
+                            <name type="author">Odilo of Cluny OSB</name>, <title>Vita <name type="person">Sancti
+                                    Maioli</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Vita <name type="person">Majoli abbatis Cluniacensis</name> per <name type="author"
+                                    >Odilonem</name></title>
+                        </head>
+
+                        <rubric locus="174">Incipit Prefatio <name type="author">patris Odilonis</name> in vita beati
+                                <name type="person">Maioli abbatis</name></rubric>
+                        <incipit locusNew="174"><name type="person">Hugoni</name> et karissimo fratri <name
+                                type="person">Almano</name>
+                            <name type="author">Odilo</name> presbiter</incipit>
+                        <explicit locusNew="176">nostra fraternitas optat et orat</explicit>
+                        <rubric locusNew="176">Explicit prefatio</rubric>
+                        <rubric locus="176">Incipit vita beati <name type="person">Maioli abbatis</name></rubric>
+                        <incipit locusNew="176">Post apostolorum et euangelistarum sacrosancta</incipit>
+
+                        <explicit locusNew="200">qui est uia ueritas et uita dominus uidelicet Ihesus Christus qui uiuit
+                            et regnat per omnia secula seculorum. Amen</explicit>
+                        <ab>Cf. <ref type="ms" target="CCC161">MS 161. 13</ref></ab>
+
+                    </msItem>
+
+
+                    <msItem n="4" locusStart="200" locusEnd="230">
+                        <head type="CCC">
+                            <name type="author">Peter Damian OSB</name>, <title>Vita <name type="person">Sancti
+                                    Odilonis</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Vita <name type="person">Odilonis abbatis Cluniacensis</name> per <name type="author"
+                                    >Petrum Damianum</name></title>
+                        </head>
+
+                        <rubric locus="201" locusNew="200">Incipit prologus vite beati <name type="person">Odilonis
+                                abbatis</name></rubric>
+                        <incipit locusNew="200"><name type="author">Petrus damianus</name> sanctis ecclesiis</incipit>
+                        <explicit locusNew="202">a nota mendacii nos exhibeat alienos</explicit>
+                        <rubric locus="202">Incipit vita beati <name type="person">Odilonis abbatis</name></rubric>
+                        <incipit locusNew="202">Beatus igitur <name type="person">Odilo</name> arue(r)nie
+                            oriundus</incipit>
+
+                        <explicit locusNew="230">que succincta breuitate perstrinximus ad honorem et gloriam redemptoris
+                            nostri Ihesu Christi qui cum deo patre et spiritu sancto uiuit et gloriatur in secula
+                            seculorum. Amen</explicit>
+
+                        <ab>Cf. <ref type="ms" target="CCC161">MS 161. 14</ref></ab>
+
+                    </msItem>
+
+
+                    <msItem n="5" locusStart="230" locusEnd="230">
+                        <head type="CCC">
+                            <title>Mass for <name type="person">St Odilo of Cluny</name></title>
+
+                        </head>
+
+                        <rubric locus="230">Missa de <name type="person">Sancto Odilone</name></rubric>
+                        <rubric locusNew="230">Oratio</rubric>
+                        <incipit locusNew="230">Deus qui beato <name type="person">odiloni</name> super gregis tui
+                            dedisti uigilare</incipit>
+                        <rubric locusNew="230">Secreta</rubric>
+                        <incipit locusNew="230">Oblatum tibi sacrificium quesumus domini beati <name type="person"
+                                >odilonis</name> commendet oratio</incipit>
+                        <rubric locusNew="230">Postcommunio</rubric>
+                        <incipit locusNew="230">Da quesumus omnipotens deus ut intercedente beato <name type="person"
+                                >odilone</name> confessore tuo</incipit>
+
+
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, SP, CF</p>
+                            <p>msCheck: SP 5/8/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,141 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC519">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>519</idno>
+                    <altIdentifier type="Elbing">
+                        <idno>N. 21</idno>
+                    </altIdentifier>
+
+                </msIdentifier>
+                <head type="CCC">Nicholas Wigandi (attrib.), Tractatus de septem sacramentis. Matthew of Krakow,
+                    Dialogus rationis et conscientiae de frequenti usu communionis. David of Augsburg OFM, De exterioris
+                    et interioris hominis compositione (extract) </head>
+                <head type="James">[Untitled]</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">293</height>
+                        <width unit="mm">218</width>
+                    </measureGrp>, <measureGrp type="James">11.5 x 8.8</measureGrp>, <extent>ff. 137</extent>,
+                        <layout>double columns of 42 lines</layout>. Cent. <origDate>xiv-xv</origDate>, <handNote>clear
+                        hand</handNote>. Last quires tender from damp.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>10</num> (1 loose) 2<num>12</num> 3<num>10</num> 4<num>12</num> 5<num>10</num>
+                            6<num>12</num> 7<num>12</num> 8<num>16</num> (1 canc.) | 9<num>10</num>-11<num>10</num> (one
+                        canc. in 2nd half) 12<num>10</num> 13 (five)</collation>.</p>
+
+                <p function="Provenance">
+                    <supplied agent="bla"><name type="person">Mary Pernham</name> on f. <locus>1v</locus></supplied>
+                </p>
+                <p function="Additions">Binding, white skin over boards, no tags, label, bosses or straps.</p>
+                <p function="Additions">In the cover (on the wood) is written:<lb/> Post mortem <name type="person"
+                        >Georgii metheloff</name> liberarie <name type="place">Elbing</name>.</p>
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-137 + iii-iv + v-vi (binding fragments)</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="81v">
+                        <head type="CCC">
+                            <name type="author">Nicholas Wigandi (attrib.)</name>, <title>Tractatus de septem
+                                sacramentis</title>
+                        </head>
+                        <ab>Title at top only partly legible</ab>
+                        <rubric locus="1r">Liber de vij sacramentis (?)</rubric>
+                        <incipit locusNew="1r">Non est opus valentibus medico sed male habentibus</incipit>
+                        <ab>Ends apparently</ab>
+                        <explicit locusNew="81v">diffinitiue sentenciatus, etc. Et sic finis huius materie pro quo deus
+                            deorum sit benedictus in secula seculorum.</explicit>
+                    </msItem>
+
+                    <msItem n="2" locusStart="81v" locusEnd="93v">
+                        <head type="CCC"><name type="author">Matthew of Krakow</name>, <title>Dialogus rationis et
+                                conscientiae de frequenti usu communionis</title></head>
+                        <rubric locus="81v">Incipit tractatus de consciencia et racione</rubric>
+                        <incipit locusNew="81v">Multorum tam clericorum quam laycorum</incipit>
+                        <explicit locusNew="93v">datum est nobis corpus domini nostri Ihesu Christi qui cum patre et
+                            spiritu sancto uivit et regnat in secula seculorum. Amen</explicit>
+                        <rubric locusNew="93v">Explicit tractatulus reuerendi <name type="author">magistri Mathei</name>
+                            doctoris egregii ipsa In vigilia penthecosten finitus per manus <name type="person"
+                                >Wenczeslay Sporiczeri de Chomuthaw</name></rubric>
+                    </msItem>
+
+                    <msItem n="3" locusStart="94r" locusEnd="137v">
+                        <head type="CCC"><name type="author">David of Augsburg OFM</name>, <title>De exterioris et
+                                interioris hominis compositione (extract)</title></head>
+
+                        <head type="James"><title>Tractatus de Viciis et Virtutibus</title> (<name type="author">David
+                                Augustanus</name>)</head>
+                        <incipit locusNew="94r">Profectus religiosi distinguntur processibus licet non ab omnibus
+                            attingantur</incipit>
+                        <ab>The next section begins</ab>
+                        <incipit locusNew="94r">Corporalis exercitatio in duobus consistit</incipit>
+                        <ab>The treatise occupies the rest of the volume and ends imperfectly treating of Devotio</ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: CF 21.1.2009</p>
+                            <p>remarks: Check foliation - foldouts?? SP 21/9/09.</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

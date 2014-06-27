@@ -1,0 +1,143 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC475">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>475</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>M. 15</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>153</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Zacharias of Besançon OPrem, De concordia euangelistarum</head>
+                <head type="James">Harmony of the Gospels</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">145</height>
+                        <width unit="mm">105</width>
+                    </measureGrp>, <measureGrp type="James">5.8 x 4.2</measureGrp>, <extent>ff. 100</extent>, <layout>23
+                        lines to a page</layout>. Cent. <origDate>xii early</origDate>, <handNote>in fine small pointed
+                        hand</handNote>.</p>
+
+
+
+                <p><label>Collation:</label>
+                    <collation>1 (two) 2<num>8</num>-12<num>8</num> 13<num>10</num></collation>.</p>
+                <p><label>2 fo.:</label>
+                    <secFol>auctor extitit</secFol>.</p>
+                <p function="Additions">At top of f. <locus>1r</locus>
+                    <handNote>in a late hand</handNote> over an erasure:<lb/> Concordancie ewangeliorum <name
+                        type="author">Zacharie</name>.<lb/> Cf. <ref type="ms" target="CCC027">no. 27</ref>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + 1-100 + c</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="100r">
+                        <head type="CCC">
+                            <name type="author">Zacharias of Besançon OPrem</name>, <title>De concordia
+                                euangelistarum</title>
+                        </head>
+
+                        <ab locus="1r">Prologue without title, and <handNote>in a different hand from what
+                                follows</handNote></ab>
+                        <incipit locus="1r">Cum fortuitu in manus meas incideret unum ex quatuor euangelium compositum.
+                            et absente titulo non inuenirem nomen auctoris</incipit>
+                        <explicit locusNew="3r">et que sunt bona sectemur</explicit>
+                        <ab locus="3v">blank</ab>
+                        <rubric locus="4r">Incipit Prefatio Zacharie Crisopolitani in unum ex quatuor</rubric>
+                        <ab>(<ref type="bibl" target="Migne 186">CLXXXVI 11</ref>)</ab>
+                        <incipit locusNew="4r">Vnum ex euangelistarum dictis euangelium claro studio composuit ammonius
+                            alexandrinus</incipit>
+                        <explicit locusNew="5v">huic operi applicari sepe opportere</explicit>
+                        <ab>Cf. <ref type="ms" target="CCC027">no. 27</ref></ab>
+                        <ab locus="6r">Capitula</ab>
+                        <incipit locus="10v">Quoniam quidem multi</incipit>
+                        <ab>(Prol. of Luke)</ab>
+                        <rubric locus="11r">Incipit unum ex quatuor</rubric>
+                        <incipit locusNew="11r">In principio erat uerbum</incipit>
+                        <explicit locusNew="27v">non perdet mercedem suam</explicit>
+                        <rubric locus="27v">Expositionis in unum ex quatuor liber</rubric>
+                        <rubric locus="27v">explicit primus</rubric>
+                        <rubric locus="27v">Incipit secundus</rubric>
+                        <incipit locusNew="27v">Et factum est cum consummasset Ihesus precipiens xii discipulis
+                            suis</incipit>
+                        <explicit locusNew="46v">sed a doctrina phariseorum et saduceorum</explicit>
+                        <rubric locusNew="46v">Incipit liber tercius ex quatuor in unum</rubric>
+                        <incipit locus="46v">Uenit Ihesus in partes cesaree philippi</incipit>
+                        <explicit locusNew="79v">iusti autem in uitam eternam</explicit>
+                        <rubric locus="79v">Incipit liber quartus</rubric>
+                        <incipit locusNew="79v">Et factum est cum consummasset Ihesus sermones hos omnes dixit
+                            discipulis suis. Scitis quia post biduum</incipit>
+                        <explicit locusNew="100r">confirmante sequentibus signis</explicit>
+                        <ab locus="100v">blank, pasted over</ab>
+
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: BLA 29/9/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

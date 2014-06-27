@@ -1,0 +1,179 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC582">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>582</idno>
+                    <altIdentifier type="Stanley">
+                        <idno/>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno/>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Statutes of Corpus Christi College, Cambridge (1548-9)</head>
+                <p>
+                    <supplied>This MS description is not part of the M. R. James catalogue; it is based in part on the
+                        description given in <ref type="bibl" target="Vaughan and Fines 1960">Vaughan and Fines,
+                            'Handlist', p. 120</ref>.</supplied>
+                </p>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">265</height>
+                        <width unit="mm">180</width>
+                    </measureGrp>, <measureGrp type="James">10.5 x 7.25</measureGrp>, <extent>ff. 22</extent>.
+                        <origDate>1574</origDate>.</p>
+
+                <p function="Provenance">Formerly known as the Black Book. The book was compiled by <name type="person"
+                        >Parker</name>, probably in <origDate>1574</origDate>.</p>
+
+                <p function="Additions"><decoNote>Three painted leaves, <supplied>the first (a portrait of <name
+                                type="person">Queen Elizabeth</name>) and last (a portrait of <name type="person"
+                                >Matthew Parker</name>) now glued to the front (<locus>fib</locus>) and back
+                                (<locus>bib</locus>) inner boards respectively</supplied></decoNote>.</p>
+
+                <p function="Binding">Contemporary Lambeth binding, gilt-tooled (reproduced in <ref type="bibl"
+                        target="Hobson 1929">G. D. Hobson, <hi rend="italic">Bindings in Cambridge Libraries</hi>
+                        (1929), pl. xxxv</ref>).</p>
+                <p function="Additions">Seal of the Court of High Commission, broken, formerly attached to the single
+                    blue and silver sewing cord.</p>
+
+                <p function="Research">Statutes printed by <ref type="bibl" target="Masters and Lamb 1831">J. Lamb, <hi
+                            rend="italic">Masters' History of Corpus Christi College</hi> (1831), pp. 279-93</ref>;
+                    Edward's charter and Elizabeth's commission in <ref type="bibl" target="Lamb 1838">J. Lamb, <hi
+                            rend="italic">A collection of letters, statutes and other documents ... illustrative of the
+                            history of the University of Cambridge during the period of the Reformation</hi> (1838), pp.
+                        122-3 and 275-8</ref>; list of books and furniture for Norwich scholars, <ref type="bibl"
+                        target="Stokes 1898">H. P. Stokes, <hi rend="italic">Corpus Christi</hi> (1898), pp. 68-9,
+                        note</ref>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i + 1-21</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="eng">Latin and English.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="2v">
+                        <head type="CCC">
+                            <title>Commission of <name type="person">Queen Elizabeth I</name> for the visitation of the
+                                    <name type="place">University</name>, <date>20 June 1559</date></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="2" locusStart="3r" locusEnd="3v">
+                        <head type="CCC">
+                            <title>Grant of new arms to <name type="place">Corpus Christi College</name> by <name
+                                    type="person">Robert Cook, Clarenceux King of Arms</name>, <date>23 December
+                                    1570</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="4r" locusEnd="12r">
+                        <head type="CCC">
+                            <title>Statutes of <name type="place">Corpus Christi College</name>
+                                (<date>1548-9</date>)</title>
+                        </head>
+                        <ab locusNew="4r">
+                            <supplied>
+                                <decoNote>Arms of the college</decoNote>
+                            </supplied>
+                        </ab>
+                        <ab locusNew="12r">Confirmed and signed by the ecclesiastical commissioners, <date>30 and 31
+                                January 1573/4</date></ab>
+                    </msItem>
+
+                    <msItem n="4" locusStart="12v" locusEnd="12v">
+                        <head type="CCC">
+                            <title><name type="person">Richard Billingford</name>'s statute concerning the Master of
+                                    <name type="place">Corpus Christi College</name>, <date>1416</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="5" locusStart="13r" locusEnd="13v">
+                        <head type="CCC">
+                            <title>Charter of <name type="person">Edward VI</name> introducing new statutes for <name
+                                    type="place">Cambridge University</name>, <date>8 April 1549/1550</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="6" locusStart="14r" locusEnd="21r">
+                        <head type="CCC">
+                            <title>Testimony of the gifts of Matthew Parker</title>
+                        </head>
+                        <rubric locusNew="14r">The testimony of the guiftes of <name type="person">Matthue Archb. of
+                                Cant.</name></rubric>
+                        <ab locusNew="14r"><supplied>The testimony was</supplied> drawn up by the Masters and Fellows of
+                                <name type="place">Corpus Christi College</name>, <name type="place">Gonville and Caius
+                                College</name> and <name type="place">Trinity Hall</name>, recording <name type="person"
+                                >Parker</name>'s gifts and good deeds to themselves and others, and listing the books he
+                            gave to the <name type="place">University Library</name>, the books and furniture he gave to
+                            Corpus Christi College for the use of the Norwich scholars, etc.</ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: typed from Vaughan and Fines 'Handlist' BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck:</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

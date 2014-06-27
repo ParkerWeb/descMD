@@ -1,0 +1,128 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC504">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>504</idno>
+                    <altIdentifier type="Elbing">
+                        <idno>N. 6</idno>
+                    </altIdentifier>
+
+                </msIdentifier>
+                <head type="CCC">Wordlist. Hugutio of Pisa (attrib.), Liber deriuationum</head>
+                <head type="James">[Untitled]</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">295</height>
+                        <width unit="mm">215</width>
+                    </measureGrp>, <measureGrp type="James">11.6 x 8.5</measureGrp>, <extent>ff. 72 + 249</extent>,
+                        <layout>two volumes, double columns of 48 lines</layout>. Cent. <origDate>xiv 1378</origDate>,
+                        <handNote>fairly well written</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>i<num>12</num>-vi<num>12</num> | 1<num>12</num>-20<num>12</num> ultimus<num>8</num>
+                        (+1)</collation>.</p>
+
+                <p function="Provenance"><name type="person">Mary Pernham</name>'s name on f. <locus>1v</locus>.</p>
+                <p function="Additions">Old binding, red skin over boards: paper label (<origDate>xv</origDate>) marked
+                    81, two metal tags, not perforated: one boss remains, and one strap.</p>
+                <p function="Additions">In the first cover a bit of a leaf with grammatical verses.</p>
+                <p function="Additions">In the second, a deed (cut at top) of <date>1369</date> headed:<lb/>
+                    <name type="person">Elizabetha</name> diuina miseracione abbatissa mon. sci. ...<lb/> It seems to
+                    record a sale, nostra villa <name type="place">Lybicz</name>. is mentioned and also podebrad.</p>
+                <p type="CCC">
+                    <foliation>ff. 1-323 + i</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+                    <milestone n="I" unit="volume"/>
+                    <msItem n="1" locusStart="1r" locusEnd="72v">
+                        <head type="CCC">
+
+                            <title>Wordlist</title>
+
+                        </head>
+                        <ab locus="1r">List of words, <layout>5 columns to a page</layout></ab>
+                        <ab>Aaron-Zografium</ab>
+                        <ab>ff. <locus>71r</locus>-<locus>72v</locus> blank</ab>
+                    </msItem>
+                    <milestone n="II" unit="volume"/>
+                    <msItem n="2" locusStart="73r" locusEnd="322v">
+                        <head type="CCC">
+                            <name type="author">Hugutio of Pisa</name> (attrib.), <title>Liber deriuationum</title>
+                        </head>
+                        <ab>
+                            <name type="author">Hugutio</name>
+                        </ab>
+                        <incipit locus="1r" locusNew="73r">Cum nostri prothoplasti suggestiua preuaricacione</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="248v" locusNew="322v">sidus</explicit>
+                        <rubric locusNew="322v">Finis adest operis mercedem posco laboris<lb/> Explicit hoc totum
+                            infunde da mihi potum</rubric>
+                        <rubric locusNew="322v">Sub anno domini <date>myllesimo trecentesimo septuagesimo octauo</date>
+                            finitus est post festum per ... trii feria quinta amen. Explicit <name type="author"
+                                >hugo</name> liber bonus</rubric>
+                        <ab locusNew="322v">A further list of words</ab>
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 17/12/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

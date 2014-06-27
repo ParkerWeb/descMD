@@ -1,0 +1,152 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC090">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>90</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>M. 3</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>142</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Thomas Netter of Walden OCarm, Doctrinale antiquitatum fidei</head>
+                <head type="James">Th. Walden Doctrinale Ecclesiae</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">396</height>
+                        <width unit="mm">270</width>
+                    </measureGrp>, <measureGrp type="James">15.5 x 10.5</measureGrp>, <extent>ff. 304 + 1</extent>,
+                        <layout>double columns of 49 and 50 lines</layout>. Cent. <origDate>xv</origDate>, <handNote>in
+                        two very clear regular hands, probably foreign</handNote>: <decoNote>with very beautiful
+                        ornaments</decoNote>. </p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num>-38<num>8</num></collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>sistam a longe</secFol>.</p>
+
+
+                <p function="Provenance"><supplied>(<locus>iv</locus>)</supplied> A note on <name type="author">Th.
+                        Walden</name> on the flyleaf <origDate>xvi</origDate>. Walden gave many books to the London
+                    Carmelites. This may perhaps be one of them.<lb/>
+                    <name type="person">Parker</name> gave another copy to the University Library: now <ref type="ms"
+                        target="CUL816">Dd. 8. 16</ref>, <ref type="ms" target="CUL817">17</ref>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a + i + 1-304 + b</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="304v">
+                        <head type="CCC"><name type="author">Thomas Netter of Walden OCarm</name>, <title>Doctrinale
+                                antiquitatum fidei</title></head>
+
+                        <incipit locusNew="1r"><name type="person">Martino</name> benignissimo pape (lined through)
+                            quinto uniuersi gregis Carmelitarum etc.</incipit>
+                        <ab locusNew="1r">
+                            <decoNote>Beautiful initial and partial border in the English style: executed with a very
+                                rare degree of delicacy. The gold is very fine</decoNote>
+                        </ab>
+                        <explicit locusNew="2v">et exitum tuum ex hoc nunc et usque in seculum</explicit>
+                        <rubric locus="2v">Prologus primus in doctrinale ecclesie contra blasfemias <name type="person"
+                                >Wycliff</name></rubric>
+                        <incipit locusNew="2v">Mea doctrina non est mea</incipit>
+                        <ab>(<ref type="bibl" target="Netter 1532">Printed at Paris in 1532</ref> etc.)</ab>
+                        <ab>Ends</ab>
+                        <explicit locusNew="8r">sed eius qui misit me</explicit>
+                        <rubric locus="8v">Liber primus de capita ecclesie Ihesu Christo in naturis suis disparibus,
+                            prologus</rubric>
+                        <incipit locusNew="8v">Exurgat deus et dissipentur etc.</incipit>
+                        <ab locusNew="8v">
+                            <decoNote>Here is an initial: red ground with gold flourishing. In C. a Pope in blue seated
+                                blessing. <name type="person">Walden</name> in white Carmelite habit kneels and presents
+                                his book. On L. two figures, on R. three (cardinals and doctors). Partial border again
+                                of very fine work</decoNote>
+                        </ab>
+                        <ab locus="9r">Articuli against <name type="person">Wycliff</name> follow</ab>
+                        <ab locusNew="9v">Cap. I begins</ab>
+                        <incipit locus="9v">In omni disputacione quam fecit noster <name type="person">iohannes</name>
+                            memorie ter dampnate</incipit>
+                        <ab>
+                            <decoNote>On ff. <locus>50v</locus>, <locus>63v</locus> (in Lib. I) are fine
+                                initials</decoNote>
+                        </ab>
+                        <ab locus="73r">Prologus libri II <decoNote>with fine initial</decoNote></ab>
+                        <ab locus="74v">Text <decoNote>with fine initial</decoNote></ab>
+                        <ab locus="224r">Prologus libri III <decoNote>with fine initial</decoNote></ab>
+                        <ab locus="260r">Capitula of Liber IV</ab>
+                        <ab locus="260v">Text <decoNote>with fine initial</decoNote></ab>
+                        <ab locusNew="304v">This Book ends imperfectly in ch. xlii</ab>
+                        <explicit locusNew="304v">Oportet clericos specialiter</explicit>
+
+
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: KW 6.11.2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

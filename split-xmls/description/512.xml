@@ -1,0 +1,270 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC512">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>512</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>N. 14</idno>
+                    </altIdentifier>
+
+                </msIdentifier>
+                <head type="CCC">Theological Tracts. Papal Bulls. Nicholas de Gorran OP (attrib.), Commentary on Psalms.
+                    Michael of Massa (Michele Beccucci de Massa) OESA, Historia passionis Jesu Christi</head>
+                <head type="James">[Untitled]</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">295</height>
+                        <width unit="mm">210</width>
+                    </measureGrp>, <measureGrp type="James">11.8 x 8.6</measureGrp>, <extent>ff. 1 + 297 + 1</extent>,
+                        <layout>double columns of 56, 44, etc. lines</layout>. Cent. <origDate>xv</origDate>,
+                        <handNote>in several hands</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>vellum flyleaf, 1<num>12</num>-14<num>12</num> | 15<num>12</num> 16<num>12</num> (3
+                        canc.) 17<num>12</num>-23<num>12</num> | 24<num>8</num> 25<num>14</num>, vellum
+                        flyleaf</collation>.</p>
+
+                <p function="Provenance"><name type="person">Mary P.</name> on f. <locus>1v</locus>.</p>
+                <p function="Binding">Binding as before: three metal tags, one perforated: label &#183;68&#183;.
+                    Cover lined with pieces of late MS.</p>
+                <p function="Additions">List of contents on flyleaf <supplied>(f. <locus>ir</locus>)</supplied>.</p>
+                <p type="CCC">
+                    <foliation>ff. a + i + 1-297 + ii</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="154v">
+                        <head type="CCC"><name type="author">Thomas Aquinas OP (attrib.)</name>, <title>Quaestiones
+                                super libros sententiarum (Abbreuiationes)</title></head>
+                        <head type="James">
+                            <title>Questiones accurtate 4<abbr rend="superscript">i</abbr> sententiarum <name
+                                    type="person">S. Thome de aquino</name> cum registro</title>
+                        </head>
+                        <incipit locusNew="1r">Utrum conuenienter diffiniatur sacramentum per hoc</incipit>
+                        <explicit locusNew="147v">finis ad quem omnia ordinantur. Cui est honor, etc.</explicit>
+                        <ab locus="147v">List of questions</ab>
+                    </msItem>
+
+                    <msItem n="2" locusStart="154v" locusEnd="157v">
+                        <head type="CCC">
+                            <title>Questio de bonorum translatione</title>
+                        </head>
+                        <rubric locus="153v" locusNew="154v">Questio de bonorum translatione</rubric>
+                    </msItem>
+
+                    <msItem n="3" locusStart="157v" locusEnd="160r">
+                        <head type="CCC">
+                            <title>Tract on the Eucharist</title>
+                        </head>
+                        <head type="James">
+                            <title>Quare cycatrices manserunt in Christo, et de 12 effectibus eukaristie cum
+                                aliis</title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="4" locusStart="160v" locusEnd="165v">
+                        <head type="CCC">
+                            <title>Bulls of Popes <name type="person">Clement VI</name>, <name type="person">Urban
+                                    VI</name>, <name type="person">Clement VII</name> and <name type="person">Boniface
+                                    IX</name></title>
+                        </head>
+                        <head type="James">
+                            <title>Copie bullarum <name type="person">Clementis</name>
+                                <name type="person">Urbani</name> et <name type="person">Bonifacii</name> pape de anno
+                                Jubileo</title>
+                        </head>
+                        <ab locusNew="160v">1 <name type="person">Clement</name></ab>
+                        <ab locusNew="162r">2, 3 <name type="person">Urban</name></ab>
+                        <ab locusNew="163r">4, 5 <name type="person">Boniface</name></ab>
+                        <ab locusNew="164v">6 <name type="person">Clement</name> (letter to a king ?)</ab>
+                        <ab locusNew="165r">7 <name type="person">Boniface</name> (<date>1393</date>)</ab>
+                    </msItem>
+
+                    <msItem n="5" locusStart="165v" locusEnd="168r">
+                        <head type="CCC">
+                            <name type="author">pseudo-Augustine</name>, <title>De essentia diuinitatis</title>
+                        </head>
+                        <head type="James">
+                            <title>Tract. qui inc. Omnipotens deus (Hieron. de membris Christi)</title>
+                        </head>
+                        <ab>See <ref type="ms" target="CCC442">MS 442</ref></ab>
+                    </msItem>
+
+                    <msItem n="6" locusStart="168r" locusEnd="168v">
+                        <head type="CCC"><name type="author">pseudo-Bernard of Clairvaux OCist</name>, <title>Speculum
+                                peccatoris (excerpt)</title></head>
+                        <rubric locus="168r">Speculum peccatorum S. Augustini (!)</rubric>
+                        <ab>(<ref type="bibl" target="Migne 040"><supplied>P. L.</supplied> XL 983</ref>)</ab>
+                        <incipit locusNew="168r">Quoniam karissimi in via</incipit>
+                        <rubric locusNew="168v">Residuum quere post <name type="person">Gorram</name> super cantica ubi
+                            habetur A cum manu</rubric>
+                    </msItem>
+
+                    <msItem n="7" locusStart="169r" locusEnd="274r">
+                        <head type="CCC"><name type="author">Nicholas de Gorran OP (attrib.)</name>, <title>Commentary
+                                on the Song of Songs</title></head>
+                        <rubric locus="169r"><name type="author">Gorram</name> super cantica</rubric>
+                        <incipit locusNew="169r">Benedicciones dabit legislator ibunt de uirtute uirtutem uidebitur
+                            deus</incipit>
+                        <explicit locusNew="274r">sed christo gloria danda qui est benedictus in secula seculorum.
+                            Amen</explicit>
+                    </msItem>
+
+                    <msItem n="7.1" locusStart="274v" locusEnd="275v">
+                        <head type="CCC"><name type="author">pseudo-Bernard of Clairvaux OCist</name>, <title>Speculum
+                                peccatoris (excerpt)</title></head>
+                        <ab locus="274v">Further portion of no. 6</ab>
+                    </msItem>
+
+                    <msItem n="8" locusStart="276r" locusEnd="280r">
+                        <head type="CCC">
+                            <title>Recommendatio sacrae theologiae</title>
+                        </head>
+                        <rubric locus="276r">Recommendacio sacre theologie</rubric>
+                        <incipit locusNew="276r">In nomine ... Reuerendissimi patres venerandi domini et magistri ...
+                            theologice sciencie laudatores ipsam cupientes dignis attollere laudibus</incipit>
+                        <ab>End of no. 6</ab>
+                    </msItem>
+
+                    <msItem n="9" locusStart="280r" locusEnd="281v">
+                        <head type="CCC">
+                            <title>Bull of <name type="person">Pope Gregory XI</name></title>
+                        </head>
+                        <head type="James">
+                            <title>Articuli reprobantes speculum saxonicum</title>
+                        </head>
+                        <ab> Copia bulle <name type="person">gregorii pape</name> de milicio cum alia bulla pape <name
+                                type="person">Urbani</name>
+                        </ab>
+                        <ab>These are the entries in the list at the beginning. In the text we have</ab>
+                        <rubric locus="280r">Copia bulle <name type="person">greg. pape</name> de reprobacione
+                            articulorum quorundam in iure ciuili</rubric>
+                        <incipit locusNew="280r"><name type="person">Gregorius Ep.</name> ... <name type="person">Karolo
+                                romanorum Imperatori</name> ... fili karissime iam longum est tempus (<name type="place"
+                                >Avignon</name>. <date>Id Oct. anno 4<abbr rend="superscript">o</abbr></date>)</incipit>
+                        <incipit locusNew="280r">Primus articulus continet quod quicquid homo fecerit extra
+                            iudicium</incipit>
+                        <ab>At top of f. <locus>281r</locus> is pencilled <date>mccc66</date>
+                        </ab>
+                    </msItem>
+                    <msItem n="10" locusStart="281v" locusEnd="283v">
+                        <head type="CCC">
+                            <title>Bull of <name type="person">Pope Urban VI</name></title>
+                        </head>
+                        <head type="James">
+                            <title>Bull of <name type="person">Urban</name></title>
+                        </head>
+
+                        <ab> Copia bulle <name type="person">gregorii pape</name> de milicio cum alia bulla pape <name
+                                type="person">Urbani</name>
+                        </ab>
+                        <ab>These are the entries in the list at the beginning. In the text we have</ab>
+                        <incipit locus="281v">Ne in vinea</incipit>
+                        <ab>ff. <locus>282v</locus>-<locus>283v</locus> blank</ab>
+                    </msItem>
+
+
+
+                    <msItem n="11" locusStart="284r" locusEnd="284v">
+                        <head type="CCC">
+                            <title>Tabula fidei christiane</title>
+                        </head>
+                        <rubric locus="284r">Tabula fidei christiane</rubric>
+                        <rubric locusNew="284r">Incipit tabula bona et utilis fidei cristiane in qua continentur sub
+                            breuibus plura</rubric>
+                        <incipit locusNew="284r">Primo vij<abbr rend="superscript">m</abbr> virtutes, etc.</incipit>
+                    </msItem>
+
+                    <msItem n="12.1" locusStart="285r" locusEnd="297v">
+                        <head type="CCC"><name type="author">Michael of Massa (Michele Beccucci de Massa) OESA</name>,
+                                <title>Historia passionis Jesu Christi</title></head>
+                        <head type="James">
+                            <title><name type="author">Michael de Massa</name> de vita et passione Christi</title>
+                        </head>
+                        <incipit locusNew="285r">Extendit manum suam et arripuit gladium</incipit>
+                        <explicit locusNew="297v">venite benedicti patris mei</explicit>
+                        <rubric locusNew="297v">Explicit Edicio et summa <name type="author">magistri michaelis de
+                                massa</name> de uita Christi et passione eius et locucione virginis Marie et responsione
+                            Christi et interrogacione eius et que Christus fecerit in die Jouis, etc., etc.</rubric>
+                    </msItem>
+                    <msItem n="12.2" locusStart="297v" locusEnd="297v">
+                        <head type="CCC">
+                            <title>Excerpta indulgenciis Johanitarum</title>
+                        </head>
+                        <ab>Note</ab>
+                        <incipit locusNew="297v">Summa indulgenciarum ordinis sunt sexingenti anni minus xii<abbr
+                                rend="superscript">m</abbr> annis et clxxxv dies et xlv<abbr rend="superscript"
+                                >que</abbr> karenas. Exceptis indulgenciis Johanitarum</incipit>
+                        <ab locusNew="iir">Flyleaf: part of a deed relating to <name type="person">Johannes de
+                                Jegersdorff rector</name></ab>
+                        <ab locusNew="iir"> ecclesie parochialis in <name type="place">Gumern [Gumeyn] Olomucensis
+                                dioc.</name>
+                        </ab>
+                        <ab>also mention of <name type="person">Nich. Puchnik offic. Pragensis</name></ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJM 4/2/2009</p>
+                            <p>remarks: loose scrap between 156v, 157r</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,232 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC133">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>133</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>F. 4</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>59</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Algorism. Thomas Gray, Scala Chronica</head>
+
+                <head type="James">Algorismus. Scala Cronica</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">318</height>
+                        <width unit="mm">190</width>
+                    </measureGrp><measureGrp type="James">12.25 x 7.6</measureGrp>, <extent>ff. 234 + 3</extent>,
+                        <layout>double columns of 44 lines</layout>. Cent. <origDate>xiv</origDate>, <handNote>in a fine
+                        large clear hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a (three), 1<num>12</num>-19<num>12</num> (wants 4-9), 20<num>12</num></collation>.</p>
+
+                <p function="Provenance">On f. <locus>ir</locus> is <supplied>a</supplied> mark.</p>
+
+                <p function="Additions">On f. <locus>iiiv</locus>, this title very neatly written: Cronica Regum Anglie
+                    in gallico et incip<abbr rend="superscript">t</abbr> in 2<abbr rend="superscript">o</abbr> fo. in
+                    processu libri terminez fors. This is scribbled again below, and after that, erased: <q locus="iiiv"
+                        >Si dieu plet. A moy cest livre partient</q><lb/>
+                    <q>G. vft . kyldare</q> (? <name type="person">G. vicomte Kyldare</name>
+                    <hi rend="footnote">Perhaps <name type="person">Gerald, 8th Earl of Kildare</name>, succ.
+                            <date>1477</date></hi>). Another erasure at top is only <q locus="iiiv">Si mea penna valet
+                        etc</q>.</p>
+
+                <p function="Additions">Pasted on f. <locus>ir</locus> is a paper with a quatrain
+                        (<origDate>xvi</origDate>):<lb/>
+                    <q>Otia cum fugeret studiosi cura <name type="person">Nigelli</name><lb/> Texuit ex uariis presentis
+                        scripta libelli<lb/> Quem superesse tibi uoluit post fata futurum<lb/> Nominis et meriti
+                        memorabile non moriturum</q>.</p>
+
+
+                <p function="Writing">f. <locus>ir</locus>-<locus>iiir</locus> are in <handNote>a small pointed hand of
+                        cent. <origDate>xiv</origDate></handNote>.</p>
+
+
+                <p function="Research" rend="afterContents">This is the best copy of the Scala Chronica, which was
+                    edited in part by <ref type="bibl" target="Stevenson 1836">Stevenson for the Maitland Club in
+                        1836</ref>. A translation has been recently published by <ref type="bibl" target="Maxwell 1907"
+                        >Sir Herbert Maxwell, Bart</ref>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-iii + 1-234 + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="frm" otherLangs="lat enm">Anglo-Norman, Latin and Middle English.</textLang>
+
+
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="iv" locusEnd="iiir">
+
+                        <head type="CCC">
+                            <title>Algorism</title>
+                        </head>
+
+
+                        <head type="James">
+                            <title>Algorismus</title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>Ars subtilis computandi quae dicitur Algorismus</title>
+                        </head>
+
+                        <ab>
+                            <quote>versibus Gallicis</quote>
+                        </ab>
+                        <ab>
+                            <handNote locus="iv">Arabic digits in red</handNote>
+                        </ab>
+                        <incipit locusNew="iv">
+                            <lg>
+                                <l>Cest art algorism hom apele</l>
+                                <l>Un art daconter bon et bele</l>
+                            </lg>
+                        </incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="iiir">
+                            <lg>
+                                <l>Et le nombre quil primer imestez</l>
+                                <l>Sus leueroi si bien le fiestez</l>
+                            </lg>
+                        </explicit>
+                        <rubric locusNew="iiir">Explicit ars subtilis computandi que dicitur Algorismus</rubric>
+
+                        <ab locus="iiir"> Other rhymes in French and one in English follow on measures of length, of
+                            land, a puzzle, on addition etc., and (in prose) on notation </ab>
+
+
+
+                    </msItem>
+
+
+
+                    <msItem n="2" locusStart="1r" locusEnd="234v">
+
+                        <head type="CCC"><name type="author" key="ThGr01">Thomas Gray</name>, <title>Scala
+                                Chronica</title></head>
+
+
+                        <head type="James">
+                            <title>Scala Cronica</title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>Scala cronica, incepta A. D. <date>1355</date>, autore <name type="author">Thoma
+                                    Gray</name></title>
+                        </head>
+
+
+                        <ab>
+                            <quote>De autore hujus chronici dubitavit <ref type="bibl" target="Tanner 1748">Cl.
+                                    Tanner</ref>, et nihil certi attulit <ref type="bibl" target="Leland 1709"
+                                    >Lelandus</ref>, quod eo magis miror cum in prologo nomen suum etsi non disertis
+                                verbis, enigmatice tamen revelaverit, ut ipse innuit Lelandus, neque <name type="person"
+                                    >Oedipo</name> opus est ad nodum solvendum; haec enim ipsius sunt verba, <q>Soit
+                                    VIII [H] joynt apres XIX [T]: si mettez XII [M] apres XIIII [O], un [A] et XVIII [S]
+                                    encountrez, soun propre nom en saverez: VII [G] a XVII [R] mettez, le premier vowel
+                                    [A] au tierce [I] ajoignez, soune droit surnome entrouverez solunc l'alphabet.</q>
+                                Exhinc manifeste apparet autorem fuisse <name type="person" key="ThGr01">Thomam Graium
+                                    Anglum</name>, et ut ipse testatur apud <name type="place">Edinburgam</name>
+                                captivum, ubi haec quae in quodam invenerat poemate, eadem lingua scilicet Gallica,
+                                soluta oratione contexuit. Continet historiam <name type="place">Angliae</name> a mundo
+                                condito ad A. D. <date>1362</date>.</quote>
+                        </ab>
+
+                        <ab>Begins</ab>
+                        <incipit locus="1r">Ke eit delite ou voet sauoir coment le isle del <name type="place"
+                                key="Brit">grant Bretaigne</name></incipit>
+                        <ab>
+                            <decoNote>There is a very pretty border on three sides, of characteristic English work: and
+                                a nice decorative initial</decoNote>
+                        </ab>
+                        <ab>
+                            <decoNote>Subsequent initials are on gold with ground of red and blue quarterly,
+                                patterned</decoNote>
+                        </ab>
+                        <ab>
+                            <decoNote>Smaller initials on blue with red penwork</decoNote>
+                        </ab>
+                        <ab>
+                            <supplied agent="JamesCorrigenda">See an English version of the Preface in <ref type="ms"
+                                    target="CCC119">MS 119. 124</ref></supplied>
+                        </ab>
+                        <ab>Ends</ab>
+                        <explicit locus="234v">Cest matremoigne fust fait soulement par force damours qui toutz
+                            veint</explicit>
+
+
+
+                    </msItem>
+
+
+                </msContents>
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: typed from the James Catalogue by GDB</p>
+                            <p>markup: GDB</p>
+                            <p>markupCheck: CF, CF 2nd</p>
+                            <p>msCheck: NJC 25.01.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

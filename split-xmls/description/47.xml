@@ -1,0 +1,131 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC047">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>47</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>O. 15</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>219</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Peter the Chanter, Distinctiones Abel</head>
+                <head type="James">Petri Cantoris Distinctiones</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">335</height>
+                        <width unit="mm">250</width>
+                    </measureGrp><measureGrp type="James">13.1 x 9.6</measureGrp>, <extent>ff. 1 + 175</extent>,
+                        <layout>32 lines to a page</layout>. Cent. <origDate>xiii</origDate>, <handNote> in a very good
+                        pointed hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num>-22<num>8</num> (wants 8)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>(Accedet) per baptismum</secFol>.</p>
+
+                <p function="Additions">Old title (<origDate>xiv</origDate>). On verso of flyleaf <supplied>(f.
+                            <locus>iiiv</locus>)</supplied>: <q>Liber distinccionum tractus cantoris
+                    parisiensis</q>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-iii + 1-174 + iv-vi</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="174v">
+
+
+                        <head type="CCC">
+                            <name type="author">Peter the Chanter</name>, <title>Distinctiones Abel</title>
+                        </head>
+
+                        <head type="James">
+                            <title><name type="author">Petri Cantoris Parisiensis</name> Distinctiones</title>
+                        </head>
+
+                        <incipit locusNew="1r"><name type="person">Abel</name> dicitur principium ecclesie propter
+                            innocenciam etc.</incipit>
+                        <ab>Ends with the article <q>Christus</q>: apparently with verses on the Evangelists</ab>
+                        <explicit locusNew="173r">ales summa petendo</explicit>
+                        <rubric locusNew="173r">Explicit distinctionum tractus <name type="author">cantoris
+                                parisiensis</name></rubric>
+                        <ab>Further matter <handNote>in the original hand</handNote> follows</ab>
+                        <incipit locusNew="173r">Testimonium habet christus</incipit>
+                        <ab>It fills the page</ab>
+                        <ab locusNew="173v">On the (blank) verso are pencilled many numbers</ab>
+                        <ab locusNew="173v">In ink (<origDate>xiii</origDate>) <q>W. de O.</q> and some
+                                <origDate>xv</origDate>th cent. verses</ab>
+                        <ab locusNew="174v">
+                            <supplied agent="NJM">Displaced leaf of the text</supplied>
+                        </ab>
+                        <ab>See <ref type="ms" target="CCC397">MS 397. 2</ref></ab>
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: foliation check BA 6/11/2008 - NJM 17/11/2008</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

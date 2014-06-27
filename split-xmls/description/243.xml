@@ -1,0 +1,178 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC243">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>243</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Lib. ab Al. 40</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">pseudo-Albertus Magnus OP, Lapidarium. Prognostication Tracts</head>
+                <head type="James">Ps.-Albertus de Lapidibus etc.</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">190</height>
+                        <width unit="mm">125</width>
+                    </measureGrp>, <measureGrp type="James">7.4 x 5.3</measureGrp>, <extent>ff. 1 + 58 + 17</extent>,
+                        <layout>two volumes, 24 and 21 lines to a page</layout>. Cent. <origDate>xiii -xiv</origDate>
+                    and <origDate>xv</origDate>.</p>
+
+                <p function="Multivolume" rend="withinContents"><lb/><label>Volume I:</label>
+                    <handNote>In a very neat hand, probably Italian</handNote>. <lb/><label>Volume II:</label>
+                    <handNote>In a very ugly current hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num>-7<num>8</num> 8<num>2</num> | ff. 17</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>Aghates</secFol>.</p>
+
+                <p function="Provenance">On flyleaf <supplied>(f. <locus>ivr</locus>)</supplied>: <name type="person"
+                        >Jane Knukle</name>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-iv + 1-75 + v-vi</foliation>.</p>
+
+                <msContents>
+
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="1r" locusEnd="58v">
+                        <head type="CCC">
+                            <name type="author">pseudo-Albertus Magnus OP</name>, <title>Lapidarium</title>
+                        </head>
+
+                        <rubric locus="1r">Incipit liber de coloribus et uirtutibus lapidum. Liber primus</rubric>
+                        <incipit locusNew="1r">Habete celi silentium et ingratitudinis in mane scelus
+                            attendite</incipit>
+                        <explicit locusNew="1v">renuente uero quasi non editus uel oblitus fueris habeatis</explicit>
+                        <ab locus="1v">Prologue</ab>
+                        <incipit locusNew="1v">Substantie mi liber gemme mellifluis arride decoloribus</incipit>
+                        <explicit locusNew="1v">ut irrigatur ortus flamine diuini spiritus animatus agnoscat graciam qua
+                            fertile se retribuat</explicit>
+                        <rubric locusNew="1v">Tractatus de a. prima lictera de omnibus lapidibus</rubric>
+                        <rubric locusNew="1v">De amante</rubric>
+                        <incipit locusNew="1v">Adamantum genus eximium cristalizat quodammodo</incipit>
+                        <ab>Stones are treated alphabetically. The last is yctios, ending</ab>
+                        <explicit locus="20v">ac more paragoni confricati metalli colorem retinet</explicit>
+                        <rubric locus="20v">De sculturis de omnibus lapidibus</rubric>
+                        <ab>Liber II</ab>
+                        <rubric locus="21v">de natione et ubi inueniuntur</rubric>
+                        <incipit locusNew="21v">Post autem facilius preuia discretione</incipit>
+                        <ab>Liber III</ab>
+                        <rubric locus="27r">de sculturis lapidum</rubric>
+                        <incipit locusNew="27r">Quod non inuida philosophorum largitio</incipit>
+                        <ab>Liber IV</ab>
+                        <rubric locus="40v">de consecratione lapidum</rubric>
+                        <incipit locusNew="40v">Aperuit thesauros dominus mirifice</incipit>
+                        <ab>Liber V</ab>
+                        <rubric locus="44r">de confectione et compositione lapidum</rubric>
+                        <incipit locusNew="44r">Paulisper equidem euagari si liceat</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="58v">Actenus hec omnia discrete protendisse sufficiat ut nec uulgari se doleant
+                            nec omnino deparant silentio reticenda</explicit>
+                        <rubric locusNew="58v">Finite libro sit laus et gloria Christo. Amen</rubric>
+                        <rubric locusNew="58v">Explicit liber lapidum</rubric>
+
+                        <ab>The treatise is attributed (falsely) to <name type="person">Albertus Magnus</name>. Another
+                            copy is among the Hunterian MSS. at <ref type="ms" target="GHL468">Glasgow, V 6,
+                            18</ref></ab>
+
+
+
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="2" locusStart="59r" locusEnd="75r">
+                        <head type="CCC">
+                            <title>Prognostication tracts</title>
+                        </head>
+
+                        <incipit locus="1r" locusNew="59r">Ad cognicionem tabule planetarum habendam intrandum est cum
+                            die in capite</incipit>
+                        <incipit locus="15r" locusNew="73r">Ad cognoscendum gradus caliditatis et siccitatis</incipit>
+                        <ab>Ends <locus locusNew="74r">16r</locus> unfinished</ab>
+                        <ab>On <locus locusNew="75r">17r</locus>, 12 lines <handNote>in another hand</handNote></ab>
+                        <incipit locusNew="75r">
+                            <lg>
+                                <l>Elpes dicta fui sicule regionis alumpna</l>
+                                <l>Quam procull a patria coniugis egit amor. </l>
+                            </lg>
+                        </incipit>
+
+                        <explicit locusNew="75r">
+                            <lg>
+                                <l>Ut tulerim tumulique comes nec morte reueller</l>
+                                <l>Et socies uite nectat (?) utrumque cinis.</l>
+                            </lg>
+                        </explicit>
+
+                        <ab>(Epitaph of <name type="person">Elpis</name>, wife of <name type="person">Boethius</name>;
+                            two hymns are current under her name)</ab>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: NJC 10/10/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

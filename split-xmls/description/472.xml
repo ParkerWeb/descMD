@@ -1,0 +1,376 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC472">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>472</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Under D. 1</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>359</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Isidore of Seville, De ortu et obitu patrum. Pietro del Monte, De uitiorum
+                    comparatione. Humanist Compilation of Texts from Antiquity and the Renaissance</head>
+                <head type="James">Isidorus, Petrus de Monte. Isocrates, Plato, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">142</height>
+                        <width unit="mm">99</width>
+                    </measureGrp>, <measureGrp type="James">5.7 x 4</measureGrp>, <extent>ff. 4 + 280 + 4</extent>,
+                        <layout>23 and 25 lines to a page</layout>. Cent. <origDate>xv</origDate>, <handNote>in two
+                        rather ugly current hands</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>4</num>, 1<num>12</num> 2<num>12</num> (3 canc.) || 3<num>14</num> (7 canc.)
+                            4<num>12</num>-9<num>12</num> (9 mut. wants 10-12) 10<num>12</num> 11<num>10</num>
+                            12<num>8</num> 13<num>10</num> 14<num>8</num> 15<num>8</num> 16<num>12</num>-21<num>12</num>
+                            22<num>10</num> 23<num>14</num> 24<num>14</num> (3 canc.) 25<num>10</num> |
+                        b<num>4</num></collation>.</p>
+
+                <p function="Additions">Old pagination incorrect, but used here.</p>
+
+                <p function="Addtions">On f. <locus>iv</locus> list of contents (<origDate>xv</origDate>). ff.
+                        <locus>iir</locus>-<locus>ivv</locus> blank.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-iv + pp. 1-208 + 208a + 209a + 209-242 + 242a + 243a + 243 - 316 + 316a +
+                        317a + 317-326 + 326a + 327a + 327-582 + ff. v + c-d</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="1" locusEnd="46">
+                        <head type="CCC">
+                            <name type="author">Isidore of Seville</name>, <title>De ortu et obitu patrum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Isidorus [Hispalensis]</name> de ortu et obitu sanctorum</title>
+                        </head>
+
+                        <head type="James">
+                            <title><name type="author">Isidorus</name> de ortu et obitu sanctorum patrum</title>
+                        </head>
+                        <ab>(<ref type="bibl" target="Migne 083"><supplied>P. L.</supplied> LXXXIII 129</ref>)</ab>
+                        <incipit locus="1">Quorundam sanctorum nobilissimorum</incipit>
+                        <explicit locus="1">breui sermone leguntur</explicit>
+                        <rubric locus="1">De <name type="person">Adam</name> primo omnium parente</rubric>
+                        <incipit locus="1"><name type="person">Adam</name> prothoplastus et colonus paradisi</incipit>
+                        <ab>Ends with <name type="person">Titus</name></ab>
+                        <explicit locus="45">Ibique sepultus est in pace</explicit>
+                        <rubric locus="45">Explicit Isidorus de ortu et obitu sanctorum</rubric>
+                        <ab locus="46">blank: <decoNote>a <name type="person">Parker</name>ian note in red on
+                                it</decoNote></ab>
+
+
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="2" locusStart="47" locusEnd="232">
+                        <head type="CCC">
+                            <name type="author">Pietro del Monte</name>, <title>De uitiorum inter se differentia et
+                                comparatione</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Petrus de Monte</name> ad <name type="person">Humfredum ducem
+                                    Glocestriae</name> de comparatione vitiorum, lib. iii</title>
+                        </head>
+                        <head type="James">
+                            <title>de comparatione vitiorum</title>
+                        </head>
+                        <rubric locus="47">[<name type="author">Petrus de Monte</name>] ad illustrissimum principem
+                                <name type="person">humfredum ducem Glowcestrie</name></rubric>
+
+                        <incipit locus="47">Tuas eximias laudes uirtutesque permaximas</incipit>
+                        <explicit locus="51">colloquentes ac disputantes audiamus</explicit>
+                        <rubric locus="51">Explicit prohemium. Incipit liber primus</rubric>
+                        <incipit locus="52">Cum <name type="person">petrus emilianus pontifex
+                            vincentinus</name></incipit>
+                        <ab locus="109">Liber II</ab>
+                        <ab locus="170">Liber III</ab>
+                        <explicit locus="229">et osculata presulis dextra discescerunt</explicit>
+                        <rubric locus="229">Finis Huius</rubric>
+                        <ab>pp. <locus>230</locus>-<locus>232</locus> blank</ab>
+
+
+                    </msItem>
+
+
+                    <msItem n="3" locusStart="233" locusEnd="255">
+                        <head type="CCC">
+                            <name type="author">Isocrates</name>, <title>Oratio ad Demonicum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Oratio <name type="author">Isocratis</name> ad Demonicum</title>
+                        </head>
+
+                        <rubric locus="233">Oratio <name type="author">Isocratis</name> ad demonicum incipit</rubric>
+                        <incipit locus="233">Cum in aliis permultis bonorum</incipit>
+                        <explicit locus="255">industria diligenciaque superare</explicit>
+                        <rubric locus="255">Finis Huius</rubric>
+
+                    </msItem>
+
+
+                    <msItem n="4" locusStart="256" locusEnd="264">
+                        <head type="CCC">
+                            <name type="author">Plutarch</name>, <title>De uirtute et uitio (with prologue of <name
+                                    type="author">Cencio da Rusticci</name>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Plutarchi</name> sermo de virtute et vitio ex versione <name
+                                    type="author">Cincii Romani</name></title>
+                        </head>
+
+
+                        <rubric locus="256">Prefatio <name type="author">Cincii Romani</name> in sermonem <name
+                                type="author">Plutrarchi</name> de virtute et vicio incipit</rubric>
+                        <incipit locus="256">Ab hac tantula mea lucubratione</incipit>
+                        <explicit locus="257">felicitas atque miseria nascatur</explicit>
+                        <rubric locus="257"><name type="author">Plutrarchi</name> sermo de virtute et vicio per eundem
+                            in latinum traductus Cardinali sancti marci tunc episcopo Cauensi dedicatus</rubric>
+                        <incipit locus="257">Indumenta quidem hominum calorem afferre videntur</incipit>
+                        <explicit locus="264">non deiciens semper letabitur</explicit>
+                        <rubric locus="264">Finis Huius</rubric>
+
+                    </msItem>
+
+
+                    <msItem n="5.1" locusStart="265" locusEnd="271">
+                        <head type="CCC">
+                            <name type="author">Cencio da Rusticci</name>, <title>Letter to <name type="person"
+                                    >Velleius</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Plutarchi</name> sermo de virtute et vitio ex versione <name
+                                    type="author">Cincii Romani</name></title>
+                        </head>
+                        <rubric locus="265">Epistola disertissimi viri <name type="author">Cincii Romani</name> ad <name
+                                type="person">Vellium</name> de traductione operis sequentis</rubric>
+                        <incipit locus="265">Locus quidem suauissime <name type="person">Velli</name> ut tu ipse </incipit>
+                        <explicit locusNew="268">coram una loqui videamur. Vale Bononie</explicit>
+                        <rubric locus="268">Prefacio clarissimi viri <name type="author">Cincii Romani</name> ad
+                            reuerendissimum dominum Iordanum <name type="person">Cardinalem Ursinum</name></rubric>
+                        <incipit locus="268">Magna profecto et exquisita diligencia</incipit>
+                        <explicit locus="271">grauissime disputantem accedamus</explicit>
+                    </msItem>
+                    <msItem n="5.2" locusStart="272" locusEnd="293">
+                        <head type="CCC"><name type="author">pseudo-Plato</name>, <title>Axiochus</title></head>
+                        <head type="James">
+                            <title><name type="author">pseudo-Platonis</name> Axiochus</title>
+                        </head>
+                        <rubric locus="272"><name type="person">Socrates</name> de morte contempnenda latinus ex greco
+                            factus ab <name type="author">Cincio Romano</name></rubric>
+                        <incipit locus="272">Cum ex athenis decederem ad herculis gymnasium</incipit>
+
+                        <ab>The end soiled and crumpled</ab>
+                        <explicit locus="293">unde vocatus huc progressus</explicit>
+                        <rubric locus="293">Finis</rubric>
+                    </msItem>
+
+
+                    <msItem n="6" locusStart="294" locusEnd="374">
+                        <head type="CCC">
+                            <name type="author">Lucian of Samosata</name>, <title>Toxaris siue amicitia</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Lucianus de amicitia</name> ex versione <name type="author"
+                                    >Angeli Aretini</name> cum prefatione ejusdem</title>
+                        </head>
+
+                        <rubric locus="294">Ad <name type="person">Leonellum estensem</name> et <name type="person"
+                                >ludouicum de gongata (Gonzaga)</name> adolescentes illustres aurispa</rubric>
+                        <incipit locus="294">Amiciciam exhortanti mihi que bona ex ea nascuntur</incipit>
+                        <ab>Much soiled</ab>
+
+                        <explicit locus="296">dictionis.. ....datur</explicit>
+                        <rubric locus="296"><name type="author">Lucianus de amicicia</name> traductus per ......<name
+                                type="author">pum (Aurispam?) arietinum</name>. mni sippus loquitur</rubric>
+                        <incipit locus="296">Quid ais o toxari</incipit>
+                        <explicit locus="373">qualis tu nobis esse videris presenti oratione</explicit>
+                        <rubric locus="373">Finis</rubric>
+                        <ab locus="374">blank</ab>
+
+                    </msItem>
+
+
+                    <msItem n="7" locusStart="375" locusEnd="413">
+                        <head type="CCC">
+                            <name type="author">Xenophon</name>, <title>Hiero (transl. by <name type="author">Leonardus
+                                    Brunus Aretinus (Leonardo Bruni of Arezzo)</name>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Liber <name type="author">Xenophontis</name> qui dicitur tirannus ex versione <name
+                                    type="author">Leonardi Aretini</name> cum prefatione ejusdem</title>
+                        </head>
+
+                        <rubric locus="375"><name type="author">Leonardi Arietini</name> prefacio in librum <name
+                                type="author">Xenophontis</name></rubric>
+                        <incipit locus="375"><name type="author">Xenophontis</name> philosophi quendam
+                            libellum</incipit>
+                        <explicit locus="378">nullomodo ausi sumus attingere</explicit>
+                        <rubric locus="378">
+                            <name type="author">Xenophontis</name> philosophi liber qui dicitur tirannus
+                            incipit</rubric>
+                        <incipit locus="378">Cum ad hieronem tirannum <name type="person">Symonides</name> poeta
+                            aliquando venisset</incipit>
+                        <explicit locus="413">nemo tibi inuidebit</explicit>
+                        <rubric locus="413">Explicit feliciter</rubric>
+
+                    </msItem>
+
+
+                    <msItem n="8" locusStart="414" locusEnd="448">
+                        <head type="CCC">
+                            <name type="author">Basil of Caesarea</name>, <title>Liber de studiis (transl. by <name
+                                    type="author">Leonardus Brunus Aretinus (Leonardo Bruni of Arezzo)</name>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Liber magni <name type="author">Basilii</name> ad juvenes religiosos quibus studiis
+                                opera danda sit ex versione <name type="author">Leonardi Aretini</name> cum ejusdem
+                                prefatione ad <name type="person">Collucium Salutatum</name></title>
+                        </head>
+
+                        <rubric locus="414"><name type="author">Leonardi Arietini</name> prefacio ad <name type="person"
+                                >Collucium Salutatum</name> in librum magni <name type="author">Basilii</name> incipit
+                            feliciter</rubric>
+                        <incipit locus="414">Ego tibi hunc librum <name type="person">Coluci</name></incipit>
+                        <explicit locus="416">queso quanta grauitas sit</explicit>
+                        <incipit locus="416">Multa sunt filii que hortantur me ad ea</incipit>
+                        <explicit locus="448">recta consilia aspernantes</explicit>
+                        <rubric locus="448">Explicit deo gratias</rubric>
+                    </msItem>
+
+
+                    <msItem n="9" locusStart="449" locusEnd="490">
+                        <head type="CCC">
+                            <name type="author">Leonardus Brunus Aretinus (Leonardo Bruni of Arezzo)</name>,
+                                <title>Isagogicon</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Isagogicum philosophiae moralis compilatum per <name type="author">Leonardum
+                                    Arietinum</name></title>
+                        </head>
+
+                        <rubric locus="449">Ysagogicum philosophie moralis compilatum per <name type="author">Leonardum
+                                Arietinum</name></rubric>
+                        <incipit locus="449">Si ut viuendi galiothe sic eciam bene viuendi cura</incipit>
+                        <explicit locus="490">ut boni simus virtutesque exerceamus</explicit>
+                        <rubric locus="490">Explicit ysagogicum philosophie moralis</rubric>
+                    </msItem>
+
+
+                    <msItem n="10" locusStart="491" locusEnd="537">
+                        <head type="CCC">
+                            <name type="author">Plato</name>, <title>Apologia <name type="person">Socratis</name>
+                                (transl. by <name type="author">Leonardu Brunus Aretinus (Leonardo Bruni of
+                                    Arezzo)</name>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Liber <name type="author">Platonis</name> qui dicitur apologia <name type="person"
+                                    >Socratis</name> ex versione <name type="author">Leonardi Aretini</name> cum prologo
+                                ejusdem</title>
+                        </head>
+
+                        <rubric locus="491"><name type="author">Leonardi Arietini</name> prologus in apologiam <name
+                                type="person">Socratis</name></rubric>
+                        <incipit locus="491"><name type="person">Socrates</name> philosophus vir omnium
+                            innocentissimus</incipit>
+                        <explicit locus="492">victorie tamen inimica fuere</explicit>
+                        <rubric locus="492">Liber <name type="author">platonis</name> qui dicitur apologia <name
+                                type="person">Socratis</name> incipit feliciter <name type="person">Socrates</name>
+                            loquitur</rubric>
+                        <incipit locus="493">Quid vobis acciderit iudices</incipit>
+                        <explicit locus="537">incertum est omnibus preterquam deo</explicit>
+                        <rubric locus="537">ffinit apologia <name type="person">Socratis</name></rubric>
+                    </msItem>
+
+
+                    <msItem n="11" locusStart="538" locusEnd="vr">
+                        <head type="CCC">
+                            <name type="author">Plato</name>, <title>Crito (transl. by <name type="author">Leonardus
+                                    Brunus Aretinus (Leonardo Bruni of Arezzo)</name>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Platonis</name>
+                                <title>Crito</title> vel de eo quod agendum est ex versione <name type="author">Leonardi
+                                    Aretini</name> cum argumento ejusdem</title>
+                        </head>
+                        <rubric locus="538"><name type="author">Leonardi Arietini</name> argumentum in librum <name
+                                type="author">Platonis</name> qui dicitur Crito</rubric>
+                        <incipit locus="538">Damnato <name type="person">Socrate</name> et in carcere truso</incipit>
+                        <explicit locus="539">ad cognicionem disciplinamque nostram</explicit>
+                        <rubric locus="539"><name type="author">Platonis</name>
+                            <title>Crito</title> vel de eo quod agendum est. <name type="person">Socrates</name>
+                            loquitur</rubric>
+                        <incipit locus="539">Quid tu hoc temporis venisti O <name type="person">Crito</name></incipit>
+                        <explicit locus="566">quoniam hac deus agenda monstrat</explicit>
+                        <rubric locus="566">Explicit Crito <name type="author">platonis</name> siue de eo quod agendum
+                            est</rubric>
+                        <ab>15 blank pages (one scribble) : on the last two pages are</ab>
+                        <ab locus="582">a. A list of contents</ab>
+                        <ab locus="vr">b. Mille quadraginta lustris si subtrahis annum<lb/>Predicis quod (quot) adam
+                            Christum precesserit annis<lb/>5199</ab>
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJM 29/01/2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

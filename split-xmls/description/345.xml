@@ -1,0 +1,322 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC345">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>345</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>II. 9</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+
+                <head type="CCC">Hilary of Poitiers, De trinitate and other works</head>
+
+                <head type="James">Sancti Hilarii quaedam</head>
+
+
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">325</height>
+                        <width unit="mm">220</width>
+                    </measureGrp>
+                    <measureGrp type="James">12.8 x 8.8</measureGrp>, <extent>ff. 166</extent>, <layout>double columns
+                        of 33 lines</layout>. Cent. <origDate>xii</origDate>, <handNote>in a fine hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>i<num>8</num>-xx<num>8</num> xxi<num>6</num></collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>atque ita omnipotentiam</secFol>.</p>
+
+                <p function="Provenance"><q>Donum Reuerendi Viri <name type="person">Rogeri Flint</name> A.M.
+                        Norfolciensis Presbyteri dignissimi et hujus Collegii olim alumni.</q> He was admitted in
+                        <date>1632</date>, M.A. <date>1641</date>, elected Fellow but never admitted: Chaplain to <name
+                        type="person">Charles I</name> and published <name type="person">Edw. Boyse's</name> Sermons in
+                        <date>1672</date> (<ref type="bibl" target="Masters 1753">Masters, p. 468</ref>).</p>
+
+                <p function="Provenance">From <name type="place">Christ Church, Canterbury</name>. No mark remains, and
+                        <handNote>the hand is not that characteristic of the house</handNote>. But the opening words of
+                    f. <locus>2r</locus> agree with an entry in <name type="person">Ingram</name>'s list (<ref
+                        type="bibl" target="James 1903"><hi rend="italic">Anc. Lib</hi>., p. 157, no. 125</ref>):
+                            <q><name type="author">Hilarius</name> de. trinitate. Idem de sinodis. 2 fo. atque
+                        omnipotenciam</q>.<lb/> See also <ref type="bibl" target="James 1903">no. 886 in <name
+                            type="person">Eastry</name>'s Catalogue, (l. c., p. 87)</ref>.</p>
+
+                <p function="Provenance">Though given by <name type="person">Roger Flint</name> and not occurring in
+                        <name type="person">T. James</name>, it occurs in <name type="person">Parker</name>'s list. Very
+                    probably it had been separated from its companions soon after <name type="person">Parker</name>'s
+                    death, and was absent in <date>1599</date> or so, when <name type="person">T. James</name> wrote: it
+                    may have been subsequently found by <name type="person">Flint</name> and restored to the
+                    College.</p>
+
+                <p function="Additions" rend="afterContents">In <supplied resp="CF">items</supplied> 1 and 2 are
+                    occasional notices, in the original hand, of variants in other copies.</p>
+
+
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-166 + iii-iv</foliation>.</p>
+
+
+
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="133v">
+
+                        <head type="CCC"><name type="author">Hilary of Poitiers</name>, <title>De
+                            trinitate</title></head>
+
+                        <head type="James"><name type="author">S. Hilarii</name> quaedam</head>
+
+                        <rubric locus="1r">Incipit liber <name type="author">Sancti hylarii</name> episcopi de trinitate
+                            primus</rubric>
+                        <ab>(<ref type="bibl" target="Migne 010">P.L. X 9</ref>)</ab>
+                        <incipit locusNew="1r">Circumspicienti mihi proprium uite humane</incipit>
+                        <ab locusNew="1r">
+                            <decoNote>Initial in gold: blue ground, and coloured conventional foliage</decoNote>
+                        </ab>
+
+                        <ab locus="9v">Liber II</ab>
+
+
+                        <ab locus="16r"><supplied resp="CF">Liber</supplied> III</ab>
+
+
+                        <ab locus="22r"><supplied resp="CF">Liber</supplied> IV</ab>
+
+
+                        <ab locus="32r"><supplied resp="CF">Liber</supplied> V</ab>
+
+
+                        <ab locus="41r"><supplied resp="CF">Liber</supplied> VI</ab>
+
+
+                        <ab locus="54r"><supplied resp="CF">Liber</supplied> VII</ab>
+
+
+                        <ab locus="66v"><supplied resp="CF">Liber</supplied> VIII</ab>
+
+
+                        <ab locus="78v"><supplied resp="CF">Liber</supplied> IX</ab>
+
+
+                        <ab locus="97v"><supplied resp="CF">Liber</supplied> X</ab>
+
+
+                        <ab locus="112v"><supplied resp="CF">Liber</supplied> XI</ab>
+
+
+
+                        <ab locus="123r"><supplied resp="CF">Liber</supplied> XII</ab>
+
+
+                        <ab>Ending</ab>
+                        <explicit locus="133v">et apud te semper deus. qui est benedictus in secula seculorum
+                            amen</explicit>
+                        <rubric locusNew="133v">Explicit liber duodecimus <name type="author">sancti hilarii</name>
+                            episcopi de trinitate</rubric>
+
+
+                        <ab locusNew="133v">
+                            <handNote>In the same hand</handNote>
+                        </ab>
+                        <ab locusNew="133v">In <name type="place">germania</name> prima est <name type="place"
+                                >maguntia</name><lb/> In secunda agrippina id est <name type="place">colonia</name><lb/>
+                            In <name type="place">belgica</name> prima <name type="place">treueris</name><lb/> In <name
+                                type="place">belgica</name> secunda <name type="place">Remis</name><lb/> In <name
+                                type="place">Lugdunensi</name> prima <name type="place">lugdunum</name><lb/> In <name
+                                type="place">lugdunensi</name> secunda <name type="place">Rotomagus</name><lb/> In nouem
+                            populan(i)a est <name type="place">tolosa</name></ab>
+
+
+                    </msItem>
+
+
+
+                    <msItem n="2" locusStart="133v" locusEnd="152v">
+
+
+                        <head type="CCC"><name type="author">Hilary of Poitiers</name>, <title>De synodis</title></head>
+
+                        <rubric locus="133v">Incipit epistola <name type="author">Sancti hylarii</name> in libro de
+                            synodis contra omnes hereses</rubric>
+                        <ab>(<ref type="bibl" target="Migne 010"><supplied>P. L.</supplied> X 471</ref>)</ab>
+                        <incipit locusNew="133v">Dilectissimis et beatissimis fratribus episcopis <name type="place"
+                                >Germanie</name> prime...</incipit>
+                        <incipit locusNew="133v">Constitutum mecum habebam</incipit>
+                        <explicit locusNew="152v">sed per omousion oportet intelligi</explicit>
+                        <rubric locusNew="152v">Explicit liber <name type="author">sancti hylarii</name> de
+                            synodis</rubric>
+
+
+                    </msItem>
+
+
+                    <msItem n="3" locusStart="152v" locusEnd="159r">
+
+                        <head type="CCC">
+                            <name type="author">Hilary of Poitiers</name>
+                            <title>Liber contra <name type="person">Constantium</name> imperatorem</title>
+                        </head>
+
+                        <rubric locus="152v">Incipit liber eiusdem contra <name type="person">Constantium</name>
+                            Augustum</rubric>
+                        <ab>(<ref type="bibl" target="Migne 010"><supplied>P. L.</supplied> X 571</ref>)</ab>
+                        <incipit locusNew="152v">Tempus est loquendi quia iam preteriit tempus tacendi</incipit>
+                        <explicit locusNew="159r">insolenter in dei rebus ignarus</explicit>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="159r" locusEnd="161r">
+
+                        <head type="CCC">
+                            <name type="author">Hilary of Poitiers</name>
+                            <title>Liber I ad <name type="person">Constantium</name> imperatorem</title>
+                        </head>
+
+                        <rubric locus="159r">Incipit tractatus <name type="author">Sancti hylarii</name> ad <name
+                                type="person">Constantium</name> Augustum</rubric>
+                        <ab>(<ref type="bibl" target="Migne 010"><supplied>P. L.</supplied> X 553</ref>)</ab>
+                        <incipit locusNew="159r">Benefica natura tua domine beatissime Auguste</incipit>
+                        <explicit locusNew="161r">de se loquitur ipsa sententia</explicit>
+
+                    </msItem>
+
+
+                    <msItem n="5" locusStart="161r" locusEnd="163r">
+
+                        <head type="CCC">
+                            <name type="author">Hilary of Poitiers</name>
+                            <title>Liber II ad <name type="person">Constantium</name> imperatorem</title>
+                        </head>
+
+
+                        <rubric locus="161r">Incipit tractatus eiusdem ad eundem quem <name type="place"
+                                >Constantinopoli</name> eidem ipso tradidit</rubric>
+                        <incipit locusNew="161r">Non sum nescius piissime imperator</incipit>
+                        <ab>(<ref type="bibl" target="Migne 010"><supplied>P. L.</supplied> X 563</ref>)</ab>
+                        <explicit locusNew="163r">ab ea iuxta ista non dissonans</explicit>
+                        <rubric locusNew="163r">Explicit ad <name type="person">Constantium</name></rubric>
+
+
+                    </msItem>
+
+
+                    <msItem n="6" locusStart="163r" locusEnd="163v">
+
+                        <head type="CCC">
+                            <name type="author">Hilary of Poitiers</name>
+                            <title>Contra arianos siue Contra <name type="person">Auxentium</name></title>
+                        </head>
+
+
+                        <rubric locus="163r">Incipit exemplum blasphemie <name type="person">auxentii</name>
+                            arriani</rubric>
+                        <incipit locusNew="163r">Beatissimis et gloriosissimis imperatoribus <name type="person"
+                                >ualentiniano</name> et ualenti augustis <name type="person">auxentius</name></incipit>
+                        <explicit locusNew="163v">hec retractari non oportere</explicit>
+
+
+                    </msItem>
+
+
+
+                    <msItem n="7" locusStart="163v" locusEnd="166r">
+
+                        <head type="CCC">
+                            <name type="author">Hilary of Poitiers</name>
+                            <title>Contra arianos siue Contra <name type="person">Auxentium</name> continued</title>
+                        </head>
+
+
+                        <rubric locus="163v">Tractatus <name type="author">Sancti hilarii</name> aduersus <name
+                                type="person">auxentium</name> arrianum episcopum <name type="place"
+                                >Mediolanensis</name></rubric>
+                        <ab>(<ref type="bibl" target="Migne 010"><supplied>P. L.</supplied> X 609</ref>)</ab>
+                        <incipit locusNew="163v">Dilectissimis fratribus in fide paterna manentibus</incipit>
+                        <ab>Ending</ab>
+                        <explicit locus="166r">anathematizatis arrianis christum deum uerum predicabunt </explicit>
+                        <ab><locus>166v</locus> blank</ab>
+
+
+
+                    </msItem>
+
+                </msContents>
+
+
+
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, CF 2nd</p>
+                            <p>msCheck: RJR 29.8.2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

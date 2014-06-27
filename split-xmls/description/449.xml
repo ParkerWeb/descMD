@@ -1,0 +1,148 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC449">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>449</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>N. 19</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>190</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Ælfric OSB, Old English Grammar and Glossary</head>
+                <head type="James">Ælfrici grammatica</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">190</height>
+                        <width unit="mm">135</width>
+                    </measureGrp>, <measureGrp type="James">7.4 x 5.4</measureGrp>, <extent>ff. 2 + 96 + 2</extent>,
+                        <layout>21 and 33 lines to a page</layout>. Cent. <origDate>xvi</origDate> and
+                        <origDate>xi</origDate>, <handNote>very well written</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num>, 1<num>8</num>-3<num>8</num> (+1) 4<num>8</num> 5<num>8</num> | 6 (three)
+                            7<num>8</num>-12<num>8</num> 13<num>4</num>, two flyleaves</collation>.</p>
+
+                <p function="Additions">A note on f. <locus>iiv</locus> of <name type="person">Parker's</name> time.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-ii + 1-98 + c-d</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="ang" otherLangs="lat">Old English and Latin.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1.1" locusStart="1r" locusEnd="89r">
+                        <head type="CCC"><name type="author">Ælfric OSB</name>, <title>Grammar</title></head>
+
+                        <ab>
+                            <supplied>
+                                <ref type="bibl" target="Cameron 1973">Cameron B1.9.1</ref>
+                            </supplied>
+                        </ab>
+
+
+                        <ab>ff. <locus>1r</locus>-<locus>41v</locus> are of cent. <date>xvi</date>, perhaps by <name
+                                type="author">W. Lyly</name><!--corrected from L'isle by James Corrigenda--></ab>
+
+                        <rubric locus="1r">Incipit praefatio huius libri</rubric>
+                        <incipit locusNew="1r">Ego <name type="author">Ælfricus</name> ut minus sapiens</incipit>
+                        <incipit locus="1v">Ic <name type="author">Ælfric</name> &#447;olde þas lytlan boc</incipit>
+                        <rubric locus="2v">Incipiunt excerptiones de arte grammatica anglice</rubric>
+                        <incipit locusNew="2v">Secundum <name type="person">Donatum</name> omnis uox</incipit>
+                        <ab>The old MS. begins at f. <locus>42r</locus> (de casu)</ab>
+                        <incipit locusNew="42r">sig. na be þære declinunge. Gyf seo declinacio</incipit>
+                        <explicit locusNew="85r">þyllice oþre syndon englisce interiectiones</explicit>
+                        <rubric locusNew="85r">Finiunt partes Anglice</rubric>
+                        <rubric locus="85r">De nominibus numerorum</rubric>
+                        <incipit locusNew="85r">Ic &#447;ille eac a&#447;ritan on englisc</incipit>
+                        <rubric locus="87r">Triginta diuisiones grammatice artis</rubric>
+                        <incipit locusNew="87r">Gramma on grecisc ys lyttera on leden</incipit>
+                        <explicit locusNew="89r">7 <!-- &#8266; --> us dyrne &#447;æron. Sig ðeos Bóc ðus her
+                            geendod</explicit>
+                        <incipit locus="89r">On leden spræce menig fealde getel</incipit>
+                        <explicit locusNew="89r">xxx<abbr rend="superscript">ta</abbr> penega anne mancus</explicit>
+
+                    </msItem>
+
+                    <msItem n="1.2" locusStart="89r" locusEnd="96v">
+                        <head type="CCC"><name type="author">Ælfric OSB</name>, <title>Glossary</title></head>
+
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron B1.9.2</ref>
+                            </supplied>
+                        </ab>
+
+
+                        <rubric locus="89r">Incipiunt nomina multarum rerum anglice nomina</rubric>
+                        <incipit locusNew="89r">Deus omnipotens þæt ys god ælmihtig</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="96v">S&#447;a þeah ealle naman a&#447;ritan ne furþon geþencan. Deo
+                            gratias</explicit>
+                        <ab><ref type="bibl" target="Wanley 1705">Wanley</ref>, p. 113</ab>
+                        <ab>Ed. by <ref type="bibl" target="Zupitza 1880a">Zupitza</ref></ab>
+
+
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, but not by a second person</p>
+                            <p>msCheck: SP 11/8/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,183 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC507">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>507</idno>
+                    <altIdentifier type="Elbing">
+                        <idno>N. 9</idno>
+                    </altIdentifier>
+
+                </msIdentifier>
+                <head type="CCC">Iacobus de Voragine (Iacopo da Varazze) OP, Sermones quadragesimales. Bernard of
+                    Clairvaux OCist, Homiliae quatuor super Missus est</head>
+                <head type="James">[Untitled]</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">296</height>
+                        <width unit="mm">212</width>
+                    </measureGrp>, <measureGrp type="James">11.7 x 8.6</measureGrp>, <extent>ff. 166</extent>,
+                        <layout>double columns of 36 lines</layout>. Cent. <origDate>xiv late?</origDate>,
+                        <handNote>clearly written</handNote>.</p>
+                <p><label>Collation:</label>
+                    <collation>1<num>12</num>-13<num>12</num> 14<num>10</num></collation>.</p>
+
+                <p function="Provenance"><name type="person">Mary P.</name> on f. <locus>1v</locus>.</p>
+                <p function="Binding">Binding as before: three metal tags, one at bottom of first cover, two on the
+                    other. Some bosses remain: the paper label has (?) jtm &#183;26&#183;</p>
+                <!--<p>Some music in binding material, four line red staves, looks like German neumes for the chant</p>-->
+                <p type="CCC">
+                    <foliation>ff. 1-166</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="ger">Latin and German.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="67r">
+                        <head type="CCC">
+                            <name type="author">Iacobus de Voragine (Iacopo da Varazze) OP</name>, <title>Sermones
+                                quadragesimales</title>
+                        </head>
+                        <head type="James">
+                            <title>Quadragesimale</title>
+                        </head>
+                        <incipit locusNew="1r">Filia populi mei induere cilicio, etc. ... Quamuis solempnitas
+                            quadragesimalis in sequenti dominica inchoetur</incipit>
+                        <explicit locusNew="66r">omnibus obtemperantibus sibi causa salutis eterne</explicit>
+                        <rubric locusNew="66r">Explicit quadragesimale</rubric>
+                        <ab><locus>66v</locus>, <locus>67r</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="2" locusStart="67v" locusEnd="84r">
+                        <head type="CCC">
+                            <name type="author">Bernard of Clairvaux OCist</name>, <title>Homiliae quatuor super Missus
+                                est</title>
+                        </head>
+                        <head type="James">
+                            <title>Missus est Gabriel, etc.</title>
+                        </head>
+                        <incipit locusNew="67v">Quid sibi ewangelista voluit tot propria nomina</incipit>
+                        <explicit locusNew="84r">meum qualecunque opusculum deuotissime destinaui amen</explicit>
+                        <ab locusNew="84r">Short extract from <name type="author">Joh. Crisost.</name> in omelia
+                            accesserunt</ab>
+                        <ab locus="84v">blank</ab>
+                    </msItem>
+
+                    <msItem n="3.1" locusStart="85r" locusEnd="162v">
+                        <head type="CCC">
+                            <name type="author">Iacobus de Voragine (Iacopo da Varazze) OP</name>, <title>Sermones
+                                quadragesimales</title>
+                        </head>
+                        <head type="James">
+                            <title>Quadragesimale</title>
+                        </head>
+                        <incipit locusNew="85r">Cum introisset Ihesus caphar(naum), etc. ... Iudea tunc temporis
+                            tributaria erat romanis</incipit>
+                        <ab>Ends</ab>
+                        <explicit locusNew="159r">petri et pauli. Ipse filius dei nos perducat. Qui cum patre, etc.
+                            regnat amen</explicit>
+                        <rubric locusNew="159r">Explicit quadragesimale <name type="author">Jacobini de uoragine</name>
+                            quantum ad secundam terciam et quintam feriam et ad Sabbatum finitum In die Blasii,
+                            etc.</rubric>
+                        <ab locusNew="159v">Tables <handNote>in another hand</handNote>, ending</ab>
+                        <rubric locus="162v">Explicit quadragesimale <name type="author">Jacobini</name> cum duobus
+                            registris bonis. <name type="person">N. Wonenburg</name></rubric>
+                    </msItem>
+
+                    <msItem n="3.2" locusStart="163r" locusEnd="164v">
+
+                        <head type="CCC"><name type="author">Henricus de Frimaria OESA</name>, <title>Two
+                                sermons</title></head>
+                        <head type="James">Sermons</head>
+                        <incipit locus="163r">Considerauit semitas domus sue</incipit>
+                        <incipit locus="163v">Fortitudo et decor</incipit>
+                        <ab locusNew="163r">At top is scribbled <name type="person">hynricus de frimar</name></ab>
+                    </msItem>
+
+                    <msItem n="3.3" locusStart="165r" locusEnd="165v">
+                        <head type="CCC">
+                            <title>Letters of <name type="author">Pope Boniface</name> and <name type="author">Pope
+                                    Alexander</name> to the Teutonic Knights</title>
+                        </head>
+
+                        <ab locusNew="165r">Letter of <name type="author">Boniface</name> (<date>4 Kal. Mai xi<abbr
+                                    rend="superscript">th</abbr> year</date>)</ab>
+                        <incipit locus="165r">Magistro et fratribus hospitalis b. marie theutunicorum
+                            ierosolimitanorum</incipit>
+                        <incipit locus="165r"><name type="person">Alexander</name> mag<abbr rend="superscript">ro</abbr>
+                            et fratribus hospitalis S. marie theutunicorum in prusia (<date>16 Kal. Jan. 5th
+                            year</date>)</incipit>
+                    </msItem>
+
+                    <msItem n="3.4" locusStart="165v" locusEnd="166r">
+                        <head type="CCC">
+                            <title>List of indulgences</title>
+                        </head>
+
+                        <incipit locus="165v">Hec est copia indulgenciarum dominorum cruciferorum per totum
+                            annum</incipit>
+                        <ab>Specifies in German the number of years and days</ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck:</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

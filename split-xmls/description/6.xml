@@ -1,0 +1,213 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC006">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>6</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Under B. 2</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>347</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">John of Tynemouth, Historia aurea, Part II</head>
+                <head type="James">Joh. Tynemouth. Historia Aurea II</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">515</height>
+                        <width unit="mm">360</width>
+                    </measureGrp>, <measureGrp type="James">19.8 x 13.8</measureGrp>, <extent>ff. 299 + 4</extent>,
+                        <layout>double columns of 65-66 lines</layout>. Cent. <origDate>xv</origDate>, <handNote>in the
+                        same hand or hands as <ref type="ms" target="CCC005">MS 5</ref></handNote>, of which it is the
+                    continuation. At each end, two leaves of the Antiphoner as in <ref type="ms" target="CCC005">MS
+                        5</ref>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num>-5<num>8</num> 6<num>6</num> (wants 6) | 7<num>8</num>-10<num>8</num> (wants
+                        3-8) 11<num>8</num>-16<num>8</num> 17<num>6</num> 18<num>8</num> 19<num>8</num> 20<num>6</num>
+                            21<num>8</num>-26<num>8</num> (wants 6-8) 27<num>8</num> (wants 1, 2) 28<num>8</num>
+                            29<num>8</num> 30<num>6</num> 31<num>8</num>-39<num>8</num> [40<num>1</num>]
+                        41<num>6</num></collation>.</p>
+                <p function="Provenance">At top of f. <locus>1r</locus>
+                    <decoNote>in red</decoNote>
+                    <q>Hic est liber <name type="place">S. Albani</name> de libraria conuentus</q>. A long inscription
+                    in large letters, no doubt referring to <name type="person">Wyntreshull</name> and very probably a
+                    duplicate of that in <ref type="ms" target="CCC005">MS 5</ref>, has been erased from the R. margin
+                    of f. <locus>1r</locus>.</p>
+
+                <p function="Additions"><decoNote>Fine initials and partial borders to the several books</decoNote>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a-c + i-ii + 1-299 + iii-iv + d-f</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="299r">
+                        <head type="CCC">
+                            <name type="author" key="JohnofTy-001">John of Tynemouth</name>, <title>Historia aurea, Part
+                                II</title>
+                        </head>
+
+                        <rubric locus="1r">Incipit Liber 12 Cronicarum <name type="author">Johannis</name>. De <name
+                                type="person">Sancto Mauricio</name> cum sociis suis c. i</rubric>
+                        <incipit locus="1r"><name type="person">Dioclicianus</name> incepit regnare</incipit>
+                        <ab locusNew="45r">c. 124</ab>
+                        <rubric locusNew="45r">De <name type="person">Sancto petro alexandrino</name></rubric>
+                        <ab locus="47r" locusNew="46r">Liber XIII. c. i</ab>
+                        <rubric locus="47r" locusNew="46r">De <name type="person">S. katerina virgine</name></rubric>
+                        <ab>c. 58</ab>
+                        <rubric locusNew="70r">De <name type="person">S. florencio</name></rubric>
+                        <ab locusNew="70v">At the end <handNote>in a <origDate>xvith cent.</origDate>
+                            hand</handNote></ab>
+                        <ab locusNew="70v">
+                            <q>Hic Inc. 2<abbr rend="superscript">us</abbr> Tomus ut ibi scribitur <name type="author"
+                                    >Johannis Anglici</name></q>
+                        </ab>
+                        <ab locus="71v" locusNew="70v">Liber XIV. c. i</ab>
+                        <rubric locusNew="70v">De gestis illius temporis</rubric>
+                        <incipit locusNew="70v">Romanorum igitur tricesimus quintus regnauit <name type="person"
+                                >constantinus</name></incipit>
+                        <ab locusNew="113v">c. (124). Death of <name type="person">Theodosius</name></ab>
+                        <ab>Rubrics and numbers of chapters gradually cease to be added</ab>
+                        <ab>Much of this book is from <hi rend="italic">Vitae Patrum</hi></ab>
+                        <ab locus="72v" locusNew="71v">Most of cc. 4-22 are wanting after f. <locus locusNew="71v"
+                                >72v</locus></ab>
+                        <ab locusNew="113v">Liber XV. c. i. <name type="person">Arcadius</name> and <name type="person"
+                                >Honorius</name></ab>
+                        <ab locus="152r" locusNew="145r"><hi rend="italic">Prophecy of Merlin</hi> in verse</ab>
+                        <incipit locusNew="145r">Cumque peragratis sub multis regibus annis</incipit>
+                        <ab locus="199v" locusNew="192v">Five leaves are gone after f. <locus locusNew="192v"
+                                >199v</locus></ab>
+                        <ab locus="267r" locusNew="256r">
+                            <decoNote>There is a clever unfinished pencil sketch of a Mongol or Tartar on the
+                                margin</decoNote>
+                        </ab>
+                        <ab>No beginning of a fresh book is marked after f. <locus locusNew="113v">120v</locus>. The
+                            narrative is continued to f. <locus locusNew="292v">303v</locus>, the year being
+                                <date>1343</date></ab>
+                        <ab>It breaks off in the <q>literae <name type="person">Edwardi</name> delegatis pape et
+                                vicecomitibus suis</q> (<ref type="bibl" target="Hearne 1731d">Hearne, Hemingford II
+                                371</ref>) with the words</ab>
+                        <explicit locusNew="292v">Nos ad instantiam (catchword) requisicionem</explicit>
+                        <ab locus="304r" locusNew="293r">a leaf added by <name type="person">Parker</name>'s scribes,
+                            and on it they have written the end of the chapter and continue</ab>
+                        <rubric locus="304r" locusNew="293r">Scripsit quoque rex vicecomitibus pro eodem sub hac
+                            forma</rubric>
+                        <ab>The text of this is given. Then follow heads of chapters, no text being given</ab>
+                        <ab locusNew="293r">Qualiter papa scripsit regi <name type="person">Edwardo</name> quod nuntios
+                            ut condictum fuerat non misit ad Curiam</ab>
+                        <ab locusNew="293r">Qualiter rex Angliae asserit treugas per <name type="person">Philippum de
+                                Valesio</name> a parte violatas, et ipsum monet de observatione illarum</ab>
+                        <ab locusNew="293r">Litera <name type="person">Philippi regis francie</name> missa reg. Scotorum
+                            ante transitum regis Angliae in Normanniam</ab>
+                        <ab locusNew="293r">Litera regis fran. missa reg. Scotie statim post aduentum regis Angliae in
+                            Normanniam</ab>
+                        <ab locusNew="293r">Litera missa <name type="person">Edwardo reg. Ang.</name> ante bellum de
+                                <name type="place">Cressi</name> per <name type="person">Philippum</name></ab>
+                        <ab locusNew="293r">Responsio <name type="person">Edwardi</name></ab>
+                        <ab locusNew="293r">De victoria <name type="person">regis Edwardi</name> habita apud <name
+                                type="place">Cressy</name></ab>
+                        <ab locusNew="293r">De bello fact. apud <name type="place">Dunelm</name></ab>
+                        <ab locusNew="293r">De victoria contra Gallicos <name type="person">Thome de Dagworth</name>
+                            diuinitus collata</ab>
+                        <ab locusNew="293r">Qualiter papa post victoriam regi Ang. scripsit</ab>
+                        <ab locusNew="293r">De captione <name type="person">Caroli de Blois</name> et qualiter deuictus
+                            est</ab>
+                        <ab locusNew="293r">Hec omnia clare scribuntur in libro <name type="person">M<abbr
+                                    rend="superscript">ri</abbr> Price</name> ( = <ref type="ms" target="OBL469">Bodl.
+                                240</ref>) et sequuntur multa de <name type="author">Johannis Anglici</name> de vitis
+                            sanctorum ut habetur in martirologio suo et in sanctilogio suo et aliis libris</ab>
+                        <ab locus="304v" locusNew="293v">blank</ab>
+                        <ab>Then follows a quire <handNote>in one of the hands of the earlier part of the MS.</handNote>
+                            containing a chronicle from <date>1343</date> to <date>1377</date> which is said (by <ref
+                                type="bibl" target="Horstmann 1901a">Horstmann</ref>) to be the source both of the <ref
+                                type="bibl" target="Thompson 1874"><hi rend="italic">Chron. Angliae</hi> ed. E. M.
+                                Thompson</ref> and of <name type="person">Tho. Walsingham</name> from <date>1343</date>.
+                            It begins</ab>
+                        <incipit locusNew="294r"><date>18(th year of Ed. III)</date>. Sub eodem tempore missi sunt ex
+                            parte Regis Angl. procuratores ad curiam romanam. Dominus <name type="person">Henricus de
+                                lancastria</name> etc.</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="310r" locusNew="299r">que famam eius indicibiliter minuerunt</explicit>
+                        <ab locusNew="299r">In the lower margin in pencil is</ab>
+                        <ab locusNew="299r">In spacio sequenti scribatur de prole et naturali progenie dicti regis /
+                            Item cathololgus virorum forcium etc. prelatorum et deuotorum virorum vid<abbr
+                                rend="superscript">lt</abbr> domino principe etc. De rege scottorum (??) de cant.
+                            archiep. et / de armachano etc. De <name type="person">Ric. heremita</name>
+                            <abbr rend="superscript">priore</abbr> ... de <name type="place">beligtan (?
+                                berlington)</name> etc./ Item de ffundaco mon. cisterciens. apud <name type="place"
+                                >turrim (??) london.</name> et minorissarum<lb/>ffratrum predicatorum apud <name
+                                type="place">langeley</name>. sororum eiusdem ordinis apud <name type="place">darteford
+                                sutheg' (?)</name></ab>
+                        <ab locusNew="299r">In the remaining line the 4th word seems to be <name type="place"
+                                >Westminstre</name></ab>
+
+
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 06/02/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,661 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC422">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>422</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>S. 16</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>286</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">The Red Book of Darley</head>
+
+                <head type="James">Salomon and Saturn. Missale</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">190</height>
+                        <width unit="mm">130</width>
+                    </measureGrp><measureGrp type="James">7.6 x 5.2</measureGrp>, <extent>ff. 13 + 281 + 1</extent>,
+                        <layout>two volumes, (I) 24, (II) 20 lines to a page</layout>. Cent. <origDate>?x and
+                        xi</origDate>, <handNote>in very fine hands</handNote>.</p>
+
+
+                <p function="Provenance">On the last page (<supplied>p. <locus>586</locus></supplied>) are inscriptions
+                    of cent. <origDate>xvi</origDate>: <lb/> a. The rede boke of darleye<hi rend="footnote">Hitherto
+                        read as 'darbye.' Apparently the parish of <name type="place">Darley</name> near the Peak, and
+                        not the <name type="place">Augustinian Priory of Darley</name> or Derley, is to be
+                        understood</hi> in the peake in <name type="place">darbyshire</name> (ill-written). <lb/> b.
+                    This booke was sumtime had in such reverence in <name type="place">darbieshire</name> that it was
+                    comonlie beleved that whosoeuer should sweare vntruelie vppon this booke should run madd.<lb/> c.
+                    This booke giuen by <name type="person">Richard Flendesley</name> (or Hend-) esquier to M.
+                    Cant.<lb/> The main portion of the volume seems to have been written at <name type="place"
+                        >Winchester</name> in the New Minster (where <name type="person">St Grimbald</name> was
+                    specially honoured).<lb/>
+                    <ref type="bibl" target="Bishop and Gasquet 1908">Mr Edmund Bishop <hi rend="italic">On the Bosworth
+                            Psalter</hi>, 1908 (p. 61 note)</ref>, speaks of the Kalendar as being certainly of <name
+                        type="place">Sherborne</name>.</p>
+
+
+
+                <p type="Multivolume"><lb/><label>Volume I:</label> The portion containing the principal copy of the
+                    poetical and prose dialogues of Salomon and Saturn <handNote>is written in a small round flat-topped
+                        hand which <name type="person">Kemble</name> conjectured to be that of a woman</handNote>.
+                        <label>Volume II:</label>
+                    <handNote>In a very good hand of cent. <origDate>xi</origDate>, round and black</handNote>.
+                        <handNote>The kalendar portion in a smaller hand</handNote>.<lb/> The book has been much used,
+                    and in the latter portion the red ink of the rubrics has disappeared to a very large extent.</p>
+
+
+                <p>
+                    <label>Collation:</label>
+                    <lb/>
+                    <label>Volume I:</label>
+                    <collation>1<num>8</num> (wants 7) 2<num>6</num></collation>.<lb/>
+                    <label>Volume II:</label>
+                    <collation>1<num>12</num> 2<num>8</num> 3<num>10</num> (10 ?canc.) 4<num>8</num> 5<num>8</num>
+                            6<num>10</num> 7<num>8</num> 8<num>8</num> 9<num>10</num> (8 canc.)
+                            10<num>8</num>-14<num>8</num> 15<num>12</num> (1, 2 canc.) 16<num>8</num> 17<num>10</num>
+                        (10 canc.?) 18<num>8</num>-23<num>8</num> (5 canc.) 24<num>10</num> (10 ?canc.)
+                            25<num>8</num>-27<num>8</num> 28<num>6</num> gap <hi rend="footnote">Here should follow
+                            quire 33, pp. 555-570</hi> | 29<num>8</num>-34<num>8</num>, 1 flyleaf</collation>.. </p>
+
+
+                <p function="Research">The publications by <ref type="bibl" target="Kemble 1845-48">Kemble, <hi
+                            rend="italic">Anglo-Saxon Dialogues of Salomon and Saturn</hi>, Aelfric Society, 1847</ref>
+                    and <ref type="bibl" target="Vincenti 1904">A. R. von Vincenti, <hi rend="italic">Die Altengl.
+                            Dialoge von Salomon u. Saturn</hi> (Part I, Munich 1904)</ref>, will be referred to in what
+                    follows: <name type="person">Vincenti</name>'s work contains an excellent bibliography. The last
+                    edition, now in progress, is by <ref type="bibl" target="Vincenti 1904">von Vincenti</ref>. A
+                    collation is in <ref type="bibl" target="Zupitza 1880b">Anglia IV 527 (Zupitza)</ref>; a text in
+                        <ref type="bibl" target="Schipper ???">Germania XXII 50 by Schipper</ref>.</p>
+
+                <p type="CCC">
+                    <foliation>f. i + pp. 1-252 + 252a-b + 253-586 + f. ii</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="ang">Latin and Old English.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="1" locusEnd="26">
+
+                        <head type="CCC">
+                            <title>Solomon and Saturn</title>
+                        </head>
+
+
+
+
+                        <ab locusNew="1">The first page of the MS. is very illegible, especially at the top. It was once
+                            pasted down to the cover. Enough words are decipherable (<ref type="bibl"
+                                target="Vincenti1904">Vincenti, p. 44</ref>) to show that the text was essentially
+                            identical with that preserved in the only other copy (a fragment in <ref type="ms"
+                                target="CCC041">no. 41</ref> in this collection).<lb/> Galls have been used to revive
+                            this and subsequent pages. At the top is a modern note: <q>S. 16 in red leather</q>, and an
+                            old scribble in large letters made with a dry point. About the first five leaves are
+                            penetrated by some small holes caused by rust</ab>
+
+
+
+
+
+                        <ab>p. <locus>7</locus> has been cut out, <supplied agent="CCC">but is now
+                            reattached</supplied>. It contained a portion of the prose description of the contest
+                            between the devil and the Paternoster (<ref type="bibl" target="Kemble1847">Kemble, p.
+                                152</ref>).</ab>
+
+                        <ab>The second (poetical) dialogue begins on p. <locus>13</locus>. The first words are in large
+                            capitals</ab>
+                        <rubric locus="13">H&#447;&#198;T IC FLITAN GEFR&#198;GN</rubric>
+
+                        <ab>p. <locus>14</locus> has had its original text erased, and a Latin form of excommunication
+                            has been written on it in a rather rough hand of cent <date>xii</date></ab>
+                        <incipit locusNew="14">Ex auctoritate dei patris omnipotentis et filii et spiritus
+                            Sancti</incipit>
+                        <ab locusNew="14">sequestramus illos homines qui hoc factum uel maleficium fecerunt, etc.</ab>
+                        <explicit locusNew="14">et ad emendacionem congruam perueniant fiat fiat fiat. Amen</explicit>
+
+                        <ab locusNew="14">The page has also been treated with galls. A word or two in line 8 may be
+                            read. The Latin text occupies two-thirds of the page and when it ends <handNote>there are
+                                remains of another hand not the original</handNote>. It is just possible that a little
+                            of the original text might be recovered at the bottom of the page. The remaining pages
+                                (<locus>15</locus>-<locus>26</locus>) are legible, though discoloured by reagents in
+                            many places</ab>
+
+                        <ab>The text ends</ab>
+                        <explicit locus="26">him to neiddes</explicit>
+                        <ab>(<ref type="bibl" target="Kemble 1845-48">Kemble, p. 176</ref>)</ab>
+
+
+                    </msItem>
+
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="2" locusStart="27" locusEnd="586">
+
+
+                        <head type="CCC">
+                            <title>Missal</title>
+                        </head>
+
+
+                        <head type="James">
+                            <title>Missale</title>
+                        </head>
+
+
+                        <ab locus="27">Table of Moons with short prognostics in Latin and Anglo-Saxon</ab>
+                        <ab>The numerals have disappeared to a large extent. The form is</ab>
+                        <ab locusNew="27">Luna ... Non est bona nis hit her god tima.<lb/> Melior est her hit is betere,
+                            etc.</ab>
+                        <ab locus="28">
+                            <decoNote>Diagram of days in the months</decoNote>
+                        </ab>
+                        <ab locusNew="28">Table of concurrentes, etc.</ab>
+                        <ab locusNew="28">Notes in Latin and Anglo-Saxon</ab>
+                        <ab locusNew="28">Gif &#240;u &#447;ille &#447;itan hu fela epacta, etc.</ab>
+                        <ab locusNew="29">Kalendar <decoNote>in black, red and green</decoNote></ab>
+                        <ab>There are a good many notes in Anglo-Saxon. Uniformly each month has one of this kind</ab>
+                        <ab>(March)</ab>
+                        <ab locusNew="31">Seo niht xii tida 7 se d&#230;g xii.<lb/> To underne 7 to none xiii
+                            fotgemetu 7 to midd&#230;ges vii</ab>
+                        <ab>(May)</ab>
+                        <ab locusNew="33">&#208;es mono&#240; h&#230;f&#240; xxxi daga 7 se mona xxx
+                            nihta eald</ab>
+                        <ab>There are also occasional notes, some of which will be given</ab>
+                        <ab>The great feasts, as <ref type="bibl" target="Bishop and Gasquet 1908">Mr Bishop</ref>
+                            remarks, are distinguished by the letter f, not by the more usual cross</ab>
+
+
+                        <ab locusNew="29"><hi rend="bold">January</hi><lb/> 3. <name type="person">Genofeue</name>
+                            uirginis<lb/> 8. <name type="person">&#447;ulfsini scirburnensis</name> episcopi<lb/> 9.
+                            Translatio <name type="person">Sancti Iudoci</name> Confessoris<lb/> 12. <name type="person"
+                                >Sancte Iohannes</name> ap'los<lb/><hi rend="italic">aquarius</hi> (glossed
+                            &#447;aterri&#240;(?))<lb/> 29. <name type="person">gildae sapientis</name></ab>
+
+
+
+                        <ab locusNew="30"><hi rend="bold">February</hi><lb/> 1. <name type="person">brigide</name>
+                            Virginis<lb/> 4. added early <name type="person">&#447;&#230;rburuhe</name>
+                            Virginis<lb/> 11. her onginna&#240; fugelas to singen<lb/> 13. <name type="person"
+                                >eormenhilde</name> Virginis (added Translatio Sancti <name type="person"
+                                >ead&#447;ardi</name> regis et martyris)<lb/><hi rend="italic">Pisces</hi> (glossed
+                            fisc)<lb/> 18. added early Translatio <name type="person">Sancti Ead&#447;ardi</name>
+                            regis et martyris in capitals<lb/> Note on leap year in Anglo-Saxon</ab>
+
+
+
+                        <ab locusNew="31"><hi rend="bold">March</hi> (glossed hraedd)<lb/> 1. Sancti <name type="person"
+                                >deuin</name><lb/> 2. <name type="person">ceadde</name> episcopi<lb/> 3. <name
+                                type="person">albani</name> episcopi<lb/> 4. dccc. martirum<lb/> 15. <name type="person"
+                                >Longini</name> qui latus christi perforauit<lb/> 17. <name type="person"
+                                >Patricii</name> episcopi<lb/><hi rend="italic">ariete</hi> (gl. ram) prima dies seculi
+                            se forma d&#230;g<lb/> 18. <name type="person">Eaduueardi</name> regis et martyris
+                            capitals<lb/> 19. <name type="person">Ioseph</name> sponsi <name type="person">Sancte
+                                marie</name><lb/> 20. <name type="person">Cu&#240;berhti</name> episcopi
+                            capitals<lb/> 21. <name type="person">Benedicti</name> abbatis capitals<lb/>Equinoct. (gl.
+                            emniht)<lb/> 26. dominus (in) sepulchro<lb/> 27. Resurrectio domini prima<lb/> 29. Ordinatio
+                                <name type="person">Sancti Gregorii</name> pape</ab>
+
+
+
+                        <ab locusNew="32"><hi rend="bold">April</hi> (easter mono&#240;)<lb/> 1. <name type="person"
+                                >&#447;alerici</name> Confessoris<lb/> 11. <name type="person">Guthlaci</name>
+                                presbyteri<lb/><hi rend="italic">Tauro</hi> (gl. fear)<lb/> 18. Passio <name
+                                type="person">Sancti eleutherii</name> episcopi<lb/> 19. <name type="person"
+                                >&#230;lfeachi</name> martyris et archiepiscopi<lb/> 21. <name type="person"
+                                >fortunati</name><lb/> 22. Inuentio Corporum Sanctorum <name type="person"
+                                >Dionisii</name>
+                            <name type="person">Rustici</name> et <name type="person">Eleutherii</name><lb/> 23. <name
+                                type="person">Georgii</name> Martyris capitals<lb/> 24. <name type="person"
+                                >Melliti</name> archiepiscopi<lb/> 30. <name type="person">Erken&#447;oldi</name>
+                            episcopi</ab>
+
+
+
+                        <ab locusNew="33"><hi rend="bold">May</hi> (&#240;rymylce)<lb/> 8. sumor<lb/> 13. Uictoris
+                            quarti et cccc iiii<abbr rend="superscript">or</abbr> militum<lb/> 18. <name type="person"
+                                >&#230;lfgiue</name> regine<lb/><hi rend="italic">geminis</hi> (gl.
+                            get&#447;isan)<lb/> 19. <name type="person">Dunstani</name> (capitals)<lb/> 20. <name
+                                type="person">&#230;thelbrihti</name> regis et martyris<lb/> 25. <name type="person"
+                                >Aldhelmi</name> episcopi added<lb/> 26. <name type="person">Augustini</name> episcopi
+                            (et <name type="person">S. bede</name> presbyteri added early)<lb/> 28. <name type="person"
+                                >germani parisius</name> episcopi</ab>
+
+
+
+
+
+                        <ab locusNew="34"><hi rend="bold">June</hi> (Li&#240;a)<lb/> 4. <name type="person"
+                                >petroci</name> Confessoris<lb/> 5. <name type="person">bonefacii</name>
+                            archiepiscopi<lb/> 6. <name type="person">amandi</name> Confessoris<lb/> 8. <name
+                                type="person">medardi</name> Confessoris<lb/> 13. hic hobiit <name type="person"
+                                >simundus</name> clericus (<date>xi late?</date>)<lb/> 15. <name type="person"
+                                >Uiti</name>, etc. et <name type="person">Sancte eadburge</name> Virginis<lb/> 16. <name
+                                type="person">Botulfi</name> abbatis (lined through and transferred to 17th <handNote>by
+                                a later hand</handNote>)<lb/><hi rend="italic">Cancro</hi> (gl. Crabba)<lb/> 21. <name
+                                type="person">leutfredi</name> abbatis <name type="person">&#447;aerburh</name>
+                            added<lb/> 22. <name type="person">albani</name> Martyris<lb/> 23. <name type="person"
+                                >&#230;&#254;eldri&#240;e</name> Virginis</ab>
+
+
+
+
+
+                        <ab locusNew="35"><hi rend="bold">July</hi> (Li&#240;a)<lb/> 1. <name type="person"
+                                >Suuithuni</name> episcopi<lb/> 2. Translatio <name type="person">Sancti thome</name>
+                            apostoli<lb/> 5. <name type="person">Sexburge</name> Virginis<lb/> 6. Sanctarum <name
+                                type="person">&#230;&#254;elburge</name> et <name type="person"
+                                >&#447;ihtburge</name><lb/> 7. <name type="person">Grimbaldi</name> (capitals)
+                            Confessoris<lb/> 10. Translatio <name type="person">Sancti Benedicti</name> abbatis
+                            (capitals)<lb/> 13. <name type="person">myldri&#240;e</name> dies caniculares (gl. hare
+                            dagas)<lb/> 14. Translatio <name type="person">Sancti S&#447;i&#240;huni</name><lb/>
+                            16. <name type="person">Kenelmi</name> Martyris<lb/> 17. <hi rend="italic">Leonem</hi> (gl.
+                                leo)<lb/><name type="person">Sancti eadwardi</name> regis<lb/><handNote>added in a faint
+                                hand</handNote><lb/> 19. <name type="person">&#447;ulfmari</name> Confessoris et
+                                <name type="person">Sancte margare(te)</name><lb/><handNote>added in the same faint
+                                hand</handNote><lb/> 28. <name type="person">Samsonis</name> episcopi<lb/> 29. <name
+                                type="person">felicis</name>
+                            <name type="person">simplicis</name>
+                            <name type="person">faustini</name>
+                            <name type="person">Olaui</name> et <name type="person">beatricis</name></ab>
+
+
+
+
+                        <ab locusNew="36"><hi rend="bold">August</hi><lb/> 1. <name type="person">S.
+                                a&#254;el&#447;oldi</name> added early?<lb/> 5. <name type="person"
+                                >os&#447;aldi</name> regis et martyris<lb/> 7. Autumnus initium habet dies xci(?)
+                            (gl. h&#230;refest). <name type="person">donati</name> Episcopi added<lb/> 12.
+                            Translatio <name type="person">Sancti ead&#447;oldi</name> anachorite<lb/><hi
+                                rend="italic">uirgine</hi> (gl. m&#230;den)<lb/> 19. <name type="person"
+                                >magni</name> Martyris<lb/> 24. <name type="person">Bartholomai</name> et <name
+                                type="person">audoeni</name>
+                            <handNote>written over erasure roughly</handNote><lb/> 31. <name type="person"
+                                >cu&#240;burhe</name></ab>
+
+
+
+
+                        <ab locusNew="37"><hi rend="bold">September</hi> (halig mon&#240;)<lb/> 1. <name
+                                type="person">Egidii</name> added<lb/> 2. <name type="person">iusti</name> martyris<lb/>
+                            4. Translatio Sanctorum <name type="person">birini</name> et <name type="person"
+                                >cuthberhti</name><lb/> 5. <name type="person">berhtini</name>. her geendio&#240;
+                            &#254;a haredagas<lb/> 10. Translatio <name type="person">Sancti
+                                a&#254;el&#447;oldi</name> episcopi<lb/> 12. <name type="person"
+                                >Maurilionis</name> Confessoris<lb/> 16. <name type="person">Eufemie</name> 7 <name
+                                type="person">eadgy&#254;e</name>. <name type="person">lucie</name>
+                            <name type="person">ge[ni]miniani</name><lb/> 17. <name type="person"
+                                >landberhti</name><lb/><hi rend="italic">Libra</hi> (gl. &#447;&#230;gan)<lb/>
+                            20. <name type="person">Amandi</name><lb/>equinoct. (gl. emniht)<lb/> 22. gloss on <name
+                                type="person">Maurici</name> six &#240;usendum six...<lb/> 25. <name type="person"
+                                >ceolfri&#240;i</name> Abbatis</ab>
+
+
+
+
+                        <ab locusNew="38"><hi rend="bold">October</hi> (&#447;inter fylled mono&#240;)<lb/> 1.
+                                <name type="person">Germani</name>
+                            <name type="person">Remegii</name>
+                            <name type="person">Uedasti</name><lb/> 5. <name type="person">Christiane</name>
+                            Virginis<lb/> 7. <name type="person">Dionisii</name>, etc.<lb/> 8. <name type="person"
+                                >Paulini</name> episcopi<lb/> 9. <name type="person">&#198;&#254;elburge</name>
+                            Virginis<lb/> 10. <name type="person">&#447;ilfri&#240;i</name> Episcopi<lb/> 15.
+                                <name type="person">&#230;&#240;elry&#240;e</name> Virginis<lb/><hi
+                                rend="italic">Scorpione</hi> (gl. &#240;ro&#447;end)<lb/> 20. <name
+                                type="person">Neoti</name> presbyteri<lb/> 21. hic ordinatus fuit <name type="person"
+                                >dunstanus</name> archiepiscopi</ab>
+
+
+
+                        <ab locusNew="39"><hi rend="bold">November</hi> (blod mono&#240;)<lb/> 7. &#447;intres
+                            angin<lb/> 11. (<name type="person">Martini</name>) et <name type="person">Sancti
+                                Menne</name> (capitals)<lb/> 15. <name type="person">Macuhti</name> Confessoris<lb/> 17.
+                                <hi rend="italic">Sagittarius</hi> (gl. sceotere). <name type="person">aniani</name>
+                            added<lb/> 20. <name type="person">eadmundi</name> Regis et martyris<lb/> 25. Saltus lune.
+                            &#240;&#230;s monan hlyp<lb/> 27. Her ongin&#240; aduentum domini</ab>
+
+
+
+                        <ab locusNew="40"><hi rend="bold">December</hi> (iolmono&#240;)<lb/> 2. <name type="person"
+                                >Uiuiane</name><lb/> 3. <name type="person">Birini</name> episcopi. Ultimus aduentus.
+                            endung<lb/> 4. <name type="person">barnabe</name> apostoli<lb/> 6. <name type="person"
+                                >nicolai</name> episcopi Confessoris seemingly original<lb/> 13. <name type="person"
+                                >lucie</name> et <name type="person">iudoci</name><lb/> 14. <name type="person"
+                                >nicase</name> episcopi ? added<lb/><hi rend="italic">Capricornu</hi> (gl. gat
+                            o&#240;&#240;e gate horn)<lb/> 21. Solstitium (gl. sunstede)<lb/> 22. <name
+                                type="person">Theodosie</name> Virginis<lb/> 25. Nativitas Domini et <name type="person"
+                                >anastasie</name><lb/> 29. <name type="person">Thomas</name> has been added in red and
+                            erased</ab>
+
+
+
+
+                        <ab locus="41">Table of Termini paschales, under arches</ab>
+                        <ab locus="42">Paschal Tables with notes in Anglo-Saxon</ab>
+                        <incipit locusNew="42">Gif &#240;u &#447;ille &#447;itan h&#447;&#230;nne
+                            septuagessima beon sceole, etc.</incipit>
+                        <incipit locus="43">Gif &#240;u &#447;ylle &#447;itan h&#447;&#230;r
+                            halgandaeg beon sceole, etc.</incipit>
+                        <ab locus="44">Table showing Easter, etc. from <date>1061</date> to <date>1098</date></ab>
+                        <ab locus="46">Explanation in Anglo-Saxon of the Tables, and notes on Kalendar matter</ab>
+                        <incipit locusNew="46">Gif &#240;u ne cunne understandan on &#240;is ledene &#254;e
+                            her beforan a&#447;riten is &#254;onne loca &#240;u her hu &#254;u scealt
+                            &#254;in gear rihtlice gefadian, etc.</incipit>
+                        <ab>Ends with a note on the three Fridays</ab>
+                        <incipit locus="47">&#208;is synd &#254;a &#254;ry frigedagas &#254;e man sceal
+                            f&#230;stan</incipit>
+                        <ab>Further notes in Anglo-Saxon</ab>
+                        <incipit locus="48">Fram middan &#447;intra by&#240; to sancta <name type="person"
+                                >marian</name> m&#230;ssan v ucan 7 iiii niht</incipit>
+                        <ab locusNew="48">It goes through the year enumerating the great feasts, including <name
+                                type="person">Gregory</name>, <name type="person">Cuthbert</name>, <name type="person"
+                                >Benedict</name> and <name type="person">Augustine</name></ab>
+                        <incipit locus="49">On t&#447;elf mon&#240;um by&#240; &#254;reo hund daga 7 v
+                                <supplied>7</supplied> syxtig daga 7 &#254;&#230;ra &#447;ucena synt
+                            t&#447;a 7 fiftig 7 &#254;&#230;ra tida eahta &#254;usenda 7 eahta hund
+                            syxtig tida</incipit>
+                        <ab locusNew="49">
+                            <handNote>In a later hand, large and pale</handNote>
+                        </ab>
+                        <ab locusNew="49">Isti sunt tres dies anni pre aliis obseruandi primus est viii kalendas aprilis
+                            et primus dies agusti et nouisimus est tertia kalendas decembris. Qui in is diebus hominem
+                            uel pecus inciderit tertia die morietur. Si quis in predictis diebus natus fuerit mala morte
+                            morietur. In anno sunt tres dies et tres noctes in quibus si quis homo genitus fuerit sine
+                            dubio corpus eius integrum manebit usque in diem iudicii hoc est vi kalendas aprel. et idus
+                            agustus et iii kalendas februarii et est mirabile misterium</ab>
+
+                        <ab locusNew="49">Mass for <name type="person">St Helen</name>
+                            <handNote>in two hands</handNote> (<origDate>xii</origDate>)</ab>
+
+                        <ab locusNew="50">Last Gospel of the Mass (<origDate>xii</origDate>)</ab>
+                        <incipit locus="50">In principio erat</incipit>
+
+                        <ab locusNew="51">The Order of the Mass</ab>
+
+                        <ab locusNew="51">
+                            <decoNote>The first page in red and green capitals (alternate lines) with large initial in
+                                green and red, panelled, with plaited work and beasts' heads at top</decoNote>
+                            <!--with neumes-->
+                        </ab>
+
+                        <rubric locusNew="51">Per omnia / secula / seculorum / amen / dominus vobiscum / et cum spiritu
+                            tuo / sursum corda / habemus ad dominum / gratias agamus / domino deo nostro / dignum et
+                            iustum est /</rubric>
+
+                        <ab locus="52">The Preface</ab>
+
+                        <ab locusNew="52"><decoNote>The upper half of the page occupied by a drawing mostly in green
+                                outline. Christ beardless in mandorla with book blessing, supported by two angels with
+                                flowering sceptres</decoNote>. <decoNote>The text of the preface is written on and about
+                                the mandorla, in green and red capitals.</decoNote> Below, it is continued in minuscule,
+                            with neumes <!--(neumes in text of deco as wel)--></ab>
+
+                        <ab locus="53">The Canon</ab>
+
+
+                        <ab locusNew="53"><decoNote>The initial is a cross, green, roughly in the form of a
+                                tree-trunk</decoNote>. <decoNote>On it Christ bearded(?) nailed with four nails, the
+                                side wounded. He wears a rich loin-cloth</decoNote>. <decoNote>On L. the Virgin holds
+                                her robe to her face, bends to R. and points or blesses</decoNote>. <decoNote>Above on
+                                R. the divine hand</decoNote>; <decoNote>on L. a dove with wreath in beak flies
+                                down</decoNote></ab>
+
+                        <ab>The Saints in the Canon after '<name type="person">Cosme</name> et <name type="person"
+                                >damiani</name>' are: <name type="person">Hilarii</name>, <name type="person"
+                                >Martini</name>, <name type="person">Benedicti</name>, <name type="person"
+                                >Gregorii</name>, <name type="person">Agustini</name>, <name type="person"
+                            >Amandi</name>, <name type="person">Laurentini</name> (cf. <ref type="ms" target="CCC411">MS
+                                411</ref>)</ab>
+
+                        <ab>After the Agnus (<supplied>p. <locus>61</locus></supplied>) on p. <locus>62</locus> is the
+                            rubric</ab>
+
+                        <rubric locus="62">Coniunctio panis et uini</rubric>
+
+                        <rubric locus="63">Missa de Sancta Trinitate</rubric>
+                        <rubric locus="67">Alia missa de Sancta Trinitate cotidianis diebus</rubric>
+                        <rubric locus="69">Feria missa pro peccatis</rubric>
+                        <rubric locus="72">Feria III Missa ad suffragia angelorum</rubric>
+                        <rubric locus="75">Feria IIII Missa ad <name type="person">Sanctam Sophiam</name> que(?)
+                            christus est</rubric>
+                        <rubric locus="78">Alia feria quinta</rubric>
+                        <rubric locus="81">Feria VI Missa in honore Sancte crucis</rubric>
+                        <rubric locus="84">Sabbato Missa in honore <name type="person">Sancte Marie</name>
+                            Virginis</rubric>
+
+
+
+                        <ab>Common of Saints</ab>
+                        <rubric locus="88">Vigilia Unius Apostoli</rubric>
+                        <rubric locus="123">Missa sanctorum quorum reliquie in una continentur ecclesia</rubric>
+                        <rubric locus="126">Missa cotidie ad post dam (postulanda) suffragia sanctorum</rubric>
+
+                        <rubric locus="127">Missa in honore omnium celestium et omnium sanctorum</rubric>
+                        <rubric locus="128">Missa in memoriam saluatoris domini nostri</rubric>
+
+                        <rubric locus="129" locusNew="130"><supplied>Missa</supplied> pro abbate uel
+                            congregatione</rubric>
+                        <rubric locus="130"><supplied>Missa</supplied> in congregatione monachorum</rubric>
+                        <rubric locus="131"><supplied>Missa</supplied> pro petitione lacrimarum penitentie</rubric>
+                        <ab locusNew="130"><supplied>(and p. <locus>131</locus>)</supplied> [Scribbled name
+                                (<origDate>xvi</origDate>). <name type="person">Margaret Rollysleye</name> wydowe]</ab>
+
+                        <rubric locus="132"><supplied>Missa</supplied> pro gratia Spiritus Sancti postulanda</rubric>
+                        <rubric locus="133"><supplied>Missa</supplied> pro temptatione carnis et gratia Spiritus
+                            Sancti</rubric>
+                        <ab locusNew="133">glossed <q>for flaesc costnunge &#254;aet is idel lust</q></ab>
+
+                        <rubric locus="135"><supplied>Missa</supplied> tempore sinodi pro rege</rubric>
+
+                        <rubric locus="137">Missa cotidiana de <name type="person">Sancti Suuithuno</name></rubric>
+                        <rubric locus="141">In natali plurimorum martirum</rubric>
+                        <ab>and other Masses from the Common of Saints</ab>
+                        <rubric locus="162">IIII kalendas Agusti <name type="person">Sancti Olaui</name> regis et
+                            martyris</rubric>
+                        <rubric locus="163">VIII Idus Decembris <name type="person">Sancti Nicolai</name>
+                            Episcopi</rubric>
+
+
+
+                        <ab>Missae votivae, beginning with</ab>
+                        <rubric locus="164">Propria missa sacerdotis</rubric>
+                        <ab>In the Mass on p. <locus>168</locus> (pro amico uiuente) the Secret, Preface and
+                            Postcommunion name</ab>
+
+                        <ab>The Virgin, <name type="person">SS. Dunstan</name>, <name type="person"
+                                >S&#447;ui&#240;hun</name> and <name type="person">&#230;lfeag</name></ab>
+                        <ab locus="171">Anglo-Saxon gloss: for &#254;one kyning</ab>
+                        <ab>
+                            <handNote>A change of hand apparently at p. <locus>203</locus></handNote>
+                        </ab>
+                        <!--<ab locusNew="205">In margin:  "Bened ..."; 4-line stave with c-clef, b-flat, and neumes</ab>-->
+
+                        <rubric locusNew="213">Missa tempore quod absit mortalitatis</rubric>
+                        <ab>pp. <locus>234</locus>, <locus>235</locus>. contra paganos</ab>
+
+                        <rubric locus="237"><supplied>Missa</supplied> contra iudices male agentes</rubric>
+                        <!--<ab locusNew="244">In margin:  "benedicamus domino" with neumes</ab>-->
+                        <ab locus="257">For ember days</ab>
+                        <rubric locus="268">Incipiunt orationes. pro peccatis</rubric>
+                        <rubric locus="271">matutinales</rubric>
+                        <rubric locus="276">Missa ad sponsas benedicendos</rubric>
+                        <rubric locus="280">Bletsung Benedictio</rubric>
+                        <rubric locus="285">IIII nonas februarii Purificatio <name type="person">Sancte Marie</name>
+                            Benedictio super candelas</rubric>
+                        <ab>With neumes <!--(pp. 286, 287, 288)--></ab>
+                        <rubric locus="288">Benedictio cineris in capite ieiunii</rubric>
+                        <rubric locus="291">Benedictio in die palmarum</rubric>
+                        <rubric locus="292">Benedictio carnium</rubric>
+                        <rubric locus="293">Super olera in nativitate <name type="person">Sancti Johannis
+                                Baptiste</name></rubric>
+                        <rubric locus="294">Pomorum in natale <name type="person">Sancti Petri</name> apostoli</rubric>
+                        <rubric locus="295">panis et noui (!)</rubric>
+                        <rubric locus="296">uue uel fabe</rubric>
+                        <rubric locus="297">ad fruges nouos</rubric>
+                        <rubric locus="297">ad omnia que uolueris</rubric>
+                        <rubric locus="300">Oratio contra fulgora</rubric>
+                        <rubric locus="300">super uasa in domo antiquo reperta</rubric>
+                        <rubric locus="301">putei, cisternae</rubric>
+                        <rubric locus="302">(super retia)</rubric>
+                        <rubric locus="303">pro emundatione cereuisie</rubric>
+
+                        <rubric locus="304">Exorcismus aque super fontes</rubric>
+                        <rubric locus="305">Benedictio salis ad pecora</rubric>
+                        <rubric locus="305">(Benedictio incensi)</rubric>
+                        <rubric locus="306">ad segetes contra aues et uermes</rubric>
+                        <rubric locus="307">Oratio super eos qui morticinum comederint(?)</rubric>
+                        <rubric locus="307">Benedictio olei ad infirmos, etc.</rubric>
+                        <rubric locus="308">saponis</rubric>
+                        <rubric locus="308">areae</rubric>
+                        <rubric locus="309">horrei</rubric>
+                        <ab locus="310"><handNote>In a hand of cent. <origDate>xii</origDate>.</handNote>
+                            Excommunication</ab>
+                        <incipit locus="310">Ex auctoritate patris et ex uerbo filii</incipit>
+                        <ab locus="315">Improperia and Ecce lignum with neumes</ab>
+                        <ab locusNew="316">followed by Pange lingua without neumes</ab>
+                        <ab locusNew="318">Later prayer. D. pater piissime</ab>
+                        <rubric locus="319">Incipit exorcismus aquae ad iudicium dei demonstrandum</rubric>
+                        <ab>pp. <locus>319</locus>, <locus>320</locus> in capitals. Rubrics much faded</ab>
+                        <ab>The Anglo-Saxon form on p. <locus>330</locus></ab>
+                        <ab locus="339">(Exorcismus panis et casei)</ab>
+                        <ab locus="345">Blessing of water and salt (with the Passio secundum <name type="person"
+                                >Matheum</name>)</ab>
+                        <!--<ab locusNew="364">neumes</ab>-->
+                        <ab locus="367">Baptismal office and Blessing of font</ab>
+                        <ab>Litany p. <locus>378</locus> includes:<lb/> Martyrs: <name type="person"
+                                >os&#447;alde</name>, <name type="person">kenellme</name>, <name type="person"
+                                >albane</name>, <name type="person">eadmunde</name>, <name type="person"
+                                >ead&#447;arde</name>, <name type="person">aelfeahe</name>
+                            <lb/>Confessors: <name type="person">birine</name>, <name type="person"
+                                >s&#447;i&#240;hune</name>, <name type="person">dunstane</name>, <name
+                                type="person">iudoce</name>, <name type="person">GRIMBALDE</name>
+                            <lb/>Virgins: <name type="person">brigida</name> ... <name type="person"
+                                >ae&#240;eldri&#240;a</name>, <name type="person">sexburga</name>, <name
+                                type="person">eormenhilda</name>, <name type="person">eadburga</name>, <name
+                                type="person">aelfgiua</name>, <name type="person">eadgi&#240;a</name></ab>
+                        <ab locus="397">Blessing of ashes</ab>
+                        <ab locus="399">Visitation of the Sick</ab>
+                        <ab>Anglo-Saxon begins on p. <locus>400</locus></ab>
+                        <incipit locus="400">&#198;fter &#254;isum collectan bige se preost his
+                            cneo&#447;a</incipit>
+                        <ab>Litany, p. <locus>402</locus>, has:<lb/> Confessors: <name type="person">birine</name>,
+                                <name type="person">gregorii</name>, <name type="person">augustine</name>, <name
+                                type="person">s&#447;i&#240;une</name>, <name type="person"
+                                >a&#254;el&#447;olde</name>, <name type="person">cutberhte</name>, <name
+                                type="person">iudoce</name>, <name type="person">remei</name>, <name type="person"
+                                >germane</name>, <name type="person">columbane</name>, <name type="person"
+                            >antone</name>, <name type="person">machare</name>
+                            <lb/>Virgins: <name type="person">brigida</name> ... <name type="person"
+                            >genetrudis</name>(!), <name type="person">&#230;&#254;eldri&#240;a</name>,
+                                <name type="person">eadburgae</name>, <name type="person">eadgi&#254;e</name></ab>
+                        <ab locus="410">Office of Extreme Unction</ab>
+                        <rubric locus="423">Missa pro infirmo in domo</rubric>
+                        <ab locusNew="429">Rubric glossed in Anglo-Saxon</ab>
+
+                        <rubric locus="429">Her ongin&#240; seo endebyrdnyss hu man sceal embe &#254;onne
+                            untruman do(?) &#254;onne man getryh&#254; &#254;et his ge endung
+                            geneal&#230;ce&#240;, etc.</rubric>
+                        <ab>Followed by Burial office</ab>
+                        <ab locus="445">Masses for the dead</ab>
+                        <ab locus="470">Incipiunt Ant. R. in agenda mortuorum</ab>
+                        <ab locusNew="470">
+                            <decoNote>With neumes</decoNote>
+                        </ab>
+                        <!--<ab>Neumes throughout pp. 471-499</ab>-->
+                        <ab>After p. <locus>490</locus> a misplaced quire (29) intervenes</ab>
+                        <ab locus="507">Antiphons and Responses, Capitula, Lessons and Collects (some noted)
+                            <!--(neumes)--></ab>
+                        <rubric locusNew="507">In natali apostolorum. ad uesperam</rubric>
+                        <ab>For Common of Saints</ab>
+                        <!--<ab>neumes on 552, 553, 554</ab>-->
+                        <ab>On p. <locus>554</locus> part of an office for the dead <handNote>in later
+                            hand</handNote></ab>
+                        <ab locus="555">Office from Holy Thursday to Easter <decoNote>with neumes</decoNote></ab>
+                        <rubric locusNew="555">In cena domini ad uesperam</rubric>
+                        <ab>After p. <locus>570</locus> should follow pp. <locus>491</locus>-<locus>506</locus> ending
+                            imperfectly in the Easter office</ab>
+                        <ab>
+                            <handNote>In two good hands of cent. <origDate>xii</origDate></handNote>: </ab>
+                        <ab locus="571">Lessons for a Confessor</ab>
+                        <ab locus="574">For Virgins</ab>
+                        <ab locus="578">De Sancta Trinitate</ab>
+                        <!--<ab>neumes, pp. 579-580</ab>-->
+
+                        <ab locus="581">De Sancta Cruce</ab>
+                        <ab locus="582"><name type="person">Alexandri</name>
+                            <name type="person">euentii</name> et <name type="person">theodoli</name></ab>
+                        <ab locus="583">Inuentio Sancte Crucis</ab>
+                        <!--<ab>neumes, p. 585</ab>-->
+                        <ab>In the latter part of the book the Rubrics are very commonly in Anglo-Saxon. They are very
+                            faint</ab>
+
+
+
+
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text:copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, BA, CF</p>
+                            <p>msCheck: RJR 28.6.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

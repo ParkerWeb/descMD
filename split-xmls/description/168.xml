@@ -1,0 +1,485 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC168">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>168</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Misc. Y</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Documents Relating to Bishop Cox of Ely</head>
+                <head type="James">Documents Relating to Bp Cox of Ely</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">300</height>
+                        <width unit="mm">209</width>
+                    </measureGrp><measureGrp type="James">11.7 x 8.5</measureGrp>, <extent>ff. circa 200</extent>, many
+                    blank. Cent. <origDate>xvi</origDate>, <handNote>in various hands</handNote>.</p>
+
+                <p function="Provenance"><name type="person">Stanley</name> is responsible for calling this volume <hi
+                        rend="italic">Misc</hi>. Y, and he is wrong. <name type="person">Parker</name>'s own <hi
+                        rend="italic">Misc</hi>. Y, which contained chiefly medical tracts, is lost, and the present
+                    volume was given by <name type="person">Dr J. Jegon</name>, Master from <date>1590 to
+                    1602</date>.</p>
+                <p function="Provenance">
+                    <supplied>A note on the first page (f.<locus>viiir</locus>) reads:</supplied>
+                    <quote>
+                        <q>This booke conteyninge some fragments of that excellent man <name type="person">Richard
+                                Cox</name> bishoppe of Elie, <name type="person">Roger Cox</name> sonne to the B. gave
+                            to me <name type="person">J. Jegon</name>.</q>
+                    </quote>
+                </p>
+
+                <p type="CCC">
+                    <foliation>ff. i-viii + 1-38 + 38a + 39-210 + ix-x</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="eng">Latin and English</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="56r">
+                        <head type="CCC">
+                            <title>The location of places derived from the church fathers and others</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Loci communes ex patribus, &amp;c. collecti</title>
+                        </head>
+
+                        <ab>Collected from Fathers and medieval writers</ab>
+                    </msItem>
+                    <msItem n="2" locusStart="56v" locusEnd="63v">
+                        <head type="CCC">
+                            <title>Notes on church history <date>603</date> AD - <date>1509</date> AD</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Notae historicae ordine chronologico dispositae de rebus ecclesiasticis ab anno
+                                    <date>603</date> ad annum <date>1509</date></title>
+                        </head>
+
+                        <ab>Mostly on the Popes</ab>
+
+                    </msItem>
+                    <msItem n="3" locusStart="64r" locusEnd="66v">
+                        <head type="CCC">
+                            <title>Laws of <name type="person">Cnut</name>, <name type="person">Ethelred</name>, <name
+                                    type="person">Edgar</name>, <name type="person">Edmund</name>, <name type="person"
+                                    >Athelstan</name>, <name type="person">Ine</name> and <name type="person"
+                                    >Alfred</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Leges <name type="person">Canuti</name>, <name type="person">Ethelredi</name>, <name
+                                    type="person">Edgari</name>, <name type="person">Edmundi</name>, <name type="person"
+                                    >Adelstani</name>, <name type="person">Inae</name> et <name type="person"
+                                    >Aluredi</name></title>
+                        </head>
+
+                        <ab>(4 pp.) called by <ref type="bibl" target="Liebermann 1903">Liebermann (p. xxii)</ref>
+                            <hi rend="italic">Corpus</hi></ab>
+                    </msItem>
+                    <msItem n="4" locusStart="67r" locusEnd="102v">
+                        <head type="CCC">
+                            <title>Poems on the butcher of <name type="place">Paris</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carmina in Lanienam Parisiensem</title>
+                        </head>
+                        <rubric locusNew="67r">In perfidiam et crudelitatem quam <name type="person">Carolus nonus
+                                Galliae Rex</name> in Christianos exercuit</rubric>
+                        <ab>A series of 8 Latin poems: the first begins</ab>
+                        <incipit locusNew="67r">
+                            <lg>
+                                <l>Fama fuit Moscum furiis urgentibus arma</l>
+                                <l>Aduersus ciues expediisse suos</l>
+                            </lg>
+                        </incipit>
+                        <ab locusNew="72r">Two pages, one with swan-marks (?) of <name type="person">Roger</name>, <name
+                                type="person">Richard</name>, <name type="person">John</name>, <name type="person">Jane
+                                Cox</name>, <name type="person">Eliz. Whithed</name>, and <name type="person"
+                                >Brame</name></ab>
+                        <ab locusNew="73r">The other with miscellaneous notes</ab>
+                        <ab locusNew="73v">27 blank leaves</ab>
+                    </msItem>
+                    <msItem n="5" locusStart="103r" locusEnd="103r">
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Bishop Cox of Ely</name> exhorting the parishioners of
+                                every parish to be charitable to their poor neighbours: dated <name type="place"
+                                    >Dodington</name>
+                                <date>12 July, 1569</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Letter exhorting the parishioners of every parish to be charitable to their poor
+                                neighbours, sent by order of council: dated <name type="place">Dodington</name>
+                                <date>12 July, 1569</date></title>
+                        </head>
+
+                        <ab><supplied>Items</supplied> 5-11 occupy 5 pp.</ab>
+                    </msItem>
+                    <msItem n="6" locusStart="103r" locusEnd="103r">
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Bishop Cox of Ely</name> to the ministers of every
+                                parish to certify the names of those that refuse to come to church and receive the
+                                sacraments: dated <name type="place">Somersham</name>
+                                <date>13 November 1569</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Letter to the ministers of every parish to certify unto him the names of those that
+                                refuse to come to church and receive the sacraments, sent by order of council: dated
+                                    <name type="place">Somersham</name>
+                                <date>13 November 1569</date></title>
+                        </head>
+
+
+                    </msItem>
+
+                    <msItem n="7" locusStart="103v" locusEnd="103v">
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Bishop Cox of Ely</name> enjoining the ministers to use
+                                only the catechism set forth in the book of service, dated <name type="place"
+                                    >Somersham</name>
+                                <date>7 August 1572</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Letter enjoining the ministers to use only the catechism set forth in the book of
+                                service, and to certify unto him quarterly the names of such parents as refuse
+                                permitting their children to learn it, dated <name type="place">Somersham</name>
+                                <date>7 August 1572</date></title>
+                        </head>
+
+
+                    </msItem>
+
+                    <msItem n="8" locusStart="103v" locusEnd="103v">
+
+                        <head type="Nasmith">
+                            <title>Letter to the churchwardens of a parish to take down their roode-loft and
+                                superstitious dome, dated <name type="place">Somersham</name>
+                                <date>16 December 1572</date></title>
+                        </head>
+
+                        <ab>The <q>superstitious dome</q> is most likely a picture of the Doom or Last Judgment. <ref
+                                type="bibl" target="Gorham. Gorham and Bird 1857">Gorham, <hi rend="italic"
+                                    >Gleanings</hi> p. 452</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="9" locusStart="104r" locusEnd="104r">
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Bishop Cox of Ely</name> to the ministers of his
+                                diocese to be diligent in catechising, dated <name type="place">Ely-palace</name>
+                                <date>March 1, 1572</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Letter to the ministers of his diocese to be diligent in catechising, dated <name
+                                    type="place">Ely-palace</name>
+                                <date>March 1, 1572</date></title>
+                        </head>
+
+
+                    </msItem>
+                    <msItem n="10" locusStart="104r" locusEnd="104v">
+                        <head type="CCC">
+                            <title>Letter from the council to <name type="person">Bishop cox of Ely</name>, requiring
+                                him to enforce the observance of uniformity in religion thro' his diocese, dated <name
+                                    type="place">Greenwich</name>
+                                <date>7 November 1573</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Letter from the council to the bishop, requiring him to enforce the observance of
+                                uniformity in religion thro' his diocese, dated <name type="place">Greenwich</name>
+                                <date>7 November 1573</date></title>
+                        </head>
+
+                        <ab>
+                            <ref type="bibl" target="Wilkins 1737d">Wilkins, <hi rend="italic">Concilia</hi> IV
+                                279</ref>
+                        </ab>
+                    </msItem>
+                    <msItem n="11" locusStart="105r" locusEnd="115v">
+                        <head type="CCC">
+                            <title>Letter from <name type="author">Richard Cox, bishop of Ely</name> to the several
+                                parishes to enforce the observance of uniformity in religion</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Letter from the bishop to the several parishes on this occasion</title>
+                        </head>
+
+                        <ab locusNew="105v">Blank leaves</ab>
+                    </msItem>
+                    <msItem n="12" locusStart="116r" locusEnd="117r">
+
+                        <head type="Nasmith">
+                            <title>Prayers for the beginning of every year in the queen's reign</title>
+                        </head>
+
+                        <ab><supplied>Items</supplied> 12-15 occupy 5 pp.</ab>
+                    </msItem>
+
+                    <msItem n="13" locusStart="117r" locusEnd="117r">
+                        <head type="CCC">
+                            <title>Coronation oath</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Juramentum regis quando coronatur</title>
+                        </head>
+
+
+                    </msItem>
+                    <msItem n="14" locusStart="117r" locusEnd="117r">
+                        <head type="CCC">
+                            <title>A prayer for the beginning of every year in the queen's reign</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Another prayer for the beginning of every year in the queen's reign</title>
+                        </head>
+
+
+                    </msItem>
+                    <msItem n="15" locusStart="117v" locusEnd="119v">
+
+                        <head type="Nasmith">
+                            <title>Prayers against the adversaries of the godley</title>
+                        </head>
+
+
+                    </msItem>
+                    <msItem n="16" locusStart="120r" locusEnd="161v">
+                        <head type="CCC">
+                            <title>Form and order of the psalmes</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>The forme and order of the psalmes as they were used to be songe in the house of the
+                                late right reverend father <name type="person">Richard Cox sometime L. B. of
+                                Ely</name></title>
+                        </head>
+
+                        <head type="James">
+                            <title>Metrical Psalms</title>
+                        </head>
+                        <rubric locusNew="120r">Munday morning Psal. 1</rubric>
+                        <incipit locusNew="120r">That man is bleste that hath not gone etc.</incipit>
+                        <ab locusNew="122v">Ends with Thursday morning</ab>
+                        <ab locusNew="123r">Blank leaves</ab>
+                    </msItem>
+                    <msItem n="17" locusStart="162r" locusEnd="170v">
+
+                        <head type="Nasmith">
+                            <title>Lists of fairs</title>
+                        </head>
+
+                        <ab>Occupies 9 ff.</ab>
+                    </msItem>
+                    <msItem n="18" locusStart="171r" locusEnd="173v">
+                        <head type="CCC">
+                            <title>Epitaph of pope <name type="person">Sixtus V</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Epitaphia <name type="person">papae Sixti</name></title>
+                        </head>
+
+
+                    </msItem>
+                    <msItem n="19" locusStart="174r" locusEnd="194r">
+                        <head type="CCC">
+                            <title>Historical notes beginning in <date>1558</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Notae historicae incipientes A. D. <date>1558</date></title>
+                        </head>
+
+                        <ab>Scattered over several leaves: may be of interest</ab>
+                    </msItem>
+                    <msItem n="20" locusStart="194v" locusEnd="199v">
+                        <head type="CCC">
+                            <title>Poems in Latin and English</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carmina Latina et Anglicana</title>
+                        </head>
+
+                        <ab>Includes several poems to <name type="person">Queen Elizabeth</name>, an epitaph for <name
+                                type="person">Richard Cox</name> etc.</ab>
+                    </msItem>
+                    <msItem n="21" locusStart="200r" locusEnd="200r">
+
+                        <head type="Nasmith">
+                            <title>Verses written by a prisoner, signed C. <q>Like as the byrde in the cage
+                                enclosed</q></title>
+                        </head>
+                        <ab locusNew="200r">Signed <name type="author">R. or P.
+                                &#964;&#949;&#955;&#959;&#962;</name></ab>
+                        <ab>21-24 (4) are in one good hand</ab>
+
+                    </msItem>
+                    <msItem n="22" locusStart="200v" locusEnd="201v">
+
+                        <head type="Nasmith">
+                            <title>Verses in praise of retirement signed C. W. <q>Myne owne <name type="person">Ihon
+                                        Poyntz</name> sins ye delite to know</q></title>
+                        </head>
+
+                        <ab locusNew="201v">Signed <name type="author">R. W.</name></ab>
+                    </msItem>
+                    <msItem n="23" locusStart="201v" locusEnd="203v">
+
+                        <head type="Nasmith">
+                            <title>Proverbs</title>
+                        </head>
+
+                        <incipit locusNew="201v">Many a man makes Ryme and lokes to no reason</incipit>
+                        <ab locusNew="203v">Before 24 is a theological extract in Latin</ab>
+
+                    </msItem>
+                    <msItem n="24" locusStart="204r" locusEnd="208v">
+                        <head type="CCC">
+                            <title>English verses</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>English verses with the following burdens</title>
+                        </head>
+
+                        <ab>(1)</ab>
+                        <incipit locusNew="204r">
+                            <lg>
+                                <l>Hold back thy tonge at meat and meal;</l>
+                                <l>Speake but few wordes, bestow them well</l>
+                            </lg>
+                        </incipit>
+                        <ab>(2)</ab>
+                        <incipit locusNew="204v">
+                            <lg>
+                                <l>The black shepe is a perylous beast,</l>
+                                <l>Cujus contrarium falsum est</l>
+                            </lg>
+                        </incipit>
+                        <ab>(3)</ab>
+                        <incipit locusNew="205r">
+                            <lg>
+                                <l>Say well and do well they are things twayne;</l>
+                                <l>Thryse happye is he, in whom both raygne</l>
+                            </lg>
+                        </incipit>
+                        <ab>(4)</ab>
+                        <incipit locusNew="205v">
+                            <lg>
+                                <l>My derlyng dere long have I sowght,</l>
+                                <l>Lost is my labour, she is clere nowght</l>
+                            </lg>
+                        </incipit>
+                        <ab>(5)</ab>
+
+                        <incipit locusNew="207v">
+                            <lg>
+                                <l>Lorde wounde my fleasshe with thy feare</l>
+                                <l>For I feare thy judgements</l>
+                            </lg>
+                        </incipit>
+
+                        <ab>(6)</ab>
+                        <incipit locusNew="208r">
+                            <lg>
+                                <l>For he that by wyll doth rule his witte</l>
+                                <l>Doth oftymes loose when he shulde knitte</l>
+                            </lg>
+                        </incipit>
+
+
+                        <ab>
+                            <supplied agent="JamesCorrigenda">These verses were printed in the <ref type="bibl"
+                                    target="Goodwin 1844">Percy Society's publications (H. P. S.), vol. XIII, no. 50,
+                                    1844, by James Goodwin</ref></supplied>
+                        </ab>
+                    </msItem>
+                    <msItem n="25" locusStart="209r" locusEnd="210r">
+                        <head type="CCC">
+                            <title>Speech of <name type="person">Cromwell earl of Essex</name> at his execution</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Speech as I conjecture of <name type="person">Cromwell earl of Essex</name> at his
+                                execution</title>
+                        </head>
+
+                        <incipit locusNew="209r">Masters I am come hither to dye</incipit>
+                        <ab>(2 pp.)</ab>
+                    </msItem>
+                    <msItem n="26" locusStart="210v" locusEnd="210v">
+                        <head type="CCC">
+                            <title>Prayer to be said before the Mass</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Oratio dicenda ante missam</title>
+                        </head>
+
+                        <ab><supplied>Items</supplied> 26, 27. On one page, the last</ab>
+                    </msItem>
+                    <msItem n="27" locusStart="210v" locusEnd="210v">
+                        <head type="CCC">
+                            <title>Indulgence granted to the confraternity of St Christopher and St George in the <name
+                                    type="place">city of York</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Indulgentia concessa confraternitati S. Christophori et Georgii in <name type="place"
+                                    >civitate Eboraci</name></title>
+                        </head>
+
+                    </msItem>
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: NJC 5/12/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

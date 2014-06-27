@@ -1,0 +1,235 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC271">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>271</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>O. 21</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>220</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Gregory IX, Decretales (Liber extra). Boniface VIII, Liber Sextus. Constitutiones
+                    Anglicanae</head>
+                <head type="James">Gregorii Decretales. Constitutiones Anglicanae</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">263</height>
+                        <width unit="mm">167</width>
+                    </measureGrp>, <measureGrp type="James">10.3 x 6.8</measureGrp>, <extent>ff. 8 + 279 + 101 +
+                        2</extent>, <layout>two volumes</layout> of cent. <origDate>xiii and xiv early</origDate>,
+                        <handNote>both very well written</handNote>.</p>
+
+                <p function="Multivolume"><lb/>
+                    <label>Volume I:</label>
+                    <layout>has text in double columns of 39 lines and gloss</layout>. <lb/>
+                    <label>Volume II:</label>
+                    <layout>double columns of 44 lines without gloss</layout>.<lb/>
+                    <label>Volume III:</label>
+                    <handNote>In a rather less good hand</handNote>: <layout>double columns of 44 lines</layout>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>4</num> b<num>4</num>, 1<num>12</num>-5<num>12</num> 6<num>10</num> 7<num>10</num>
+                            8<num>12</num>-11<num>12</num> 12<num>14</num> 13<num>12</num>-16<num>12</num>
+                            17<num>2</num> 18<num>12</num>-23<num>12</num> 24<num>8</num> 25<num>2</num> ||
+                            b<num>12</num>-g<num>12</num> | h<num>12</num>-k<num>12</num> (wants 8-12):
+                        c<num>2</num></collation>.</p>
+
+                <p function="Provenance" rend="withinContents">On f. <locus>iir</locus>:<lb/> Decretalis fratris <name
+                        type="person">Martini de Totyntoun</name> quo ad quinque libros et <name type="person">T.
+                        Abbatis</name> quo ad sextum librum decretal. et constituciones<lb/> De librario S. Aug.
+                    Cant.<lb/> D. xiiij G<abbr rend="superscript">ra</abbr>. iiii<abbr rend="superscript">o</abbr>.<lb/>
+                        (<ref type="bibl" target="James 1903"><hi rend="italic">Ancient Libraries</hi>, pp. 389,
+                        522</ref>.)</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-viii + 1-375 + ix-x + c-d</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="1r" locusEnd="274v">
+                        <head type="CCC">
+                            <name type="author">Gregory IX</name>, <title>Decretales (Liber extra)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Libri sex decretalium, cum glossa ad quinque priores</title>
+                        </head>
+
+                        <ab locus="iv">Notes</ab>
+                        <ab locus="iir">Note on the Council of <name type="place">Rome</name>
+                            <date>1212</date> and many memorial verses</ab>
+                        <ab locus="iiv">blank</ab>
+                        <ab>On f. <locus>iiir</locus>verses on the seven arts:<lb/>quicquid agunt artes ego semper
+                            predico partes Gramatica<lb/>...<lb/>astra viasque poli varias mihi vendico soli
+                            Astronomia</ab>
+                        <ab>ff. <locus>iiiv</locus>-<locus>ivr</locus> blank</ab>
+                        <ab locus="ivv"><handNote>in a fine hand of cent. <origDate>xiv</origDate></handNote>. List of
+                            Decretales ad monachos pertinentes</ab>
+                        <ab locus="vv" locusNew="vr">Capitula of the six books</ab>
+                        <rubric locus="1r">Incipit liber primus de summa trinitate et fide catholica</rubric>
+                        <incipit locus="1r"><name type="author">Gregorius episcopus</name>, etc.</incipit>
+                        <incipit locus="1r">Rex pacificus pia miseracione</incipit>
+                        <ab>Gloss begins</ab>
+                        <incipit locus="1r">In huius libri principio .v. sunt precipue prenotanda</incipit>
+                        <ab>f. <locus>70r</locus>-<locus>70v</locus>blank</ab>
+                        <ab locus="71r">Liber II</ab>
+                        <ab locus="128v">blank</ab>
+                        <ab locus="129r">Liber III</ab>
+                        <ab locus="129v" locusNew="192v">blank</ab>
+                        <ab locus="193r">Liber IV</ab>
+                        <ab locus="215v">Liber V</ab>
+                        <ab locus="274r">ending</ab>
+                        <explicit locus="274r">facere quis homachium compellatur.<lb/>Laus tibi sit christe quoniam
+                            labor explicit iste et Ce.<lb/>finito libro sit laus et gloria christo.<lb/>Explicit iste
+                            liber mihi donet po[s]cula liber</explicit>
+                        <ab>Gloss ends</ab>
+                        <explicit locus="274r">S. de pact. pactiones. Finito libro, etc.</explicit>
+                        <ab>
+                            <handNote>On f. <locus>274v</locus> are two columns in a pretty hand</handNote>
+                        </ab>
+                        <incipit locus="274v">Ecclesiastica censura iudices dampnabiliter abutuntur, etc.</incipit>
+                        <ab>
+                            <supplied agent="KAW">Liber VI is contained in Volume II (see Item 1.1). James has run
+                                volumes 1 and 2 together as a single item, but they are separate and distinct</supplied>
+                        </ab>
+
+
+
+
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="1.1" locusStart="275r" locusEnd="346v">
+                        <head type="CCC">
+                            <title>Decretals of <name type="author">Boniface VIII</name> (Liber sextus)</title>
+                        </head>
+
+
+                        <rubric locus="1r" locusNew="275r">Incipit liber vi<abbr rend="superscript">us</abbr>
+                            decretalium domini <name type="person">Bonifacii pape viii</name></rubric>
+                        <incipit locus="1r" locusNew="275r"><name type="person">Bonifacius episcopus</name>,
+                            etc.</incipit>
+                        <incipit locus="1r" locusNew="275r">Sacrosancte romane ecclesie quam imperscrutabilis</incipit>
+                        <ab locus="275r">
+                            <decoNote>A very beautiful initial with gold ground and partial border</decoNote>
+                        </ab>
+                        <explicit locus="344v">abesse contingat</explicit>
+                        <rubric locus="70v" locusNew="344v">De regulis iuris</rubric>
+                        <explicit locus="71v" locusNew="345v">contra legis nititur uoluntatem</explicit>
+                        <ab>On f. <locus locusNew="346v">72v</locus> are some notes</ab>
+                    </msItem>
+
+                    <milestone n="III" unit="volume"/>
+
+                    <msItem n="2" locusStart="347r" locusEnd="353r">
+                        <head type="CCC">
+                            <name type="author">Stephen Langton</name>, <title>Constitutions (1222)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Constitutiones editae in concilio <name type="place">Oxoniensi</name> sub <name
+                                    type="person">Stephano [Langton] archiepiscopo Cantuar</name></title>
+                        </head>
+
+                        <rubric locus="73r" locusNew="347r">Concilium <name type="place">oxonie</name> factum a domino
+                                <name type="person">Stephano Archiepiscopo Cantuar</name></rubric>
+                    </msItem>
+
+
+                    <msItem n="3" locusStart="353r" locusEnd="365v">
+                        <head type="CCC">
+                            <name type="author">Boniface of Savoy</name>
+                            <title>Constitutions (1261)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Constitutiones factae in concilio <name type="place">Lambhethae</name> sub <name
+                                    type="person">Bonifacio archiepiscopo Cantuar</name></title>
+                        </head>
+
+                        <rubric locus="79r" locusNew="353r">Constituciones <name type="person">Bonifacii
+                                Archiepiscopo</name></rubric>
+                    </msItem>
+
+
+                    <msItem n="4" locusStart="365v" locusEnd="375v">
+                        <head type="CCC">
+                            <name type="author">John Pecham OFM</name>
+                            <title>Constitutiones prouinciales (<name type="place">Lambeth</name>,
+                                <date>1281</date>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Constitutiones <name type="person">Iohannis de Peckham archiepiscopi
+                                Cantuar.</name></title>
+                        </head>
+
+                        <rubric locus="91v" locusNew="365v">Constituciones <name type="person">Johannis de
+                                peccham</name> apud <name type="place">Lamhuthe</name></rubric>
+                        <explicit locusNew="375v">consecrationis nostre tercio</explicit>
+                        <rubric locusNew="375v">Expliciunt constituciones domini <name type="person">Johannis
+                                Archiepiscopi Cantuar.</name> Composite apud <name type="place">lambethe</name></rubric>
+                        <ab locusNew="ixr">Two flyleaves from a Civil Law MS. <layout>in double columns</layout>
+                                (<date>xiii</date>)</ab>
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: KAW 23/9/2008 NJC 10/10/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

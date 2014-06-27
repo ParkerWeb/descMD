@@ -1,0 +1,260 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC473">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>473</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>N. 38</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>202</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">The Winchester Troper</head>
+                <head type="James">The Winchester Troper</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">145</height>
+                        <width unit="mm">90</width>
+                    </measureGrp>, <measureGrp type="James">5.8 x 3.7</measureGrp>, <extent>ff. 2 + 199</extent>,
+                        <layout>16 lines to a full page</layout>. Cent. <origDate>xi. med.,</origDate>
+                    <handNote>in a lovely minute hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num>, 1<num>8</num> | 2<num>10</num> 3<num>8</num> 4<num>10</num> 5<num>8</num>
+                            6<num>10</num> | 7<num>8</num> 8<num>10</num> 9<num>8</num> | 10<num>8</num> |
+                            11<num>10</num> 12<num>8</num> 13<num>10</num> 14<num>8</num> 15<num>10</num> |
+                            16<num>8</num> 17<num>10</num> | 18<num>10</num> | 19<num>8</num> | 20<num>10</num>
+                            21<num>10</num> 22<num>10</num> (wants 10)</collation>.</p>
+
+                <p function="Provenance">From <name type="place">Winchester</name>.</p>
+
+                <p function="Additions">The whole volume is dealt with in <ref type="bibl" target="Frere 1894">W. H.
+                        Frere's <hi rend="italic">The Winchester Troper</hi>, Bradshaw Society 1894. The MS. is
+                        described on p. xxvii, note 2. Facsimiles are given in plates 4-26</ref>. Also in <ref
+                        type="bibl" target="Mocquereau 1892">Paléographie Musicale, pl. 179</ref>.</p>
+                <p function="Additions">The flyleaves <supplied>(ff. <locus>f1r</locus>-<locus>f2v</locus>)</supplied>
+                    are a bit of a <date>xvi</date>th cent. document.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + f1 + f2 + 1-198 + b + iii-iv</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="gre ang">Latin, Greek and Old English.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="198v">
+                        <head type="CCC">
+                            <title>The Winchester Troper</title>
+                        </head>
+
+                        <ab locus="1r">Quire 1 has suffered from damp. The first lines of f. <locus>1r</locus> have no
+                            neumes and are not easily legible.<lb/> 1. gen morie cadire t .neit batait.<lb/>2. rie hi us
+                            segrauavo. l .iii. et pater noster.<lb/>3. dobia ... anda ... salutanda dorsum abyssum.<lb/>
+                            4. mu stom prouerb. alba. alleluia.<lb/>5. ligati xps.<lb/>6. blank.<lb/>7. (Ma)gnus (deus,
+                            etc. <ref type="bibl" target="Frere 1894">Frere, p. 71</ref>.)</ab>
+                        <ab locus="1r"><handNote>Here neumes begin and the hand changes</handNote>.</ab>
+                        <incipit locus="1r">(M)agna sunt eius omnia in celo atque in terra</incipit>
+                        <ab>(Sequence)</ab>
+                        <incipit locus="2r">Sonent regi nato noua cantica</incipit>
+                        <ab>
+                            <ref type="bibl" target="Frere 1894">Frere, p. 71</ref>
+                        </ab>
+                        <ab>These two sequences are inserted on leaves formerly blank</ab>
+                        <ab locus="2v">Alleluias, <decoNote>initials in gold and blue</decoNote></ab>
+                        <incipit locus="2v">Alleluia. <lb/>Ymera agiasme ni epifani mon<lb/> Dies sanctificatus inluxit
+                            nobis</incipit>
+                        <ab>The last is</ab>
+                        <incipit locus="8v">Alleluia. <lb/>Cum sederit filius hominis</incipit>
+                        <ab>After this, according to <ref type="bibl" target="Frere 1894">Frere</ref>, quires are
+                            lost</ab>
+                        <ab><handNote>The hand changes</handNote>, on f. <locus>9r</locus> is another sequence
+                            inserted</ab>
+                        <incipit locus="9r">Gaude virgo mater ecclesia</incipit>
+                        <ab>
+                            <ref type="bibl" target="Frere 1894">Frere, p. 71</ref>
+                        </ab>
+                        <ab locus="10r">Tropes (Lesser Tropes. <ref type="bibl" target="Frere 1894">Frere, p. 3</ref>):
+                                <decoNote>large plain gold initial</decoNote></ab>
+                        <incipit locus="10r">O benefida tuis adsis</incipit>
+                        <ab>On f. <locus>54v</locus> are 15 settings of Ite missa est</ab>
+                        <rubric locus="55r">Incipiunt Kyriele per circulum anni canende</rubric>
+                        <ab><ref type="bibl" target="Frere 1894">Frere, p. 47</ref> (Greater Tropes)</ab>
+                        <ab locus="70r">Tonale. <ref type="bibl" target="Frere 1894">Frere, p. 62</ref></ab>
+                        <ab locus="73v">Greater Tropes. Sanctus and Agnus</ab>
+                        <rubric locus="79v">Versus ad Kyrriele</rubric>
+                        <ab locus="80v">Alphabet written in cent. <date>xii</date></ab>
+                        <ab>Sequences plain (upper part of f. <locus>81r </locus>very faint)</ab>
+                        <ab locus="89r">Sequences with words. List in <ref type="bibl" target="Frere 1894">Frere, p.
+                                71</ref></ab>
+                        <ab locus="135r">Organa to Kyrie and gloria tropes. <ref type="bibl" target="Frere 1894">Frere,
+                                p. 85</ref></ab>
+                        <rubric locus="143r">Organa super Tractus</rubric>
+                        <ab>
+                            <ref type="bibl" target="Frere 1894"><supplied>Frere </supplied>, p. 87</ref>
+                        </ab>
+                        <rubric locus="153r">Organa super sequentia</rubric>
+                        <ab>
+                            <ref type="bibl" target="Frere 1894"><supplied>Frere </supplied>, p. 87</ref>
+                        </ab>
+                        <rubric locus="163r">Organa ad Alleluia</rubric>
+                        <ab>
+                            <ref type="bibl" target="Frere 1894"><supplied> Frere </supplied>, p. 88</ref>
+                        </ab>
+                        <rubric locus="175v">Organa super Responsoria</rubric>
+                        <ab>
+                            <ref type="bibl" target="Frere 1894"><supplied>Frere </supplied>, p. 93</ref>
+                        </ab>
+                        <rubric locus="179v">Antephana ad processionem</rubric>
+                        <ab>
+                            <ref type="bibl" target="Frere 1894"><supplied>Frere </supplied>, p. 94</ref>
+                        </ab>
+                        <rubric locus="180v">Organa pulcherrima incipit</rubric>
+                        <ab>
+                            <ref type="bibl" target="Frere 1894"><supplied>Frere </supplied>, p. 94</ref>
+                        </ab>
+                        <rubric locus="181r">De Sancta Trinitate</rubric>
+                        <ab>
+                            <ref type="bibl" target="Frere 1894"><supplied>Frere </supplied>, p. 94</ref>
+                        </ab>
+                        <rubric locus="186r">De <name type="person">Sancto Iusto</name></rubric>
+                        <rubric locus="186v">Istoria de <name type="person">Sancto Suuithuno</name></rubric>
+                        <ab>
+                            <ref type="bibl" target="Frere 1894"><supplied>Frere </supplied>, p. 96</ref>
+                        </ab>
+                        <rubric locus="189v">In natali <name type="person">Sancti Iohannis Baptistae</name></rubric>
+                        <ab>
+                            <ref type="bibl" target="Frere 1894"><supplied>Frere </supplied>, p. 96</ref>
+                        </ab>
+                        <rubric locus="189v">In Festiuitate <name type="person">Sancti Petri</name></rubric>
+                        <ab>
+                            <ref type="bibl" target="Frere 1894"><supplied>Frere </supplied>, p. 96</ref>
+                        </ab>
+                        <ab locus="189v">(For <name type="person">St Denis</name>). <ref type="bibl" target="Frere 1894"
+                                    ><supplied>Frere </supplied>, p. 96</ref></ab>
+                        <ab locus="190v">Organa to two Alleluias <handNote>(later hand)</handNote>. <ref type="bibl"
+                                target="Frere 1894"><supplied>Frere </supplied>, p. 97</ref></ab>
+                        <ab locus="190v">Kyrie</ab>
+                        <ab locusNew="191r">
+                            <handNote>Small fine hand</handNote>
+                        </ab>
+                        <ab>Sequences</ab>
+                        <incipit locus="191r">Gaude mater ecclesia</incipit>
+                        <ab>
+                            <ref type="bibl" target="Frere 1894"><supplied>Frere </supplied>, p. 83</ref>
+                        </ab>
+                        <incipit locus="191v">Alme deus cui seruiunt</incipit>
+                        <rubric locus="192v">De <name type="person">Sancto Suuithuno</name></rubric>
+                        <incipit locus="192v">Psallat ecclesia</incipit>
+                        <ab locusNew="193v">
+                            <handNote>Larger hand</handNote>
+                        </ab>
+                        <incipit locus="193v">(O) redemptor summe carmen</incipit>
+                        <ab>
+                            <ref type="bibl" target="Frere 1894"><supplied>Frere </supplied>, p. 97</ref>
+                        </ab>
+                        <ab locusNew="194v">
+                            <handNote>Good round hand</handNote>
+                        </ab>
+                        <incipit locus="194v">Gaude maria</incipit>
+                        <incipit locus="195r">(C)ommouisti</incipit>
+                        <ab locusNew="195v">
+                            <handNote>Rougher hand</handNote>
+                        </ab>
+                        <incipit locus="195v">Arbor decora (part)</incipit>
+                        <ab>
+                            <ref type="bibl" target="Frere 1894"><supplied>Frere </supplied>, p. 97</ref>
+                        </ab>
+                        <incipit locus="195v">Ymnum canamus (part)</incipit>
+                        <incipit locus="195v">Iam Christus astra (part)</incipit>
+                        <incipit locus="195v">Iste confessor</incipit>
+                        <ab>
+                            <ref type="bibl" target="Frere 1894"><supplied>Frere </supplied>, p. 97</ref>
+                        </ab>
+                        <ab locusNew="196v"><handNote>Small hand, without musical notes</handNote>. Greek with Latin
+                            gloss</ab>
+                        <incipit locus="196v">Aue porta</incipit>
+                        <ab>
+                            <ref type="bibl" target="Frere 1894"><supplied>Frere </supplied>, p. 97</ref>
+                        </ab>
+                        <incipit locusNew="196v">(K)ere ipili</incipit>
+                        <ab locusNew="197r">
+                            <handNote>Good upright hand</handNote>
+                        </ab>
+                        <ab>Una legio est sex milia et sexcenti ac sexaginta sex uiri. an legio iss six &#254;usend
+                            7 six hundred 7 six and sixtig ( <ref type="bibl" target="Frere 1894"><supplied>Frere
+                                </supplied>, p. 98</ref>)</ab>
+                        <ab locus="197r">Note: I . IN . D . II . A, etc. <ref type="bibl" target="Frere 1894"
+                                    ><supplied>Frere </supplied>, p. 98</ref></ab>
+                        <ab locus="197r">Gloria (8 times, noted)</ab>
+                        <incipit locus="197v">Cum sederit filius</incipit>
+                        <incipit locus="198r">O christe martirum turma</incipit>
+                        <ab>Sequences</ab>
+                        <rubric locus="198v">Planctus sterilis</rubric>
+                        <ab>
+                            <ref type="bibl" target="Frere 1894"><supplied>Frere </supplied>, p. 83</ref>
+                        </ab>
+                        <rubric locus="198v">Simon oboediens</rubric>
+                        <ab locus="199r" locusNew="Br">blank</ab>
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: BA 15/10/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

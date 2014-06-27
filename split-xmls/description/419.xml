@@ -1,0 +1,347 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+
+                <msIdentifier xml:id="CCC419">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>419</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>S. 14</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>273</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Old English Homilies by Wulfstan and others</head>
+                <head type="James">Homiliae Saxonicae (VII)</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">205</height>
+                        <width unit="mm">125</width>
+                    </measureGrp><measureGrp type="James">8 x 5.1</measureGrp>, <extent>ff. 2 + 184 + 2</extent>,
+                        <layout>19 lines to a page</layout>. Cent. <origDate>xi</origDate>, <handNote>in a large
+                        dispersed hand which recurs in <ref type="ms" target="CCC421">MS 421</ref></handNote>.</p>
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num>, 1<num>8</num> (+ frontispiece, 2 canc.) 2<num>8</num>-23<num>8</num>,
+                            b<num>2</num></collation>.</p>
+                <p function="Additions">The flyleaves at each <supplied>(ff. <locus>ir</locus>-<locus>iiv</locus>, ff.
+                            <locus>ivr</locus>-<locus>vv</locus>)</supplied> end have notes in <name type="person"
+                        >Whelock</name>'s hand, and on f. <locus>iiv</locus> is a Parkerian title (Septimus liber) and
+                    list of contents. <decoNote>A frontispiece <supplied>(f. <locus>iiir</locus>)</supplied> of cent.
+                            <origDate>xiii</origDate> is prefixed. Frame of blue and pink with gold corners. Gold
+                        ground. The Entry into <name type="place">Jerusalem</name>: Christ on white ass rides to R.
+                        followed by 3 apostles. On R. a tree and a gate; in each is a man. The work is very careful and
+                        delicate, but not very skilful.</decoNote></p>
+
+                <p function="Research">It is MS. B in <ref type="bibl" target="Napier 1883">Napier's Wulfstan</ref>.
+                        <lb/><ref type="bibl" target="Wanley1705">Wanley</ref>, p. 132. <lb/>It is a companion volume to
+                        <ref type="ms" target="CCC421">no. 421</ref>, and has unfortunately been separated from it by
+                        <ref type="bibl" target="Nasmith">Nasmith <supplied agent="JamesCorrigenda">i.e. in his
+                            Catalogue</supplied></ref>. In <name type="person">Parker</name>'s numeration <ref type="ms"
+                        target="CCC421">421</ref> preceded it.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-iii + pp. 1-366 + ff. iv-v + c-d</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="ang" otherLangs="lat">Old English and Latin.</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1" locusEnd="38">
+
+                        <head type="CCC">
+                            <title>Sermon De temporibus anticristi</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B3.4.34</ref>)</supplied>
+                        </ab>
+                        <rubric locus="1">De Temporibus Anticristi</rubric>
+                        <incipit locusNew="1">Leofan men us is micel &#254;earf</incipit>
+                        <ab>
+                            <ref type="bibl" target="Napier 1883">Napier, Wulfstan XLII, p. 191</ref>
+                        </ab>
+                    </msItem>
+                    <msItem n="2" locusStart="38" locusEnd="73">
+                        <head type="CCC">
+                            <title>Sermon on Sunnand&#230;ges spell</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B3.4.35.1</ref>)</supplied>
+                        </ab>
+                        <rubric locus="38">Sunnan D&#230;ges spell</rubric>
+                        <incipit locusNew="38">Her s&#230;g&#240; on &#254;ises drihtnes
+                            aerend-ge&#447;rite</incipit>
+                        <ab>
+                            <ref type="bibl" target="Napier 1883">Napier, Wulfstan XLIII, p. 205</ref>
+                        </ab>
+                    </msItem>
+                    <msItem n="3" locusStart="73" locusEnd="95">
+                        <head type="CCC">
+                            <title>Sermonem angelorum nomina</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B3.4.36</ref>)</supplied>
+                        </ab>
+                        <rubric locus="73">Sermonem Angelorum nomina</rubric>
+                        <incipit locusNew="73">Her ongin&#240; men &#240;a leofstan ymb ures drihtnes
+                            &#230;rendge&#447;rite</incipit>
+                        <ab>
+                            <ref type="bibl" target="Napier 1883">Napier, Wulfstan XLV, p. 226</ref>
+                        </ab>
+                    </msItem>
+                    <msItem n="4" locusStart="95" locusEnd="112">
+                        <head type="CCC"><name type="author">Wulfstan</name>, <title>Sermo Lupi ad Anglos</title></head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B2.4.1.A</ref>)</supplied>
+                        </ab>
+                        <rubric locus="95">Lar spell</rubric>
+                        <incipit locusNew="95">Leofan men Gecna&#447;a&#240; &#254;at so&#240;
+                            is</incipit>
+                        <ab>
+                            <ref type="bibl" target="Napier 1883">Napier, Wulfstan XXXIII, p. 156</ref>
+                        </ab>
+                    </msItem>
+                    <msItem n="5" locusStart="112" locusEnd="134">
+                        <head type="CCC"><name type="author">Wulfstan</name>, <title>Baptism</title></head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B2.2.5</ref>)</supplied>
+                        </ab>
+                        <rubric locus="112">Sermo de baptismate</rubric>
+                        <incipit locusNew="112">Leofan men. eallum cristenum mannum is micel &#254;earf
+                            &#254;&#230;t hy heora fulluhutes</incipit>
+                        <ab>
+                            <ref type="bibl" target="Napier 1883">Napier, Wulfstan V, p. 32</ref>
+                        </ab>
+                    </msItem>
+                    <msItem n="6" locusStart="134" locusEnd="161">
+                        <head type="CCC"><name type="author">Wulfstan</name>, <title>An Outline of
+                            History</title></head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B2.2.1</ref>)</supplied>
+                        </ab>
+                        <rubric locus="134">Incipiunt sermones <name type="author">Lupi</name> Episcopi</rubric>
+                        <incipit locusNew="134">Leofan men us is deope beboden</incipit>
+                        <ab>
+                            <ref type="bibl" target="Napier 1883">Napier, Wulfstan II, p. 6</ref>
+                        </ab>
+                    </msItem>
+                    <msItem n="7" locusStart="161" locusEnd="182">
+                        <head type="CCC"><name type="author">Wulfstan</name>, <title>The Creed</title></head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B2.2.2</ref>)</supplied>
+                        </ab>
+                        <rubric locus="161">De fide catholica</rubric>
+                        <incipit locusNew="161">Leofan men do&#240; s&#447;a eo&#447; micel &#254;earf
+                            is</incipit>
+                        <ab>
+                            <ref type="bibl" target="Napier 1883">Napier, Wulfstan III, p. 20</ref>
+                        </ab>
+                    </msItem>
+                    <msItem n="8" locusStart="182" locusEnd="204">
+                        <head type="CCC">
+                            <title>Sermon In Die Iudicii</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B3.4.32.3</ref>)</supplied>
+                        </ab>
+                        <rubric locus="182">De die iudicii</rubric>
+                        <incipit locusNew="182">Leofan men ure drihten &#230;lmihtig god</incipit>
+                        <ab>
+                            <ref type="bibl" target="Napier 1883">Napier, Wulfstan XL, p. 182</ref>
+                        </ab>
+                    </msItem>
+                    <msItem n="9.1" locusStart="204" locusEnd="229">
+                        <head type="CCC"><name type="author">Wulfstan</name>, <title>Institutes of Polity</title></head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B13.2.1.2</ref>)</supplied>
+                        </ab>
+                        <rubric locus="204">Her ongin&#240; be cristendome</rubric>
+                        <incipit locusNew="204">Leofan men eallum cristenum ... &#254;aet hy heora
+                            cristendomes</incipit>
+                        <ab>
+                            <ref type="bibl" target="Napier 1883">Napier, Wulfstan X, p. 65</ref>
+                        </ab>
+                    </msItem>
+                    <msItem n="9.2" locusStart="229" locusEnd="234">
+                        <head type="CCC"><name type="author">Wulfstan</name>, <title>A Pastoral Letter</title></head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B2.3.1</ref>)</supplied>
+                        </ab>
+                        <incipit locus="229">Leofan men understanda&#240;</incipit>
+                        <ab>
+                            <ref type="bibl" target="Napier 1883">Napier, Wulfstan XIX</ref>
+                        </ab>
+                        <incipit locus="233">Leofan men for ure ealra &#254;earfa</incipit>
+                        <ab>
+                            <ref type="bibl" target="Napier 1883">Napier, Wulfstan XX</ref>
+                        </ab>
+                    </msItem>
+                    <msItem n="10.1" locusStart="234" locusEnd="242">
+                        <head type="CCC"><name type="author">Wulfstan</name>, <title>A Pastoral Letter
+                                (continued)</title></head>
+                        <rubric locus="235" locusNew="234">Lar spell</rubric>
+                        <incipit locusNew="235">Leofan men h&#447;a m&#230;g &#230;fre o&#240;rum
+                            fur&#240;or</incipit>
+                        <ab>
+                            <ref type="bibl" target="Napier 1883">Napier, Wulfstan XXI, p. 111</ref>
+                        </ab>
+                        <incipit locus="236">Leofan men utan don</incipit>
+                        <ab>
+                            <ref type="bibl" target="Napier 1883">Napier, Wulfstan XXII</ref>
+                        </ab>
+                    </msItem>
+                    <msItem n="10.2" locusStart="242" locusEnd="246">
+                        <head type="CCC">
+                            <title>Sermon To eallum folce</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B3.4.22</ref>)</supplied>
+                        </ab>
+                        <incipit locus="242">Utan gel&#230;stan &#230;lce geare</incipit>
+                        <ab>
+                            <ref type="bibl" target="Napier 1883">Napier, Wulfstan XXIII</ref>
+                        </ab>
+                    </msItem>
+                    <msItem n="10.3" locusStart="246" locusEnd="251">
+                        <head type="CCC">
+                            <title>Sermon To folce</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B3.4.23</ref>)</supplied>
+                        </ab>
+                        <incipit locus="246">
+                            <supplied agent="RJR">And get ic eo&#447; l&#230;ran &#447;ille</supplied>
+                        </incipit>
+                        <ab>
+                            <ref type="bibl" target="Napier 1883">Napier, Wulfstan XXIV</ref>
+                        </ab>
+                    </msItem>
+                    <msItem n="11" locusStart="251" locusEnd="281">
+                        <head type="CCC">
+                            <title>Sermon on Larspel</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B3.4.37</ref>)</supplied>
+                        </ab>
+                        <rubric locus="251">Lar spell</rubric>
+                        <incipit locusNew="252">Men &#240;a leofstan Sanctus <name type="person">Gregorius</name>
+                            c&#447;&#230;&#240; Ic eo&#447; halsige</incipit>
+                        <ab>
+                            <ref type="bibl" target="Napier 1883">Napier, Wulfstan XLVI, p. 232</ref>
+                        </ab>
+                    </msItem>
+                    <msItem n="12" locusStart="281" locusEnd="308">
+                        <head type="CCC"><name type="author">Ælfric OSB</name>, <title>Lives of Saints, On
+                                auguries</title></head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.3.18</ref>)</supplied>
+                        </ab>
+                        <rubric locus="281">Sermo in Letanie maiore uel quando uolueris</rubric>
+                        <incipit locusNew="281">Se apostol <name type="person">Paulus</name> ealra &#254;eoda
+                            lareo&#447;</incipit>
+                        <ab>
+                            <ref type="bibl" target="Skeat 1881">Skeat's Aelfric XVII (I 364)</ref>
+                        </ab>
+                    </msItem>
+                    <msItem n="13" locusStart="308" locusEnd="329">
+                        <head type="CCC">
+                            <title>Homily for the Fourth Sunday in Lent</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B3.2.15</ref>)</supplied>
+                        </ab>
+                        <rubric locus="308">Lar spell</rubric>
+                        <incipit locusNew="308">We &#447;illa&#240; her sprecan fea&#447;um &#447;ordum
+                            be &#240;am &#254;reom &#254;ingum</incipit>
+                        <ab>Also in <ref type="ms" target="CCC198">MS 198, f. 140</ref>, and elsewhere</ab>
+                    </msItem>
+                    <msItem n="14" locusStart="329" locusEnd="347">
+                        <head type="CCC">
+                            <title>Homily for the Third Sunday in Lent</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B3.2.13</ref>)</supplied>
+                        </ab>
+                        <rubric locus="329">Lar spell</rubric>
+                        <incipit locusNew="329">Gehyra&#240; nu men &#254;oa leofstan hu &#254;as halgan bec
+                            eo&#447; myngia&#240;</incipit>
+                        <ab>
+                            <ref type="bibl" target="Assmann 1889">Assmann, <hi rend="italic">Angelsächsische
+                                    Homilien</hi> XI, p. 138</ref>
+                        </ab>
+                    </msItem>
+                    <msItem n="15" locusStart="347" locusEnd="366">
+                        <head type="CCC">
+                            <title>Sermon De uirginitate</title>
+                        </head>
+                        <ab>
+                            <supplied>(compiled using excerpts from: <ref type="bibl" target="Cameron 1973">Cameron
+                                    B1.8.5; B1.4.20; B1.4.31</ref>)</supplied>
+                        </ab>
+                        <rubric locus="347">De Virginitate</rubric>
+                        <incipit locusNew="347">Cristene men scylon &#230;t Cristes lareo&#447;um
+                            leornian</incipit>
+                        <ab>Apparently only here: copied for <name type="person">Professor Napier</name></ab>
+                    </msItem>
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text:copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, BA, CF</p>
+                            <p>msCheck: RJR 29.6.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

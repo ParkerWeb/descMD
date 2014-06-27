@@ -1,0 +1,119 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC381">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>381</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>3. 5</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">David Crum, Commentary on Psalm 72</head>
+                <head type="James">David Crum super Ps. lxxii</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">203</height>
+                        <width unit="mm">142</width>
+                    </measureGrp><measureGrp type="James">8 x 5.9</measureGrp>, <extent>ff. 74 written</extent>,
+                        <layout>18 lines to a page</layout>. Cent. <origDate>xvi (1550)</origDate>, <handNote>clearly
+                        written</handNote>.</p>
+
+
+
+                <p type="CCC">
+                    <foliation>ff. i-iii + 1-84 + iv</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="74r">
+                        <head type="CCC"><name type="author">David Crum</name>, <title>Commentary on Psalm
+                            72</title></head>
+
+                        <head type="Nasmith">
+                            <title>Descriptio regni Iesu Christi nostri imperatoris semper invictissimi, quae eadem est
+                                septuagesimi secundi Psalmi enarratio, in gratiam reverendissimi patris ac colendissimi
+                                domini <name type="person">Thomae Cantuariensis</name> ecclesiae archiepiscopi totiusque
+                                Angliae primatis. <name type="author">Davide Crumeo</name> Edinburgensi autore</title>
+                        </head>
+
+                        <ab>Dedication</ab>
+
+                        <incipit locus="1r">Reverendissimo in Christo patri ac colendissimo suo maecaenati domini <name
+                                type="person">Thomae Cantuariensis</name> ecclesiae archipresuli dominici gregis pastori
+                            vigilantissimo totiusque Angliae primati <name type="author">dauid crummeus</name>
+                            Edinburgensis</incipit>
+
+                        <explicit locusNew="5v">Ex <name type="place">Begisburnio (Bekesbourne)</name>
+                            <date>1550</date></explicit>
+                        <ab>Text begins</ab>
+                        <incipit locus="6r">Regius ille propheta <name type="person">dauid</name></incipit>
+                        <ab>Colophon</ab>
+                        <rubric locus="74r">Elucubratum in <name type="place">Begisburnio</name> rusculo anno instaurati
+                            orbis <date>1553, 18 Sept.</date> in gratiam Reverendissimi Antistitis et colendissimi (?)
+                            domini Thomae Cantuariensis ecclesiae archiepiscopi ac totius Anglie primatis, etc.</rubric>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJC 8/4/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

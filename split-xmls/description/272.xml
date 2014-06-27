@@ -1,0 +1,477 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC272">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>272</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>O. 5</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>211</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">The Psalter of Count Achadeus</head>
+                <head type="James">Psalterium Achadei Comitis</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">266</height>
+                        <width unit="mm">210</width>
+                    </measureGrp><measureGrp type="James">10.5 x 8.3</measureGrp>, <extent>ff. 183 + 3</extent>,
+                        <layout>20 lines to a page</layout>. Cent. <origDate>ix late</origDate>, <handNote>in a Caroline
+                        minuscule, pale ink, fine ornaments</handNote>.</p>
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num> (wants 4, 5) 2<num>8</num>-4<num>8</num> (wants 4) 5<num>8</num>
+                            6<num>8</num> (wants 3) 7<num>8</num> (wants 7) 8<num>8</num> 9<num>8</num> (wants 8)
+                            10<num>8</num> 11<num>8</num> (wants 8) 12<num>8</num>-14<num>8</num> (wants 4, 5)
+                            15<num>8</num> 16<num>8</num> (wants 4) 17<num>8</num>-20<num>8</num> 21<num>4</num>
+                            22<num>8</num> 23<num>8</num> 24<num>4</num> 25<num>8</num> 26 (one), 3
+                        flyleaves</collation>.</p>
+
+                <p function="Provenance" rend="afterContents">Of the persons mentioned in the Litany <supplied>(ff.
+                            <locus>151r</locus>-<locus>154r</locus>)</supplied>
+                    <name type="person">Marinus</name>, consecrated Pope in <date>December 882</date>, died in <date>May
+                        884</date>. <name type="person">Carloman</name>, sole king in <date>882</date>, died in
+                        <date>884</date>. <name type="person">Fulco, Archbishop of Rheims</name>, was consecrated on
+                        <date>10 March 883</date>. This gives a date between <date>March 883</date> and <date>May
+                        884</date> for the writing of the Litany.</p>
+
+                <p function="Provenance" rend="afterContents">Of the Saints: <name type="person">Sixtus</name>, <name
+                        type="person">Sinicius</name>, <name type="person">Nivardus</name>, are of <name type="place"
+                        >Rheims</name>. Also <name type="person">Sindulfus</name>: <name type="person">Cilinia</name> is
+                    mother of <name type="person">St Remigius</name>. <name type="person">Theoderic</name> is of <name
+                        type="place">Cambrai</name>, <name type="person">Theodulf</name> of <name type="place"
+                        >Rheims</name>. The occurrence of <name type="person">Remigius</name>
+                    <decoNote>in gold capitals</decoNote> is a further indication of <name type="place">Rheims</name>.
+                    It is not clear why <name type="person">Abundus</name> is in gold unless it be to mark the end of
+                    the list of Confessors. The reason for the importance given to <name type="person">Columbanus</name>
+                    is also to seek.</p>
+
+                <p function="Provenance" rend="afterContents">That the book was in later times the property of <name
+                        type="place">Christ Church, Canterbury</name>, the flyleaves at the end <supplied>(ff.
+                            <locus>ir</locus>-<locus>iiv</locus>)</supplied> seem to show: and also the large inserted
+                    frontispiece to the Psalter <supplied>(f. <locus>3v</locus>)</supplied> appears to me to be in a
+                    style characteristic of <name type="place">Christ Church</name>. It is like the work in the glossed
+                    Gospels (<ref type="ms" target="CTC151">Trinity College B. 5. 5</ref>) only not so good.</p>
+
+                <p function="Additions">An old note (<origDate>xvi</origDate>) on f. <locus>1r</locus>: Hic codex
+                    scriptus temporibus <name type="person">Marini papae</name> et <name type="person">carlomanni</name>
+                    anno Domini <date>885</date> Mar. Scot. ut infra in Litania.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + 1-2 + 2a + 3-183 + i-iii + c-d</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="183v">
+                        <head type="CCC">
+                            <title>The Psalter of <name type="person">Count Achadeus</name></title>
+
+                        </head>
+
+                        <ab locusNew="1r">
+                            <decoNote>Title in red rustic capitals</decoNote>
+                        </ab>
+                        <rubric locus="1r">Incipit Prologus pro origo prophetiae <name type="person">Dauid regis</name>
+                            psalmorum numerum cl</rubric>
+                        <incipit locusNew="1r"><name type="person">Dauid</name> filius <name type="person">iesse</name>
+                            cum esset in regno suo</incipit>
+                        <ab>(<ref type="bibl" target="Migne 093"><supplied>P. L.</supplied> XCIII 477</ref>)</ab>
+                        <explicit locusNew="1v">canticum graduum xv</explicit>
+                        <rubric locus="1v">Incipit Praefatio <name type="author">Sancti Hieronimi</name>
+                            presbiteri</rubric>
+                        <incipit locusNew="1v">Psalterium <name type="place">romae</name> dudum positus</incipit>
+                        <ab>(<ref type="bibl" target="Migne 029"><supplied>P. L.</supplied> XXIX 117</ref>, etc.) </ab>
+                        <explicit locusNew="2v">de purissimo fonte potare</explicit>
+                        <rubric locusNew="2v">Explicit praefatio <name type="author">Sancti Hieronimi</name>
+                            presbiteri</rubric>
+
+
+                        <rubric locusNew="2v">Incipit cantica Psalmorum</rubric>
+                        <incipit locus="2v">Canticum psalmorum animas decorat</incipit>
+                        <ab>(<ref type="bibl" target="Migne 131"><supplied>P. L.</supplied> CXXXI 142</ref>: <ref
+                                type="bibl" target="Migne 142"><supplied>P. L.</supplied> CXLII 46</ref>)</ab>
+                        <explicit locusNew="2ar">in caelo deus mirificabit</explicit>
+                        <ab>f. <locus locusNew="2av">3v</locus> was originally blank, apparently. <decoNote>It
+                                    <supplied>was</supplied> covered by a leaf cut from a <origDate>xii</origDate>th
+                                cent. Psalter<supplied>, once</supplied> pasted on to it <supplied>and now
+                                    lifted</supplied></decoNote></ab>
+                        <ab locusNew="3v">
+                            <decoNote>This leaf has an elaborate full-page initial B and the letters EATUS — VIA
+                                PECCATORUM in gold capitals on blue (and white) ground</decoNote>
+                        </ab>
+                        <ab locusNew="3v">
+                            <decoNote>The letter B is filled with conventional foliage and convoluted stems, in the
+                                curves of which are many small white animals. The ground of this is gold. In the stem of
+                                the B is a medallion with gold ground containing a crowned bust of <name type="person"
+                                    >David</name>. Outside the letter the ground is blue</decoNote>
+                        </ab>
+                        <ab locusNew="3v">
+                            <decoNote>The frame is of gold and red (dotted with white): at the angles are four
+                                medallions and in the middle of the sides four half-medallions, all with gold ground.
+                                Those at the angles have: top L., bust of white-bearded man: lower L., bust of beardless
+                                man; upper and lower R., busts of kings. Those in the sides have: upper and lower C.,
+                                busts of angels: L. side small man in red and blue: R., small man in red with
+                                shield</decoNote>
+                        </ab>
+                        <ab locusNew="3v">
+                            <decoNote>The work is bold and rich but not very delicate</decoNote>
+                        </ab>
+
+                        <ab locusNew="4r">Text begins imperfectly in Ps. ii. 2</ab>
+                        <incipit locus="4r">Asstiterunt reges terrae</incipit>
+                        <ab>There is a marginal gloss<handNote> in a very beautiful small hand</handNote>. The
+                            references to the text are made (on ff. <locus>4r</locus>, <locus>5r</locus>) by Greek
+                            letters. It begins</ab>
+                        <incipit locusNew="4r">Reges autem terre <name type="person">herodem</name> dicit qui infantes
+                            occidit. alterumque <name type="person">herodem</name> nepotem eius qui <name type="person"
+                                >pilato</name> in nece christi consensit</incipit>
+                        <ab>At the end of each Psalm is a Collect, that for Ps. ii is</ab>
+                        <incipit locusNew="4v">Disrumpe domine nostrorum uincula peccatorum</incipit>
+                        <ab>
+                            <decoNote>The initials of Psalms and verses are usually in fluid gold throughout the book.
+                                On f. <locus>7r</locus> are two initials filled with blue. On f. <locus>1r</locus> the
+                                initial is handsome, in fluid gold edged with red, blue ground: the letter surrounded by
+                                gold foliage. On ff. <locus>1v</locus>, <locus>2v</locus> late pen-flourishing has been
+                                added to the initials</decoNote>
+                        </ab>
+                        <ab>
+                            <decoNote>After f. <locus>25v</locus> a leaf is gone with end of Ps. xxv and beginning of
+                                xxvi. The latter had a large initial occupying most of the page: the set-off is visible
+                                on f. <locus>26r</locus></decoNote>
+                        </ab>
+                        <ab>
+                            <decoNote>After f. <locus>39v</locus> a leaf is gone with the beginning of Ps. xxxviii. The
+                                set-off of the full-page initial is well seen on f. <locus>39v</locus></decoNote>
+                        </ab>
+                        <ab>
+                            <decoNote>On f. <locus>51r</locus> are two small decorative initials.</decoNote>
+                            <decoNote>After f. <locus>51v</locus> a leaf is gone with most of Ps. li: little of the
+                                set-off can be seen.</decoNote>
+                            <decoNote>The first words of Ps. lii are in gold capitals</decoNote>
+                        </ab>
+                        <ab>
+                            <decoNote>After f. <locus>65v</locus> a leaf is gone with the beginning of Ps. lxviii. The
+                                set-off of the initial is very visible on f. <locus>65v</locus></decoNote>
+                        </ab>
+                        <ab>
+                            <decoNote>After f. <locus>81v</locus> a leaf is gone with part of Ps. lxxx. The set-off of
+                                the initial is very visible on f. <locus>82r</locus></decoNote>
+                        </ab>
+                        <ab>
+                            <decoNote>On f. <locus>98r</locus> is the only large initial which has survived; to Ps.
+                                xcvii. It is of gold edged with red, with panels of patterned blue, filled with green
+                                and with gold interlacings: outside is gold foliage in two colours of gold</decoNote>
+                        </ab>
+                        <ab>
+                            <decoNote>After f. <locus>100v</locus> two leaves gone with part of Ps. ci. Set-off of
+                                initial on f. <locus>101r</locus></decoNote>
+                        </ab>
+                        <ab>After f. <locus>114v</locus> a leaf gone with Ps. cix and part of cx</ab>
+                        <ab>On <locus locusNew="143r">142r</locus> two small decorative initials</ab>
+                        <ab>Ps. cl ends on f. <locus>150r</locus>. The Collect is</ab>
+                        <incipit locus="150r">Armoniae nostrae suauissime melos</incipit>
+                        <ab>Gloss ends</ab>
+                        <explicit locusNew="150r">in spiritu qui spiritus est laudare non desinit</explicit>
+                        <ab locusNew="150r"><decoNote>In gold capitals</decoNote> at the foot of the page is</ab>
+                        <ab locusNew="150r"><name type="person">Achadeus</name> misericordia dei <lb/> comes. hunc
+                            psalterium <lb/> scribere iussit</ab>
+                        <ab>f. <locus>150v</locus> blank</ab>
+
+                        <ab locusNew="151r">Then follows the Litany on four leaves <handNote>in a smaller script than
+                                before but very probably by the same scribe</handNote>. <decoNote>The text is arranged
+                                in double columns and in arched or pedimented frames like those in which, in early
+                                gospel books, the Canons of the Gospels are written. In this MS. the shafts are purple
+                                or green, marbled, and have plants twined spirally about them. The plinth on which they
+                                stand is yellow with red patterns, and the lintel above in one case of purple and
+                                elsewhere of yellow and red. The tympana above this are filled with conventional foliage
+                                in gold and colour, and above the arches or gables are birds pecking at
+                                leaves</decoNote></ab>
+                        <ab>The text is</ab>
+                        <rubric locusNew="151r">Incipit letania</rubric>
+                        <ab locusNew="151r">Kyrieleison. Ter, Xpe eleison. ter, Kyrieleison. ter. Xpe audi nos. ter.
+                            Sancta <name type="person">Maria</name>. or</ab>
+                        <ab locusNew="151r">
+                            <decoNote>(so far in gold capitals)</decoNote>
+                        </ab>
+                        <ab locusNew="151r"><name type="person">Michahel</name>, <name type="person">Gabrihel</name>,
+                                <name type="person">Raphahel</name>. S. chorus archangelorum
+                            (<decoNote>red</decoNote>)</ab>
+                        <ab locusNew="151r"><name type="person">Petre</name>, <name type="person">Paule</name>, <name
+                                type="person">Andrea</name>, <name type="person">Iacobe</name>, <name type="person"
+                                >Iohannes</name>, <name type="person">Philippe</name>, <name type="person"
+                            >Iacobe</name>, <name type="person">Toma</name>, <name type="person">Bartholomee</name>,
+                                <name type="person">Mathee</name>, <name type="person">Simon</name>, <name type="person"
+                                >Tadee</name>, <name type="person">Mathia</name>. S. chorus apost. (red)</ab>
+                        <ab locusNew="151r"><name type="person">Stephane</name>, <name type="person">Iohannes</name>,
+                                <name type="person">Marce</name>, <name type="person">Luca</name>, <name type="person"
+                                >Line</name>, <name type="person">Clete</name>, <name type="person">Clemens</name>,
+                                <name type="person">Cleopha</name></ab>
+                        <ab locusNew="151v"><name type="person">Barnaba</name>, <name type="person">Ignatii</name>,
+                                <name type="person">Apollonaris</name>, <name type="person">Chrisogone</name>, <name
+                                type="person">Alaexander</name>, <name type="person">Dionisi</name>, <name type="person"
+                                >Rustice</name>, <name type="person">Eleutheri</name>, <name type="person"
+                                >Maurici</name>, <name type="person">Corneli</name>, <name type="person"
+                            >Cypriane</name>, <name type="person">Georgi</name>, <name type="person">Cristophore</name>,
+                                <name type="person">Iuliane</name>, <name type="person">Leudegari</name>, <name
+                                type="person">Sixte</name>, <name type="person">Laurenti</name>, <name type="person"
+                                >Ypolite</name>, <name type="person">Uincenti</name>, <name type="person">Uictor</name>,
+                                <name type="person">Candide</name>, <name type="person">Quintine</name>, <name
+                                type="person">Luciane</name>, <name type="person">Crispine</name>, Crispiniane, <name
+                                type="person">Cosma</name>, <name type="person">Damiane</name>, <name type="person"
+                                >Uictorice</name>, <name type="person">Tiburti</name>, <name type="person"
+                                >Ualeriane</name>, <name type="person">Pancrati</name>, <name type="person"
+                                >Geruasi</name></ab>
+                        <ab locusNew="152r"><name type="person">Protasi</name>, <name type="person">Celse</name>, <name
+                                type="person">Sebastiane</name>, <name type="person">Marce</name>, <name type="person"
+                                >Marcelliane</name>, <name type="person">Fabiane</name>, <name type="person"
+                                >Urbane</name>, <name type="person">Simphoriane</name>, <name type="person"
+                                >Saturnine</name>, <name type="person">Nicasi</name>, <name type="person"
+                                >Timothee</name>, <name type="person">Apollonaris</name>, <name type="person"
+                                >Rufine</name>, <name type="person">Firmine</name>, <name type="person"
+                            >Ualeri</name></ab>
+                        <ab locusNew="152r"><name type="person">SCE REMIGI</name> (<decoNote>gold capitals</decoNote>).
+                                <name type="person">Hilari</name>, <name type="person">Benedicte</name>, <name
+                                type="person">Germane</name>, <name type="person">Romane</name>, <name type="person"
+                                >Siluester</name>, <name type="person">Ambrosi</name>, <name type="person"
+                                >Gregorii</name>, <name type="person">Hieronime</name>, <name type="person"
+                                >Augustine</name>, <name type="person">Eusebi</name>, <name type="person"
+                            >Isidore</name>, <name type="person">Martine</name>, <name type="person">Leo</name>, <name
+                                type="person">Sulpici</name>, <name type="person">Aniane</name>, <name type="person"
+                                >Amande</name></ab>
+
+                        <ab locusNew="152v"><name type="person">SCE COLUMBANE</name> (<decoNote>gold capitals, red
+                                dots</decoNote>) <name type="person">Brici</name>, <name type="person">Goar</name>,
+                                <name type="person">Medarde</name>, <name type="person">Maximine</name>, <name
+                                type="person">Candide</name>, <name type="person">Antoni</name>, <name type="person"
+                                >Machari</name>, <name type="person">Teuderice</name>, <name type="person"
+                                >Teudulfe</name>, <name type="person">Memmi</name>, <name type="person">Lupe</name>,
+                                <name type="person">Arnulfe</name>, <name type="person">Nivarde</name>, <name
+                                type="person">Sixte</name>, <name type="person">Sinici</name>, <name type="person"
+                                >Basole</name>, <name type="person">Uedaste</name>, <name type="person">Onesime</name>,
+                                <name type="person">Sindulfe</name>, <name type="person">Filiberte</name>, <name
+                                type="person">Audoine</name>, <name type="person">Siluine</name>, <name type="person"
+                                >Carlepphe</name>, <name type="person">Richari</name>, <name type="person"
+                            >Pacomi</name>, <name type="person">Fortunate</name>, <name type="person">Troiane</name>,
+                                <name type="person">Marcelline</name>, <name type="person">Arseni</name>, <name
+                                type="person">Celsine</name>. <name type="person">Sce abunde</name> (<decoNote>gold
+                                letters</decoNote>)</ab>
+                        <ab locus="153r"><name type="person">Felicitas</name>, <name type="person">Perpetua</name>,
+                                <name type="person">Sincletica</name>, <name type="person">Agatha</name>, <name
+                                type="person">Lucia</name>, <name type="person">Agnes</name>, <name type="person"
+                                >Cecilia</name>, <name type="person">Anastasia</name>, <name type="person"
+                                >Genufefa</name>, <name type="person">Scolastica</name>, <name type="person"
+                                >Eulalia</name>, <name type="person">Eugenia</name>, <name type="person">Eufemia</name>,
+                                <name type="person">Petronilla</name>, <name type="person">Cristina</name>, <name
+                                type="person">Columba</name>, <name type="person">Iuliana</name>, <name type="person"
+                                >Afra</name>, <name type="person">Lucina</name>, <name type="person">Beatrix</name>,
+                                <name type="person">Tecla</name>, <name type="person">Teodosia</name>, <name
+                                type="person">Susanna</name>, <name type="person">Sabina</name>, <name type="person"
+                                >Magra</name>, <name type="person">Prisca</name>, <name type="person">Saturnina</name>,
+                                <name type="person">Cilinia</name>, <name type="person">Eutropia</name>, <name
+                                type="person">Eufrosina</name>, <name type="person">Praxedis</name>, <name type="person"
+                                >Margarita</name></ab>
+                        <ab locusNew="153v"><name type="person">Potentiana</name>, <name type="person">Balbina</name>,
+                                <name type="person">Radegundis</name>, <name type="person">Monegundis</name>. S. chorus
+                            uirginum</ab>
+                        <ab locusNew="153v">Omnes sancti orate pro nobis</ab>
+                        <ab locusNew="153v">Propitius esto, etc...</ab>
+                        <ab locusNew="153v">Ut pacem uobis dones...</ab>
+                        <ab locus="154r">Ut <name type="person">Marinum</name> apostolicum in sancta religione
+                            conseruare digneris</ab>
+                        <ab locusNew="154r">Ut <name type="person">Karlomannum</name> regem perpetua prosperitate
+                            conseruare digneris</ab>
+                        <ab locusNew="154r">Ut (blank) reginam conseruare digneris</ab>
+                        <ab locusNew="154r">Ut <name type="person">Folconem episcopum</name> cum omni grege sibi
+                            commisso, etc.</ab>
+                        <ab>No specially monastic suffrages occur</ab>
+                        <ab>Ends</ab>
+                        <explicit locusNew="154r">XPE AUDI NOS. TER. KYRIELEISON. XPELEISON. KYRIELEISON</explicit>
+                        <ab locusNew="154r">
+                            <decoNote>All in gold capitals</decoNote>
+                        </ab>
+                        <ab>f. <locus>154v</locus> blank</ab>
+
+                        <ab>
+                            <handNote>In a script of the former size</handNote>
+                        </ab>
+                        <ab locusNew="155r">Ps. cli, beginning imperfectly</ab>
+                        <incipit locus="155r">Pascebam oves patris mei</incipit>
+                        <explicit locusNew="155r">a filiis israel. Deo gratias</explicit>
+
+                        <rubric locus="155r">Incipiunt Cantici</rubric>
+                        <rubric locus="155r">Canticum <name type="person">Isaie</name> prophete ad matutinas feria
+                            II</rubric>
+                        <ab locusNew="155v">Canticum <name type="person">Ezechiae</name></ab>
+                        <ab>The rubric here is</ab>
+                        <rubric locusNew="155v">OSCRIPTOREZACHARIE <hi rend="footnote">Probably a mistake for
+                                    <q>scriptura <name type="person">regis ezechie</name></q> and not containing the
+                                name of the
+                            scribe</hi><!--James corrects scriptum to scriptura in corrigenda--></rubric>
+                        <rubric locusNew="156v">Canticum <name type="person">Annae</name></rubric>
+                        <rubric locusNew="157r">Canticum <name type="person">Moysi</name> prophete</rubric>
+                        <rubric locusNew="158v">Canticum <name type="person">Abbacuc</name> prophete</rubric>
+                        <rubric locusNew="159v">Canticum Deuteronomii</rubric>
+                        <rubric locusNew="162v">Hymnum trium puerorum</rubric>
+                        <ab locusNew="163r">(<decoNote>small decorative initial</decoNote>)</ab>
+                        <rubric locusNew="163v">Hymnum <name type="person">Zacharie</name></rubric>
+                        <rubric locusNew="164r">Canticum Sanctae <name type="person">Mariae</name></rubric>
+                        <rubric locusNew="164v">Canticum <name type="person">Simeon</name></rubric>
+                        <rubric locusNew="164v">Hymnum die dominico ad matutinas</rubric>
+                        <incipit locusNew="164v">Te Deum</incipit>
+                        <rubric locusNew="165v">Hymnum angelicum</rubric>
+                        <incipit locusNew="165v">Gloria in excelsis</incipit>
+                        <rubric locusNew="166r">Incipit fides catholica</rubric>
+                        <incipit locusNew="166r">Quicumque</incipit>
+                        <rubric locusNew="167v">Oratio Dominica</rubric>
+                        <incipit locusNew="168r">Incipit symbolum</incipit>
+                        <ab locusNew="168r">(In margin the Aue <handNote>in a hand of cent.
+                                <origDate>xiv</origDate></handNote>)</ab>
+                        <rubric locusNew="168r">Incipit Oratio <name type="person">Sancti Benedicti</name></rubric>
+                        <incipit locus="168v">Dominator domine deus omnipotens qui es trinitas una</incipit>
+                        <ab>(<ref type="bibl" target="Migne 101"><supplied>P. L.</supplied> CI 1400</ref>)</ab>
+                        <explicit locusNew="170r">ut faciam uoluntatem tuam quia tu es deus meus tibi honor et gloria In
+                            saecula saeculorum. Amen</explicit>
+                        <rubric locus="170r">Orationes ad uesperas seu ad matutinas et ad tertiam et ad nonam seu ad
+                            sextam</rubric>
+                        <incipit locusNew="170r">Et ne nos inducas</incipit>
+                        <rubric locus="170r">Orationes ad secundam</rubric>
+                        <explicit locusNew="171v">Domine deus uirtutum conuerte nos</explicit>
+                        <rubric locus="171v">Orationes maiores ad matutinas uel ad uesperas</rubric>
+                        <incipit locusNew="171v">Oremus pro omni gradu ecclesiae</incipit>
+
+                        <ab locusNew="171v">Includes: Pro abbate nostro</ab>
+                        <rubric locus="172r">Orationes ad completa</rubric>
+                        <incipit locusNew="172r">Domine exaudi, etc.</incipit>
+                        <ab>On f. <locus>173r</locus> near the end: Exaudi deus <name type="person">Karlomanno
+                                regi</name> uita</ab>
+
+
+                        <rubric locusNew="173r">Incipit Responsoria per totum annum in diuino officio canenda. Isti
+                            responsi sunt canendi ab aduentu domini usque in uigilio domini. Capitulum</rubric>
+                        <incipit locusNew="173r">Ecce dies ueniunt dicit dominus et suscitabo</incipit>
+                        <ab>Neumes occur on f. <locus>174v</locus></ab>
+                        <!--<ab locusNew="174v">Neumes, only one line, for Response: "Ab omni via mala per..."</ab>-->
+                        <ab>The Responses for the Temporal end f. <locus>176v</locus>. Then follow responses for <name
+                                type="person">S. Michael</name> and for Common of Saints, ending f.
+                            <locus>178r</locus></ab>
+                        <rubric locus="178r">Orationes ad secundam</rubric>
+                        <rubric locusNew="178r">Orationes ad tertiam</rubric>
+                        <rubric locusNew="178r">Orationes ad sextam</rubric>
+                        <rubric locusNew="178v">Orationes ad nonam</rubric>
+                        <rubric locusNew="178v">Orationes ad vesperas</rubric>
+                        <rubric locus="178v">Orationes pro semetipso</rubric>
+                        <incipit locusNew="178v">Domine deus meus qui non habes dominum</incipit>
+                        <rubric locus="179r">Qualiter orat. pro uiuo aguntur</rubric>
+                        <rubric locusNew="179r">Qualiter orat. pro una femina</rubric>
+                        <rubric locusNew="179r">Qualiter pro pluribus uiuis</rubric>
+                        <rubric locus="179v">Qualiter pro uno defuncto</rubric>
+                        <rubric locus="179v">Incipiunt orationes</rubric>
+                        <incipit locusNew="179v">Domine deus omnipotens qui in trinitate perfecta</incipit>
+
+
+                        <ab>Six prayers</ab>
+                        <rubric locus="180r">Oratio <name type="person">Sancti Gregorii</name></rubric>
+                        <incipit locusNew="180r">Rex seculorum et domine dominator</incipit>
+                        <rubric locus="180v">Oratio <name type="person">Sancti Hieronimi</name></rubric>
+
+                        <incipit locusNew="180v">Domine Iesu Christe dona mihi ut ambulem secundum mandata</incipit>
+                        <rubric locusNew="180v">Alia</rubric>
+                        <incipit locusNew="180v">Domine Iesu Christe noli me confundere</incipit>
+                        <rubric locusNew="180v">Oratio <name type="person">Sancti Agustini</name> Episcopi</rubric>
+                        <incipit locusNew="180v">Miserere domine super animas quas creasti</incipit>
+                        <rubric locus="181v" locusNew="181r">Dicit <name type="person">S. Gregorius</name> Episcopus
+                            cognoscatis quicunque hanc orationem omni die cantauerit sic dicit ipse <name type="person"
+                                >Sanctus Gregorius</name> quod nec malus homo nec diabolus nocere non potest ipsi homini
+                            nec animae nec corpori</rubric>
+                        <incipit locusNew="181v">Domine exaudi orationem meam quia iam cognosco quod tempus meum prope
+                            est</incipit>
+
+                        <rubric locus="182v">Confessio</rubric>
+                        <incipit locusNew="183r">Confiteor domino et tibi frater</incipit>
+
+
+
+                        <ab locusNew="183r">
+                            <handNote>In another hand, not much later</handNote>
+                        </ab>
+                        <rubric locus="183r">Collecta in Exaudi domine iustitiam meam</rubric>
+                        <incipit locusNew="183r">Conuerte domine oculos</incipit>
+                        <rubric locusNew="183r">Collecta in Nisi dominus aedificauerit</rubric>
+                        <incipit locusNew="183r">Domorum spiritalium</incipit>
+                        <ab>The above were omitted in the text</ab>
+                        <ab locusNew="183r">
+                            <handNote>Prayer in the same hand</handNote>
+                        </ab>
+                        <incipit locus="183r">Clementissime deus qui me inutilem famulum tuum</incipit>
+
+                        <explicit locusNew="183v">adiuuante atque trahente qui</explicit>
+
+                        <ab locusNew="ir">The <supplied>first two</supplied> flyleaves (ff.
+                                <locus>ir</locus>-<locus>iiv</locus>) are from a roll or book of <name type="place"
+                                >Christ Church, Canterbury</name>, records of courts (<origDate>xiv</origDate> or
+                                <origDate>xv</origDate>) </ab>
+                        <incipit locusNew="iv">Acta in <name type="place">ecclesia Christi cant.</name></incipit>
+                        <ab>(year not given)</ab>
+                        <ab>Many Kentish place-names occur</ab>
+                        <ab locusNew="iiir">On the last flyleaf <supplied>(f. <locus>iiir</locus>)</supplied> are many
+                            unimportant scribbles</ab>
+
+                    </msItem>
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: RJR</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

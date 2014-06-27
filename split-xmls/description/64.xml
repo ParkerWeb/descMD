@@ -1,0 +1,155 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC064">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>64</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>N. 1</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>166</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Hugo Ripelinus OP, Compendium ueritatis theologicae</head>
+
+                <head type="James">Compendium veritatis theologicae</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">315</height>
+                        <width unit="mm">222</width>
+                    </measureGrp><measureGrp type="James">12.3 x 8.8</measureGrp>, <extent>ff. 111 + 2</extent>,
+                        <layout>double columns of 41 lines</layout>. Cent. <origDate>xv</origDate>, <handNote>well
+                        written, slightly sloping</handNote>, <decoNote>red and blue initials</decoNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation> a<num>2</num>, 1<num>8</num>-14<num>8</num> (wants 8)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>De comendacione</secFol> or <secFol>saurus est</secFol>.</p>
+
+
+                <p function="Provenance">On f. <locus>1r</locus> is a pressmark<!--James corrects in corrigenda-->
+                    (older than <name type="person" key="MaPa01">Parker</name>'s time, but seemingly of cent.
+                        <origDate>xv-xvi</origDate>) <q>C. 23</q>, possibly a late <name type="place">Norwich</name>
+                    mark, and a note in <handNote>another hand (<origDate>xvi</origDate> cent.)</handNote>: <q>Autor
+                        huius operis <name type="person">Egidius archiep. bituri(c)ensis tritemius</name></q>.</p>
+
+                <p function="Author">It is also attributed to <name type="person">Thomas Aquinas</name>, <name
+                        type="person">Albertus Magnus</name>, and <name type="person">Johannes de Combis</name>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-iv + 1-111 + v-vi</foliation>.</p>
+
+
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="111r">
+                        <head type="CCC"><name type="author" key="HuRi01">Hugo Ripelinus OP</name>, <title>Compendium
+                                ueritatis theologicae</title></head>
+
+                        <head type="James">
+                            <title>Compendium veritatis theologicae</title>
+                        </head>
+
+
+                        <ab locus="1r">Table of chapters</ab>
+
+                        <rubric locus="2v">Incipit prologus theologice ueritatis</rubric>
+                        <incipit locusNew="2v">Ueritatis theologice sublimitatis</incipit>
+                        <explicit locusNew="3r">presens compilaui</explicit>
+                        <rubric locusNew="3r">Explicit prologus</rubric>
+
+                        <rubric locus="3r">Incipit liber primus de natura diuinitatis. Sequitur capitulum quod deus
+                            est</rubric>
+                        <incipit locusNew="3r">Deum esse multis modis ostenditur</incipit>
+
+                        <ab locus="17r">Liber II</ab>
+
+
+                        <ab locus="38r"><supplied>Liber</supplied> III</ab>
+
+                        <ab locus="52r"><supplied>Liber</supplied> IV</ab>
+
+                        <ab locus="65r"><supplied>Liber</supplied> V</ab>
+
+                        <ab locus="83v"><supplied>Liber</supplied> VI</ab>
+
+                        <ab locus="99v"><supplied>Liber</supplied> VII</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="110r">recipiet secundum merita sine fine. Amen</explicit>
+                        <rubric locusNew="110r">Explicit ueritas theologie</rubric>
+                        <ab>After this is an erasure of two lines</ab>
+
+                        <ab locus="110v">Alphabetical table <handNote>in a later hand</handNote></ab>
+
+
+                    </msItem>
+                </msContents>
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: typed from the James Catalogue by GDB</p>
+                            <p>markup: GDB</p>
+                            <p>markupCheck: CF, CF 2nd</p>
+                            <p>msCheck: NJM 19.3.2007</p>
+                            <p>remarks: 'opusculum' in the first explicit was silently corrected into 'compilaui'.</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

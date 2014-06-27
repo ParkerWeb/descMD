@@ -1,0 +1,234 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC221">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>221</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Lib. ab Al. 24</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Orthographical Works by Alcuin, Bede and others</head>
+                <head type="James">Alcuini Orthographia. Beda, Cassiodorius, Caper, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">245</height>
+                        <width unit="mm">155</width>
+                    </measureGrp><measureGrp type="James">9.8 x 6.5</measureGrp>, <extent>ff. 24 + 40 + 1</extent>,
+                        <layout>two volumes</layout> of cent. <origDate>ix-x and x-xi</origDate> respectively. (Cent.
+                        <origDate>x</origDate>, <ref type="bibl" target="Bradshaw 1889">Bradshaw</ref>).</p>
+
+                <p function="Multivolume" rend="withinContents"><lb/><label>Volume I:</label>
+                    <layout>Double columns of 29 lines</layout>, <handNote>in a somewhat sloping Caroline
+                        minuscule</handNote>. Titles in capitals. <lb/><label>Volume II:</label>
+                    <layout>26 lines to a page</layout>: <handNote>larger and rounder hand, clear and good</handNote>.
+                    Cent. <origDate>x-xi</origDate>. Titles in red capitals.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>12</num> 2<num>12</num> || I<num>8</num>-V<num>8</num>, 1 flyleaf</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>exaltatio</secFol>.</p>
+
+                <p function="Provenance">Probably given by <name type="person">Daniel Rogers</name>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-65 + iii-iv</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="1r" locusEnd="9r">
+                        <head type="CCC">
+                            <name type="author">Alcuin</name>, <title>De orthographia</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Orthographia <name type="author">Albini magistri</name></title>
+                        </head>
+
+                        <rubric locus="1r">Incipit Ortographya <name type="author">Albini Magistri</name><lb/> Me legat
+                            antiquas cupiat qui scire loquelas<lb/> Me spernens loquitur mox sine lege patrum</rubric>
+
+                        <incipit locusNew="1r">Aeternus aetas per ae dyptongon</incipit>
+                        <ab>(<ref type="bibl" target="Keil 1880">Keil, <hi rend="italic">Grammatici Latini</hi>. VII
+                                295</ref>)</ab>
+                        <ab>Ends in the letter R</ab>
+                        <explicit locus="9r">hirtus, hirtuleus hirrus proprium</explicit>
+                        <ab>(<ref type="bibl" target="Keil 1880">Keil, 309, l. 12</ref>)</ab>
+                        <rubric locusNew="9r">Finet ortographya <name type="author">Albini Magistri</name></rubric>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="9r" locusEnd="24v">
+                        <head type="CCC">
+                            <name type="author">Bede the Venerable</name>, <title>De orthographia</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Liber de orthographia <name type="author">Bedae presbiteri</name></title>
+                        </head>
+
+                        <rubric locus="9r">Incipit Liber de ortographia <name type="author">Bedae
+                            presbiteri</name></rubric>
+                        <incipit locusNew="9r">A littera etiam nota praenominis</incipit>
+                        <ab>(<ref type="bibl" target="Keil 1880">Keil, VII 261-294</ref>)</ab>
+                        <ab locusNew="19v">
+                            <handNote>Hand changes at f. <locus>19v</locus> col. 2</handNote>
+                        </ab>
+                        <ab>Ends</ab>
+                        <explicit locus="24v">oratoris sermo pervenit</explicit>
+
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="3" locusStart="25r" locusEnd="48v">
+                        <head type="CCC"><name type="author">Cassiodorus Senator</name>, <title>De
+                            orthographia</title></head>
+                        <head type="Nasmith">
+                            <title><name type="author">Cassiodori senatoris</name> liber de orthographia ex veteribus
+                                grammaticis consarcinatus</title>
+                        </head>
+
+                        <rubric locus="25r">Incipit Prefatio <name type="author">Cassiodori Senatoris</name> super
+                            ortographiam</rubric>
+                        <incipit locusNew="25r">Cum inter nos talia gererentur</incipit>
+                        <explicit locusNew="25r">distincta sunt</explicit>
+                        <rubric locusNew="25r">Explicit Prefatio</rubric>
+                        <ab>(<ref type="bibl" target="Keil 1880">Keil, VII 142-210</ref>)</ab>
+                        <incipit locusNew="25r">Post commenta psalterii</incipit>
+                        <explicit locus="27r">si modo liuor abest</explicit>
+                        <rubric locusNew="27r"><name type="author">Cassiodori senatoris</name> explicit Item
+                            Prefatio</rubric>
+                        <ab>(<ref type="bibl" target="Keil 1880">Keil, 147</ref>)</ab>
+                        <incipit locusNew="27r">Ex <name type="person">agneo cornuto</name></incipit>
+                        <explicit locusNew="27r">nihil hominus (!) est discendum</explicit>
+                        <rubric locus="27r"><name type="person">Agnei Cornuti</name> de enuntiatione uel ortographia
+                            ista revelata (!) sunt</rubric>
+                        <incipit locusNew="27r">Animaduerti quosdam</incipit>
+                        <!--<ab locusNew="37v">Marginal neumes in red</ab>-->
+                        <!--<ab locusNew="40v">Marginal neumes in black on 40v ("civis nivis"), 41r, 41v</ab>-->
+                        <ab>Ends</ab>
+                        <explicit locus="48v">poenali Societate coniungi. hunc <name type="author">cassiodorus
+                                senatoris</name> de ortographia librum ex duodecim auctorum opusculis
+                            defloratum</explicit>
+                    </msItem>
+
+                    <msItem n="4.1" locusStart="49r" locusEnd="53r">
+                        <head type="CCC"><name type="author">Flavius Caper</name>, <title>De orthographia</title></head>
+                        <head type="Nasmith">
+                            <title>Liber <name type="author">Capri</name> de orthographia</title>
+                        </head>
+
+                        <rubric locus="49r">Incipit liber <name type="author">Capri</name> de ortographia</rubric>
+                        <incipit locusNew="49r">Hec uia quo ducimus non ubi (!)</incipit>
+                        <ab>(<ref type="bibl" target="Keil 1880">Keil, VII 92</ref>)</ab>
+                        <explicit locusNew="53r">a similitudine fallarum (stellarum)</explicit>
+                        <ab>
+                            <ref type="bibl" target="Keil 1880">Keil, p. 107</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="4.2" locusStart="53r" locusEnd="59v">
+                        <head type="CCC"><name type="author">Flavius Caper</name>, <title>De uerbis
+                            dubiis</title></head>
+                        <rubric locus="53r">Item <name type="author">Capri</name> de verbis dubiis</rubric>
+                        <incipit locusNew="53r">In singularibus uerbis</incipit>
+                        <ab>(<ref type="bibl" target="Keil 1880">Keil, VII 107</ref>)</ab>
+                        <ab>Ends</ab>
+                        <explicit locusNew="55r">pedagogus nutritor paruulorum</explicit>
+                        <ab>(<ref type="bibl" target="Keil 1880">Keil, VII 112, note</ref>)</ab>
+                        <incipit locus="55r">Licet origo nominum unde ueniat a philosophis eam teneat rationem ut per
+                            denominationem homo ab humanitate</incipit>
+                        <explicit locusNew="55r">quedam in hoc opere posuimus</explicit>
+                        <incipit locusNew="55r">Aeros uir fortis et sapiens</incipit>
+                        <!--<ab locusNew="59r">Marginal neumes in black</ab>-->
+                        <ab>Ends</ab>
+                        <explicit locusNew="59v">Indagatores a latores pressores. Uenator quasi uenebu</explicit>
+                    </msItem>
+
+                    <msItem n="5" locusStart="59v" locusEnd="64v">
+                        <head type="CCC"><name type="author">Agroecius</name>, <title>De orthographia</title></head>
+                        <head type="Nasmith">
+                            <title><name type="author">Oegrocii</name> ars</title>
+                        </head>
+
+                        <rubric locus="59v">Incipit ars <name type="author"><abbr rend="superscript"
+                                >o</abbr>Egrocii</name></rubric>
+                        <rubric locus="59v">Incipit prefatio eiusdem ad <name type="person">Eucherium</name>
+                            Episcopum</rubric>
+                        <incipit locusNew="59v">Domino <name type="person">eucherio</name> in domino episcopo salutem
+                                <name type="author">agroecius</name> libellum <name type="author">Capri</name> de
+                            ortographia</incipit>
+                        <ab>(<ref type="bibl" target="Keil 1880">Keil, VII 113</ref>)</ab>
+                        <ab>Ends</ab>
+                        <explicit locusNew="64v">de turmentis dicimus et de precibus</explicit>
+                        <ab>(<ref type="bibl" target="Keil 1880">Keil, VII 125</ref>)</ab>
+                        <ab locus="65r">The last leaf is blank</ab>
+                        <!--<ab locusNew="65r">neumes in black</ab>-->
+
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: RJR 29.11.07</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

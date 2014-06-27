@@ -1,0 +1,277 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC466">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>466</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Sub D. 11</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>42</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Medical Tracts</head>
+                <head type="James">Medica</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">163</height>
+                        <width unit="mm">114</width>
+                    </measureGrp>, <measureGrp type="James">6.5 x 4.7</measureGrp>, <extent>ff. 4 + 147</extent>,
+                        <layout>23 lines to a page</layout>. Cent. <origDate>xii</origDate>, <handNote>in several
+                        interesting and good hands</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>4</num> 1<num>4</num> 2<num>2</num> 3<num>8</num>-7<num>8</num> 8<num>4</num>
+                            9<num>8</num> 10<num>8</num> | 11<num>8</num>-15<num>8</num> | 16<num>10</num> |
+                            17<num>8</num>-20<num>8</num> (wants 8)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>facile</secFol>.</p>
+
+                <p function="Provenance">From <name type="place">St Augustine's Canterbury</name>. See <ref type="bibl"
+                        target="James 1903"><hi rend="italic">Ancient Libraries</hi>, p. 343, no. 1245</ref>.</p>
+
+                <p function="Additions">The flyleaves are a papal absolution of <name type="person">Urban (VI)</name> to
+                        <name type="person">Juliana Welde mulier Cantuariensis</name>. Given at <name type="place"
+                        >Perugia</name> 5 kal. Feb. year blank. <lb/> On f. <locus>iv</locus>: Liber de reparacione
+                        <name type="person">fratris laurentii lenham</name>. <lb/> On f. <locus>iiir</locus> partly
+                    erased: Liber graduum et in eodem lapidarium <name type="author">Evax</name>. liber aureus liber de
+                    urinis de librario <name type="place">S. Aug. cant. exstra muros</name>. </p>
+
+                <p type="CCC">
+                    <foliation>ff. a + i-iv + pp. 1-294 + f. b</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="1" locusEnd="8">
+                        <head type="CCC">
+                            <title>Fragmentum cujusdam tractatus medicinalis</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Fragmentum cujusdam tractatus medicinalis</title>
+                        </head>
+
+                        <ab>
+                            <handNote>In the hand of no. 6</handNote>
+                        </ab>
+                        <incipit locus="1">Uniuersaliter autem catarticis utend' in robustis uirtute et promtis ad
+                            exercicia</incipit>
+                        <incipit locusNew="1">Catogoga dicuntur que coleram purgant</incipit>
+                        <ab>Sections follow on Aloe, Scamonea, Pepli, Elleborus, etc.</ab>
+                        <ab>Ends</ab>
+                        <explicit locusNew="7">aloe uiole agrestes malua et saluia</explicit>
+                        <rubric locusNew="7">Explicit</rubric>
+                        <ab locus="8">Receipts <handNote>in the same hand</handNote></ab>
+
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="2" locusStart="9" locusEnd="100">
+                        <head type="CCC">
+                            <name type="author">Isaac Iudaeus (Ishaq Ibn Suleiman)</name>, <title>Liber de gradibus
+                                simplicium (transl. by<name type="author">Constantinus Africanus</name>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De gradibus et virtutibus simplicium secundum <name type="author"
+                                >Dioscoridem</name></title>
+                        </head>
+
+                        <ab locus="9">Capitula in 3 columns in the same hand</ab>
+                        <rubric locus="13">Liber graduum</rubric>
+                        <ab>
+                            <handNote>In a thicker hand</handNote>
+                        </ab>
+                        <rubric locusNew="13">Incipit prologus</rubric>
+                        <incipit locusNew="13">Quoniam disputationem simplicis medicine</incipit>
+                        <explicit locusNew="14">cum medicinis temperetur</explicit>
+
+                        <incipit locusNew="14">Dicunt ergo medicinam aliam esse</incipit>
+                        <incipit locusNew="15">Absinthium calidum (?) est in 1<abbr rend="superscript">o</abbr>
+                            gradu</incipit>
+
+
+                        <ab>Ends (Zedoar)</ab>
+                        <explicit locusNew="100">similiter uini odorem ab ore aufert</explicit>
+                        <rubric locusNew="100">Explicit</rubric>
+                        <ab locus="100">Receipts <handNote>in the hand of <supplied>item</supplied> 1</handNote></ab>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="101" locusEnd="132">
+                        <head type="CCC">
+                            <name type="author">Marbod of Rennes</name>, <title>Liber lapidum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Tractatus de lapidibus pretiosis</title>
+                        </head>
+
+                        <rubric locus="101">Incipit prologus in libro lapidum</rubric>
+
+                        <incipit locusNew="101">
+                            <name type="author">Evax</name> rex arabum legitur scripsisse <name type="person"
+                                >neroni</name>
+                        </incipit>
+
+
+                        <explicit locusNew="131">Que decies senis distincta patent capitellis</explicit>
+                        <rubric locusNew="131">Explicit</rubric>
+
+                        <incipit locus="131">Incipit somniale <name type="person">danielis prophete</name> quod fecit in
+                                <name type="place">babilonia</name> diebus <name type="person">nabuchodonosor
+                                regis</name>. Precabatur a principibus ciuitatis et ab omnibus populis ut eis sompnia
+                            que uidebant narraret. Dicens ego sum propheta de filiabus <name type="place">israel</name>
+                            qui captiuus ductus sum de <name type="place">ierusalem</name> ciuitate sancta. Hec omnia a
+                            deo facta sunt</incipit>
+
+                        <ab>p. <locus>132</locus> blank, no more is written: see on p. <locus>228</locus></ab>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="133" locusEnd="212">
+                        <head type="CCC">
+                            <name type="author">Iohannes Afflacius (pseudo-Constantinus Africanus)</name>, <title>Liber
+                                aureus de remediorum et aegritudinum cognitione</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Liber aureus de doloribus et morbis cujuslibet partis corporis et eorum
+                                curationibus</title>
+                        </head>
+
+                        <rubric locus="133">Incipiunt capitula de libro aureo</rubric>
+                        <rubric locusNew="135">Incipit liber aureus</rubric>
+                        <incipit locusNew="135">Si dolor capitis sit ex causa in essentia capitis existente</incipit>
+                        <ab>Marginal notes <handNote>in the hand of <supplied>item</supplied> 1</handNote></ab>
+                        <explicit locusNew="212">fleuma si ad uesicam descenderit non fetet</explicit>
+                        <rubric locusNew="212">Explicit liber aureus</rubric>
+
+                    </msItem>
+
+                    <milestone n="III" unit="volume"/>
+
+                    <msItem n="5" locusStart="213" locusEnd="227">
+                        <head type="CCC">
+                            <name type="author">Vindicianus Afer</name>, <title>Epistula ad <name type="person"
+                                    >Pentadium</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Vindiciani</name> ad <name type="person">Pintadium Gadum
+                                    nepotem suum</name> de urinis</title>
+                        </head>
+
+                        <ab>
+                            <handNote>Hand of <supplied>item</supplied> 1</handNote>
+                        </ab>
+                        <rubric locus="213">Epistola <name type="author">uindiciani</name> ad <name type="person"
+                                >pintadium gadum nepotem suum</name> de urinis</rubric>
+                        <incipit locusNew="213">Corpus hominis constat iiii<abbr rend="superscript">or</abbr> humoribus
+                            id est sanguine colera, etc.</incipit>
+                        <explicit locusNew="227">clara in fine febris (?) apostema(?) significat in epate</explicit>
+                        <ab>Ed. <ref type="bibl" target="Peiper 1874">R. Peiper <hi rend="italic">Philologus</hi> XXXIII
+                                562</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="6" locusStart="228" locusEnd="232">
+                        <head type="CCC">
+                            <title>Somniale <name type="person">Danielis</name></title>
+                        </head>
+
+                        <rubric locus="228">Incipit somniale <name type="person">danielis</name> (etc. <q>ut supra</q>
+                            to <q>facta sunt</q>) nichil per memet ipsum sed tantum (?) a deo accepi. quicunque leget
+                                <name type="person">danielem</name> intelliget in somniale domini dei. Amen</rubric>
+
+                        <ab><layout>Text in two columns</layout>, as far as p. <locus>231</locus></ab>
+                        <incipit locusNew="228">Aues apprehendere in somnis</incipit>
+                        <ab locusNew="228">Lucrum significat</ab>
+                        <ab>Ends</ab>
+                        <explicit locusNew="232">Zizanias seminare rixas maximas audire</explicit>
+                        <rubric locusNew="232">Explicit</rubric>
+
+                    </msItem>
+
+                    <msItem n="7" locusStart="233" locusEnd="293">
+                        <head type="CCC">
+                            <title>Speculum medicarum</title>
+                        </head>
+
+                        <rubric locus="233">Incipit tractatus de egritudinibus singularum partium corporis</rubric>
+                        <incipit locusNew="233">Quia de egritudinibus singularum partium corporis tractaturi sumus ideo
+                            principium nostre orationis a cerebro faciamus</incipit>
+                        <ab locusNew="290">
+                            <handNote>The first hand ends p. <locus>290</locus> on Sciatica passio</handNote>
+                        </ab>
+                        <explicit locusNew="290">et loci tumiditas et etiam(?) pes longius</explicit>
+                        <ab locusNew="290">
+                            <handNote>Then a pretty upright hand continues</handNote>
+                        </ab>
+                        <incipit locusNew="290">Sciatica dicitur scie passio quoniam dolor est in concatenatione
+                            coxarum</incipit>
+
+                        <explicit locus="293">adiuuante domino nostro Ihesu Christo cuius nutu hoc opus incepimus
+                            eiusque auxilio et permissione ad finem usque compleuimus</explicit>
+
+                        <ab locusNew="293">Some late receipts (<origDate>xiii-xv</origDate>) follow on pp.
+                                <locus>293</locus>, <locus>294</locus></ab>
+
+
+                    </msItem>
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: NJC 03/11/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

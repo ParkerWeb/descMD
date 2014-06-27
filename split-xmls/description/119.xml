@@ -1,0 +1,2329 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC119">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>119</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Misc. 2</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Letters Principally of Foreign Reformers</head>
+                <head type="James">Letters Principally of Foreign Reformers</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">325</height>
+                        <width unit="mm">232</width>
+                    </measureGrp><measureGrp type="James">12.5 x 8.5</measureGrp> (and smaller). Cent.
+                        <origDate>xvi</origDate>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-iv + pp. 1-14 + 14a-15a + 15-20 + 20a-21a + 21-22 (23-24 missing) + 25-26 + 26a-27a
+                        + 27-106 + ff. 106a-g + pp. 107-154 + ff. 155-6 + pp. 157-172 + 172a-173a + 173-174 + 174a-175a
+                        + 175-181 + 180a-d + 181-210 + 210a-211a + 211-242 + 242a-243a + 243-244 + 244a-d + 245-360 +
+                        ff. 361-2 + pp. 363-366 + 366a-367a + 367-370 + ff. v-viii</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="fre ger eng">Latin, French, German and English.</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1" locusEnd="2">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="person">Henry VIII</name>, now missing</title>
+                        </head>
+                        <ab>
+                            <quote>Deest epistola <name type="person">Henrici VIII</name></quote>
+                        </ab>
+                        <ab>
+                            <supplied>Blank sheet replacing missing letter of <name type="person">Henry VIII</name>
+                                listed in contents list on f. <locus>ir</locus></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="2" locusStart="3" locusEnd="6">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Martin Bucer</name> to <name type="person">Edward
+                                    VI</name>, <date>1550</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Martini Buceri</name> ad <name type="person">Edwardum
+                                    VI</name></title>
+                        </head>
+
+                        <ab>
+                            <quote>mittit regi duos libros quos conscripsit de regno Christi restituendo, eumque
+                                hortatur ut veram fidem Dei et ejus ministros semper foveat et protegat: data <name
+                                    type="place">Cantabrigiae</name>
+                                <date>12 kalendas Novembri 1550</date></quote>
+                        </ab>
+
+                        <ab>Cf. <ref type="bibl" target="Gasquet and Bishop 1890">Gasquet and Bishop, <hi rend="italic"
+                                    >Edward VI</hi> etc. p. 301 note</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="7" locusEnd="8">
+
+                        <head type="CCC">
+                            <title>Letter in German dated <date>August 1538</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola Germanica</title>
+                        </head>
+
+                        <ab>refers to <name type="person">Johann Forster</name> preacher at <name type="place"
+                                >Augsburg</name>, dated <date>August (15)38</date> signed <q>Burgomaister vnnd
+                                Paumaister ... zu Augspurg</q>: see a Latin version in <ref type="ms" target="CCC122">MS
+                                122. 14</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="9" locusEnd="10">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Frederick III, Elector Palatine</name>, to <name
+                                    type="person">Matthew Parker</name>, <date>12 February 1568</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Frederici electoris Palatini</name> ad <name
+                                    type="person">Matthaeum Parker</name> archiepiscopum Cantuariensem; in qua commendat
+                                ei <name type="person">Immanuelem Trimellium</name> legatum suum: data <name
+                                    type="place">Heidelbergae</name>
+                                <date>12 Februarii 1568</date></title>
+                        </head>
+
+                        <ab>
+                            <ref type="bibl" target="Bruce and Perowne 1853"><hi rend="italic">Parker
+                                    Correspondence</hi> CCXLI and note</ref>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="5" locusStart="11" locusEnd="14">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Matthew Parker</name> to <name type="person">Frederick
+                                    III, Elector Palatine</name>, <date>23 March 1568</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Responsio archiepiscopi ad electorem, data <name type="place">Lambethi</name>
+                                <date>23 Martii 1568</date></title>
+                        </head>
+
+                        <ab>
+                            <ref type="bibl" target="Bruce and Perowne 1853"><hi rend="italic">Parker
+                                    Correspondence</hi> CCXLI and note</ref>
+                        </ab>
+
+
+
+                    </msItem>
+
+                    <msItem n="6" locusStart="15" locusEnd="16">
+
+                        <head type="CCC">
+                            <title>Safe conduct granted by <name type="person">Charles IX of France</name> for those
+                                attending the assembly at <name type="place">Poissy</name>, <date>25 July
+                                1561</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>A safe-conduct granted by <name type="person">Charles IX. king of France</name>, to
+                                all persons coming to the assembly at <name type="place">Poissy</name>, dated at <name
+                                    type="place">St. Germain's</name>
+                                <date>July 25, 1561</date></title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="7" locusStart="17" locusEnd="18">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Emperor Charles V</name> to the prelates, abbots and
+                                clergy of <name type="place">Cologne</name>, <date>12 October 1544</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Caroli V. imperatoris</name> ad praelatos abbates et
+                                clerum <name type="place">civitatis Coloniensis</name> in qua fautoribus novi cultus se
+                                offensum ostendit, et hortatur ut in pristina religionis forma perstent: data <name
+                                    type="place">Bruxelli</name>
+                                <date>12 Octobris 1544</date></title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="8" locusStart="19" locusEnd="20">
+
+                        <head type="CCC">
+                            <title>Autograph letter of <name type="author">Edward VI</name> to <name type="person"
+                                    >Catherine Parr</name>, <date>30 May 1548</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola scripta manu propria serenissimi <name type="author">regis Edwardi
+                                VI</name>. ad dominam <name type="person">Katherinam reginam</name> relictam <name
+                                    type="person">regis Henrici VIII</name>. data <date>30 Maii</date></title>
+                        </head>
+
+                        <incipit locusNew="19">Cum non procul abs te abessem</incipit>
+                        <ab>No. xliv in <ref type="bibl" target="Nichols 1857a">Nichols' <hi rend="italic">Literary
+                                    Remains of Edward VI</hi> (I p. 44)</ref></ab>
+
+
+
+                    </msItem>
+
+                    <msItem n="9" locusStart="21" locusEnd="22">
+
+                        <head type="CCC">
+                            <title>Autograph letter of <name type="author">Anne Boleyn</name> to her father, <name
+                                    type="person">Sir Thomas Boleyn</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Lettre d'<name type="author">Anne de Boullan</name> a son pere</title>
+                        </head>
+
+                        <incipit locusNew="21">Mons<abbr rend="superscript">r</abbr> je antandue par vostre
+                            lettre</incipit>
+
+                        <ab>
+                            <supplied>pp. 23-24 missing</supplied>
+                        </ab>
+
+
+                    </msItem>
+
+                    <msItem n="10" locusStart="25" locusEnd="26">
+
+                        <head type="CCC">
+                            <title>Latin translation of a letter from <name type="author">Anne Boleyn</name> to her
+                                father, <name type="person">Sir Thomas Boleyn</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Ejusdem epistolae versio Latina</title>
+                        </head>
+
+                        <ab>
+                            <quote>[very incorrect]</quote>
+                        </ab>
+
+
+                    </msItem>
+
+                    <msItem n="11" locusStart="27" locusEnd="28">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Thomas Cranmer</name> to <name type="person">Martin
+                                    Bucer</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Cranmeri archiepiscopi Cantuariensi</name> ad <name
+                                    type="person">Martinum Bucerum</name>, in qua consolatur eum de morte <name
+                                    type="person">Fagii</name> et dicit se misisse xxvii libros viduae <name
+                                    type="person">Fagii</name> solvendas, data <name type="place">Lambethi</name>
+                                <date>ultima Novembris</date></title>
+                        </head>
+
+                        <ab>
+                            <ref type="bibl" target="Jenkyns 1833a"><hi rend="italic">Cranmer, Remains</hi> p. 426
+                                (Parker Society)</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="12" locusStart="29" locusEnd="32">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Stephen Gardiner</name>, chancellor of the <name
+                                    type="place">University of Cambridge</name>, to the vice-chancellor and masters of
+                                the university</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Stephani Gardiner episcopi Wintoniensi</name>
+                                <name type="place">academiae Cantabrigiensis</name> cancellarii ad vice-cancellarium et
+                                coetum magistrorum regentium et non regentium; in qua graviter invehit in eos qui spreta
+                                sua autoritate antiquam Graecae pronuntiationis normam non observant, et de tragoedia
+                                coram eis publice recitata queritur: data <name type="place">London</name>
+                                <date>18 Maii</date></title>
+                        </head>
+
+                        <ab>Cf. <ref type="ms" target="CCC106">MS 106. 157 sqq</ref></ab>
+
+                        <ab>
+                            <supplied>pp. <locus>33</locus>-<locus>34</locus> are blank except for an address and formed
+                                the wrapper for item 11</supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="13" locusStart="35" locusEnd="36">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">John Skip, Bishop of Hereford</name>, to <name
+                                    type="person">Matthew Parker</name></title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>Letter from <name type="author">John Skyp bishop of Hereford</name> to <name
+                                    type="person">Dr. Parker dean of Stoke</name>, acquainting him that matters go on
+                                slowly in the convocation: dated <name type="place">Westminster</name>
+                                <date>May 11</date></title>
+                        </head>
+
+                        <ab>
+                            <ref type="bibl" target="Bruce and Perowne 1853"><hi rend="italic">Correspondence</hi>
+                                IX</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="14" locusStart="37" locusEnd="38">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Edmund Bonner, Bishop of London</name>, desiring
+                                members of the <name type="place">University of Cambridge</name> to preach at <name
+                                    type="place">St Paul's Cross, London</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Letter from <name type="author">Edmund Bonner bishop of London</name> to — —,
+                                desiring him to exhort the members of the university to take their turns in preaching at
+                                    <name type="place">St. Paul's cross</name>, dated <date>October 9</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="15" locusStart="39" locusEnd="40">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Hugh Latimer</name> to <name type="person">Dr
+                                    Green</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Hugonis Latimeri</name> ad <name type="person">doctorem
+                                    Green gymnasiarcham</name>, in qua orat ut <name type="person">magister
+                                    Wynfylde</name> in locum <name type="person">Lufvelli</name> succedat: data <name
+                                    type="place">Kymboltaniae</name>
+                                <date>postridie Edwardi</date></title>
+                        </head>
+
+                        <ab>
+                            <ref type="bibl" target="Corrie 1845"><hi rend="italic">Remains of Latimer</hi> 295, 467
+                                (Parker Society)</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="16" locusStart="41" locusEnd="42">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">John Cheke</name> to <name type="person">Martin
+                                    Bucer</name>, <date>11 May 1550</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Ioannis Cheki</name> ad <name type="person">Martinum
+                                    Bucerum</name> in qua gratulatur ei quod valetudinem recuperasset, et dicit se
+                                continuo archiepiscopum hortari, ut <name type="person">Sleidani</name> se sedulum
+                                patronum praebeat: data <name type="place">Grenvici</name>
+                                <date>11 Maii, 1550</date></title>
+                        </head>
+
+                        <ab>
+                            <ref type="bibl" target="Goodwin 1843">J. Goodwin, <hi rend="italic">Cheke's Gospel of
+                                    Matthew</hi> 1843, Appendix no. 3</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="17" locusStart="43" locusEnd="44">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Richard Morrison</name> to <name type="person">Martin
+                                    Bucer</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Ricardi Morysini</name> ad eundem de statu rerum in
+                                    <name type="place">Germania</name>: data <name type="place">ex aedibus ducissae
+                                    Suffolciae</name></title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="18" locusStart="45" locusEnd="50">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Martin Bucer</name> to <name type="person">John
+                                    Cheke</name>, <date>1550</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Martini Buceri</name> ad <name type="person">Ioannem
+                                    Chekum</name></title>
+                        </head>
+
+                        <ab>
+                            <quote>mittit ei libros suos de Christi regno restituendo, et servum suum in <name
+                                    type="place">Galliam</name> redeuntem ei commendat: data <date>12 kalendas Novembri
+                                    1550</date></quote>
+                        </ab>
+
+                        <ab>
+                            <ref type="bibl" target="Ascham 1703">Aschami <hi rend="italic">Epistolae</hi>, Oxon. 1703,
+                                p. 434</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="19" locusStart="51" locusEnd="54">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Walter Haddon</name> to <name type="person">Martin
+                                    Bucer</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Gualteri Haddon</name> ad <name type="person">Martinum
+                                    Bucerum</name>, in qua de infirma sua valetudine fuse agit: data <date>1
+                                    Septembris</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="20" locusStart="55" locusEnd="56">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Thomas Goodrich, bishop of Ely</name>, to <name
+                                    type="person">Dr John Edmunds</name>, master of Peterhouse</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Letter from <name type="author">Thomas Goodrich bishop of Ely</name> to <name
+                                    type="person">Dr. Edmunds master of Peterhouse</name>, declaring to him the kings
+                                pleasure, that one of the society should preach every Sunday in their parish church, and
+                                make known to the people his majesties title of supreme head of the church and his
+                                renunciation of the usurped power of the pope: dated <name type="place">Somersham</name>
+                                <date>June 27</date></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="21" locusStart="57" locusEnd="66">
+
+                        <head type="CCC">
+                            <title>Autograph letter of <name type="author">Desiderius Erasmus</name> to <name
+                                    type="person">Martin Bucer</name>, <date>1527</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Erasmi</name> ad <name type="person">Martinum
+                                    Bucerum</name>, in qua rationes adfert cur noluerit ecclesiae reformatae se
+                                adjungere: data <name type="place">Basileae</name>, <date>natali D. Martini,
+                                1527</date></title>
+                        </head>
+                        <ab>Liber xix, Epistola 72. Autograph <supplied>letter pp. <locus>57</locus>-<locus>58</locus>,
+                                    <locus>63</locus>-<locus>64</locus></supplied>, with transcript <supplied>(pp.
+                                    <locus>59</locus>-<locus>62</locus>)</supplied></ab>
+
+                        <ab>
+                            <supplied>pp. <locus>65</locus>-<locus>66</locus> blank</supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="22" locusStart="67" locusEnd="67">
+
+                        <head type="CCC">
+                            <title>Two letters of <name type="author">Martin Bucer</name> to <name type="person">Matthew
+                                    Parker</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Duae epistolae <name type="author">Buceri</name> ad <name type="person"
+                                    >Parkerum</name></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Bruce and Perowne 1853"><hi rend="italic">Correspondence</hi> XXXI,
+                                XXXII</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="23" locusStart="68" locusEnd="68">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Martin Bucer</name> to <name type="person">Matthew
+                                    Parker</name>, written shortly before Bucer's death</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola novissima omnium, quam scripsit <name type="author">Bucerus</name> paulo
+                                ante mortem suam, in qua orat <name type="person">Parkerum</name> ut det ei mutuo x
+                                coronatos</title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Bruce and Perowne 1853"><hi rend="italic">Correspondence</hi>
+                                XXXIII</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="24" locusStart="69" locusEnd="78">
+
+                        <head type="CCC">
+                            <title>Will and Testament of <name type="author">Martin Bucer</name>, dated <date>23 January
+                                    1548</date>, with codicil dated <date>22 February 1551</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Testamentum <name type="author">Martini Buceri</name> factum <name type="place"
+                                    >Argentorati</name>
+                                <date>23 Januarii 1548</date>, cum codicillo <name type="place">Cantabrigiae</name>
+                                facto <date>22 Februarii 1551</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="25" locusStart="79" locusEnd="79">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Sir John Cheke</name> to <name type="person">Matthew
+                                    Parker</name>, <date>1551</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Letter from <name type="author">sir John Cheke</name> to <name type="person">Dr.
+                                    Parker</name>, condoling with him on the death of <name type="person">Bucer</name>,
+                                and informing him that he had spoken in favour of his widow to the lords of the council,
+                                dated <name type="place">Westminster</name>
+                                <date>1551</date></title>
+                        </head>
+                        <ab><ref type="bibl" target="Bruce and Perowne 1853"><hi rend="italic">Correspondence</hi>
+                                XXXV</ref>, <ref type="bibl" target="Goodwin 1843">J. Goodwin, <hi rend="italic">Cheke's
+                                    Gospel of Matthew</hi> 1843, Appendix no. 4</ref></ab>
+                    </msItem>
+
+                    <msItem n="26" locusStart="80" locusEnd="80">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Sir John Cheke</name> promising his assistance to
+                                secure a pension for his unnamed correspondent</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Letter from the same to Dr — — , promising him to exert his interest to procure him a
+                                pension, dated <name type="place">Westminster</name>
+                                <date>June 7</date></title>
+                        </head>
+                        <ab><ref type="bibl" target="Bruce and Perowne 1853"><hi rend="iotalic">Correspondence</hi>
+                                XXXVIII</ref>, <ref type="bibl" target="Goodwin 1843">J. Goodwin, <hi rend="italic"
+                                    >Cheke's Gospel of Matthew</hi> 1843, Appendix no. 2</ref></ab>
+                    </msItem>
+
+                    <msItem n="27" locusStart="81" locusEnd="84">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Wibrandis Bucer</name> to <name type="person">Matthew
+                                    Parker</name> and <name type="person">Walter Haddon</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Wibrandae Buceri</name> ad doctores <name type="person"
+                                    >Parker</name> et <name type="person">Haddon</name> Germanice scripta cum ejusdem
+                                versione Latina, in qua reddit eis rationem pecuniarum quas ab <name type="place"
+                                    >Anglia</name> discedens acceperat: data <name type="place">Gravelyn</name>
+                                <date>die veneris</date></title>
+                        </head>
+
+                        <ab>
+                            <supplied>pp. <locus>82</locus>-<locus>83</locus> blank</supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="28" locusStart="85" locusEnd="86">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Wibrandis Bucer</name> to <name type="person">Matthew
+                                    Parker</name> and <name type="person">Walter Haddon</name> concerning the
+                                distribution of <name type="person">Martin Bucer</name>'s goods after his death,
+                                    <date>23 February 1552</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola ejusdem ad eosdem, in qua eos certiores facit, distributionem bonorum mariti
+                                ejus defuncti brevi esse faciendam juxta testamentum ejus; et nonnullas in ea re ex
+                                legibus Argentinensibus ortas difficultates enarrat: data <name type="place"
+                                    >Argentinae</name>
+                                <date>23 Februarii 1552</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="29" locusStart="87" locusEnd="88">
+
+                        <head type="CCC">
+                            <title>Certificate of <name type="person">Ulrich Chelius</name> and <name type="person"
+                                    >Conrad Hubert</name> concerning the distribution of <name type="person">Martin
+                                    Bucer</name>'s goods after his death, dated <date>20 July 1553</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Certificatio <name type="person">Ulrici Chelii</name> et <name type="person">Conradi
+                                    Huberti</name> de eadem bonorum distributione, acta <name type="place"
+                                    >Argentorati</name>
+                                <date>20 Julii, 1553</date></title>
+                        </head>
+
+                        <ab>
+                            <ref type="bibl" target="Bruce and Perowne 1853"><hi rend="italic">Correspondence</hi>, p.
+                                47 note</ref>
+                        </ab>
+
+                        <ab>
+                            <supplied>p. <locus>88</locus> blank</supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="30" locusStart="99" locusEnd="102">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Ulrich Chelius</name> and <name type="author">Conrad
+                                    Hubert</name> to <name type="person">Matthew Parker</name> and <name type="person"
+                                    >Walter Haddon</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola eorundem, in qua <name type="person">Parkerum</name> et <name type="person"
+                                    >Haddonum</name> rogant ut reliquum pecuniae <name type="person">Bucero</name>
+                                debitae expediatur et mittatur</title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Bruce and Perowne 1853"><hi rend="italic">Correspondence</hi>, p.
+                                47 note</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="31" locusStart="89" locusEnd="90">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Wibrandis Bucer</name> to <name type="person">Martin
+                                    Bucer</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Wibrandae</name>
+                                <name type="person">Buceri</name> ad maritum suum Germanice scripta cum ejusdem versione
+                                Latina, in qua memorat machinationes papistarum quando <name type="place"
+                                    >Argentinam</name> primum rediit: data <name type="place">Thermis</name>
+                                <date>postridie Ioannis</date></title>
+                        </head>
+
+                        <ab>Latin version on pp. <locus>95</locus><supplied>-<locus>96</locus></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="32" locusStart="90" locusEnd="90">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Christopher Stael</name> to <name type="person">Martin
+                                    Bucer</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Christopheri Stael</name> priori annexa, in qua petit
+                                consilium a <name type="person">Bucero</name>, utrum cum ecclesia permanere an cum matre
+                                discedere debeat: data <name type="place">Argentinae</name>
+                                <date>30 Junii</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="33" locusStart="91" locusEnd="92">
+
+                        <head type="CCC">
+                            <title>Letter of attorney given by <name type="person">Wibrandis Bucer</name> to <name
+                                    type="person">Matthew Parker</name> and <name type="person">Walter
+                                Haddon</name></title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>Literae attornatus datae a <name type="person">Wibranda Bucero</name>, doctoribus
+                                    <name type="person">Parker</name> et <name type="person">Haddon</name>: <name
+                                    type="place">Cantabrigiae</name>
+                                <date>20 Aprilis 5 Edwardi VI</date></title>
+                        </head>
+
+                        <ab>
+                            <supplied>p. <locus>92</locus> blank</supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="34" locusStart="93" locusEnd="102">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Wibrandis Bucer</name> to <name type="person">Matthew
+                                    Parker</name> and <name type="person">Walter Haddon</name>, <date>15 July
+                                    1553</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Wibrandae Buceri</name> ad eosdem; in qua eos certiores
+                                facit distributionem tandem esse factam, et maximas eis agit gratias pro humanitate et
+                                benevolentia erga se et maritum defunctum: data <name type="place">Argentinae</name>
+                                <date>15 Julii, 1553</date></title>
+                        </head>
+
+                        <ab>
+                            <supplied>This is followed by the continuation of item 31 (pp.
+                                    <locus>95</locus>-<locus>98</locus>) and item 30 (pp.
+                                    <locus>99</locus>-<locus>102</locus>)</supplied>
+                        </ab>
+
+
+                    </msItem>
+                    <msItem n="35" locusStart="103" locusEnd="104">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">John a Lasco</name> to <name type="person">Martin
+                                    Bucer</name>, <date>1550</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Iohannis Alasco</name> ad <name type="person">Martinum
+                                    Bucerum</name>, in qua promittit se brevi ad eum venturum; et quaedam narrat de
+                                rerum statu in <name type="place">Anglia</name>, <name type="place">Polonia</name> et
+                                    <name type="place">Germania</name>: data <name type="place">Lambeth</name>
+                                <date>postridie Iohannis Baptismi 1550</date></title>
+                        </head>
+
+                        <ab>Lasco, ed. <ref type="bibl" target="Kuyper 1866b">Kuyper 1866, II 640</ref></ab>
+                        <ab>Also in <ref type="bibl" target="Gorham, Gorham and Bird 1857">Gorham, <hi rend="italic"
+                                    >Gleanings</hi> 156, 30</ref></ab>
+                    </msItem>
+
+                    <msItem n="36" locusStart="105" locusEnd="106">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">John a Lasco</name> to <name type="person">Martin
+                                    Bucer</name>, <date>1545</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Iohannis Alasco</name> ad eundem, de natura coenae
+                                Domini, data <name type="place">Bonnae</name>
+                                <date>pridie Iohannis Baptismi 1545</date></title>
+                        </head>
+
+                        <ab>Lasco, ed. <ref type="bibl" target="Kuyper 1866b">Kuyper 1866, II 591</ref></ab>
+                        <ab>Also in <ref type="bibl" target="Gorham, Gorham and Bird 1857">Gorham, <hi rend="italic"
+                                    >Gleanings</hi> 156, 30</ref></ab>
+                    </msItem>
+
+                    <msItem n="37" locusStart="106ar" locusEnd="106av">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Peter Martyr</name> to <name type="person">Martin
+                                    Bucer</name>, <date>11 November 1550</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Petri Martyri</name> ad <name type="person">Martinum
+                                    Bucerum</name>, in qua respondet quaestioni sibi propositae, quamdiu existimaret
+                                fidem Christi generalem confusam et implicitam satis fuisse ad hominum salutem; et
+                                suadet ut concors de re sacramentaria fiat confessio ut proposuit <name type="person"
+                                    >Alasco</name> ab eis et <name type="person">Bernhardino</name> subscribenda : data
+                                    <name type="place">Oxoniis</name>
+                                <date>Novembris 11, 1550</date></title>
+                        </head>
+
+
+                        <ab>
+                            <ref type="bibl" target="Gorham, Gorham and Bird 1857">Gorham 196</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="38" locusStart="106br" locusEnd="106ev">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Peter Martyr</name> to <name type="person">Martin
+                                    Bucer</name>, <date>6 September 1550</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Martyri</name> ad eundem, in qua hortatur ut non det se
+                                in disputationem nisi adsint judices idonei; et fuse agit de rebus Oxoniensibus et
+                                Argentinensibus: data <name type="place">Oxoniis</name>
+                                <date>6 Septembris 1550</date></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Gorham, Gorham and Bird 1857">Gorham 176</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="39" locusStart="106fr" locusEnd="106gv">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Peter Martyr</name> to <name type="person">Martin
+                                    Bucer</name>, <date>10 January</date></title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Martyri</name> ad eundem de libro precum communium, et
+                                de <name type="person">Hoppero</name> et <name type="person">Smitheo</name>, data <name
+                                    type="place">Lambethae</name>
+                                <date>10 Januarii</date></title>
+                        </head>
+                        <ab><ref type="bibl" target="Gorham, Gorham and Bird 1857">Gorham 227</ref>; <ref type="bibl"
+                                target="Ascham 1703">Aschami <hi rend="italic">Epistolae</hi>, Oxonie 1703, p.
+                            437</ref></ab>
+                    </msItem>
+
+                    <msItem n="40" locusStart="107" locusEnd="108">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Peter Martyr</name> to <name type="person">Martin
+                                    Bucer</name>, <date>11 June 1550</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Martyri</name> ad eundem, in qua multa de <name
+                                    type="person">Smitheo</name> et libellis ejus, data <name type="place"
+                                    >Oxoniis</name>
+                                <date>11 Junii 1550</date></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Gorham, Gorham and Bird 1857">Gorham 151</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="41" locusStart="109" locusEnd="109">
+
+                        <head type="CCC">
+                            <title>Letter from <name type="author">Richard Smith</name> to <name type="person">Matthew
+                                    Parker</name></title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>Letter from <name type="author">Richard Smith</name> to the <name type="person"
+                                    >archbishop of Canterbury</name>, expressing his sorrow for having written his book
+                                de coelibatu patrum, dated <name type="place">Oxford</name>
+                                <date>December 2</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="42" locusStart="110" locusEnd="110">
+
+                        <head type="CCC">
+                            <title>Letter from <name type="author">Matthew Parker</name> to the lords of the council
+                                concerning <name type="person">Richard Smith</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Letter from <name type="author">Dr. Parker</name> to the lords of the council,
+                                acquainting them that <name type="person">Dr. Smith</name> is ready to acknowledge the
+                                queen's supremacy, dated <name type="place">Lambeth</name>
+                                <date>August 27</date></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Bruce and Perowne 1853"><hi rend="italic">Correspondence</hi>
+                                LVIII</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="43" locusStart="111" locusEnd="118">
+
+                        <head type="CCC">
+                            <title>Letter from <name type="author">Richard Smith</name> to <name type="person">Matthew
+                                    Parker</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Letter from <name type="author">Richard Smith</name>, to <name type="person"
+                                    >archbishop Parker</name>, petitioning to have one of his bondsmen released from his
+                                bond</title>
+                        </head>
+
+                        <ab>
+                            <quote>A marginal note adds that notwithstanding his fair promises he fled to <name
+                                    type="place">Paris</name>, [pp. 115, 116 absent]</quote>
+                        </ab>
+                        <ab>
+                            <supplied>pp. <locus>115</locus>-<locus>116</locus> are blank leaves inserted
+                                later</supplied>
+                        </ab>
+
+
+                        <ab>
+                            <ref type="bibl" target="Bruce and Perowne 1853"><hi rend="italic">Correspondence</hi> p. 73
+                                note</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="44" locusStart="119" locusEnd="120">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Peter Martyr</name> to <name type="person">Martin
+                                    Bucer</name>, <date>31 March 1550</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Petri Martyri</name> ad <name type="person">Martinum
+                                    Bucerum</name>, in qua condolet cum <name type="person">Bucero</name> de adversa
+                                ejus valetudine: data <name type="place">Oxonii</name>
+                                <date>ultima Martii 1550</date></title>
+                        </head>
+
+                        <ab>
+                            <ref type="bibl" target="Gorham, Gorham and Bird 1857">Gorham 140</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="45" locusStart="121" locusEnd="122">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Martin Luther</name> to [unknown], <date>2 December
+                                    1537</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Martini Lutheri</name> ad consules Sculthetas majores
+                                civesque civitatum <name type="place">Helvetiae</name>, in qua respondit et assensum
+                                suum praebet articulis quibusdam sibi missis de concordia in fide stabilienda: data
+                                    <name type="place">Wittembergae</name>
+                                <date>2 Decembris 1537</date></title>
+                        </head>
+
+                        <ab>Copy, ed. <ref type="bibl" target="de Wette 1828">de Wette V 83, no. 1784</ref></ab>
+                        <ab>
+                            <supplied agent="JamesCorrigenda">Ed. <ref type="bibl" target="Enders 1907">Enders 2565 (XI
+                                    294)</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="46" locusStart="123" locusEnd="126">
+
+                        <head type="CCC">
+                            <title>Autograph letter of <name type="author">Martin Luther</name> to <name type="person"
+                                    >Martin Bucer</name>, <date>6 December 1537</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Lutheri</name> ad <name type="person">Bucerum</name> cum
+                                precedente epistola missa, <date>die Sancti Nicholai, 1537</date></title>
+                        </head>
+
+                        <ab>Autograph, ed. <ref type="bibl" target="de Wette 1828">de Wette V 83, no. 1785</ref></ab>
+                    </msItem>
+
+                    <msItem n="47" locusStart="127" locusEnd="130">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Matthias Flacius Illyricus</name> to <name
+                                    type="person">Matthew Parker</name>, <date>22 May 1561</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Matthiae Flaccii Illyrici</name> ad <name type="person"
+                                    >Mattheum Cantuariensem</name> de antiquis ecclesiae monumentis, data <name
+                                    type="place">Jenae</name>
+                                <date>22 Maii, 1561</date></title>
+                        </head>
+
+                        <ab><ref type="bibl" target="Strype 1711">Strype, Parker Appendix 18</ref>: <ref type="bibl"
+                                target="Bruce and Perowne 1853">Correspondence XCIX</ref></ab>
+                    </msItem>
+
+                    <msItem n="48" locusStart="131" locusEnd="132">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Bernhard Schwarz</name> to <name type="person">Matthew
+                                    Parker</name>, <date>30 June 1561</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Bernhardi Nigri</name> ecclesiasticae historiae
+                                collectoris ad eundem, data <name type="place">Londini</name>
+                                <date>30 Junii, 1561</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="49" locusStart="133" locusEnd="134">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Thomas Blaurer</name> to <name type="person">Martin
+                                    Bucer</name>, <date>11 February 1547</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Thomae Blaurerii</name> ad <name type="person"
+                                    >Bucerum</name> de statu rerum Germanicarum, data <name type="place"
+                                    >Constantiae</name>
+                                <date>11 Februarii 1547</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="50" locusStart="135" locusEnd="136">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Johann Sturm</name> to <name type="person">Martin
+                                    Bucer</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Iohannis Sturmii</name> ad eundem, in qua deplorat
+                                mortem protectoris, et adversam <name type="person">Buceri</name> valetudinem, data
+                                    <name type="place">Argentorati</name>
+                                <date>pridie Nativitatis</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="51" locusStart="137" locusEnd="140">
+
+                        <head type="CCC">
+                            <title>Autograph letter of <name type="author">Philipp Melanchthon</name> to <name
+                                    type="person">Martin Bucer</name>, <date>14 November 1547</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Philippi Melanchton</name> ad eundem, in qua orat ut
+                                scripta sua et <name type="person">Calvini</name> et <name type="person">Sturmii</name>
+                                mittat cuidam docto Polono; et quaedam ei narrat ex visione coelesti ????????? deprompta
+                                : data <date>14 Novembris 1547</date></title>
+                        </head>
+                        <ab>Autograph</ab>
+                    </msItem>
+
+                    <msItem n="52" locusStart="141" locusEnd="144">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Johann Sleidan</name> to <name type="person">Martin
+                                    Bucer</name>, <date>20 May 1550</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Sleidani</name> ad eundem de statu rerum
+                                ecclesiasticarum, data <date>20 Maii, 1550</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="53" locusStart="145" locusEnd="150">
+
+                        <head type="CCC">
+                            <title>Autograph letter of <name type="author">Philipp Melanchthon</name> to <name
+                                    type="person">Martin Bucer</name></title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Philippi Melanchton</name> ad eundem de rebus
+                                ecclesiasticis, data <date>4 Augusti</date></title>
+                        </head>
+                        <ab>Autograph</ab>
+                        <ab>
+                            <supplied>pp. <locus>147</locus>-<locus>148</locus> blank</supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="54" locusStart="151" locusEnd="154">
+
+                        <head type="CCC">
+                            <title>Excerpts from <name type="author">Basil</name> in Greek in the hand of <name
+                                    type="author">Philipp Melanchthon</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Excerpta Graeca ex <name type="author">Basilio</name> per <name type="author"
+                                    >Melanchton</name></title>
+                        </head>
+                        <ab>Autograph</ab>
+                    </msItem>
+
+                    <msItem n="55" locusStart="155r" locusEnd="155v">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Martin Luther</name> to the ministers of the church in
+                                    <name type="place">Augsburg</name>, <date>7 August 1536</date>, copied by <name
+                                    type="person">Philipp Melanchthon</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Lutheri</name> ad <name type="place">Augustinae
+                                    ecclesiae</name> ministros, in qua gratulatur eis de concordia inter se stabilita,
+                                data <date>7 Augusti 1536</date></title>
+                        </head>
+                        <ab>Copy by <name type="person">Melanchthon</name>: ed. <ref type="bibl" target="de Wette 1828"
+                                >de Wette V no. 1728</ref></ab>
+                        <ab>
+                            <supplied agent="JamesCorrigenda">Ed. <ref type="bibl" target="Enders 1907">Enders 2425 (XI
+                                    22)</ref></supplied>
+                        </ab>
+
+                        <ab>
+                            <supplied><locus>155v</locus> blank</supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="56" locusStart="156r" locusEnd="156v">
+
+                        <head type="CCC">
+                            <title>Autograph letter of <name type="author">John Calvin</name> to <name type="person"
+                                    >Martin Bucer</name>, <date>1551</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Iohannis Calvin</name> ad <name type="person"
+                                    >Bucerum</name> ejus post mortem reddita, in qua deplorat dissensiones in <name
+                                    type="place">Germania</name> ortas et suadet concordiam praesertim de sacramento:
+                                data <name type="place">Genevae</name>
+                                <date>7 kalendas Martii, 1551</date></title>
+                        </head>
+                        <ab>Autograph. <ref type="bibl" target="Baum, Cunitz and Reuss 1863"><hi rend="italic"
+                                    >Opera</hi> ed. Baum etc. no. 4157</ref>, <ref type="bibl"
+                                target="Gorham, Gorham and Bird 1857">Gorham 235</ref></ab>
+                    </msItem>
+
+                    <msItem n="57" locusStart="157" locusEnd="162">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Johannes Bugenhagen</name> concerning the reformation
+                                of the Danish church, <date>1538</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Iohannis Pomerani</name> de reformatione ecclesiae apud
+                                Danos, data <name type="place">Copenhagen</name>
+                                <date>feria secunda post purificationem, 1538</date></title>
+                        </head>
+
+                        <ab>
+                            <supplied>pp. <locus>161</locus>-<locus>162</locus> blank</supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="58" locusStart="163" locusEnd="164">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Johann Brenz</name> to <name type="person">Martin
+                                    Bucer</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Iohannis Brentii</name> ad <name type="person"
+                                    >Bucerum</name>, in qua gratulatur ei quod salvus in <name type="place"
+                                    >Angliam</name> venisset, et narrat ei statum religionis in <name type="place"
+                                    >Germania</name>, data <date>27 Augusti</date></title>
+                        </head>
+
+                        <ab>
+                            <supplied>Continued on pp. <locus>174a</locus>-<locus>175a</locus></supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="59" locusStart="165" locusEnd="168">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Johann Sleidan</name> to <name type="person">Martin
+                                    Bucer</name>, <date>28 September 1549</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Sleidani</name> ad eundem de re sacramentaria, data
+                                    <name type="place">Bonae</name>
+                                <date>28 Septembris 1549</date></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="60" locusStart="171" locusEnd="172">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Johannes Oecolampadius</name> to <name type="person"
+                                    >Martin Bucer</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Iohannis Oecolampadii</name> ad eundem, data <name
+                                    type="place">Basileae</name>
+                                <date>quarta Paschae</date></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="61" locusStart="169" locusEnd="170">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Ulrich Zwingli</name> to <name type="person">Wolfgang
+                                    Capito</name> and <name type="person">Martin Bucer</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Zuinglii</name> ad <name type="person">Capitonem</name>
+                                et <name type="person">Bucerum</name>, in qua commendat eis juvenem quendam</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="62" locusStart="172a" locusEnd="173a">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Johannes Oecolampadius</name> to <name type="person"
+                                    >Martin Bucer</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Oecolampadii</name> ad <name type="person"
+                                    >Bucerum</name>, dated <name type="place">Basileae</name>
+                                <date>19 Augusti</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="63" locusStart="173" locusEnd="174">
+
+                        <head type="CCC">
+                            <title>Articles of unanimity in faith signed at <name type="place">Karlstadt</name>,
+                                    <date>1539</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Articuli pro consensu et unanimitate in fide a <name type="place">Carlostadio</name>
+                                subscripti A. D. <date>1539</date></title>
+                        </head>
+
+                        <ab>
+                            <supplied>Item 58 continues on pp. <locus>174a</locus>-<locus>175a</locus></supplied>
+                        </ab>
+
+                    </msItem>
+                    <msItem n="64" locusStart="175" locusEnd="176">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Wolfgang Capito</name> to <name type="person">Nicholas
+                                    Heath</name>, <date>1537</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Capitonis</name> ad <name type="person">Nicolaum Hetteum
+                                    (Heath)</name>, data <date>17 kalendas Marti, 1537</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="65" locusStart="177" locusEnd="180">
+
+                        <head type="CCC">
+                            <title>Two letters of <name type="author">Heinrich Bullinger</name> to <name type="person"
+                                    >Martin Bucer</name>, <date>1 September 1537</date> and <date>15 December
+                                    1537</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Duae epistolae <name type="author">Bullingeri</name> ad <name type="person"
+                                    >Bucerum</name>, data <date>1 Septembris</date> et <date>15 Decembris 1537</date>,
+                                in quibus fuse agit de disputatione cum <name type="person">Luthero</name> orta de
+                                sancta coena</title>
+                        </head>
+
+                        <ab>
+                            <supplied>The second letter continues on pp.
+                                <locus>185</locus>-<locus>186</locus></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="66" locusStart="180a" locusEnd="180d">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Heinrich Bullinger</name> and <name type="author"
+                                    >Walther, pastor of Tegernsee</name> to <name type="person">Edmund Grindal</name>
+                                and <name type="person">Robert Horne</name>, <date>10 September 1566</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Bullingeri</name> et <name type="author"
+                                    >Gualtheri</name>
+                                <name type="place">Tigurinae ecclesiae</name> pastorum ad <name type="person">Grindallum
+                                    episcopum Londinensem</name> et <name type="person">Hornum episcopum
+                                    Wintoniensem</name>, data <name type="place">Tiguri</name>
+                                <date>10 Septembris 1566</date>, in qua de multis superstitionibus in ecclesia Anglicana
+                                toleratis queruntur, viz. de signo crucis in baptismo, de genuflexione in sancta coena,
+                                &amp;c.</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="67" locusStart="181" locusEnd="182">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Heinrich Bullinger</name> to <name type="person">Martin
+                                    Bucer</name>, <date>10 January 1536</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Bullingeri</name> ad <name type="person">Bucerum</name>,
+                                data <date>10 Januarii 1536</date>, in qua se excusat quod conventum cum <name
+                                    type="person">Luthero</name> habendum ad stabiliendam concordiam dissuaserit</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="68" locusStart="183" locusEnd="186">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Heinrich Bullinger</name> to <name type="person">Martin
+                                    Bucer</name>, <date>31 August 1549</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Bullingeri</name> ad eundem, in qua inter alia memorat
+                                concordiam inter <name type="person">Calvinum</name> et <name type="place">ecclesiam
+                                    Tigurinam</name> stabilitam: data <name type="place">Tiguri</name>
+                                <date>ultima Augusti 1549</date></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Gorham, Gorham and Bird 1857">Gorham 111 <q>to <name type="person"
+                                        >Dryander</name></q></ref>
+                        </ab>
+
+                        <ab>
+                            <supplied>Item 65 continues on pp. <locus>185</locus>-<locus>186</locus></supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="69" locusStart="187" locusEnd="190">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Wolfgang Musculus</name> and other pastors to <name
+                                    type="person">Martin Bucer</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Wolfgangi Musculi</name> et aliorum pastorum ecclesiae
+                                Gallicanae ad eundem, in qua respondent quibusdam articulis inter se et Anglicanos
+                                theologos controversis</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="70" locusStart="191" locusEnd="198">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Johann Aepinus</name> to <name type="person">Martin
+                                    Bucer</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Ioannis Æpini</name> ad eundem, in qua gratulatur ei
+                                quod tutum hospitium in <name type="place">Anglia</name> reperisset, et multa ei narrat
+                                de statu ecclesiae in <name type="place">Germania</name>, data <name type="place"
+                                    >Hamburgo</name>
+                                <date>29 Julii</date></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="71" locusStart="199" locusEnd="200">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Joachim Vadian</name> to <name type="person">Martin
+                                    Bucer</name>, <date>1536</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">loachimi Vadiani</name> ad eundem, in qua gratulatur ei
+                                quod fama, quae de ejus apostasia pervulgabatur, reperta esset falsa; et narrat quam
+                                sincere ipse cum Lutheranis egerit in libro quem jam erat editurus, data <date>pridie
+                                    Nonas Augusti 1536</date></title>
+                        </head>
+
+                        <ab>
+                            <supplied>The text continues on pp. <locus>205</locus>-<locus>206</locus></supplied>
+                        </ab>
+                    </msItem>
+                    <msItem n="72" locusStart="201" locusEnd="206">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Guillaume Farel</name> to <name type="person">Martin
+                                    Bucer</name>, <date>22 July 1550</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Gulielmi Farelli</name> ad eundem de statu rerum
+                                ecclesiasticarum in <name type="place">Germania</name>, data <name type="place">Neocom. </name>
+                                <date>22 Julii, 1550</date></title>
+                        </head>
+
+
+                        <ab>
+                            <supplied>Continuation of item 71 on pp. <locus>205</locus>-<locus>206</locus></supplied>
+                        </ab>
+
+                    </msItem>
+                    <msItem n="73" locusStart="207" locusEnd="208">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Oswald Myconius</name> to <name type="person">Martin
+                                    Bucer</name>, <date>1549</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Os. Michonii</name> ad eundem, in qua multa de rebus
+                                ecclesiasticis in <name type="place">Germania</name>, data <name type="place"
+                                    >Basileae</name>
+                                <date>Decembris 1549</date></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="74" locusStart="209" locusEnd="211a">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">John Mey</name> to <name type="person">Martin
+                                    Bucer</name>, <date>1546</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Iohannis Mey</name> ad eundem, in qua multa narrat de
+                                disputatione orta de natura sanctae coenae et de moribus flagitiosis cujusdam <name
+                                    type="person">Billici monachi Coloniensis</name>: data <date>kalendis Maii,
+                                    1546</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="75" locusStart="211" locusEnd="212">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Oswald Myconius</name> to <name type="person">Martin
+                                    Bucer</name>, <date>29 May 1550</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Os. Michonii</name> ad eundem, in qua deplorat <name
+                                    type="person">Buceri</name> adversam valetudinem et tristem <name type="place"
+                                    >ecclesiae Argentinensis</name> statum, data <name type="place">Basileae</name>
+                                <date>29 Maii, 1550</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="76" locusStart="213" locusEnd="214">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">George Major</name> to <name type="person">Martin
+                                    Bucer</name>, <date>19 August 1550</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Georgii Majoris</name> ad <name type="person"
+                                    >Bucerum</name> de statu rerum ecclesiasticarum in <name type="place"
+                                    >Germania</name> et de concilio generali <name type="place">Wittembergae</name>,
+                                data <date>19 Augusti 1550</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="77" locusStart="215" locusEnd="218">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Alexander Ales</name> to <name type="person">Martin
+                                    Bucer</name>, <date>1550</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Alexandri Alesii</name> ad eundem, in qua orat ut
+                                stipendium sibi ab archiepiscopo promissum solvendum curet, et multa narrat de bello
+                                    <name type="place">Magdeburgensi</name> et caeteris rebus Germanicis, data
+                                    <date>kalendis Septembri 1550</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="78" locusStart="219" locusEnd="220">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Johann Clarenbach</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola Iohannis Clarebachii ad — —, in qua liberalitatem ejus implorat</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="79" locusStart="221" locusEnd="222">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Valentin Paceus</name> to <name type="person">Martin
+                                    Bucer</name>, <date>1550</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Valentini Pacei</name> ad <name type="person"
+                                    >Bucerum</name> de statu rerum ecclesiasticarum, data <name type="place"
+                                    >Lipsii</name>
+                                <date>post. Oculi 1550</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="80" locusStart="223" locusEnd="224">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Johannes Pretorius</name> to <name type="person">Martin
+                                    Bucer</name>, <date>22 November 1550</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Iohannis Pretorii</name> ad eundem, in qua orat ut
+                                quaedam scriberet de strage <name type="place">Argentina</name>, et ipse multa de rebus
+                                    <name type="place">Magdeburgensibus</name> narrat, data <name type="place"
+                                    >Stolbergae</name>
+                                <date>22 Novembris 1550</date></title>
+
+                        </head>
+
+                        <ab>
+                            <supplied>Text continues on pp. <locus>231</locus>-<locus>232</locus></supplied>
+                        </ab>
+
+                    </msItem>
+                    <msItem n="81" locusStart="225" locusEnd="232">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Johann Marbach</name> to <name type="person">Martin
+                                    Bucer</name>, <date>25 December 1549</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Iohannis Marbachii</name> ad eundem de rebus <name
+                                    type="place">Argentinensibus</name>, data <name type="place">Argentinae</name>
+                                <date>25 Decembris 1549</date></title>
+                        </head>
+
+                        <ab>
+                            <supplied>Continuation of item 80 on pp. <locus>231</locus>-<locus>232</locus></supplied>
+                        </ab>
+
+                    </msItem>
+                    <msItem n="82" locusStart="233" locusEnd="234">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Sebastian Italus</name> to <name type="person">Matthew
+                                    Parker</name>, <date>16 January 1566</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Sebastiani Itali</name> ad <name type="person">Mattheum
+                                    Parker</name> archiepiscopum Cantuariensem, in qua orat ut ejus inopiae subveniat,
+                                data <name type="place">Londini</name>
+                                <date>16 Januarii 1566</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="83" locusStart="235" locusEnd="236">
+
+                        <head type="CCC">
+                            <title>Letter of the pastors of the church of <name type="place">Sandwich</name> to <name
+                                    type="person">Matthew Parker</name>, <date>9 January 1566</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola pastorum ecclesiae <name type="place">Sandvicensis</name> ad eundem, in qua
+                                maximas ei agunt gratias, quod illius cura et autoritate concordia in sua ecclesia jam
+                                esset stabilita, data <date>9 Januarii 1566</date></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Bruce and Perowne 1853">Correspondence, p. 247 note</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="84" locusStart="237" locusEnd="240">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Wilhelm Klebitz</name> to <name type="person">Matthew
+                                    Parker</name>, <date>20 July 1562</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Wilhelmi Klebitzii</name> ad eundem, in qua magnopere
+                                orat ut librum suum jam excussum et quorundam autoritate suppressum in lucem emittere
+                                permittatur, data <name type="place">Wigorniae</name>
+                                <date>20 Julii, 1562</date></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="85" locusStart="241" locusEnd="242">
+
+                        <head type="CCC">
+                            <title>Terms of the reconciliation within the church at <name type="place">Sandwich</name>
+                                signed by the minister and elders, <date>January 1566 ?</date></title>
+                        </head>
+
+
+
+                        <head type="Nasmith">
+                            <title>Forma pacificationis ecclesiae <name type="place">Sandwicensis</name> a ministris et
+                                senioribus subscripta</title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Bruce and Perowne 1853"><hi rend="italic">Correspondence</hi>, p.
+                                247 note</ref>
+                        </ab>
+
+                        <ab>
+                            <supplied>p. <locus>242</locus> blank</supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="86" locusStart="242a" locusEnd="244">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Rudolph Walther</name> to <name type="person">John
+                                    Whitgift</name>, <date>24 February 1573</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Rodolphi Gualtheri</name> ad <name type="person"
+                                    >doctorem Uuitgiftum</name>
+                                <name type="place">collegii Trinitatis</name> praepositum, in qua gratias ei agit pro
+                                beneficiis in filium collatis, data <name type="place">Tiguri</name>
+                                <date>24 Februarii 1573</date></title>
+                        </head>
+
+                        <ab>
+                            <supplied>pp. <locus>243</locus>-<locus>244</locus> relate to item 82</supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="87" locusStart="244a" locusEnd="244d">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Anthony Rodolph le Chevalier</name> to Archbishop <name
+                                    type="person">Matthew Parker</name>, <date>September 1569</date></title>
+                        </head>
+
+
+
+                        <head type="Nasmith">
+                            <title>Literae <name type="author">Roberti Cevallerii</name> ad <name type="person">M.
+                                    Parker</name> archiepiscopum Cantuariensem, data <name type="place"
+                                    >Cantabrigiae</name>
+                                <date>5 Sept. 1569</date></title>
+                        </head>
+
+                        <ab>
+                            <ref type="bibl" target="Bruce and Perowne 1853"><hi rend="italic">Correspondence</hi>, p.
+                                349 note</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="88" locusStart="245" locusEnd="246">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Christopher Stael</name> to <name type="person">Martin
+                                    Bucer</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Christophori Stael</name> ad <name type="person"
+                                    >Bucerum</name>, de causa <name type="person">Philippi</name> et <name type="person"
+                                    >Æpini</name> tum in aula pendente</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="89" locusStart="247" locusEnd="250">
+
+                        <head type="CCC">
+                            <title>Letter from the pastors of the church in <name type="place">Strasbourg</name> to
+                                    <name type="person">Martin Bucer</name>, <name type="person">Peter Martyr</name> and
+                                    <name type="person">Paul Fagius</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola pastorum <name type="place">ecclesiae Argentorati</name> ad eundem, <name
+                                    type="person">Petrum Martyrum</name> et <name type="person">Paulum Fagium</name>, in
+                                qua gratulatur eis quod in regnum vera religione florentissimum pervenissent, et omnia
+                                fausta et felicia eis exoptant et precantur</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="90" locusStart="251" locusEnd="252">
+
+                        <head type="CCC">
+                            <title>Letter from <name type="author">Conrad Hubert</name> to <name type="person">A.F.
+                                    [i.e. Martin Bucer]</name> and <name type="person">Paul Fagius</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Conradi Huthberti</name> ad <name type="person">A.
+                                    F.</name> et <name type="person">P. F.</name> de rebus in <name type="place"
+                                    >Germania</name> transactis post eorum inde decessum, data <name type="place"
+                                    >Rocassii</name>(?) <date>2 Septembris</date></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="91" locusStart="253" locusEnd="254">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Immanuel Tremellius</name> to <name type="person"
+                                    >Matthew Parker</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Immanuelis Tremellii</name> ad <name type="person"
+                                    >Mattheum Parkerum</name>, data <name type="place">Londini</name>
+                                <date>29 Junii</date></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Bruce and Perowne 1853"><hi rend="italic">Correspondence</hi> CCXLI
+                                note</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="92" locusStart="255" locusEnd="256">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Martin Faber</name> to <name type="person">Martin
+                                    Bucer</name></title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Martini Fabri</name> ad <name type="person"
+                                    >Bucerum</name>, in qua enarrat colloquium cum <name type="person">domino
+                                    Alasco</name> habitum de sacramento, data <name type="place">Londini</name>
+                                <date>die Pentecostes</date></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Gorham, Gorham and Bird 1857">Gorham 148</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="93" locusStart="257" locusEnd="258">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Johann Gropper</name> to <name type="person">Martin
+                                    Bucer</name>, <date>8 August 1542</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Iohannis Gropperi</name> ad eundem, in qua se excusat
+                                quod minus frequenter scripserit, et calamitosum religionis statum deplorat, data <name
+                                    type="place">Coloniae</name>
+                                <date>8 Augusti 1542</date></title>
+                        </head>
+
+                        <ab>
+                            <supplied>Text continues at pp. <locus>265</locus>-<locus>266</locus></supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="94" locusStart="259" locusEnd="262">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Francisco de Enzinas</name> to <name type="person"
+                                    >Martin Bucer</name>, <date>15 January 1550</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Dryandri</name> ad eundem, in qua narrat sinistros
+                                quosdam rumores de <name type="person">Bucero</name> per <name type="place"
+                                    >Germaniam</name> sparsos, et orat ut se et familiam suam magistratui commendet,
+                                data <name type="place">Basileae</name>
+                                <date>15 Januarii 1550</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="95" locusStart="263" locusEnd="266">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="person">Johannes Sapidus</name> to <name type="person">Martin
+                                    Bucer</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Johanni Sapidi</name> ad eundem, in qua absentiam ejus
+                                deplorat</title>
+                        </head>
+
+                        <ab>
+                            <supplied>Item 93 continues on pp. <locus>265</locus>-<locus>266</locus></supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="96" locusStart="267" locusEnd="268">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Georg Witzel</name> to <name type="person">Martin
+                                    Bucer</name>, <date>18 December 1538</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Georgii Vincelii</name> ad eundem, in qua orat ne eum
+                                quem uxor patronum indicavit, adversarium sentiat: data <name type="place"
+                                    >Lipsiae</name>
+                                <date>18 Decembris 1538</date></title>
+                        </head>
+
+                        <ab>
+                            <supplied>Text continues on pp. <locus>277</locus>-<locus>278</locus></supplied>
+                        </ab>
+
+                    </msItem>
+                    <msItem n="97" locusStart="269" locusEnd="270">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Jacob Uttenhove</name> to <name type="person">Martin
+                                    Bucer</name>, <date>27 January 1549</date></title>
+                        </head>
+
+
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Iohannis Uttenhovii</name> [ad <name type="person"
+                                    >Bucerum</name>,] in qua commendat ei quendam pauperem scholarem vana spe a
+                                papisticis allectum posteaque desertum, et narrat missam in aliqua templa in <name
+                                    type="place">Gallia</name> esse introductam, data <name type="place">Londini</name>
+                                <date>27 Januarii 1549</date></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="98" locusStart="271" locusEnd="272">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Albert Hardenberg</name> to <name type="person">Martin
+                                    Bucer</name>, <date>7 September 1550</date></title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Alberti Hardingbergii</name> ad eundem, in qua narrat se
+                                eo die a <name type="place">Londino</name>
+                                <name type="place">Saxoniam</name> versus iter esse arrepturum, eumque orat ut scripta
+                                quaedam sua ei mittat, quorum ope provinciam sibi mandatam in epistolas Paulinas
+                                praelegendi facilius impleat, data <name type="place">Lambethae</name>
+                                <date>7 Septembris 1550</date></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="99" locusStart="273" locusEnd="278">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Johannes Fontanus</name> to <name type="person">Martin
+                                    Bucer</name>, <date>21 March 1550</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Fontani</name> ad eundem de statu ecclesiae et scholae
+                                    <name type="place">Argentinensis</name>, data <date>21 Martii, 1550</date></title>
+                        </head>
+
+                        <ab>
+                            <supplied>pp. <locus>275</locus>-<locus>276</locus> are associated with item 97</supplied>
+                        </ab>
+
+                        <ab>
+                            <supplied>item 96 continues on pp. <locus>277</locus>-<locus>278</locus></supplied>
+                        </ab>
+
+
+                    </msItem>
+                    <msItem n="100" locusStart="279" locusEnd="282">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Martin Bucer</name> to <name type="person">Johann
+                                    Echt</name>, <date>13 May 1550</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Buceri</name> ad <name type="person">Iohannem Echtium
+                                    Colonensem medicum</name> in qua narrat ei morbos quibus vexabatur, et petit
+                                consilium ejus de remediis contra eos adhibendis, data <name type="place"
+                                    >Cantabrigiae</name>
+                                <date>13 Maii, 1550</date></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Gorham, Gorham and Bird 1857">Gorham 145, Extract</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="101" locusStart="283" locusEnd="296">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Johann Echt</name> to <name type="person">Martin
+                                    Bucer</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Responsio ut videtur <name type="author">Echtii</name></title>
+                        </head>
+
+                        <ab>
+                            <supplied>pp. <locus>293</locus>-<locus>295</locus> blank</supplied>
+                        </ab>
+
+                    </msItem>
+                    <msItem n="102" locusStart="297" locusEnd="298">
+
+                        <head type="CCC">
+
+                            <title>Two letters of <name type="author">Andrener</name> to <name type="person">Martin
+                                    Bucer</name></title>
+
+                        </head>
+
+                        <!-- check name -->
+                        <head type="Nasmith">
+                            <title>Duae epistolae <name type="author">Andreneri</name> (?) ad <name type="person"
+                                    >Bucerum</name>, datae <date>kalendis Septembribus</date> et <date>23
+                                    Decembris</date> in quibus nonnulla remedia ad adversam valetudinem minuendam
+                                adhibenda suadet, et quaedam narrat de rebus Germanicis</title>
+                        </head>
+
+                        <ab>
+                            <supplied>Text continues on pp. <locus>305</locus>-<locus>306</locus></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="103" locusStart="299" locusEnd="302">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Nicholas Cisner</name> to <name type="person">Martin
+                                    Bucer</name>, <date>1550</date></title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Nicholai Chisneri</name> ad eundem, in qua varias <name
+                                    type="place">ecclesiae Germanicae</name> calamitates enarrat, data <name
+                                    type="place">Heidelberge</name>
+                                <date>Nonis Augustis 1550</date></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="104" locusStart="303" locusEnd="306">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Peter Alexander</name> to <name type="person">Martin
+                                    Bucer</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Petri Alexandri</name> ad eundem, data <name
+                                    type="place">Lambethae</name>
+                                <date>7 Februarii</date></title>
+                        </head>
+
+                        <ab>
+                            <supplied>Item 102 continues on pp. <locus>305</locus>-<locus>306</locus></supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="105" locusStart="307" locusEnd="310">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Eustache du Quesnoy</name> to <name type="person"
+                                    >Valerianus Pullus</name>
+                            </title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Eustachii Quercetani</name> ad <name type="person"
+                                    >Valerianum Pullum</name>; in qua dicit se videre multa mala civitati <name
+                                    type="place">Genevae</name> impendentia, et orat ut aliquod munus scholasticum sibi
+                                apud eum assignetur, data <name type="place">Genevae</name>
+                                <date>kalendis Septembribus</date></title>
+                        </head>
+
+
+
+                    </msItem>
+
+                    <msItem n="106" locusStart="311" locusEnd="312">
+
+                        <head type="CCC">
+                            <name type="person">Pope Julius III</name>, <title>Bull 'Cum ad tollenda'</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Intimatio concilii futuri apud <name type="place">Tridentem</name> per <name
+                                    type="person">Julium papam</name></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="107" locusStart="313" locusEnd="314">
+
+                        <head type="CCC">
+                            <title>Letter to <name type="person">Martin Bucer</name>, offering him advice concerning his
+                                health, <date>23 December 1549</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola — — ad <name type="person">Aretium Felinum [Bucerum</name>,] in qua dat ei
+                                consilium de valetudine curanda, data <date>23 Decembris 1549</date></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="108" locusStart="315" locusEnd="316">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Isaac Cellarius</name> to <name type="person">Martin
+                                    Bucer</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Isaaci Cellarii</name> ad <name type="person"
+                                    >Bucerum</name>, in qua valde dolet se fuisse demissum a <name type="person"
+                                    >Bucero</name> falso metu percusso ne invitis parentibus matrimonium contraheret,
+                                data <name type="place">Argentinae</name>
+                                <date>19 Junii</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="109" locusStart="317" locusEnd="320">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">John Warner</name> to <name type="person">Peter
+                                    Martyr</name> concerning the health of <name type="person">Martin
+                                Bucer</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Iohannis Warneri</name> ad <name type="person">Petrum
+                                    Martyrum</name> de infirma <name type="person">Buceri</name> valetudine et remediis
+                                ei adhibendis</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="110" locusStart="321" locusEnd="324">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Nicholas Cisner</name> to <name type="person">Martin
+                                    Bucer</name>, <date>1550</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Nicholai Chisneri</name> ad <name type="person"
+                                    >Bucerum</name>, in qua condolet cum eo de adversa ejus valetudine et narrat quae
+                                sibi <name type="place">Heidelburgae</name> acciderant, data <name type="place"
+                                    >Argentorati</name>
+                                <date>7 Idus Apriles 1550</date></title>
+                        </head>
+
+                        <ab>
+                            <supplied> pp. <locus>323</locus>-<locus>324</locus> are blank except for an address
+                            </supplied>
+                        </ab>
+
+
+                    </msItem>
+                    <msItem n="111" locusStart="325" locusEnd="326">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Lixobater Balbus</name> to <name type="person">Martin
+                                    Bucer</name>, <date>22 March 1550</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="person">Lixabatii Balbi medici</name> ad eundem, in qua narrat
+                                statum religionis in <name type="place">Germania</name>, data <date>22 Martii,
+                                    1550</date></title>
+                        </head>
+                        <ab>
+                            <quote>[The signature is <name type="person">Lixobater ... balbus</name>]</quote>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="112" locusStart="327" locusEnd="330">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Sebald Havenreuter</name> to <name type="person">Martin
+                                    Bucer</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Sebaldi Hansengenteri</name> [apparently written
+                                Hauenren terg] ad eundem, data <date>kalendis Septembribus</date> in qua mittit ei
+                                consilium de valetudine curanda</title>
+                        </head>
+
+
+
+                    </msItem>
+
+                    <msItem n="113" locusStart="331" locusEnd="332">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Johann Sleidan</name> to <name type="person">Giordano
+                                    Bruno</name> concerning affairs in <name type="place">Germany</name> and the future
+                                church council</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola — — ad <name type="person">doctorem Brunonem</name>, partim Germanice partim
+                                Latine scripta de rebus Germanicis et concilio futuro</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="114" locusStart="333" locusEnd="334">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Remy Guedon</name> to <name type="person">Martin
+                                    Bucer</name>, <date>5 April 1550</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Remigii Guedonis</name> typographi ad <name
+                                    type="person">Bucerum</name>, in qua petit consilium de sua in <name type="place"
+                                    >Angliam</name> migratione, data <name type="place">Frankofordiae</name>
+                                <date>5 Aprilis 1550</date></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="115" locusStart="335" locusEnd="336">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Theobald Schwarz</name> to <name type="person">Martin
+                                    Bucer</name> and <name type="person">Paul Fagius</name>, <date>11 September
+                                    1549</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Theobaldi Nigri</name> ad <name type="person"
+                                    >Bucerum</name> et <name type="person">Fagium</name>, data <date>11 Septembris
+                                    1549</date>, in qua multa de suis et amicorum rebus domesticis</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="116" locusStart="337" locusEnd="340">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Christopher Bol (Soell?)</name>, son-in-law of <name
+                                    type="person">Martin Bucer</name>, to his father-in-law, <date>5 May
+                                1550</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Christophori Bol</name> generi <name type="person"
+                                    >Buceri</name> ad socerum, in qua narrat conditionem <name type="place">ecclesiae
+                                    Argentoratensis</name>, data <name type="place">Argentorati</name>
+                                <date>5 Maii, 1550</date></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="117" locusStart="341" locusEnd="346">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Cornelius</name>, his former servant, to <name
+                                    type="person">Martin Bucer</name>, <date>1549</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Cornelii</name> quondam famuli <name type="person"
+                                    >Buceri</name> ad eundem de statu ecclesiae, data <date>5 kalendas Septembri
+                                    1549</date></title>
+                        </head>
+
+
+                    </msItem>
+                    <msItem n="118" locusStart="347" locusEnd="348">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author"> Johann Uttenhove </name> to <name type="person">Martin
+                                    Bucer</name>, <date>January 1549</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Ioannis Utenhovii</name> ad eundem, in qua ei commendat
+                                quendam scholarem, data <name type="place">Londini</name>
+                                <date>Januario 1549</date></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="119" locusStart="349" locusEnd="350">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Peter Medmann</name> to <name type="person">Martin
+                                    Bucer</name>, <date>9 April 1550</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Petri Embdensis</name> ad eundem, in qua queritur quod
+                                nullas a <name type="person">Bucero</name> acceperit epistolas, data <name type="place"
+                                    >Embdae</name>
+                                <date>9 Aprilis 1550</date></title>
+                        </head>
+
+                        <!-- check name -->
+                    </msItem>
+
+                    <msItem n="120" locusStart="351" locusEnd="358">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Caspar Hedio</name> to <name type="person">Martin
+                                    Bucer</name>, <date>10 September 1549</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Caspari Hedionis</name> ad eundem, in qua suum amorem
+                                testatur erga <name type="person">Bucerum</name>, et multa ei narrat de rebus privatis
+                                et publicis, data <date>10 Septembris 1549</date></title>
+                        </head>
+
+
+
+                    </msItem>
+
+                    <msItem n="121" locusStart="359" locusEnd="360">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Caspar Schwenckfeld</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola Germanica <name type="author">Caspari Schwenckfeld</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="122" locusStart="361" locusEnd="362v">
+
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Simon Wilhelm Martius</name> to <name type="person"
+                                    >Martin Bucer</name>, <date>1550</date></title>
+                        </head>
+
+                        <!-- check name -->
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Simonis Wilhelmi Martii</name> ad <name type="person"
+                                    >Bucerum</name>, in qua Anglos in advenas et peregrines natura feroces et severos
+                                esse dicit, orat itaque <name type="person">Bucerum</name> ut commendet eum dominae
+                                    <name type="person">Elizabethae regis</name> sorori, data <name type="place"
+                                    >Londini</name>
+                                <date>4 kalendas Octobres 1550</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="123" locusStart="363" locusEnd="366">
+
+                        <head type="CCC">
+                            <title>Letter from <name type="author">Conrad Hubert</name> to <name type="person">Martin
+                                    Bucer</name>, <date>22 December 1549</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Conradi Huberti</name> ad eundem de multis rebus ad
+                                    <name type="person">Bucerum</name> et amicos pertinentibus, data <name type="place"
+                                    >Argentorati</name>
+                                <date>22 Decembris 1549</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="124" locusStart="366a" locusEnd="368">
+
+                        <head type="CCC"><name type="author">Thomas Gray</name>, <title>Scala Chronica
+                            (preface)</title></head>
+
+                        <head type="Nasmith">
+                            <title>Preface to <name type="author">Thomas Gray</name>'s Scala Chronica</title>
+                        </head>
+                        <incipit locusNew="366a">He y<abbr rend="superscript">t</abbr> hath delight or vvowd
+                            knowe</incipit>
+                        <ab>
+                            <supplied agent="JamesCorrigenda">Cf. <ref type="ms" target="CCC133">MS 133.
+                                2</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="125" locusStart="369" locusEnd="370">
+
+                        <head type="CCC">
+                            <title>Letter from <name type="author">Boniface Wolfard</name> to <name type="person">Marcus
+                                    Frecht</name>, <date>1534</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Bonifacii Wuolfard</name> ad <name type="person">Marcum
+                                    Frechtum</name>, in qua <name type="person">Swenfeldum (Schwenckfeld)</name>
+                                hereseos accusatum defendit, data <date>pridie kalendas Maias, 1534</date></title>
+                        </head>
+
+                    </msItem>
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA CF</p>
+                            <p>msCheck: NJC and SP</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

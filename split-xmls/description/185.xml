@@ -1,0 +1,107 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC185">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>185</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Misc. 16</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Martin Bucer, Consilium theologicum</head>
+                <head type="James">M. Bucer</head>
+                <p function="Codicology"><material>Paper (1st and last leaves vellum)</material>, <measureGrp type="CCC">
+                        <height unit="mm">282</height>
+                        <width unit="mm">204</width>
+                    </measureGrp><measureGrp type="James">11.1 x 8</measureGrp>, <extent>ff. 86</extent>. Cent.
+                        <origDate>xvi</origDate>, <handNote>neatly written</handNote>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + pp. 1-172 + ff. iii-iv</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1" locusEnd="172">
+                        <head type="CCC"><name type="author">Martin Bucer</name>, <title>Consilium
+                            theologicum</title></head>
+
+                        <ab rend="beforeContents">Various notes on p. <locus>1</locus>, pp.
+                                <locus>2</locus>-<locus>8</locus> blank</ab>
+                        <ab rend="beforeContents">Title and mottoes on p. <locus>9</locus>. Table, pp.
+                                <locus>10</locus>-<locus>14</locus></ab>
+                        <ab rend="beforeContents">Text begins</ab>
+                        <incipit locus="15">Christi menbrum haberi nobis debet quicunque invocat nomen Ihesu</incipit>
+                        <ab>In 802 numbered paragraphs ending</ab>
+                        <explicit locus="149">Anno <date>1541 descripta mense maio</date></explicit>
+                        <rubric locus="151">Summa sententiae <name type="author">augustini</name> de ratione
+                            communicationis cum malis</rubric>
+                        <ab>pp. <locus>157</locus>-<locus>169</locus> blank</ab>
+                        <ab>On pp. <locus>170</locus>-<locus>172</locus> are various notes</ab>
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJC</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

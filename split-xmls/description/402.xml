@@ -1,0 +1,155 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+
+                <msIdentifier xml:id="CCC402">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>402</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>S. 15</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>274</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Ancrene Wisse</head>
+                <head type="James">Ancrene Wisse</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">210</height>
+                        <width unit="mm">150</width>
+                    </measureGrp><measureGrp type="James">8.4 x 6</measureGrp>, <extent>ff. 4 + 118</extent>, <layout>28
+                        lines to a page</layout>. Cent. <origDate>xiii</origDate>, <handNote>in a very fine clear
+                        hand</handNote>.</p>
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num> b<num>2</num> 1<num>10</num> 2<num>8</num>
+                        3<num>10</num>-12<num>10</num></collation>.</p>
+                <p function="Provenance">From <name type="place">Wigmore</name> (<name type="place"
+                    >Herefordshire</name>).<lb/> At bottom of f. <locus>1r</locus> (<origDate>xiii</origDate>):<lb/>
+                    Liber ecclesie <name type="place">S. Jacobi de Wygemore</name>. quem <name type="person">Johannes
+                        Purcel</name> dedit eidem ecclesie ad instanciam fratris <name type="person">Walteri de
+                        Lodel(awe?)</name> senioris tunc precentoris. Siquis dictum librum alienauerit a predicta
+                    ecclesia. uel titulum hunc maliciose deleuerit anathema. Amen. fiat (thrice). Amen. </p>
+
+                <p function="Additions">f. <locus>ir</locus> pasted over has remains of writing.<lb/> f.
+                        <locus>iiv</locus>. Title and notes on forms of English (<origDate>xvi</origDate>).<lb/> ff.
+                        <locus>iiir</locus>-<locus>ivv</locus>. Part of the text transcribed into modern English
+                        (<origDate>xvi</origDate>).<lb/>
+                    <locus locusNew="1r">1</locus>. Headed (<origDate>xvi</origDate>) <hi rend="italic">Liber
+                        octauus</hi>, the book having been formerly reckoned by <name type="person">Parker</name> as the
+                    eighth volume of his collection of Anglo-Saxon Homilies.</p>
+
+                <p function="Research">This copy is mentioned in the <ref type="bibl" target="Morton 1853">Camden
+                        Society edition of the <hi rend="italic">Ancren Riwle</hi> (by J. Morton, 1853, p. vi)</ref> but
+                    is not used for the constitution of the text: an extract given by <ref type="bibl"
+                        target="Wanley 1705">Wanley (p. 149)</ref> is reprinted at p. xxiii.<lb/> The most original
+                    text, in a different dialect, seems to be the imperfect copy at <ref type="ms" target="CGC234"
+                        >Gonville and Caius (no. 234)</ref>.<lb/> The C. C. C. MS. has been transcribed for the Early
+                    English Text Society<!-- (this material never seems to have been published)-->; specimens (from this
+                    transcript) are given in <ref type="bibl" target="Heuser 1907"><hi rend="italic">Anglia</hi> 1907,
+                        p. 103 etc. by Dr Heuser</ref>. In the <ref type="bibl" target="Napier 1909"><hi rend="italic"
+                            >Modern Language Review</hi> (July 1909) Professor A. S. Napier</ref> deals with Dr Heuser's
+                    article, and shows that certain prayers were copied from this MS. and archaic forms designedly
+                    introduced into them, by <name type="person">W. L'isle</name>. His copy is in the <ref type="ms"
+                        target="OBL852">Bodleian MS. Laud. Misc. 201</ref>.</p>
+
+
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-iv + 1-118 + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="enm" otherLangs="lat">Middle English and Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="118v">
+                        <head type="CCC">
+                            <title>Ancrene Wisse</title>
+                        </head>
+                        <head type="James">
+                            <title>Ancrene Wisse</title>
+                        </head>
+                        <rubric locus="1r">I &#254;e faderes and i &#254;e sunes and i &#254;e hali gastes
+                            nome her beginne&#240; ancrene &#447;isse</rubric>
+                        <incipit locusNew="1r">Recti diligunt te. In canticis sponsa ad sponsum. Est rectum grammaticum,
+                            etc.</incipit>
+                        <incipit locusNew="1r">Lauerd sei&#240; godes spuse to hire deorewer&#240;e
+                            spus</incipit>
+                        <ab><handNote>The <hi rend="italic">we</hi> re-written with modern <hi rend="italic">w</hi> by
+                                hand of cent. <origDate>xv (?)</origDate></handNote>. This has been done in several
+                            places</ab>
+                        <ab>Ends</ab>
+
+                        <explicit locusNew="117v">Ase ofte as &#541;e habbe&#240; ired ea&#447;iht her on
+                            grete&#240; &#254;e leafdi &#447;i&#240; an aue for him &#254;et
+                            s&#447;onc her abuten Inoh mea&#240;ful ich am &#254;e bidde se lutel</explicit>
+                        <rubric locusNew="117v">Explicit. &#254;ench o &#254;i &#447;ritere i &#254;ine
+                            beoden sum chearre ne beo hit ne se lutel. hit turne&#240; &#254;e to gode
+                            &#254;et tu bidest for o&#254;re</rubric>
+                        <ab>f. <locus>118v</locus> blank</ab>
+
+                    </msItem>
+
+                </msContents>
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text:copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, SP, BA, CF</p>
+                            <p>msCheck: NJM 18.6.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,133 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC204">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>204</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Lib. ab Al. 4</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>376</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Stephen Langton, Commentaries on Isaiah, Kings, Chronicles and Maccabees</head>
+
+                <head type="James">Stephanus Langton super aliquos libros Veteris Testamenti</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">330</height>
+                        <width unit="mm">225</width>
+                    </measureGrp><measureGrp type="James">13 x 9</measureGrp>, <extent>ff. 134</extent>, <layout>double
+                        columns of 46 lines</layout>. Cent. <origDate>xiii</origDate>, <handNote>very well written in
+                        three hands at least</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>10</num>-4<num>10</num> 5<num>12</num> | 6<num>8</num> 7<num>8</num> 8<num>10</num>
+                            9<num>10</num> 10<num>8</num> 11<num>8</num> (+1) | 12<num>8</num> 13<num>8</num>
+                            14<num>12</num> (wants 12)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>aqua bonus prelatus</secFol>.</p>
+
+
+                <p>At top of f. <locus>1r</locus> a mark of cent. <origDate>xiv</origDate>: <q><name type="author"
+                            >Steph. archiep.</name> super ysaiam et super libr. Regum et super Paralipomenon et super
+                        libr. Machabeorum. E. J.</q></p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-132 + iii-iv</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="132v">
+
+                        <head type="CCC"><name type="author" key="StLa01">Stephen Langton</name>, <title>Commentaries on
+                                Isaiah, Kings, Chronicles and Maccabees</title></head>
+
+                        <head type="James">
+                            <name type="author" key="StLa01">Stephanus Langton</name>
+                            <title>super aliquos libros Veteris Testamenti</title>
+                        </head>
+
+                        <ab locus="1r">Super <name type="person">Isaiam</name></ab>
+                        <incipit locusNew="1r"><name type="person">Ysaias</name> filius <name type="person">amos</name>
+                            salus domini</incipit>
+                        <explicit locus="52v">ego scio dicit dominus</explicit>
+                        <rubric locus="52v">Explicit liber <name type="person">Ysaie</name></rubric>
+                        <ab locus="53r">Super Regum</ab>
+                        <incipit locusNew="53r">Timet diabolus cum uidit mentem</incipit>
+                        <explicit locus="99r">in die nouissimo</explicit>
+                        <rubric locus="99r">Explicit moralitas Regum</rubric>
+                        <rubric locus="99r">Incipit moralitas libri Paralipomenon</rubric>
+                        <incipit locusNew="99r">Liber iste grece dicitur paralipomenon</incipit>
+                        <explicit locus="105r">dicta sunt a peccante</explicit>
+                        <rubric locusNew="105r">Explicit</rubric>
+                        <ab><locus>105v</locus> blank</ab>
+                        <ab locus="106r">Super Machabeorum</ab>
+                        <incipit locusNew="106r">Residuum eruce comedat locusta</incipit>
+                        <explicit locus="132v">auidius summitur</explicit>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, BA, CF</p>
+                            <p>msCheck: NJC 6.3.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

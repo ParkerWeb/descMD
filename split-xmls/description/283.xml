@@ -1,0 +1,153 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+
+                <msIdentifier xml:id="CCC283">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>283</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>N. 20</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>188</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Giles of Rome OESA, De regimine principum</head>
+
+                <head type="James">Egidius Romanus</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">260</height>
+                        <width unit="mm">185</width>
+                    </measureGrp><measureGrp type="James">10.3 x 7.2</measureGrp>, <extent>ff. 5 + 161</extent>,
+                        <layout>double columns of 40 lines</layout>. Cent. <origDate>xv</origDate>, <handNote>in a clear
+                        narrow sloping hand, for the most part</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>5 flyleaves, 1<num>12</num>-13<num>12</num> 14<num>6</num> (wants 6)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>nam licet</secFol>.</p>
+
+                <p function="Provenance">On f. <locus>iv</locus> upper L. corner the name <q>
+                        <name type="person">tesedale</name>
+                    </q> in a frame.<lb/> In the centre a monogram ? <q>DER</q>.<lb/> Below, an erasure of two lines:
+                        <q>liber II / de dono fratris henr. ... cuius anime propicietur deus</q>.<lb/> Perhaps from
+                        <name type="place">Norwich</name>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-v + 1-161 + c-d</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="161r">
+
+                        <head type="CCC"><name type="author">Giles of Rome OESA</name>, <title>De regimine
+                                principum</title></head>
+
+                        <head type="James">
+                            <title>
+                                <name type="author">Egidius Romanus</name>
+                            </title>
+                        </head>
+
+                        <rubric locus="1r">Incipit liber de regimine principum editus a fratre <name type="person"
+                                >Egidio romano</name> ordinis fratrum heremitarum Sancti Augustini</rubric>
+
+                        <incipit locusNew="1r">Ex regia ac sanctissima prosapia</incipit>
+                        <ab locusNew="1r">
+                            <decoNote>Handsome initial and partial border with figure of a friar in black and white (?),
+                                kneeling with book</decoNote>
+                        </ab>
+                        <ab>Hand changes at f. <locus>145r</locus></ab>
+                        <ab locusNew="149r">Liber III, part 3 ends</ab>
+                        <explicit locus="149r">quam deus ipse suis promisit fidelibus qui est benedictus in secula
+                            seculorum. Amen</explicit>
+                        <rubric locusNew="149r">Explicit liber <supplied>de regimine principum editus a fratre Egidio
+                                romano ordinis fratrum heremitarum Sancti</supplied> augustini</rubric>
+                        <ab locus="149v">Tabula</ab>
+                        <ab>On f. <locus>159v</locus> at the end of the table is a copy of a letter from <name
+                                type="author">John Duke of Norfolk</name> to <name type="person">Thomas Bishop of
+                                Norwich</name> asking that the <name type="place">Church of Stratton petr.</name> may be
+                            united to that of <name type="place">Saint Mary de ffreton</name></ab>
+                        <ab>On f. <locus>160v</locus>: <name type="person">M. J. Cooke</name> (erased).<lb/> Anno
+                            virtutum domini <date>1522</date></ab>
+                        <ab>On f. <locus>161r</locus>, memorial verses on Kings of <name type="place"
+                            >England</name>:</ab>
+                        <incipit locusNew="161r">
+                            <name type="person">wil con:</name>
+                            <name type="person">wil rufus</name>
+                            <name type="person">hen</name>
+                            <name type="person">stephanus</name>
+                            <name type="person">hen que secundus</name>
+                        </incipit>
+                        <explicit locusNew="161r">post <name type="person">hen sep</name> regnat felici tempore
+                            uiuat</explicit>
+
+                    </msItem>
+
+                </msContents>
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text:copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, BA</p>
+                            <p>msCheck: NJC 01.06.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

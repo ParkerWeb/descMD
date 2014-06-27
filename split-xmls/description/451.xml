@@ -1,0 +1,485 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC451">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>451</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>T. 9</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>292</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Hildebert of Lavardin, Epistolae. Apollonius of Tyre. Miscellaneous Theological Tracts.
+                    Sermons on the Virgin Mary</head>
+                <head type="James">Hildeberti Epistolae, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">182</height>
+                        <width unit="mm">131</width>
+                    </measureGrp>, <measureGrp type="James">7.1 x 5.1</measureGrp>, <extent>ff. 1 + 194</extent>,
+                        <layout>mostly 29-30 lines to a page</layout>. Cent. <origDate>xii late and xiii
+                        early</origDate>, <handNote>in various hands</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num>-4<num>8</num> 5<num>4</num> 6<num>2</num> | 7<num>8</num>
+                            8<num>8</num> | 9<num>8</num>-14<num>8</num> 15<num>6</num> (5 a slip, 6 canc.)
+                            16<num>8</num> 17<num>8</num> (+1) | 18<num>10</num> | 19<num>8</num>-25<num>8</num>
+                            26<num>4</num></collation>.</p>
+
+                <p function="Provenance">From <name type="place">St Mary's Abbey, York</name>. A list of contents on
+                    flyleaf (<origDate>xiv-xv</origDate>), and the mark In O.9 (twice), cf. nos <ref type="ms"
+                        target="CCC181">181</ref>,<ref type="ms" target="CCC309">309</ref>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i + 1-194 + c-d</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="frm">Latin and Anglo-Norman.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="38v">
+                        <head type="CCC">
+                            <name type="author">Hildebert of Lavardin</name>, <title>Epistolae</title>
+                        </head>
+                        <head type="James">
+                            <title>Epistole <name type="author">Hildeberti</name> Cennomanensis Episcopi</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistolae <name type="author">Hildeberti</name> Cennomanensis episcopi</title>
+                        </head>
+
+                        <rubric locusNew="1r">Epistole <name type="author">Hildeberti</name> Cennomanensis
+                            Episcopi</rubric>
+                        <incipit locusNew="1r">Conuersione et conuersatione tua letatur et exultat anima mea</incipit>
+                        <incipit locusNew="1v">Iustum est ut aduersa communicent</incipit>
+                        <incipit locusNew="2r">Virtuti gratulor cui sub solo rege nostro</incipit>
+                        <incipit locusNew="2r">Pro <name type="person">Willelmo</name> tuo pater sancte</incipit>
+                        <ab>no. 54 (Dignitatis gradu amoris intimi affectu) ends</ab>
+                        <explicit locus="35r">Vale, ut in uno sed non solo ualeat uterque</explicit>
+                        <ab>
+                            <handNote>Change of hand</handNote>
+                        </ab>
+                        <incipit locusNew="35r"><name type="person">Dauid</name> futura spiritu prouidens liberauit
+                            inquid deus pauperem</incipit>
+                        <ab>(Sermo de Christi beneficiis, <ref type="bibl" target="???">Bibl. Patr. 305</ref>)</ab>
+                        <incipit locus="37r">In regno quidem nullus. in errore autem omnis homo sibi consortem
+                            querit</incipit>
+                        <ab>(Ep. 51 Bibl. Patr.)</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="30v" locusNew="38v">sanctis pro nobis orantibus ut orent sancti pro
+                            uobis</explicit>
+                        <ab>
+                            <ref type="bibl" target="???">Bibl. Patr. Paris, de la Bigne III 223</ref>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="39r" locusEnd="54v">
+                        <head type="CCC">
+                            <name type="author">Richard of Saint-Victor OSA</name>, <title>De eruditione hominis
+                                interioris</title>
+                        </head>
+
+                        <head type="James">
+                            <title>Expositio moralis super sompnium <name type="person">Nabugodonosor</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Expositio moralis in somnium <name type="person">Nabugodonozor</name></title>
+                        </head>
+
+                        <ab>
+                            <handNote>Large hand</handNote>
+                        </ab>
+
+                        <incipit locus="39r">Ego <name type="person">nabugodonosor</name> quietus eram ... quid per
+                            domum intelligimus nisi conscienciam</incipit>
+
+                        <explicit locusNew="53v">rex prius filios postea oculos amisit</explicit>
+                        <ab>
+                            <handNote>Another hand</handNote>
+                        </ab>
+                        <incipit locus="53v"><name type="person">Nabugodonosor</name> interpretatur sessio in agnitione
+                            angustie</incipit>
+
+                        <explicit locusNew="54r">et uasa templo reddidit cum documenta ecclesie et medicamenta
+                            asignauit</explicit>
+                        <ab>On f. <locus>54v</locus>
+                            <decoNote>in beautiful letters drawn as folded scrolls or ribbons: Ihc
+                                nazare(nus)</decoNote></ab>
+
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="55r" locusEnd="83v">
+                        <head type="CCC">
+                            <name type="author">Petrus Alfonsi</name>, <title>De disciplina clericali</title>
+                        </head>
+
+                        <head type="James">
+                            <name type="author">Petrus Adelfunsus</name>
+                            <title>Disciplina clericalis</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Petrus Adelfunsus</name> de disciplina clericali</title>
+                        </head>
+
+                        <ab>
+                            <handNote>Hand like that of <supplied>item</supplied> 1</handNote>
+                        </ab>
+
+                        <incipit locus="55r">Dixit <name type="author">petrus adelfunsus</name> seruus Christi Ihesu.
+                            compositor huius libri Gratias ago</incipit>
+                        <ab>(<ref type="bibl" target="Migne 157"><supplied>P. L.</supplied> CLVII 671</ref>)</ab>
+
+                        <explicit locusNew="55v">spe credulitatis mee innitor. Amen</explicit>
+                        <rubric locus="55v">Explicit prefatio. Incipit liber <name type="author">petri adelfunsi</name>
+                            de clericali disciplina</rubric>
+                        <incipit locusNew="55v">In hoc (<name type="person">Enoch</name>) philosophus qui lingua arabica
+                            cognominatur edric</incipit>
+
+                        <explicit locusNew="83v">eterna requie cum suis fidelibus mereamur perfrui in aula celesti
+                            prestante domino nostro Ihesu Christo. Cui est honor et gloria cum patre et spiritu sancto
+                            per infinita seculorum secula. Amen</explicit>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="83v" locusEnd="87v">
+                        <head type="CCC">
+                            <title>Prophecy of the Sibyls</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Tractatus de sibyllis</title>
+                        </head>
+
+                        <ab>
+                            <handNote>Change of hand</handNote>
+                        </ab>
+                        <incipit locusNew="83v">Sibille generaliter omnes femine</incipit>
+                        <ab>Ends f. <locus locusNew="87v">88v</locus> with the acrostic (Judicii signum)</ab>
+                        <explicit locusNew="87v">ignisque et sulphuris amnis</explicit>
+                        <ab>Bede (<ref type="bibl" target="Migne 090"><supplied>P. L.</supplied> XC 1181</ref>). <ref
+                                type="bibl" target="Opsopeus and Castalionis 1599">Opsopoeus, Sibyllina</ref>. <ref
+                                type="bibl" target="Alexandre 1853">Alexandre, <hi rend="italic">Oracula Sibyllina
+                                </hi>II 290</ref>. Cf. <ref type="ms" target="CCC404">MS 404. 1</ref>, etc.</ab>
+
+                    </msItem>
+
+                    <msItem n="5" locusStart="88r" locusEnd="107v">
+                        <head type="CCC">
+                            <title>Historia Apollonii regis Tyri</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Vita [fabulosa] <name type="person">Appollonii Tirii</name></title>
+                        </head>
+
+                        <head type="James">
+                            <title>Historia <name type="person">Apollonii</name></title>
+                        </head>
+
+                        <incipit locusNew="88r">In ciuitate <name type="place">antiochie</name> Rex fuit <name
+                                type="person">antiochus</name></incipit>
+                        <explicit locusNew="105v">unum in <name type="place">templo diane ephesiorum</name> alium
+                            bibliothece sue exposuit</explicit>
+                        <ab>Mentioned but not used by Riese in his edition (<ref type="bibl" target="Riese 1871">Teubner
+                                1871, p. vii</ref>)</ab>
+                        <ab>A paragraph in another hand</ab>
+                        <incipit locus="105v">Si per ignorantiam euenerit quod absit ut missa(m) cantans pauem uel uinum
+                            oblitus fuerit</incipit>
+                        <ab>ff. <locus>106r</locus>-<locus>107v</locus> are part of an old flyleaf with list of contents
+                                (<origDate>xiii</origDate>)</ab>
+                        <ab locusNew="106v"> In isto vol. cont. libelli subscripti videlicet.<lb/> Epistole diuersorum
+                            Patrum. Liber <name type="author">Petri Adelfunsi</name>. Vaticinium Sibille. Narracio <name
+                                type="author">apollonii</name>
+                        </ab>
+                        <ab>f. <locus>107r</locus> blank: on f. <locus>107v</locus> note on illusio nocturna</ab>
+
+                    </msItem>
+
+                    <msItem n="6" locusStart="108r" locusEnd="125v">
+                        <head type="CCC">
+                            <title>De creatione primi hominis</title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>De creatione primi hominis et ejus lapsu</title>
+                        </head>
+
+                        <ab>
+                            <handNote>Hand like that of <supplied>item</supplied> 1: more than one change</handNote>
+                        </ab>
+
+                        <rubric locusNew="108r">De creacione primi hominis et eius lapsu</rubric>
+                        <incipit locusNew="108r">Quinque modis in anima constat homo factus ad imaginem et similitudinem
+                            dei</incipit>
+                        <ab>
+                            <decoNote>(Sketch of a queen on f. <locus>122v</locus>)</decoNote>
+                        </ab>
+                        <ab>Ends with a paragraph on <q>essencia karitatis</q></ab>
+
+                        <explicit locusNew="124v">affectus operi nomen imponit</explicit>
+                        <ab>Paragraph</ab>
+                        <incipit locus="124v">Sciendum quod omne nomen quod de deo dicitur</incipit>
+                        <ab>
+                            <handNote>Another hand</handNote>
+                        </ab>
+                        <incipit locus="125r">Sciendum est quod apud grecos sunt hec iiii uocabula in usu. usia. usiosis
+                            Ypostasis et prosopa</incipit>
+
+                    </msItem>
+
+                    <msItem n="7" locusStart="126r" locusEnd="131r">
+                        <head type="CCC">
+                            <name type="author">Peter of Blois, archdeacon of Bath</name>, <title>Compendium in Iob
+                                (fragment)</title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>Fragmentum expositionis <name type="author">Petri Blessensis</name> in Job</title>
+                        </head>
+
+                        <rubric locus="126r">de expositione <name type="author">Petri Blesensis</name> in Job. finis
+                            tantum</rubric>
+                        <ab>Begins</ab>
+                        <incipit locusNew="126r">mandaret. Nichil tibi et iusto illi</incipit>
+                        <ab>Ends</ab>
+                        <explicit locusNew="128v">altissimus altissimi filius Ihesus Christus dominus noster qui cum
+                            patre et spiritu sancto uiuit et triumphat et regnat per omnia secula seculorum. Amen. Tu
+                            autem domine</explicit>
+                        <ab locusNew="129r"><handNote>Smaller hand</handNote>: headed Secretum meum mihi S. m. m.</ab>
+                        <ab>(De quinque sensibus)</ab>
+                        <incipit locusNew="129r">Cum quiescit uel in primi patris sompno uel in conditi <name
+                                type="person">Ioseph</name> loculo uel in florido sponse lectulo</incipit>
+
+                        <explicit locusNew="131r">perfectionem in quarto</explicit>
+
+                    </msItem>
+
+                    <msItem n="8" locusStart="131r" locusEnd="134v">
+                        <head type="CCC">
+                            <name type="author">Achard of Saint-Victor OSA</name>, <title>De discretione animae,
+                                spiritus et mentis</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Tractatus <name type="author">Magistri Achardi</name> de divisione animae et
+                                spiritus</title>
+                        </head>
+
+                        <rubric locus="131r">Tractatus <name type="author">Magistri Achardi</name> de diuisione anime et
+                            spiritus</rubric>
+                        <incipit locusNew="131r">Substancia interior que una cum corpore constituit</incipit>
+
+                        <explicit locusNew="134r">comprehenduntur superiora aut nomine anime duo interiora</explicit>
+
+                        <ab>Mentioned by <ref type="bibl" target="Tanner 1748">Tanner, p. 3</ref></ab>
+                        <ab>On f. <locus>134v</locus>
+                            <handNote>paragraphs in other hands</handNote></ab>
+
+                    </msItem>
+
+                    <msItem n="9" locusStart="135r" locusEnd="143r">
+                        <head type="CCC">
+                            <name type="author">Ambrosius Autpertus</name>, <title>Sermo de assumptione beatae
+                                Mariae</title>
+                        </head>
+
+                        <head type="James">
+                            <title><name type="author">Sancti Ansberti Episcopi</name> sermo de assumptione</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Sermones ex diversis autoribus de beata virgine</title>
+                        </head>
+
+                        <ab>
+                            <handNote>Larger hand of earlier type <supplied>for items 9-17</supplied></handNote> at
+                            bottom of f. <locus>135r</locus> (<origDate>xiv</origDate>)<lb/> In hoc libro cont. Sermones
+                            de assumpcione. Tractatus <name type="author">Mag. Achardi</name> de diuisione anime et
+                            spiritus</ab>
+
+
+                        <ab>(<ref type="bibl" target="Migne 039">pseudo-Augustine <supplied>P. L.</supplied> XXXIX
+                                2130</ref>)</ab>
+                        <incipit locusNew="135r">Adest nobis dilectissimi fratres dies ualde uenerabilis</incipit>
+
+                        <ab>
+                            <ref type="ms" target="CCC332">MS 332. 5</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="10" locusStart="143r" locusEnd="159v">
+                        <head type="CCC">
+                            <name type="author">pseudo-Paschasius Radbertus</name>, <title>De partu uirginis</title>
+                        </head>
+
+                        <rubric locus="143r">Sermo <name type="author">beati Jeronimi</name> presbiteri de
+                            assumptione</rubric>
+                        <ab>(<ref type="bibl" target="Migne 096"><supplied>P. L.</supplied> XCVI 235</ref>)</ab>
+                        <ab>(Feria iiii, lectio 1)</ab>
+                        <incipit locusNew="143r">Quotienscunque dilectissime nobis aliquid</incipit>
+                        <ab>
+                            <ref type="ms" target="CCC332">MS 332. 10</ref>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="11" locusStart="159v" locusEnd="166v">
+                        <head type="CCC">
+                            <name type="author">pseudo-Augustine</name>, <title>De assumptione beatae Mariae</title>
+                        </head>
+
+                        <rubric locus="159v">Item sermo de assumptione</rubric>
+                        <ab>(<ref type="bibl" target="Migne 040"><supplied>P. L.</supplied> XL 1143</ref>)</ab>
+                        <incipit locusNew="159v">Quia profundissime et sua dignitate altissime</incipit>
+                        <ab>
+                            <ref type="ms" target="CCC332">MS 332. 6</ref>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="12" locusStart="166v" locusEnd="171v">
+                        <head type="CCC">
+                            <name type="author">Paschasius Radbertus</name>, <title>De assumptione beatae uirginis
+                                Mariae (sermo 3)</title>
+                        </head>
+
+                        <rubric locus="167v" locusNew="166v">Item sermo de assumptione</rubric>
+                        <ab>(<ref type="bibl" target="Migne 096"><supplied>P. L.</supplied> XCVI 254</ref>)</ab>
+                        <incipit locusNew="166v">Adest nobis dilectissimi fratres hodierna festiuitas <name
+                                type="person">beata maria</name></incipit>
+                        <ab>
+                            <ref type="ms" target="CCC332">MS 332. 8</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="13" locusStart="172r" locusEnd="173v">
+                        <head type="CCC">
+                            <name type="author">pseudo-Ildefonsus of Toledo</name>, <title>Sermo de assumptione beatae
+                                Mariae</title>
+                        </head>
+
+                        <incipit locus="172r">Fratres dilectissimi cum aliquid pro amore creatoris</incipit>
+                        <ab>(<ref type="bibl" target="Migne 096"><supplied>P. L.</supplied> XCVI 258</ref>)</ab>
+                        <ab><ref type="ms" target="CCC332">MS 332. 9</ref> (<name type="author">Jerome</name>)</ab>
+                    </msItem>
+
+                    <msItem n="14" locusStart="173v" locusEnd="176r">
+                        <head type="CCC">
+                            <name type="author">pseudo-Ildefonsus of Toledo</name>, <title>Sermo de assumptione beatae
+                                Mariae (extract)</title>
+                        </head>
+
+                        <incipit locus="173v">Creator omnium et auctor uite</incipit>
+                        <ab><ref type="bibl" target="Migne 096"><supplied>P. L.</supplied> XCVI 279</ref>, <name
+                                type="author">Hildefonsus</name></ab>
+                        <ab><ref type="ms" target="CCC332">MS 332. 13</ref> (<name type="author">Ambrose</name>)</ab>
+                    </msItem>
+
+                    <msItem n="15" locusStart="176r" locusEnd="185v">
+                        <head type="CCC">
+                            <name type="author">Fulbert of Chartres (pseudo-Ambrose)</name>, <title>Sermo de natiuitate
+                                beatae uirginis Mariae (sermo 4)</title>
+                        </head>
+
+                        <rubric locus="176r">Sermo <name type="author">beati Ambrosii</name> ... de natiuitate Sancte
+                            dei genitricis <name type="person">Marie</name></rubric>
+                        <incipit locusNew="176r">Natiuitas gloriose genitricis</incipit>
+                        <ab>
+                            <ref type="ms" target="CCC332">MS 332. 12</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="16" locusStart="185v" locusEnd="189r">
+                        <head type="CCC">
+                            <name type="author">pseudo-Anselm of Canterbury OSB</name>, <title>Sermo de beata
+                                Maria</title>
+                        </head>
+
+                        <rubric locus="185v">Sermo <name type="author">sancti Anselmi archiepiscopi</name> de Sancta
+                                <name type="person">Maria</name></rubric>
+                        <incipit locusNew="185v">Omnium sanctorum dilectissimi laus et exultatio</incipit>
+
+                    </msItem>
+
+                    <msItem n="17" locusStart="189r" locusEnd="194v">
+                        <head type="CCC">
+                            <name type="author">Fulbert of Chartres (attrib.)</name>, <title>Sermo de natiuitate sanctae
+                                Mariae</title>
+                        </head>
+
+                        <rubric locus="189r">Sermo domini <name type="author">Fulberti Carnotensis episcopi</name> de
+                            natiuate <name type="person">Sancte Marie</name></rubric>
+                        <incipit locusNew="189r">Approbate consuetudinis est apud Christianos</incipit>
+                        <ab>(<ref type="bibl" target="Migne 141"><supplied>P. L.</supplied> CXLI 320</ref>)</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="194r">recuperare et habere perpetuam gratiam filii tui Ihesu Christo domino
+                            nostro qui cum patre et spiritu sancto unus deus uiuit in eternum. Amen</explicit>
+                        <ab>On f. <locus>194v</locus> in a later hand a charm in French and Latin for sheep.</ab>
+                        <ab locusNew="194v">primes deit lem meitere tuz les berbiz en une meisun. ... Saint filiol sur
+                            le ile de la mer sist<lb/>... aat dampnedeu li suruint et lui demanda et dit filiol
+                            que<lb/>(fa)is tu ici. sire io garde mes berbiz de la uerole et del cloufic, etc.</ab>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: NJM 9/1/2009</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

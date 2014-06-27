@@ -1,0 +1,319 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC112">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>112</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Misc. Z</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>392</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Ramón Lull (attrib.), Miscellaneous Works</head>
+                <head type="James">Raymundi Lulli Quaedam</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">297</height>
+                        <width unit="mm">205</width>
+                    </measureGrp>
+                    <measureGrp type="James">11.7 x 8.4</measureGrp>, <extent>pp. 702 numbered</extent>; <layout>mostly
+                        about 38 lines to a page</layout>. Cent. <origDate>xv late or xvi early</origDate>, <handNote>in
+                        a very ugly hand, probably German</handNote>.</p>
+
+
+
+                <p function="Research">On Raymund Lull's works see <ref type="bibl" target="Littre and Haureau 1885"><hi
+                            rend="italic">Histoire Littéraire</hi> XXIX by Littré</ref></p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + pp. 1-306 + 306a-307a + 307-350 + 350a-351a + 351-436 + 436a-437a + 437-440 +
+                        440a-441a + 441-684 + 684a + 685a + 685-702 + ff. iii-iv</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="eng">Latin with some English added on folios at end.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1" locusEnd="21">
+
+
+                        <head type="CCC"><name type="author">pseudo-Ramón Lull</name>, <title>Anima transmutatoriae
+                                artis metallorum</title></head>
+
+                        <head type="Nasmith">
+                            <title>Anima artis transmutatoriae</title>
+                        </head>
+
+                        <incipit locusNew="1">Fulgeat regis diadema <name type="person">Roberti</name></incipit>
+
+                        <ab>
+                            <decoNote>Both items 1 and 2 have rough diagrams</decoNote>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="2" locusStart="22" locusEnd="38">
+
+                        <head type="CCC"><name type="author">Ramón Lull (attrib.)</name>, <title>Compendium animae
+                                transmutationis metallorum juxta Anglicanum exemplar</title></head>
+
+                        <head type="Nasmith">
+                            <title>Idem tractatus juxta Anglicanum exemplar</title>
+                        </head>
+
+                        <incipit locus="22">Fulgeat regis diadema <name type="person">Roberti</name></incipit>
+
+                        <ab>
+                            <decoNote>Both items 1 and 2 have rough diagrams</decoNote>
+                        </ab>
+
+                        <ab>
+                            <supplied>p. <locus>38</locus> blank</supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="3" locusStart="39" locusEnd="84">
+
+
+                        <head type="CCC">
+                            <title>Additamentum libro quintae essentiae</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Additamentum libro quintae essentiae de disputatione inter <name type="person"
+                                    >Monaldum monachum</name> cum <name type="person">Reymundo magno</name>, anno
+                                Christi <date>1319</date></title>
+                        </head>
+
+                        <ab>
+                            <quote>Ad finem, <q>Finitur hic quantum habere potui de libro quintae essentiae transcriptum
+                                    non parvis expensis de bibliotheca ... [blank] ... episcopi ... [blank] ... de <name
+                                        type="place">regno Portingaliae</name> michi et alteri amico meo inde
+                                    transmissum</q></quote>
+                        </ab>
+
+                        <incipit locus="39">Cumque <name type="person">Reymundus</name> libro super quo rogatus
+                            fuerat</incipit>
+
+                        <ab>After <q>transmissum</q> the writer adds</ab>
+                        <ab locusNew="46">Et subsequenter addo terciam et quartam distinctionem prout reperi eas in
+                                <name type="place">Anglia</name> sub forma qua tradebantur <name type="person">regi
+                                Eduuardo</name> nec cuiquam videatur sic me fecisse superfluum quoniam una[m] d<abbr
+                                rend="superscript">o</abbr> aperit alteram et inter eas quantum (?) ad multa est
+                            clariositas immo excedencia mutua. deo gracias. (<name type="person">Raymundus Lully</name>
+                            claudens pia dogmata nulli)</ab>
+                        <ab>pp. <locus>47</locus>-<locus>48</locus> blank, <decoNote><locus>49</locus> has
+                                diagram</decoNote>. <locus>50</locus>-<locus>84</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="4" locusStart="85" locusEnd="260">
+
+                        <head type="CCC"><name type="author">Ramón Lull (attrib.)</name>,
+                            <title>Testamentum</title></head>
+
+                        <head type="Nasmith">
+                            <title>Testamentum <name type="author">Raymundi</name></title>
+                        </head>
+
+                        <incipit locus="85">Deus qui gloriose omnipotens existis</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="252">in omnibus suis elementis</explicit>
+                        <rubric locus="252">Et sic finitur prima pars testamenti <name type="author">magni
+                                Raymundi</name> litteratissimi viri qui pro confessionis et predicationis nominis Ihesu
+                            Christi glorioso per Saracenos meruit coronari martirio et sepulchrum eius est in <name
+                                type="place">insula maioricarum</name></rubric>
+                        <ab>pp. <locus>253</locus>-<locus>259</locus> blank</ab>
+                        <ab>A table on p. <locus>260</locus></ab>
+                    </msItem>
+
+                    <msItem n="5" locusStart="261" locusEnd="372">
+
+                        <head type="CCC">
+                            <name type="author">Ramón Lull (attrib.)</name>, <title>Practica super lapide
+                                philosophico</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Practica <name type="author">Raymundi</name> sive secunda pars testamenti</title>
+                        </head>
+
+                        <incipit locusNew="261">Alkimia est una pars celata philosophie</incipit>
+                        <ab>After p. <locus>306</locus> a slip of vellum <supplied>(pp.
+                                    <locus>306a</locus>-<locus>307a</locus>)</supplied></ab>
+                        <ab>Ends</ab>
+                        <explicit locus="358">cum cantelena que sequitur</explicit>
+                        <rubric locusNew="358">Explicit Testamentum</rubric>
+                        <incipit locusNew="358">Translatum fuit presens testamentum etc.</incipit>
+                        <ab locus="360">Cantilena</ab>
+                        <incipit locusNew="360">Amor nos facit etc.</incipit>
+                        <ab>Afforismi (40)</ab>
+                        <incipit locus="363">Anima philosophorum est lapis tactu rarus</incipit>
+                        <ab>Verses</ab>
+                        <incipit locus="366">Due mitamend' etc.</incipit>
+                        <rubric locus="367">Alphabetum theorice</rubric>
+                        <incipit locus="367">A significat deum</incipit>
+                        <ab>followed by other <q>alphabets</q> and tables</ab>
+
+                    </msItem>
+
+                    <msItem n="6" locusStart="373" locusEnd="460">
+
+                        <head type="CCC"><name type="author">Ramón Lull (attrib.)</name>,
+                            <title>Codicillus</title></head>
+
+                        <head type="Nasmith">
+                            <title>Codicillus sive vade mecum</title>
+                        </head>
+
+                        <incipit locus="373">Deus in virtute trinitatis que unitas</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="450" locusNew="456">tamen intelligas magisterium</explicit>
+                        <ab><locus>457</locus>-<locus>460</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="7" locusStart="461" locusEnd="568">
+
+                        <head type="CCC"><name type="author">Ramón Lull (attrib.)</name>, <title>Liber de secretis
+                                naturae seu de quinta essentia</title></head>
+
+                        <head type="Nasmith">
+                            <title>Liber quintae essentiae sive de metallorum transmutatione cum prologo <name
+                                    type="person">Monaldi</name> consolatorio</title>
+                        </head>
+
+                        <ab>Prologue</ab>
+                        <incipit locus="461">Contristatus erat vehementer <name type="person">Reymundus</name></incipit>
+                        <ab>Text</ab>
+                        <incipit locusNew="462">Deus cum tue sublimis bonitas</incipit>
+                        <ab>pp. <locus>557</locus>-<locus>558</locus> on vellum with <decoNote>a volvel in seven
+                                layers</decoNote></ab>
+                    </msItem>
+
+                    <msItem n="8" locusStart="569" locusEnd="582">
+
+                        <head type="CCC"><name type="author">pseudo-Ramón Lull</name>, <title>Anima transmutatoriae
+                                artis metallorum</title></head>
+
+                        <head type="Nasmith">
+                            <title>Lapidarium sive anima artis transmutatoriae</title>
+                        </head>
+
+                        <ab>A defective copy of item 1</ab>
+                    </msItem>
+
+                    <msItem n="9" locusStart="582" locusEnd="596">
+
+                        <head type="CCC"><name type="author">Ramón Lull (attrib.)</name>, <title>Liber
+                            lapidarii</title></head>
+
+                        <head type="Nasmith">
+                            <title>Opus margaritarum et lapidum pretiosorum</title>
+                        </head>
+
+                        <incipit locus="582">Deus in virtute trinitatis sancte incipio tractare</incipit>
+                    </msItem>
+
+                    <msItem n="10" locusStart="597" locusEnd="602">
+
+                        <head type="CCC"><name type="author">pseudo-Ramón Lull</name>, <title>Epistola
+                                accurtationis</title></head>
+
+                        <head type="Nasmith">
+                            <title>Epistola accurtationis lapidis philosophorum ad <name type="person">regem
+                                    Robertum</name></title>
+                        </head>
+
+                        <incipit locus="597">Fili <name type="person">Palagius</name> (?) generat ... per
+                            artem</incipit>
+                    </msItem>
+
+                    <msItem n="11" locusStart="603" locusEnd="662">
+
+                        <head type="CCC">
+                            <title>Practica sermocinalis</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Practica sermocinalis, quae dicitur ars brevis seu practica operis minoris</title>
+                        </head>
+
+                        <incipit locus="603">Diximus de modo et doctrina</incipit>
+                    </msItem>
+
+                    <msItem n="12" locusStart="663" locusEnd="702">
+
+                        <head type="CCC"><name type="author">Ramón Lull (attrib.)</name>, <title>Liber de secretis
+                                naturae seu de quinta essentia (Dialogus cum monacho. Liber III)</title></head>
+
+                        <head type="Nasmith">
+                            <title>Tractatus arboris philosophicalis</title>
+                        </head>
+
+                        <incipit locus="663">Deus cum tua magnitudine</incipit>
+                        <ab>pp. <locus>685</locus>-<locus>686</locus> on vellum with <decoNote>two
+                            diagrams</decoNote></ab>
+                        <ab>Ends</ab>
+                        <explicit locus="699">artista maximus in opere alkimico</explicit>
+                        <rubric locusNew="699">Explicit liber</rubric>
+                        <ab>pp. <locus>701</locus>, <locus>702</locus> smaller: in English: a leaf of an alchemical book
+                            written in cent. <origDate>xvi</origDate></ab>
+
+                    </msItem>
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJC 11.10.07</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

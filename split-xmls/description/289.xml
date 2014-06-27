@@ -1,0 +1,367 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC289">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>289</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>O. 10</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>215</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Doctrinal works by Augustine, Ivo of Chartres, and others</head>
+                <head type="James">Augustini Quaedam. Ivo Carnotensis. Hugo de S. Victore. Bruno Signiensis</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">250</height>
+                        <width unit="mm">160</width>
+                    </measureGrp><measureGrp type="James">10 x 6.5</measureGrp>, <extent>ff. 2 + 239</extent>,
+                        <layout>26 lines to a page</layout>. Cent. <origDate>xii</origDate>, <handNote>very finely
+                        written by two scribes</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num> 1<num>8</num>-30<num>8</num> (wants 8): old pagination incorrect but used
+                        here</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>assecutos</secFol>.</p>
+
+                <p function="Additions">On the lower part of <locus locusNew="1">ir</locus>, a list of contents in tall
+                    narrow capitals. Not unlike those in <ref type="ms" target="CCC253">MS 253</ref>. Above this:
+                    Retractatio libri de natura et gratia.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + pp. 1-76 + 76a-77a + 77-394 + 394a-395a + 395-478 + ff. c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="2" locusEnd="194">
+
+
+                        <head type="CCC">
+                            <name type="author">Augustine</name>, <title>De doctrina christiana</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title><name type="person">Aurelii Augustini</name> doctoris Hipponensis de doctrina
+                                christiana libri iv</title>
+                        </head>
+
+                        <ab><locus locusNew="2">iv</locus>, <locus locusNew="3">iir</locus>+<locus locusNew="4"
+                                >iiv</locus> blank</ab>
+
+                        <rubric locus="1" locusNew="5">Sententiae <name type="author">beati Augustini</name> de Libro
+                            Retractationum</rubric>
+                        <incipit locusNew="5">Libros de doctrina christiana</incipit>
+                        <ab>Text</ab>
+                        <incipit locus="2" locusNew="6">Sunt precepta quedam</incipit>
+                        <ab>(<ref type="bibl" target="Migne 034"><supplied>P. L.</supplied> XXXIV 15</ref>)</ab>
+                        <explicit locusNew="193">facultate disserui</explicit>
+                        <ab>p. <locus>194</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="195" locusEnd="232">
+                        <head type="CCC">
+                            <name type="author">Vigilius Thapsensis</name>, <title>Contra <name type="person">Felicianum
+                                    arianum</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Ejusdem disputatio contra <name type="person">Felicianum hereticum</name></title>
+                        </head>
+                        <rubric locusNew="195"><name type="author">Aurelii Augustini</name> doctoris disputatio incipit
+                            contra <name type="person">Felicianum hereticum</name></rubric>
+                        <ab>(<ref type="bibl" target="Migne 042"><supplied>P. L.</supplied> XLII 1157</ref>)</ab>
+                        <incipit locus="195">Extorsisti mihi dilectissime fili</incipit>
+                        <explicit locusNew="232">retribuere mercedem</explicit>
+                        <rubric locusNew="232">Explicit Liber Disputationis beati <name type="author">Augustini</name>
+                            Episcopi et <name type="person">Feliciani heretici</name> de trinitate
+                                <decoNote>(red)</decoNote></rubric>
+                    </msItem>
+
+                    <msItem n="3" locusStart="232" locusEnd="279">
+                        <head type="CCC">
+                            <name type="author">Augustine</name>, <title>De perfectione iustitiae hominis</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Idem ad <name type="person">Paulum</name> et <name type="person">Eutropium</name> de
+                                perfectione justitiae hominum adversus eos qui asserunt hominem posse fieri justum solis
+                                suis viribus</title>
+                        </head>
+                        <rubric locusNew="232"><name type="author">Aurelii augustini</name> doctoris liber incipit ad
+                                <name type="person">Paulum</name> et <name type="person">Eutropium</name> de perfectione
+                            iustitie hominum aduersus eos qui asserunt hominem posse fieri iustum
+                                <decoNote>(green)</decoNote> solis suis viribus <decoNote>(red)</decoNote></rubric>
+                        <ab>(<ref type="bibl" target="Migne 045"><supplied>P. L.</supplied> XLV 291</ref>)</ab>
+                        <incipit locus="232">Sanctis fratribus</incipit>
+                        <explicit locusNew="279">esse non dubito</explicit>
+                        <rubric locusNew="279">Explicit liber de perfectione iustitie hominum</rubric>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="279" locusEnd="290">
+                        <head type="CCC">
+                            <name type="author">Augustine</name>, <title>De natura et gratia</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Idem de natura et gratia ad <name type="person">Timasium</name> et <name
+                                    type="person">Jacobum</name></title>
+                        </head>
+
+                        <rubric locusNew="279"><name type="author">Aurelii Augustini</name> doctoris liber incipit de
+                            natura et gratia ad <name type="person">Timasium</name> et <name type="person"
+                                >Iacobum</name></rubric>
+                        <ab>(<ref type="bibl" target="Migne 044"><supplied>P. L.</supplied> XLIV 24</ref>)</ab>
+                        <incipit locus="279">Librum quem misistis</incipit>
+                        <explicit locusNew="284">Ad istam questionem non pertinere in qua queritur</explicit>
+                        <ab>(unfinished)</ab>
+                        <ab>pp. <locus>285</locus>-<locus>290</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="5" locusStart="291" locusEnd="305">
+                        <head type="CCC">
+                            <name type="author">Ivo of Chartres</name>, <title>De ecclesiasticis sacramentis, sermo
+                                1</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sermo de sacramentis Neophytorum habitus in synodo</title>
+                        </head>
+
+                        <ab>
+                            <quote>Opera sequentia <supplied resp="SP">[items 5-11]</supplied>
+                                <name type="person">Hugoni de sancto Victore</name> ascribuntur a quodam
+                                neoterico</quote>
+                        </ab>
+
+                        <rubric locusNew="291">Sermo de sacramentis neophitorum habitus in sinodo</rubric>
+                        <incipit locus="291">Quoniam populus ad fidem uocatus</incipit>
+
+                        <explicit locusNew="305">cum gaudio rationem reddant</explicit>
+                        <ab>(<name type="author">Ivo Carnotensis</name>, <ref type="bibl" target="Migne 162"
+                                    ><supplied>P. L.</supplied> CLXII 505</ref>; apparently items 5-11 are all by
+                            him)</ab>
+                    </msItem>
+
+                    <msItem n="6" locusStart="305" locusEnd="318">
+                        <head type="CCC">
+                            <name type="author">Ivo of Chartres</name>, <title>De ecclesiasticis sacramentis, sermo
+                                2</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De excellentia sacrorum ordinum et vita ordinandorum cujus supra in synodo</title>
+                        </head>
+
+                        <rubric locusNew="305">De excellentia sacrorum ordinum, etc.</rubric>
+                        <incipit locus="305">Quia christianam militiam</incipit>
+                        <ab>
+                            <ref type="bibl" target="Migne 162"><supplied>P. L.</supplied> CLXII 513</ref>
+                        </ab>
+                        <explicit locusNew="318">de die in diem proficiant</explicit>
+
+                    </msItem>
+
+                    <msItem n="7" locusStart="318" locusEnd="333">
+                        <head type="CCC">
+                            <name type="author">Ivo of Chartres</name>, <title>De ecclesiasticis sacramentis, sermo
+                                3</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De significationibus sacerdotalium indumentorum cujus supra in synodo</title>
+                        </head>
+
+                        <rubric locusNew="318">De significationibus sacerdotalium indumentorum, etc.</rubric>
+                        <incipit locus="318">Quia sanctitas ministerii</incipit>
+                        <ab>
+                            <ref type="bibl" target="Migne 162"><supplied>P. L.</supplied> CLXII 519</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="8" locusStart="333" locusEnd="350">
+                        <head type="CCC">
+                            <name type="author">Ivo of Chartres</name>, <title>De ecclesiasticis sacramentis, sermo
+                                4</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De sacramentis dedicationis cujus supra</title>
+                        </head>
+
+                        <rubric locusNew="333">De Sacramentis Dedicationis</rubric>
+                        <incipit locus="333">Quoniam ad dedicationem</incipit>
+                        <ab>
+                            <ref type="bibl" target="Migne 162"><supplied>P. L.</supplied> CLXII 527</ref>
+                        </ab>
+                        <explicit locusNew="350">implere studeatis prestante domino nostro Ihesu Christe cui
+                            etc.</explicit>
+
+                    </msItem>
+
+                    <msItem n="9" locusStart="350" locusEnd="398">
+                        <head type="CCC">
+                            <name type="author">Ivo of Chartres</name>, <title>De ecclesiasticis sacramentis, sermo
+                                5</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De convenientia veteris ac novi sacramenti cujus supra</title>
+                        </head>
+
+                        <rubric locusNew="350">De conuenientia etc.</rubric>
+                        <incipit locus="350">Beneficia que per saluandorum</incipit>
+                        <ab>
+                            <ref type="bibl" target="Migne 162"><supplied>P. L.</supplied> CLXII 535</ref>
+                        </ab>
+                        <explicit locusNew="398">dicere non ualuit quod uoluit</explicit>
+
+                        <ab>Also in <ref type="ms" target="CCC299">MS 299. 1</ref></ab>
+                    </msItem>
+
+                    <msItem n="10" locusStart="398" locusEnd="408">
+                        <head type="CCC">
+                            <name type="author">Ivo of Chartres</name>, <title>Sermo 6</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Quare Deus natus et passus sit</title>
+                        </head>
+
+                        <rubric locusNew="398">Quare deus natus et passus sit</rubric>
+                        <incipit locus="398">Corruptum peccatis originalibus</incipit>
+                        <ab>
+                            <ref type="bibl" target="Migne 162"><supplied>P. L.</supplied> CLXII 562</ref>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="11" locusStart="408" locusEnd="414">
+                        <head type="CCC">
+                            <name type="author">Ivo of Chartres</name>, <title>Sermones 7 and 8</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sermones de adventu et nativitate Domini</title>
+                        </head>
+
+                        <rubric locusNew="408">Sermo de aduentu domini cuius supra</rubric>
+                        <incipit locus="408">Quoniam presentium obseruatione dierum</incipit>
+                        <ab>
+                            <ref type="bibl" target="Migne 162"><supplied>P. L.</supplied> CLXII 567</ref>
+                        </ab>
+                        <explicit locusNew="411">pro nobis interpellat Ihesus Christus dominus</explicit>
+
+                        <rubric locusNew="411">Sermo de nativitate Domini cuius supra</rubric>
+                        <incipit locus="411">In diuine miserationis magnitudinem</incipit>
+                        <ab>
+                            <ref type="bibl" target="Migne 162"><supplied>P. L.</supplied> CLXII 568</ref>
+                        </ab>
+                        <explicit locusNew="414">non sibi sed sponso</explicit>
+
+                    </msItem>
+
+                    <msItem n="12" locusStart="415" locusEnd="449">
+                        <head type="CCC">
+                            <name type="author">Bruno of Asti</name>, <title>De sacramentis ecclesiae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Brajuro Signiensis episcopus</name> ad <name type="person">Gaium
+                                    Megalonensem episcopum</name> de significationibus sacramentorum et tum veteris tum
+                                novi federis</title>
+                        </head>
+
+                        <rubric locusNew="415">Dilectissimo fratri <name type="person">Gaio Magalonensi Episcopo</name>
+                            <name type="author">braiuro (usu. Bruno) signiensis Episcopus</name> salute</rubric>
+                        <ab>(<ref type="bibl" target="Migne 165"><supplied>P. L.</supplied> CLXV 1089, etc.</ref>)</ab>
+                        <incipit locus="415">Cum quondam in insula</incipit>
+                        <explicit locusNew="415">facere iussisti</explicit>
+                        <incipit locusNew="415">Diu locuturi prius ipsa sacramenta ponamus</incipit>
+                        <explicit locusNew="449">impassibile futurum presignauit</explicit>
+
+                    </msItem>
+
+                    <msItem n="13" locusStart="450" locusEnd="cr">
+                        <head type="CCC">
+                            <name type="author">Walter of Mortagne</name>, <title>Epistola ad <name type="person"
+                                    >Hugonem Sancti Victoris</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Gualterus</name> ad <name type="person">Hugonem Sancti
+                                    Victoris</name> priorem de ista questione, utrum anima quam in persona Christi
+                                assumpsit divinitas tantam penitus habeat scientiam et sapientiam quantum habet
+                                divinitas</title>
+                        </head>
+                        <rubric locusNew="450"><name type="person">Hugoni Sancti Victoris</name> priori <name
+                                type="author">Galterus</name> salute</rubric>
+                        <incipit locus="450">Nuper de parisius ueniens</incipit>
+                        <explicit locusNew="453">rescribi mihi impetrem</explicit>
+                        <explicit locusNew="453">Litteras istas fecit <name type="author">magister Gualterus</name> ad
+                            dominus <name type="person">hugonem</name>. Ipse enim contra has questiones fecit hunc
+                            tractatum</explicit>
+                        <incipit locus="454">Prudenti ac religioso uerbi diuini</incipit>
+
+                        <ab>Ends</ab>
+                        <explicit locus="476">non arroganter presumere. Valete</explicit>
+                        <ab>pp. <locus>477</locus>, <locus>478</locus> blank</ab>
+                        <ab locusNew="cr">A slip stuck on the flyleaf with unimportant notes</ab>
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: foliation check BA; awaiting title check by RJR - complete 6/11/2008s</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

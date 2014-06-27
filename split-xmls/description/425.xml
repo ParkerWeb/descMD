@@ -1,0 +1,271 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC425">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>425</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>N. 29</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>191</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Gerald of Wales, Vita Sancti Remigii episcopi, Vita Sancti Hugonis. Peter of Blois,
+                    archdeacon of Bath, Epistolae</head>
+                <head type="James">Giraldus Cambrensis. P. Blesensis</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">195</height>
+                        <width unit="mm">130</width>
+                    </measureGrp>, <measureGrp type="James">7.7 x 5.4</measureGrp>, <extent>ff. 79 + 114</extent>,
+                        <layout>two volumes</layout>. Cent. <origDate>xiii early and xv</origDate>.</p>
+
+                <p function="Multivolume"><lb/><label>Volume I:</label>
+                    <layout>Text in double columns of 25 lines</layout>. <layout>The columns are narrow</layout>.
+                        <handNote>The hand is a good clear pointed one of cent. <origDate>xiii early</origDate>, and the
+                        aspect resembles that of <ref type="ms" target="CCC400">no. 400</ref></handNote>.<lb/>
+                    <label>Volume II:</label> Cent. <origDate>xv</origDate>, <handNote>in a neat hand, rather
+                        current</handNote>, <layout>26 lines to a page</layout>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num> (wants 1) 2<num>8</num> 3<num>8</num> (+ slip) 4<num>8</num>-6<num>8</num>
+                        (+ slip) 7<num>8</num>-10<num>8</num> || a<num>12</num> b<num>10</num> c<num>12</num>
+                            d<num>10</num> e<num>12</num>-k<num>12</num> (wants 10-12)</collation>.</p>
+
+
+
+                <p function="Provenance">On <locus locusNew="1r">1</locus> an inscription, perhaps of cent.
+                        <origDate>xiv</origDate>, <decoNote>partly in Lombardic capitals</decoNote>, and beginning with
+                    a monogram of the letters:<lb/> A. W. E. T. D. L.<lb/> Libellus de divercis miraculis. <name
+                        type="person">G. de Barri</name> dictus archidiaconus sancti Dauid.<lb/></p>
+
+
+                <p function="Additions"><locus locusNew="1v">2</locus>-<locus locusNew="5v">8</locus> blank, except for
+                    a <name type="author">Parker</name>ian list of contents on <locus locusNew="5v">8</locus>.</p>
+                <p function="Additions">At top of <locus locusNew="6r">9</locus>
+                    <decoNote>in red chalk</decoNote>: <name type="person">TW (Twyne or T. Wotton)</name>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1 (2 missing) + 3-24 + 24a + 25-46 + 46a + 47-192 + iii</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+                    <milestone n="I" unit="volume"/>
+                    <msItem n="1" locusStart="6r" locusEnd="45v">
+                        <head type="CCC">
+                            <name type="author">Gerald of Wales</name>, <title>Vita <name type="person">Sancti Remigii
+                                    episcopi</name></title>
+                        </head>
+
+                        <head type="James">
+                            <title>Vita <name type="person">Sancti Remigii</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title><name type="author">Gulielmus de Barri dictus Cambrensis</name> de vitis <name
+                                    type="person">sancti Remigii</name> et episcoporum Lincolniensium illi succedentium
+                                et aliorum sex Angliae episcoporum sui temporis</title>
+                        </head>
+                        <ab>
+                            <quote>hoc ordine<lb/> Vita <name type="person">sancti Remigii</name>, p. 20.<lb/>
+                                <name type="person">Roberti Bloet</name>, p.37.<lb/>
+                                <name type="person">Alexandri</name>, p.38.<lb/>
+                                <name type="person">Roberti de Chimel</name>, p.39.<lb/>
+                                <name type="person">Gaufredi Electi</name>, p. 40.<lb/>
+                                <name type="person">Walteri Constantiensis</name>, p.41.<lb/>
+                                <name type="person">Hugonis Burgundiensis</name>, p. 42.<lb/> Vitae episcoporum Angliae
+                                tergeminorum, viz.<lb/>
+                                <name type="person">Thomae Cantuar.</name> et <name type="person">Henrici Winton</name>.
+                                p. 45.<lb/>
+                                <name type="person">Bartholomei Exoniensis</name> et <name type="person">Rogeri
+                                    Wigor</name>. p. 62.<lb/>
+                                <name type="person">Baldwini Cisterciensis</name> postea Cantuar. et <name type="person"
+                                    >Hugonis Cartusiensis</name> postea Lincoln. p. 73</quote>
+                        </ab>
+
+
+                        <ab>Printed by <ref type="bibl" target="Dimock 1877">Dimock in Vol. VII of the Rolls ed. of
+                                Giraldus</ref>. He says of the MS. <q>of all the early manuscripts of <name
+                                    type="person">Giraldus</name>'s different works which I have had to study, this
+                                C.C.C. 425 seems to me to have the best claim to be looked upon, if not as his own
+                                autograph copy, yet as written and revised and added to under his own eye. At any rate
+                                it was, in all likelihood, written before Giraldus' death: it certainly gives us a most
+                                correct text: and the text, probably, of Giraldus's last revision.</q> (Introd., p.
+                            ix.)</ab>
+
+                        <ab>It is the only manuscript of these Lives extant</ab>
+                        <rubric locus="9" locusNew="6r">Prefatio donum declarans et gratiam comparans</rubric>
+                        <ab locusNew="6r">
+                            <decoNote>Gold initial with half-length of a mitred archbishop (<name type="person">Stephen
+                                    Langton</name>) on blue ground</decoNote>
+                        </ab>
+                        <incipit locusNew="6r">Reuerendo patri ac domino Stephano dei gratia Cantuariensi
+                            archiepiscopo</incipit>
+                        <ab>(p. 1 <ref type="bibl" target="Dimock 1877">Rolls</ref>)</ab>
+                        <ab locus="15" locusNew="9r">Capitula (p. 9 <supplied>
+                                <ref type="bibl" target="Dimock 1877">Rolls</ref>
+                            </supplied>)</ab>
+                        <rubric locus="16" locusNew="9v">Incipit proemium</rubric>
+                        <incipit locusNew="9v">Vitas uirorum</incipit>
+                        <ab>(p. 11 <supplied>
+                                <ref type="bibl" target="Dimock 1877">Rolls</ref>
+                            </supplied>)</ab>
+                        <ab locus="20" locusNew="11v">Text (p. 14 <supplied>
+                                <ref type="bibl" target="Dimock 1877">Rolls</ref>
+                            </supplied>)</ab>
+                        <ab locusNew="11v">
+                            <decoNote>Initial has half-length of <name type="person">Remigius</name> in blue with
+                                crozier</decoNote>
+                        </ab>
+
+                        <ab><locus locusNew="24ar">47</locus> is an added slip, cf. p. 44 of <ref type="bibl"
+                                target="Dimock 1877">print</ref></ab>
+                        <ab>On <locus locusNew="27v">54</locus> the hand that wrote the title on p. <locus>1</locus>
+                            adds a title in capitals</ab>
+                        <rubric locus="54" locusNew="27v">De <name type="person">Thoma Cantuarenci</name></rubric>
+
+                        <ab locus="62" locusNew="31v">(<ref type="bibl" target="Dimock 1877">Dimock</ref>, p. 57 )</ab>
+                        <rubric locus="62" locusNew="31v">De <name type="person">Bartholomeo Exoniensi</name> et <name
+                                type="person">Rogero Wigorniensi</name></rubric>
+                        <ab locus="62" locusNew="31v">
+                            <decoNote>An initial with half-lengths of the two</decoNote>
+                        </ab>
+                        <ab locus="73" locusNew="37r">Similarly, (<ref type="bibl" target="Dimock 1877">Dimock</ref>, p.
+                            67) </ab>
+                        <rubric locus="73" locusNew="37r">de <name type="person">Baldewino Cisterciensi</name> et <name
+                                type="person">Hugone Cartusiensi</name></rubric>
+                        <ab locus="73" locusNew="37r">
+                            <decoNote>An initial with two half-length figures</decoNote>
+                        </ab>
+                        <explicit locus="88" locusNew="44v">sub hoc conpendio terminetur</explicit>
+                        <rubric locus="88" locusNew="44v">Explicit</rubric>
+                        <ab><locus locusNew="45r">89</locus>, <locus locusNew="45v">90</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="2" locusStart="46r" locusEnd="80v">
+                        <head type="CCC">
+                            <name type="author">Gerald of Wales</name>, <title>Vita <name type="person">Sancti
+                                    Hugonis</name></title>
+                        </head>
+                        <head type="James">
+                            <title>Vita <name type="person">Sancti Hugonis</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Vita <name type="person">S. Hugonis Lincoln</name></title>
+                        </head>
+
+
+                        <ab>Edited by <ref type="bibl" target="Dimock 1877">Dimock in Vol. VII of the Rolls ed. of
+                                Giraldus</ref>. This is the only manuscript</ab>
+                        <rubric locus="91" locusNew="46r">Incipiunt capitula in vitam <name type="person">Sancti
+                                Hugonis</name></rubric>
+                        <ab><ref type="bibl" target="Dimock 1877">Dimock</ref>, p. 83</ab>
+                        <ab><locus locusNew="46ar">93</locus>, <locus locusNew="46av">94</locus> are an added slip with
+                            capitula of the Third Distinction of the work: <locus locusNew="46ar">93</locus> being
+                            blank</ab>
+                        <rubric locus="95" locusNew="47r">Incipit proemium in uitam <name type="person">Sancti Hugonis
+                                Lincolniensis</name></rubric>
+                        <incipit locusNew="47r">Quanto rarius</incipit>
+                        <ab>(<ref type="bibl" target="Dimock 1877">Dimock</ref>, p. 87)</ab>
+                        <ab locus="97" locusNew="48r">Text. <decoNote>Initial with half-length of <name type="person"
+                                    >Hugh</name> blessing</decoNote></ab>
+                        <ab locus="122" locusNew="60v">Distinctio II</ab>
+                        <ab locus="138" locusNew="68v"><supplied>Distinctio</supplied> III</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="159" locusNew="79r">regnat et imperat in secula seculorum. Amen</explicit>
+                        <rubric locus="159" locusNew="79r">Explicit</rubric>
+                        <ab><locus locusNew="79v">160</locus>-<locus locusNew="80v">162</locus> blank</ab>
+                    </msItem>
+
+
+                    <milestone n="II" unit="volume"/>
+                    <msItem n="3" locusStart="81r" locusEnd="191r">
+                        <head type="CCC">
+                            <name type="author">Peter of Blois, archdeacon of Bath</name>, <title>Epistolae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Petri Blessensis</name> epistolae LXXVIII</title>
+                        </head>
+                        <rubric locus="1" locusNew="81r">Epistole <name type="author">Petri Blesensis</name></rubric>
+
+                        <ab>(<ref type="bibl" target="Migne 207">P. L. CCVII</ref>)</ab>
+                        <rubric locusNew="81r">Scribitur regi ad cuius mandatum presentis operis epistolas dispersas
+                            collegerat et est hoc quasi prohemium operis</rubric>
+                        <incipit locusNew="81r"><name type="person">Henrico</name> dei gratia illustrissimo</incipit>
+                        <rubric locus="2" locusNew="82r">Consolacio ad regem de obitu filii junioris regis</rubric>
+                        <ab>There are 78 Epistles. The last</ab>
+                        <rubric locusNew="189v">Congratulatur istis de reparacione <name type="place">ecclesie
+                                blesensis</name> et hortatur eos</rubric>
+                        <incipit locusNew="190r">Dilectis dominis ... <name type="person">R. decano</name> ... Gratias
+                            ago gratie largitori</incipit>
+                        <ab>Ends unfinished</ab>
+                        <explicit locusNew="191r">Ille qui infirma</explicit>
+                        <ab locusNew="191r">The verso of this leaf and recto of the next are blank and pasted
+                            together</ab>
+                        <ab locusNew="192r">A blank leaf follows</ab>
+                        <ab>On the margin of f. <locus locusNew="190v">110v</locus></ab>
+                        <ab locus="110v" locusNew="190v">
+                            <name type="person">martinus</name> clamidem cum paupere dimidiauit </ab>
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, SP, CF</p>
+                            <p>msCheck: SP 12/8/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

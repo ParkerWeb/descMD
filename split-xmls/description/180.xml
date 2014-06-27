@@ -1,0 +1,165 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC180">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>180</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>L. 16</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>138</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Richard FitzRalph, De pauperie Saluatoris</head>
+
+                <head type="James">Richardus Armachanus</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">292</height>
+                        <width unit="mm">170</width>
+                    </measureGrp><measureGrp type="James">11.6 x 7</measureGrp>, <extent>ff. 130 + 1</extent>,
+                        <layout>double columns of 52 lines</layout>. Cent. <origDate>xiv</origDate>, <handNote>rather
+                        contracted hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf 1<num>12</num>-7<num>12</num> 8<num>4</num> (+1) | 9<num>8</num> 10<num>8</num>
+                            11<num>10</num> 12<num>8</num> 13<num>8</num> (wants 8)</collation>.</p>
+
+                <p function="Provenance">From <name type="place">Norwich Cathedral Priory</name>. At the top of f.
+                        <locus>1r</locus> is <q>x.xlvj</q>, also apparently on the flyleaf. At the end of the first
+                    article (f. <locus>88r</locus>) <handNote>in large blue Lombardic letters</handNote> at top of a
+                    column is <q>LIBER <abbr>DNI</abbr>
+                        <lb/> ADE ESTONE <lb/> MONACHI NOR <lb/> WICENSIS</q></p>
+
+                <p function="Provenance">On last leaf: <q>
+                        <name type="person" key="AdEs01">A. Eston</name>
+                    </q>. <name type="person" key="AdEs01">Adam Easton</name> was monk of <name type="place"
+                        >Norwich</name>, Cardinal of St Cecilia, and Dean of <name type="place">York</name>. He died
+                        <date>1397</date> at <name type="place">Rome</name> and is buried in his church there. A version
+                    of the Bible from Hebrew is attributed to him, but has not been identified.</p>
+
+                <p function="Additions">On the flyleaf a <origDate>xvith</origDate> cent. note on <name type="author"
+                        key="RiAr01">Armachanus</name>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a + i + 1-130 + b</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="89v">
+
+                        <head type="CCC"><name type="author" key="RiFR01">Richard FitzRalph</name>, <title>De pauperie
+                                Saluatoris, books 1-7</title></head>
+
+                        <head type="Nasmith">
+                            <title><name type="author">Richardi Fitz-rauf</name> archiepiscopi Armachani de pauperie
+                                servatoris, libri vii</title>
+                        </head>
+
+                        <ab locusNew="1r">
+                            <decoNote>f. <locus>1r</locus> is bordered in fine style. In the initial is <name
+                                    type="person">Armachanus</name> seated writing <q>Sanctissimo</q> in a book. The
+                                dove flies towards him on R. In the border on R. are, at top, a Franciscan and Dominican
+                                - a devil is on the Franciscan's shoulders. They stand on a devil. Below them a
+                                Carmelite and an Austin Friar. Below their feet two devils. Compare for the style the
+                                    <ref type="ms" target="CEC112">Moralia at Emmanuel College</ref></decoNote>
+                        </ab>
+                        <ab>
+                            <quote>
+                                <decoNote>Ad initium depingitur effigies autoris, et in margine quatuor fratres quorum
+                                    humeris assident demones illos amplectentes et imo mento percutientes</decoNote>
+                            </quote>
+                        </ab>
+
+                        <incipit locus="1r">Sanctissimo in Christo patri ... <name type="person">innocentio vi<abbr
+                                    rend="superscript">o</abbr></name></incipit>
+                        <explicit locusNew="1r">operi consummacionem imponit</explicit>
+                        <ab>Capitula</ab>
+                        <ab>Text</ab>
+                        <incipit locus="1v">Quia creaturarum propter hominem creatarum</incipit>
+                        <ab>Liber VII ends</ab>
+                        <explicit locus="88r">quod delectat qui semper es benedictus in secula seculorum.
+                            Amen</explicit>
+                        <ab>ff. <locus>88v</locus>-<locus>89v</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="2" locusStart="90r" locusEnd="130v">
+
+                        <head type="CCC"><name type="author" key="RiFR01">Richard FitzRalph</name>, <title>De pauperie
+                                Saluatoris, book 8</title></head>
+
+                        <head type="Nasmith">
+                            <title>Idem de mendicitate fratrum et eorum privilegiis</title>
+                        </head>
+                        <ab>
+                            <quote>Hic tractatus ubique inscribitur liber nonus</quote>
+                        </ab>
+                        <rubric locus="90r">Retractationes siue declaraciones quorundam dictorum precedencium</rubric>
+                        <incipit locusNew="90r">In quinto libro de pauperie</incipit>
+                        <explicit locusNew="128v">ordinare ad laudem dei et gloriam dei nostri Ihesu omnium saluatoris
+                            qui est benedictus in secula seculorum. Amen</explicit>
+                        <ab>The two last leaves <supplied>(ff. <locus>129r</locus>-<locus>130v</locus>)</supplied>
+                            blank</ab>
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, BA, CF</p>
+                            <p>msCheck: NJM 27.3.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

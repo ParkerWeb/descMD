@@ -1,0 +1,160 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC212">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>212</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Lib. ab Al. 14</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Sermons attributed to Gibuinus of Troyes and Petrus Comestor</head>
+                <head type="James">Sermones Gibuini. Sermones P. Comestoris</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">261</height>
+                        <width unit="mm">187</width>
+                    </measureGrp>, <measureGrp type="James">10.3 x 7.4</measureGrp>, <extent>ff. 277 + 2</extent>,
+                        <layout>double columns of 37 lines</layout>. Cent. <origDate>xii late</origDate>,
+                        <handNote>finely written in several hands</handNote>. Limp black leather cover lined with linen:
+                    three button-holed clasps: three bands of stitches shown at the back.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num> 1<num>8</num>-5<num>8</num> (wants 1, 3, 8) 6<num>8</num>-11<num>8</num>
+                            12<num>10</num> (wants 1) 13<num>8</num>-19<num>8</num> (wants 7, 8)
+                            20<num>8</num>-24<num>8</num> 25<num>4</num> 26<num>8</num>-33<num>8</num> (wants 7, 8)
+                            34<num>8</num>-36<num>8</num> (wants 8)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>adoptatio</secFol>.</p>
+
+
+                <p function="Additions">Vestiges of a paper label (<origDate>xv</origDate>) on the front cover:
+                    Ser(mones).</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-277. Partially imaged: front cover exterior and interior + ff. 1r-152r +
+                        back cover exterior and interior</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="ir" locusEnd="277v">
+                        <head type="CCC">
+                            <title>Sermons of <name type="author">Gibuinus (attrib.)</name> and <name type="author"
+                                    >Petrus Comestor (attrib.)</name></title>
+                        </head>
+
+                        <ab locusNew="ir">On the flyleaf <handNote>in a large hand</handNote>
+                            (<origDate>xiii</origDate>)</ab>
+                        <ab locusNew="ir">Sermones <name type="author">Gybewini</name> (added, Troadensis<hi
+                                rend="footnote"><name type="author">Gebuinus</name> was archdeacon of Troyes about
+                                    <date>1140</date></hi>) et sermones <name type="author">petri comestoris</name>
+                            (this added rather later)</ab>
+                        <ab>ff. <locus>iv</locus>-<locus>iiv</locus> blank</ab>
+                        <ab locusNew="1r">At bottom in pencil Sermones <name type="author">Gybwini
+                            troadensis</name></ab>
+                        <rubric locus="1r">Proemium subsequentis operis</rubric>
+                        <incipit locusNew="1r">Cogitante michi fratres karissimi de remediis fortuitorum</incipit>
+                        <explicit locusNew="3r">pauperi deus qui sit benedictus in secula</explicit>
+                        <rubric locus="3r">In aduentu domini</rubric>
+                        <incipit locusNew="3r">Propheta dicit dominus Penitentiam agite</incipit>
+                        <ab><handNote>There are very frequent changes of hand</handNote>: at various points beginnings
+                            of sermons are crossed out, e.g. f. <locus>77v</locus></ab>
+                        <ab locus="114v">blank</ab>
+                        <rubric locus="115r">In festo <name type="person">S. Andree</name></rubric>
+                        <incipit locusNew="115r">Preteriens ihesus secus mare</incipit>
+                        <ab locus="127r">
+                            <decoNote>A good grotesque in coloured outline: others on neighbouring leaves</decoNote>
+                        </ab>
+                        <ab>f. <locus>143v</locus>, f. <locus>144r</locus> blank: text of most of f. <locus>148v</locus>
+                            crossed out</ab>
+                        <rubric locus="157v">In solempnitate S. martiris <name type="person"
+                            >&#198;delberti</name></rubric>
+                        <incipit locusNew="157v">Bonum certamen certaui</incipit>
+                        <ab>Text of f. <locus>200r</locus>-<locus>200v</locus> crossed out</ab>
+                        <ab>ff. <locus>247r</locus>-<locus>248v</locus> blank</ab>
+                        <rubric locus="249r">
+                            <name type="author">Petrus Comestor</name>
+                        </rubric>
+                        <rubric locusNew="249r">Claustralibus</rubric>
+                        <incipit locusNew="249r">Pacem meam do uobis</incipit>
+                        <ab>f. <locus>254v</locus> blank</ab>
+                        <incipit locusNew="255r">Ad declarationem et rudimenta simplicuum</incipit>
+                        <ab><locus>261v</locus>-<locus>262v</locus> blank</ab>
+                        <incipit locus="263r">Porcio mea domine</incipit>
+                        <ab>The last sermon occupying ff. <locus>271r</locus>-<locus>277v</locus> is</ab>
+                        <rubric locusNew="271r">In dedicatione ecclesie</rubric>
+                        <incipit locusNew="271r">Templum dei sanctum est quod estis uos</incipit>
+                        <explicit locusNew="277v">de labore ad requiem. Qui sit benedictus in secula</explicit>
+                        <ab>Few rubrics are inserted: and the order of the sermons is clearly very irregular</ab>
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, SP, CF</p>
+                            <p>msCheck: SP 3/2/09</p>
+                            <p>remarks: Sermons are not among the works attributed to Gibuinus elsewhere. The sermons
+                                attributed to Comestor are definitely not by him.</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

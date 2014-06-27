@@ -1,0 +1,202 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC268">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>268</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>R. 5</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>158</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Walter Hilton OSA, Book of Contemplation, Devotional and Spiritual Tracts</head>
+
+                <head type="James">Walter Hilton, etc.</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">265</height>
+                        <width unit="mm">180</width>
+                    </measureGrp><measureGrp type="James">10.6 x 7</measureGrp>, <extent>ff. 1 + 169</extent>,
+                        <layout>34 lines to a page</layout>. Cent. <origDate>xv</origDate>, <handNote>well
+                        written</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num> (+1*) 2<num>8</num>-21<num>8</num>
+                    </collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>gostly</secFol>.</p>
+
+
+                <p function="Additions">f. <locus locusNew="iiir">1r</locus> is blank. On f. <locus locusNew="iiiv"
+                        >1v</locus> the English note of indulgence given by Nasmith.<quote>
+                        <q>Unto every man or woman that seyth this prayere folwyng: Benedictum sit dulce nomen Domini
+                            nostri Iesu Christi et gloriosissimae virginis Mariae matris ejus in eternum et ultra: Amen.
+                            Nos cum prole benedicat virgo Mariae: Amen. ar grauntyd iii yer of pardon tociens quociens
+                            of <name type="person" key="Clem01">pope Clement the fourth</name> atte the requeste of
+                            seynt <name type="person" key="Loui01">Lowys</name> kyng of Fraunce.</q>
+                    </quote></p>
+
+                <p function="Additions">At top of f. <locus locusNew="1r">2r</locus> (<origDate>xvi</origDate> early)
+                    Liber contemplationum <name type="author">Walteri Hilton</name>. C. 32.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-iv + 1-169 + v-vi</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="enm" otherLangs="lat">Middle English and Latin.</textLang>
+
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="9v">
+
+                        <head type="Nasmith">
+                            <title>A comfortable tretyes to strengthyn and confortyn creaturys in the feyth specially
+                                hem that arn symple and disposyd to fallyn in desperacyon</title>
+                        </head>
+
+                        <incipit locus="2r" locusNew="1r">Sine fide impossibile est placere deo. Withoutyn feyth it is
+                            impossible to plesyn god</incipit>
+                        <explicit locusNew="9v">omnis lingua confiteatur quia dominus noster Ihesus Christus in gloria
+                            est dei patris. Amen</explicit>
+                        <rubric locusNew="9v">Here endith a confortable tretyes to strengthyn and confortyn creaturys in
+                            the feyth specially hem that arn symple and disposyd to fallyn in desperacyon</rubric>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="10r" locusEnd="54r">
+
+                        <head type="CCC">
+                            <name type="author" key="WaHi01">Walter Hilton OSA</name>, <title>Book of Contemplation,
+                                book 1</title></head>
+
+                        <head type="Nasmith">
+                            <title>Contemplations of maister <name type="author" key="WaHi01">Walter Hylton</name> in
+                                two books</title>
+                        </head>
+
+                        <ab>
+                            <quote>A translation of his Scala perfectionis sive de vita contemplativa</quote>
+                        </ab>
+                        <rubric locus="10r">That the inder beyng of a man shuld be lyke to vutward apperaunce</rubric>
+                        <incipit locusNew="10r">Gostly systre in Ihesu cryst I prey the that in callyng</incipit>
+                        <explicit locusNew="52v">be with the now and evir Amen</explicit>
+                        <rubric locusNew="52v">Here endith the fryst book of maister <name type="author" key="WaHi01"
+                                >Walter hyltoun</name></rubric>
+                        <rubric locusNew="52v">Sit nomen domini benedictum in secula seculorum. Amen</rubric>
+                        <ab locus="52v">Capitula of book I (93)</ab>
+                    </msItem>
+
+                    <msItem n="3" locusStart="54r" locusEnd="97v">
+
+                        <head type="Nasmith">
+                            <title>A tretyes of the sevene poyntis of trewe love and evir lestyng wysdom dravyn out of
+                                the book clepid orologium sapientiae</title>
+                        </head>
+
+                        <ab>
+                            <quote>Inserted between the first and second book of the preceding treatise</quote>
+                        </ab>
+
+                        <incipit locus="54r">Here begynnyth the chapetrys of the treteys of the sevene poyntis of trewe
+                            love and evir lestyng wysdam dravyn out of the book clepid orilogium sapiencie</incipit>
+                        <ab>Text</ab>
+                        <rubric locus="54v">Sentite de domino in bonitate ... apparet autem eis qui fidem habent in
+                            illum</rubric>
+                        <incipit locusNew="54v">These wordys of evir lastyng wysdam ben thus meche to seyn</incipit>
+                        <ab>In seven chapters, ending</ab>
+                        <explicit locusNew="97r">lyvist and regnest god evir with owtyn ende. Amen</explicit>
+                        <rubric locus="97r">Thus endith this tretis of the vij peticions or poyntis of trewe love and
+                            evir lestyng wysdom dravyn out of the book clepid orilogium sapientiae</rubric>
+                        <ab>f. <locus>97v</locus> blank</ab>
+
+                    </msItem>
+
+
+
+                    <msItem n="4" locusStart="98r" locusEnd="169v">
+
+                        <head type="CCC"><name type="author" key="WaHi01">Walter Hilton OSA</name>, <title>Book of
+                                Contemplation, book 2</title></head>
+                        <head type="Nasmith">
+                            <title>Contemplations of maister <name type="author" key="WaHi01">Walter Hylton</name> in
+                                two books</title>
+                        </head>
+
+                        <ab locus="98r">Capitula of Liber II of <name type="author">W. Hilton</name> (48)</ab>
+                        <ab>Text</ab>
+                        <incipit locusNew="99v">For as mykel as you coveityst gretly</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="169v">of swiche gostly materys thanne mytte ben in a gret boke</explicit>
+                        <rubric locusNew="169v">Deo gracias. J. S. Explicit liber secundus M. <name type="author"
+                                key="WaHi01">Walteri hyltoun</name></rubric>
+                        <ab locusNew="169v">After scribbles is: M<abbr rend="superscript">d</abbr> that I <name
+                                type="person">Elizabeth Wylby</name> / (erasure) N... of ...ossee Gyffe thys
+                            boke<lb/>(bottom of leaf cut off)</ab>
+
+                    </msItem>
+
+                </msContents>
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: GDB, BA, CF</p>
+                            <p>msCheck: NJM 2.4.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

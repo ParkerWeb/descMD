@@ -1,0 +1,107 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC238">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>238</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Lib. ab Al. 41</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Henry Spelman, Archaismus graphicus</head>
+                <head type="James">Spelman's Archaismus Graphicus</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">212</height>
+                        <width unit="mm">163</width>
+                    </measureGrp>, <measureGrp type="James">8.4 x 6.4</measureGrp>, <extent>ff. circa 50</extent>. Cent.
+                        <origDate>xvii (1606)</origDate>
+                    <handNote>very neatly written</handNote>. Vellum wrapper.</p>
+
+
+
+                <p function="Provenance">This is described in the vellum Register as being ex dono authoris, <date>Julii
+                        10, 1636</date>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-iv + 1-42 + v-vi</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="42r">
+                        <head type="CCC"><name type="author">Henry Spelman</name>, <title>Archaismus graphicus</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Archaismus graphicus ab <name type="author">Henrico Spelmanno</name> conscriptus in
+                                usum filiorum suorum A.D. <date>1606</date></title>
+                        </head>
+
+                        <incipit locusNew="3r">A. A per se pro figura numerali</incipit>
+                        <ab locusNew="42r">Ends with the abbreviation for Zodiaci</ab>
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJC 8/4/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

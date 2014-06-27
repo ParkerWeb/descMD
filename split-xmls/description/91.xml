@@ -1,0 +1,138 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC091">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>91</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>B. 3</idno>
+                        <!--James corrects in corrigenda-->
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>15</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Histoire des Seigneurs de Gavres</head>
+                <head type="James">Histoire des Seigneurs de Gaures</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">360</height>
+                        <width unit="mm">253</width>
+                    </measureGrp><measureGrp type="James">14.1 x 10.2</measureGrp>, <extent>ff. 200 + 3</extent>,
+                        <layout>double columns of 30 lines</layout>. Cent. <origDate>xv, second half</origDate>,
+                        <handNote>in clear black hand approaching <q>lettre bâtarde</q></handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>2 flyleaves, 1<num>8</num>-25<num>8</num>, 1 flyleaf</collation>.</p>
+
+
+                <p>At various places portions have been cut off the lower margins of leaves: and in one place a triangle
+                    is cut out. Probably there were signatures or shields of owners in these places.</p>
+                <p function="Research">The text was printed in 1845 at Brussels by <ref type="bibl"
+                        target="Gachet and Kreins 1845">Van Dale (<hi rend="italic">Histoire des Seigneurs de Gavres,
+                            Roman du xv<abbr rend="superscript">e</abbr> siècle</hi>)</ref> with introduction and
+                    illustrations, and a glossary by <name type="person">Emile Gachet</name></p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-ii + 1-200 + iii + c-e</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="frm">Middle French.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="200v">
+                        <head type="CCC">
+                            <title>Histoire des Seigneurs de Gavres</title>
+                        </head>
+                        <head type="James">
+                            <title>Histoire des Seigneurs de Gaures</title>
+                        </head>
+
+                        <ab>The text begins</ab>
+                        <incipit locusNew="1r">Les tres haulx et courageux faiz de noz anchiens predecesseurs escripz
+                            pour exemple et memoire ala loenge diceulx</incipit>
+                        <ab locusNew="1r">
+                            <decoNote>This first page has a picture and full border of conventional and natural flowers
+                                and foliage on plain ground. In the lower margin a shield surmounted with crest and
+                                surrounded by the garter with motto. Shield and crest have been carefully erased and so
+                                has a banner in the R. margin<lb/> The picture, rather rubbed, but in fine Flemish
+                                style, represents the interior of a room with wooden roof. On L. stone fire-place with
+                                fire. On R. bed in alcove: green tiled floor. Before the fire lies a nude infant. The
+                                mother, in tall headdress, sits wringing her hands on seat (along the wall). Two maids
+                                kneel on L. in consternation. In C. the Seigneur de Gaures in gown with stick,
+                                gesticulating. Two men and two women on R. in consternation<lb/> Along the back wall is
+                                a settle ending on R. in a kind of desk. The wall is hung with an arras, deep red
+                                ground, gold birds in pairs, two rows of trees, on each a scroll bearing one word of the
+                                garter motto. The incident shown is the Seigneur de Gaures throwing his infant son into
+                                the fire (see f. <locus>8r</locus>)</decoNote>
+                        </ab>
+                        <ab>The text ends</ab>
+                        <explicit locus="200v">Ceste histoire a este translatee de grec en latin et de latin en flamenc.
+                            Et depuis a este transmuee en langaige franchoiz le derrenier jour de mars lan <date>mil
+                                    iii<abbr rend="superscript">c</abbr> lvi</date>. Cy fine lystoire des seigneurs de
+                            gaures</explicit>
+                        <ab locusNew="200v">After this an erasure, possibly only a scribbled repetition of the colophon,
+                            such as occurs on the flyleaf: <q>Sy fine lyst</q></ab>
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJC 9.10.07</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

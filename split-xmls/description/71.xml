@@ -1,0 +1,276 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC071">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>71</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>V. 4</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>300</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Macrobius, Saturnalia, Commentary on Cicero's Somnium Scipionis. Apuleius, De Platone,
+                    De deo Socratis</head>
+                <head type="James">Macrobius. Apuleius</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">288</height>
+                        <width unit="mm">197</width>
+                    </measureGrp><measureGrp type="James">11.4 x 8</measureGrp>, <extent>ff. 151 + 1</extent>,
+                        <layout>38 lines to a page</layout>. Cent. <origDate>xii</origDate>, <handNote>in a very
+                        beautiful round minuscule. I think two scribes may be distinguished: but this is not certain.
+                        The ink changes about f. <locus locusNew="62v">64r</locus></handNote>. Few titles or rubrics
+                    have been inserted.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>1</num> 1<num>8</num>-19<num>8</num> (wants 8)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>urget atque implicat</secFol>.</p>
+
+                <p function="Additions">On the verso of the flyleaf <supplied>(f. <locus>iv</locus>)</supplied> (recto
+                    is blank) is (<origDate>xv</origDate>) <q>prec. xxs</q>, and an old list of contents,
+                        <handNote>handsomely written</handNote> (<origDate>xii</origDate>):<lb/>
+                    <q><name type="author">Machrobius</name> de saturnalibus<lb/> Sompnium <name type="person"
+                            >scipionis</name><lb/>
+                        <name type="author">Machrobius</name> super sompnium <name type="person">scipionis</name><lb/>
+                        <name type="author">Apuleius</name> de deo <name type="person">socratis</name></q>.<lb/> There
+                    has been an inscription below, but it is hopelessly gone.<lb/> A Parkerian scribe has written:
+                        <q>Hic liber scriptus <name type="person">Macrobii</name> ut aliquot alii scripti possunt in
+                        hunc usum seruari ut conferas librum impressurn cum scripto</q>. Then follows a full table of
+                    contents in red ink signed <name type="person">A. S. H.</name>
+                    <date>13 November 1711</date>.</p>
+
+                <p>Greek passages are not successfully written</p>
+
+                <p function="Research" rend="withinContents">The text of <name type="author">Macrobius</name> was seen
+                    by <name type="person">Gronovius</name> but not by <name type="person">Lud. Janus</name> nor <name
+                        type="person">Eyssenhardt</name>. The MS. was consulted in <date>1880</date> by <name
+                        type="person">Dr Lütjohann</name></p>
+
+                <p type="CCC">
+                    <foliation>ff. a + i + 1-151 + b-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="85v">
+                        <head type="CCC">
+                            <name type="author">Macrobius</name>, <title>Saturnalia</title>
+                        </head>
+
+                        <ab>The title of no. 1 has been added <decoNote>in red</decoNote> by a <origDate>xv</origDate>th
+                            cent. scholar who has also written headlines and some marginal notes. Is it <name
+                                type="person">Gunthorp</name>?</ab>
+
+                        <rubric locusNew="1r"><name type="person">Macrobii theodosii</name> viri consulis et illustris
+                            conuiuiorum primi diei saturnaliorum incipit prologus</rubric>
+                        <incipit locusNew="1r">Multas uariasque res</incipit>
+                        <rubric locus="1v">Argumentum</rubric>
+                        <incipit locusNew="1v">Saturnalibus apud Vectium</incipit>
+                        <ab locus="27v">Liber II (III)</ab>
+                        <ab locusNew="43r">At the end is a supply of an omitted passage</ab>
+                        <ab locus="43v">Liber III (IV)</ab>
+                        <ab>Ends (Liber VII)</ab>
+                        <explicit locus="85v">lunari repugnat humori</explicit>
+                        <rubric locusNew="85v"><name type="author">Macrobii Theodosii</name> viri consulis et illustris
+                            conuiuiorum tertii diei</rubric>
+                    </msItem>
+
+                    <msItem n="2" locusStart="85v" locusEnd="87v">
+                        <head type="CCC">
+                            <name type="author">Cicero (M. Tullius Cicero)</name>, <title>Somnium <name type="person"
+                                    >Scipionis</name></title>
+                        </head>
+
+                        <rubric locusNew="85v">Incipit somnium <name type="person">publii. Scipionis Affricani</name>
+                            minoris exceptum ex libro vito <name type="author">Marci Tullii Ciceronis</name> de Re
+                            Publica</rubric>
+                        <incipit locus="85v">Cum in <name type="place">affricam</name></incipit>
+                        <explicit locusNew="87v">somno solutus sum</explicit>
+                        <rubric locusNew="87v">Explicit Somnium</rubric>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="87v" locusEnd="128r">
+                        <head type="CCC">
+                            <name type="author">Macrobius</name>, <title>Commentary on Cicero's Somnium <name
+                                    type="person">Scipionis</name></title>
+                        </head>
+                        <rubric locusNew="87v">Incipit commentum <name type="author">macrobii</name> super
+                            illud</rubric>
+                        <incipit locus="87v">Inter <name type="person">platonis</name> et <name type="person"
+                                >ciceronis</name> libros</incipit>
+
+                        <ab>Blank spaces are left for the diagrams</ab>
+                        <ab>Ends</ab>
+                        <explicit locusNew="128r">philosophie continetur integritas</explicit>
+                    </msItem>
+
+                    <msItem n="4" locusStart="128r" locusEnd="132r">
+                        <head type="CCC">
+                            <name type="author">Apuleius</name>, <title>De <name type="person">Platone</name> et eius
+                                dogmate, book 1</title>
+                        </head>
+
+                        <head type="James">
+                            <title><name type="author">Apuleius</name> de dogmate <name type="person">Platonis</name>
+                                liber I</title>
+                        </head>
+                        <ab>(<ref type="bibl" target="Hildebrand 1842">Hildebrand, p. 201</ref>)</ab>
+                        <incipit locusNew="128r"><name type="person">(P)latoni</name> habitudo corporis</incipit>
+                    </msItem>
+
+                    <msItem n="5" locusStart="132r" locusEnd="137v">
+                        <head type="CCC">
+                            <name type="author">Apuleius</name>, <title>De <name type="person">Platone</name> et eius
+                                dogmate, book 2</title>
+                        </head>
+
+                        <head type="James">
+                            <title>Eiusdem liber II</title>
+                        </head>
+                        <ab>(<ref type="bibl" target="Hildebrand 1842">Hildebrand, p. 212</ref>)</ab>
+                        <incipit locus="132r">(H)inc moralis philosophie caput est faustine</incipit>
+                        <explicit locusNew="137v">tali fine moderetur</explicit>
+
+
+                    </msItem>
+
+                    <msItem n="6" locusStart="137v" locusEnd="144v">
+                        <head type="CCC">
+                            <name type="author">Apuleius</name>, <title>De mundo</title>
+                        </head>
+
+                        <head type="James">
+                            <title>Idem de mundo</title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Hildebrand 1842">Hildebrand, p. 264</ref>
+                        </ab>
+                        <incipit locus="137v">(C)onsideranti michi faustine</incipit>
+                        <explicit locusNew="144v">dedit atque permisit</explicit>
+
+                    </msItem>
+
+                    <msItem n="7" locusStart="144v" locusEnd="150r">
+                        <head type="CCC">
+                            <name type="author">Apuleius</name>, <title>De deo <name type="person"
+                                >Socratis</name></title>
+                        </head>
+
+                        <rubric locusNew="144v"><name type="author">Apulei affri madaurensis</name> philosophi.
+                            platonici de deo <name type="person">socratis</name> liber incipit</rubric>
+
+                        <incipit locus="144v" locusNew="145r">(Q)ui me uoluistis dicere extempore</incipit>
+                        <ab>
+                            <ref type="bibl" target="Hildebrand 1842">Hildebrand, p. 187</ref>
+                        </ab>
+                        <explicit locusNew="150r">sirenas audiit nec accessit</explicit>
+
+                    </msItem>
+
+                    <msItem n="8" locusStart="150r" locusEnd="151v">
+                        <head type="CCC">
+                            <name type="author">Adelbodus</name>, <title>Epistola ad <name type="person"
+                                    >Gerbertum</name></title>
+                        </head>
+
+                        <head type="James">
+                            <title><name type="author">Adelbodus</name> ad <name type="person">Gerbertum</name></title>
+                        </head>
+
+                        <incipit locus="150r">Domino silvestro summo pontifici et philosopho <name type="person">G.
+                                A.</name> uite felicitatem ... <name type="person">Macrobius</name> super somnium <name
+                                type="person">scipionis</name> ubi loquitur</incipit>
+                        <ab>(<ref type="bibl" target="Migne 140"><supplied>P. L.</supplied> CXL 1104</ref>)</ab>
+                        <ab locusNew="150v">
+                            <decoNote>One diagram inserted, spaces left for the others</decoNote>, <supplied>(f.
+                                    <locus>151r</locus>)</supplied>
+                        </ab>
+                        <explicit locusNew="151v">sed etiam invenitur idem in puteorum profunditatibus. Vale.</explicit>
+                    </msItem>
+
+                    <msItem n="9" locusStart="151v" locusEnd="151v">
+                        <head type="CCC">
+                            <name type="author">Gerbert of Aurillac (Pope Sylvester II)</name>, <title>Epistola ad <name
+                                    type="person">Adelbodum</name></title>
+                        </head>
+
+                        <incipit locusNew="151v"><name type="author">(G)erbertus</name>
+                            <name type="person">Adelbodo</name> nunc usque dilecto ... In his ergo geometricis
+                            figuris</incipit>
+
+                        <ab>Ends unfinished</ab>
+                        <explicit locusNew="151v">sollertia autem geometrice</explicit>
+                        <ab>See <ref type="bibl" target="Olleris 1867">Olleris, <hi rend="italic">Oeuvres de
+                                    Gerbert</hi> 1867, p. 477</ref></ab>
+                        <ab>
+                            <supplied agent="JamesCorrigenda">See also <ref type="bibl" target="Bubnov 1899">Bubnov, <hi
+                                        rend="italic">Gerberti opera mathematica</hi> 1899, pp. xxv, 42, 300</ref>. The
+                                manuscript is used for the text of this edition</supplied>
+                        </ab>
+
+
+                    </msItem>
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: first folio check, BA, 6/11/2008 - NJM 17/11/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

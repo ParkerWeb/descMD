@@ -1,0 +1,130 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC447">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>447</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>N. 34</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>198</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Plutarch, <hi rend="italic">Quaestiones Graecae et Romanae</hi> (excerpted from <hi
+                        rend="italic">Moralia</hi>, book 4)</head>
+                <head type="James">Plutarch's Quaestiones Graecae<!--corrected in James Corrigenda--> et Romanae</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">181</height>
+                        <width unit="mm">120</width>
+                    </measureGrp>, <measureGrp type="James">7 x 4.8</measureGrp>, <extent>ff. 2 + 88</extent>,
+                        <layout>20 lines to a page</layout>. Cent. <origDate>xvi early</origDate>, <handNote>in sloping
+                        Italic hand</handNote>, on fine smooth Italian vellum. </p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num>, 1<num>10</num>-8<num>10</num> 9<num>8</num></collation>.</p>
+
+                <p function="Additions">On f. <locus>ir</locus>, pasted over, is some writing: and also on f.
+                        <locus>88v</locus> which is likewise pasted over.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a + i-ii + 1-88 + b</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="86v">
+                        <head type="CCC">
+                            <name type="author">Plutarch</name>, <title>Quaestiones Graecae et Romanae (excerpted from
+                                Moralia, book 4)</title>
+                        </head>
+
+                        <ab>The text of ff. <locus>1r</locus>-<locus>8v</locus> has been erased more or less
+                            completely</ab>
+                        <ab>The volume contains a Latin version of the Quaestiones Romanae and Quaestiones Graecae of
+                                <name type="author">Plutarch</name></ab>
+                        <ab>On the early Latin versions see <ref type="bibl" target="Fabricius 1796">Fabricius, <hi
+                                    rend="italic">Bibl. Gr.</hi> V</ref> 203</ab>
+                        <ab>The first complete section is on f. <locus>9r</locus></ab>
+                        <incipit locus="9r">Quid est quod ancillis eadem Matute ingredi fas non est</incipit>
+                        <ab>(no. 16)</ab>
+                        <ab>The Roman questions end <locus>59v</locus></ab>
+                        <explicit locus="59v">et cognatorum quod bruto accidit</explicit>
+                        <ab>The Greek continue with no separate title</ab>
+                        <incipit locus="59v">Qui sunt quos epidauri compodes artinos appellant</incipit>
+                        <ab>A good many blanks are left in the text as if the archetype were defective. The text of ff.
+                                <locus>81r</locus>-<locus>82v</locus> is erased beginning in the question (no. 46)</ab>
+                        <incipit locusNew="80v">Quid est quod purgatorem uocant thralian (!)</incipit>
+                        <ab>The first after the blank is (no. 52)</ab>
+                        <incipit locusNew="83r">Quid cause quamobrem elei equas finibus eductas iniri faciunt</incipit>
+                        <ab>Ends</ab>
+                        <explicit locusNew="86v">postea a genere hamasocii liste
+                            (&#940;&#956;&#945;&#958;&#959;&#954;&#965;&#955;&#953;&#963;&#964;&#945;&#768;&#953;)
+                            nominati sunt</explicit>
+                        <rubric locusNew="86v">Finis</rubric>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, SP</p>
+                            <p>msCheck: NJC 20/05/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,181 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC213">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>213</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Lib. ab Al. 3</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>375</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Jean Galopes, Le livre doré de la vie de nostre seigneur Jesu Crist</head>
+                <head type="James">Jean de Galopes. Bonaventure</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">263</height>
+                        <width unit="mm">197</width>
+                    </measureGrp><measureGrp type="James">10.4 x 7.6</measureGrp>, <extent>ff. 161 + 1</extent>,
+                        <layout>33 lines to a page</layout>. Cent. <origDate>xv early</origDate>, <handNote>in a rather
+                        current French hand</handNote>: good ornaments.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>2</num> (2 leaves of paper follow) 2<num>8</num>-21<num>8</num> (wants
+                        8)</collation>.</p>
+
+                <p function="Provenance" rend="withinContents">On the flyleaf <supplied>(f.
+                        <locus>iv</locus>)</supplied> a partially erased inscription doubtless importing that the book
+                    belonged to <name type="person">Henry V</name>. The first part cannot be recovered wholly: what
+                    remains I read thus: .. livre fu au. <name type="person">henry le grant</name> (or prince?) deu par
+                    sa grace ait mercy de son ame. Amen.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i + 1-2 + 2a + 2b + 3-161 + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="frm" otherLangs="eng">Middle French and English.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="159r">
+                        <head type="CCC"><name type="person">Jean Galopes</name>, <title>Le livre doré de la vie de
+                                nostre seigneur Jesu Crist</title></head>
+
+                        <head type="Nasmith">
+                            <title>Le livre dore des meditations de la vie [de] nostre seigneur Iesu Crist selon <name
+                                    type="author">Bonneaventure</name> [traduit per <name type="person">Jehan
+                                    Galopes</name>]</title>
+                        </head>
+
+                        <ab>
+                            <decoNote>f. <locus>1r</locus> has border of line and leaf work and the arms of <name
+                                    type="place">England</name> and <name type="place">France</name> quarterly: also a
+                                half-page painting with chess-board ground. On L. <name type="person">Henry</name> in
+                                scarlet lined with white, crowned, seated on blue-canopied throne, the hangings semée
+                                with gold S's: on L. of him stand two men in doctoral robes. On R. one in green tunic,
+                                with moustache, holding a mace. On R. kneels <name type="person">Jean Galopes</name> in
+                                purplish robe, offering his book. The floor is of green and black tiles</decoNote>
+                        </ab>
+                        <ab>
+                            <ref type="bibl" target="Tyson 1770">An engraving of this, with a description, was published
+                                in 1770 by Michael Tyson, M.A., F.S.A., Fellow of the College</ref>
+                        </ab>
+
+                        <rubric locusNew="1r">Ci commence le liure dore. des meditations de la vie nostre seigneur Ihesu
+                            crist. selon <name type="author">Bonneauanture</name>. Et premierement le prologue du
+                            translateur</rubric>
+                        <incipit locusNew="1r">Au tres haust tresfort et tres victorieux prince <name type="person"
+                                >Henry quint</name> (different ink) de ce nom ... Vostre humble chapelain <name
+                                type="person">Jehan Galopes</name> dit</incipit>
+                        <explicit locusNew="2v">bien viure et bien finez. Amen</explicit>
+                        <ab>After f. <locus>2v</locus> is an English version of the prologue, of cent.
+                                <origDate>xvi</origDate>, <material>on two leaves of paper</material></ab>
+
+                        <rubric locus="3r">Ci commence le prologue de lacteur du liure dore de la vie nostre seigneur
+                            Ihesu Crist selon <name type="author">Bonneauanture</name></rubric>
+                        <incipit locusNew="3r">Entre les aultres annonciacions des vertus</incipit>
+                        <ab locusNew="3r">
+                            <decoNote>Large miniature in the initial: red ground with gold flourishing. On L. <name
+                                    type="author">Bonaventura</name> in Franciscan habit and cardinal's hat holds his
+                                book open. On R. a man in a brilliant blue robe with gypciere at his girdle. This is
+                                fine work</decoNote>
+                        </ab>
+                        <explicit locusNew="6r">vueil premier parler</explicit>
+                        <rubric locusNew="6r">Des meditations des choses lesquelles precedent lincarnacion de nostre
+                            seigneur Ihesu Crist</rubric>
+                        <ab>Chapter I. Text begins</ab>
+                        <incipit locus="6v">Apres ce que par tres long temps</incipit>
+                        <ab locusNew="6v">
+                            <decoNote>Miniature in initial. Above, the Father half length in sphere with orb. Below, in
+                                air, three angels in white interceding. At bottom, three nude souls stand in Hell
+                                mouth</decoNote>
+                        </ab>
+                        <ab>
+                            <decoNote>On f. <locus>141v</locus> is a good drawing of a magpie on a dog's back</decoNote>
+                        </ab>
+                        <ab>Ends</ab>
+                        <explicit locus="156r">dieu beney et laudable au siecle des siecles a perpetuite.
+                            Amen</explicit>
+                        <rubric locusNew="156r">Ci fine le liure dore de la vie de Jesu Crist compose par Sire <name
+                                type="author">Bonneauanture</name></rubric>
+                        <ab locus="156v">Table of chapters</ab>
+                        <ab>At the end (f. <locus>159r</locus>) an erasure in which I read Cest liure ... ... de
+                            Stafford</ab>
+                        <ab>An inscription well written in cent. <date>xvi</date> follows</ab>
+                        <ab locusNew="159r">This wasse sumtyme <name type="person">King Henri ye / fifeth</name> his
+                            Booke; which containeth / the lyfe of Christ &amp; the psalmes / of the patriarkes and
+                            prophetes; the / psalmes of ye prophet <name type="person">Dauid</name> omittid; / Mani
+                            excilent notes, thoughe some thinges waienge / the tyme; maye be amendid; Rede Iudge
+                            &amp; thanke / God for a better light</ab>
+                        <ab>On f. <locus>160v</locus> is written Salue sancta facies</ab>
+                        <ab>On f. <locus>161r</locus> an erasure. Below it <decoNote>on a scroll</decoNote></ab>
+                        <ab locusNew="161r">honny soit qi mal y pense</ab>
+                        <ab locusNew="161r"><decoNote>A sketch of Prince of Wales's feathers ?</decoNote> and: loes soyt
+                            deus</ab>
+                        <ab locusNew="161r">Also other scribbles, and: xxxiii<abbr rend="superscript">s</abbr> iiij<abbr
+                                rend="superscript">d</abbr></ab>
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: NJM 23.10.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

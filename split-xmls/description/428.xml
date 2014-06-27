@@ -1,0 +1,113 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC428">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>428</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Misc. 13</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">John Baret OCarm, Collectanea</head>
+                <head type="James">Ioh. Barret Collectanea</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">203</height>
+                        <width unit="mm">140</width>
+                    </measureGrp>, <measureGrp type="James">8 x 5.6</measureGrp>. Cent. <origDate>xvi</origDate>, many
+                    blank pages.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + pp. 1-38 + 38a + 39a + 39-316 + ff. iii-iv</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1" locusEnd="299">
+                        <head type="CCC">
+                            <name type="author">John Baret OCarm</name>, <title>Collectanea</title>
+                        </head>
+                        <ab>The principal headings are</ab>
+                        <rubric locus="1" locusNew="2">Peccata quibus maxime hodie populus sit obnoxius</rubric>
+                        <rubric locus="15">Obstinata populi peruicatia et impoenitentia</rubric>
+                        <rubric locus="29">Poenitentie</rubric>
+                        <rubric locus="37" locusNew="38a">Minae et afflictiones a deo pro peccatis</rubric>
+                        <rubric locus="49">Pastores pseudoprophete seductores et inertes</rubric>
+                        <rubric locus="63">De cruce et afflictione</rubric>
+                        <rubric locus="73">Consolatio</rubric>
+                        <rubric locus="91">Bona opera, etc.</rubric>
+                        <rubric locus="99">Principibus ... obtemperandum</rubric>
+                        <rubric locus="107">De Ecclesia, etc.</rubric>
+                        <ab>The last item, p. <locus>293</locus>, is</ab>
+                        <rubric locus="293">Collectaneae quaedam Rapsodiae ex lectione <name type="person">Hosii
+                                episcopi</name> contra <name type="person">Brentium</name></rubric>
+                        <ab>Cf. nos. <ref type="ms" target="CCC124">124</ref>, and <ref type="ms" target="CCC413"
+                                >413</ref></ab>
+
+
+
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: KAW 22/04/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

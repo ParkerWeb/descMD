@@ -1,0 +1,205 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC253">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>253</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>L. 17</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>137</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Augustine, Confessiones. Ferrandus, Epistola ad Reginum comitem. Hymn for Augustine,
+                    etc.</head>
+                <head type="James">Augustini Confessiones. Ferrandus</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">275</height>
+                        <width unit="mm">185</width>
+                    </measureGrp><measureGrp type="James">11.2 x 7.2</measureGrp>, <extent>ff. 1 + 142</extent>,
+                        <layout>32 and 38 lines to a page</layout>. Cent. <origDate>xi</origDate> (<handNote>in the
+                        pointed hand characteristic of <name type="place">Christ Church, Canterbury</name></handNote>)
+                    and <origDate>xii</origDate>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num>-16<num>8</num> 17 (four) || 18<num>10</num></collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>funderis</secFol>.</p>
+
+                <p function="Provenance">I have little doubt that this book belonged to <name type="place"
+                        >Canterbury</name> or <name type="place">Rochester</name>, but I cannot trace it in the
+                    catalogues. </p>
+
+                <p function="Additions">On f. <locus>1r</locus> in large capitals: AUG DE CONF'.</p>
+                <p function="Additions" rend="afterContents">On the last leaf <supplied>f.
+                        (<locus>142r</locus>)</supplied> (<origDate>xvi</origDate>): <lb/> Take heede whome thow
+                    trustiste<lb/> Be suretie for no man <lb/> and<lb/> Euer paye debte<lb/> Seldome make debte<lb/>
+                    Neuer be suertie for debte<lb/>
+                </p>
+
+                <p type="CCC">
+                    <foliation>ff. a-c + i + 1-142 + d-f</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="enm">Latin with some notes in Middle English.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1.1" locusStart="1r" locusEnd="1r">
+                        <head type="CCC"><name type="author">Augustine</name>, <title>Retractatio (extract referring to
+                                Confessiones)</title>
+                        </head>
+
+                        <rubric locus="1r">Retractatio in libris confessionum</rubric>
+                        <incipit locusNew="1r">Confessionum mearum libri</incipit>
+                        <explicit locusNew="1r">sic incipit</explicit>
+                    </msItem>
+
+                    <msItem n="1.2" locusStart="1r" locusEnd="132v">
+                        <head type="CCC"><name type="author">Augustine</name>, <title>Confessiones</title></head>
+                        <rubric locusNew="1r">Confessionum <name type="author">Aurelii Augustini</name> Incipit liber
+                            primus</rubric>
+                        <ab>(<ref type="bibl" target="Migne 032"><supplied>P. L.</supplied> XXXII 659</ref>)</ab>
+                        <incipit locusNew="1r">Magnus es domine</incipit>
+                        <ab locusNew="1r">
+                            <decoNote>A good drawing forms the initial. Gold has been inserted for the nimbus, etc. but
+                                the rest remains in outline. Christ seated in C. blessing. On R. a man in a broad hat,
+                                and on L. a bishop with low mitre, crosier and chasuble with gold band hold the ends of
+                                a scroll which passes in front of Christ's figure</decoNote>
+                        </ab>
+
+                        <ab locusNew="8v">Liber II, <decoNote>fine outline initial</decoNote></ab>
+                        <ab locusNew="13r"><supplied>Liber</supplied> III, <decoNote>initial partly filled with red and
+                                green</decoNote></ab>
+                        <ab>
+                            <decoNote>Subsequent books have also excellent initials, nearly all in outline. Those of
+                                Libri VII <supplied>(f. <locus>44v</locus>)</supplied>, X <supplied>(f.
+                                        <locus>76r</locus>)</supplied>, XI <supplied>(f. <locus>96r</locus>)</supplied>,
+                                XII <supplied>(f. <locus>106v</locus>)</supplied> are perhaps the best</decoNote>
+                        </ab>
+                        <ab>Liber XIII ends</ab>
+                        <explicit locus="130v">sic aperietur. Amen</explicit>
+                        <rubric locusNew="130v"><name type="author">Aurelii Augustini</name> Confessionum Liber Tercius
+                            decimus explicit</rubric>
+                        <ab>f. <locus>131r</locus>-<locus>132v</locus> blank</ab>
+
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="2" locusStart="133r" locusEnd="140r">
+                        <head type="CCC"><name type="author">Ferrandus</name>, <title>Epistola ad <name type="person"
+                                    >Reginum comitem</name> (epistola 7)</title></head>
+
+                        <ab>
+                            <handNote>In a narrow black hand of cent. <origDate>xii</origDate></handNote>
+                        </ab>
+                        <rubric locus="133r">In nomine Sancti Trinitatis incipit liber <name type="author"
+                                >ferrandi</name> cartaginiensis ecclesie diaconi de bono duce ad reginum
+                            comitem</rubric>
+                        <ab>(<ref type="bibl" target="Migne 067"><supplied>P. L.</supplied> LXVII 928</ref>)</ab>
+                        <incipit locusNew="133r">Socialis uite laboribus exercendus</incipit>
+                        <explicit locusNew="140r">dabitur dicitur christianis perpetuus principatus. per dominum nostrum
+                            Iesum Christum qui cum patre et spiritu sancto uiuit et regnat deus in secula seculorum.
+                            Amen</explicit>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="140v" locusEnd="141r">
+                        <head type="CCC"><title>Hymn for <name type="person">St Augustine</name></title>, with music </head>
+
+                        <ab locusNew="140v"><handNote>In a good hand of cent. <origDate>xii</origDate></handNote>: music
+                            on 3-line stave</ab>
+                        <ab locusNew="140v">Hymn for <name type="person">St Augustine</name></ab>
+                        <incipit locus="138v" locusNew="140v">Interni festi gaudia nostra sonet armonia</incipit>
+                        <explicit locusNew="141r">det nobis mater gratia. Amen</explicit>
+                    </msItem>
+
+                    <msItem n="4" locusStart="141v" locusEnd="141v">
+                        <head type="CCC">
+                            <title>On the youth of the Virgin Mary</title>
+                        </head>
+
+                        <ab>
+                            <handNote>In a hand of cent. <origDate>xiv-xv</origDate> current</handNote>
+                        </ab>
+                        <incipit locusNew="141v">Cum beata virgo esset trium annorum a parentibus oblata fuit in templo
+                            et ibi fuit usque ad annum xiiij<abbr rend="superscript">mum</abbr></incipit>
+                        <ab locusNew="141v">Inter alia vero hec continentur. Dum inquid pater meus et mater mea
+                            dimiserunt me in templo statim in corde meo posui deum habere in patrem et deuote ac
+                            frequenter cogitabam quid possem facerem deo gratum ut mihi dignaretur suam dare gratiam. Et
+                            feci mihi dari legem dei mei ac ex omnibus preceptis diuine legis tria precipue seruaui in
+                            corde meo s. diliges dominum deum tuum ex toto corde tuo et ex tota anima tua et ex tota
+                            mente tua et ex omnibus viribus tuis Item diliges proximum tuum sicut teipsum Jtem odio
+                            habebis inimicum tuum Ista seruaui in corde meo et statim omnes virtutes apprehendi que in
+                            ipsis continentur. anima autem habere aliquam virtutem non potest</ab>
+                        <ab>(Evidently medieval and probably from some one's Revelations)</ab>
+                        <ab>Ends</ab>
+                        <explicit locusNew="141v">septimo petebam ut templum et uniuersum populum ad suum seruicium
+                            conseruaret</explicit>
+                        <incipit locusNew="141v"><name type="person">Ieronimus</name> ita scribit de vita ipsius. hanc
+                            regulam statuerat</incipit>
+                        <explicit locusNew="141v">in opere dei et amore proficiebat</explicit>
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: RJR 9/11/07</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

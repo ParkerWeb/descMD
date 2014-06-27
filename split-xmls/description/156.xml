@@ -1,0 +1,581 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC156">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>156</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>P. 21</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>250</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Miscellaneous Treatises and Sermons on Indulgences and Confession (Vols. II, III).
+                    Petrus Aureoli OFM, Compendium litterale totius scripture (Vol. IV). John of Genoa OP, Catholicon
+                    (Vol. V)</head>
+                <head type="James">Ioh. Cassianus. Ric. Armachanus etc.</head>
+
+                <p function="Codicology"><material>Paper and vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">300</height>
+                        <width unit="mm">210</width>
+                    </measureGrp>
+                    <measureGrp type="James">11.8 x 8.2</measureGrp>, <extent>ff. 74 + 113 + 115 + 99 + 21</extent>.
+                    Cent. <origDate>xv and xvi</origDate>, several volumes <handNote>in various hands</handNote>.</p>
+
+                <p function="Multivolume"><lb/><label>Volume I:</label>
+                    <supplied>Printed material, now bound separately as CCCC Parker Library: SP 322A.</supplied><lb/>
+                    <label>Volume III:</label><material>Outer and middle sheets vellum: the rest paper</material>.
+                    (Water-mark: a ring with pointed bezel.) <layout>42 lines to a page</layout>. Cent.
+                        <origDate>xv</origDate>, <handNote>the latter part in good clear hand</handNote>.
+                        <lb/><label>Volume IV:</label>
+                    <material>Vellum</material>, <layout>double columns of 38 lines</layout>. Cent.
+                        <origDate>xv</origDate>, <handNote>ugly small current hand</handNote>, <extent>ff. 99</extent>. <lb/>
+                    <lb/><label>Volume V:</label>
+                    <material>Paper and vellum</material>, <layout>triple columns</layout>. Cent. <origDate>xv
+                        late</origDate>, <handNote>in a bad hand</handNote>, <extent>21 ff</extent>.</p>
+
+
+                <p>
+                    <label>Collation:</label>
+                    <lb/>
+                    <label>Volume III:</label>
+                    <collation>A<num>16</num> (wants 1, 8) B<num>20</num> (wants one in 1st half) C<num>20</num> (wants
+                        3 at end) D<num>20</num>-F<num>20</num> G (three)</collation>.<lb/>
+                    <label>Volume IV:</label>
+                    <collation>a<num>12</num>-h<num>12</num> i (three)</collation>.<lb/>
+                    <label>Volume V:</label>
+                    <collation>a<num>12</num> (middle sheet vellum) b<num>10</num> (wants 10)</collation>. </p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-246 + iii-iv</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="enm">Latin and Middle English.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1">
+                        <head type="CCC">
+                            <name type="author">John Cassian</name>, <title>Collationes (excerpt)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Fragmentum collationum <name type="author">Iohannis Cassiani</name>, liber
+                                impressus</title>
+                        </head>
+                        <ab>Incipit capitula</ab>
+                        <ab>diffinitionem</ab>
+                        <ab>Ends with</ab>
+                        <explicit>secunda collatio <name type="person">abbatis sereni</name> de principatibus</explicit>
+                        <ab>Printed by the Fratres vitae communis: <ref type="bibl" target="Proctor 1898">Proctor
+                                9935</ref>, <ref type="bibl" target="Campbell 1874-90">Campbell 399</ref>, <ref
+                                type="bibl" target="Hain 1826-38">Hain 4561</ref></ab>
+                        <ab>
+                            <supplied agent="NJM">Since the M. R. James catalogue this printed book has been bound
+                                separately as CCCC Parker Library SP 322A and it has therefore not been
+                                imaged</supplied>
+                        </ab>
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+                    <msItem n="2" locusStart="1r" locusEnd="1v">
+
+                        <head type="CCC">
+                            <name type="author">Paul II</name>, <title>Bull regarding feast days (1467)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Bulla <name type="author">Pauli papae II</name> de observantia dierum festorum dat.
+                                    <date>1467</date></title>
+                        </head>
+                        <incipit locusNew="1r">Perniciosa consuetudo</incipit>
+
+                    </msItem>
+
+
+                    <msItem n="3" locusStart="1v" locusEnd="4v">
+                        <head type="CCC">
+                            <name type="author">Paul II</name>, <title>Bull regarding excommunication (1467)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Bulla ejusdem papae denuntians sententiam excommunicationis. contra omnes hereticos
+                                et cetera data <date>kalendis Aprilis 1467</date></title>
+                        </head>
+                        <incipit locusNew="1v">Consueuerunt Romani pontifices</incipit>
+
+                        <ab>
+                            <supplied>Fol. <locus>3r</locus>-<locus>3v</locus> has been misbound; it should follow fol.
+                                    <locus>4v</locus> and is part of the next item</supplied>
+                        </ab>
+
+                    </msItem>
+
+
+                    <msItem n="4.1" locusStart="3r" locusEnd="6v">
+                        <head type="CCC">
+                            <name type="author">Hucbald of Saint-Amand OSB</name>, <title>Ecloga de caluis</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Versus <name type="person">Hu(c)baldi</name> de laude calvorum</title>
+                        </head>
+
+                        <ab>
+                            <supplied>The text begins on fol. <locus>4v</locus>, continues on fol.
+                                    <locus>3r</locus>-<locus>3v</locus> and then fol.
+                                    <locus>5r</locus>-<locus>6r</locus>. Fol. <locus>6v</locus> is blank</supplied>
+                        </ab>
+
+                        <rubric locusNew="4v">Incipit versus <name type="person">hubaldi</name> de laude caluorum quos
+                            G. compleuit</rubric>
+                        <incipit locusNew="4v">Carmina clarisone caluis cantate camene</incipit>
+                        <ab>(<ref type="bibl" target="Migne 132"><supplied>P. L.</supplied> CXXXII 1042, 3</ref>)</ab>
+                        <ab>Ending</ab>
+                        <explicit locusNew="6r">Clausula completur commendans carmine caluos.<lb/> Amen. Alleluya.<lb/>
+                            Ter quinquagenos cecinit dauid ordine psalmos<lb/> Ostendit caluos opus hoc tot versibus
+                            almos</explicit>
+                    </msItem>
+
+
+                    <msItem n="4.2" locusStart="7r" locusEnd="7v">
+                        <head type="CCC"><name type="author">Thomas Bourchier</name>, <title>Epistola ad summum
+                                pontificem</title></head>
+                        <ab>On the next leaf</ab>
+                        <rubric locusNew="7r">Subscripcio literarum d<abbr rend="superscript">ni</abbr>
+                            <name type="person">Thome Cardinalis Cant. Archiep.</name> ad summum pontificem</rubric>
+                        <ab>Followed by</ab>
+                        <incipit locusNew="7r">Subscripcio literarum eiusdem ad cardinalem</incipit>
+                        <explicit locusNew="7r">ad alium cardinalem</explicit>
+                        <rubric locusNew="7r">Principium literarum regis. Princip. litt. cardinalis</rubric>
+                    </msItem>
+
+                    <msItem n="5" locusStart="8r" locusEnd="8v">
+                        <head type="CCC">
+                            <name type="author">Henricus de Langenstein (Hassia)</name>, <title>Tractatus de proprietate
+                                monachorum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Expositio regulae <name type="person">S. Benedicti</name> de peculio
+                                monachorum</title>
+                        </head>
+                        <ab>On the next leaf</ab>
+                        <incipit locusNew="8r">In nomine etc. Pro salute eorum qui vicia fugere cupiunt</incipit>
+                        <ab>A proof that <q>monacho nec proprium licet habere nec peculium excepta causa
+                                administracionis</q></ab>
+                        <ab locusNew="9r">Five blank leaves follow</ab>
+                        <ab>The above is a quire of 16 leaves: three are cut out</ab>
+
+                    </msItem>
+
+                    <milestone n="III" unit="volume"/>
+
+                    <msItem n="6" locusStart="14r" locusEnd="21v">
+                        <head type="CCC">
+                            <name type="author">François de Meyronnes OFM</name>, <title>De indulgentiis</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sermo fratris <name type="author">Francisci de Maronis</name> de indulgentiis in
+                                presentia D. papae et cardinalium tempore indulgentiarum</title>
+                        </head>
+
+                        <incipit locus="1r" locusNew="14r">Quodcunque ligaueris etc. <lb/>Duos fines ultimos esse
+                            futuros</incipit>
+
+                        <ab>f. <locus locusNew="21r">8r</locus>-<supplied>
+                                <locus>21v</locus>
+                            </supplied> blank</ab>
+                        <ab>Also in <ref type="ms" target="CCC107">MS 107</ref>, <ref type="ms" target="CCC151">MS
+                                151</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="7" locusStart="22r" locusEnd="25v">
+                        <head type="CCC">
+                            <name type="author">Richard FitzRalph</name>, <title>Summa de quaestionibus Armenorum
+                                (excerpt de indulgentiis)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Excerptum ex libro <name type="person">Ricardi Radulphi [Fitz-Ralph]</name> de
+                                questionibus Armenorum Lib. xiii. cap. 19 de indulgentiis</title>
+                        </head>
+                        <rubric locus="9r" locusNew="22r"><name type="person">Ricardus Radulphus</name> Archiepiscopus
+                            Armacanus hibernie primas de questionibus Armenorum li<abbr rend="superscript">o</abbr> 13
+                                c<abbr rend="superscript">o</abbr> 19 || Colonie in biblia fratrum minorum</rubric>
+                        <ab>Extracts</ab>
+                        <ab>ff. <locus locusNew="24v">11v</locus>-<locus locusNew="25v">12v</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="8" locusStart="26r" locusEnd="28r">
+                        <head type="CCC">
+                            <name type="author">Richard Fishacre OP</name>, <title>Commentary on the Lombard's Sentences
+                                (excerpt from book 4, dist. 45, de indulgentiis)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sententia <name type="author">venerabilis doctoris Ricardi Fysschakyr</name> de
+                                indulgentiis super 4tum librum sententiarum. dist. 45</title>
+                        </head>
+                        <incipit locus="13r" locusNew="26r">Hec que subscribuntur sunt dicta <name type="author">fratris
+                                Ricardi ffyschakyr</name> ord. predicatorum super 4<abbr rend="superscript">m</abbr>
+                            lib. sententiarum dist. 45 de indulgenciis</incipit>
+                    </msItem>
+
+                    <msItem n="9" locusStart="28v" locusEnd="34v">
+                        <head type="CCC">
+                            <name type="author">Parisiensis (? Willelmus Peraldus OP)</name>, <title>De
+                                indulgencia</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Parisiensis de eadem re</title>
+                        </head>
+
+                        <rubric locus="15v" locusNew="28v">Parisiensis</rubric>
+                        <incipit locusNew="28v">Quia vero de indulgencia fit sermo ideo primo videamus</incipit>
+                        <ab>ff. <locus locusNew="30v">17v</locus> - <locus locusNew="34v">21v</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="10" locusStart="35r" locusEnd="42v">
+                        <head type="CCC">
+                            <name type="author">Richard of Saint-Victor OSA</name>, <title>De potestate ligandi et
+                                soluendi</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Libellus <name type="author">venerabilis Ricardi de Sancto Victore</name> de
+                                potestate clavium sacerdotalium</title>
+                        </head>
+
+                        <rubric locus="22r" locusNew="35r">Hec que subsequuntur sunt <name type="author">venerabilis
+                                Ricardi de Sancto Victore</name> de potestate clauium sacerdotalium</rubric>
+                        <incipit locusNew="35r">Quodcunque ligaueris etc. Queritis a me utrum hec ligandi</incipit>
+                        <ab>(<ref type="bibl" target="Migne 196"><supplied>P. L.</supplied> CXCVI 1159</ref>)</ab>
+                        <explicit locusNew="41v">non imputauit dominus peccatum etc.</explicit>
+                        <rubric locusNew="41v">Explicit libelus <name type="author">venerabilis Ricardi</name>
+                            etc.</rubric>
+                        <ab>f. <locus locusNew="42r">29r</locus>-<locus locusNew="42v">29v</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="11" locusStart="43r" locusEnd="51r">
+                        <head type="CCC">
+                            <name type="author">Henry of Gent</name>, <title>Quodlibet 14, De indulgentiis</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Questio decima-quarta quodlibeti <name type="author">Magistri Henrici de
+                                    Gandavo</name> de indulgentiis</title>
+                        </head>
+                        <rubric locus="30r" locusNew="43r">Questio 14<abbr rend="superscript">a</abbr> quodlibeti 5<abbr
+                                rend="superscript">mi</abbr>
+                            <name type="author">Henrici de Gandauo</name> de Indulgenciis hic subsequitur</rubric>
+                        <incipit locusNew="43r">Circa 2<abbr rend="superscript">m</abbr> articulum quod
+                            indulgencie</incipit>
+
+                    </msItem>
+
+                    <msItem n="12" locusStart="51r" locusEnd="52v">
+                        <head type="CCC">
+                            <title>Utrum principi terrenorum necessaria sit peritia literarum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Utrum principi terrenorum necessaria sit peritia literarum</title>
+                        </head>
+
+                        <incipit locus="38" locusNew="51r">Utrum principi etc. Quod non quia <name type="person"
+                                >saul</name> electus fuit cum esset ydeota et simplex</incipit>
+                    </msItem>
+
+                    <msItem n="13" locusStart="53r" locusEnd="53v">
+                        <head type="CCC">
+                            <title>De indulgentiis</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Notabilia doctoris subtilis de indulgentiis</title>
+                        </head>
+
+                        <ab>Three paragraphs</ab>
+                        <ab><locus locusNew="53v">40v</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="14.1" locusStart="54r" locusEnd="60r">
+                        <head type="CCC">
+                            <name type="author">François de Meyronnes OFM</name>, <title>De subiectione
+                                principatus</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Utrum iste qui principatur secundum jurisdictionem universalem tanquam monarcha
+                                debeat de jure naturali subjacere illi qui principatur secundum plenitudinem potestatis
+                                in spiritualibus quoad omnia, qui dicitur ierarcha</title>
+                        </head>
+
+                        <incipit locus="41r" locusNew="54r">Utrum ... secundum jurisdictionem universalem etc.</incipit>
+                        <ab locus="47r" locusNew="60r">Ends</ab>
+                    </msItem>
+                    <msItem n="14.2" locusStart="60v" locusEnd="60v">
+                        <head type="CCC">
+                            <title>Sermon on the Pardon of Syon</title>
+                        </head>
+                        <rubric locus="47v" locusNew="60v">Here begynnyth a sermon of pardon and specially of the pardon
+                            of Syon</rubric>
+                        <incipit locusNew="60v">Tibi dabo claues regni celorum m<abbr rend="superscript">t</abbr>as in
+                            euangelio huius festiuitatis et pro themate hodierno</incipit>
+                        <incipit locusNew="60v">The gospell of this fest tellith howe oure lord askede of his disciples
+                            etc.</incipit>
+                        <ab>(18 lines only)</ab>
+                        <ab>ff. <locus locusNew="61r">48</locus> - <locus locusNew="62v">49v</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="15" locusStart="63r" locusEnd="63v">
+                        <head type="CCC">
+                            <name type="author">Mansuetus</name>, <title>Epistola ad <name type="person"
+                                    >Constantinum</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Epistola incompleta <name type="author">Mansueti Medicanensis episcopi</name> ad
+                                    <name type="person">Constantem imperatorem</name></title>
+                        </head>
+
+                        <ab><handNote>In a bad hand</handNote>, headed</ab>
+                        <rubric locus="50" locusNew="63r">Script. <name type="person">fratris Iohannis Henffeld
+                                monachi</name></rubric>
+                        <rubric locusNew="63r">Epistola incompleta etc.</rubric>
+                        <incipit locusNew="63r">Quicquid (?) Augustinus omni sapientia clarus siue ambrosius</incipit>
+                        <explicit locusNew="63v">non erit finis. Quod videre nos faciat J. C. Amen</explicit>
+                        <ab><name type="author">Mansuetus Abp of Milan</name> (for Medicanensis read Mediolanensis)
+                            wrote the Epistle to <name type="person">Constantine Pogonatus</name> in <date>679</date>.
+                            It is prefixed to the Acts of the Sixth Council (A. D. <date>680</date>)</ab>
+
+                    </msItem>
+
+                    <msItem n="16" locusStart="64r" locusEnd="102v">
+                        <head type="CCC">
+                            <name type="author">Antoninus Florentinus (Antonino Pierozzi) OP</name>, <title>De
+                                instructione confessoris</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De potestate confessorum</title>
+                        </head>
+
+                        <ab>
+                            <handNote>In a good regular hand</handNote>
+                        </ab>
+                        <incipit locus="51r" locusNew="64r">Defecerunt scrutantes scrutineo ait psalmista</incipit>
+                        <explicit locusNew="102v">in aliis doctoribus et tanguntur in summa maystracia</explicit>
+                    </msItem>
+
+                    <msItem n="17" locusStart="103r" locusEnd="108v">
+                        <head type="CCC">
+                            <name type="author">Antoninus Florentinus (Antonino Pierozzi) OP</name>, <title>Tractatus de
+                                restitutione</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De restitutione</title>
+                        </head>
+
+                        <incipit locus="90r" locusNew="103r">Circa materiam restitucionis seu satisfactionis
+                            notandum</incipit>
+                        <explicit locusNew="108v">quando ista non fiunt ex odio</explicit>
+                        <rubric locusNew="108v">finis de restitucione fienda</rubric>
+                    </msItem>
+
+                    <msItem n="18" locusStart="109r" locusEnd="117v">
+                        <head type="CCC">
+                            <name type="author">Iohannes de Turrecremata (Juan de Torquemada) OP</name>,
+                                <title>Meditationes (Contemplationes)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Orationes</title>
+                        </head>
+
+                        <ab locus="96r" locusNew="109r">A series of meditations</ab>
+                        <incipit locusNew="109r">Quando deus creauit celum et terram et omnia que in eis sunt</incipit>
+                        <incipit locusNew="109r">O admiranda et laudanda tue dispensacionis gratia</incipit>
+                        <ab>After one <q>De S. Trinitate</q>, follows (f. <locus locusNew="116v">103v</locus>)</ab>
+                        <rubric locusNew="116v">Arbor predicatorum</rubric>
+                        <incipit locusNew="116v">
+                            <name type="person">S. Dominicus</name>, <name type="person">Innocencius papa 5<abbr
+                                    rend="superscript">us</abbr></name>, <name type="person">S. Thomas</name>, <name
+                                type="person">Raymundus</name>, <name type="person">S. Petrus martir</name>, <name
+                                type="person">Durandus</name>, <name type="person">Benedictus papa xi<abbr
+                                    rend="superscript">us</abbr></name>, <name type="person">Albertus</name>, <name
+                                type="person">Vlricus</name>, <name type="person">S. Vincencius</name>, <name
+                                type="person">Herueus</name></incipit>
+                        <explicit locusNew="116v">
+                            <name type="person">Petrus de palu</name>
+                        </explicit>
+                        <incipit locusNew="116v">Felix vitis de cuius surculo</incipit>
+                        <explicit locusNew="116v">Oratio autoris <name type="author">Iohannis de turre cremata
+                                cardinalis S. Sixti</name> [qui obiit circa a. d. <date>1465</date>]: these words marked
+                                <q>vacat</q></explicit>
+                        <incipit locus="103v" locusNew="116v">Gloriosus certe et mirabilis in <name type="person">S.
+                                Sixto</name></incipit>
+                        <ab locus="104v" locusNew="117v">The last is on <q>Commemoratio animarum</q></ab>
+
+                    </msItem>
+
+                    <msItem n="19" locusStart="117v" locusEnd="121v">
+                        <head type="CCC">
+                            <name type="author">Robert Grosseteste</name>, <title>Sermon preached before <name
+                                    type="person">Innocent IV</name> at <name type="place">Lyon</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sermo <name type="author">D. Roberti episcopi Lincoln</name>, quem predicavit coram
+                                dom. <name type="person">Innocentio papae iv.</name> et cardinalibus apud <name
+                                    type="place">Lugdunum</name></title>
+                        </head>
+
+                        <incipit locus="104v" locusNew="117v">Dominus noster Ihesus Christus eternus eterni dei patris
+                            filius de secretissimo sinu patris</incipit>
+                        <explicit locusNew="121v">a me peccatorum extreme est attemptatum</explicit>
+                    </msItem>
+
+                    <msItem n="20" locusStart="121v" locusEnd="122r">
+                        <head type="CCC">
+                            <name type="author">Innocent IV</name>, <title>Letter to the archdeacon of
+                                Canterbury</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Literae <name type="author">Innocentii iv.</name> ad archidiaconum Cant. et
+                                Innocentium collectorem suum in Anglia, ut nepotem suum <name type="person">Fredericum
+                                    de Lavania</name> in canonicatum in ecclesia <name type="place">Lincoln</name>,
+                                proximo vacaturum, inducant</title>
+                        </head>
+                        <ab>See <ref type="bibl" target="Luard 1861">Luard, Rob. Grosseteste Epp. (Rolls), p. 432
+                                note</ref></ab>
+                    </msItem>
+
+                    <msItem n="21" locusStart="122r" locusEnd="123r">
+                        <head type="CCC">
+                            <name type="author">Robert Grosseteste</name>, <title>Epistola 128</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Responsio <name type="author">episcopi Lincoln</name>, in qua probat talem
+                                provisionem esse contra voluntatem et cultum Dei, ideoque negat se concessurum</title>
+                        </head>
+
+                        <incipit locus="109r" locusNew="122r">Nouerit discrecio uestra quod mandatis
+                            apostolicis</incipit>
+                        <explicit locusNew="122v">et non pater domini mei Ihesu Christi qui est in celis</explicit>
+                        <ab>(<ref type="bibl" target="Luard 1861">Luard, l.c.</ref>)</ab>
+                        <incipit locusNew="122v">Cum hec epistola ad noticiam pape peruenisset</incipit>
+                        <ab>notice of death of <name type="person">Grosseteste</name> and signs accompanying it</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="120r" locusNew="123r">confidenter tamen dico quia plus deo placuerunt virtutes
+                            quam displicuerunt excessus. quod nunc per miracula ad tumbam eius manifestatur
+                            coruscantia</explicit>
+
+                    </msItem>
+
+                    <msItem n="22" locusStart="123r" locusEnd="126v">
+                        <head type="CCC">
+                            <name type="author">William of Ockham OFM (attrib.)</name>, <title>Disputatio super
+                                potestate praelatis ecclesiae atque principibus terrarum commissa (Disputatio inter
+                                clericum et militem)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Disputatio inter clericum et militem super potestate commissa prelatis ecclesiasticis
+                                atque principibus terrarum</title>
+                        </head>
+
+                        <incipit locus="110r" locusNew="123r">Primo proponit clericus iuramentum dictum quodammodo sub
+                            hac forma. Clericus. Miror optime miles paucis diebus</incipit>
+                        <ab>By <name type="author">William of Ockham</name></ab>
+                        <explicit locusNew="126v">unxitque loadam pontifex</explicit>
+                        <rubric locusNew="126v">Explicit</rubric>
+                    </msItem>
+
+                    <milestone n="IV" unit="volume"/>
+
+                    <msItem n="23" locusStart="127r" locusEnd="225v">
+                        <head type="CCC">
+                            <name type="author">Petrus Aureoli OFM</name>, <title>Compendium litterale totius
+                                scripture</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Tractatus totius bibliae expositorius, compendiose editus a <name type="person">Mag.
+                                    Petro de Aureolis</name> fratre minore et doctore sacrae theologiae
+                                Parisiensi</title>
+                        </head>
+
+                        <incipit locusNew="127r">Venite ascendamus ad montem domini etc. Gregorius 23 libro moralium
+                            exponens</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="98r" locusNew="224r">mirre et thuris et uniuersi pulueris
+                            pigmentarii</explicit>
+                        <ab><locus locusNew="224v">98v</locus> - <locus locusNew="225v">99v</locus> blank</ab>
+                        <ab>Often printed: e.g. Paris 1508, 1565, 1613. Venice 1571etc.</ab>
+                    </msItem>
+
+                    <milestone n="V" unit="volume"/>
+
+                    <msItem n="24" locusStart="226r" locusEnd="246v">
+                        <head type="CCC">
+                            <name type="author">John of Genoa OP</name>, <title>Catholicon (Alma - Cautela)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Lexicon Latinum, imperfectum</title>
+                        </head>
+
+                        <incipit locusNew="226r">A Alma interpretatur virgo abscondita vel absconsio
+                            virginitatis</incipit>
+                        <ab>Ends unfinished</ab>
+                        <ab locus="17r" locusNew="242r">Cautela iuracio obseruacio</ab>
+                        <ab>ff. <locus locusNew="242v">17v</locus> - <locus locusNew="246v">21v</locus> blank</ab>
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, BA, CF</p>
+                            <p>msCheck: NJM 3/12/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,328 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC179">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>179</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>K. 1</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>106</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Peter of Blois, archdeacon of Bath, Compendium in Iob etc. John of Hildesheim OCarm,
+                    Historia trium regum</head>
+
+                <head type="James">Petrus Blesensis etc. Historia Trium Regum</head>
+
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">289</height>
+                        <width unit="mm">197</width>
+                    </measureGrp>
+                    <measureGrp type="James">11.3 x 8</measureGrp>, <extent>ff. 91</extent>, <layout>33 lines to a
+                        page</layout>. Cent. <origDate>xv late</origDate>, <handNote>in a clear hand</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>a<num>12</num>-d<num>12</num> (wants 12) e<num>12</num> f<num>12</num> g<num>10</num>
+                            h<num>10</num></collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>poralium rerum</secFol>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-91 + iii-iv</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="17v">
+
+
+                        <head type="CCC"><name type="author">Peter of Blois, archdeacon of Bath</name>,
+                                <title>Compendium in Iob</title></head>
+
+                        <head type="Nasmith">
+                            <title>Tractatus super <name type="person">Job</name> directus regi Angliae per <name
+                                    type="author">Petrum Blessensem</name></title>
+                        </head>
+
+                        <incipit locus="1r"><name type="person">Henrico</name> dei gratia illustrissimo</incipit>
+                        <ab>(<ref type="bibl" target="Giles 1847">Giles III 19</ref>)</ab>
+                        <explicit locusNew="1v">recolo vel legisse</explicit>
+                        <incipit locus="1v">Vir erat etc. Tria hic ponuntur</incipit>
+                        <explicit locusNew="15v">triumphat et regnat per omnia secula seculorum. Amen</explicit>
+                        <incipit locus="15v"><name type="person">Job</name> filius Sare de bosra rex ydumeorum</incipit>
+                        <ab>From <name type="author">Isidore</name> and <name type="author">Gregory</name></ab>
+                        <explicit locus="17v">docemur quod nescire debeamus</explicit>
+                        <ab>See also <ref type="ms" target="CCC177">MS 177. 25</ref>, <ref type="ms" target="CCC451">MS
+                                451, 7</ref></ab>
+
+
+                    </msItem>
+
+
+                    <msItem n="2" locusStart="18r" locusEnd="21v">
+
+                        <head type="CCC">
+                            <title>Sibyllinorum verborum interpretatio</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>De omnibus Sibillis et nominibus earum, et de origine et de patria et de actibus
+                                earum a diebus Alexandri Magni</title>
+                        </head>
+
+                        <incipit locus="18r">Sibille generaliter omnes femine dicantur prophetantes</incipit>
+                        <ab>(<ref type="bibl" target="Migne 090"><supplied>P. L.</supplied> XC 1181</ref>)</ab>
+                        <ab>Ten Sibyls: the vision of the nine suns etc.</ab>
+                        <explicit locusNew="21v">versus intonuit dicens</explicit>
+                        <incipit locusNew="21v">Iudicii signum etc.</incipit>
+                        <explicit locusNew="21v">sulphuris ampnis</explicit>
+                        <incipit locusNew="21v">Tunc iudicabit dominus etc.</incipit>
+                        <explicit locusNew="21v">Et regnabit dominus cum sanctis in secula seculorum. Amen</explicit>
+                        <ab>Printed among <name type="person">Bede</name>'s works (<ref type="bibl" target="Bede 1563"
+                                >Basil. 1563, T. II</ref>): <ref type="bibl" target="Opsopeus and Castalionis 1599"
+                                >Opsopoeus, <hi rend="italic">Sibyllina</hi>, p. 515 etc.</ref> See <ref type="bibl"
+                                target="Alexandre 1853">Alexandre II 290</ref></ab>
+
+                    </msItem>
+
+
+                    <msItem n="3" locusStart="21v" locusEnd="24r">
+                        <head type="CCC"><name type="author">Robert Grosseteste</name>, <title>De probacione
+                                uirginitatis beatae Mariae (translated excerpt from Lexicon Suida)</title></head>
+                        <head type="Nasmith">
+                            <title>Narratio ex libro qui Graece vocatur Suda, et cetera de <name type="person"
+                                    >Theodosio</name> quodam ludeorum principe</title>
+                        </head>
+                        <rubric locus="21v">Narracio ex libro qui grece vocatur Suda quem tempore theo(do)sii iuuenis
+                            composuerunt uiri sapientes isti. <name type="person">hendemus</name>, <name type="person"
+                                >Rector</name>, <name type="person">Eugenilis</name>, <name type="person"
+                                >ffrigius</name>, <name type="person">Zozinus</name>, <name type="person">Gazeus</name>,
+                                <name type="person">Cecilius</name>, <name type="person">Siculus</name>, <name
+                                type="person">longinus</name>, <name type="person">Cassinus</name>, <name type="person"
+                                >luparcus</name>, <name type="person">Beriricius</name>, <name type="person"
+                                >Justinus</name>, <name type="person">Sophista</name>, <name type="person"
+                                >Pamphilius</name>, <name type="person">Zopirion</name>, et <name type="person"
+                                >Polion</name><hi rend="footnote">These names are corrupted forms of those given in the
+                                Prooemium to the Lexicon of Suidas</hi></rubric>
+
+                        <incipit locus="22r">Temporibus piissimi Imperatoris Justiniani</incipit>
+                        <ab>This is the article &#921;&#951;&#963;&#959;&#965;&#962; from the
+                            Lexicon of Suidas in a Latin version made by or for <name type="person">Robert
+                                Grosseteste</name></ab>
+                        <explicit locusNew="24r">absconditum secretum propalauit</explicit>
+
+                        <rubric locusNew="24r">Completa est narracio ex libro qui grece Suda vocatur quem composuerunt
+                            viri sapientes memorati quam transtulit <name type="person">magister R. Lincoln.
+                                Episcopus</name> a greco in latinum videlicet de virginitate et fecunditate <name
+                                type="person">beate virginis marie</name> et de filio eius Ihesu qualiter electus erat
+                            in sacerdotem in templum domini</rubric>
+                        <ab>See <ref type="bibl" target="Rose 1871">Val. Rose in Hermes V 155</ref></ab>
+                    </msItem>
+
+
+
+                    <msItem n="4.1" locusStart="24r" locusEnd="39v">
+
+
+                        <head type="Nasmith">
+                            <title>Collectanea ex diversis autoribus de virgine Maria</title>
+                        </head>
+
+                        <!-- Texts need dividing. See summary/bibliography -->
+
+                        <rubric locus="24r">Sequitur de genealogia domini et omnipharia dei genitricis <name
+                                type="person">marie</name></rubric>
+
+
+                        <incipit locus="24r"><name type="person">Johannes damascenus</name> dicit c. 88 (or gg) titulo
+                            de genealogia domini et omnipharia dei genitricis <name type="person">marie</name> quod
+                                <name type="person">dauid</name> duos filios habuit</incipit>
+
+                        <rubric locus="24v">Secundum <name type="person">Godefridum Viterbiensem</name></rubric>
+
+                        <incipit locus="24v"><name type="person">Anna</name> et <name type="person">esmeria</name>
+                            sorores fuerunt</incipit>
+                        <ab>with verses</ab>
+                        <rubric locus="25r">Qualiter <name type="person">beata maria</name> fuit admirabilis in
+                            conuersacione</rubric>
+                        <incipit locusNew="25r">Erat autem <name type="person">maria</name> in ammiracione omni populo
+                            israel</incipit>
+
+                        <ab locusNew="25v">eadem hora saluus in domum suam remeabat</ab>
+                        <ab locus="25v">Angelus ad virginem subintrans in conclaue</ab>
+                        <explicit locusNew="25v">vita frui beata post hoc exilium. Amen</explicit>
+                        <rubric locus="25v">De laudibus <name type="person">beate marie virginis</name></rubric>
+                        <incipit locusNew="25v">Aue maria etc.</incipit>
+                        <ab>Extracts from <name type="author">Bernard</name>, <name type="author">Jerome</name>, <name
+                                type="author">Augustine</name> etc.</ab>
+                        <rubric locus="26v">De abstinencia <name type="person">virginis marie</name></rubric>
+                        <incipit locusNew="26v">Marianus in canonica(!) sua inter cetera de virgine gloriosa dicit quod
+                            virgo beata a quinto etatis sue anno</incipit>
+                        <explicit locusNew="26v">celum suspiciens lacrimas effundebat</explicit>
+                        <incipit locusNew="26v">Assumpta est etc. anno vite sue lxiii<abbr rend="superscript"
+                            >o</abbr></incipit>
+                        <ab>Verses by <name type="author">Petrus Lombardus</name> and other verses follow</ab>
+
+                        <incipit locus="27r">Nota quod <name type="person">Petrus Compostolanus Episcopus</name> fecit
+                            ... antiphonam Salue regina</incipit>
+                        <ab>Miracle of the veil at <name type="place">Constantinople</name></ab>
+                        <rubric locus="27v" locusNew="27r">Descripcio saluatoris</rubric>
+                        <incipit locusNew="27v">Legitur in libris annalibus quod dominus noster Iehsus Christus dictus
+                            fuit a gentibus propheta veritatis. Stature fuit procere mediocris</incipit>
+                        <explicit locusNew="27v">speciosus forma pre filiis hominum diceretur et esset</explicit>
+                        <ab>(Identical in substance with the <q>Letter of Lentulus,</q> which is a later form of the
+                            document)</ab>
+                        <rubric locusNew="27v">
+                            <name type="person">Bernardus</name>
+                        </rubric>
+                        <incipit locus="27v">Jhesus mel in ore</incipit>
+                        <incipit locus="27v">Hec linea sextodecies ducta longitudinem dominici corporis
+                            ostendit</incipit>
+                        <ab>
+                            <decoNote>The line is drawn above</decoNote>
+                        </ab>
+                        <rubric locus="27v">De ordinibus angelorum</rubric>
+                        <incipit locusNew="27v">Angelorum nouem sunt ordines secundum <name type="person">b.
+                                gregorium</name></incipit>
+                        <explicit locusNew="28v">est humanitas exaltata cui est honor et gloria</explicit>
+                        <rubric locus="28v">Qualiter festum conceptionis <name type="person">beate marie virginis</name>
+                            fuit primo inuentum et celebratum</rubric>
+                        <incipit locusNew="28v">Cum quidam rex anglie</incipit>
+                        <rubric locus="28v">De institucione solemp(ni)tatis natiuitatis eiusdem</rubric>
+                        <incipit locusNew="29r">Quidam solitarius</incipit>
+                        <rubric locus="29r">De institucione festi purificationis</rubric>
+                        <incipit locusNew="29r"><name type="person">Julianus imperator</name> cum ceperat </incipit>
+                        <rubric locus="29r">Quam utile est ieiunare vigilias <name type="person">beate marie
+                                virgine</name></rubric>
+                        <incipit locusNew="29r">Contigit anno domini <date>mcc 35</date> in comitatu
+                            niuernensi</incipit>
+                        <rubric locusNew="29v">Nota de proprietatibus lune</rubric>
+                        <ab>and verses on those who <q>carried Christ</q></ab>
+                        <rubric locus="30r"><name type="person">Hildefonsus</name> contra eos qui disputant de
+                            virginitate <name type="person">beate marie</name></rubric>
+                        <rubric locusNew="30r">Item in sermone de assumptione eius</rubric>
+                        <ab>followed by other extracts</ab>
+                        <rubric locus="31r">Incipit sentencie a diuersis doctoribus excerpte. <name type="person"
+                                >Johannes Apostolus</name> de caritate</rubric>
+                        <incipit locusNew="31r">Deus caritas est</incipit>
+                        <ab>Ending</ab>
+                        <ab>(<name type="author">Isidore</name>)</ab>
+                        <incipit locus="39v" locusNew="39r">Bipertita est causa peccandi</incipit>
+                        <explicit locusNew="39v">per quem sponsus dona transmisit</explicit>
+                    </msItem>
+
+                    <msItem n="4.2" locusStart="39v" locusEnd="47v">
+
+                        <head type="CCC">
+                            <name type="author">Richard the Praemonstratensian</name>, <title>De canone missae</title>
+                        </head>
+
+                        <head type="James"><title>Exposition of the Mass</title> (<name type="author">Remigius of
+                                Auxerre?</name>)</head>
+
+                        <incipit locusNew="39v">In virtute sancte crucis et sacramento altaris</incipit>
+                        <ab>Ending:</ab>
+                        <explicit locus="47v">non est danda licencia ut implicent se negociis secularibus</explicit>
+
+                    </msItem>
+
+
+                    <msItem n="5" locusStart="48r" locusEnd="91v">
+                        <head type="CCC"><name type="author">John of Hildesheim OCarm</name>, <title>Historia trium
+                                regum</title></head>
+                        <head type="Nasmith">
+                            <title>De gestis et translationibus trium regum Magorum</title>
+                        </head>
+
+                        <ab locus="48r">Table of Chapters (xlv)</ab>
+                        <incipit locusNew="48r">In primo capitulo huius libri qui est collectus de gestis et
+                            translacionibus sanctorum trium regum</incipit>
+                        <ab>Text</ab>
+                        <incipit locus="49v">Cum venerandorum trium regum magorum</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="89v">nec ut olim reuersuri sunt per uiam aliam</explicit>
+                        <ab>The text is by <name type="author">John of Hildesheim</name>. It is printed by <ref
+                                type="bibl" target="Horstmann 1886">Horstmann with the old English version in <hi
+                                    rend="italic">Three Kings of Cologne</hi> E. E. T. S.</ref> Another copy is in<ref
+                                type="ms" target="CCC275">MS 275</ref>.<lb/> (Meditatio <name type="author"
+                                >Anselmi</name>, cf. <ref type="ms" target="CCC177">MS 177 art. 12</ref>, etc.)</ab>
+
+                        <incipit locus="89v">Cum anima manet in corpora uiuit homo</incipit>
+                        <explicit locusNew="91r">ad quam nos perducat qui nos creauit. Amen</explicit>
+                        <incipit locus="91r">Inprimis dominum deum dilige ex toto corde</incipit>
+                        <explicit locusNew="91v">nec in cor hominis ascendit que preparauit deus hiis qui diligunt
+                            eum</explicit>
+                        <ab>Later note</ab>
+                        <ab locus="91v">A man schuld pray to almyhtty god to &#541;yf hym grasce etc.</ab>
+
+
+                    </msItem>
+
+
+                </msContents>
+
+                <additional>
+
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, CF 2nd</p>
+                            <p>msCheck: CF 14.9.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

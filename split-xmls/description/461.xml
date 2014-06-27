@@ -1,0 +1,266 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC461">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>461</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Q. 9</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>263</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Exactis regibus. Peter Lombard, Sententiarum abbreuiationes. pseudo-Hugh of Saint
+                    Victor OSA, Speculum ecclesiae</head>
+                <head type="James">Exactis Regibus. Sententiae Abbreviatae, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">170</height>
+                        <width unit="mm">122</width>
+                    </measureGrp>, <measureGrp type="James">6.7 x 5</measureGrp>, <extent>ff. 1 + 171</extent>,
+                        <layout>mostly with 33 lines to a page</layout>. Cent. <origDate>xiii early?</origDate>,
+                        <handNote>in a beautiful upright script</handNote>.</p>
+
+
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>12</num>-11<num>12</num> 12<num>10</num> 13<num>12</num> 14<num>12</num>
+                            15<num>8</num> (wants 6-8)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>differentiam</secFol>.</p>
+
+                <p function="Provenance" rend="withinContents">At bottom of f. <locus>170v</locus>: <name type="person"
+                        >R. Tyldesley</name>
+                    <date>1544</date>, 1 hedus quadraginta. On f. <locus locusNew="171r">171v</locus> IHC. Liber <name
+                        type="person">W. Barett</name>. (<origDate>xvi</origDate>) and some notes.</p>
+
+                <p function="Additions">On f. <locus>iv</locus> are various verses (<origDate>xiv-xv</origDate>):<lb/>
+                    Quod mors omnia vincit,<lb/> and:<lb/> Si totum membrana solum, penne nemus omne, etc. (on the
+                    wickedness of women).</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i + 1-171 + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="24v">
+                        <head type="CCC">
+                            <title>Exactis regibus</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Institutio quaedam juris civilis</title>
+                        </head>
+                        <head type="James">
+                            <title>The Epitome Exactis regibus</title>
+                        </head>
+                        <incipit locusNew="1r">Exactis a romana ciuitate regibus constituti sunt duo consules</incipit>
+                        <ab>Ending</ab>
+                        <explicit locusNew="20r">sciat necessarium esse introducendis quod superuacuum est
+                            prouectis</explicit>
+                        <ab locus="20v">blank</ab>
+                        <ab>ff. <locus>21r</locus>-<locus>24v</locus> have had pencil-writing, now for the most part
+                            rubbed out</ab>
+                        <ab>There were copies of this Epitome at <name type="place">Canterbury</name> and <name
+                                type="place">Dover</name> (<ref type="bibl" target="James 1903">
+                                <hi rend="italic">Ancient Libraries</hi> , pp. 85, 403, 476</ref>)</ab>
+                        <ab>It was printed three times in <date>cent. xvi</date> under the title <hi rend="italic"
+                                >Epitome Iuris Civilis</hi>, viz. in <date>1582</date> and <date>1599</date> at <name
+                                type="place">Paris</name> and in <date>1599</date> at <name type="place"
+                            >Orleans</name></ab>
+                        <ab>It was last fully edited from 14 MSS. (not including the present one) by <ref type="bibl"
+                                target="Conrat 1884">Dr Max Conrat (Cohn), <hi rend="italic">Die Epitome Exactis
+                                    Regibus</hi>, Berlin 1884</ref>, with Introduction and Appendixes</ab>
+                    </msItem>
+
+                    <msItem n="2" locusStart="25r" locusEnd="139r">
+                        <head type="CCC">
+                            <name type="author">Peter Lombard</name>, <title>Sententiarum abbreuiationes</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Compendium sententiarum Mag. <name type="author">Petri Lombardi</name></title>
+                        </head>
+                        <head type="James">
+                            <name type="author">Petri Lombardi</name>
+                            <title>Sententiae abbreviatae</title>
+                        </head>
+                        <ab>(Prol.)</ab>
+                        <incipit locusNew="25r">Cupientes aliquid</incipit>
+                        <explicit locusNew="25v">distinguntur premisimus</explicit>
+                        <rubric locusNew="25v">Explicit prologus</rubric>
+                        <ab locus="25v">Capitula of the four books, with shortened (?) prologues to ii, iii, iv</ab>
+                        <ab>A note on tonsure</ab>
+                        <ab locus="30v"> Quod clerici caput radere desuper in modum spere iubentur a petro apostolo
+                            dicitur initium habuisse. cuius caput gentiles in opprobrium et derisum rasisse dicuntur,
+                            etc. </ab>
+                        <ab>It is a supplied passage belonging to the next tract which is</ab>
+                        <rubric locus="31r">De ordinibus ecclesiasticis. Capitulum I</rubric>
+                        <incipit locusNew="31r">Nunc ad considerationem sacre ordinationis accedamus. Septem sunt
+                            spiritualium officiorum gradus</incipit>
+                        <ab locus="33v">The last chapter, quibus modis sacra pagina exponi debeat, ends</ab>
+                        <explicit locus="33v">anagogice illarn celestem patriam</explicit>
+                        <ab>
+                            <decoNote>Then follow four pages of very neatly drawn trees or tables</decoNote>
+                        </ab>
+                        <ab>
+                            <hi rend="bold">a.</hi>
+                        </ab>
+                        <ab locus="34r">
+                            <decoNote>Virtues</decoNote>
+                        </ab>
+                        <ab>
+                            <hi rend="bold">b.</hi>
+                        </ab>
+                        <ab locus="34v">
+                            <decoNote>Mundus</decoNote>
+                        </ab>
+                        <ab>
+                            <hi rend="bold">c.</hi>
+                        </ab>
+                        <ab locus="34v">
+                            <decoNote>Magica</decoNote>
+                        </ab>
+                        <ab>
+                            <hi rend="bold">d.</hi>
+                        </ab>
+                        <ab locus="35r">
+                            <decoNote>Philosophia</decoNote>
+                        </ab>
+                        <ab>
+                            <hi rend="bold">e.</hi>
+                        </ab>
+                        <rubric locus="35v">Hee sunt septem ancille quas Mercurius a Philologia in dotem accepit,
+                            etc.</rubric>
+                        <ab>
+                            <decoNote>viz. Lanificium Armaturam Nauigationem Agriculturam Venationem Medicinam
+                                Theatricam</decoNote>
+                        </ab>
+                        <ab>
+                            <handNote>A hand of cent. <origDate>xv</origDate></handNote>
+                        </ab>
+                        <rubric locus="36r">fforma inquisicionis in curia Christiana</rubric>
+                        <rubric locus="36v">fforma probacionis alicuius testamenti</rubric>
+                        <ab>(dated <date>10 May 1430</date>)</ab>
+                        <ab>
+                            <handNote>The former hand resumes</handNote>
+                        </ab>
+                        <rubric locus="37r">Incipit compendium sententiarum magistri <name type="author">Petri Lonbardi
+                                Parisiac. ep.</name></rubric>
+                        <incipit locusNew="37r">Ut ait augustinus omnis doctrina</incipit>
+                        <explicit locusNew="139r">ad pedes usque illo duce peruenit</explicit>
+                    </msItem>
+
+                    <msItem n="3" locusStart="139v" locusEnd="144v">
+                        <head type="CCC">
+                            <name type="author">Richard the Premonstratensian</name>, <title>De canone missae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Tractatus de sacramento altaris</title>
+                        </head>
+                        <head type="James">
+                            <title>The tract on the Cross in the Mass attributed to <name type="author">Joh.
+                                    Cornubiensis</name>, etc.</title>
+                        </head>
+                        <ab>
+                            <handNote>In a taller hand, very beautiful</handNote>
+                        </ab>
+
+                        <incipit locusNew="139v">In uirtute sancte crucis et sacramento altaris magna est
+                            conuenientia</incipit>
+                        <ab>(<ref type="bibl" target="Migne 177"><supplied>P. L.</supplied> CLXXVII 455</ref>)</ab>
+                        <explicit locusNew="144v">in tercia uero differentia</explicit>
+                        <ab>Cf. <ref type="ms" target="CCC459">MS 459. 8</ref>, etc.</ab>
+                    </msItem>
+
+                    <msItem n="4" locusStart="144v" locusEnd="170v">
+                        <head type="CCC">
+                            <name type="author">pseudo-Hugh of Saint-Victor OSA</name>, <title>Speculum
+                                ecclesiae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Speculum ecclesie</title>
+                        </head>
+                        <ab>
+                            <handNote>Change of hand</handNote>
+                        </ab>
+                        <rubric locusNew="144v">Incipit prolgus (!) in libellum qui dicitur Speculum Ecclesie</rubric>
+                        <incipit locusNew="144v">De officiis ecclesiasticis ut tractarem (<name type="author">Hugonis de
+                                S. Victore</name>)</incipit>
+                        <ab>
+                            <ref type="bibl" target="Migne 177">P. L. CLXXVII 389</ref>
+                        </ab>
+                        <explicit locusNew="144v">speculum ecclesie intitulari placuit</explicit>
+                        <ab>Capitula</ab>
+                        <ab>Text</ab>
+                        <incipit locusNew="144v">Ecclesia igitur in qua populus conuenit</incipit>
+                        <ab>Ends unfinished (?)</ab>
+                        <explicit locus="170v">Secundum uero rei significationem et hoc per exteriorem formam. Phisica
+                            secundum interiorem naturam</explicit>
+                        <ab>Not identical with that in <ref type="ms" target="CCC460">MS 460</ref></ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJM 9.1.2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

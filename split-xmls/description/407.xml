@@ -1,0 +1,297 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC407">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>407</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>G. 6</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>72</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Simon Simeonis OFM, Itinerarium. Willelmus de Rubruk, Itinerarium. Odoricus of
+                    Pordenone, Itinerarium. Secretum secretorum</head>
+                <head type="James">Itinera. Secretum secretorum</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">207</height>
+                        <width unit="mm">117</width>
+                    </measureGrp>, <measureGrp type="James">8.3 x 5</measureGrp>, <extent>ff. 178</extent>, <layout>28
+                        and 33 lines to a page</layout>. Cent. <origDate>xiv</origDate>, <handNote>in good clear
+                        hands</handNote>. </p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>12</num>-3<num>12</num> | 4<num>8</num>-7<num>8</num> |
+                            8<num>12</num>-16<num>12</num> 17<num>2</num></collation>.</p>
+
+
+
+                <p function="Provenance">From <name type="place" key="NorwichC-001">Norwich Cathedral Priory</name>. At
+                    top of f. <locus>1r</locus> is:<lb/> Liber fratris <name type="person" key="SimonBoz-001">Symonis
+                        Prioris Norwic.</name><lb/> and added is the press-mark S. xxiij.</p>
+
+                <p function="Research">The owner was <name type="person" key="SimonBoz-001">Simon Bozoun, Prior of
+                        Norwich (1344-52)</name>. A list of his books is in <ref type="ms" target="LBLR13">Royal MS.
+                        14</ref>, c. xiii, printed in <ref type="bibl" target="Dimock 1867">Girald. Cambr. Rolls Series
+                        V</ref> xxxix note. It appears there as no. 26. Liber itinerariorum prec. xls. See also <ref
+                        type="ms" target="CCC264">no. 264</ref>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-178 + iii-iv</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="36v">
+                        <head type="CCC">
+                            <name type="author" key="SimonSim-001">Simon Simeonis OFM</name>, <title>Itinerarium in
+                                terram sanctam</title>
+                        </head>
+
+                        <head type="James">
+                            <title>Itinerarium <name type="author" key="SimonSim-001">Symeonis Semeonis</name> et <name
+                                    type="person">Hugonis illuminatoris</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Itinerarium fratrum <name type="author" key="SimonSim-001">Symonis Semeonis</name> et
+                                    <name type="person">Hugonis illuminatoris</name>, ordinis fratrum minorum
+                                professorum, ad terram sanctam A.D. <date>1322</date></title>
+                        </head>
+
+                        <ab locus="1r">(No title)</ab>
+                        <incipit locus="1r">Culmine honoris spreto</incipit>
+                        <ab>Ed. by <ref type="bibl" target="Nasmith 1778">Nasmith, Cambridge 1778, with <name
+                                    type="person" key="WilliamW-001">William of Worcester</name></ref></ab>
+                        <ab>It is unfinished, ending</ab>
+
+                        <explicit locus="33v">ad quam nullum christianum permittunt accedere</explicit>
+                        <ab>
+                            <supplied agent="JamesCorrigenda">See an article on this Itinerary by <ref type="bibl"
+                                    target="Esposito 1911">Mario Esposito <hi rend="italic">Hermathena</hi> 1911, p.
+                                    264</ref></supplied>
+                        </ab>
+                        <ab>ff. <locus>34r</locus>-<locus>36v</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="37r" locusEnd="68v">
+                        <head type="CCC">
+                            <name type="author" key="Willelmu-001">Willelmus de Rubruk OFM</name>, <title>Itinerarium ad
+                                partes orientales</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Itinerarium fratris <name type="author" key="Willelmu-001">Willelmi de Rubruk</name>
+                                de ordine fratrum minorum anno gratiae <date>MCCLIII</date> ad partes orientales</title>
+                        </head>
+
+                        <ab>
+                            <quote>Desunt multa ad finem</quote>
+                        </ab>
+                        <rubric locus="37r">Itinerarium fratris <name type="author" key="Willelmu-001">Willelmi de
+                                Rubruk</name> de ordine fratrum minorum anno gratie <date>mill<abbr rend="superscript"
+                                    >o</abbr> cc<abbr rend="superscript">o</abbr> liij</date> ad partes
+                            orientales</rubric>
+                        <incipit locusNew="37r">Excellentissimo domino ...<name type="person" key="LouisIXx-001"
+                                >Lodowyco</name> ...<name type="author" key="Willelmu-001">W. de Rubruc</name>.
+                            etc.<lb/> Scriptum est in ecclesiastico de sapiente</incipit>
+                        <ab>Ends imperfect</ab>
+                        <explicit locusNew="66r">In ista terra sunt multe prouincie quarum plures adhuc non obediunt
+                            moallis et inter</explicit>
+                        <ab locusNew="66r">Marginalia: hic deficit multum. vide apud <name type="place">Sanctum
+                                Edmundum</name> residuum</ab>
+                        <ab>Cf. <ref type="ms" target="CCC066">no. 66. 10</ref>, <ref type="ms" target="CCC181">no. 181.
+                                art. 9</ref>. Ed. by <ref type="bibl" target="D'Avezac 1839b">d'Avezac, 1839</ref></ab>
+                        <ab>ff. <locus>66v</locus>-<locus>68v</locus> blank</ab>
+                        <ab>The words <q>apud <name type="place">S. Edmundum</name></q> may very probably refer to the
+                            copy of <name type="author" key="Willelmu-001">Rubruc</name> in <ref type="ms"
+                                target="CCC066">no. 66</ref> which is a <name type="place">Bury</name> MS. On the text
+                            of this and of <ref type="ms" target="CCC066">MS 66</ref> see <ref type="bibl"
+                                target="Beazley 1903b">C. R. Beazley, <hi rend="italic">Carpini and Rubruquis</hi>,
+                                Hakluyt Society 1903</ref></ab>
+                    </msItem>
+
+
+                    <msItem n="3" locusStart="69r" locusEnd="92v">
+                        <head type="CCC">
+                            <name type="author" key="Odoricus-001">Odoricus of Pordenone</name>,
+                                <title>Itinerarium</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Itinerarium fratris <name type="author" key="Odoricus-001">Odorici</name> ordinis
+                                fratrum minorum de mirabilibus orientalium Tartarorum</title>
+                        </head>
+
+                        <rubric locus="69r">Incipit Itinerarium fratris <name type="author" key="Odoricus-001"
+                                >Odorici</name> ordinis fratrum minorum de mirabilibus orientalium tartarorum</rubric>
+                        <incipit locusNew="69r">Licet multa et uaria de ritibus et condicionibus huius mundi</incipit>
+                        <explicit locusNew="91r">sed non de omnibus quia sunt innumerabilia et michi difficilia ad
+                            scribendum</explicit>
+                        <ab>ff. <locus>91v</locus>-<locus>92v</locus> blank</ab>
+                        <ab>See <ref type="ms" target="CCC275">no. 275</ref>. Printed <ref type="bibl"
+                                target="Bollandus and Henscius 1643">Acta SS. 1 Jan.</ref> 986 <supplied>(should be
+                                992)</supplied>, <ref type="bibl" target="Henschenius and Papebrochius 1675a">1
+                                Apr.</ref> 52: Wadding III sub ann. <date>1331</date></ab>
+
+                    </msItem>
+
+
+                    <msItem n="4" locusStart="93r" locusEnd="128v">
+                        <head type="CCC">
+                            <title>Liber de terrae partibus et diversis provinciis</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Liber de terrae partibus et diversis provinciis</title>
+                        </head>
+
+                        <ab>
+                            <quote>Regiones ordine alphabetico describuntur: desiderantur quaedam ad finem</quote>
+                        </ab>
+                        <ab>
+                            <handNote>Another hand</handNote>
+                        </ab>
+                        <rubric locus="93r">Incipit hic liber de terre partibus et diuersis prouinciis</rubric>
+                        <incipit locusNew="93r">De terre autem partibus et diuersis prouinciis per quas orbis
+                            generaliter est diuisus pauca huic operi sunt adiuuante domino breuiter inserenda,
+                            etc.</incipit>
+
+                        <rubric locusNew="93r">De orbe in generali</rubric>
+                        <incipit locusNew="93r">Orbis ut dicit <name type="person" key="Isidoreo-001">ysidorus</name>
+                            li. xv tripharie est diuisus</incipit>
+
+                        <ab>The places described are in alphabetical order beginning with <name type="place"
+                            >Asya</name>. They go down to <name type="place">Sicilia</name> (the rubric says wrongly de
+                                <name type="place">Surtes</name>) in which the text ends imperfectly</ab>
+
+                        <explicit locusNew="128v">fistulis penetrabilis uentis et sulphure plena</explicit>
+                    </msItem>
+
+
+                    <msItem n="5" locusStart="129r" locusEnd="176r">
+                        <head type="CCC">
+                            <title>Secretum secretorum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Liber secreti secretorum sive de regimine principum et dominorum ad instantiam <name
+                                    type="person" key="Alexande-001">Alexandri magni</name> ab <name type="person"
+                                    key="Aristotl-001">Aristotele</name> editus</title>
+                        </head>
+
+                        <ab><handNote>Another hand</handNote>, headed</ab>
+                        <rubric locusNew="129r">De Regimine dominorum</rubric>
+                        <rubric locus="129r">Incipit liber secreti secretorum ad instanciam <name type="person"
+                                key="Alexande-001">Alexandri magni</name> ab <name type="person" key="Aristotl-001"
+                                >aristotile</name> editus</rubric>
+                        <incipit locusNew="129r">Domino suo excellentissimo ... <name type="person">Wydoni</name> ...
+                                <name type="person">Philippus</name></incipit>
+
+                        <explicit locusNew="130r">feliciter peruenire</explicit>
+                        <rubric locus="130r">Tituli maioris huius operis</rubric>
+                        <rubric locus="131r">Prologus cuiusdam doctoris de commendacione <name type="person"
+                                key="Aristotl-001">aristotilis</name></rubric>
+                        <incipit locusNew="131r">Deus omnipotens custodiat</incipit>
+                        <explicit locusNew="131v">ob hac forma</explicit>
+                        <rubric locus="131v">Epistola <name type="person" key="Alexande-001">Alex.</name> ad <name
+                                type="person" key="Aristotl-001">Aristot.</name></rubric>
+                        <incipit locusNew="131v">Doctor egregie rector iusticie</incipit>
+
+                        <explicit locusNew="131v">omnes alienaciones</explicit>
+                        <rubric locus="131v">Prol. <name type="person">Joh.</name> translatoris huius libri</rubric>
+                        <incipit locusNew="131v"><name type="person">Iohannes</name> qui transtulit</incipit>
+
+                        <explicit locusNew="132r">sub hac forma</explicit>
+                        <rubric locus="132r">Incipit liber primus. Epistola ad <name type="person" key="Alexande-001"
+                                >Alexandrum</name></rubric>
+                        <incipit locusNew="132r">O fili gloriosissime</incipit>
+
+                        <explicit locusNew="176v">ad meliorem et probabiliorem partem. Completus est tractatus de signis
+                            et moribus naturalibus hominum ad regem magnificum <name type="person" key="Alexande-001"
+                                >Alexandrum</name> directus qui dominatus fuit toti orbi terrarum dictus monarcha in
+                            septemtrione</explicit>
+                        <rubric locusNew="176v">Explicit liber <name type="person" key="Aristotl-001">Aristotilis</name>
+                            qui intitulatur de <title>secretis secretorum</title> siue de regimine principum et
+                            dominorum</rubric>
+
+                    </msItem>
+
+
+                    <msItem n="6" locusStart="176v" locusEnd="178v">
+                        <head type="CCC">
+                            <title>De complexione humana</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Aliud documentum de complexione humana</title>
+                        </head>
+
+                        <rubric locus="176v">Aliud documentum de complexione humana</rubric>
+                        <incipit locusNew="176v">Caput nostrum commissuras habet v</incipit>
+                        <ab locus="177r">
+                            <handNote>Hand changes</handNote>
+                        </ab>
+                        <ab>Ends</ab>
+                        <explicit locus="178v">Colera rubea estate ab viii Idus Maii usque ad viii Idus augusti et sunt
+                            dies nonaginta</explicit>
+
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 4/4/08</p>
+                            <p>remarks: <hi>Cannot check flyleaves as not on original brick - still to be uploaded - SP
+                                    17/8/09.</hi></p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,149 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC322">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>322</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>S. 10</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>270</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Werferth of Worcester's Old English Translation of Gregory the Great's Dialogi</head>
+                <head type="James">Gregorii Dialogi Saxonice</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">230</height>
+                        <width unit="mm">145</width>
+                    </measureGrp>, <measureGrp type="James">9 x 6</measureGrp>, <extent>ff. 2 + 157 + 2</extent>,
+                        <layout>30 lines to a page</layout>. Cent. <origDate>xi</origDate>, <handNote>in a very fine
+                        clear hand</handNote>. <decoNote>Initials in red and blue</decoNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>2 flyleaves, 1<num>8</num>-18<num>8</num> (7 canc.) 19<num>8</num> 20<num>8</num> (wants
+                        7, 8), 2 flyleaves</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>to streigdeð</secFol>.</p>
+
+                <p function="Provenance">At top of f. <locus>1r</locus> is :G · I : which is not in the usual hand of
+                    the <name type="place">Bury St Edmunds</name> press-mark, but would otherwise suit that
+                    provenance.</p>
+                <p function="Additions">On f. <locus>iv</locus> a note in neat black letter (<date>xvi</date>): <q><name
+                            type="person">Werefrithus Episcopus Wigornensis</name> iussu <name type="person">Æluredi
+                            regis</name> libros dialogorum <name type="author">beati Gregorii</name> de latinitate in
+                        saxonicam linguam transtulit. <name type="person">Roger: Houeden</name></q>.</p>
+
+                <p function="Additions">On f. <locus>iiv</locus> an effaced name written by <name type="person"
+                        >Parker</name> in red chalk.</p>
+
+                <p function="Research" rend="afterContents">Specimens of the text of this MS. are given by Krebs in <ref
+                        type="bibl" target="Krebs 1879">Anglia II 65 sqq</ref>. The last edition is that in
+                    Grein-Wülcker's <ref type="bibl" target="Hecht, Grein and Wülker 1907">Bibliothek der
+                        angelsächsischen Prosa</ref>, 1907, by H. Hecht</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-iii + 1-159 + c-d</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="ang" otherLangs="lat">Old English and Latin.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="157v">
+                        <head type="CCC">
+                            <name type="author">Gregory the Great</name>, <title>Dialogi, in Old English translation by
+                                    <name type="author">Wærferth of Worcester</name></title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron</ref> B9.5)</supplied>
+                        </ab>
+
+                        <ab>Rubric (<date>xiii</date>)</ab>
+                        <rubric locus="1r">Incipit liber primus dialogorum <name type="author">beati gregorii
+                                pape</name></rubric>
+                        <incipit locusNew="1r">Ic <name type="person">ÆLFRED</name> geofendum criste mid cynehades
+                            mærnysse ge&#447;eorðod</incipit>
+                        <explicit locusNew="1r">&#447;oruldicra ymb hogena</explicit>
+                        <incipit locusNew="1r">Ær þam ic underfenge þises bisceoplican folgodes</incipit>
+                        <ab>On f. <locus>20r</locus> are some Latin glosses (<date>xi, xii</date>) <handNote>in a
+                                pointed hand</handNote></ab>
+                        <ab>Liber I ends:</ab>
+                        <rubric locus="33v">Explicit liber primus dialogorum <name type="author">beati gregorii
+                                pape</name></rubric>
+
+                        <ab>(later rubric)</ab>
+                        <rubric locus="32v" locusNew="33v">Incipit liber secundus dialogi <name type="author">beati
+                                gregorii pape</name></rubric>
+                        <ab locus="67r">Liber III. Similar rubrics</ab>
+                        <ab locus="110r">Liber IV. Similar rubrics</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="157v">ær urum deaðe gode gec&#447;eme lác 7 lic&#447;yðe
+                            onsægdnes</explicit>
+                        <rubric locus="157v">Explicit liber quartus dialogorum <name type="author">beati gregorii
+                                pape</name></rubric>
+
+
+
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: SP 3/11/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

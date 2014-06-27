@@ -1,0 +1,142 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC360">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>360</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>2. 7</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>307</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">John Felton, Sermones de tempore (Sermones Mawdeleyn)</head>
+                <head type="James">Ioh. Felton Sermones</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">258</height>
+                        <width unit="mm">170</width>
+                    </measureGrp><measureGrp type="James">10.2 x 7</measureGrp>, <extent>ff. 210</extent>, <layout>34
+                        lines to a page</layout>. Cent. <origDate>xv</origDate>, <handNote>in a rather current
+                        hand</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1<num>12</num>-18<num>12</num> (wants 7-12) </collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>suam intelligat</secFol>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-210 + iii-iv</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="210r">
+                        <head type="CCC">
+                            <name type="author">John Felton</name>, <title>Sermones de tempore (Sermones
+                                Mawdeleyn)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sermones dominicales per totum annum ex <name type="person">Januensi</name>, <name
+                                    type="person">Lugdunensi</name>, <name type="person">Odone</name>, et aliis collecti
+                                per <name type="author">Ioannem Felton</name> vicarium Magdalene Oxoniae</title>
+                        </head>
+
+                        <ab>Prologue</ab>
+                        <incipit locus="1r">Penuria studencium in materia morali paupertasque iuuenum</incipit>
+                        <explicit locusNew="1r">ad legencium utilitatem et michi ad meritum amen</explicit>
+                        <ab locusNew="1r">
+                            <decoNote>Two initials in gold and colour, and partial border of characteristic English
+                                feathery ornament</decoNote>
+                        </ab>
+                        <rubric locusNew="1r">Dominica prima aduentus domini</rubric>
+                        <incipit locusNew="1r">Dicite filie syon etc. Sciendum est quod gratia dei est nobis
+                            necessaria</incipit>
+                        <ab>Ends</ab>
+                        <rubric locusNew="196v">Dominica ultima ante aduent</rubric>
+                        <incipit locusNew="196v">Est puer unus hic</incipit>
+                        <explicit locus="199v">amor et concordia dulcis. Ad illa gaudia eterna perducat nos Ihesus
+                            Christus. Amen</explicit>
+                        <rubric locusNew="199v">Expliciunt sermones dominicales per annum per vicarium Magdalene Oxonii
+                            horum collectorem</rubric>
+                        <ab locusNew="199v">(<origDate>xvi</origDate>th cent. note: scilicet <name type="author"
+                                >Johannem ffelton</name> etc.)</ab>
+                        <ab locus="200r">Table. <name type="person">Abraham</name>—Zodiaco</ab>
+                        <ab locus="209v">Note explanatory of table</ab>
+                        <ab locus="209v">Paragraph:</ab>
+                        <incipit locusNew="209v">Nemo potest peccata dimittere nisi solus deus. mentitur ergo qui dicit
+                            de iusto <name type="person">ioseph</name> etc.</incipit>
+                        <ab>Quotes <name type="person">Rabanus</name> de vita Magdalene cap. 16. (It is noteworthy that
+                            the only copy of this is at <ref type="ms" target="OMC089">Magdalen College
+                            Oxford</ref>)</ab>
+                        <rubric locus="210r">Boni versus de corpore Christi (3)</rubric>
+                        <incipit locusNew="210r">Tres partes fracte</incipit>
+                        <ab><locus locusNew="210v">201v</locus> blank</ab>
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: NJC 8/4/08.</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

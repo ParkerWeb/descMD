@@ -1,0 +1,142 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC382">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>382</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>315</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Richard FitzRalph, De pauperie Saluatoris</head>
+                <head type="James">Rich. Armachanus</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">206</height>
+                        <width unit="mm">150</width>
+                    </measureGrp>, <measureGrp type="James">8.2 x 5.8</measureGrp>, <extent>ff. 2 + 168 + 3</extent>,
+                        <layout>36 lines to a page</layout>. Cent. <origDate>xiv late</origDate>, <handNote>in a fairly
+                        good hand, a good deal contracted</handNote>.</p>
+
+
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num>, 1<num>12</num>-14<num>12</num>, b<num>4</num> (wants 4)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>omnia possedisse</secFol>.</p>
+
+                <p function="Provenance">From <name type="place">St Augustine's, Canterbury</name>. At bottom of f.
+                        <locus>1r</locus>
+                    <decoNote>in red</decoNote>:<lb/> De librario Sancti Augustini Cantuar.</p>
+
+                <p function="Research">
+                    <ref type="bibl" target="James 1903"><hi rend="italic">Ancient Libraries</hi>, p. 263, no. 621</ref>
+                </p>
+                <p type="CCC">
+                    <foliation>ff. a-b + i-ii + 1-168 + iii-v + c-d</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="ir" locusEnd="168v">
+                        <head type="CCC">
+                            <name type="author">Richard FitzRalph</name>, <title>De pauperie Saluatoris</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Ricardus Fitzrauf archiepiscopus Armachanus</name> de pauperie
+                                salvatoris libri vii.</title>
+                        </head>
+
+                        <ab>
+                            <handNote>In a different hand from the rest</handNote>
+                        </ab>
+                        <incipit locus="ir">Sanctissimo in christo patri ... <name type="person">Innocentio</name> ...
+                                <name type="author">Ricardus archiepiscopus Armachanus</name>... Dudum fere Dominus
+                                <name type="person">Clemens papa v</name>. sui regiminis anno</incipit>
+                        <explicit locusNew="iir">rationemque alterius (?) superioris (?)</explicit>
+                        <ab>It is a badly written copy of part of the Prologue</ab>
+                        <ab locus="iiv">A <name type="person">Parker</name>ian note complains of the contractions in
+                            this MS.</ab>
+                        <ab locus="1r">
+                            <decoNote>This page has a good and effective but rough border of English work</decoNote>
+                        </ab>
+                        <incipit locusNew="1r">Sanctissimo in christo</incipit>
+                        <ab>(ut supra)</ab>
+                        <ab locus="2v">Text</ab>
+                        <incipit locus="2v">Iohannes. Quia circa rerum hominem propter hominem creatarum</incipit>
+                        <ab locus="28v">Liber II</ab>
+                        <ab locus="52v"><supplied>Liber</supplied> III</ab>
+                        <ab locus="79r"><supplied>Liber</supplied> IV</ab>
+                        <ab locus="100v"><supplied>Liber</supplied> V</ab>
+                        <ab locus="116r"><supplied>Liber</supplied> VI</ab>
+                        <ab locus="146r"><supplied>Liber</supplied> VII</ab>
+                        <ab>Ending</ab>
+                        <explicit locus="168v">quod delectat qui semper es benedictus in secula seculorum.
+                            Amen</explicit>
+                        <rubric locus="168v">Explicit liber de pauperie saluatoris domini Armachani hibernie primatis
+                            doctoris s...mis, etc.</rubric>
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, SP, CF</p>
+                            <p>msCheck: SP 11/8/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

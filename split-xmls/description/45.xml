@@ -1,0 +1,298 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC045">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>45</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>B. 6</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>18</idno>
+                        <!--James corrects from 28 in corrigenda-->
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Bernard Gui OP, Flores chronicorum and other texts. The pseudo-Map Prose
+                    Lancelot</head>
+
+                <head type="James">Bernardi Guidonis Quaedam. Roman de Lancelot</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">335</height>
+                        <width unit="mm">235</width>
+                    </measureGrp>
+                    <measureGrp type="James">13.2 x 9.5</measureGrp>, <extent>ff. 84 and 178</extent>, <layout>two
+                        volumes, in double columns</layout>. Cent. <origDate>xiv and perhaps xiii late</origDate>.</p>
+
+                <p function="Multivolume" rend="withinContents"><lb/><label>Volume I:</label>
+                    <layout>in double columns of 56 lines</layout>: <handNote>two hands seem to be employed, of cent.
+                            <origDate>xiv</origDate>. They are French, perhaps South French</handNote>. The ink is pale.
+                        <decoNote>Fine ornaments</decoNote>. <lb/><label>Volume II:</label>
+                    <layout>in double columns of 75, 73 etc. lines</layout>. <handNote>In a clear black hand, very
+                        closely written</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>12</num> 2<num>12</num> 3<num>8</num>-5<num>8</num> 6<num>2</num> 7<num>10</num>
+                            8<num>12</num> 9<num>12</num>. || 1<num>8</num>-8<num>8</num> (+1)
+                            9<num>8</num>-21<num>8</num> 22<num>4</num> (+1) 23<num>4</num></collation>.</p>
+
+
+
+                <p>
+                    <label>2 fo.:</label>
+                    <lb/>
+                    <label>Volume I:</label>
+                    <secFol>parma</secFol>.<lb/>
+                    <label>Volume II:</label>
+                    <secFol>Mais de ce est</secFol>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-262 + iii</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="fro eng">Latin and Old French with some English on flyleaf
+                        under paste-down.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="1r" locusEnd="32v">
+
+                        <head type="CCC">
+                            <name type="author">Bernard Gui OP</name>, <title>Flores chronicorum, De origine prima
+                                gentis Francorum</title>
+                        </head>
+
+                        <ab>(<name type="author">Bernardus Guido</name>)</ab>
+                        <rubric locus="1r">De origine prima gentis francorum et eorum processu</rubric>
+                        <incipit locus="1r">Franci origine fuere troiani</incipit>
+                        <ab>Ends (on <name type="person">Philip VII</name>)</ab>
+                        <explicit locus="29v">qui eum precesserat ad regnum dei</explicit>
+                        <ab>ff. <locus>30r</locus>-<locus>32v</locus> blank</ab>
+                        <ab>See <ref type="bibl" target="Delisle 1879a">Delisle, <hi rend="italic">Notice sur les MSS.
+                                    de Bernard Gui</hi> (<hi rend="italic">Notices et Extraits</hi> xxvii 1879) §
+                                94</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="33r" locusEnd="48v">
+
+                        <head type="CCC">
+                            <name type="author">Bernard Gui OP</name>, <title>Flores chronicorum, Genealogia regum
+                                Francorum</title>
+                        </head>
+
+                        <head type="James">
+                            <title>Eiusdem Genealogia Regum Francorum</title>
+                        </head>
+                        <rubric locus="33r">De origine prima Francorum</rubric>
+                        <incipit locus="33r">Franci ex sua prima origine fuere troiani</incipit>
+                        <ab>(Dated <date>May 1331</date>)</ab>
+                        <ab>On f. <locus>33v</locus> the genealogical tree begins. <decoNote>At the top is an arcade
+                                surmounted by turrets (blue, yellow, green, brown) and under the two middle arches are
+                                figures of <name type="person">Turchotus</name> and <name type="person">Franco</name>
+                                admirably drawn and painted</decoNote></ab>
+                        <ab>
+                            <decoNote>The tree is continued between the columns of text, and illustrated with medallions
+                                of kings and innumerable busts of queens, princes and saints on blue and brown-red
+                                grounds</decoNote>
+                        </ab>
+                        <ab>Ends <locus>48r</locus> (<name type="person">Philip VII</name>)</ab>
+                        <explicit locus="48r">viii die intrantis mensis aprilis incohato iam anno dominice incarnationis
+                                    <date>m<abbr rend="superscript">o</abbr> ccc<abbr rend="superscript">o</abbr>
+                                    xxx<abbr rend="superscript">o</abbr></date></explicit>
+                        <ab>The fifth and last edition. <ref type="bibl" target="Delisle 1879a">Delisle § 103</ref></ab>
+                        <ab><locus>48v</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="49r" locusEnd="50v">
+
+                        <head type="CCC">
+                            <name type="author">Bernard Gui OP</name>, <title>Flores chronicorum, De genealogia comitum
+                                Tolosanorum</title>
+                        </head>
+                        <ab>[Eiusdem]</ab>
+                        <rubric locus="49r">Comites Tholosani</rubric>
+                        <incipit locus="49r">Legitur in gestis et cronicis francorum</incipit>
+                        <explicit locus="50v">illustris regis <name type="place">francie</name> deuolutum</explicit>
+                        <ab>
+                            <ref type="bibl" target="Delisle 1879a">Delisle § 117</ref>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="51r" locusEnd="60v">
+
+                        <head type="CCC">
+                            <name type="author">Bernard Gui OP</name>, <title>Flores chronicorum, Imperatores
+                                Romani</title>
+                        </head>
+                        <ab>[Eiusdem]</ab>
+                        <rubric locus="51r">Imperatores Romani</rubric>
+                        <incipit locus="51r">Quoniam sanctorum martirum et confessorum</incipit>
+                        <explicit locus="60v">et rediit in theotoniam</explicit>
+                        <ab>
+                            <ref type="bibl" target="Delisle 1879a">Delisle § 82, 83</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="5" locusStart="61r" locusEnd="67v">
+
+                        <head type="CCC">
+                            <name type="author">Bernard Gui OP</name>, <title>De temporibus conciliorum</title>
+                        </head>
+                        <ab>[Idem]</ab>
+                        <rubric locus="61r">de tempore Celebrationis Consiliorum</rubric>
+                        <rubric locus="61r">Incipit tractatus breuis de temporibus et annis generalium et particularium
+                            consiliorum</rubric>
+                        <incipit locus="61r">De sacrosanctis synodis seu conciliis</incipit>
+                        <ab>Ends (<date>1315</date>)</ab>
+                        <explicit locus="67v">que usque tunc steterant in suspenso</explicit>
+                        <ab>Second edition. <ref type="bibl" target="Delisle 1879a">Delisle § 153</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="6" locusStart="68r" locusEnd="71v">
+
+                        <head type="CCC">
+                            <name type="author">Bernard Gui OP</name>, <title>De ordinatione officii missae</title>
+                        </head>
+                        <ab>[Idem]</ab>
+                        <rubric locus="68r">de ordinatione officii misse facta a domino Ihesu Christo et sanctis suis
+                            apostolis ac demum per summos romanos pontifices successiue</rubric>
+                        <incipit locus="68r">Ihesus christus primus et summus pontifex</incipit>
+                        <explicit locus="69v">in remissionem peccatorum</explicit>
+                        <rubric locus="69v">Casus qui contingere possunt in celebrando missam</rubric>
+                        <incipit locus="69v">Inter cetera uero que scire oportet</incipit>
+                        <explicit locus="71v">de rasura tabule dictum est supra</explicit>
+                        <rubric locusNew="71v">Explicit</rubric>
+                        <ab>
+                            <ref type="bibl" target="Delisle 1879a">Delisle § 213</ref>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="7" locusStart="72r" locusEnd="79v">
+
+                        <head type="CCC">
+                            <name type="author">Bernard Gui OP</name>, <title>Nomina discipulorum Christi</title>
+                        </head>
+                        <ab>[Eiusdem]</ab>
+                        <rubric locus="72r">Nomina apostolorum</rubric>
+                        <incipit locus="72r">Nomina duodecim apostolorum</incipit>
+                        <explicit locus="73r">cum <name type="person">barnaba</name> assumpto <name type="person"
+                                >tito</name></explicit>
+                        <rubric locus="73r">Nomina discipulorum</rubric>
+                        <incipit locus="73r">Designauit dominus et alios</incipit>
+                        <ab locusNew="79r">Ending with Mass for the lxx disciples, and a short list of them</ab>
+                        <ab>
+                            <ref type="bibl" target="Delisle 1879a">Delisle § 148</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="8" locusStart="80r" locusEnd="84v">
+
+                        <head type="CCC">
+                            <title>Libellus breuis et utilis de articulis fidei et sacramentis ecclesiae</title>
+                        </head>
+
+                        <rubric locus="80r">Libellus breuis et utilis de articulis fidei et sacramentis ecclesie et
+                            preceptis decalogi cum quibusdam aliis annexis in fine pro rectoribus et curatis ecclesiarum
+                            nostre lodouensis dyocesis ad erudiendum plebes sibi commissas</rubric>
+                        <incipit locus="80r">Quoniam ut ait apostolus hebreos xi<abbr rend="superscript">o</abbr> sine
+                            fide etc.</incipit>
+                        <explicit locus="84v">alcius duximus conscribendum</explicit>
+                        <ab>
+                            <ref type="bibl" target="Delisle 1879a">Delisle § 211</ref>
+                        </ab>
+                        <ab>On another Cambridge MS. of <name type="person">Bernard Gui</name> (<ref type="ms"
+                                target="CTC653">Trinity College R.4.23</ref>) see my <ref type="bibl"
+                                target="James1901b">Catalogue</ref> in loco</ab>
+                        <ab locusNew="84v">A long erased inscription follows, beginning: <q>Iste liber</q>. It is too
+                            carefully erased to be successfully revived</ab>
+                        <ab>There is also on f. <locus>84v</locus> a <name type="person">Parkerian</name> note on the
+                            next volume</ab>
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="9" locusStart="85r" locusEnd="262r">
+
+                        <head type="CCC"><name type="author">pseudo-Map</name>, <title>Prose Lancelot
+                                (incomplete)</title></head>
+
+                        <ab>Prose</ab>
+                        <ab>Romance of <name type="person">Lancelot</name> ascribed to <name type="person">Walter
+                                Map</name>, incomplete</ab>
+                        <incipit locus="1r" locusNew="85r">En la marche de gaule et de la petite bretaigne auoit
+                            ancienement ii rois</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="178r" locusNew="262r">et coment il fu deliures de la karole ou il estoit
+                            mis</explicit>
+                        <ab><decoNote>Initials in red and green, plain</decoNote>. <handNote>The text is the work of two
+                                scribes at least</handNote></ab>
+
+                    </msItem>
+
+                </msContents>
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text:copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, SP, CF 2nd</p>
+                            <p>msCheck: NJC 11.07.2007 2nd check and title confirmation NJC 24.10.07</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

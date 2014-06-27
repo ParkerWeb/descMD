@@ -1,0 +1,118 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC531">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>531</idno>
+                    <altIdentifier type="Elbing">
+                        <idno>N. 33</idno>
+                    </altIdentifier>
+
+                </msIdentifier>
+                <head type="CCC">Questiones super Peter Lombard, Sententiarum libri IV</head>
+                <head type="James">[Untitled]</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">307</height>
+                        <width unit="mm">223</width>
+                    </measureGrp>, <measureGrp type="James">12 x 9</measureGrp>, <extent>ff. 328</extent>,
+                        <layout>single and double columns</layout>. Cent. <origDate>xiv-xv</origDate>, <handNote>in many
+                        hands</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>12</num> (wants 1) 2<num>12</num> 3<num>6</num> 4<num>12</num>-6<num>12</num>
+                            7<num>10</num> (1 canc.) 8<num>12</num> (1 canc.) 9<num>12</num> 10<num>12</num> |
+                            11<num>12</num> 12<num>10</num> (1 canc.) | 13<num>12</num> 14<num>10</num> 15<num>8</num>
+                        (1 canc.) 16<num>10</num> 17<num>12</num> 18<num>8</num> 19<num>12</num> 20<num>12</num> (11
+                        canc.) 21<num>12</num>-24<num>12</num> 25<num>8</num>
+                        26<num>12</num>-30<num>12</num></collation>.</p>
+
+                <p function="Additions">One cover remains (the second) with metal tag and bosses.</p>
+                <p function="Additions" rend="withinContents">No names of authors occur so far as I can discover.</p>
+                <p type="CCC">
+                    <foliation>ff. a-b + i-iii + 1-146 + 146a + 147-329 + iv-v</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="ger">Latin and German<!-- in fragments-->.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="328v">
+                        <head type="CCC">
+                            <title>Questiones super <name type="person">Peter Lombard</name>, Sententiarum libri
+                                IV</title>
+                        </head>
+                        <head type="James">
+                            <title>Questiones super sententias</title>
+                        </head>
+
+
+                        <ab>At f. <locus>144r</locus> are questions on liber III</ab>
+                        <ab>At f. <locus locusNew="161r">160r</locus> on liber IV</ab>
+                        <ab>At f. <locus locusNew="191r">190r</locus> on liber II</ab>
+                        <ab>At f. <locus locusNew="226r">225r</locus> on liber I</ab>
+                        <ab>At f. <locus locusNew="270r">269r</locus> on liber III</ab>
+                        <ab>At f. <locus locusNew="294r">293r</locus> on liber IV</ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF, CF 2nd</p>
+                            <p>msCheck: CF 22.1.2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

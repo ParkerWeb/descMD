@@ -1,0 +1,239 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC267">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>267</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>E. 7</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>49</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Frechulf of Lisieux, Chronica. Peter Damian OSB, De nouissimis et Antichristo. John
+                    Thwing of Bridlington OSA, Versus prophetiales</head>
+                <head type="James">Freculphus</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">266</height>
+                        <width unit="mm">169</width>
+                    </measureGrp><measureGrp type="James">10.8 x 6.7</measureGrp>, <extent>ff. 4 + 120</extent>,
+                        <layout>41-42 lines to a page</layout>. Cent. <origDate>xi</origDate>, <handNote>in a lovely
+                        upright round hand, characteristic of <name type="place">St Augustine's,
+                        Canterbury</name></handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>4</num> 1<num>8</num>-15<num>8</num></collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>immutauerit</secFol>.</p>
+
+                <p function="Provenance" rend="withinContents">On f. <locus>1r</locus>: Liber <name type="place">S.
+                        Augustini Cant.</name>
+                    <name type="author">Fretulfus</name> Di. x. G<abbr rend="superscript">ra</abbr> II cum A. This is
+                    written twice, <handNote>in hands of cent. <origDate>xiii</origDate> and
+                        <origDate>xiv</origDate></handNote>. See <ref type="bibl" target="James 1903"><hi rend="italic"
+                            >Ancient Libraries</hi>, p. 292, no. 884</ref></p>
+
+                <p function="Additions">ff. <locus>ir</locus>-<locus>iiv</locus> blank except for <decoNote>a fine
+                        pencil sketch of a dragon on <locus>iiv</locus></decoNote>. f. <locus>iiir</locus> blank</p>
+                <p type="CCC">
+                    <foliation>ff. a + i-iv + 1-116 + 116a + 117-120 + b-c</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="iiiv" locusEnd="ivv">
+
+                        <head type="James">
+                            <title>Hymn for <name type="person">St Mellitus</name></title>
+                        </head>
+
+
+                        <ab>On f. <locus>iiiv</locus>, <layout>20 lines to a page, with neumes</layout>, cent.
+                                <origDate>xi</origDate>, <handNote>very finely written</handNote></ab>
+                        <incipit locusNew="iiiv">
+                            <lg>
+                                <l>(O) Mellite dulcissime condigne tuo nomine ...</l>
+                                <l>Fudit apes Christi celestis gaudia regni, etc.</l>
+                            </lg>
+                        </incipit>
+                        <ab locus="ivr">
+                            <lg>
+                                <l>(S)temmate cum meritis clarus Mellite nitescis.</l>
+                                <l>Sat generose solo plus generose polo. Alleluia</l>
+                            </lg>
+                        </ab>
+                        <ab>Ends</ab>
+                        <explicit locus="ivv">
+                            <lg>
+                                <l>Christe tui fons Melliti dulcedine iugi</l>
+                                <l>qui domuit gentes doctrine melle frementes</l>
+                                <l>ipsius palmam tibi pangimus atque coronam</l>
+                                <l>eius custodi precibus nos pace perhenni alleluia</l>
+                            </lg>
+                        </explicit>
+                    </msItem>
+
+                    <msItem n="2" locusStart="1v" locusEnd="119v">
+                        <head type="CCC">
+                            <name type="author">Frechulf of Lisieux</name>, <title>Chronica</title>
+                        </head>
+                        <ab locus="1r">Some notes (<origDate>xiii</origDate>-<origDate>xiv</origDate>) of chapters in
+                            the various books of the History</ab>
+                        <ab locus="1v">The main hand begins</ab>
+                        <ab>Prologue</ab>
+                        <ab locusNew="1v">
+                            <decoNote>Initial in purple to prologue</decoNote>
+                        </ab>
+                        <incipit locus="1v">Domino preceptori desiderantissimo <name type="person">Elisacharo</name>
+                            <name type="author">Frethulfus</name></incipit>
+                        <ab>(collated by <ref type="bibl" target="Hampe 1897">Hampe: <hi rend="italic">Neues
+                                Archiv</hi>, XXII 669</ref>)</ab>
+
+                        <explicit locusNew="2r">hec decerpsimus</explicit>
+
+                        <incipit locusNew="2r">
+                            <lg>
+                                <l>(T)e duce Christe uia facilis est ire per omnes</l>
+                            </lg>
+                        </incipit>
+                        <ab>(<ref type="bibl" target="Migne 106"><supplied>P. L.</supplied> CVI 919</ref>)</ab>
+                        <explicit locusNew="2r">
+                            <lg>
+                                <l>Non ignota canens ueterum sed dicta priorum</l>
+                            </lg>
+                        </explicit>
+
+                        <ab locus="2r">Capitula</ab>
+                        <ab>Text</ab>
+                        <incipit locusNew="3v">Cum aliquam temporum seriem</incipit>
+                        <ab locusNew="3v">
+                            <decoNote>In green and purple capitals: initial in red, purple and green</decoNote>
+                        </ab>
+                        <ab>Marginalia, some of cent. <origDate>xv</origDate>. One on f. <locus locusNew="5r">4r</locus>
+                            quotes <name type="person">Rabi moyses</name></ab>
+                        <ab locus="18r">Liber II. Capitula</ab>
+                        <ab locus="19v">Text. <decoNote>Purple initial</decoNote></ab>
+                        <ab locus="36r">Liber III. Capitula</ab>
+                        <ab locus="37r">Text. <decoNote>Purple initial</decoNote></ab>
+                        <ab locus="50v">Liber IV. Capitula</ab>
+                        <ab locus="51v">Text. <decoNote>Purple and blue initial</decoNote></ab>
+                        <ab locus="69v">Liber V. Capitula</ab>
+                        <ab locus="70r">Text. <decoNote>Purple and green initial</decoNote></ab>
+                        <ab locus="84v">Liber VI. Capitula</ab>
+                        <ab locus="85v">Text. <decoNote>Purple initial</decoNote></ab>
+                        <ab locus="100r">Liber VII. Capitula (incomplete)</ab>
+                        <ab locus="100r">Text. <decoNote>Green initial</decoNote></ab>
+
+                        <ab>Ends</ab>
+                        <explicit locus="119v">ad lucem uenimus ueram qua respersi in domini Christi aduentu librorum
+                            finem fecimus ut omnes sciant in me SUNT</explicit>
+                    </msItem>
+
+
+                    <msItem n="3" locusStart="119v" locusEnd="120r">
+                        <head type="CCC">
+                            <name type="author">Peter Damian OSB</name>, <title>De nouissimis et Antichristo
+                                (pseudo-Jerome, De XV signis)</title>
+                        </head>
+                        <ab locusNew="119v">
+                            <handNote>In a hand like that of <name type="place">Christchurch</name></handNote>
+                        </ab>
+                        <rubric locusNew="119v"><name type="author">Ieronimus</name> in annalibus hebreorum de xv signis
+                            ante diem iudicii</rubric>
+                        <incipit locusNew="119v">Signum primi diei. <name type="person">Maria</name> omnia in
+                            altitudinem</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="120r">xv. Finis id est ipsa dies iudicii</explicit>
+                        <ab>Often printed, e.g. <ref type="bibl" target="Migne 094">P. L. XCIV
+                                555</ref><supplied>Actually <ref type="bibl" target="Migne 145">P. L. CXXXXV
+                                840</ref></supplied></ab>
+                    </msItem>
+
+                    <msItem n="4" locusStart="120r" locusEnd="120v">
+                        <head type="CCC"><name type="author">John Thwing of Bridlington OSA</name>, <title>Versus
+                                prophetiales</title>
+                        </head>
+
+                        <head type="James">
+                            <title>Prophecy of <name type="author">John Bridlington</name></title>
+                        </head>
+
+                        <ab locusNew="120r">
+                            <handNote>In a scrawly hand of cent. <origDate>xv</origDate></handNote>
+                        </ab>
+
+                        <incipit locusNew="120r">
+                            <lg>
+                                <l>ffebribus infectus requies fuerat mihi lectus</l>
+                            </lg>
+                        </incipit>
+
+                        <explicit locusNew="120v">
+                            <lg>
+                                <l>Sanguine scotorum spoliatorum sociorum</l>
+                            </lg>
+                        </explicit>
+                        <ab>(cap. iv, fin.)</ab>
+
+                        <ab>(<ref type="bibl" target="Wright 1859">Wright, <hi rend="italic">Political Poems</hi>, Rolls
+                                Series I pp. 128-141</ref>)</ab>
+
+                    </msItem>
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: NJC 18.09.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

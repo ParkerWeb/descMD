@@ -1,0 +1,204 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC366">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>366</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>3. 14</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>312</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Peter of Blois, archdeacon of Bath, Epistolae</head>
+                <head type="James">P. Blesensis Epistolae cxv</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">226</height>
+                        <width unit="mm">152</width>
+                    </measureGrp>, <measureGrp type="James">8.9 x 6</measureGrp>, <extent>ff. 2 + 133</extent>,
+                        <layout>28 and 32 lines to a page</layout>. Cent. <origDate>xiii (cir. 1250?)</origDate>,
+                        <handNote>in several good hands</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num> 1<num>8</num>-16<num>8</num> 17<num>6</num> (wants 6)</collation>.</p>
+
+                <p function="Provenance">From <name type="place" key="DoverPri-001">Dover Priory</name>: at bottom of f.
+                        <locus locusNew="6r">2r</locus> is:<lb/> :<figure xml:id="figure198b"/> : III : Epistole <name
+                        type="author" key="PeterofB-001">petri bles</name> ... quia uniuersus iuda ... 143 ... 2.<lb/>
+                    <ref type="bibl" target="James 1903"><hi rend="italic">Ancient Libraries</hi>, p. 419, no.
+                    133</ref>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i -viii + (1-2 missing) 3-75 (76-77 missing) + 78-135 (136 missing) + 137-140 +
+                        ix-xvi</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="3r" locusEnd="140v">
+                        <head type="CCC">
+                            <name type="author" key="PeterofB-001">Peter of Blois, archdeacon of Bath</name>,
+                                <title>Epistolae</title>
+                        </head>
+                        <head type="James">
+                            <name type="author" key="PeterofB-001">P. Blesensis</name>
+                            <title>Epistolae cxv</title>
+                        </head>
+
+                        <ab locus="ir" locusNew="3r">Table <handNote>in a somewhat charter-like hand</handNote> of cent.
+                                <date>xiii</date></ab>
+                        <ab>
+                            <decoNote>Headed in red</decoNote>
+                        </ab>
+                        <rubric locusNew="3r">Hec sunt nomina Epistolarum. Hi sunt tituli</rubric>
+
+                        <ab>Begins</ab>
+                        <incipit locusNew="3r">Rogatus a vobis</incipit>
+                        <ab locusNew="3r">i. Prefatio Epistolarum Magri <name type="author" key="PeterofB-001">Petri
+                                Blesensis</name></ab>
+
+
+                        <incipit locusNew="3r">Audiui et conturbatus</incipit>
+                        <ab locusNew="3r">ii. Quod modeste dolendum de mortuis</ab>
+
+
+                        <incipit locusNew="3r">Fletu singu(l)tuoso</incipit>
+                        <ab locusNew="3r">iii. Quod nobilis Ignobilem non contempnat</ab>
+
+                        <ab>Ends</ab>
+
+                        <incipit locus="iiv" locusNew="4v">Sal infatuatum</incipit>
+                        <ab locusNew="4v">cxiiii. De inpetuosa et indiscreta prelati sententia</ab>
+
+
+                        <incipit locusNew="4v">Eam speramus</incipit>
+                        <ab locusNew="4v">cxv. Quod honesti consanguinei diligendi et promouendi</ab>
+
+                        <ab>
+                            <handNote>The same hand writes many marginalia in the body of the book</handNote>
+                        </ab>
+                        <ab>Text</ab>
+                        <rubric locus="1r" locusNew="5r">Epistole Magistri <name type="author" key="PeterofB-001">Petri
+                                blesensis</name> Bathon. archidiaconi</rubric>
+                        <incipit locusNew="5r"><name type="author">Henrico</name> dei gratia illustrissimo anglorum regi
+                            etc.</incipit>
+                        <incipit locusNew="5r">Rogatus a uobis</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="133v" locusNew="140v">gratiam uendicat et fauorem</explicit>
+                        <ab>Verses <handNote>in another hand</handNote> (<origDate>xiv</origDate>), rather faint</ab>
+                        <ab>a.</ab>
+                        <incipit locusNew="140v">
+                            <lg>
+
+                                <l>Pene quibusque bonis fecundis rex reg ...</l>
+                                <l><name type="person" key="Charlema-001">Karole</name> viue precor et plebis h .. tuere
+                                    (?)</l>
+                                <l>Plebem custodi sed linguas quas nimis odi</l>
+                                <l>Urendas iure iurantum turpiter ure</l>
+                                <l>...</l>
+
+                            </lg>
+                        </incipit>
+
+                        <ab>18 lines, the last </ab>
+
+                        <explicit locusNew="140v">
+                            <lg>
+                                <l>In ducis exitium vicium dux hocc cito mundet</l>
+                            </lg>
+                        </explicit>
+
+                        <ab>b.</ab>
+
+                        <incipit locusNew="140v">
+                            <lg>
+
+                                <l>Ut sompnum fugias ac ocia que nimis odi</l>
+                                <l><name type="person" key="PeterofB-001">Petri</name> sepe legas librum blesensis
+                                    egidi</l>
+                            </lg>
+                        </incipit>
+
+                        <ab>c.</ab>
+                        <incipit locusNew="140v">
+                            <lg>
+
+                                <l>Francorum regi soldanus mandat ut ipsi</l>
+                                <l>Mittat lombardos tres potibus et dape largos</l>
+                                <l>Nec trutannos tres normannos tresque scientes</l>
+                                <l>Et domitos britones tot et anglos non cupientes</l>
+                                <l>Soldano regis respondet epistola quod vis</l>
+                                <l>
+                                    <abbr rend="superscript">vel tu vir</abbr>
+                                </l>
+                                <l>Et petis inuenies cum de mare femina fies</l>
+                            </lg>
+                        </incipit>
+
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: ELB 25/03/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

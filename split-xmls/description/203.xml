@@ -1,0 +1,129 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC203">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>203</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Lib. ab Al. 7</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Nicholas of Lyre OFM, Postilla litteralis in nouum testamentum</head>
+                <head type="James">N. de Lyra super Novum Testamentum</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">370</height>
+                        <width unit="mm">250</width>
+                    </measureGrp><measureGrp type="James">14.5 x 9.8</measureGrp>, <extent>ff. 1 + 331</extent>,
+                        <layout>double columns of 57 lines</layout>. Cent. <origDate>xv</origDate>, <handNote>clearly
+                        written</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num> (1 left) 2<num>8</num>-18<num>8</num> (wants 8) 19<num>8</num>
+                        (wants 2) 20<num>8</num>-25<num>8</num> (wants 8) 26<num>8</num> (wants 1)
+                            27<num>8</num>-36<num>8</num> 37<num>10</num> 38<num>8</num>-42<num>8</num> 43
+                        (four)</collation>.</p>
+
+                <p>On flyleaf: 1639. Ex dono M<abbr rend="superscript">ri</abbr>
+                    <name type="person">Tho. Fawscet</name>. He was <q>pre-elected</q> Fellow in <date>1636</date> but
+                    never admitted.</p>
+
+                <p> I use the old foliation. <supplied>(CCC has updated to modern foliation)</supplied>
+                </p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i + 1-331</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="iv" locusEnd="331v">
+                        <head type="CCC">
+                            <name type="author">Nicholas of Lyre OFM</name>, <title>Postilla litteralis in nouum
+                                testamentum</title>
+                        </head>
+                        <head type="James">
+                            <title><name type="author">Lyra</name> super Novum Testamentum</title>
+                        </head>
+
+                        <ab locusNew="iv">A contemporary list of the books with references to the leaves is on the
+                            fly-leaf</ab>
+                        <rubric locus="1r">Prologus super Evangelia</rubric>
+                        <incipit locusNew="1r">Quatuor facies uni</incipit>
+                        <ab>After f. <locus>1v</locus> is a gap. f. <locus>2r</locus> begins on Matt. iv</ab>
+                        <ab>
+                            <decoNote>The books have pretty initials, usually in blue with a filling of red hatching
+                                bearing a white foliage pattern</decoNote>
+                        </ab>
+                        <ab locus="157r" locusNew="148r">Pauline Epistles</ab>
+                        <ab locus="270r" locusNew="259r">Catholic Epistles</ab>
+                        <ab locus="291" locusNew="280r">Acts</ab>
+                        <ab locus="320r" locusNew="309r">Apocalypse</ab>
+                        <ab locus="342r" locusNew="331r">Ending unfinished in Apoc. xxi <q>in sinum <name type="person"
+                                    >abrahe</name>. et nomina scripta</q></ab>
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJM 31/07/08</p>
+                            <p>remarks: NJM notes that the manuscript is currently disbound and former paper flyleaves
+                                a, b, c are gone</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

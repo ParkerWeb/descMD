@@ -1,0 +1,324 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC206">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>206</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Lib. ab Al. 11</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Philosophical Works by Martianus Capella, Aristotle, Boethius and others</head>
+                <head type="James">Martianus Capella. Aristoteles, Boethius etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">305</height>
+                        <width unit="mm">225</width>
+                    </measureGrp><measureGrp type="James">12.1 x 8.8</measureGrp>, <extent>ff. 131</extent>, <layout>26,
+                        24 and 23 lines to a page</layout>. Cent. <origDate>x</origDate> (<ref type="bibl"
+                        target="Bradshaw 1889">Bradshaw</ref>): <handNote>in a good Carolingian minuscule: three or four
+                        hands</handNote>. The edges of the leaves at beginning and end somewhat worn.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>10</num> 2<num>8</num> 3<num>6</num> (wants 6) | 4<num>8</num>-9<num>8</num> ||
+                            10<num>8</num>-16<num>8</num> 17 (four)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>fraudulenta</secFol>.</p>
+
+                <p function="Provenance">I have not detected any vernacular glosses in the book. Very probably it was
+                    given by <name type="person">Daniel Rogers</name>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-131 + iii-iv</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="1r" locusEnd="23v">
+                        <head type="CCC"><name type="author">Martianus Capella</name>, <title>De nuptiis Philologiae et
+                                Mercurii, book 4</title></head>
+                        <head type="Nasmith">
+                            <title><name type="author">Martiani Minei Felicis Capellae Afri</name> Cartaginensis de arte
+                                dialectica</title>
+                        </head>
+
+                        <ab locusNew="1r">
+                            <decoNote>Title in red and green capitals</decoNote>
+                        </ab>
+                        <rubric locus="1r"><name type="author">Martiani . Minei . Felicis . Capelle . Affri.</name> /
+                            Cartaginensis. de arte dialectica</rubric>
+                        <ab>(Liber IV De Nuptiis Philologiae)</ab>
+                        <incipit locusNew="1r">Hec quoque contortis</incipit>
+                        <ab locusNew="1r">
+                            <decoNote>Fine initial in white, red, purple, green, with dragon, and some plaited
+                                ornament</decoNote>
+                        </ab>
+                        <ab locusNew="1r">
+                            <handNote>This page is in an upright round hand, unlike what follows</handNote>
+                        </ab>
+                        <explicit locus="2r">promere cepit facultate</explicit>
+
+                        <rubric locus="2v">De dialectica felicis capelle Incipit liber</rubric>
+                        <incipit locusNew="2v">Ac mox dialectica quamquam</incipit>
+                        <ab>Ends <locus>23r</locus></ab>
+                        <ab>(The whole of the text from <hi rend="italic">Perita fandi</hi>
+                            <supplied>(f. <locus>22v</locus>)</supplied> written as verse)</ab>
+                        <explicit locusNew="23r">Compluresque eam diuirum (diuorum) qui inter initia diris: Serant
+                            (deriserant) horruerunt. martioni dialectica. explicit.</explicit>
+
+                        <ab><locus>23v</locus> blank</ab>
+                        <ab>Glosses cease after f. <locus>2v</locus></ab>
+
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="2.1" locusStart="24r" locusEnd="39v">
+                        <head type="CCC"><name type="author">pseudo-Augustine</name>, <title>Categoriae
+                            decem</title></head>
+                        <head type="Nasmith">
+                            <title><name type="author">Aristotelis</name> chategoriae ab <name type="person"
+                                    >Augustino</name> translate</title>
+                        </head>
+
+                        <ab locus="24r">Verses of <name type="author">Alcuin</name> (10). <ref type="bibl"
+                                target="Dümmler 1881">Dümmler, MGH. <hi rend="italic">Poetae aevi Carolini</hi> I
+                                295</ref></ab>
+                        <incipit locusNew="24r">Continet rite (iste) decem nature uerba libellus</incipit>
+                        <explicit locusNew="24r">Munere qui (tali) gaudes modo mitto legendum</explicit>
+
+
+                        <rubric locusNew="24r">Incipiunt <name type="author">aristotelis</name> chategoriae ab <name
+                                type="person">agustino</name> translatae</rubric>
+                        <ab>(<ref type="bibl" target="Migne 032"><supplied>P. L.</supplied> XXXII 1419</ref>)</ab>
+                        <incipit locusNew="24r">Cum omnis scientia disciplinaque artium diuersarum</incipit>
+                        <ab>Copious marginal notes beginning</ab>
+                        <ab locusNew="24r">Franci ut ferunt a francone quodam principe ... <name type="person"
+                                >Alcuinus</name> magister partibus scithiae nostras deueniens partes</ab>
+                        <ab>Diagrams are in the margin: one of the earth on f. <locus>38r</locus></ab>
+                        <ab>Ends imperfectly in Cap. IX</ab>
+                        <explicit locus="39v">Eodem modo accipienda sunt</explicit>
+
+                    </msItem>
+
+
+
+
+                    <msItem n="2.2" locusStart="40r" locusEnd="48v">
+                        <head type="CCC"><name type="author">pseudo-Apuleius</name>, <title>Liber peri
+                                hermeneias</title></head>
+                        <head type="James">
+                            <title><name type="author">Apuleii</name> periermeniae</title>
+                        </head>
+                        <ab>beginning imperfectly (<ref type="bibl" target="Hildebrand 1842">Hildebrand, ed. min., p.
+                                229</ref>)</ab>
+                        <incipit locus="40r">obnoxia. quem uocat sergius effatum</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="48v">Quousque ueritas ipsa passa est propter quod earum non potest numerus
+                            augeri</explicit>
+                        <rubric locusNew="48v">Expliciunt periermeniae <name type="author">apulei</name> In quibus
+                            continentur omnes cathegorici sillogismis</rubric>
+                        <ab>Few glosses after the first leaves</ab>
+                    </msItem>
+
+                    <msItem n="3" locusStart="49r" locusEnd="71v">
+                        <head type="CCC"><name type="author">Porphyry</name>, <title>Isagoge in Categorias <name
+                                    type="person">Aristotelis</name>, transl. by <name type="author"
+                                >Boethius</name></title></head>
+                        <head type="Nasmith">
+                            <title>Liber Isagogarum <name type="author">Porphirii</name></title>
+                        </head>
+
+                        <rubric locus="49r">Incipit liber Isagogarum <name type="author">porphirii</name></rubric>
+                        <incipit locusNew="49r">Cum sit necessarium crisa///ori <hi rend="footnote">i.e. <name
+                                    type="person">Chrysaori</name>, the person addressed by <name type="author"
+                                    >Porphyry</name>: in the later MSS. the form is nearly always <q>Grisarori.</q></hi>
+                            et ad eam que est apud <name type="person">aristotilem</name></incipit>
+                        <ab>Hardly any glosses occur</ab>
+                        <explicit locusNew="60r">communitatisque traditionem</explicit>
+                        <rubric locusNew="60r">Explicit ysagogarum <name type="author">porphyrii</name> liber equivoca
+                            dicunt</rubric>
+                        <rubric locus="61r" locusNew="60r">Glossae de isagogis</rubric>
+                        <incipit locusNew="60r">Fidi interpretis quod fidus solet interpres excedere</incipit>
+                        <rubric locus="64v">Liber tertius incipit</rubric>
+                        <incipit locusNew="64v">Putande sunt secundum <name type="person">aristotelem</name> ad
+                            inferiora</incipit>
+                        <rubric locus="66r">Incipit IIII</rubric>
+                        <incipit locusNew="66r">Secundum genus discrepant homo et arbor</incipit>
+                        <rubric locus="67r">Liber V. incipit</rubric>
+                        <incipit locusNew="67r">De indiuiduis differunt</incipit>
+                        <rubric locus="68r">De speciebus</rubric>
+                        <incipit locusNew="68r">Hec est proprietas per se generis</incipit>
+                        <explicit locusNew="69v">uiuit sentit intelligit</explicit>
+                        <rubric locus="69v">De uisibilibus rebus</rubric>
+                        <incipit locusNew="69v">Dicit tibi quispiam quem non recognoscis Nosti me</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="71r">Commune quod deus omnipotens spiritus sanctus non potest pater aut filius
+                            sed proprie spiritus</explicit>
+                        <rubric locusNew="71r">Finit</rubric>
+                        <incipit locus="71v">Neque enim est commune unum genus ominum(!) omnia que dicuntur aut ut
+                            genus</incipit>
+                        <ab>Ends imperfectly</ab>
+                        <explicit locus="71v">nec ulla falsitate diffinitio maculatur. Rursus</explicit>
+
+                    </msItem>
+
+                    <milestone n="III" unit="volume"/>
+
+                    <msItem n="4" locusStart="72r" locusEnd="78v">
+                        <head type="CCC"><name type="author">Boethius</name>, <title>De trinitate</title></head>
+                        <head type="Nasmith">
+                            <title><name type="author">Anitii Manilii Severini Boetii</name> liber, quomodo trinitas
+                                [sit] unus Deus et non III Dei ad <name type="person">Quintum Aurelium Memnium
+                                    Simachum</name> socerum</title>
+                        </head>
+
+                        <ab locus="72r">Title in capitals occupying a page</ab>
+                        <rubric locusNew="72r">Anitii Manilii Severini V. C. et IVL exconsulis <name type="author"
+                                >Boetii</name> ordinarii / patricii. Incipit liber / quomodo trinitas / unus deus ac non
+                            iii dii / ad <name type="person">Quintum AVRI Memmium Simachum</name> ETILIV C ex cons.
+                            ordinat. AD DATR(!) socerum</rubric>
+                        <ab>(<ref type="bibl" target="Migne 064"><supplied>P. L.</supplied> LXIV 1247</ref>)</ab>
+                        <ab>Marginal notes beginning</ab>
+                        <ab locusNew="72r">Trinitas appellata quod fiat totum unum</ab>
+                        <ab>Text</ab>
+                        <incipit locus="72v">Inuestigatam diutissime</incipit>
+
+                    </msItem>
+
+                    <msItem n="5" locusStart="78v" locusEnd="79v">
+                        <head type="CCC"><name type="author">Boethius</name>, <title>Utrum pater et filius et spiritus
+                                sanctus de diuinitate substantialiter praedicentur</title></head>
+                        <head type="Nasmith">
+                            <title>Idem ad <name type="person">Iohannem Diaconum</name> utrum pater et filius et
+                                spiritus sanctus de divinitate substantialiter dicantur</title>
+                        </head>
+
+                        <incipit locus="78v">Quaero an pater</incipit>
+                    </msItem>
+
+                    <msItem n="6" locusStart="80r" locusEnd="87r">
+                        <head type="CCC"><name type="author">Boethius</name>, <title>Quomodo substantiae in eo quod sint
+                                bonae sint</title></head>
+                        <head type="Nasmith">
+                            <title>Idem ad eundem quomodo substantiae in eo quod sint bonae sint et non sint
+                                substantialiter bona</title>
+                        </head>
+
+                        <incipit locus="80r">Postulas ut ex ebdomadibus</incipit>
+                    </msItem>
+
+                    <msItem n="7" locusStart="87v" locusEnd="101r">
+                        <head type="CCC"><name type="author">Boethius</name>, <title>Liber contra <name type="person"
+                                    >Eutychen</name> et <name type="person">Nestorium</name></title></head>
+                        <head type="Nasmith">
+                            <title>Ejusdem liber adversus <name type="person">Nestorium</name> et <name type="person"
+                                    >Eutichen</name> pro persona ac natura [Christi] domino sancto ac venerabili patri
+                                Diacono</title>
+                        </head>
+
+                        <incipit locus="87v">Anxie te quidem</incipit>
+                        <explicit locusNew="101r">omnium bonorum causa perscribi</explicit>
+                        <rubric locusNew="101r">Explicit liber <name type="author">Boetii</name> contra <name
+                                type="person">eutichen</name> et <name type="person">nestorium</name></rubric>
+                    </msItem>
+
+                    <msItem n="8" locusStart="101r" locusEnd="119v">
+                        <head type="CCC"><name type="author">Alcuin</name>, <title>De dialectica</title></head>
+                        <head type="Nasmith">
+                            <title>Dialectica <name type="author">magni Karoli regis</name> ad <name type="person"
+                                    >Albinum</name> magistrum suum</title>
+                        </head>
+
+                        <incipit locus="101r">Quia mentionem philosophiae in priore disputationis nostrae
+                            sermone</incipit>
+                        <ab>(<ref type="bibl" target="Migne 101"><supplied>P. L.</supplied> CI 951</ref>)</ab>
+                        <explicit locusNew="119v">oppositio ut <name type="person">socrates</name> disputat socrates non
+                            disputat</explicit>
+                        <rubric locusNew="119v">Finit dicendo ludit quicunque scriptor scribit. leti ut scribunt
+                            scribae</rubric>
+
+                    </msItem>
+
+                    <msItem n="9" locusStart="120r" locusEnd="131v">
+                        <head type="CCC"><name type="author">pseudo-Augustine</name>, <title>Dialectica</title></head>
+                        <head type="Nasmith">
+                            <title>Dialectica <name type="author">Augustini</name> quam fecit ad instituendum filium ad
+                                    <name type="person">Theodatium</name> suum</title>
+                        </head>
+
+                        <ab>
+                            <quote>In hoc codice plurimae occurrunt glossae interlineares et notae ejusdem aevi</quote>
+                        </ab>
+
+                        <rubric locus="120r">Incipit Dialectica <name type="author">Agustini</name> quam fecit ad
+                            instituendum filium <name type="person">Adtheodatum</name> suum</rubric>
+                        <ab>(<ref type="bibl" target="Migne 032"><supplied>P. L.</supplied> XXXII 1409</ref>)</ab>
+                        <incipit locusNew="120r">Dialectica est bene disputandi scientia</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="131v">Si ab eo quod est lepos non ab eo quod est lepus deflexum est</explicit>
+                        <rubric locusNew="131v">Explicit <name type="author">aurilii augustini</name> epistola de
+                            dialectica</rubric>
+                    </msItem>
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: RJR 29.11.07</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

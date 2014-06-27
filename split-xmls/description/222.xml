@@ -1,0 +1,161 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC222">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>222</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Lib. ab Al. 39</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Richard of Saint-Victor OSA (attrib.), Tractatus de conceptione beatae Mariae,
+                    Tractatus de conceptione Christi</head>
+                <head type="James">? Ric. de S. Victore</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">235</height>
+                        <width unit="mm">175</width>
+                    </measureGrp>, <measureGrp type="James">9.6 x 7</measureGrp>, <extent>ff. 13 + 56</extent>,
+                        <layout>30 lines to a page</layout>. Cent. <origDate>xiii</origDate>, <handNote>in a good
+                        hand</handNote>. Damaged at the top by damp.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>8</num> (wants 4) I<num>8</num>-VII<num>8</num> b<num>6</num></collation>.</p>
+
+                <p function="Provenance"><quote>Titulus primo folio inscriptus, et uti videtur, a quodam alio codice
+                        divulsus, induxit <name type="person">Stanleium</name> ut hunc codicem nominaret librum <name
+                            type="person">Hugonis de Girunde de penitentia</name>.</quote> On f. <locus>ir</locus> Liber
+                        <name type="person">Hugonis de Girunde de penitencia magdal.</name>; repeated on f.
+                        <locus>iir</locus>. In the <name type="person">Eastry</name> Catalogue of <name type="place"
+                        >Christ Church, Canterbury</name>, no. 1310 (<ref type="bibl" target="James 1903"><hi
+                            rend="italic">Ancient Libraries</hi>, p. 113</ref>) is Liber <name type="person">H. de
+                        Gerunde de penitencia Magdalene</name>. <name type="person">H. de Gerunde</name> was living in
+                        <date>1239</date>.</p>
+
+                <p function="Additions">Also a monogram of the letters M. W. very neatly drawn: repeated on f.
+                        <locus>iir</locus>.</p>
+                <p function="Additions">On f. <locus>iv</locus> a late collect for <name type="person">Pope Innocent
+                        (VIII ?)</name>:<lb/> Deus omnium fidelium pastor et rector famulum tuum <name type="person"
+                        >Innocencium</name> quem pastorem ecclesie tue etc.</p>
+                <p function="Additions">On ff. <locus>iir</locus>-<locus>iiiv</locus> is a very faint copy in pencil of
+                    a document relating to tithes. The name <name type="person">Ricard. de Walinge</name> is discernible
+                    and <q>dicte ecclesie de cliue</q> twice.</p>
+                <p function="Additions"><quote>Ad initium codicis occurit successio archiepiscoporum Cantuar. ab <name
+                            type="person">Augustino</name> ad <name type="person">Ioannem Peccham</name>.</quote> On f.
+                        <locus>ivr</locus> a list of Archbishops of Canterbury with length of their archiepiscopates:<lb/>
+                    <name type="person">Sanctus augustinus</name> sedit xvi annos<lb/> ...<lb/>
+                    <name type="person">Iohannes de Pecham</name> sedit xiiij ann. ix septimanas vac. ii. ann.</p>
+                <p function="Additions">ff. <locus>vr</locus>-<locus>viiv</locus> blank.</p>
+                <p function="Research">These flyleaves more properly belong to <ref type="ms" target="CCC226">MS
+                        226</ref>, which seems once to have been a part of this volume.</p>
+
+
+
+                <p function="Additions">The remaining leaves <supplied>(ff.
+                        <locus>55v</locus>-<locus>xiiiv</locus>)</supplied> are blank except for about three pages of
+                    old pencil-writing at the end.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-vii + 1-56 + viii-xiii</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="37v">
+                        <head type="CCC"><name type="author">Richard of Saint-Victor OSA (attrib.)</name>,
+                                <title>Tractatus de conceptione beatae Mariae</title></head>
+                        <head type="Nasmith">
+                            <title>Tractatus de conceptione B. Mariae</title>
+                        </head>
+
+                        <ab>No title</ab>
+                        <incipit locus="1r">In agro booz ruth moabitis messorum sequens uestigia</incipit>
+                        <explicit locusNew="2r">diuine nos hostium misericordie celi hostiaria introducat</explicit>
+                        <incipit locus="2v">Archa (ueteris) testamenti tot adumbrata misteriis</incipit>
+                        <ab>Ends</ab>
+                        <explicit locusNew="37r">in ipsa magnificemur per eum qui est super omnia sanctus et benedictus
+                            in secula. Amen</explicit>
+                        <ab locus="37v">blank</ab>
+
+                    </msItem>
+
+
+
+                    <msItem n="2" locusStart="38r" locusEnd="55r">
+                        <head type="CCC"><name type="author">Richard of Saint-Victor OSA (attrib.)</name>,
+                                <title>Tractatus de conceptione Christi</title></head>
+                        <head type="Nasmith">
+                            <title>Tractatus de conceptione Christi</title>
+                        </head>
+
+                        <incipit locusNew="38r">Liber generationis Ihesu Christi ... <name type="person">Abraham</name>.
+                            Sacram christi incarnationem antiqui patres</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="55r">cum iterum uenerit accipiat nos ad se ipsum ut ubi est ipse et nos simus
+                            ubi cum patre et spiritu sancto uiuit et regnat deus per omnia secula seculorum.
+                            Amen</explicit>
+
+
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: ELB 25.3.2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

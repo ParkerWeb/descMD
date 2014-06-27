@@ -1,0 +1,620 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC367">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>367</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>19. 9</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>342</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Miscellaneous Compilation including Old English Material and Historical and
+                    Philosophical Works</head>
+                <head type="James">Chronica. Anglo-Saxon fragments, etc.</head>
+
+                <p function="Codicology"><material>Paper and vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">220</height>
+                        <width unit="mm">145</width>
+                    </measureGrp>, <measureGrp type="James">8.5 x 5.5</measureGrp>, <extent>ff. 53 + 52</extent>,
+                        <layout>five volumes </layout> of cent. <origDate>xv, xi-xii, xiv, xi</origDate>
+                    respectively.</p>
+
+
+                <p function="Multivolume" rend="withinContents"><lb/><label>Volume II:</label> Six leaves <handNote>in a
+                        smallish hand of cent. <origDate>xi-xii</origDate></handNote>: <layout>35 lines to a
+                        page</layout>.<lb/><label>Volume III:</label>
+                    <layout>Double columns of 43 lines</layout>. Cent. <origDate>xiii-xiv</origDate>, <handNote>black
+                        hand</handNote>.<lb/><label>Volume IV:</label>
+                    <layout>Double columns of 32 lines</layout>. Cent. <origDate>xiii</origDate>, <decoNote>red
+                        initial</decoNote>.<lb/><label>Volume V:</label>
+                    <layout>22 lines to a page</layout>: <handNote>a fine minuscule of cent.
+                        <origDate>xi?</origDate></handNote>
+                    <decoNote>Initials filled with red</decoNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>Paper: 1<num>10</num> 2<num>10</num> 3<num>12</num> (wants 10-12) 4<num>14</num>
+                            5<num>10</num>. Vellum: a<num>2</num> b<num>2</num> c<num>2</num> d<num>4</num>
+                            e<num>2</num> (2 canc.) f<num>6</num> (6 canc.) 8<num>14</num> (10 canc.)? A<num>12</num>. B
+                        (three). I<num>8</num> (wants 1, 7, 8) II<num>2</num> (+1)</collation>.</p>
+
+
+                <p function="Provenance">Part of the volume seems to be certainly from <name type="place"
+                        >Worcester</name>.</p>
+
+                <p function="Research">The Anglo-Saxon portions were not described by <name type="person">Wanley</name>
+                    and have escaped the notice of subsequent students.</p>
+
+                <p type="CCC"><foliation>ff. i-ii + 1-105 + iii-iv</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="ang">Latin and Old English.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="1r" locusEnd="29v">
+                        <head type="CCC">
+                            <name type="author">Ranulf Higden OSB</name>, <title>Polychronicon (epitome and continuation
+                                to 1429)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Epitome chronicae Cicestrensis, sed extractum e Polychronico, usque ad annum Christi
+                                    <date>1429</date></title>
+                        </head>
+
+                        <incipit locus="1r"><name type="person">Ieronimus</name> ad <name type="person">eugenium</name>
+                            in epistola 43<abbr rend="superscript">a</abbr> dicit quod decime leguntur primum date ab
+                                <name type="person">abraham</name></incipit>
+                        <ab>Dates are marked in the margin</ab>
+                        <ab>Ends with the coronation of <name type="person">Henry VI</name> at <name type="place">St
+                                Denis</name></ab>
+                        <explicit locusNew="29v">videlicet nono die mensis decembris an<abbr rend="superscript">o</abbr>
+                            etatis sue 10<abbr rend="superscript">o</abbr></explicit>
+
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="30r" locusEnd="53r">
+                        <head type="CCC"><name type="author">Thomas Harsfield</name>, <title>Gesta regum ad <name
+                                    type="person">Henricum VI</name></title></head>
+                        <head type="Nasmith">
+                            <title>Breviarium historiae <name type="place">Angliae</name> ad annum quartum <name
+                                    type="person">Henrici IV</name>. viz. <date>1402</date></title>
+                        </head>
+                        <head type="James">
+                            <title>Breuiarium</title>
+                        </head>
+
+                        <ab>
+                            <handNote>Another hand</handNote>
+                        </ab>
+                        <ab>begins with 19 lines</ab>
+                        <incipit locusNew="30r">
+                            <lg>
+                                <l>I</l>
+                                <l><name type="place">Albion</name> est terra constans in finibus orbis</l>
+                                <l>Quam dedit <name type="person">albina</name> grecorum filia regis</l>
+                                <l>...</l>
+                            </lg>
+                        </incipit>
+
+                        <ab locusNew="30r">
+                            <lg>
+                                <l>II</l>
+                                <l>Succedunt Reges ab eodem pace fruentes</l>
+                                <l>Usque dies nostres ut pandunt scripta legentes</l>
+                                <l>Nomina scriptorum (tu) <supplied agent="RJR">[iam]</supplied> suscipe care <name
+                                        type="person">Roberte</name></l>
+                                <l>Ex libris quorum labor hic monstratur aperte</l>
+                                <l><name type="person">Galifridus</name> gesta Britonum scripsit sapienter</l>
+                                <l>Anglorum facta conscripsit <name type="person">Beda</name> patenter</l>
+                                <l><name type="person">Willelmus</name> quondam monachus Malmisberiensis</l>
+                                <l>
+                                    <name type="person">Tryuet Martinus</name>
+                                    <name type="person">henricus huntidonensis</name>
+                                </l>
+                                <l><name type="person">Petrus pictauis</name> dat cistrensis monachusque</l>
+                            </lg>
+                        </ab>
+                        <incipit locusNew="30r">Et quia confrater carissime non solum audiendo sacre scripture verbis
+                            aurem sedulus auditor accomodatur (!) tenetur</incipit>
+                        <ab>(See <name type="person">P. de Yckham</name>)</ab>
+
+                        <ab>Ends with verses (14) on the Battle of <name type="place">Shrewsbury</name></ab>
+                        <ab locusNew="52v">de isto bello quidam versificator sic infert versus</ab>
+                        <ab locusNew="52v">
+                            <lg>
+                                <l>In magdalene saturni vespere plene</l>
+                                <l><name type="person">Henrico IIII<abbr rend="superscript">to</abbr></name> sunt hec
+                                    anno sibi iiij<hi rend="superscript">to</hi></l>
+                                <l>... </l>
+                                <l>Nomina cunctorum nescio monstrare virorum</l>
+                                <l>Nescio plus quorum Christus miseretur eorum</l>
+                            </lg>
+                        </ab>
+
+                        <explicit locusNew="53r">Tempore huius regis <name type="person">Owynus</name> quidam Wallensis
+                            erigens se in principem <name type="place">Wallie</name> toto vite sue tempore cum
+                            Wallensibus rebellauit</explicit>
+                        <rubric locusNew="53r">Explicit</rubric>
+                        <ab locusNew="53r">Lower part of leaf cut off. f. <locus>53v</locus> blank</ab>
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="3" locusStart="54r" locusEnd="55v">
+                        <head type="CCC"><name type="author">Ælfric OSB</name>, <title>De temporibus anni
+                                (incomplete)</title></head>
+                        <head type="Nasmith">
+                            <title>De die, mense, de XII signis, &amp;c. (Saxonice)</title>
+                        </head>
+
+
+                        <incipit locusNew="54r">&#222;one forman dæg þyssere &#447;orulde &#447;e magon
+                            afindan þurh þes lenctenlices emnihtes dæg. Forþan ðe se emnihtes dæg is se feorða dæg
+                            þyssere &#447;orulde gesceapennysse</incipit>
+
+                        <ab>Treats de luna, de ebdomada, de anno solis, de xii signis, de anno, de diuersis mensibus, de
+                            luna, communis annus, embolismus, IIII<abbr rend="superscript">or</abbr> tempora</ab>
+                        <ab>On f. <locus locusNew="55v">2v</locus> the writing is crowded towards the end. Ends</ab>
+                        <explicit locusNew="55v">Eft on langiendum dagum he ofer geð þone suðran sunsted · 7 forþi he
+                            byð norþur gese&#447;en þonne seo sunne on &#447;intra · s&#447;a þeah ne gæð
+                            heora</explicit>
+                        <ab>It continues on ff. <locus locusNew="60r">7r</locus>-<locus locusNew="63r">10r</locus></ab>
+                        <incipit locusNew="60r">naðor ænne pricon ofer þam þe him geset is. ne dagas ne synd nu naþor
+                            lengran ne scyrtran þonne hi æt fruman &#447;æron. en <name type="place"
+                                >Egyptaland</name> ne cymð næfre nan &#447;inter</incipit>
+                        <ab>Ends f. <locus locusNew="63r">10r</locus> (on hail, snow, thunder, etc.)</ab>
+                        <explicit locusNew="63r">se bið hlud for þære lyfte bradnysse. frecen ful for þæs fyres
+                            sceotugum. beo þeos gesetnyss þus her ge endod</explicit>
+                        <ab>f. <locus locusNew="63v">10v</locus> blank</ab>
+                        <ab>This is <name type="author">&#198;lfric</name>'s extract from <hi rend="italic"><name
+                                    type="author">Beda</name> de temporibus</hi>. <ref type="bibl"
+                                target="Cockayne 1866">Cockayne, <hi rend="italic">Leechdoms</hi> III 238</ref></ab>
+
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="56r" locusEnd="82v">
+                        <head type="CCC">
+                            <title>Fragments of Old English homilies</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Homeliae quaedam Saxonica, imperfectae</title>
+                        </head>
+                        <head type="James">
+                            <title>Fragments of Homilies</title>
+                        </head>
+
+                        <ab>
+                            <hi rend="bold">a.</hi>
+                        </ab>
+                        <ab><handNote>A good hand of cent. <origDate>xii</origDate></handNote>, <layout>30 lines to a
+                                page</layout></ab>
+                        <ab locusNew="56r">Homily on the Assumption</ab>
+                        <ab>ff. <locus locusNew="59r">6r</locus>-<locus locusNew="59v">6v</locus> should precede ff.
+                                <locus locusNew="56r">3r</locus>-<locus locusNew="56v">3v</locus> (<ref type="bibl"
+                                target="Thorpe 1846">Thorpe II 436</ref>)</ab>
+
+                        <incipit locus="6r" locusNew="59r">be þisse heofenlican c&#447;ene upstige</incipit>
+                        <ab>f. <locus locusNew="59v">6v</locus> ends</ab>
+                        <ab locusNew="59v">þæt heo un asecgendlice mid criste up</ab>
+                        <ab locus="3r" locusNew="56r">ahafen on ecnysse rixige</ab>
+                        <ab>Ends f. <locus locusNew="58r">5r</locus>. f. <locus locusNew="76r">23r</locus> has the
+                            beginning</ab>
+
+                        <ab>
+                            <hi rend="bold">b.</hi>
+                        </ab>
+                        <rubric locus="5r" locusNew="58r">viii kalends Septembris. Passio <name type="person">Sancti
+                                Bartholomei apostoli</name></rubric>
+                        <incipit locusNew="58v">&#503;yrd &#447;ryteras secgað þæt þre leod scipas</incipit>
+                        <ab>(<ref type="bibl" target="Thorpe 1846">Thorpe II 454</ref>)</ab>
+                        <ab>One page only</ab>
+                        <explicit locusNew="58v">oþer deofol &#447;æs ge&#447;urðod þæs</explicit>
+                        <ab>(<ref type="bibl" target="Thorpe 1846">Thorpe II 454</ref>)</ab>
+                        <ab>Continued after break on f. <locus locusNew="77r">24r</locus></ab>
+                        <ab>On the margin of f. <locus locusNew="56r">30r</locus> is a copy of a document
+                                (<origDate>xiii</origDate>)</ab>
+                        <ab locusNew="56r"> Omnibus ... <name type="person">Walt. de La Fort</name> (?) ... Noueritis me
+                            dedisse ... <name type="person">Philipp. filio meo</name> quatuor croppos ... in camp de
+                                <name type="place">Henton</name> ... a<abbr rend="superscript">o</abbr> v. v. H.
+                                Liii<abbr rend="superscript">o</abbr> ... Test. <name type="person">Joh. Jokyn</name>.
+                            Le Fraunke<lb/><name type="person">Joh. Wace</name> ...<lb/>Wace ...<lb/>Le fraunke ... </ab>
+
+                        <ab>
+                            <hi rend="bold">c.</hi>
+                        </ab>
+                        <rubric locus="11r" locusNew="64r">Sexta Idus Septembris. Nativitas Sancte Marie
+                            Virginis</rubric>
+                        <incipit locusNew="64r">Men þa leofestan &#447;eorðiat &#447;e nu on
+                            and&#447;eardnysse þa gebyr tide</incipit>
+                        <ab>(<ref type="bibl" target="Wanley 1705">Wanley, p. 17</ref>, <ref type="ms" target="OBL406"
+                                >Bodl. NEF. 4. 12</ref>)</ab>
+                        <ab>Ends imperfectly</ab>
+                        <explicit locusNew="69v">He þa <name type="person">ioseph</name> aros of þam slæpe. s&#447;y
+                            þe ge</explicit>
+                        <ab>
+                            <ref type="bibl" target="Assmann 1889">Assmann, <hi rend="italic">A.-S. Homilien</hi> etc.
+                                p. 117</ref>
+                        </ab>
+
+                        <ab>
+                            <hi rend="bold">d.</hi>
+                        </ab>
+                        <ab><handNote>In a less good hand</handNote>, <layout>27 lines to a page</layout></ab>
+                        <ab locusNew="70r">On the Lord's Prayer, continued on f. <locus locusNew="82r">29r</locus></ab>
+                        <incipit locus="17r" locusNew="70r">ure rice gif &#447;e hit geearnian
+                            &#447;yllan</incipit>
+                        <ab>(<ref type="bibl" target="Thorpe 1844">Thorpe I 264</ref>)</ab>
+                        <ab><locus locusNew="70v">17v</locus> ends</ab>
+                        <ab locusNew="70v">Ðæt fifte gebed is. Et dimitte nobis debita nostra sicut et nos dimittimus
+                                (<locus locusNew="82r">29r</locus>) debitoribus nostris</ab>
+                        <ab>ends</ab>
+                        <explicit locusNew="82v">S&#447;a he oftor on þære fandunge</explicit>
+
+                        <ab>
+                            <hi rend="bold">e.</hi>
+                        </ab>
+                        <ab>f. <locus locusNew="71r">18r</locus> follows f. <locus locusNew="80v">27v</locus>. Homily on
+                            Dedication of <name type="person">St Michael</name>'s Church. <ref type="bibl"
+                                target="Thorpe 1846">Thorpe II 502 (fragments)</ref></ab>
+                        <ab>
+                            <hi rend="bold">f.</hi>
+                        </ab>
+                        <ab>f. <locus locusNew="72r">19r</locus> follows f. <locus locusNew="81v">28r</locus>. Homily on
+                                <name type="person">St Matthew</name>. <ref type="bibl" target="Thorpe 1846">Thorpe II
+                                468</ref></ab>
+                        <ab>
+                            <hi rend="bold">g.</hi>
+                        </ab>
+                        <ab>f. <locus locusNew="73r">20r</locus>-<locus locusNew="73v">20v</locus>, the end of a Homily
+                            and beginning of another</ab>
+                        <rubric locusNew="73r">Feria Secunda</rubric>
+                        <incipit locusNew="73r">Hit is s&#447;yðe ged(a)fenlic</incipit>
+                        <ab><ref type="bibl" target="Thorpe 1844">Thorpe I 282</ref>. f. <locus locusNew="79r"
+                                >26r</locus> continues this</ab>
+                        <ab>
+                            <hi rend="bold">h.</hi>
+                        </ab>
+                        <ab>f. <locus locusNew="74r">21r</locus>-<locus locusNew="74v">21v</locus> single leaf</ab>
+                        <incipit locus="21r" locusNew="74r">fram þro&#447;unge to æriste. fra deðe to life</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="21v" locusNew="74v">þa þa heo &#447;earð a þys troð on cristes
+                            þro&#447;unge fram middæge oð non. stanas on</explicit>
+                        <ab>(<ref type="bibl" target="Morris 1871">Morris, <hi rend="italic">Legends of the Holy
+                                    Rood</hi>, p. 167</ref>)</ab>
+
+                        <ab>
+                            <hi rend="bold">i.</hi>
+                        </ab>
+                        <incipit locus="22r" locusNew="75r">gafol oððe tol. æt heora gesiblingum oððe æt fræmdum. Petrus
+                            c&#447;&#230;&#240; æt fræmdum. Se hælend c&#447;æð, etc.</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="22v" locusNew="75v">him for godes lufan big &#447;iste fore
+                            scea&#447;að. Ðon hæfð he s&#447;a miccle</explicit>
+                        <ab>(On Matt. xvii 24, the fish and tribute-money)</ab>
+                        <ab>Apparently not found elsewhere: not known to <name type="person">Professor
+                            Napier</name></ab>
+
+                        <ab>
+                            <hi rend="bold">k.</hi>
+                        </ab>
+                        <ab locus="23r" locusNew="76r">see a. Homily on the Assumption</ab>
+                        <ab>
+                            <hi rend="bold">l.</hi>
+                        </ab>
+                        <ab locus="24r" locusNew="77r">see b. On <name type="person">St Bartholomew</name></ab>
+                        <ab>
+                            <hi rend="bold">m.</hi>
+                        </ab>
+                        <ab locus="25r" locusNew="78r">I append a copy of the fragment m.</ab>
+                        <ab locusNew="78r">fram gode · to þe cumen · ; Ic &#447;es þine &#447;lite · 7
+                            þine<lb/>&#447;ynsumnesse · 7 þine spæc 7 þin ha&#447;ung · 7 þine gehyrnys · 7 þine
+                            glednesse; Ic &#447;æs þin geþanc · 7<lb/>þine fægernes · 7 þine lufu · 7 þin
+                            gestæþþignes<lb/>7 þin ge treo&#447;nes · gif þu ænige treo&#447;a hæfdest; 7
+                            ic<lb/>&#447;æs þin gamon · 7 þin gladung · 7 þin hleahtor · 7 þine<lb/>myrhþ. Eall
+                            &#254;&#230;t þu &#447;ære. eall ic &#447;æs þis on þe 7<lb/>siþ þan ic ana
+                            &#447;æs of þe · eall þe lofode · &#254;&#230;t ic nu<lb/>sæde; 7 naht þu
+                            &#447;ære butan me · 7 þu me mid enigum<lb/>gode ne ge þohtest. ne þinne drihten. þe me
+                            þe<lb/>sealde. Ladlice eardunge hæfde ic on þe · ægh&#447;æt<lb/>þæs þe þu hogedest mid
+                            þinum flæsce ægh&#447;æt me<lb/>&#447;æs þæs earfodlic · on to ge þro&#447;ianne
+                            Eall &#254;&#230;t þu<lb/>lufodest. eall &#254;&#230;t ic hatode nære
+                            &#447;it næfre gletane tid on anum &#447;illan. For þan þe þu
+                            hyr&#447;dest<lb/>godes bebodu · 7 his haligra lare; Eala eala hreo&#447;lice · 7
+                            dreorlice. stent þonne &#254;&#230;t deade flesc asmórod<lb/>ne mæg þonne nan
+                            and&#447;yrde syllan. þam his gaste.<lb/>7 s&#447;æst s&#447;iþe ladlicum
+                            s&#447;ate · 7 him feallað of. | unfægere dropan · 7 bret on menige
+                            fealdum<lb/>hi&#447;e. H&#447;ilum he bið s&#447;iðe ladlicum men gelice ·
+                            þonne<lb/>&#447;annaþ he 7 doxað · oþre h&#447;ile he bið blac · 7 æm
+                            /heo&#447;e · 7 h&#447;ilum coll s&#447;eart · 7 gelic þam seo sa&#447;ul.
+                            heo<lb/>&#447;að on yfelan bleon s&#447;a same · s&#447;a se lichama ·<lb/>7 bið
+                            gyt &#447;yrsan heo&#447;es; 7 standað butu · s&#447;iþe<lb/>forhte · 7 afærede
+                            · 7 bifiende on bidat domes; Ðonne clypað se deofol to þam déman · 7 c&#447;iþ to
+                            him<lb/>þes &#447;es min agen · fram hire geogoðe oð hire<lb/>ylde · heo hyrdon me
+                            georne 7 ælce dæg ic<lb/>heo lærde unriht to donne · 7 hi me simble<lb/>lustlice hyrdon. And
+                            þonne þin lareo&#447; com to hym 7<lb/>hym &#447;olde hyra sa&#447;la hælo ·
+                            tetan · þonne &#447;æs ic<lb/>f. <locus locusNew="78v">25v</locus><lb/>simle ær æt heom
+                            · 7 æft leng · 7 s&#447;ette heom heora / unriht · la h&#447;i ne mot ic habban ·
+                            &#254;&#230;t ic ær me sylf<lb/>begeat mid minum lyðrum &#447;rencum · oft ic
+                            gedyde ·<lb/>&#254;&#230;t he ge&#447;orhte þussend<abbr rend="superscript"
+                                >e</abbr> synna &#447;ið ðe · 7 nane<lb/>ge betan nolde · Ðonne c&#447;æð þæs
+                            reðan cininges<lb/>stef · gang þu sa&#447;el in &#254;&#230;t forlorene hus. þa
+                            git<lb/>æt somne syngodon. git eac æt somne s&#447;elton; Donne c&#447;ið æft se
+                            dema to þam sa&#447;lum. Discedite<lb/>a me maledicti in ignem eternum qui
+                            preparatus<lb/>est (a) diabolo. Ge&#447;itaþ ge a&#447;irgydan on
+                            &#254;&#230;t ece<lb/>fyr · &#254;&#230;t gegear&#447;ode min fæder
+                            deofle 7 his<lb/>englum. Ðonne hæfð se deofol ge&#447;orht bogan<lb/>7 stræla. 7 se boga
+                            biþ ge&#447;oht of ofer mettum ·<lb/>7 þa strela beoð s&#447;a manigra cynna
+                            s&#447;a s&#447;a mannes synna beoð. Sum stræl biþ ge&#447;orht of<lb/>niþe sum
+                            of æfeste. sum of eþ belige · sum<lb/>of hat heortnæsse · sum of stale · sum
+                            of<lb/>drucennesse · sum of dyrnum geligere · sum<lb/>of æ&#447; bryce · sum of sib
+                            legere sum of d&#447;olcræfte · sum of lyblacc · sum of gitsunge · sum<lb/>of gifernesse
+                            · sum of reaflac · sum of scincræfte<lb/>sum of mord c&#447;ale · sum of strudunge.
+                            And<lb/>s&#447;a manega stræla hæfd se deofol s&#447;a nis nan<lb/>man
+                            &#254;&#230;t hy ealle atellan magon. And ælce dæg<lb/>þæs deofoles &#447;illa
+                            bið &#254;&#230;t his strelena nan ·<lb/>ne sy unafæstnod · gif he findan mæg
+                            h&#447;ær<lb/>he hy on afæstnian mæge. 7 on hælle þa<lb/>deofla scotigað mid þam strælum
+                            · 7 s&#447;a sa he<lb/>hæfð ælce dæg his bogan to us gebendne<lb/>7 &#447;ile us
+                            scotian mid þam strælum · þe ic ær / nemde; Ðonne is us micel þearf leofan
+                            men<lb/>&#254;&#230;t &#447;e habban þa scyldas þær ongean · þe /</ab>
+
+                        <ab>
+                            <hi rend="bold">n.</hi>
+                        </ab>
+                        <ab>f. <locus locusNew="79r">26r</locus> follows <locus locusNew="73v">20v</locus>: see <hi
+                                rend="bold">g.</hi></ab>
+                        <ab>
+                            <hi rend="bold">o.</hi>
+                        </ab>
+                        <ab>f. <locus locusNew="80r">27r</locus>-<locus locusNew="80v">27v</locus> precedes <locus
+                                locusNew="71r">18r</locus> (on <name type="person">St Matthew</name> and <name
+                                type="person">St Michael</name>): see <hi rend="bold">e.</hi>, <hi rend="bold"
+                            >f.</hi></ab>
+                        <ab>
+                            <hi rend="bold">p.</hi>
+                        </ab>
+                        <ab locus="28r" locusNew="81r">Exaltation of the Cross (fragments). <ref type="bibl"
+                                target="Morris 1871">Morris, <hi rend="italic">Legends of the Holy Rood</hi>, E. E. T.
+                                S., pp. 105, 107</ref>. Also on <locus locusNew="81v">28v</locus> the beginning of the
+                            Homily on <name type="person">St Matthew</name>. <hi rend="bold">p.</hi> thus precedes f.
+                                <locus locusNew="71r">18r</locus></ab>
+                        <ab>
+                            <hi rend="bold">q.</hi>
+                        </ab>
+                        <ab locus="29r" locusNew="82r">On the Lord's Prayer: see <hi rend="bold">d.</hi></ab>
+
+                    </msItem>
+
+                    <milestone n="III" unit="volume"/>
+
+                    <msItem n="5" locusStart="83r" locusEnd="94v">
+                        <head type="CCC"><name type="author">Robert Kilwardby OP</name>, <title>De natura
+                                relationis</title></head>
+                        <head type="Nasmith">
+                            <title>Logica quaedam</title>
+                        </head>
+
+
+                        <rubric locus="30r" locusNew="83r">Que sit res predicamenti relationis per se</rubric>
+                        <incipit locusNew="83r">De predicamento relationis querunt aliqui que sit res huius
+                            generis</incipit>
+                        <ab>Ends imperfectly in chapter 31</ab>
+
+                    </msItem>
+
+                    <milestone n="IV" unit="volume"/>
+
+                    <msItem n="6" locusStart="95r" locusEnd="97v">
+                        <head type="CCC">
+                            <title>Apocalypsis Goliae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Versus quidam</title>
+                        </head>
+                        <head type="James">
+                            <title>Apocalypsis Goliae</title>
+                        </head>
+                        <ab>(<ref type="bibl" target="Wright 1841">Wright, <hi rend="italic">Poems of W. Mapes</hi>, p.
+                                1</ref>)</ab>
+                        <incipit locus="42r" locusNew="95r">A tauro torrida lampade cinthii</incipit>
+                        <ab>Ending</ab>
+                        <explicit locusNew="97v">Dux meus manibus me capit insitis</explicit>
+                        <ab>(l. 410)</ab>
+
+
+                    </msItem>
+
+
+                    <milestone n="V" unit="volume"/>
+
+                    <msItem n="7" locusStart="98r" locusEnd="101v">
+                        <head type="CCC">
+                            <title>Vita breuior <name type="person">Sancti Kenelmi</name> (incomplete)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Historia (imperfecta) <name type="person">Kenelmi principis Merciorum</name></title>
+                        </head>
+                        <head type="James">
+                            <title>Life of <name type="person">St Kenelm</name></title>
+                        </head>
+
+
+
+
+                        <ab locus="45r" locusNew="98r">beginning imperfectly in c. ii</ab>
+                        <incipit locusNew="98r">forma. perfusus diuina dilectione et gratia deo et hominibus amabilis
+                            erat aetatula</incipit>
+                        <ab locusNew="101r">The original hand ends in c. viii: diuinorum miracula beneficiorum
+                            commendant. <handNote>A hand of cent. <origDate>xii</origDate> continues and, writing very
+                                close, ends on the same page</handNote>. It begins: martirem suum quem et ab humana
+                            noticia abscidere nitebatur: and ends: occubuerit. ad laudem et gloriam dei patris
+                            omnipotentis qui uiuit et regnat per omnia secula seculorum. Amen</ab>
+                        <ab locusNew="101r">
+                            <decoNote>Under this is a scribble of a maze in pencil</decoNote>
+                        </ab>
+                        <ab>The same Life (abridged in <ref type="bibl" target="Sollerius et al 1725"><hi rend="italic"
+                                    >Acta Sanctorum</hi> July IV 380</ref>, and in <ref type="bibl"
+                                target="Horstmann 1901b">Horstmann, <hi rend="italic">Nova Legenda Angliae</hi> II
+                                110</ref>) is in MS. <ref type="ms" target="OBL943">Douce 368</ref> and <ref type="ms"
+                                target="OBL285">Bodley 285</ref></ab>
+                        <ab locus="48v" locusNew="101v">On the verso a line and a half <handNote>in a small
+                                hand</handNote> giving a list of books.<lb/> .i. Ðeo englissce passionale · 7 .ii. ·ii·
+                            englissce dialogas · 7 .iii. oddan boc · 7 .iiii. þe englisca martirlogium · / 7 .vi. · ii ·
+                            englisce · salteras 7 · ii · pastorales · englisce · 7 þe englisca regol. / 7 barontus.
+                            <lb/>(Printed in my <ref type="bibl" target="James 1899">
+                                <hi rend="italic">Sources of Archbishop Parker's Collection</hi>
+                            </ref> and in <ref type="bibl" target="Floyer and Hamilton 1906">Floyer and Hamilton's <hi
+                                    rend="italic">Catalogue of the MSS. at Worcester Cathedral</hi>, p. 166, note
+                                3</ref>.) Barontus is the Vision of <name type="person">Barontus of Pistoia</name>
+                            <ref type="bibl" target="Bollandus and Henschenius 1668b"><hi rend="italic">Acta
+                                    Sanctorum</hi> Mart. 24</ref></ab>
+
+
+                    </msItem>
+
+                    <msItem n="8" locusStart="101v" locusEnd="105v">
+                        <head type="CCC">
+                            <title>Old English Visio Leofrici</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Homelia Saxonica sive passionale</title>
+                        </head>
+
+
+                        <ab>
+                            <handNote>In a hand similar <supplied>to that of the booklist in item 7</supplied> but
+                                larger</handNote>
+                        </ab>
+
+
+                        <ab locus="48v" locusNew="101v">Title in faint pencil</ab>
+                        <rubric locusNew="101v">Uisio <name type="person">Leofrici</name></rubric>
+                        <incipit locusNew="101v">Her gesutelað ða gesihðe ðe Leofric eorl gesæh. him þuhte to soðan on
+                            healf slapendon lichaman na eallinga s&#447;ylce on s&#447;efne ac gyt
+                            ge&#447;isslicor &#254;&#230;t he sceolde nede ofer ane s&#447;iðe smale
+                            bricge · 7 seo &#447;ær s&#447;iþe lang</incipit>
+                        <ab>Ends</ab>
+                        <explicit locusNew="103v">hit þa ges&#447;ac þæra bletsunga &#254;&#230;t
+                            &#447;æs neh þam þes godspel &#447;æs gerædd. Feo&#447;ertyne nihton ær his forð
+                            siðe he foresæde þonne dæg þe he sceolde cuman to cofantreo to his langan hame þær he on
+                            restet · 7 hit à eode eall s&#447;a he sæde. Requiescat in pace</explicit>
+                        <ab>This document, which had remained unnoticed, has been printed by <ref type="bibl"
+                                target="Napier 1908">Professor Napier in the <hi rend="italic">Philological
+                                Journal</hi>, 1908</ref></ab>
+                        <ab>A note (<origDate>xiii</origDate>)</ab>
+                        <incipit locusNew="103v">Vesperus est grandis interpolatio nubium inter nos et solem</incipit>
+                        <ab locus="51r" locusNew="104r">In a hand like that of no. 8 with neumes. Sequence for
+                            Epiphany</ab>
+                        <incipit locusNew="104r">
+                            <lg>
+                                <l>Letabundus exultet fidelis chorus alleluia</l>
+                                <l>Regem regum intacte profudit thorus res miranda</l>
+                            </lg>
+                        </incipit>
+
+                        <explicit locusNew="104v">
+                            <lg>
+                                <l>Sanctus namque spiritus ipsa nobis prebuit bene mentis naribus odoranda</l>
+                            </lg>
+                        </explicit>
+                        <ab>
+                            <handNote>Smaller hand</handNote>
+                        </ab>
+                        <ab locusNew="104v">Ad ultimum laus est uincta. Psalat chorus alia. Amen dicant omnia</ab>
+
+                        <ab>
+                            <handNote>Another hand, <origDate>xii</origDate></handNote>
+                        </ab>
+                        <incipit locusNew="105r"><name type="person">Hubertus (l. Herbertus) Abbas Westmon.</name> 7
+                                <name type="person">Edwius prior</name> eiusdem loci. uenerabili <name type="person"
+                                >priori Wigornie / Warino</name> et domino <name type="person">Vhtredo cantori</name>
+                            ceterisque fratribus ecclesie eiusdem. salutem in christo et perpet(uam) / pacem. Sciatis
+                            istum fratrem nostrum et <name type="person">monachum Benedictum</name> ad nos uenisse et
+                            causa(s) / recessurus (!) sui de <name type="place">Maluernia</name> sicut nobis uidetur
+                            rationabiliter ostendisse</incipit>
+                        <ab>Asks that he be well treated till the writer's coming</ab>
+                        <ab locusNew="105r">dixit nobis quoddam opus scilicet missale apud uos / incepisse et antequam
+                            ad <name type="place">Maluerniam</name> rediret sua uoluntate perficeret</ab>
+                        <ab>The monk in question has left <name type="place">Malvern</name> and gone to <name
+                                type="place">Westminster</name></ab>
+                        <ab>Ends</ab>
+                        <explicit locusNew="105r">laudando creatorem qui ouem suam reduxit ad gregem. Vale</explicit>
+                        <ab><name type="person">Herbertus</name> was Abbot of Westminster from <date>1121</date> till
+                            shortly before <date>1140</date>. <name type="person">Warinus</name> prior of Worcester cir.
+                                <date>1130-40</date></ab>
+
+                        <ab>Charm (<origDate>xii?</origDate>)</ab>
+                        <incipit locusNew="105r">+ In nomine p. et f. et s. sci amen + Ire + arex + Christe + rauex +
+                            filiax + / arafax + N. Medicina contra febres</incipit>
+                        <ab>On f. <locus locusNew="105v">52v</locus>
+                            <handNote>in a neat small hand</handNote>, beginning and margin cut: Constitutions affecting
+                            monks, etc.</ab>
+                        <ab>The last begins</ab>
+                        <incipit locusNew="105v">Monachis et canonicis regularibus tam uestimenta quam coopertoria
+                            interdicimus colorata</incipit>
+                        <incipit locusNew="105v">Viri religiosi quibus non est cura animarum commissa nullos ad
+                            penitentiam recipere audeant</incipit>
+                        <incipit locusNew="105v">Decimas uel in canonicas sanctiones ecclesiis ad quas pertinent
+                            precipimus cum integritate persolui</incipit>
+
+                    </msItem>
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: RJR 26/1/2009</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,138 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC270">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>270</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>O. 22</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>228</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Missal of St Augustine's, Canterbury</head>
+                <head type="James">Missale (S. Aug. Cant.)</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">266</height>
+                        <width unit="mm">173</width>
+                    </measureGrp><measureGrp type="James">10.5 x 6.8</measureGrp>, <extent>ff. 195 + 2</extent>,
+                        <layout>normally 20 lines to a page</layout>. Cent. <origDate>xi</origDate>, <handNote>in a
+                        magnificent large round upright minuscule</handNote>: with many erasures and later
+                    additions.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>4</num> (+ 1 or 6 wants 1) 2<num>8</num>-6<num>8</num> (wants 4, 5)
+                            7<num>8</num>-21<num>8</num> (+ 2 after the 7th) 22<num>8</num>-25<num>8</num> (wants 8), 1
+                        flyleaf: in 19 a slip is added after 7</collation>.</p>
+
+                <p function="Provenance"><supplied>Main hand is</supplied>
+                    <handNote>characteristic of <name type="place">St Augustine's, Canterbury</name></handNote>.</p>
+
+                <p function="Additions">The first flyleaf <supplied>(f. <locus>1r</locus>)</supplied> is from an
+                        <date>xi</date>th cent. copy of <name type="author">Bede</name>'s <hi rend="italic"
+                    >History</hi>, <layout>29 lines to a page</layout>, <handNote>finely written in the <name
+                            type="place">Christ Church</name> hand</handNote>: <q>Beda famulus Christi et presbiter.
+                        Historiam gentis anglorum ... necnon et orientalium anglorum</q>.</p>
+
+                <p function="Additions">The last flyleaf <supplied>(f. <locus>ir</locus>)</supplied>, <layout>32 lines
+                        to a page</layout>, <handNote>in a different hand</handNote> contains: <name type="author"
+                        >Bede</name>, Historia Ecclesiastica I 2: ta fuit qui anno ab urbe condita quingentesimo
+                    nonagesimo tertio ... occidenti libiorum a meridiano.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + 1-146 + 146a + 147-163 + 163a + 164-196 + i + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="2r" locusEnd="196v">
+                        <head type="CCC">
+                            <title>Missal of <name type="place">St Augustine's, Canterbury</name></title>
+                        </head>
+
+                        <ab>ff. <locus>174r</locus>-<locus>181v</locus> and <locus>182r</locus> are <handNote>in a large
+                                bold pointed hand</handNote></ab>
+                        <ab>ff. <locus>182v</locus>-<locus>196v</locus>
+                            <handNote>in a tall narrow round hand</handNote></ab>
+                        <ab>
+                            <decoNote>On ff. <locus>12r</locus>, <locus>16r</locus>, <locus>46r</locus>,
+                                    <locus>48v</locus>, <locus>51v</locus>, <locus>54r</locus>, <locus>71v</locus>,
+                                    <locus>92v</locus>, <locus>98r</locus>, <locus>101v</locus> are fine polychrome
+                                decorative initials in many of which purple is used</decoNote>
+                        </ab>
+
+                        <ab>The text of the volume was printed by <ref type="bibl" target="Rule 1896">Mr Martin Rule
+                                (Cambridge, 1896)</ref> with two pages in facsimile, and a most elaborate and ingenious
+                            Introduction, in which Mr Rule contends that this Missal is copied from one given by <name
+                                type="person">Gregory</name> to <name type="person">Augustine</name>. Mr Rule has
+                            presented to the College a manuscript volume written by himself entitled <ref type="ms"
+                                target="CCC549">A Study of MS. C.C.C.C. 270</ref>, which is preserved in the manuscript
+                            class</ab>
+
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: RJR 30.11.07</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

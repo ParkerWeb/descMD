@@ -1,0 +1,314 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC424">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>424</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>N. 32</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>194</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Astronomical Tracts. Liber de Joseph et Aseneth</head>
+                <head type="James">Astronomica. Aseneth, etc.</head>
+                <p function="Codicology"><material>Paper and vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">199</height>
+                        <width unit="mm">139</width>
+                    </measureGrp>, <measureGrp type="James">7.7 x 5.7</measureGrp>, <extent>ff. MSS. 41 + 18 + 11 +
+                        1</extent>, <layout>six volumes</layout>. Cent. <origDate>xvi, xv, xii?, xiii</origDate>.</p>
+
+                <p function="Multivolume"><lb/><supplied>Volumes I-III not imaged</supplied><lb/><label>Volume
+                        IV:</label>
+                    <material>Paper</material>, <layout>37 etc. lines to a page</layout>. Cent. <origDate>xv</origDate>
+                    <handNote>in a small current hand</handNote>.<lb/>
+                    <label>Volume V:</label>
+                    <material>Vellum</material>, <layout>28 lines to a page</layout>. Cent. <origDate>xii?</origDate>
+                    <handNote>in a hand like that of <name type="place">Christ Church, Canterbury</name></handNote>. <lb/>
+                    <label>Volume VI:</label>
+                    <layout>Double columns of 41 lines</layout>. Cent <origDate>xiii</origDate>, <handNote>in a good
+                        small hand</handNote>. </p>
+
+
+                <p>
+                    <label>Collation:</label>
+                    <lb/>
+                    <label>Volume IV:</label>
+                    <collation>1<num>14</num>-3<num>14</num> (wants 14)</collation>.<lb/>
+                    <label>Volume V:</label>
+                    <collation>1<num>10</num> 2<num>10</num> (wants 9, 10)</collation>.<lb/>
+                    <label>Volume VI:</label>
+                    <collation>1<num>12</num> (wants 12), 1 flyleaf</collation>. </p>
+
+
+                <p>
+                    <label>2 fo.:</label>
+                    <lb/>
+                    <label>Volume V:</label>
+                    <secFol>in eo et uestimenta</secFol>.</p>
+
+
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + (printed matter, unfoliated, not imaged) + 1-70 + i + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="eng">Latin and English.</textLang>
+
+                    <label>Contents</label>
+
+                    <milestone n="IV" unit="volume"/>
+                    <msItem n="4" locusStart="1r" locusEnd="4r">
+                        <head type="CCC">
+                            <name type="author">Geoffrey Chaucer</name>, <title>Treatise on the Astrolabe</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>A treatise of the astrolabe made English by <name type="author">Chaucer</name> for
+                                the use of his son <name type="person">Lewis</name></title>
+                        </head>
+                        <ab>Begins imperfectly</ab>
+                        <incipit locusNew="1r">vnderstond well &#254;<abbr rend="superscript">t</abbr> &#254;e
+                            zodiake is departyd in 2 halfe circles</incipit>
+                        <ab>(Part II &#167; 16)</ab>
+                        <ab>Ends</ab>
+                        <rubric locusNew="4r">Explicit tractatus astrolabii secundum <name type="author"
+                                >Chaunsers</name> factus filio suo <name type="person">lodowyco</name></rubric>
+                        <ab><ref type="bibl" target="Skeat 1872">Skeat, <hi rend="italic">The Astrolabe</hi>, E.E.T.S.
+                                extra series 1872, p. xi</ref>, describes this copy</ab>
+                    </msItem>
+
+                    <msItem n="5" locusStart="4r" locusEnd="6v">
+                        <head type="CCC">
+                            <title>Kalendarium</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Bona improbatio Kalendarii nostri et correctio ejusdem plane</title>
+                        </head>
+                        <incipit locus="4r">Sciendum est quod kalendarium quo utimur</incipit>
+                        <explicit locusNew="6v">benedictus in secula. Amen</explicit>
+                        <rubric locusNew="6v">Explicit bona improbacio kalendarii nostri. Et correctio eiusdem
+                            plane</rubric>
+                    </msItem>
+
+                    <msItem n="6" locusStart="7r" locusEnd="9v">
+                        <head type="CCC">
+                            <name type="author">pseudo-Hippocrates</name>, <title>De prognosticationibus aegritudinum
+                                secundum motum lunae (transl. by<name type="person">William of Moerbeke</name>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Prognosticatio <name type="person">Hippocratis</name> infirmitatum</title>
+                        </head>
+                        <incipit locus="7r">Sapientissimus <name type="person">ypocras</name> et medicorum optimus
+                            ait</incipit>
+                        <explicit locusNew="9v">dabit cum labore et difficultate</explicit>
+                        <rubric locusNew="9v">Explicit pronosticacio <name type="person">ypocratis</name>
+                            infirmitatum</rubric>
+                    </msItem>
+
+                    <msItem n="7" locusStart="9v" locusEnd="10r">
+                        <head type="CCC">
+                            <name type="author">Arnold of Villanova (attrib.)</name>, <title>De electione situs lune in
+                                exibendis farmacis</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Compendium de existentia lunae in signis</title>
+                        </head>
+                        <incipit locus="9v">Quoniam medicus practicans non semper potest habere certa loca
+                            planetarum</incipit>
+                        <explicit locusNew="10r">luna est in piscibus ubi est impedita</explicit>
+                        <rubric locusNew="10r">Explicit compendium de existencia lune in signis</rubric>
+                    </msItem>
+
+                    <msItem n="8" locusStart="10v" locusEnd="20v">
+                        <head type="CCC">
+                            <name type="author">Albumasar (Abu Ma'shar Ja'far) (attrib.)</name>, <title>De secretis
+                                philosophorum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Flores <name type="person">Albumazar</name> de secretis philosophorum</title>
+                        </head>
+                        <incipit locus="10v">In nomine dei misericordie et pietatis. hic est liber quem collegit <name
+                                type="person">Albumazar</name> de floribus philosophorum, etc.</incipit>
+                        <incipit locusNew="10v">Ilixit <name type="person">Albumazar</name> oportet te scire</incipit>
+                        <explicit locusNew="20v">ipse est auxiliator. Amen</explicit>
+                        <rubric locusNew="20v">Expliciunt flores <name type="person">Albumasar</name> de secretis
+                            philosophorum</rubric>
+
+                    </msItem>
+
+                    <msItem n="9" locusStart="20v" locusEnd="21r">
+                        <head type="CCC">
+                            <name type="author">Robert Grosseteste</name>, <title>De impressionibus aeris siue De
+                                prognosticatione</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="person">Robertus Grostest Lincolniensis</name> de prognosticatione
+                                aeris</title>
+                        </head>
+                        <incipit locus="20v">Cum circa(?) disposicionem aeris ad aliquod certum tempus</incipit>
+                        <explicit locusNew="21r">tempus fore humidum</explicit>
+                        <rubric locusNew="21r">Hec <name type="person">lincolniensis</name> de pronosticacione
+                            aeris</rubric>
+                    </msItem>
+
+                    <msItem n="10" locusStart="21r" locusEnd="34v">
+                        <head type="CCC">
+                            <title>Regimen sanitatis Salernitanum (Flos medicinae scholae Salerni)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Flos medicinae seu versus <name type="person">Salerni</name></title>
+                        </head>
+                        <incipit locus="21r">Anglorum regi scripsit scola tota salerni</incipit>
+                        <explicit locusNew="34v">que super renes pecten des fitque iuuamen</explicit>
+                        <rubric locusNew="34v">Expliciunt versus <name type="person">Salerni</name></rubric>
+                        <ab>See <ref type="bibl" target="Moore 1908">Dr N. Moore, <hi rend="italic">Schola
+                                    Salernitana</hi> (Finlayson Lecture), Glasgow 1908, p. 27</ref></ab>
+                        <ab locus="34v">Verses on signa conceptus</ab>
+                        <ab locusNew="34v">Receipt for ptisana</ab>
+                    </msItem>
+
+                    <msItem n="11" locusStart="35r" locusEnd="41v">
+                        <head type="CCC">
+                            <title>Antidotarium <name type="author">Nicholai</name> in English</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>A treatise of medicine or dispensatory by <name type="author">Nycolas</name></title>
+                        </head>
+                        <incipit locus="35r">I <name type="author">nycolas</name> y prevyd of some men and felawes of
+                            practyce</incipit>
+                        <ab>The antidotarium of <name type="author">Nicholaus</name> in English, ending imperfectly in
+                            Electuarium leticia galieni</ab>
+                    </msItem>
+
+                    <milestone n="V" unit="volume"/>
+
+
+                    <msItem n="12" locusStart="42r" locusEnd="59v">
+                        <head type="CCC">
+                            <title>Liber de <name type="person">Joseph</name> et <name type="person"
+                                >Aseneth</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De <name type="person">Asenath</name> filia <name type="person">Potipharis</name>
+                                sacerdotis et quo ordine accepit eam <name type="person">Joseph</name> in uxorem</title>
+                        </head>
+                        <ab locusNew="42r">
+                            <decoNote>Title in red capitals</decoNote>
+                        </ab>
+                        <rubric locusNew="42r">Incipit de <name type="person">Asenech</name> filia <name type="person"
+                                >Putifaris</name> sacerdotis et quo ordine accepit eam <name type="person">Ioseph</name>
+                            in uxorem</rubric>
+                        <incipit locusNew="42r">Et factum est in primo anno septem annorum</incipit>
+                        <ab locusNew="42r">
+                            <decoNote>Purple initial</decoNote>
+                        </ab>
+                        <ab>The edges have been much cropped, carrying away the upper or lower line in part</ab>
+                        <explicit locusNew="59v">nuncupatus est pater eius in terra Egypti</explicit>
+                        <ab>This text is printed in <ref type="bibl" target="Batiffol 1889-90">Batiffol, <hi
+                                    rend="italic">Studia Patristica</hi> I 1889, pp. 89-115</ref>: collated with the
+                            text of <ref type="ms" target="CCC288">no. 288</ref></ab>
+                        <ab>This is the oldest copy of the text I have seen. If it is really of cent.
+                                <origDate>xii</origDate>, as seems likely, it is impossible that <name type="person"
+                                >Robert Grosseteste</name> should (as I have always been inclined to believe) have had a
+                            hand in the translation of the text from Greek into Latin</ab>
+                    </msItem>
+
+                    <milestone n="VI" unit="volume"/>
+                    <msItem n="13" locusStart="60r" locusEnd="68v">
+                        <head type="CCC">
+                            <name type="author">Thomas de Frakaham OSA</name>, <title>Speculum spiritalis
+                                amicitiae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Speculum spiritualis amicitiae</title>
+                        </head>
+                        <rubric locusNew="60r">Incipit liber qui dicitur speculum spiritualis amicitie</rubric>
+                        <incipit locusNew="60r">Primum quid sit amicicia arbitror disserendum</incipit>
+                        <explicit locusNew="68v">apud iustum et misericordem iudicem intercedat</explicit>
+                        <rubric locusNew="68v">Explicit liber III<abbr rend="superscript">us</abbr> de spirituali
+                            amicicia. hanc compilacionem fecit dominus <name type="person">Thomas de frakaham canonicus
+                                de lesnes</name>. compilauit autem hec de libris aluredi abbatis Reuallis, i. de speculo
+                            caritatis et de libro spiritualis amicicie</rubric>
+                        <ab><name type="place">Lesnes (or Westwood)</name> was an Augustinian priory near <name
+                                type="place">Woolwich</name></ab>
+                    </msItem>
+
+                    <msItem n="14" locusStart="68v" locusEnd="70v">
+                        <head type="CCC">
+                            <name type="author">pseudo-Aelred of Rievaulx OCist</name>, <title>Speculum
+                                humilitatis</title>
+                        </head>
+
+                        <rubric locus="9v" locusNew="68v">Incipit liber qui dicitur speculum humilitatis</rubric>
+                        <incipit locusNew="68v">Dominus noster Ihesu Christus dicit discipulis suis in ewangelio. Nolite
+                            in sublime tolli</incipit>
+                        <explicit locusNew="70v">humilitatem exhibuit. beatus saluator Christus Ihesus qui cum patre et
+                            spiritu sancto uiuit et regnat in secula seculorum. Amen</explicit>
+
+                        <ab>This tract is noticed in <ref type="bibl" target="Bale 1902">Bale's <hi rend="italic"
+                                    >Index</hi>, pp. 470,480</ref>. In the former place it is ascribed to a monk of
+                                <name type="place">Syon</name>. It occurs in the Syon Catalogue under S.43</ab>
+                        <ab locusNew="ir">The flyleaf is from a beautifully written <origDate>xii</origDate>th cent.
+                            copy of the Gospels containing part of Matt. xvi., xvii</ab>
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 17/12/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

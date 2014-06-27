@@ -1,0 +1,111 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC098A">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>98A</idno>
+
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Genealogical Roll (Creation to temp. Henry VI)</head>
+                <head type="James">Chronicle Roll</head>
+                <p function="Codicology"><material>Vellum</material> roll, <measureGrp type="CCC">
+
+                        <height unit="mm">311</height>
+                        <width unit="mm">unmeasured</width>
+
+                    </measureGrp>, <measureGrp type="James">12.25 broad</measureGrp>, <extent>on ten skins</extent>.
+                    Cent. <origDate>xv late</origDate>.</p>
+
+                <p function="Research">This is a plain specimen <decoNote>with only one medallion</decoNote>. It cannot
+                    be identified in <name type="person">Parker</name>'s list unless it is a <q>Rotulus in pergameno de
+                        Anglia terra in Corio Rubro</q> which is entered at the end of that list in <name type="person"
+                        >John Parker</name>'s hand.</p>
+                <p type="CCC">
+                    <foliation>Not foliated (roll)</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="" locusEnd="">
+                        <head type="CCC">
+                            <title>Genealogical Roll (Creation to temp. <name type="person">Henry VI</name>)</title>
+                        </head>
+
+                        <rubric>Considerans cronicorum prolixitatem necnon et difficultatem scolariumque circa studium
+                            etc.</rubric>
+                        <incipit>Et ab illo usque henricum sextum originaliter finem perduxi</incipit>
+                        <ab>Adam in Agro Damascene formatus</ab>
+                        <ab>
+                            <decoNote>Mutilated medallion of the Fall</decoNote>
+                        </ab>
+                        <ab>Ends (on <name type="person">Henry VI</name>)</ab>
+                        <explicit>genuit <name type="person">Edwardum principem</name>, qui natus erat <date
+                                when-iso="1453">in ffesto translacionis S. Edwardi Reg. et Conf. A.D. mill<abbr
+                                    rend="superscript">mo</abbr> cccc<abbr rend="superscript">mo</abbr> liij<abbr
+                                    rend="superscript">o</abbr></date></explicit>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 19/1/2009</p>
+                            <p>remarks: Final loci will be added after filming and will be based on the digi file names.
+                                Despite the difficulty, CCC will also provide measurements of the chronicle rolls but
+                                again will wait for filming.</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

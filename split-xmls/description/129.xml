@@ -1,0 +1,201 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC129">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>129</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>H. 3</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>84</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Flavius Eutropius, Breuiarium ab urbe condita. Gesta Alexandri. Ricardus de Templo OSA,
+                    Itinerarium peregrinorum et gesta regis Ricardi</head>
+                <head type="James">Eutropius. Gesta Alexandri. Itin. Ricardi</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">315</height>
+                        <width unit="mm">227</width>
+                    </measureGrp>
+                    <measureGrp type="James">12.6 x 8.8</measureGrp>, <extent>ff. 78 + 3</extent>, <layout>double
+                        columns of 47 and 60 lines</layout>. Cent. <origDate>xii-xiv</origDate>, in three volumes.</p>
+
+                <p function="Multivolume" rend="withinContents"><lb/><label>Volume I:</label>
+                    <handNote>in a charter-like hand</handNote>.<lb/>
+                    <label>Volume II:</label>
+                    <handNote>in a larger black hand</handNote>. <lb/>
+                    <label>Volume III:</label>
+                    <handNote>in a roughish small hand, pale ink</handNote>, cent. <origDate>xiii late</origDate>.</p>
+
+                <p><label>Collation:</label>
+                    <collation> 2 flyleaves<origDate> xvi</origDate> | 1 flyleaf original | 1<num>8</num> 2<num>8</num>
+                        (wants 7, 8) | 3<num>12</num> 4<num>6</num> | 5<num>8</num> 6<num>8</num> (+ paper slip)
+                            7<num>8</num> 8<num>12</num> 9<num>12</num></collation>.</p>
+
+
+                <p><label>2 fo.:</label>
+                    <secFol>Romani fame</secFol>.</p>
+
+
+                <p function="Provenance">From <name type="place">St Augustine's Abbey, Canterbury</name>: no. 910 in the
+                    Catalogue, with which the 2nd folio and list of contents agree. <hi rend="footnote"><ref type="bibl"
+                            target="James 1903"><hi rend="italic">Ancient Libraries</hi>, p. 295</ref>: there was
+                        formerly a <hi rend="italic">Vita <name type="person">Sancti Thomae</name></hi> etc. in the
+                        volume.</hi></p>
+                <p function="Additions">On recto of flyleaf <supplied>(f. <locus>iiir</locus>)</supplied>: <q>Sent from
+                            <name type="person">magister twyne</name></q>.</p>
+
+                <p>The top of this leaf is cut off; on the verso is: <q>In hoc libro continentur tot volumina</q>. </p>
+
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-iii + 1-44 + 44a + 45-80 + c-d</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="1r" locusEnd="14v">
+
+
+                        <head type="CCC"><name type="author">Flavius Eutropius</name>, <title>Breuiarium ab urbe
+                                condita</title>
+                        </head>
+
+                        <rubric locus="1r">Incipit Liber <name type="author">Eutropii</name> de principibus
+                            Romanis</rubric>
+
+                        <incipit locus="1r">Domino valenti gotico etc.</incipit>
+
+                        <ab>Ends</ab>
+                        <explicit locus="14v">quam ad maiorem scribendi diligenciam reseruamus</explicit>
+                        <ab>(liber X 18)</ab>
+
+                    </msItem>
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="2" locusStart="15r" locusEnd="31v">
+
+
+                        <head type="CCC">
+                            <title>Gesta <name type="person">Alexandri</name></title>
+                        </head>
+
+                        <rubric locus="15r">Hic est liber de Actibus <name type="person">Alexandri</name> filii <name
+                                type="person">philippi regis</name></rubric>
+
+                        <ab>(Historia de Preliis) </ab>
+                        <incipit locus="15r">Sapientissimi <name type="place">egyptii</name> scientes</incipit>
+                        <ab>See <ref type="bibl" target="Ward 1883">Ward, <hi rend="italic">Catalogue of Romances</hi> I
+                                120</ref></ab>
+
+                        <ab>Ends</ab>
+                        <explicit locus="29v" locusNew="31v"><name type="place">Alexandriam</name> in qua sepelierunt
+                            eum</explicit>
+                        <incipit locusNew="31v">Fuit autem <name type="person">alexander</name> statura breuis
+                            etc.</incipit>
+                        <explicit locusNew="31v">ciuitates duodecim que adhuc habitantur</explicit>
+                        <ab>f. <locus locusNew="32r">30r</locus>-<locus locusNew="32v">30v</locus> blank</ab>
+                    </msItem>
+
+                    <milestone n="III" unit="volume"/>
+
+                    <msItem n="3" locusStart="33r" locusEnd="80v">
+                        <head type="CCC"><name type="author">Ricardus de Templo OSA</name>, <title>Itinerarium
+                                peregrinorum et gesta <name type="person">regis Ricardi</name></title>
+                        </head>
+                        <rubric locus="31r" locusNew="33r">Itinerarium <name type="person">Regis Richardi</name> primi
+                            authore <name type="author">Richardo Canonico</name></rubric>
+                        <ab>(late title)</ab>
+                        <incipit locusNew="33r">Solet non nunquam accidere</incipit>
+                        <explicit locusNew="33r">alliciet auditorem</explicit>
+                        <incipit locusNew="33r">Anno verbi incarnati. m<abbr rend="superscript">o</abbr>. c<abbr
+                                rend="superscript">o</abbr>. lxxxvii<abbr rend="superscript">o</abbr></incipit>
+
+                        <ab>Ed. <ref type="bibl" target="Stubbs 1864">Stubbs, Memorials of Richard I (Rolls) vol.
+                                I</ref>, see p. lxxii</ab>
+                        <ab>Titles have been filled in from the earlier <ref type="ms" target="LBLFA7">Cotton MS.
+                                Faustina A VII</ref> by or for <name type="person">Parker</name></ab>
+                        <ab>Ends</ab>
+                        <explicit locus="78v" locusNew="80v">resumendus articulus</explicit>
+                        <rubric locusNew="80v">Explicit Itinerarium etc.</rubric>
+                        <ab>as in <ref type="bibl" target="Stubbs 1864">Stubbs</ref>, p. 450</ab>
+                        <ab locusNew="80v">Epitaph: <q>Scribitur hoc titulo</q>, ibid. There is a second copy of 4 lines
+                            in a later hand</ab>
+                        <ab locusNew="80v">
+                            <q>Qui scripsit est mas titulatur nomine <name type="person">thomas</name></q>
+                        </ab>
+                        <ab>
+                            <handNote>Then in a hand of cent. <origDate>xvi</origDate></handNote>
+                        </ab>
+                        <ab locusNew="80v">
+                            <lg>
+                                <l>Alias.</l>
+                                <l>Viscera <name type="place">Karleolum</name> corpus fons servat <name type="person"
+                                        >Ebrardi</name></l>
+                                <l>Sed cor <name type="place">Rothomagus</name> magna <name type="person"
+                                        >Richarde</name> tuum</l>
+                            </lg>
+                        </ab>
+                        <ab locusNew="80v">The erasures on this page are repetitions of the colophon</ab>
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck:</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

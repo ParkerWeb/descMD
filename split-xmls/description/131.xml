@@ -1,0 +1,144 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC131">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>131</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>P. 7</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>240</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Cassiodorus Senator, Expositio psalmorum 1-50</head>
+
+                <head type="James">Cassiodorius Ps. I-L</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">318</height>
+                        <width unit="mm">210</width>
+                    </measureGrp><measureGrp type="James">12.7 x 8.5</measureGrp>, <extent>ff. 168</extent>,
+                        <layout>double columns of 38 lines</layout>. Cent. <origDate>xii</origDate>, <handNote>in a very
+                        beautiful round hand: two scribes are clearly distinguishable.</handNote></p>
+
+                <p><label>Collation:</label>
+                    <collation>I<num>8</num>-XXI<num>8</num></collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>ri. Psalmi</secFol>.</p>
+
+                <p function="Provenance">On f. <locus>1r</locus> at top a fairly old mark <q>B. 39</q>. On R. an older
+                    mark <q>G. 21</q>. I do not think the mark is that of <name type="place">Norwich</name>, but I
+                    cannot suggest another provenance. Compare <ref type="ms" target="CUL316">University Library Ii. 3.
+                        16</ref> and <ref type="ms" target="CUL422">
+                        <supplied>University Library</supplied>Ii. 4. 22</ref> in which are similar marks.</p>
+
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-168 + iii-iv</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="168v">
+                        <head type="CCC"><name type="author" key="Cass01">Cassiodorus Senator</name>, <title>Expositio
+                                psalmorum 1-50</title></head>
+                        <head type="James">
+                            <name type="author" key="Cass01">Cassiodorus</name>
+                            <title>Ps. I-L </title>
+                        </head>
+
+
+                        <ab locusNew="1r">Three-quarters of col. 1 are left blank. The first words <q>Repulsis
+                                aliquando</q> were supplied in cent. <origDate>xvi</origDate>. Text begins in red
+                            capitals</ab>
+                        <rubric locus="1r">In Ravennati urbe sollicitudinibus</rubric>
+                        <ab>Preliminary matter ends</ab>
+                        <explicit locus="9v">ad exponenda psalterii uerba ueniamus</explicit>
+                        <rubric locusNew="9v">Magni Aurelii <name type="author">Cassiodori</name> senatoris iam domino
+                            prestante conuersi. explicit prefatio</rubric>
+                        <ab>(<ref type="bibl" target="Migne 070">P. L. LXX</ref>)</ab>
+
+                        <rubric locusNew="9v">Incipit eiusdem expositio digesta psalmorum. Quare primus psalmus non
+                            habet titulum</rubric>
+                        <incipit locusNew="9v">Psalmus hic ideo non habet titulum</incipit>
+                        <ab>
+                            <decoNote>There are two handsome initials in green and red. The others are alternately in
+                                green and red, single colours. The text of the Psalms is in red</decoNote>
+                        </ab>
+                        <ab>Ends imperfectly in Psalm xlix (l)</ab>
+                        <rubric locus="168v">os tuum abundauit nequitia etc.</rubric>
+                        <explicit locusNew="168v">peccatorum iniquia uoluntate</explicit>
+
+
+                    </msItem>
+
+                </msContents>
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: typed from the James Catalogue by CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: GDB, CF</p>
+                            <p>msCheck: RJR</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

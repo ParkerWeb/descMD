@@ -1,0 +1,197 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC043">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>43</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>H. 1</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>82</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">William of Malmesbury OSB, Gesta pontificum Anglorum. Adam of Eynsham OSB, Visio
+                    Eadmundi monachi de Egnesham</head>
+
+                <head type="James">William of Malmesbury. Gesta Pontificum</head>
+
+                <p function="Codicology"><material>Vellum and paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">340</height>
+                        <width unit="mm">210</width>
+                    </measureGrp><measureGrp type="James">13.4 x 8.2</measureGrp>, <extent>ff. 1 + 64 + 56 +
+                    24</extent>, <layout>double columns of 46 lines</layout>. Cent. <origDate>xiv (and xvi)</origDate>,
+                        <handNote>in pale ink</handNote>. <decoNote>Blue initials with pretty red
+                    flourishing</decoNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num>-8<num>8</num> (wants 8, supplied in cent.
+                            <origDate>xvi</origDate>) | 56 leaves of paper follow of cent. <origDate>xvi</origDate> |
+                            9<num>8</num>-11<num>8</num></collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>laude et dulcedine</secFol>.</p>
+
+                <p function="Provenance">Possibly from <name type="place">Norwich</name>, see below: it may have been
+                    the property of <name type="person">Bale</name>.</p>
+
+                <p function="Provenance" rend="afterContents">The contents show an interest in <name type="place">East
+                        Anglian</name> matters. The look of the book, style of script and ornament incline me to suggest
+                        <name type="place">Norwich</name> as its home. There is a <origDate>xv</origDate>th cent. note
+                    on the same page of payments. The MS. is mentioned as no. 17 in the <ref type="bibl"
+                        target="Stubbs1887">Rolls edition</ref>. <name type="person">Parker</name> and his secretaries
+                    have made many marginal notes.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i + 1-119 + 119a + 120-142 + ii + c-d</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="68v">
+
+                        <head type="CCC"><name type="author">William of Malmesbury OSB</name>, <title>Gesta pontificum
+                                Anglorum, books 1-4</title></head>
+
+                        <head type="James">
+                            <name type="author">Will. Malmesbury</name>. <title>Gesta Pontificum</title></head>
+
+                        <rubric locusNew="1r">Incipit liber <name type="author">W. Malmesburiensis</name> monachi de
+                            summis pontificibus liber primus</rubric>
+                        <incipit locusNew="1r">Prima sedes episcoporum</incipit>
+                        <ab locus="27r">Liber II</ab>
+                        <ab locus="41v"><supplied>Liber</supplied> III</ab>
+                        <ab locus="54v"><supplied>Liber</supplied> IV</ab>
+                        <ab><handNote>The old hand ends in IV 186</handNote> (<ref type="bibl" target="Hamilton1870">p.
+                                326 Rolls Ed.</ref>) </ab>
+                        <explicit locusNew="63v">herbarum uiridantibus</explicit>
+                        <ab>f. <locus>64r</locus> is a supply of cent. <origDate>xvi</origDate> on
+                                <material>vellum</material></ab>
+                    </msItem>
+
+                    <msItem n="2" locusStart="69r" locusEnd="119av">
+
+                        <head type="CCC"><name type="author">William of Malmesbury OSB</name>, <title>Gesta pontificum
+                                Anglorum, book 5</title></head>
+
+                        <ab>Then follows the fifth book supplied on <material>paper</material> (<layout>28 lines to a
+                                page</layout>) by one of <name type="person">Parker</name>'s secretaries, ending <locus
+                                locusNew="112r">89</locus></ab>
+                        <ab>8 blank leaves follow</ab>
+                        <ab locus="119av">On the verso of the last is a note in Latin on the fabulosity of the next
+                            article</ab>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="120r" locusEnd="141v">
+
+                        <head type="CCC"><name type="author">Adam of Eynsham OSB</name>, <title>Visio <name
+                                    type="person">Eadmundi monachi de Egnesham</name></title></head>
+
+                        <ab locus="107" locusNew="120r">Vision of the monk of <name type="place">Eynesham</name></ab>
+                        <rubric locusNew="120r">Incipit tractatus de uisione monachi <name type="place"
+                            >Eneshamie</name>. anno domini <date>1196</date></rubric>
+                        <ab>(This rubric is later than the text, and the last three words are of cent.
+                                <origDate>xvi</origDate>)</ab>
+                        <ab>The text is in a <handNote>hand of the same character (possibly in the same hand) as no.
+                                1</handNote></ab>
+                        <incipit locusNew="120r">Quoniam notissimum habetur quod diem terris sole post
+                            tenebras</incipit>
+                        <ab>Ends</ab>
+                        <explicit locusNew="141v">uirtus et magnificencia regnumque et imperium in secula seculorum.
+                            Amen</explicit>
+                        <ab>It is the full text by <name type="author">Adam of Eynesham</name>. See <ref type="bibl"
+                                target="Ward 1893">Ward, <hi rend="italic">Catalogue of Romances</hi> II 493</ref></ab>
+                    </msItem>
+
+                    <msItem n="4" locusStart="142r" locusEnd="142v">
+
+                        <head type="CCC"><name type="author">William of Malmesbury OSB</name>, <title>Gesta regum
+                                Anglorum, book 1 (excerpts)</title></head>
+
+
+                        <ab locusNew="142r">On the following page in a <handNote>hand of cent.
+                                <origDate>xvi</origDate></handNote>
+                            <layout>in double columns</layout> is an abridged extract from the <hi rend="italic">Gesta
+                                Regum</hi> beginning</ab>
+                        <incipit locusNew="142r">et profecto conceptum opus pietas explesset</incipit>
+                        <ab>(<ref type="bibl" target="Stubbs 1887">145, p. 46 Rolls Ed.</ref>)</ab>
+                        <ab>Ending</ab>
+                        <explicit locusNew="142v">post beatum <name type="person">Aldelmum</name> et <name type="person"
+                                >Bedam</name> doctissimus</explicit>
+                        <ab>(<ref type="bibl" target="Stubbs 1887">Rolls Ed. p. 69</ref>)</ab>
+                        <ab>At the top of this page in a <handNote>hand of cent. <origDate>xiv</origDate></handNote>
+                            like that of the text is a note</ab>
+                        <ab locusNew="142v">
+                            <q>Episcopi <name type="place">Estanglorum</name> notantur fo. xx<abbr rend="superscript"
+                                    >mo</abbr> ix<abbr rend="superscript">o</abbr> sec. <name type="person">W.
+                                    Malmsberi</name> et de factis <name type="person">Herberti</name> episcopi et de
+                                sedibus apud helmam et Theford. <lb/> Eliense monasterium post (?primo) constituit S.
+                                    <name type="person">Etheldrida</name> postea S. <name type="person"
+                                    >Athelwoldus</name> Ep. monachos induxit folio 63</q>
+                        </ab>
+
+                    </msItem>
+
+                </msContents>
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text:copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, CF 2nd</p>
+                            <p>msCheck: NJC 11.4.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

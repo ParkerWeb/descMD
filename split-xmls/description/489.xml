@@ -1,0 +1,204 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC489">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>489</idno>
+                    <altIdentifier type="Stanley">
+                        <idno/>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno/>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Statutes of Corpus Christi College, Cambridge. John Joscelyn, Historiola Collegii
+                    Corporis Christi, etc.</head>
+                <head type="James">Statuta Collegii, etc.</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">259</height>
+                        <width unit="mm">176</width>
+                    </measureGrp>, <measureGrp type="James">10.6 x 7</measureGrp>, <extent>ff. cir. 200 (many
+                        blank)</extent>. Cent. <origDate>xvi</origDate>, <handNote>in various hands</handNote>.</p>
+
+                <p function="Additions">Prefixed are two Decisions of Visitors dated <date>1829</date>
+                    <supplied>(pp. <locus>iii</locus> - <locus>v</locus>)</supplied>.<lb/> On the flyleaf, list of
+                    contents <supplied>(p. <locus>xiii</locus>)</supplied>.<lb/> On the verso <supplied>(p.
+                            <locus>xiv</locus>)</supplied> is pasted an old copy of an Indenture between the Prior and
+                        <name type="place">Convent of Hatfield Broadoak</name> and the College referring to a tenement
+                    in <name type="place">Cambridge</name>; of <date>19 Richard II</date>.</p>
+
+                <p function="Additions">At the end are pasted in copies of three deeds of cent. <origDate>xvi
+                        early</origDate>
+                    <supplied>(p. <locus>xxvi</locus> and p. <locus>xxxiii</locus>)</supplied>.</p>
+
+                <p type="CCC">
+                    <foliation>pp. a-b (loose leaf) + i-xxiv + 1-30 (31-32 missing) + 33-72 + 72a-d + 73-132 (133-290
+                        blank and not imaged) + 291-330 (331-354 blank and not imaged) + 355-364 + xxv-xxxviii
+                    </foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="eng">Latin and English.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="iii" locusEnd="xxiv">
+                        <head type="CCC">
+                            <title>List of the Masters of the College and other documents related to College
+                                life</title>
+                        </head>
+                        <ab>List of the Masters of the College. The first hand goes down to <name type="person">John
+                                Jegon</name>. Various hands continue to <name type="person">John Barnardiston</name>
+                            <date>1764</date></ab>
+                    </msItem>
+
+                    <msItem n="2" locusStart="1" locusEnd="32">
+                        <head type="CCC">
+                            <title>Statutes of Corpus Christi College, Cambridge</title>
+                        </head>
+                        <head type="James">
+                            <title>Statuta Collegii</title>
+                        </head>
+                        <ab>
+                            <decoNote>The wood-cut of the College arms pasted on the title-page, coloured by
+                                hand</decoNote>
+                        </ab>
+                        <ab locusNew="xxiv">On the opposite page are pasted some extracts from <name type="author"
+                                >Jerome</name> relating to the pelican</ab>
+                        <ab>On the last leaves (pp. <locus locusNew="25">31</locus> - <locus>32</locus>) are
+                            Interpretations of Statutes by <name type="person">Dr Jegon</name> and <name type="person"
+                                >Dr Still</name></ab>
+                    </msItem>
+
+
+
+
+                    <msItem n="3" locusStart="33" locusEnd="104">
+                        <head type="CCC"><name type="author">John Joscelyn</name>, <title>Historiola <name type="place"
+                                    >Collegii Corporis Christi</name></title></head>
+                        <head type="James">
+                            <title><name type="author">Joscelyn</name>'s Historiola</title>
+                        </head>
+                        <ab>See on <ref type="ms" target="CCC488">MS 488</ref>, and <ref type="bibl" target="Clark 1880"
+                                >p. 53 of Mr Clark's edition</ref></ab>
+                        <ab locus="76">Indentura de fundatione schole in Rachedale</ab>
+                        <ab locus="81">Copies of some documents added by way of note in cent.
+                            <origDate>xviii</origDate></ab>
+
+                        <ab>
+                            <supplied>pp. <locus>85</locus>-<locus>104</locus> blank</supplied>
+                        </ab>
+
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="105" locusEnd="300">
+                        <head type="CCC"><name type="author">John Joscelyn</name>, <title>Historiola (later retitled
+                                Matthaeus)</title></head>
+
+                        <head type="James">
+                            <title><name type="author">Joscelyn</name>'s Historiola <q>de eodem</q> (sc. <name
+                                    type="person">Matth. Parker</name>)</title>
+                        </head>
+                        <rubric locusNew="105">Nam cum (Quamquam) multa enarrauerimus</rubric>
+                        <ab><ref type="bibl" target="Clark 1880">Clark, pp. 52, 67</ref>: this tract is paged 71-89
+                                <supplied>by M. Parker in red chalk, now pp.
+                                <locus>105</locus>-<locus>127</locus></supplied></ab>
+                        <ab>Many blank leaves follow <supplied>(pp. 128-300) and have not been imaged</supplied>.
+                            Towards the end of the book are <supplied>items 5-7</supplied></ab>
+                    </msItem>
+
+                    <msItem n="5" locusStart="301" locusEnd="318">
+                        <head type="CCC">
+                            <title><name type="person">Elizabeth</name>'s charter concerning Sturbridge Fair</title>
+                        </head>
+                        <head type="James">
+                            <title><name type="person">Elizabeth</name>'s charter concerning Sturbridge Fair</title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="6" locusStart="319" locusEnd="322">
+                        <head type="CCC">
+                            <title>Custumia et Theolonium of Sturbridge Fair</title>
+                        </head>
+                        <head type="James">
+                            <title>Custumia et Theolonium of Sturbridge Fair</title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="7" locusStart="323" locusEnd="326">
+                        <head type="CCC">
+                            <title>The list of books given in <date>1574</date> to the <name type="place">University
+                                    Library</name> by <name type="person">Archbishop Parker</name></title>
+                        </head>
+                        <ab>Printed and pasted in:<lb/> The list of books given in <date>1574</date> to the <name
+                                type="place">University Library</name> by <name type="person">Abp Parker</name>,
+                            occupying 4 pp.</ab>
+
+                        <ab>
+                            <supplied>pp. <locus>327</locus>-<locus>xxxviii</locus> blank except p. <locus>xxvi</locus>
+                                and p. <locus>xxxiii</locus></supplied>
+                        </ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: KW November 2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

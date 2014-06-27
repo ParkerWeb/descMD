@@ -1,0 +1,111 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC249">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>249</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Lib. ab Al. 28</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">The Koran</head>
+                <head type="James">Koran</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">141</height>
+                        <width unit="mm">102</width>
+                    </measureGrp>, <measureGrp type="James">5.8 x 4.2</measureGrp>, <layout>15 lines to a page</layout>.
+                    Cent. <origDate>xvii (?)</origDate>, <handNote>neatly written, without illumination</handNote>. </p>
+
+                <p function="Provenance">Donum <name type="person">Jacobi Hitchcock</name> generosi de <name
+                        type="place">Grancetter</name> quod dono dedit Bibliothecae maiori <name type="place">Col.
+                        Corporis Xti Cant.</name><lb/> He does not appear to have been a member of the College. The gift
+                    was <q>procured by <name type="person">Mr H.(?) Dobson</name></q> says the <ref type="ms"
+                        target="CCC575">College copy of Parker's Register</ref> (see Introd.). An <name type="person"
+                        >Isaac Dobson</name> became Fellow in <date>1628</date> and Vicar of Grantchester in
+                        <date>1644</date>. In <date>1661-1667</date> he was University Librarian, and died in
+                        <date>1678</date>. <name type="person">Mr Hitchcock</name> is described in the <ref type="ms"
+                        target="CCCQ11">MS. Catalogue of Benefactors</ref> as an attorney.</p>
+
+
+
+
+                <p type="CCC">
+                    <foliation>ff. i + 1-238. Partially imaged: front cover interior and exterior + ff. i + 1-89 +
+                        212-238 + back cover interior and exterior.</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="ara" otherLangs="lat">Arabic and Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1v" locusEnd="238r">
+                        <head type="CCC">
+                            <title>The Koran</title>
+                        </head>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 5/12/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

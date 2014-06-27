@@ -1,0 +1,146 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC159">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>159</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>N. 2</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>165</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+
+
+
+                <head type="CCC">Gregory the Great, Homiliae XLII in euangelia</head>
+
+
+                <head type="James">Gregorii Homiliae</head>
+
+
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">309</height>
+                        <width unit="mm">207</width>
+                    </measureGrp><measureGrp type="James">12.2 x 8.2</measureGrp>, <extent>ff. 110</extent>,
+                        <layout>double columns of 39 lines</layout>. Cent. <origDate>xiv-xv</origDate>, <handNote>well
+                        written</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num>-14<num>8</num> (wants 7, 8)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>Dominus ac</secFol>.</p>
+
+                <p function="Provenance">An oldish press-mark lined through on f. <locus>1r</locus>: <q>B 53</q>. Also
+                        <q>prec. xiii<abbr rend="superscript">s</abbr> iiij<abbr rend="superscript">d</abbr></q>.
+                    Possibly from <name type="place">Norwich</name>.</p>
+
+                <p function="Decoration" rend="afterContents"><decoNote>The decoration is not remarkable: blue initials
+                        with red filling and flourishing, leaving designs in white</decoNote>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-110 + iii-iv</foliation>.</p>
+
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="108v">
+
+
+                        <head type="CCC"><name type="author" key="GrGr01">Gregory the Great</name>, <title>Homiliae XLII
+                                in euangelia</title></head>
+
+
+                        <head type="James">
+                            <title><name type="author" key="GrGr01">Gregorii</name> Homiliae XLII in Euangelia</title>
+                        </head>
+
+                        <ab>
+                            <ref type="bibl" target="Migne 076">(<supplied>P. L.</supplied> LXXVI 1075)</ref>
+                        </ab>
+
+
+                        <rubric locus="1r">Euangelia super que beatus Gregorius edidit omelias</rubric>
+
+
+
+                        <ab locus="1v">Prologue</ab>
+                        <ab locus="1v">Text</ab>
+                        <ab locus="108v">Ends</ab>
+                        <ab locus="109r">
+                            <handNote>Table of subjects in another hand</handNote>
+                        </ab>
+                        <ab>f. <locus>110r</locus>-<locus>110v</locus> blank</ab>
+
+                    </msItem>
+
+                </msContents>
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: typed from the James Catalogue by CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: GDB, CF</p>
+                            <p>msCheck: RJR</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

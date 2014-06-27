@@ -1,0 +1,135 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC538">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>538</idno>
+                    <altIdentifier type="Elbing">
+                        <idno>N. 40</idno>
+                    </altIdentifier>
+
+                </msIdentifier>
+                <head type="CCC">Conrad of Soltau (Zolco), Commentary on Firmiter credimus</head>
+                <head type="James">[Untitled]</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">210</height>
+                        <width unit="mm">145</width>
+                    </measureGrp>, <measureGrp type="James">8.3 x 5.9</measureGrp>, <extent>ff. 121</extent>, <layout>36
+                        lines to a page</layout>. Cent. <origDate>xiv (1396 or 1397)</origDate>, <handNote>well
+                        written</handNote>. The writing much faded: in the middle of the book practically only the red
+                    letters are left.</p>
+
+                <p><label>Collation:</label>
+                    <collation/>.</p>
+
+                <p function="Provenance"><name type="person">Mary Pernham</name> on f. <locus>1v</locus>.</p>
+                <p function="Additions">Binding, one tag left, label fragmentary, no bosses.</p>
+                <p function="Additions">On f. <locus>13r</locus> at top:<lb/> (Liber) <name type="person">Johannis
+                            M<supplied>e</supplied>kelburg</name> bac(alaur)ij in artibus quem ordinauit in studio
+                    Pragensi.</p>
+                <p type="CCC">
+                    <foliation>ff. 1-120</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="ger">Latin and German.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="120v">
+                        <head type="CCC"><name type="author">Conrad of Soltau (Zolco)</name>, <title>Commentary on
+                                Firmiter credimus (Summa de trinitate et fide catholica)</title></head>
+                        <head type="James">
+                            <title>Summa de trinitate et fide catholica per <name type="author">mag.
+                                Zoltonem</name></title>
+                        </head>
+                        <ab locusNew="1r">Beginning imperfectly</ab>
+                        <ab>Ending</ab>
+                        <explicit locusNew="116r">leticiam nos perducat trinitas indiuidua in secula seculorum.
+                            benedicta (Amen)</explicit>
+                        <rubric locusNew="116r">Explicit summa de trinitate et fide katholica <name type="author"
+                                >magistri Zoltonis</name> egregii doctoris prage compilata anno domini <date>mill.
+                                    ccc<abbr rend="superscript">o</abbr> nonagesimo sexto (?) (or
+                            septimo)</date></rubric>
+                        <ab locusNew="116r">In larger letters, the same as far as the word <q>millesimo</q></ab>
+                        <ab>
+                            <decoNote>In red</decoNote>
+                        </ab>
+                        <rubric locusNew="116r">
+                            <lg>
+                                <l>Omnipotens domine tibi laus tibi gloria detur</l>
+                                <l>Ex quo nunc finis libri presentis habetur.</l>
+                                <l>portas celorum stanslae pater polonorum</l>
+                                <l>Tis precibus resera capit hos ne pessima fera.</l>
+                                <l>Trinum persona quem gentes nunc fateantur</l>
+                                <l>Huic laudis dona per me semper tribuantur</l>
+                            </lg>
+                        </rubric>
+                        <ab>Below</ab>
+                        <ab locusNew="116r"> liber <name type="person">Joh. M<supplied>e</supplied>kelburg</name> quem
+                            comparauit (?) in studio Pragensi </ab>
+                        <ab>The words <q>de Elbinge</q> follow in the old list; they are not legible in the MS.</ab>
+                        <ab>Some German rubrics occur</ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJM 4/2/2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

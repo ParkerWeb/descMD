@@ -1,0 +1,187 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC094">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>94</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>P. 15</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>244</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Collectio decem partium (expansion of Ivo of Chartres, Panormia)</head>
+
+                <head type="James">Ivonis Carnotensis Panormia</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">370</height>
+                        <width unit="mm">265</width>
+                    </measureGrp><measureGrp type="James">14.6 x 10.5</measureGrp>, <extent>ff. 150</extent>,
+                        <layout>double columns of 41 lines</layout>. Cent. <origDate>xii</origDate>, <handNote>in the
+                        hand characteristic of <name type="place">Christ Church, Canterbury</name></handNote>.
+                        <decoNote>Initials in blue, red, yellow, purple, green</decoNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num> (wants 1) 2<num>8</num>-16<num>8</num> (wants 4, 5)
+                            17<num>8</num>-19<num>8</num> 20 (one)</collation>.</p>
+
+
+                <p function="Provenance">From <name type="place">Christ Church, Canterbury</name>. No mark remains, but
+                    the evidence of the script is strong, and <name type="person">Parker</name>'s note (below) suggests
+                    a connexion with <name type="place">Canterbury</name>.</p>
+
+
+                <p function="Additions"><quote>Operculis hujus codicis agglutinatur fragmentum MS. perantiqui, literis
+                        uncialibus sine ulla vocum distinctione exarati, continens partem cujusdam
+                    homeliae.</quote><lb/> The uncial fragment mentioned by <name type="person">Nasmith</name> as being
+                    in the binding is not now to be found.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-151 + iii-iv</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="151v">
+
+
+
+                        <head type="CCC">
+                            <title>Collectio decem partium (expansion of Ivo of Chartres, Panormia)</title>
+                        </head>
+
+
+                        <head type="James">
+                            <name type="author">Ivonis Carnotensis</name>
+                            <title>Panormia</title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>Panormia <name type="author">Ivonis Carnotensis</name></title>
+                        </head>
+
+
+
+                        <ab>At top of f. <locus>1r</locus>
+                            <name type="person">Parker</name> has written</ab>
+                        <ab>
+                            <q>Deest folium. forte est <name type="person">Theodori</name> Archiep. Cantuar. (!!!)</q>
+                        </ab>
+                        <ab>Begins imperfectly in c. viii of part i</ab>
+                        <rubric locusNew="1r"><name type="person">Augustinus</name> de unico baptismo libro iiii<abbr
+                                rend="superscript">to</abbr></rubric>
+                        <incipit locusNew="1r">Si pro eo qui respondere potest in baptismo</incipit>
+                        <ab>At the end of part I (f. <locus locusNew="15r">14r</locus>) <name type="person"
+                                >Parker</name> notes that cap. lx (<name type="person">Clemens lacobo</name>: Abbatis
+                            palla etc.) is <q>plus quam in libro impresso.</q></ab>
+
+                        <ab locus="14v" locusNew="15v">Part II (preceded by Capitula, as are the rest)</ab>
+                        <rubric locusNew="16r">Ex decretis Julij</rubric>
+
+                        <ab locus="34v" locusNew="35r"><supplied>Part</supplied> III</ab>
+
+                        <ab locus="61v" locusNew="62v"><supplied>Part</supplied> IV</ab>
+
+                        <ab locus="80r" locusNew="81r"><supplied>Part</supplied> V</ab>
+
+                        <ab locus="95r" locusNew="96r"><supplied>Part</supplied> VI</ab>
+
+                        <ab locus="107v" locusNew="108v"><supplied>Part</supplied> VII</ab>
+
+                        <ab locus="121r" locusNew="122r"><supplied>Part</supplied> VIII (lacuna in capp. 4-8)</ab>
+
+                        <ab locus="128v" locusNew="129v"><supplied>Part</supplied> IX</ab>
+
+
+                        <ab locus="141r" locusNew="142r"><supplied>Part</supplied> X</ab>
+
+
+                        <ab>Ending f. <locus locusNew="151v">158v</locus> in cap. xxvii</ab>
+
+                        <ab locus="158v" locusNew="151v">Si magos consuluisti etc. duos annos per legitimas ferias
+                            penitere debes</ab>
+
+                        <ab>This is not the Panormia, but seemingly the revision of it by an unknown author, made about
+                                <date>1130</date>, which is described by M. Paul Fournier as the <q>Collection en dix
+                                parties</q>. (<ref type="bibl" target="Fournier 1897"><hi rend="italic">Les Collections
+                                    Canoniques attribuées à Yves de Chartres</hi> (Bibliothèque de l'École des Chartes)
+                                1897, p. 147</ref>)</ab>
+
+                    </msItem>
+
+
+
+
+
+                </msContents>
+
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text:copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, CF 2nd</p>
+                            <p>msCheck: NJC 11.4.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

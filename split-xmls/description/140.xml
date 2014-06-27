@@ -1,0 +1,634 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC140">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>140</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>S. 4</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>276</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">The Bath Old English Gospels</head>
+                <head type="James">Evangelia Saxonice</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">305</height>
+                        <width unit="mm">210</width>
+                    </measureGrp>, <measureGrp type="James">12 x 8</measureGrp>, <extent>ff. 147</extent>, <layout>27
+                        lines to a page</layout>. Cent. <origDate>xi</origDate>, <handNote>in a fine large
+                        hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num>-5<num>8</num> 6<num>6</num> (wants 6) | 7<num>8</num> (1 canc.)
+                            8<num>8</num> 9<num>8</num> 10<num>6</num> (4, 6 canc.) | 11<num>8</num> (wants 1)
+                            12<num>8</num>-14<num>8</num> 15<num>12</num> | 16<num>8</num> (1 canc.)
+                            17<num>8</num>-19<num>8</num> (+1)</collation>.</p>
+
+                <p function="Provenance">From <name type="place">Bath Abbey</name>, see the colophon at the end of
+                    Matthew <supplied>(f. <locus>45v</locus>)</supplied>.</p>
+                <p function="Additions">On f. <locus>1r</locus>-<locus>1v</locus> are the manumissions <handNote>in six
+                        or seven different hands</handNote>. They are printed in <ref type="bibl"
+                        target="Kemble 1839-48">Kemble VI, no. 1351</ref> as well as in <ref type="bibl"
+                        target="Madox 1702">Madox</ref> and the <ref type="bibl" target="Dugdale et al 1846a">
+                        <hi rend="italic">Monasticon</hi>
+                    </ref>. Other manumissions, and a list of relics, formerly in this book, are now in <ref type="ms"
+                        target="CCC111">MS 111</ref>.</p>
+
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + 1-147 + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="ang" otherLangs="lat">Old English and Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="2r" locusEnd="147r">
+                        <head type="CCC">
+                            <title>West-Saxon translation of the Gospel</title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>Evangelia quatuor, Saxonice</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B8.4.3</ref>)</supplied>
+                        </ab>
+
+                        <ab>
+                            <quote>De quibus sic dicit <name type="person">Cl. Marescallus</name>, <q>Hunc codicem et
+                                    Oxoniensem rarius reperi ab invicem dissentientes, superioremque eos vetustatem
+                                    spirare existimo.</q> Ad calcem evangelii secundum D. Mattheum habentur base;
+                                    <q>Finit, amen. Sit sic hoc hic interim: Ego <name type="person"
+                                        >&#198;lfricus</name> scripsi hunc librum in <name type="place">monasterio
+                                        ba&#240;&#254;onio</name> et dedi briht&#447;oldo preposito
+                                    &#8757; Qui scripsit vivat in pace in hoc mundo et in futuro seculo et qui legit
+                                    legator in eternum.</q></quote>
+                        </ab>
+
+                        <ab locus="2r">
+                            <supplied>West-Saxon translation of the Gospel of Matthew</supplied>
+                        </ab>
+                        <ab>Matthew begins without rubric or initial: a space of 4 lines blank at top</ab>
+                        <incipit locus="2r">aefter matheus gerecednysse. her is on cneorisse boc. haelendes cristes
+                            dauides sunu</incipit>
+                        <ab>At first there are rubrics to Gospels, e.g.</ab>
+
+                        <rubric locusNew="2v">Cum esset desponsata</rubric>
+                        <rubric locusNew="3r">Cum natus esset Ihesus in bethleem</rubric>
+                        <rubric locusNew="3v">Ecce angelus domini apparuit</rubric>
+
+                        <ab>The last is on f. <locus>6v</locus></ab>
+                        <rubric locus="6v">Quia nisi habundauerit</rubric>
+                        <ab>which is in capitals</ab>
+                        <ab>
+                            <decoNote>Initials to sections are nearly always in single colours, dark red, green, orange,
+                                blue. Some simple ornament grows out of them. Two colours sometimes occur in the same
+                                initial</decoNote>
+                        </ab>
+                        <ab>Matthew, which, I believe, is all in one hand, ends f. <locus>45v</locus></ab>
+                        <ab>Colophon exactly as in Nasmith <supplied>(above)</supplied></ab>
+                        <ab locus="46r">
+                            <supplied>West-Saxon translation of the Gospel of Mark</supplied>
+                        </ab>
+
+                        <ab>This Gospel is <handNote>in a second hand</handNote>: and another scribe is said to have
+                            written a single page XII 26-38 (f. <locus>63v</locus>). The initials show no change</ab>
+                        <ab locus="73r">
+                            <supplied>West-Saxon translation of the Gospel of Luke</supplied>
+                        </ab>
+
+                        <ab><handNote>The hand seems a little smaller than that of Mark</handNote>, and the vellum
+                            differs in quality. Initials as before</ab>
+                        <ab locus="114r">Ends</ab>
+                        <ab>The lists of Popes and Bishops (see below) occupy ff.
+                                <locus>114v</locus>-<locus>115v</locus>. <handNote>They are probably all in one
+                                hand</handNote>, but the Popes, on f. <locus>114v</locus>, are written larger. The two
+                            last, on f. <locus>115v</locus>, <name type="place">Rochester</name> and <name type="place"
+                                >Mercia</name>, are unrubricated</ab>
+
+                        <ab>Lists of Popes</ab>
+                        <rubric locusNew="114v">Nomina pontificum sedis apostolice</rubric>
+                        <ab>
+                            <layout>Six columns</layout>
+                        </ab>
+
+                        <ab locusNew="114v"><name type="person">Petrus</name>—<name type="person">Poppo</name></ab>
+                        <ab><q><name type="person">Leo</name>. Iste est qui nouum canticum de <name type="person">S.
+                                    Gregorio</name> fecit.<lb/>
+                                <name type="person">Victor</name>.<lb/>
+                                <name type="person">Stephanus</name>.<lb/>
+                                <name type="person">Nicolaus</name>.<lb/>
+                                <name type="person">Alexander</name></q>.<lb/></ab>
+
+                        <ab locusNew="115r">Postea ii<abbr rend="superscript">o</abbr> pape in <name type="place"
+                                >roma</name> facti sunt, id est, episcopus parmensis qui expulsus est. Et episcopus de
+                                <name type="person">luca</name> qui papa permansit scilicet <name type="person"
+                                >hildebrandus</name> qui et <name type="person">Gregorius</name>. Post istos etiam duo
+                            pape fuerunt <name type="person">Wibertus</name> in <name type="place">roma</name> qui et
+                                <name type="person">Clemens</name> et <name type="person">Urbanus</name> in apulia. Post
+                            istos <name type="person">Pascalis</name> (the last three words added)</ab>
+
+                        <ab locus="116r">
+                            <supplied>West-Saxon translation of the Gospel of John</supplied>
+                        </ab>
+
+                        <ab locusNew="116r">The first words (On frym&#240;e &#447;&#230;s) are <decoNote>in
+                                red capitals and the initial in purple red has ornament of various colours within
+                                it</decoNote></ab>
+                        <ab>
+                            <handNote>The hand is clearly a different one from what has preceded. It is very possibly
+                                the same throughout the Gospel, but if so it develops from a rather round script into a
+                                very tall narrow one</handNote>
+                        </ab>
+                        <ab>The initials seem uniform with the rest</ab>
+
+                        <ab>This version of the four Gospels occupies the first column in the four-volume edition of the
+                            Anglo-Saxon Gospels planned by Kemble and brought out by <ref type="bibl"
+                                target="Hardwick 1858">Hardwick</ref> and <ref type="bibl" target="Skeat 1871"
+                                >Skeat</ref>, Cambridge, 1858-78 </ab>
+                    </msItem>
+
+                    <msItem n="2" locusStart="1r" locusEnd="1r">
+                        <head type="CCC">
+                            <title>Manumission of <name type="person">Ælfwig the Red</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Testificatio ingenuitatis <name type="person">&#198;lfwigi</name> cognomento
+                                    <name type="person">Rufi</name>, qui seipsum emerat una libra ab <name type="person"
+                                    >&#198;lfsigo</name> abbate</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B16.2.3</ref>)</supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="1r" locusEnd="1r">
+                        <head type="CCC">
+                            <title>Manumission of <name type="person">Sægifu</name> and her children</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Testificatio libertatis <name type="person">S&#230;gifae</name> cum prole sua,
+                                quam ab <name type="person">&#198;lfsigo</name> abbate emerat <name type="person"
+                                    >Edricus</name> aet <name type="person">Forda</name> pater ejus</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B16.2.3 cont.</ref>)</supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="1r" locusEnd="1r">
+                        <head type="CCC">
+                            <title>Manumission of <name type="person">Ælfric Scot</name> and <name type="person">Ægelric
+                                    Scot</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Testificatio manumissionis <name type="person">&#198;lfrici Scot</name> et <name
+                                    type="person">&#198;gelrici Scot</name> pro <name type="person"
+                                    >&#198;lfsigi</name> abbatis anima</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B16.2.3 cont.</ref>)</supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="5" locusStart="1r" locusEnd="1r">
+                        <head type="CCC">
+                            <title>Manumission of <name type="person">Sydeflæd</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Testificatio manumissionis <name type="person">Sydefledae</name> quam 5 solidis et
+                                --- denariis emerat a <name type="person">Iohanne episcopo</name>
+                                <name type="person">Siwinus</name> aet <name type="place">Lincumbe</name>
+                                <name type="person">Leofwii</name> filius</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B16.2.3 cont.</ref>)</supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="6" locusStart="1v" locusEnd="1v">
+                        <head type="CCC">
+                            <title>Manumission of <name type="person">Gunnhild</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Testificatio manumissionis <name type="person">Gunnildae Thurkilli filiae</name> quam
+                                    <name type="person">Ioannes</name> emerat dimidia libra</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B16.2.3 cont.</ref>)</supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="7" locusStart="1v" locusEnd="1v">
+                        <head type="CCC">
+                            <title>Manumission of <name type="person">Sæwig Hagg</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Testificatio manumissionis <name type="place">S&#230;wii</name> cognomento <name
+                                    type="person">Hagg de Widecum</name>, qui seipsum lucratus est [&#541;edon] ab
+                                    <name type="person">&#198;lfsigo</name> abbate</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B16.2.3 cont.</ref>)</supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="8" locusStart="1v" locusEnd="1v">
+                        <head type="CCC">
+                            <title>Manumission of <name type="person">Leofgyth</name> and her two children</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Testificatio manumissionis <name type="person">Lifgithae</name> aet <name
+                                    type="person">Forda</name> cum binis filiis ejus per <name type="person"
+                                    >Ioannem</name> episcopum</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B16.2.3 cont.</ref>)</supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="9" locusStart="1v" locusEnd="1v">
+                        <head type="CCC">
+                            <title>Agreement between the prior and brothers of Bath and <name type="person">Sæwig</name>
+                                and his wife <name type="person">Theodgifu</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Testificatio pactionis sive conventionis inter priorem et fratres Bathonenses ex una
+                                parte et <name type="person">Saewium</name> cum <name type="person">Theodgyfa</name>
+                                uxore sua ex altera</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B16.2.1</ref>)</supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="10" locusStart="1v" locusEnd="1v">
+                        <head type="CCC">
+                            <title>Manumission of <name type="person">Sæthryth</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Testificatio manumissionis <name type="person">S&#230;thrythae</name> quam 3
+                                mancsis emerat a <name type="person">Saewoldo</name> abbate <name type="person"
+                                    >&#198;gylmerus</name></title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B16.2.3 cont.</ref>)</supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="11" locusStart="1v" locusEnd="1v">
+                        <head type="CCC">
+                            <title>Manumission of <name type="person">Ælfgyth</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Testificatio manumissionis <name type="person">&#198;lfgythae</name> quam dimidia
+                                libra emerat <name type="person">Wulwinus cognomento Hareberd</name> ab <name
+                                    type="person">&#198;lwigo</name> abbate</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B16.2.3 cont.</ref>)</supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="12" locusStart="1v" locusEnd="1v">
+                        <head type="CCC">
+                            <title>Manumission of <name type="person">Wynric</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Testificatio manumissionis <name type="person">Wynric</name> quam una yra [yre] auri
+                                emerat <name type="person">&#198;gylsigus</name> ab <name type="person"
+                                    >&#198;lfwigo</name> abbate</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B16.2.3 cont.</ref>)</supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="13" locusStart="71r" locusEnd="72v">
+                        <head type="CCC">
+                            <title>Homily on The Sunday Letter</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Scriptum de coelo delapsum seu potius homelia de diei dominicae observatione, quae
+                                sic incipit M. &#254;a l. Her ongin&#240; &#254;&#230;t halie
+                                ge&#447;rit</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B3.4.54</ref>)</supplied>
+                        </ab>
+
+                        <ab locus="71r">The Letter of Christ concerning Sunday, f.
+                            <locus>71r</locus>-<locus>72v</locus>, is <handNote>in a much smaller hand</handNote></ab>
+
+                        <incipit locusNew="71r">(Men &#254;a leofestan [above the line]) Her ongin&#240;
+                            &#254;&#230;t (halie [above the line]) ge&#447;rit etc.</incipit>
+                        <explicit locusNew="72v">on &#254;&#230;s &#447;itigan naman he under feh&#240;
+                            &#254;&#230;s &#447;itigan mede. Amen</explicit>
+                        <ab>Printed by <ref type="bibl" target="Priebsch 1899">Priebsch <hi rend="italic">Otia
+                                    Merseiana</hi> I 135 (1899)</ref></ab>
+                        <ab>This document exists in many versions, e.g.: Greek in <ref type="bibl"
+                                target="Vassiliev 1893">Vassiliev, <hi rend="italic">Anecdota
+                                Graeco-Byzantina</hi></ref>, Latin, Syriac ed. <ref type="bibl" target="Hall 1889">Isaac
+                                Hall, New York 1889</ref>. Ethiopic trans. by <ref type="bibl" target="Basset 1893"
+                                >Ren&#233; Basset <hi rend="italic">Les Apocryphes &#201;thiopiens</hi> II
+                                1893</ref> after <ref type="bibl" target="Praetorius 1869">Praetorius (1869)</ref></ab>
+                    </msItem>
+
+                    <msItem n="14" locusStart="115r" locusEnd="115r">
+                        <head type="CCC">
+                            <title>Archbishops of <name type="place">Canterbury</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Nomina archiepiscoporum <name type="place">Dorobernensis civitatis</name> ad <name
+                                    type="person">Anselmum</name></title>
+                        </head>
+
+
+                        <rubric locusNew="115r">Nomina archiepiscoporum <name type="place">dorobernensis
+                                ciuitatis</name></rubric>
+
+                        <ab><name type="person">Augustinus</name>—<name type="person">Anselmus</name></ab>
+
+                    </msItem>
+
+                    <msItem n="15" locusStart="115r" locusEnd="115r">
+                        <head type="CCC">
+                            <title>Archbishops of <name type="place">York</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Nomina archiepiscoporum <name type="place">Eboracensium</name> ad <name type="person"
+                                    >Bosan</name></title>
+                        </head>
+
+                        <rubric locusNew="115r">Nomina archiepiscoporum <name type="place">eboracensium</name></rubric>
+
+
+                        <ab><name type="person">Paulinus</name>—<q><name type="person">Bosan</name> eboraci substitutus
+                                est</q></ab>
+
+                    </msItem>
+
+                    <msItem n="16" locusStart="115r" locusEnd="115r">
+                        <head type="CCC">
+                            <title>Bishops of the West Saxons</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Nomina episcoporum <name type="place">occidentalium Saxonum</name> ad <name
+                                    type="person">Willelmum</name></title>
+                        </head>
+
+                        <ab>West Saxons: <name type="person">Birinus</name> ... <name type="person">Stigandus</name>
+                            <name type="person">Walcalinus</name>
+                            <name type="person">Willelmus</name> (added)</ab>
+
+                    </msItem>
+
+                    <msItem n="17" locusStart="115r" locusEnd="115r">
+                        <head type="CCC">
+                            <title>Bishops of <name type="place">Sherborne</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Nomina episcoporum <name type="place">Scireburnensis</name> ecclesiae ad <name
+                                    type="person">Asserium</name></title>
+                        </head>
+
+                        <ab><name type="place">Sherborne</name> to <name type="person">Asser</name></ab>
+
+                    </msItem>
+
+                    <msItem n="18" locusStart="115r" locusEnd="115r">
+                        <head type="CCC">
+                            <title>Bishops of <name type="place">Ripon</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Nomina episcoporum ad <name type="place">Ripam</name></title>
+                        </head>
+
+                        <ab><name type="place">Ripon</name> to <name type="person">Wulsig</name></ab>
+
+                    </msItem>
+
+                    <msItem n="19" locusStart="115r" locusEnd="115r">
+                        <head type="CCC">
+                            <title>Bishops of <name type="place">Hexham</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Nomina episcoporum <name type="place">Hagustaldensis</name> ecclesiae</title>
+                        </head>
+
+                        <ab><name type="place">Hexham</name> to <name type="person">Eanbiriht</name></ab>
+
+                    </msItem>
+
+                    <msItem n="20" locusStart="115r" locusEnd="115r">
+                        <head type="CCC">
+                            <title>Bishops of <name type="place">Whithorn</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Nomina episcoporum ad <name type="place">Casa Candida</name></title>
+                        </head>
+
+                        <ab><name type="place">Casa Candida</name> to <name type="person">Beaduulf</name></ab>
+
+                    </msItem>
+
+                    <msItem n="21" locusStart="115r" locusEnd="115r">
+                        <head type="CCC">
+                            <title>Bishops of <name type="place">Wells</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Nomina episcoporum <name type="place">Wellensis</name> ecclesiae</title>
+                        </head>
+
+                        <ab><name type="place">Wells</name> to <name type="person">Giso</name>, <name type="person"
+                                >Iohannes</name></ab>
+
+                    </msItem>
+
+                    <msItem n="22" locusStart="115r" locusEnd="115r">
+                        <head type="CCC">
+                            <title>Bishops of the Hwicce after <name type="person">Seaxwulf</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Nomina episcoporum <name type="place">Hvicciorum</name> post <name type="person"
+                                    >Saxulfum</name></title>
+                        </head>
+
+                        <ab><name type="place">Hvicciorum</name> to <name type="person">Wulstan</name> and <name
+                                type="person">SAMSON</name></ab>
+
+                    </msItem>
+
+                    <msItem n="23" locusStart="115r" locusEnd="115r">
+                        <head type="CCC">
+                            <title>Bishops of <name type="place">London</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Nomina episcoporum <name type="place">Londoniae</name></title>
+                        </head>
+
+                        <ab><name type="place">London</name> to <name type="person">Ealhun</name></ab>
+
+                    </msItem>
+
+                    <msItem n="24" locusStart="115r" locusEnd="115r">
+                        <head type="CCC">
+                            <title>Bishops of <name type="place">Lindsey</name> after <name type="person"
+                                    >Seaxwulf</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Nomina episcoporum <name type="place">Lindisfarorum</name> post <name type="person"
+                                    >Saxulfum</name></title>
+                        </head>
+
+                        <ab><name type="place">Lindsey</name> to <name type="person">Eaduulf</name></ab>
+
+                    </msItem>
+
+                    <msItem n="25" locusStart="115v" locusEnd="115v">
+                        <head type="CCC">
+                            <title>Bishops of <name type="place">Rochester</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Nomina episcoporum <name type="place">Roffensium</name></title>
+                        </head>
+
+
+                        <ab locusNew="155v"><name type="place">Rochester</name> to <name type="person">Alfstan</name>,
+                                <name type="person">Goduuine</name></ab>
+
+                    </msItem>
+
+                    <msItem n="26" locusStart="115v" locusEnd="115v">
+                        <head type="CCC">
+                            <title>Bishops of <name type="place">Mercia</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Nomina episcoporum <name type="person">Merciorum</name></title>
+                        </head>
+
+                        <ab><name type="place">Mercia</name> to <name type="person">Haedda</name></ab>
+
+                    </msItem>
+
+                    <msItem n="27" locusStart="147r" locusEnd="147r">
+                        <head type="CCC">
+                            <title>Grant by <name type="person">Walter Hosatum</name> to the bishop and monastery of
+                                    <name type="place">Bath</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Donatio <name type="place">capellae B. Mariae Magd. de Holewey extra Bath.</name> et
+                                capitalis messuagii ibidem episcopo et conventui <name type="place">Bathon.</name> per
+                                    <name type="person">Walterum Hosatum</name>, ea conditione ut episcopus et monachi
+                                aedificent et exaltent dictam capellam</title>
+                        </head>
+                        <ab>The document about <name type="place">Holewey</name> (f. <locus>147r</locus>) was copied in
+                            cent. <origDate>xv late</origDate></ab>
+                    </msItem>
+
+                    <msItem n="28" locusStart="147v" locusEnd="147v">
+                        <head type="CCC">
+                            <title>Agreement between <name type="place">Bath</name> and <name type="place"
+                                    >Worcester</name> concerning <name type="person">Peter Croke</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Finalis concordia in curia regis apud <name type="place">Westm.</name>
+                                <date>13 Hen. III</date>. inter <name type="place">conventum de Bath.</name> et <name
+                                    type="person">episcopum Wigorn.</name> de custodia et maritagio <name type="person"
+                                    >Petri Croke</name> et heredum ejus</title>
+                        </head>
+                        <ab>28 is on f. <locus>147v</locus> and was copied in cent. <origDate>xiii</origDate></ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: RJR 10/10/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

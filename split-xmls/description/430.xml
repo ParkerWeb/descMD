@@ -1,0 +1,188 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC430">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>430</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>T. 4</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>288</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Martin of Braga, Formula uitae honestae. Ferrandus, Epistola ad Reginum comitem.
+                    Ambrosius Autpertus, Sermo de cupiditate</head>
+                <head type="James">Martinus Dumiensis. Ferrandus. Ambrosius Autpertus</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">205</height>
+                        <width unit="mm">157</width>
+                    </measureGrp>, <measureGrp type="James">7.9 x 6.2</measureGrp>, <extent>ff. 1 + 54 + 1</extent>,
+                        <layout>20 and 21 lines to a page</layout>. Cent. <origDate>x</origDate> (<name type="person"
+                        >Bradshaw</name>), <handNote>in an upright minuscule</handNote>. <decoNote>Headings in rustic
+                        capitals and uncials</decoNote>.</p>
+
+
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num>-4<num>8</num> 5<num>6</num> 6<num>8</num> 7<num>8</num> (8 lost
+                        and replaced), 1 flyleaf</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>Singula</secFol>.</p>
+
+                <p function="Additions">On f. <locus>ir</locus> some erased scribbles and the set-off of some large
+                    writing (which appears again on the last page) probably from a wrapper.</p>
+                <p function="Additions">On f. <locus>iv</locus> a line and a half (running vertically) carefully
+                    erased.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i + 1-55 + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="8v">
+                        <head type="CCC">
+                            <name type="author">Martin of Braga</name>, <title>Formula uitae honestae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Liber <name type="author">Martini episcopi</name> ad <name type="person">Mironem
+                                    regem</name></title>
+                        </head>
+
+                        <ab>
+                            <decoNote>Red and black rustic capitals</decoNote>
+                        </ab>
+                        <rubric locus="1r">Incipit liber <name type="author">Martini Episcopi</name> ad <name
+                                type="person">Mironem Regem</name> de quattuor virtutibus</rubric>
+                        <ab>(<ref type="bibl" target="Migne 072"><supplied>P. L.</supplied> LXXII</ref> 22)</ab>
+                        <incipit locusNew="1r">Gloriosissimo ac tranquillissimo et insigni catholicae fidei praedito
+                            pietate <name type="person">mironi regi</name></incipit>
+                        <explicit locusNew="1v">uiuentibus ualeant adimplere</explicit>
+                        <rubric locusNew="1v">Formula vitae Honestae</rubric>
+                        <incipit locusNew="1v">Quattuor uirtutum species</incipit>
+                        <ab locusNew="1v">Marginal note <handNote>in English hand</handNote> (<date>xiii-xiv</date>):
+                            Fertur esse libellus <name type="person">senece</name></ab>
+                        <explicit locusNew="8v">aut deficientem contempnat ignauiam</explicit>
+                        <rubric locusNew="8v">Explicit</rubric>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="9r" locusEnd="38r">
+                        <head type="CCC">
+                            <name type="author">Ferrandus</name>, <title>Epistola ad <name type="person">Reginum
+                                    comitem</name> (epistola 7)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Liber <name type="author">Ferrandi diaconi</name> ad <name type="person">Reginum
+                                    comitem</name></title>
+                        </head>
+
+                        <rubric locus="9r">Incipit liber <name type="author">Ferrandi Diaconi</name> ad <name
+                                type="person">Reginum comitem</name></rubric>
+                        <ab>(<ref type="bibl" target="Migne 067"><supplied>P. L.</supplied> LXVII</ref> 928)</ab>
+                        <incipit locusNew="9r">Socialis uitae laboribus exercendus</incipit>
+                        <explicit locusNew="37v">supra se modo plagali in illa futura poena habebit</explicit>
+                        <rubric locusNew="37v">Explicit liber <name type="author">Ferrandi diaconi</name></rubric>
+                        <ab>Cf. <ref type="ms" target="CCC253">MS 253. 2</ref></ab>
+                        <ab locus="38r">blank</ab>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="38v" locusEnd="54v">
+                        <head type="CCC">
+                            <name type="author">Ambrosius Autpertus</name>, <title>Sermo de cupiditate</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sermo <name type="author">Ambrosii Autberti</name> de cupiditate</title>
+                        </head>
+
+                        <ab locus="38v">
+                            <decoNote>Title in red and green uncials</decoNote>
+                        </ab>
+                        <rubric locusNew="38v">In nomine sanctae Trinitatis incipit sermo <name type="author">Ambrosii
+                                Autberti</name> presbiteri de cupiditate uiris saecularibus utilis ualde habens
+                            scripturarum testimonia octoginta et (?) eo amplius. lege quicunque (a)d
+                            aedificationem</rubric>
+                        <ab>(<ref type="bibl" target="Migne 089"><supplied>P. L.</supplied> LXXXIX</ref> 1277)</ab>
+
+                        <incipit locusNew="38v">Sanctorum ecclesiam fratres karissimi esse dei agrum quis
+                            dubitet</incipit>
+                        <ab>
+                            <handNote>The hand is probably different from, but coeval with, the preceding</handNote>
+                        </ab>
+                        <ab>
+                            <handNote>The last leaf <supplied>(f. <locus>54r</locus>-<locus>54v</locus>)</supplied> is
+                                in a later fine small black hand</handNote>
+                        </ab>
+                        <ab>Ends</ab>
+                        <explicit locusNew="54v">fidelem retinens promissorem mediatorem dei et hominum hominem Christum
+                            ihesum qui cum patre et spiritu sancto uiuit et regnat deus per omnia secula seculorum.
+                            Amen</explicit>
+                        <ab>
+                            <supplied>f. <locus>55r</locus>-<locus>55v</locus> blank</supplied>
+                        </ab>
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, SP, CF</p>
+                            <p>msCheck: SP 18/8/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

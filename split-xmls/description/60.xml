@@ -1,0 +1,161 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC060">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>60</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>B. 8</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>20</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">John of Saint-Victor OSA, Memoriale historiarum</head>
+
+                <head type="James">Iohannes Parisiensis memoriale Historiarum</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">318</height>
+                        <width unit="mm">225</width>
+                    </measureGrp>
+                    <measureGrp type="James">12.5 x 8.7</measureGrp>, <extent>ff. 275 + 1</extent>, <layout>double
+                        columns of 50 lines</layout>. Cent. <origDate>xiv late</origDate>, <handNote>in clear ugly black
+                        hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>12</num>-17<num>12</num> (wants 5) 18<num>12</num>-22<num>12</num> | gap
+                        | 23<num>12</num> (1 now bound as 11)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>est per prelium</secFol>.</p>
+
+                <p function="Provenance">An erased inscription on f. <locus>1r</locus> at top:<lb/>
+                    <q>Cronica magna bo<abbr rend="superscript">a</abbr> de librario.</q> (?)<lb/>
+                    <q>Cronica magna V.</q><lb/> On f. <locus>39r</locus>: <q>Ihesus hawe marcye off me amen <name
+                            type="person">Jo beyk</name></q>.<lb/> At top of text: <q>I parisiensis G</q>.</p>
+
+
+                <p function="Research" rend="afterContents"><ref type="bibl" target="Hardy 1871">Hardy III 375</ref>.
+                        <ref type="bibl" target="Tanner 1748">Tanner Bibl. p. 572</ref> mentions a <hi rend="italic"
+                        >Flores historiarum</hi> by this author <q>in bibliotheca Gualteri Cope.</q> Compare the
+                    Memoriale historiarum given by <name type="person">Parker</name> to the <ref type="ms"
+                        target="CUL218">University Library (Ii. 2. 18)</ref>. This volume, handsomely written in cent.
+                        <date>xiv late</date>, in double columns of 47 lines, begins:<lb/> Labilis est hominum
+                    memoria<lb/> ...cum dei adiutorio perstringemus<lb/> In huius operis inicio primum de diuersarum
+                    origine gencium<lb/> but ends exactly as the Corpus Christi copy, as <name type="person"
+                        >Joscelin</name> has noted.<lb/>
+                    <ref type="bibl" target="Duchesne 1636">Duchesne <hi rend="italic">Historiae Francorum
+                            Scriptores</hi> I 128-133</ref> prints a passage from a <q>Memoriale Historiarum <name
+                            type="author" key="JohnofSt-001">Ioannis Parisiensis</name> Canon. Regul. ap. S. Victorem
+                        MS.</q> which occurs in the <ref type="ms" target="CUL218">University Library MS., pp.
+                        19-24</ref>.</p>
+
+
+
+
+
+
+                <p type="CCC">
+                    <foliation>ff. aa + a-b + i + 1-196 (197 missing) + 198-264 (265-277 missing) + 278-289 +
+                        c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="frm">Latin and Middle French.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="289r">
+
+
+
+                        <head type="CCC">
+                            <name type="author" key="JohnofSt-001">John of Saint-Victor OSA</name>, <title>Memoriale
+                                historiarum</title>
+                        </head>
+
+
+                        <incipit locusNew="1r">In exordio rerum et initio creaturarum opifex omnium deus</incipit>
+                        <ab>The gaps are at <name type="person">William I</name> (1 leaf) and the end of <name
+                                type="person">Edward I</name> (a quire)</ab>
+                        <ab>Ends in <date>1322</date></ab>
+                        <explicit locusNew="289r">propter hoc fecit ei dictus comes multas iniurias et penurias perpeti
+                            sine causa</explicit>
+                        <ab>On the verso of the last leaf is a note</ab>
+                        <ab locusNew="289v">Liber iste vocatur collectorium hystoriarum quia in eo collecta sunt
+                            utiliora et notabiliora excerpta primo de ystoriis sacre scripture etc.</ab>
+                        <ab>(not important)</ab>
+                        <ab>followed by</ab>
+                        <ab>Tabula progenierum francie</ab>
+                        <ab>showing the descent of <name type="person">Edward</name> from <q>
+                                <name type="person">Philippe le conqueraunt</name>
+                            </q></ab>
+                        <ab>With explanatory text in French below</ab>
+
+                    </msItem>
+
+
+
+                </msContents>
+
+
+
+
+                <additional>
+
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, CF 2nd</p>
+                            <p>msCheck: NJC 18.9.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

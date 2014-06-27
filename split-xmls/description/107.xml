@@ -1,0 +1,583 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC107">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>107</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Misc. S</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>391</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Seneca, Tragedies. François de Meyronnes OFM, De indulgentiis. Miscellaneous
+                    Texts</head>
+                <head type="James">Senecae Tragoediae Quaedam. Fr. de Maronis. Miscellanea</head>
+                <p function="Codicology"><material>Paper and vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">292</height>
+                        <width unit="mm">217</width>
+                    </measureGrp><measureGrp type="James">11.8 x 8.5</measureGrp>, <extent>ff. 1 + 157 + 2</extent>,
+                        <layout>mostly 37 lines to a page</layout>. Cent. <origDate>xv late (or xvi early)</origDate>
+                    and <origDate>xiii</origDate>. </p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf vellum, 1<num>4</num> 2<num>12</num> 3<num>12</num> 4<num>10</num>
+                            5<num>14</num> 6<num>12</num> 7<num>12</num> (wants 7-12) 8<num>12</num> 9<num>12</num> 10
+                        (seven last) 11<num>12</num>-14<num>12</num> | 15<num>8</num> (+ slip vellum)
+                        16<num>2</num></collation>.</p>
+
+
+
+                <p function="Additions">On the flyleaf <supplied>(f. <locus>ir</locus>)</supplied> a mark consisting of
+                    the letters G and R surmounted by a cross.</p>
+
+                <p>A table of contents (<origDate>xv</origDate>) on verso of flyleaf <supplied>(f.
+                        <locus>iv</locus>)</supplied>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i + 1-71 (72-76 missing) + 77-100 (101-112 missing) + 113-167 (168 missing) +
+                        169-177 + ii-iii + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="4v">
+                        <head type="CCC">
+                            <name type="author">Walter Map</name>, <title>Epistola <name type="person">Valerii</name> ad
+                                    <name type="person">Rufinum</name> ne ducat uxorem (De nugis curialium, dist. 4,
+                                3-5)</title>
+                        </head>
+                        <head type="James"><name type="author">W. Mapes</name>, <title>De Nugis Curialium Dist.
+                                IV</title></head>
+                        <head type="Nasmith">
+                            <title><name type="person">Valerius</name> ad <name type="person">Rufinum</name> de nuptiis
+                                non habendis</title>
+                        </head>
+
+
+                        <incipit locusNew="1r">Loqui prohebeor et tacere non possum</incipit>
+                        <explicit locusNew="3v">ne horestem scripsisse videar vale</explicit>
+                        <rubric locusNew="3v">Explicit sententia <name type="person">valerii</name> ad <name
+                                type="person">Rufinum</name> de nupciis non habendis</rubric>
+                        <ab>f. <locus>4r</locus>+<locus>4v</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="5r" locusEnd="22r">
+                        <head type="CCC">
+                            <name type="author">Seneca</name>, <title>Hercules furens</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="person">Hercules</name> furens, tragoedia <name type="author"
+                                    >Senecae</name></title>
+                        </head>
+
+                        <incipit locusNew="5r">Soror tonantis</incipit>
+                        <ab>Marginal glosses, beginning</ab>
+                        <incipit locusNew="5r">nota prius quod ista tragedia diuiditur in 5 actus</incipit>
+                        <ab>Ends</ab>
+                        <explicit locusNew="22r">que superos solet</explicit>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="22r" locusEnd="39v">
+                        <head type="CCC">
+                            <name type="author">Seneca</name>, <title>Thyestes</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="person">Thyestes</name>, tragoedia <name type="author"
+                                >Senecae</name></title>
+                        </head>
+
+                        <ab>
+                            <quote>(deest actus quintus et pars quarti)</quote>
+                        </ab>
+
+                        <incipit locusNew="22r">Quis me furor nunc</incipit>
+                        <ab>Ends unfinished l. 708</ab>
+                        <explicit locusNew="32v">Inter iuuencos tigris errauit duos</explicit>
+                        <ab>Most of f. <locus>32v</locus> and all ff. <locus>33r</locus>-<locus locusNew="39v"
+                                >40v</locus> are blank</ab>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="40r" locusEnd="52v">
+                        <head type="CCC">
+                            <name type="author">Seneca</name>, <title>Octavia praetexta</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="person">Ocatria</name>, tragoedia <name type="author"
+                                >Senecae</name></title>
+                        </head>
+
+                        <ab locusNew="40r">(<name type="person">Octavia</name>)</ab>
+                        <incipit locusNew="40r">Jam vaga celo</incipit>
+                        <ab>Ends</ab>
+                        <explicit locusNew="52v">ciuis gaudet <name type="place">Roma</name> cruore</explicit>
+                        <rubric locusNew="52v">Finit tragedia</rubric>
+                    </msItem>
+
+                    <msItem n="5" locusStart="53r" locusEnd="59r">
+                        <head type="CCC"><name type="author">François de Meyronnes OFM</name>, <title>De
+                                indulgentiis</title></head>
+                        <head type="Nasmith">
+                            <title><name type="author">Franciscus de Moronis</name> de indulgentiis</title>
+                        </head>
+
+                        <ab locusNew="53r">
+                            <handNote>Another hand</handNote>
+                        </ab>
+                        <rubric locusNew="53r">
+                            <name type="author">Franciscus de Maronis</name>
+                        </rubric>
+                        <incipit locusNew="53r">Quodcunque ligaueris super terram etc.</incipit>
+                        <explicit locusNew="59r">pluit super iustos et iniustos. Cui est honor et gloria in secula
+                            seculorum. Amen</explicit>
+                        <ab>Also in <ref type="ms" target="CCC151">MS 151. 6</ref>, <ref type="ms" target="CCC156">MS
+                                156. 6</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="6" locusStart="59v" locusEnd="64v">
+                        <head type="CCC">
+                            <name type="author">pseudo-François de Meyronnes OFM</name>, <title>De conceptu
+                                uirginali</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Idem de conceptu virginali</title>
+                        </head>
+                        <ab locusNew="59v">
+                            <handNote>Another hand</handNote>
+                        </ab>
+                        <incipit locus="59v">Absit istam rem facere 2<abbr rend="superscript">o</abbr> machabeorum
+                                9<abbr rend="superscript">o</abbr> Quia virgo sanctissima ut christianorum
+                            regula</incipit>
+                        <explicit locusNew="64r">ad virginis laudes que sit benedicta in eternum. Amen</explicit>
+                        <rubric locusNew="64r">Explicit sententia <name type="author">ffrancisci de maronis</name> de
+                            conceptu virginali</rubric>
+                        <ab><locus>64v</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="7" locusStart="65r" locusEnd="71v">
+                        <head type="CCC">
+                            <name type="author">François de Meyronnes OFM</name>, <title>De dominio apostolorum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Idem de dominio civili et naturali</title>
+                        </head>
+
+                        <ab>
+                            <quote>Fol. <locus>76r</locus> hic notantur desse folia 5. in quibus juxta indicem olim
+                                continebatur, <q>tractatus ejusdem autoris de praelatura dominii spiritualis ad dominium
+                                    temporale</q></quote>
+                        </ab>
+
+                        <incipit locusNew="65r">Utrum apostoli habuerint bonorum dominium in communi</incipit>
+                        <explicit locusNew="71v">de discipulis ut fuit declaratum</explicit>
+                        <rubric locusNew="71v">Explicit sententia <name type="author">ffrancisci</name> de dominio
+                            naturali et ciuili</rubric>
+                        <ab locusNew="71v">There follow 14 lines of another tract, lined through. The old table of
+                            contents gives the title <q>
+                                <name type="author">ffranciscus</name>
+                                <hi rend="italic">de prelatura principatus ecclesiastici ad principatum temporale</hi>
+                            </q></ab>
+                        <ab>ff. 71<supplied>(72)</supplied>-76 cut out. Note by <name type="person">Parker</name>,
+                                <q>desunt fol. 5</q></ab>
+
+                    </msItem>
+
+                    <msItem n="8" locusStart="77r" locusEnd="93r">
+                        <head type="CCC">
+                            <name type="author">John Duns Scotus OFM</name>, <title>De perfectione statuum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Scotus</name> de perfectione statuum</title>
+                        </head>
+
+                        <incipit locusNew="77r">Quod status prelatorum sanctorum pastorum ecclesie presupponit statum
+                            alium perfectiorem</incipit>
+                        <explicit locusNew="93r">que toti mundo naturaliter sunt nota</explicit>
+                        <rubric locusNew="93r">Explicit <name type="author">Scotus</name> de perfectione
+                            statuum</rubric>
+
+                    </msItem>
+
+                    <msItem n="9" locusStart="93v" locusEnd="94v">
+                        <head type="CCC">
+                            <name type="author">Hildegard of Bingen OSB</name>, <title>Epistola ad Colonienses</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Hildegardis virginis</name> ad Colonienses de
+                                perturbatione clericorum, quae epistola a <name type="person">papa Eugenio</name>
+                                recepta fuit in concilio <name type="place">Treverensi</name></title>
+                        </head>
+
+                        <head type="James">
+                            <title>Epistola <name type="author">Hildegardis</name></title>
+                        </head>
+                        <ab>(cf. <ref type="ms" target="CCC288">MS 288. 10</ref>, <ref type="ms" target="CCC404">MS 404.
+                                5</ref>)</ab>
+
+                        <incipit locus="93v">De eminente luce vocem audiui dicentem. O filia <name type="place"
+                                >syon</name> corona capitis filiorum tuorum inclinabitur</incipit>
+                        <explicit locusNew="94v">deinceps in fortissima vi persisteret</explicit>
+                        <rubric locusNew="94v">Explicit prophetia</rubric>
+
+                    </msItem>
+
+                    <msItem n="10" locusStart="94v" locusEnd="94v">
+                        <head type="CCC">
+                            <name type="author">Robert Grosseteste (attrib.)</name>, <title>Epistola 131</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Epistola exhortatoria <name type="author">episcopi Lincolniensis</name> ad proceres
+                                    <name type="place">Angliae</name>, &amp;c. ne ecclesiam ab exteris et Romanae
+                                curias ministris spoliari sinant</title>
+                        </head>
+
+                        <ab>Edited <ref type="bibl" target="Luard 1861">Luard <hi rend="italic">Roberti Grosseteste
+                                    Epistolae</hi> (Rolls) no. cxxxi, p. 442</ref> from this MS</ab>
+
+                    </msItem>
+
+                    <msItem n="11" locusStart="95r" locusEnd="100v">
+                        <head type="CCC">
+                            <name type="author">Innocent IV</name>, <title>Bull, Et si animarum affectantes</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Bulla <name type="author">Innocentii IV</name></title>
+                        </head>
+                        <ab>
+                            <quote>Hic desunt fol. 31. ubi olim, <q>tractatus de potestate jurisdictionis
+                                    ecclesiasticae</q></quote>
+                        </ab>
+                        <incipit locusNew="95r"><name type="author">Innocentius</name> etc. uniuersis religiosis etc. Et
+                            si animarum affectantes</incipit>
+                        <explicit locusNew="96r">Dat. <name type="place">neapoli</name> vicesimo kalends
+                            Decemb.</explicit>
+                        <ab><locus>96v</locus>-<locus>100v</locus> blank. ff. 101-112 cut out</ab>
+                        <ab locusNew="100v">Note by <name type="person">Parker</name>. <q>Desunt fol. 31</q>. The old
+                            table has <q>Tract. de potestate jurisdiccionis ecclesiastice</q></ab>
+
+                    </msItem>
+
+                    <msItem n="12" locusStart="113r" locusEnd="115v">
+                        <head type="CCC">
+                            <name type="author">pseudo-Augustine</name>, <title>De XII abusiuis saeculi (De duodecim
+                                abusionum gradibus)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Augustinus</name> de XII. abusionibus</title>
+                        </head>
+
+                        <ab locusNew="113r">
+                            <handNote>A new hand</handNote>
+                        </ab>
+                        <incipit locus="113r">Hee sunt .12. abusiua seculi</incipit>
+                        <ab>(<ref type="bibl" target="Migne 040"><supplied>P. L.</supplied> XL 1079</ref>)</ab>
+                        <explicit locusNew="115v">auxilio omnipotentis undique. Amen</explicit>
+
+                    </msItem>
+
+                    <msItem n="13" locusStart="116r" locusEnd="119v">
+                        <head type="CCC">
+                            <name type="author">Augustine</name>, <title>De diuersis quaestionibus LXXXIII, book
+                                1</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Dialectica quaedam</title>
+                        </head>
+
+                        <ab>A list of propositions (cf. <ref type="ms" target="CCC378">MS 378</ref>)</ab>
+                        <incipit locusNew="116r">Omne verum a veritate verum est</incipit>
+                        <ab><locus>117v</locus>-<locus>119v</locus> blank</ab>
+
+                    </msItem>
+
+
+                    <msItem n="14" locusStart="120r" locusEnd="155r">
+                        <head type="CCC">
+                            <name type="author">Augustine</name>, <title>De doctrina christiana</title>
+                        </head>
+                        <head type="James">
+                            <title>Extract from Retractations</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title><name type="author">Augustinus</name> de doctrina Christiana</title>
+                        </head>
+                        <ab locusNew="120r">
+                            <handNote>A better hand</handNote>
+                        </ab>
+                        <ab>Text</ab>
+                        <incipit locusNew="120r">Sunt precepta quedam</incipit>
+                        <ab>(<ref type="bibl" target="Migne 034"><supplied>P. L.</supplied> XXXIV 15</ref>)</ab>
+                        <explicit locusNew="155r">facultate disserui</explicit>
+                        <rubric locusNew="155r">Explicit Augustinus de doctrina Christiana</rubric>
+
+                    </msItem>
+
+                    <msItem n="15" locusStart="155r" locusEnd="155v">
+                        <head type="CCC">
+                            <title>Epitaph of <name type="person">Seneca</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Epitaphium <name type="person">Senecae</name></title>
+                        </head>
+
+                        <ab locus="155r">Added <handNote>in a later hand</handNote></ab>
+                        <ab><locus>155v</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="16" locusStart="156r" locusEnd="167v">
+                        <head type="CCC">
+                            <name type="author">Seneca</name>, <title>Epistulae morales (1-20)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Lucii Eunii Senecae</name> literarum moralium ad <name
+                                    type="person">Lucilium</name> epistolae numero nonaginta</title>
+                        </head>
+
+                        <ab>
+                            <quote>Desunt 70 posteriores epistolae</quote>
+                        </ab>
+
+                        <rubric locusNew="156r">Continentur in hoc codice <name type="author">lucii eunii senece</name>
+                            litterarum moralium ad <name type="person">lucilum</name> epistole numero nonaginta</rubric>
+                        <rubric locusNew="156r"><name type="author">Seneca</name>
+                            <name type="person">lucilio</name> salutem. Prima Epistola ne perdatur tempus</rubric>
+                        <incipit locusNew="156r">Ita fac mi <name type="person">lucili</name></incipit>
+                        <ab locusNew="167v">Ends in Epistola 20. Note by <name type="person">Parker</name>. <q>Desunt
+                                folia 19</q></ab>
+                        <ab locusNew="167r">Here the old foliation ends: and is continued <handNote>in a more recent
+                                hand</handNote>, with <locus>169r</locus> etc.</ab>
+
+                    </msItem>
+
+                    <msItem n="17" locusStart="169r" locusEnd="172r">
+                        <head type="CCC">
+                            <title>Verses on Biblical subjects</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Multi versus de sacris historiis, &amp;c.</title>
+                        </head>
+
+                        <ab>
+                            <quote>In membranis seculo <origDate>xv</origDate></quote>
+                        </ab>
+
+                        <ab locusNew="169r">This quire is of vellum, of cent. <origDate>xiii early</origDate>
+                            <handNote>in two hands</handNote>. It begins <layout>in double columns of 47
+                            lines</layout></ab>
+
+                        <ab>Verses on Biblical subjects, in short sections, giving the allegorical meaning of various
+                            incidents. They are not intended for inscriptions and are probably extracts from the <hi
+                                rend="italic">Aurora</hi> of <name type="person">Petrus de Riga</name></ab>
+                        <incipit locusNew="169r">
+                            <lg>
+                                <l><name type="person">Aaron</name> uirga. dei uirgo. peperisse feruntur</l>
+                                <l>Arboris illa nuces, etheris illa deum</l>
+                            </lg>
+                        </incipit>
+                        <ab>This section recurs on f. <locus>171v</locus>. The <handNote>hand changes on that
+                                page</handNote></ab>
+
+                    </msItem>
+
+                    <msItem n="18" locusStart="172r" locusEnd="172r">
+                        <head type="CCC">
+                            <name type="author">Augustine</name>, <title>Excerpta patrum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De servitute Deo debita et de speciebus timoris</title>
+                        </head>
+                        <ab>Short paragraphs from <name type="author">Augustine</name> etc.</ab>
+                    </msItem>
+
+                    <msItem n="19.1" locusStart="172v" locusEnd="173r">
+                        <head type="CCC">
+                            <title>Tractatus de vanitate mundi</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Brevis tractatus de vanitate mundi</title>
+                        </head>
+
+                        <incipit locusNew="172v">Recede hinc uade contra orientem abscondere in torrente caribd. (sic)
+                            ibi de torrente bibes. Si consideremus quam fallax</incipit>
+                        <explicit locusNew="173r">exaltabit caput tuum Idem dominus noster Ihesus Christus qui cum deo
+                            patre et spiritu sancto deus per omnia secula seculorum. Amen</explicit>
+                        <ab>Probably a sermon. In the hand of ff. <locus>169r</locus>-<locus>171r</locus></ab>
+                    </msItem>
+
+                    <msItem n="19.2" locusStart="173r" locusEnd="173v">
+                        <head type="CCC">
+                            <title>Verses</title>
+                        </head>
+                        <ab locusNew="173r">Verses follow</ab>
+                        <ab>(1)</ab>
+                        <incipit locusNew="173r">Nobilitas sola est animum que moribus ornat</incipit>
+                        <ab>Ends</ab>
+                        <explicit locusNew="173r">Curritur in facinus nec leges curia curat</explicit>
+
+                        <ab>(2)</ab>
+                        <incipit locusNew="173r">
+                            <lg>
+                                <l>Indigeo bobus ad rura colenda duobus</l>
+                                <l>Pontificis munus. bos exeat. unus et unus</l>
+                            </lg>
+                        </incipit>
+                        <ab>(3)</ab>
+                        <incipit locusNew="173r">
+                            <lg>
+                                <l>O felix mortale genus si semper haberet</l>
+                                <l>Eternum pre mente bonum, finemque timeret.</l>
+                                <l> Qui tam nobilibus media quam plebe creatis</l>
+                                <l>Inprouisus adest anime discrimine magno.</l>
+                                <l>Dum queruntur opes, dum fallax gloria rerum</l>
+                                <l>Mortales oculos variis circumuolat alis</l>
+                                <l>Dum petimus profugos qui nunc uenduntur honores</l>
+                                <l>Currimus equoreos fluctus uitamque perosi</l>
+                                <l>Et caput et merces timidis (tumidis) committimus undis</l>
+                                <l>Cumque per alpinas hyemes turbamque latronum</l>
+                                <l>Romuleas arces et auare menia <name type="place">rome</name></l>
+                                <l>Cernere solliciti, si cursu forte beato</l>
+                                <l>Ad natale solum patrieque reuertimur orbem</l>
+                                <l>Ecce repentine modiceque occasio febris</l>
+                                <l>Dissoluit toto quecumque parauimus euo</l>
+                            </lg>
+                        </incipit>
+                        <ab locus="173v">change of hand (to that of f. <locus>171r</locus>)</ab>
+                        <explicit locusNew="173v">
+                            <lg>
+                                <l>Unde superbit homo cuius conceptio culpa</l>
+                                <l>Nasci pena, labor uita, necesse mori.</l>
+                                <l>Est ve nascenti, ve nato, ve morienti</l>
+                                <l>Est ve nam sine ve non uiuit filius eue</l>
+                            </lg>
+                        </explicit>
+
+                    </msItem>
+
+                    <msItem n="20" locusStart="173v" locusEnd="173v">
+
+                        <head type="Nasmith">
+                            <title>Quaedam de numeris</title>
+                        </head>
+
+                        <incipit locus="173v">Unus in numeris diuidi non potest</incipit>
+                        <explicit locusNew="173v">et reperies cclxxvi qui constant per senarium numerum</explicit>
+
+                    </msItem>
+
+                    <msItem n="21" locusStart="174r" locusEnd="177v">
+                        <head type="CCC">
+                            <title>Sermons</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Tractatus de sacerdotio</title>
+                        </head>
+
+                        <ab>Sermon</ab>
+                        <incipit locus="174r">Elegit <name type="person">iudas</name> sacerdotes sine macula</incipit>
+                        <explicit locusNew="176r">se ipsum in premium sempiternum. Quod nobis prestare dignetur
+                            etc.</explicit>
+                        <ab>Sermon</ab>
+                        <incipit locusNew="176r">Spiritus domini Spiritus sanctus repleuit orbem</incipit>
+                        <explicit locusNew="176v">consolationes tue letificauerunt animam meam</explicit>
+                        <ab locusNew="177r">Slip with scribbled verses in late hand</ab>
+
+                    </msItem>
+
+                    <msItem n="22" locusStart="iir" locusEnd="iiiv">
+                        <head type="CCC">
+                            <title>Notes from Register and Statute Book of <name type="place">Cambridge
+                                    University</name>
+                                <date>1488</date>-<date>1544</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Breves notae ex registro <name type="place">Cantabrigie</name> ab anno
+                                    <date>1488</date>, ad annum <date>1544</date></title>
+                        </head>
+
+                        <ab>
+                            <quote>In chartis</quote>
+                        </ab>
+
+                        <ab>Paper (<origDate>xvi</origDate>) paged by <name type="person">Parker</name>
+                            <q>692</q></ab>
+                        <rubric locusNew="iir">Ex Registro <name type="place">Cantabrigie</name> ab anno
+                                <date>1488</date> ad. annum <date>1544</date></rubric>
+                        <incipit locusNew="iir">folio 8. Episcopus Lincolniensis Cancellarius Oxonie incorporatur <name
+                                type="place">Cantabrigie</name></incipit>
+                        <ab>References to folios given throughout</ab>
+                        <ab locusNew="iiiv">On the last page an extract from a statute book of the University f. 58</ab>
+                        <ab locusNew="iiiv"><q>Nota quod 12 turonenses valent xld</q> etc.</ab>
+                        <ab>
+                            <supplied agent="JamesCorrigenda">This is page 692 of <ref type="ms" target="CCC106">MS
+                                    106</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: foliation check, BA - 6/11/2008; NJM - 18/11/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

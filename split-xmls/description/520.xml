@@ -1,0 +1,192 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC520">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>520</idno>
+                    <altIdentifier type="Elbing">
+                        <idno>N. 22</idno>
+                    </altIdentifier>
+
+                </msIdentifier>
+                <head type="CCC">Henricus Wirzeburgensis siue Herbipolensis, De statu curiae Romanae. Petrus Riga,
+                    Aurora. Petrus Comestor, Historia scholastica (extracts)</head>
+                <head type="James">[Untitled]</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">290</height>
+                        <width unit="mm">217</width>
+                    </measureGrp>, <measureGrp type="James">11.7 x 8.5</measureGrp>, <extent>ff. 179</extent>,
+                        <layout>double columns of 45 lines</layout>. Cent. <origDate>xiv-xv</origDate>, <handNote>fairly
+                        well written</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>16</num> 2<num>16</num> 3<num>18</num>-5<num>18</num> 6<num>14</num> 7<num>14</num>
+                            8<num>16</num> 9<num>16</num> 10<num>14</num> 11<num>14</num> 12<num>6</num> (wants
+                        6)</collation>.</p>
+
+                <p function="Provenance"><name type="person">Mary Pernham</name> on f. <locus>2v</locus>.</p>
+                <p function="Binding">Binding as before, two metal tags remain and the mark of a third. Label 91.
+                    Bosses.</p>
+                <p function="Additions">In the cover <supplied>(f. <locus>iiv</locus>)</supplied>:<lb/> Testamentarius
+                    liber d<abbr rend="superscript">ni</abbr>
+                    <name type="person">Laurencij ? Rothemunt alias Schelen (or Scholen)</name>.<lb/> Some notes and
+                    verses in the cover.</p>
+                <p type="CCC">
+                    <foliation>ff. i-iii + 1-35 + 35a + 36-47 + 47a + 48-180 + iv-vi</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="ger">Latin and German.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="32v">
+                        <head type="CCC"><name type="author">Henricus Wirzeburgensis</name>, <title>De statu curiae
+                                Romanae</title></head>
+                        <!-- Henry of Würzburg OFM? -->
+                        <rubric locus="1r">Incipit summa <name type="author">fratris Hinrici de Wirczeburg de ordine
+                                minorum</name></rubric>
+                        <rubric locus="1r">De electione</rubric>
+                        <ab locus="1r">Questio si omnes velint</ab>
+                        <ab>In 5 books ending</ab>
+                        <rubric locusNew="22v">de sententia suspensionis</rubric>
+                        <explicit locusNew="22v">audire et non officiare hi hescien (Hostiensis?)</explicit>
+                        <rubric locusNew="22v">Explicit</rubric>
+                        <ab locusNew="22v">Notes follow</ab>
+                        <ab>On ff. <locus>23v</locus>-<locus>28r</locus> are a collection of texts for sermons</ab>
+                        <ab locus="28v">Part of a sermon</ab>
+                        <ab>ff. <locus>29r</locus>-<locus>32v</locus> blank</ab>
+                        <ab locusNew="23r">Expositiones Equationum (old list)</ab>
+                    </msItem>
+
+                    <msItem n="2" locusStart="33r" locusEnd="114v">
+                        <head type="CCC"><name type="author">Petrus Riga</name>, <title>Aurora</title></head>
+
+
+                        <head type="James">
+                            <title>Aurora</title>
+                        </head>
+
+
+                        <incipit locusNew="33r">In hoc libro cont. quinque libri moysi, etc. ... a <name type="author"
+                                >magistro Petro corbulensi parisius</name> stilo metrico depictus</incipit>
+                        <rubric locusNew="33r">Glosule super Genesym</rubric>
+                        <incipit locusNew="33r">Pentateucus dicitur a penta .i. quinque</incipit>
+                        <rubric locusNew="33v">Prologus</rubric>
+                        <incipit locus="33v">Frequens sodalium</incipit>
+                        <ab>Text</ab>
+                        <incipit locus="34r">Prima facta die</incipit>
+                        <ab>Gen. - 4 Reg., Tobit, Daniel, Judith, Hester, Macc.</ab>
+                        <ab>Evangelium, ending</ab>
+                        <explicit locusNew="105v">Istic dat finem <name type="person">petrus</name> et ipse
+                            suum</explicit>
+                        <rubric locus="105v">Recapitulationes in Veterus Testamentum sine A, etc.</rubric>
+                        <incipit locusNew="105v">Principio rerum post quinque dies homo primus</incipit>
+                        <ab locus="108r">Acts</ab>
+                        <incipit locusNew="108r">Tyberii nono etc.</incipit>
+                        <ab>Ending</ab>
+                        <explicit locusNew="114r">Ense sacrat paulum. pax. lux. urbs dux cruce petrum</explicit>
+                        <rubric locusNew="114r">Explicit Actus Apostolorum finis est liber aurore <name type="author"
+                                >magistri petri Chorebula</name></rubric>
+                        <ab>Occidit aurora liber iste <name type="author">petri corebula</name>.<lb/> Vt rosa flos
+                            florum flos est liber iste librorum</ab>
+                        <ab locusNew="114r">Four lines</ab>
+                        <rubric locusNew="114r">de derisione noe</rubric>
+                        <ab>A few notes</ab>
+                        <ab locus="114v">Some notes in German on the foundation of religious orders</ab>
+                        <ab locusNew="114v">Noch gotes geburt <date>iiijc vnd xxx</date> wart gestiftz d' orden
+                            Regulares canonici vnder <name type="person">sente Augustini</name> regele<lb/> ...<lb/>
+                            Noch gotes geburt <date>m. ccc. vnd ix</date>. Jar wart danczk gewunnen der noch in dem
+                            neesten Jar kouften di hrn das lant czu pomeren</ab>
+                        <ab>Occurs again in <ref type="ms" target="CCC503">MS 503. 9</ref></ab>
+                    </msItem>
+
+                    <msItem n="3" locusStart="115r" locusEnd="180v">
+                        <head type="CCC">
+                            <name type="author">Petrus Comestor</name>, <title>Historia scholastica (extracts on the
+                                Gospels and Acts)</title>
+                        </head>
+                        <head type="James">
+                            <title>History of the Gospels and Acts from the Historia Scholastica</title>
+                        </head>
+                        <rubric locusNew="115r">De concepcione precursoris</rubric>
+                        <incipit locusNew="115r">Fuit autem in diebus herodis regis Jude affluxis annis regni eius
+                            undetriginta</incipit>
+                        <explicit locusNew="148r">processio translata est ad dominicam diem</explicit>
+                        <rubric locusNew="148r">Explicit hoc</rubric>
+                        <ab>(Acts)</ab>
+                        <rubric locusNew="148v">Quomodo apparuit dominus, etc.</rubric>
+                        <incipit locusNew="148v">Anno nonodecimo imperij tiberii</incipit>
+                        <explicit locusNew="176r">in cathacumbis. finis</explicit>
+
+                        <ab locus="175r" locusNew="176r">Followed by short accounts of the Apostles</ab>
+                        <incipit locusNew="176r"><name type="person">Petrus</name> et <name type="person">paulus</name>
+                            rome sepulti sunt</incipit>
+                        <explicit locusNew="179r">orantibus esse conciues</explicit>
+                        <rubric locusNew="179r">Amen</rubric>
+                        <ab>
+                            <supplied>ff. <locus>179v</locus>-<locus>180v blank</locus></supplied>
+                        </ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF, CF 2nd</p>
+                            <p>msCheck: CF 7.1.2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

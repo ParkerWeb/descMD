@@ -1,0 +1,642 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC415">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>415</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>O. 27</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>230</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">The Norman Anonymous</head>
+                <head type="James">Tractatus Eboracenses</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">211</height>
+                        <width unit="mm">135</width>
+                    </measureGrp>, <measureGrp type="James">8.6 x 5.5</measureGrp>, <extent>ff. 4 + 154 + 2</extent>,
+                        <layout>28 and 27 lines to a page</layout>. Cent. <origDate>xi-xii</origDate>, <handNote>in
+                        several fine hands, some of which resemble the <name type="place" key="ChristCh-001">Christ
+                            Church (Canterbury)</name> hand</handNote>. </p>
+
+
+                <p><label>Collation:</label>
+                    <collation>a<num>4</num>, 1<num>8</num> 2<num>8</num> 3<num>10</num> 4<num>8</num>-7<num>8</num> (7
+                        canc.) 8<num>8</num> 9<num>8</num> (1, 2 canc.) 10<num>8</num>-13<num>8</num> 14<num>2</num>
+                            15<num>8</num>-19<num>8</num> (wants 8) 20<num>10</num>, b<num>2</num></collation>.</p>
+                <p function="Research">This volume contains the famous series of tracts by the <q>Yorker Anonymus</q>:
+                    described by <ref type="bibl" target="Hampe 1897">Hampe, <hi rend="italic">Neues Archiv</hi>
+                        XXII</ref> 669. (He distinguishes 7 or 8 scribes.) The greater part of the text has been
+                    printed, as the references given below will show, in <ref type="bibl" target="Böhmer 1897">MGH. (<hi
+                            rend="italic">Libelli de Lite</hi>)</ref> or <ref type="bibl" target="B&#246;hmer 1899"
+                        >H. B&#246;hmer, <hi rend="italic">Staat und Kirche</hi>, 1899</ref>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-vi + pp. 1-112 + 112a + 113a + 113-164 + 164a + 165a + 165-212 + 212a + 213a +
+                        213-292 + 292a + 293a + 293-306 + ff. vii-viii</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1" locusEnd="2">
+                        <head type="CCC">
+                            <title>Summus pontifex</title>
+                        </head>
+
+                        <ab locus="1">[Late title]</ab>
+                        <rubric locus="1">[An summus Pontifex sit iuditio subiectus]</rubric>
+                        <incipit locusNew="1">Decretum est in sacris canonibus</incipit>
+                        <explicit locusNew="2">nullatenus debet iudicari de ordine</explicit>
+                        <ab>
+                            <ref type="bibl" target="B&#246;hmer 1899">B&#246;hmer, <hi rend="italic">Staat und
+                                    Kirche</hi> 436</ref>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="3" locusEnd="15">
+                        <head type="CCC">
+                            <title>Equalitas ecclesiarum et unitas ecclesie</title>
+                        </head>
+                        <rubric locus="3">[De una ecclesia]</rubric>
+                        <incipit locusNew="3">Auctoritate sanctorum patrum didicimus quod sancta ecclesia toto orbe
+                            diffusa una sit ecclesia una sponsi columba</incipit>
+                        <ab>A section begins in capitals at p. <locus>11</locus></ab>
+                        <incipit locusNew="11">Ecclesia quippe Sathane non sacrificabat uni deo</incipit>
+                        <explicit locusNew="15">cum quo unus est spiritus</explicit>
+                        <ab><ref type="bibl" target="B&#246;hmer 1899">B&#246;hmer, <hi rend="italic">Staat und
+                                    Kirche</hi></ref>, 437</ab>
+                    </msItem>
+
+                    <msItem n="3" locusStart="16" locusEnd="38">
+                        <head type="CCC">
+                            <title>De peccatis et de penis eorum</title>
+                        </head>
+                        <incipit locus="16">Cum de homine negat petrus in filium negauit hominis</incipit>
+                        <explicit locusNew="38">sed utrum recte an perperam sapientium iudicio derelinquimus</explicit>
+                        <ab>Not printed: see <ref type="bibl" target="B&#246;hmer 1899">B&#246;hmer, <hi
+                                    rend="italic">Staat und Kirche</hi>, p. 179</ref></ab>
+                    </msItem>
+
+                    <msItem n="4" locusStart="39" locusEnd="49">
+                        <head type="CCC">
+                            <title>Episcopus a solo Deo iudicandus</title>
+                        </head>
+                        <rubric locus="39">[Quod Rothomagensis ecclesia non est subiecta Romanae]</rubric>
+                        <incipit locusNew="39">Interrogetur romanus pontifex quibus de causis reprehendit et condempnat
+                            rothomagensem archiepiscopum</incipit>
+                        <explicit locusNew="49">Ne meliorum uita deteriorum prelatorum corrumpatur exemplo</explicit>
+                        <ab>
+                            <ref type="bibl" target="B&#246;hmer 1897">MGH., <hi rend="italic">Libelli de Lite</hi>
+                                III 656</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="5" locusStart="50" locusEnd="53">
+                        <head type="CCC">
+                            <title>Abbas episcopo suo subditus est</title>
+                        </head>
+                        <ab>
+                            <handNote>Change of hand</handNote>
+                        </ab>
+                        <rubric locus="50">[De priuilegiis peculiaribus]</rubric>
+                        <incipit locusNew="50">Precipit apostolus immo per apostolum Christus ut omnis anima
+                            sullimioribus potestatibus subdita sit</incipit>
+                        <explicit locusNew="53">gratie igitur est ut una ecclesia huic pene subiaceat</explicit>
+                        <ab>
+                            <ref type="bibl" target="B&#246;hmer 1899">B&#246;hmer, <hi rend="italic">Staat und
+                                    Kirche</hi>, p. 449</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="6" locusStart="53" locusEnd="55">
+                        <head type="CCC">
+                            <title>In necessitate licet leges pretermitti</title>
+                        </head>
+                        <rubric locus="53">[De temperandis legibus]</rubric>
+                        <incipit locusNew="53">Oportet leges aliquando temperari propter misericordiam</incipit>
+                        <explicit locusNew="55">ullo crimine reos teneri</explicit>
+                        <ab>Not printed</ab>
+                    </msItem>
+
+                    <msItem n="7" locusStart="55" locusEnd="56">
+                        <head type="CCC">
+                            <title>Iudex secundum Deum iudicet</title>
+                        </head>
+                        <incipit locus="55">Cum aliquis in iudicio de crimine reus conuincitur</incipit>
+                        <explicit locusNew="56">per misericordiam</explicit>
+                        <ab>Not printed</ab>
+                    </msItem>
+
+                    <msItem n="8" locusStart="56" locusEnd="57">
+                        <head type="CCC">
+                            <title>De mercenarii sententia</title>
+                        </head>
+                        <incipit locus="56">Si mercennarius et qui non est pastor</incipit>
+                        <explicit locusNew="57">nec tenenda est sententia</explicit>
+                        <ab>
+                            <ref type="bibl" target="B&#246;hmer 1899">B&#246;hmer, <hi rend="italic">Staat und
+                                    Kirche</hi>, p. 452</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="9" locusStart="57" locusEnd="85">
+                        <head type="CCC">
+                            <title>De iusticia christiana</title>
+                        </head>
+                        <incipit locus="57">Omne iudicium aut in ecclesiasticis situm est negotiis aut in
+                            secularibus</incipit>
+                        <ab>At p. <locus>72</locus> an initial, but no break in the text</ab>
+                        <explicit locusNew="85">si ergo hec propter eum facitis nobis illi pocius facitis quam nobis qui
+                            potens est retribuere uobis. Amen</explicit>
+                        <ab>Not printed</ab>
+                    </msItem>
+
+                    <msItem n="10" locusStart="85" locusEnd="86">
+                        <head type="CCC">
+                            <title>Sacerdotis auctoritas</title>
+                        </head>
+                        <incipit locus="85">Duo sunt quibus hic mundus principaliter regitur sacerdotalis auctoritas et
+                            regalis potestas</incipit>
+                        <explicit locusNew="86">sed et hoc dicendum quia sancte ecclesie rex filius est non presul.
+                            discipulus non magister. subditus non</explicit>
+                        <ab>[breaks off]</ab>
+                        <ab>Not printed</ab>
+                    </msItem>
+
+                    <msItem n="11" locusStart="86" locusEnd="92">
+                        <head type="CCC">
+                            <title>De diversitate penarum</title>
+                        </head>
+                        <rubric locus="86">[De Canonibus et Decretis]</rubric>
+                        <incipit locusNew="86">Si omnia precepta canonum paria essent idest equalis dignitatis</incipit>
+                        <explicit locusNew="92">Hos per omnia imitari nos oportet</explicit>
+                        <ab>
+                            <ref type="bibl" target="B&#246;hmer 1899">B&#246;hmer, <hi rend="italic">Staat und
+                                    Kirche</hi>, p. 453</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="12" locusStart="93" locusEnd="99">
+                        <head type="CCC">
+                            <title>De primatu ecclesie Hierosolimitane</title>
+                        </head>
+                        <rubric locus="93">[De ecclesia Romana et Hierosolimitana]</rubric>
+                        <incipit locusNew="93">Videamus de romana et hierosolimitana ecclesia. que rectius alteri
+                            preferri debeat</incipit>
+                        <explicit locusNew="99">quos plenos fuisse gratia diuina loquuntur testimonia</explicit>
+                        <ab>
+                            <ref type="bibl" target="B&#246;hmer 1899">B&#246;hmer, <hi rend="italic">Staat und
+                                    Kirche</hi>, p. 457</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="13" locusStart="100" locusEnd="102">
+                        <head type="CCC">
+                            <title>Electio et consecratio episcopi</title>
+                        </head>
+                        <rubric locus="100">[De electione Pontificis]</rubric>
+                        <incipit locusNew="100">Pontifex aut dei tantum electione debet constitui aut hominum tantum aut
+                            simul dei et hominum</incipit>
+                        <explicit locusNew="102">Rectene id an perperam ipsi uiderint qui inuenerunt</explicit>
+                        <ab>
+                            <ref type="bibl" target="B&#246;hmer 1899">B&#246;hmer, <hi rend="italic">Staat und
+                                    Kirche</hi>, p. 462, nos. xiii a, xiii b</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="14" locusStart="102" locusEnd="107">
+                        <head type="CCC">
+                            <title>De malestate baptismi</title>
+                        </head>
+                        <rubric locus="102">[De Baptismo et Eucharistia]</rubric>
+                        <incipit locusNew="102">Si queritur quid melius sit atque prestantius baptismus an
+                            sacerdotium</incipit>
+                        <explicit locusNew="107">quales ab eterno non sunt scripti uel electi uel
+                            predestinati</explicit>
+                        <ab>
+                            <ref type="bibl" target="B&#246;hmer 1899">B&#246;hmer, <hi rend="italic">Staat und
+                                    Kirche</hi>, p. 464</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="15" locusStart="108" locusEnd="112">
+                        <head type="CCC">
+                            <title>De nuptiale sacramento</title>
+                        </head>
+                        <rubric locus="108">[De nuptiis]</rubric>
+                        <incipit locusNew="108">Si christiana nubit iudeo uel ethnico</incipit>
+                        <explicit locusNew="109">peccato idolatrie comparatur</explicit>
+                        <ab>Not printed</ab>
+                        <ab>The lower part of p. <locus>109</locus> is cut off and replaced by new vellum: a fragment of
+                            text (for which see the Addenda) survives, pasted over, on p. <locus>110</locus>: the whole
+                            of pp. <locus>111</locus>, <locus>112</locus> are a newer leaf, and blank <supplied>(p.
+                                    <locus>112</locus> not blank, contains later rubric)</supplied></ab>
+                        <ab locusNew="110">
+                            <supplied agent="JamesCorrigenda">The fragment of text on p. <locus>110</locus>, now pasted
+                                over with newer vellum, runs as follows</supplied>
+                        </ab>
+                        <ab locusNew="110">
+                            <supplied agent="JamesCorrigenda"> nec ea que in mundo sunt diligant. ut omnia sua
+                                etiam<lb/> uxores propter deum relinquant. et cetera celestis doctrine<lb/> mandata
+                                obseruant. si hec inquam implere satagunt<lb/> uxoribus alligari non debent. quia qui
+                                uxoribus alligantur<lb/> hec implere non ualent. et qui non implent irritum faciunt<lb/>
+                                quantum in ipsis est christianitatis nomen.<lb/> Si coniunctio consanguineorum<lb/>
+                                abhominabilis esset apud deum et incestus reputa- </supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="16" locusStart="112" locusEnd="114">
+                        <head type="CCC">
+                            <title>De ordine sacerdotis (I)</title>
+                        </head>
+                        <rubric locus="113" locusNew="112">[De deposicione sacerdotis]</rubric>
+                        <ab>The first two lines are a slip cut off from a previous page and pasted on the top of p.
+                                <locus>113</locus></ab>
+                        <incipit locusNew="112a">Sacerdotem ab ordine deponi nichil aliud esse puto quam eidem ordinem
+                            suum auferri</incipit>
+                        <ab>
+                            <ref type="bibl" target="B&#246;hmer 1899">B&#246;hmer, <hi rend="italic">Staat und
+                                    Kirche</hi>, p. 469</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="17" locusStart="114" locusEnd="114">
+                        <head type="CCC">
+                            <title>De ordine sacerdotis (II)</title>
+                        </head>
+                        <incipit locus="114">Diuina benedictio cuius iustus maior esse</incipit>
+                        <ab>
+                            <ref type="bibl" target="B&#246;hmer 1899">B&#246;hmer, <hi rend="italic">Staat und
+                                    Kirche</hi>, p. 470</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="18" locusStart="114" locusEnd="118">
+                        <head type="CCC">
+                            <title>De consecratione sacerdotis</title>
+                        </head>
+                        <incipit locus="114">Si uerba quibus consecratur corpus</incipit>
+                        <ab>
+                            <ref type="bibl" target="B&#246;hmer 1899">B&#246;hmer, <hi rend="italic">Staat und
+                                    Kirche</hi>, p. 470</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="19" locusStart="118" locusEnd="119">
+                        <head type="CCC">
+                            <title>De ordine et de oficiis Christi</title>
+                        </head>
+                        <incipit locus="118">Christus factus est sacerdos diaconus subdia(co)nus</incipit>
+                        <ab>Unfinished</ab>
+                        <ab>
+                            <ref type="bibl" target="B&#246;hmer 1899">B&#246;hmer, <hi rend="italic">Staat und
+                                    Kirche</hi>, p. 473</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="20" locusStart="120" locusEnd="120">
+                        <head type="CCC">
+                            <title>De duobus gladiis</title>
+                        </head>
+                        <incipit locus="120">In passione domini duo fuisse gladii</incipit>
+                        <explicit locusNew="120">in sanctorum commentariis queri debent</explicit>
+                        <ab>
+                            <ref type="bibl" target="B&#246;hmer 1899">B&#246;hmer, <hi rend="italic">Staat und
+                                    Kirche</hi>, p. 474</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="21" locusStart="121" locusEnd="127">
+                        <head type="CCC">
+                            <title>De bonitate Dei et nature</title>
+                        </head>
+                        <incipit locus="121">Si deus omnia regit et moderatur et omnem rationalem creaturam regit et
+                            moderatur</incipit>
+                        <explicit locusNew="127">Idem enim est adipisci summam bonitatem et summam essentiam et idem est
+                            adipisci bonum esse quod esse</explicit>
+                        <ab>? Not printed</ab>
+                    </msItem>
+
+                    <msItem n="22" locusStart="128" locusEnd="139">
+                        <head type="CCC">
+                            <title>De ordinatione filiorum sacerdotum</title>
+                        </head>
+                        <incipit locus="128">Apologia pro filiis sacerdotum et concubinarum quos nunc quidam iudicant ad
+                            sacros ordines non debere admitti</incipit>
+                        <explicit locusNew="139">sin autem correp<abbr rend="superscript">c</abbr>tionem libenter
+                            excipimus</explicit>
+                        <ab>Another copy at p. <locus>247</locus></ab>
+                        <ab>
+                            <ref type="bibl" target="B&#246;hmer 1897">MGH. <hi rend="italic">Libelli de Lite</hi>
+                                III 649</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="23.1" locusStart="139" locusEnd="142">
+                        <head type="CCC">
+                            <title>De equalitate apostolorum</title>
+                        </head>
+                        <rubric locus="139">[De equalitate ministrorum]</rubric>
+                        <incipit locusNew="139">Diuina institutione nullus inter apostolos maior fuit</incipit>
+                        <explicit locusNew="142">ut inter uicarios eorum talis etiam regula seruaretur</explicit>
+                        <ab>
+                            <ref type="bibl" target="B&#246;hmer 1899">B&#246;hmer, <hi rend="italic">Staat und
+                                    Kirche</hi>, p. 475</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="23.2" locusStart="142" locusEnd="142">
+                        <head type="CCC">
+                            <title>De immolatione corporis Christi</title>
+                        </head>
+                        <incipit locus="142">Agnus dei qui cotidie immolatur in altari aut tollit peccata
+                            mundi</incipit>
+                        <explicit locusNew="142">Neque enim pro diabolo et membris eius offertur corpus
+                            Christi</explicit>
+                        <ab>
+                            <ref type="bibl" target="B&#246;hmer 1899">B&#246;hmer, <hi rend="italic">Staat und
+                                    Kirche</hi>, p. 477</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="24.1" locusStart="143" locusEnd="204">
+                        <head type="CCC">
+                            <title>De consecratione pontificum et regum (I)</title>
+                        </head>
+                        <ab>
+                            <handNote>Change of script</handNote>
+                        </ab>
+                        <rubric locus="143">[De consecratione Pontificum et regum]</rubric>
+                        <incipit locusNew="143">Due in ueteri testamento persone pontificis scilicet et regis olei
+                            sancti unctione consecrate</incipit>
+                        <ab>Between pp. <locus>158</locus> and <locus>159</locus> should be placed pp.
+                                <locus>173</locus>-<locus>188</locus> (quire 12)</ab>
+                        <incipit locus="163*" locusNew="164a">Nunc inseramus consecrationem sacerdotis et uideamus si
+                            adeo excellens est ut consecratio regis. Talis quippe est pontificis consecratio. Domine
+                            sancte pater</incipit>
+                        <ab>The office follows</ab>
+                        <ab>On p. <locus>169</locus>, after the inthronization collect (Domine Ihesu Christe tu
+                            preelegisti apostolos tuos ut doctrina sua nobis preessent etc.) follows what must be the
+                            king's oath</ab>
+                        <incipit locusNew="169">Hec tria populo Christiano et mihi subdito in Christi promitto
+                            nomine<lb/>In primis ut ecclesia et omnis populus christianus ueram pacem nostro arbitrio in
+                            omni tempore seruet, etc.</incipit>
+                        <ab>The text continues with the coronation office. On p. <locus>171</locus> in the Consecratio
+                            regis (omnipotens sempiterne deus creator ac gubernator celi et terre) is the formula</ab>
+                        <ab locusNew="171">
+                            <q>super hunc famulum tuum N quem supplici deuotione in regnum anglorum siue saxonum pariter
+                                elegimus</q>
+                        </ab>
+                        <ab>After p. <locus>172</locus> is the misplaced quire 12</ab>
+                        <ab>The office continues at p. <locus>189</locus> and ends p. <locus>194</locus> with the
+                            prayer</ab>
+                        <incipit locusNew="194">Benedic domine fortitudinem principis</incipit>
+                        <explicit locusNew="194">quia ascensor celi auxiliator suus in sempiternum fiat</explicit>
+                        <ab locus="194">A series of paragraphs on the attributes of a king follows headed</ab>
+                        <rubric locusNew="194">De Nomine Regni</rubric>
+                        <incipit locusNew="194">Isidorus ait. Regnum a regibus dictum est, etc.</incipit>
+                        <ab>In the following paragraphs the authorities quoted are:<lb/>Prouerbia Grecorum. These
+                            passages are printed by <ref type="bibl" target="Hellman 1906">S. Hellmann, <hi
+                                    rend="italic">Sedullius Scottus</hi></ref>, p. 129 (1906, in Traube's <hi
+                                rend="italic">Quellen u. Untersuchungen</hi> I) together with a series of 74 quotations
+                            from <hi rend="italic">Prouerbia Grecorum</hi> found in the <hi rend="italic"
+                                >Collectaneum</hi> of <name type="person">Sedulius Scottus</name> in the <ref type="ms"
+                                target="KUE013">Cues MS.</ref>, and two other passages from them cited in the <ref
+                                type="ms" target="KAR000">Carlsruhe MS. of the Irish Canons</ref>, and in a letter of
+                            the Anglo-Saxon <name type="person">Cathvulf</name> to <name type="person"
+                                >Charlemagne</name>. They have evidently passed through Celtic hands: their origin is
+                            uncertain.</ab>
+                        <ab>Other authorities named are:<lb/><name type="person">Hieronimus</name>. <name type="person"
+                                >Patricius</name> (the tract de xii abusiuis, quoted twice as his), Liber sapientie,
+                                <name type="person">Ambrose</name>, <name type="person">Gregory</name></ab>
+                        <ab locus="199">
+                            <q>Item <name type="person">paulus</name> pandit: quicunque adulari uoluerit aut pro
+                                necessitate aut pro adulatione benigne reuelat. Item <name type="person">paulus</name>.
+                                Si hominibus placuissem seruus dei non essem</q>
+                        </ab>
+                        <ab locus="200">Sinodus romana</ab>
+                        <ab locusNew="201"><name type="person">Orosius</name>. <name type="person">Augustine</name></ab>
+                        <ab>Ends</ab>
+                        <incipit locus="204">De sermone regis aut ducis protegente inimicum</incipit>
+                        <explicit locusNew="204">unde quidam ait. Utinam sermo regis dissoluisset me et liberaret me ut
+                            soluit <name type="person">ioseph</name>. Et ut <name type="person">danielem</name>
+                            liberauit de lacu leonum et ut <name type="person">mardocheum</name> de angustia
+                            sua</explicit>
+                        <ab>Parts of this are printed in <ref type="bibl" target="B&#246;hmer 1897">MGH. <hi
+                                    rend="italic">Libelli de Lite</hi> III 662</ref>, where also are parts of the next
+                            tract</ab>
+                    </msItem>
+
+                    <msItem n="24.2" locusStart="204" locusEnd="235">
+                        <head type="CCC">
+                            <title>De consecratione pontificum et regum (II)</title>
+                        </head>
+                        <ab locus="204">The text continues in a rougher hand</ab>
+                        <incipit locusNew="204">Sancta ecclesia sponsa Christi est qui est uerus rex et
+                            sacerdos</incipit>
+                        <ab>pp. <locus>205</locus>-<locus>208</locus> are <handNote>markedly large in
+                            script</handNote></ab>
+                        <ab>On p. <locus>209</locus>
+                            <handNote>this script becomes small and neat again</handNote>, but there seems to be no
+                            break in the sense</ab>
+                        <ab>This is a second copy, with some changes, of the tract no. 24.1. It ends just before the
+                            point where the former copy inserts the Coronation office. (See above on no. 24.1)</ab>
+                        <ab>This second copy ends p. <locus>235</locus></ab>
+                        <explicit locus="235">quoniam et ipse summus pontifex est in quantum rex est</explicit>
+                        <ab>On the first copy p. <locus locusNew="164a">163*</locus> these words are followed by Nunc
+                            inseramus consecrationem sacerdotis</ab>
+                    </msItem>
+
+                    <msItem n="24.3" locusStart="235" locusEnd="236">
+                        <head type="CCC">
+                            <title>'Laicus' nomen est ignominie</title>
+                        </head>
+                        <ab locus="235">No title</ab>
+                        <incipit locusNew="235">Laicus et christianus hec duo nomina aut equalia sunt in dignitate aut
+                            alterum altero est dignius</incipit>
+                        <explicit locusNew="236">alterum ignominie id est laicus</explicit>
+                    </msItem>
+
+                    <msItem n="24.4" locusStart="237" locusEnd="238">
+                        <head type="CCC">
+                            <title>De potestate ligandi atque solvendi</title>
+                        </head>
+                        <incipit locus="237">Dominus noster Iesus Christus si petro soli contulit claues regni
+                            celorum</incipit>
+                        <explicit locusNew="238">sed humano intuitu et preconio intruduntur</explicit>
+                    </msItem>
+
+                    <msItem n="25" locusStart="239" locusEnd="247">
+                        <head type="CCC">
+                            <title>De sacerdotum matrimonio</title>
+                        </head>
+                        <ab>
+                            <handNote>Large script</handNote>
+                        </ab>
+                        <rubric locus="239">[An liceat sacerdotibus inire matrimonia]</rubric>
+                        <incipit locusNew="239">Scire uelim quis primus instituit ne sacerdotes christiani inire
+                            deberent matrimonia. Deus an homo</incipit>
+                        <explicit locusNew="247">In quibus uero uerbum nuptiarum seminat ipsi facere nuptiarum fructum
+                            appetunt</explicit>
+                        <ab>Printed by <ref type="bibl" target="Hall 1647">Bp Hall, <hi rend="italic">Works</hi> I
+                                756</ref> (<hi rend="italic">The honor of the married clergie</hi>) <ref type="bibl"
+                                target="H. B&#246;hmer 1897">MGH. <hi rend="italic">Libelli de Lite</hi> III
+                                645</ref></ab>
+                    </msItem>
+
+                    <msItem n="26" locusStart="247" locusEnd="264">
+                        <head type="CCC">
+                            <title>De ordinatione filiorum sacerdotum</title>
+                        </head>
+                        <incipit locus="247">Apologia pro filiis sacerdotum et concubinarum</incipit>
+                        <ab>A first sketch of no. 22 (p. <locus>128</locus>): <handNote>hand changes</handNote> at p.
+                                <locus>255</locus></ab>
+                        <explicit locusNew="264">sin autem correctionem libenter accipiamus</explicit>
+                    </msItem>
+
+                    <msItem n="27" locusStart="264" locusEnd="265">
+                        <head type="CCC">
+                            <title>De Fiscannensi ecclesia</title>
+                        </head>
+                        <incipit locus="264">Sanctorum patrum autoritas-ordinauit ut rothomagensis ecclesia caput esset
+                            et mater fiscannensis ecclesie et ipsa membrum ipsius esset et filia</incipit>
+                        <ab locusNew="265">Nunc uero uice uersa in contrarium pro his bonis. fiscannensis mala retribuit
+                            rothomagensi</ab>
+                        <explicit locusNew="265">non est potestas nisi a deo</explicit>
+                    </msItem>
+
+                    <msItem n="28" locusStart="265" locusEnd="279">
+                        <head type="CCC">
+                            <title>De Romano pontifice</title>
+                        </head>
+                        <rubric locus="265">[De Romano Pontifice]</rubric>
+                        <incipit locusNew="265">Romanus pontifex ideo apostolicus cognominatur quod apostolorum uice et
+                            officio fungi creditur</incipit>
+                        <explicit locusNew="278">qui ergo inter has scisma facere conatur id efficit ut etiam
+                            sacerdotalis auctoritas subruatur</explicit>
+                        <ab locusNew="279">
+                            <supplied>Ends</supplied>
+                        </ab>
+                        <ab>
+                            <ref type="bibl" target="B&#246;hmer 1897">MGH. <hi rend="italic">Libelli de Lite</hi>
+                                III 679</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="29" locusStart="279" locusEnd="284">
+                        <head type="CCC">
+                            <title>De primato Anglie</title>
+                        </head>
+                        <rubric locus="279">[De obediendo Romano Pontifice: more correctly, against the subjection of
+                                <name type="place">York</name> to <name type="place">Canterbury</name>]</rubric>
+                        <incipit locusNew="279">Cum multe sint ecclesie in romana ciuitate aut omnibus equaliter debemus
+                            obedire aut quibusdam tantum</incipit>
+                        <ab>
+                            <handNote>The script of the following pages is larger and rougher</handNote>
+                        </ab>
+                        <explicit locusNew="284">si ergo eboracensis archiepiscopus istis uult exibere obedientiam non
+                            debet nisi cogatur de is respondere archiepiscopo cantuariensi que potius iure debet
+                            ecclesie londoniensi</explicit>
+
+                        <ab><ref type="bibl" target="B&#246;hmer 1897">MGH. <hi rend="italic">Libelli de Lite</hi>
+                                III 686</ref>. <ref type="bibl" target="H. B&#246;hmer 1899">B&#246;hmer, <hi
+                                    rend="italic">Staat und Kirche</hi>, p. 478</ref></ab>
+                    </msItem>
+
+                    <msItem n="30" locusStart="284" locusEnd="284">
+                        <head type="CCC">
+                            <title>De ecclesia Sathane in Roma</title>
+                        </head>
+                        <ab>A paragraph</ab>
+                        <incipit locus="284">Considerandum est de romana ecclesia unde sit dignior ex eo quod romana est
+                            an ex eo quod ecclesia</incipit>
+                        <explicit locusNew="284">in caritate non in exactione. propter deum non propter seculi fastum.
+                            Amen</explicit>
+                    </msItem>
+
+                    <msItem n="31" locusStart="285" locusEnd="302">
+                        <head type="CCC">
+                            <title>De sanctorum communione</title>
+                        </head>
+                        <rubric locusNew="285">(De Charitate et Obedientia)</rubric>
+                        <ab>
+                            <handNote>In the hand of no. 1</handNote>
+                        </ab>
+                        <incipit locusNew="285">Dignitas peculiaris et propria est et a patre collata filio dei et
+                            hominis quod est iudex uniuersorum</incipit>
+                        <ab>Ends p. <locus>302</locus> (on suficit diei malitia sua)</ab>
+                        <explicit locus="302">catia (=&#954;&#945;&#954;&#943;&#945;) enim que
+                            latinus uertit in malitiam apud grecos duo significat et malitiam et afflictionem. quod
+                            cacos grece dicunt et hic pro malitia magis transferri debuit</explicit>
+
+                        <ab>
+                            <ref type="bibl" target="B&#246;hmer 1899">B&#246;hmer, <hi rend="italic">Staat und
+                                    Kirche</hi>, p. 481</ref>
+                        </ab>
+                    </msItem>
+
+                </msContents>
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 22/04/08</p>
+                            <p>remarks: Titles of items from Pellens 1973 volume</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

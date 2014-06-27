@@ -1,0 +1,139 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC058">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>58</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>M. 12</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>150</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Stephen Langton, Commentary on Ecclesiasticus</head>
+
+                <head type="James">Stephanus Langton super Ecclesiasticum</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">335</height>
+                        <width unit="mm">230</width>
+                    </measureGrp><measureGrp type="James">13 x 9</measureGrp>, <extent>ff. 295</extent>, <layout>double
+                        columns of 40-39 lines</layout>. Cent. <origDate>xiii early</origDate>, <handNote>in a clear
+                        upright hand, rather tremulous</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num>, 2<num>10</num>-27<num>10</num>, 28<num>12</num>, 29<num>10</num>, 30
+                        (five) </collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>expone</secFol>.</p>
+
+                <p function="Writing" rend="afterContents">The scribe was a <name type="person">Robert</name> of one of
+                    the houses called <name type="place">Vallis Dei</name>. There were several of these in <name
+                        type="place">Eastern France</name> and in <name type="place">Flanders</name>.</p>
+
+                <p function="Additions" rend="afterContents">There are no flyleaves and I detect no mark of
+                    ownership.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-295 + iii-iv</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="295r">
+                        <head type="CCC"><name type="author" key="StLa01">Stephen Langton</name>, <title>Commentary on
+                                Ecclesiasticus</title></head>
+                        <head type="James">
+                            <name type="author" key="StLa01">Stephanus Langton</name>
+                            <title>super Ecclesiasticum</title>
+                        </head>
+
+
+                        <rubric locus="1r">Incipit tractatus uenerabilis <name type="author">Archiepiscopi S(tephani)
+                                Cantuariensis</name> super Ecclesiasticum. Capitulum I</rubric>
+                        <incipit locusNew="1r">Hoc nomen ecclesiastes interpretatur contionator</incipit>
+
+                        <ab>
+                            <decoNote>There is a handsome initial here (f. <locus>1r</locus>) and another
+                                    <supplied>initial</supplied>, curious in colour, on f.
+                                <locus>239v</locus>.</decoNote>
+                        </ab>
+
+
+                        <ab>Ends</ab>
+
+                        <explicit locus="295r">Signatur ergo per cumulum sabuli congregatio peccatorum</explicit>
+                        <ab>In red</ab>
+                        <rubric locusNew="295r">Sit <name type="person">de valle dei Roberti</name> mons requiei merces
+                            me cuius explicuit calamus</rubric>
+
+
+                    </msItem>
+
+                </msContents>
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: typed from the James Catalogue by CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: GDB, CF 2nd</p>
+                            <p>msCheck: NJC 25.01.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

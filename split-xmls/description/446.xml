@@ -1,0 +1,149 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC446">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>446</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>G. 12</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>75</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Elias of Evesham OSB, Quadrilogus de uita Sancti Thomae Cantuariensis</head>
+                <head type="James">Vita S. Thomae</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">185</height>
+                        <width unit="mm">119</width>
+                    </measureGrp>, <measureGrp type="James">7.4 x 4.8</measureGrp>, <extent>ff. 2 + 144 + 4</extent>,
+                        <layout>25 lines to a page</layout>. Cent. <origDate>xv late?</origDate>, <handNote>in a
+                        peculiar and pretty hand</handNote>.</p>
+
+
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num>, 1<num>8</num>-16<num>8</num> 17<num>6</num> 18<num>10</num>,
+                        b<num>4</num></collation>.</p>
+                <p><label>2 fo.:</label>
+                    <secFol>tis nec studiosos</secFol>.</p>
+                <p function="Provenance">On the last flyleaf <supplied>(<locus>vir</locus>)</supplied>: <name
+                        type="person">Jacobus Tutyll</name>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-ii + 1-144 + iii-vi + c</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="143v">
+                        <head type="CCC">
+                            <name type="author">Elias of Evesham OSB</name>, <title>Quadrilogus de uita <name
+                                    type="person">Sancti Thomae Cantuariensis</name>, 'second' (earlier) version</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Vita <name type="person">S. Thomae archiepiscopi Cantuar.</name> et martyris de
+                                plurium narratione collecta</title>
+                        </head>
+                        <ab>
+                            <quote>Haec vita, quas in aliis codicibus nominatur quadrilogus sive historia quadripartita,
+                                ab annotatore quodam imperito <name type="person">Stephano Cantuariensi</name>
+                                attribuitur</quote>
+                        </ab>
+                        <rubric locus="1r">Uita <name type="person">Sancti Thome</name> de plurium narracione
+                            collecta</rubric>
+                        <rubric locusNew="1r">Incipit prologus in vita <name type="person">Sancti Thome Archiepiscopi
+                                Cantuariensis</name> et martiris</rubric>
+                        <ab locusNew="1r">
+                            <decoNote>Handsome initial in gold and colour and partial border of feathery work</decoNote>
+                        </ab>
+                        <incipit locusNew="1r">Post summi fauoris dote uestitos preclaros pugiles</incipit>
+                        <explicit locusNew="3r">omnibus inuideas liuide nemo tibi</explicit>
+                        <ab><ref type="bibl" target="Robertson 1879">Robertson, <hi rend="italic">Materials for the
+                                    History of Archbishop Thomas Becket</hi>, IV 266</ref>. It is the so-called <hi
+                                rend="italic">second</hi> quadrilogue by <name type="author">Elias (?) of
+                            Evesham</name></ab>
+                        <ab>Ends</ab>
+                        <explicit locus="143r" locusNew="143v">virtus et imperium est per infinita secula seculorum.
+                            Amen</explicit>
+                        <rubric locusNew="143v">Explicit vita et passio <name type="person">beati thome
+                            martiris</name></rubric>
+                        <ab>(<ref type="bibl" target="Robertson 1879">Robertson, <hi rend="italic">Materials for the
+                                    History of Archbishop Thomas Becket</hi>, IV, p. 408</ref>)</ab>
+                        <ab>
+                            <handNote>In a hand of cent. <origDate>xvi</origDate></handNote>
+                        </ab>
+                        <ab locus="143v"><q>omnino haec desunt que habentur in libro <name type="person">Will<abbr
+                                        rend="superscript">mi</abbr> Twyne</name> De gestis post martirium</q>, etc. (a
+                            list of chapters)</ab>
+                        <ab>
+                            <handNote>In another hand of cent. <origDate>xvi early</origDate></handNote>
+                        </ab>
+                        <incipit locusNew="144r">Inspecta huius operis compilatione in qua vicesimo scilicet primo
+                            capite circa finem inveni authorem regias consuetudines scribi in calce huius historie
+                            policiturum</incipit>
+
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, SP</p>
+                            <p>msCheck: SP 11/8/08, RJR 23/1/2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

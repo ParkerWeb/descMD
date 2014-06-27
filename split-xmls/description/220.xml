@@ -1,0 +1,180 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC220">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>220</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Lib. ab Al. 36</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>380</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Petrus de Vinea, Summa dictaminis. Life of St Eustace</head>
+
+                <head type="James">Petrus de Vineis. Vita Sancti Eustachi</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">245</height>
+                        <width unit="mm">165</width>
+                    </measureGrp>
+                    <measureGrp type="James">9.5 x 6.5</measureGrp>, <extent>ff. 24</extent>, <layout>double columns of
+                        27 and 36 lines</layout>. Cent. <origDate>xiii late</origDate>, <handNote>well
+                        written</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>10</num> 2<num>10</num> (wants 8, 9) || 3<num>?</num> (six)</collation>.</p>
+
+                <p function="Provenance" rend="afterContents">This may possibly be the book entered in the MS. Catalogue
+                    of Benefactors as <q>De Vitis Sanctorum liber manuscriptus</q>, the gift of <name type="person"
+                        >Christopher Kaley</name> admitted <date>1636</date>, Fellow elect and afterwards Fellow of
+                        <name type="place">Jesus College</name>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-24 + iii-iv</foliation>.</p>
+
+
+
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="18v">
+
+                        <head type="CCC"><name type="author">Petrus de Vinea</name>, <title>Summa dictaminis
+                                (Epistolae)</title></head>
+
+
+                        <head type="James">
+                            <name type="author">Petrus de Vineis</name>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Fragmentum epistolarum <name type="author">Petri de Vineis</name></title>
+                        </head>
+
+
+
+
+                        <ab>Begins imperfectly</ab>
+                        <incipit locusNew="1r">ligarentur et facta conspiracione cum Ianuensibus</incipit>
+                        <ab>The next letter is</ab>
+                        <rubric locusNew="1r">Iusticiario terre laboris super deposicione sua</rubric>
+                        <incipit locusNew="1v">Hucusque satis ut loquamur</incipit>
+                        <ab>Parts of 15 letters remain</ab>
+                        <ab>The last ends unfinished on f. <locus>17r</locus></ab>
+                        <ab>ff. <locus>17v</locus>-<locus>18v</locus> are blank</ab>
+                        <ab>
+                            <ref type="bibl" target="Pertz 1839b">Pertz's Archiv, VII 949</ref>
+                        </ab>
+                        <ab>The MS. contains Liber I 9 (part), 10-15, 17, 16, 18-21, 24</ab>
+
+                    </msItem>
+
+
+                    <msItem n="2" locusStart="19r" locusEnd="23v">
+
+                        <head type="CCC">
+                            <title>Life of <name type="person">St Eustace</name></title>
+                        </head>
+
+                        <head type="James">
+                            <title>Vita <name type="person">Sancti Eustachi</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Historia <name type="person">Eustachii</name>, qui cum uxore et duobus filiis mortem
+                                passus est sub <name type="person">Adriano</name> imperatore ob fidem
+                                christianam</title>
+                        </head>
+
+
+
+                        <incipit locus="19r">In diebus <name type="person">traiani</name> Imperatoris demonis preualente
+                            fallacia Erat quidam magister militum nomine <name type="person">placidas</name></incipit>
+                        <explicit locusNew="23v">impetrant que promissa sunt sanctis per gratiam domini nostri et
+                            saluatoris Iesu Christi cui gloria et potestas in secula seculorum. Amen</explicit>
+
+                        <ab>Cf. <ref type="bibl" target="Graesse 1846">Legenda Aurea cap. 161, ed. Graesse</ref>, and
+                                <ref type="bibl" target="Stiltingus, Suyskenus, Perierus and Cleus 1757">Acta Sanctorum
+                                Sept. VI 123</ref>. (<ref type="bibl" target="Bollandists1898-99">BHL</ref>. 2760)</ab>
+
+                        <ab>
+                            <supplied>f. <locus>24r</locus>-<locus>24v</locus> blank</supplied>
+                        </ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+
+
+
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, SP, CF</p>
+                            <p>msCheck: RJR 24.07.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

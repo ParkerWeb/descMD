@@ -1,0 +1,520 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+
+                <msIdentifier xml:id="CCC062">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>62</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Under D. 4</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>363</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Proverbs, Ecclesiastes, and Song of Songs with Gloss. Vita of and works by Bernard of
+                    Clairvaux OCist. Bede the Venerable, Commentary on Catholic Epistles</head>
+
+                <head type="James">Parabole etc. Glosatae. Vita S. Bernardi etc. Beda super Epistolas Canonicas</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">318</height>
+                        <width unit="mm">230</width>
+                    </measureGrp>
+                    <measureGrp type="James">12.5 x 8.5</measureGrp>, <extent>ff. 274 + 2</extent>, <layout>three main
+                        volumes</layout>. Cent. <origDate>xii and xiii</origDate>.</p>
+
+                <p function="Multivolume" rend="withinContents"><lb/><label>Volume I:</label> Cent.
+                        <origDate>xiii</origDate>, <handNote>pointed hand, text gloss</handNote>, <layout>double and
+                        triple columns</layout>. <lb/><label>Volume II:</label>
+                    <layout>Double columns of 37 lines</layout>. Cent. <origDate>xii</origDate>, <handNote>in a fine
+                        hand</handNote>. <decoNote>Initial in green, yellow, brown</decoNote>. <lb/><label>Volume
+                        III:</label>
+                    <layout>Double columns of 34 lines</layout>. Cent. <origDate>xii, early?</origDate>
+                    <handNote>The hand resembles that of <name type="place">Christ Church</name></handNote>. </p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>12</num>-4<num>12</num> | 5<num>8</num>-13<num>8</num> 14<num>12</num> |
+                            15<num>8</num>-22<num>8</num> | 23<num>12</num> (wants 12) one flyleaf 24<num>8</num> (+ one
+                        paper leaf after 4) 25<num>8</num>-31<num>8</num> (+ 2)</collation>.</p>
+
+                <p function="Provenance">All from <name type="place">Rochester</name>, as will appear. Probably the book
+                    was given to <name type="person">Parker</name> by the <name type="person">Dean of Rochester</name>,
+                    a letter from whom is inserted.</p>
+
+                <p function="Provenance" rend="withinContents"><lb/><label>Volume I:</label> At bottom of f.
+                        <locus>1r</locus>
+                    <q>Liber de claustro <name type="place">Roffensi</name> per A. vicarium de <name type="place"
+                            >Stoke</name></q>.<lb/>
+                    <label>Volume II:</label> f. <locus>49r</locus>, <q>liber de claustro <name type="place"
+                            >Roffensi</name> per <name type="person">paulinum priorem</name></q>. <lb/><label>Volume
+                        III:</label> In lower margin of f. <locus>209r</locus>, <q>Liber de claustro <name type="place"
+                            >Roffensi</name>
+                        <name type="person">Alkewini</name> ep. (erased) monachi</q>.</p>
+
+                <p function="Additions">On the flyleaf is an original table of contents enumerating articles 2-13,
+                    omitting 12 (13 being added): then articles 1 and 12 are added <handNote>in different
+                        hands</handNote>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-iii + 1-275 + iv</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="1r" locusEnd="48v">
+
+                        <head type="CCC">
+                            <title>Proverbs, Ecclesiastes, and Song of Songs with Gloss</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Parabolae Salamonis, Ecclesiastes, et Cantica canticorum cum glossa</title>
+                        </head>
+
+                        <ab locus="1r">
+                            <quote>Imo paginae inscribitur, <q>Liber de claustro <name type="place">Roffensi </name>per
+                                    L. <supplied>[recte A.]</supplied> vicarium de <name type="place"
+                                >Stoke</name>.</q></quote>
+                        </ab>
+
+                        <ab locus="1r">Parabolae glosatae</ab>
+                        <ab>Prologue</ab>
+                        <incipit locus="1r">Jungat epistola</incipit>
+                        <ab>Gloss ends</ab>
+                        <explicit locusNew="27v">remunerante deo</explicit>
+                        <ab locus="28r">Ecclesiastes glosatus</ab>
+                        <incipit locus="28r">Memini me</incipit>
+                        <ab>Ends</ab>
+                        <explicit locusNew="36v">ad uoluptates hortari</explicit>
+                        <ab locus="37r">Cantica glosata</ab>
+                        <incipit locus="37r">Quatuor mihi in hoc opere</incipit>
+                        <ab>Ends</ab>
+                        <explicit locusNew="48r">memoria non tenemus</explicit>
+                        <ab><locus>48v</locus> blank</ab>
+
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="2" locusStart="49r" locusEnd="100v">
+                        <head type="CCC">
+                            <name type="author">William of Saint-Thierry OCist</name>, <name type="author">Arnold of
+                                Bonneval OCist</name>, and <name type="author">Geoffrey of Auxerre OCist</name>,
+                                <title>Vita Sancti Bernardi</title></head>
+                        <head type="Nasmith">
+                            <title>Vita <name type="person">Sancti Bernardi</name> abbatis [Claraevallensis] a tribus
+                                abbatibus conscripta libri v</title>
+                        </head>
+                        <ab>
+                            <quote>Primus liber autorem habuit <name type="author">Willelmum abbatem Sancti
+                                    Theodori</name>; huic vero immediate adjungitur, <q>Subscriptio operis precedentis
+                                    quam auctore defuncto <name type="author">Burchardus abbas Balnensis</name>
+                                    apposuit</q> quae tota est in laudem predicti <name type="author">Willelmi</name>;
+                                liber secundus debetur <name type="author">Arnaldo abbati Bonaevallis</name>; tres
+                                ultimos libros edidit <name type="author">Gaufridus abbas Claraevallensis</name></quote>
+                        </ab>
+                        <ab>
+                            <quote>Primo folio hujus vitae inscribitur, <q>Liber de claustro <name type="place"
+                                        >Roffensi</name> per <name type="person">Paulum priorem</name>.</q></quote>
+                        </ab>
+                        <rubric locusNew="49r">Incipit prologus <name type="author">Domini Willelmi Abbatis Sancti
+                                Theodori</name> in uitam <name type="person">Sancti Bernardi</name> Abbati</rubric>
+                        <ab>(<ref type="bibl" target="Bollandists 1898-99">BHL. 1211-16</ref>: printed by Surius etc.
+                                <ref type="bibl" target="Migne 185">P. L. CLXXXV 225</ref>)</ab>
+                        <incipit locus="49r">Scripturus uitam serui tui</incipit>
+                        <explicit locusNew="49v">propositum aggrediamur</explicit>
+                        <rubric locusNew="49v">Explicit prologus</rubric>
+                        <rubric locus="49v">Incipit uita <name type="person">Sancti Bernardi</name> xiii<abbr
+                                rend="superscript">o</abbr> kal. Septembris</rubric>
+                        <incipit locusNew="49v"><name type="person">Bernardus</name>
+                            <name type="place">burgundie</name> partibus</incipit>
+                        <ab>The subscriptio of <name type="author">Burcardus</name> ends</ab>
+                        <explicit locusNew="65v">sed morte preoccupato</explicit>
+                        <rubric locus="65v">Incipit prologus <name type="author">Arnaldi Abbatis Boneuallis</name> in
+                            librum sequentem de eadem uita</rubric>
+                        <incipit locusNew="65v">Uirorum illustrium gesta</incipit>
+                        <explicit locusNew="66r">excusabit affectus</explicit>
+                        <rubric locusNew="66r">Explicit prologus</rubric>
+                        <rubric locusNew="66r">Incipit liber secundus</rubric>
+                        <incipit locusNew="66r">Ea tempestate honorius</incipit>
+                        <explicit locusNew="78r">pacis desiderata serenitas</explicit>
+                        <rubric locus="78r">Incipit prologus in tres ultimos libros quos edidit <name type="author"
+                                >Gaufridus Clareuallensis Abbas</name> quartus de uita <name type="person">Sancti
+                                Bernardi</name> Abbatis</rubric>
+                        <incipit locusNew="78r">Clarissimi fratres</incipit>
+                        <explicit locusNew="78v">rationis obsequitur</explicit>
+                        <rubric locusNew="78v">Innumeris quidem signis</rubric>
+                        <ab locus="85v">Liber IV</ab>
+                        <ab locus="95v">Liber V</ab>
+                        <explicit locusNew="100v">tu super omnia deus benedictus in secula. Amen</explicit>
+                        <rubric locusNew="100v">Explicit uita D. <name type="person">Bernardi Abbatis</name></rubric>
+                        <ab>This copy was examined in <date>1885</date> for <name type="person">Dr G. Hüffer</name> of
+                                <name type="place">Münster</name></ab>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="100v" locusEnd="118v">
+                        <head type="CCC"><name type="author">Bernard of Clairvaux OCist</name>, <title>Vita <name
+                                    type="person">Sancti Malachiae</name></title></head>
+                        <head type="Nasmith">
+                            <title>Vita <name type="person">Sancti Malachiae</name> archiepiscopi Hibernensis scripta
+                                per <name type="author">Sanctum Bernardum [Claraevallensem]</name></title>
+                        </head>
+
+                        <ab locus="100v">Prologue</ab>
+                        <incipit locusNew="100v">Semper quidem</incipit>
+                        <explicit locusNew="101r">comperta sunt uobis</explicit>
+                        <incipit locus="101r"><name type="person">Malachias</name> noster ortus</incipit>
+                        <ab>(<ref type="bibl" target="Migne 182">P. L. CLXXXll 1073</ref>, etc.)</ab>
+                        <explicit locusNew="118v">habuimus hospitem habeamus ducem tecum et cum ipso pariter regnaturi
+                            in secula seculorum. Amen</explicit>
+                        <rubric locusNew="118v">Explicit</rubric>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="118v" locusEnd="119v">
+                        <head type="CCC">
+                            <title>Anecdote related by <name type="person">Domnall, archbishop of Cashell</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Historia miraculi de quodam educto de corpore ex relatione <name type="person">Donati
+                                    Cassiliensis archiepiscopi</name></title>
+                        </head>
+
+                        <incipit locus="118v">Retulit mihi dominus <name type="person">donatus
+                            cassiliensis</name></incipit>
+                        <explicit locusNew="119v"><name type="place">britanniam</name> deduci fecit ad portum</explicit>
+
+                    </msItem>
+
+                    <msItem n="5" locusStart="119v" locusEnd="125v">
+                        <head type="CCC"><name type="author">Bernard of Clairvaux OCist</name>, <title>Apologia ad
+                                Guillelum Sancti Theodorici abbatem</title></head>
+                        <head type="Nasmith">
+                            <title>Liber apologeticus <name type="author">beati Bernardi [Claraevallensis]</name> de
+                                vita et moribus religiosorum ad <name type="person">Willelmum abbatem</name></title>
+                        </head>
+
+                        <incipit locus="119v">Uenerabili patri <name type="person">Willelmo</name> frater
+                            fratrum</incipit>
+                        <explicit locusNew="125v">precor et supplico. Valete</explicit>
+
+                    </msItem>
+
+
+                    <msItem n="6" locusStart="125v" locusEnd="132v">
+                        <head type="CCC"><name type="author">Bernard of Clairvaux OCist</name>,
+                            <title>Epistolae</title></head>
+                        <head type="Nasmith">
+                            <title>Beati <name type="author">Bernardi [Claraevallensis]</name> epistolae iv, quarum
+                                    1<abbr rend="superscript">ma</abbr> ad cardinales contra haereses <name
+                                    type="person">Petri Abelardi</name>; 2<abbr rend="superscript">da</abbr> ad
+                                magistrum <name type="person">Hugonem de Sancto Victore</name> de eadem re; 3<abbr
+                                    rend="superscript">tia</abbr> ad <name type="person">Henricum regem Angliae</name>;
+                                    4<abbr rend="superscript">te</abbr> ad <name type="person">Willelmum
+                                abbatem</name></title>
+                        </head>
+
+                        <ab>
+                            <hi rend="bold">a.</hi>
+                        </ab>
+                        <rubric locusNew="125v">Ad Cardinales</rubric>
+                        <incipit locus="126r">Dominis et patribus</incipit>
+                        <ab>
+                            <hi rend="italic">Epistola 188</hi>
+                        </ab>
+                        <ab>
+                            <hi rend="bold">b.</hi>
+                        </ab>
+                        <rubric locus="126r">Ad <name type="person">Hugonem</name></rubric>
+                        <incipit locus="126r">Si tibi uideor</incipit>
+                        <ab>
+                            <supplied>
+                                <hi rend="italic">Epistola 77</hi>
+                            </supplied>
+                        </ab>
+                        <ab>
+                            <hi rend="bold">c.</hi>
+                        </ab>
+                        <incipit locus="130v"><name type="person">Henrico</name> illustri ... In terra uestra</incipit>
+                        <ab>
+                            <supplied>
+                                <hi rend="italic">Epistola 92</hi>
+                            </supplied>
+                        </ab>
+                        <ab><hi rend="bold">d</hi>.</ab>
+                        <incipit locus="131r">Domino <name type="person">abbati Willelmo</name>
+                            <name type="author">frater Bernardus</name>...Si nemo scit</incipit>
+                        <ab>
+                            <supplied>
+                                <hi rend="italic">Epistola 85</hi>
+                            </supplied>
+                        </ab>
+                        <ab>f. <locus>132r</locus>-<locus>132v</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="7" locusStart="133r" locusEnd="144v">
+                        <head type="CCC"><name type="author">Bernard of Clairvaux OCist</name>, <title>De praecepto et
+                                dispensatione</title></head>
+                        <head type="Nasmith">
+                            <title><name type="author">Bernardus abbas</name> de dispensatione et precepto</title>
+                        </head>
+
+                        <ab>
+                            <handNote>Here begins a hand of the type of the <name type="place">Christ Church
+                                    Canterbury</name> hand</handNote>
+                        </ab>
+
+                        <rubric locus="133r">Prologus</rubric>
+                        <incipit locus="133r">Domno Abbato columbensi</incipit>
+                        <explicit locus="133r">congruentius uideatur</explicit>
+                        <rubric locus="133r">Explicit prologus</rubric>
+                        <rubric locusNew="133r">Incipit liber ad duos monachos carnotenses</rubric>
+                        <incipit locusNew="133r">Qua mente iam tacebo</incipit>
+                        <ab>(<ref type="bibl" target="Migne 182"><supplied>P. L.</supplied> CLXXXII 861</ref>)</ab>
+                        <explicit locusNew="144v">satisfacere studui</explicit>
+                        <rubric locusNew="144v">Explicit liber de dispensatione et precepto</rubric>
+
+                    </msItem>
+
+                    <msItem n="8" locusStart="144v" locusEnd="156v">
+                        <head type="CCC"><name type="author">Bernard of Clairvaux OCist</name>, <title>De XII gradibus
+                                humilitatis</title></head>
+                        <head type="Nasmith">
+                            <title>Idem de gradibus humilitatis et superbiae</title>
+                        </head>
+
+                        <ab locus="144v">
+                            <decoNote>Diagram of the <hi rend="italic">Gradus humilitatis et superbie</hi> in
+                                ladder-form</decoNote>
+                        </ab>
+
+                        <incipit locus="145r">In hoc opusculo cum illud</incipit>
+                        <explicit locusNew="145r">intimare curavi</explicit>
+                        <rubric locusNew="145r">Incipit liber domini <name type="author">Bernardi abbatis</name> de
+                            Gradibus humilitatis</rubric>
+                        <incipit locusNew="145r">Rogasti me <name type="person">frater G.</name></incipit>
+                        <ab>(<ref type="bibl" target="Migne 182"><supplied>P. L.</supplied> CLXXXII 941</ref>)</ab>
+                        <explicit locusNew="156v">in nostro codice leges</explicit>
+
+                    </msItem>
+
+
+                    <msItem n="9" locusStart="157r" locusEnd="166r">
+                        <head type="CCC"><name type="author">Bernard of Clairvaux OCist</name>, <title>De diligendo
+                                Deo</title></head>
+                        <head type="Nasmith">
+                            <title>Liber ejusdem de diligendo Deo</title>
+                        </head>
+
+                        <ab>
+                            <handNote>Change of hand</handNote>
+                        </ab>
+                        <rubric locus="157r">Incipit liber eiusdem de diligendo deo</rubric>
+                        <ab>(<ref type="bibl" target="Migne 182">
+                                <supplied>P. L. CLXXXII</supplied> 973</ref>)</ab>
+
+
+                        <incipit locusNew="157r">Uiro illustri <name type="person">domino A.</name></incipit>
+                        <explicit locusNew="166r">miserationis affectus</explicit>
+                        <rubric locusNew="166r">Explicit liber de diligendo deo</rubric>
+
+                    </msItem>
+
+                    <msItem n="10" locusStart="166r" locusEnd="193v">
+                        <head type="CCC"><name type="author">Bernard of Clairvaux OCist</name>, <title>De
+                                consideratione</title></head>
+                        <head type="Nasmith">
+                            <title>Idem de consideratione ad <name type="person">papam Eugenium</name>, libri v</title>
+                        </head>
+
+                        <rubric locus="166r">Incipit liber Domini <name type="author">Bernardi Abbatis</name> De
+                            consideratione ad <name type="person">papam eugenium</name></rubric>
+                        <incipit locusNew="166v">Subit animum dictare</incipit>
+                        <ab>(<ref type="bibl" target="Migne 182"><supplied>P. L.</supplied> CLXXXII 727</ref>)</ab>
+                        <ab locus="193v">Liber v ends</ab>
+                        <explicit locus="193v">non finis querendi</explicit>
+                        <rubric locus="193v">Explicit liber quintus</rubric>
+
+                    </msItem>
+
+                    <msItem n="11" locusStart="193v" locusEnd="196v">
+                        <head type="CCC"><name type="author">Serlo of Wilton</name>, <title>Commentary on the Lord's
+                                Prayer</title></head>
+                        <head type="Nasmith">
+                            <title>Expositio <name type="author">Serlonis</name> in orationem dominicam</title>
+                        </head>
+
+                        <rubric locus="193v">Seruis Christi conseruus eorum <name type="author">Serlo</name> orationem
+                            dominicam</rubric>
+                        <incipit locusNew="193v">Protector noster aspice</incipit>
+                        <explicit locusNew="196r">dulcedo cordium Iesus. qui est benedictus in secula. Amen</explicit>
+                        <rubric locus="196r">Explicit</rubric>
+                        <ab locus="196r">(<handNote>in a different hand</handNote>)</ab>
+                        <ab><locus>196v</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="12" locusStart="197r" locusEnd="208v">
+                        <head type="CCC"><name type="author">John of Cornwall</name>, <title>Eulogium ad <name
+                                    type="person">Alexandrum III</name></title></head>
+                        <head type="Nasmith">
+                            <title>Eulogium <name type="author">Iohannis Cornubiensis</name> ad <name type="person"
+                                    >Alexandrum papam iii</name></title>
+                        </head>
+                        <ab>In a <handNote>rather small hand</handNote>: no title</ab>
+                        <incipit locus="197r">Cum in prima eulogii editione</incipit>
+                        <explicit locusNew="197r">libenter accipiat</explicit>
+                        <rubric locusNew="197r">Eulogium <name type="author">Johannis Cornubiensis</name> ad <name
+                                type="person">Alexandrum papam III</name></rubric>
+                        <incipit locusNew="197r">In concilio <name type="place">turonensi</name></incipit>
+                        <ab>(<ref type="bibl" target="Migne 199"><supplied>P. L.</supplied> CXCIX 1043</ref>)</ab>
+                        <explicit locus="207r">saluus esse non poterit. Finis</explicit>
+
+                        <ab locus="207v">Notes</ab>
+                        <ab>A supplied passage: (a papal letter, belonging to f. <locus>197r</locus>)</ab>
+                        <incipit locusNew="197v">Post salutationem etenim uestro nomine radiantem</incipit>
+                        <explicit locusNew="197v">ipsam penitus <supplied>detestentur</supplied></explicit>
+                        <ab locusNew="197v">Note on <hi rend="italic">Spiritus sanctus repleuit orbem</hi></ab>
+                        <ab>Analysis of the Lord's Prayer and Beatitudes</ab>
+                        <ab>f. <locus>208r</locus>-<locus>208v</locus> blank but for a note on the recto beginning</ab>
+                        <incipit locus="208r">Multi ob sanguinis dignitatem ad ecclesiasticas promouentur
+                            dignitates</incipit>
+
+                    </msItem>
+
+                    <milestone n="III" unit="volume"/>
+
+                    <msItem n="13" locusStart="209r" locusEnd="275r">
+                        <head type="CCC"><name type="author">Bede the Venerable</name>, <title>Commentary on the
+                                Catholic Epistles</title></head>
+
+                        <head type="Nasmith">
+                            <title>Expositio <name type="author">venerabilis Bedae</name> presbiteri in vii epistolas
+                                canonicas</title>
+                        </head>
+
+                        <rubric locusNew="209r">Incipit prologus <name type="author">Venerabilis Bede</name> presbiteri
+                            super vii canonicas epistolas</rubric>
+
+                        <ab>(<ref type="bibl" target="Migne 093">P. L. XCIII 9</ref>)</ab>
+                        <incipit locusNew="209r">
+                            <name type="person">Jacobus</name>
+                            <name type="person">Petrus</name>
+                            <name type="person">Iohannes</name>
+                        </incipit>
+
+                        <explicit locusNew="209r">ipse cognominauit</explicit>
+                        <rubric locusNew="209r">Explicit prologus</rubric>
+                        <rubric locusNew="209r">Incipit expositio <name type="author">Venerabilis Bede</name> presbiteri
+                            super Epistolam <name type="person">lacobi apostoli</name></rubric>
+                        <incipit locusNew="209v"><name type="person">Jacobus</name> dei et domini nostri Iesu Christi
+                            seruus</incipit>
+                        <ab>There are a good many marginalia of cent. <origDate>xvi</origDate></ab>
+                        <ab>Ends</ab>
+                        <explicit locusNew="275r">et nunc et in omnia secula seculorum. Amen</explicit>
+                        <rubric locusNew="275r">Explicit expositio <name type="author">Venerabilis Bede</name>
+                            presbiteri</rubric>
+                        <rubric locusNew="275r">Incipit Epistola <name type="person">Sancti Iude
+                            apostoli</name></rubric>
+                    </msItem>
+
+                    <msItem n="14" locusStart="213r" locusEnd="213v">
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Walter Phillips, dean of Rochester</name>,
+                                    <date>1560</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Gualteri Philippi</name> decani Roffensis ad universam
+                                pubem ludi literarii <name type="place">Roffensis</name></title>
+                        </head>
+
+                        <ab>
+                            <quote>in chartis</quote>
+                        </ab>
+
+                        <ab>On a leaf of paper stuck in after f. <locus>212v</locus>, written in cent.
+                                <origDate>xvi</origDate></ab>
+                        <rubric locusNew="213r">Uniuerse pubi <name type="place">Roffensis</name> ludi literarii <name
+                                type="author">Gualterus Philippus</name> p. D. S.</rubric>
+                        <incipit locusNew="213r">Quoniam in huius noui anni auspicio</incipit>
+                        <ab>Thanking them for a letter and wishing them good progress</ab>
+                        <ab locusNew="213r">
+                            <q>Denique hoc unum restat a vobis exorandum, et spero confore, videlicet ut vos qui nullas
+                                adhuc ad me dedistis literas sicuti iussum erat a preceptore, velitis saltem ad
+                                petitionem meam sibi dare libenter treis plagas, et sic dando (ni fallar) aliquid
+                                accipietis, ut hunc nouum annum felicius auspicaremini</q>
+                        </ab>
+                        <ab>Dated <name type="place">Rochester</name>
+                            <date>13 January 1560</date>. 3 Elizabeth</ab>
+
+                    </msItem>
+
+                </msContents>
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text:copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: RJR 2/9/08</p>
+                            <p>remarks: Issue with multivolume here - provenance needs to remain sep. tag - SP 3/9/08.
+                                Issue resolved - 14/4/09</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

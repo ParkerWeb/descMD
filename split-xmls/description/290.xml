@@ -1,0 +1,183 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+
+                <msIdentifier xml:id="CCC290">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>290</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>A. 9</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>9</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Ado of Vienne, Chronica</head>
+
+                <head type="James">Chronica Odonis (Adonis)</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">257</height>
+                        <width unit="mm">175</width>
+                    </measureGrp><measureGrp type="James">10 x 7</measureGrp>, <extent>ff. 2 + 118 + 2</extent>,
+                        <layout>25 lines to a page</layout>. Cent. <origDate>xi-xii</origDate>, <handNote>very well
+                        written</handNote>.</p>
+
+
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num> I<num>8</num>-XV<num>8</num> (wants 7, 8), 2 flyleaves</collation>.</p>
+
+
+                <p><label>2 fo.:</label>
+                    <secFol>dccc. vii. Porro</secFol>.</p>
+
+                <p function="Provenance">On f. <locus>iir</locus> an erasure not recoverable. On f. <locus>iiv</locus>
+                    erased: <q>Cronica Odonis Abbatis</q>. At top of f. <locus>1r</locus> an obliterated line in red
+                    which I am almost sure was: <q>Liber S. Albani ... titulum deleuerit anathema sit amen</q>.<lb/>
+                    <handNote>The main hand is very like that of <name type="place">Christ Church,
+                        Canterbury</name></handNote>.</p>
+
+
+                <p function="Additions" rend="afterContents">The flyleaves at end are part of a deed of cent.
+                        <date>xvi</date>, with notarial mark.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-ii + pp. 1-164 + 164a-b + 165-234 + ff. iii-iv + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1" locusEnd="234">
+
+                        <head type="CCC"><name type="author">Ado of Vienne</name>, <title>Chronica</title></head>
+
+
+                        <head type="James">
+                            <title>Chronica <name type="author">Odonis</name> (<name type="author"
+                                >Adonis</name>)</title>
+                        </head>
+
+
+                        <ab>On f. <locus>iv</locus> note on the author <q>Ex Joh. parisiensi a. d.
+                            <date>900</date></q></ab>
+                        <ab>
+                            <decoNote>Fine initial on f. <locus>1r</locus> in pale colours and pen and ink
+                                ornament</decoNote>
+                        </ab>
+                        <rubric locus="1">Incipit cronica <name type="author">odonis abbatis</name> (l. Adonis)</rubric>
+                        <incipit locusNew="1">Breues temporum annotationes per generationes et regna. Primus ex nostris
+                                <name type="person">Iulius Affricanus</name></incipit>
+                        <ab>(<ref type="bibl" target="Migne 123"><supplied>P. L.</supplied> CXXIII</ref> 23)</ab>
+                        <explicit locusNew="221">dehonestatus iniuria moritur</explicit>
+                        <incipit locus="221">Ab orbe condito usque ad urbem conditam Anni iiii<abbr rend="superscript"
+                                >or</abbr> milia cccc octuaginta iiii<abbr rend="superscript">or</abbr></incipit>
+
+                        <explicit locusNew="224">Anno <date>dccxxiii</date>
+                            <name type="person">Leoni</name> successit <name type="person"
+                            >Constantinus</name></explicit>
+                        <incipit locus="225">Anno dominicae incarnationis <date>dccc lxx vi</date>
+                            <name type="person">Rollo</name> cum normannis gallis appulit</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="225">Anno <abbr>i</abbr> (blank) Obiit <name type="person">Willelmus rex
+                                Anglorum</name></explicit>
+                        <ab>(this in another hand)</ab>
+
+
+                        <rubric locus="225">Incipit genealogia Regum Francorum</rubric>
+
+                        <incipit locusNew="225">Ex genealogia <name type="person">Priami</name> fuit <name type="person"
+                                >Meroueus</name> pater <name type="person">Childerici</name></incipit>
+                        <explicit locusNew="232"><name type="person">karlomannum</name> pariter sue benedictionis oleo
+                            perunxit</explicit>
+                        <rubric locus="232">Item genealogia Regum</rubric>
+                        <incipit locusNew="232">Ex genealogia <name type="person">Priami</name> fuit <name type="person"
+                                >meroueus</name> qui genuit <name type="person">Childericum</name></incipit>
+                        <explicit locusNew="233"><name type="person">ludouicus</name> qui fuit huius prosapie regalis
+                            rex ultimus</explicit>
+
+                        <ab>
+                            <handNote>Another hand</handNote>
+                        </ab>
+                        <incipit locus="233"><name type="person">Karolus</name> princeps <name type="person"
+                                >Pipini</name> regis filius</incipit>
+                        <ab>(<decoNote>Condemnation of <name type="person">Charles</name>: dragon comes out of his
+                                tomb</decoNote>)</ab>
+                        <explicit locus="234">nobis uiua uoce sunt testati que uiderunt et audierunt</explicit>
+
+
+
+
+                    </msItem>
+
+
+
+
+
+                </msContents>
+
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text:copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, but not by a second person</p>
+                            <p>msCheck: NJC 31.05.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

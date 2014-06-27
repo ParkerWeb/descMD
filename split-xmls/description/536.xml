@@ -1,0 +1,130 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC536">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>536</idno>
+                    <altIdentifier type="Elbing">
+                        <idno>N. 38</idno>
+                    </altIdentifier>
+
+                </msIdentifier>
+                <head type="CCC">Iohannes of Frankenstein OCist (attrib.), Malogranatum</head>
+                <head type="James">[Untitled]</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">208</height>
+                        <width unit="mm">148</width>
+                    </measureGrp>, <measureGrp type="James">8.3 x 4.8</measureGrp>, <extent>ff. 4 + 288</extent>,
+                        <layout>double columns of 32 lines</layout>. Cent. <origDate>xv</origDate>, <handNote>clearly
+                        written</handNote>. </p>
+
+                <p><label>Collation:</label>
+                    <collation>a (four) 1<num>12</num>-10<num>12</num> |
+                    11<num>12</num>-24<num>12</num></collation>.</p>
+
+
+
+                <p function="Provenance"><name type="person">Mary Pernham</name> on f. <locus>ivv</locus>.</p>
+                <p function="Additions">Stamped binding, bosses of bone, complete, three tags (one pierced), straps.</p>
+
+
+
+
+                <p type="CCC">
+                    <foliation>ff. a-d + i-ii + iiia + iv + iva + 1-288 + e-g</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="ir" locusEnd="288v">
+                        <head type="CCC"><name type="author">Iohannes of Frankenstein OCist (attrib.)</name>,
+                                <title>Malogranatum</title></head>
+
+                        <ab locus="ir">Title (smeared)</ab>
+                        <ab locus="iv" locusNew="iir">Registrum libri primi</ab>
+                        <ab>Note</ab>
+                        <incipit locus="ivv">Notandum quod opus subsequens seu liber seu tractatus intitulatur
+                            Malogranatum, etc.</incipit>
+                        <explicit locusNew="ivv">virtuosam ac eciam perfectam p<supplied agent="JamesCorrigenda"
+                                >o</supplied>terunt peruenire</explicit>
+                        <ab>
+                            <supplied>Liber I</supplied>
+                        </ab>
+                        <rubric locus="1r">Liber primus Malogranati</rubric>
+                        <incipit locusNew="1r">Fili accedens ad seruitutem dei</incipit>
+                        <ab><locus locusNew="111v">110v</locus>-<locus>120v</locus> blank</ab>
+                        <ab locusNew="121r">Liber II</ab>
+                        <incipit locus="121r">Accepta igitur informacione</incipit>
+                        <explicit locus="286v">esse expositum et explanatum. Amen</explicit>
+                        <rubric locusNew="286v">Sit laus alme trinitati. tetragramaton</rubric>
+                        <rubric locusNew="286v">O pie deus fac hec (?) recondere in pectore nostro</rubric>
+                        <ab locusNew="286v">Supply of an omission col. 2</ab>
+                        <ab locus="287r">blank</ab>
+                        <ab locus="287v">Registrum of libb. I, II</ab>
+                        <ab locus="288v">A second copy of the note on f. <locus>ivv</locus></ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: CF 14.1.2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

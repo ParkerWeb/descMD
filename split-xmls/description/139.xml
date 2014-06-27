@@ -1,0 +1,943 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC139">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>139</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>F. 5</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>64</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Simeon of Durham OSB, Historia regum. Richard of Hexham OSA, De gestis regis Stephani
+                    et de bello standardii. John of Hexham OSA, Nennius</head>
+
+                <head type="James">Simeon Dunelmensis. Ricardus et Johannes de Hexham. Nennius</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">302</height>
+                        <width unit="mm">217</width>
+                    </measureGrp><measureGrp type="James">12 x 8.4</measureGrp>, <extent>ff. 182 + 2</extent>,
+                        <layout>double columns of 36 and 35 lines</layout>. Cent. <origDate>xii</origDate>, in several
+                    hands. Mommsen assigns the Nennius-portion to cent. <origDate>xiii</origDate>, but to me it seems
+                    that all is of cent. <origDate>xii late</origDate>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num> I<num>10</num> (10 canc.) II<num>8</num> (2 canc.) III<num>8</num>
+                            IV<num>8</num> V<num>10</num> (4, 5, cut out and replaced by a sheet of two leaves: (8
+                        canc.) VI<num>10</num> VII<num>8</num> (+ 1 leaf of cent. xvi inserted before 8)
+                            VIII<num>8</num>-XVI<num>8</num> (+1) XVII<num>8</num> XVIII<num>8</num> XIX<num>14</num>
+                        (1, 2 canc.) XX<num>8</num> (wants 5-8) | XXI<num>10</num> (10 canc.) XXII<num>8</num> (wants 6,
+                        7)</collation>.</p>
+
+
+                <p function="Additions">f. <locus>ir</locus> covered with <material>paper</material>: <decoNote>on f.
+                            <locus>iv</locus>a <date>xv</date>th cent. sketch of the Virgin crowned and the
+                        Child</decoNote>.<lb/> f. <locus>iir</locus>
+                    <date>xv</date>th cent. list of contents: In hoc libro continentur hec (15 items).<lb/> f.
+                        <locus>iir</locus> 3 verses (<date>xv</date>) scribbled.<lb/> Three extracts in a black hand of
+                    cent. <date>xii</date>:<lb/> (a) <name type="person">Gennadius</name> massiliensis in libro de
+                    illustribus uiris<lb/>
+                    <name type="person">Jeronimus</name> natus patre <name type="person">eusebio</name>... <name
+                        type="person">Eusebius</name> quoque <name type="place">cesaree</name> palestine ep... Dexter
+                    uero pagatiani filius...<lb/> (to the effect that all three wrote historia omnimoda)<lb/> Hec in
+                    libris illustr. uirorum de omnimoda hysteria scripta sunt.<lb/> (b) Titulus <name type="person"
+                        >origenis</name> super tumulum eius ab ipso compositus<lb/> Ille ego origenes doctor uerissimus
+                    olim<lb/> ...<lb/> His mihi coniectum undique tela premunt.<lb/> (From the verses composed by <name
+                        type="author">Isidore of Seville</name> for his library.)<lb/> (c) <name type="person"
+                        >Pompeius</name> trogus ciuis romanus fuit. cuius pater sub <name type="person">gaio
+                        cesare</name> militauit ... cuius libris omnium seculorum regum nationum populorumque res geste
+                    continentur.<lb/> Col. 2 has been written and carefully erased.</p>
+
+
+                <p function="Provenance" rend="afterContents">Most editors assign the book to <name type="place"
+                        >Hexham</name>, <name type="person">Mommsen</name> to <name type="place">Salley</name> on
+                    account of its relation to <ref type="ms" target="CUL127">University Library Ff. 1. 27</ref>, part
+                    of which is from <name type="place">Salley</name> (see <ref type="ms" target="CCC066">MS 66</ref>).
+                    I consider <name type="place">Hexham</name> the more likely.<lb/> It is clear from many (eleven)
+                    references in Bale's <ref type="bibl" target="Bale 1902">Index Scriptorum (s.v. <name type="person"
+                            >Nennius</name>, <name type="person">Ailred</name>, <name type="person">Ric.
+                            Hagustaldensis</name>, Chronicon p. 488, etc.)</ref> that in his time a book very similar to
+                    this in contents was at <name type="place">Westminster Abbey</name>. This fact is recognized by the
+                    editors of the <ref type="bibl" target="Bale 1902">Index</ref>. When <name type="person"
+                        >Joscelin</name> wrote his Catalogue of British historians, it seems to have been in the hands
+                    of a prebendary of <name type="place">Westminster</name> named <name type="person">Pekyns</name>.
+                    But from the same catalogue we learn that Dr <name type="person">Nicholas Wotton</name>, Dean of
+                    Canterbury, gave <name type="person">Parker</name> a volume containing much of the same matter as
+                    this. The items specified by <name type="person">Joscelin</name> are <name type="person">Simeon of
+                        Durham</name>, <name type="person">John</name> and <name type="person">Richard of Hexham</name>,
+                    and articles 11, 12, 14 in this MS. It seems most likely therefore that the <name type="place"
+                        >Westminster</name> volume was a sister book to this, and has perished, and that <ref type="ms"
+                        target="CCC139">MS 139</ref> is the book given by Dean <name type="person">Wotton</name> to
+                        <name type="person">Parker</name>.<lb/>
+                    <name type="person">Wotton</name> was Dean of <name type="place">York</name> as well as of <name
+                        type="place">Canterbury</name> and so may have procured the volume from his northern home.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-d + i-ii + 1-180 + iii-vi</foliation>.</p>
+
+
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="16v">
+
+
+                        <head type="Nasmith">
+                            <title>Historia omnimoda ab orbe condito ad regnum <name type="person">Davidis</name>, cui
+                                subnectuntur nomina pontificum Romanorum a <name type="person">Sancto Petro</name> ad
+                                    <name type="person">Calixtum II</name></title>
+                        </head>
+
+
+
+
+                        <rubric locus="1r">Incipit historia omnimoda</rubric>
+                        <incipit locusNew="1r">Mundum sine inicio dicimus in tempore</incipit>
+                        <ab>Sections follow, de deo et anima, de dissensione annorum, Diuerse opiniones philosophorum et
+                            nostrorum</ab>
+                        <ab>Quotations from <name type="author">Ambrose</name>, <name type="author">Augustine</name>,
+                                <name type="author">Origen</name>, <name type="author">Epiphanius</name></ab>
+                        <incipit locusNew="2r">de salute <name type="person">adam</name></incipit>
+                        <explicit locusNew="2r">qui interrogat ueniam clare desiderat</explicit>
+                        <rubric locus="3r" locusNew="2r">Cronica omnimode hystorie</rubric>
+                        <incipit locusNew="2r">Prima etas mundi fuit ab <name type="person">adam</name> usque ad <name
+                                type="person">noe</name></incipit>
+                        <ab><name type="author">Arnobius</name> rethor in psalmos is quoted: also <name type="author"
+                                >Rabanus</name> in Genesim, <name type="person">Gregorius Turonensis</name></ab>
+                        <ab>Goes down to <name type="person">David</name>. The last paragraphs are</ab>
+                        <ab>De bello codri etc.</ab>
+                        <ab><name type="person">Bersellai</name> galaadites fidelis <name type="person">dauid</name>
+                            <name type="person">achitefel</name> proditorius</ab>
+                        <ab>Nota quod lucas euuang. generationem domini a <name type="person">salathiel</name> usque ad
+                                <name type="person">dauid</name> per xxx uiros ascendendo conuenerat. Similiter ab
+                            ultimo <name type="person">Joseph</name> us(que) ad <name type="person"
+                            >salathiel</name></ab>
+                        <rubric locus="15v">Exortatio scriptoris</rubric>
+                        <ab>(<handNote>in another hand</handNote>)</ab>
+                        <incipit locusNew="15v">Per descriptum uolubile tempus sic uoluitur uolubilis mundus</incipit>
+                        <explicit locusNew="15v">per lumen scientie ad gloriam et honorem perducaet</explicit>
+                        <rubric locusNew="15v">Hec sententia debet scribi post nomina pontificum</rubric>
+                        <ab locus="16r">List of Popes to <name type="person">Calixtus II</name>
+                                (<date>1119</date>-<date>1124</date>)</ab>
+                        <rubric locusNew="16v">Explicit omnimoda historia</rubric>
+                        <ab>Another copy (with different ending) in MS. <ref type="ms" target="OMC008">Magdalen College
+                                Oxford 8</ref></ab>
+
+
+
+
+
+                    </msItem>
+
+
+
+                    <msItem n="2" locusStart="17r" locusEnd="35v">
+
+                        <head type="CCC">
+                            <name type="author">Regino of Pr&#252;m</name>, <title>Chronicon</title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>Cronica <name type="author">abbatis Prumiensis monasterii</name> a Christo nato ad
+                                annum <date>1002</date></title>
+                        </head>
+
+
+
+
+
+                        <rubric locus="17r">Incipit cronica <name type="author">abbatis prumiensis monasterii</name> ubi
+                                <name type="person">lotharius</name> imperator ad conuersionem uenit</rubric>
+                        <incipit locusNew="17r">Anno imperii <name type="person">Octouiani</name> cesaris xl. ii. iesus
+                            Christus filius dei natus est</incipit>
+                        <ab>
+                            <handNote>Here begins a hand which has written the bulk of the volume</handNote>
+                        </ab>
+                        <ab locus="29r">Liber II</ab>
+                        <explicit locusNew="35v">ex quo uulnere eadem nocte extinguitur</explicit>
+                        <rubric locusNew="35v">Explicit cronica <name type="author">abatis prumiensis
+                            ecclesiae</name></rubric>
+                        <ab><name type="author">Regino of Prum</name>. <ref type="bibl" target="Pertz 1829">MGH.
+                                Scriptores I 537</ref>. This MS. was not seen by the editors. It ends in
+                                <date>1002</date> (<ref type="bibl" target="Pertz 1829">p. 609 MGH</ref>)</ab>
+
+
+                    </msItem>
+
+
+
+                    <msItem n="3" locusStart="36r" locusEnd="46r">
+
+                        <head type="CCC">
+                            <name type="author">Richard of Hexham OSA</name>, <title>De gestis regis <name type="person"
+                                    >Stephani</name> et de bello standardii</title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>Historia piae memoriae <name type="person">Ricardi prioris Hagustaldensis
+                                    ecclesiae</name> de gestis regis <name type="person">Stephani</name> et de bello
+                                Standardii</title>
+                        </head>
+
+
+
+
+
+                        <ab>Originally began on the same page (f. <locus>35v</locus>) but a little more than half a
+                            column has been erased. The two next leaves were cut out and replaced by a sheet (still
+                            cent. <date>xii</date>) <handNote>in at least three hands</handNote></ab>
+                        <rubric locus="36r">Incipit historia pie memorie prioris <name type="author">Ricardi
+                                Haugustaldensis</name> ecclesiae De gestis regis <name type="person">Stephani</name> et
+                            de bello standardii</rubric>
+                        <incipit locusNew="36r">Anno uerbi incarnati <date>m.c.xxxv</date></incipit>
+                        <ab>Last printed in <ref type="bibl" target="Howlett 1886">Chronicles of Stephen, Henry II,
+                                Richard I (Rolls) by R. Howlett: III p. lvi: 137</ref>. This is the only copy</ab>
+                        <ab>Ends</ab>
+                        <explicit locusNew="46r">defuncti sunt</explicit>
+                        <rubric locusNew="46r">Explicit bellum standardii</rubric>
+
+
+
+
+
+
+                    </msItem>
+
+
+
+
+
+                    <msItem n="4" locusStart="46r" locusEnd="48v">
+
+
+
+                        <head type="Nasmith">
+                            <title>Cronica ab <name type="person">Adamo</name> ad <name type="person">Henricum V.</name>
+                                imperatorem</title>
+                        </head>
+
+
+
+                        <rubric locus="46r">Incipit cronica ab <name type="person">Adam</name> usque ad <name
+                                type="person">henricum</name></rubric>
+                        <incipit><name type="person">Adam</name> c.xxx. annorum genuit <name type="person">seth</name>
+                            cui superuixit dccc<abbr rend="superscript">tis</abbr></incipit>
+                        <explicit locusNew="48v">posteritas uidebit</explicit>
+                        <rubric locusNew="48v">Expliciunt cronica a principio mundi usque ad <name type="person"
+                                >Henricum</name> imperatorem filium <name type="person">Henrici</name> qui anno v<abbr
+                                rend="superscript">to</abbr> regni sui accepit <name type="person">Mathildem</name>
+                            filiam <name type="person">Henricus</name> regis anglie in coniugium. Anno ab incarnatione
+                            domini <date>m. c. et x</date></rubric>
+                        <ab>Contains short notes of English affairs, especially of the northern sees</ab>
+
+
+                    </msItem>
+
+
+
+
+                    <msItem n="5" locusStart="48v" locusEnd="90r">
+
+
+                        <head type="CCC">
+                            <name type="author">Simeon of Durham OSB</name>, <title>Epistola ad <name type="person"
+                                    >Hugonem decanum Eboracensem</name> de archiepiscopis Eboracensium</title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Simeonis</name> monachi ecclesiae S. Cuthberti Dunelmi
+                                ad <name type="person">Hugonem</name> decanum Eboracensem de archiepiscopis
+                                Eboraci</title>
+                        </head>
+
+
+                        <ab locus="48v">Ed. <ref type="bibl" target="Raine 1886">Raine, <hi rend="italic">Historians of
+                                    the Church of York</hi> (Rolls) II xvii 252</ref>, principally from another MS. <ref
+                                type="bibl" target="Twysden 1652">Twysden Scriptores, col. 75</ref>, gives our text</ab>
+
+
+                    </msItem>
+
+
+
+                    <msItem n="6" locusStart="50r" locusEnd="51v">
+
+
+                        <head type="CCC">
+                            <name type="author">Simeon of Durham OSB (attrib.)</name>, <title>De obsessione <name
+                                    type="place">Dunelmi</name> et de probitate <name type="person">Ucthredi</name>
+                                comitis et de comitibus qui ei succeserunt</title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>De obsessione <name type="place">Dunelmi</name> et de probitate <name type="person"
+                                    >Uithredi</name> comitis</title>
+                        </head>
+
+
+                        <ab locus="50r">Arnold: <ref type="bibl" target="Arnold 1882">Symeon of Durham (Rolls) I
+                                315</ref>, <ref type="bibl" target="Twysden 1652">Twysden, col. 79</ref></ab>
+                        <ab>Ends f. <locus>51v</locus></ab>
+
+
+                    </msItem>
+
+
+
+
+                    <msItem n="7" locusStart="52r" locusEnd="129v">
+
+
+                        <head type="CCC">
+                            <name type="author">Simeon of Durham OSB</name>, <title>Historia regum</title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>Historia sanctae et suavis memoriae <name type="person">Symeonis</name> monachi et
+                                precentoris <name type="place">ecclesiae sancti Cuthberti Dunelmi</name> de regibus
+                                Anglorum et Dacorum et creberrimis bellis et rapinis et incendiis eorum post obitum
+                                venerabilis <name type="person">Bedae</name> presbiteri fere usque ad obitum <name
+                                    type="person">Henrici</name> filii <name type="person">Willelmi</name> nothi</title>
+                        </head>
+
+                        <ab>The title (Incipit historia sancte et suauis etc.) is written on f. <locus>51v</locus> at
+                            the bottom of col. 2. But f. <locus>52r</locus> sqq. are <handNote>in a different
+                                hand</handNote>, with rubric in large letters at top</ab>
+                        <rubric locus="52r">Incipit passio sanctorum <name type="person">Ethelberti</name> atque <name
+                                type="person">Ethelredi</name> regie stirpis puerorum</rubric>
+                        <ab>After four leaves <handNote>the hand settles down into one like that of no. 1</handNote>
+                            which continues to f. <locus>76r</locus></ab>
+                        <ab>f. <locus>59v</locus>, recto blank, is an insertion of cent. <date>xvi</date> with the
+                            Prologus <name type="person">Rogeri de Houedon</name> in historiam suam (which imitates the
+                            lost prologue of <name type="person">Symeon</name>)</ab>
+                        <ab>At the top of f. <locus>60r</locus> is a <date>xvi</date>th cent. note</ab>
+                        <ab> Historia <name type="person">Simeonis Dunelm</name>. monachi. sed desunt folia nonnulla.
+                            debuerat posuisse immediate post titulum operis ante passionem <name type="person"
+                                >Ethelberti</name> et <name type="person">Ethelredi</name>
+                        </ab>
+                        <ab>This is the only copy of the Historia Regum of <name type="person">Symeon</name>: last
+                            printed by Arnold, <ref type="bibl" target="Arnold 1885">Symeon of Durham II (Rolls: for his
+                                account of the MS. see p. x, etc.)</ref>. Parts of the text occur in a
+                            <date>xii</date>th cent. MS. formerly Ashburnham, Appendix, no. 112 now <ref type="ms"
+                                target="BNF692">Bibl. Nat. Nouv. acq. Lat. 692</ref>. A transcript of the C. C. C. MS.
+                            is in <ref type="ms" target="CCC100">MS 100</ref>. 1</ab>
+                        <ab>There are marginalia <handNote>in various hands</handNote>, notably one very tall one</ab>
+                        <ab>There seems to be <handNote>a change of hand</handNote> at f. <locus>76r</locus> (<ref
+                                type="bibl" target="Arnold 1885">Arnold</ref>, p. 95), Sequitur recapitulatio</ab>
+                        <ab>
+                            <handNote>The hand which follows, on f. <locus>77r</locus>, begins with a <decoNote>large
+                                    red and green initial</decoNote>. It goes on for a long time</handNote>
+                        </ab>
+
+
+                    </msItem>
+
+
+
+                    <msItem n="8" locusStart="129v" locusEnd="132v">
+
+
+                        <head type="CCC">
+                            <name type="author">John of Hexham OSA</name>, <title>Continuation of <name type="person"
+                                    >Simeon of Durham OSB</name>'s Historia regum</title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>Historia <name type="author">Ioannis prioris Hagustaldensis</name> ecclesiae XXV
+                                annorum</title>
+                        </head>
+
+
+                        <ab locus="131v" locusNew="129v">Printed by <ref type="bibl" target="Arnold 1885">Arnold, <hi
+                                    rend="italic">Symeon of Durham</hi> II 284</ref></ab>
+                        <ab>On <locus locusNew="132r">134r</locus> is <decoNote>a rude late (?) sketch of a
+                                comet</decoNote></ab>
+                        <ab>On <locus locusNew="132v">134v</locus> intervene, in the text of <name type="author">John of
+                                Hexham</name>, between pp. 296 and 297 of <ref type="bibl" target="Arnold 1885"
+                                >Arnold</ref>'s ed., nos. 9 <supplied>(Carmen Serlonis)</supplied>, 9<abbr
+                                rend="superscript">a</abbr>
+                            <supplied>(Carmen de morte Sumerledi)</supplied>, 10 <supplied>(Ailred, Relatio de
+                                standardo)</supplied></ab>
+                        <ab>Another copy of 8 is in <ref type="ms" target="BNF692">Bibliothèque Nationale Nouv. acq.
+                                Lat. 692</ref> (see above on 7)</ab>
+
+
+
+
+
+                    </msItem>
+
+
+
+                    <msItem n="9.1" locusStart="132v" locusEnd="133r">
+
+
+                        <head type="CCC">
+                            <name type="author">Serlo of Fountains OCist</name>, <title>Descriptio de bello inter regem
+                                    <name type="place">Scotiae</name> et barones <name type="place"
+                                >Angliae</name></title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>Descriptio Serlonis monachi fratris <name type="person">Radulphi</name> abbatis de
+                                Parcho de bello inter regem <name type="place">Scotiae</name> et barones <name
+                                    type="place">Angliae</name></title>
+                        </head>
+
+                        <ab locus="134v" locusNew="132v">Carmen Serlonis. <ref type="bibl" target="Twysden 1652"
+                                >Twysden</ref>, col. 331. <ref type="bibl" target="Raine 1880">Raine, Lawrence of
+                                Durham</ref>, p. 74</ab>
+
+                    </msItem>
+                    <msItem n="9.2" locusStart="133r" locusEnd="133v">
+
+
+                        <head type="CCC">
+                            <name type="author">William of Glasgow</name>, <title>Carmen de morte Sumerledi</title>
+                        </head>
+
+
+                        <ab locus="135r" locusNew="133r">Carmen de morte Sumerledi. <ref type="bibl"
+                                target="Arnold 1885">Arnold</ref>, l. c. II 385. <ref type="bibl" target="Skene 1871"
+                                >Skene, Fordun I</ref>, Appendix V <ref type="bibl" target="Raine 1880">Raine</ref>, l.
+                            c. p. 78</ab>
+
+
+
+
+                    </msItem>
+
+
+
+
+                    <msItem n="10" locusStart="134r" locusEnd="138r">
+
+
+                        <head type="CCC">
+                            <name type="author">Aelred of Rievaulx OCist</name>, <title>Relatio de standardo</title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>Descriptio venerabilis viri <name type="author">Aetheldredi abbatis Rievallis</name>
+                                de bello inter regem <name type="place">Scotiae</name> et barones <name type="place"
+                                    >Angliae</name> apud <name type="place">Standardum juxta Alvertoniam</name></title>
+                        </head>
+
+                        <ab><name type="author">Aethelred</name> de bello Standardi, <ref type="bibl"
+                                target="Howlett 1885">Chronicles of Stephen etc. II, see p. lviii</ref>. <ref
+                                type="bibl" target="Skene 1871">Skene, Fordun I, Appendix IV 136</ref></ab>
+                        <ab>Begins with a <decoNote>large red and green initial</decoNote>. On ff. <locus
+                                locusNew="134v">136v</locus>, <locus locusNew="135r">137r</locus> are <decoNote>two
+                                marginal drawings of the Standard</decoNote>: the first is late (cent.
+                                <origDate>xvi?</origDate>), the other original. These or similar ones have been often
+                            reproduced</ab>
+                        <ab>On f. <locus locusNew="138r">140r</locus> the text of <supplied>item</supplied> 8 is
+                            resumed. <ref type="bibl" target="Arnold 1885">Arnold p. 297</ref></ab>
+
+                        <rubric locusNew="138r">Explicit descriptio <name type="author">Aethelredi
+                            abbatis</name></rubric>
+                        <rubric locusNew="138r">Incipit descriptio predicti <name type="person">prioris
+                                haugustaldensis</name> ecclesie</rubric>
+                        <ab>Ends f. <locus locusNew="147r">149r</locus></ab>
+
+
+                    </msItem>
+
+
+
+                    <msItem n="11" locusStart="147r" locusEnd="149v">
+
+
+                        <head type="CCC">
+                            <name type="author">Aelred of Rievaulx OCist</name>, <title>Miraculum de quadam sanctimonali
+                                de <name type="place">Watton</name></title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>Quoddam miraculum mirabile descriptum a viro venerabili <name type="person"
+                                    >Aethelredo</name> abbate Rievall. de quadam sanctimoniali femina de <name
+                                    type="place">Wattun</name></title>
+                        </head>
+
+                        <ab>Printed in <ref type="bibl" target="Twysden 1652">Twysden, col. 415</ref>. <ref type="bibl"
+                                target="Migne 195">Migne P. L. CXCV 789</ref></ab>
+                        <ab locus="149r" locusNew="149v">At end a <origDate>xvi</origDate>th cent. note referring to the
+                            Life of St Elizabeth in <ref type="ms" target="CCC138">MS 138</ref>
+                            <supplied>item</supplied> 10</ab>
+
+
+                    </msItem>
+
+
+
+                    <msItem n="12" locusStart="150r" locusEnd="152v">
+
+
+                        <head type="CCC">
+                            <name type="author">Stephen of Whitby OSB</name>, <title>Historia fundationis abbatiae <name
+                                    type="place">Sanctae Mariae Eboracensis</name></title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>Quo modo et a quibus cenobium <name type="place">Sanctae Mariae Eboraci</name>
+                                fundatum sit, et quantas invidorum perturbationes impulsum sustinuerat, sed Dei
+                                protegente gratia magis ac magis auctum et multiplicatum fuerat; autore <name
+                                    type="author">Stephano</name> ejusdem cenobii abbate</title>
+                        </head>
+
+                        <ab>Printed in <ref type="bibl" target="Dugdale et al 1846c">Monasticon III 544</ref></ab>
+                        <ab locus="152r" locusNew="150r">Begins with <decoNote>a green initial</decoNote>. These three
+                            leaves are in <handNote>a fresh hand, upright and regular</handNote></ab>
+
+
+                    </msItem>
+
+
+
+
+                    <msItem n="13" locusStart="152v" locusEnd="152v">
+
+
+                        <head type="Nasmith">
+                            <title>Quo modo Funtanense cenobium sumpsit exordium</title>
+                        </head>
+
+                        <ab locus="154v" locusNew="152v">is but a short paragraph prefatory to <supplied>item</supplied>
+                            14</ab>
+
+
+                    </msItem>
+
+
+
+                    <msItem n="14" locusStart="153r" locusEnd="158r">
+
+
+                        <head type="CCC">
+                            <name type="author">Thurstan archbishop of York</name>, <title>Epistola de egressu
+                                monachorum Fontanensium</title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Thurstini archiepiscopi Eboraci</name> ad <name
+                                    type="person">Wilhelmum archiepiscopum Cantuariae</name> de cenobio <name
+                                    type="place">Sanctae Mariae Eboraci</name> et observantia regulae Sancti Benedicti
+                                in eo</title>
+                        </head>
+
+                        <ab locus="155r" locusNew="153r">See <ref type="bibl" target="Walbran 1863">Memorials of the
+                                Abbey of St Mary of Fountains, ed. Walbran</ref>, Surtees Society 1863</ab>
+                        <ab><handNote>The script is probably the same as that of <supplied>item</supplied> 11</handNote>
+                            etc.</ab>
+
+
+                    </msItem>
+
+
+                    <msItem n="15" locusStart="158r" locusEnd="160r">
+
+
+                        <head type="CCC">
+                            <name type="author">William of Malmesbury OSB</name>, <title>Gesta regum Anglorum
+                                (excerpt)</title></head>
+
+
+                        <head type="Nasmith">
+                            <title>De vita et conversatione <name type="person">Gereberti</name> papae</title>
+                        </head>
+
+                        <ab locus="160r" locusNew="158r">From <ref type="bibl" target="Stubbs 1887">William of
+                                Malmesbury Gesta Regum I 193-201 fallere</ref></ab>
+
+
+                    </msItem>
+
+
+
+
+                    <msItem n="16" locusStart="160r" locusEnd="161v">
+
+
+                        <head type="CCC">
+                            <name type="author">William of Malmesbury OSB</name>, <title>Gesta regum Anglorum
+                                (excerpt)</title></head>
+
+
+                        <head type="Nasmith">
+                            <title>Visio <name type="author">Karoli</name> imperatoris</title>
+                        </head>
+
+                        <ab locus="162r" locusNew="160r">
+                            <ref type="bibl" target="Stubbs 1887">ibid. I 112</ref>
+                        </ab>
+
+
+                    </msItem>
+
+
+                    <msItem n="17" locusStart="161r" locusEnd="161r">
+
+
+                        <head type="CCC">
+                            <name type="author">William of Malmesbury OSB</name>, <title>Gesta regum Anglorum
+                                (excerpt)</title></head>
+
+
+                        <head type="Nasmith">
+                            <title>Visio <name type="author">S. Maurilii</name></title>
+                        </head>
+
+                        <ab locus="161r">
+                            <ref type="bibl" target="Stubbs 1889">ibid. II 327</ref>
+                        </ab>
+
+
+                    </msItem>
+
+
+
+
+                    <msItem n="18" locusStart="161r" locusEnd="161v">
+
+
+                        <head type="CCC">
+                            <name type="author">William of Malmesbury OSB</name>, <title>Gesta regum Anglorum
+                                (excerpt)</title></head>
+
+
+                        <head type="Nasmith">
+                            <title>De annulo statuae commendato</title>
+                        </head>
+
+                        <ab locus="163r" locusNew="161r">
+                            <ref type="bibl" target="Stubbs 1887">ibid. I 256</ref>
+                        </ab>
+
+
+                    </msItem>
+
+
+
+                    <msItem n="19" locusStart="162r" locusEnd="165r">
+
+
+                        <head type="CCC">
+                            <name type="author">Geffrei Gaimar</name>, <title>Estoire des Engleis
+                            (excerpt)</title></head>
+
+
+                        <head type="Nasmith">
+                            <title>Narratio de uxore <name type="person">Ernulfi</name> ab <name type="person"
+                                    >Aella</name> rege Deirorum violata</title>
+                        </head>
+
+                        <ab>Printed in <ref type="bibl" target="Hardy and Martin 1888">Gaimar (Rolls) I 328</ref>; also
+                            in the <ref type="bibl" target="Petrie 1848">Notes to Gaimar, Monumenta I 795</ref> and in
+                                <ref type="bibl" target="Wright 1850b">Wright's Caxton Society edition</ref></ab>
+                        <ab>On a fresh quire and <handNote>in a large regular hand</handNote></ab>
+
+
+                    </msItem>
+
+
+
+                    <msItem n="20" locusStart="165r" locusEnd="165v">
+
+
+
+                        <head type="Nasmith">
+                            <title>De eo quod <name type="place">Eboracensis</name> ecclesia nullum dominium super
+                                Scotos habere debet</title>
+                        </head>
+
+                        <incipit locus="167r" locusNew="165r">De <name type="place">Eboracensi</name> ecclesie primatu
+                            super scottos nulla est auctoritas</incipit>
+                        <explicit locusNew="165v">possessiones ipsa in suum solum optinet</explicit>
+
+
+                    </msItem>
+
+
+
+                    <msItem n="21" locusStart="165v" locusEnd="165v">
+
+
+                        <head type="CCC">
+                            <title>Visio cuiusdam clerici de gloria <name type="person">regis Malcolmi</name></title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>Visio cujusdam clerici de gloria regis <name type="person">Malcolmi</name></title>
+                        </head>
+
+                        <rubric locus="167v" locusNew="165v">Visio <name type="person">Malcolmi</name> cui ad singula
+                            interrogata super statu suo in hunc sensum respondit</rubric>
+                        <incipit locusNew="165v">Cur sic care taces. pro me loquitur me(a) uita</incipit>
+                        <ab>14 lines ending</ab>
+                        <ab locusNew="165v">quidque tuis mandans perpetuo ualeant</ab>
+                        <incipit locusNew="165v">Rex uero <name type="person">Malcolmus</name> summe ingenuitatis
+                            titulus ueluti surculus ex dulcissima abscisus arbore</incipit>
+                        <explicit locusNew="165v">lucidissima in celestes thesauros intulerunt mella</explicit>
+                        <ab><ref type="bibl" target="Skene 1871">Skene, Fordun I, Appendix VI</ref>, from a copy
+                            furnished by Mr <name type="person">Henry Bradshaw</name>: <ref type="bibl"
+                                target="Raine 1880">Raine, l. c. p. 81</ref></ab>
+
+
+                    </msItem>
+
+
+                    <msItem n="22" locusStart="166r" locusEnd="176v">
+
+                        <head type="CCC"><name type="author">Nennius (attrib.)</name>, <title>Historia
+                            Brittonum</title></head>
+
+                        <head type="Nasmith">
+                            <title>Eulogium brevissimum <name type="place">Britanniae</name> insulae quod <name
+                                    type="person">Ninnius</name>
+                                <name type="person">Elvodugi</name> discipulus congregavit</title>
+                        </head>
+
+                        <ab>A new volume, <layout>double columns of 35 lines</layout>, <handNote>hand very slightly
+                                sloping</handNote>, <decoNote>plain red initials</decoNote></ab>
+                        <ab>The first leaf was originally blank</ab>
+                        <ab>On the recto is a paragraph in <handNote>a small hand of cent. <date>xiii
+                                early</date></handNote>, not beginning at the top of the page</ab>
+                        <ab locus="168r" locusNew="166r">Gualenses nichilominus insistebant ius suum sibi concedi
+                            postulantes</ab>
+                        <ab>Quid enim inquiunt o rex formidas et tunicas illas ferreas quas eminus cernis nimium
+                            expauescis. Nobis certe sunt latera ferrea pectus ereum mens timoris uacua quorum nec pedes
+                            fugam nec unquam uulnus terga sensere. quid gallis apud <name type="place">cliderhou</name>
+                            profuere lorice. Numquid non inermes isti ut dicunt illos et loricas proicere et negligere
+                            et scuta relinquere coegerunt. Uideat igitur o rex prudentia uestra quale sit in his habere
+                            fiduciam que in necessitate magis sunt oneri quam consolationi. Nos apud <name type="place"
+                                >cliderhou</name> de loricatis uictoriam reportauimus. Nos hodie et istos anime uirtute
+                            pro scuto utentes lanceis prosternemus. Hoc bellum factum est inter anglos et pictos et
+                            scottos apud <name type="place">cliderhou</name>
+                            <date>feria vi die vii [xii?] ante natiuitate sancti Johannis Baptistae anno predicto id est
+                                m. c. xxx vii<abbr rend="superscript">o</abbr></date></ab>
+                        <ab>Bellum apud <name type="place">Cliderhou</name> ubi multi nobiles et ignobiles
+                            perierunt</ab>
+                        <ab>This is a quotation from <name type="author">Aelred</name> de Bello Standardi (<ref
+                                type="bibl" target="Howlett 1885">Chronicles of Stephen etc. II, p. 190</ref>)</ab>
+                        <ab>On f. <locus locusNew="166v">168v</locus> are various items enumerated by <name
+                                type="person">Mommsen</name> in his prolegomena to <name type="person">Nennius</name>,
+                                <ref type="bibl" target="Mommsen 1898">Mon. Germ. Hist. XIII 1 (Chronica Minora III 1),
+                                p. 125</ref></ab>
+                        <ab>On the margin</ab>
+                        <ab locusNew="166v">Incipit apologia. <name type="author">Nemnii</name> britonum
+                            historiografi</ab>
+                        <ab>and</ab>
+                        <ab locusNew="166v">Incipit hystori[c]a ortografia mundi</ab>
+                        <ab>(not as <ref type="bibl" target="Mommsen 1898">Mommsen</ref>)</ab>
+                        <ab>Col. 1.</ab>
+                        <rubric locusNew="166v">Incipit eulogium breuissimum <name type="place">brittannie
+                            insule</name>. quod <name type="person">Ninnius</name>
+                            <name type="person">eluodugi</name> discipulus congregauit</rubric>
+                        <incipit locusNew="166v">Ego <name type="person">Ninnius</name>
+                            <name type="person">eluodugi</name></incipit>
+                        <explicit locusNew="166v">Cedo illi qui plus nouerit in ista pericia satis quam ego</explicit>
+                        <rubric locusNew="166v">Explicit eulogium</rubric>
+                        <rubric locusNew="166v">Item eiusdem quod scribi debet in fine libri</rubric>
+                        <rubric locusNew="166v">De malis et peruersis naturis gen-ti-um</rubric>
+                        <ab>(<ref type="bibl" target="Mommsen 1898">Chronica Minora II 389</ref>)</ab>
+                        <ab>Inuidia iudeorum</ab>
+                        <ab>This is written in <layout>two columns</layout>, <handNote>with additions by the large hand
+                                which annotates the MS. throughout and also by a neater and smaller hand</handNote></ab>
+                        <ab><handNote>The original hand</handNote> goes down to</ab>
+                        <ab>Ira brittonum</ab>
+                        <ab>then</ab>
+                        <ab>De bonis naturis gentium</ab>
+                        <ab>Prudencia hebreorum to Argutia hispanorum</ab>
+
+                        <ab><handNote>The large hand</handNote> adds to col. 1</ab>
+                        <ab>Libido sueuorum</ab>
+                        <ab>Duricia (uel superbia above) pictauorum <hi rend="footnote">The original hand already had
+                                Duricia pictorum</hi></ab>
+
+                        <ab>It adds to col. 2</ab>
+                        <ab>A line erased</ab>
+                        <ab>Communio normannorum</ab>
+                        <ab>Grecus irascitur ante causam</ab>
+                        <ab>Francus in causa</ab>
+                        <ab>Romanus propter causam</ab>
+                        <ab>Francus fortis</ab>
+                        <ab>Romanus grauis</ab>
+                        <ab>Affer semper uersipellis</ab>
+                        <ab>The second (smaller) hand adds to the Vices</ab>
+                        <ab>Spurcicia sclauorum</ab>
+                        <ab>Rapacitas normannorum</ab>
+                        <ab>Normanni nimis sunt animosi</ab>
+                        <ab>The large hand adds to the Virtues</ab>
+                        <ab>Sollercia egiptiorum</ab>
+                        <ab>Col. 2. At top, three lines erased, perhaps written by the large hand</ab>
+                        <ab>Despicientes deum viii<abbr rend="superscript">o</abbr> ab (hole in vellum) bates
+                            fuerunt</ab>
+                        <ab><name type="person">Riccardus</name> prior primus abbas de fontibus [<date>1132</date>]</ab>
+                        <ab><name type="person">Riccardus</name> sacrista se(cundus) abbas de fontibus
+                                [<date>1139</date>]</ab>
+                        <ab>Lower down are the additions to the list of Virtues and Vices</ab>
+                        <ab>Then in the original hand the two poems Adiutor benignus, and Fornifer</ab>
+                        <rubric locus="169r" locusNew="167r">Sancti spiritus assit nobis gratia. Incipit Res gesta a
+                                <name type="author">Nennio</name> sapiente composita</rubric>
+                        <ab>With marginal and interlinear additions in several hands including the large hand and the
+                            hand of f. <locus locusNew="166v">168v</locus></ab>
+                        <ab>Ends</ab>
+
+                        <explicit locus="178v" locusNew="176v">finibus cosmi</explicit>
+                        <ab>(<ref type="bibl" target="Mommsen 1898">Mommsen</ref>, p. 218): the section ending thus is
+                            placed by several other MSS. as well as this after that ending Luchechach (<ref type="bibl"
+                                target="Mommsen 1898">Mommsen</ref>, p. 219) which forms the end of M.'s text</ab>
+
+
+                    </msItem>
+
+
+                    <msItem n="23" locusStart="176v" locusEnd="179r">
+                        <head type="CCC">
+                            <name type="author">Caradog of Llancarfan</name>, <title>Vita Sancti Gildae</title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>Res gestae a <name type="person">Nennio</name> sapiente compositae, Vita sanctissimi
+                                atque doctissimi viri <name type="person">Gildas</name> autore <name type="author"
+                                    >Caradoco Nancarbanensi</name></title>
+                        </head>
+
+
+
+
+                        <ab locus="178v" locusNew="176v"> Vita <name type="person">Gildae</name>
+                        </ab>
+                        <ab><ref type="bibl" target="Mommsen 1898">Mommsen</ref>, p. 107</ab>
+                        <ab>Capitula and rubric in the hand of f. <locus locusNew="166v">168v</locus></ab>
+                        <ab>Ends <locus locusNew="179r">181r</locus></ab>
+                        <ab>In another rough hand follow</ab>
+                        <ab>(a) Col. 1. The poem Fornifer</ab>
+                        <ab>(b) Col. 2. On the translation of <name type="person">St Benedict</name> to <name
+                                type="place">Fleury</name></ab>
+                        <incipit locusNew="179v">Circa hec tempora cum in castro cassino</incipit>
+                        <ab>(c) (De naturis gentium)</ab>
+                        <incipit locusNew="179v">Inuidia iudeorum</incipit>
+                        <explicit locusNew="179v">Duritia uel superbia pictauorum</explicit>
+                        <ab>This is copied in a confused order</ab>
+                        <ab>In the lower margin the name <name type="person">Aelsi</name></ab>
+                        <ab>On the verso and last leaf are many <date>xv</date>th cent. scribbles and a few earlier</ab>
+                        <ab>On the Kings of <name type="place">England</name></ab>
+
+
+                        <ab>On the same, in verse: Dux Normannorum <name type="person">Willelmus</name> vi validorum (to
+                                <name type="person">Edward III</name>)</ab>
+                        <ab><name type="person">Willelmus</name> rufus. versus</ab>
+                        <ab>
+                            <lg>
+                                <l>Visibus humanis aulas ornatas inanis</l>
+                                <l>fecit fundare propter sua festa parare</l>
+                                <l>aulam maiorem construxit <name type="place">Londoniarum</name></l>
+                                <l>orbis terrarum non optinet utiliorem</l>
+                                <l>Iudicibus legis ac ad conuiuia regis</l>
+                                <l>regnum regnorum flos est domus illa domorum</l>
+                            </lg>
+                        </ab>
+
+
+                        <ab>(Referring to <name type="place">Westminster Hall</name>)</ab>
+                        <ab>Further notes on English Kings</ab>
+                        <ab>Drawings of two bearded men: one labelled Tome T.. ywalle</ab>
+                        <ab>A badly written name <name type="person">Arthur Harvy(?)</name></ab>
+
+                    </msItem>
+
+
+
+
+
+                </msContents>
+
+
+
+
+
+
+
+
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, CF 2nd</p>
+                            <p>msCheck: NJC June 2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

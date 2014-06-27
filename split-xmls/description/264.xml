@@ -1,0 +1,321 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC264">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>264</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>A. 8</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>8</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Norwich Documents. Roger of Wendover OSB, Flores historiarum. Bede the Venerable,
+                    Historia ecclesiastica gentis Anglorum</head>
+                <head type="James">Norwich Documents. Roger de Wendover. Bedae Historia, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">265</height>
+                        <width unit="mm">160</width>
+                    </measureGrp><measureGrp type="James">10.5 x 6.3</measureGrp>, <extent>ff. 11 + 180 + 2</extent>,
+                        <layout>36 lines to a page</layout>. Cent. <origDate>xiv</origDate>, <handNote>in a good hand,
+                        upright, pale ink</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, a<num>10</num> 1<num>8</num>-22<num>8</num> 23<num>4</num>
+                        b<num>2</num></collation>.</p>
+                <p function="Provenance">From <name type="place">Norwich Priory</name>. On f. <locus>1r</locus> at top
+                    is: liber fratris <name type="person">Symonis Bozoun</name>: followed by an erasure apparently
+                    beginning: monachi.</p>
+
+                <p>In <ref type="ms" target="LBLR13">Royal MS. 14. C. xiii</ref> is a list of books belonging to <name
+                        type="person">Simon Bozoun Prior of Norwich</name> (printed in <ref type="bibl"
+                        target="Dimock 1867">Giraldus Cambrensis, Rolls ed. V, p. xxxix note</ref>). This volume is no.
+                    30 in the list: <q>quidam de gestis anglorum prec. x<abbr rend="superscript">s</abbr>.</q></p>
+
+                <p>The preliminary quire is written <handNote>in various hands</handNote>. Folio
+                        <locus>ir</locus>-<locus>iv</locus> is blank.</p>
+
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-xi + 1-180 + xii-xiii + c-d</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="iir" locusEnd="iiiv">
+
+
+                        <head type="CCC">
+                            <title>Agreement between the <name type="person">Bishop of Norwich</name> and the people of
+                                    <name type="place">King's Lynn</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Compositio conventionis facta inter <name type="person">episcopum
+                                    Nordowicensem</name> et communitatem <name type="place">villae Lennie</name></title>
+                        </head>
+
+                        <incipit locus="iir">Cum diuerse contenciones ... inter venerabilem patrem <name type="person"
+                                >Johannem dei gratia Norwycensem episcopum</name></incipit>
+                        <ab locus="iiiv">Note from <name type="person">Rabanus</name> de proprietate rerum VIII, cap.
+                            2</ab>
+                    </msItem>
+
+                    <msItem n="2" locusStart="ivr" locusEnd="ivv">
+
+
+                        <head type="CCC">
+                            <title>Charter of <name type="person">King John</name> to the <name type="place">church of
+                                    the Holy Trinity, Norwich</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta <name type="person">regis Iohannis</name>
+                                <name type="place">ecclesiae S. Trinitatis Norwici</name> concessa <date>anno regni
+                                    secundo</date></title>
+                        </head>
+
+                        <ab locus="ivr">Apud <name type="place">Gaytingtoniam</name>
+                            <date>XXVIII die Novembris anno regni nostri secundo</date></ab>
+                    </msItem>
+
+                    <msItem n="3" locusStart="ivv" locusEnd="ivv">
+
+
+                        <head type="CCC">
+                            <title>Royal writ to seize <name type="place">Norwich priory</name> and hold an assize of
+                                utrum into the election of a new prior</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Breve regis custodibus episcopatus <name type="place">Norwic.</name> directum ut
+                                mortuo priore prioratum <name type="place">Norwici</name> in manum regiam capiant,
+                                &amp;c. et ut inquisitionem capiant utrum administratio prioratus et electio prioris
+                                pertineat ad episcopum necne</title>
+                        </head>
+
+                        <ab>Dated <date>13 June, 41 Henry 3</date></ab>
+                    </msItem>
+
+                    <msItem n="4" locusStart="ivv" locusEnd="ivv">
+
+
+                        <head type="CCC">
+                            <title>Inquisition on assize utrum for the election of a new prior at <name type="place"
+                                    >Norwich priory</name>, with the return of the jury</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Inquisitio facta secundum hoc preceptum, in qua juratores dicunt nullum competere jus
+                                episcopo <name type="place">Norwic.</name> sive prioratum administrandi sive novum
+                                priorem eligendi</title>
+                        </head>
+
+                        <ab>Belongs to the same year as item 3</ab>
+                    </msItem>
+
+                    <msItem n="5" locusStart="vr" locusEnd="viiiv">
+
+
+                        <head type="CCC">
+                            <title>Gloss of <name type="person">King John</name> on an agreement between the secular
+                                clergy and the preaching orders</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Glossa <name type="person">Iohannis monachi</name> super constitutione edita inter
+                                prelatos et rectores ex una parte et fratres predicatores et minores ex altera</title>
+                        </head>
+
+                        <rubric locusNew="vr">Glosa <name type="person">Iohannis monachi</name></rubric>
+                        <incipit locusNew="vr">Super cathedram etc. Hoc statutum ordinat prouidet et decidit</incipit>
+
+                        <explicit locusNew="viiiv">etiam si lex ad pretenta referatur</explicit>
+                        <rubric locusNew="viiiv">Explicit</rubric>
+                        <ab>Cf. the list of contents in <ref type="ms" target="CCC252">MS 252</ref></ab>
+                    </msItem>
+
+                    <msItem n="6" locusStart="viiiv" locusEnd="ixv">
+
+                        <head type="CCC">
+                            <title>Bull of <name type="person">Pope Paschal II</name> to the monks of the <name
+                                    type="place">cathedral church of Norwich</name> and to <name type="person">Bishop
+                                    Herbert</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Bulla <name type="person">Paschalis papae</name> de monachis in <name type="place"
+                                    >ecclesia cathedrali Norwicensi</name> a <name type="person">Hereberto
+                                    episcopo</name> constitutis</title>
+                        </head>
+
+                        <ab locus="viiiv">Date, <date>iii Kal. Mai. Indict. x. Incarnacionis dominice anno m<abbr
+                                    rend="superscript">o</abbr>. c. iiii<abbr rend="superscript">to</abbr> Pontificatus
+                                autem domini Pascalis secundi pape tercio</date> (not in <ref type="bibl"
+                                target="Jaffe 1885">Jaffé</ref>?)</ab>
+
+                        <ab>f. <locus>ixr</locus>-<locus>ixv</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="7" locusStart="xr" locusEnd="xiv">
+
+                        <head type="CCC">
+                            <title>Indulgences granted for pilgrimages to certain churches in <name type="place"
+                                    >Rome</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Indulgentiae ecclesiarum patriarcharum et certarum aliarum ecclesiarum urbis <name
+                                    type="place">Romae</name></title>
+                        </head>
+
+                        <ab locusNew="xr"><handNote>Larger hand</handNote>, <layout>22 lines to a page</layout></ab>
+                        <incipit locusNew="xr"><name type="person">Papa gregorius</name> uniuersis et singulis
+                            peregrinantibus quocunque tempore anni venientibus ad <name type="place">ecclesiam Sancti
+                                petri apostoli</name> etc.</incipit>
+                        <ab>Ending</ab>
+                        <explicit locus="xiv">Item in capella <name type="person">S. Johannis baptiste</name> ad fontem
+                            est remissio omnium peccatorum</explicit>
+
+                    </msItem>
+
+                    <msItem n="8" locusStart="1r" locusEnd="64v">
+                        <head type="CCC"><name type="author">Roger of Wendover OSB</name>, <title>Flores
+                                historiarum</title></head>
+                        <head type="Nasmith">
+                            <title>De gestis tempore <name type="person">regis Iohannis</name> fratris <name
+                                    type="person">Ricardi regis</name>, scilicet ab anno gratiae <date>M.CXCIX</date> ad
+                                    <date>annum regni <name type="person">regis Henrici</name> filii ejusdem
+                                    secundum</date></title>
+                        </head>
+                        <ab>
+                            <quote>
+                                <q>Hoc non est chronicon <name type="person">Radulphi Nigri</name>,<hi rend="footnote"
+                                            ><name type="person">Bale</name> has written <q>
+                                            <name type="person">Radulphus Niger</name>
+                                        </q> at the top of f. <locus>1r</locus></hi> ille enim scripsit tantum usque ad
+                                    principium <name type="person">R. Richardi I.</name> ut in antiquo exemplari in
+                                    Bibl. Cotton videre licet, sed potius videtur fragmentum vel extractum aliquod ex
+                                    chronico <name type="author">Rogeri de Wendover</name>, ex quo <name type="person"
+                                        >Mat. Paris</name> historiam suam majorem transcripsit.</q>
+                            </quote>
+                        </ab>
+
+                        <ab>The main volume begins</ab>
+                        <incipit locusNew="1r">Victoriosissimo Anglorum <name type="person">Rege Ricardo</name> uiam
+                            uniuerse carnis ut dictum est ingresso <name type="person">Iohannes</name> frater eius et
+                                <name type="person">Comes Moretonii</name> seruientes</incipit>
+                        <ab>(<ref type="bibl" target="Coxe 1841">Roger of Wendover, ed. Coxe III 137</ref>)</ab>
+                        <ab>The last chapter is</ab>
+                        <rubric locusNew="63v">Quod propter auariciam rusticorum vindicta dei in bladum eorum sumpta
+                            est</rubric>
+                        <ab>(A.D. <date>1234</date>)</ab>
+                        <incipit locusNew="64r">Licet in suprascriptis duobus capitulis</incipit>
+                        <explicit locusNew="64r">ita et in terra pax est hominibus bone uoluntatis</explicit>
+                        <ab>= <ref type="bibl" target="Coxe 1842">Roger of Wendover, ed. Coxe IV 321</ref></ab>
+                        <ab>On f. <locus>64v</locus>
+                            <handNote>in a smaller hand</handNote></ab>
+                        <incipit locusNew="64v">Anno gratie <date>1197</date> obiit <name type="person">Resus princeps
+                                Wallie</name> de quo sic canitur O belli gloria milicie clipeus patris tutamen
+                            etc.</incipit>
+                        <explicit locusNew="64v">vultu hillaris, facie decorus, singulis benignus et omnibus
+                            equus</explicit>
+                    </msItem>
+
+                    <msItem n="9" locusStart="65r" locusEnd="xiiiv">
+                        <head type="CCC"><name type="author">Bede the Venerable</name>, <title>Historia ecclesiastica
+                                gentis Anglorum</title></head>
+                        <head type="Nasmith">
+                            <title><name type="author">Bedae</name> historia ecclesiastica gentis Anglorum</title>
+                        </head>
+
+
+                        <ab>
+                            <quote>
+                                <q>Liber fratris <name type="person">Simonis Bozoun</name></q>
+                            </quote>
+                        </ab>
+
+
+                        <rubric locus="65r">Liber <name type="author">bede</name> presbiteri de gestis anglorum
+                            prologus</rubric>
+                        <incipit locusNew="65r">Gloriosissimo <name type="person">regi Ceoluulfo</name></incipit>
+                        <explicit locusNew="65v">mandare studeamus</explicit>
+
+                        <ab locus="65v">Capitula libri primi</ab>
+                        <ab>Text</ab>
+                        <incipit locus="66v"><name type="place">Britannia</name> occeani insula</incipit>
+                        <ab locus="86v">Liber II. Capitula</ab>
+                        <ab locus="87r">Text</ab>
+                        <ab locus="106r" locusNew="105r">Liber III. Capitula</ab>
+                        <ab locus="107r" locusNew="106r">Text</ab>
+                        <ab locus="129r">Liber IV. Capitula</ab>
+                        <ab locus="129v">Text</ab>
+                        <ab locus="154v">Liber V. Capitula</ab>
+                        <ab locus="155r">Text</ab>
+                        <ab locus="179v">Chronological summary ends with <date>734</date></ab>
+
+                        <explicit locusNew="179v">ad lucem propriam refusa est</explicit>
+                        <rubric locus="179v">De libris <name type="author">Bede</name> presbiteri</rubric>
+                        <incipit locusNew="179v">Hec de ecclesiastica historia</incipit>
+                        <explicit locusNew="180v">intercessiones inueniam. Amen</explicit>
+                        <ab>On <locus locusNew="180v">108v</locus>
+                            <handNote>in a small hand</handNote> are notes</ab>
+                        <ab locusNew="180v">Tria sunt iudicia mortis etc.</ab>
+                        <ab locusNew="xiir">On the last two flyleaves, <handNote>in a black hand of earlier
+                                aspect</handNote>, is a list of the Saints noticed in the five books of the History</ab>
+                    </msItem>
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: NJC 26.11.2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

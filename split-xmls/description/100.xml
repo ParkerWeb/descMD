@@ -1,0 +1,345 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC100">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>100</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Misc. Q</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Transcripts (16th century). Simeon of Durham OSB. Geoffrey of Coldingham OSB. Tito
+                    Livio Frulovisi. Walter of Guisborough OSA. Asser</head>
+
+                <head type="James">Transcripts etc.</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">335</height>
+                        <width unit="mm">220</width>
+                    </measureGrp>
+                    <measureGrp type="James">13.5 x 8.5</measureGrp> and other sizes, <extent>pp. 340 numbered</extent>.
+                        <layout>Two main sections, of which pp. 1-248 form one volume</layout>, <handNote>written for
+                        the most part in one hand</handNote>. Cent. <origDate>xvi</origDate>.</p>
+
+
+
+
+                <p type="CCC">
+                    <foliation>ff. i-iii + pp. 1-324 + 324a-d + 325-338 + 338a-339a + 339-380 + ff.
+                    iv-v</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="eng">Latin and English.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="1" locusEnd="126">
+
+
+                        <head type="CCC"><name type="author">Simeon of Durham OSB</name>, <title>Libellus de exordio et
+                                procursu <name type="place">Dunelmensis ecclesiae</name></title>. <name type="author"
+                                >Anonymous</name>, <title>Continuatio Prima</title>. <name type="author">Geoffrey of
+                                Coldingham OSB</name>, <title>De statu <name type="place">ecclesiae
+                                Dunelmensis</name></title></head>
+
+                        <head type="Nasmith">
+                            <title>Chronicon <name type="place">monasterii Dunelmensis</name> [sive historia <name
+                                    type="author">Simeonis Dunelmensis</name> cum continuationibus anonimi et <name
+                                    type="author">Gaufridi de Coldingham</name>]</title>
+                        </head>
+
+                        <ab>
+                            <quote>desunt x. capitula ad finem</quote>
+                        </ab>
+
+                        <ab>Copied from <ref type="ms" target="CCC139">MS 139</ref></ab>
+                        <ab>pp. <locus>123</locus>-<locus>126</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="2" locusStart="127" locusEnd="226">
+
+
+                        <head type="CCC"><name type="author">Tito Livio Frulovisi</name>, <title>Vita <name
+                                    type="person">Henrici V</name> regis Angliae</title></head>
+
+                        <head type="Nasmith">
+                            <title>Invictissimi Anglorum Franciaeque regis <name type="person">Henrici quinti</name> ad
+                                ejus filium christianissimum regem <name type="person">Henricum sextum</name> vita per
+                                    <name type="author">Titum Livium de Frulovissiis Ferrariensem</name></title>
+                        </head>
+
+                        <ab>Copied from <ref type="ms" target="CCC285">MS 285. 1</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="227" locusEnd="236">
+
+                        <head type="CCC">
+                            <title>On translating the Bible into English</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>A determination of a doctor of divinity against them that say, it is not lawful to
+                                have holy writte and other bookes in English</title>
+                        </head>
+
+                        <ab>From a <name type="place">Worcester</name> MS. Note on p. <locus>229</locus>: <q>Hec
+                                extracta sunt ex quodam lacero fragmento bibliothece <name type="place"
+                                    >Wigorniensis</name></q></ab>
+                        <incipit locusNew="227">Against theim that say that holy writt shoulde not be drawen into
+                            Englishe</incipit>
+                        <ab>Ends</ab>
+                        <explicit locusNew="233">ryght speakinge and ryght pronouncinge and ryght wrytinge</explicit>
+                        <ab>pp. <locus>234</locus>-<locus>236</locus> blank</ab>
+                        <ab>Cf. <ref type="ms" target="CTC024">Trinity College B. 1. 26</ref>, <ref type="bibl"
+                                target="Wharton 1690">Ussher, <hi rend="italic">Historia Dogmatica</hi> sub anno
+                                1410</ref>, and <ref type="ms" target="CCC298">MS 298. 52 <supplied>(actually item
+                                    25)</supplied></ref></ab>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="237" locusEnd="250">
+                        <head type="CCC"><name type="author">Walter of Guisborough OSA</name>, <title>Chronicle (extract
+                                covering the reign of <name type="person">Edward II</name>)</title></head>
+                        <head type="Nasmith">
+                            <title>G. [<name type="author">Gualterus Hemingford</name>, canonicus] de Gysburne de rege
+                                    <name type="person">Edwardo II</name></title>
+                        </head>
+                        <ab>
+                            <quote>Continet historiam <name type="place">Angliae</name> a morte <name type="person"
+                                    >Edwardi I</name>. ad annum salutis <date>1312</date>; et omnino concordat cum libro
+                                quarto ejusdem autoris de gestis regum <name type="place">Angliae</name></quote>
+                        </ab>
+                        <ab>From <ref type="ms" target="CCC250">MS 250</ref></ab>
+                        <incipit locusNew="237">Mortuo strenuissimo <name type="person">Rege Edwardo</name></incipit>
+                        <explicit locusNew="247">terra siluit et quievit</explicit>
+                        <ab>See <ref type="bibl" target="Hardy 1871">Hardy, <hi rend="italic">Materials</hi> III 257,
+                                306</ref></ab>
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="5" locusStart="251" locusEnd="260">
+                        <head type="CCC">
+                            <title>Genealogical tables from the Chronica Maiora of <name type="author">Matthew
+                                    Paris</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Tabellae ante historiam <name type="person">Matthei Parisiensis</name></title>
+                        </head>
+
+                        <ab>Copy of genealogical tables from <ref type="ms" target="CCC026">MS 26</ref>, continued to
+                                <name type="person">Henry V</name></ab>
+                        <incipit locusNew="251">Considerans prolixitatem cronicorum <name type="place"
+                            >anglie</name></incipit>
+
+                    </msItem>
+
+                    <msItem n="6" locusStart="261" locusEnd="323">
+                        <head type="CCC"><name type="author">Asser (attrib.)</name>, <title>Annales
+                            Britanniae</title></head>
+                        <head type="Nasmith">
+                            <title>Annales <name type="place">Britanniae</name> authore I. <name type="person"
+                                    >Asser</name> cum paralipomenis alterius scriptoris</title>
+                        </head>
+
+                        <ab>
+                            <quote>
+                                <q>Hic liber transcriptus e quodam vetustissimo codice notato in margine manu <name
+                                        type="person">Iohannis Leilandi</name></q>
+                            </quote>
+                        </ab>
+
+                        <ab>From the manuscript now at <ref type="ms" target="CTC770">Trinity College R. 7.
+                            28</ref></ab>
+                        <ab>
+                            <ref type="bibl" target="Hardy 1862b">Hardy I 557</ref>
+                        </ab>
+
+                        <ab>
+                            <supplied>pp. <locus>320</locus>-<locus>323</locus> blank</supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="7" locusStart="324" locusEnd="324b">
+
+                        <head type="CCC">
+                            <name type="author">Matthew Parker</name>, <title>Notes on <name type="person">Alfred the
+                                    Great</name> taken from various chronicles</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Notae chronologicae de <name type="person">Ælfredo</name> manu <name type="person"
+                                    >Matthei Parker</name></title>
+                        </head>
+
+                        <ab>Short extracts from <hi rend="italic">Chronica regia</hi> (<q>et est liber scriptus in <name
+                                    type="place">cenobio Sancti Edmundi</name>,</q> see on <ref type="ms"
+                                target="CCC251">MS 251</ref>), <name type="person">Ranulphus</name>, <name type="person"
+                                >Johannes Parisiensis</name> (see <ref type="ms" target="CCC060">MS 60</ref>), <name
+                                type="person">Petrus de Yckham</name></ab>
+                        <ab>A slip follows with notes from <name type="person">Asser</name></ab>
+
+                    </msItem>
+
+                    <msItem n="8" locusStart="324c" locusEnd="364">
+                        <head type="CCC"><name type="author">Asser</name>, <title>De rebus gestis Ælfredi
+                            regis</title></head>
+                        <head type="Nasmith">
+                            <title><name type="person">Ælfredi</name> res gestae, autore <name type="author"
+                                    >Asser</name></title>
+                        </head>
+
+                        <ab>
+                            <quote>Hunc librum apographum esse MS. Cottoniani, nos docet <ref type="bibl"
+                                    target="Wise 1722">Cl. Wise</ref> in prefatione ad editionem suam</quote>
+                        </ab>
+
+                        <ab>From the lost <ref type="ms" target="LBLA12">Cotton MS. Otho A XII</ref></ab>
+                        <ab>See <ref type="bibl" target="Stevenson 1904">W. H. Stevenson's edition, 1904, p. li</ref>.
+                            Its symbol there is <q>Co</q>. It is said by Mr Stevenson to be the most valuable of the
+                            transcripts, having been made from the Cotton MS. before <name type="person">Parker</name>
+                            interpolated the text</ab>
+
+                        <ab>
+                            <supplied>pp. <locus>363</locus>-<locus>364</locus> blank (ruled)</supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="9" locusStart="365" locusEnd="372">
+                        <head type="CCC">
+                            <title>Life of <name type="person">St Alban of Mainz</name></title>
+                        </head>
+
+                        <head type="James">
+                            <title>The Life of <name type="person">St Alban of Mainz</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>De <name type="person">Sancto Albano</name></title>
+                        </head>
+
+                        <ab>
+                            <quote>Fabulosa haec historia in quinque paginis enarrat vitam nescio cujus <name
+                                    type="person">Albani</name>, qui ex incesto thalamo procreatus, et in <name
+                                    type="place">Hungariam</name> deportatus ibique expositus, regi defertur, et ab
+                                eodem in filium adoptatur. Deinde inscienter propriam matrem in uxorem ducit; re autem
+                                comperta, deliciis mundi renuens, reliquam vitam anachoretice agit</quote>
+                        </ab>
+
+                        <ab>On 3 leaves of smaller size. Cent. <origDate>xv</origDate>, <layout>44 lines to a
+                                page</layout></ab>
+                        <incipit locusNew="365">Erat olim in partibus aquilonis homo quidam potens et nobilis</incipit>
+                        <explicit locusNew="369">cum eo a nostris facinoribus ablui et super niuem dealbari. Amen
+                                <supplied>Amen Amen</supplied></explicit>
+                        <rubric locusNew="369">Explicit vita <name type="person">Sancti Albani</name> martiris</rubric>
+                        <ab>Cf. <ref type="bibl" target="Hardy 1862a">Hardy I 32</ref>, <ref type="bibl"
+                                target="Bollandists 1898-99">BHL. 201</ref></ab>
+
+                        <ab>
+                            <supplied>pp. <locus>370</locus>-<locus>372</locus> blank</supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="10" locusStart="373" locusEnd="374">
+                        <head type="CCC">
+                            <title>Speech of <name type="person">Sir Nicholas Carew</name> at his execution on <name
+                                    type="place">Tower Hill</name>, <date>March 3, 1538</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Speech of <name type="person">sir Nicholas Carew</name> at his execution on <name
+                                    type="place">Tower-hill</name>, <date>March 3, 1538</date>; communicated to <name
+                                    type="person">archbishop Parker</name> by <name type="person">sir Robert
+                                    Chester</name></title>
+                        </head>
+
+                        <ab>One leaf</ab>
+
+                    </msItem>
+
+                    <msItem n="11" locusStart="375" locusEnd="378">
+
+                        <head type="Nasmith">
+                            <title>Representation of the state of the christian slaves in <name type="place"
+                                    >Turkey</name></title>
+                        </head>
+
+                        <ab>A large leaf folded transversely</ab>
+                        <ab>It deals with the diet and treatment of slaves in the galleys</ab>
+
+                    </msItem>
+
+                    <msItem n="12" locusStart="379" locusEnd="380">
+
+                        <head type="Nasmith">
+                            <title>Sheriffs in <name type="place">England</name>, <date>12 Elizabeth</date></title>
+                        </head>
+
+                        <ab>A single leaf</ab>
+
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJC 28.11.07</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,159 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+
+                <msIdentifier xml:id="CCC262">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>262</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>H. 6</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>87</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">William of Newburgh OSA, Historia rerum Anglicarum</head>
+
+                <head type="James">William de Newburgh</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">275</height>
+                        <width unit="mm">190</width>
+                    </measureGrp><measureGrp type="James">10.8 x 7.5</measureGrp>, <extent>ff. 1 + 125</extent>,
+                        <layout>double columns of 40 lines</layout>. Cent. <origDate>xiii early</origDate>, <handNote>in
+                        a fine upright hand</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>12</num>-8<num>12</num> (+ 1 of cent. <date>xvi</date>) 9<num>12</num>
+                        (+ 2 of cent. <date>xvi</date> after 4th leaf) 10 (eight original, six of cent. <date>xvi</date>
+                        added after 4, 5, 8)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>qui protenso</secFol>.</p>
+
+
+                <p function="Research">The added leaves are supplements from another manuscript. They comprise <q>the
+                        twelve chapters which are left out of the <name type="place">Antwerp</name> edition of
+                            <date>1587</date></q>. Also in this MS. the chapters in Liber I <q>which in all editions are
+                        numbered 14 and 15 are found after cap. 17</q>.<lb/> The above is from Mr Howlett's notice of
+                    the MS. (<ref type="bibl" target="Howlett 1884">Chronicles of Stephen etc. Rolls Series I p.
+                        xlviii</ref>). He also says that this copy is to be classed with <ref type="ms" target="OBL702"
+                        >Bodleian Digby 101</ref> and <ref type="ms" target="LBLB09">Royal 13. B. ix</ref>.</p>
+
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i + 1-125 + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="125v">
+
+                        <head type="CCC"><name type="author">William of Newburgh OSA</name>, <title>Historia rerum
+                                Anglicarum</title></head>
+
+
+                        <head type="James">
+                            <name type="author">William de Newburgh</name>
+                        </head>
+
+
+
+                        <rubric locusNew="1r">Incipit cronica <name type="author">Willelmi de Neuburg</name> de gestis
+                            anglorum</rubric>
+                        <rubric locus="1r">Incipit prologus in sequentem librum</rubric>
+                        <incipit locusNew="1r">A(mantissimo) patri et domino <name type="person">E. abbati
+                                Rieuallis</name></incipit>
+                        <explicit locusNew="1r">ingressum prelibans</explicit>
+                        <rubric locusNew="1r">Explicit prologus</rubric>
+                        <rubric locusNew="1r">Incipit liber primus. Proemium sequentis historie</rubric>
+                        <incipit locusNew="1r">Historiam gentis nostre id est anglorum</incipit>
+                        <ab locus="22r" locusNew="21v">Liber II</ab>
+                        <ab locus="47r"><supplied>Liber</supplied> III (with capitula)</ab>
+                        <ab locus="68r"><supplied>Liber</supplied> IV (capitula)</ab>
+                        <ab locus="99r"><supplied>Liber</supplied> V (no capitula)</ab>
+                        <ab>
+                            <handNote>The original hand ends f. <locus>123v</locus></handNote>
+                        </ab>
+                        <explicit locus="123v">ut etiam si angelus de celo id comittendum suaderet anathema illi
+                            esset</explicit>
+                        <ab>Then follow, <handNote>in the original hand</handNote>, Capitula of Libri I, II, V</ab>
+
+                    </msItem>
+
+
+
+
+
+
+
+                </msContents>
+
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text:copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, SP, CF</p>
+                            <p>msCheck: NJC 01.06.07</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

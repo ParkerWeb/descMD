@@ -1,0 +1,222 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC076">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>76</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>C. 1</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>22</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Ralph de Diceto, Abbreuiationes chronicorum (extract on the Annals of the archbishops
+                    of Canterbury). John Cassian, De institutis coenobiorum</head>
+                <head type="James">Radulphus de Diceto. Ioh. Cassianus</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">423</height>
+                        <width unit="mm">291</width>
+                    </measureGrp>, <measureGrp type="James">16.6 x 11</measureGrp>, <extent>ff. 29 + 62</extent>,
+                        <layout>two volumes in double columns of 40 and 39 lines respectively</layout>. Cent.
+                        <origDate>xiii early and xiv</origDate>. The lower corners eaten off throughout.</p>
+
+
+                <p function="Multivolume"><lb/><label>Volume I:</label>
+                    <handNote>The writing is very fine</handNote>, and the book may have been, as <ref type="bibl"
+                        target="Stubbs 1876a">Bishop Stubbs</ref> suggests, a presentation copy to <name type="person"
+                        >Archbishop Hubert</name>.<lb/><label>Volume II:</label>
+                    <handNote>In a very good clear Roman hand</handNote> of cent. <origDate>xv</origDate>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>1</num> 2<num>8</num> 3<num>8</num> 4 (six: of which 2, 3 are supplies of cent.
+                            <origDate>xvi</origDate>) | <material>six blank leaves of vellum and two of paper
+                            follow</material> | 1<num>8</num>-7<num>8</num> 8<num>6</num> (or 8 wanting 4,
+                        5)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <lb/>
+                    <label>Volume II:</label><secFol>re studebo</secFol>.</p>
+
+
+                <p function="Provenance"><lb/>
+                    <label>Volume I:</label> From <name type="place">Christ Church, Canterbury</name>. On <locus
+                        locusNew="2r">1r</locus> is at top, <hi rend="italic">Annuales</hi>, and below, <hi
+                        rend="italic">Annales <name type="person">stephani archiepiscopi</name></hi>. <name
+                        type="person">Stephen Langton</name> is meant. The book occurs as no. 1438 in the principal
+                    catalogue (<ref type="bibl" target="James 1903">
+                        <hi rend="italic">Ancient Libraries</hi> , p. 122</ref>) among Libri <name type="person"
+                        >Stephani Archiepiscopi</name>.<lb/>
+                    <label>Volume II:</label> not Italian, but written, I believe, in the Low Countries. I find no name
+                    or mark of owner.</p>
+
+                <p function="Additions">One of the vellum leaves which follow <supplied>(<locus>30v</locus>)</supplied>
+                    is part of a document of cent. <origDate>xvi</origDate>. <name type="person">Edmund (Bonner) Bp of
+                        London</name> is mentioned. </p>
+                <p function="Research">On this MS. <supplied>(Volume I)</supplied> see <ref type="bibl"
+                        target="Stubbs 1876a">Stubbs, <hi rend="italic">Rad. de Diceto</hi> I xcix, and the collation of
+                        it in the same work vol. II p. lxi etc.</ref> which gives the whole contents. The text is a
+                    compilation of <name type="author">Radulfus</name>' own from his larger works.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-68 + 68a + 69-93 + iii-iv</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="2r" locusEnd="32v">
+                        <head type="CCC">
+                            <name type="author">Ralph de Diceto</name>, <title>Abbreuiationes chronicorum (extract on
+                                the Annals of the archbishops of Canterbury)</title>
+                        </head>
+
+                        <rubric locus="1r" locusNew="2r">Incipit libellus ad Reuerendum patrem <name type="person"
+                                >hubertum Archiepiscopum Cantuariensem</name> et apostolice sedis legatum directus a
+                                <name type="author">Radulfo de diceto</name> Lundoniensis ecclesie decano</rubric>
+                        <ab>(This rubric is repeated on <locus locusNew="2v">1v</locus>)</ab>
+                        <rubric locusNew="2v">Prologus</rubric>
+                        <incipit locusNew="2v">Annos ab incarnatione domini seriatim expassos per temporum
+                            annotationes</incipit>
+                        <explicit locusNew="2v">uel bedam tertulliano leuiter anteponas</explicit>
+                        <incipit locusNew="2v">Opus itaque sequens plurimum a compendio mutuatur</incipit>
+                        <explicit locusNew="2v">nec concinnitas tediosa</explicit>
+                        <ab locusNew="2v">
+                            <handNote>This first leaf is in a different hand from the rest</handNote>
+                        </ab>
+                        <rubric locus="2r" locusNew="3r">Incipiunt annales de Dorobernensibus Archiepiscopis</rubric>
+                        <rubric locusNew="3r">Hamonius Floriacensis libro secundo</rubric>
+                        <incipit locusNew="3r">Res geste que nulla regum ac temporum certitudine commendantur
+                            etc.</incipit>
+                        <rubric locusNew="3r">Agellius. libro quinto Capitulo octauo decimo</rubric>
+                        <incipit locusNew="3r">Hystoria differt ab annalibus—deinceps componuntur</incipit>
+                        <incipit locusNew="3r">Quibus ergo temporibus ubi uel quorum ministerio</incipit>
+                        <explicit locusNew="3r">breuiter enarremus</explicit>
+                        <incipit locusNew="3r"><name type="person">Augustinus</name> a <name type="person">beato
+                                gregorio</name> directus</incipit>
+                        <ab>
+                            <decoNote>Crowns, swords and crosiers are drawn (and coloured) in the margins to mark
+                                coronations etc.</decoNote>
+                        </ab>
+                        <ab locusNew="20r">In quire 4, after f. <locus locusNew="19v">18v</locus>, several leaves have
+                            been cut out (probably four) which narrated the death of <name type="person">St
+                                Thomas</name>. They are supplied <handNote>in a good <origDate>xvith century</origDate>
+                                hand</handNote> by one of <name type="person">Parker</name>'s scribes</ab>
+                        <ab>Ends with a brief of <name type="person">Celestine</name> to the Abp of York, on <name
+                                type="person">Abp Hubert</name>'s appointment as legate</ab>
+                        <ab locus="22v" locusNew="23v">Then after a space is added by the original hand</ab>
+                        <rubric locusNew="23v">Verba Merlini</rubric>
+                        <ab>(Galfr. Monumet. vii 3)</ab>
+                        <incipit locusNew="23v">Exin coronabitur germanicus uermis etc.</incipit>
+                        <rubric locusNew="23v">Item uerba Merlini</rubric>
+                        <incipit locus="23r" locusNew="24r">Apri dentibus accinctus</incipit>
+                        <explicit locusNew="24r">discidium alienigenarum orietur</explicit>
+                        <ab locusNew="24r">A list of Emperors, <name type="person">Karolus Magnus</name> to <name
+                                type="person">Henry (VI)</name>, is on L. margin</ab>
+                        <rubric locus="23r" locusNew="24r">Archiepiscopi Cant. ante Conquestum (added in cent.
+                                <origDate>xvi</origDate>)</rubric>
+                        <ab locus="23v" locusNew="24v">post conquestum (to <name type="person">Hubert</name>)</ab>
+
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+                    <msItem n="2" locusStart="33r" locusEnd="90v">
+                        <head type="CCC">
+                            <name type="author">John Cassian</name>, <title>De institutis coenobiorum</title>
+                        </head>
+                        <ab locusNew="33r">
+                            <decoNote>Title in red capitals</decoNote>
+                        </ab>
+                        <rubric locusNew="33r">Regula <name type="author">Sancti Johannis Cassiani</name> quam <name
+                                type="person">Castori Pape</name> in novello monasterio scripsit</rubric>
+                        <incipit locusNew="33r">Ueteris instrumenti narrat hystoria</incipit>
+                        <ab>(<ref type="bibl" target="Migne 049">XLIX 53</ref>)</ab>
+                        <ab locusNew="33r">
+                            <decoNote>Fine initial, conventional foliage on burnished gold, somewhat in the English
+                                style. There are a good many such initials in the book which seem English—others
+                                distinctly do not: e.g. one on f. <locus locusNew="34r">2r</locus></decoNote>
+                        </ab>
+                        <ab locusNew="34r">Prologus ends</ab>
+                        <explicit locus="2r" locusNew="34r">eciam in impari facultate</explicit>
+                        <rubric locus="2r" locusNew="34r">Explicit prologus</rubric>
+                        <rubric locusNew="34r">Incipiunt Capitula</rubric>
+                        <ab>Text</ab>
+                        <rubric locus="2r" locusNew="34r">Incipit liber primus de habitu monachi</rubric>
+                        <incipit locusNew="34r">De institutis ac regulis monasteriorum dicturi</incipit>
+                        <ab locus="4v" locusNew="36v">Liber II</ab>
+                        <ab locus="8v" locusNew="40v"><supplied>Liber</supplied> III</ab>
+                        <ab locus="12v" locusNew="44v"><supplied>Liber</supplied> IV</ab>
+                        <ab locus="21v" locusNew="53v"><supplied>Liber</supplied> V</ab>
+                        <ab locus="30r" locusNew="62r"><supplied>Liber</supplied> VI</ab>
+                        <ab locus="34r" locusNew="66r"><supplied>Liber</supplied> VII</ab>
+                        <ab locus="39v" locusNew="70v"><supplied>Liber</supplied> VIII</ab>
+                        <ab locus="43v" locusNew="74v"><supplied>Liber</supplied> IX</ab>
+                        <ab locus="45r" locusNew="76r"><supplied>Liber</supplied> X</ab>
+                        <ab locus="50v" locusNew="81v"><supplied>Liber</supplied> XI</ab>
+                        <ab locus="53r" locusNew="84r"><supplied>Liber</supplied> XII</ab>
+                        <ab>Ends unfinished or imperfect in capitulum 30</ab>
+                        <explicit locusNew="90v">Humilitas uero nullatenus po-</explicit>
+                        <ab locusNew="91r">Three blank leaves follow</ab>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 23/05/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

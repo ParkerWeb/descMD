@@ -1,0 +1,135 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC514">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>514</idno>
+                    <altIdentifier type="Elbing">
+                        <idno>N. 16</idno>
+                    </altIdentifier>
+
+                </msIdentifier>
+                <head type="CCC">Conrad Holtnicker of Saxony OFM, Sermones de tempore et de sanctis</head>
+                <head type="James">[Untitled]</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">300</height>
+                        <width unit="mm">217</width>
+                    </measureGrp>, <measureGrp type="James">11.8 x 9</measureGrp>, <extent>ff. 2 + 254</extent>,
+                        <layout>double columns of 44 lines</layout>. Cent. <origDate>xv</origDate>, <handNote>in clear
+                        hand, ugly</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num> (<material>vellum</material>) 1<num>12</num>-20<num>12</num>
+                            21<num>16</num> (1, 2 canc.)</collation>.</p>
+
+                <p function="Provenance"><name type="person">Mary Pernham</name> on f. <locus>iiv</locus>.</p>
+                <p function="Binding">Binding, white skin over boards: three metal tags and bosses remain. Paper label:
+                    Hm. 41. Covers lined with leaves of a MS. of questions.</p>
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-6 + 6a-b + 7-254</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="ir" locusEnd="254v">
+                        <head type="CCC"><name type="author">Conrad Holtnicker of Saxony OFM</name>, <title>Sermones de
+                                tempore et de sanctis</title></head>
+                        <head type="James">Sermones de tempore et de sanctis</head>
+                        <ab locus="ir">Alphabetical table</ab>
+                        <ab locus="ir" locusNew="1r">Notes</ab>
+                        <ab locus="iv" locusNew="1v">Dedication in verses (12)</ab>
+                        <incipit locusNew="1v">
+                            <lg>
+                                <l>Suscipe sancte pater tibi que minor offero frater</l>
+                                <l>...</l>
+                                <l>Ut prosis precibus operam tantam tibi dantis</l>
+                            </lg>
+                        </incipit>
+                        <rubric locusNew="1v">Dominica prima Aduentus sermo primus</rubric>
+                        <incipit locusNew="1v">Emitte manum tuam de alto, etc. Ecce karissimi fient naufragi in medio
+                            fluctum</incipit>
+                        <ab>Sermon 3 for Dom. 25 post Pent. ends <locus>156r</locus></ab>
+                        <explicit locus="156r">nulli instabilitati subiecta est. Amen</explicit>
+                        <rubric locusNew="156r">Sequitur de sanctis</rubric>
+                        <ab>A list on f. <locus>156v</locus></ab>
+                        <ab locus="156v"><name type="person">Francis</name>, <name type="person">Antony</name>, <name
+                                type="person">Clara</name> occur</ab>
+                        <rubric locusNew="157r">De <name type="person">Sancto Andrea</name> sermo primus</rubric>
+                        <incipit locusNew="157r">Extendam palmas meas ... Hoc verbum <name type="person">Moysi</name>
+                            <name type="person">beatus Andreas</name> potuit dicere</incipit>
+                        <ab>Ends with 8 verses</ab>
+                        <explicit locus="253v">
+                            <lg>
+                                <l>Qui bene dum poteris sermonibus his potieris</l>
+                                <l>...</l>
+                                <l>Orari tociens mo<supplied agent="JamesCorrigenda">u</supplied>eas pro paupere
+                                    quodam</l>
+                            </lg>
+                        </explicit>
+                        <ab>Lists and notes follow</ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, SP, CF</p>
+                            <p>msCheck: SP 20/1/09</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

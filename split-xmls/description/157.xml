@@ -1,0 +1,231 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC157">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>157</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>H. 11</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>345</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Tracts on the Schism</head>
+                <head type="James">Tractatus de Schismate</head>
+
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">295</height>
+                        <width unit="mm">217</width>
+                    </measureGrp>
+                    <measureGrp type="James">11.5 x 8.5</measureGrp>, <extent>ff. 202 + 2</extent>, <layout>44 and 40
+                        lines to a page</layout>. Cent. <origDate>xv</origDate>, <handNote>in two very neat small hands
+                        of Italian aspect, but not Italian</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num> 1<num>10</num> 2<num>10</num> 3<num>8</num>-5<num>8</num>
+                            6<num>10</num>-11<num>10</num> 12<num>8</num> 13<num>10</num>-15<num>10</num>
+                            16<num>12</num> 17<num>10</num>-20<num>10</num> 21<num>8</num></collation>.</p>
+
+                <p function="Additions">Old list of contents (<date>xv</date>) on f. <locus>iiv</locus>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a + i-ii + 1-202 + b</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="20v">
+
+                        <head type="CCC">
+                            <name type="author">Tholomaeus de Fiadonis Lucanus</name>, <title>De iurisdictione imperii
+                                et auctoritate summi pontificis</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Libellus super papae ac imperii potestate, a quodam <name type="person"
+                                    >Valentissimo</name> juris utriusque doctore, qui humilitatis causa nomen suum non
+                                expressit scolastico more, Anno Domini <date>1442</date></title>
+                        </head>
+
+                        <rubric locus="1r">Incipit tabula sequentis libelli super pape ac imperii potestate etc. ...
+                            scolastico more et compendiose compositi in quo multanotanda</rubric>
+                        <ab>Text</ab>
+                        <incipit locus="2r">Quoniam apud multos vertitur in dubium de iurisdictione imperii quid sit
+                            tenendum</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="18v">falli vel obumbrari non potest. qui est benedictus in secula seculorum
+                            amen</explicit>
+                        <rubric locusNew="18v">Explicit breuis libellus et utilis de iurisdictione imperii et
+                            auctoritate summi pontificis. Anno domini <date>1441</date></rubric>
+                        <ab>ff. <locus>19r</locus>-<locus>20v</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="21r" locusEnd="54v">
+
+                        <head type="CCC">
+                            <name type="author">Iohannes de Turrecremata (Juan de Torquemada) OP (attrib.)</name>,
+                                <title>Responsio ad quosdam errores Basiliensium</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Responsio facta per reverendissimum patrem et dominum, dominum <name type="person"
+                                    >Iohannem de Turre-cremata</name>, tituli <name type="person">S. Sixti</name>
+                                presbiterum cardinalem ad quosdam errores Basiliensium, Anno Domini
+                                <date>1439</date></title>
+                        </head>
+
+                        <incipit locus="21r">Notastis. Teneo superiori die pro uestra sapientia et humanitate</incipit>
+                        <ab locusNew="21r">
+                            <decoNote>A pretty initial in pen work washed with colour</decoNote>
+                        </ab>
+                        <explicit locusNew="53r">fontalis origo pro assistentia gracie sue in secula benedictus.
+                            Amen</explicit>
+                        <rubric locusNew="53r">Explicit responsio facta per <name type="person">magistrum Johanem de
+                                turre cremata</name> sacri et apostolici pallatii magistrum nunc reuerendissimum patrem
+                            ac dominum cardinalem tituli <name type="person">S. Sixti</name>. Anno incarnationis domini
+                                <date>1439</date>. Laus deo alleluya. Amen</rubric>
+                        <ab>f. <locus>53v</locus>-<locus>54r</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="55r" locusEnd="112v">
+
+                        <head type="CCC">
+                            <name type="author">Iohannes Franciscus</name>, <title>Tractatus super diuersis questionibus
+                                inter <name type="person">papam Eugenium IV</name> et concilium Basiliense</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Tractatus <name type="author">Iohannis Francisci</name> in oppido <name type="place"
+                                    >Norinbergensi</name> absolutus dum legationis officio fungeretur, super diversis
+                                questionibus seu ambiguitatibus inter sanctissimum dominum nostrum <name type="person"
+                                    >papam Eugenium IV.</name> et concilium Basiliense Anno Domini <date>1439</date>:
+                                una cum responsione Basiliensium contra decretum Moyses sanctissimi <name type="person"
+                                    >domini Eugenii</name> predicti</title>
+                        </head>
+
+                        <rubric locus="55r">Absoluit tractatum sequentem <name type="author">Johannis Francisci</name>
+                            in opido <name type="place">norinbergensi</name> dum legationis officio fungeretur super
+                            diuersis questionibus seu ambiguitatibus inter sanctissimum dominum nostrum <name
+                                type="person">papam Eugenium 4<abbr rend="superscript">tum</abbr></name> et concilium
+                            basiliense</rubric>
+                        <incipit locusNew="55r">Virtute decreti constantiensis ordinatum fuit tempore martini quarti in
+                            ciuitate basilee concilium celebrari</incipit>
+                        <explicit locusNew="108v">nec unum venit sub nomine alterius ut dixi</explicit>
+                        <rubric locusNew="108v">Explicit</rubric>
+                        <rubric locusNew="108v">Ego <name type="author">Iohannis Francisci</name> absolui in opido <name
+                                type="place">norinbergensi</name> dum legationis officio pro sede apostolica fungerer.
+                            Anno domini <date>millesimo quadringentesimo Tricesimo Nono. decima mens.
+                            Februarum</date></rubric>
+                        <ab>ff. <locus>109r</locus>-<locus>112v</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="4" locusStart="113r" locusEnd="154v">
+
+                        <head type="CCC">
+                            <name type="author">Iohannes de Turrecremata (Juan de Torquemada) OP (attrib.)</name>,
+                                <title>Responsio inuectiua ad decretum iustissimae dampnations Basiliensium</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Responsio R. P. et D. <name type="person">domini cardinalis S. Sixti</name>, alias
+                                    <name type="person">de Turre-cremata</name> vulgariter nuncupati, invectiva ad
+                                decretum justissimae dampnationis Basiliensium</title>
+                        </head>
+
+                        <incipit locus="113r">Dissimulare non possum quod pertinet ad omnes qui diligunt nomen
+                            christi</incipit>
+                        <explicit locusNew="147v">caput ecclesie et salus corporis eius qui est per secula benedictus
+                            Amen</explicit>
+                        <rubric locus="147v">Responsio Basiliensium contra decretum Moyses <name type="person"
+                                >sanctissimi domini nostri Eugenii</name> diuina prouidencia pape Quarti</rubric>
+                        <incipit locusNew="147v"><name type="person">Beatus hieronimus</name> cum lumine ueritatis
+                            salubri</incipit>
+                        <ab>Ends f. <locus>153r</locus></ab>
+                        <ab>ff. <locus>153v</locus>-<locus>154v</locus> blank</ab>
+
+                    </msItem>
+
+
+                    <msItem n="5" locusStart="155r" locusEnd="202v">
+
+                        <head type="CCC">
+                            <name type="author">Iohannes de Turrecremata (Juan de Torquemada) OP (attrib.)</name>,
+                                <title>Summa de ecclesia contra impugnatores potestatis summi pontificis</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Idem de potestate papae et concilii generalis</title>
+                        </head>
+
+                        <rubric locus="155r">Incipit prologus huius tractatus de potestate pape et concilii generalis
+                            per reuerendissimum patrem et dominum dominum <name type="person">Cardinalem S. Sixti</name>
+                            compendiose ob plurium super diuersitate eorundem auctoritate errancium veri intellectus
+                            reductionem ad instanciam SS. <name type="person">domini nostri Eugenii pape 4</name><abbr
+                                rend="superscript">ti</abbr> reuera compositi: notate lectores</rubric>
+                        <incipit locusNew="155r">Quamuis ut ait beatiss. hieronimus grandes materias ingenia parua non
+                            sufferant</incipit>
+                        <ab>There are a good many marginalia to this tract in a <origDate>xvi</origDate>th cent.
+                            hand</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="202r">determinationi <name type="person">SS. domini nostri pape quarti</name>
+                            et sacrosancte Romane ecclesie. et sic dicta sufficiant. deo laus</explicit>
+                        <rubric locusNew="202r">Explicit</rubric>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, BA, CF</p>
+                            <p>msCheck: NJC 2/12/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,227 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC426">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>426</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>N. 30</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>192</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Coluccio Salutati, De fato et fortuna. Roger Bacon OFM, Opus maius (extract). Bede the
+                    Venerable, De locis sanctis. Mandeville's Travels (extract)</head>
+                <head type="James">Colucius Pierius de fato. Bacon, Beda, Joh. Mandeville</head>
+                <p function="Codicology"><material>Vellum and paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">199</height>
+                        <width unit="mm">136</width>
+                    </measureGrp>, <measureGrp type="James">7.9 x 5.5</measureGrp>, <extent>ff. 2 + 83 + 75 +
+                    1</extent>, <layout>two volumes</layout>. Cent. <origDate>xv and xiv late</origDate>.</p>
+
+
+                <p function="Multivolume"><lb/><label>Volume I:</label>
+                    <material>Vellum</material>, <handNote>in a fine close round Italian Gothic hand</handNote>,
+                        <layout>25 lines to a page</layout>. Cent. <origDate>xv</origDate>. <lb/><label>Volume
+                        II:</label> ff. <locus>1</locus>-<locus>71</locus>
+                    <material>paper</material>, <locus>72</locus>-<locus>75</locus>
+                    <material>vellum</material>. <handNote>A small hand, neat</handNote>; <layout>30-31 lines to a
+                        page</layout>. Cent. <origDate>xv</origDate>, headed: Ad mea principia sistant Ihesus que
+                    maria.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num>, 1<num>8</num>-10<num>8</num> 11 (three) | A<num>12</num>-F<num>12</num>
+                        (wants 12) G<num>4</num>, 1 flyleaf</collation>.</p>
+
+
+                <p>
+                    <label>2 fo.:</label>
+                    <lb/>
+                    <label>Volume I:</label>
+                    <secFol>monasterii</secFol>.<lb/>
+                    <label>Volume II:</label>
+                    <secFol>continuat</secFol>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a + i-ii + 1-158 + iii + b-c</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+                    <milestone n="I" unit="volume"/>
+                    <msItem n="1" locusStart="1r" locusEnd="83v">
+                        <head type="CCC">
+                            <name type="author" key="Coluccio-001">Coluccio Salutati</name>, <title>De fato et
+                                fortuna</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author" key="Coluccio-001">Colutii Pierrii Salutati</name> de fato et
+                                fortuna liber ad Felicem abbatem monasterii sancti Salvatoris de Septimo ordinis
+                                Cistersiensis</title>
+                        </head>
+                        <rubric locus="1r"><name type="author" key="Coluccio-001">Colutii Pieri Salutati</name> de fato
+                            et fortuna liber incipit ad felicem Abbatem monasterii sancti Saluatoris de Septimo ordinis
+                            cistersiensis. Et primo prohemium</rubric>
+                        <incipit locusNew="1r">Quotidianum esse uidemus et communiter</incipit>
+                        <explicit locusNew="2r">ne cum nimis ignorantia creuerit cecus fiam</explicit>
+                        <rubric locusNew="2r">Explicit prohemium</rubric>
+                        <rubric locus="2r">Incipit tractatus de ordine causarum. Capitulum unum et trattatus primus.
+                            Rubrica</rubric>
+                        <incipit locusNew="2v">Instituenti michi tractatum et sermonem de fato</incipit>
+                        <ab locus="7r">Tractatus II de fato</ab>
+                        <ab locus="39r"><supplied>Tractatus</supplied> III, de fortuna</ab>
+                        <ab locus="79v"><supplied>Tractatus</supplied> IV</ab>
+                        <ab locus="81r"><supplied>Tractatus</supplied> V</ab>
+                        <ab locus="82v">ending</ab>
+                        <explicit locus="82v">si tibi placuero non mihi uidebor laborem et operam perdidisse</explicit>
+                        <ab locus="83r">blank</ab>
+                        <ab>Not printed. <ref type="bibl" target="Tiraboschi 1787-94">Tiraboschi V</ref> 575</ab>
+                    </msItem>
+                    <milestone n="II" unit="volume"/>
+                    <msItem n="2" locusStart="84r" locusEnd="133r">
+                        <head type="CCC">
+                            <name type="author" key="RogerBac-001">Roger Bacon OFM</name>, <title>Opus maius (extract
+                                from part 4)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Tractatus fratris <name type="author" key="RogerBac-001">Rogeri Bacon</name> in
+                                quinta parte mathematicae de situ orbis</title>
+                        </head>
+                        <rubric locus="1r" locusNew="84r">Tractatus fratris <name type="author" key="RogerBac-001"
+                                >Rogeri Bacon</name> in quinta parte mathamatice de situ orbis</rubric>
+                        <incipit locusNew="84r">Postquam declaratum est quomodo mathamatica potenter requiritur ad
+                            philosophiam et theologiam ac dei ecclesiam</incipit>
+                        <ab>On f. <locus locusNew="119r">36r</locus> is scribbled <name type="person">Wyllym
+                                bentoll</name>: and</ab>
+                        <ab locus="36r" locusNew="119r"> Goodman freman thys ys to tel you my that (?) <name
+                                type="person">Jhon</name> ... </ab>
+                        <ab>Ends</ab>
+                        <explicit locus="50r" locusNew="133r">Hec igitur est historia quam volui hic texere secundum
+                            experienciam naturalium et itenerancium de locis et gentibus tocius habitabilis</explicit>
+                        <rubric locusNew="133r">Benedicta sit Sancta Trinitas</rubric>
+                    </msItem>
+
+
+                    <msItem n="3" locusStart="133r" locusEnd="138r">
+                        <head type="CCC">
+                            <name type="author" key="Bedexxxx-001">Bede the Venerable</name>, <title>De locis
+                                sanctis</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author" key="Bedexxxx-001">Beda</name> sanctus presbiter venerabilis de
+                                situ terrae sanctae</title>
+                        </head>
+                        <rubric locus="50r" locusNew="133r"><name type="author" key="Bedexxxx-001">Beda</name> Sanctus
+                            presbiter venerabilis de situ terre sancte</rubric>
+                        <incipit locusNew="133r">Situs urbis<!--Corrected from orbis by James Corrigenda-->
+                            <name type="place">Jherusalem</name> pene in orbem circumcinctus</incipit>
+                        <ab>(<ref type="bibl" target="Migne 094"><supplied>P. L.</supplied> XCIV</ref> 1179, <ref
+                                type="bibl" target="Migne 173"><supplied>P. L.</supplied> CLXXIII</ref> 1117)</ab>
+                        <explicit locusNew="138r">lacunoso sermone describens tribus libellis comprehendit</explicit>
+                    </msItem>
+
+                    <msItem n="4" locusStart="138r" locusEnd="155v">
+                        <head type="CCC">
+                            <name type="author">Jean le Long OSB (attrib.)</name>, <title>The travels of <name
+                                    type="person">Sir John Mandeville</name> (extract)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Iohannes Maundevile</name> de itinere et de situ terrae sanctae
+                                cum mappa <name type="place">Ierosolymae</name> et regionis adjacentis</title>
+                        </head>
+                        <rubric locus="55r" locusNew="138r"><name type="author">Iohannes maundeuile</name> de itinere et
+                            de situ terre sancte</rubric>
+                        <incipit locusNew="138r">Extractus Itinerarii <name type="author">Joh. Maundeuile</name> militis
+                            de <name type="place">S. Albano</name> qui iter suum incepit in die S. michaelis archangeli
+                            a. d. <date>mill<abbr rend="superscript">o</abbr> ccc xxii<abbr rend="superscript"
+                                >o</abbr></date> tempore Regis <name type="person">Eduardi secundi</name> et
+                            peregrinatus est xxx iiii<abbr rend="superscript">or</abbr> annis. Qui de partibus
+                            occidentis videlicet de <name type="place">anglia</name> ... desiderat visitare terram
+                            sanctam potest si voluerit transire, etc.</incipit>
+                        <explicit locus="71v" locusNew="154v">Ex quo patet quot miliaria sunt ad infernum ponendo
+                            infernum in centro terre</explicit>
+                        <ab locus="71v" locusNew="154v">Secundum <name type="person">S. Jeronimum</name> ep. 50 ad <name
+                                type="person">Dardanum</name> (dimensions of Holy Land: 6 lines)</ab>
+                        <ab locus="72r" locusNew="155r">
+                            <decoNote>A map of the Holy Land showing <name type="place">Jerusalem</name>, principally,
+                                as a circular city with battlemented wall</decoNote>
+                        </ab>
+                        <ab locus="72v" locusNew="155v">A note: on Urbis situs, ab aquilone <name type="place">montem
+                                Syon</name>, etc.</ab>
+                    </msItem>
+
+                    <msItem n="5" locusStart="156r" locusEnd="158v">
+                        <head type="CCC">
+                            <title>Extract from a description of the Holy Land</title>
+                        </head>
+                        <ab locus="73r" locusNew="156r">Tract without title</ab>
+                        <incipit locusNew="156r">Secundum <name type="person">ptholomeum</name> una linea debet
+                            imaginari transiens ab oriente in ocidens, etc.</incipit>
+                        <explicit locus="75v" locusNew="158v">Ad 7. miliaria ab ascolone ad 12 a <name type="place"
+                                >Joppe</name> sita est ciuitas <name type="place">Jerusalem</name> metropolis <name
+                                type="place">Judee</name></explicit>
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: KW 20/05/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

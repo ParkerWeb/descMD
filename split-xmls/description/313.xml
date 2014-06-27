@@ -1,0 +1,465 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC313">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>313</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>N. 41</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>205</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Lucius Annaeus Florus, Epitoma de Tito Livio. Historia actuum apostolorum. Ralph de
+                    Diceto, Opuscula</head>
+                <head type="James">Florus. Rad. de Diceto</head>
+
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">240</height>
+                        <width unit="mm">175</width>
+                    </measureGrp>, <measureGrp type="James">9.4 x 6.8</measureGrp>, <extent>ff. 2 + 34 + 74 +
+                    2</extent>, <layout>two volumes</layout> of cent. <origDate>xii-xiii</origDate>, <handNote>both well
+                        written</handNote>.</p>
+
+
+                <p function="Multivolume"><lb/><label>Volume II:</label>
+                    <layout>Mostly double columns of 29 lines</layout>, <handNote>in rather pointed
+                    script</handNote></p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num>, I<num>8</num>-IV<num>8</num> | gap | VII<num>2</num> ||
+                            1<num>8</num>-5<num>8</num> 6<num>6</num> 7<num>8</num>-10<num>8</num> (wants 5-8) | 2
+                        flyleaves</collation>.</p>
+
+                <p>
+                    <label>2 fo.:</label>
+                    <lb/>
+                    <label>Volume I:</label>
+                    <secFol>fratre pulso</secFol>.<lb/>
+                    <label>Volume II:</label>
+                    <secFol>anno dominice</secFol>.</p>
+
+
+                <p function="Additions">On f. <locus>iv</locus> (<origDate>xvii</origDate>): <q>Idem etiam manu exaratus
+                        reperitur in Biblioth. Bodleiana</q>. </p>
+
+                <p function="Additions">On f. <locus>iiv</locus> (<origDate>xvi</origDate>) the prologue to <name
+                        type="author">Florus</name> recopied.</p>
+                <p function="Additions">On f. <locus>1r</locus> in L. upper corner in very faint red chalk is a name
+                    which I think reads: <q>
+                        <name type="person">mr Byny</name>
+                    </q>. </p>
+
+                <p type="CCC">
+                    <foliation>ff. a + i-ii + 1-108 + iii-iv + b</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="enm">Latin with Middle English verse in margin of f.
+                        107v.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="1r" locusEnd="1r">
+                        <head type="CCC">
+                            <name type="author">Lucius Annaeus Florus</name>, <title>Epitoma de <name type="person">Tito
+                                    Livio</name> (prologue)</title>
+                        </head>
+
+                        <rubric locus="1r">Incipiunt capitula libri primi</rubric>
+                        <ab>(xxx)</ab>
+                        <rubric locusNew="1r">Incipit prologus</rubric>
+                        <incipit locusNew="1r">(A)nno xiii<abbr rend="superscript">e</abbr> olimpiadis <name
+                                type="author">lucius anneus melas</name> frater senece</incipit>
+                        <explicit locusNew="1r">nec laudatius hoc <name type="author">anneo</name> aliquid componere
+                            potuit</explicit>
+
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="1r" locusEnd="34v">
+                        <head type="CCC">
+                            <name type="author">Lucius Annaeus Florus</name>, <title>Epitoma de <name type="person">Tito
+                                    Livio</name></title>
+                        </head>
+
+                        <rubric locusNew="1r"><name type="author">Annei Flori</name> epitoma de <name type="person">tito
+                                liuio</name>. Incipit liber I historiarum Romanarum</rubric>
+                        <incipit locusNew="1r">Populus romanus a <name type="person">rege Romulo</name></incipit>
+                        <ab locus="19" locusNew="10r">Liber II</ab>
+                        <ab locus="41" locusNew="21r"><supplied>Liber</supplied> III</ab>
+                        <ab>In III 20 is a gap after p. <locus locusNew="32v">64</locus> of the MS. which ends</ab>
+                        <explicit locusNew="32v">funera imperatoriis celebrauit</explicit>
+                        <ab>Text continues with IV 12</ab>
+                        <incipit locus="65" locusNew="33r">uincere tanti non putasset</incipit>
+                        <ab>ending</ab>
+                        <explicit locus="68" locusNew="34v">ipso nomine et titulo consecraretur</explicit>
+                        <ab>(IV 12 fin.)</ab>
+
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="3" locusStart="35r" locusEnd="108v">
+                        <head type="CCC">
+                            <name type="author">Ralph de Diceto</name>, <title>Opuscula</title>
+                        </head>
+                        <ab>A copy of the Opuscula of <name type="author">Radulfus de Diceto</name>, printed in <ref
+                                type="bibl" target="Stubbs 1876b">Vol. II of the Rolls edition</ref>. The best MS. is
+                            that at <ref type="ms" target="LBL007">Ripley in Yorkshire belonging to the Ingilby
+                                family</ref>. References are here given to the Rolls edition</ab>
+                        <incipit locus="1r" locusNew="35r">Hii fuerunt christi discipuli qui dum omnes unum sunt singuli
+                            tamen eorum propriis certisque locis</incipit>
+
+                        <ab>(The Twelve with <name type="person">Paul</name> and <name type="person">Barnabas</name>,
+                                <name type="person">Matthias</name> instead of <name type="person">Judas</name>)</ab>
+
+                        <incipit locusNew="35r"><name type="person">Anna</name> et <name type="person">emeria</name>
+                            fuerunt sorores. De <name type="person">emeria</name> nata est <name type="person"
+                                >elyzabeth</name>
+                        </incipit>
+                        <explicit locusNew="35v">summa omnium annorum etatis <name type="person">beate marie</name>
+                            quando obiit fuit lxiii anni</explicit>
+                        <ab locus="1v" locusNew="35v">
+                            <decoNote>A scribbled diagram of the genealogy (<origDate>xv-xvi</origDate>)</decoNote>
+                        </ab>
+                        <ab>
+                            <supplied> Historia actuum apostolorum </supplied>
+                        </ab>
+                        <rubric locus="1v" locusNew="35v"><name type="author">Petrus pictauensis</name> super actus
+                            apostolorum</rubric>
+                        <incipit locusNew="35v">Non te moueat si quando legatur conuersio</incipit>
+                        <rubric locus="2r" locusNew="36r">De tribus uiris <name type="person">anne</name></rubric>
+                        <rubric locus="2r" locusNew="36r">Item de <name type="person">anna</name> et filiis
+                            eius</rubric>
+                        <rubric locus="2r" locusNew="36r"><name type="author">Beda</name> de compoto manuali</rubric>
+                        <incipit locusNew="36r">De numero dicturi necessarium diximus</incipit>
+                        <explicit locusNew="36v">eandem suppinam femori superpones</explicit>
+                        <rubric locus="2v" locusNew="36v">De regibus <name type="place">Anglie</name> quot annis
+                            regnauerunt et nominibus eorum</rubric>
+                        <incipit locusNew="37r"><name type="person">Kinethilsus</name> rex regnauit xxix annis</incipit>
+                        <explicit locusNew="37r"><name type="person">Haroldus</name> filius Godewini regnauit xl
+                            ebd.</explicit>
+                        <rubric locus="3r" locusNew="37r">De regibus <name type="place">anglie</name> qui de Normannis
+                            uenerunt</rubric>
+                        <incipit locusNew="37r">
+                            <name type="person">Willelmus bastard</name>
+                        </incipit>
+                        <explicit locusNew="37v"><name type="person">Johannes</name> rex anglie regnauit. <name
+                                type="person">Henricus</name> rex filius Iohannis regis (erased)</explicit>
+                        <ab>Most of <locus locusNew="37v">3v</locus> blank, and col. 1 of <locus locusNew="38r"
+                                >4r</locus></ab>
+                        <rubric locus="4r" locusNew="38r">De duplici potestate</rubric>
+                        <ab>
+                            <ref type="bibl" target="Stubbs 1876b">Rolls II, p. 180</ref>
+                        </ab>
+                        <incipit locusNew="38r">Apostolus ait. Omnis anima potestatibus subdita sit</incipit>
+                        <explicit locusNew="38v">per orbem terrarum predicabilem effecerunt</explicit>
+                        <rubric locus="4v" locusNew="38v">De prelatis ecclesiarum incipiunt capitula</rubric>
+                        <incipit locusNew="38v">De summis pontificibus</incipit>
+                        <explicit locusNew="38v">De fundatoribus ecclesiarum tempore britonum tempore anglorum tempore
+                            danorum</explicit>
+                        <ab>The account of the Popes is preceded by sections <q>De cesaribus</q></ab>
+                        <incipit locusNew="39r">Ab <name type="person">Apostolo petro</name> decursis
+                            successoribus</incipit>
+                        <rubric locusNew="40r">Prologus</rubric>
+                        <incipit locusNew="40r">Annum ab eo die quo <name type="person">petrus</name>
+                            <name type="place">rome</name> primo cathedram</incipit>
+                        <ab>(<ref type="bibl" target="Stubbs 1876b"><supplied>Stubbs,</supplied> p. 184</ref>)</ab>
+                        <ab locusNew="40v">List of Popes with regnal years. Ends with <name type="person">Innocent
+                                III</name>. <handNote>A later hand</handNote> adds <name type="person">Honorius</name>
+                            etc. to <name type="person">Clement IV</name></ab>
+                        <explicit locusNew="43v">Hic contulit episcopatum <name type="person">Nicholai de
+                            Eli</name></explicit>
+                        <ab locusNew="43v"><handNote>Alia manu</handNote>, erasure.</ab>
+                        <explicit locusNew="43v">Hic contulit episcopatum <name type="person">Johanni de Nontosye (or
+                                Pont-)</name></explicit>
+                        <ab locus="10r" locusNew="44r">Further notes on Popes and Schismatic Popes (<ref type="bibl"
+                                target="Stubbs 1876b"><supplied> Stubbs, </supplied> p. 192</ref>)</ab>
+
+                        <ab>Ending</ab>
+
+                        <explicit locus="11v" locusNew="45v">
+                            <name type="person">Guido de crema</name> jo et hannes sunt anathema. Non puto peccaui nec
+                            falso gramaticaui. Scismatici praui si nomen scismaticaui </explicit>
+                        <ab>(<ref type="bibl" target="Stubbs 1876b"><supplied> Stubbs, </supplied> p. 195 note</ref>:
+                            cf. <ref type="ms" target="CCC059">MS 59. 7</ref>)</ab>
+                        <ab locus="11v" locusNew="45v">Note in red on English dioceses (<ref type="bibl"
+                                target="Stubbs 1876b"><supplied> Stubbs, </supplied> p. 195</ref>)</ab>
+                        <incipit locusNew="45v"><name type="person">Augustinus</name> anglorum temporibus a <name
+                                type="person">gregorio papa</name> directus</incipit>
+                        <explicit locusNew="45v">superfusus tibi signanter ostendet</explicit>
+
+                        <ab locus="12v" locusNew="45v">Archbishops of <name type="place">Canterbury</name> to <name
+                                type="person">Hubertus Sarisberiensis Episcopus</name>
+                            <supplied>(f. <locus>46v</locus>)</supplied> (<ref type="bibl" target="Stubbs 1876b"
+                                    ><supplied> Stubbs, </supplied> p. 196</ref>)</ab>
+                        <ab locus="12v" locusNew="46v">Bishops of <name type="place">London</name> to <name
+                                type="person">Willelmus II</name></ab>
+                        <ab locus="13r" locusNew="47r">Bishops of <name type="place">Winchester</name> to <name
+                                type="person">Godefridus</name> and <name type="person">Petrus</name>. Later hands
+                            continue to <name type="person">Thomas Langton</name></ab>
+                        <ab locus="13r" locusNew="47r">Bishops of <name type="place">Salisbury</name> to <name
+                                type="person">Herebertus</name>. <name type="person">Ricardus</name> and <name
+                                type="person">Robertus</name> added</ab>
+                        <ab locus="13v" locusNew="47v">Bishops of <name type="place">Worcester</name> to <name
+                                type="person">Malgerus</name>. <name type="person">Walter</name>, <name type="person"
+                                >Silvester</name>, <name type="person">William</name> added</ab>
+                        <ab locus="14r" locusNew="48r">Bishops of <name type="place">Lincoln</name> to <name
+                                type="person">Hugo (II)</name></ab>
+                        <ab locus="14r" locusNew="48r">Bishops of <name type="place">Ely</name> to <name type="person"
+                                >Eustace</name></ab>
+                        <ab locus="14v" locusNew="48v">Bishops of <name type="place">Bath</name> to <name type="person"
+                                >Jocelin</name></ab>
+                        <ab locus="15r" locusNew="49r">Bishops of <name type="place">Chester</name> to <name
+                                type="person">Galfridus</name></ab>
+                        <ab locus="15r" locusNew="49r">Bishops of <name type="place">Norwich</name> to <name
+                                type="person">John (II)</name></ab>
+                        <ab locus="15v" locusNew="49v">Bishops of <name type="place">Chichester</name> to <name
+                                type="person">Simon</name></ab>
+                        <ab locus="16r" locusNew="50r">Bishops of <name type="place">Exeter</name> to <name
+                                type="person">Henry</name>. <name type="person">Simon</name> added</ab>
+                        <ab locus="16v" locusNew="50v">Bishops of <name type="place">Hereford</name> to <name
+                                type="person">Egidius</name></ab>
+                        <ab locus="17r" locusNew="50v">Bishops of <name type="place">York</name> apparently to <name
+                                type="person">Galfridus</name></ab>
+
+                        <ab locusNew="51r">Interrupted by a repetition of the <name type="place">Worcester</name>
+                            Bishops to <name type="person">Malgerus</name></ab>
+                        <ab locus="17v" locusNew="51v">Bishops of <name type="place">Durham</name> to <name
+                                type="person">Philippus</name></ab>
+                        <ab locus="18r" locusNew="52r">Bishops of <name type="place">Ely</name> again to <name
+                                type="person">Eustace</name></ab>
+
+                        <rubric locus="18r" locusNew="52r">Regibus francorum et Anglorum in campo dimicantibus cui
+                            uictoria cesserit audiens in sequentibus</rubric>
+                        <ab>(<ref type="bibl" target="Stubbs 1876b"><supplied> Stubbs, </supplied> p. 277</ref>)</ab>
+                        <incipit locusNew="52r">Annus ab incarnatione domini m<abbr rend="superscript">us</abbr> c<abbr
+                                rend="superscript">us</abbr> xix<abbr rend="superscript">us</abbr> tunc temporis
+                            effluebat</incipit>
+
+                        <explicit locusNew="52v">gesta sunt hec prope uillam que uocatur <name type="place"
+                                >estrepeni</name></explicit>
+                        <ab locus="18v" locusNew="52v">Note on Palls of Archbishops (<ref type="bibl"
+                                target="Stubbs 1876b"><supplied> Stubbs, </supplied> p. 208</ref>)</ab>
+                        <ab locus="19r" locusNew="53r">Popes and Archbishops (to <name type="person">Innocent
+                            III</name>) (<ref type="bibl" target="Stubbs 1876b"><supplied> Stubbs, </supplied> p.
+                                208</ref>)</ab>
+                        <ab locus="20r" locusNew="54r">Bishops of <name type="place">Rochester</name> to <name
+                                type="person">Gilibertus</name> (<ref type="bibl" target="Stubbs 1876b"><supplied>
+                                    Stubbs, </supplied> p. 210</ref>)</ab>
+                        <ab locus="20v" locusNew="54v">Founders of Churches (<ref type="bibl" target="Stubbs 1876b"
+                                    ><supplied> Stubbs, </supplied> p. 210</ref>)</ab>
+
+                        <incipit locusNew="54v">
+                            <name type="place">Ecclesia Sancte Trinitatis apud Cantuariam</name>
+                        </incipit>
+
+                        <explicit locusNew="55v"><name type="place">Ecclesia Sancti petri Gloecestrie</name> ab <name
+                                type="person">alredo Wigorniensi episcopo</name> fundata est</explicit>
+
+                        <ab locus="21v" locusNew="55v">Imperatores Romani ( <ref type="bibl" target="Stubbs 1876b"
+                                    ><supplied>Stubbs, </supplied> p. 213</ref>)</ab>
+                        <ab locusNew="57r">Kings of <name type="place">France</name> to <name type="person">Philip
+                                III</name>. <name type="place">Assyria</name>
+                            <supplied>(f. <locus>58v</locus>)</supplied>, <name type="place">Media</name>
+                            <supplied>(f. <locus>59r</locus>)</supplied>, <name type="place">Persia</name>
+                            <supplied>(f. <locus>59r</locus>)</supplied>, Goths <supplied>(f.
+                                <locus>59v</locus>)</supplied></ab>
+                        <rubric locus="26r" locusNew="60r">Incipiunt annales de gestis britonum de gestis saxonum de
+                            gestis danorum. de gestis normannorum, prologus</rubric>
+                        <incipit locusNew="60v">Ad expediendas regni necessitates</incipit>
+                        <ab>( <ref type="bibl" target="Stubbs 1876b"><supplied>Stubbs, </supplied> p. 222
+                            note</ref>)</ab>
+                        <incipit locus="26v" locusNew="60v"><name type="person">Brutus</name> genere troianus</incipit>
+                        <ab>( <ref type="bibl" target="Stubbs 1876b"><supplied>Stubbs, </supplied> p. 222</ref>)</ab>
+
+                        <explicit locusNew="66v">preponatur in serie</explicit>
+                        <ab locus="32v" locusNew="66v">Lists of Kings ( <ref type="bibl" target="Stubbs 1876b"
+                                    ><supplied>Stubbs, </supplied> p. 233</ref>)</ab>
+                        <ab>The account of <name type="person">John</name> ( <ref type="bibl" target="Stubbs 1876b"
+                                    ><supplied>Stubbs, </supplied> p. 239 note</ref>) <handNote>is finished in another
+                                hand and later hands add notices of <name type="person">Henry III</name> and <name
+                                    type="person">Edward I</name></handNote></ab>
+                        <incipit locus="37v" locusNew="71v">Nequid nobis desit</incipit>
+                        <ab>( <ref type="bibl" target="Stubbs 1876b"><supplied>Stubbs, </supplied> p. 240</ref>)</ab>
+                        <rubric locus="38r" locusNew="72r">Ab enumeratione regnorum</rubric>
+                        <ab>( <ref type="bibl" target="Stubbs 1876b"><supplied>Stubbs, </supplied> p. 241</ref>): in
+                            red</ab>
+                        <rubric locus="38v" locusNew="72v">Comites andegauorum</rubric>
+                        <ab>( <ref type="bibl" target="Stubbs 1876b"><supplied>Stubbs, </supplied> p. 267</ref>)</ab>
+                        <ab>These articles precede the Roman annals as in <ref type="ms" target="LBLFA9">Faust. A.
+                                9</ref></ab>
+                        <rubric locus="39v" locusNew="74r">De synodis</rubric>
+                        <ab>( <ref type="bibl" target="Stubbs 1876b"><supplied>Stubbs, </supplied> p. 270</ref>)</ab>
+                        <rubric locus="41r" locusNew="75r">Decursis per ordinem</rubric>
+                        <ab>( <ref type="bibl" target="Stubbs 1876b"><supplied>Stubbs, </supplied> p. 275</ref>)</ab>
+                        <rubric locusNew="76r">Epitaphium <name type="person">Roberti Wiscardi</name></rubric>
+
+                        <rubric locus="42r" locusNew="76r">Incipit abreuiatio de gestis normannorum</rubric>
+                        <ab>( <ref type="bibl" target="Stubbs 1876b"><supplied>Stubbs, </supplied> p. 241</ref>)</ab>
+                        <ab>to <ref type="bibl" target="Stubbs 1876b"><supplied>Stubbs, </supplied> p. 267</ref> (Primus
+                            in <name type="place">Apulia</name>) and adds on <locus locusNew="92v">58v</locus> a
+                            section</ab>
+                        <rubric locusNew="92v">de <name type="person">karolo simplice</name></rubric>
+                        <ab>( <ref type="bibl" target="Stubbs 1876b"><supplied>Stubbs, </supplied> p. 278</ref>)</ab>
+                        <rubric locus="59r" locusNew="93r">De uiris illustribus</rubric>
+                        <ab>(<ref type="bibl" target="Stubbs 1876a">
+                                <supplied>Stubbs</supplied> I, p. 20</ref>)</ab>
+                        <incipit locusNew="93r"><name type="person">Pompeius</name> a tempore <name type="person"
+                                >Nini</name></incipit>
+                        <rubric locus="60v" locusNew="94v">Nomina regionum xi</rubric>
+                        <ab>(<ref type="bibl" target="Stubbs 1876a">
+                                <supplied>Stubbs</supplied> I 6</ref>)</ab>
+                        <incipit locus="62v" locusNew="96v"><name type="person">Iohanni</name> prime sedis ecclesie
+                            lugdunensis</incipit>
+                        <ab>(<ref type="bibl" target="Stubbs 1876a">
+                                <supplied>Stubbs</supplied> I 5</ref>)</ab>
+                        <ab locus="62v" locusNew="96v"><name type="person">Iohannes</name> – <name type="author">Radulfo
+                                de diceto</name></ab>
+
+                        <incipit locus="63r" locusNew="97r">Intra decem et septem prouincias galliarum</incipit>
+                        <rubric locus="63r" locusNew="97r"><name type="person">Iulius cesar</name> de narratione
+                            temporum</rubric>
+                        <ab>(<ref type="bibl" target="Stubbs 1876a">
+                                <supplied>Stubbs</supplied> I 24</ref>)</ab>
+                        <incipit locusNew="97r"><name type="place">Gallia</name> est omnis diuisa</incipit>
+
+                        <explicit locusNew="97v">sole laxantur</explicit>
+                        <rubric locus="63v" locusNew="97v">Prologus <name type="person">Iosephi</name></rubric>
+                        <ab>(<ref type="bibl" target="Stubbs 1876a">
+                                <supplied>Stubbs</supplied> I 25</ref>)</ab>
+                        <incipit locus="63v" locusNew="97v">Fili sapientia thesaurus est</incipit>
+                        <ab>(<ref type="bibl" target="Stubbs 1876a">
+                                <supplied>Stubbs</supplied> I 31</ref>. <name type="author">Hugo de S.
+                            Victore</name>)</ab>
+                        <rubric locus="64r" locusNew="98r"><name type="author">Beda</name> de situ britannie</rubric>
+                        <ab>(<ref type="bibl" target="Stubbs 1876a">
+                                <supplied>Stubbs</supplied> I 30</ref>)</ab>
+                        <ab locusNew="98v">Ending with note on the Roman roads (<ref type="bibl" target="Stubbs 1876a">
+                                <supplied>Stubbs</supplied>
+                            </ref> I 15 note)</ab>
+                        <explicit locusNew="98v">Primus ab oriente in occidentem et uocatur <name type="place"
+                                >hychenild</name> ... et uocatur <name type="place">fussa</name> tenditque per <name
+                                type="place">lincolniam</name></explicit>
+
+                        <rubric locus="64v" locusNew="98v">Commendatio <name type="place">britannie</name></rubric>
+                        <ab>(<ref type="bibl" target="Stubbs 1876a">
+                                <supplied>Stubbs</supplied> I 10</ref>)</ab>
+                        <rubric locus="64v" locusNew="98v">De mirabilibus <name type="place">britannie</name></rubric>
+                        <ab>(<ref type="bibl" target="Stubbs 1876a">
+                                <supplied>Stubbs</supplied> I 11</ref>)</ab>
+                        <incipit locusNew="98v">Uentus egreditur</incipit>
+                        <ab>Arrangement differs from print: ends with the note on <name type="place">Rollright</name>
+                                (<ref type="bibl" target="Stubbs 1876a">
+                                <supplied>Stubbs</supplied> I 11 note</ref>)</ab>
+                        <incipit locus="67r" locusNew="101r">Annus ab incarnatione domini m<abbr rend="superscript"
+                                >us</abbr> c<abbr rend="superscript">us</abbr> quinquag. quartus effluebat quando <name
+                                type="person">Henricus galfridi plantagenest</name></incipit>
+                        <explicit locusNew="101r">cuius pater <name type="person">noe</name></explicit>
+                        <rubric locus="67r" locusNew="101r">De situ <name type="place">hybernie</name></rubric>
+                        <ab>(<ref type="bibl" target="Stubbs 1876a">
+                                <supplied>Stubbs</supplied> I 10</ref>)</ab>
+
+                        <rubric locusNew="101v">
+                            <date>M. C. lxxxv</date>
+                        </rubric>
+                        <incipit locus="67v" locusNew="101v">Cum <name type="person">simon comes filius simonis comitis
+                                de norhamton</name></incipit>
+
+                        <explicit locusNew="102r">gotus ostrogotus withsigotus</explicit>
+                        <rubric locus="68r" locusNew="102r">Prophetia <name type="person">Merlini</name></rubric>
+                        <incipit locusNew="102r">Sedente <name type="person">uortigenio</name></incipit>
+
+                        <explicit locusNew="107r">similiter tradidisset</explicit>
+                        <rubric locus="73r" locusNew="107r">Prophetia <name type="person">Merlini</name>
+                            Siluestris</rubric>
+                        <incipit locusNew="107r">Arbor fertilis</incipit>
+                        <rubric locusNew="107r">Item prophetia <name type="person">Merlini</name> Siluestris</rubric>
+                        <incipit locus="73r" locusNew="107r">Sicut rubeum draconem</incipit>
+                        <rubric locusNew="107v">Alia prophetia eiusdem</rubric>
+                        <incipit locus="73v" locusNew="107v">Mortuo leone iusticie</incipit>
+                        <ab>On the lower margin of <locus locusNew="107v">73v</locus>, cut, in an early hand, is</ab>
+                        <ab locusNew="107v">
+                            <lg>
+                                <l>del sal into &#447;uille and rache y&#447;urþe</l>
+                                <l>oþer sal into hyre and gedi y&#447;uþe </l>
+                                <l>þridde sal in engle al uor &#447;urþe</l>
+                            </lg>
+                        </ab>
+                        <explicit locusNew="108r">pacificato regno occidet</explicit>
+                        <rubric locus="74r" locusNew="108r">De uariis filiorum <name type="place">Israel</name>
+                            afflictionibus</rubric>
+                        <rubric locus="74r" locusNew="108r">De <name type="place">ierusalem</name> afflictionibus et
+                            subuersionibus</rubric>
+                        <explicit locusNew="108v">Anno <name type="person">macometi prophete magni</name> D.
+                            lxxviii</explicit>
+                        <ab locusNew="108v">Added:<lb/>
+                            <lg>
+                                <l>Anno <date>millenocenteno quominus uno</date></l>
+                                <l><name type="place">Ierusalem</name> franci capiunt uirtute potenti.</l>
+                                <l>Anno <date>m<abbr rend="superscript">o</abbr> c<abbr rend="superscript">o</abbr>
+                                        lxxxvii</date> subacta fuit <lb/><name type="place">ierusalem</name> a <name
+                                        type="person">saladino</name></l>
+                            </lg>
+                        </ab>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA</p>
+                            <p>msCheck: NJC 29/5/08.</p>
+                            <p>remarks: Item Historia actuum apostolorum - by Peter of Poitiers?</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,1404 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC198">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>198</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>S. 8</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>267</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Old English Homilies, mostly by &#198;lfric</head>
+
+                <head type="James">Homiliae Saxonicae (IV)</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">270</height>
+                        <width unit="mm">185</width>
+                    </measureGrp><measureGrp type="James">10.6 x 7.2</measureGrp>, <extent>ff. 2 + 394</extent>,
+                        <layout>mostly 26 but in one part 23 lines to a page</layout>. Cent. <origDate>x-xi</origDate>,
+                        <handNote>in very various hands</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num> (+ frontispiece) 2<num>8</num>-18<num>8</num> 19<num>6</num>
+                            20<num>10</num> 21<num>8</num>-24<num>8</num> 25<num>10</num> 26<num>8</num>-30<num>8</num>
+                            31<num>6</num> 32<num>8</num>-46<num>8</num> 47<num>6</num> 48<num>4</num> 49<num>8</num>
+                            50<num>10</num> (wants 10)</collation>.</p>
+
+                <p function="Provenance">From <name type="place">Worcester</name>: see below.</p>
+
+                <p function="Provenance" rend="afterContents"><handNote>The book is copiously glossed in Latin
+                        throughout, and chiefly by the same curious tremulous hand which has annotated <ref type="ms"
+                            target="CCC012">MS 12</ref> and <ref type="ms" target="CCC178">MS 178</ref></handNote>. This
+                    must mean that in cent. <date>xii</date> the three books <ref type="ms" target="CCC012">MS 12</ref>,
+                        <ref type="ms" target="CCC178">MS 178</ref> and MS 198 were in the same monastery. That the
+                    monastery in question was <name type="place">Worcester</name> admits of no doubt. See on <ref
+                        type="ms" target="CCC012">MS 12</ref>. <handNote>The same hand appears in MSS. at <name
+                            type="place">Oxford</name> which are clearly from <name type="place"
+                        >Worcester</name></handNote>.</p>
+
+                <p function="Decoration"><decoNote>There is a frontispiece (f. <locus locusNew="iir">ir</locus>), a
+                        drawing in outline with shading in red and faint purple. The style is good, but not the best
+                        Anglo-Saxon. The picture represents six apostles, nimbed and richly draped, in two rows of
+                        three. In the upper row the first on L. has a book, and his legs are crossed, the second (<name
+                            type="person">Andrew</name>) holds a short sceptre terminating in a cross set in a circle,
+                        the third (<name type="person">Peter</name>) beardless holds book and key and turns to R. In the
+                        lower row the first has pen and book, the second with crossed legs addresses the third who holds
+                        up a pair of tablets: all three are beardless</decoNote>. </p>
+
+                <p function="Additions">On f. <locus locusNew="iiv">iv</locus> a list (cent. <origDate>xvi</origDate>)
+                    of contents, headed: <q>Quartus liber</q>.<lb/> On f. <locus locusNew="iiir">iir</locus> an old list
+                        (<origDate>xi</origDate>) of contents. The original hand goes from <q>i. Sermo in natale
+                        domini</q> to <q>xxxi. Non. mai. inuentio s. crucis</q>.<lb/> The hand of the principal
+                    annotator (<origDate>xii?</origDate>) continues the list to no. <q>lx. sancti andree</q>.<lb/> At
+                    top of f. <locus>1r</locus> in large red letters (<origDate>xvi</origDate>) is: <q><name
+                            type="person">Aelfricus</name> abbas transtulit</q>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-c + i-iii + 1-394 + d-g</foliation>.</p>
+
+                <msContents>
+
+                    <textLang mainLang="ang" otherLangs="lat">Old English and Latin.</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="7r">
+
+                        <head type="CCC">
+                            <title>Homily for the Nativity of Christ</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B3.2.1</ref>)</supplied>
+                        </ab>
+                        <rubric locus="1r">Sermo in natale domini</rubric>
+                        <ab locusNew="1r">
+                            <decoNote>Title in red capitals</decoNote>
+                        </ab>
+                        <incipit locusNew="1r">&#222;&#230;t halige godspell be &#240;&#230;re hean
+                            medomnysse</incipit>
+                        <ab>On f. <locus>4r</locus> two short passages have been erased</ab>
+                        <ab>Copied for <name type="person">Professor Napier</name>: also in <ref type="ms"
+                                target="VCL117">Vercelli Book</ref> and <ref type="ms" target="OBL404">Bodleian NE. F.
+                                4. 10, f. 1</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="7r" locusEnd="12v">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, First Series,
+                                    <name type="person">St Stephen</name></title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.1.4</ref>)</supplied>
+                        </ab>
+                        <rubric locus="7r">In nativitate <name type="person">Sancti Stephani</name>
+                            protomartyris</rubric>
+                        <incipit locusNew="7r">&#503;e r&#230;da&#240; on &#240;&#230;re
+                            bec</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1844">Thorpe I 44</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="3" locusStart="12v" locusEnd="21r">
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, First Series,
+                                Assumption of <name type="person">St John</name></title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.1.5</ref>)</supplied>
+                        </ab>
+                        <rubric locus="12v">In assumptione <name type="person">Sancti Iohannis</name> apostoli</rubric>
+                        <incipit locusNew="12v"><name type="person">Iohannes</name> se godspellere cristes
+                            dyrling</incipit>
+                        <ab><ref type="bibl" target="Thorpe 1844">Thorpe I 58</ref>. <ref type="bibl"
+                                target="Sweet 1876">Sweet, <hi rend="italic">Anglo-Saxon Reader</hi>, 79</ref></ab>
+                        <ab>
+                            <handNote>Change of hand at f. <locus>16r</locus></handNote>
+                        </ab>
+                        <ab locusNew="20r">
+                            <supplied agent="JamesCorrigenda">On the margin of f. <locus>20r</locus>
+                                <handNote>in a hand of cent. <origDate>xi (?)</origDate></handNote> is:</supplied>
+                        </ab>
+                        <ab locusNew="20r">
+                            <supplied agent="JamesCorrigenda">
+                                <q>Me grauat hic esse / quoniam potare necesse / uinum de messe / quem nos consueuimus
+                                    esse / Poto sed inuite / potum probo gentis a (uite) / Vinum de uite quando (or
+                                    quoniam) / uitis uia uite</q>
+                            </supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="21r" locusEnd="27v">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, First Series, Holy
+                                Innocents</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.1.6</ref>)</supplied>
+                        </ab>
+                        <rubric locus="21r">V. kalendas Ianuarias In natale innocentum</rubric>
+                        <incipit locusNew="21r">Nu to d&#230;g godes gela&#240;ung</incipit>
+                        <ab><ref type="bibl" target="Thorpe 1844">Thorpe I 76</ref>. <ref type="bibl"
+                                target="Sweet 1876">Sweet, <hi rend="italic">Anglo-Saxon Reader</hi>, 90</ref></ab>
+                        <ab>
+                            <handNote>Change of hand at f. <locus>24r</locus></handNote>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="5" locusStart="27v" locusEnd="34v">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, First Series,
+                                Circumcision</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.1.7</ref>)</supplied>
+                        </ab>
+                        <rubric locus="27v">Kalendis Ianuariis Circumcisio domini</rubric>
+                        <incipit locusNew="27v">Se godspellere <name type="person">lucas</name> be leac</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1844">Thorpe I 90</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="6" locusStart="34v" locusEnd="43v">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, First Series,
+                                Epiphany</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.1.8</ref>)</supplied>
+                        </ab>
+                        <rubric locus="34v">In epiphania domini</rubric>
+                        <incipit locusNew="34v">Men &#240;a leofestan nu for fea&#447;um dagum</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1844">Thorpe I 104</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="7" locusStart="43v" locusEnd="47r">
+
+                        <head type="CCC">
+                            <title>Homily for the First Sunday after Epiphany</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B3.2.3</ref>)</supplied>
+                        </ab>
+                        <rubric locus="44r" locusNew="43v">Dominica I post Theophania domini</rubric>
+                        <incipit locusNew="44r">Mona&#240; us 7 menga&#240;</incipit>
+                        <ab>Copied for <name type="person">Professor Napier</name>: also in <ref type="ms"
+                                target="VCL117">Vercelli Book</ref> and <ref type="ms" target="OBL404">NE. F. 4. 10, f.
+                                33</ref></ab>
+                    </msItem>
+
+                    <msItem n="8" locusStart="47r" locusEnd="57v">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, Second Series,
+                                Second Sunday after Epiphany</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.2.5</ref>)</supplied>
+                        </ab>
+                        <rubric locus="47r">Dominica II post Theophania domini</rubric>
+                        <incipit locusNew="47r">Nuptie facte</incipit>
+                        <incipit locusNew="47r"><name type="person">Iohannes</name> se godspellere
+                            c&#447;&#230;&#240;</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1846">Thorpe II 54</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="9" locusStart="57v" locusEnd="64v">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, First Series,
+                                Third Sunday after Epiphany</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.1.9</ref>)</supplied>
+                        </ab>
+                        <rubric locus="57v">Dominica III post Theophania</rubric>
+                        <incipit locusNew="57v">Cum descendissed</incipit>
+                        <incipit locusNew="57v"><name type="person">Matheus</name> se eadiga godspellere</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1844">Thorpe I 120</ref>
+                        </ab>
+                        <ab>
+                            <handNote>Change of hand at f. <locus>64r</locus></handNote>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="10" locusStart="64v" locusEnd="73r">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, First Series,
+                                Purification</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.1.10</ref>)</supplied>
+                        </ab>
+                        <rubric locus="64v">IIII Nonus Februarias In purificatione <name type="person">Sancte
+                                Marie</name></rubric>
+                        <incipit locusNew="64v">God bebead on &#240;&#230;re ealdan ae</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1844">Thorpe I 134</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="11" locusStart="73r" locusEnd="81r">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, Second Series,
+                                    <name type="person">St Gregory</name></title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.2.10</ref>)</supplied>
+                        </ab>
+                        <rubric locus="73r">IIII Idus. In natale Sancti <name type="person">Gregorii</name>
+                            pape</rubric>
+                        <incipit locusNew="73r"><name type="person">Gregorius</name> se halga papa engliscre
+                            &#254;eode apostol</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1846">Thorpe II 116</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="12" locusStart="81r" locusEnd="90r">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, Second Series,
+                                    <name type="person">St Cuthbert</name></title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.2.11</ref>)</supplied>
+                        </ab>
+                        <rubric locus="81r">XIII kalendas aprili in natale <name type="person">Sancti Cuhtberhti</name>
+                            Episcopi</rubric>
+                        <incipit locusNew="81r"><name type="person">Cu&#240;berhtus</name> se halga
+                            bisceop</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1846">Thorpe II 132</ref>
+                        </ab>
+                        <ab>
+                            <handNote>Change of hand at f. <locus>88r</locus></handNote>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="13" locusStart="90r" locusEnd="103v">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, Second Series,
+                                    <name type="person">St Benedict</name></title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.2.12</ref>)</supplied>
+                        </ab>
+                        <rubric locus="90r">In natale <name type="person">Sancti Benedicti</name> Abbatis</rubric>
+                        <incipit locusNew="90r"><name type="person">Benedictus</name> se halga abbud</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1846">Thorpe II 154</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="14" locusStart="103v" locusEnd="110r">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, First Series,
+                                Annunciation</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.1.14</ref>)</supplied>
+                        </ab>
+                        <rubric locus="104r" locusNew="103v">In adnuntiatione <name type="person">Sancte
+                            Marie</name></rubric>
+                        <incipit locus="104r">Ure se &#230;lmihtiga scyppend</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1844">Thorpe I 192</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="15" locusStart="110r" locusEnd="117r">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, Second Series,
+                                Septuagesima</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.2.6</ref>)</supplied>
+                        </ab>
+                        <rubric locus="110r">Dominica in septuagessima</rubric>
+                        <incipit locusNew="110r">Simile est regnum</incipit>
+                        <incipit locusNew="110r">Se haelend c&#447;&#230;&#240; &#254;&#230;t
+                            heofonan rice</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1846">Thorpe II 72</ref>
+                        </ab>
+                        <ab locus="115v">(Quare pretermittetur alleluia.)</ab>
+                        <incipit locusNew="115v">&#503;e &#447;illa&#240; eo&#447; secgan</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1846">Thorpe II 84</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="16" locusStart="117r" locusEnd="122v">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, Second Series,
+                                Sexagesima</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.2.7</ref>)</supplied>
+                        </ab>
+                        <rubric locus="117r">Dominica in sexagessima</rubric>
+                        <incipit locusNew="117r">Cum turba plurima</incipit>
+                        <incipit locusNew="117r">On sume tide &#240;a&#240;a micel</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1846">Thorpe II 88</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="17" locusStart="122v" locusEnd="128v">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, First Series,
+                                Quinquagesima</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.1.11</ref>)</supplied>
+                        </ab>
+                        <rubric locus="122v">Dominica in quinquagessima</rubric>
+                        <incipit locusNew="122v">Assumpsit Iesus</incipit>
+                        <incipit locusNew="122v">Her is geread on &#240;isum godspelle</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1844">Thorpe I 152</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="18" locusStart="128v" locusEnd="132v">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, Second Series,
+                                First Sunday in Lent</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.2.8</ref>)</supplied>
+                        </ab>
+                        <rubric locus="128v">Dominica in quadragessima</rubric>
+                        <incipit locusNew="128v">Men &#240;a leofostan eo&#447; eallum is cu&#240;</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1846">Thorpe II 98</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="19" locusStart="132v" locusEnd="137r">
+                        <head type="CCC">
+                            <title>Homily for the Second Sunday in Lent</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B3.2.11.5</ref>)</supplied>
+                        </ab>
+                        <rubric locus="132v">Dominica II quadragesima</rubric>
+                        <incipit locusNew="132v">Men &#240;a leofestan Ic cy&#240;e eo&#447;
+                            &#254;&#230;t &#240;reo &#240;ing</incipit>
+                        <ab>Copied for <name type="person">Professor Napier</name>: also in <ref type="ms"
+                                target="VCL117">Vercelli Book</ref> and <ref type="ms" target="OBL404">NE. F. 4.
+                                10</ref> and <ref type="ms" target="OBL406">12</ref></ab>
+                    </msItem>
+
+                    <msItem n="20" locusStart="137r" locusEnd="140v">
+
+                        <head type="CCC">
+                            <title>Homily for the Third Sunday in Lent</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B3.2.13</ref>)</supplied>
+                        </ab>
+                        <rubric locus="137r">Dominica III in xl</rubric>
+                        <incipit locusNew="137r">Gehera&#240; nu men &#240;a leofstan hu &#240;as halgan
+                            bec</incipit>
+                        <ab>Also in <ref type="ms" target="CCC419">MS 419, p. 329</ref></ab>
+                        <ab>
+                            <ref type="bibl" target="Assmann 1889">Assmann, <hi rend="italic">Angelsächsische
+                                    Homilien</hi>, 1889, p. 138</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="21" locusStart="140v" locusEnd="145r">
+                        <head type="CCC">
+                            <title>Homily for the Fourth Sunday in Lent</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B3.2.15</ref>)</supplied>
+                        </ab>
+                        <rubric locus="140v">Dominica IIII in xl</rubric>
+                        <incipit locusNew="140v">Men &#240;a leofestan &#447;e &#447;illa&#240; her
+                            sprecan fea&#447;um &#447;ordum</incipit>
+                        <ab>Copied for <name type="person">Professor Napier</name>: also in <ref type="ms"
+                                target="CCC419">MS 419, p. 308, and elsewhere</ref></ab>
+                    </msItem>
+
+                    <msItem n="22" locusStart="145r" locusEnd="149v">
+
+                        <head type="CCC">
+                            <title>Homily for the Fifth Sunday in Lent</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B3.2.16</ref>)</supplied>
+                        </ab>
+                        <rubric locus="145r">Dominica V. in xl</rubric>
+                        <incipit locusNew="145r">Men &#240;a leofestan. us is on &#230;lcne s&#230;l
+                            geornlice</incipit>
+                        <ab>
+                            <ref type="bibl" target="Assmann 1889">Assmann, <hi rend="italic">Angelsächsische
+                                    Homilien</hi>, 1889, no. XII, f. 144</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="23" locusStart="150r" locusEnd="152v">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, Second Series,
+                                Second Sunday in Lent</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.2.9</ref>)</supplied>
+                        </ab>
+                        <ab>
+                            <handNote>Another hand at f. <locus>150r</locus></handNote>
+                        </ab>
+                        <rubric locus="150r">Dominica II in quadragesima</rubric>
+                        <incipit locusNew="150r">Egressus inde Iesus</incipit>
+                        <incipit locusNew="150r">Drihten haelend &#240;reade</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1846">Thorpe II 110</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="24" locusStart="153r" locusEnd="159v">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, Second Series,
+                                Fifth Sunday in Lent</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.2.15</ref>)</supplied>
+                        </ab>
+                        <rubric locus="153r">Dominica quinta in quadragesima</rubric>
+                        <incipit locusNew="153r">&#254;eos tid fram &#240;isum an &#447;eardan
+                            d&#230;ge</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1846">Thorpe II 224</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="25" locusStart="160r" locusEnd="166v">
+
+                        <head type="CCC">
+                            <title>Homily for Palm Sunday</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B3.2.18.3</ref>)</supplied>
+                        </ab>
+                        <rubric locus="160r">Passio domini. In ramis palmarum</rubric>
+                        <incipit locusNew="160r">Passio domini nostri Iesu Christi secundum <name type="person"
+                                >Matheum</name></incipit>
+                        <incipit locusNew="160r">Men &#240;a leofestan &#254;is is ures drihtnes
+                            &#254;ro&#447;ung</incipit>
+                        <ab>Also in <ref type="ms" target="CCC162">MS 162, p. 322</ref>. Copied for <name type="person"
+                                >Professor Napier</name></ab>
+                    </msItem>
+
+                    <msItem n="26" locusStart="166v" locusEnd="174">
+
+                        <head type="CCC">
+                            <title>Homily <q>In Cena Domini</q></title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B3.2.22</ref>)</supplied>
+                        </ab>
+                        <rubric locus="166v">Feria quinta in cena domini</rubric>
+                        <incipit locusNew="166v">De huius diei ueneratione et de domini misericordia in memoria aeterne
+                                <name type="person">iohannes</name> euangelista uenera (sic). S&#230;ge&#240; on
+                            &#240;isum bocum be &#240;&#230;re ar&#447;ur&#240;nesse</incipit>
+                        <ab>
+                            <ref type="bibl" target="Assmann 1889">Assmann, <hi rend="italic">Angelsächsische
+                                    Homilien</hi> no. XIII, p. 151</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="27" locusStart="174v" locusEnd="186v">
+
+                        <head type="CCC">
+                            <title>Homily <q>De parasceue</q></title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B3.2.24.1</ref>)</supplied>
+                        </ab>
+                        <rubric locus="174v">Feria VI in parasceuen</rubric>
+                        <incipit locusNew="174v">H&#447;&#230;t se &#230;lmihtiga drihten</incipit>
+                        <ab>Also in <ref type="ms" target="CCC162">MS 162, p. 347</ref>. Cf. <ref type="ms"
+                                target="CCC303">MS 303, p. 61</ref> and elsewhere. Copied for <name type="person"
+                                >Professor Napier</name></ab>
+                    </msItem>
+
+                    <msItem n="28" locusStart="186v" locusEnd="196v">
+
+                        <head type="CCC">
+                            <title>De sabbato sancto</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B3.2.25</ref>)</supplied>
+                        </ab>
+                        <rubric locus="186v">De Sabbato sancto</rubric>
+                        <incipit locusNew="186v">Men &#240;a leofstan &#447;e magon h&#447;ilcum
+                            h&#447;ega &#447;ordum</incipit>
+                        <ab>Also in <ref type="ms" target="CCC162">MS 162, p. 365</ref>. Copied for <name type="person"
+                                >Professor Napier</name></ab>
+                    </msItem>
+
+                    <msItem n="29" locusStart="196v" locusEnd="202r">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, First Series,
+                                Easter</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.1.17</ref>)</supplied>
+                        </ab>
+                        <rubric locus="196v">Dominica in die Sancte pasce</rubric>
+                        <incipit locusNew="196v">Oft ge gehydron ymbe &#254;&#230;s h&#230;lendes
+                            aerist</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1844">Thorpe I 220</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="30" locusStart="202r" locusEnd="206v">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, First Series,
+                                First Sunday after Easter</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.1.18</ref>)</supplied>
+                        </ab>
+                        <ab locus="202r">Change of hand at <locus>202r</locus></ab>
+                        <rubric locus="202r">Dominica I post pascha</rubric>
+                        <incipit locusNew="202r">&#198;fter &#254;&#230;s h&#230;lendes
+                            &#230;riste</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1844">Thorpe I 230</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="31" locusStart="206v" locusEnd="209r">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, First Series,
+                                Second Sunday after Easter</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.1.19</ref>)</supplied>
+                        </ab>
+                        <rubric locus="206v">Dominica II post pascha</rubric>
+                        <incipit locusNew="206v">&#208;is godspel &#254;e nu ger&#230;d
+                            &#447;&#230;s cy&#240;</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1844">Thorpe I 238</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="32" locusStart="209r" locusEnd="213r">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, Second Series, Sts
+                                    <name type="person">Philip</name> and <name type="person">James</name></title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.2.21</ref>)</supplied>
+                        </ab>
+                        <rubric locus="209r">Kalendis maiis in natale apostolorum <name type="person">Philippi</name> et
+                                <name type="person">Iacobi</name></rubric>
+                        <incipit locusNew="209r"><name type="person">Philippus</name> se godes apostol</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1846">Thorpe II 294</ref>
+                        </ab>
+                        <incipit locus="211r">&#503;e &#447;ur&#240;iad eac ... <name type="person"
+                                >Iacob</name></incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1846">Thorpe II 298</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="33" locusStart="213r" locusEnd="215r">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, Second Series,
+                                Invention of the Cross</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.2.22</ref>)</supplied>
+                        </ab>
+                        <rubric locus="213r">v. Nonas kalendas Mai.(!) inuentio Sancte crucis</rubric>
+                        <incipit locusNew="213r">Men &#240;a leofestan nu to d&#230;g &#447;e
+                            &#447;ur&#240;iad &#254;&#230;re halgan rode</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1846">Thorpe II 302</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="34" locusStart="215r" locusEnd="226r">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, Second Series,
+                                Easter</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.2.18</ref>)</supplied>
+                        </ab>
+                        <rubric locus="215r">Eodem die passio <name type="person">alexandri</name>
+                            <name type="person">euenti</name> et <name type="person">&#240;eodoli</name></rubric>
+                        <incipit locusNew="215r">On &#254;isum d&#230;ge &#254;ro&#447;ode</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1846">Thorpe II 308</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="35" locusStart="218r" locusEnd="226r">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, Second Series,
+                                Easter</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.2.19</ref>)</supplied>
+                        </ab>
+
+                        <ab>
+                            <handNote>Change of hand at f. <locus>218r</locus></handNote>
+                        </ab>
+                        <rubric locus="218r">In die Sancta pasce</rubric>
+                        <incipit locusNew="218r">Men &#240;a leofostan gelome eo&#447; is
+                            ges&#230;d</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1846">Thorpe II 262</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="36" locusStart="226r" locusEnd="231v">
+
+                        <head type="CCC">
+                            <title>Homily for Wednesday in Easter Week</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.2.20</ref>)</supplied>
+                        </ab>
+                        <rubric locus="226r">Item alia de sancta pasce</rubric>
+                        <incipit locusNew="226r">Hit is s&#447;i&#240;e gedafenlic</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1846">Thorpe II 282</ref>
+                        </ab>
+                        <rubric locus="228v">Alia de sancta pasce</rubric>
+                        <incipit locusNew="228v">Gelome &#230;teo&#447;de ure drihten</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1846">Thorpe II 288</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="37" locusStart="231v" locusEnd="236v">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, Second Series,
+                                Martyrs</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.2.46</ref>)</supplied>
+                        </ab>
+                        <rubric locus="231v">In natale sanctorum martyrum</rubric>
+                        <incipit locusNew="231v">Cum audieritis prelia</incipit>
+                        <incipit locusNew="231v">Se h&#230;lend fors&#230;de his leorning cnihtum</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1846">Thorpe II 536</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="38" locusStart="236v" locusEnd="242v">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, Second Series,
+                                Confessor</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.2.47</ref>)</supplied>
+                        </ab>
+                        <rubric locus="236v">In natale unius confessoris</rubric>
+                        <incipit locusNew="236v">Homo quidam pergere</incipit>
+                        <incipit locusNew="236v">Ure drihten saede &#254;is bispel</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1846">Thorpe II 548</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="39" locusStart="242v" locusEnd="247v">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, Second Series,
+                                Virgins</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.2.48</ref>)</supplied>
+                        </ab>
+                        <rubric locus="242v">In natale sanctarum uirginum</rubric>
+                        <incipit locusNew="242v">Simile est regnum</incipit>
+                        <incipit locusNew="242v">Se haelend saede gelomlice bigspel</incipit>
+                        <ab>
+                            <handNote>Hand changes on f. <locus>245r</locus></handNote>
+                        </ab>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1846">Thorpe II 562</ref>
+                        </ab>
+                        <explicit locus="247v">man &#254;yssere &#447;orulde geendunge. ne f[u]r&#240;on
+                            his</explicit>
+                        <ab>Ends imperfectly</ab>
+                        <ab locusNew="247v">Old note (<origDate>xii ?</origDate>) <q>deficit</q></ab>
+                    </msItem>
+
+                    <msItem n="40" locusStart="248r" locusEnd="253v">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, First Series,
+                                Ascension</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.1.23</ref>)</supplied>
+                        </ab>
+                        <ab>
+                            <handNote>Change of hand at f. <locus>248r</locus></handNote>
+                        </ab>
+                        <rubric locus="248r">In ascensione domini</rubric>
+                        <incipit locusNew="248r"><name type="person">Lucas</name> se godspellere us monade</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1844">Thorpe I 294</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="41" locusStart="253v" locusEnd="259v">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, First Series,
+                                Pentecost</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.1.24</ref>)</supplied>
+                        </ab>
+                        <rubric locus="253v">In die pentecosten</rubric>
+                        <incipit locusNew="253v">Fram &#254;am halgan easterlican d&#230;ge</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1844">Thorpe I 310</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="42" locusStart="259v" locusEnd="263v">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, First Series,
+                                Second Sunday after Pentecost</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.1.25</ref>)</supplied>
+                        </ab>
+                        <rubric locus="259v">Dominica I post octavas pentecosten</rubric>
+                        <incipit locusNew="259v">Homo quidam erat diues</incipit>
+                        <incipit locusNew="259v">Se &#447;ealdenda drihten s&#230;de</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1844">Thorpe I 328</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="43" locusStart="263v" locusEnd="266r">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, Second Series,
+                                Third Sunday after Pentecost</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.2.29</ref>)</supplied>
+                        </ab>
+                        <rubric locus="263v">Dominica II post octavas pentecosten</rubric>
+                        <incipit locusNew="263v">Homo quidam quidam fecit cenam</incipit>
+                        <incipit locusNew="263v">Se h&#230;lend s&#230;de &#254;is bigspell</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1846">Thorpe II 370</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="44" locusStart="266r" locusEnd="267v">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, Second Series,
+                                Third Sunday after Pentecost, alia narratio</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.2.30</ref>)</supplied>
+                        </ab>
+                        <rubric locus="266r">[Alia narratio de euangelii textu]</rubric>
+                        <ab>Margin</ab>
+                        <ab locusNew="266r">
+                            <q>Est sermo 13 in li <name type="person">M. bower</name></q>
+                        </ab>
+                        <ab>(<origDate>xvi</origDate>)</ab>
+                        <incipit locusNew="266r">Mine gebro&#240;ra &#447;e &#447;illa&#240; sume
+                            cristes rinda</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1846">Thorpe II 378</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="45" locusStart="267v" locusEnd="273r">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, First Series,
+                                    <name type="person">St John the Baptist</name></title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.1.27</ref>)</supplied>
+                        </ab>
+                        <rubric locus="267v">VIII. kalendas Iulii natifitas <name type="person">Sancti Iohannis
+                                Baptista</name></rubric>
+                        <incipit locusNew="267v">Se godspellere <name type="person">lucas</name> a&#447;rat on
+                            cristes bec</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1844">Thorpe I 350</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="46" locusStart="273r" locusEnd="278v">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, Second Series, Sts
+                                    <name type="person">Peter</name> and <name type="person">Paul</name></title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.2.31</ref>)</supplied>
+                        </ab>
+                        <rubric locus="273r">III kalendas Iulii in natale <name type="person">Sancti petri</name>
+                            apostoli</rubric>
+                        <incipit locusNew="273r"><name type="person">Lucas</name> se godspellere us s&#230;de on
+                            &#240;issere pistol</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1846">Thorpe II 380</ref>
+                        </ab>
+                        <rubric locus="274v">Item alia de petre</rubric>
+                        <incipit locusNew="274v"><name type="person">Mattheus</name> se godspellere
+                            a&#447;rat</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1846">Thorpe II 384</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="47" locusStart="278v" locusEnd="286r">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, First Series, Sts
+                                    <name type="person">Peter</name> and <name type="person">Paul</name></title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.1.28</ref>)</supplied>
+                        </ab>
+                        <rubric locus="278v">III kalendas Iulii in natale Sancti petri apostoli. Hoc est
+                            euangelium</rubric>
+                        <incipit locusNew="278v">Venit Iesu in partes</incipit>
+                        <incipit locusNew="278v"><name type="person">Mattheus</name> se godspellere</incipit>
+                        <ab>A line and a half erased on f. <locus>280v</locus></ab>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1844">Thorpe I 364</ref>
+                        </ab>
+                        <rubric locus="281r">Passio Apostolorum <name type="person">petri</name> et <name type="person"
+                                >pauli</name></rubric>
+                        <incipit locusNew="281r">&#503;e &#447;illa&#240; &#230;fter &#240;isum
+                            godspelle eo&#447; gereccan</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1844">Thorpe I 370</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="48" locusStart="286r" locusEnd="291v">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, First Series,
+                                    <name type="person">St Paul</name></title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.1.29</ref>)</supplied>
+                        </ab>
+                        <rubric locus="286r">II kalendas Iulii In natale <name type="person">Sancti Pauli</name>
+                            apostoli</rubric>
+                        <incipit locusNew="286r">Godes gela&#240;ung &#447;ur&#240;ia&#240;</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1844">Thorpe I 384</ref>
+                        </ab>
+                        <ab>
+                            <handNote>Change of hand at f. <locus>288r</locus></handNote>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="49" locusStart="291v" locusEnd="295r">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, Second Series,
+                                    <name type="person">St James</name> and the Seven Sleepers</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.2.34</ref>)</supplied>
+                        </ab>
+                        <rubric locus="291v">Passio. natale <name type="person">Sancti Iacobi</name> apostoli</rubric>
+                        <incipit locusNew="291v">On &#254;isum d&#230;ge &#447;e
+                            &#447;ur&#254;ia&#254; on urum lofsangum</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1846">Thorpe II 412</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="50" locusStart="295r" locusEnd="298v">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Lives of Saints, <name type="person"
+                                    >St Mark</name></title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.3.16</ref>)</supplied>
+                        </ab>
+                        <rubric locus="295r">De quarta euangelistas <name type="person">Matheus</name>
+                            <name type="person">Marcus</name>
+                            <name type="person">Lucas</name>
+                            <name type="person">Iohannes</name></rubric>
+                        <incipit locusNew="295r"><name type="person">Marcus</name> se godspellere be godes dihte for to
+                                <name type="place">egypta</name> lande</incipit>
+                        <ab>
+                            <ref type="bibl" target="Skeat 1881">Skeat's <hi rend="italic">Aelfric's Lives of
+                                    Saints</hi> no. XV (I 320)</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="51" locusStart="298v" locusEnd="306v">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Lives of Saints, <name type="person"
+                                    >St Sebastian</name></title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.3.6</ref>)</supplied>
+                        </ab>
+                        <rubric locus="298v">XIII kalendas Februarii Passio <name type="person">Sancti Sebastiani</name>
+                            Martyris</rubric>
+                        <incipit locusNew="298v"><name type="person">Sebastinus</name> hatte sum halig godes
+                            &#254;egen</incipit>
+                        <ab>
+                            <ref type="bibl" target="Skeat 1881">Skeat's <hi rend="italic">Aelfric's Lives of
+                                    Saints</hi> no. V (I 116)</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="52" locusStart="306v" locusEnd="311v">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, First Series,
+                                First Sunday in Lent</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.1.12</ref>)</supplied>
+                        </ab>
+                        <rubric locus="306v">Dominica in quadragessimo iii</rubric>
+                        <incipit locusNew="306v">Ductus est iesus</incipit>
+                        <incipit locusNew="306v">Ic &#447;olde eo&#447; trahtnian</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1844">Thorpe I 166</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="53" locusStart="311v" locusEnd="316r">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Admonissions in Lent with a
+                                continuation taken from Blickling Homily no. 10</title>
+                        </head>
+
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.9.7 with an excerpt from
+                                    B3.4.20</ref>)</supplied>
+                        </ab>
+                        <rubric locus="311v">Incipit de penitentia in quadragessima</rubric>
+                        <incipit locusNew="311v">L&#230;&#447;edum mannum is to &#447;itane
+                            &#254;&#230;t &#230;lc man</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1846">Thorpe II 608</ref>
+                        </ab>
+                        <ab>Consists of two parts, (1) = <ref type="bibl" target="Thorpe 1846">Thorpe II 602-608</ref>,
+                            (2) a <ref type="bibl" target="Morris 1874-80">Blickling Homily (pp. 111 (l. 18) to
+                                114)</ref>, <ref type="bibl" target="Napier 1883">Napier</ref></ab>
+                    </msItem>
+
+                    <msItem n="54" locusStart="316r" locusEnd="321r">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Dominica III in Quadragesima</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.9.7 with an excerpt from
+                                    B1.4.4</ref>)</supplied>
+                        </ab>
+                        <rubric locus="316r">Dominica III in quadragesima</rubric>
+                        <ab>(title <origDate>xiii ?</origDate> in red)</ab>
+                        <incipit locusNew="316r">Erat ihesus eiciens ...</incipit>
+                        <incipit locusNew="316r">On &#254;&#230;re m&#230;rran tide</incipit>
+                        <ab>Also in <ref type="ms" target="CCC188">MS 188, p. 123</ref>, <ref type="ms" target="CCC302"
+                                >MS 302, p. 129</ref>, <ref type="ms" target="CCC303">MS 303, p. 30</ref>, and
+                            elsewhere</ab>
+                        <ab>At bottom of f. <locus>321r</locus> an inscription partly erased and rewritten</ab>
+                        <ab>Line 1 is erased</ab>
+                        <ab>Line 2 reads</ab>
+                        <ab locusNew="321r">
+                            <q>&#254;is his &#254;&#230;t boc &#254;&#230;t ic Ulf h.. h(a)bba.
+                                tal(?)a///&#254;.../</q>
+                        </ab>
+                        <ab>Line 3</ab>
+                        <ab locusNew="321r">
+                            <q>be. &#447;annan scypas l&#230;re [mid min f&#230;g (over line)] /// oto
+                                handa. Crist eo.l . 7 C/</q>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="55" locusStart="321v" locusEnd="327v">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, First Series,
+                                    <name type="person">St Bartholomew</name> (incomplete)</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.1.33</ref>)</supplied>
+                        </ab>
+                        <rubric locus="321r" locusNew="321v">De <name type="person">Sancto Bartholomeo</name></rubric>
+                        <incipit locusNew="321v">&#503;yrd &#447;riteras secga&#254;</incipit>
+                        <!--<ab locusNew="322v">neumes in margin - possible pen-trial</ab>-->
+                        <ab><ref type="bibl" target="Thorpe 1844">Thorpe I 454</ref>. The end appears to differ</ab>
+                    </msItem>
+
+                    <msItem n="56" locusStart="328r" locusEnd="342v">
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Lives of Saints, The
+                                Maccabees</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.3.25</ref>)</supplied>
+                        </ab>
+                        <ab>
+                            <handNote>Change of hand at f. <locus>328r</locus></handNote>
+                        </ab>
+                        <rubric locus="328r">Kalendas Augustus. Passio Sanctorum Machabeorum</rubric>
+                        <incipit locusNew="328r">&#198;fter &#240;am &#240;e <name type="person"
+                                >alexander</name> se egefulla</incipit>
+                        <ab>
+                            <ref type="bibl" target="Skeat 1885">Skeat's Aelfric, no. XXV (II 66)</ref>
+                        </ab>
+                        <rubric locus="341v">De tribus ordinibus</rubric>
+                        <incipit locusNew="341v">Is s&#447;a &#240;eah to &#447;itenne</incipit>
+                        <ab>(<ref type="bibl" target="Skeat 1885">Skeat's Aelfric II 120</ref>)</ab>
+                    </msItem>
+
+                    <msItem n="57" locusStart="342v" locusEnd="350r">
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, First Series,
+                                    <name type="person">St Laurence</name></title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.1.31</ref>)</supplied>
+                        </ab>
+                        <rubric locus="342v">III Idus augusti. Passio <name type="person">Sancti Laurentii</name>
+                            Martyris</rubric>
+                        <incipit locusNew="342v">On <name type="person">decius</name> d&#230;ge
+                            &#254;&#230;s hreo&#447;an caseres</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1844">Thorpe I 416</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="58" locusStart="350r" locusEnd="359v">
+
+                        <head type="CCC">
+                            <title>Homily for the Assumption of <name type="person">Mary the Virgin</name></title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B3.3.20</ref>)</supplied>
+                        </ab>
+                        <rubric locus="350r">In assumptione <name type="person">Sancte Marie</name> uirginis</rubric>
+                        <incipit locusNew="350r">Men &#240;a leofestan gehyra&#240; nu h&#447;aet her
+                            seg&#240;</incipit>
+                        <ab>Copied for <name type="person">Professor Napier</name>. <ref type="bibl"
+                                target="Morris 1874-80">Blickling Homilies, p. 137</ref></ab>
+                        <incipit locus="353r">Et post hec uocauit <name type="person">Sancta Maria</name> omnes
+                            apostolas in cubiculo suo</incipit>
+                        <incipit locusNew="353r">Ond &#240;a &#230;fter &#240;on &#240;a cegde seo
+                            halige <name type="person">Maria</name></incipit>
+                        <ab>Ends <locus>359r</locus>. The lower part (blank?) is cut off, the verso blank</ab>
+                        <ab><ref type="bibl" target="Morris 1874-80">Blickling Homilies, p. 139</ref> (defective)</ab>
+                    </msItem>
+
+                    <msItem n="59" locusStart="360r" locusEnd="366v">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, First Series,
+                                Dedicatio ecclesiae <name type="person">sancti Michaelis</name></title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.1.36</ref>)</supplied>
+                        </ab>
+                        <rubric locus="360r">III kalendas Octobris. Dedicatio ecclesie <name type="person">Sancti
+                                michaelis</name> archangeli</rubric>
+                        <incipit locusNew="360r">Manegum is cu&#240; seo halige sto&#447;</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1844">Thorpe I 502</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="60" locusStart="367r" locusEnd="374v">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, First Series, De
+                                initio creaturae</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.1.2</ref>)</supplied>
+                        </ab>
+                        <ab>
+                            <handNote>Change of hand at f. <locus>367r</locus></handNote>
+                        </ab>
+                        <rubric locus="367r">Exameron siue initium creaturae</rubric>
+                        <ab>(title added <origDate>xvi</origDate>)</ab>
+                        <incipit locusNew="367r">An anginn is ealra &#240;inga</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1844">Thorpe I 8</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="61" locusStart="374v" locusEnd="377r">
+                        <head type="CCC">
+                            <title>Homily <q>De <name type="person">sancto Iohanne</name></q></title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B3.4.17.1</ref>)</supplied>
+                        </ab>
+                        <rubric locus="374v">De <name type="person">Sancto Iohanne</name></rubric>
+                        <incipit locusNew="374v"><name type="person">Sanctus Iohannes</name> geseah ofer
+                            garsegc</incipit>
+                        <ab>(of the Phoenix)</ab>
+                        <ab>
+                            <ref type="bibl" target="Kluge 1885">Kluge, <hi rend="italic">Engl. Studien</hi> 8,
+                                477</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="62" locusStart="377v" locusEnd="377v">
+
+                        <head type="CCC">
+                            <title>Neumed office for <name type="person">St Guthlac</name> (partial)</title>
+                        </head>
+
+                        <ab>On f. <locus>377v</locus> are parts of an office in Latin for <name type="person">St
+                                Guthlac</name>, with neumes, <handNote>in a small hand</handNote></ab>
+                        <incipit locusNew="377v">Secundo anno inquit <name type="person">beatus
+                            GUTHLACUS</name></incipit>
+                        <ab locusNew="377v">quo hanc heremum inhabitaui mane ad (et) uespere semper angelum domini
+                            colloquutorem habui qui meos labores leuigabat qui michi aeterna gaudia nuntiabat hinc anima
+                            mea dominum magnificat. Magnificat. Per sanctum interuentorem nostrum <name type="person"
+                                >GUTHLACUM</name> adoremus dominum deum nostrum. Venite exult. (I)n ipso ortu <name
+                                type="person">beati GUTHLACI</name> quis esset futurus aparuit miraculo celesti. Beatus
+                            uir. Visa est palam cunctis humana manus de celo fulgida cum cruce ante hostium domus
+                            puerperi porrecta. Quare f. Cunctis uidentibus admirabilis manus signo crucis signauit
+                            hostium et sic recepta est in celum (neumes cease here). Domine quid mult. Mox inauditum
+                            miraculum patriam impleuit et quantus puer natus esset in mundo claruit. Cum inuocarem</ab>
+                        <explicit locusNew="377v">Vita eius diuersa benigna pueritia bellicosa adholescentia cetera
+                            sanctitas theorica</explicit>
+                        <incipit locusNew="377v">Ingenuas uires adholescentie bellis exercuit et cetibus ut sciret quid
+                            diuine militie deberet conuersus.<lb/> Ordinata erat <name type="person">beati
+                                GUTHLACI</name> abstinentiam uictus eius post solis occasum panis ordeaceus cum
+                            aqua</incipit>
+                    </msItem>
+
+                    <msItem n="63" locusStart="378r" locusEnd="385v">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, Second Series,
+                                    <name type="person">St Martin</name></title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.2.42</ref>)</supplied>
+                        </ab>
+                        <ab>Another hand at f. <locus>378r</locus></ab>
+                        <rubric locus="378r">III Idus Novembris. Depositio <name type="person">Sancti Martini</name>
+                            Episcopi</rubric>
+                        <incipit locusNew="378r"><name type="person">Martinus</name> se &#447;uldorfulle godes
+                            andettere</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1846">Thorpe II 498</ref>
+                        </ab>
+                        <rubric locus="384r">(De obitus eius)</rubric>
+                        <incipit locusNew="384r"><name type="person">Martinus</name> se eadiga &#447;iste his
+                            geendunge</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1846">Thorpe II 516</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="64" locusStart="385v" locusEnd="385v">
+
+                        <head type="CCC">
+                            <name type="author">&#198;lfric OSB</name>, <title>Catholic Homilies, Second Series,
+                                Excusatio dictantis</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.2.43</ref>)</supplied>
+                        </ab>
+                        <rubric locus="385v">Excusatio dictantis</rubric>
+                        <incipit locusNew="385v">Fela f&#230;gere godspell &#447;e
+                            forl&#230;ta&#240;</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1846">Thorpe II 520</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="65" locusStart="386r" locusEnd="394v">
+
+                        <head type="CCC">
+                            <title>Homily for <name type="person">St Andrew</name>
+                            </title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B3.3.1.1</ref>)</supplied>
+                        </ab>
+                        <rubric locus="386r">
+                            <name type="person">Sancti Andreae</name>
+                        </rubric>
+                        <incipit locusNew="386r">Her sig&#240; &#254;&#230;t &#230;fter &#254;am
+                            &#254;e Drihten</incipit>
+                        <ab>The name <q>
+                                <name type="person">Andreas</name>
+                            </q> is in capitals throughout</ab>
+                        <ab><ref type="bibl" target="Goodwin 1851">Goodwin, <hi rend="italic">Anglo-Saxon Legends of
+                                    Andrew and Veronica</hi></ref>; <ref type="bibl" target="Bright 1892">Bright, <hi
+                                    rend="italic">Anglo-Saxon Reader</hi> 113</ref>, <ref type="bibl"
+                                target="Morris 1874-80">
+                                <hi rend="italic">Blickling Homilies</hi>
+                            </ref></ab>
+                        <ab locusNew="394v"><decoNote>A large initial <q>H</q></decoNote> and some six lines of
+                            carefully erased writing, the beginning of another sermon, follow</ab>
+                    </msItem>
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text:copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, BA, CF</p>
+                            <p>msCheck: RJR 6.7.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

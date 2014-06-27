@@ -1,0 +1,146 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC353">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>353</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>11. 6</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>331</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Petrus de Vinea, Summa dictaminis</head>
+                <head type="James">Petrus de Vineis</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">280</height>
+                        <width unit="mm">206</width>
+                    </measureGrp><measureGrp type="James">11.1 x 8.3</measureGrp>, <extent>ff. 123</extent>, <layout>36
+                        lines to a page</layout>. Cent. <origDate>xiv</origDate>, <handNote>in a good small hand of
+                        legal type</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num>-11<num>8</num> 12<num>6</num> 13<num>8</num> (wants 5) 14<num>12</num>
+                            15<num>10</num></collation>.</p>
+
+                <p function="Provenance">At the bottom of f. <locus>1r</locus> in a large scrawling hand
+                        (<date>xiv</date>): Liber quondam mag<abbr rend="superscript">ri</abbr> Will<abbr
+                        rend="superscript">i</abbr> de Swepston quem contulit <name type="place">ecclesie de
+                        Burton</name> mag<abbr rend="superscript">r</abbr> Will<abbr rend="superscript">s</abbr> frater
+                    ipsius pro anima eius.</p>
+
+
+                <p function="Additions">Much of the text of f. <locus>ir</locus> is very faint.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-123 + iii-iv</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="123v">
+                        <head type="CCC">
+                            <name type="author">Petrus de Vinea</name>, <title>Summa dictaminis</title>
+                        </head>
+
+                        <rubric locus="1r">Incipiunt capitula prime partis Epistolarum mag<abbr rend="superscript"
+                                >ri</abbr>
+                            <name type="author">Petri de Vineis</name></rubric>
+                        <rubric locus="1v">Expliciunt Capitula prime partis</rubric>
+                        <rubric locusNew="1v">Incipiunt Epistole eiusdem partis</rubric>
+                        <rubric locusNew="1v">Querimonia Frederici Imperatori super deposicione sua, etc.</rubric>
+                        <incipit locusNew="1v">Collegerunt Pontifices et Pharisei concilium</incipit>
+                        <ab locus="30v">Part II. Capitula</ab>
+                        <ab locus="31v">Text</ab>
+                        <ab locus="56r">Part III. Capitula</ab>
+                        <ab locus="58r">Text</ab>
+                        <ab locus="87r">Part IV. Capitula</ab>
+                        <ab locus="87v">Text</ab>
+                        <ab locus="92r">Part V. Capitula</ab>
+                        <ab locus="95r">Text</ab>
+
+
+                        <ab>Wants part of capp. 20-25</ab>
+
+                        <ab locus="116r">Part VI. Capitula</ab>
+                        <ab locus="116v">Text</ab>
+
+                        <ab>Ends with cap. 33</ab>
+
+                        <explicit locusNew="123v">fieri iussimus nostri culminis sigillo munitum. Amen</explicit>
+
+                        <rubric locusNew="123v">Expliciunt dictamina mag<abbr rend="superscript">ri</abbr>
+                            <name type="author">Petri de Vineis</name></rubric>
+
+                        <ab>Printed by <ref type="bibl" target="Schardius 1566">Schardius, Basel 1566</ref>, etc.</ab>
+
+                        <ab>This copy is noticed by <ref type="bibl" target="Pertz 1839b">Pertz, <hi rend="italic"
+                                    >Archiv</hi> VII, p. 962</ref></ab>
+
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJC 20.11.07</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

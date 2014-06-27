@@ -1,0 +1,207 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC321">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>321</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>K. 13</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>118</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Petrus Iohannis Olivi OFM, Commentary on Matthew, Quaestiones. Dialogue in Old English
+                    (fragment)</head>
+                <head type="James">Petrus Joh. Olivi in Matthaeum. Fragmentum Anglo-Saxonicum</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">235</height>
+                        <width unit="mm">158</width>
+                    </measureGrp>, <measureGrp type="James">9 x 6.2</measureGrp>, <extent>ff. 3 + 218</extent>,
+                        <layout>double columns of 39 lines</layout>. Cent. <origDate>xiv</origDate>, <handNote>in a
+                        rather ugly and much contracted hand</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>3 flyleaves, 1<num>10</num>-14<num>10</num> (+ slip) 15<num>10</num>-21<num>10</num>
+                            23<num>8</num></collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>fragabilia</secFol>.</p>
+
+                <p function="Additions">On f. <locus>iv</locus> (<date>xv</date>): Postill super M<abbr
+                        rend="superscript">t</abbr>, an erased word follows: R....ye (very probably <name type="place"
+                        >Rameseye</name>).</p>
+
+                <p function="Additions">On f. <locus>iiiv</locus> is a <date>xvi</date>th cent. copy of the beginning of
+                    the text.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a + i-iii + 1-139 + 139a + 140-218 + iv-v</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="ang">Latin and Old English.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1.1" locusStart="1r" locusEnd="210v">
+                        <head type="CCC">
+                            <name type="author">Petrus Iohannis Olivi OFM</name>, <title>Commentary on <name
+                                    type="person">Matthew</name></title>
+                        </head>
+                        <head type="James">
+                            <title><name type="author">Petri Johannis (Olivi)</name> Lectura super <name type="person"
+                                    >Matthaeum</name></title>
+                        </head>
+                        <ab>Prologue</ab>
+                        <incipit locus="1r">Quatuor facies uni et quatuor penne uni etc.</incipit>
+
+                        <incipit locus="3r">Ad maiorem autem euidenciam dictorum</incipit>
+
+                        <explicit locus="210v">et potuit soluere et signacula libri dei cui est honor et gloria in
+                            secula seculorum. amen</explicit>
+
+                        <rubric locus="210v">Explicit lectura super euangelium <name type="author">beati
+                            mathei</name></rubric>
+
+                    </msItem>
+
+                    <msItem n="1.2" locusStart="210v" locusEnd="215r">
+                        <head type="CCC">
+                            <title>Quaestiones</title>
+                        </head>
+
+                        <ab>Questions follow</ab>
+                        <incipit locus="210v">Et primo ad euidenciam tocius euangelii queritur quare</incipit>
+
+
+
+                    </msItem>
+
+                    <msItem n="1.3" locusStart="215r" locusEnd="218r">
+                        <head type="CCC">
+                            <name type="author">Petrus Iohannis Olivi OFM</name>, <title>Treatise on the Lord's Prayer
+                                (unfinished)</title>
+                        </head>
+
+
+                        <incipit locus="215r">Ad intuendam altitudinem oracionis dominice que ponitur m<abbr
+                                rend="superscript">t</abbr> 6</incipit>
+                        <ab>Ends unfinished <locus>218r</locus>. Verso blank</ab>
+
+                        <ab>This Postilla is to be found in MS. <ref type="ms" target="ONC049">New College, Oxford
+                                49</ref>. The author was a Franciscan</ab>
+
+                    </msItem>
+
+                    <msItem n="1.4" locusStart="139ar" locusEnd="139av">
+                        <head type="CCC">
+                            <title>Dialogue in Old English (fragment)</title>
+                        </head>
+
+
+                        <ab locusNew="139ar">After f. <locus>139v</locus> is inserted part of a leaf of a beautifully
+                            written Anglo-Saxon manuscript of cent. <date>xi early (?)</date> containing the end of a
+                            Dialogue resembling those of Salomon and Saturn, Adrian and Ritheus, etc. of which several
+                            are printed in <ref type="bibl" target="Kemble 1845-48">Kemble's Salomon and Saturn</ref>. I
+                            cannot however find the passage here preserved in any of them</ab>
+
+                        <ab>S&#230;ge me h&#447;&#230;r &#447;&#230;re gec&#447;eden
+                            &#230;rest alleluia<lb/>ic &#254;e secge be t&#447;ih t&#447;am dunum. <name
+                                type="place">Tabor</name> et <name type="place">Ermon </name><lb/> &#254;&#230;r
+                                <name type="person">Dauid </name>c&#447;&#230;&#254; &#230;rest alleluia
+                            &#254;onne tacnia&#254; &#240;a duna<lb/>&#254;a ny&#447;en
+                            &#769;&#230; 7<!--&#8266;--> &#254;a ealdan &#769;&#230;.
+                            S&#230;ge me h&#447;&#230;t &#254;&#230;t &#447;ord sy<lb/>alleluia.
+                            Ic &#254;e secge hu mycel &#254;u in &#254;am anum &#447;orde benemnest
+                            &#254;onne &#447;e c&#447;e&#254;a&#240; alleluia &#254;onne
+                            c&#447;e&#254;e &#447;e<lb/>leoht &#254;am gode anum 7<!--&#8266;-->
+                            mannum gode licigendum<lb/>7<!--&#8266;--> lof gode 7<!--&#8266;--> leoht
+                            &#254;am so&#254;an 7<!--&#8266;--> &#254;am leohtan
+                            gode<lb/>7<!--&#8266;--> &#254;am so&#254;an gode 7<!--&#8266;-->
+                            &#254;am heahstan gode lof eallum<lb/>sa&#447;lum 7<!--&#8266;--> lof eallum
+                            &#230;nglum mid criste 7<!--&#8266;--> lof urum<lb/>drihtne &#254;&#230;t an
+                            &#447;ord is of his .xii. naman gesetted<lb/>&#254;onne &#447;e singa&#254;
+                            alleluia &#254;onne lofia&#254; &#447;e f&#230;der
+                            7<!--&#8266;--><lb/>sunu 7<!--&#8266;--> &#254;one halgan gast. &#254;onne
+                            &#447;e singa&#254; alleluia &#254;onne<lb/>c&#447;e&#254;e &#447;e
+                            leoht 7<!--&#8266;--> m&#230;gen 7<!--&#8266;--> h&#769;&#230;lo
+                            &#254;am &#230;lmihtigan<lb/>gode. &#254;onne &#447;e singa&#254;
+                            alleluia. &#254;onne c&#447;e&#254;e &#447;e he
+                            &#447;&#230;s<lb/>&#225;&#225; 7<!--&#8266;--> nu &#225;&#225;
+                            bi&#254; 7<!--&#8266;--> he is fri&#254; 7<!--&#8266;--> ende
+                            7<!--&#8266;--> he is lifigend<lb/>in eallum circum. Amen. </ab>
+
+                        <ab>The verso is blank</ab>
+                        <ab>In <ref type="bibl" target="Bede 1612">Bede's Collectanea (ed. Coln, 1612, III 488)</ref> is
+                            the equivalent of part of the above:</ab>
+
+                        <ab>Quis primus dixit Alleluia, aut in quo loco vel pro qua re dictum est? Inter <name
+                                type="place">Thabor</name> et <name type="place">Hermon </name>dictum est. <name
+                                type="person">Dauid </name>propheta dixit alleluia hoc est laus dei. <name type="person"
+                                >Augustinus</name> dixit Alle seculum : lu, me fac : ia, Domine etc. </ab>
+
+                        <ab>The fragment has escaped the notice of <name type="person">Wanley</name> and of all
+                            subsequent students</ab>
+
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, SP, CF</p>
+                            <p>msCheck: SP 5/8/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

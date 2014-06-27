@@ -1,0 +1,367 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC142">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>142</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>R. 2</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>155</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Nicholas Love OCarth, The Mirrour of the blessyd Lyf of Christ. Treatise on the
+                    Sacrament of Christ's Body. Lives of Saints Nicholas, Katherine and Margaret. Form of Confession.
+                    Tretys of goostly batayle. Articles of Excommunication</head>
+
+                <head type="James">Mirror of the Life of Christ etc.</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">330</height>
+                        <width unit="mm">225</width>
+                    </measureGrp><measureGrp type="James">13 x 8.8</measureGrp>, <extent>ff. 126 + 2</extent>,
+                        <layout>double columns of 40 lines</layout>. Cent. <origDate>xv</origDate>, <handNote>in a
+                        rather ugly hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num>-11<num>8</num> 12<num>4</num> 13<num>8</num>-16<num>8</num>
+                            17<num>2</num>, 1 flyleaf</collation>.</p>
+
+                <p function="Decoration"><decoNote>There are good partial borders and initials in gold and colour of the
+                        characteristic English work of the time</decoNote>.</p>
+
+
+
+                <p type="CCC">
+                    <foliation>ff. i-iii + 1-127 + iv-v</foliation>.</p>
+
+
+
+
+                <msContents>
+                    <textLang mainLang="enm" otherLangs="lat">Middle English and Latin.</textLang>
+
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="85v">
+
+                        <head type="CCC"><name type="author">Nicholas Love OCarth</name>, <title>The Mirrour of the
+                                blessyd Lyf of Christ</title></head>
+
+                        <head type="James">
+                            <title>Mirror of the Life of Christ</title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>The mirrour of &#254;e blessid lyf of Ihesu [translated from the Latin of
+                                cardinal <name type="person">Bonaventure</name> by <name type="person">John
+                                    Morton</name>]</title>
+                        </head>
+                        <ab>
+                            <quote>Ad frontem operis<lb/>
+                                <q>Attende lector hujus libri prout sequitur in Anglico scripti, quod ubicunque in
+                                    margine ponitur litera N verba sunt translatoris sive compilatoris in Anglicis
+                                    praeter illa quae inseruntur in libro scripto secundum communem opinionem a
+                                    venerabili doctore <name type="person">Bonaventura</name> in Latino de meditatione
+                                    vitae Ihesu Christi, et quando pervenitur ad processum et verba ejusdem doctoris
+                                    inseritur in margine litera B. prout legenti sive intuenti istum librum speculi
+                                    vitae Christi lucide poterit apparere.</q><lb/>
+                                <q>Memorandum quod circa annum Domini <date>1410</date>, originalis copia hujus libri
+                                    scilicet speculi vitae Christi in Anglicis presentabatur per compilatorem ejusdem N.
+                                    reverendissimo in Christo patri, et domino <name type="person">Thomae
+                                        Arundell</name> Cantuar. archiepiscopo ad inspiciendum et debite examinandum
+                                    antequam fuerat liber communicatus: qui post inspectionem ejusdem per dies aliquot
+                                    retradens istum librum memorato translatori ejusdem libri propriae vocis oraculo
+                                    ipsum in singulis commendavit et approbavit, necnon et auctoritate sua metropolitica
+                                    utpote catholicum publice communicandum fore decrevit et mandavit ad fidelium
+                                    edificationem et hereticorum sive Lollardorum confutationem. AMEN.</q>
+                            </quote>
+                        </ab>
+
+
+                        <rubric locus="1r">At &#254;e bygnnyng &#254;e proheme of &#254;e booke
+                                &#254;<abbr rend="superscript">t</abbr> is clepid the myrrour of &#254;e blessid
+                            lijf of ihesu</rubric>
+                        <ab>Capitula follow</ab>
+                        <ab>At the foot of f. <locus>1r</locus> in red is the date <date>1560</date></ab>
+                        <ab>The notices <q>Adtende lector</q> and <q>Memorandum quod circa</q> are on f.
+                                <locus>2r</locus>. The translator N. was <name type="author">Nicholas Love</name>, Prior
+                            of the Carthusian house of <name type="place">Mount Grace</name> in <name type="place"
+                                >Yorkshire</name>. The text was printed for the <ref type="bibl" target="Powell 1908"
+                                >Roxburghe Club in 1905</ref></ab>
+                        <ab locus="2v">Prohemium</ab>
+                        <rubric locusNew="2v">Quecumque scripta sunt etc.</rubric>
+                        <incipit locusNew="2v">These ben &#254;e wordis of &#254;e grete doctour</incipit>
+                        <explicit locusNew="3r">bigynne&#254; in &#254;is manere sentence</explicit>
+                        <rubric locus="3r"><name type="person">Bonaventure</name> incipit</rubric>
+                        <incipit locusNew="3r">Among o&#254;ere vertues commendingis of &#254;e holi virgine
+                            Cecile</incipit>
+
+
+                        <rubric locus="4v">A devout meditacioun of &#254;e grete counseile in hevene etc.</rubric>
+                        <incipit locusNew="4v">Afftir &#254;e tyme &#254;at man was exilid</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="85v">to confusioun of alle fals lollardis and eretikis. Amen</explicit>
+                        <rubric locusNew="85v">Blessid be &#254;e name of oure lord Ihesu and his modir marie now
+                            and ever wi&#254;outen ende. Amen</rubric>
+                        <rubric locusNew="85v">Thus eendi&#254; &#254;e book &#254;<abbr rend="superscript"
+                                >t</abbr> is clepid &#254;e myrrour of &#254;e blessid lijf of oure lord Ihesu
+                            Criste</rubric>
+                        <rubric locusNew="85v">Explicit speculum uite Christi</rubric>
+
+
+                    </msItem>
+
+
+                    <msItem n="2" locusStart="85v" locusEnd="92v">
+
+                        <head type="CCC">
+                            <title>Treatise on the Sacrament of Christ's Body</title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>A tretice of &#254;e hi&#541;est and moste wor&#254;y sacrament of Crists
+                                blessid body and &#254;e merveilis &#254;erof</title>
+                        </head>
+
+
+                        <rubric locus="85v">Now sue&#254; a tretice of &#254;e hi&#541;est and moste
+                            wor&#254;y sacrament of Cristes blessid body and &#254;e merveilis &#254;er
+                            of</rubric>
+                        <incipit locusNew="85v">Memoriam fecit mirabilium etc.</incipit>
+                        <incipit locusNew="85v">These wordis of <name type="person">Dauid</name> in &#254;e sauter
+                            seid in prophecie</incipit>
+                        <ab>Ends</ab>
+                        <explicit locusNew="92v">by vertu and grace of &#254;y lijf blissid wi&#254; owten
+                            endynge. Amen</explicit>
+                        <rubric locusNew="92v">
+                            <lg>
+                                <l>Ihesu lord &#254;y blessid lijf</l>
+                                <l>Helpe and coumfort our wrecchid lijf. Amen</l>
+                            </lg>
+                        </rubric>
+                        <rubric locusNew="92v">Explicit speculum vite Christi complete</rubric>
+                        <ab>This is also by <name type="author">Nicholas Love</name></ab>
+
+
+                    </msItem>
+
+
+                    <msItem n="3" locusStart="93r" locusEnd="96v">
+
+                        <head type="CCC">
+                            <title>Life of <name type="person">St Nicholas</name></title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>&#254;e lyfe of <name type="person">seynt Nicolas</name> bisschop of <name
+                                    type="place">Myrre</name></title>
+                        </head>
+
+
+                        <incipit locus="93r"><name type="person">Seynt Nicholas</name> was bore in the citee of <name
+                                type="place">patras</name></incipit>
+                        <explicit locusNew="96v">and thonkynge to owre lord god. and to &#254;e merite of
+                            &#254;e holy <name type="person">seynt Nicolas</name></explicit>
+
+
+                    </msItem>
+
+
+
+                    <msItem n="4" locusStart="96v" locusEnd="106r">
+
+                        <head type="CCC">
+                            <title>Life of <name type="person">St Katherine</name></title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>&#254;e lyfe of &#254;e holy virgyn <name type="person">seynt
+                                Kateryne</name></title>
+                        </head>
+
+
+                        <incipit locus="96v">Here bygynne&#254; &#254;e right excellent and most glorious life
+                            of <name type="person">seynt Kateryn</name> whiche by dissent of lyne was of &#254;e
+                            noble kynredis of &#254;e Emperours etc.</incipit>
+                        <explicit locusNew="106r">as it is conteyned in &#254;e Invencioun of &#254;e crosse how
+                                <name type="person">Maxence</name> was ponysshid for &#254;is felony and for
+                            o&#254;ere</explicit>
+
+
+                    </msItem>
+
+
+
+                    <msItem n="5" locusStart="106r" locusEnd="107v">
+
+                        <head type="CCC">
+                            <title>Life of <name type="person">St Margaret</name></title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>&#254;e lyfe of &#254;e holy virgyn <name type="person">seynt
+                                    Margarete</name></title>
+                        </head>
+
+
+                        <incipit locus="106r"><name type="person">Seynt Margarete</name> was of &#254;e cite of
+                                <name type="place">Antioche</name> doughter of <name type="person">Theodosyen</name> a
+                            paynym patriarche</incipit>
+                        <explicit locusNew="107v">She was hatefull to her fadir and frende and love to owre Lord Ihesu
+                            Crist</explicit>
+
+
+                    </msItem>
+
+
+                    <msItem n="6" locusStart="107v" locusEnd="110v">
+
+                        <head type="CCC">
+                            <title>Form of confession</title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>A form of confession</title>
+                        </head>
+
+
+                        <incipit locus="107v">Benedicite. I knowleche to our lord Almy&#541;ty God Ihesu</incipit>
+                        <explicit locusNew="110v">and also &#254;at ye wolde vouchesafe to prey for me.
+                            Amen</explicit>
+                        <rubric locusNew="110v">And &#254;us eendi&#254; &#254;is Confessioun</rubric>
+
+
+                    </msItem>
+
+
+                    <msItem n="7" locusStart="111r" locusEnd="121r">
+
+                        <head type="CCC">
+                            <title>Tretys of goostly batayle</title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>A tretys of goostely batayle</title>
+                        </head>
+
+
+                        <incipit locus="111r">Brothir or sustre &#254;<abbr rend="superscript">t</abbr> desirist to
+                            come to &#254;e eendles blisse</incipit>
+                        <explicit locusNew="121r">to eendles blisse whiche man was ordeyned to in his fyrst creacioun.
+                            Amen</explicit>
+                        <rubric locusNew="121r">Deo gracias</rubric>
+
+
+
+                    </msItem>
+
+
+
+
+                    <msItem n="8" locusStart="121r" locusEnd="126r">
+
+                        <head type="CCC">
+                            <title>Articles of excommunication</title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>General sentence, or, Articuli majoris excommunicationis in lingua materna</title>
+                        </head>
+
+
+                        <incipit locus="121r">Goode men and wommen it is ordeyned by the counseil of al holy
+                            chirche</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="126r">for to dwelle in the peynes of helle for ever without ende. ffiat fiat.
+                            Amen</explicit>
+                        <ab>See Maskell, <ref type="bibl" target="Maskell 1882">Monumenta Ritualia II 286-301</ref></ab>
+                        <ab>On f. <locus>126v</locus> is: Thys ys <name type="person">betrys (Beatrice) beuerleys</name>
+                            book (<date>xv</date>) and on the last flyleaf <supplied>f. <locus>127v</locus></supplied>:
+                                <q>Thys Booke ys <name type="person">Wylliam bodleys</name> and <name type="person"
+                                    >Elizabethe</name> hys wyffe</q> (<origDate>xv-xvi</origDate>)</ab>
+
+
+
+
+                    </msItem>
+
+
+
+
+
+
+
+                </msContents>
+
+
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, CF</p>
+                            <p>msCheck: NJM 30.05.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

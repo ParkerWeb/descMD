@@ -1,0 +1,283 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC427">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>427</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>G. 8</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>66</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Peter of Ickham OSB, Richard of Cirencester OSB, Martin of Troppau OP etc.</head>
+                <head type="James">P. de Ickham, Ric. Cicestrensis. Martinus Polonus, etc.</head>
+                <p function="Codicology"><material>Vellum and paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">201</height>
+                        <width unit="mm">141</width>
+                    </measureGrp>, <measureGrp type="James">8 x 5.8</measureGrp>, <extent>ff. 31 + 114</extent>,
+                        <layout>two volumes</layout>. Cent. <origDate>xv</origDate>, <handNote>in rather current
+                        hands</handNote>. </p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num> (+1*) 2<num>8</num> 3<num>8</num> 4<num>6</num> | 5<num>10</num>
+                            6<num>8</num>-11<num>8</num> 12<num>14</num> (outer and middle sheets vellum, rest paper)
+                            13<num>10</num> (wants 10: same construction) 14<num>10</num> 15<num>12</num>
+                            16<num>12</num> (wants 12). 14-16 constructed as 12</collation>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-iii + pp. 1-86 + 86a + 87a + 87-214 + 214a + 215a + 215-218 (219-220 missing) +
+                        221-288 + ff. iv-v</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+                    <milestone n="I" unit="volume"/>
+                    <msItem n="1" locusStart="2" locusEnd="4">
+                        <head type="CCC">
+                            <title>Tables of certain chronicles and on the burial places of the saints</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Tabulae quaedam chronologicae et de locis sanctorum</title>
+                        </head>
+                        <ab>On pp. <locus>2</locus>, <locus>3</locus>
+                            <handNote>in a small current hand</handNote> a list of dates</ab>
+                        <incipit locus="2">Anno ab orbe condito usque ad urbem rome conditam <date>IIII m<abbr
+                                    rend="superscript">l</abbr> ccc xlvij</date></incipit>
+                        <ab>ending with <date>1415</date></ab>
+                        <explicit locus="3">Eodem anno fuit bellum de <name type="place">ajincorth</name></explicit>
+                        <ab>On p. <locus>4</locus>
+                            <handNote>in the same hand</handNote></ab>
+                        <rubric locus="4">Sanctorum Loci</rubric>
+                        <incipit locus="4">In primis sacrum corpus <name type="person">uirginis marie</name> in valle
+                                <name type="place">josaphat</name> fuit sepultum <name type="person">Sancti Johannis
+                                euuangeliste</name> corpus in <name type="place">epheso</name> fuit tumulatum sed postea
+                            ubi deuenerint eorum corpora satis nobis tradit ecclesia. Aput <name type="place"
+                                >sebasten</name> .i. samaria <name type="person">Julianus apostata</name>
+                            <name type="person">S. Johannis baptiste</name> igne cremauit ossa, etc. Notices <name
+                                type="place">Rome</name>, <name type="place">Canterbury</name>, <name type="place"
+                                >Marseilles</name>, les <name type="person">Stes Maries</name>, <name type="person">St
+                                Maximin</name>, etc.</incipit>
+
+                        <explicit locusNew="4"><name type="person">Katerina</name> iacet in <name type="place">monte
+                                syna</name> manu leuata angelica</explicit>
+                        <incipit locusNew="4"><hi rend="italic">Reges Christiani</hi>. Imperator romanorum. Rex
+                            Almannie, etc.</incipit>
+                        <explicit locusNew="4">Rex boemie, Rex armenie, Rex cipre</explicit>
+                        <incipit locusNew="4"><name type="place">Cantabrigia</name> a <name type="person"
+                                >Cantabro</name> regis hispanie filio et <name type="person">gwenebrigia</name> eius
+                            sponsa</incipit>
+                        <explicit locusNew="4">philosophos conuocans ab <name type="place">athenis</name> uniuersitatem
+                                <name type="place">cantabrigie</name> fundauit</explicit>
+                    </msItem>
+
+                    <msItem n="2" locusStart="5" locusEnd="62">
+                        <head type="CCC">
+                            <name type="author">Peter of Ickham OSB</name>, <title>Compilatio de gestis Britonum et
+                                Anglorum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Epitome chronicorum Angliae ad annum <date>1429</date> [per <name type="author"
+                                    >Petrum de Yckham</name>]</title>
+                        </head>
+                        <ab><handNote>In a better hand</handNote>, <layout>31 lines to a page</layout></ab>
+                        <ab>Headed</ab>
+                        <rubric locusNew="5">Cronica grece latine temporum series cronos grece tempus latine
+                            dicitur</rubric>
+                        <ab>Begins with verses</ab>
+                        <ab locusNew="5">
+                            <lg>
+                                <l><name type="place">Albion</name> est terra constans in finibus orbis</l>
+                                <l>...</l>
+                                <l><name type="person">Petrus</name> putamie (pictauie) dat cistrensis monachusque.</l>
+                                <l>( )t quia non solum audiendis sacre scripture verbis aurem</l>
+                            </lg>
+                        </ab>
+                        <ab>Ends p. <locus>62</locus> with the Parliament at <name type="place">Westminster</name></ab>
+                        <explicit locusNew="62">per milites parliamenti et comitatus regni Anglie duas integras xvd.,
+                            etc.</explicit>
+                        <ab>See nos. <ref type="ms" target="CCC194">194</ref>, <ref type="ms" target="CCC339">339</ref>.
+                                <ref type="bibl" target="Hardy 1871">Hardy III 271</ref></ab>
+                        <ab locusNew="62">Note from <name type="author">Bale</name> on <name type="person">Richardus
+                                Cicestrius</name> follows</ab>
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+                    <msItem n="3" locusStart="63" locusEnd="112">
+                        <head type="CCC">
+                            <title>Chronicle (possibly based on <name type="author">Richard of Cirencester OSB,</name>,
+                                Speculum historiale de gestis regum Angliae)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Abbreviatio <name type="author">Ricardi Cicestrii monachi Westmonast.</name> vel
+                                Anglo-saxonum chronicon. Desinit in anno <date>1265</date></title>
+                        </head>
+                        <ab>
+                            <handNote>In the hand of pp. <locus>2</locus>-<locus>4</locus></handNote>
+                        </ab>
+                        <ab>Title (<origDate>xvi early?</origDate>)</ab>
+                        <rubric locus="63">Abbreuiatio <name type="author">ricardi cicestrii monachi Westmon.</name>
+                            (erasure) speculum historiale</rubric>
+                        <rubric locusNew="63">De prodicione <name type="person">Vortigerni</name> et quomodo se fecit
+                            regem</rubric>
+                        <incipit locusNew="63">Defunctis <name type="person">Constantino</name> patre <name
+                                type="person">constantis aurelii ambrosii</name> et <name type="person">uter
+                                pendragon</name> et <name type="person">sancto gwotellmo</name> per prodicionem <name
+                                type="person">Vortegerni</name> consulis</incipit>
+                        <ab>pp. <locus>71</locus>-<locus>74</locus> have lists of kings</ab>
+                        <explicit locus="112">anno sequenti mortuus est iste <name type="person">henricus</name>
+                            <name type="person">Edwardo</name> existente in terra sancta (<date>1272</date>)</explicit>
+                        <ab><ref type="bibl" target="Hardy 1871">Hardy III 161</ref> says <q>If this has any connexion
+                                with <name type="person">Richard of Cirencester</name>, it is probably only a slight
+                                abridgment.</q></ab>
+                    </msItem>
+
+                    <msItem n="4" locusStart="113" locusEnd="140">
+                        <head type="CCC">
+                            <name type="author">Martin of Troppau OP</name>, <title>Chronica pontificum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Martini Poloni</name> chronicon de pontificibus Romanis, ad annum
+                                    <date>1278</date> cum additamentis ad annum <date>1316</date></title>
+                        </head>
+                        <ab locus="113">Chronicon <name type="author">Martini</name></ab>
+                        <rubric locusNew="113">Pontifices</rubric>
+                        <incipit locusNew="113">Post passionem domini anno sequenti <name type="person">beatus petrus
+                                apostolus</name> filius <name type="person">iohannis</name></incipit>
+                        <ab>Ends p. <locus>138</locus> after <name type="person">John XXI</name> (hic multum fouit
+                            clericos)</ab>
+                        <rubric locusNew="138">Explicit cronica fratris <name type="author">martini</name> ordinis
+                            predicatorum</rubric>
+                        <ab>Text continues with <name type="person">Nicholaus IIII</name> and ends p. <locus>139</locus>
+                            with <name type="person">John XXII</name></ab>
+                        <explicit locusNew="139">in illis partibus saracenis pro defencione fidei christianitatis
+                            instituit</explicit>
+                        <ab locus="140">blank</ab>
+                    </msItem>
+
+                    <msItem n="5" locusStart="141" locusEnd="176">
+                        <head type="CCC">
+                            <name type="author">Martin of Troppau OP</name>, <title>Chronica imperatorum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Ejusdem chronicon de imperatoribus Romanis</title>
+                        </head>
+                        <rubric locus="141">Imperatores</rubric>
+                        <ab>(beginning imperfectly: see below)</ab>
+                        <incipit locusNew="141"><name type="person">Nero</name> imperator imperauit annis xiii mens.
+                            vij</incipit>
+                        <ab>The text is disordered. It runs to <name type="person">Otto III</name></ab>
+                        <ab>Then at p. <locus>161</locus></ab>
+                        <incipit locusNew="161"> Non arbitror infructuosum seriem temporum huic operi inserere </incipit>
+                        <ab>From <name type="person">Adam</name> to A. U. C. 426, death of <name type="person">Alexander
+                                the Great</name></ab>
+                        <explicit locus="168">Hic breuitatis causa multa bella romanorum pertranseo</explicit>
+                        <rubric locus="169">Imperatores romani</rubric>
+                        <incipit locusNew="169">Anno ab urbe condita <date>dc<abbr rend="superscript">o</abbr> lix<abbr
+                                    rend="superscript">o</abbr></date>
+                            <name type="person">Julio cesare</name> et <name type="person">marco
+                            consulibus</name></incipit>
+                        <ab>After p. <locus>170</locus> the text of <locus>141</locus>-<locus>160</locus> should
+                            follow</ab>
+                        <ab locus="171">On Churches and Indulgences of Rome</ab>
+                        <incipit locusNew="171">Notandum quod in urbe romana sunt cccc et lxvij ecclesie parochiales
+                            gratia et sanctitate</incipit>
+                        <explicit locusNew="176">In hospitali sanctus spiritus vij anni et tot x<abbr rend="superscript"
+                                >le</abbr> et vij<abbr rend="superscript">a</abbr> pars</explicit>
+                    </msItem>
+
+                    <msItem n="6" locusStart="177" locusEnd="222">
+                        <head type="CCC">
+                            <name type="author">Guido de Columnis</name>, <title>Historia destructionis Troiae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De excidio urbis Trojanae</title>
+                        </head>
+                        <rubric locus="177">Excidium urbis troiane</rubric>
+                        <ab>(<name type="author">Guido de Colonna</name> abridged)</ab>
+                        <incipit locusNew="177">Licet cotidie vetera rec[ed]entibus obruant</incipit>
+                        <explicit locusNew="216">thelagonio in suo recessu muneribus et diuiciis ampliando</explicit>
+                        <rubric locusNew="216">Explicit obsidio troie. Finis belli troiani</rubric>
+                        <ab>pp. <locus>217</locus>-<locus>222</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="7" locusStart="223" locusEnd="281">
+                        <head type="CCC">
+                            <name type="author">Bede the Venerable</name>, <title>Historia ecclesiastica gentis Anglorum
+                                (extracts)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Abstractum de historia Anglorum secundum <name type="author">Bedam</name></title>
+                        </head>
+                        <ab>An abstract of <name type="author">Bede</name>'s Historia Ecclesiastica</ab>
+                        <rubric locusNew="223">Capitulum primum de historia anglorum secundum <name type="author"
+                                >bedam</name> abstractum</rubric>
+                        <explicit locus="281">cui successit <name type="person">aldulphus</name></explicit>
+                        <rubric locusNew="281">Explicit quoddam abstractum super <name type="author">bedam</name> de
+                            gestis anglorum per G. R.</rubric>
+                        <ab locus="282">List of chapters</ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 15/12/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

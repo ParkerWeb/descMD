@@ -1,0 +1,120 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC525">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>525</idno>
+                    <altIdentifier type="Elbing">
+                        <idno>N. 27</idno>
+                    </altIdentifier>
+
+                </msIdentifier>
+                <head type="CCC">Homilies. Johannes Aretinus, Aureum poenitentiale</head>
+                <head type="James">[Untitled]</head>
+                <p function="Codicology"><material>Paper with vellum flyleaf</material>, <measureGrp type="CCC">
+                        <height unit="mm">295</height>
+                        <width unit="mm">200</width>
+                    </measureGrp>, <measureGrp type="James">11.7 x 8.3</measureGrp>, <extent>ff. cir. 300</extent>, much
+                    damaged: <layout>in double columns</layout> and <handNote>in more than one hand</handNote>. Cent.
+                        <origDate>xiv, xv</origDate>.</p>
+
+                <p function="Additions">The binding is practically gone. The book can hardly be opened.</p>
+
+                <p type="CCC">
+                    <foliation>Too fragile to be foliated in its entirety. Partially imaged: front exterior + first leaf
+                        recto foliated as a + back exterior - the boards do not survive</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1">
+                        <head type="CCC">
+
+                            <title>Homilies</title>
+
+                        </head>
+                        <ab>The first and larger portion seems to contain: Homiliae per annum and de sanctis</ab>
+                        <ab>Begins with Easter</ab>
+                        <ab>The rubric <hi rend="italic">miraculum</hi> occurs often towards the end of this
+                            portion</ab>
+                    </msItem>
+
+                    <msItem n="2">
+                        <head type="CCC">
+                            <name type="author">Johannes Aretinus</name>, <title>Aureum poenitentiale</title>
+                        </head>
+                        <head type="James">
+                            <title>Penitentiale aureum</title>
+                        </head>
+                        <ab>
+                            <handNote>in another hand</handNote>
+                        </ab>
+                        <incipit>Venerabili patri domino <name type="person">Hildebrando</name> dei gratia et apostolice
+                            sedis episcopo aretino ... <name type="person">Joh. Cappellanus</name> vester unus ex
+                            minimis, etc.</incipit>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: 9/1/2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

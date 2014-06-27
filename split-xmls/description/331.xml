@@ -1,0 +1,586 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC331">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>331</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>V. 2</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>303</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Baldwin of Ford OCist, De sacramento altaris. Miscellaneous Tracts and Sermons on the
+                    Eucharist</head>
+                <head type="James">Tractatus de Eucharistia, etc.</head>
+                <p function="Codicology"><material>Vellum (and paper)</material>, <measureGrp type="CCC">
+                        <height unit="mm">221</height>
+                        <width unit="mm">150</width>
+                    </measureGrp><measureGrp type="James">8.7 x 6</measureGrp>, <extent>ff. 1 + 319</extent>,
+                        <layout>36-34 lines to a page</layout>. Cent. <origDate>xv</origDate>
+                    <handNote>in several hands, clear enough but ugly</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>12</num> (2-5, 7-11 paper) 2<num>12</num>-6<num>12</num> |
+                            7<num>12</num>-15<num>12</num> 16<num>16</num> (15, 16 canc.)
+                            17<num>12</num>-26<num>12</num> 27<num>6</num> (wants 6)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>tor est quidem</secFol>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a + i + pp. 1-132 (133-134 missing) + 135-640 + f. b</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1" locusEnd="131">
+                        <head type="CCC">
+                            <name type="author">Baldwin of Ford OCist</name>, <title>De sacramento altaris</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title><name type="author">Baldwinus</name> de sacramento altaris</title>
+                        </head>
+
+                        <rubric locus="1">Tractatus magistri <name type="author">baldewini</name> archiepiscopi
+                            cantuariensis de sacramento altaris</rubric>
+                        <incipit locusNew="1">Amantissimo domino et patri <name type="person">B. dei gratia exoniensi
+                                episcopo</name></incipit>
+                        <explicit locusNew="2">reuereri quod imperas. Vale</explicit>
+                        <incipit locusNew="2">Magnum et profundum noui verique misterium sacrificii</incipit>
+                        <explicit locusNew="131">habundancie suauitatis eius eructabunt</explicit>
+                        <rubric locusNew="131">Explicit <name type="author">baldewinus</name> de sacramento
+                            altaris</rubric>
+                        <ab>See <ref type="ms" target="CCC200">MS 200</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="132" locusEnd="135">
+                        <head type="CCC">
+                            <name type="author">Gaufridus monachus (attrib.)</name>, <title>Compendium de corpore
+                                Christi</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title><name type="author">Gaufredi</name> compendium de corpore Christi et sacramento
+                                eucharistiae</title>
+                        </head>
+
+                        <ab>
+                            <handNote>In another hand</handNote>
+                        </ab>
+                        <rubric locus="134" locusNew="132">Incipit compendium <name type="author">gaufridi</name> de
+                            corpore christi uel sacramento eukaristie</rubric>
+                        <incipit locusNew="132"><name type="author">Gaufridus</name> peccator in presenti tractatu
+                            catholicus scriptor</incipit>
+
+                        <explicit locusNew="135">ffactus conscendit iudex uenturus in orbem</explicit>
+                        <rubric locusNew="135">Explicit compendium etc.</rubric>
+                        <ab>See <ref type="ms" target="CCC177">MS 177. 44</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="136" locusEnd="146">
+
+                        <head type="Nasmith">
+                            <title>De laude Dei</title>
+                        </head>
+
+                        <rubric locus="136">Quomodo pura mente debeas dominum nostrum Ihesum Christum iugiter
+                            laudare</rubric>
+                        <incipit locusNew="136">Ad laudis tue memoriam solam domine deus meus cor meum
+                            liquescit</incipit>
+                        <explicit locusNew="140">inicium eterne laudis patrie celestis. Amen</explicit>
+                        <ab>pp. <locus>141</locus>-<locus>146</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="147" locusEnd="149">
+                        <head type="CCC">
+
+                            <title>Epistola <name type="author">Deoduini Leodiensis</name> ad <name type="person"
+                                    >Henricum Francorum regem</name></title>
+
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">[Deoduini] Leodiensis episcopi</name> ad <name
+                                    type="person">Henricum Francorum regem</name> contra <name type="person"
+                                    >Brimonem</name> et <name type="person">Berengarium</name></title>
+                        </head>
+
+                        <ab>
+                            <handNote>In a better hand</handNote>
+                        </ab>
+                        <rubric locus="147">Epistola <name type="author">D. (Deoduini) Leodiensis episcopi</name> ad
+                                <name type="person">henricum francorum regem</name> contra <name type="person"
+                                >brimonem</name> et <name type="person">berengarium</name></rubric>
+                        <ab>(<ref type="bibl" target="Migne 146"><supplied>P. L.</supplied> CXLVI 1438</ref>)</ab>
+                        <incipit locusNew="147">Gloriosissimo et inuictissimo regi francorum <name type="person"
+                                >henrico</name>
+                            <name type="author">d. leodiensis</name> antistes</incipit>
+                        <explicit locusNew="149">omnes omnium manus eciam contra omnes ipsos excitentur</explicit>
+                        <rubric locusNew="149">Explicit epistola</rubric>
+                        <ab>See no. 12 in this MS.</ab>
+                        <ab locus="149">List of the following articles</ab>
+
+                    </msItem>
+
+                    <msItem n="5" locusStart="149" locusEnd="175">
+                        <head type="CCC">
+                            <name type="author">pseudo-Anselm of Canterbury OSB</name>, <title>De corpore et sanguine
+                                Domini</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title><name type="author">Anselmus</name> contra <name type="person">Berengarium</name> de
+                                corpore et sanguine Domini</title>
+                        </head>
+
+                        <rubric locus="149">Epistolaris prefacio <name type="author">Anselmi</name> cantuariensis
+                            archiepiscopi in librum suum de corpore et sanguine domini etc.</rubric>
+                        <incipit locusNew="149">Fratri in Christo karissimo illuminatos oculos cordis</incipit>
+                        <explicit locusNew="175">doctrina celestis. qui animam nostram reficit</explicit>
+                        <rubric locusNew="175">Explicit <name type="author">Anselmus</name> de corpore et sanguine
+                            domini</rubric>
+                    </msItem>
+
+                    <msItem n="6" locusStart="175" locusEnd="176">
+                        <head type="CCC">
+                            <name type="author">Vincent of Beauvais OP</name>, <title>Speculum historiale (extract from
+                                book 26, ch. 30)</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>De obitu <name type="person">Berengarii</name> ex speculo historiali <name
+                                    type="author">Vincentii</name></title>
+                        </head>
+
+                        <rubric locus="175">Obitus <name type="person">Berengarii</name></rubric>
+                        <incipit locusNew="175"><name type="person">Leo papa</name> contra <name type="person"
+                                >berengarium</name> uercellis celebrauit consilium</incipit>
+
+                        <explicit locusNew="176">uel propter alios ut timeo ad penam (?). <name type="author"
+                                >Vincencius</name> in speculum historiale libro 26 capitulo xxx<abbr rend="superscript"
+                                >o</abbr></explicit>
+
+                    </msItem>
+
+                    <msItem n="7" locusStart="176" locusEnd="210">
+                        <head type="CCC">
+                            <name type="author">Lanfranc OSB</name>, <title>De corpore et sanguine Domini</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title><name type="author">Lanfrancus</name> de corpore Christi et sanguine contra <name
+                                    type="person">Berengarium</name></title>
+                        </head>
+
+                        <rubric locus="176"><name type="author">Lanfrancus</name> de corpore et sanguine domini contra
+                                <name type="person">berengarium</name></rubric>
+                        <incipit locusNew="176"><name type="author">Lanfrancus</name> misericordia dei catholicus <name
+                                type="person">beringario</name> catholice ecclesie aduersario</incipit>
+                        <ab>(<ref type="bibl" target="Migne 150"><supplied>P. L.</supplied> CL</ref>)</ab>
+                        <explicit locusNew="210">verus eius sanguis quem potaueris</explicit>
+                        <rubric locusNew="210">Explicit</rubric>
+                    </msItem>
+
+                    <msItem n="8" locusStart="210" locusEnd="282">
+                        <head type="CCC">
+                            <name type="author">Guitmund of Aversa</name>, <title>De corpore et sanguine Christi</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title><name type="author">Gwymundus Aversanus</name> episcopus in Apulia de corpore et
+                                sanguine Domini, libri iii</title>
+                        </head>
+
+                        <rubric locus="210">Incipit liber <name type="author">Gwymundi Auersani</name> episcopi in
+                            apulia de corpore et sanguine domini</rubric>
+                        <ab>(<ref type="bibl" target="Migne 149"><supplied>P. L.</supplied> CXLIX 1425</ref>)</ab>
+                        <incipit locusNew="210">Ad rem hiis temporibus necessariam quidem</incipit>
+                        <ab locus="231">Liber II</ab>
+                        <ab locus="255"><supplied>Liber</supplied> III</ab>
+                        <explicit locusNew="282">Gratias referamus eternas regnanti cum deo patre et spiritu sancto per
+                            infinita secula seculorum. Amen</explicit>
+                        <rubric locusNew="282">Explicit liber tercius et ultimus <name type="author"
+                            >Guimundi</name></rubric>
+
+                    </msItem>
+
+                    <msItem n="9" locusStart="282" locusEnd="345">
+                        <head type="CCC">
+                            <name type="author">Paschasius Radbertus</name>, <title>De corpore et sanguine
+                                Domini</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title><name type="person">Rabanus [Maurus]</name> de corpore et sanguine Domini</title>
+                        </head>
+
+                        <ab>
+                            <quote>Opus <name type="author">Paschasio</name> a multis eruditis judicatum</quote>
+                        </ab>
+
+                        <rubric locus="282">Hic incipit <name type="person">Rabanus</name> de corpore et sanguine
+                            domini</rubric>
+                        <ab>Capitula</ab>
+                        <incipit locusNew="282">Quod natura omnium rerum etc.</incipit>
+                        <rubric locusNew="284">Incipit prephacio</rubric>
+                        <incipit locusNew="284">Dilectissimo filio et uice christi presidenti</incipit>
+                        <ab>Text</ab>
+                        <incipit locusNew="286">Quisque catholicorum recte deum cuncta creasse</incipit>
+                        <ab>(<ref type="bibl" target="Migne 120"><supplied>P. L.</supplied> CXX 1267</ref>)</ab>
+                        <explicit locusNew="345">ceteraque addenda sunt ut proficiant sensus uestri a domino
+                            querite</explicit>
+                        <rubric locusNew="345">Explicit liber <name type="person">Rabanus</name></rubric>
+
+                    </msItem>
+
+                    <msItem n="10" locusStart="345" locusEnd="348">
+                        <head type="CCC">
+                            <name type="author">Augustine (attrib.)</name>, <title>Duo sermones de corpore et sanguine
+                                Domini</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Duo sermones Beati <name type="author">Augustini</name> de corpore et sanguine
+                                Domini</title>
+                        </head>
+
+                        <rubric locus="345">Hic incipit Sermonem (!) beati <name type="author">Augustini</name> de
+                            corpore et sanguine domini</rubric>
+                        <incipit locusNew="346">Interim dum a deo in hoc mundo</incipit>
+                        <rubric locusNew="347">Sermo <name type="author">augustini</name> de corpore et
+                            sanguine</rubric>
+                        <ab>(ref. to Decretals)</ab>
+                        <incipit locusNew="347">Veritas que est christus ait Caro mea vere</incipit>
+
+                    </msItem>
+
+                    <msItem n="11" locusStart="348" locusEnd="353">
+                        <head type="CCC">
+                            <name type="author">Eusebius Gallicanus</name>, <title>Sermo de corpore et sanguine Christi
+                                (sermo 17, sermo de Pascha 6)</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Sermo <name type="author">Eusebii</name> Emisseni de corpore et sanguine
+                                Domini</title>
+                        </head>
+
+                        <rubric locus="348">Sermo <name type="author">Eusebii</name> sinisseni (!) de corpore et
+                            sanguine</rubric>
+                        <ab>(ref. to Decretals)</ab>
+                        <incipit locusNew="348">Magnitudo celestium beneficiorum</incipit>
+                        <ab>(<ref type="bibl" target="???"><hi rend="italic">Bibl. Patr. Lugd.</hi> VI 636</ref>)</ab>
+
+                    </msItem>
+
+                    <msItem n="12" locusStart="353" locusEnd="355">
+                        <head type="CCC">
+
+                            <title>Epistola <name type="author">Deoduini Leodiensis</name> ad <name type="author"
+                                    >Henricum Francorum regem</name></title>
+
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Leodiensis episcopi</name></title>
+                        </head>
+
+                        <rubric locus="353">Sequitur Epistola <name type="author">leodiensis episcopi</name> ad <name
+                                type="person">henricum</name> etc.</rubric>
+                        <incipit locusNew="353">Gloriosissimo</incipit>
+                        <ab>(= no. 4)</ab>
+
+                    </msItem>
+
+                    <msItem n="13" locusStart="355" locusEnd="357">
+                        <head type="CCC">
+
+                            <title>Tractatus de eucharistia</title>
+
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Brevis tractatus de eucharistia</title>
+                        </head>
+
+                        <ab>Added</ab>
+                        <rubric locus="355">Questio ab aduersariis perlata</rubric>
+                        <incipit locusNew="355">Quid est inquiunt sacram. altaris in sua natura</incipit>
+                        <explicit locusNew="357">et forma rerum earundem permanente</explicit>
+
+                    </msItem>
+
+                    <msItem n="14" locusStart="358" locusEnd="366">
+                        <head type="CCC">
+
+                            <title>Tractatus de sacramento eucharistiae</title>
+
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Qualiter Christus in sacramento eucharistiae sit devote suscipiendus a quolibet
+                                christiano</title>
+                        </head>
+
+                        <rubric locus="358">Qualiter Christus etc.</rubric>
+                        <incipit locusNew="358">Septem ecclesie sacramenta 7<abbr rend="superscript">em</abbr> remedia
+                            sunt</incipit>
+                        <explicit locusNew="365">et tandem conferatur exitus beatus. Amen</explicit>
+
+                        <ab>p. <locus>366</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="15" locusStart="367" locusEnd="386">
+                        <head type="CCC">
+                            <name type="author">Gennadius</name>, <title>De uiris inlustribus</title></head>
+
+                        <head type="Nasmith">
+                            <title><name type="author">Gennadii Massiliensis</name> catalogus de viris
+                                illustribus</title>
+                        </head>
+
+                        <ab>
+                            <handNote>Another hand</handNote>
+                        </ab>
+                        <ab locus="367">List of authors treated: <name type="person">Iacobus</name> ... Ego <name
+                                type="author">gennadius</name> presbiter</ab>
+                        <rubric locusNew="368">Expliciunt capitula</rubric>
+                        <rubric locusNew="368">Incipit Cathalogus <name type="author">Gennadii Massilensis</name> de
+                            viris illustribus</rubric>
+                        <ab>(<ref type="bibl" target="Migne 058"><supplied>P. L.</supplied> LXVIII 908
+                                    <supplied>(actually LVIII 1060-1120)</supplied></ref>)</ab>
+
+                        <incipit locusNew="368"><name type="person">Iacobus</name> cognomento sapiens nizibene</incipit>
+                        <explicit locusNew="386">misi ad beatum <name type="person">gelasium</name> urbis <name
+                                type="place">rome</name> episcopum</explicit>
+
+                    </msItem>
+
+                    <msItem n="16" locusStart="386" locusEnd="393">
+                        <head type="CCC">
+                            <name type="author">Isidore of Seville</name>, <title>De uiris illustribus</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Isidori</name> Hispalensis catalogus de viris illustribus</title>
+                        </head>
+                        <rubric locus="386">Incipit Cathalogus <name type="author">ysidori</name> hispalensis episcopi
+                            de viris illustribus</rubric>
+                        <ab>(<ref type="bibl" target="Migne 083"><supplied>P. L.</supplied> LXXXIII 1107</ref>)</ab>
+                        <ab locusNew="386"><name type="person">Ossius</name> episcopus cordubensis ... <name
+                                type="person">Maximus</name> cesaraugustanus episcopus</ab>
+                        <incipit locusNew="386"><name type="person">Ossius</name> cordubensis ciuitatis
+                            episcopus</incipit>
+                        <explicit locusNew="393">alia scribere dicitur que necdum legi</explicit>
+                        <rubric locusNew="393">Explicit cathalogus <name type="author">ysidori</name> Imp. episcopi de
+                            uiris illustribus</rubric>
+                    </msItem>
+
+                    <msItem n="17" locusStart="393" locusEnd="407">
+                        <head type="CCC">
+                            <name type="author">Isidore of Seville</name>, <title>Allegoriae sacrae scripturae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Tractatus de vita et morte sanctorum utriusque testamenti</title>
+                        </head>
+
+                        <ab>
+                            <quote>Ex verbis, quae in fronte hujus tractatus occurrunt, perperam intellectis, <name
+                                    type="person">Orosio</name> attribuitur et in indice hujus codicis et a <name
+                                    type="person">Cl. Stanley</name>:- verba autem haec sunt, <q><name type="person"
+                                        >Orosio</name>
+                                    <name type="person">Ysodori</name> salutes:</q> multum sane hallucinatus est scriba,
+                                ea tamen sic esse legenda, <q><name type="person">Orosio</name>
+                                    <name type="person">Isidorus</name> salutem,</q> satis liquet, et proinde opus non
+                                    <name type="person">Orosio</name> sed <name type="person">Isidoro</name> esse
+                                attribuendum</quote>
+                        </ab>
+
+                        <rubric locus="393"><name type="person">Orosio</name>
+                            <name type="person">ysidori</name> salutes</rubric>
+                        <ab>(<ref type="bibl" target="Migne 083"><supplied>P. L.</supplied> LXXXIII 129</ref>)</ab>
+                        <incipit locusNew="393">Quedam notissima nomina legis</incipit>
+                        <explicit locusNew="393">corrigenda iudicio</explicit>
+                        <incipit locusNew="394"><name type="person">Adam</name> figuram christi gestauit</incipit>
+                        <explicit locusNew="407">eterne beatitudinis refectione saturabuntur</explicit>
+
+                    </msItem>
+
+                    <msItem n="18" locusStart="408" locusEnd="421">
+                        <head type="CCC">
+                            <name type="author">Jerome</name>, <title>Epistula ad uirgines</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Hieronimus</name> ad virgines de continentia virginali</title>
+                        </head>
+
+                        <ab>
+                            <handNote>Change of hand</handNote>
+                        </ab>
+                        <rubric locus="408">Incipit <name type="author">Jeronimus</name> ad virgines de continentia
+                            virginali</rubric>
+                        <ab>(<ref type="bibl" target="Vallarsi 1766-72">XI 127, Vallarsi</ref>)</ab>
+                        <incipit locusNew="408">Quantam in celestibus beatitudinem</incipit>
+                        <explicit locusNew="421">et ipse sit dignus</explicit>
+
+                    </msItem>
+
+                    <msItem n="19" locusStart="421" locusEnd="432">
+                        <head type="CCC">
+                            <name type="author">pseudo-Jerome</name>, <title>Epistula ad <name type="person"
+                                    >Celantiam</name></title></head>
+                        <head type="Nasmith">
+                            <title>Idem ad <name type="person">Celanam</name> quo juste et caste vivat</title>
+                        </head>
+
+                        <rubric locus="421"><name type="author">Jeronimus</name> ad <name type="person">celanam</name>
+                            quomodo iuste et caste uiuat</rubric>
+                        <ab>(<ref type="bibl" target="Migne 022"><supplied>P. L.</supplied> XXII 1204</ref>)</ab>
+                        <incipit locusNew="421">Decus scripture sentencia celebrata est</incipit>
+                        <explicit locusNew="432">ipse reprobetur a domino</explicit>
+                        <rubric locusNew="432">Explicit epistola</rubric>
+
+                    </msItem>
+
+                    <msItem n="20" locusStart="433" locusEnd="582">
+                        <head type="CCC">
+                            <name type="author">Giles of Rome OESA</name>, <title>Theoremata de corpore Christi</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Egidius [Romanus]</name> de sacramento altaris</title>
+                        </head>
+
+                        <ab>
+                            <handNote>Hand of no. 1</handNote>
+                        </ab>
+                        <rubric locus="433">Item tractatus de sacramento altaris</rubric>
+                        <incipit locusNew="433">Quia inter cetera sacramenta ecclesie</incipit>
+
+                        <explicit locusNew="574">cohortem angelicam ad quam ordinat tui corporis et sanguinis
+                            sacramenturn qui cum patre et spiritu sancto es verus deus et benedictus in secula
+                            seculorum. Amen</explicit>
+
+                        <rubric locusNew="574">Explicit tractatus de corpore Christi editus a fratre <name type="author"
+                                >Egidio</name> romano fratrum heremitarum ordinis Sancti Augustini. Deo gratias</rubric>
+                        <ab>pp. <locus>575</locus>-<locus>582</locus> blank</ab>
+
+
+                    </msItem>
+
+                    <msItem n="21" locusStart="583" locusEnd="612">
+                        <head type="CCC">
+                            <name type="author">John Tissington OFM</name>, <title>Confessio de sacramento
+                                altaris</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Iohannes Tassyngton</name> de sacramento altaris</title>
+                        </head>
+
+                        <ab>
+                            <quote>Ad finem, <q>Explicit confessio magistri et fratris <name type="author">Iohannis
+                                        Tassyngton</name> de ordine minorum, et sacrae theologiae doctoris, quam edidit,
+                                    et in scholis fratrum minorum <name type="place">Oxoniis</name> determinando
+                                    promulgavit ad declarationem et defensionem fidei ortodoxae de sacramento altaris,
+                                    quae per sectam Berangariorum, prout superius recitavit, et jam omni clero Oxon.
+                                    catholico innotuit, periculose extiterat, non auctoritate sed loquacitate, non
+                                    argumentis vel racionibus sed promptuosis assertionibus blasphemiae impugnata,
+                                        <date>anno Domini millesimo CCC octogesimo primo</date>.</q></quote>
+                        </ab>
+
+                        <ab>
+                            <handNote>Another hand</handNote>
+                        </ab>
+                        <incipit locus="583">Semel confessus est filius. Confiteor inquit tibi pater domine celi et
+                            terre</incipit>
+                        <explicit locusNew="612">ita in patria pleno ore facie ad faciem perfruamur. Amen</explicit>
+                        <ab locusNew="612">Colophon as in Nasmith</ab>
+
+                    </msItem>
+
+                    <msItem n="22" locusStart="613" locusEnd="640">
+                        <head type="CCC">
+
+                            <title>De pena et culpis</title>
+
+                        </head>
+                        <head type="Nasmith">
+                            <title>De penis et culpis</title>
+                        </head>
+
+                        <ab>No title</ab>
+                        <incipit locus="613">Pena et culpa curiositatis prima transgressionis occasia ortum
+                            habuisse</incipit>
+                        <ab>The last is</ab>
+                        <ab locusNew="638">Pena illorum qui malediccionem dei incurrunt</ab>
+                        <ab>Ending</ab>
+                        <explicit locusNew="639">per <name type="person">malachiam</name> ait malediccio super
+                            benediccionibus vestris. Malachie 2</explicit>
+
+                    </msItem>
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: NJM 30/12/2008</p>
+                            <p>remarks: item 19, Celantiam (N.B. 'ti' not in MS) </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

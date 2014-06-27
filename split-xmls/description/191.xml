@@ -1,0 +1,163 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC191">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>191</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>S. 12</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>268</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Enlarged Rule of Chrodegang in Latin and Old English</head>
+                <head type="James">Regula Chrodegangi</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">290</height>
+                        <width unit="mm">175</width>
+                    </measureGrp>, <measureGrp type="James">11.4 x 7</measureGrp>, <extent>ff. 85 + 2</extent>,
+                        <layout>27 lines to a page</layout>. Cent. <origDate>xi early</origDate>, <handNote>in two very
+                        good round upright hands</handNote>. The earlier leaves are very tender from damp.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num> 1<num>8</num> (2 replaced by blank) 2<num>8</num>-11<num>8</num> (wants
+                        6-8)</collation>.</p>
+
+                <p function="Additions">On the flyleaf <supplied>(<locus>iiv</locus>)</supplied> a <name type="author"
+                        >Parker</name>ian note attributing the work to <name type="person">Theodore</name>.</p>
+
+                <p function="Research" rend="withinContents"><ref type="bibl" target="Bateson 1894">Miss Bateson (<hi
+                            rend="italic">Eng. Hist. Rev.</hi> 1894, p. 699)</ref> has pointed out that this work is the
+                    Rule of Chrodegang of Metz as enlarged after the Council of Aix-la-Chapelle in <date>817</date>.
+                        <ref type="bibl" target="Selborne 1892">Lord Selborne (<hi rend="italic">Ancient Facts and
+                            Fictions concerning Tithes</hi>, edn 2, pp. 264-70)</ref> had also rightly identified the
+                    work, which previous writers had mistaken for the Benedictine Rule.<lb/> A copy said to be by <name
+                        type="person">Whelock</name> is in <ref type="ms" target="LBLH40">Harl. MS. 440</ref>. It
+                    contains the capitula complete (doubtless excerpted from the text, as they are in <ref type="bibl"
+                        target="Wanley 1705">Wanley, p. 130</ref>). Another (Latin only) is in <ref type="ms"
+                        target="LBLVD7">Vitellius D. VII</ref>, much burnt. This last was a volume of <hi rend="italic"
+                        >Collectanea</hi> of <name type="person">Laurence Nowell</name>, and this text is described by
+                    him as copied from a book belonging to <name type="place">Exeter Cathedral</name>. On this account
+                    the present MS. is identified (rightly, as it seems) with one of <name type="person"
+                    >Leofric</name>'s gifts to <name type="place">Exeter</name>: probably no. 21 in his list (Regula
+                    Canonicorum) but possibly no. 23 (Canon on Leden). There was also a copy at <name type="place"
+                        >Christ Church, Canterbury</name>, <q>Regula Canonicorum Anglice</q> (<ref type="bibl"
+                        target="James 1903"><hi rend="italic">Ancient Libraries</hi>, p. 51, no. 317</ref>).<lb/> The
+                    text is to be edited by <ref type="bibl" target="Napier 1916">Professor Napier for the Early English
+                        Text Society</ref>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a-l + i-iii + pp. 1-4 + 4a-b + 5-6 + 6a-d + 7-8 + 8a-b + 9-170 + ff.
+                    m-x</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="ang">Latin and Old English.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1" locusEnd="169">
+                        <head type="CCC">
+                            <title>Enlarged Rule of <name type="person">Chrodegang</name> in Latin and Old
+                                English</title>
+                        </head>
+
+                        <ab>
+                            <decoNote>The two first lines of the text are in capitals</decoNote>
+                        </ab>
+                        <incipit locus="1">Si trecentorum decem et octo reliquorum sanctorum patrum<lb/>et canonum
+                            auctoritas</incipit>
+                        <ab>(<ref type="bibl" target="Migne 089">LXXXIX 1057, 1097</ref>)</ab>
+                        <explicit locusNew="2">dum licet currere festinent</explicit>
+                        <ab locus="2">Anglo-Saxon version follows</ab>
+                        <incipit locusNew="2">Gif &#254;era &#254;reo hundred 7 eahta tyne f&#230;dra
+                            &#254;e &#447;&#230;ron gesamnode on &#254;am sino&#240;e &#254;e
+                            &#447;e nicena nemna&#240;</incipit>
+                        <ab>Ends imperfectly</ab>
+                        <explicit locusNew="2">Gif &#447;e &#447;illa&#240; ure yfluge betan gesa</explicit>
+                        <ab><locus locusNew="3">2r</locus>-<locus locusNew="4">2v</locus>, blank, replaces the
+                            original</ab>
+                        <ab><locus locusNew="5">3r</locus> begins in list of chapters (Latin)</ab>
+                        <ab locusNew="5">Accipiendam<lb/> xxxi. De communicatione culparum<lb/> to lxxxv</ab>
+                        <ab locus="7">Anglo-Saxon version follows</ab>
+                        <ab>Text</ab>
+                        <rubric locus="11">I. De humilitate</rubric>
+                        <incipit locusNew="11">Clamat nobis diuina scriptura dicens. omnis qui se exaltat
+                            humiliabitur</incipit>
+                        <ab locus="12">Anglo-Saxon</ab>
+                        <rubric locusNew="12">I. Be ea&#240;modnysse</rubric>
+                        <incipit locusNew="12">Vs clipa&#240; &#254;&#230;t halige ge&#447;rit</incipit>
+                        <ab>The Latin ends (cap. lxxxiv)</ab>
+                        <explicit locus="167">uel quem episcopus expulisset agnouit</explicit>
+                        <ab>The Anglo-Saxon ends</ab>
+                        <explicit locus="169">o&#240;&#240;e h&#447;&#230;ne se biscop ut h&#230;fde
+                            adr&#230;fed</explicit>
+
+                        <ab>
+                            <supplied>p. <locus>170</locus> is blank</supplied>
+                        </ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, SP, CF</p>
+                            <p>msCheck: SP 12/8/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

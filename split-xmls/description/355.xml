@@ -1,0 +1,201 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+
+                <msIdentifier xml:id="CCC355">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>355</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>2. 5</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>308</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">John Colet, Epistolae beati Pauli ad Romanos expositio, Geneseos expositio ad
+                    Radulphum</head>
+
+                <head type="James">John Colet in Romanos et in Genesim</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">285</height>
+                        <width unit="mm">185</width>
+                    </measureGrp><measureGrp type="James">11.2 x 7.2</measureGrp>, <extent>ff. 112</extent>, <layout>22
+                        lines to a page</layout>. Cent. <origDate>xvi early</origDate>, <handNote>in a very fine Roman
+                        hand</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>a<num>8</num>-m<num>8</num> | n<num>8</num> o<num>8</num></collation>.</p>
+
+
+                <p function="Provenance">Written doubtless by <name type="person">Peter Meghen</name> the scribe of many
+                    of <name type="author">Colet</name>'s works. The last two quires in another hand, <layout>20 lines
+                        to a page</layout>. This book much resembles <ref type="ms" target="CEC245">Emmanuel College MS.
+                        245</ref>, which contains <name type="author">Colet</name> on I Corinthians.</p>
+
+
+
+                <p type="CCC">
+                    <foliation>ff. i-iv + pp. 1-228 + ff. v-viii</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="3" locusEnd="194">
+
+                        <head type="CCC"><name type="author">John Colet</name>, <title>Epistolae beati Pauli ad Romanos
+                                expositio</title></head>
+
+
+                        <head type="James">
+                            <name type="author">John Colet</name>
+                            <title>in Romanos</title>
+                        </head>
+
+
+                        <ab locusNew="3">Title <handNote>in red in <name type="person">Bishop Tunstall</name>'s
+                                hand</handNote></ab>
+                        <rubric locusNew="3">Scripta <name type="author">Ioannis Colett</name> professoris theologie in
+                            epistolam diui <name type="person">Pauli</name> ad Romanos</rubric>
+                        <ab locusNew="3">Marginal notes by a <name type="person">Parkerian scribe</name>:<lb/> Hic
+                            titulus scriptus erat cum aliis insequentibus manu <name type="person">Cutheberti
+                                Dunelm.</name> ep. ut testatur subscriptio eius in fine statutorum <name type="place"
+                                >eccl. Dunelmensis</name>. et ut probari potest per scriptum suum in libro
+                            miscellaneorum E. Pag. 58.<lb/> Hic liber scriptus manu amanuensis <name type="person"
+                                >Iohannis Colett</name>, ut videre licet in libro magno duarum translationum <name
+                                type="person">Matthaei</name> et <name type="person">Marci</name> script. manu <name
+                                type="person">Petri Meghen</name> monoculi teutonis natione Brabantini. Vt ipsemet
+                            testatur in fine <name type="person">Marci Euangelistae</name> Anno 1509. 8 Maij</ab>
+
+                        <ab>The MS. of <name type="person">Matthew</name> and <name type="person">Mark</name> referred
+                            to is in the <ref type="ms" target="CUL073">University Library Dd. 7. 3</ref>. It was given
+                            by <name type="person">Parker</name></ab>
+                        <ab>Text</ab>
+                        <incipit locusNew="3">In epistola quam apostolus <name type="person">Paulus</name> scripsit ad
+                            Romanos hominibus illic christiani nominis</incipit>
+                        <ab>
+                            <decoNote>Spaces are left for illuminated initials</decoNote>
+                        </ab>
+                        <ab>Ends imperfectly</ab>
+                        <explicit locus="194">ad honestam et optandam emendationem malorum non</explicit>
+                        <ab locusNew="194">Note by <name type="person">Tunstall</name>:<lb/> Supersunt multa ab eodem
+                                <name type="author">Joanne Colet</name> scripta in diuum <name type="person"
+                                >paulum</name> sed puerorum eius incuria perierunt</ab>
+
+                        <ab>A complete copy of the Lectures is in the <ref type="ms" target="CUL426">University Library
+                                Gg. 4. 26</ref> from which the text was edited with translation by <ref type="bibl"
+                                target="Lupton 1873">J. H. Lupton, 1873</ref></ab>
+
+
+
+
+                    </msItem>
+
+
+
+
+                    <msItem n="2" locusStart="195" locusEnd="226">
+
+                        <head type="CCC"><name type="author">John Colet</name>, <title>Geneseos expositio ad
+                                Radulphum</title></head>
+
+
+                        <head type="James">
+                            <name type="author">John Colet</name>
+                            <title>in Genesim</title>
+                        </head>
+
+
+                        <ab>Title by <name type="person">Tunstall</name></ab>
+                        <rubric locus="195">Scripta <name type="author">Joannis Colet</name> professoris theologie
+                            Decani <name type="place">sancti pauli London</name>. In principium geneseos</rubric>
+                        <incipit locusNew="195">Miror sane te optime <name type="person">Radulphe</name> quum voluisti a
+                            capite Biblie inchoare</incipit>
+                        <explicit locusNew="199">fac nos te queso participes. Vale</explicit>
+                        <incipit locus="199">Parumper de reliquis diebus uti petis in calce Epistole</incipit>
+                        <explicit locusNew="207">me de tedio scribendi paululum leuauerim. Vale</explicit>
+                        <incipit locus="207">Tercium nunc deinceps diem aggrediamur</incipit>
+                        <explicit locusNew="222">nos in hiis rebus lucubrasse. Vale</explicit>
+
+
+
+                        <incipit locus="222">Salue <name type="person">Radulphe</name> ac cum salute puto te
+                            rediisse</incipit>
+                        <ab>Ending imperfectly</ab>
+                        <explicit locus="226">facere docet <name type="person">Macrobius</name> in Comentario
+                            edito</explicit>
+                        <ab>Edited by <ref type="bibl" target="Lupton 1876">J. H. Lupton in 1876</ref></ab>
+
+
+                    </msItem>
+
+
+
+                </msContents>
+
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text:copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, BA, CF</p>
+                            <p>msCheck: NJM 01.06.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

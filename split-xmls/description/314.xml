@@ -1,0 +1,317 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC314">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>314</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>D. 9</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>40</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Hugh of Saint-Victor OSA, Commentary on pseudo-Dionysius' Hierarchia caelestis.
+                    pseudo-Dionysius, Various Works. Thomas Gallus OSA, Commentaries.</head>
+
+                <head type="James">Dionysius Areopagita, etc.</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">240</height>
+                        <width unit="mm">170</width>
+                    </measureGrp><measureGrp type="James">9.5 x 6.6</measureGrp>, <extent>ff. 2 + 195</extent>,
+                        <layout>double columns of 47 lines</layout>. Cent. <origDate>xiii late or xiv early</origDate>,
+                        <handNote>in a very good clear upright hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num> 1<num>4</num> 2<num>12</num>-5<num>12</num> 6<num>16</num> (+1)
+                            7<num>12</num>-10<num>12</num> (+ slip) 11<num>12</num>-16<num>12</num> (? one wanting and
+                        one added) 17<num>6</num></collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>debatur quia</secFol>.</p>
+
+                <p function="Provenance">From <name type="place">St Augustine's, Canterbury</name>. No mark remains, but
+                    the 2nd folio agrees.</p>
+                <p function="Research"><ref type="bibl" target="James 1903"><hi rend="italic">Ancient Libraries</hi>, p.
+                        235, no. 419</ref>. For nos. 2-6 compare an earlier copy from <name type="place">Christ Church,
+                        Canterbury</name>, at <ref type="ms" target="CTC074">Trinity College, B. 2. 31</ref>. </p>
+
+                <p type="CCC">
+                    <foliation>ff. a + i-ii + 1-77 (78 missing) + 79-111 + 111a + 112-187 (188 missing) + 189-198 +
+                        iii</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="69v">
+
+                        <head type="CCC"><name type="author">Hugh of Saint-Victor OSA</name>, <title>Commentary on <name
+                                    type="person">pseudo-Dionysius</name>' Hierarchia caelestis</title></head>
+
+                        <head type="Nasmith">
+                            <title>Expositio <name type="author">Magistri Hugonis canonici Sancti Victoris</name>
+                                ecclesiae super angelicam hierarchiam theologi <name type="person"
+                                >Dyonisii</name></title>
+                        </head>
+
+                        <rubric locus="1r">Incipit prephacio <name type="author">Magistri Hugonis de Sancto
+                                Victore</name>, etc.</rubric>
+                        <incipit locusNew="1r">Iudei signa querunt</incipit>
+                        <ab>(<ref type="bibl" target="Migne 175"><supplied>P. L.</supplied> CLXXV 923</ref>)</ab>
+                        <explicit locusNew="4v">theologice demonstrantur</explicit>
+                        <rubric locus="5r">Incipit exposicio <name type="author">Magistri Hugonis</name>, etc.</rubric>
+                        <incipit locusNew="5r">Primus liber <name type="person">dyonisii theologi</name></incipit>
+                        <explicit locusNew="69v">sanctitas condescendit</explicit>
+                        <rubric locusNew="69v">Explicit tractatus <name type="author">magistri hugonis</name> super
+                            ierarchiam <name type="person">dionisii ariopagite</name></rubric>
+
+                    </msItem>
+
+                    <msItem n="2.1" locusStart="70r" locusEnd="70r">
+                        <head type="CCC"><name type="author">Iohannes Scotus Eriugena</name>,
+                            <title>Carmina</title></head>
+
+
+                        <ab>Verses</ab>
+
+                        <incipit locusNew="70r">Hanc libam sacro grecorum nectare fartam, etc.</incipit>
+                        <incipit locusNew="70r">Lumine sydereo <name type="person">dionisius</name> auxit athenas,
+                            etc.</incipit>
+
+                    </msItem>
+
+                    <msItem n="2.2" locusStart="70r" locusEnd="95r">
+                        <head type="CCC"><name type="author">pseudo-Dionysius the Areopagite</name>, <title>De caelesti
+                                hierarchia</title></head>
+                        <head type="Nasmith">
+                            <title><name type="author">Dyonisii Areopagitae</name> angelica hierarchia ex versione <name
+                                    type="person">Ioannis Erigenae</name></title>
+                        </head>
+
+                        <rubric locus="70r">In hiis libris <name type="author">Sancti dionisii ariopagite</name> quos
+                                <name type="person">Iohannes eriugena</name>, etc.</rubric>
+
+                        <rubric locusNew="70r">Gloriosissimo catholicorum regum <name type="person">karolo</name>
+                            <name type="person">Johannes</name></rubric>
+                        <incipit locusNew="70r">Ualde quidem ammiranda</incipit>
+                        <ab locusNew="71r">Capitula 15</ab>
+                        <ab locusNew="71v">Epigramma</ab>
+                        <incipit locus="71v">Angelice sapiencie fulgores, etc.</incipit>
+                        <ab>Text</ab>
+                        <incipit locusNew="71v">Omne datum optimum</incipit>
+                        <explicit locusNew="82r">silencio honorificantes</explicit>
+                        <rubric locus="82r">Angelicarum descriptionum illuminaciones, etc.</rubric>
+                        <ab locusNew="82r">Epigramma</ab>
+                        <incipit locusNew="82r">symbola diuinorum mirabilium</incipit>
+                        <ab locusNew="82r">Capitula of Hierarchia ecclesiastica</ab>
+                        <ab>Text</ab>
+                        <incipit locusNew="82r">Quia quidem secundum nos</incipit>
+                        <explicit locusNew="95r">ascendens usque uapores</explicit>
+                        <rubric locusNew="95r"><name type="person">Dyonisius ariopagite</name> episcopus athenarum ad
+                                <name type="person">tymotheum episcopum ephesi</name> de ecclesiastica ierarchia finitus
+                            est liber</rubric>
+                    </msItem>
+
+                    <msItem n="3" locusStart="95v" locusEnd="114v">
+                        <head type="CCC"><name type="author">pseudo-Dionysius the Areopagite</name>, <title>De diuinis
+                                nominibus</title></head>
+                        <head type="Nasmith">
+                            <title>Idem de divinis nominibus</title>
+                        </head>
+
+                        <rubric locus="95v">Epigramma in <name type="person">beatum dionisium</name> in hoc de diuinis
+                            nominibus</rubric>
+                        <incipit locusNew="95v">In animum splendor</incipit>
+                        <ab locusNew="95v">Capitula</ab>
+                        <ab>Text</ab>
+                        <incipit locusNew="95v">Nunc autem o beate</incipit>
+                        <explicit locusNew="114v">duce deo transcendemus</explicit>
+                        <rubric locusNew="114v"><name type="author">Dyonisius ariopagita</name> episcopus athenarum ad
+                                <name type="person">thymotheum episcopum ephesi</name> de diuinis nominibus</rubric>
+                    </msItem>
+
+                    <msItem n="4" locusStart="114v" locusEnd="115v">
+                        <head type="CCC"><name type="author">pseudo-Dionysius the Areopagite</name>, <title>De mystica
+                                theologia</title></head>
+                        <head type="Nasmith">
+                            <title>Idem de mistica theologia</title>
+                        </head>
+
+                        <ab locus="114v">Capitula (de mistica theologia). Epigramma</ab>
+
+                        <ab>Text</ab>
+                        <incipit locusNew="114v">Trinitas superessencialis</incipit>
+                        <explicit locusNew="115v">et summitas omnium</explicit>
+                        <rubric locusNew="115v"><name type="author">Dyonisii ariopagite</name> athenarum episcopi de
+                            mistica theologia</rubric>
+
+
+                    </msItem>
+
+                    <msItem n="5" locusStart="115v" locusEnd="122v">
+                        <head type="CCC"><name type="author">pseudo-Dionysius the Areopagite</name>,
+                                <title>Epistulae</title></head>
+                        <head type="Nasmith">
+                            <title>Ejusdem epistolae diversae de mistica theologia</title>
+                        </head>
+
+                        <rubric locus="115v">Eiusdem epistole diuerse</rubric>
+                        <ab><name type="person">Gaio</name> (1-4), <name type="person">Dorotheo</name> (5), <name
+                                type="person">Sosipatro</name> (6), <name type="person">Policarpo</name> (7), <name
+                                type="person">Demofilo</name> (8), <name type="person">Tyto</name> (9), <name
+                                type="person">Iohanni</name> (10)</ab>
+                        <ab>Extracts from <name type="person">Polycrates</name>' letter, <locus>119v</locus>. <name
+                                type="person">Clement of Alexandria</name>, quis diues saluetur, <locus>120r</locus>.
+                                <name type="person">Eusebius</name> (<name type="person">Philo</name>, de uita
+                            contemplativa), <locus>121v</locus></ab>
+                        <rubric locusNew="121r">Explete sunt decem epistolae <name type="author">dionisii
+                                ariopagite</name> archiepiscopi facti athenarum</rubric>
+
+                        <ab>Colophon</ab>
+                        <rubric locusNew="122r">Finitus est cum deo liber <name type="author">dionisii ariopagite</name>
+                            de ecclesiastica ierarchia</rubric>
+                        <ab><locus>122v</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="6" locusStart="123r" locusEnd="167v">
+                        <head type="CCC"><name type="author">Thomas Gallus (Vercellensis) OSA</name>, <title>Extractio
+                                super quatuor libris <name type="person">Dionysii</name></title></head>
+                        <head type="Nasmith">
+                            <title>Minor expositio <name type="author">Verzellensis</name> super IV libros <name
+                                    type="person">Dyonisii</name></title>
+                        </head>
+
+
+                        <rubric locus="123r">Minor expositio <name type="author">Verzellensis</name> super IIII<abbr
+                                rend="superscript">or</abbr> libros <name type="person">dyonisii</name></rubric>
+                        <rubric locusNew="123r">Incipit prephacio</rubric>
+                        <incipit locusNew="123r">Cum in libris magni <name type="person">dyonisii
+                            ariopagite</name></incipit>
+                        <explicit locusNew="123r">textus librorum est ista extractio</explicit>
+                        <rubric locusNew="123r">Titulus primi capituli, etc.</rubric>
+                        <ab>Text</ab>
+                        <incipit locusNew="123r">Omne bonum datum naturalium</incipit>
+                        <rubric locus="135v">De ecclesiastica ierarchia</rubric>
+                        <rubric locus="145r">De diuinis nominibus</rubric>
+                        <rubric locus="164r">De mistica theologia</rubric>
+                        <rubric locus="165v">De epistola ad <name type="person">Tytum</name></rubric>
+                        <ab>Ends</ab>
+                        <explicit locusNew="167v">symbolicas theologias iuxta consonanciam scripturarum</explicit>
+                        <rubric locusNew="167v">Explicit</rubric>
+                    </msItem>
+
+                    <msItem n="7" locusStart="168r" locusEnd="188v">
+                        <head type="CCC"><name type="author">Thomas Gallus (Vercellensis) OSA</name>, <title>Commentary
+                                on the Song of Songs</title></head>
+                        <head type="Nasmith">
+                            <title>Expositio super cantica canticorum secundum <name type="author">Thomam abbatem de
+                                    Versellis</name></title>
+                        </head>
+                        <rubric locus="168r">Incipit prohemium super cantica canticorum ierarchice exposita secundum
+                            dominum <name type="author">Thomam Abbatem Vercellensis</name></rubric>
+                        <incipit locusNew="168r">In hoc glorietur qui gloriatur scire et nosse me. Duplex hic designatur
+                            dei cognicio</incipit>
+                        <explicit locusNew="168v">usque restitutus</explicit>
+                        <rubric locus="168v">Explanacio super cantica canticorum secundum <name type="author">Thomam
+                                abbatem de Versellensis</name></rubric>
+                        <incipit locusNew="168v">Osculetur etc. Ita intellige quia sponsa semper</incipit>
+                        <explicit locusNew="188v">in quo perpetuo perseuerat. Actum <name type="place">londoni</name>
+                            anno gracie <date>m<abbr rend="superscript">o</abbr> cc<abbr rend="superscript">o</abbr>
+                                38</date></explicit>
+
+                    </msItem>
+
+                    <msItem n="8" locusStart="188v" locusEnd="190v">
+                        <head type="CCC"><name type="author">Thomas Gallus (Vercellensis) OSA (attrib.)</name>,
+                                <title>Commentary on the sequence Ad celebres rex celice</title></head>
+                        <head type="James">
+                            <title>Exposicio prose de angelis qui incipit. Ad celebres rex celice</title>
+                        </head>
+
+                        <incipit locusNew="188v">Symphonia. id est concordi mentis oris et operis</incipit>
+                        <explicit locusNew="190v">ya uniuersalis</explicit>
+                    </msItem>
+
+                    <msItem n="9" locusStart="190v" locusEnd="193v">
+                        <head type="CCC"><name type="author">Thomas Gallus (Vercellensis) OSA (attrib.)</name>,
+                                <title>Commentary on Oleum effusum</title></head>
+                        <head type="James">
+                            <title>On Oleum effusum est nomen tuum</title>
+                        </head>
+
+                        <rubric locusNew="190v">Oleum effusum nomen tuum</rubric>
+                        <incipit locusNew="190v">Nomen dei est ipse Ihesus</incipit>
+                        <explicit locusNew="192v">sumitur hoc nomen substantia</explicit>
+
+                        <ab locus="192v"><decoNote>A diagrammatic table</decoNote> referring to the hierarchies of <name
+                                type="person">Dionysius</name></ab>
+                        <ab><locus>193v</locus> sqq. blank</ab>
+
+                    </msItem>
+
+                </msContents>
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF, BA</p>
+                            <p>msCheck: NJM 13.08.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

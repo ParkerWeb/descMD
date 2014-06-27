@@ -1,0 +1,141 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC362">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>362</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>19. 14</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">English Statutes</head>
+                <head type="James">Statuta Angliae</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">250</height>
+                        <width unit="mm">180</width>
+                    </measureGrp><measureGrp type="James">9.6 x 7</measureGrp>, <extent>ff. 113</extent>, <layout>38
+                        lines to a page</layout>. Cent. <origDate>xiv-xv</origDate>, <handNote>in pale ink, closely and
+                        well written</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num>-12<num>8</num> 13<num>10</num> | 14<num>10</num> (wants
+                    8-10)</collation>.</p>
+
+
+                <p><label>2 fo.:</label>
+                    <secFol>hugh et hugh</secFol>.</p>
+
+
+
+                <p type="CCC">
+                    <foliation>ff. a (loose leaf) + i-ii + 1-113 + iii-iv</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="frm" otherLangs="lat">Anglo-Norman and Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="106v">
+                        <head type="CCC">
+                            <title>Statuta noua regni <name type="place">Angliae</name></title>
+                        </head>
+                        <head type="James">Nova Statuta</head>
+
+                        <head type="Nasmith">
+                            <title>Statuta nova regni <name type="place">Angliae</name>, viz. ab anno primo ad 47 <name
+                                    type="person">Edwardi III</name></title>
+                        </head>
+
+                        <rubric locusNew="1r">Anno primo</rubric>
+                        <incipit locusNew="1r">Come <name type="person">hugh le despenser</name> le peir et <name
+                                type="person">hugh le fitz</name></incipit>
+                        <ab>Ends with</ab>
+                        <explicit locusNew="106v">Statutum editum apud <name type="place">Westmonasterium</name> anno
+                                xlvij<abbr rend="superscript">o</abbr> ... solonc la quantite de lempeirement</explicit>
+                        <rubric locusNew="106v">Expliciunt Nova Statuta</rubric>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="107r" locusEnd="113v">
+                        <head type="CCC">
+                            <title>Statuta <name type="person">Ricardi II</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Statuta <name type="person">Ricardi II</name>. presertim statuta de
+                                provisoribus</title>
+                        </head>
+
+                        <ab><handNote>In another hand</handNote>, <layout>43 lines to a page</layout></ab>
+
+                        <rubric locus="107r">En ycest parlement ... <date>lan du regne nostre seigneur le Roy <name
+                                    type="person">Richard second</name> ... treszisme</date></rubric>
+
+                        <rubric locus="110r">Incipit statutum de prouisoribus</rubric>
+                        <incipit locusNew="110r">Come iadys en le parlement</incipit>
+                        <rubric locus="111v">De prouisoribus</rubric>
+                        <incipit locusNew="111v">Nostre Seigneur le Roy a son parlement</incipit>
+                        <explicit locusNew="113r">solonc la discrecion du conseill nostre dit seigneur le Roy</explicit>
+                        <ab>f. <locus>113v</locus> blank</ab>
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck:</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

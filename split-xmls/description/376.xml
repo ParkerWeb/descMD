@@ -1,0 +1,129 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC376">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>376</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>17. 1</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>340</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Roger Taverner, De fame [Of the Means to Prevent Famine in this Land]</head>
+                <head type="James">Roger Taverner</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">204</height>
+                        <width unit="mm">148</width>
+                    </measureGrp>, <measureGrp type="James">8 x 5.8</measureGrp>, <extent>ff. viii + 141</extent>,
+                        <layout>27 lines to a page</layout>. Cent. <origDate>xvi</origDate>, <handNote>clearly
+                        written</handNote>.</p>
+
+                <p function="Research" rend="after Contents">The author was brother to the more celebrated <name
+                        type="person" key="RichardT-001">Richard Taverner</name>, and was surveyor of the royal forests
+                    south of the <name type="place" key="TrentRiv-001">Trent</name>. He is mentioned in <ref type="bibl"
+                        target="Tanner 1748">Tanner</ref>'s Bibliotheca.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-v + pp. 1-142 + ff. vi-vii</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="eng">English.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="iiir" locusEnd="136">
+                        <head type="CCC">
+                            <name type="author" key="RogerTav-001">Roger Taverner</name>, <title>Remedies ... of dearth
+                                of victuals</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>A discourse presented to <name type="person" key="elizabet-001">queen
+                                    Elizabeth</name> by <name type="author" key="RogerTav-001">Roger Taverner</name> of
+                                the means of preventing a scarcity of provision</title>
+                        </head>
+
+                        <ab locus="iiir">The table occupies 5 pages</ab>
+                        <ab locus="1">Dedication by <name type="author" key="RogerTav-001">Roger Taverner</name> to
+                                <name type="person" key="elizabet-001">Elizabeth</name></ab>
+                        <rubric locus="5">To the reader</rubric>
+                        <ab locus="7">Chapter 1</ab>
+                        <ab locus="136">Chapter 20 ends</ab>
+
+                    </msItem>
+
+
+
+                    <msItem n="2" locusStart="137" locusEnd="141">
+                        <head type="CCC">
+                            <name type="author" key="RogerTav-001">Roger Taverner</name>, <title>On the devaluation of
+                                coinage</title>
+                        </head>
+
+                        <rubric locus="137">A deuice howe the Quenes maiestie may hereafter in tymes of warre (her
+                            coynes being first reduced unto the rate of xl<abbr rend="superscript">8</abbr> thounce of
+                            golde and xl<abbr rend="superscript">d</abbr> thounce of silver) raise yerely great masses
+                            of money by thalteration of her coynes and yet nevertheles at her owne pleasure reduce the
+                            coynes unto theire former estate</rubric>
+                        <ab locus="141">Ending</ab>
+
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: KW 28/03/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

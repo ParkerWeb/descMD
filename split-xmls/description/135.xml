@@ -1,0 +1,309 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC135">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>135</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>L. 8</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>129</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Anselm of Canterbury OSB, Letters and related works</head>
+                <head type="James">Anselmi Epistolae etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">317</height>
+                        <width unit="mm">203</width>
+                    </measureGrp><measureGrp type="James">12.25 x 8</measureGrp>, <extent>ff. 165 + 5</extent>,
+                        <layout>mostly double columns of 35 lines</layout>. Cent. <origDate>xii</origDate>, <handNote>in
+                        a fine clear pointed hand</handNote>. Brown ink.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num> 1<num>8</num>-13<num>8</num> (+ two after 5) 14<num>8</num>-20<num>8</num>
+                            21<num>6</num> (wants 6) b<num>4</num> (wants 4)</collation>.</p>
+                <p function="Provenance">From <name type="place">Bury</name>. On flyleaf <supplied>(f.
+                        <locus>iv</locus>)</supplied> (<origDate>xiv</origDate>): A. 83.<lb/>Liber <name type="place">S.
+                        Edmundi regis et martiris</name> in quo continentur<lb/> ccclxvij epistole <name type="author"
+                        >anselmi archiepiscopi</name><lb/> meditacio <name type="author">anselmi</name> de eterna
+                    beatitudine<lb/> concilium prouinciale ab <name type="person">anselmo</name>
+                    <name type="place">london</name> celebratum.</p>
+
+                <p function="Additions">On f. <locus>1r</locus> at top: <q>Liber <name type="place">monachorum S.
+                            Edm.</name> A. 83</q>.<lb/> On f. <locus>iir</locus> numbers of various Epistles noted.<lb/>
+                    On f. <locus>31v</locus> a pencil note: <q>habetur tractatus (?) de <name type="person">fr. J. de
+                            Sybetune</name></q>.<lb/> On f. <locus>89v</locus> a pencil note: <q>nota (?) b (or h) de
+                            <name type="place">Ramesaye</name> et aliis de pecunia mutuanda...</q></p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-ii + 1-101 + 101a-101b + 102-165 + iii-v + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="147r">
+                        <head type="CCC">
+                            <name type="author">Anselm of Canterbury OSB</name>, <title>Epistolae</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title><name type="author">Anselmi archiepiscopi</name> epistolae CCCLXVII</title>
+                        </head>
+
+
+                        <ab>Each hundred of the Epistles is separately numbered</ab>
+
+
+                        <ab>After <locus>101v</locus> are inserted two leaves of a smaller (9 x 6) and perhaps older MS.
+                            containing two letters</ab>
+                        <ab>1. MCI. <name type="person">Henrico regi Angl.</name></ab>
+                        <incipit locusNew="101ar">Legationis tue uerba</incipit>
+                        <explicit locusNew="101av">sullimatione disponat</explicit>
+                        <ab>2. <name type="person">Henrico</name></ab>
+                        <incipit locusNew="101br">In litteris uestre celsitudinis</incipit>
+                        <ab>(Ep. 233 in this collection.)</ab>
+                        <ab>3. Verses (28)</ab>
+                        <incipit locusNew="101bv">Petre supra petram nec inaniter edificasti<lb/> Illic et turres quibus
+                            itur ad astra locasti</incipit>
+                        <explicit locusNew="101bv">Presul in exilio mortalia nostra professus<lb/> Ora pro nobis ad
+                            celica regna regressus</explicit>
+
+                        <ab>Epistola (3) 67 (<name type="person">Thome electo archiepiscopi eboracensi</name>) ends</ab>
+                        <explicit locusNew="146v">concedo ut officio sacerdotali quod iam suscepisti utaris</explicit>
+                        <ab>Extract on Freewill</ab>
+                        <incipit locus="146v">Est considerandum quia uolumus aliquando ita ut si possumus faciamus ut
+                            sit quod uolumus</incipit>
+                        <explicit locusNew="147r">aut quia non uult eam uiolari. quod est in quarto modo</explicit>
+                        <ab locus="147r">Confessio. <ref type="bibl" target="Migne 158"><supplied>P. L.</supplied>
+                                CLVIII 685</ref></ab>
+                        <incipit locusNew="147r">Letaris quod in fide Christiana moreris? Respondeat Etiam</incipit>
+                        <ab>Ends</ab>
+                        <explicit locusNew="147r">dicat infirmus ter. In manus tuas commendo spiritum meum</explicit>
+                        <ab>See also <ref type="ms" target="CCC299">MS 299. 4</ref></ab>
+
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="147r" locusEnd="160v">
+                        <head type="CCC">
+                            <name type="author">Eadmer of Canterbury OSB</name>, <title>De beatitudine caelestis
+                                patriae</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Meditatio ejusdem de eterna beatitudine</title>
+                        </head>
+
+                        <incipit locus="147r">Multi homines quibus non nunquam boni mores</incipit>
+                        <ab>
+                            <ref type="bibl" target="Migne 159"><supplied>P. L.</supplied> CLIX 587</ref>
+                        </ab>
+                        <explicit>a diabolo precipitati depereunt</explicit>
+                        <incipit locus="154r">Quattuor modis dicimus aliquid</incipit>
+                        <explicit locusNew="155v">alia facit per presentiam alia per absentiam</explicit>
+                        <incipit locus="155v">Discipulus. Plura sunt de quibus tuam diu desidero responsionem. Ex quibus
+                            sunt potestas et inpotentia</incipit>
+                        <explicit locusNew="160r">ut illi sunt aliquando beati</explicit>
+                        <rubric locusNew="160r">Hec ad predicta pertinent</rubric>
+                        <incipit locus="160r">Discipulus. Video plane. M. hec quidem exempla de causis
+                            efficientibus</incipit>
+                        <explicit locusNew="160v">auferendo arma cum potest</explicit>
+                        <incipit locus="160v">Quamuis post apostolos sancti patres et doctores nostri</incipit>
+                        <explicit locusNew="160v">id aliis libenter aperio quatinus quid secure tenere debeam alieno
+                            discam iudicio</explicit>
+                        <ab>See also <ref type="ms" target="CCC034">MS 34. 2</ref>, <ref type="ms" target="CCC154">MS
+                                154. 48</ref>, <ref type="ms" target="CCC332">MS 332. 14</ref></ab>
+
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="161r" locusEnd="162r">
+                        <head type="CCC">
+                            <title>Provincial Council under <name type="person">Anselm of Canterbury OSB</name>,
+                                    <date>1102</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Concilium provinciale celebratum sub <name type="person">Anselmo</name> A. D.
+                                    <date>1102</date></title>
+                        </head>
+
+                        <incipit locus="161r"><date>Anno dominice incarnationis millesimo centesimo secundo</date>
+                            quarto autem <name type="person">presulatus Pascalis</name></incipit>
+                        <explicit locusNew="162r">concubine cum rebus suis uelut adultere</explicit>
+                        <ab>
+                            <ref type="bibl" target="Wilkins 1737a">Wilkins' Concilia I. 382</ref>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="162v" locusEnd="163r">
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Gerald, Archbishop of York</name>, to <name
+                                    type="person">Anselm of Canterbury OSB</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Girardi archiepiscopi Eboracensi</name> ad <name
+                                    type="person">Anselmum</name></title>
+                        </head>
+
+
+                        <incipit locus="162v">Patri et domino uere dilecto ... Ceruus sitiens</incipit>
+                        <explicit locusNew="163r">ipsi quoque peccatores accedant</explicit>
+                        <ab>Copied in <ref type="ms" target="CCC101">MS 101. 35</ref>, <ref type="ms" target="CCC111">MS
+                                111. 137</ref>, <ref type="ms" target="CCC117">117. 2. 3</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="5" locusStart="163r" locusEnd="165v">
+                        <head type="CCC">
+                            <title>Verses in praise of <name type="person">Anselm of Canterbury OSB</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Versus in laudem <name type="person">Anselmi</name></title>
+                        </head>
+                        <rubric locus="163r">Versus ad laudem domini <name type="person">Anselmi</name>
+                            archiepiscopi</rubric>
+                        <incipit locusNew="163r">
+                            <lg>
+                                <l>Haud dubiture (habiture) parem sumas pater alme salutem</l>
+                                <l>Quam mea disparibus musa uelut pedibus</l>
+                            </lg>
+                        </incipit>
+                        <ab>(<ref type="bibl" target="Migne 158"><supplied>P. L.</supplied> CLVIII 135</ref>)</ab>
+                        <explicit locusNew="164r">Unica scala poli nec ruitura. Vale</explicit>
+
+                        <rubric locusNew="164r">Item uersus de eodem</rubric>
+                        <incipit locus="164r">
+                            <lg>
+                                <l>Presulis Anselmi quem nuper obisse dolemus</l>
+                                <l>Laudibus aptari littera nostra cupit</l>
+                            </lg>
+                        </incipit>
+                        <ab>(<ref type="bibl" target="Migne 158"><supplied>P. L.</supplied> CLVIII 137</ref>)</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="165v">
+                            <lg>
+                                <l>Cantica letitie nullo tibi tempore desunt</l>
+                                <l>Et (sine) fine canis gloria deo magna (sic). Amen</l>
+                            </lg>
+                        </explicit>
+                        <ab>Followed by</ab>
+                        <ab locus="165v">
+                            <lg>
+                                <l>Omnia maiorem retinent sua dicta saporem</l>
+                                <l>Quam que dixerunt qui postue priusue fuerunt</l>
+                                <l>Hic cognoscetis qui talia picta uidetis</l>
+                                <l>Qua spe uixit <name type="person">hugo</name> uel sit opertus humo</l>
+                                <l>Nobilis et diues fortisque per omnia miles</l>
+                                <l>Fortior ut senuit. hic iuga sancta tulit</l>
+                                <l>Dumque plebi uia. lustrat sidera celi (sic)</l>
+                                <l>Quod bene proposuit fortior exibuit</l>
+                                <l>Mox aeris solem recipit sol perdit <name type="person">hugonem</name></l>
+                                <l>Cui sol iusticie fulgeat in requie</l>
+                            </lg>
+                        </ab>
+                        <ab>An erasure of a line follows</ab>
+
+                    </msItem>
+
+                    <msItem n="6" locusStart="iiir" locusEnd="ivv">
+                        <head type="CCC">
+                            <name type="author">Anselm of Canterbury OSB (attrib.)</name>
+                            <title>Tractatus de uirtute corporis Christi</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title><name type="author">Anselmi</name> tractatus de virtute corporis Christi</title>
+                        </head>
+
+                        <ab>f. <locus>iiir</locus>-<locus>iiiv</locus> is from another book (<date>xiii-xiv</date>). At
+                            top is the end of a table to some treatise</ab>
+
+                        <rubric locusNew="iiir">Tractatus <name type="author">beati Anselmi</name> de uirtute corporis
+                            christi</rubric>
+                        <incipit locus="iiir">Quia de sacramento altaris persepe sermo incidit</incipit>
+                        <explicit locusNew="iiiv">et gustus noster dissimulare non potest</explicit>
+                        <ab>On f. <locus>ivr</locus> are scribbles: many numbers of Epistles noted: a pencil scribble:
+                            Ven. patri etc. Abbati <name type="place">Glastoniensi</name>
+                            <name type="person">ffr. W. (dominus prior?) et precentor ecclesie Elyensis</name>
+                            Salutem</ab>
+                        <ab>On f. <locus>ivv</locus> two extracts (<date>xii</date>):<lb/> a. Caue frater illud quod
+                            multi stulti faciunt qui quanto diutius uiuunt tanto maiorem sibi spem uiuendi nutriunt
+                            etc.<lb/> b. De elemosina. Si quis eorum qui habent substantiam mundi </ab>
+                        <ab>A note (<date>xv</date>): <q>de sorte <name type="person">Iohannis wickam monachi monasterii
+                                    S. Edmundi de buree</name> actualiter scolatisantis <name type="place">Oxon.</name>
+                                et permansuri ibi dum modo sit deputatus et legit(ime) electus per capitulum</q></ab>
+                        <ab>A few scribbles on the next leaf: 'ad festum S. eadmundi' is one. Another seems to be in
+                                <name type="person">Bale</name>'s hand. </ab>
+                        <ab>I notice that Bale in a list of MSS. that had belonged to him (<ref type="bibl"
+                                target="Bale 1559"><hi rend="italic">Scriptores Britanniae</hi>, p. 165, Basle
+                                edition</ref>) includes:<lb/>
+                            <q><name type="person">Anselmi archiep.</name> ccclxvij Epistolae<lb/> Eius meditatio de
+                                aeterna beatitudine</q><lb/> which corresponds strikingly with the contents of this MS
+                        </ab>
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: RJR 4/1/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

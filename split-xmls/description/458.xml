@@ -1,0 +1,196 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC458">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>458</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>N. 11</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>175</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">John Chrysostom, De prouidentia Dei, Sermo de dignitate primi hominis. Francesco
+                    Petrarca, Historia Griseldis</head>
+                <head type="James">Chrysostomi quaedam. Petrarchae Griseldis</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">170</height>
+                        <width unit="mm">114</width>
+                    </measureGrp>, <measureGrp type="James">6.7 x 4.7</measureGrp>, <extent>ff. 4 + 123</extent>,
+                        <layout>25 lines to a page</layout>. Cent. <origDate>xv (1468)</origDate>, <handNote>very
+                        clearly written, perhaps by a Flemish hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>4</num> (1 a slip) 1<num>8</num>-13<num>8</num> (wants 7,8) 14<num>8</num> (wants
+                        6-8) 15<num>8</num> 16<num>8</num></collation>.</p>
+
+                <p function="Additions">The flyleaves are bits of a late missal in double columns: <decoNote>on one
+                            <supplied>(f. <locus>iiv</locus>)</supplied> is pasted a coloured woodcut of the Incredulity
+                        of <name type="person">St Thomas</name></decoNote>.</p>
+                <p function="Additions">On f. <locus>ivr</locus>, notes from <name type="author">Cicero</name> in noua
+                    rethorica, and <name type="author">Isocrates</name>.</p>
+                <p function="Additions">f. <locus>1r</locus>-<locus>1v</locus> blank</p>
+                <p type="CCC">
+                    <foliation>ff. a + i-iv + 1-123 + b</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="2r" locusEnd="10v">
+                        <head type="CCC">
+                            <name type="author">John Chrysostom</name>, <title>De prouidentia Dei (transl. by <name
+                                    type="person">Ambrogio Traversari OSB Camald. (Ambrose of Camaldoli)</name>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Beati <name type="author">Ioannis Crisostomi</name> ad <name type="person"
+                                    >Stagirium</name> monachum de providentia Dei lib. iii. utilis admodum ut nullis jam
+                                vitae hujus casibus adversis dejici quis poterit</title>
+                        </head>
+
+                        <rubric locusNew="2r">Incipit liber primus beati <name type="author">Iohannis Crisostomi</name>
+                            ad <name type="person">stagirium</name> monachum de prouidencia dei. utilis admodum ut
+                            nullis iam vite huius casibus aduersis deici quis poterit</rubric>
+                        <incipit locus="2r">Oportuerat quidem o michi amantissime omnium <name type="person"
+                                >stagiri</name></incipit>
+                        <ab locus="35v">Liber II</ab>
+                        <ab locus="68v"><supplied>Liber</supplied> III</ab>
+                        <ab locus="101v">ending</ab>
+                        <explicit locus="101v">frangi uel deici poteris</explicit>
+                        <rubric locus="101v">Explicit liber tercius et ultimus (as title) - quis poterit</rubric>
+                        <ab>
+                            <decoNote>Each book has a pretty initial</decoNote>
+                        </ab>
+                        <ab locus="102r">blank</ab>
+                        <ab locus="102v">a paragraph from <name type="author">Lactantius</name> Div. Inst. V</ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="103r" locusEnd="107v">
+                        <head type="CCC">
+                            <name type="author">John Chrysostom</name>, <title>Sermo de dignitate primi hominis</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Beati <name type="author">Ioannis Crisostomi</name> sermo de dignitate humanae
+                                originis, <date>1468</date></title>
+                        </head>
+
+                        <rubric locus="103r">Beati <name type="author">Iohannis Crisostomi</name> sermo de dignitate
+                            humane originis</rubric>
+                        <incipit locus="103r">Dignitas humane originis facile agnoscitur</incipit>
+                        <ab><ref type="bibl" target="Migne 095"><supplied>P. L.</supplied> XCV</ref> 1205</ab>
+                        <explicit locusNew="106v">indulgentiam diuina pietate percipiat. Amen</explicit>
+                        <rubric locusNew="106v"><date>1468</date> Finis. Deo gratias</rubric>
+                        <ab>Another hand</ab>
+                        <ab locusNew="106v">fr. <name type="person">Ambrosius</name> abbas generalis ord. Camaldulensis
+                            transtulit e greco in latinum vitam sancti <name type="person">Johannis crisostomi</name>
+                            quam dicauit <name type="person">Sigismundo</name> imperatori</ab>
+                        <ab locus="107r">blank</ab>
+                        <ab locus="107v">the title of no. 3 copied</ab>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="108r" locusEnd="121v">
+                        <head type="CCC">
+                            <name type="author">Francesco Petrarca</name>, <title>Historia Griseldis</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Historia Griseldis patientissimae mulieris edita a domino <name type="author"
+                                    >Francisco Petrarcha</name> Florentino poeta laureato <date>1467</date></title>
+                        </head>
+
+                        <rubric locus="108r">Incipit prologus domini <name type="author">francisci (petrarche de lancisa
+                                florentini)</name> poete laureati in hystoriam <name type="person">griseldis</name>
+                            pacientissime mulieris</rubric>
+                        <incipit locusNew="108r">Historiam tuam optime pater <name type="author"
+                            >iohannes</name></incipit>
+                        <explicit locusNew="108v">penes auctorem meum <name type="person">Iohannem</name> fit. Hec
+                            prefatus incipio</explicit>
+                        <rubric locusNew="108v">Explicit prologus</rubric>
+                        <rubric locus="109r">Incipit hystoria <name type="person">griseldis</name></rubric>
+                        <incipit locusNew="109r">Est ad ytalie latus occiduum vesulus</incipit>
+                        <explicit locusNew="121v">Valete plaudite inter montes et colles euganeas</explicit>
+                        <rubric locusNew="121v">Explicit hystoria <name type="person">griseldis</name> pacientissime
+                            mulieris edita a domino <name type="author">francisceo petrarcha</name> florentino poeta
+                            laureato <date>1467</date></rubric>
+                        <ab>Cf. <ref type="ms" target="CCC177">MS 177. 10</ref>, <ref type="ms" target="CCC275">MS 275.
+                                14</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="122r" locusEnd="122v">
+                        <head type="CCC">
+                            <title>Tract on Tribulation</title>
+                        </head>
+
+                        <rubric locus="115r" locusNew="122r">Utilis valde memoria pro sustentacione cuiuscunque
+                            tribulacionis in hac lacrimarum valle</rubric>
+                        <ab>Several lines of this are erased</ab>
+                        <ab>Ends</ab>
+                        <rubric locusNew="122v">Pro consolacione afflictorum</rubric>
+                        <explicit locusNew="122v">Plus currit in certamine confessor omnis sustinens quam martis
+                            ictum</explicit>
+                        <ab>the rest quite erased</ab>
+
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJM 9/1/2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

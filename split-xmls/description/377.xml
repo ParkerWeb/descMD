@@ -1,0 +1,564 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC377">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>377</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>17. 1</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>340</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">English Statutes</head>
+                <head type="James">Statuta Angliae</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">217</height>
+                        <width unit="mm">136</width>
+                    </measureGrp><measureGrp type="James">6.7 x 5.4</measureGrp> and <measureGrp type="James">8.1 x
+                        5.7</measureGrp>, <extent>ff. 7 + 1 + 63 + 15</extent>, <layout>mostly 37 lines to a
+                        page</layout>. Three volumes. Cent. <origDate>xii late, xiv and xv</origDate>.</p>
+
+
+
+                <p function="Multivolume"><lb/><label>Volume I:</label> Cent. <origDate>xii late</origDate>.
+                        <lb/><label>Volume III:</label> Bad vellum, and faint writing of cent.
+                    <origDate>xv</origDate>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>10</num> (wants 8-10) | 1 flyleaf | a<num>8</num>-h<num>8</num> (wants 8) |
+                            A<num>8</num> (2 canc.) B<num>8</num></collation>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. 1-87</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="0" locusStart="1r" locusEnd="8v">
+                        <head type="CCC">
+                            <title>Kalendar</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Kalendarium</title>
+                        </head>
+                        <ab>Kalendar <decoNote>in black, green and red</decoNote></ab>
+
+                        <ab locusNew="1r"><hi rend="bold">January</hi><lb/> 14. Translatio <name type="person">Sancte
+                                Fidis</name>
+                            <decoNote>in red</decoNote><lb/> 31. <name type="person">Ypoliti Martiris</name></ab>
+
+
+                        <ab locusNew="1v"><hi rend="bold">February</hi><lb/> 1. <name type="person">Brigide
+                                Virginis</name><lb/> 7. <name type="person">Dionisii</name><lb/> 15. Victoria Christi,
+                            diabolus a domino recessit. Different ink<lb/> 16. <name type="person">Iuliane</name>
+                            Virginis et martiris. Different ink</ab>
+
+
+                        <ab locusNew="2r"><hi rend="bold">March</hi><lb/> 1. <name type="person">Albini</name><lb/> 18.
+                                <name type="person">Edwardi Regis et Martiris</name><lb/> 19. <name type="person"
+                                >Ioseph</name> sponsi <name type="person">marie</name><lb/> 20. <name type="person"
+                                >Cuthberti</name><lb/> 23. <name type="person">Adam</name> creatus est<lb/> 24. hic
+                            captus est Iesus a iudeis. Different ink</ab>
+
+
+                        <ab locusNew="2v"><hi rend="bold">April</hi><lb/> 22. <name type="person">Dionisii</name> cum
+                            sociis<lb/> 30. <name type="person">Erconwoldi</name> Episcopi</ab>
+
+
+                        <ab locusNew="2v"><hi rend="bold">April</hi> 3 and <hi rend="bold">May</hi> 12 <supplied>(f.
+                                    <locus>3r</locus>)</supplied>. <name type="person">Pancracii</name></ab>
+                        <ab locusNew="2v"><hi rend="bold">April</hi> 25 and <hi rend="bold">May</hi> 18 <supplied>(f.
+                                    <locus>3r</locus>)</supplied>. <name type="person">Marci</name> Ewangeliste</ab>
+
+
+
+                        <ab locusNew="3r"><hi rend="bold">May</hi><lb/> 19. <name type="person">Dunstani</name><lb/> 20.
+                                <name type="person">Ethelberti</name> Martiris</ab>
+
+
+                        <ab locusNew="3v"><hi rend="bold">June</hi> has a good many additions
+                            (<origDate>xiii</origDate>). Original entries are<lb/> 5. <name type="person"
+                                >Bonefacii</name> Archiepiscopi et Martiris <name type="person">Botulfi</name><lb/> 20.
+                                <name type="person">Crispini</name> Martiris <name type="person">Albani</name>
+                            <name type="person">Etheldride</name></ab>
+
+
+                        <ab locusNew="4v"><hi rend="bold">August</hi><lb/> 5. <name type="person">Oswaldi</name><lb/>
+                            24. <name type="person">Audoeni</name> episcopi <decoNote>in green</decoNote></ab>
+
+
+                        <ab locusNew="5v"><hi rend="bold">October</hi><lb/> 4. <name type="person">Francis</name> has
+                            been written over an original entry<lb/> 10. <name type="person">Gereon</name><lb/> 12.
+                                <name type="person">Wilfrid</name><lb/> 23. <name type="person">Seuerini</name> episcopi
+                            in <name type="place">colona</name></ab>
+
+
+                        <ab locusNew="6r"><hi rend="bold">November</hi><lb/>
+                            <name type="person">Martin</name> in green<lb/>
+                            <name type="person">Eadmundi Regis et Martiris</name>
+                        </ab>
+
+                        <ab locusNew="6v"><hi rend="bold">December</hi><lb/> 26. Lapidacio <name type="person">Sancti
+                                Stephani</name><lb/> 29. <name type="person">bonifacii</name> episcopi</ab>
+
+                        <ab>There is a certain German flavour about this</ab>
+                        <ab>On f. <locus>7v</locus> (a slip) are notes</ab>
+                        <ab locusNew="7v"> Nomina III<abbr rend="superscript">m</abbr> Magorum, <name type="person"
+                                >Iaspar</name>, <name type="person">Babtizar</name>, <name type="person"
+                            >Melchion</name>. Nomina duorum latronum cum domino pendentium <name type="person"
+                                >samatros</name> et <name type="person">dismos</name></ab>
+                        <ab locusNew="7v"><name type="person">Petrus</name> et <name type="person">paulus</name>
+                            requiescunt <name type="place">Rome</name>. <name type="person">Andreas Simon</name> et
+                                <name type="person">Iudas</name> et <name type="person">Mathias</name>
+                            <name type="place">constantinopoli</name>
+                            <name type="person">Johannes Zebedeus</name>
+                            <name type="place">epheso</name>. <name type="person">Iacobus</name> frater eius <name
+                                type="place">gallicie</name>. secundum quosdam. <name type="person">Iacobus</name>
+                            frater domini <name type="place">ierosolimis</name>. <name type="person">Matheus</name>
+                            <name type="place">salerne</name>. <name type="person">Bartholomeus</name>
+                            <name type="place">boneuento</name>. <name type="person">Tomas</name> in <name type="place"
+                                >edissa</name> ciuitate <name type="place">indie</name>. <name type="person"
+                                >Philippus</name> in <name type="place">cicilia</name> (corr. to S-) in ecclesia ab ipso
+                            constructa</ab>
+                        <ab locusNew="7v">Other less interesting notes</ab>
+                        <ab locusNew="8v">Flyleaf, the end of a comment on the Apocalypse: <handNote>fine black hand of
+                                cent. <origDate>xiii-xiv</origDate></handNote></ab>
+                        <explicit locusNew="8v">colorum est uarietas. virtutum multiplicatas</explicit>
+                        <rubric locusNew="8v">Expliciunt lectiones libri apocalypsi <name type="person">Iohannis
+                                apostoli</name></rubric>
+
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="1" locusStart="9r" locusEnd="12r">
+                        <head type="CCC">
+                            <title>Magna Carta</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Magna carta 9 E. 1</title>
+                        </head>
+
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="12r" locusEnd="13v">
+                        <head type="CCC">
+                            <title>Carta de foresta</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta de libertatibus forestae</title>
+                        </head>
+
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="13v" locusEnd="14r">
+
+                        <head type="Nasmith">
+                            <title>Sententia [excommunicationis] super [violatores] cartarum lata in parliamento apud
+                                    <name type="place">Westmonasterium</name> A. D. <date>1254</date></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="4" locusStart="14r" locusEnd="15r">
+                        <head type="CCC">
+                            <title>Confirmatio cartarum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Confirmatio earundem per <name type="person">Edwardum I</name></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="5" locusStart="15r" locusEnd="15r">
+                        <head type="CCC">
+                            <title>Sententia excommunicationis per <name type="person">Edwardum I</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sententia excommunicationis. etc., ut supra</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="6" locusStart="15r" locusEnd="15v">
+                        <head type="CCC">
+                            <title>Statute 'de tallagio'</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Statutum de tallagio</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="7" locusStart="15v" locusEnd="17v">
+                        <head type="CCC">
+                            <title>Statute of <name type="place">Merton</name> (<date>1235</date>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Provisiones de <name type="place">Mertona</name></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="8" locusStart="17v" locusEnd="22r">
+                        <head type="CCC">
+                            <title>Statute of <name type="place">Marlborough</name> (<date>1267</date>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Statutum de <name type="place">Marleburg</name></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="9" locusStart="22r" locusEnd="24v">
+                        <head type="CCC">
+                            <title>Statute of <name type="place">Gloucester</name> (<date>1278</date>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Statuta <name type="place">Gloucestriae</name></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="10" locusStart="24v" locusEnd="25r">
+                        <head type="CCC">
+                            <title>'Explanationes' of the Statute of <name type="place">Gloucester</name>
+                                    (<date>1278</date>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Explanationes <name type="place">Gloucestriae</name></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="11" locusStart="25r" locusEnd="34r">
+                        <head type="CCC">
+                            <title>Statute of <name type="place">Westminster</name> I (<date>1275</date>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Statut. <name type="place">Westmonasterii</name> prim.</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="12" locusStart="34r" locusEnd="51v">
+                        <head type="CCC">
+                            <title>Statute of <name type="place">Westminster</name> II (<date>1285</date>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Statut. <name type="place">Westmonasterii</name> secund.</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="13" locusStart="51v" locusEnd="52r">
+                        <head type="CCC">
+                            <title>Quia emptores (<date>1290</date>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Statut. de emptoribus terrarum</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="14" locusStart="52r" locusEnd="53v">
+                        <head type="CCC">
+                            <title>Statute of merchants (<date>1283</date>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Statut. de mercatoribus</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="15" locusStart="53v" locusEnd="54v">
+                        <head type="CCC">
+                            <title>De libertate clamanda (The Statute of <name type="place">Gloucester</name> pt
+                                I)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Statut. de libertate clamanda</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="16" locusStart="54v" locusEnd="55r">
+                        <head type="CCC">
+                            <title>Circumspecte Agatis (pt II) (<title>1285</title>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Statut. de prohibitionibus</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="17" locusStart="55r" locusEnd="55v">
+                        <head type="CCC">
+                            <title>Statute of money (<date>1284</date>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Statut. de moneta</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="18" locusStart="55v" locusEnd="56v">
+                        <head type="CCC">
+                            <title>Statute of fines (<date>1299</date>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Statut. de finibus</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="19" locusStart="56v" locusEnd="57r">
+                        <head type="CCC">
+                            <title>Statute of Gavalet in <name type="place">London</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Statutum de Gavaleto</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="20" locusStart="57r" locusEnd="57v">
+                        <head type="CCC">
+                            <title>Statute of Quo warranto (<date>1278</date>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Statutum de quo warranto</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="21" locusStart="57v" locusEnd="58r">
+                        <head type="CCC">
+                            <title>Statute of Quo warranto (<title>1290</title>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Statutum novum de quo warranto</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="22" locusStart="58r" locusEnd="58v">
+                        <head type="CCC">
+                            <title>Statute of jurors (<date>1305</date> ?)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Statut. de juratoribus</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="23" locusStart="58v" locusEnd="58v">
+                        <head type="CCC">
+                            <title>Statute of conspirators (<date>1305</date>) (Champerty ?)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Statut. de conspiratoribus</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="24" locusStart="58v" locusEnd="59r">
+                        <head type="CCC">
+                            <title>Assisa de ponderibus et mensuris (pt I)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Compositio monetae et mensurarum</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="25" locusStart="59r" locusEnd="59v">
+                        <head type="CCC">
+                            <title>Extenta manerii (Manorial extents)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Extenta manerii</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="26" locusStart="59v" locusEnd="60v">
+                        <head type="CCC">
+                            <title>Statute of the exchequer (<date>1275</date>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Statutum de scaccario</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="27" locusStart="60v" locusEnd="62r">
+                        <head type="CCC">
+                            <title>'Distinctiones' of the Statute of the exchequer (<date>1275</date>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Distinctiones scaccarii</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="28" locusStart="62r" locusEnd="62v">
+                        <head type="CCC">
+                            <title>Statute of mortmain (<date>1279</date>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Statutum de religiosis</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="29" locusStart="62v" locusEnd="63r">
+
+                        <head type="Nasmith">
+                            <title>Statutum de acquirenda transgressione</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="30" locusStart="63r" locusEnd="63r">
+
+                        <head type="Nasmith">
+                            <title>Statutum de magna assisa injungenda</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="31" locusStart="63v" locusEnd="64r">
+                        <head type="CCC">
+                            <title>Visus franci plegii</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Visus franci plegii</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="32" locusStart="64r" locusEnd="64v">
+                        <head type="CCC">
+                            <title>Assisa de ponderibus et mensuris</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Statutum de ponderibus et mensuris</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="33" locusStart="64v" locusEnd="66r">
+                        <head type="CCC">
+                            <title>Capitula of pleas in eyre</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Capitula quae placitantur in itinere</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="34" locusStart="66r" locusEnd="66v">
+                        <head type="CCC">
+                            <title>Dies communes de banco (<date>1267</date>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Dies communes in banco</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="35" locusStart="66v" locusEnd="67r">
+                        <head type="CCC">
+                            <title>Dies communes de dote (<date>1267</date>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Dies in placito dotis</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="36" locusStart="67r" locusEnd="68v">
+                        <head type="CCC">
+                            <title>Pleas of the crown</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Ordo de placitis coronae</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="37" locusStart="69r" locusEnd="72v">
+                        <head type="CCC">
+                            <title>Statute of Winchester (<date>1285</date>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Statutum <name type="place">Wintoniensis</name></title>
+                        </head>
+
+                        <ab locusNew="71v">An original list of the statutes is on f. <locus locusNew="71v"
+                            >63v</locus></ab>
+
+                    </msItem>
+
+                    <milestone n="III" unit="volume"/>
+
+                    <msItem n="38" locusStart="73r" locusEnd="87v">
+                        <head type="CCC">
+                            <title>Spiritual and temporal returns of the <name type="place">Diocese of
+                                Ely</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Valorem omnium possessionum tam spiritualium quam temporalium in <name type="place"
+                                    >dioecesi Eliensi</name></title>
+                        </head>
+
+                        <rubric locus="1r" locusNew="73r">Decanatus <name type="place">Cantebrigie</name></rubric>
+                        <incipit locusNew="73r"><name type="place">Ecclesia beate marie cantebrigie</name> vi (?) iiiid,
+                            etc.</incipit>
+                        <rubric locusNew="73r">Decanatus de <name type="place">Campes.</name></rubric>
+                        <rubric locus="1v" locusNew="73v">Decanatus de <name type="place">Chesterton</name></rubric>
+                        <rubric locus="2r" locusNew="74r">Nomina religiosorum habentium spiritualia tantum in <name
+                                type="place">diocesi Eliensi</name></rubric>
+                        <rubric locus="2v" locusNew="74v">Nomina religiosorum habentium temporalia tantum in <name
+                                type="place">diocesi Eliensi</name></rubric>
+                        <rubric locus="3r" locusNew="75r">Nomina religiosorum habentium bona spiritualia et temporalia
+                            in <name type="place">diocesi Eliensi</name></rubric>
+                        <ab>The remainder of the return is occupied almost wholly with a detailed list of the spirituals
+                            and temporals held by each of the religious named</ab>
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: NJC 25/02/2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,186 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+
+                <msIdentifier xml:id="CCC065">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>65</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>P. 9</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>238</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Patristic Homily Collection, compiled by Paul the Deacon</head>
+
+                <head type="James">Homiliarium</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">312</height>
+                        <width unit="mm">217</width>
+                    </measureGrp><measureGrp type="James">12.2 x 9</measureGrp>, <extent>ff. 134 + 2</extent>,
+                        <layout>double columns of 37 lines</layout>. Cent. <origDate>xii</origDate>, <handNote>in a fine
+                        regular black hand</handNote>. <decoNote>Handsome initials red, blue, green, with some
+                        ornament</decoNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation> I<num>8</num>-XVI<num>8</num>, XVII<num>6</num>, a<num>2</num>
+                    </collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>cessit in prima</secFol>.</p>
+
+                <p function="Additions">The two flyleaves at the end <supplied>(ff.
+                            <locus>135r</locus>-<locus>136v</locus>)</supplied> are ff. <q>xcii</q> and <q>c</q> of a
+                    service-book with music on five-line stave (cent. <origDate>xv</origDate>) containing <note
+                        type="title">music for the Office of the Nativity of the Virgin</note>.</p>
+
+                <p function="Additions">On f. <locus>12v</locus>, scribbled: <q locus="12v">
+                        <name type="person">Thomas Abott Sodway</name>
+                    </q>. On f. <locus>57r</locus>: <q locus="57r">
+                        <name type="person">Thomas ... Wond</name>
+                    </q>.</p>
+
+                <p function="Decoration" rend="afterContents"><decoNote>There are various rather rough pencil sketches
+                        on the margins, of men, animals and ornaments, e.g. f. <locus>37r</locus></decoNote>.</p>
+
+                <p function="Writing" rend="afterContents"><handNote>Two scribes at least</handNote> are
+                    discernible.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-135 + iii-iv</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="130r">
+
+                        <head type="CCC">
+                            <title>Homiliary</title>
+                        </head>
+
+                        <rubric locus="1r">Sermo beati <name type="author" key="Jero01">Iheronimi presbiteri</name> in
+                            vigilia pasche</rubric>
+                        <incipit locusNew="1r">Quomodo iuxta matheum</incipit>
+                        <ab>
+                            <name type="author" key="Bede01">Bede</name>
+                        </ab>
+                        <incipit locus="1v">Vigilias nobis</incipit>
+                        <ab>In Pascha</ab>
+                        <ab>Maximi</ab>
+                        <incipit locus="4r">Non inmerito</incipit>
+                        <incipit locus="4v">Magnum fratres</incipit>
+                        <ab>
+                            <name type="author" key="Greg01">Gregorii</name>
+                        </ab>
+                        <incipit locus="5v">Multis vobis</incipit>
+                        <incipit locus="7r">Benefitia</incipit>
+                        <rubric locus="8v">Feria 2</rubric>
+                        <ab>Maximi</ab>
+                        <incipit locusNew="8v">Exultandum</incipit>
+                        <incipit locus="10r">Diximus fratres</incipit>
+                        <ab>
+                            <name type="author">Gregorii</name>
+                        </ab>
+                        <incipit locus="10v">In cotidiana uobis</incipit>
+                        <rubric locus="11v">Feria 3</rubric>
+                        <ab>
+                            <name type="author">Bede</name>
+                        </ab>
+                        <incipit locusNew="11v">Glorias vere</incipit>
+                        <ab>The last is</ab>
+                        <rubric locus="128v">In dominica nouissima post pentecosten</rubric>
+                        <ab>
+                            <name type="author" key="augu01">Augustini</name>
+                        </ab>
+                        <incipit locusNew="128v">Miracula que fecit dominus</incipit>
+                    </msItem>
+
+                    <msItem n="2" locusStart="130r" locusEnd="134v">
+                        <head type="CCC">
+                            <title>Homilies</title>
+                        </head>
+
+                        <ab>On f. <locus>130r</locus> sqq. are added in <handNote>later hands (cent.
+                                    <origDate>xiii</origDate>)</handNote></ab>
+                        <rubric locus="130r">In assumptione beate Marie Virginis</rubric>
+                        <rubric locusNew="130r">Tractatus <supplied>beati</supplied>
+                            <name type="author" key="Anse01">Anselmi Cantuariensis Archiepiscopi</name>
+                        </rubric>
+                        <incipit locusNew="130r">In scriptura sacra res una</incipit>
+
+                        <rubric locus="131v">Prefatio <name type="author" key="Augu01">Aurelii Augustini</name> de
+                            assumptione beate et gloriose semper uirginis Marie</rubric>
+                        <incipit locusNew="131v">Ad interrogata</incipit>
+
+                        <ab>Sermo <name type="author">Augustini</name></ab>
+                        <incipit locus="132r">Quia profundissime</incipit>
+                        <rubric locus="134v">Explicit tractatus <name type="author">aurelii augustini</name> doctoris
+                            eximii de assumptione beate et gloriose semper uirginis marie genitricis dei et domini
+                            nostri Ihesu Christi</rubric>
+
+                    </msItem>
+
+                </msContents>
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: typed from the James Catalogue by GDB</p>
+                            <p>markup: GDB</p>
+                            <p>markupCheck: CF, CF 2nd</p>
+                            <p>msCheck: RJR</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

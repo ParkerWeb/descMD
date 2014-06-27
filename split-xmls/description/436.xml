@@ -1,0 +1,140 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC436">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>436</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Q. 1</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>256</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Hugh of Vienna (pseudo-Hugh of Saint-Cher OP), Commentary on the Apocalypse. John
+                    Wyclif, De officio pastorali</head>
+                <head type="James">Hugo Super Apocalypsim. Wyclif de Officii Pastorali</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">190</height>
+                        <width unit="mm">129</width>
+                    </measureGrp>, <measureGrp type="James">7.5 x 5.3</measureGrp>, <extent>ff. 2 + 136</extent>,
+                        <layout>26 lines to a page</layout>. Cent. <origDate>xiv-xv</origDate>, <handNote>clearly
+                        written</handNote>. <decoNote>Initials in blue with red flourishing</decoNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num>, 1<num>8</num>-12<num>8</num> |
+                    13<num>8</num>-17<num>8</num></collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>ista prophecia</secFol>.</p>
+
+                <p function="Additions">Flyleaves from an unfinished psalter (<date>xiv-xv</date>).</p>
+
+
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-ii + 1-136 + c</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="96v">
+                        <head type="CCC">
+                            <name type="author">Hugh of Vienna (pseudo-Hugh of Saint-Cher OP)</name>, <title>Commentary
+                                on the Apocalypse</title>
+                        </head>
+                        <head type="James"><name type="author">Hugo de Vienna</name>, <title>super
+                            apocalypsim</title></head>
+
+                        <ab>(Opera VI 334)</ab>
+                        <incipit locus="1r">Vidit <name type="person">iacob</name> in sompnis scalam stantem super
+                            terram</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="96r">ad quam eternitatem nos perducat qui precioso sanguine nos redemit.
+                            Amen</explicit>
+
+                        <ab>
+                            <supplied>f. <locus>96v</locus> blank</supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="97r" locusEnd="135r">
+                        <head type="CCC"><name type="author">John Wyclif</name>, <title>De officio pastorali</title>
+                        </head>
+                        <head type="James"><name type="author">Io. Wycliffe</name>, <title>Tractatus de officio
+                                Pastorali</title></head>
+
+                        <incipit locus="97r">Cum duplex debet esse officium christiani</incipit>
+                        <ab>Capitulum 30 ends</ab>
+                        <explicit locus="135r">se esse proditorem regum temporalium et cristi enim domini regis regum et
+                            cetera</explicit>
+                        <rubric locusNew="135r">Explicit tractatus de officio pastorali</rubric>
+                        <ab>Printed by <ref type="bibl" target="Lechler 1863">Lechler in 1853</ref> and in English by
+                                <ref type="bibl" target="Matthew 1902">Matthew, p. 405</ref> (<ref type="bibl"
+                                target="Shirley 1865">Shirley, Catalogue, Latin works, no. 40</ref>)</ab>
+
+
+                        <ab>ff. <supplied><locus>135v</locus>-<locus>136v</locus> blank;</supplied> an erasure f. <locus
+                                locusNew="136v">137r</locus></ab>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: SP 18/8/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

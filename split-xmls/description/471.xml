@@ -1,0 +1,127 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC471">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>471</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>G. 16</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>76</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">John of Howden, Rossignos</head>
+                <head type="James">Ioh. Hoveden, le Rossignol</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">150</height>
+                        <width unit="mm">109</width>
+                    </measureGrp>, <measureGrp type="James">5.9 x 4.5</measureGrp>, <extent>ff. 2 + 112</extent>,
+                        <layout>24 lines to a page</layout>. Cent. <origDate>xiv late</origDate>, <handNote>in a clear
+                        current hand</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num> 1<num>12</num>-9<num>12</num> 10<num>4</num></collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>quant fuites</secFol>.</p>
+
+                <p function="Additions">Flyleaves from a late document, grant of probate by <name type="person"
+                        key="WilliamW-002">William (Warham) Archbishop of Canterbury</name>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-ii + 1-112 + c-d</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="frm" otherLangs="eng lat">Anglo-Norman, English and Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="112r">
+                        <head type="CCC">
+                            <name type="author" key="JohnofHo-001">John of Howden</name>, <title>Rossignos</title>
+                        </head>
+
+                        <incipit locus="1r">Ci comence la pensee <name type="author" key="JohnofHo-001">Iohan de
+                                Houedene</name> clerc la roine dengleterre mere le <name type="person"
+                                key="EdwardI,-001">roi Edward</name> de la neissance e de la mort e du relieuement e de
+                            lascencion ihesu crist e de lassumpcion nostre dame. Et a non ceste pensee. Rossignos,
+                            etc</incipit>
+                        <incipit locus="1r">Ceste oeure comence. Ci comence li rossignol.<lb/>Alme lesse lit de
+                            peresse<lb/>E ta langor e ta tristesse<lb/>Apreng damour la parfondesse<lb/>E a penser
+                            damour tadresse</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="111r">A la roine lesmeree<lb/>Mere au <name type="person" key="EdwardI,-001"
+                                >roi Edward la senee</name><lb/>Va chanzon e se li agree<lb/>Li soiez leue e
+                            recordee<lb/></explicit>
+                        <rubric locus="111r">Ci finist li Rossignos <name type="author" key="JohnofHo-001">Johan de
+                                Houdene</name></rubric>
+                        <ab>This copy is mentioned by <ref type="bibl" target="Tanner 1748">Tanner</ref>. The text has
+                            not been printed. <name type="author" key="JohnofHo-001">John Hoveden</name> died in
+                                <date>1275</date>. This may be a French version by another hand of his Latin poem
+                            Philomela</ab>
+                        <ab>On ff. <locus>111v</locus>, <locus>112r</locus> are <name type="person" key="MatthewP-001"
+                                >Parker</name>'s name and the date <date>1564</date>
+                            <handNote>written several times in set hand</handNote>, I suppose by a secretary</ab>
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 8/4/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

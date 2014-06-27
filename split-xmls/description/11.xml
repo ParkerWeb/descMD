@@ -1,0 +1,181 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+
+                <msIdentifier xml:id="CCC011">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>11</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>P. 12</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>242</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Hrabanus Maurus, De uniuerso seu De rerum naturis</head>
+
+                <head type="James">Rabanus de Naturis Rerum</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">410</height>
+                        <width unit="mm">295</width>
+                    </measureGrp>
+                    <measureGrp type="James">16.3 x 11.5</measureGrp>, <extent>ff. 223</extent>, <layout>double columns
+                        of 39 lines</layout>. Cent. <origDate>xii</origDate>, <handNote>in a fine clear
+                    hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num>-28<num>8</num> (wants 8)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>ad omnes electos</secFol>.</p>
+
+
+                <p function="Decoration" rend="afterContents"><decoNote>The decoration is confined to initials. The
+                        prologue <supplied>(f. <locus>1r</locus>)</supplied> has one in gold on blue ground, and filled
+                        with colour, the 2nd prologue <supplied>(f. <locus>2r</locus>)</supplied> one in colour. The
+                        text <supplied>(f. <locus>2v</locus>)</supplied>, a very handsome panelled gold one on pink
+                        ground edged with green, containing conventional foliage in colour and two small lions. Each
+                        chapter has a good one in colour, and each book a somewhat more elaborate one</decoNote>.</p>
+
+                <p function="Provenance" rend="afterContents">I cannot detect any mark of monastic provenance; but the
+                    elaborate initial to the text finds many parallels in <name type="place">Christ Church,
+                        Canterbury</name> books. <handNote>The hand is not characteristic of that house</handNote>.</p>
+
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-223 + iii-iv</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="222v">
+
+
+                        <head type="CCC">
+                            <name type="author">Hrabanus Maurus</name>, <title>De uniuerso seu De rerum naturis</title>
+                        </head>
+
+
+                        <rubric locusNew="1r"><name type="author">Rabanus</name> de uniuerso uel de Naturis
+                            rerum</rubric>
+                        <ab>(<ref type="bibl" target="Migne 111">P. L. CXI</ref>)</ab>
+                        <incipit locus="1r">Domino excellentissimo et omni honore dignissimo <name type="person"
+                                >hluduuico regis</name>
+                            <name type="author">Rabanus</name></incipit>
+                        <explicit locusNew="2r">gaudio beatificet sempiterno</explicit>
+                        <rubric locus="2r">Ad <name type="person">haymonem episcopum</name></rubric>
+                        <incipit locusNew="2r">Domino reuerentissimo</incipit>
+                        <explicit locusNew="2v">intra in gaudium domini tui</explicit>
+                        <ab locus="2v">Capitula libri primi</ab>
+                        <ab>Text</ab>
+                        <rubric locusNew="2v">De Deo</rubric>
+                        <incipit locusNew="2v">Primum apud hebreos dei nomen <name type="person">ely</name></incipit>
+
+
+                        <ab locus="9r">Liber II</ab>
+                        <ab locus="15r"><supplied>Liber</supplied> III</ab>
+                        <ab locus="22r"><supplied>Liber</supplied> IV</ab>
+                        <ab locus="33r"><supplied>Liber</supplied> V</ab>
+                        <ab locus="46v"><supplied>Liber</supplied> VI</ab>
+                        <ab locus="62v"><supplied>Liber</supplied> VII</ab>
+                        <ab locus="77r"><supplied>Liber</supplied> VIII</ab>
+                        <ab locus="92r"><supplied>Liber</supplied> IX</ab>
+                        <ab locus="101v"><supplied>Liber</supplied> X</ab>
+                        <ab locus="110v"><supplied>Liber</supplied> XI</ab>
+                        <ab locus="118v"><supplied>Liber</supplied> XII</ab>
+                        <ab locus="129v"><supplied>Liber</supplied> XIII</ab>
+                        <ab locus="135v"><supplied>Liber</supplied> XIV</ab>
+                        <ab locus="149v"><supplied>Liber</supplied> XV</ab>
+                        <ab locus="159r" locusNew="158r"><supplied>Liber</supplied> XVI</ab>
+                        <ab locus="167r"><supplied>Liber</supplied> XVII</ab>
+                        <ab locus="175r"><supplied>Liber</supplied> XVIII</ab>
+                        <ab locus="184r"><supplied>Liber</supplied> XIX</ab>
+                        <ab locus="194v"><supplied>Liber</supplied> XX</ab>
+                        <ab locus="204r"><supplied>Liber</supplied> XXI</ab>
+                        <ab locus="213r"><supplied>Liber</supplied> XXII</ab>
+
+
+                        <ab>Ends</ab>
+                        <explicit locus="222v">una potestas una cooperatio est</explicit>
+                        <rubric locusNew="222v">Explicit liber xxii <name type="author">Rabani magistri</name></rubric>
+                        <ab>f. <locus>223r</locus>-<locus>223v</locus> blank</ab>
+                        <ab locusNew="45r">Some <origDate>xvi</origDate>th cent. marginal notes on the sacrament</ab>
+
+
+                    </msItem>
+
+
+
+
+                </msContents>
+
+
+
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text:copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, CF 2nd</p>
+                            <p>msCheck: RJR 3.8.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

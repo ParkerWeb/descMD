@@ -1,0 +1,627 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC016II">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>16II</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>C. 5</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>25</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Matthew Paris OSB, Chronica maiora II</head>
+
+                <head type="James">Matthaei Paris Chronica Maiora II</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">358</height>
+                        <width unit="mm">244</width>
+                    </measureGrp>
+                    <measureGrp type="James">14.2 x 9.6</measureGrp>, <extent>ff. 5 + 281</extent>, <supplied>(now bound
+                        in two parts)</supplied>, <layout>double columns of 56 and 52 lines</layout>. Cent.
+                        <origDate>xiii</origDate>, <handNote>in four(?) hands</handNote>, on which see below.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>6?</num> (wants 6) | I<num>10</num> (wanting 4-7, which are replaced by 7 leaves (6
+                        + 1) inserted by Parker, with about 44 lines to a page) II<num>10</num> (1 replaced by 2 leaves
+                        in the second hand) III<num>10</num> IV<num>12</num> (+ 1 after 2nd and a half-leaf after 7th)
+                            V<num>12</num> VI<num>14</num> (or 12 + 2: in two hands, the second beginning art the 5th
+                        leaf) VII<num>16</num> (+1) VIII<num>14</num> IX<num>12</num> (wants 1; no number on last leaf)
+                            X<num>8 + 1</num> (originally 8, 2nd leaf replaced by two) XI<num>12</num> XII<num>14</num>
+                            XIII<num>12</num> XIV<num>12</num> (+ 1: the quire is numbered XXVII) XIIII<num>8</num> (+1)
+                        XV (eight leaves, but 1 is alone, 2 is alone, 3, 4 are one sheet, 5-8 a quire of 4) XVI (23
+                        leaves: first 4 leaves: then leaves numbered I-XIII, partly a quire of 10: then 6 leaves (2-3
+                        forming a pair)) XVII<num>12</num> (12 canc.?) XVIII<num>10</num> (1-4, 7-10 original: 5-6 a
+                        pair inserted by Parker) XIX<num>8</num> XX<num>12</num> (or 10 + 2) XXI<num>12</num> (not
+                        numbered) XXII (twelve leaves, misbound, a leaf lost at the end)</collation>.</p>
+
+                <p function="Additions">This is the second part of the Chronica Maiora extending from <date>1189</date>
+                    to <date>1253</date> inclusive. The greater portion is in <handNote>a hand which is erroneously said
+                        by Sir <name type="person">F. Madden</name> to be that of <name type="author">Matthew
+                            Paris</name></handNote>. Two others also appear. The first of these, a fine black angular
+                    character, appears in ff. <locus>1r</locus> - <locus>3v</locus>, <locus locusNew="12r">8r</locus> -
+                        <locus locusNew="14v">10v</locus>, <locus locusNew="17r">13r</locus> - <locus locusNew="36r"
+                        >32r</locus> col. 2, <locus locusNew="50r">46v</locus> col. 1 - <locus locusNew="54r"
+                        >50r</locus> col. 2. The second writes <locus locusNew="36r">32r</locus> col. 2 - <locus
+                        locusNew="37v">33v</locus> col. 2, <locus locusNew="59r">55r</locus> - <locus locusNew="65v"
+                        >61v</locus> col. 2, and also re-writes several passages over erasures, e.g. on ff. <locus
+                        locusNew="158r">157r</locus>, <locus locusNew="198r">197r</locus>. The <handNote><q>Paris</q>
+                        hand</handNote> writes <locus locusNew="15r">11r</locus> - <locus locusNew="16v">12v</locus>,
+                        <locus locusNew="37v">33v</locus> col. 2 - <locus locusNew="50r">46r</locus> col. 2, <locus
+                        locusNew="54v">50v</locus> - <locus locusNew="58v">54v</locus>, <locus locusNew="65v"
+                        >61v</locus> col. 2 - <locus locusNew="113v">111v</locus>, <locus locusNew="114v">112v</locus> -
+                        <locus locusNew="284v">281v</locus>. A fourth hand writes most of f. <locus locusNew="114r"
+                        >112r</locus>.<lb/> The original numbering omits f. <locus>77r</locus>.<lb/> Leaves are lost as
+                    follows: three after f. <locus>3v</locus> (<date>1190-1192</date>)<lb/> one after <locus
+                        locusNew="106v">103v</locus> (<date>1237</date>)<lb/> one after <locus locusNew="117v"
+                        >116v</locus> (<date>1238</date>)<lb/> one after <locus>232v</locus> (<date>1250</date>).<lb/>
+                    The missing portions (except that after <locus locusNew="117v">116v</locus>) have been supplied by
+                        <name type="person">Parker</name>, chiefly from the text of <ref type="ms" target="LBLND5">Nero
+                        D. v</ref>.</p>
+
+
+                <p function="Provenance" rend="afterContents">This volume appears to have been in the hands of <name
+                        type="person">Robert Talbot</name> prebendary of <name type="place">Norwich</name>
+                        (<date>1547</date>-<date>1558</date>) who has written a note on f. <locus locusNew="248v"
+                        >245r</locus>. It afterwards belonged to Sir <name type="person">Henry Sidney</name>, K.G., from
+                    whom <name type="person">Parker</name> borrowed it.</p>
+
+
+
+
+
+                <p type="CCC">
+                    <foliation>ff. e-f + 1-284 + g-h</foliation>.</p>
+
+
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="frm">Latin and Anglo-Norman.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1v" locusEnd="282r">
+
+                        <head type="CCC">
+                            <name type="author">Matthew Paris OSB</name>, <title>Chronica maiora II</title>
+                        </head>
+
+                        <ab>Illustrations</ab>
+
+                        <ab>Text</ab>
+
+                        <ab locus="1v">
+                            <decoNote>Shield and crown of <name type="person">Henry II</name> reversed</decoNote>
+                        </ab>
+                        <ab locus="2r">
+                            <decoNote>Shield and crown of <name type="person">Richard I</name></decoNote>
+
+                        </ab>
+                        <ab locus="9v" locusNew="13v">
+                            <decoNote>Moritur <name type="person">Salaadinus</name>. A crow (his soul) flies out of his
+                                mouth</decoNote>
+                        </ab>
+                        <ab locus="17v" locusNew="21v">
+                            <decoNote>Shield and crown of <name type="person">Richard I</name> reversed: two swords,
+                                also reversed</decoNote>
+                        </ab>
+                        <ab locus="18r" locusNew="22r"><decoNote>Crown and shield of <name type="person"
+                                >John</name></decoNote>.<lb/>
+                            <decoNote>Three crowns (silver, gold, iron) of the Emperor <name type="person">Otto</name>,
+                                and his shield</decoNote>.<lb/>
+                            <decoNote>Shield of <name type="person">Otto</name> dimidiated with <name type="place"
+                                    >England</name></decoNote></ab>
+                        <ab locus="21v" locusNew="25v">
+                            <decoNote>Pillory, Collistrigium: frame on tall central shaft: with accommodation for necks
+                                and hands of two</decoNote>
+                        </ab>
+                        <ab locus="26r" locusNew="30r">
+                            <decoNote>A minorite friar</decoNote>
+                        </ab>
+                        <ab locus="27v" locusNew="31v"><decoNote>Bell with rope hanging round the beam</decoNote>
+                            (Interdict)</ab>
+                        <ab locus="29r" locusNew="33r">
+                            <decoNote>Shield reversed, of <name type="person">Roger of Chester</name></decoNote>
+                        </ab>
+                        <ab locus="29v" locusNew="33v">
+                            <decoNote><supplied>Shield reversed</supplied>, of <name type="person">William de
+                                    Braose</name></decoNote>
+                        </ab>
+                        <ab locus="31v" locusNew="35v">
+                            <decoNote>Charter with seal dependent, <q>carta detestabilis</q></decoNote>
+                        </ab>
+                        <ab locus="37r" locusNew="41r">
+                            <decoNote>Battle. <name type="person">Philip of France</name> unhorsed. <name type="person"
+                                    >Hugo de Boues</name> gallops off to R., shot at</decoNote>
+                        </ab>
+                        <ab locus="38r" locusNew="42r">
+                            <decoNote>Magna Charta with seal</decoNote>
+                        </ab>
+                        <ab locus="39r" locusNew="43r">
+                            <decoNote>Charta de Foresta</decoNote>
+                        </ab>
+                        <ab locus="40r" locusNew="44r"><decoNote>Blank charter</decoNote>. Others occur later</ab>
+                        <ab locus="42v" locusNew="46v">
+                            <decoNote>Shipwreck of <name type="person">Hugo de Boues</name></decoNote>
+                        </ab>
+                        <ab locus="43v" locusNew="47v">
+                            <decoNote>Lateran Council: two groups of Bishops half-length</decoNote>
+                        </ab>
+                        <ab locus="44v" locusNew="48v">Oppressions: <decoNote>On L. a man in curious vandyked tunic
+                                covered with hammers in red, beats with a thong a stripped man with bound
+                                hands</decoNote>. <decoNote>On R. three nude men hang to a beam, two by their wrists,
+                                but the arms of one are turned back: they have fetters on their ankles: the third hangs
+                                head downwards</decoNote></ab>
+                        <ab locus="45v" locusNew="49v"><decoNote>Shields of Faith and of the Soul</decoNote>. Below is
+                            written <q>bacun.</q></ab>
+                        <ab locus="46r" locusNew="50r">
+                            <decoNote>Shield and sword of <name type="person">Geoffrey de Mandeville</name>
+                                reversed</decoNote>
+                        </ab>
+                        <ab locus="46v" locusNew="50v">
+                            <decoNote>Landing of <name type="person">Louis</name>, with ship's crew: he gets into a boat
+                                out of his ship</decoNote>
+                        </ab>
+                        <ab locus="48v" locusNew="52v">
+                            <decoNote>Reversed shield and falling crown of <name type="person">John</name>: shield of
+                                    <name type="person">Eustace de Vesci</name></decoNote>
+                        </ab>
+                        <ab locus="49r" locusNew="53r">
+                            <decoNote>Shield and crown of <name type="person">Henry III</name>. His coronation (small,
+                                at top of page)</decoNote>
+                        </ab>
+                        <ab locus="49v" locusNew="53v">In text. <decoNote>A beautiful coloured bust of Christ (the
+                                Veronica)</decoNote>. <decoNote>On the (brown) ground is &#945;. &#969;. in
+                                white</decoNote>. The picture is on fine vellum pasted on to the page</ab>
+
+                        <ab locus="50r" locusNew="54r">
+                            <decoNote>The church of <name type="place">S. Alban</name>: the robber <name type="person"
+                                    >Falco de Breauté</name> in attitude of fear looking back at it</decoNote>
+                        </ab>
+                        <ab locus="51v" locusNew="55v">
+                            <decoNote>Siege of <name type="place">Lincoln</name></decoNote>
+                        </ab>
+                        <ab locus="52r" locusNew="56r">
+                            <decoNote>Bishops blessing English in a boat who fight with French in a larger
+                                ship</decoNote>
+                        </ab>
+                        <ab locus="52v" locusNew="56v">
+                            <decoNote>Kings of <name type="place">England</name> and <name type="place">France</name>
+                                embrace</decoNote>
+                        </ab>
+                        <ab locus="53v" locusNew="57v">
+                            <decoNote>Death of <name type="person">Saphadin</name>: crow flies out of his
+                                mouth</decoNote>
+                        </ab>
+                        <ab locus="54r" locusNew="58r">
+                            <decoNote>Reversed shield of <name type="person">William Mareschall</name></decoNote>
+                        </ab>
+                        <ab locus="54v" locusNew="58v">
+                            <decoNote>Battle. Saracens and Christians at <name type="place">Damietta</name></decoNote>
+                        </ab>
+                        <ab locus="55v" locusNew="59v">
+                            <decoNote>Siege of <name type="place">Damietta</name></decoNote>
+                        </ab>
+                        <ab locus="56r" locusNew="60r"><decoNote>Second crowning of <name type="person">Henry</name> by
+                                the Archbishop of Canterbury</decoNote>. <lb/>
+                            <decoNote>Stone strikes the helmet of <name type="person">Simon de Montfort</name>: his
+                                shield reversed</decoNote>. <lb/>
+                            <decoNote>Shields of <name type="person">Albemarle</name> and <name type="person"
+                                    >Bohun</name> reversed</decoNote></ab>
+                        <ab locus="57r" locusNew="61r">
+                            <decoNote><name type="place">Fort of Montgomery</name>. Shield of <name type="person"
+                                    >Arundel</name> reversed</decoNote>
+                        </ab>
+                        <ab locus="57v" locusNew="61v"><decoNote>Shield of <name type="person">Hugo de Neville</name>
+                                reversed</decoNote>. <lb/>
+                            <decoNote>Lion pierced with sword and arrow</decoNote></ab>
+                        <ab locus="58r" locusNew="62r">
+                            <decoNote>Two men wrestling</decoNote>
+                        </ab>
+                        <ab locus="58v" locusNew="62v">
+                            <decoNote>Shield of <name type="person">Philip of France</name> reversed</decoNote>
+                        </ab>
+                        <ab locus="60r" locusNew="64r">
+                            <decoNote><name type="place">Bedford Castle</name>: outside it a gallows with a row of 4
+                                (originally more) men hung on it</decoNote>
+                        </ab>
+                        <ab locus="61v" locusNew="65v"><decoNote>A maiden on L. with book</decoNote>. <decoNote>A
+                                prostrate man: a devil on R. seizes his leg</decoNote>. <decoNote>Miracle of a girl
+                                delivered from a demon</decoNote></ab>
+                        <ab locus="64r" locusNew="68r">
+                            <decoNote>Reversed shield and crown of <name type="person">Louis of France</name></decoNote>
+                        </ab>
+                        <ab locus="64v" locusNew="68v"><decoNote>Shield and crown of <name type="person">Louis
+                                IX</name>, small</decoNote>. <decoNote>Devil, fish, and man's head at top</decoNote>.<lb/>
+                            <decoNote>Shield of <name type="person">Falcasius (de Breauté)</name> reversed, also of
+                                    <name type="person">Essex</name></decoNote></ab>
+                        <ab locus="66r" locusNew="70v"><decoNote><name type="person">Francis</name> preaches to the
+                                birds: scroll, Auete aues</decoNote> etc.<lb/>
+                            <decoNote><name type="person">Francis</name> reclines</decoNote>. S. Franciscus vite sue
+                            anno penultimo uidit Seraphin sic.<lb/>
+                            <decoNote>The Seraph of the stigmata</decoNote>. Angelus magni consilii Seraphin. The names
+                            of the six wings in red. The names of the feathers on R.</ab>
+                        <ab locus="67r" locusNew="71r">
+                            <decoNote>Figure of <name type="person">Frater Willelmus</name> nacione Anglicus socius S.
+                                Francisci</decoNote>
+                        </ab>
+                        <ab locus="67v" locusNew="71v">Reversed shield of <name type="person">Roger</name> de thony.
+                            arg. a maunche gules</ab>
+
+                        <ab locus="70v" locusNew="74v"><decoNote><name type="person">Cartaphila</name>, the wandering
+                                Jew, with pick and scroll. Christ bearing cross addresses him</decoNote>.<lb/> Legends:
+                            Cartaphila Christo. yppa x<abbr rend="superscript">o</abbr> crassay x<abbr
+                                rend="superscript">o</abbr>s. Responsio Christi Euena yppa uo anany mamo.<lb/> Vade
+                            ihesu ad iudicium tibi preparatum.<lb/> Vado sicut scriptum est de me. Tu uero expectabis
+                            donec ueniam</ab>
+
+
+                        <ab locus="71r" locusNew="75r">
+                            <decoNote>Half-lengths, clerk with club, layman with axe. Town and gown fight at <name
+                                    type="place">Paris</name></decoNote>
+                        </ab>
+                        <ab locus="72v" locusNew="76v">Scutum imperatoris. Scuti campus aureus aquila nigra.<lb/> In
+                            text: <decoNote>seals of the golden bull of the Emperor</decoNote></ab>
+                        <ab locus="75v" locusNew="79v">Reversed shield of <name type="person">William de Braose</name>.
+                            gu. four piles arg.<lb/>
+                            <decoNote><name type="person">King of England</name> in ship, arms on sail (goes to <name
+                                    type="place">Brittany</name>)</decoNote>. <decoNote>Eclipse</decoNote></ab>
+                        <ab locus="76r" locusNew="80v">
+                            <decoNote>Reversed shields. <name type="person">Remund de Burgo</name>, <name type="person"
+                                    >Guilbertus comes Glouernie</name>, <name type="person">William
+                                Mareschall</name></decoNote>
+                        </ab>
+                        <ab locus="79r" locusNew="82r"><decoNote>Man threshing sheaves</decoNote>. Violenta distraccio
+                            bladi Romanorum clericorum apud Wengham etc.</ab>
+                        <ab locus="79v" locusNew="82v"><decoNote>Knight tilts at man who stands embracing cross on
+                                mound</decoNote>.<lb/>
+                            <decoNote>A knight spares his enemy out of reverence for the cross</decoNote></ab>
+                        <ab locus="81r" locusNew="84r"><decoNote>Bell, beam and rope</decoNote>. Campana de communa
+                            lond</ab>
+                        <ab locus="82r" locusNew="85r">
+                            <decoNote>Three cups. Reversed shield of <name type="person">Ranulph earl of Chester</name>,
+                                and sword</decoNote>
+                        </ab>
+                        <ab locus="83v" locusNew="86v">
+                            <decoNote>Diagram of perihelion</decoNote>
+                        </ab>
+                        <ab locus="85r" locusNew="88r">
+                            <decoNote>Fight of <name type="person">Mareschall</name> at <name type="place"
+                                    >Monmouth</name>?</decoNote>
+                            <decoNote>Man leads horses off on L.</decoNote>
+                        </ab>
+                        <ab locus="86r" locusNew="89r">
+                            <decoNote>Domus conuersorum <name type="place">london</name></decoNote>
+                        </ab>
+
+                        <ab locus="88v" locusNew="91v">Scutum marescalli.<lb/>
+                            <decoNote><name type="person">Mareschall</name>? on horseback: surcoat with red hammers(?)
+                                on it</decoNote></ab>
+                        <ab locus="90v" locusNew="93v"><decoNote>Clerk carrying crucifix</decoNote>. (Vision of <name
+                                type="person">Hubert of Kent</name>)</ab>
+                        <ab locus="92v" locusNew="95v">
+                            <decoNote><name type="person">William, abbot of St Albans</name>, reclines (dead)</decoNote>
+                        </ab>
+                        <ab locus="94v" locusNew="97v">
+                            <decoNote>Two hands joined, crown and ring above. Marriage of Emperor</decoNote>
+                        </ab>
+                        <ab locus="95r" locusNew="98r">
+                            <decoNote>Two purses hanging on beam (the usurers of <name type="place"
+                                >Cahors</name>)</decoNote>
+                        </ab>
+                        <ab locus="95v" locusNew="98v">Reversed shield of <name type="person">Robert
+                            Fitzwalter</name></ab>
+                        <ab locus="96r" locusNew="99r"><decoNote>Hands, crown and ring. Marriage of King</decoNote>.<lb/>
+                            <decoNote>Half-lengths of bishops with crown, asperge, sword, wand</decoNote> etc.</ab>
+                        <ab locus="103v" locusNew="106v">
+                            <decoNote>Reversed shield of <name type="person">John Earl of Chester</name></decoNote>
+                        </ab>
+                        <ab locus="107r" locusNew="109r">
+                            <decoNote>Council of <name type="place">London</name>. <name type="person">Otto</name> as
+                                Bishop on L. addresses Bishops on R., all seated</decoNote>
+                        </ab>
+                        <ab locus="110r" locusNew="112r"><decoNote><name type="person">Germanus of
+                                Constantinople</name>(?) as Bishop, seated, clutching his beard: angry</decoNote>.
+                            (Disagreement with the Latins)</ab>
+                        <ab locus="126r" locusNew="127r">
+                            <decoNote>Imperial seal of <name type="person">Frederick</name>, and seals of golden
+                                bull</decoNote>
+                        </ab>
+                        <ab locus="131v" locusNew="132v"><decoNote>Shield of <name type="place">Devon</name>, or lion
+                                rampant azure</decoNote>. <decoNote>Fine initial</decoNote></ab>
+                        <ab locus="132r" locusNew="133r">
+                            <decoNote><name type="person">Llewellyn</name> dying in bed. <name type="person"
+                                    >Griffinus</name> and <name type="person">David</name> stand by weeping</decoNote>
+                        </ab>
+                        <ab locus="132v" locusNew="133v">
+                            <decoNote>Reversed shield of <name type="person">Earl de Warenne</name> checky or and
+                                azure</decoNote>
+                        </ab>
+                        <ab locus="133v" locusNew="134v">Flight of the French. The Damascenes drive off captives on R.
+                            locus istius belli fuit ante gathre</ab>
+                        <ab locus="134r" locusNew="135r">
+                            <decoNote>
+                                <name type="place">Damascus</name>
+                            </decoNote>
+                        </ab>
+                        <ab locus="134v" locusNew="135v">
+                            <decoNote>Shield of <name type="person">Earl of Lincoln</name></decoNote>
+                        </ab>
+                        <ab locus="136r" locusNew="137r"><name type="person">Earl Richard</name> and crew in ship</ab>
+                        <ab locus="136v" locusNew="137v">Shield of <name type="person">Th. de Muletuna</name></ab>
+                        <ab locus="138v" locusNew="139v"><decoNote>Cities L. and R.</decoNote> Acon siue tholomaida, and
+                            Crac. <decoNote>Christians on L., Saracens on R</decoNote>. In C. fedus irritum.
+                                    <decoNote><name type="person">Comes Britannie</name> and <name type="person"
+                                    >Nazer</name> dominus crac kneel and join hands: in mail,
+                            bare-headed</decoNote></ab>
+                        <ab locus="139v" locusNew="140v"><decoNote>The crown of thorns</decoNote>; two pictures</ab>
+                        <ab locus="140r" locusNew="141r"><decoNote>Reversed shield of <name type="person">John Fitz
+                                    Robert</name>, quarterly gules and arg. a bend sinister</decoNote>, Belue marine.
+                                <decoNote>Four sea monsters fighting</decoNote></ab>
+                        <ab locus="140v" locusNew="141v">Fine initial</ab>
+                        <ab locus="141r" locusNew="142r"><decoNote>Flags of Hospital and Temple and Oriflamme of <name
+                                    type="place">France</name></decoNote>. <decoNote>Shield of <name type="person"
+                                    >Savoy</name></decoNote></ab>
+                        <ab locus="141v" locusNew="142v">
+                            <decoNote>Reversed shields. <name type="person">Gilb. Basset</name>. <name type="person"
+                                    >Joh. Biset</name>. <name type="person">Walt. de Lascy</name></decoNote>
+                            <lb/>
+                            <decoNote><name type="person">St Louis</name> on a scaffold holds up the cross, another
+                                holds up the crown of thorns</decoNote>
+                        </ab>
+                        <ab locus="142r" locusNew="143r">
+                            <decoNote>Falling towers (a vision)</decoNote>
+                        </ab>
+                        <ab locus="144r" locusNew="145r">
+                            <decoNote>Formidabile exterminium tartarorum: a horseman kills two prostrate men with
+                                spear</decoNote>
+                        </ab>
+                        <ab locus="146r" locusNew="147r"><decoNote>Sea fight of Pisans and Genoese</decoNote>.
+                                <decoNote>Cities R. and L.</decoNote></ab>
+                        <ab locus="147v" locusNew="148v"><decoNote>Reversed shield (with sword and spear) of <name
+                                    type="person">Gilbert Mareschall</name></decoNote>. <decoNote><name type="person"
+                                    >Mareschall</name> falls from his horse</decoNote></ab>
+                        <ab locus="148r" locusNew="149r">
+                            <decoNote>French freed by Saracens walk out of castle holding opened fetters</decoNote>
+                        </ab>
+                        <ab locus="149r" locusNew="150r">
+                            <decoNote>Two female jugglers</decoNote>
+                        </ab>
+                        <ab locus="150r" locusNew="151r">
+                            <decoNote>Shrine of <name type="person">St Edward</name></decoNote>
+                        </ab>
+                        <ab locus="151v" locusNew="152v"><decoNote>Elephant (at <name type="place">Cremona</name>) with
+                                band of music on his back and Magister bestie with bell</decoNote>. His trunk is called
+                            promoscida</ab>
+                        <ab locus="152r" locusNew="153r">
+                            <decoNote>Shield of <name type="person">Segrave</name>. Pike (for <name type="person"
+                                    >Lucy</name>)</decoNote>
+                        </ab>
+                        <ab locus="153r" locusNew="154r">
+                            <decoNote>Fine initial</decoNote>
+                        </ab>
+                        <ab locus="153v" locusNew="154v">
+                            <decoNote><name type="person">Comes Ricardus</name> with men in boat (returns)</decoNote>
+                        </ab>
+                        <ab locus="155r" locusNew="156r">Rex transfretat uersus pictauiam. <decoNote>The king and queen
+                                and two men in a ship</decoNote></ab>
+                        <ab locus="155v" locusNew="156v"><decoNote>Six reversed shields. <name type="person">Gilb. de
+                                    Gaunt</name>. <name type="person">Hugo Wac</name>. <name type="person">Phil. de
+                                    Kime</name>. <name type="person">Henr. fil. imperatoris</name>. <name type="person"
+                                    >Baldwin Wac</name>. <name type="person">Comes de Warewic</name></decoNote>.<lb/>
+                            <decoNote><name type="person">Will. de Marisco</name> drawn by horse to
+                            execution</decoNote></ab>
+                        <ab locus="159v" locusNew="160v">
+                            <decoNote>French soldiers die of plague in <name type="place">Poitou</name></decoNote>
+                        </ab>
+                        <ab locus="160v" locusNew="161v"><decoNote>A boat on land(?)</decoNote>. (Flood.)
+                                <decoNote>Shields. <name type="person">Ric. de Burgo</name>, <name type="person">Hugo de
+                                    Lascy</name></decoNote></ab>
+
+                        <ab locus="161r" locusNew="162r">
+                            <decoNote>Fine initial</decoNote>
+                        </ab>
+                        <ab locus="162r" locusNew="163r"><decoNote>Truce: two joined hands, two crowns</decoNote>.
+                                <decoNote>Shields reversed <name type="place">Arundel</name>, <name type="person">Hubert
+                                    de Burgh</name></decoNote></ab>
+                        <ab locus="163v" locusNew="164v">
+                            <decoNote>King and Queen return in ship</decoNote>
+                        </ab>
+                        <ab locus="166r" locusNew="167r"><decoNote>Tartars: one beheads a man, one eats human leg,
+                                another seated on cut-up bodies roasts a boy on spit</decoNote>. <decoNote>On R. a nude
+                                man bound by hair and arms to a tree: a horse eats the leaves of the
+                            tree</decoNote></ab>
+                        <ab locus="167v" locusNew="168v">
+                            <decoNote>Fine initial</decoNote>
+                        </ab>
+                        <ab locus="169r" locusNew="170r"><decoNote><name type="person">Griffin</name> escapes from
+                                Tower: he falls: broken rope</decoNote>. <decoNote>Reversed shield of <name
+                                    type="person">Griffin</name></decoNote></ab>
+                        <ab locus="170v" locusNew="171v">
+                            <decoNote>Battle, before <name type="place">Babylon</name>. <name type="person"
+                                    >Balcanifer</name> flees with standard of the Temple</decoNote>
+                        </ab>
+                        <ab locus="177r" locusNew="178r">
+                            <decoNote>Pope mounted, in red cap, flees to R. (from the Emperor)</decoNote>
+                        </ab>
+                        <ab locus="177v" locusNew="178v">
+                            <decoNote><name type="person">Engelram of Coucy</name> dies: falls from horse in water, and
+                                pierced with sword</decoNote>
+                        </ab>
+                        <ab locus="180r" locusNew="181r">
+                            <decoNote>Charter of <name type="person">King of Scotland</name></decoNote>
+                        </ab>
+                        <ab locus="182r" locusNew="183r"><decoNote><name type="person">Louis of France</name> ill in
+                                bed. Queen touches his head with a double cross</decoNote>. <decoNote>Bishop on R.,
+                                attendant kneels L. (He takes the cross.)</decoNote><lb/>
+                            <decoNote>Reversed shield of <name type="person">Baldwin Earl of
+                            Devon</name></decoNote></ab>
+                        <ab locus="183v" locusNew="184v">
+                            <decoNote><name type="person">Herbert Fitz Mathew</name> on horse: man (Welshman) casts
+                                stone on his head.</decoNote>
+                            <decoNote>Reversed shield, party per pale gu. and az.: three lions rampant or</decoNote>
+                        </ab>
+                        <ab locus="185r" locusNew="186r"><decoNote>Hand (of a papal officer) cut off</decoNote>.
+                                <decoNote>Shield of <name type="person">Clare</name></decoNote></ab>
+                        <ab locus="185v" locusNew="186v">
+                            <decoNote>Reversed shield of <name type="person">Galfr. de Marisco</name></decoNote>
+                        </ab>
+                        <ab locus="186r" locusNew="187r"><decoNote>A stag's head</decoNote>. <decoNote>
+                                <name type="place">Westminster Abbey</name>
+                            </decoNote></ab>
+                        <ab locus="186v" locusNew="187v"><decoNote>Council of <name type="place"
+                            >Lyons</name></decoNote>. <decoNote><name type="person">Thadeus de Suessa</name> retires
+                                saying dies ista dies ire</decoNote></ab>
+                        <ab locus="194r" locusNew="195r">
+                            <decoNote>Reversed shield of <name type="person">Remund of Provence</name></decoNote>
+                        </ab>
+                        <ab locus="194v" locusNew="195v">
+                            <decoNote>
+                                <name type="place">Fort of Gannoc</name>
+                            </decoNote>
+                        </ab>
+                        <ab locus="195r" locusNew="196r">
+                            <decoNote>Reversed shields of <name type="person">Walter</name> and <name type="person"
+                                    >Anselm Mareschall</name></decoNote>
+                        </ab>
+                        <ab locus="198r" locusNew="199r">
+                            <decoNote>Reversed shields of <name type="person">David of Wales</name> with two arrows, and
+                                bow below</decoNote>
+                        </ab>
+                        <ab locus="204v" locusNew="205v">
+                            <decoNote>Reversed shields of <name type="person">Joh. de Nouilla</name>. Horn
+                                above</decoNote>
+                        </ab>
+                        <ab locus="208v" locusNew="209v">
+                            <decoNote>Fine initial</decoNote>
+                        </ab>
+                        <ab locus="210v" locusNew="211v">
+                            <decoNote>Reversed shield of <name type="person">Fulco de Nouocastro</name></decoNote>
+                        </ab>
+                        <ab locus="211r" locusNew="212r">
+                            <decoNote>Reversed shield of <name type="person">Anjou</name></decoNote>
+                        </ab>
+                        <ab locus="215r" locusNew="216r">
+                            <decoNote><name type="person">Henry</name> carries the Holy Blood under canopy: met by
+                                Bishops and Abbot on R.</decoNote>
+                        </ab>
+                        <ab locus="215v" locusNew="216v">
+                            <decoNote>Shield of <name type="person">William de Valentia</name></decoNote>
+                        </ab>
+                        <ab locus="216v" locusNew="217v">
+                            <decoNote>Shield of <name type="place">Norway</name></decoNote>
+                        </ab>
+                        <ab locus="216v" locusNew="217v">
+                            <decoNote>Reversed shield of <name type="person">Ferrers</name></decoNote>
+                        </ab>
+                        <ab locus="217r" locusNew="218r">
+                            <decoNote>Reversed shield of <name type="person">Ric. Suard</name></decoNote>
+                        </ab>
+                        <ab locus="219r" locusNew="220r">
+                            <decoNote>A coin</decoNote>
+                        </ab>
+                        <ab locus="242r" locusNew="245r">
+                            <decoNote>Reversed shield of <name type="person">Emperor Frederick</name></decoNote>
+                        </ab>
+                        <ab locus="247r" locusNew="250r">
+                            <decoNote>Reversed shield of <name type="person">William de Cantelupe</name></decoNote>
+                        </ab>
+                        <ab locus="250r" locusNew="253r">
+                            <decoNote>Reversed shield of <name type="person">Paulinus Piper</name></decoNote>
+                        </ab>
+                        <ab locus="250v" locusNew="253v">
+                            <decoNote>Reversed shield of <name type="person">Galfr. Despencer</name></decoNote>
+                        </ab>
+                        <ab locus="252r" locusNew="255r">
+                            <decoNote>Bird with fruit in beak. Crossbill?</decoNote>
+                        </ab>
+                        <ab locus="254r" locusNew="257r">
+                            <decoNote>Shield of <name type="place">Scotland</name> with sword, scabbard and
+                                spear</decoNote>
+                        </ab>
+                        <ab locus="255r" locusNew="258r"><decoNote>Reversed shield</decoNote>. <decoNote><name
+                                    type="person">Nic. de Sanford</name> gu. 3 fesses wavy arg.</decoNote></ab>
+                        <ab locus="262v" locusNew="265v">
+                            <decoNote>Reversed shield <name type="person">Hernald de Munteini</name></decoNote>
+                        </ab>
+                        <ab locus="277r" locusNew="280r">
+                            <decoNote>Shield of <name type="place">Spain</name>: rough</decoNote>
+                        </ab>
+                        <ab locus="279r" locusNew="282r"><decoNote>Reversed shield</decoNote>. <decoNote>
+                                <name type="person">William de Wescy</name>
+                            </decoNote></ab>
+                        <ab>In the above enumeration I have omitted a great many reversed mitres and crosiers which mark
+                            the deaths of prelates, also a few crowns and charters</ab>
+
+
+                    </msItem>
+
+
+
+                </msContents>
+
+
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, CF 2nd</p>
+                            <p>msCheck: NJC + CF 16.5.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

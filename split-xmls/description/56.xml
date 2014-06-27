@@ -1,0 +1,159 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC056">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>56</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>C. 10</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>31</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Matthew Paris OSB, Historia Anglorum (1067-1253) and other works</head>
+                <head type="James">Matthaei Paris Historia Anglorum (Historia Minor)</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">340</height>
+                        <width unit="mm">243</width>
+                    </measureGrp>, <measureGrp type="James">8 x 5.5</measureGrp>, <extent>ff. cir. 500</extent>,
+                        <layout>with varying numbers of lines to the page</layout>. Cent. <origDate>xvi (cir.
+                        1567)</origDate>, <handNote>in various hands</handNote>.</p>
+                <p type="CCC">
+                    <foliation>Vol. I = ff. iii + 1-33 + 33a + 34-47 + 47a + 48-96 + 96a + 97-107 + 107a + 108-154 +
+                        154a + 155-160 + 160a + 161-246 + 246a + 247-298 + 298a + 299-305 + 305a + 306-307 (End of Vol.
+                        I). Vol II = ff. 308-455 (currently disbound)</foliation>.</p>
+
+                <p function="Research">A transcript of the <ref type="ms" target="LBLR07"><q>Arundel</q> manuscript (now
+                        Royal 14 C. VII)</ref> of the History including the <hi rend="italic">Historia Anglorum</hi>
+                    from <date>1067</date> to <date>1253</date>; the latter portion of the <hi rend="italic">Chronica
+                        Maiora</hi> from <date>1254</date> to <date>1259</date>; and the continuation, from
+                        <date>1259</date> to <date>1273</date>. In <ref type="ms" target="CCC348">MS 348</ref> is a
+                    second transcript of part of the <hi rend="italic">Historia Anglorum</hi></p>
+
+
+                <p function="Research" rend="withinContents">This account is taken for the most part from <ref
+                        type="bibl" target="Madden 1866">Sir F. Madden's description (Matt. Paris <hi rend="italic"
+                            >Hist. Anglorum</hi>, Rolls I p. lxix)</ref></p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="455v">
+                        <head type="CCC">
+                            <name type="author">Matthew Paris OSB</name>, <title>Historia Anglorum (1067-1253), Chronica
+                                maiora (1254-59), Chronica maiora (continuation 1259-73)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Matthei Paris</name> historia minor a coronatione <name
+                                    type="person">Willelmi I</name> ad mortem <name type="person">Henrici III</name>,
+                                anno <date>1273</date></title>
+                        </head>
+                        <ab>
+                            <quote>Hoc apographum fieri fecit <name type="person">Parkerus</name> ex codice Arundeliano
+                                ut patet ex prefatione editionis suae. Historia minor desinit in anno <date>1250</date>,
+                                caetera desumuntur ex historia majori; et ex hoc codice edita sunt a Parkero uti fidem
+                                faciunt notas typographicae margini inscriptae. Codex porro ornatur scutis nobilium,
+                                etc. ad instar cod. XXVI, XVI</quote>
+                        </ab>
+
+                        <ab locusNew="1r"><decoNote>In the initial letter D the arms of <name type="person"
+                                    >Parker</name> are introduced</decoNote>, and in order to make each of the first
+                            eight lines begin with an <hi rend="italic">e</hi> several words have been altered</ab>
+
+                        <ab>
+                            <decoNote>The shields, etc., which occur in the original MS. are neatly copied in colour on
+                                the margins of the present volume</decoNote>
+                        </ab>
+
+                        <ab locusNew="2r">Between the prologue and the transcript of the Historia is a copy of the
+                            genealogical tract contained in <ref type="ms" target="CCC026">MS 26</ref> (Considerans
+                            prolixitatem), coming down to the reign of <name type="person">Henry III</name>. Another
+                            copy, continued to <name type="person">Henry V</name>, is in <ref type="ms" target="CCC100"
+                                >MS 100</ref></ab>
+
+                        <ab locusNew="198r"><decoNote>At the beginning of the reign of <name type="person">Henry
+                                    III</name>, <name type="person">Parker</name>'s arms are again inserted</decoNote>,
+                            with the date <date>1567</date></ab>
+                        <ab locusNew="316v">At the end of <date>1253</date> is this note: <q>Hucusque progreditur
+                                Historia Minor; quae sequuntur sunt ex Historia Majore <name type="author">Matthaei
+                                    Parisiensis</name></q>
+                        </ab>
+                        <ab locusNew="317r">At the beginning of <date>1254</date> is: <q>Ex libro Arund. Com.</q>
+                        </ab>
+                        <ab locusNew="317r">The portion from <date>1254</date> to <date>1273</date> has been used for
+                            the press, as appears by <name type="person">Parker</name>'s references to his edition in
+                            the margins. Throughout the transcript these have now been covered with paper</ab>
+                        <ab locusNew="105r">One of them at the year <date>1167</date> reads: <q>Omnes hae literae
+                                inseruntur in exemplari <name type="person">domini Cecilii</name></q>
+                        </ab>
+                        <ab>This refers to the <ref type="ms" target="BNF48B">MS. now Latin 6048 B in the Bibliotheque
+                                Nationale</ref>: it belonged to <name type="person">Sir W. Cecil</name>, and had been
+                            lent by him to <name type="person">Parker</name></ab>
+
+
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 19/1/2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,131 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC234">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>234</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Lib. ab Al. 38</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Giles of Rome OESA, Commentary on Aristotle, De generatione et corruptione, Commentary
+                    on Aristotle, De anima</head>
+                <head type="James">Egidius Romanus</head>
+                <p function="Codicology"><material>Vellum and paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">212</height>
+                        <width unit="mm">145</width>
+                    </measureGrp>, <measureGrp type="James">8.5 x 5.8</measureGrp>, <extent>ff. 240 + 2</extent>,
+                        <layout>36 lines to a page</layout>. Cent. <origDate>xv</origDate>
+                    <handNote>in a difficult and much contracted hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>2 flyleaves, 1<num>20</num>-12<num>20</num>: outer and middle sheets of each quire
+                        vellum</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>textus quod</secFol>.</p>
+
+                <p>Flyleaves vellum, <handNote>in a very bad hand</handNote>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a-c + i-ii + 1-240 + d-h</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="99v">
+                        <head type="CCC">
+                            <name type="author">Giles of Rome OESA</name>, <title>Commentary on <name type="person"
+                                    >Aristotle</name>, De generatione et corruptione</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Egydii</name> commentarium in librum de generatione et
+                                corruptione</title>
+                        </head>
+
+                        <incipit locus="1r">Anima ut testatur philosophus est quodammodo</incipit>
+                        <explicit locusNew="99v">est in genere secundum augmentum</explicit>
+                        <rubric locusNew="99v">Expliciunt questiones super libros de generacione secundum magistrum
+                            ffratrum <name type="author">Engidium</name></rubric>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="100r" locusEnd="240v">
+                        <head type="CCC">
+                            <name type="author">Giles of Rome OESA</name>, <title>Commentary on <name type="person"
+                                    >Aristotle</name>, De anima</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Ejusdem commentarium in libros <name type="person">Aristotelis</name> de
+                                anima</title>
+                        </head>
+
+                        <incipit locus="110r" locusNew="100r">Ex romanorum spectabili ac illustri prosapia ... <name
+                                type="person">Jacobo Johannis gageta</name></incipit>
+                        <ab locusNew="240v">Ends imperfectly on Liber III, capitulum v</ab>
+
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJC 8/4/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

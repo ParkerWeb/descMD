@@ -1,0 +1,370 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+
+                <msIdentifier xml:id="CCC421">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>421</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>S. 13</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>266</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Old English Homilies</head>
+                <head type="James">Homiliae Saxonicae (VI)</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">205</height>
+                        <width unit="mm">120</width>
+                    </measureGrp><measureGrp type="James">7.9 x 5</measureGrp>, <extent>ff. 2 + 177</extent>, <layout>19
+                        and 25 lines to a page</layout>. Cent. <origDate>xi</origDate>, <handNote>largely in the same
+                        hand as <ref type="ms" target="CCC419">no. 419</ref></handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num>, 1<num>8</num> 2<num>8</num> 3<num>4</num> 4<num>8</num>-6<num>8</num>
+                            7<num>6</num> (6 canc.) || 8<num>8</num>-14<num>8</num> (wants 8) || 15<num>8</num> ||
+                            16<num>8</num>-21<num>8</num> 22<num>6</num> 23<num>10</num> (8 canc.) 24
+                    (two)</collation>.</p>
+                <p function="Additions">On f. <locus>iir</locus> Parkerian title (Liber Sextus) and list of
+                    contents.</p>
+                <p function="Decoration"><decoNote>On p. <locus>1</locus> a contemporary frontispiece of good English
+                        work washed copiously with red in background: high lights left in white. The Crucifixion, with
+                            <name type="person">maria</name> and <name type="person">iohannes</name>: the extremities of
+                        the Cross are <q>stepped</q>: there are 4 nails. Christ has a fillet or diadem on His head, and
+                        a cross-nimbus. Above is the Divine Hand; below, a dragon, both within the outline of the Cross.
+                        Conventional foliage in the upper corners</decoNote>.</p>
+                <p function="Research">MS. A in <ref type="bibl" target="Napier 1883">Napier's Wulfstan</ref>. <ref
+                        type="bibl" target="Wanley1705">Wanley, p. 131</ref>.</p>
+                <p function="Research" rend="afterContents"><name type="person">Professor Napier</name> notes: <q>At the
+                        end was the Tractate de xii abusiuis: it is now apparently lost</q>. (I doubt if this is
+                    correct: <name type="person">T. James</name> notices the occurrence of this tract under his no. 285
+                    which is <ref type="ms" target="CCC303">no. 303</ref>. In that volume the tract occurs.)</p>
+                <p type="CCC">
+                    <foliation>ff. a-b + i-ii + pp. 1-354 + ff. c-d</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="ang" otherLangs="lat">Old English and Latin.</textLang>
+                    <label>Contents</label>
+                    <msItem n="1" locusStart="2" locusEnd="2">
+                        <head type="CCC">
+                            <title>Prayer following Homily for the Feast of an Apostle</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B12.4.8.2</ref>)</supplied>
+                        </ab>
+                        <ab locus="2">Prayer or conclusion of Sermon in honour of an Apostle (such as no. 3) not on the
+                            hand which follows</ab>
+                        <incipit locusNew="2">Uton nu biddan ealle eadmodlice [uel an] &#254;ysne [&#254;as]
+                            halgan [haligan] Apostol [uel las] .N. &#254;aet he [uel hi] for his [uel hira]
+                            m&#230;ran gearnungum, etc.</incipit>
+                        <ab>ending</ab>
+                        <explicit locusNew="2">&#254;e &#447;e nu to d&#230;g
+                            &#447;ur&#254;igea&#254; 7 mid eallon his halgan. Se &#254;e leofa&#240;
+                            7 ricsa&#240; a buton ende on ecnysse. Amen. Credo in unum deum</explicit>
+                    </msItem>
+                    <msItem n="2" locusStart="3" locusEnd="25">
+                        <head type="CCC">
+                            <name type="author">Ælfric OSB</name>, <title>Catholic Homilies, First Series,
+                                Pentecost</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.1.24</ref>)</supplied>
+                        </ab>
+                        <rubric locus="3">In die Sancto Pentecosten</rubric>
+                        <incipit locusNew="3">Fram &#240;am halgan Easterlican d&#230;ge</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1844">Thorpe I 310</ref>
+                        </ab>
+                        <ab>pp. <locus>3</locus>-<locus>96</locus> are <handNote>in a more regular hand than what
+                                follows</handNote></ab>
+                    </msItem>
+                    <msItem n="3" locusStart="25" locusEnd="36">
+                        <head type="CCC">
+                            <name type="author">Ælfric OSB</name>, <title>Catholic Homilies, Second Series,
+                                Apostle</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.2.44</ref>)</supplied>
+                        </ab>
+                        <rubric locus="25">In natale unius Apostoli</rubric>
+                        <incipit locusNew="25">&#208;es Apostolica freols d&#230;g</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1846">Thorpe II 520</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="4" locusStart="36" locusEnd="54">
+                        <head type="CCC">
+                            <name type="author">Ælfric OSB</name>, <title>Catholic Homilies, Second Series,
+                                Martyrs</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.2.46</ref>)</supplied>
+                        </ab>
+                        <rubric locus="36">In Natale Plurimorum Sanctorum Martyrum</rubric>
+                        <incipit locusNew="36">Cum audieritis prelia</incipit>
+                        <incipit locusNew="36">Se H&#230;lende fores&#230;de</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1846">Thorpe II 536</ref>
+                        </ab>
+                    </msItem>
+                    <msItem n="5" locusStart="54" locusEnd="76">
+                        <head type="CCC">
+                            <name type="author">Ælfric OSB</name>, <title>Catholic Homilies, Second Series,
+                                Confessor</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.2.47</ref>)</supplied>
+                        </ab>
+                        <rubric locus="54">In Natale Unius Confessoris</rubric>
+                        <incipit locusNew="54">Homo quidam peregre</incipit>
+                        <incipit locusNew="54">Ure Drihten saede</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1846">Thorpe II 548</ref>
+                        </ab>
+                    </msItem>
+                    <msItem n="6" locusStart="76" locusEnd="98">
+                        <head type="CCC">
+                            <name type="author">Ælfric OSB</name>, <title>Catholic Homilies, Second Series,
+                                Virgins</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.2.48</ref>)</supplied>
+                        </ab>
+                        <rubric locus="76">In natale Sanctarum Virginum</rubric>
+                        <incipit locusNew="76">Simile est regnum ... decem uirginibus</incipit>
+                        <incipit locusNew="76">Se H&#230;lend s&#230;de gelomlice</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1846">Thorpe II 562</ref>
+                        </ab>
+                        <ab>Ends p. <locus>96</locus></ab>
+                        <ab>pp. <locus>97</locus>, <locus>98</locus> blank</ab>
+                    </msItem>
+                    <msItem n="7" locusStart="99" locusEnd="150">
+                        <head type="CCC">
+                            <name type="author">Ælfric OSB</name>, <title>Sermo ad populum in octauis Pentecosten
+                                dicendus</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.4.11</ref>)</supplied>
+                        </ab>
+                        <rubric locus="99">Sermo ad populum in octavis Pentecosten</rubric>
+                        <incipit locusNew="99">&#503;e &#447;illa&#240; eo&#447; s&#230;cgan sume
+                            s&#447;utelunge</incipit>
+                        <ab><ref type="ms" target="CCC178">MS 178 (5)</ref>, <ref type="ms" target="CCC188">MS 188
+                                (22)</ref>, <ref type="ms" target="CCC303">MS 303 (42)</ref> and elsewhere</ab>
+                        <ab locusNew="99">
+                            <handNote>pp. <locus>99</locus>-<locus>208</locus> are in the hand of <ref type="ms"
+                                    target="CCC419">no. 419</ref></handNote>
+                        </ab>
+                    </msItem>
+                    <msItem n="8" locusStart="150" locusEnd="159">
+                        <head type="CCC">
+                            <title>Sermon on Larspel and scriftboc</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B3.4.38</ref>)</supplied>
+                        </ab>
+                        <rubric locus="150">Lar Spel 7 Scrift Boc</rubric>
+                        <incipit locusNew="150">Leofan men. do&#240; s&#447;a ic eo&#447; bidde
+                            gehyra&#240; &#254;&#230;t so&#240; is</incipit>
+                        <ab>
+                            <ref type="bibl" target="Napier 1883">Napier, Wulfstan XLVII, p. 242</ref>
+                        </ab>
+                    </msItem>
+                    <msItem n="9" locusStart="159" locusEnd="170">
+                        <head type="CCC">
+                            <title>Sermon Ammonitio amici</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B3.4.39.2</ref>)</supplied>
+                        </ab>
+                        <rubric locus="159">Ammonitio amici &#254;aet is freondlic mynegung</rubric>
+                        <incipit locusNew="159">Eala ge&#447;ynsuman men 7 &#230;&#254;ele
+                            &#447;&#230;pmen</incipit>
+                        <ab>
+                            <ref type="bibl" target="Napier 1883">Napier, Wulfstan XLVIII, p. 246</ref>
+                        </ab>
+                    </msItem>
+                    <msItem n="10" locusStart="170" locusEnd="208">
+                        <head type="CCC">
+                            <title>Homily for Tuesday in Rogationtide</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B3.2.40.2</ref>)</supplied>
+                        </ab>
+                        <rubric locus="170">Lar spell</rubric>
+                        <incipit locusNew="170">Men &#240;a leofestan &#447;e gehyrdon oft s&#230;cgan be
+                            &#254;am &#230;&#254;elan to cyme</incipit>
+                        <ab>
+                            <ref type="bibl" target="Napier 1883">Napier, Wulfstan XLIX, p. 250</ref>
+                        </ab>
+                    </msItem>
+                    <msItem n="11" locusStart="209" locusEnd="221">
+                        <head type="CCC">
+                            <title>Sermon on Larspel</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B3.4.40</ref>)</supplied>
+                        </ab>
+                        <rubric locus="209">Lar spell</rubric>
+                        <incipit locusNew="209">&#503;e secgea&#240; urum cyne hlaforde</incipit>
+                        <ab>
+                            <ref type="bibl" target="Napier 1883">Napier, Wulfstan L, p. 266</ref>
+                        </ab>
+                        <ab><handNote>pp. <locus>209</locus>-<locus>224</locus> are in a careful upright
+                            hand</handNote>, <layout>25 lines to a page</layout></ab>
+                    </msItem>
+                    <msItem n="12" locusStart="221" locusEnd="226">
+                        <head type="CCC">
+                            <name type="author">Wulfstan</name>, <title>Luke on the last days</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B2.1.3</ref>)</supplied>
+                        </ab>
+                        <rubric locus="221">(Erunt signa)</rubric>
+                        <incipit locusNew="221">Crist c&#447;&#230;&#240; on his halgan godspelle
+                            &#254;&#230;t fela fortacna</incipit>
+                        <ab>
+                            <ref type="bibl" target="Napier 1883">Napier, Wulfstan XV, p. 90</ref>
+                        </ab>
+                        <ab>Ends p. <locus>224</locus></ab>
+                        <ab>pp. <locus>225</locus>, <locus>226</locus> are blank</ab>
+                    </msItem>
+                    <msItem n="13" locusStart="227" locusEnd="254">
+                        <head type="CCC">
+                            <name type="author">Ælfric OSB</name>, <title>Catholic Homilies, First Series, In Letania
+                                maiore</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.1.20</ref>)</supplied>
+                        </ab>
+                        <ab>
+                            <handNote>On p. <locus>227</locus> the hand of <ref type="ms" target="CCC419">MS 419</ref>
+                                resumes</handNote>
+                        </ab>
+                        <rubric locus="227">In L(etania maiore)</rubric>
+                        <incipit locusNew="227">&#208;as dagas synd gehatene Letanige</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1844">Thorpe I 224</ref>
+                        </ab>
+                    </msItem>
+                    <msItem n="14" locusStart="254" locusEnd="287">
+                        <head type="CCC">
+                            <name type="author">Ælfric OSB</name>, <title>Catholic Homilies, First Series, Feria III de
+                                Dominica oratione</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.1.21</ref>)</supplied>
+                        </ab>
+                        <rubric locus="254">Feria III. De Dominica Oratione</rubric>
+                        <incipit locusNew="254">Se h&#230;lend Crist sy&#240;&#240;an he</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1844">Thorpe I 258</ref>
+                        </ab>
+                    </msItem>
+                    <msItem n="15" locusStart="287" locusEnd="324">
+                        <head type="CCC">
+                            <name type="author">Ælfric OSB</name>, <title>Catholic Homilies, First Series, Feria IIII de
+                                fide catholica</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.1.22</ref>)</supplied>
+                        </ab>
+                        <rubric locus="287">Feria IIII. De fide catholica</rubric>
+                        <incipit locusNew="287">&#198;lc Cristen man sceal &#230;fter rihte cunnan</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1844">Thorpe I 274</ref>
+                        </ab>
+                    </msItem>
+                    <msItem n="16" locusStart="324" locusEnd="354">
+                        <head type="CCC">
+                            <name type="author">Ælfric OSB</name>, <title>Catholic Homilies, First Series,
+                                Ascension</title>
+                        </head>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Cameron 1973">Cameron B1.1.23</ref>)</supplied>
+                        </ab>
+                        <rubric locus="324">In ascensione domini. Primum quidem sermonem</rubric>
+                        <incipit locusNew="324"><name type="person">Lucas</name> se godspellere us manede</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1844">Thorpe I 294</ref>
+                        </ab>
+                        <ab>Ends</ab>
+                        <explicit locus="354"><name type="person">Bartholomeus</name> on <name type="place"
+                            >India</name>. <name type="person">Matheus</name> on <name type="place"
+                                >&#230;thiopia</name>. And s&#447;a heora gehy&#447;ylc on his daele 7 godes
+                            miht</explicit>
+
+
+                    </msItem>
+
+
+
+                </msContents>
+
+
+
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text:copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, SP, BA, CF</p>
+                            <p>msCheck: RJR 29.6.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

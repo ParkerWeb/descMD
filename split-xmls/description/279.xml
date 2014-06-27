@@ -1,0 +1,273 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC279">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>279</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>O. 20</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>221</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Synods and Canons (Hibernensis), Synodus Patricii. Augustini dicta de conjugum ratione.
+                    Liber ex Lege Moysi. Canones Hibernensis</head>
+                <head type="James">Synodus Patricii. Canones</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">260</height>
+                        <width unit="mm">170</width>
+                    </measureGrp>, <measureGrp type="James">10.2 x 7.1</measureGrp>, <extent>ff. 96</extent>, <layout>20
+                        lines to a page</layout>. Cent. <origDate>ix-x (or x)</origDate>, in the opinion of <name
+                        type="person">Mr. Bradshaw</name>. <handNote>In a large, dispersed, slightly sloping minuscule:
+                        not English</handNote>. <decoNote>Initials mostly in plain red or black. Rubrics in
+                        capitals</decoNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num>-4<num>8</num> 5<num>10</num> 6<num>8</num>-10<num>8</num> 11<num>10</num>
+                        (wants 1) 12<num>6</num> (wants 6)</collation>. The old pagination is incorrect by 2 after p.
+                        <locus>69</locus>.</p>
+
+                <p function="Provenance">From <name type="place">Worcester</name>: see below.</p>
+                <p function="Provenance">On pp. 30 sqq. <ref type="bibl" target="Bradshaw 1893">Mr. Bradshaw</ref>
+                    prints <q>the paragraphs partly of Irish origin which are appended to the <hi rend="italic">Liber ex
+                            lege Moysi</hi></q> and discusses them. On p. 32 he says <q>until fresh evidence is
+                        forthcoming, I shall believe that the present manuscript, whether it was itself transcribed in
+                        the <name type="place">Cambrai</name> and <name type="place">Arras</name> district or elsewhere,
+                        owes its origin to manuscripts then preserved in <name type="place">Brittany</name>.</q></p>
+
+
+                <p function="Research">The <hi rend="italic">Synodus</hi> (pp. <locus>1</locus>-<locus>11</locus>) is
+                    printed by <ref type="bibl" target="Haddan and Stubbs 1873">Haddan and Stubbs</ref> II 330.</p>
+                <p type="CCC">
+                    <foliation>pp. i-iv + 1-69 + 69b-c + 70-89 + 89b-c + 90-188 + v-viii</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1" locusEnd="188">
+                        <head type="CCC">
+                            <title>Synods and Canons (Hibernensis), Synodus Patricii. Augustini dicta de conjugum
+                                ratione. Liber ex lege Moysi. Canones Hibernensis</title>
+                        </head>
+                        <!-- Subdivide item? -->
+
+                        <ab>
+                            <decoNote>In large red and black capitals</decoNote>
+                        </ab>
+                        <rubric locus="1">Incipit <lb/> Sinodus <lb/> Episco<lb/>porum <lb/> idest <lb/> Patricii
+                            Auxilii Issernini <lb/></rubric>
+                        <incipit locus="1" locusNew="2">Gratias agimus deo patri</incipit>
+                        <ab locusNew="2">
+                            <decoNote>Initial <q>Gra</q> in red, filled with yellow</decoNote>
+                        </ab>
+                        <ab locusNew="11">
+                            <decoNote>On p. <locus>11</locus> initial in red and green with bird's head: on pp.
+                                    <locus>42</locus>, <locus>43</locus>, <locus locusNew="74">72</locus>, etc. roughly
+                                ornamented initials</decoNote>
+                        </ab>
+                        <ab><ref type="bibl" target="Bradshaw 1893">Mr. Bradshaw's account of the manuscript in his
+                                tract on <hi rend="italic">The Early Collection of Canons known as the Hibernensis</hi>
+                                (Cambridge, 1893)</ref> is the best available. I quote the principal part of it
+                            here</ab>
+                        <ab>
+                            <q><ref type="ms" target="CCC279">MS 279</ref> in the collection given by <name
+                                    type="person">Archbishop Parker</name> to <name type="place">Corpus Christi
+                                    College</name> is another MS. of which it is very difficult to give in a few words a
+                                thoroughly satisfactory account. It contains four principal pieces, of which the third
+                                and fourth belong together, all transcribed by a very inaccurate copyist of the
+                                    <date>X</date>th or <date>IX-X</date>th century. The first (leaves <locus
+                                    locusNew="1">1r</locus>-<locus locusNew="11">6r</locus>) is the <hi rend="italic"
+                                    >Synodus Episcoporum id est Patrici Auxilii et Issernini</hi>, a set of canons
+                                printed by <ref type="bibl" target="Spelman 1639">Spelman</ref> (and from him by others)
+                                from this copy. Indeed they have not been preserved at all except here and in the
+                                citations from them which occur in the <hi rend="italic">Hibernensis</hi>. The second
+                                (leaves <locus locusNew="12">6r</locus>-<locus locusNew="105">55r</locus>) is a
+                                collection of testimonia arranged roughly under certain subjects, some having rubrics
+                                and some not, but without any apparent method or sequence. It begins with some dicta of
+                                    <name type="person">St Augustine</name> de conjugum ratione. The authorities are
+                                such as are cited in the <hi rend="italic">Hibernensis</hi>, and in many cases the
+                                passages are identical. They include <name type="person">Patricius</name> and <name
+                                    type="person">Gildas</name>, and the latest author cited is <name type="person"
+                                    >Isidorus</name>. But the collection is certainly not derived from the <hi
+                                    rend="italic">Hibernensis</hi>, being rather a compilation drawn independently from
+                                the same sources; and as under some heads passages are cited from <name type="person"
+                                    >Gildas</name> which do not occur in the <hi rend="italic">Hibernensis</hi>, it
+                                follows that the compilation must have been made in some district where his writings
+                                were accessible; and we thus obtain some sort of clue to the locality in which it
+                                originated. The third and fourth pieces are (3) the <hi rend="italic">Liber ex Lege
+                                    Moysi</hi> (<locus locusNew="106">55v</locus>-<locus locusNew="159">80r</locus>) and
+                                (4) a series of extracts, in order, from the A-text of the <hi rend="italic"
+                                    >Hibernensis</hi> (<locus locusNew="161">81r</locus>-<locus locusNew="187"
+                                    >94r</locus>), with some independent paragraphs, many of Irish origin, interposed
+                                    (<locus locusNew="159">80r</locus>-<locus locusNew="161">81v</locus>) between the
+                                two, and others of a different kind at the end (<locus locusNew="187">94r</locus>-<locus
+                                    locusNew="188">96v</locus>), the last breaking off abruptly (<locus locusNew="188"
+                                    >96v</locus>) in consequence of the loss of two leaves
+                                    (<locus>97r</locus>-<locus>98v</locus>) at the end of the last quire.</q>
+                        </ab>
+                        <ab>
+                            <q>The <hi rend="italic">Liber ex lege Moysi</hi> is a collection of extracts, in order,
+                                from Exodus, Leviticus, Numbers, and Deuteronomy, which, so far as I can ascertain, is
+                                only known to exist in the position in which we here find it. It will be seen below that
+                                in three of the <name type="place">Brittany</name> manuscripts in our list (nos. <ref
+                                    type="ms" target="BNF182">4</ref>, <ref type="ms" target="LBLOE3">7</ref>, <ref
+                                    type="ms" target="BMO221">10</ref>), it occurs prefixed to the A-text of the <hi
+                                    rend="italic">Hibernensis</hi>. In one of these (no. <ref type="ms" target="BNF182"
+                                    >4</ref>) it follows immediately upon the general rubric or title of the <hi
+                                    rend="italic">Hibernensis</hi>, while in another (no. <ref type="ms" target="LBLOE3"
+                                    >7</ref>) it follows immediately upon the introductory paragraphs <hi rend="italic"
+                                    >De synodis</hi> and the <hi rend="italic">Index titulorum</hi> at the beginning of
+                                the <hi rend="italic">Hibernensis</hi>; facts which clearly point to some connexion
+                                between the two works, at least so far as their origin is concerned. The series of
+                                extracts from the <hi rend="italic">Hibernensis</hi> begins (after a passage from Tit.
+                                8, <hi rend="italic">De recapitulatione septem graduum</hi>, Cap. 2, which serves as an
+                                introduction) with Tit. 1, <hi rend="italic">De episcopo</hi>, Cap. 3, and goes on to
+                                Tit. 48 (your <ref type="bibl" target="Wasserschleben 1874"><hi rend="footnote">Dr.
+                                        Wasserschleben's</hi> 50</ref>), <hi rend="italic">De reliquiis in deserto
+                                    humatis</hi>, Cap. 1. Of the paragraphs at the end of the volume I have nothing to
+                                say in connexion with our subject; but those which immediately follow the <hi
+                                    rend="italic">Liber ex lege Moysi</hi> are of particular interest to us, as it is to
+                                them that we shall have to look for our best clue to the history of the MS. Only let me
+                                first draw attention to two points, of which the bearing will be more clearly seen when
+                                I come to speak of the <name type="place">Brittany</name> MSS.</q>
+                        </ab>
+                        <ab>
+                            <q>Of the four principal pieces in the present volume nos. 1, 2, and 4 are quite free from
+                                any interlinear or marginal gloss; while in no. 3 (the <hi rend="italic">Liber ex lege
+                                    Moysi</hi>) and in the paragraphs of Irish origin appended to it, glosses are more
+                                or less thickly strewn, for the most part Latin, but in about a dozen cases Irish. These
+                                Irish glosses have been printed by <ref type="bibl" target="Stokes and Strachan 1903">Mr
+                                    Whitley Stokes</ref> from the copies which I sent him; and from his commentary it is
+                                clear that, judging from the confusion of s and f and other mistakes, they cannot have
+                                been written by a scribe who knew anything of the Irish language. The character is
+                                certainly not that which would be used by an Irish scribe, even on the continent, in
+                                writing words in his own language. We are therefore brought to the conclusion that the
+                                copyist of this MS. must have had before him a manuscript already containing these Irish
+                                glosses, and must have been employed in a locality where such books were preserved
+                                ...</q>
+                        </ab>
+                        <ab>
+                            <q>I am inclined to think that the present volume may have been copied from three several
+                                manuscripts containing respectively, (1) the <hi rend="italic">Synodus Patricii</hi>,
+                                (2) the <hi rend="italic">Augustini Dicta de conjugum raione, etc.</hi> and (3) the <hi
+                                    rend="italic">Liber ex lege Moysi</hi> and Hibernensis-extracts; and that this third
+                                manuscript may have been copied from two others, one containing the <hi rend="italic"
+                                    >Liber ex lege Moysi</hi> with paragraphs at the end, all more or less noted with
+                                Latin and Irish glosses, and the other containing a set of excerpta from the <hi
+                                    rend="italic">Hibernensis</hi>. I do not wish to lay any great stress on the
+                                necessity of its having originated in this particular way; but it is as well to show how
+                                the present result may have been produced.</q>
+                        </ab>
+                        <ab>
+                            <q>Now that we have reached this point, it becomes clear that, in order to ascertain
+                                anything definitely concerning the origin of this manuscript, we must look (1)
+                                internally, to the <hi rend="italic">Synodus Patricii</hi> which forms no. 1, the
+                                citations from <name type="person">Patricius</name> and <name type="person"
+                                    >Gildas</name> in no. 2, and the <hi rend="italic">Liber ex lege Moysi</hi> with its
+                                appended paragraphs and Irish glosses in no. 3; and (2) externally, to what we can learn
+                                of its later history.</q>
+                        </ab>
+                        <ab>
+                            <q>This latter point, concerning its external history, is easily disposed of. The book came
+                                to <name type="place">Cambridge</name> on <name type="person">Archbishop Parker</name>'s
+                                death in <date>1575</date>, and belonged to him for some time previous to that date. It
+                                bears at present no mark at all to indicate any earlier ownership, but a little patience
+                                has fortunately brought this to light. In printing the canons of the <hi rend="italic"
+                                    >Synodus Patricii</hi> (<ref type="bibl" target="Haddan and Stubbs 1873">Councils,
+                                    Vol. 2, page 330, note a</ref>) <name type="person">Mr Haddan</name> says : <q>There
+                                    is another (very imperfect) copy of them (<date>xvth</date> century) in <ref
+                                        type="ms" target="CCC298">MS 298, no. 22</ref>.</q> But, on examining this <ref
+                                    type="ms" target="CCC298">MS 298</ref> in <date>1879</date>, I found that the latter
+                                part of the volume was not a <date>xvth</date> century MS., but a mass of colectanea
+                                made by <name type="person">Parker</name>, and by others for him, from various
+                                manuscripts; and that the incomplete copy of our canons mentioned by <ref type="bibl"
+                                    target="Haddan and Stubbs 1873">Haddan</ref> is a transcript, from the very MS. 279
+                                which is now under discussion, in the familiar handwriting of <name type="person"
+                                    >Parker</name> himself, who has written at the top the following heading : <q>Ex
+                                    libro quodam vetusto ecclesiae <name type="place">wigornensis</name>.</q> From this
+                                it follows that the original, at the time this was written, had been lent to <name
+                                    type="person">Archbishop Parker</name> from the library of <name type="place"
+                                    >Worcester</name> cathedral, and that it afterwards passed, like many more of the
+                                most precious possessions of our cathedral and monastic libraries, into the private
+                                library of the Archbishop. Once traced to <name type="place">Worcester</name>, it is not
+                                difficult to see how the book may have come to <name type="place">England</name> (for it
+                                was certainly not written in either <name type="place">England</name> or <name
+                                    type="place">Ireland</name>) with one of the Norman or Lotharingian bishops
+                                introduced in the <date>eleventh</date> century by <name type="person">Edward the
+                                    Confessor</name> or <name type="person">William the Conqueror</name></q>
+                            <hi rend="footnote">I note that <ref type="bibl" target="Elrington and Todd 1847-64k">Ussher
+                                        (<hi rend="italic">Original of Corbes</hi>, etc. Opera XI 433)</ref> says <q>In
+                                    a very ancient book which belonged to the cathedral church of <name type="place"
+                                        >Worcester</name>, and may now be seen in <name type="place">Benett
+                                        College</name> library in <name type="place">Cambridge</name>, there are extant
+                                    certain canons bearing this inscription 'Synodus episcoporum id est Patricii,
+                                    Auxilii, Issernini.' </q> [<name type="person">M. R. J.</name>]</hi>
+                        </ab>
+
+                        <ab>The last text in the volume ends imperfectly</ab>
+                        <explicit locusNew="188">Item <name type="person">gregorius</name>. quedam femina sanctimonialis
+                            in ea ecclesia sepulta iuxta altare pars</explicit>
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, but not by a second person</p>
+                            <p>msCheck: EB 27/11/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

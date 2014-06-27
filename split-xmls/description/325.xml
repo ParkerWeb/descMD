@@ -1,0 +1,203 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC325">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>325</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>I. 7</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>96</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Vincent of Beauvais OP, De eruditione regalium filiorum, Liber consolatorius ad
+                    Ludouicum regem de morte filii, De morali principis institutione</head>
+                <head type="James">Vincentius de Eruditione Puerorum, etc.</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">228</height>
+                        <width unit="mm">161</width>
+                    </measureGrp>, <measureGrp type="James">9.1 x 6.5</measureGrp>, <extent>ff. 4 + 201</extent>,
+                        <layout>double columns of 30 lines</layout>. Cent. <origDate>xiii-xiv</origDate>, <handNote>in a
+                        good, clear hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>4</num> 1<num>12</num>-4<num>12</num> (+ slip) 5<num>12</num>-16<num>12</num>
+                            17<num>8</num> + 1</collation>.</p>
+
+                <p function="Provenance">From <name type="place">Norwich Cathedral Priory</name>. At top of f.
+                        <locus>1r</locus> of text is : <q>J. LVIII. <name type="person">Johannis de strattone
+                            (strattoie) senioris</name></q> in the style characteristic of that house.</p>
+
+                <p function="additions">On ff. <locus>iir</locus>-<locus>ivv</locus> are notes and part of an
+                    alphabetical table, and a title, I think in <name type="person">Bale</name>'s hand. Other marginal
+                    notes (also by <name type="person">Bale</name>, as I think) occur.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-iv + 1-202 + c-d</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="100r">
+                        <head type="CCC">
+                            <name type="author">Vincent of Beauvais OP</name>, <title>De eruditione regalium
+                                filiorum</title>
+                        </head>
+                        <head type="James"><name type="author">Vincentius</name>
+                            <title>de Eruditione Puerorum</title>, etc.</head>
+                        <head type="Nasmith">
+                            <title><name type="author">Vincentius Belvacensis</name> de puerorum nobilium
+                                eruditione.</title>
+                        </head>
+
+                        <rubric locus="1r">Incipit prologus sequentis opusculi </rubric>
+                        <incipit locus="1r">Serenissime ac reuerentissime domine sue francorum Dei gratia <name
+                                type="person">regine margarete</name></incipit>
+                        <explicit locus="1r">per capitula subiecta distinctum</explicit>
+                        <ab locus="1v">Capitula</ab>
+                        <rubric locus="2r">De puerorum nobilium erudicione</rubric>
+                        <incipit locus="2r">Filii tibi sunt erudi illos</incipit>
+                        <explicit locus="100r">cum in nobis incipiet uirginitas honorari</explicit>
+                    </msItem>
+
+                    <msItem n="2" locusStart="100r" locusEnd="153r">
+                        <head type="CCC">
+                            <name type="author">Vincent of Beauvais OP</name>, <title>Liber consolatorius ad <name
+                                    type="person">Ludouicum</name> regem de morte filii</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Ejusdem epistola de morte amici consolatoria.</title>
+                        </head>
+                        <rubric locus="99r" locusNew="100r">Incipit prologus</rubric>
+                        <incipit locus="99r" locusNew="100r">Dilecto deo et hominibus ... <name type="person">francorum
+                                principi ludouico</name></incipit>
+                        <explicit locus="100v">xvi tantummodo capitula continentem</explicit>
+                        <ab>Capitula</ab>
+                        <ab locus="99v" locusNew="100v">Text </ab>
+                        <incipit locus="99v" locusNew="100v">In primis igitur aduertere debet illa que maxime
+                            personam</incipit>
+                        <explicit locus="152r" locusNew="153v">modestia regie maiestatis. Amen</explicit>
+                    </msItem>
+
+                    <msItem n="3" locusStart="153v" locusEnd="192r">
+                        <head type="CCC">
+                            <name type="author">Vincent of Beauvais OP</name>, <title>De morali principis
+                                institutione</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Idem de morali principis institutione</title>
+                        </head>
+                        <rubric locus="152v" locusNew="153v">Incipit prologus</rubric>
+                        <incipit locus="152v" locusNew="153v">Clarissimis ac religiosissimis ... <name type="person"
+                                >ludouico</name> ... ac <name type="person">theobaldo </name></incipit>
+                        <explicit locus="152v" locusNew="153v">per subiecta capitula distinctum</explicit>
+                        <ab>Capitula</ab>
+                        <ab locus="153r" locusNew="154r">Text</ab>
+                        <incipit locus="153r" locusNew="154r">Sicut dicit apostolus ad romanos xii. multi unum corpus
+                            sumus</incipit>
+                        <explicit locus="191r" locusNew="192r">si sola seruatur utilitatum fides</explicit>
+                    </msItem>
+
+                    <msItem n="4" locusStart="192r" locusEnd="195v">
+                        <head type="CCC">
+                            <name type="author">Bernard of Clairvaux OCist</name>, <title>De praecepto et
+                                dispensatione</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Tractatus <name type="author">Bernardi [Claraevallensis]</name> de precepto et
+                                dispensatione.</title>
+                        </head>
+                        <rubric locus="191r" locusNew="192r">Tractatus <name type="author">Bernardi</name> de precepto
+                            et dispensatione</rubric>
+                        <incipit locus="191r" locusNew="192r">Fidei uestre non meo fidens ingenio</incipit>
+                        <explicit locus="194v" locusNew="195v">absens profecto est</explicit>
+                        <rubric locus="194v" locusNew="195v">Explicit</rubric>
+                    </msItem>
+
+                    <msItem n="5" locusStart="195v" locusEnd="201r">
+                        <head type="CCC">
+                            <name type="author">Bernard of Clairvaux OCist</name>, <title>Epistola ad <name
+                                    type="person">Robertum</name> nepotem suum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Epistola ejusdem ad nepotem suum.</title>
+                        </head>
+                        <rubric locus="194v" locusNew="195v">Epistola <name type="author">bernardi</name> ad nepotem
+                            suum</rubric>
+                        <incipit locus="194v" locusNew="195v">Quoniam huc usque frustratum me cerno</incipit>
+                        <explicit locus="197r" locusNew="198r">quia mortuus mox coronaberis</explicit>
+
+                        <seg>
+                            <ab locus="197v" locusNew="198v">Table continued from first leaves</ab>
+                            <ab>On <locus locusNew="200v">199v</locus>, <locus locusNew="201r">200r</locus> are notes
+                                    (<name type="person">Vegetius</name>, <name type="person">Laurent</name>. <name
+                                    type="person">Mediolanensis</name>) and verses</ab>
+                        </seg>
+                    </msItem>
+
+
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 12.1.2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

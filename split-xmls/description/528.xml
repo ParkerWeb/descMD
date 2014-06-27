@@ -1,0 +1,138 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC528">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>528</idno>
+                    <altIdentifier type="Elbing">
+                        <idno>N. 30</idno>
+                    </altIdentifier>
+
+                </msIdentifier>
+                <head type="CCC">Nicholas Lucas, Sermons</head>
+                <head type="James">[Untitled]</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">298</height>
+                        <width unit="mm">204</width>
+                    </measureGrp>, <measureGrp type="James">11.8 x 8</measureGrp>, <extent>ff. 428 + slips</extent>,
+                        <layout>double columns of 45, etc. lines</layout>. Cent. <origDate>xv</origDate>, <handNote>in
+                        several hands</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>In quires of 12 leaves normally. A vellum flyleaf at each end</collation>.</p>
+
+                <p function="Provenance"><name type="person">Mary Pernham</name> on f. <locus>3v</locus>.</p>
+                <p function="Binding">Binding as usual. Incised lines on cover, some bosses gone, metal tags (1 on first
+                    cover, 2 on second). Label: Sermones poloni.</p>
+                <p function="Additions">Inside the cover <supplied>(f. <locus>iv</locus>)</supplied>:<lb/> Acta sunt
+                    quedam utilia negocia pro proficuo claustri <name type="place">S. brigitte in Elbing</name>. de
+                    quibusdam bonis datis a m. b. eodem claustro presentibus sacerdotibus ibidem commorantibus. A. d.
+                        <date>m. cccc lxiij</date>
+                    <name type="person">calixti pape</name>.</p>
+                <p function="Additions">On flyleaf <supplied>(f. <locus>1r</locus>)</supplied>:<lb/> In isto libro
+                    habentur sermones dominicales boni per totum annum editi a quodam doctore <name type="person"
+                        >Nicolao luce polono</name>.<lb/> Primus liber (another hand: <name type="person">Schoulero (?)
+                        de elbing</name>).</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i + 1-123 + 123a + 124-128 + 128a + 129-135 + 135a + 136-141 + 141a + 142-147 + 147a
+                        + 148-151 + 151a + 152-153 + 153a + 154-155 + 155a + 156-157 + 157a + 158-163 + 163a + 164-166 +
+                        166a + 167-168 + 168a + 169-172 + 172a + 173-188 + 188a + 189-199 + 199a + 200-209 + 209a +
+                        210-221 + 221a + 222-230 + 230a + 231-234 + 234a + 235-253 + 253a + 254-261 + 261a + 262-279 +
+                        279a + 280-293 + 293a + 294-319 + 319a + 320-332 + 332a + 333-336 + 336a + 337-347 + 347a +
+                        348-253 + 353a + 354-365 + 365a + 366-367 + 367a + 368-397 + 397a + 398-427 +
+                    ii</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="pol">Latin with occasional notes in Polish.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="3r" locusEnd="427v">
+                        <head type="CCC"><name type="author">Nicholas Lucas</name>, <title>Sermons</title></head>
+                        <head type="James">
+                            <title>Sermones <name type="author">Nich. Luce</name></title>
+                        </head>
+                        <incipit locusNew="3r">Reverendo in cristo patri patri ac d<abbr rend="superscript">no</abbr>
+                                d<abbr rend="superscript">no</abbr> dilectissimo ... <name type="person">alberto ...
+                                episcopo posnaniensi</name>
+                            <name type="author">Nicolaus lucas</name> ... rector parochialis ecclesiae in
+                            ganszhowa</incipit>
+                        <ab locusNew="4r">Sermon I</ab>
+                        <incipit locusNew="4r">In illo tempore. Cum appropinquasset ... sic iacet tenor leccionis sancti
+                            ewangelii ut audistis</incipit>
+                        <ab>There are references to <name type="place">Poland</name> in the book</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="424r" locusNew="423r">amplior quam damus ad presens. Ad quam vitam eternam
+                            perducat nos pius dominus qui est benedictus in secula seculorum. Amen. libro completo
+                            saltat scriptor pede leto</explicit>
+                        <ab>On f. <locus locusNew="424v">425v</locus></ab>
+                        <rubric locusNew="424v">Sermo de dedicatione ecclesie</rubric>
+                        <incipit locusNew="424v">Egressus iheseus perambulabat <name type="place">ihericho</name>. Jam
+                            nostris temporibus quasi precipue ceci et claudi</incipit>
+                        <ab locus="427v" locusNew="426v">Ends</ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, SP, CF</p>
+                            <p>msCheck: SP 10/2/09</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

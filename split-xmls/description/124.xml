@@ -1,0 +1,111 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC124">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>124</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Misc. 12</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">John Baret OCarm, Collectanea from the Early Fathers on Tradition</head>
+                <head type="James">Ioh. Barret Collectanea</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">298</height>
+                        <width unit="mm">197</width>
+                    </measureGrp>
+                    <measureGrp type="James">12.8 x 8</measureGrp>, <extent>ff. 153</extent>. Cent.
+                        <origDate>xvi</origDate>. A good many blank pages.</p>
+
+
+                <p function="Additions">A vellum flyleaf at each end from a <origDate>xiii-xiv</origDate>th cent. MS. on
+                    the Sacraments: <layout>double columns</layout>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-iv + 1-47 + 47a + 48-153 + v-vii</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1" locusEnd="152">
+
+
+                        <head type="CCC"><name type="author">John Baret OCarm</name>, <title>Collectanea</title></head>
+
+                        <head type="Nasmith">
+                            <title>Iohannis Barret collectanea quaedam in communes locos digesta ex eruditioribus
+                                celebrioribusque Germanorum protestantium scriptoribus, quibus non modo pie et orthodoxe
+                                in dogmatibus ecclesiasticis sentire sed et cum vere catholicis ac antiquioribus
+                                consentire visi sunt</title>
+                        </head>
+
+                        <ab>added: <q>Collectore Iohanne Barret, theologie D.</q></ab>
+                        <ab>See also <ref type="ms" target="CCC413">MS 413</ref>, <ref type="ms" target="CCC428">MS
+                                428</ref></ab>
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJC 9.10.07</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

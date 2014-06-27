@@ -1,0 +1,378 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC433">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>433</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>G. 10</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>79</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC"> Cluniac Chronicle. Miscellanea </head>
+                <head type="James">Chronica. Miscellanea</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">195</height>
+                        <width unit="mm">149</width>
+                    </measureGrp>, <measureGrp type="James">7.8 x 6</measureGrp>, <extent>ff. 1 + 99 + 1</extent>,
+                        <layout>several volumes</layout>. Cent. <origDate>xiii and xiv</origDate>.</p>
+
+                <p function="Multivolume"><lb/><label>Volume I:</label>
+                    <layout>Double columns of 26 lines</layout>. Cent. <origDate>xiii late</origDate>, <handNote>in
+                        something of a charter hand</handNote>. <lb/><label>Volume II:</label>
+                    <layout>Double columns of 26 lines</layout>, <handNote>black hand</handNote> of cent. <origDate>xiii
+                        early</origDate>; <layout>double columns of 30 lines</layout>. Cent.
+                        <origDate>xiii-xiv</origDate>; <layout>double columns of 31 lines</layout>; inserted on leaves
+                    left blank, <handNote>in a hand of cent. <origDate>xv-xvi</origDate></handNote>, <layout>double
+                        columns of 31 lines</layout>; <layout>38 lines to a page</layout>. Cent.
+                        <origDate>xiv</origDate>. <lb/><label>Volume III:</label>
+                    <layout>32 lines to a page</layout>. Cent. <origDate>xiv ?</origDate>. <lb/><label>Volume
+                        IV:</label>
+                    <layout>Double columns of 44 lines</layout>. Cent. <origDate>xiii late?</origDate>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num>-3<num>8</num> (wants 5-8) || 4<num>6</num> 5<num>8</num>
+                            6<num>6</num> 7<num>6</num> 8<num>8</num> (wants 6-8) || gap || 9<num>8</num> (wants 1, 2)
+                        || 10<num>8</num> | 11<num>6</num> | 12<num>10</num> 13<num>14</num> || 14 (four) | 2
+                        flyleaves</collation>.</p>
+
+
+
+                <p function="Provenance">The book may be from <name type="place">Much Wenlock</name>: see later.</p>
+
+                <p function="Additions">The flyleaves are from a service-book of cent. <origDate>xi</origDate>
+                    <handNote>in a fine round hand</handNote>, the text carefully erased.</p>
+                <p function="Additions">On f. <locus>1v</locus>
+                    <decoNote>in red chalk</decoNote> the name: <name type="person">hare</name>.</p>
+
+                <p function="Additions">On the flyleaves (<origDate>xv-xvi</origDate>):<lb/> a. Ten Commandments in
+                    verse.<lb/> Disce deum colere, etc.<lb/> b. Pallida luna pluit rubea ventum alba serenat nolo caueat
+                    monachos miles. tremo miles. nescio doctus sec. <name type="person">Rolandum brugge</name>
+                    monachum.<lb/> c. De <name type="person">Buildwas Abbas die S. Michaelis</name> de tumba fuit a
+                    visitatoribus suis depositus a. d. <date>m. ccccc. xx</date>. a<abbr rend="superscript">o</abbr> r.
+                    r. <name type="person">Henrici</name> 12.<lb/> Earlier writing has been obliterated from this
+                    flyleaf.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i + 1-99 + ii-iii</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+                    <milestone n="I" unit="volume"/>
+                    <msItem n="1" locusStart="1r" locusEnd="7v">
+                        <head type="CCC">
+                            <name type="author">Pope Nicholas II (?)</name>, <title>Constitutions of the Cluniac
+                                Order</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Constitutiones datae a <name type="person">Nicolao papa</name> ordini
+                                Cluniacensi</title>
+                        </head>
+                        <incipit locus="1r"><name type="person">Nicholaus</name> episcopus seruus, etc. Abbati Clun.
+                            eiusque coabbatibus...Regis pacifici pacis opera diligentis</incipit>
+                        <explicit locusNew="7v">intendere valeamus. Dat. rate secundo Idus Sept. pontif. nostri anno
+                            secundo</explicit>
+                        <ab locus="7v">blank</ab>
+                    </msItem>
+
+                    <msItem n="2" locusStart="8r" locusEnd="20v">
+                        <head type="CCC">
+                            <title>Chronicle 1066-1294</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Chronicon a conquestu ad annum <date>1294</date></title>
+                        </head>
+                        <ab>
+                            <handNote>In a similar but not the same hand</handNote>
+                        </ab>
+                        <incipit locus="8r">Notandum quod ab orbe condito usque aduentum Bretonum in anglia sunt anni
+                                <date>d cccc et xv</date></incipit>
+                        <explicit locusNew="8r">ergo ab origine mundi usque aduentum normannorum in anglia sunt anni vj
+                            cc lxv et est summa totalis</explicit>
+                        <incipit locusNew="8r">Anno ab incarnacione domini <date>m<abbr rend="superscript">o</abbr>
+                                lxvj</date> aduentus normannorum, etc.</incipit>
+                        <ab>In lower margin: <handNote>a very slightly later hand</handNote></ab>
+                        <ab locusNew="8r">
+                            <date>M<abbr rend="superscript">o</abbr> lxi (?)</date> Incepit locus sancte Marie de carit.
+                            Stephani </ab>
+                        <ab>Various added entries concerning Cluniacs and <name type="place">Reading Abbey</name></ab>
+                        <ab locusNew="8v"><date>1088</date>. Ob. dominus <name type="person">Girardus</name> primus
+                            prior de car'</ab>
+                        <ab locusNew="8v"><date>1089</date>. Monachi <name type="person">Bermund'</name> venerunt in
+                            angl.</ab>
+                        <ab locusNew="9r"><date>1110</date> (original). fundata est <name type="place">Abbacia de
+                                Hagemon</name></ab>
+                        <ab locusNew="9r"><date>1121</date>. <name type="person">petrus</name> prior cluniacensis et vii
+                            fratres cum eo rogatu <name type="person">regis H.</name> venerunt apud <name type="place"
+                                >Rading</name></ab>
+                        <ab locusNew="9r"><date>1123</date>. <name type="person">Hugo</name> prior de <name type="place"
+                                >sancto pancratio</name>
+                            <name type="place">Rad'</name> abb. efficitur. <name type="person">petrus</name> prior clun.
+                            redit</ab>
+                        <ab locusNew="9v"><date>1144</date> (original). puer <name type="person">willelmus</name>
+                            crucifixus est a Judeis apud <name type="place">Nortwicum</name></ab>
+                        <ab locusNew="10v"><date>1172</date> (original). Foundation of <name type="place"
+                            >Wigmore</name></ab>
+                        <ab locusNew="11r"><date>1180</date>
+                            <supplied>(original)</supplied>. Transl. of <name type="person">S. Frideswide</name></ab>
+                        <ab locusNew="13v"><date>1234</date> (original). <name type="place">Conuentus de Hagemon</name>
+                            vestierunt nigra capa</ab>
+                        <ab>The succession of Bps of <name type="place">Hereford</name> is specially noted and also
+                            Welsh affairs</ab>
+                        <ab locusNew="16r"><date>1276</date> original. Conbustio <name type="place">eccl. S. Cedde
+                                Salop</name> cum medietate ville</ab>
+                        <ab locusNew="17r"><date>1284</date>. benedictus est <name type="person">Gilbertus de
+                                Campedene</name> in Abbatem de Hagemon</ab>
+                        <ab locusNew="17r"><date>1285</date>. Added: <name type="person">Johannes</name> tunc prior de
+                                <name type="place">Wenlak</name> factus est prior de <name type="place">Lewes</name> cui
+                            successit pater <name type="person">henr. de bono villario</name> tunc prior de <name
+                                type="place">Bermundeseye</name> et intrauit domum suam de <name type="place"
+                                >Wenl.</name> honorifice vigil. S. Nicholai</ab>
+                        <ab>The entries for <date>1293-4</date> are much longer than the rest and are <handNote>in one
+                                or two different hands</handNote></ab>
+                        <ab>Ends</ab>
+                        <explicit locus="20v" locusNew="20r">hoc eciam anno recessit rex Scocie a fidelitate et homagio
+                            domini Regis Anglie Regi ffrancie confederatus</explicit>
+                        <ab>
+                            <ref type="bibl" target="Hardy 1871">Hardy III 243, 246 <q>resembles the Chronicle of
+                                    Wigmore</q> (P. 291)</ref>
+                        </ab>
+                        <ab>There seems to be a primary connexion with <name type="place">Haughmond</name>
+                            (Augustinian): the Cluniac additions would suit <name type="place">Wenlock</name>. Both
+                            these are in <name type="place">Shropshire</name></ab>
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="3" locusStart="21r" locusEnd="53v">
+                        <head type="CCC">
+                            <title>Tract on the seven sacraments</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Tractatus de septem sacramentis</title>
+                        </head>
+                        <incipit locus="21r">Sacramenta ecclesie quot sunt. Septem. que. Baptisma, etc.</incipit>
+                        <explicit locusNew="48r">et eorum immitatione proficiat de die in diem et ad uitam eternam
+                            perueniat. Amen</explicit>
+                        <ab locus="48r">Examination of a penitent</ab>
+                        <incipit locusNew="48r">Frater si peccasti in superbia extollens te corde</incipit>
+                        <explicit locusNew="51r">admoneat preterea ut uitet omnes occasiones peccandi. coreas. ludos.
+                            aleas. et huiusmodi</explicit>
+                        <ab>ff. <locus>51v</locus>-<locus>53v</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="4" locusStart="54r" locusEnd="57r">
+                        <head type="CCC">
+                            <title>De <name type="person">Mauro</name> bubulco</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De <name type="person">Mauro</name> bubulco fabula</title>
+                        </head>
+                        <rubric locus="54r">De <name type="person">mauro</name> bubulco</rubric>
+                        <incipit locusNew="54r">Fertur fuisse quidam rex nobilis potens et diues qui habuit principes
+                            multos. comites. barones. milites. et clientes</incipit>
+                        <ab>Story of bull with golden horns, and the full confession of <name type="person"
+                                >Maurus</name> to the king, followed by moralization, ending</ab>
+                        <explicit locus="57r">per quem celi ardentes soluentur et elementa</explicit>
+                        <ab>Printed by <ref type="bibl" target="Wright 1842a">T. Wright, <hi rend="italic">Latin
+                                    Stories</hi>, Percy Society, vol. VIII, no. 1</ref></ab>
+                        <ab locus="57v">blank</ab>
+                    </msItem>
+
+                    <msItem n="5" locusStart="58r" locusEnd="62v">
+                        <head type="CCC">
+                            <title>Sermon (<q>Quid exiuistis in deserto</q>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sermo in <q>Quid exivistis in deserto</q></title>
+                        </head>
+                        <incipit locus="58r">Quid existis in deserto uidere. <name type="person">Gregorus</name> ait
+                            super <name type="person">Ezechielem</name></incipit>
+                        <explicit locusNew="62v">sequitur effectus gloriosus. prestante domino nostro Ihesu Christo qui
+                            cum patre, etc.</explicit>
+                    </msItem>
+
+                    <msItem n="6" locusStart="62v" locusEnd="68v">
+                        <head type="CCC">
+                            <title>Miracles of St Milburga</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Miracula <name type="person">sanctae Milburgae</name></title>
+                        </head>
+
+                        <rubric locus="62v">Summa cum veneratione salutem dicit plurimam tuus litterarius tirunculus et
+                            novitius</rubric>
+                        <incipit locusNew="62v">Habet in manibus tua iam reuerenda paternitas nostro marte quidem
+                            conscripta <name type="person">milburge</name> sanctissime signorum sanctitatisque quedam
+                            insignia</incipit>
+                        <explicit locusNew="62v">Valeat tua reuerenda paternitas ultra cornices viuax</explicit>
+                        <rubric locusNew="62v">Incipit <name type="person">Sancti Milburge</name> miracula</rubric>
+                        <rubric locusNew="62v">De infante quodam vasculo demerso</rubric>
+                        <incipit locusNew="62v">Quam multos clarissimos suis temporibus</incipit>
+                        <rubric locus="64r">De filio cuiusdam <name type="person">milburge</name> fonte
+                            submerso</rubric>
+                        <rubric locus="65v">De monacho ecclesie cacumine lapso</rubric>
+                        <explicit locusNew="67r">defendat nos ab eterna morte. Amen</explicit>
+                        <ab>At bottom of f. <locus>67r</locus> and at top of f. <locus>67v</locus></ab>
+                        <ab locusNew="67r">per <name type="person">rolandum brug</name> and Hec <name type="person"
+                                >Rolandus brugge</name></ab>
+                        <ab>On f. <locus>67v</locus> the conclusion</ab>
+                        <explicit locus="67v">
+                            <lg>
+                                <l>Hec tibi pater venerande, etc.</l>
+                                <l>Benedictus es domine qui adiuvisti me, etc.</l>
+                                <l>Apertis ut ferunt musarum Ianuis</l>
+                                <l>-paucissimis ut potero rem ipsam expediam</l>
+                            </lg>
+                        </explicit>
+                        <ab locusNew="67v">This last paragraph is the beginning of a new series of miracles or the like,
+                            not written</ab>
+                        <ab>f. <locus>68r</locus>-<locus>68v</locus> blank</ab>
+                        <ab>The compilation is probably by <name type="person">Roland Brugge</name>. <name type="person"
+                                >St Milburga</name> was buried at <name type="place">Wenlock</name></ab>
+                        <ab>Referred to in <ref type="bibl" target="Hardy 1862a">Hardy I 275</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="7" locusStart="69r" locusEnd="71v">
+                        <head type="CCC">
+                            <title>Sermon (<q>Angelus Domini ascendit de Galgala</q>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sermo in <q>Angelus Domini ascendit de Galgala</q></title>
+                        </head>
+                        <ab locusNew="69r">At top, <decoNote>in red</decoNote> (<origDate>xvi</origDate>): Dan <name
+                                type="person">Rolande Brugge</name></ab>
+                        <incipit locusNew="69r">Angelus domini ascendit de galgala Judic. 2. Cum ista sacra sollempnitas
+                            dominice ascensionis</incipit>
+                        <explicit locusNew="71v">continuacio eternitatis ad quam, etc.</explicit>
+                    </msItem>
+
+                    <milestone n="III" unit="volume"/>
+
+                    <msItem n="8" locusStart="72r" locusEnd="73v">
+                        <head type="CCC">
+                            <name type="author">Richard of Saint-Victor OSA</name>, <title>Liber exceptionum, part 2,
+                                book 1, ch. 1-4</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title/>
+                        </head>
+                        <ab locus="72r">Beginning of Allegoriae <name type="author">Petri Comestoris</name></ab>
+                        <incipit locusNew="72r">In precedentibus premissa descriptione originis</incipit>
+                        <ab>(<ref type="bibl" target="Migne 175"><supplied>P. L.</supplied> CLXXV 631 <supplied
+                                    agent="NJC">[633]</supplied></ref>)</ab>
+                        <ab locus="73v">Ends unfinished</ab>
+                    </msItem>
+
+                    <msItem n="9" locusStart="73v" locusEnd="91r">
+                        <head type="CCC">
+                            <name type="author">Innocent III (Lotharius de Segnis)</name>, <title>De miseria humanae
+                                conditionis</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Tractatus domini papae <name type="author">Innocentii III</name>. de contemptu
+                                mundi</title>
+                        </head>
+                        <rubric locus="73v">Incipit tractatus domini pape <name type="author">Innocencii tercii</name>
+                            de contemptu mundi</rubric>
+                        <incipit locusNew="73v">Domino patri ... <name type="person">petro</name> dei gratia portuensi
+                            episcopo <name type="person">lotharius</name>, etc.</incipit>
+                        <incipit locusNew="73v">Quare de uulua</incipit>
+                        <ab>(<ref type="bibl" target="Migne 217"><supplied>P. L.</supplied> CCXVII 701</ref>)</ab>
+                        <explicit locusNew="91r">ardens in secula seculorum. Amen</explicit>
+                    </msItem>
+
+                    <msItem n="10" locusStart="91r" locusEnd="95v">
+
+                        <head type="James">
+                            <title>Exposition of Hymns</title>
+                        </head>
+                        <incipit locusNew="91r">Liber iste dicitur liber ymnorum et ymnus est laus dei</incipit>
+                        <ab locusNew="95r">Ends with Ut queant laxis</ab>
+                        <explicit locusNew="95v">ueniam i. indulgenciam per te redemptis. Amen</explicit>
+                    </msItem>
+
+                    <milestone n="IV" unit="volume"/>
+                    <msItem n="11" locusStart="96r" locusEnd="99v">
+                        <head type="CCC">
+                            <title>Sermons for Rogations, Ascension, Whitsunday, John Baptist, Assumption</title>
+                        </head>
+                        <head type="James">
+                            <title>Fragment of a collection of Sermons</title>
+                        </head>
+                        <ab>Those which remain are for Rogations, Ascension, Whitsunday, John Baptist, Assumption</ab>
+                        <ab>On f. <locus>99r</locus> are two sermons or parts of sermons <handNote>in another
+                                hand</handNote></ab>
+                        <ab locus="99r">1. Vado ad eum qui me misit, etc.</ab>
+                        <ab locus="99r">2. De omnibus sanctis. Legimus in historiis sanctorum patrum fratres mei quad
+                                <name type="person">sanctus bonefacius</name> qui quartus fuit a <name type="person"
+                                >beato gregorio</name></ab>
+
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 15/12/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

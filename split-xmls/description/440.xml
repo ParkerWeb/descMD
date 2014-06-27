@@ -1,0 +1,153 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+
+                <msIdentifier xml:id="CCC440">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>440</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>R. 10</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>163</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Wycliffite Gospels</head>
+
+                <head type="James">Gospels in English</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">191</height>
+                        <width unit="mm">122</width>
+                    </measureGrp><measureGrp type="James">7.4 x 5</measureGrp>, <extent>ff. 2 + 163</extent>,
+                        <layout>double columns of 23 lines</layout>. Cent. <origDate>xv early</origDate>,
+                        <handNote>beautifully written in a noticeably narrow upright hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num>, 1<num>8</num>-20<num>8</num> 21 (three)</collation>.</p>
+
+                <p function="Research">It is <ref type="bibl" target="Forshall and Madden 1850a">no. 117 in Forshall and
+                        Madden</ref>'s list: they date it at about <origDate>1430</origDate>: it is <q>of the later
+                        text</q>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-165 + iii-iv</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="enm">Middle English.</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="163v">
+
+                        <head type="CCC">
+                            <title>Wycliffite Gospels in English</title>
+                        </head>
+
+                        <head type="James">
+                            <title>Gospels in English</title>
+                        </head>
+
+                        <ab locus="ir" locusNew="1r">Table of the Gospels for Sundays</ab>
+                        <ab><locus locusNew="2v">iiv</locus> blank</ab>
+
+                        <ab locus="1r" locusNew="3r">Prologue to <name type="person">Matthew</name></ab>
+                        <incipit locusNew="3r"><name type="person">Matheu</name> &#254;<abbr rend="superscript"
+                                >t</abbr> was of iudee</incipit>
+                        <ab locus="1v" locusNew="3r">Text</ab>
+                        <ab locusNew="3r">
+                            <decoNote>Both have nice initials in gold and colour, and partial borders of
+                                feather-work</decoNote>
+                        </ab>
+
+
+                        <ab locusNew="48v">Mark</ab>
+                        <ab locus="46v" locusNew="48v">Prologue</ab>
+                        <ab locus="47r" locusNew="49r">Text</ab>
+
+
+
+                        <ab locusNew="77v">Luke</ab>
+                        <ab locus="75v" locusNew="77v">Prologue</ab>
+                        <ab locus="76r" locusNew="78r">Text</ab>
+
+
+
+                        <ab locusNew="127r">John</ab>
+                        <ab locus="125r" locusNew="127r">Prologue</ab>
+                        <ab locus="126r" locusNew="128r">Text</ab>
+                        <ab locus="161v" locusNew="163v">Ends</ab>
+
+
+                        <ab>After this in neat capitals of cent. <origDate>xvi</origDate>, partly erased, is: IOHN II LI
+                            stevyng</ab>
+
+
+                        <ab>ff. <locus locusNew="164r">162r</locus>-<locus locusNew="165v">163v</locus> blank</ab>
+
+
+                    </msItem>
+
+
+
+                </msContents>
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text:copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, BA, CF</p>
+                            <p>msCheck: NJC 26.6.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

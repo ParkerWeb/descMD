@@ -1,0 +1,294 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC274">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>274</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>O. 7</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>212</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Ambrose or pseudo-Ambrose, Works on Virginity</head>
+                <head type="James">Ambrosii quaedam</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">264</height>
+                        <width unit="mm">172</width>
+                    </measureGrp><measureGrp type="James">10.4 x 7</measureGrp>, <extent>ff. 154</extent>, <layout>27
+                        lines to a page</layout>. Cent. <origDate>xi</origDate>, <handNote>in a fine <name type="place"
+                            >Christ Church, Canterbury</name>, hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num>-16<num>8</num> 17<num>12</num> 18<num>10</num>
+                    19<num>4</num></collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>ego quoque</secFol>.</p>
+
+                <p function="Provenance">This is from <name type="place">St Augustine's, Canterbury</name> (<ref
+                        type="bibl" target="James 1903"><hi rend="italic">Ancient Libraries</hi>, p. 231, no.
+                    383</ref>), not, as I had thought, from <name type="place">Christ Church</name>, though I have
+                    little doubt it was written there.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i + 1-154 + ii</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="33r">
+
+
+                        <head type="CCC"><name type="author">Ambrose</name>, <title>De uirginibus</title></head>
+
+                        <head type="Nasmith"><name type="author">Beatus Ambrosius</name>
+                            <title>de virginitate</title> libri iii</head>
+
+                        <rubric locus="1r">Incipit Liber primus <name type="author">beati Ambrosii</name> de
+                            virginitate</rubric>
+                        <incipit locusNew="1r">Si iuxta Celestis</incipit>
+                        <ab>(<ref type="bibl" target="Migne 016"><supplied>P. L.</supplied> XVI 187</ref>)</ab>
+                        <ab>(<decoNote>Red, blue and green capitals. Initial very fine, in polychrome, purple, green,
+                                blue, red</decoNote>)</ab>
+                        <ab locus="14r">Liber II, <decoNote>good initial with dragons</decoNote></ab>
+                        <ab locus="23v">Liber III</ab>
+                        <explicit locusNew="33r">quem querebat inuenit</explicit>
+                        <rubric locusNew="33r">Explicit liber III <name type="author">beati Ambrosii</name> de
+                            uirginitate</rubric>
+
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="33r" locusEnd="100v">
+
+
+                        <head type="CCC"><name type="author">Ambrose</name>, <title>De uiduis</title></head>
+
+                        <head type="Nasmith"><name type="author">Beatus Ambrosius</name>
+                            <title>de viduis</title> libri iii</head>
+
+                        <rubric locus="33r">Incipit liber primus <name type="author">beati Ambrosii</name> de
+                            uiduis</rubric>
+                        <incipit locusNew="33r">Bene accidit frater</incipit>
+                        <ab>(<ref type="bibl" target="Migne 016"><supplied>P. L.</supplied> XVI 234</ref>)</ab>
+                        <ab locusNew="33r">
+                            <decoNote>Fine bright initial with men and dragons</decoNote>
+                        </ab>
+                        <ab locus="55r">Liber II, <decoNote>fine initial</decoNote></ab>
+                        <ab locus="80r">Liber III</ab>
+                        <explicit locusNew="100v">seruare digneris</explicit>
+                        <rubric locusNew="100v">Explicit liber tercius <name type="author">beati Ambrosii</name> de
+                            uiduis</rubric>
+
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="100v" locusEnd="108r">
+
+
+                        <head type="CCC"><name type="author">pseudo-Ambrose</name>, <title>De lapsu virginis
+                                consecratae, ch. 1-8</title></head>
+
+                        <head type="Nasmith">
+                            <name type="author">Beatus Ambrosius</name>
+                            <title>de lapsu virginis</title>
+                        </head>
+
+
+                        <rubric locus="100v">Sermo <name type="author">beati Ambrosii</name> de lapsu uirginis</rubric>
+                        <incipit locusNew="100v">Audite qui longe</incipit>
+                        <ab locusNew="100v">
+                            <decoNote>Very fine initial</decoNote>
+                        </ab>
+                        <explicit locusNew="108r">ab ipso quere remedium</explicit>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="108r" locusEnd="109r">
+
+
+                        <head type="CCC"><name type="author">pseudo-Ambrose</name>, <title>De lapsu virginis conscratae,
+                                ch. 9</title></head>
+
+                        <head type="Nasmith">
+                            <name type="author">Beatus Ambrosius</name>
+                            <title>ad corruptorem virginis</title>
+                        </head>
+
+                        <rubric locus="108r">Eiusdem ad corruptorem uirginis </rubric>
+
+                        <incipit locusNew="108r">De te autem quid dicam</incipit>
+                        <explicit locusNew="109r">siue bonum siue malum</explicit>
+
+                    </msItem>
+
+                    <msItem n="5" locusStart="109r" locusEnd="112v">
+
+
+                        <head type="CCC"><name type="author">pseudo-Ambrose</name>, <title>De lapsu virginis
+                                consecratae, ch. 10</title></head>
+
+                        <head type="Nasmith">
+                            <name type="author">Beatus Ambrosius</name>
+                            <title>ad lapsam virginem</title>
+                        </head>
+
+                        <rubric locus="109r">Eiusdem ad lapsam uirginem</rubric>
+                        <incipit locusNew="109r">Quis consoletur te</incipit>
+                        <explicit locusNew="111r">prestari cupio deus qui regnas in trinitate in secula seculorum.
+                            Amen</explicit>
+                        <ab>ff. <locus>111v</locus>, <locus>112r</locus>-<locus>112v</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="6" locusStart="113r" locusEnd="154v">
+
+
+                        <head type="CCC">
+                            <title>Ten vices and their corresponding virtues</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>De superbia, humilitate, cenodoxia, timore Domini, inobedientia, obedientia, invidia,
+                                caritate, ira, patientia, mala tristitia, bona tristitia, philargiria, contemptu mundi,
+                                castrimargia, jejunio et elemosina, multiloquio, et mendacio, taciturnitate, luxuria,
+                                castitate</title>
+                        </head>
+
+                        <rubric locus="113r">De superbia</rubric>
+                        <incipit locusNew="113r">Radix cuncti mali superbia est</incipit>
+                        <rubric locus="115r">De humilitate</rubric>
+                        <incipit locusNew="115r">Quia per superbiam cecidimus</incipit>
+
+
+
+                        <rubric locusNew="116r">
+                            <supplied>De cenodoxia</supplied>
+                        </rubric>
+                        <rubric locusNew="118r">
+                            <supplied>De timore domini</supplied>
+                        </rubric>
+                        <rubric locusNew="119r">
+                            <supplied>De inobedientia</supplied>
+                        </rubric>
+                        <rubric locusNew="120v">
+                            <supplied>De obedientia</supplied>
+                        </rubric>
+                        <rubric locusNew="122r">
+                            <supplied>De inuidia</supplied>
+                        </rubric>
+                        <rubric locusNew="124r">
+                            <supplied>De caritate</supplied>
+                        </rubric>
+                        <rubric locusNew="129r">
+                            <supplied>De ira</supplied>
+                        </rubric>
+                        <rubric locusNew="130v">
+                            <supplied>De patientia</supplied>
+                        </rubric>
+                        <rubric locusNew="134r">
+                            <supplied>De mala tristitia</supplied>
+                        </rubric>
+                        <rubric locusNew="136r">
+                            <supplied>De bona tristitia</supplied>
+                        </rubric>
+                        <rubric locusNew="137r">
+                            <supplied>De philargiria</supplied>
+                        </rubric>
+                        <rubric locusNew="139r">
+                            <supplied>De contemptu mundi</supplied>
+                        </rubric>
+                        <rubric locusNew="142v">
+                            <supplied>De castrimargia</supplied>
+                        </rubric>
+                        <rubric locusNew="144v">
+                            <supplied>De ieiunio et elemosina</supplied>
+                        </rubric>
+                        <rubric locusNew="136v">
+                            <supplied>De multiloquio et mendacio</supplied>
+                        </rubric>
+                        <rubric locusNew="149r">
+                            <supplied>De taciturnitate</supplied>
+                        </rubric>
+                        <rubric locusNew="151r">
+                            <supplied>De luxuria</supplied>
+                        </rubric>
+                        <rubric locusNew="152v">
+                            <supplied>De castitate</supplied>
+                        </rubric>
+
+
+
+                        <ab>Ends</ab>
+                        <explicit locus="154r">quam pro pietate hospitio receperat</explicit>
+                        <ab>This tract is called in the old catalogue <q>quedam sentencie de viciis et
+                            virtutibus</q></ab>
+                        <ab>On f. <locus>154v</locus> later (<origDate>xiv</origDate>): Omnipotens sempiterne deus
+                            ignosce deprecantibus parce metuentibus</ab>
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: RJR August 2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

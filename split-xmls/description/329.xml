@@ -1,0 +1,403 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC329">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>329</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>J. 10</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>100</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">John Bramis, Historia regis Waldei. Chronicle (incarnation to 1415). Geoffrey de
+                    Rocherio OSB, History of Thetford Priory</head>
+                <head type="James">Ioh. Bramis Historia Waldei, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">225</height>
+                        <width unit="mm">155</width>
+                    </measureGrp>, <measureGrp type="James">8.9 x 6.2</measureGrp>, <extent>ff. 4 + 122 + 5</extent>,
+                        <layout>39 and 32 lines to a page</layout>. Cent. <origDate>xv early</origDate>, <handNote>in a
+                        clear rather narrow hand, with good ornaments</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>4</num>, 1<num>8</num> 2<num>10</num> 3<num>10</num> 4<num>8</num> 5<num>10</num>
+                            6<num>8</num> 7<num>10</num> 8<num>10</num> 9<num>8</num> 10<num>10</num>11<num>8</num>
+                            12<num>8</num> 13<num>6</num> | 14<num>8</num> | b<num>6</num> (wants 6)</collation>.</p>
+
+                <p function="Provenance">From the Cluniac priory of <name type="place">Thetford</name> in all
+                    probability: but be it noted that the compiler of art. 5 had considerable interest in the small
+                    priory of <name type="place">Ixworth</name>, not far off.</p>
+
+
+                <p function="Additions">The flyleaves at the beginning are from a well-written Canon Law MS.: they are
+                    folded.</p>
+                <p function="Additions">At top of p. <locus locusNew="9">1r</locus>, <name type="place">glocestre</name>
+                        (<origDate>xv-xvi</origDate>) and some <name type="person">Parker</name>ian notes. pp. <locus
+                        locusNew="9">1r</locus>-<locus locusNew="16">4v</locus> are otherwise blank.</p>
+                <p function="Research">In <ref type="bibl" target="Martin 1739">Martin's <hi rend="italic">History of
+                            Thetford</hi>, p. 282</ref>, is a short notice of the manuscript</p>
+                <p type="CCC">
+                    <foliation>ff. i-v + pp. 9-220 (221-230 missing) + 231-268 + ff. vi-vii</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="eng">Latin and English.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="9" locusEnd="204">
+                        <head type="CCC">
+                            <name type="author">John Bramis</name>, <title>Historia regis Waldei</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Historia Waldei quondam Norfolchiae et Suffolchiae regis eximii de Gallis et Anglis
+                                verbis in Latinum translata</title>
+                        </head>
+
+                        <ab>
+                            <quote>Ex prefatione, <q>Verum si cui forsan libet translatoris agnitionem percipere,
+                                    litteras capitales hujus operis aureas sibillicando perspiciat, quarum a sensu nomen
+                                    ordo vel patria lucide inspicienti versu inveniente patefiet.</q><lb/> Litterae vero
+                                aureae de quibus agitur componunt hunc versum,<lb/>
+                                <q>DE: <name type="place">THETFORD</name>: MONACHUS: <name type="author">BRAMIS</name>:
+                                    EDIDIT: ISTA: <name type="author">IOHANNES</name>.</q><lb/> Historia porro fabulosa,
+                                in qua tempore Britonum frequens Normanniae et Saracenorum mentio</quote>
+                        </ab>
+
+                        <rubric locus="5r" locusNew="17">Incipit prologus super hystoriam Waldei quondam norffolchie
+                            suffolchieque regis eximii de gallicis et anglicis verbis in latinum translatam</rubric>
+                        <incipit locusNew="17">Primitus subsequens regis Waldei filiorumque historia suorum in lingua
+                            anglica metrice composita est. Deinde ad instanciam cuiusdam femine que ipsam penitus
+                            linguam nesciret quam non alio quam amice nomine uoluit indagare a quodam in linguam
+                            gallicam est translata</incipit>
+                        <ab>The first four parts only remained in English</ab>
+                        <explicit locusNew="18">Uerum si cui forsitan libet translatoris agnicionem percipere litteras
+                            capitales huius operis aureas. quas iccirco aureas siue ab aliis coloris alterius posteris
+                            scriptoribus esse deputaui sillibicando perspiciat. quarum a sensu nomen ordo uel patria
+                            lucide inspicienti uersu innuente patefiet. Sed et hoc forsitan vanitas vel presumpcio
+                            spiritus putabitur. Quibus ut verum est dictum vaticinii testimonium valebit forsitan
+                            satisfacere</explicit>
+                        <rubric locusNew="18">Explicit prologus</rubric>
+                        <rubric locus="6r" locusNew="19">Incipiunt capitula libri sequentis</rubric>
+                        <ab>Capitula of the six parts of the work</ab>
+                        <ab locus="8v" locusNew="24">blank</ab>
+                        <ab locus="7r" locusNew="25">(Pars I.)</ab>
+                        <rubric locusNew="25"><name type="person">Castor</name> a <name type="person">Julio
+                                Cesare</name> rex Norff. consti(tutus) castre ciuitatem edificauit. Capitulum
+                            primum</rubric>
+                        <incipit locusNew="25">Tempore illo <name type="person">Iulio quo cesari</name> esset adeptus
+                            plurimumque terrarum</incipit>
+                        <ab locusNew="25">
+                            <decoNote>A very fine border and decorative initial: characteristic English work of the end
+                                of the <origDate>xiv</origDate>th and beginning of the <origDate>xv</origDate>th cent.
+                                The gold is good. There is a good deal of green flourishing of a somewhat peculiar kind
+                                in this and subsequent borders</decoNote>
+                        </ab>
+                        <ab>
+                            <decoNote>Smaller initials are usually blue with good red pen flourishing: but those which
+                                enter into the acrostic are in gold more or less ornamented in other colours. Each Part
+                                has a whole or partial border and fine initial</decoNote>
+                        </ab>
+                        <ab locus="20v" locusNew="48">Pars II</ab>
+                        <ab>cap. 28 is printed by <ref type="bibl" target="Martin 1739">T. Martin, <hi rend="italic"
+                                    >Hist. of Thetford</hi> App. XXXVIII, p. 128</ref></ab>
+                        <ab locus="38v" locusNew="84">Pars III, <decoNote>very fine initial</decoNote></ab>
+                        <ab locus="55r" locusNew="117"><supplied>Pars</supplied> IV</ab>
+                        <ab locus="70v" locusNew="148"><supplied>Pars</supplied> V</ab>
+                        <ab locus="87r" locusNew="181"><supplied>Pars</supplied> VI</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="98v" locusNew="204">Imperauit igitur <name type="person">guyacus</name> super
+                            duo imperia <name type="place">rome</name> viz. et <name type="place">almannie</name> que
+                            omnibus vite sue diebus strenue et insigniter gubernauit. ipsoque defuncto filii sui et
+                            filii filiorum suorum multis postmodum diebus successere. Deo gratias et beate
+                            marie</explicit>
+                        <explicit locusNew="204">ffinit hystoria regis Waldei duorumque filiorum suorum <name
+                                type="person">guyaci</name> et <name type="person">gudlaci</name></explicit>
+                        <ab>Art. 1 has been recently transcribed for <ref type="bibl" target="Imelmann 1912">publication
+                                    <supplied agent="JamesCorrigenda">by Dr Immermann and by Dr
+                            Suchier</supplied></ref></ab>
+
+                    </msItem>
+
+
+
+                    <msItem n="2" locusStart="205" locusEnd="205">
+                        <head type="CCC">
+                            <name type="author">William of Malmesbury OSB</name>, <title>Gesta regum Anglorum (excerpt -
+                                De translationibus episcopatuum <name type="place">Wellens</name>. <name type="place"
+                                    >Cestrens</name>. et <name type="place">Thetford</name>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De translationibus episcopatuum <name type="place">Wellens</name>. <name type="place"
+                                    >Cestrens</name>. et <name type="place">Thetford</name>. [ex <name type="person"
+                                    >Willelmo Malmburiensi</name>]</title>
+                        </head>
+
+                        <rubric locus="99r" locusNew="205">De translacionibus episcopatuum <name type="place"
+                                >Wellen</name>. <name type="place">Cestren</name>. et <name type="place"
+                                >Thetforden</name></rubric>
+                        <incipit locus="99r" locusNew="205">Tres sunt in <name type="place">anglia</name> episcopatus
+                            qui ex antiquis sedibus in alias transierunt</incipit>
+
+                        <explicit locusNew="205">si non vana fides penitencie super ethera tulerunt</explicit>
+                        <ab>From <ref type="bibl" target="Stubbs 1889">Will. Malmesbury <hi rend="italic">Gesta
+                                    Regum</hi> IV, &#167;&#167; 338, 9. Rolls Ed. II 385</ref></ab>
+
+                    </msItem>
+
+
+                    <msItem n="3" locusStart="206" locusEnd="209">
+                        <head type="CCC">
+                            <title>Account of how a new Lady Chapel came to be built at <name type="place">Thetford
+                                    Priory</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Motiva exhortatoria quare capella virginis gloriosae in parte aquilonari monasterii
+                                monachorum <name type="place">Thetford</name>iae per priorem ejusdem loci extiterat
+                                constructa</title>
+                        </head>
+
+                        <rubric locus="99v" locusNew="206">Hec sunt motiua exhortatoria quare capella virginis gloriose
+                            in parte aquilonari monasterii monachorum <name type="place">Thetfordie</name> per Priorem
+                            eiusdem loci extiterat constructa</rubric>
+                        <incipit locus="99v" locusNew="206">Olim dum sedes episcopalis fuerat in ciuitate <name
+                                type="place">Thetfordie</name> predicta in ecclesia parichiali (!) sancte
+                            marie</incipit>
+                        <explicit locusNew="209">ymagini gloriose virginis supradicte deuotissime optulerunt</explicit>
+                        <ab>See <ref type="bibl" target="Blomefield 1805">Blomefield, <hi rend="italic">Norfolk </hi>II
+                                117</ref>. <ref type="bibl" target="Martin 1739">Martin, <hi rend="italic"
+                                >Thetford</hi>, p. 81</ref></ab>
+
+                    </msItem>
+
+
+                    <msItem n="4" locusStart="209" locusEnd="210">
+                        <head type="CCC">
+                            <title>Letter of <name type="person">William of St Mary's 'Merlesham'</name> describing the
+                                finding of a relic in the heel of a statue in <name type="place">Thetford
+                                Priory</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Willelmi</name> ecclesiae S. Mariae de <name
+                                    type="place">Merlesham</name> ministri qualiter sanctae reliquiae in capite
+                                supradictae imaginis repertae ad <name type="place">Thetfordense</name> monasterium
+                                pervenerint</title>
+                        </head>
+                        <rubric locus="101r" locusNew="209">Qualiter sancte reliquie in capite supradicte ymaginis
+                            repperte ad <name type="place">Thetfordense</name> monasterium peruenerunt.
+                            Epistola</rubric>
+                        <incipit locusNew="209">Domino et patri <name type="person">Stephano</name> Thetfordensis
+                            ecclesie procuratori egregio <name type="author">Willelmus</name> ecclesie S. Marie de
+                            Merlesham minister</incipit>
+                        <explicit locusNew="210">in hac ecclesia anniuersarium suum imperpetuum deuote fieri quod est
+                            Idus Octobris</explicit>
+                        <ab>See <ref type="bibl" target="Blomefield 1805">Blomefield, <hi rend="italic">Norfolk</hi> II
+                                117</ref>. <ref type="bibl" target="Martin 1739">Martin, <hi rend="italic"
+                                >Thetford</hi>, p. 84</ref></ab>
+                    </msItem>
+
+
+                    <msItem n="5" locusStart="211" locusEnd="219">
+                        <head type="CCC">
+                            <title>Chronicle of memorable affairs from the incarnation to <date>1399</date></title>
+                        </head>
+                        <head type="James">
+                            <title>Chronicle</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Chronologia rerum memorabilium ab incarnatione verbi ad annum
+                                <date>1399</date></title>
+                        </head>
+
+                        <ab locus="102r" locusNew="211">Chronicle</ab>
+                        <incipit locusNew="211">Scire cupiens quot anni fluxerunt a tempore quo hec subscripta
+                            contigerunt</incipit>
+                        <ab locusNew="211">Anno a creacione mundi iiii m<abbr rend="superscript">l</abbr> lxxxvij<abbr
+                                rend="superscript">o</abbr>
+                            <name type="person">Brutus</name> venit in <name type="place">Angliam</name></ab>
+                        <ab>To Translation of St Thomas <date>1220</date></ab>
+                        <rubric locus="102v" locusNew="212">De prima christianitate missa in angliam</rubric>
+                        <ab>(<name type="person">Lucius</name>)</ab>
+                        <ab locusNew="212">De secunda ... (<name type="person">Germanus</name>)</ab>
+                        <ab locusNew="212">De tercia ... (<name type="person">Gregory</name>)</ab>
+                        <rubric locusNew="212">De institucionibus quorundam (!) religionum</rubric>
+                        <ab>Augustine (<date>402</date>) to <date>1287</date> Austin Friars</ab>
+                        <rubric locus="103r" locusNew="213">Sequitur de vita sanctorum confessorum et
+                            pontificum</rubric>
+                        <ab><name type="person">Nicholas</name>, <name type="person">Martin</name>, <name type="person"
+                                >Silvester</name></ab>
+                        <rubric locusNew="213">De doctoribus ecclesie catholice</rubric>
+                        <ab>The Four Latin Doctors</ab>
+                        <rubric locusNew="213">Sequitur de confessoribus abbatibus et heremitis</rubric>
+                        <ab><name type="person">Paul</name>, <name type="person">Benedict</name>, <name type="person"
+                                >Leonard</name>, etc.</ab>
+                        <rubric locusNew="213">Sequitur de episcopis et confessoribus Anglis</rubric>
+                        <ab><name type="person">Dunstan</name>, <name type="person">Anselm</name>, <name type="person"
+                                >Edward</name>, <name type="person">Edmund C.</name></ab>
+                        <rubric locusNew="213">De <name type="person">Sancto Bernardo</name> et <name type="person"
+                                >Sancto Dominico</name></rubric>
+                        <ab><name type="person">Bede</name> and <name type="person">John of <q>Bryglynton</q></name>
+                                (<date>1382</date>)</ab>
+                        <rubric locusNew="214">De regibus <name type="place">Anglie</name> ante conquestum</rubric>
+                        <ab>(from <name type="person">Arthur</name>)</ab>
+                        <rubric locusNew="214">De regibus Anglie post conquestum</rubric>
+                        <ab>Ends with <date>1415</date></ab>
+                        <explicit locusNew="215">Capta fuit ciuitas <name type="place">areletensis</name> ab <name
+                                type="person">henrico quinto rege Anglie</name></explicit>
+                        <rubric locusNew="216">De preliis per anglicanos et alios commissis</rubric>
+                        <ab locusNew="216">Taking of <name type="place">Jerusalem</name> by <name type="person"
+                                >Titus</name>. The last is <name type="place">Poitiers</name></ab>
+                        <rubric locusNew="217">Construcciones quorundam monasteriorum anglie</rubric>
+                        <ab><name type="place">Glastonbury</name>, <name type="place">Peterborough</name>, <name
+                                type="place">Canterbury</name>, <name type="place">Westminster</name>, <name
+                                type="place">Hulme</name>, <name type="place">St Albans</name>, <name type="place"
+                                >Cluny</name>, <name type="place">Ely</name>, <name type="place">Bury</name> (several
+                            dates), <name type="place">Thetford</name>: <date>1119</date><lb/>
+                            <name type="place">St Osith's</name></ab>
+                        <ab><date>1170 </date>Construccio domus et prioratus de <name type="place">Ixword</name></ab>
+                        <ab><date>1172 </date>Introduccio Canonicorum apud <name type="place">Ixword</name></ab>
+                        <ab><date>1096 </date>Building of <name type="place">Norwich</name> Cathedral</ab>
+                        <rubric locus="105r" locusNew="217">De mirabilibus signis et prodigiis</rubric>
+                        <ab locusNew="218">Under <date>1361</date> are the verses</ab>
+                        <ab locusNew="218">
+                            <lg>
+                                <l>Luce tua maure magnus fuit impetus aure</l>
+                                <l>M. c. ter ventus fui(t) l. monaptata decem</l>
+                            </lg>
+                        </ab>
+                        <ab>The last is <date>1412 </date></ab>
+                        <explicit locusNew="218">in vigilia <name type="person">Sancte Cecilie</name> magnus ventus ...
+                            ac eciam in nocte <name type="person">katherine</name> sequente</explicit>
+                        <ab locus="106r" locusNew="219">A. d. mill<abbr rend="superscript">mo</abbr> ccc<abbr
+                                rend="superscript">o</abbr> xc ix<abbr rend="superscript">o</abbr> pro isto anno in
+                            datum presens</ab>
+                        <ab locusNew="219">Anno ab origine mundi vi m<abbr rend="superscript">o</abbr> D<abbr
+                                rend="superscript">o</abbr> xc<abbr rend="superscript">o</abbr> ix<abbr
+                                rend="superscript">o</abbr></ab>
+                        <ab locusNew="219">Anno a passione <name type="person">Sancti Edmundi</name></ab>
+                        <ab locusNew="219">ab introduccione in <name type="person">Sanctum Edmundum</name></ab>
+                        <ab locusNew="219">Anno a construxione domus de <name type="place">Ixword</name> cc x<abbr
+                                rend="superscript">o</abbr></ab>
+                        <ab locusNew="219">ab insurrectione communitatis xix<abbr rend="superscript">o</abbr></ab>
+                        <ab locusNew="219">Pontificatus <name type="person">pape Bonifacii quarti</name> x<abbr
+                                rend="superscript">o</abbr></ab>
+                        <ab>(no reference to <name type="place">Thetford</name>)</ab>
+                        <ab>
+                            <supplied>pp. 220-229 missing</supplied>
+                        </ab>
+
+                    </msItem>
+
+
+                    <msItem n="6" locusStart="230" locusEnd="267">
+                        <head type="CCC">
+                            <name type="author">Geoffrey de Rocherio OSB</name>, <title>History of <name type="place"
+                                    >Thetford Priory</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Historia cenobii <name type="place">Thetfordensis</name> per <name type="author"
+                                    >Gaufredum</name> ejusdem loci monachum</title>
+                        </head>
+
+                        <ab locus="106v" locusNew="230">No title, and <handNote>different script</handNote></ab>
+                        <incipit locusNew="230">Fratribus commanentibus in <name type="place">Thetfordensi</name>
+                            ecclesia cuius protectrix extat virgo Maria vester <name type="author">Gaufredus</name>
+                            eiusdem virginis filio</incipit>
+                        <explicit locusNew="230">quantum sapio quantum capio hoc modo enarrat mea deuocio</explicit>
+                        <incipit locusNew="230">Anno ab incarnacione domini mill<abbr rend="superscript">mo</abbr>
+                                c<abbr rend="superscript">o</abbr> iiii<abbr rend="superscript">o</abbr> a passione
+                                <name type="person">Sancti Edmundi</name> regis et martyris cc<abbr rend="superscript"
+                                >o</abbr> xxxiiii<abbr rend="superscript">o</abbr></incipit>
+                        <ab locus="109v" locusNew="236">Unfinished, ending</ab>
+                        <explicit locusNew="236">Quod episcopus cum ira magna se facere negauit. Tunc prior ex parte dei
+                            et beate marie</explicit>
+                        <ab>Printed: <ref type="bibl" target="Dugdale et al 1846e"><hi rend="italic">Monasticon</hi> V
+                                151</ref>. By Geoffrey de Rocherio. <ref type="bibl" target="Martin 1739">Martin's <hi
+                                    rend="italic">Thetford</hi>, App. VI, p. 29</ref></ab>
+                        <ab>pp. <locus locusNew="237">110</locus>-<locus locusNew="246">114</locus> are ruled but blank.
+                                <locus locusNew="247">115</locus>-<locus locusNew="262">122</locus> entirely blank</ab>
+                        <ab locus="110v" locusNew="238">On this page is the mark and signature of <name type="person">F.
+                                Blomefield</name>, who uses this MS. in his <ref type="bibl" target="Blomefield 1806"
+                                >history of <name type="place">Norfolk</name></ref></ab>
+                        <ab>At the end are 5 flyleaves <supplied>(pp. <locus>263</locus>-<locus>268</locus>)</supplied>,
+                            bits of a roughly written account roll of <date>35-36 <name type="person">Edward
+                                III</name></date></ab>
+                        <ab locusNew="236">On the last page, the name ffr. <name type="person">Wyll<abbr
+                                    rend="superscript">mus</abbr> Weting</name> and a rhyme</ab>
+                        <ab>
+                            <lg>
+                                <l>Summa totalis</l>
+                                <l>Nescio que qualis</l>
+                                <l>Sed si sit tanta</l>
+                                <l>Est que qualis quanta</l>
+                                <l>Aff uel negatyve</l>
+                                <l>I cannat contryve</l>
+                                <l>Utrum partycular</l>
+                                <l>nescio vel syngular</l>
+                                <l>vel indeffinita</l>
+                                <l>Scio non. Ita</l>
+                            </lg>
+                        </ab>
+
+
+
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 9/12/2008</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

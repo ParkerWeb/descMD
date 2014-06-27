@@ -1,0 +1,195 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC016I">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>16I</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>C. 5</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>25</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Matthew Paris OSB, Chronica maiora II</head>
+
+                <head type="James">Matthaei Paris Chronica Maiora II</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">358</height>
+                        <width unit="mm">244</width>
+                    </measureGrp>
+                    <measureGrp type="James">14.2 x 9.6</measureGrp>, <extent>ff. 5 + 281</extent>, <supplied>(now bound
+                        in two parts)</supplied>, <layout>double columns of 56 and 52 lines</layout>. Cent.
+                        <origDate>xiii</origDate>, <handNote>in four(?) hands</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>6?</num> (wants 6) | I<num>10</num> (wanting 4-7, which are replaced by 7 leaves (6
+                        + 1) inserted by Parker, with about 44 lines to a page) II<num>10</num> (1 replaced by 2 leaves
+                        in the second hand) III<num>10</num> IV<num>12</num> (+ 1 after 2nd and a half-leaf after 7th)
+                            V<num>12</num> VI<num>14</num> (or 12 + 2: in two hands, the second beginning art the 5th
+                        leaf) VII<num>16</num> (+1) VIII<num>14</num> IX<num>12</num> (wants 1; no number on last leaf)
+                            X<num>8 + 1</num> (originally 8, 2nd leaf replaced by two) XI<num>12</num> XII<num>14</num>
+                            XIII<num>12</num> XIV<num>12</num> (+ 1: the quire is numbered XXVII) XIIII<num>8</num> (+1)
+                        XV (eight leaves, but 1 is alone, 2 is alone, 3, 4 are one sheet, 5-8 a quire of 4) XVI (23
+                        leaves: first 4 leaves: then leaves numbered I-XIII, partly a quire of 10: then 6 leaves (2-3
+                        forming a pair)) XVII<num>12</num> (12 canc.?) XVIII<num>10</num> (1-4, 7-10 original: 5-6 a
+                        pair inserted by Parker) XIX<num>8</num> XX<num>12</num> (or 10 + 2) XXI<num>12</num> (not
+                        numbered) XXII (twelve leaves, misbound, a leaf lost at the end)</collation>.</p>
+
+
+
+
+                <p function="Provenance" rend="afterContents">This volume appears to have been in the hands of <name
+                        type="person">Robert Talbot</name> prebendary of <name type="place">Norwich</name>
+                        (<date>1547</date>-<date>1558</date>) who has written a note on f. <locus locusNew="248v"
+                        >245r</locus>. It afterwards belonged to Sir <name type="person">Henry Sidney</name>, K.G., from
+                    whom <name type="person">Parker</name> borrowed it.</p>
+
+
+
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-v + c-d</foliation>.</p>
+
+
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="frm">Latin and Anglo-Norman.</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="ir" locusEnd="vv">
+
+                        <head type="CCC"><name type="author">Matthew Paris OSB</name>, <title>Chronica maiora II
+                                (preliminary matter)</title></head>
+
+
+                        <seg>
+                            <ab>The preliminary matter is</ab>
+                            <ab locus="ir">a. Nomina Regum antiquorum et modernorum from <name type="person">Ina</name>
+                                to <name type="person">Henry III</name>: continued to <name type="person"
+                                    >Elizabeth</name>: with the durations of the reigns </ab>
+                            <ab locus="iv">b. Diagram of the winds with verses as in <ref type="ms" target="CCC026">MS
+                                    26</ref>, but larger. Cf. <ref type="ms" target="LBLND1">Nero D. I 184r, 184v</ref>,
+                                and <ref type="ms" target="LBLJD7">Julius D. VII f. 51v</ref></ab>
+                            <ab locus="iir" locusNew="iiir">c. Fragments of Itinerary </ab>
+                            <ab locus="iiir" locusNew="vr">d. Genealogia orbiculata from <name type="person"
+                                    >Alfred</name> to the children of <name type="person">Henry III</name>, mutilated:
+                                briefer than that in <ref type="ms" target="CCC026">MS 26</ref>
+                            </ab>
+                            <ab locus="iv" locusNew="iir">e. Drawing of the elephant, see below </ab>
+                            <ab locus="vv" locusNew="ivv">f. Map of <name type="place">Britain</name>, see below </ab>
+                        </seg>
+
+                        <seg>
+                            <ab>Illustrations</ab>
+
+
+                            <ab locus="ir">
+                                <decoNote>List of kings</decoNote>
+                            </ab>
+
+                            <ab locus="iv"><decoNote>Diagram of winds</decoNote> etc.</ab>
+                            <ab locus="iir" locusNew="iiir">
+                                <decoNote>Fragment of Itinerary with pictures of cities</decoNote>
+                            </ab>
+                            <ab locus="iiv" locusNew="iiiv">
+                                <decoNote>Map of <name type="place">Holy Land</name> (fragment) with man leading
+                                    camel</decoNote>
+                            </ab>
+                            <ab locus="iiir" locusNew="vr">
+                                <decoNote>Genealogy. Medallion of <name type="person">Alfred</name> seated, and man
+                                    kneeling to him</decoNote>
+                            </ab>
+                            <ab locus="iiiv" locusNew="vv">
+                                <decoNote>Genealogy. Medallion of <name type="person">William I</name>, in cap, with
+                                    sword and shield</decoNote>
+                            </ab>
+                            <ab locus="ivr" locusNew="iir"><decoNote>The elephant and his keeper</decoNote>, sent by
+                                    <name type="person">Louis IX</name> to <name type="person">Henry III</name> in
+                                    <date>1255</date>. Other drawings are in <ref type="ms" target="LBLND1">Nero D. I f.
+                                    161v</ref>, and <ref type="ms" target="LBLJD7">Julius D. VII f. 114r</ref>. This one
+                                is reproduced in <ref type="bibl" target="Hardy 1871">Hardy Catalogue III, pl.
+                                xvi</ref></ab>
+                            <ab locus="vr" locusNew="ivr">
+                                <decoNote>Fragment of Itinerary: with crocodile and cities represented</decoNote>
+                            </ab>
+                            <ab locus="vr" locusNew="ivv"><decoNote>Part of map of <name type="place"
+                                    >Britain</name></decoNote>, badly engraved by <ref type="bibl" target="Gough 1780"
+                                    >Gough, <hi rend="italic">Brit. Topogr.</hi> I, pl. iii, fig. 3, and p.
+                                64</ref></ab>
+                        </seg>
+
+
+                    </msItem>
+
+
+
+
+
+                </msContents>
+
+
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, CF 2nd</p>
+                            <p>msCheck: NJC + CF 16.5.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

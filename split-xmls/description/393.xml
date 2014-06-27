@@ -1,0 +1,326 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC393">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>393</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>I. 13</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>103</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Historia Eliensis</head>
+                <head type="James">Historia Eliensis</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">220</height>
+                        <width unit="mm">150</width>
+                    </measureGrp><measureGrp type="James">8.8 x 6</measureGrp>, <extent>ff. 1 + 82 + 1</extent>,
+                        <layout>24 lines to a page</layout>. Cent. <origDate>xii</origDate>, <handNote>in a very
+                        beautiful clear upright round hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf , 1<num>8</num>-3<num>8</num> 4<num>10</num> (misbound)
+                            5<num>8</num>-8<num>8</num> 9<num>10</num> 10<num>8</num> (wants 7, 8), 1
+                        flyleaf</collation>.</p>
+
+                <p function="Provenance">From <name type="place">Ely Priory</name>. On the R. margin of f.
+                        <locus>1r</locus> is the <name type="place">Ely</name> mark erased. The lower edge of the leaf
+                    has been cut off. On f. <locus locusNew="81v">82v</locus> below the text is an erased inscription:
+                    iste liber pertinet <name type="place">ecclesie de ely</name>.</p>
+
+                <p function="Additions">On f. <locus>iv</locus> old title: de vita <name type="person">S.
+                        Erkengote</name> et de vita <name type="person">S. Etheldrede</name>, etc. The lines: Hec sunt
+                    helye, etc. in a hand of cent. <origDate>xv</origDate>. Date of <name type="person"
+                    >Augustine</name>'s coming (<origDate>xv</origDate>).</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a + i + 1-82 + ii + b</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="33v">
+                        <head type="CCC">
+                            <title>Vita et miracula beatae <name type="person">&#198;thelthrythae</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Vita et miracula beatae Etheldrithae</title>
+                        </head>
+
+                        <ab locusNew="1r">
+                            <decoNote>Large and fine initial in colour, with yellow-brown ground</decoNote>
+                        </ab>
+                        <incipit locus="1r">Anno ab incarnatione dominica <date>DC xvi</date> qui est annus uigesimus
+                            primus ex quo <name type="person">augustinus</name></incipit>
+                        <explicit locusNew="2v">in magna gloria solet celebrari die nonarum iuliarum</explicit>
+                        <incipit locus="3r">Beata et gloriosa uirgo <name type="person">Aetheldritha</name> utriusque
+                            titulo nobilitatis insignita</incipit>
+                        <ab>(not in <ref type="bibl" target="Bollandists 1898-99">BHL</ref>)</ab>
+                        <ab locusNew="3r">
+                            <decoNote>Fine initial with blue ground</decoNote>
+                        </ab>
+                        <explicit locusNew="33v">referens cunctis audire uolentibus omnia que ei contigerunt</explicit>
+
+                    </msItem>
+                    <msItem n="2" locusStart="33v" locusEnd="58v">
+                        <head type="CCC">
+                            <name type="author">Gregory of Ely OSB</name>, <title>Vita et miracula <name type="person"
+                                    >Sanctae Etheldredae</name> metrice</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Vita et gesta ejusdem per <name type="author">Gregorium Eliensem monachum</name>
+                                versifice composita</title>
+                        </head>
+
+                        <rubric locusNew="33v">Incipit prologus in libellum de uita et gestis <name type="person">Beate
+                                ÆÐELÐREÐE</name> uirginis quem uersifice composuit <name type="author">Gregorius
+                                Eliensis monachus</name>
+                        </rubric>
+
+                        <incipit locusNew="34r">Qui <name type="person">iouis</name> ardores rapti <name type="person"
+                                >ganimedis</name> amores</incipit>
+                        <ab locusNew="34r">
+                            <decoNote>Handsome blue initial</decoNote>
+                        </ab>
+
+                        <explicit locusNew="34r">Ut rosa pulchra rubens ut lilia florida candens</explicit>
+                        <rubric locusNew="34v">Explicit prologus</rubric>
+                        <rubric locus="34v">Incipit liber primus de uita et obitu <name type="person">Beate
+                                Æðeldriðe</name> Uirginis et anglorum regine</rubric>
+
+
+                        <incipit locusNew="34v">
+                            <lg>
+                                <l>Celum sideribus decoratur. lumine. phebus </l>
+                                <l>Autunnus pomis. uer floribus. uua racemis</l>
+                            </lg>
+                        </incipit>
+                        <explicit locusNew="39v">Effectumque rei sic ELGE dicimus <name type="place"
+                            >ely</name></explicit>
+                        <rubric locusNew="39v">Explicit Vita <name type="person">Sancte Æðeldriðe</name>
+                            Virginis</rubric>
+                        <rubric locusNew="42r">Incipit prologus in librum II de miraculis eiusdem</rubric>
+                        <incipit locus="42r">Scribere uirtutum uirgo sacra gesta tuarum</incipit>
+                        <rubric locusNew="42r">Capitula libri secundi</rubric>
+                        <incipit locusNew="42r">De statu <name type="place">anglie</name>, etc.</incipit>
+
+                        <ab>Text</ab>
+                        <incipit locus="42v">Postquam deuicto mundo pariterque relicto</incipit>
+                        <explicit locusNew="50r">Que bis nupsisti dotem geminam meruisti</explicit>
+                        <ab>Epilogue to liber II or Prologue to liber III</ab>
+                        <incipit locus="50v">Virgo uirgineas utinam te uirgine dignas</incipit>
+
+                        <explicit locusNew="50v">Tertius expressit nostro que tempore gessit</explicit>
+                        <ab locus="50v">Capitula, unfinished</ab>
+                        <ab>Text</ab>
+                        <incipit locus="51r">Anglorum populis diuersa sorte minutis</incipit>
+                        <ab>Ends unfinished</ab>
+
+                        <explicit locus="55r">Virginis ut meritum testantia nobile factum</explicit>
+                        <ab>(Of the prisoner <name type="person">Brithstanus</name> delivered)</ab>
+                        <ab>ff. <locus>55v</locus>-<locus>58v</locus> blank</ab>
+                        <ab><ref type="bibl" target="Hardy 1862a">Hardy I 280</ref>. <ref type="bibl"
+                                target="Bollandists 1898-99">BHL. 2639</ref></ab>
+                    </msItem>
+                    <msItem n="3" locusStart="39v" locusEnd="41v">
+                        <head type="CCC">
+                            <title>Description of the Isle of Ely</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Descriptio situs <name type="place">Eliensis insulae</name> et de quibusdam ejusdem
+                                insulae proprietatibus</title>
+                        </head>
+
+                        <ab>
+                            <quote>(ut opinor ejusdem autoris)</quote>
+                        </ab>
+
+                        <rubric locusNew="39v">Incipit Descriptio situs <name type="place">eliensis insule</name> et de
+                            quibusdam insule proprietatibus</rubric>
+                        <incipit locus="39v" locusNew="40r">Iam locus atque loci tanto splendore decori</incipit>
+                        <rubric locusNew="41v">Epilogus primi libri</rubric>
+                        <ab>ending</ab>
+                        <explicit locus="41v">Fructum centenum cumulans tibi fenore plenum</explicit>
+
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="59r" locusEnd="69r">
+                        <head type="CCC">
+                            <title>Vita <name type="person">Sanctae Wihtburgae</name> virginis</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Vita <name type="person">Beatae Withburgae</name> sororis <name type="person">Beatae
+                                    Ætheldrithae</name>
+                            </title>
+                        </head>
+                        <ab>
+                            <quote> In protocollo (f. <locus>iv</locus>), <lg>
+                                    <l>haec sunt <name type="place">Helye</name> lanterna capella <name type="person"
+                                            >Mariae</name>
+                                    </l>
+                                    <l>astque molendinum multum dans vinea vinum </l>
+                                    <l>continet insontes quos vallant undique pontes </l>
+                                    <l>hos ditant montes nec desunt flumina fontes </l>
+                                </lg></quote>
+
+                        </ab>
+                        <ab>
+                            <quote>(<ref type="bibl" target="Wharton 1691a">Wharton, <hi rend="italic">Anglia Sacra</hi>
+                                    I. 592</ref>)</quote>
+                        </ab>
+                        <ab>Later heading</ab>
+                        <rubric locusNew="59r">De <name type="person">Sancta Wythburga</name> sorore <name type="person"
+                                >Sancte Ætheldrede</name> virginis</rubric>
+                        <rubric locusNew="59r">Prohemium in vita <name type="person">Sancte Wihtburge</name>
+                            virginis</rubric>
+                        <incipit locus="59r">Orientale orientalium anglorum sidus</incipit>
+                        <ab locusNew="59r">
+                            <decoNote> Good initial, <name type="person">Withburga</name> nimbed, throned, holding
+                                flowering branch and crown. Drapery outlined with green and blue. Ground,
+                                blue</decoNote>
+                        </ab>
+                        <explicit locusNew="59v">nec sensus sufficiat nec lingua nec manus</explicit>
+                        <rubric locusNew="59v">Vita eiusdem</rubric>
+                        <incipit locus="59v">Filia et aurora lucis etheree nata regaliter</incipit>
+                        <explicit locusNew="69r">diem quo incorrupto ostensa est corpore</explicit>
+
+                        <ab><ref type="bibl" target="Hardy 1862a">Hardy I 469</ref>. Mostly abridged from the text in
+                                <ref type="ms" target="CTC105">Trinity O. 2. 1</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="5" locusStart="69r" locusEnd="71v">
+                        <head type="CCC">
+                            <name type="author">Goscelin of Saint-Bertin</name>, <title>Lectiones in festiuitate <name
+                                    type="person">Sanctae Sexburgae</name></title>
+                        </head>
+                        <head type="James">
+                            <title>In festivitate <name type="person">Sancte Sexburge</name>
+                            </title>
+                        </head>
+
+                        <incipit locus="69r">Regum proles et regum parens</incipit>
+                        <explicit locusNew="71v">testatur se posidere cum Christo regna celestia ipso prestante qui cum
+                            patre et spiritu sancto regnat in eterna secula</explicit>
+
+                        <ab><ref type="bibl" target="Hardy 1862a">Hardy I 361</ref> mentions the same text as in <ref
+                                type="ms" target="LBLCA8">Caligula A. 8</ref>, but does not mention this copy</ab>
+
+                    </msItem>
+
+                    <msItem n="6" locusStart="71v" locusEnd="75r">
+                        <head type="CCC">
+                            <name type="author">Goscelin of Saint-Bertin</name>, <title>Lectiones in natale <name
+                                    type="person">Sanctae Eormenhilde</name></title>
+                        </head>
+                        <head type="James">
+                            <title>In natale <name type="person">Sancte Eormenilde</name></title>
+                        </head>
+
+                        <incipit locusNew="71v">De beata et deo digna <name type="person">Eormenilda</name> eadem fere
+                            recensemus</incipit>
+                        <ab>Ends</ab>
+                        <explicit locusNew="75r">consortio perfruamur largiente ipso domino saluatore nostro qui omnium
+                            seculorum dominatur cum deo patre et spiritus Sancto. Amen</explicit>
+                        <ab><ref type="bibl" target="Hardy 1862a">Hardy I 368</ref>. Also in <ref type="ms"
+                                target="LBLCA8">Caligula A. 8</ref> and <ref type="ms" target="CTC105">Trinity College
+                                O. 2. 1</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="7" locusStart="75r" locusEnd="iir">
+                        <head type="CCC">
+                            <name type="author">Goscelin of Saint-Bertin</name>, <title>Vita <name type="person">Sanctae
+                                    Werburgae</name></title>
+                        </head>
+                        <head type="James">
+                            <title>Vita <name type="person">Sancte Werburge</name> virginis</title>
+                        </head>
+                        <incipit locus="75r">Filia regum et sponsa Christi decentissima</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="82v" locusNew="81v">annuat inquam ipse saluator qui cum patre et spiritus
+                            Sancto in omnia secula regnat et dominatur. Amen</explicit>
+                        <ab>By <name type="person">Goscelin</name> (?). <ref type="bibl" target="Hardy 1862a">Hardy I
+                                421</ref>, who does not mention this copy. Also in <ref type="ms" target="LBLCA8"
+                                >Caligula A. 8</ref>, <ref type="bibl" target="Bollandus and Henschenius 1658">Acta
+                                Sanctorum 3 Feb. (I 386)</ref></ab>
+
+                        <ab locusNew="iir">On the flyleaf is a note (<origDate>xiv?</origDate>)</ab>
+                        <ab locusNew="iir">
+                            <q><name type="person">Erconbertus</name> et <name type="person">sexburga</name>. <name
+                                    type="person">Dux tonbertus</name>. <name type="person">Sancta Etheldreda</name>.
+                                    <name type="person">Rex Egfrid</name>. <name type="person">Sancta Withburga</name>.
+                                    <name type="person">Rex Wlferus</name>. <name type="person">Sancta Ermenilda</name>.
+                                    <name type="person">Sanctus Petrus</name>
+                                <name type="person">Sanctus Benedictus</name></q>
+                        </ab>
+                        <ab>Perhaps this is a list of figures on a shrine or painting</ab>
+                        <ab locusNew="iir">
+                            <decoNote>A rough pencil sketch of a church and a very faint inscription in old
+                                pencil</decoNote>
+                        </ab>
+                    </msItem>
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: NJC 9/12/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

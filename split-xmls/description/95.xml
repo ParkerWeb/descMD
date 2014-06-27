@@ -1,0 +1,181 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+
+                <msIdentifier xml:id="CCC095">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>95</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>C. 8</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>29</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">William of Tyre, Historia rerum in partibus transmarinis gestarum. Arnold of Liège OP,
+                    Alphabetum narrationum</head>
+
+                <head type="James">Gulielmus Tyrensis. Alphabetum Narrationum</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">360</height>
+                        <width unit="mm">250</width>
+                    </measureGrp><measureGrp type="James">14.5 x 10</measureGrp>, <extent>ff. 197 + 12</extent>,
+                        <layout>double columns of 53 lines</layout>. Cent. <origDate>xiv</origDate>, <handNote>clearly
+                        written</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, a<num>12</num> (wants 1, 2) 1<num>8</num>-24<num>8</num> 25<num>6</num> (wants
+                        6)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>suppeterent</secFol>.</p>
+
+                <p function="Additions">A late title (<origDate>xvi early?</origDate>) on flyleaf.<lb/> Quire a is from
+                    a MS. of cent. <origDate>xiv early</origDate> in double columns containing Articuli 28-31 of a
+                    scholastic treatise.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-xi + 1-197 + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="138r">
+
+
+                        <head type="CCC"><name type="author">William of Tyre</name>, <title>Historia rerum in partibus
+                                transmarinis gestarum</title></head>
+
+                        <head type="James">
+                            <name type="author">Gulielmus Tyrensis</name>
+                        </head>
+
+
+                        <rubric locus="1r"><name type="author">Willelmus</name> domini paciencia sancte Tyrensis
+                            ecclesie minister indignus uenerabilibus in Christo fratribus ad quos presens peruenerit
+                            eternam in domino salutem</rubric>
+                        <incipit locusNew="1r">Periculosum esse et grandi plenum alea</incipit>
+                        <explicit locus="1v">non immerito formidamus</explicit>
+                        <ab locus="1v">Capitula</ab>
+                        <ab>Text</ab>
+                        <incipit locus="1v">Docent ueteres historie</incipit>
+                        <ab>Liber xx ends with list of sees</ab>
+
+                        <explicit locus="138r"><name type="place">Affra</name>. <name type="place">helis</name>. <name
+                                type="place">ffaran</name>. <name type="place">helenopolis</name>. <name type="place"
+                                >mons syna</name></explicit>
+
+                        <ab>See <ref type="bibl" target="Tobler and Molinier 1879">Tobler and Molinier, Itinera</ref>,
+                            p. 331</ab>
+                        <ab>Text in <ref type="bibl" target="Bongars 1611b">Bongars, Gesta Dei per Francos II</ref>,
+                            etc.</ab>
+
+                    </msItem>
+
+
+
+                    <msItem n="2" locusStart="138r" locusEnd="196r">
+
+
+                        <head type="CCC">
+                            <name type="author">Arnold of Liège OP</name>, <title>Alphabetum narrationum</title>
+                        </head>
+
+                        <head type="James">
+                            <title>Alphabetum Narrationum</title>
+                        </head>
+
+
+
+                        <ab>(Anon., another copy in <ref type="ms" target="OUC067">University College, Oxford, no.
+                                67</ref>)</ab>
+                        <incipit locus="138r">Antiquorum patrum exemplo didici nonnullos ad uirtutes fuisse inductos
+                            narracionibus</incipit>
+                        <explicit locusNew="138r">audiciones audiencium ad eorum utilitatem et omnipotentis dei laudem
+                            et honorem qui est benedictus in secula seculorum. amen</explicit>
+                        <incipit locus="138r">Abbas. abbas non debet esse nimis rigidus. <name type="person"
+                                >Anselmus</name>. Quidam abbas senilis conferebat, etc.</incipit>
+                        <ab>Ends with Zelus</ab>
+                        <explicit locus="196r">habita modica occasione. supra de uxore ii</explicit>
+                        <rubric locus="196r">Explicit</rubric>
+                        <ab>A note or two added</ab>
+                        <ab><locus>196v</locus> blank</ab>
+                        <ab><locus>197r</locus> is a slip. On it <q>for &#254;e costes of this book xxx</q></ab>
+
+
+                    </msItem>
+
+
+
+
+
+                </msContents>
+
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text:copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, CF 2nd</p>
+                            <p>msCheck: NJC 30.05.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

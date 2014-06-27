@@ -1,0 +1,137 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+
+                <msIdentifier xml:id="CCC282">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>282</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>R. 6</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>159</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Robert de Gretham, The Mirror</head>
+
+                <head type="James">The Mirror</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">260</height>
+                        <width unit="mm">190</width>
+                    </measureGrp><measureGrp type="James">10.3 x 7.9</measureGrp>, <extent>ff. 1 + 139</extent>,
+                        <layout>double columns of 44 lines</layout>. Cent. <origDate>xiv late</origDate>,
+                        <handNote>clearly written</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, a<num>8</num> (wants 1, 8) b<num>8</num>-s<num>8</num> (wants
+                    6-8)</collation>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + pp.1-146 + 146a-b + 147-278 + ff. iii-iv</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="enm" otherLangs="lat">Middle English with occasional Latin phrases</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="3" locusEnd="278">
+
+                        <head type="CCC">
+                            <name type="author">Robert de Gretham</name>, <title>The Mirror</title>
+                        </head>
+
+                        <head type="James">
+                            <title>The Mirror</title>
+                        </head>
+
+                        <ab>The Mirror. A collection of Sermons</ab>
+                        <ab locus="3">Begins imperfectly in the prologue</ab>
+                        <ab locusNew="3">prolonge ende&#254;. nou loke&#254; in &#254;e mirour</ab>
+                        <ab>The next paragraph</ab>
+                        <incipit locusNew="3">Holi writ ha&#254; a liknesse to tre &#254;at bere&#254; noote
+                            o&#254;er appel</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="9">for to amenden hem. as &#541;e schulle se in &#254;es mirour. He
+                            &#541;eue &#541;ou grace, etc. wi&#254; him &#254;at is on in trinite.
+                            Amen</explicit>
+                        <rubric locusNew="9">&#222;e firste Sunday of &#254;e aduent of our lord</rubric>
+                        <incipit locusNew="9">Cum appropinquasset, etc. Ihesus come ner a citee &#254;at is cleped
+                                <name type="place">Jerosol</name></incipit>
+                        <ab>After Dominica 25, we have</ab>
+                        <rubric locus="221">Of our lady in &#254;e aduent</rubric>
+                        <rubric locus="243">In makyng mynde of apostoles</rubric>
+                        <rubric locus="252">In &#254;e comune of on martir</rubric>
+                        <rubric locus="260"><supplied>In comune</supplied> of mani martirs</rubric>
+                        <rubric locus="270"><supplied>In &#254;e comune</supplied> of on confessour</rubric>
+                        <ab>(In the <ref type="ms" target="CMC498">Pepys MS. (2498)</ref> this comes in its proper
+                            place)</ab>
+                        <rubric locus="274">&#222;e pistel of &#254;e Sundai of quinquagesima</rubric>
+                        <ab>Ending</ab>
+                        <explicit locus="278">We mote come to him and wone wi&#254; him wi&#254; oute onde.
+                            Amen</explicit>
+                        <ab>At the bottom of <supplied>p. <locus>278</locus></supplied> in small letters
+                                (<origDate>xv-xvi</origDate>) <q>D. n.</q></ab>
+
+
+                    </msItem>
+
+                </msContents>
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text:copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, BA</p>
+                            <p>msCheck: NJM 18.6.2007 and 21.6.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

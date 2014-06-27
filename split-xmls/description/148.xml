@@ -1,0 +1,142 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC148">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>148</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>D. 2</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>33</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Memoriale presbyterorum</head>
+                <head type="James">Memoriale Presbyterorum</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">309</height>
+                        <width unit="mm">185</width>
+                    </measureGrp><measureGrp type="James">12.2 x 7.4</measureGrp>, <extent>ff. 96 + 6</extent>,
+                        <layout>double columns of 36 lines</layout>. Cent. <origDate>xiv early</origDate>, <handNote>in
+                        a good large hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>4</num> 1<num>12</num>-8<num>12</num> b<num>2</num></collation>.</p>
+
+
+                <p function="Provenance">From <name type="place">Norwich Cathedral Priory</name>: on f.
+                        <locus>1r</locus> of text is the mark P. viij. in the proper form.</p>
+
+                <p function="Additions">On ff. <locus>iv</locus>, <locus>iir</locus> are many verses (<date>cent.
+                        xv</date>). They are chiefly moral. The principal items are:<lb/> a. A prophecy:<lb/> Anno
+                    cephas mille canus catulus et cocadrille<lb/> Post binos quartos wlnera quinque sanis etc.<lb/></p>
+
+                <p> b. A collection of proverbs in metre:<lb/> Disce libens iuuenis puerilis dum sinit etas<lb/> Ut sub
+                    nube senis semina multa metas<lb/> Nnulla valet tantum virtus paciencia quantum<lb/> Ut rosa flos
+                    florum sic est paciencia morum<lb/> etc.</p>
+
+                <p>On f. <locus>iiv</locus> list of Tituli, ending f. <locus>ivv</locus></p>
+
+                <p function="Research" rend="afterContents">The MS. is noticed by <ref type="bibl" target="Tanner 1748"
+                        >Tanner</ref>, s.v. <name type="person">Grosseteste</name>, but not assigned to any author.
+                    However, under <name type="person">Hanneya (Th. de)</name> he assigns it to that writer, citing MS.
+                        <ref type="ms" target="OBL256">Bodl. NE. E. 1. 9</ref>, <ref type="ms" target="OBL581">Mus.
+                        91</ref></p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-iv + 1-96 + v-vi + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="96v">
+                        <head type="CCC">
+                            <title>Memoriale presbyterorum </title>
+                        </head>
+
+                        <rubric locusNew="1r">Incipit memoriale presbiterorum parochialium a diuersis doctorum
+                            tractatibus sub breuitate extractum</rubric>
+                        <incipit locusNew="1r">Cum animaduerterem quamplurimos presbiteros parochiales grauiter errare
+                            in uia confessiones suorum subditorum audiendi</incipit>
+                        <explicit locusNew="1r">primo cadet inde secutor</explicit>
+
+                        <rubric locusNew="1r">1. Qualiter presbiter parochialis in audiendo confessionem alicuius se
+                            debet habere erga confitentem</rubric>
+                        <incipit locusNew="1r">In primis oportebit te confessorem considerate</incipit>
+                        <ab>
+                            <decoNote>This page has a very good initial of English work with gold ground, and a partial
+                                border ending in very pretty leaves</decoNote>
+                        </ab>
+                        <ab>The table divides the book into two parts, a of 97 and b of 98 chapters</ab>
+                        <ab>The latter ends</ab>
+                        <explicit locus="96v">in scriptis domini <name type="person">hostiensis</name> et aliis uariis
+                            modernorum doctorum si ea diligenter uolueris intueri</explicit>
+                        <ab locus="vir">On the last fly-leaves are the beginning of a table and some scribbles and an
+                            entry of price viiid</ab>
+                        <ab>Two forms of absolution and reconciliation are among the scribbles</ab>
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: SP 4/8/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

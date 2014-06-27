@@ -1,0 +1,179 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC359">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>359</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>9. 5</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>320</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Bede the Venerable, Historia ecclesiastica gentis Anglorum</head>
+                <head type="James">Bedae Historia, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">245</height>
+                        <width unit="mm">178</width>
+                    </measureGrp>, <measureGrp type="James">9.7 x 7</measureGrp>, <extent>ff. 74</extent>,
+                        <layout>double columns of 50 lines</layout>. Cent. <origDate>xiv early</origDate>,
+                        <handNote>clearly written</handNote>.</p>
+
+
+
+                <p><label>Collation:</label>
+                    <collation>1<num>12</num>-4<num>12</num> 5<num>6</num> 6<num>12</num> 7<num>8</num></collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>pelagiane.</secFol> or <secFol>gio. odore</secFol>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-74 + iii-iv</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="ang">Latin and Old English.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="72r">
+                        <head type="CCC">
+                            <name type="author">Bede the Venerable</name>, <title>Historia ecclesiastica gentis
+                                Anglorum</title>
+                        </head>
+                        <head type="James">
+                            <title><name type="author">Bedae</name> Historia, etc.</title>
+                        </head>
+
+                        <rubric locus="1r">Incipit prefatio <name type="author">bede</name> presbiteri in hystoria
+                            gentis anglorum </rubric>
+                        <incipit locusNew="1r">Gloriosissimo regi</incipit>
+                        <explicit locusNew="1r">mandare stud(u)imus</explicit>
+
+                        <ab locus="1v">Capitula of liber I</ab>
+                        <ab>Text</ab>
+                        <incipit locus="2r"><name type="place">Britannia </name>oceani</incipit>
+
+                        <ab locus="14v">Liber II</ab>
+
+                        <ab locus="24v"><supplied>Liber</supplied> III</ab>
+
+                        <ab locus="38v"><supplied>Liber</supplied> IV</ab>
+
+                        <ab locus="55r"><supplied>Liber</supplied> V</ab>
+
+                        <ab>Ending with the list of works</ab>
+
+                        <explicit locusNew="70r">Pie intercessionis inueniam (xvi Vale. Hucusque in libro
+                            impresso)</explicit>
+
+                        <incipit locus="70r">Nunc vero si ueram supputacionem uis inuenire cui nulla ratio potest
+                            contradicendo obuiare constituto capite mundi in quinquagesimo quarto anno magni cicli
+                            paschalis computa usque ad christum annos iiii. clxxxij</incipit>
+
+                        <explicit locusNew="70v">fiunt v. ccxc. qui sunt anni ab exordio mundi usque ad
+                            presens</explicit>
+
+                        <rubric locus="70v">Incipit uita uenerabilis <name type="person">Bede</name> presbiteri</rubric>
+                        <incipit locusNew="70v">Opere precium est cognoscere et celebri memoria tenendum </incipit>
+                        <explicit locusNew="72r">assumptus ab eodem domino et deo suo ad gratiam permanentem per omnia
+                            secula seculorum. amen</explicit>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="72r" locusEnd="73r">
+                        <head type="CCC">
+                            <name type="author">Cuthbert</name>, <title>Epistola de obitu <name type="person"
+                                    >Baedae</name></title>
+                        </head>
+
+                        <head type="James">Letter of <name type="author">Cuthbert</name> de obitu <name type="person"
+                                >Bedae</name></head>
+
+                        <incipit locusNew="72r">Dilectissimo in Christo lectori cuthino <name type="author">cuthberctus
+                            </name></incipit>
+                        <ab>The Anglo-Saxon passage is added in the lower margin of f. <locus>72v</locus> by a
+                                <origDate>xvi</origDate>th cent. hand</ab>
+                        <explicit locusNew="73r">inerudicio lingue facit</explicit>
+                        <rubric locusNew="73r">Explicit quintus liber uenerabilis <name type="person"
+                            >bede</name></rubric>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="73r" locusEnd="74v">
+                        <head type="CCC">
+                            <name type="author">Bede the Venerable</name>, <title>De natura rerum</title>
+                        </head>
+
+                        <rubric locus="73r">Incipiunt capitula libri de naturis rerum (51)</rubric>
+
+                        <ab locusNew="73r">i. de quadrifario dei opere <lb/> li. Diuisio terre </ab>
+                        <rubric locusNew="73r">Expliciunt capitula</rubric>
+
+                        <rubric locusNew="73r">Incipit liber de naturis rerum </rubric>
+                        <ab>(<ref type="bibl" target="Migne 090"><supplied>P. L.</supplied> XC 187</ref>)</ab>
+
+                        <incipit locusNew="73r">Operacio diuina que secula creauit</incipit>
+                        <ab>Ending imperfectly f. <locus>74v</locus> in xx</ab>
+                        <rubric locusNew="74v">De natura et situ lune</rubric>
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 9/12/2008</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

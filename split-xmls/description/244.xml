@@ -1,0 +1,236 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC244">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>244</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Lib. ab Al. 34</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Logic Texts</head>
+                <head type="James">Logica</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">173</height>
+                        <width unit="mm">117</width>
+                    </measureGrp>, <measureGrp type="James">6.8 x 4.7</measureGrp>, <extent>ff. 114</extent>, <layout>24
+                        etc. lines to a page</layout>. Cent. <origDate>xv</origDate>
+                    <handNote>in a very ugly and much contracted hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>28</num> (8, 9 stuck together) 2<num>24</num> 3<num>8</num> 4<num>32</num>
+                            5<num>22</num></collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>non requiritur</secFol>.</p>
+
+                <p function="Additions">Doubtless written for use in the Schools: <ref type="ms" target="CCC378">MS
+                        378</ref>, a similar book, contains several of the same texts.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-8r + (f. 9r pasted to f. 8v) + 9v + 10-68r + (f. 69r pasted to f. 68v) + 69v
+                        + 70-85r + (f. 86r pasted to f. 85v) + 86v + 87-113 + iii-iv</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1.1" locusStart="1r" locusEnd="6r">
+                        <head type="CCC">
+                            <title>Summulae</title>
+                        </head>
+                        <incipit locus="1r">Preposicio est oratio indicatiua congrua et perfecta</incipit>
+                        <ab>= <ref type="ms" target="CCC378">MS 378, 1</ref></ab>
+                    </msItem>
+
+                    <msItem n="1.2" locusStart="6r" locusEnd="13r">
+                        <head type="CCC">
+                            <title>De consequentia</title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="1.3" locusStart="13r" locusEnd="13v">
+                        <head type="CCC">
+                            <title>De suppositionibus</title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="1.4" locusStart="13v" locusEnd="18v">
+                        <head type="CCC">
+                            <name type="author" key="RichardB-001">Richard Billingham</name>,
+                                <title>Obligationes</title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="1.5" locusStart="18v" locusEnd="27r">
+                        <head type="CCC">
+                            <title>De dictionibus que habent uim confundendi</title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="1.6" locusStart="19r" locusEnd="19v">
+                        <head type="CCC">
+                            <title>De modo dandi contradictoria</title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="1.7" locusStart="27r" locusEnd="29r">
+                        <head type="CCC">
+                            <title>Terminus cum quibus</title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="1.8" locusStart="29r" locusEnd="32r">
+                        <head type="CCC">
+                            <title>De resolubilibus</title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="1.9" locusStart="33v" locusEnd="38v">
+                        <head type="CCC">
+                            <name type="author" key="Martinth-001">Martin the Englishman</name>, <title>Obiectiones
+                                consequentiarum</title>
+                        </head>
+
+                        <explicit locus="38v">inferius ad animal</explicit>
+                        <rubric locus="38v">Explicit communis tractatus quod <name type="person">R. E.</name></rubric>
+                        <ab locus="39r">blank</ab>
+
+                    </msItem>
+
+
+
+                    <msItem n="2" locusStart="39v" locusEnd="58v">
+                        <head type="CCC">
+                            <name type="author" key="WilliamH-001">William Heytesbury</name>, <title>Tractatus
+                                consequentiarum, adapted by <name type="author" key="RobertAl-001">Robert Allington
+                                    (?)</name></title></head>
+                        <incipit locus="39v">Iuxta hunc textum tactum in libro pery armenias</incipit>
+                        <ab>= <ref type="ms" target="CCC378">MS 378, 8</ref></ab>
+                        <ab locus="41r" locusNew="40r">On <supplied>this page</supplied> is scribbled <decoNote>in
+                                red</decoNote>: <name type="person">Elyot</name></ab>
+                        <ab locus="50v" locusNew="49v">Diagram</ab>
+                        <explicit locus="58v">ad lapidem et sic patet responsio</explicit>
+                        <rubric locus="58v">Explicit Iuxta hunc textum</rubric>
+                    </msItem>
+
+
+                    <msItem n="3" locusStart="59r" locusEnd="76v">
+                        <head type="CCC">
+                            <name type="author" key="RogerSwi-001">Roger Swineshead OSB</name>, <title>De obligationibus
+                                et insolubilibus</title>
+                        </head>
+                        <incipit locus="59r">Quatuor sunt diuisiones proposicionum</incipit>
+                        <ab>= <ref type="ms" target="CCC378">MS 378, 7</ref></ab>
+                        <explicit locus="76v">significat</explicit>
+                        <rubric locus="76v">Expliciunt insolubilia</rubric>
+                    </msItem>
+
+
+                    <msItem n="4" locusStart="77r" locusEnd="81v">
+                        <head type="CCC">
+                            <title>De proportionibus</title>
+                        </head>
+                        <incipit locus="78r" locusNew="77r">Omnis proporcio aut est communiter dicta</incipit>
+                        <explicit locus="81v">sessat omnis obieccio</explicit>
+                        <rubric locus="81v">Expliciunt proporciones</rubric>
+                    </msItem>
+
+
+                    <msItem n="5" locusStart="82r" locusEnd="94v">
+                        <head type="CCC">
+                            <name type="author" key="ThomasNe-001">Thomas Netter of Walden OCarm (attrib.)</name>,
+                                <title>Introductiones naturalium</title>
+                        </head>
+                        <incipit locus="83r" locusNew="82r">Natura est duplex</incipit>
+                        <ab>= <ref type="ms" target="CCC378">MS 378, 6</ref></ab>
+                        <explicit locus="94r">ad asperitatem</explicit>
+                        <rubric locus="94r">Expliciunt nature quod <name type="person">E(lyot)</name></rubric>
+                        <ab locus="94v">blank</ab>
+                    </msItem>
+
+
+                    <msItem n="6" locusStart="95r" locusEnd="97r">
+                        <head type="CCC">
+                            <title>De reduplicationibus</title>
+                        </head>
+                        <incipit locus="95r">Pro faciliori noticia ac informacione</incipit>
+                        <explicit locus="97r">inferiore</explicit>
+                        <rubric locus="97r">Expliciunt redupplicatiue</rubric>
+                    </msItem>
+
+
+                    <msItem n="7" locusStart="97v" locusEnd="113v">
+                        <head type="CCC">
+                            <title>De sophismatibus</title>
+                        </head>
+                        <incipit locus="97v">Quidlibet incipit esse</incipit>
+                        <ab>= <ref type="ms" target="CCC378">MS 378, 9</ref></ab>
+                        <incipit locus="101v">Primo principaliter ad sophisma</incipit>
+                        <ab locus="103r">Ends unfinished</ab>
+                        <ab>the rest blank</ab>
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 20/03/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

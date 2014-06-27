@@ -1,0 +1,124 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC496">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>496</idno>
+                    <altIdentifier type="Stanley">
+                        <idno/>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno/>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Thomas Hoccleve, De regimine principum</head>
+                <head type="James">[Untitled]</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">205</height>
+                        <width unit="mm">140</width>
+                    </measureGrp>, <measureGrp type="James">6.1 x 5.1</measureGrp>, <extent>ff. 60</extent>,
+                        <layout>varying numbers of lines to the page</layout>. Cent. <origDate>xv</origDate>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>18</num> 2<num>12</num>-4<num>12</num> 5<num>6</num>, in 1 the first and last, and
+                        in 5 the 3rd and 4th leaves are <material>vellum</material></collation>.</p>
+
+                <p function="Additions">Printed book no. 105. <name type="author">P. Jovius</name> de legatione Basilii,
+                    etc. <date>1527</date>, <supplied>current Parker Library shelf mark is SP.105 (4)</supplied></p>
+                <p>The covers are lined with (a) two leaves <supplied>(ff.
+                        <locus>ir</locus>-<locus>iiv</locus>)</supplied> of a <origDate>xivth cent.</origDate> MS. in
+                    single lines (34) of the Testamenta xii patriarcharum containing part of the Testament of Levi, (b)
+                    part of a leaf <supplied>(f. <locus>iiir</locus>-<locus>iiiv</locus>)</supplied> of a finely written
+                        <origDate>xiith cent.</origDate> service-book with lessons for <name type="person">S.
+                        Goduualdus</name>.</p>
+                <p type="CCC">
+                    <foliation> ff. i-ii + 1-60 + iii </foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="eng" otherLangs="lat">English and Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="60v">
+                        <head type="CCC">
+                            <name type="author">Thomas Hoccleve</name>, <title>De regimine principum</title>
+                        </head>
+                        <rubric locusNew="1r"><name type="author">Iohannes (so) Occliffe</name> de regimine principum et
+                            constat m. <name type="person">W. Wilflete</name></rubric>
+                        <incipit locusNew="1r">Musyng opon &#254;e restles besinesse</incipit>
+                        <ab>The writing varies a good deal in size</ab>
+                        <ab>Ends</ab>
+                        <explicit locusNew="60v">That knowith (he) whom no thyng is hid fro</explicit>
+                        <rubric locusNew="60v">Explicit liber iste qui vocatur <name type="author">Occlyffe</name> de
+                            regimine principum et constat mag<abbr rend="superscript">ro</abbr>
+                            <name type="person">Willelmo Wilflete</name> socio aule de <name type="place">clare
+                                Cantabrig.</name> qui eum scribendo propriis manibus laborauit [hic fuit Decanus de
+                                <name type="place">stoke college iuxta Clare</name> added
+                            <origDate>xvi</origDate>]</rubric>
+                        <ab>He was Master of <name type="place">Clare</name> from <date>1436</date> to
+                            <date>1455</date></ab>
+                        <ab>The beginning of a Latin prologue to Jonah follows (<origDate>xv</origDate>)</ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 16/12/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

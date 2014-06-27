@@ -1,0 +1,270 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC232">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>232</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Lib. ab Al. 35</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Thomas Markaunt, Register of Books and related documents</head>
+                <head type="James">T. Markaunt's Register of Books, etc.</head>
+                <p function="Codicology"><material>Vellum and paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">225</height>
+                        <width unit="mm">153</width>
+                    </measureGrp><measureGrp type="James">8.6 x 6</measureGrp>, <extent>ff. 11 + 128</extent>, two
+                    volumes. Cent. <origDate>xv and xvi</origDate>.</p>
+
+
+                <p function="Multivolume" rend="withinContents"><lb/><label>Volume I:</label>
+                    <material>Vellum</material>, <layout>31 lines to a page</layout>, <handNote>neatly
+                        written</handNote>.<lb/>
+                    <label>Volume II:</label>
+                    <material>Paper</material>, <handNote>irregularly written</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1<num>12</num> (wants 4: vellum) || 2<num>4?</num> 3<num>28</num> 4<num>24</num>
+                            5<num>28</num> 6<num>20</num> 7<num>24</num></collation>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-139 + iii</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="eng">Latin and English.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="1r" locusEnd="2v">
+                        <head type="CCC">
+                            <title>Will of <name type="person">Thomas Markaunt</name>, <date>4 November
+                                1439</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Testamentum <name type="person">Thomae Markaunt</name> de libris quos legavit <name
+                                    type="place">Collegio Corporis Christi</name>, datum <date>4 Nov.
+                                1439</date></title>
+                        </head>
+                        <head type="James">
+                            <title>Will of <name type="person">T. Markaunt</name>, <date>4 Nov. 1439</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="3r" locusEnd="4v">
+                        <head type="CCC">
+                            <title>Acceptance of the custody of <name type="person">Thomas Markaunt's</name> books by
+                                    <name type="person">John Tyteshale</name>, Master of the College, <date>1 August
+                                    1440</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Confirmatio ordinationis ejus de custodia librorum per magistrum et socios, facta
+                                    <date>1 Aug. 1444</date></title>
+                        </head>
+                        <head type="James">
+                            <title>Acceptance of the trust by <name type="person">J. Tyteshale</name>, Master of the
+                                College, <date>1 Aug. 1440</date>, in the name of the <name type="place"
+                                >College</name></title>
+                        </head>
+
+                        <ab>ff. <locus>3v</locus>-<locus>4v</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="3" locusStart="5r" locusEnd="8v">
+                        <head type="CCC">
+                            <title>Register of books left by <name type="person">Markaunt</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Registrum magistri <name type="person">Thomae Markaunt</name> de numerositate
+                                librorum suorum cum eorum contentis, quod contulit ad utilitatem sociorum <name
+                                    type="place">Collegii Corporis Christi</name> studentium</title>
+                        </head>
+
+                        <head type="James">
+                            <title>Register of books left by <name type="person">Markaunt</name></title>
+                        </head>
+
+                        <ab>Printed by <ref type="bibl" target="Halliwell-Phillipps 1848">J. O. Halliwell, C.A.S.
+                                1848</ref> and by <ref type="bibl" target="James 1899">M. R. James, <hi rend="italic"
+                                    >Sources of Archbishop Parker's Collection</hi>, C.A.S. 1889, p. 76</ref></ab>
+                        <ab>On f. <locus>8v</locus> a Note by <name type="author">Thomas Baker</name> applying to the
+                            Liber privilegiorum, known as <q>Hare's book</q>, in the Registry:<lb/> Hic liber continet
+                            Collectiones <name type="person">Tho. Markaunt</name> Antiquarii peritissimi et inter
+                            nostros primi. <lb/> Hunc librum per incuriam et custodum negligentiam longo spatio amissum,
+                            et in partibus longinquis existentem, fecit Mag. <name type="person">Robertus Hare</name> ad
+                                <name type="place">Universitatem Cantebrigiensem</name> restitui a.d. <date>1594</date>.
+                            <lb/> Hic Liber bis amissus erat et toties restitutus ac juxta <name type="person"
+                                >Fullerum</name> tertio amissus nulla aut spe levi restitutionis. Ego tamen rimando
+                            archiva nostra feliciter inveni, nec tam amissum puto quam turpiter neglectum aut nomine
+                            carentem minus observatum. <name type="person">Tho. Baker</name> Coll. Jo. Soc. </ab>
+                    </msItem>
+
+                    <msItem n="4" locusStart="9r" locusEnd="11v">
+                        <head type="CCC">
+                            <title>List of books, with their prices</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Alius catalogus eorundem librorum cum eorum pretiis</title>
+                        </head>
+                        <head type="James">
+                            <title>List of books, with their prices</title>
+                        </head>
+
+                        <ab>Printed as above: ending f. <locus>10v</locus>. f. <locus>11r</locus>-<locus>11v</locus>
+                            blank</ab>
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="5" locusStart="12r" locusEnd="16v">
+                        <head type="CCC">
+                            <title>List of books (<date>early sixteenth century</date>)</title>
+                        </head>
+
+
+                        <ab>A list of books (<date>xvi early</date>) <handNote>roughly written</handNote>: most of them
+                            seem to be printed books. Occupies 3ff. <supplied>followed by</supplied> 2 blank leaves</ab>
+                    </msItem>
+
+                    <msItem n="6" locusStart="17r" locusEnd="124r">
+                        <head type="CCC">
+                            <title>List of keepers of the bequests of <name type="person">Thomas Markaunt</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Registrum magistri <name type="person">Thomas Markaunt</name> nuper consortis et
+                                confratris <name type="place">Collegii Corporis Christi et sanctae Mariae
+                                    Cantabriggiae</name>, cujus animae propitietur omnipotens, qui ab hujus mundi
+                                transiit miseria anno Domini <date>1439, et regis <name type="person">Henrici VI</name>.
+                                    post conquestum 18<abbr rend="superscript">o</abbr>, mensis Novembris die 19</date>,
+                                littera dominicalis D.</title>
+                        </head>
+
+                        <ab>
+                            <quote>Continet nomina custodum, et sub cujus custodia fuit unusquisque liber ab anno
+                                    <date>1440</date> ad annum <date>1516</date></quote>
+                        </ab>
+
+                        <ab>Contains lists of books in the keeping of various persons</ab>
+
+                        <ab>The first list is not dated: the names are <lb/>
+                            <name type="person">M. Walter</name>
+                            <lb/>
+                            <name type="person">M. ffyscher</name>
+                            <lb/>
+                            <name type="person">M. Bur'</name>
+                            <lb/>
+                            <name type="person">M. Erlham</name>
+                            <lb/>
+                            <name type="person">M. ffylipot</name>
+                            <lb/>
+                            <name type="person">M. Merc'</name>
+                        </ab>
+                        <ab>The next list is dated <date>1441</date>, in festo xi mill. uirginum</ab>
+                        <ab>The lists continue to be annual with few omissions</ab>
+
+                        <ab locusNew="35v">At <date>1458</date> is a list of 12 books given by <name type="person">M.
+                                Tyttesale</name>; the keepers of these are entered subsequently like those of <name
+                                type="person">Markaunt</name>'s bequest. (See below) </ab>
+
+                        <ab>The lists end with that for <date>1516</date> and are followed by three lists of Fellows:
+                            <lb/> tempore doctoris Nobis sed non omnes simul <lb/> tempore <name type="person">m<abbr
+                                    rend="superscript">ri</abbr> Sowoode</name>
+                            <lb/> tempore <name type="person">doctoris parker</name> Ab anno 1544 </ab>
+
+                        <ab>Most of the last quire <supplied>(ff. <locus>124v</locus>-<locus>139v</locus>
+                                blank)</supplied>is blank</ab>
+
+                        <ab locusNew="35v">The following is the list of <name type="person">Tyttesale</name>'s books:
+                            <lb/> Item de ... libris mag<abbr rend="superscript">ri</abbr>
+                            <name type="person">Tyttesale</name>: <lb/> (1) In primis .i. portiferium cuius sec. fo.
+                            inc. terentur in linguas prec. ii marc. <lb/> (2) Item Waterton cuius 2<abbr
+                                rend="superscript">m</abbr> fo. odio h<abbr rend="superscript">o</abbr> faco prec. vi
+                            marc. <lb/> (3) Item liber abstractus de summa predicancium cuius 2<abbr rend="superscript"
+                                >m</abbr> fo. ita a principaliori prec. xx<abbr rend="superscript">s</abbr>. <lb/> (4)
+                            Item liber in quo continentur tres libri viz. dieta salutis cum aliis cuius 2<abbr
+                                rend="superscript">m</abbr> fo. inc. Sunamitis prec. xx<abbr rend="superscript"
+                            >s</abbr>. <lb/> (5) Item pupilla oculi cuius 2<abbr rend="superscript">m</abbr> fo. inc.
+                            acetum prec. v nobil. <lb/> (6) Item Januensis in opere quadragesimali cuius 2<abbr
+                                rend="superscript">m</abbr> fo. inc. Cum dicitur luctum prec. xxiiij<abbr
+                                rend="superscript">s</abbr>. <lb/> (7) Item Magister sententiarum cuius 2<abbr
+                                rend="superscript">m</abbr> fo. inc. voluntate in anima prec. xiii<abbr
+                                rend="superscript">s</abbr> iiij<abbr rend="superscript">d</abbr>. <lb/> (8) Item Tabula
+                            de decem libris ethicorum cuius 2<abbr rend="superscript">m</abbr> fo. inc. Justiciam
+                            conseruandam prec. x<abbr rend="superscript">s</abbr>. <lb/> (9) Item holcote super
+                            sententias cuius 2<abbr rend="superscript">m</abbr> fo. inc. fecta hominis prec. xx<abbr
+                                rend="superscript">s</abbr>. <lb/> (10) Item paruus liber in quo biblia continentur
+                            cuius 2<abbr rend="superscript">m</abbr> fo. inc. s. quatuor prec. vi<abbr
+                                rend="superscript">s</abbr> viij<abbr rend="superscript">d</abbr>. <lb/> (11) Item liber
+                            in papiro in quo continentur plura cuius 2<abbr rend="superscript">m</abbr> fo. inc. Cum sit
+                            necessarium grisororii <hi rend="footnote">The Isagoge of <name type="author"
+                                    >Porphyry</name></hi> prec. ii<abbr rend="superscript">s</abbr> vj<abbr
+                                rend="superscript">d</abbr>. <lb/> (12) Item liber de terris orientalibus et
+                            decimabilibus cuius 2<abbr rend="superscript">m</abbr> fo. inc. the ouertwert dale prec.
+                                ij<abbr rend="superscript">s</abbr>.</ab>
+
+                        <ab/>
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJC 19/4/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

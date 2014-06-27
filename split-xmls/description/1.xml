@@ -1,0 +1,244 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC001">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>1</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Under C. 1</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>355</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Garnerius of Saint-Victor OSA, Tabulae on Gregory the Great, Moralia in Job et
+                    al.</head>
+                <head type="James">Tabulae Super Gregorium, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">552</height>
+                        <width unit="mm">395</width>
+                    </measureGrp>, <measureGrp type="James">21.5 x 15.5</measureGrp>, <extent>ff. 287</extent>,
+                        <layout>double and triple columns of 75 lines</layout>. Cent. <origDate>xv</origDate>,
+                        <handNote>very well written and ornamented. English work</handNote>.</p>
+
+
+
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num>-9<num>8</num> (wants 5, 7, 8) | 10<num>6</num> (wants 4-6) |
+                            11<num>8</num>-16<num>8</num> (wants 6-8) | 17<num>8</num>-22<num>8</num> 23<num>6</num>
+                        (wants 6) 24<num>8</num> 25<num>10</num> 26<num>8</num>-29<num>8</num> (wants 2, 8)
+                            30<num>8</num>-37<num>8</num> 38<num>?8</num> (wants 6-8)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>D. a flagello</secFol>.</p>
+
+                <p function="Provenance">I can discover in the book no hint of its monastic provenance. The upper R.
+                    corner of ff. <locus>1r</locus>-<locus>2v</locus> is mutilated: probably the press-mark was
+                    there.</p>
+
+                <p function="Additions"><decoNote>The ornament of the volume consists of a large number of very fine
+                        initials and borders - the latter of the feathered work so characteristic of English <date>xvth
+                            century</date> books. The one figured initial is on f. <locus>171r</locus></decoNote>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-287 + iii-iv</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="69v">
+                        <head type="CCC">
+                            <title>Tabula on <name type="person">Gregory the Great</name>, Moralia</title>
+                        </head>
+                        <head type="James">
+                            <title>Tabula super Moralibus <name type="person">Gregorii</name></title>
+                        </head>
+                        <incipit locusNew="1r">Ut sequentis tabule utilitas omnibus uoluminibus moralium beati <name
+                                type="person">Gregorii</name> pape possit conuenienter deseruire</incipit>
+                        <ab>(A system of chapters and letters is set forth)</ab>
+                        <ab>List of <hi rend="italic">Capitula</hi> in the <hi rend="italic">Moralia</hi> of <name
+                                type="person">Gregory</name>, divided into sections marked by letters</ab>
+                        <rubric locusNew="6r">Explicit tabula capitulorum et litterarum in omnibus libris moralium <name
+                                type="person">Gregorii</name> pape</rubric>
+                        <rubric locus="6r">Incipit Prefacio tabule</rubric>
+                        <incipit locusNew="6r">Hec tabula subscripta est de moralibus beati <name type="person"
+                                >Gregorii</name> pape quam intuentes hoc prescire est necessarium, etc.</incipit>
+                        <rubric locus="6r">Incipiunt Concordancie de moralibus beati <name type="person">Gregorii</name>
+                            pape</rubric>
+                        <ab>Abies - Zona</ab>
+                        <rubric locus="31r">Incipit Tabula super Moralibus <name type="person">Gregorii</name>
+                            pape</rubric>
+                        <incipit locusNew="31r">Abstinencia. Cum anima a carne abstrahitur, etc.</incipit>
+                        <ab>Ends with Zelus</ab>
+                        <rubric locus="68r">Explicit tabula moralium</rubric>
+                        <ab>ff. <locus>68v</locus>-<locus>69v</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="70r" locusEnd="72v">
+                        <head type="CCC">
+                            <title>Tabula on <name type="person">Gregory the Great</name>, Homiliae in Euangelia</title>
+                        </head>
+                        <rubric locus="70r">Tabula omeliarum <name type="person">Gregorii</name> super
+                            Euangelia</rubric>
+                        <ab><name type="person">Aaron</name> - <name type="person">Ydumea</name></ab>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="73r" locusEnd="117v">
+                        <head type="CCC">
+                            <title>Tabula on the works of <name type="person">Gregory the Great</name></title>
+                        </head>
+                        <head type="James">
+                            <title>A general table to the works of <name type="person">Gregory</name></title>
+                        </head>
+                        <ab>
+                            <decoNote>Title and ornaments have not been added</decoNote>
+                        </ab>
+                        <ab locusNew="73r"><name type="person">Abel</name> - <name type="person">Zizannia</name></ab>
+                        <rubric locusNew="117v">Explicit tabula</rubric>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="118r" locusEnd="170v">
+                        <head type="CCC"><name type="author">Garnerius of Saint-Victor OSA</name>, <title>Liber <name
+                                    type="person">Gregorianum</name></title></head>
+                        <head type="James">
+                            <title>Garnerius Gregorianus</title>
+                        </head>
+                        <rubric locusNew="118r">Incipit prologus in excerpciones <name type="author">Garnerii</name>
+                            Gregoriani <supplied agent="ELB">ex</supplied><!--de--> opusculis beati <name type="person"
+                                >Gregorii</name> pape</rubric>
+                        <incipit locusNew="118r">In hoc libro disponuntur per diuersa capitula</incipit>
+                        <explicit locusNew="118r">quarum parcium prima agit</explicit>
+                        <incipit locusNew="118r">De deo et celestibus causis etc.</incipit>
+                        <rubric locusNew="118r">Incipiunt quedam excerpciones <name type="author">Garnerii</name>
+                            Gregoriani ex opusculis beati <name type="person">Gregorii</name> pape. Capitula libri
+                            primi</rubric>
+                        <rubric locusNew="118r">Incipit primus liber de deo</rubric>
+                        <incipit locusNew="118r">In scriptura sacra aliquando deus nuncupatiue</incipit>
+                        <ab locus="168v">Liber xvi ends</ab>
+                        <explicit locus="168v">Require supra libro v, cap. xxvii, de dextera</explicit>
+                        <rubric locusNew="168v">Explicit liber xvi excerpcionum <name type="author">Garnerii</name>
+                            Gregoriani ex epistolis beati <name type="person">Gregorii</name> pape</rubric>
+                        <ab>ff. <locus>169r</locus>-<locus>170v</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="5" locusStart="171r" locusEnd="188v">
+                        <head type="CCC">
+                            <title>Reclinatorium animae</title>
+                        </head>
+                        <rubric locus="171r">Incipit Prologus libri qui uocatur Reclinatorium anime extractus ex libris
+                            moralibus beati <name type="author">Gregori</name> pape</rubric>
+                        <incipit locusNew="171r">E libris moralibus in Iob</incipit>
+                        <explicit locusNew="171r">editos constat per spiritum sanctum</explicit>
+                        <rubric locusNew="171r">Explicit prologus</rubric>
+                        <rubric locusNew="171r">Incipit Prefacio beati <name type="author">Gregorii</name> pape in
+                            exposicione libri Job iuxta moralitatem</rubric>
+                        <incipit locusNew="171r">Igitur quia in ipso exposicionis exordio</incipit>
+                        <explicit locusNew="171r">uita concurrat</explicit>
+                        <rubric locusNew="171r">Explicit prologus (lined through)</rubric>
+                        <rubric locusNew="171r">Incipit liber sermo primus</rubric>
+                        <incipit locusNew="171r">Vir erat in terra hus etc. Si <name type="person">iob</name> uolens et
+                            hus consiliator dicitur</incipit>
+                        <ab locusNew="171r">
+                            <decoNote>The initial (the only figured one in the book) represents <name type="person"
+                                    >Job</name> beardless, covered with spots, seated on dunghill, with joined
+                                hands</decoNote>
+                        </ab>
+                        <ab>There are twelve Sermons, ending</ab>
+                        <explicit locus="188v">ex deuocione militemus</explicit>
+                        <rubric locus="188v">Explicit Reclinatorium anime</rubric>
+
+                    </msItem>
+
+                    <msItem n="6" locusStart="189r" locusEnd="213v">
+                        <head type="CCC">
+                            <title>Compendium <name type="person">Iob</name> uel speculum</title>
+                        </head>
+                        <rubric locus="189r">Hic incipit prefacio in librum qui uocatur compendium iob uel
+                            speculum</rubric>
+                        <incipit locusNew="189r">Reuerentissimo in Christo patri <name type="person">H(ermanno)</name>
+                            presbitero <name type="author">A(dalbertus)</name> humillimus leuitarum</incipit>
+                        <explicit locusNew="189r">feliciter per secula infinita</explicit>
+                        <ab>Capitula (cxcv)</ab>
+                        <rubric locus="189v">In nomine dei et saluatoris nostri Ihesu Christi Incipit liber qui uocatur
+                            speculum Cap. i, de uera simplicitate etc.</rubric>
+                        <incipit locusNew="189v">Nonnulla namque ita sunt simplices</incipit>
+                        <ab>Ends imperfectly in cap. cxci</ab>
+                        <ab>The Preface is printed in <ref type="bibl" target="Martene and Durand 1717a">Martene and
+                                Durand <hi rend="italic">Thes. Anecd.</hi> I 84</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="7" locusStart="214r" locusEnd="287v">
+                        <head type="CCC"><name type="author">Gregory the Great</name>, <title>Miscellaneous
+                                extracts</title></head>
+                        <ab locus="214r">A further collection out of <name type="author">Gregory</name>'s works of
+                            expositions on Scripture, the extracts being arranged in the order of the Biblical books.
+                            The headline is <q>Tabula Sumpta</q></ab>
+                        <ab>Begins imperfectly in c. xv (on Genesis)</ab>
+                        <ab>Each book is preceded by capitula</ab>
+                        <ab>Ends imperfectly on Haggai. The New Testament books are treated before the Prophets</ab>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: ELB 4/2/2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

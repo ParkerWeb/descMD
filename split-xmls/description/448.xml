@@ -1,0 +1,363 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC448">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>448</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>N. 33</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>195</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Prosper of Aquitaine, Isidore of Seville, and others</head>
+                <head type="James">Prosper, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">183</height>
+                        <width unit="mm">133</width>
+                    </measureGrp>, <measureGrp type="James">7.2 x 5.3</measureGrp>, <extent>ff. 2 + 40 + 20 + 63 +
+                        1</extent>, <layout>20 lines to a page</layout>. Cent. <origDate>x ?</origDate>, <handNote>for
+                        the most part in a fine upright insular minuscule: very regular and beautiful</handNote>.</p>
+
+
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num>, 1<num>8</num>-5<num>8</num> | paper 20 ff. | 6<num>8</num>-13<num>8</num>
+                        (misbound: 8 canc.) 1 flyleaf</collation>.</p>
+                <p><label>2 fo.:</label>
+                    <secFol>et aliud est</secFol>.</p>
+
+                <p function="Provenance">f. <locus>ir</locus> blank: on f. <locus>iiv</locus>
+                    <handNote>in a hand of cent. <origDate>xiii</origDate></handNote>:<lb/>
+                    <q>In hoc uolumine continentur libri isti.<lb/> Epigramata <name type="author">prosperi</name>.<lb/>
+                        Synonima <name type="author">ysidori</name>.<lb/> Versus sibille.<lb/> De opusculis <name
+                            type="author">prudencii</name>.<lb/> De septem miraculis manu factis. et liber
+                        columbani.</q><lb/> The handwriting of this list of contents suggests <name type="place"
+                        >Glastonbury</name> to me, but possibly the book is from <name type="place">Winchester</name>
+                    (see on the last page <supplied>f. 103v</supplied>).</p>
+
+
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-ii + 1-40 + 40a-t + 41-103 + iii + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1.1" locusStart="1r" locusEnd="36r">
+                        <head type="CCC"><name type="author">Prosper of Aquitaine</name>, <title>Epigrammata ex
+                                sententiis <name type="person">S. Augustini</name></title></head>
+                        <head type="Nasmith">
+                            <title>Epigrammata <name type="author">Prosperi</name> viri eruditissimi <name type="person"
+                                    >Augustini</name> deflorata</title>
+                        </head>
+                        <ab>
+                            <decoNote>Heading in red capitals</decoNote>
+                        </ab>
+                        <rubric locus="1r">In nomine dei S... (erased)</rubric>
+                        <incipit locus="1r">Haec <name type="person">augustini</name> ex sacris epigramata
+                            dictis<lb/>Dulcisono rethor componens karmine <name type="person">prosper</name>,
+                            etc.</incipit>
+                        <explicit locusNew="1r">cupiunt qui scandere regnum</explicit>
+                        <ab>
+                            <decoNote>In capitals</decoNote>
+                        </ab>
+                        <rubric locusNew="1r">Incipiunt epigramata <name type="author">Prosperi</name> viri eruditissimi
+                                <name type="person">Augustini</name> deflorata libro</rubric>
+                        <ab>(<ref type="bibl" target="Migne 051"><supplied>P. L.</supplied> LI</ref> 497)</ab>
+                        <incipit locusNew="1r">Dum sacris mentem placet exercere loquelis</incipit>
+                        <ab>(<ref type="bibl" target="Migne 051"><supplied>P. L.</supplied> LI</ref> 498)</ab>
+                        <ab locusNew="1r">
+                            <decoNote>Initial surrounded by dots</decoNote>
+                        </ab>
+                        <ab>Ends</ab>
+                        <explicit locus="36r">Crescere non cupiens perdit adepta tepens</explicit>
+                        <rubric locusNew="36r">Expliciunt epigramata <name type="author">Prosperi</name></rubric>
+                    </msItem>
+
+                    <msItem n="1.2" locusStart="36r" locusEnd="40v">
+                        <head type="CCC"><name type="author">Prosper of Aquitaine (attrib.)</name>, <title>Poema
+                                coniugis ad uxorem</title></head>
+                        <rubric locus="36r">Versus <name type="author">Prosperi</name> ad coniugem suam</rubric>
+                        <ab>(<ref type="bibl" target="Migne 051"><supplied>P. L.</supplied> LI</ref> 611, 737)</ab>
+                        <incipit locusNew="36r">Age iam precor mearum comes inremota rerum</incipit>
+                        <ab>Ending</ab>
+                        <explicit locus="39r">Vna sit atque duos spiritus unus alat</explicit>
+                        <ab><locus>39v</locus>-<locus>40v</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="2" locusStart="40ar" locusEnd="40tv">
+                        <head type="CCC"><title><name type="author">Prosper</name> his meditation with his wife</title>
+                            [printed book]</head>
+                        <head type="Nasmith">
+                            <title><name type="author">Prosper</name> his meditation with his wife, as it is advouched
+                                by an auncient written copie in olde Saxon carecters, where as the printed works have
+                                dissembled the same, newly translated into Englyshe verse, printed according to order by
+                                    <name type="person">Richard Watkins</name></title>
+                        </head>
+                        <ab>Title as given by Nasmith. The MS. alluded to is doubtless the one before us</ab>
+                        <ab>
+                            <supplied>This item is printed material on paper.</supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="3" locusStart="41r" locusEnd="86v">
+                        <head type="CCC"><name type="author">Isidore of Seville</name>, <title>Synonyma</title></head>
+                        <head type="Nasmith">
+                            <title>Synonima <name type="author">Isidori Hispalensis urbis episcopi</name></title>
+                        </head>
+                        <ab>
+                            <decoNote>Title in red capitals</decoNote>
+                        </ab>
+                        <rubric locus="41r">In nomine domini nostri Iesu Christi Incipit prologus in libro synonimae
+                                <name type="person">Bedae</name> (sic) <name type="author">Ysidoris spalensis urbis
+                                episcopi</name></rubric>
+                        <ab>(<ref type="bibl" target="Migne 083"><supplied>P. L.</supplied> LXXXIII</ref> 825)</ab>
+                        <incipit locusNew="41r">In subsequenti hoc libro qui nuncupatur synonima</incipit>
+                        <explicit locusNew="41v">et regnat deus in secula seculorum. Amen</explicit>
+                        <rubric locus="41v">Incipit Synonima</rubric>
+                        <incipit locusNew="41v">Anima mea in angustiis est</incipit>
+                        <ab locus="61r">Liber II</ab>
+                        <explicit locusNew="86v">tu mihi supra uitam meam placeas</explicit>
+                        <rubric locusNew="86v">Explicit synonima <name type="author">Ysidori episcopi</name></rubric>
+                        <ab><decoNote>Initials are filled in with red</decoNote>. At each paragraph is the letter K in
+                            the margin. (Cf. <ref type="ms" target="CTC042">Trin. Coll. O. 1. 18</ref>, <ref type="ms"
+                                target="CTC135">O. 2. 31</ref>) There are a good many interlinear glosses, but I have
+                            seen none that are not in Latin</ab>
+                    </msItem>
+
+                    <msItem n="4" locusStart="87r" locusEnd="87v">
+                        <head type="CCC">
+                            <title>Sybilline prophecies</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Versus Sybillae</title>
+                        </head>
+                        <ab><handNote>In a larger round straggling hand, not of English complexion</handNote>.
+                                <decoNote>Title in red capitals</decoNote></ab>
+                        <rubric locus="87r">In nomine domini Incipiunt versus de die iudicii sibille antiqui
+                            poetae</rubric>
+                        <ab>(<ref type="bibl" target="Migne 090"><supplied>P. L.</supplied> XC</ref> 1186)</ab>
+                        <incipit locusNew="87r">Iudicii signum tellus sudore madescet</incipit>
+                        <explicit locusNew="87v">et sulphuris amnis</explicit>
+                        <incipit locusNew="87v">Hec de christi natiuitate</incipit>
+                        <incipit locusNew="87v">Et si quis in greco horum uersuum capita discernere uoluerit</incipit>
+                        <incipit locusNew="87v">Excepto quinto (v) nono (viiii) octauo decimo (xviii) et nono decimo
+                            (xviiii) uersu inueniet iesus cristos</incipit>
+                        <explicit locusNew="87v">dei filius saluator</explicit>
+                        <ab>Capitals</ab>
+                        <rubric locusNew="87v">Hos uersus <name type="person">Sanctus Augustinus</name> ex greco in
+                            Latinum transtulit</rubric>
+                    </msItem>
+
+                    <msItem n="5" locusStart="88r" locusEnd="89v">
+                        <head type="CCC">
+                            <title>Physiologus (only the lion, unicorn, and panther)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De trimoda leonis natura</title>
+                        </head>
+                        <rubric locus="88r">Incipit de trimoda leonis natura</rubric>
+                        <incipit locusNew="88r">Leo tres naturas habet. Quarum prima est. Nam cum ambulet</incipit>
+                        <explicit locusNew="88r">suscitauit a mortuis</explicit>
+                        <rubric locusNew="88r">De unicornis natura</rubric>
+                        <incipit locusNew="88r">Unicornis animal est pulchrum</incipit>
+                        <rubric locusNew="88v">De panthera</rubric>
+                        <incipit locusNew="88v">Propheta dicit. Factus sum sicut leo</incipit>
+                        <explicit locusNew="89r">diabolo inimicus factus est</explicit>
+
+                        <ab>
+                            <supplied><name type="author">pseudo-Vergil</name>, Nocte pluit tota</supplied>
+                        </ab>
+                        <rubric locus="89r">Uersus <name type="author">Maronis</name> poete</rubric>
+                        <incipit locusNew="89r">Nocte pluit tota</incipit>
+                        <explicit locusNew="89r">fertis oues</explicit>
+                        <ab>
+                            <supplied> Note on the languages of the world </supplied>
+                        </ab>
+                        <incipit locusNew="89r">Quot sunt lingue in mundo .lxxii. cur non plures uel pauciores. propter
+                            tres filios <name type="person">noe</name>
+                            <name type="person">sem</name>
+                            <name type="person">cham</name> et <name type="person">iafeth</name>. <name type="person"
+                                >Sem</name> habuit filios xx<abbr rend="superscript">ti</abbr> vii<abbr
+                                rend="superscript">tem</abbr> cham xxx<abbr rend="superscript">ta</abbr>
+                            <name type="person">iafeth</name> uero xv. His simul iunctis fiunt lxxii</incipit>
+                    </msItem>
+
+                    <msItem n="6" locusStart="89v" locusEnd="90r">
+                        <head type="CCC"><name type="author">Prosper of Aquitaine</name>, <title>Sententiae ex operibus
+                                S. Augustini</title>, no. 390</head>
+                        <head type="Nasmith">
+                            <title><name type="person">Sancti Augustini</name> salubris admonitio</title>
+                        </head>
+                        <rubric locus="89v"><name type="author">Sancti Augustini</name> salubris ammonitio ad
+                            compescendam superbiam</rubric>
+                        <incipit locusNew="89v">Diuitiis et floribus et maiorum nobilitate te iactas</incipit>
+                        <explicit locusNew="90r">Memor autem eris si te ipsum respexeris</explicit>
+                    </msItem>
+
+                    <msItem n="7" locusStart="90r" locusEnd="90r">
+                        <head type="CCC">
+                            <title>Poem Ve homini illi</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Terribilis ad negligentes invectio</title>
+                        </head>
+                        <rubric locus="90r">Terribilis ad neglegentes inuectio</rubric>
+                        <ab>i.</ab>
+                        <incipit locusNew="90r">
+                            <lg>
+                                <l>Ve homini illi homini hominem amanti</l>
+                                <l>Et deum uerum se diligentem non diligenti</l>
+                            </lg>
+                        </incipit>
+                        <ab>vii.</ab>
+                        <explicit locusNew="90r">
+                            <lg>
+                                <l>Ve illi homini mundanos amico(s) habenti</l>
+                                <l>Et angelorum amicitiam non facienti</l>
+                            </lg>
+                        </explicit>
+                    </msItem>
+
+                    <msItem n="8.1" locusStart="90v" locusEnd="91r">
+                        <head type="CCC"><name type="author">Prudentius</name>, <title>Peristephanon (prologue
+                                only)</title></head>
+                        <head type="Nasmith">
+                            <title>Versus seu hymni <name type="author">Prudentii</name> de historia veteris et novi
+                                testamenti</title>
+                        </head>
+                        <rubric locus="90v">Incipit de opusculis suis <name type="author">Prudentius</name> Immolat
+                            patri deo</rubric>
+                        <ab>(<hi rend="italic">Peristeph. prol.</hi>)</ab>
+                        <incipit locusNew="90v">Pius fidelis innocens pudicus</incipit>
+                        <explicit locusNew="91r">personasse christum. quo regente uiuimus</explicit>
+                    </msItem>
+
+                    <msItem n="8.2" locusStart="91r" locusEnd="98r">
+                        <head type="CCC"><name type="author">Prudentius</name>, <title>Dittochaeon</title></head>
+
+                        <rubric locus="91r"><name type="person">Adam</name> et <name type="person">Eua</name></rubric>
+                        <incipit locusNew="91r"><name type="person">Eua</name> columba fuit tunc candida nigra
+                            deinde</incipit>
+                        <ab>(<hi rend="italic">Dittochaeon</hi>)</ab>
+                        <ab>After f. <locus>96v</locus> should follow <locus>99r</locus>-<locus>101v</locus>, then
+                                <locus>97r</locus>-<locus>98r</locus>: ending <locus>98r</locus></ab>
+                        <explicit locus="98r">Et septem potuit signacula pandere solus</explicit>
+                        <ab>There are many glosses</ab>
+                    </msItem>
+
+                    <msItem n="9" locusStart="98v" locusEnd="103v">
+                        <head type="CCC">
+                            <title>Septem miracula mundi</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Septem miracula mundi</title>
+                        </head>
+                        <rubric locus="98v">De septem miraculis manu factis</rubric>
+                        <rubric locusNew="98v">Incipiunt septem miracula grandia mundi. Mirari poterit quisquis ea
+                            legerit</rubric>
+                        <incipit locusNew="98v">Primum ac maximum est miraculum. Nam capitolium saluum <name
+                                type="place">rome</name> habetur quod tutius est quam ciuitas quelibet</incipit>
+                        <ab>Continues f. <locus>102r</locus></ab>
+                        <rubric locusNew="102r">ii</rubric>
+                        <ab locusNew="102r">Pharus <name type="place">Alexandrina</name></ab>
+                        <rubric locusNew="102r">iii</rubric>
+                        <ab locusNew="102r">Colosi imago in insula <name type="place">rodo</name></ab>
+                        <rubric locusNew="102v">iv</rubric>
+                        <ab locusNew="102v">Bello proprium nomen rofontis simulacrum ferreum cum equo suo in <name
+                                type="place">smirna</name>
+                        </ab>
+                        <rubric locusNew="102v">v</rubric>
+                        <ab locusNew="102v">Theatrum in <name type="place">heraclea</name> urbe </ab>
+                        <rubric locusNew="103r">vi</rubric>
+                        <ab locusNew="103r">Balneum apud taneos </ab>
+                        <rubric locusNew="103r">vii</rubric>
+                        <ab locusNew="103r">Templum dianae </ab>
+                        <explicit locusNew="103v">Et super lx<abbr rend="superscript">ta</abbr> iiii arcus c. xx<abbr
+                                rend="superscript">ti</abbr> et viii<abbr rend="superscript">to</abbr> columne finem
+                            faciunt tam mirabilis aedificii</explicit>
+                        <rubric locusNew="103v">Expliciunt septem miracula grandia mundi</rubric>
+                        <ab>This text seems akin to that printed from the <ref type="ms" target="FCM220">Charleville MS.
+                                220</ref> (of cent. <date>xii</date>) in <ref type="bibl" target="CGM 1879"><hi
+                                    rend="italic">Cat. Gén. des MSS. des Dépts</hi>, 4to, vol. V</ref> p. 647</ab>
+                        <ab locusNew="103v">
+                            <lg>
+                                <l>Lectorem prudentem obsecro humiliter</l>
+                                <l>Ut hoc corrigere dignetur benigniter</l>
+                                <l>Uix hoc sic scriptor poterat scribere</l>
+                                <l>quia rectum exemplum non ualuit adquirere</l>
+                            </lg>
+                        </ab>
+                        <ab locusNew="103v">Among other scribbles and pen-trials on the last page is: <q><name
+                                    type="person">Henr.</name> dei gratia Wint. ecclesie minister <name type="person"
+                                    >Rich.</name> archidiacono suo sal</q>
+                        </ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, SP</p>
+                            <p>msCheck: RJR 10/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

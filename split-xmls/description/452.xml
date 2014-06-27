@@ -1,0 +1,153 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC452">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>452</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>G. 11</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>78</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Eadmer of Canterbury OSB, Historia nouorum in Anglia</head>
+                <head type="James">Eadmer's Historia novorum</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">175</height>
+                        <width unit="mm">118</width>
+                    </measureGrp>, <measureGrp type="James">6.9 x 4.8</measureGrp>, <extent>ff. 7 + 189 + 6</extent>,
+                        <layout>24 and 27 lines to a page</layout>. Cent. <origDate>xi</origDate>, <handNote>mainly in
+                        the <name type="place">Christ Church</name> hand</handNote>.</p>
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num> b<num>4</num> c (one). i<num>8</num>-vi<num>8</num>
+                            vii<num>10</num>-ix<num>10</num> x<num>8</num>-xv<num>8</num> xvi<num>10</num>
+                            xvii<num>8</num> xviii<num>10</num> xix<num>8</num>-xxi<num>8</num> (+1), d<num>4</num>
+                            e<num>2</num></collation>. There is <handNote>an obvious change of hand on p.
+                            <locus>298</locus></handNote>.</p>
+                <p function="Provenance">From <name type="place">Christ Church, Canterbury</name>. <ref type="bibl"
+                        target="James 1903">Ancient Libraries</ref>, p. 37, no. 188.</p>
+
+                <p>On ff. <locus>ir</locus>-<locus>iiv</locus> are <name type="person">Parkerian</name> notes:
+                        <locus>iiir</locus>-<locus>viv</locus> blank: <locus>viir</locus> has<decoNote> a miniature of
+                        cent. <date>xiii</date> of the <hi rend="italic">noli me tangere</hi> (<name type="person"
+                            >Mary</name> kneels on L. Tree in C. Christ on R. with long cross, draperies blue and red,
+                        ground burnished gold, two arches above: frame of pink and blue with gold corners: rough work).
+                        It comes from some other book</decoNote>.</p>
+
+                <p function="Additions" rend="afterContents">On the two last flyleaves are <name type="person"
+                        >Parkerian</name> notes.</p>
+
+                <p function="Research" rend="afterContents">The last edition of the text is that in the <ref type="bibl"
+                        target="Rule 1884">Rolls Series by Martin Rule, M.A.</ref> In his introduction he discusses the
+                    character of our MS. minutely. Further he has produced a yet more minute study of the book and its
+                    evolution in <ref type="bibl" target="Rule 1886">Camb. Ant. Soc. Proceedings, vol. VI (1886)</ref>,
+                    194-304, with facsimiles of pp. 16, 17 of this MS.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-vii + pp. 1-108 + 108a + 109a + 109-150 + 150a + 151a + 151-360 + 401-404 +
+                        ff. viii + c-d</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1" locusEnd="354">
+                        <head type="CCC">
+                            <name type="author">Eadmer of Canterbury OSB</name>, <title>Historia nouorum in <name
+                                    type="place">Anglia</name></title>
+                        </head>
+                        <head type="James"><name type="author">Eadmer</name>'s <title>Historia novorum</title></head>
+                        <head type="Nasmith"><title><name type="author">Eadmeri</name> historia novorum in <name
+                                    type="place">Anglia</name></title>, libri vi</head>
+
+                        <ab locusNew="1">
+                            <decoNote>Title in red capitals</decoNote>
+                        </ab>
+                        <rubric locus="1">Incipit Prefatio historie novorum in <name type="place">Anglia</name></rubric>
+                        <incipit locus="1">Cum presentis etatis uiros</incipit>
+                        <explicit locus="3">breui relatu progrediendum</explicit>
+                        <rubric locus="3">Explicit prefatio. Incipit liber primus historie novorum in <name type="place"
+                                >Anglia</name></rubric>
+                        <incipit locus="3">Regnante in <name type="place">anglia</name> gloriosissimo <name
+                                type="person">rege eadgaro</name></incipit>
+                        <ab locusNew="3">
+                            <decoNote>Initial in red</decoNote>
+                        </ab>
+                        <ab>After the first quire there are <layout>27 lines to a page</layout></ab>
+                        <ab>
+                            <decoNote>Some initials in purple occur</decoNote>
+                        </ab>
+                        <ab locus="77">Liber II</ab>
+                        <ab locus="134"><supplied>Liber</supplied> III</ab>
+                        <ab locus="184"><supplied>Liber</supplied> IV</ab>
+                        <ab locus="259"><supplied>Liber</supplied> V</ab>
+                        <ab locus="341"><supplied>Liber</supplied> VI</ab>
+                        <ab>There is a small hole in the inner side of pp. <locus>345</locus>-<locus>354</locus>
+                            <supplied>(now repaired)</supplied>
+                        </ab>
+                        <ab>Text ends</ab>
+                        <explicit locus="354">in medio aule maioris ecclesie decenter sepultus</explicit>
+                        <ab>Four blank leaves follow</ab>
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, but not by a second person</p>
+                            <p>msCheck: NJC 15/5/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

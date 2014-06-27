@@ -1,0 +1,263 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC199">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>199</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>N. 5</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>169</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Ieuan ap Sulien's Augustine on the Trinity</head>
+                <head type="James">Augustinus de Trinitate</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">275</height>
+                        <width unit="mm">180</width>
+                    </measureGrp>, <measureGrp type="James">11 x 7.5</measureGrp>, <extent>ff. 78 + 1</extent>,
+                        <layout>36 lines to a page</layout>. Cent. <origDate>xi</origDate>, <handNote>in a beautiful
+                        round, somewhat flat-topped hand</handNote>, evidently cognate to one of those in <ref type="ms"
+                        target="CCC153">MS 153 (Martianus Capella)</ref>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num> 2<num>8</num> 3<num>10</num> | gap | 4<num>12</num> (2, 5 canc.)
+                        | gap | 5<num>8</num> (wants 1) 6<num>8</num>-9<num>8</num> (2 canc. wants 5) 10<num>6?</num>
+                        (wants 6)</collation>.</p>
+
+                <p function="Provenance">I have little doubt that <name type="person">Bishop Davies</name> sent it to
+                        <name type="person">Parker</name>
+                    <hi rend="footnote"><ref type="bibl" target="Stanley 1722">Stanley in his Catalogue</ref> mentions
+                        two letters of the <name type="person">Bishop of St David's</name> to <name type="person"
+                            >Parker</name>
+                        <q>quae extant ad finem huius libri.</q> They are not now to be found.</hi> from <name
+                        type="place">St David's</name></p>
+
+                <p function="Additions">The flyleaf at the beginning <supplied>(f.
+                        <locus>ir</locus>-<locus>iv</locus>)</supplied> is part of a leaf of a
+                        <origDate>ixth(?)</origDate> cent. MS. <layout>in double columns</layout>
+                    <handNote>in Carolingian minuscule</handNote>, containing Homilies (Easter and Pentecost): col. 2 is
+                    incomplete. On the verso is the beginning of a Homily on: <q>Cum complerentur dies pentecostes ...
+                        pariter in eodem loco.</q><lb/>
+                    <q>B. Hoc est in caenaculo quod superius ascendisse narrantur. quicumque enim spiritu sancto
+                        adimpleri desiderant etc.</q></p>
+
+                <p function="Additions">At the top of f. <locus>1r</locus> a small patch has been cut out and another
+                    carefully sewn in with a lace of skin. This happens fairly often in the book. On the patch,
+                        <handNote>in a hand of cent. <origDate>xiii-xiv</origDate></handNote>, is:<lb/>
+                    <q>domine miserere mei sana animam meam quia peccaui tibi.</q></p>
+
+                <p function="Research" rend="withinContents"><name type="person">John the scribe of this book</name>
+                    painted the initial letters in the <ref type="ms" target="DTC050">Psalter of Ricemarch now at
+                        Trinity College, Dublin (no. 50 in <ref type="bibl" target="Abbott 1900">Abbott's
+                            Catalogue</ref>)</ref>, which was written by <name type="person">Ithael</name>, at some time
+                    between <date>1064</date> and <date>1082</date>. He died in <date>1136</date>. <name type="person"
+                        >Ricemarch his brother was Bishop of St David's</name>
+                    <date>1088-1096</date> succeeding his father <name type="person">Sulgen</name>: there is a lament by
+                        <name type="person">Ricemarch</name> in the <ref type="ms" target="LBLFC1">Cotton MS Faustina C.
+                        1</ref>.</p>
+                <p>
+                    <supplied agent="JamesCorrigenda">See description and facsimiles in <ref type="bibl"
+                            target="Lindsay 1912">Professor W. M. Lindsay's <hi rend="italic">Early Welsh Script</hi>,
+                            p. 32, pl. xvi</ref>.</supplied>
+                </p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i + 1-80 + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="wel">Latin and Welsh.</textLang>
+
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="76r">
+                        <head type="CCC">
+                            <name type="author">Augustine</name>, <title>De trinitate</title>
+                        </head>
+                        <rubric locus="1r">Incipiunt capitula libri primi. Sancti Aurelii Augustini Kartaginensis
+                            Episcopi De Sancta Trinitate</rubric>
+                        <ab>(<ref type="bibl" target="Migne 042">XLII 819</ref>)</ab>
+                        <ab locusNew="1r">Capitula follow</ab>
+                        <rubric locusNew="1r">Expliciunt capitula libri primi</rubric>
+                        <ab locusNew="1r">Some writing of cent. <origDate>xiii-xiv</origDate> has been erased below
+                            this</ab>
+                        <ab locus="1v">Verses of <name type="author">John, son of Sulgen</name></ab>
+                        <ab locusNew="1v">
+                            <lg>
+                                <l>In patris natique simul flatusque superni</l>
+                                <l>Eiusdem deitatis opus hoc nomine tango</l>
+                                <l>Omnipotens clemensque deus quem semper in altis</l>
+                                <l>Siderei cetus pariter solimeque phalanges</l>
+                                <l>Nomine mirifico uenerantur trinus et unus</l>
+                                <l>Ad plenum scriptoris opus mis perfice tandem</l>
+                                <l>Cvuncti (?) quem solito <name type="person">Johannes</name> famine fantur</l>
+                            </lg>
+                        </ab>
+                        <incipit locus="1v">Domino beatissimo ... pape aurilio augustinus in domino salutem</incipit>
+                        <rubric locusNew="1v">Incipit nunc prefatio siue prologus</rubric>
+                        <incipit locusNew="1v">De trinitate que deus summus</incipit>
+                        <explicit locusNew="2r">librorum iubeas anteponi</explicit>
+                        <rubric locusNew="2r">Explicit prefatio siue prologus</rubric>
+                        <rubric locus="2r">Incipit primus liber <name type="author">Sancti Aurelii Augustini
+                                Kartaginensis Episcopi</name> de Sancta Trinitate</rubric>
+                        <ab><decoNote>On these pages are three beautiful Celtic initials in vermilion, green, black,
+                                yellow, surrounded with dots. Subsequent initials to books and chapters are of the same
+                                fine execution</decoNote>. At the top of many pages are lines by the original scribe:
+                            many are partially cut off. His habit is to prefix a distich to the beginning of each
+                            book</ab>
+                        <ab>Before most of these headlines is a sign like a &#934;, a monogram of <name
+                                type="person">JO (for Johannes)</name>. The surviving lines are as follows</ab>
+                        <ab locus="2r">Tu genitor tu nate quidem tu spiritus alme | gap | finem pertingere dona</ab>
+                        <ab locus="4v">Si mihi concedat scribendi | gap | simul dederit sana uirtute foueri</ab>
+                        <ab locus="5r">almost wholly gone: Qui residet solio t ... per | gap | pergam ...</ab>
+                        <ab locus="5v">Antistes dauid open succurre precantis</ab>
+                        <ab locus="9v">Conditor humane sobolis pariterque redemptor<lb/> Nunc mihi presidium scribenti
+                            ferre memento</ab>
+                        <ab locus="10v">Auxilium dauidque tuum fer sancte paterne</ab>
+                        <ab locus="11r">Welsh inscription, discovered by <name type="person">Mr Bradshaw</name>,
+                            communicated by him to the <name type="person">Rev. D. Silvan Evans</name>, and <ref
+                                type="bibl" target="Evans 1874">printed (among <hi rend="italic">Miscellaneous
+                                    Notices</hi>) in <hi rend="italic">Archaeologia Cambrensis</hi>, 1874, Series 4,
+                                Vol. V, p. 340</ref>. <ref type="bibl" target="Bradshaw 1889a">Mr Bradshaw (<hi
+                                    rend="italic">Collected Papers</hi>, p. 465)</ref> says in speaking of the MS.
+                            before us: <q>In one case is a Welsh quatrain ... docked by the binder of part of its last
+                                line, but much resembling some lines in the Gododin, though not identical. Except the
+                                two poems in the <ref type="ms" target="CUL442">Juvencus MS.</ref>, it is the only scrap
+                                of verse written down before the <date>xiith century</date> as yet discovered, and so is
+                                most precious; especially as we can date it almost to a certainty, seeing it must have
+                                been written down some time <date>between 1080 and 1090</date>. It is in this scrap that
+                                the letter y first appears in Welsh, a letter which forms such a prominent feature in
+                                all later Welsh writing ... no one seems to have ventured upon a satisfactory version of
+                                it.</q><lb/> The note in <ref type="bibl" target="Evans 1874">
+                                <hi rend="italic">Arch. Cambr.</hi>
+                            </ref> says: <q>According to <name type="person">Mr Bradshaw</name> it was written ...
+                                    <date>between 1079 and 1089</date> at <name type="place">Llanbadarn Fawr in the
+                                    county of Cardigan</name>.</q><lb/> The lines slope upward and are cut off at the
+                            end.<lb/> Amdinnit trynit trylenn &#183; Amtrybann teirbann treisguenn &#183; Amcen
+                            creiriou (indistinguishable to me from creirum) gurth cyrrguenn &#183; Amdifuys a ...
+                            patern ...<lb/>
+                            <q>The verses</q> says <ref type="bibl" target="Bradshaw 1889">Mr Bradshaw</ref>
+                            <q>are marked by the point and the coloured initial, as well as by the rhyme.</q></ab>
+                        <ab locus="12v">Liber I ends</ab>
+                        <rubric locus="12v">Explicit liber primus Nunc secundus sequitur liber de trinitate</rubric>
+                        <ab locus="12v">(top)</ab>
+                        <incipit locus="12v">Incipit ... g(enitor) ... sa tuque Creator<lb/> Huius et ad finem libri
+                            perducito culmen</incipit>
+                        <ab locus="21v">(Liber III)</ab>
+                        <incipit locusNew="21v">Tertius orditur liber, at pater adde iuuamen<lb/> Tangat ut optatum
+                            diuino munere finem</incipit>
+                        <ab locus="24r">ps. ... || ... ti [? funde. pande] pretende fauorem</ab>
+                        <ab locus="26v">Liber III breaks off in ch. 23</ab>
+                        <explicit locus="26v">Et si dicimus prophe ...</explicit>
+                        <ab>Liber IV is gone</ab>
+                        <ab>Liber V begins at f. <locus>27r</locus>; at top</ab>
+                        <incipit locus="27r">Lumine qui quinto nantes uolucresque creauit<lb/> Quinto nunc libro
+                            scriptoris facta secundet</incipit>
+                        <ab locus="31v">(Liber VI)</ab>
+                        <incipit locus="31v">Sextus nunc oritur fastus. Tu conditor adde<lb/> Presidium semper scribenti
+                            numine largo</incipit>
+                        <ab locus="35r">(Liber VII)</ab>
+                        <incipit locus="35r">Septimus assurgit nodoso iure libellus<lb/> Auxilium tu Christe tuum nunc
+                            pandere cura</incipit>
+                        <ab>Liber VII breaks off in ch. 19</ab>
+                        <explicit locusNew="36v">Et in ipso ambulantes thronum ad ipsum</explicit>
+                        <ab locus="37r"><supplied>This folio</supplied> begins in Liber XI 16</ab>
+                        <incipit locusNew="37r">fuit separata. Sed quam post (?) coeram separata manet</incipit>
+                        <ab locus="41v">(Liber XII)</ab>
+                        <incipit locus="41v">Arbiter ob merita cunctis qui iure rependis<lb/> Ultima tangendo duodenum
+                            conde uolumen</incipit>
+                        <ab locus="47v">(Liber XIII)</ab>
+                        <incipit locus="47v">Tresdecimi norma radiat nunc arte polita,<lb/> Cuncta sed omnipotens
+                            transactis finibus aptet</incipit>
+                        <ab locus="54r">(Liber XIV)</ab>
+                        <incipit locus="54r">Conditor almipotens eternis sedibus asstans<lb/> Quartum nunc decimum iusto
+                            moderamine comple</incipit>
+                        <ab locus="62v">(Liber XV)</ab>
+                        <incipit locus="62v">Alme tonans clemensque deus qui trinus et unus<lb/> Quinti iam decimi
+                            summam tu largiter auge</incipit>
+                        <ab locus="76r">Text ends</ab>
+                        <explicit locus="76r">Et tu ignosce et tui.<lb/> Quini ter libri magno sudore peracti<lb/> Sunt
+                            Augustino tractati presule summo</explicit>
+                        <ab locusNew="76r">Then follows the poem of the scribe, <name type="author">John son of Sulgen
+                                and brother of Ricemarch</name>: last printed by <ref type="bibl"
+                                target="Haddan and Stubbs 1869">Haddan and Stubbs <hi rend="italic">Councils</hi> I
+                                663</ref></ab>
+                        <incipit locus="76r">Arbiter altithrone nutu qui cuncta gubernas</incipit>
+                        <ab locus="78r">ending</ab>
+                        <explicit locus="78r">Alleluia pio cantu sine fine per euum. Amen</explicit>
+                        <ab>At top of ff. <locus>77v</locus>, <locus>78r</locus> is a note <handNote>in the original
+                                hand</handNote></ab>
+                        <ab>Ag. Natura est que nec motatur per tempora. Nec variatur. Nec inseparabilis. Sed constat in
+                            se. Ut stabilitas in terra. Grauitas in lapidibus. Humiditas in aqua Leuitas in acre et in
+                            pluma. Claritas et Calor in igne</ab>
+                        <ab>On f. <locus>78v</locus> are notes in a hand of cent. <origDate>xiii-xiv</origDate> which
+                            has annotated the text throughout</ab>
+                        <ab>On the flyleaves (ff. <locus>79r</locus>-<locus>80v</locus>) are notes of <name
+                                type="author">Parker</name>ian date on <name type="person">King Lucius</name>, <name
+                                type="person">Dubritius</name>, etc.</ab>
+
+
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: RJR 15/12/2008</p>
+                            <p>remarks: <hi>Still need to add in figures for photos of missing Welsh bits
+                                    12-15-2008</hi></p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

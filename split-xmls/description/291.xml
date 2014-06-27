@@ -1,0 +1,235 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC291">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>291</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>A. 10</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>10</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Computistical Material by Bede and others</head>
+                <head type="James">Beda de Temporibus, etc.</head>
+
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">252</height>
+                        <width unit="mm">160</width>
+                    </measureGrp><measureGrp type="James">10 x 6.5</measureGrp>, <extent>ff. 4 + 145</extent>,
+                        <layout>29 (and 53) lines to a page</layout>. Cent. <origDate>xi-xii</origDate>, <handNote>in a
+                        beautiful round hand of the same school as that of the Missal <ref type="ms" target="CCC270">MS
+                            270</ref></handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>4</num> 1<num>8</num>-17<num>8</num> | 18<num>8</num> (+1)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>legenda</secFol>.</p>
+
+                <p function="Provenance">From <name type="place">St Augustine's, Canterbury</name>. On f.
+                        <locus>iv</locus> a late mark (<origDate>xv</origDate>): <q><name type="author">Beda</name> de
+                        temporibus de librario <name type="place">Sancti Augustini</name></q>. On f. <locus>iir</locus>:
+                            <q><name type="author">Beda</name> de temporibus Dist. 6. Gra. 1</q>: cf. <ref type="bibl"
+                        target="James 1903"><hi rend="italic">Ancient Libraries</hi>, p. 238, no. 444</ref> (<name
+                        type="author">Beda</name> de temporibus cum A. 2 fo. in libro vel prohemio legenda D. 6. G.
+                    1).</p>
+                <p function="Research">
+                    <supplied agent="JamesCorrigenda">Mentioned in <ref type="bibl" target="Pertz 1843">MGH. <hi
+                                rend="italic">Chron. min</hi>. I 233</ref>.</supplied>
+                </p>
+
+                <p><locus>iiv</locus>-<locus>ivv</locus> blank.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a + i-iv + 1-145 + b</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="112r">
+                        <head type="CCC"><name type="author">Bede the Venerable</name>, <title>De temporum
+                                ratione</title></head>
+                        <head type="Nasmith">
+                            <title><name type="author">Beda</name> de temporibus et temporum ratione</title>
+                        </head>
+                        <ab locusNew="1r">
+                            <decoNote>A very gaudy initial to the prologue</decoNote>
+                        </ab>
+                        <rubric locusNew="1r">Incipit Prefatio libri sequentis de natura rerum</rubric>
+                        <incipit locus="1r">De natura rerum et ratione temporum duos quondam</incipit>
+                        <ab>(<ref type="bibl" target="Migne 090"><supplied>P. L.</supplied> XC 293, 685</ref>)</ab>
+                        <explicit locusNew="2r">iura custodiat</explicit>
+                        <rubric locusNew="2r">Explicit prefatio</rubric>
+
+                        <rubric locus="2r">Incipiunt capitula (72)</rubric>
+                        <rubric locusNew="3r">Incipit Liber <name type="author">Bedae</name> de temporibus</rubric>
+                        <incipit locus="2r" locusNew="3r">De temporum ratione domino iuuante dicturi</incipit>
+                        <ab locusNew="3r">
+                            <decoNote>Very gay initial</decoNote>
+                        </ab>
+                        <ab>
+                            <handNote>Change of scribe at f. <locus>33r</locus> (?) and <locus>49r</locus></handNote>
+                        </ab>
+                        <ab>Ends</ab>
+                        <explicit locus="112r">mereamur accipere palmam</explicit>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="112v" locusEnd="131v">
+                        <head type="CCC">
+                            <title>Computistical material</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Dissertatio de anno, etc.</title>
+                        </head>
+
+                        <head type="James">
+                            <title>De Ratione anni, etc.</title>
+                        </head>
+                        <incipit locus="112v">Ianuarius Augustus et december iiii nonas habent</incipit>
+                        <ab>See the <ref type="bibl" target="Bede 1612">Cologne ed. 1612 I, p. 227</ref></ab>
+                        <rubric locusNew="113r">Ad feriam inueniendam secundum <name type="person"
+                            >Dionysium</name></rubric>
+                        <ab>Ends with</ab>
+                        <rubric locusNew="130r">De Ratione Bissexti</rubric>
+                        <incipit locus="130r">Si nosse desideras</incipit>
+                        <rubric locusNew="130r">De feria kal. Ian.</rubric>
+                        <incipit locusNew="130r">Si uero feria</incipit>
+                        <incipit locusNew="130r">Est etiam argumentum</incipit>
+                        <explicit locusNew="130r">Sic fac de ceteris</explicit>
+                        <ab locus="130v">Table of numbers</ab>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="132r" locusEnd="132v">
+                        <head type="CCC"><name type="author">Isidore of Seville</name>, <title>De natura rerum (excerpt
+                                on seven wandering stars from chapter 23)</title></head>
+                        <head type="Nasmith">
+                            <title><name type="author">Isidorus</name> episcopus de positione septem stellarum
+                                errantium</title>
+                        </head>
+
+                        <rubric locusNew="132r"><name type="author">Ysidori</name> Episcopi de positione vii stellarum
+                            errantium</rubric>
+                        <incipit locusNew="132r">In ambitu quippe</incipit>
+                        <explicit locusNew="132v">saturnus xxx</explicit>
+                        <ab locusNew="132v">Names of winds</ab>
+                        <incipit locus="132v">Septentrio Circius</incipit>
+                        <explicit locusNew="132v">Africus. Corus</explicit>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="132v" locusEnd="136v">
+                        <head type="CCC"><name type="author">Bede the Venerable</name>, <title>Epistola ad <name
+                                    type="person">Wicthedum</name> de aequinoctio uel de paschae celebratione</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Beda</name> de aequinoctio</title>
+                        </head>
+
+                        <ab>Later title (<origDate>xv</origDate>)</ab>
+                        <rubric locusNew="132v">Epistola uenerabili <name type="author">Bede</name> presbiteri de
+                            equinoctio iuxta anatholium</rubric>
+                        <incipit locusNew="132v">Reuerentissimo ... fratri <name type="person">uicthed</name></incipit>
+                        <explicit locusNew="136v">equinoctium fuisse confirmet</explicit>
+
+
+                    </msItem>
+
+                    <msItem n="5" locusStart="137r" locusEnd="138v">
+                        <head type="CCC">
+                            <title>Texts and tables on calculation</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Tabula et ratio numerandi</title>
+                        </head>
+
+                        <ab>The last quire <handNote>in a much smaller hand of the same school</handNote></ab>
+                        <incipit locus="137r">Sicut ratio numeri nimis difficilis</incipit>
+                        <explicit locusNew="138v">uel nongentesimus uel nongesimus</explicit>
+
+
+                    </msItem>
+
+                    <msItem n="6" locusStart="138v" locusEnd="145v">
+                        <head type="CCC">
+                            <title>Computus tables</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Tabulae paschales</title>
+                        </head>
+                        <ab locus="138v">Space for table</ab>
+                        <ab locus="138v">On the 19-year cycle</ab>
+                        <incipit locusNew="138v">Subscripta figura in decem et nouem partes</incipit>
+                        <explicit locusNew="139r">aut eiusdem anni epactam siue terminum pascalem</explicit>
+                        <ab locus="139r">Table of the 19-year cycle with Concurrents, Epacts, Easters, weeks from
+                            Christmas to Easter, from Pentecost to Midsummer, from Pentecost to Advent</ab>
+                        <incipit locus="140v">In subscripto paschali cyclo</incipit>
+                        <explicit locusNew="140v">ultimus lunas diei pasche</explicit>
+                        <ab locusNew="140v">Paschal table from <date>1064</date> to <date>1595</date></ab>
+                        <ab>f. <locus>145v</locus> blank</ab>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: RJR 25.09.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

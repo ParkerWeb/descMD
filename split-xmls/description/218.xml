@@ -1,0 +1,161 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC218">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>218</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Lib. ab Al. 15</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Henry, Duke of Lancaster, Le livre des seintes medicines </head>
+                <head type="James">Henry of Lancaster, Liure des Seintes Medicines</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">260</height>
+                        <width unit="mm">165</width>
+                    </measureGrp>, <measureGrp type="James">10.4 x 6.5</measureGrp>, <extent>ff. 70 + 2</extent>,
+                        <layout>41 lines to a page</layout>. Cent. <origDate>xiv late</origDate>, <handNote>very clearly
+                        written</handNote>. In old skin wrapper folding over.</p>
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num> i<num>8</num>-vii<num>8</num> viii<num>12</num>
+                    ix<num>2</num></collation>.</p>
+
+                <p function="Research" rend="withinContents">Another copy of art. 1 is at <name type="place">Stonyhurst
+                        College</name> (<ref type="bibl" target="HMC 1870">
+                        <hi rend="italic">Hist. MSS. Comm. 1st Report</hi> , p. 145</ref>). The author was probably the
+                    second <name type="author">Henry of Lancaster</name>, who died in <date>1361</date>. It should be
+                    noted that he was looked upon in early times as the Founder of the College: he is so described, for
+                    instance, in the <ref type="ms" target="CCCAB2">earliest Inventory of the College plate</ref> (about
+                        <date>1376</date>). See also <ref type="bibl" target="Masters and Lamb 1831">Lamb's ed. of
+                        Masters's <hi rend="italic">History</hi>, pp. 22, 23.</ref></p>
+
+                <p type="CCC">
+                    <foliation>Unfoliated at present</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="frm" otherLangs="lat">Anglo-Norman and Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="68r">
+                        <head type="CCC">
+                            <name type="author">Henry, Duke of Lancaster</name>, <title>Le livre des seintes
+                                medicines</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Livre de seintes medicines</title>
+                        </head>
+                        <ab>
+                            <quote>Cest liuere estoit comence et parfait en lan de grace <date>mill. CCCLIIII</date> et
+                                le fist un fol cheitif pechour qi len appelle <name type="author">ERTSACNAL ED CUD
+                                    IRNEH</name>, a qi diex sez meffaitz pardoint. Amen. Amen. Amen.</quote>
+                        </ab>
+                        <ab>
+                            <quote>Ex hac inscriptione apparet autorem fuisse <name type="author">Henricum ducem
+                                    Lancastriae</name>; verba enim <name type="author">Ertsacnal ed cud irneh</name> si
+                                a dextra ad sinistram legantur, sonant <name type="author">Henri duc de
+                                Lancastre</name></quote>
+                        </ab>
+
+                        <rubric locusNew="1r">In nomine patris, etc.</rubric>
+                        <rubric locusNew="1r">Tres douz sire Jesu crist ceo qe ieo par laide de vous pense cy en apres a
+                            escrire Jeo vous pri et requer Sire humblement qil vous plaise a moy doner grace de ensi
+                            cest eneure comencer et accompler qe ceo soit a la plaisance de vous et al honour de vostre
+                            tres douce mere et al loange de toutz les seins et seintes de paradis. Amen</rubric>
+                        <incipit locusNew="1r">Beau sire diex de trois choses vous sui ieo principalment tenuz a
+                            dire</incipit>
+                        <ab>The whole treatise is addressed to Christ and the Virgin</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="68r">Seins apostles martires confessours virges et veues Ensi soit il amen par
+                            seinte charite. Amen Amen</explicit>
+                        <ab locusNew="68r">Then the colophon as given by Nasmith <supplied>above</supplied></ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="68r" locusEnd="70v">
+                        <head type="CCC">
+                            <name type="author">Louis IX of France</name>, <title>Monitiones to his son <name
+                                    type="person">Philip</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Monitiones quas <name type="person">Ludowicus rex Francorum</name> in castris juxta
+                                Cartaginem moribundus fecit <name type="person">Philippo filio suo</name> et manu
+                                propria scripsit</title>
+                        </head>
+                        <ab>Then <handNote>in another hand</handNote></ab>
+                        <incipit locusNew="68r">A. d. <date>mill. cc<abbr rend="superscript">mo</abbr>
+                                septuagesimo</date> obiit apud</incipit>
+                        <ab locus="70r" locusNew="69r">Ending</ab>
+                        <explicit locus="70r" locusNew="69r">Ad ipsum videndum amandum et laudandum sine fine Amen,
+                            finis</explicit>
+                        <ab>On <locus locusNew="69v">70v</locus> is written</ab>
+                        <ab locusNew="69v">
+                            <q><name type="person">Mayster ffletewood R.</name> ff. (?)</q>
+                        </ab>
+
+
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJM 3/12/2008</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

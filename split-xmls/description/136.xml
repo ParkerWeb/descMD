@@ -1,0 +1,193 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC136">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>136</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>P. 20</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>251</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Treatises on Confession and Preaching</head>
+                <head type="James">Summa Raymundi etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">315</height>
+                        <width unit="mm">190</width>
+                    </measureGrp><measureGrp type="James">12.25 x 7.5</measureGrp>, <extent>ff. 119 + 2</extent>,
+                        <layout>mostly double columns of 52 lines</layout>. Cent. <origDate>xiii</origDate> (additions
+                        <date>late xiii</date>), <handNote>in a good small hand</handNote>. </p>
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num> 1<num>8</num>-13<num>8</num> (wants 5-7) | 14<num>8</num>
+                        15<num>10</num></collation>.</p>
+                <p function="Provenance">On the last leaf <supplied agent="NJC">(f. <locus>119r</locus>)</supplied> at
+                    top (<origDate>xiv</origDate>): <q>Liber <name type="place">domus de angleseye</name> acomodatus
+                            <name type="person">Willelmo de bromptoun rectori ecclesie de Brecham</name> ad restituendum
+                        sub pena xs</q>.</p>
+                <p function="Additions">On f. <locus>iv</locus> at top (<origDate>xiii</origDate>): <q>Liber <name
+                            type="author">Reymund</name>. Cum tract. de sacramentis ecclesie et articulis fidei</q>.</p>
+                <p function="Additions">On f. <locus>iir</locus> opposite, the number 43. At top
+                        (<origDate>xiii</origDate>, very faint): <q>Hoc est testamentum <name type="person">Margarete
+                            Lesn ale</name> by <name type="person">Michaelis Piscatoris de Haliffe</name></q>.</p>
+
+                <p function="Additions">ff. <locus>ir</locus>-<locus>iiv</locus> are from a <origDate>xiii</origDate>th
+                    century copy of the <note type="title">Digest</note> unrubricated.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-ii + 1-119 + c-d</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="100r">
+                        <head type="CCC">
+                            <name type="author">Raymond of Peñafort OP</name>, <title>Summa de casibus
+                                poenitentiae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Raymundi de Penna-forti,</name> summa de casibus penitentialibus,
+                                libri iv</title>
+                        </head>
+
+                        <incipit locus="1r">Quoniam ut ait <name type="person">ieronimus</name></incipit>
+                        <ab>
+                            <decoNote>Good initials, red and blue, flourished</decoNote>
+                        </ab>
+                        <ab>Liber iv ends</ab>
+                        <explicit locus="100r">corrigat et emendet</explicit>
+                        <ab locusNew="100r">Follows, a list of <q>Duodecim abusiones seculi</q></ab>
+                    </msItem>
+
+                    <msItem n="2" locusStart="100v" locusEnd="101v">
+                        <head type="CCC">
+                            <title>Tractatus de uiciis</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Tractatus breviusculus de vana gloria, avaritia, &amp;c.</title>
+                        </head>
+
+                        <ab><handNote>In a later hand</handNote>, pale ink, single lines</ab>
+                        <incipit locus="100v">Vana gloria ideo ex genere est veniale</incipit>
+                        <ab>Ends on <q>Luxuria</q></ab>
+                        <explicit locusNew="101r">corrupta est in nutritiua sicut in generatiua</explicit>
+                        <ab><locus>101v</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="3" locusStart="102r" locusEnd="107r">
+                        <head type="CCC">
+                            <name type="author">Robert Grosseteste</name>, <title>Templum Domini</title></head>
+                        <head type="Nasmith">
+                            <title><name type="author">Roberti Grosetest episcopi Lincoln.</name> tractatus de
+                                sacramentis ecclesiae et articulis fidei</title>
+                        </head>
+
+                        <rubric locusNew="102r">Incipit tractatus <name type="author">magistri Roberti Lincolniensis
+                                epischopi</name> de sacramentis ecclesie et articulis fidei</rubric>
+                        <incipit locus="102r">Templum dei sanctum est</incipit>
+                        <ab>
+                            <handNote>In a <origDate>late xiii</origDate>th century hand, pointed</handNote>
+                        </ab>
+                        <ab>Ends</ab>
+                        <explicit locusNew="107r">causa pulcritudinis et fornicationis</explicit>
+                    </msItem>
+
+                    <msItem n="4" locusStart="107r" locusEnd="109r">
+                        <head type="CCC">
+                            <name type="author">Robert Grosseteste</name>, <title>De confessione (sermo 15)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Ejusdem tractatus de confessione</title>
+                        </head>
+
+                        <rubric locusNew="107r">Sermo idest tractatus uenerabilis patris <name type="author">R.
+                                Groseteste</name> de confessione in primis asignat rationes quare sit
+                            confitendum</rubric>
+                        <incipit locus="107r">Quoniam cogitatio hominis confitebitur tibi</incipit>
+                        <explicit locusNew="109r">confitendi potentiam</explicit>
+
+                    </msItem>
+
+                    <msItem n="5" locusStart="109r" locusEnd="118v">
+                        <head type="CCC">
+                            <name type="author">Alanus ab Insula (Alain de Lille)</name>, <title>Summa de arte
+                                praedicandi</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Ars predicandi</title>
+                        </head>
+
+                        <ab>Title in upper margin</ab>
+                        <ab locusNew="109r">Incipit ars predicandi (rubric not added)</ab>
+                        <incipit locus="109r">Vidit <name type="person">iacob</name> scalam etc. Scala ista perfectus
+                            (!) est uiri catholici</incipit>
+                        <explicit locusNew="114v">patientia miseriarum portus est</explicit>
+                        <ab>A collection of exempla follows</ab>
+                        <incipit locusNew="114v">De latrone et eius suspendiculo</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="118v">Quedam mulier in obitu uiri sui noluit dare nisi medietatem unius
+                            linthiaminis. hoc percipiente uiro eius distribuit omnia bona sua</explicit>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: NJC 27/11/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

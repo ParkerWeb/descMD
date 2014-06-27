@@ -1,0 +1,2776 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC111">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>111</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Misc. G</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>316</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">The Bath Cartulary and related items. Antiquarian Transcripts of Charters</head>
+                <head type="James">Registrum Chartarum Abbatiae Bathoniensis. Apographa Chartarum, etc.</head>
+                <p function="Codicology"><material>Vellum and paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">300</height>
+                        <width unit="mm">220</width>
+                    </measureGrp>, <measureGrp type="James">12 x 8.6</measureGrp>, <extent>pp. 454</extent>. Cent.
+                        <origDate>xi-xvi</origDate>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>4</num> 2<num>12</num> 3<num>6</num> 4 (five leaves) || 5<num>8</num> 6<num>6</num>
+                        (+ a slip after 2) 7<num>8</num>-9<num>8</num> 10<num>4</num> (+ 1 paper leaf after 3). The rest
+                        of the volume is of paper</collation>.</p>
+
+                <p><label>Collation:</label> Diagram of quire 4: f. 5 (pp. <locus>7</locus>, <locus>8</locus>) is of
+                    cent. <origDate>xi</origDate>.<lb/><figure xml:id="figure236a"/></p>
+
+                <p type="CCC">
+                    <foliation>pp. a-f + (1-2 missing) + 3-74 + 74a-d +75-138 + 138a-b + 139-226 + 226a-d + 227-382 +
+                        382a-b + 383-410 + 410a + 411a + 411-414 + 415-454 + g-l</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="ang">Latin and Old English.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="4" locusEnd="4">
+                        <head type="CCC">
+                            <title>Homagium factum priori <name type="place">Bathonensi</name> pro messuagio </title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Homagium factum priori <name type="place">Bathonensi</name> pro messuagio, etc. in
+                                    <name type="place">Olveston</name> per <name type="person">Ioannem de
+                                Weston</name></title>
+                        </head>
+
+                        <ab>
+                            <quote>[<handNote>manu neoterica</handNote>]</quote>
+                        </ab>
+
+                        <ab>The paging begins with 3: p. <locus>3</locus> blank</ab>
+                        <ab>On p. <locus>4</locus>, of cent. <origDate>xiv</origDate> (<date>44 Edw. III</date>)</ab>
+                    </msItem>
+
+                    <msItem n="2" locusStart="5" locusEnd="5">
+                        <head type="CCC">
+                            <title>Ad parcum de <name type="place">Westberi</name> claudendum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Qui tenentur claudere parcum de <name type="place">Westberi</name></title>
+                        </head>
+                        <ab>Of cent. <origDate>xii</origDate></ab>
+                        <ab>Followed by another copy of 1</ab>
+                    </msItem>
+
+                    <msItem n="3" locusStart="6" locusEnd="6">
+                        <head type="CCC">
+                            <title>Relic list</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Reliquiae sanctorum</title>
+                        </head>
+                        <ab>A continuation <handNote>in another hand</handNote> of the list of relics 4 (1)</ab>
+                        <ab>It is in Latin, of cent. <origDate>xiii (?)</origDate></ab>
+                    </msItem>
+
+                    <msItem n="4" locusStart="7" locusEnd="10">
+                        <head type="CCC">
+                            <title>Anglo-Saxon relic lists and manumissions from <name type="place">Bath</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Folium a libro evangeliorum Saxonico, hujus bibliothecae Cod. CXL avulsum, in quo
+                                continentur Saxonice</title>
+                        </head>
+                        <ab>
+                            <quote>(1) Scriptum Saxonicum de reliquiis sanctorum quas in scriniis <name type="place"
+                                    >Bathoniensis ecclesiae</name> reperierunt <name type="person">Ælsigus abbas</name>
+                                et fratres ejusdem monasterii.<lb/> (2) Reliquiae quas <name type="place">ecclesiae
+                                    Bathoniensi</name> acquisivit <name type="person">Heorstanus</name>.<lb/> (3)
+                                Reliquiae quas <name type="place">ecclesiae Bathoniensi</name> dedit <name type="person"
+                                    >Wulwinus de Readington</name>.<lb/> (4) Testificatio ingenuitatis <name
+                                    type="person">Leofenothi Ægelnothi filii de Korstune</name>, qui seipsum cum prole
+                                emit ex <name type="person">Ælfsigo abbate</name> et <name type="place">conventu
+                                    Bathoniensi</name> 5 oris et 12 ovibus.<lb/> (5) Manumissio <name type="person"
+                                    >Wilwigi</name> quem ex <name type="person">Ælfsigo abbate</name> emerat pater ejus
+                                    <name type="person">Ægelsigus de Linncume</name>.<lb/> (6) Manumissio <name
+                                    type="person">Hildesigi</name>, quem ex <name type="person">Ælfsigo abbate</name>
+                                emerat pater suus <name type="person">Ægelsigus Byttici filius</name> 60 denariis.<lb/>
+                                (7) Manumissio <name type="person">Leofgifae cognomento Dægean de Northstoke</name> cum
+                                prole sua quem ex <name type="person">Ælfsigo abbate</name> emit <name type="person"
+                                    >Godwigus cognomento Bucca</name>.<lb/> (8) Manumissio <name type="person">Godwini
+                                    cognomento Bace de Stantune</name> per <name type="person">Ælfsigum
+                                abbatem</name></quote>
+                        </ab>
+                        <ab>pp. <locus>7</locus>-<locus>8</locus> are of cent. <origDate>xi</origDate>
+                            <handNote>in at least two hands</handNote></ab>
+                        <ab>The manumissions are in <ref type="bibl" target="Kemble 1839-1848">Kemble, <hi rend="italic"
+                                    >Codex diplomaticus aevi Saxonice</hi> nos. 933-937</ref>. <supplied>
+                                <ref type="bibl" target="Cameron 1973">Cameron B16.2.4 (relic-lists), B16.2.3
+                                    (manumissions)</ref>
+                            </supplied></ab>
+                        <ab locus="9">pp. <locus>9</locus>-<locus>10</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="5" locusStart="11" locusEnd="26">
+                        <head type="CCC">
+                            <title>Gospel lections with collects</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Evangelia legenda in aliquot festis, et orationes dicendae</title>
+                        </head>
+                        <ab><layout>27 lines to a page</layout>, <handNote>in a fine large black hand</handNote> of
+                            cent. <origDate>xii</origDate></ab>
+                        <ab>The Gospels (which are followed by the Collects) are those for:<lb/> 1. Christmas.<lb/> 2.
+                                <name type="person">St Stephen</name>.<lb/> 3. <name type="person">St John
+                                Evangelist</name>.<lb/> 4. Innocents.<lb/> 5. Circumcision.<lb/> 6. Epiphany.<lb/> 7.
+                            Purification.<lb/> 8. Easter.<lb/> 9. Easter Monday.<lb/> 10. Easter Tuesday.<lb/> 11.
+                            Ascension.<lb/> 12. Whitsunday.<lb/> 13. Whitmonday.<lb/> 14. Whitsun Tuesday.<lb/> 15.
+                            Trinity.<lb/> 16. Nativity of <name type="person">John Baptist</name>.<lb/> 17. <name
+                                type="person">St Peter</name> and <name type="person">St Paul</name>.<lb/> 18.
+                            Assumption.<lb/> 19. Nativity of Virgin.<lb/> 20. Exaltation of Cross.<lb/> 21.
+                            Michaelmas.<lb/> 22. All Saints</ab>
+                        <ab locus="26">At bottom is <q>Te decet laus</q>
+                            <decoNote>with musical notes</decoNote></ab>
+                    </msItem>
+
+                    <msItem n="6" locusStart="27" locusEnd="28">
+                        <head type="CCC">
+                            <title>Genealogy of the kings of <name type="place">England</name>
+                            </title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Genealogia regum Angliae ab <name type="person">Adamo</name> ad <name type="person"
+                                    >Stephanum</name> regem</title>
+                        </head>
+                        <ab><layout>In double columns of 27 lines</layout>. Cent. <origDate>xii</origDate></ab>
+                        <ab>
+                            <decoNote>Title in red capitals</decoNote>
+                        </ab>
+                        <rubric locusNew="27">Incipit Regalis prosapia Anglorum descendens ab <name type="person"
+                                >Adam</name></rubric>
+                        <incipit locusNew="27"><name type="person">Adam</name> primus homo genuit filium nomine <name
+                                type="person">Seth</name></incipit>
+                        <ab>Ends</ab>
+                        <explicit locusNew="28">habuitque successorem <name type="person">Stephanum</name> nepotem suum
+                            qui sex regnauit annis</explicit>
+                        <ab>(added probably <handNote>by the original hand</handNote>)</ab>
+                    </msItem>
+
+                    <msItem n="7" locusStart="29" locusEnd="37">
+                        <head type="CCC">
+                            <title>On the kingdoms of the heptarchy, from <name type="author">John of
+                                Worcester</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Brevis historia de septem regnis heptarchiae ex <name type="author">Florentio
+                                    Wigorniensi</name></title>
+                        </head>
+                        <ab><handNote>Another hand</handNote>: <layout>double columns of 42 lines</layout></ab>
+                        <rubric locusNew="29">Incipit principium Regum Cantuariorum</rubric>
+                        <incipit locusNew="29">Angli saxones imperatoris <name type="person">Marciani</name>
+                            tempore</incipit>
+                        <ab><ref type="bibl" target="Thorpe 1848">Florence of Worcester, ed. Thorpe I 258</ref>, cf.
+                                <ref type="ms" target="CCC092">MS 92</ref></ab>
+                        <ab>Regnum <name type="place">Westsaxonum</name></ab>
+                        <ab>Ends</ab>
+                        <explicit locus="36">uicecomitissa andegauensium</explicit>
+                        <ab>(<ref type="bibl" target="Thorpe 1848">Florence of Worcester, ed. Thorpe I 276, note
+                            2</ref>)</ab>
+                        <ab>Followed by</ab>
+                        <rubric locus="36">De anima <name type="person">karoli</name> principis qui res abstulit ss.
+                            ecclesiarum ob hoc dampnata</rubric>
+                        <rubric locus="36">De dignitate <name type="person">karoli magni</name> tempore <name
+                                type="person">adriani pape</name></rubric>
+                        <rubric locus="37">De annis solaribus imperante <name type="person">karolo magno</name></rubric>
+                        <rubric locus="37">De situ loci qui <name type="place">Candida casa</name> uocatur</rubric>
+                        <rubric locus="37">De situ <name type="place">Æthelingia</name></rubric>
+                        <explicit locusNew="37">situs est idem locus in <name type="place">sumersetensi</name>
+                            pago</explicit>
+                    </msItem>
+
+                    <msItem n="8" locusStart="37" locusEnd="46">
+                        <head type="CCC">
+                            <title><name type="author">Sæwulf</name>'s pilgrimage to <name type="place">Jerusalem</name>
+                                <date>1102-1103</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Sæwulfus</name> de situ <name type="place">Hierusalem</name>,
+                                sive iter ejus ad terram sanctam, et descriptio ejusdem</title>
+                        </head>
+                        <rubric locus="37">Incipit certa relatio de situ <name type="place">ierusalem</name></rubric>
+                        <incipit locusNew="37">Ego <name type="person">sæwlfus</name> licet indignus</incipit>
+                        <explicit locusNew="">unde <name type="person">helena</name> rapta fuit a paridi <name
+                                type="person">alexandro</name> testantibus grecis</explicit>
+                        <ab>Ed. <ref type="bibl" target="d'Avezac 1839a">D'Avezac <hi rend="italic">Recueil de Voyages
+                                    et de M&#233;moires publiés par la Société de G&#233;ographie</hi>, Paris
+                                1839 IV 817-54</ref>. See <ref type="bibl" target="Hardy 1865">Hardy II 95</ref>, <ref
+                                type="bibl" target="Wright 1839">tr. by T. Wright</ref>, <ref type="bibl"
+                                target="Brownlow 1892"><hi rend="italic">Early Travels in Palestine</hi> by Canon
+                                Brownlow in <hi rend="italic">Palestine Pilgrims Text Society</hi> IV with
+                                facsimile</ref></ab>
+                    </msItem>
+
+                    <msItem n="9" locusStart="46" locusEnd="52">
+                        <head type="CCC">
+                            <title>Miracles</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Narrationes plurimorum miraculorum</title>
+                        </head>
+                        <rubric locus="46">Incipit miraculum de <name type="person">Sancto Remigio</name>
+                            gloriosum</rubric>
+                        <ab><name type="person">Peter</name> and <name type="person">Paul</name> serve him at mass</ab>
+                        <rubric locus="47">Incipit miraculum de quodam puero diuinitus erudito</rubric>
+                        <incipit locusNew="47">Fuit quidam comes in partibus <name type="place">alamannie</name> diues
+                            et prepotens habens filium <name type="person">heremannum</name> nomine</incipit>
+                        <ab>Injured by a bear: preferred wisdom to health: composed music</ab>
+                        <rubric locus="48">Incipit miraculum de quodam presbitero inceste uiuente</rubric>
+                        <incipit locusNew="48"><name type="place">Ecclesiam Lisdisfarnensem</name> (sic) <name
+                                type="person">Ægelrico</name> presule agente</incipit>
+                        <ab>The elements at the Mass change colour</ab>
+                        <rubric locus="48">De situ <name type="place">heliensis cenobii</name> et de miraculo <name
+                                type="person">Sancte Ætheldryde</name></rubric>
+                        <incipit locusNew="48"><name type="place">Heli</name> stagnensium insularum maxima</incipit>
+                        <ab>A canon investigating her relics repelled</ab>
+                        <rubric locus="49">De integritate corporis <name type="person">Sancte Withburge
+                            Virginis</name></rubric>
+                        <incipit locusNew="49"><name type="person">Brihnodus</name> ab <name type="person"
+                                >Ætheluuoldo</name> Wintoniensi episcopo abbas heli constitutus</incipit>
+                        <ab>Erection of bishopric (<date>9 Hen. I</date>)</ab>
+                        <ab>From <ref type="bibl" target="Hamilton 1870"><hi rend="italic">Gesta Pontificum</hi>. IV §§
+                                183-5</ref> abridged</ab>
+                        <rubric locus="49">lxxii. De passione <name type="person">Sancti Andree apostoli</name></rubric>
+                        <incipit locusNew="49"><name type="person">Andreas apostolus</name> in civitate <name
+                                type="place">patras</name></incipit>
+                        <explicit locusNew="49">ab <name type="place">achaia</name>
+                            <name type="place">constantinopolim</name> translata sunt</explicit>
+                        <incipit locusNew="49">Quia uero post <name type="person">petrum</name> passus sit eiusdem ex
+                            uisione datur conici</incipit>
+                        <ab>(Vision of Andrew, Gregorius Turonensis <hi rend="italic">Mirac. Andr.</hi> 20)</ab>
+                        <explicit locusNew="49">propter nomen eius quem tu predicas</explicit>
+                        <rubric locus="49">De quodam miraculo in ecclesia treuerensi facto</rubric>
+                        <incipit locusNew="49">Inter hec fama uolarat per circuitum</incipit>
+                        <ab>Goblin in wine-cellar at <name type="place">Prum</name></ab>
+                        <ab><handNote>In another hand</handNote> which changes on p. <locus>52</locus></ab>
+                        <incipit locusNew="51">Beata uirgo <name type="person">maria</name> quamuis ab uniuersis
+                            ecclesie filiis</incipit>
+                        <ab>Jewish youth <name type="person">Jacob</name> taken by robbers near <name type="place"
+                                >Bristol</name>, released by the Virgin, shewn Hell and Heaven, comes to <name
+                                type="place">Bath</name>, baptized by <name type="person">Bishop Robert</name>
+                                (<date>1137</date>) and called <name type="person">John</name></ab>
+                        <ab>Ends</ab>
+                        <explicit locusNew="52">eterne mortis euasit naufragium</explicit>
+                        <rubric locusNew="52">Explicit</rubric>
+                    </msItem>
+
+                    <msItem n="10" locusStart="53" locusEnd="53">
+                        <head type="CCC">
+                            <title>Agreement between <name type="place">Bath Abbey</name> and <name type="person"
+                                    >Matilda of Bathneston</name>, <date>1269</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Conventio inter priorem et conventum et <name type="person">Matildam dominam de
+                                    Bathneston</name> A. D. <date>1269</date>, de pasturis et communis</title>
+                        </head>
+                        <ab>
+                            <quote>Registrum Cartarum Abbatiae <name type="place">S. Petri de Bath</name></quote>
+                        </ab>
+                        <ab>Of cent. <origDate>xv ?</origDate></ab>
+                    </msItem>
+
+                    <msItem n="11" locusStart="54" locusEnd="54">
+                        <head type="CCC">
+                            <title>Indulgences granted by <name type="person">Theobald of Canterbury</name> for visiting
+                                    <name type="place">Bath Abbey</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Indulgentiae concessae a <name type="person">Theobaldo Cantuariensi</name>
+                                <name type="person">Roberto Bathonensi</name>
+                                <name type="person">Marco Cluanensi</name> et <name type="person">Nicholao Landavensi
+                                    episcopo</name> iis qui <name type="place">monasterium Bathonense</name>
+                                visitaverint in exaltatione sanctae crucis</title>
+                        </head>
+                        <ab>Cent. <origDate>xii</origDate></ab>
+                    </msItem>
+
+                    <msItem n="12" locusStart="54" locusEnd="54">
+                        <head type="CCC">
+                            <title>Dedication of an oratory in <name type="place">Bath</name> to <name type="person">S.
+                                    Werburga</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Dedicatio oratorii in <name type="place">suburbio Bathonensi</name> in honore <name
+                                    type="person">S. Werburgae</name> et S. S. <name type="person">Iohannis
+                                    Baptistae</name> et <name type="person">Katherinae virginis et martiris</name> per
+                                    <name type="person">Nicolaum Landavensem episcopum</name></title>
+                        </head>
+                        <ab>Cent. <origDate>xii</origDate></ab>
+                    </msItem>
+
+                    <msItem n="13" locusStart="55" locusEnd="56">
+                        <head type="CCC">
+                            <title>Old English Confraternity agreement between the <name type="place">abbey of
+                                    Bath</name> and other houses</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sodalitas religiosa Saxonice scripta quae inita fuit inter <name type="person"
+                                    >Wulstanum episcopum Wigorniensem</name>, <name type="person">Ægelwigum abbatem
+                                    Eofshamiensem</name>, <name type="person">Wulfwoldum abbatem de Ceortesige</name>,
+                                    <name type="person">Ælfsigum abbatem Bathoniensem</name>, <name type="person"
+                                    >Eadmundum abbatem Perscorensem</name>, <name type="person">Rawulfum abbatem
+                                    Wincelcumbiensem</name>, <name type="person">Serlonem abbatem
+                                    Gleweceastrensem</name> et <name type="person">Ælfstanum decanum
+                                    Wigraceastrensem</name></title>
+                        </head>
+                        <ab>Single leaf. Cent. <origDate>xi</origDate></ab>
+                        <ab>
+                            <supplied>
+                                <ref type="bibl" target="Cameron 1973">Cameron B16.2.2</ref>
+                            </supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="14" locusStart="57" locusEnd="58">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>956</date>. <name type="person">King Eadwig</name> to <name
+                                    type="place">Bath Abbey</name>, and to <name type="person">Wulfgar, abbot</name>;
+                                grant of 30 hides at <name type="place">Tidenham, Gloucs.</name>, of which 3 are to
+                                belong to the abbot</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Donatio 30 mansarum æt <name type="place">dyddanhame</name>
+                                <name type="place">monasterio S. Petri in Bathonia</name> per regem A. D.
+                                    <date>956</date></title>
+                        </head>
+                        <ab>Begins a volume, <handNote>very finely written</handNote>, <layout>27 lines to a
+                                page</layout>. Cent. <origDate>xii early</origDate>: <handNote>hand changes but is very
+                                uniform</handNote>: the last charters are of <name type="person">Hen. II</name></ab>
+                        <ab>
+                            <decoNote>Title in red</decoNote>
+                        </ab>
+                        <rubric locus="57">De Dyddenham</rubric>
+
+                        <ab locusNew="57">
+                            <decoNote>Initial in gold: outside it two patterned fields of green and pale pink: ground
+                                within, blue with white dots in threes. Halflength figure of bearded king, gold crown,
+                                gold borders to mantle, sleeves, gold girdle, silver sword in R. hand, L. hand extended.
+                                Mantle red, tunic white with blue lines, skirt pale brown</decoNote>
+                        </ab>
+                        <ab>The earlier charters are printed in <ref type="bibl" target="Kemble 1839-1848">Kemble, <hi
+                                    rend="italic">Codex diplomaticus aevi Saxonice</hi></ref> and <ref type="bibl"
+                                target="Birch 1885-1899">Birch, <hi rend="italic">Cartularium Saxonicum</hi></ref>: a
+                            few also in <ref type="bibl" target="Dugdale et al 1846b"><hi rend="italic">Monasticon</hi>
+                                II 264 etc.</ref> The whole chartulary by the <ref type="bibl" target="Hunt 1893">Rev.
+                                W. Hunt for the Somerset Record Socity 1893</ref></ab>
+                        <ab>The numbers in Kemble are</ab>
+                        <ab>
+                            <ref type="bibl" target="Kemble 1839-1848">Kemble 452</ref>
+                            <supplied>; <ref type="bibl" target="Sawyer 1968">S 610</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="15" locusStart="59" locusEnd="59">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>670 x 671 [? A.D. 681] (October)</date>. <name type="person"
+                                    >Wigheard</name> to <name type="person">Abbess Bernguidis (Beorngyth)</name>; grant
+                                of 40 hides at <name type="place">Slæpi (Islip, Oxon.)</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Donatio XL manentium in <name type="place">Slepi</name>
+                                <name type="person">Bernguidi</name> abbatissae et monasterio eius per <name
+                                    type="person">Withardum</name></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Kemble 1839-1848">Kemble 13</ref>
+                            <supplied>; <ref type="bibl" target="Sawyer 1968">S 1168</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="16" locusStart="59" locusEnd="59">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>676 (= 675, 6 Nov.)</date>. <name type="person">Osric,
+                                    king</name>, to <name type="person">Bertana, abbess</name>; grant of 100 hides at
+                                    <name type="place">Bath, Somerset</name>, for the foundation of a nunnery </title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Donatio C manentium civitati <name type="place">Bathon.</name> adjacentium <name
+                                    type="person">Bretanae abbatissae</name> ad construendum monasterium sanctarum
+                                virginum per <name type="person">Osricum regem</name> A. D. <date>676</date></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Kemble 1839-1848">Kemble 12</ref>
+                            <supplied>; <ref type="bibl" target="Sawyer 1968">S 51</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="17" locusStart="60" locusEnd="61">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>680 (October)</date>. <name type="person">Æthelmod</name> to
+                                    <name type="person">Bernguidis (Beorngyth), abbess</name>, and to <name
+                                    type="person">Folcburh</name>, and their monastery; grant of 20 hides by the <name
+                                    type="place">river Cherwell</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Donatio XX manentium juxta <name type="place">flumen Cervelle</name>
+                                <name type="person">Bernguidi abbatissae</name> et <name type="person">Folcburgi</name>
+                                et monasterio suo per <name type="person">Æthelmodum</name></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Kemble 1839-1848">Kemble, 21</ref>
+                            <supplied>; <ref type="bibl" target="Sawyer 1968">S 1167</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="18" locusStart="61" locusEnd="65">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>931</date>. <name type="person">King Athelstan</name> to the
+                                familia of <name type="place">St Peter's, Bath</name>; grant of 10 hides at <name
+                                    type="place">Priston, Somerset</name>, and 5 at <name type="place">Cold Ashton,
+                                    Gloucs.</name>, forfeited by <name type="person">Alfred</name> for
+                                conspiracy</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Donatio X mansarum in <name type="place">Prisctun</name> et V in <name type="place"
+                                    >Æisctun</name> monasterio <name type="place">S. Petri &#230;t
+                                    Ba&#240;um</name> per <name type="person">Athelstanum regem</name> A. D.
+                                    <date>931</date></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Kemble 1839-1848">Kemble 354</ref>
+                            <supplied>; <ref type="bibl" target="Sawyer 1968">S 414</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="19" locusStart="65" locusEnd="67">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>941</date>. <name type="person">King Edmund</name> to <name
+                                    type="person">Æthelnoth, minister</name>; grant of 10 hides at <name type="place"
+                                    >Corston, Somerset</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Donatio X mansarum æt <name type="place">corsantune</name> cuidam fideli ministro
+                                vocitato <name type="person">Æthelnotho</name> per <name type="person">Edmundum
+                                    regem</name> A. D. <date>941</date></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Kemble 1839-1848">Kemble 388</ref>
+                            <supplied>; <ref type="bibl" target="Sawyer 1968">S 476</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="20" locusStart="67" locusEnd="70">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>946</date>. <name type="person">King Edmund</name> to <name
+                                    type="person">Æthelhere</name>, his faithful minister; grant of 5 hides at <name
+                                    type="place">Weston near Bath, Somerset</name>, on condition of loyalty to <name
+                                    type="person">Edmund</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Donatio V mansarum æt <name type="place">Westune</name> cuidam fideli ministro nomine
+                                    <name type="person">Æthelere</name> per <name type="person">Edmundum regem</name> A.
+                                D. <date>946</date></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Kemble 1839-1848">Kemble 408</ref>
+                            <supplied>; <ref type="bibl" target="Sawyer 1968">S 508</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="21" locusStart="70" locusEnd="71">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>956</date>. <name type="person">King Eadwig</name> to <name
+                                    type="person">Ælfswith</name>, the faithful woman; grant of 10 hides at <name
+                                    type="place">Corston, Somerset</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Donatio X mansarum æt <name type="place">corsantune</name> cuidam fideli feminae
+                                nomine <name type="person">Ælfswydae</name> per <name type="person">Eadwigum
+                                    regem</name> A. D. <date>956</date></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Kemble 1839-1848">Kemble 457</ref>
+                            <supplied>; <ref type="bibl" target="Sawyer 1968">S 593</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="22" locusStart="71" locusEnd="74">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>955 x 959</date>. <name type="person">King Eadwig</name> to the
+                                    <name type="place">church of St Peter, Bath</name>; restoration of 5 hides at <name
+                                    type="place">Olveston</name>, and 5 at <name type="place">Cold Ashton,
+                                    Gloucs.</name>, granted to the minster by <name type="person">King Athelstan</name>;
+                                Bounds and customs of <name type="place">Tidenham, Gloucs.</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Redditio V mansarum aet <name type="place">alvestune</name> et aliarum V æt <name
+                                    type="place">Æstune</name> quas <name type="person">Æthelstanus rex</name> obtulerat
+                                ecclesiae <name type="place">B. Petri in Bathonis</name> civitate nuper tyrannide
+                                abstractarum per <name type="person">Eadwigum regem</name></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Kemble 1839-1848">Kemble 461</ref>
+                            <supplied>; <ref type="bibl" target="Sawyer 1968">S 664</ref>, <ref type="bibl"
+                                    target="Sawyer 1968">S 1555</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="23" locusStart="74" locusEnd="74a">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>1061 x 1065</date>. <name type="person">Ælfwig, abbot</name>,
+                                and the community at <name type="place">Bath</name>, to <name type="person">Stigand,
+                                    archbishop</name>; lease, for life, of 30 hides at <name type="place">Tidenham,
+                                    Gloucs.</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Conventio inter <name type="person">Stigandum archiepiscopum</name> et <name
+                                    type="place">conventum Bathae</name> de dimissione XXX hidarum terrae aet <name
+                                    type="place">dyddanhame</name></title>, Saxonice </head>
+                        <ab>
+                            <ref type="bibl" target="Kemble 1839-1848">Kemble 822</ref>
+                            <supplied>; <ref type="bibl" target="Sawyer 1968">S 1426</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="24" locusStart="74a" locusEnd="74b">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>961</date> for <date>956</date>. <name type="person">King
+                                    Eadwig</name> to the <name type="place">church of St Peter, Bath</name>; restitution
+                                of 5 hides at <name type="place">Weston, near Bath, Somerset</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Restitutio V hidarum aet <name type="place">Westune</name>
+                                <name type="place">ecclesiae S. Petri in Bathonia</name> per <name type="person">regem
+                                    Eadwigum</name> A. D. <date>961</date></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Kemble 1839-1848">Kemble 485</ref>
+                            <supplied>; <ref type="bibl" target="Sawyer 1968">S 661</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="25" locusStart="74b" locusEnd="75">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>957</date>. <name type="person">King Eadwig</name> to <name
+                                    type="place">St Peter's Abbey, Bath</name>; grant, at the request of his sacerdos
+                                    <name type="person">Wulfgar</name>, of 10 hides at <name type="place">Bathford,
+                                    Somerset</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Donatio V mansarum <name type="place">Hamtun</name> nomine cuidam familiarissimo
+                                nomine <name type="person">Hethelm</name> per <name type="person">Eadwigum regem</name>
+                                A. D. <date>956</date></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Kemble 1839-1848">Kemble 440</ref>
+                            <supplied>; <ref type="bibl" target="Sawyer 1968">S 643</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="26" locusStart="75" locusEnd="77">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>956</date>. <name type="person">King Eadwig</name> to <name
+                                    type="person">Hehelm</name>, his fidelis; grant of 5 hides at <name type="place"
+                                    >Bathampton, Somerset</name>, with a note that <name type="person">Hehelm</name>
+                                promised the land to <name type="place">Bath Abbey</name> after his death</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Donatio X mansarum aet <name type="place">forda</name> coenobitis deo servientibus in
+                                    <name type="place">monasterio S. Petri in Bathonia</name> per <name type="person"
+                                    >Eadwigum regem</name> A. D. <date>957</date></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Kemble 1839-1848">Kemble 463</ref>
+                            <supplied>; <ref type="bibl" target="Sawyer 1968">S 627</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="27" locusStart="77" locusEnd="78">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>808</date> for <date>757 x 758</date>. <name type="person"
+                                    >Cynewulf</name>, king of the Saxons, to the brethren of <name type="place">St
+                                    Peter's Minster, Bath</name>; grant of 5 hides at <name type="place">North Stoke,
+                                    Somerset</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Donatio V mansionum in <name type="place">Northstoc</name> fratribus in <name
+                                    type="place">monasterio S. Petri Bathon</name>. per <name type="person">Cynulfum
+                                    regem</name> A. D. <date>808</date></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Kemble 1839-1848">Kemble 193</ref>
+                            <supplied>; <ref type="bibl" target="Sawyer 1968">S 265</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="28" locusStart="78" locusEnd="79">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>961</date>. <name type="person">King Edgar</name> to the <name
+                                    type="place">church of St Peter, Bath</name>; restoration of 5 hides at <name
+                                    type="place">South Stoke, Somerset</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Restitutio V mansarum in <name type="place">Tottanstoc</name>
+                                <name type="place">ecclesiae S. Petri in Bathonia</name> per <name type="person"
+                                    >Eadgarum regem</name> A. D. <date>961</date></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Kemble 1839-1848">Kemble 486</ref>
+                            <supplied>; <ref type="bibl" target="Sawyer 1968">S 694</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="29" locusStart="79" locusEnd="81">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>961</date>. <name type="person">King Edgar</name> to <name
+                                    type="person">Æthelwold</name>, his faithful minister; grant of one hide at <name
+                                    type="place">Evesty (lost)</name> on the <name type="place">river Camelar (Cam
+                                    Brook), Somerset</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Donatio unius cassae æt <name type="place">Geofanstige</name> cuidam fideli ac devoto
+                                ministro nomine <name type="person">Æthelwoldo</name> per <name type="person">Eadgarum
+                                    regem</name> A. C. <date>961</date></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Kemble 1839-1848">Kemble 484</ref>
+                            <supplied>; <ref type="bibl" target="Sawyer 1968">S 692</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="30" locusStart="81" locusEnd="82">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>963</date>. <name type="person">King Edgar</name> to <name
+                                    type="person">Ælfsige</name>, his faithful decurio; grant of 2.5 hides at <name
+                                    type="place">Stanton Prior, Somerset</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Donatio duarum mansarum atque dimidiae set <name type="place">Stantune</name> cuidam
+                                fideli decurioni nomine <name type="person">Ælfsigo</name> per <name type="person"
+                                    >Eadgarum regem</name> A. C. <date>963</date></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Kemble 1839-1848">Kemble 502</ref>
+                            <supplied>; <ref type="bibl" target="Sawyer 1968">S 711</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="31" locusStart="82" locusEnd="84">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>965</date>. <name type="person">King Edgar</name> to <name
+                                    type="person">Æscwig, abbot of St Peter's, Bath</name>; grant of 7.5 hides at <name
+                                    type="place">Stanton Prior, Somerset</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Donatio bis quaternarum praeter semissem mansiuncularum in <name type="place"
+                                    >Stantun</name>
+                                <name type="person">Æscwig</name> abbati ad <name type="place">ecclesiam S. Petri in
+                                    urbe Achumanensi</name> per <name type="person">Eadgarum regem</name> A. C.
+                                    <date>965</date></title>
+                        </head>
+
+                        <ab>
+                            <supplied>
+                                <ref type="bibl" target="Sawyer 1968">S 735</ref>
+                            </supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="32" locusStart="84" locusEnd="85">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>972</date>. <name type="person">King Edgar</name> to <name
+                                    type="place">Bath Abbey</name>; grant of 10 hides at <name type="place">Corston,
+                                    Somerset</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Donatio decem mansiuncularum in <name type="place">Corsantun</name>
+                                <name type="place">Deo et S. Petro in civitate Aquamania</name> per <name type="person"
+                                    >Eadgarum regem</name> A. C. <date>972</date></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Kemble 1839-1848">Kemble 573</ref>
+                            <supplied>; <ref type="bibl" target="Sawyer 1968">S 785</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="33" locusStart="85" locusEnd="87">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>970</date>. <name type="person">King Edgar</name> to the <name
+                                    type="place">church of St Peter, Bath</name>; grant of 10 hides at <name
+                                    type="place">Clifton, near Bath</name>, in exchange for 100 mancuses of gold and 10
+                                hides at <name type="place">Cumtun</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Venditio X cassatorum æt <name type="place">Cliftune</name>
+                                <name type="place">ecclesiae S. Petri æt hatum Bathum</name> per <name type="person"
+                                    >Eadgarum regem</name>, <name type="person">Æcswigo</name> abbate et monachis regi
+                                dantibus C auri mancusas ac X terrae mansas in <name type="place">Cumtun</name> A. D.
+                                    <date>970</date></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Kemble 1839-1848">Kemble 566</ref>
+                            <supplied>; <ref type="bibl" target="Sawyer 1968">S 777</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="34" locusStart="87" locusEnd="88">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>984</date>. <name type="person">King Æthelred</name> to the
+                                    <name type="place">church of Bath</name>; grant of 3.5 hides at <name type="place"
+                                    >Radstock, Somerset</name>
+                            </title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Donatio trium mansarum atque dimidiae æt <name type="place">Welewestoce</name>
+                                <name type="place">ecclesiae S. Petri in Bathonia</name> per <name type="person"
+                                    >Æthelredum regem</name></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Kemble 1839-1848">Kemble 643</ref>
+                            <supplied>; <ref type="bibl" target="Sawyer 1968">S 854</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="35" locusStart="88" locusEnd="90">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>984 x 1016 (probably 984 x 1001)</date>. Will of <name
+                                    type="person">Wulfwaru</name>, including bequests of land to <name type="person"
+                                    >Ælfhere, abbot of Bath</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Testamentum <name type="person">Wulfwarii</name></title>, Saxonice </head>
+                        <ab>
+                            <ref type="bibl" target="Kemble 1839-1848">Kemble 694</ref>
+                            <supplied>; <ref type="bibl" target="Sawyer 1968">S 1538</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="36" locusStart="90" locusEnd="92">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>1061</date>. <name type="person">King Edward</name> to <name
+                                    type="person">Wulfwold, abbot</name>; grant of land at <name type="place">Ashwick,
+                                    Somerset</name>
+                            </title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Donatio terrarum in <name type="place">Æscwica</name>
+                                <name type="person">Wlfwoldo</name> abbati per <name type="person">Eadweardum
+                                    regem</name> A. C. <date>1061</date></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Kemble 1839-1848">Kemble 811</ref>
+                            <supplied>; <ref type="bibl" target="Sawyer 1968">S 1034</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="37" locusStart="92" locusEnd="92">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>1061 x 1082, possibly 1061 x 1066</date>. Writ of <name
+                                    type="person">Abbot Wulfwold</name> announcing that he has given to <name
+                                    type="place">St Peter's minster at Bath</name> land at <name type="place"
+                                    >Evesty</name> and <name type="place">Ashwick, Somerset</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Donatio earundem terrarum monasterio Bathonensi per eundem <name type="person"
+                                    >Wlfwoldum</name></title>, Saxonice </head>
+
+                        <ab>
+                            <supplied>
+                                <ref type="bibl" target="Sawyer 1968">S 1427</ref>
+                            </supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="38" locusStart="93" locusEnd="93">
+                        <head type="CCC">
+                            <title>Lands of <name type="place">Bath</name> from Domesday</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De terris <name type="place">Bathae</name> pertinentibus</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="39" locusStart="94" locusEnd="94">
+                        <head type="CCC">
+                            <title>Writs of <name type="person">William I</name> granting land at <name type="place"
+                                    >Charlcombe</name> to <name type="place">Bath Abbey</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Donatio terrarum in <name type="place">Cheorlecumba</name>
+                                <name type="place">monasterio S. Petri Bathon</name>. per <name type="person">Willelmum
+                                    regem</name>, Saxonice</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="40" locusStart="94" locusEnd="95">
+                        <head type="CCC">
+                            <title>Bounds of <name type="place">Charlcombe, Somerset</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Confirmatio ejusdem donationis per eundem regem, Saxonice</title>
+                        </head>
+
+                        <ab>
+                            <supplied>
+                                <ref type="bibl" target="Sawyer 1968">S 1569a</ref>
+                            </supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="41" locusStart="95" locusEnd="95">
+                        <head type="CCC">
+                            <title>Agreement between <name type="place">Bath Abbey</name> and <name type="person"
+                                    >William Hoset of Charlcombe</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Cyrographum inter <name type="place">conventum Bathae</name> et <name type="person"
+                                    >Willelmum Hoset de Ceorlecumba</name></title>
+                        </head>
+                        <ab>
+                            <quote>In chartis precedentibus divisiones terrarum (&#254;a land gem&#230;ra)
+                                semper annotantur Saxonice</quote>
+                        </ab>
+                        <ab>
+                            <ref type="bibl" target="Dugdale et al 1846b"><hi rend="italic">Monasticon</hi> II 264
+                                etc.</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="42" locusStart="95" locusEnd="96">
+                        <head type="CCC">
+                            <title>Grants of land to <name type="place">Bath Abbey</name> by <name type="person">William
+                                    de Mojone</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Donatio <name type="place">ecclesiae S. Georgii de Dunestorra</name> et decimae
+                                ejusdem villae, et totius villae <name type="place">Alcuine</name> cum pertinentiis,
+                                scilicet I hida terrae, et dimidiae partis decimae de <name type="place"
+                                    >Maneheafe</name>, et totius decimae de <name type="place">Bradeuude</name>, et
+                                omnis decimae de <name type="place">Carentuna</name> sibi pertinentis, et totius decimae
+                                de <name type="place">Niwetuna</name>, et dimidiae decimae de <name type="place"
+                                    >Brunfield</name>, et totius decimae de <name type="place">Stokelande</name>, et
+                                totius de <name type="place">Kilvestune</name>, et duorum piscatoriorum, et totius
+                                decimae equarum suarum de <name type="place">Moris</name>, <name type="place">monasterio
+                                    Bathonensi</name> ad construendam <name type="place">ecclesiam B. Georgii</name> per
+                                    <name type="person">Willelmum de Mojone</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="43" locusStart="96" locusEnd="97">
+                        <head type="CCC">
+                            <title>Grants of land to <name type="place">Bath Abbey</name> by Walcinus and his
+                                family</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Testificatio donationis <name type="place">ecclesiae de Bathentuna</name> cum dimidia
+                                hida terrae et cum omnibus illis rebus, quas tenebat <name type="person">Goscelinus
+                                    presbiter</name>, et cum omnibus decimis illius manerii per <name type="person"
+                                    >Walcinum de Duaio</name>; et unius hidae quae appellatur <name type="place"
+                                    >Foxcume</name> per <name type="person">Raimarum Walcini fratrem</name> et <name
+                                    type="person">Girardum</name> ejusdem dapiferum; et <name type="place">ecclesiae de
+                                    Broctuna</name> cum una virgula terrae et omnibus decimis et consuetudinibus per
+                                eundem <name type="person">Girardum</name>; et medietatis decimae de <name type="place"
+                                    >Careio</name> et <name type="place">ecclesiae de Brigga</name> cum omnibus decimis
+                                et consuetudinibus per <name type="person">Walcini</name> uxorem</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="44" locusStart="97" locusEnd="98">
+                        <head type="CCC">
+                            <title>Confirmation of grant of land to <name type="place">Bath Abbey</name> by <name
+                                    type="person">William, bishop of Exeter</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Confirmatio precedentis donationis per <name type="person">Willelmum Exoniensem
+                                    episcopum</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="45" locusStart="98" locusEnd="100">
+                        <head type="CCC">
+                            <title>Charter of <name type="person">William II</name> to the bishopric of <name
+                                    type="place">Somerset</name>, <date>1088</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Donatio omnium possessionum <name type="place">monasterii Bathonensis</name> in
+                                augmentationem <name type="place">Summersetensis</name> episcopatus (eo tenus ut ibi
+                                institueret presul eam sedem) per <name type="person">Willelmum II</name>. regem A. D.
+                                    <date>1088</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="46" locusStart="100" locusEnd="101">
+                        <head type="CCC">
+                            <title>Charter of <name type="person">William II</name> to the bishopric of <name
+                                    type="place">Somerset</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Donatio totius <name type="place">civitatis Bathoniae</name> in augmentationem
+                                ejusdem episcopatus per eundem regem</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="47" locusStart="101" locusEnd="101">
+                        <head type="CCC">
+                            <title>Grant of free warren to the bishop of <name type="place">Bath</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Licentia faciendi warennam concessa episcopo Bathonensi per eundem regem</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="48" locusStart="101" locusEnd="104">
+                        <head type="CCC">
+                            <title>Confirmation of grant to the bishopric of <name type="place">Somerset</name> by <name
+                                    type="person">Henry I</name>, <date>1101</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Confirmatio precedentis donationis <name type="place">civitatis Bathoniae</name> per
+                                    <name type="person">Henricum I.</name> regem A. D. <date>1101</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="49" locusStart="104" locusEnd="105">
+                        <head type="CCC">
+                            <title>Grant by <name type="person">Patricius</name> to the bishop and church of <name
+                                    type="place">Bath</name>, <date>1100</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Donatio V hidarum terrae de <name type="place">Westona</name> episcopo et <name
+                                    type="place">ecclesiae Bathonensi</name> per <name type="person">Patricium</name> A.
+                                D. <date>1100</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="50" locusStart="105" locusEnd="105">
+                        <head type="CCC">
+                            <title>Confirmation of grant to the bishop and church of <name type="place">Bath</name> by
+                                    <name type="person">Henry I</name>, <date>1100</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Confirmatio ejusdem donationis per <name type="person">Henricum I.</name> regem A. D.
+                                    <date>1100</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="51" locusStart="105" locusEnd="106">
+                        <head type="CCC">
+                            <title>Confirmation of donation of <name type="place">Bath</name> and removal there of the
+                                episcopal see by <name type="person">Henry I</name>, <date>1111</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Confirmatio donationis <name type="place">civitatis Bathoniae</name> et
+                                transpositionis sedis episcopalis in eandem per <name type="person">Henricum I</name>.
+                                A. D. <date>1111</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="52" locusStart="106" locusEnd="107">
+                        <head type="CCC">
+                            <title>Confirmation of donation of <name type="place">Bath</name> by <name type="person"
+                                    >Robert, Duke of Normandy</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Confirmatio ejusdem per <name type="person">Robertum ducem Normanniae</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="53" locusStart="107" locusEnd="108">
+                        <head type="CCC">
+                            <title>Charter of <name type="person">Henry I</name> to the bishop of <name type="place"
+                                    >Bath</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Donatio <name type="place">civitatis Bathoniae</name> in augmentationem sedis
+                                episcopalis per <name type="person">Henricum I</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="54" locusStart="108" locusEnd="108">
+                        <head type="CCC">
+                            <title>Two charters of <name type="person">Henry I</name> confirming the possessions of the
+                                monks of <name type="place">Bath Abbey</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Duae cartae <name type="person">Henrici regis</name> ut monachi Bathonenses sint
+                                quieti ab omni telonio, etc. in rebus emendis</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="55" locusStart="108" locusEnd="108">
+                        <head type="CCC">
+                            <title>Charter of <name type="person">Henry I</name> 'ut sint ... manu regis'</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta ejusdem regis ut sint quieti de omnibus placitis et querelis dum fuerint in
+                                manu regis</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="56" locusStart="108" locusEnd="111">
+                        <head type="CCC">
+                            <title>Agreement between <name type="place">Bath Abbey</name> and <name type="person"
+                                    >Modbert</name>, <date>1121</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Placitum inter <name type="place">conventum Bathoniae</name> et <name type="person"
+                                    >Modbertum</name> de terra <name type="place">Grantae in Stocha North</name>, in
+                                curia episcopi A. D. <date>1121</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="57" locusStart="111" locusEnd="111">
+                        <head type="CCC">
+                            <title>Writ of <name type="person">Henry I</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Breve <name type="person">regis Henrici</name> confirmans possessionem illius terrae
+                                dictis monachis</title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Dugdale et al 1846b"><hi rend="italic">Monasticon</hi> II 264
+                                etc.</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="58" locusStart="111" locusEnd="112">
+                        <head type="CCC">
+                            <title>Agreement between <name type="person">John of Tours, Bishop of Bath</name> and <name
+                                    type="person">Hubert Hosatum</name>, <date>1123</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Cyrographum inter <name type="person">Iohannem episcopum</name> et <name
+                                    type="person">Hubertum Hosatum</name> de 11 hidis terrae in Esctona eidem Huberto in
+                                foedum ab episcopo concessis A. D. <date>1123</date></title>
+                        </head>
+                        <ab><ref type="bibl" target="Dugdale et al 1846b"><hi rend="italic">Monasticon</hi> II 264</ref>
+                            etc.</ab>
+                    </msItem>
+
+                    <msItem n="59" locusStart="112" locusEnd="112">
+                        <head type="CCC">
+                            <title>Agreement between <name type="place">Bath Abbey</name> and <name type="person">W.
+                                    Hosatum</name>, <date>1123</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Concordia inter <name type="place">conventum Bathoniae</name> et <name type="person"
+                                    >W. Hosatum</name> A. D. <date>1123</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="60" locusStart="112" locusEnd="114">
+                        <head type="CCC">
+                            <title>Grant by <name type="person">John of Tours, Bishop of Bath</name>, to <name
+                                    type="place">Bath Abbey</name>, <date>1106</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Donatio <name type="person">Iohannis primi episcopi Bathonensis</name> monachis
+                                ibidem A. D. <date>1106</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="61" locusStart="114" locusEnd="114">
+                        <head type="CCC">
+                            <title>Grant of land to <name type="place">Bath Abbey</name> by <name type="person">Henry
+                                    I</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta donationis et redditionis terrae de <name type="place">Dochemare</name>
+                                ecclesiae Bathoniensi per <name type="person">Henricum regem</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="62" locusStart="115" locusEnd="115">
+                        <head type="CCC">
+                            <title>Agreement between <name type="place">Bath Abbey</name> and <name type="person">Roger
+                                    de S. Laudo</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Conventio inter monachos Bathonenses et <name type="person">Rogerum de S.
+                                    Laudo</name> de commutatione terrarum in <name type="place">Stantono</name> et <name
+                                    type="place">Nivetono</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="63" locusStart="115" locusEnd="116">
+                        <head type="CCC">
+                            <title>Charter of <name type="person">Henry I</name> concerning <name type="place"
+                                    >Calveston</name> and <name type="place">Mere</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta concessionis ut manerium de <name type="place">Calvestona</name>, <name
+                                    type="place">abbatiae S. Edmundi</name> pertinens, sit in hundredo <name
+                                    type="place">Bathoniae</name>, et in justitia episcopi, et confirmationis de terra
+                                de <name type="place">Mere</name>
+                                <name type="place">ecclesiae Bathoniensi</name> per <name type="person">Henricum
+                                    regem</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="64" locusStart="116" locusEnd="116">
+                        <head type="CCC">
+                            <title>Charter of <name type="person">Bishop Godefrid</name> to <name type="place">Bath
+                                    Abbey</name>, <date>1136</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Donatio vel restitutio <name type="place">villae de Cumba</name> monachis
+                                Bathonensibus per <name type="person">Godefridum episcopum</name> A. D.
+                                    <date>1136</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="65" locusStart="116" locusEnd="117">
+                        <head type="CCC">
+                            <title>Confirmation of grant of land to <name type="place">Bath Abbey</name> by <name
+                                    type="person">King Stephen</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Confirmatio donationis <name type="person">Patricii de Caurcis</name> de V hidis
+                                    <name type="place">Westonae</name>
+                                <name type="place">monachis Bathonensibus</name> per <name type="person">Stephanum
+                                    regem</name>, <date>anno regni I<abbr rend="superscript">mo</abbr></date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="66" locusStart="117" locusEnd="117">
+                        <head type="CCC">
+                            <title>Charter of <name type="person">Stephen</name> for <name type="place">Bath
+                                    abbey</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta ejusdem regis ut <name type="place">monachi Bathonenses</name> sint quieti ab
+                                omni telonio</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="67" locusStart="117" locusEnd="118">
+                        <head type="CCC">
+                            <title>Charter of <name type="person">Stephen</name> for <name type="person">Robert , Bishop
+                                    of Bath</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta ejusdem regis, de possessionibus episcopatus Bathonensis <name type="person"
+                                    >Roberto episcopo electo</name> restituendis</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="68" locusStart="119" locusEnd="120">
+                        <head type="CCC">
+                            <title>Charter of <name type="person">Robert, Bishop of Bath</name> for <name type="place"
+                                    >Bath Abbey</name>, <date>1135</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Donatio vel restitutio <name type="person">Roberti episcopi</name>
+                                <name type="place">monachis Bathonensibus</name> A. D. <date>1135</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="69" locusStart="120" locusEnd="120">
+                        <head type="CCC">
+                            <title>Writ of <name type="person">Stephen</name> confirming grant of land to <name
+                                    type="place">Bath Abbey</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Breve <name type="person">Stephani regis</name> de terra de <name type="place"
+                                    >Stocha</name> monachis confirmanda</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="70" locusStart="120" locusEnd="121">
+                        <head type="CCC">
+                            <title>Charter of <name type="person">Theobald of Canterbury</name> for <name type="place"
+                                    >Bath Abbey</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Confirmatio donationis <name type="person">Roberti episcopi</name> monachis
+                                Bathonensibus per <name type="person">Theobaldum Cantuariae
+                                archiepiscopum</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="71" locusStart="121" locusEnd="121">
+                        <head type="CCC">
+                            <title>Charter of <name type="person">Theobald of Canterbury</name> for <name type="place"
+                                    >Bath Abbey</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Alia confirmatio eorundem per eundem</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="72" locusStart="122" locusEnd="122">
+                        <head type="CCC">
+                            <title>Confirmation of the donation of the <name type="place">church of Dunestorra</name> to
+                                    <name type="place">Bath abbey</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Confirmatio donationis <name type="person">ecclesiae de Dunestorra</name> monachis
+                                Bathonensibus in liberam elemosinam per eundem</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="73" locusStart="122" locusEnd="123">
+                        <head type="CCC">
+                            <title>Testimony of <name type="person">Robert, Bishop of Bath</name> concerning salmon
+                                renders </title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Testificatio <name type="person">Roberti episcopi</name> Bathonensis de L salmonibus
+                                annuatim reddendis monachis ibidem per heredes <name type="person">Atselmi Hosati</name>
+                                pro terra de <name type="place">Ceorlecumba</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="74" locusStart="123" locusEnd="124">
+                        <head type="CCC">
+                            <title>Charter concerning the sale of <name type="place">Cameleia</name> to <name
+                                    type="place">Bath Abbey</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta <name type="person">comitis Glocestriae</name> de venditione manerii de <name
+                                    type="place">Cameleia</name>
+                                <name type="place">monachis Bathonensibus</name> per <name type="person">Alexandrum de
+                                    Alno</name> et suos fratres, et <name type="person">Beatricem</name> eorum matrem
+                                pro LXX marcis auri eis solutis, et quibusdam servitiis et pensione annua II marcarum
+                                reservatis</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="75" locusStart="124" locusEnd="125">
+                        <head type="CCC">
+                            <title>Confirmation of the sale of <name type="place">Cameleia</name> to <name type="place"
+                                    >Bath Abbey</name> by <name type="person">Henry, Duke of Normandy</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Confirmatio ejusdem venditionis per <name type="person">Henricum ducem
+                                    Normanniae</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="76" locusStart="125" locusEnd="125">
+                        <head type="CCC">
+                            <title>Confirmation of the sale of <name type="place">Cameleia</name> to <name type="place"
+                                    >Bath Abbey</name> by <name type="person">Henry I</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Alia confirmatio ejusdem venditionis per eundem <name type="person">Henricum regem
+                                    Anglorum</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="77" locusStart="126" locusEnd="126">
+                        <head type="CCC">
+                            <title>Agreement between <name type="place">Bath Abbey</name> and <name type="person"
+                                    >Richard de Hanum</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Conventio inter <name type="place">conventum Bathoniae</name> et <name type="person"
+                                    >Richardum de Hanum</name> de una virgata terrae de <name type="place"
+                                >Beche</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="78" locusStart="126" locusEnd="127">
+                        <head type="CCC">
+                            <title>Letter of <name type="person">Rodbertus, Bishop of Exeter</name> to <name
+                                    type="place">Bath Abbey</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Epistola <name type="person">Rodberti episcopi Exon.</name> ad <name type="place"
+                                    >conventum Bathonensem</name> ut confirmarent <name type="person">Waltero
+                                    clerico</name> dimissionem ecclesiae de <name type="place">Baantona</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="79" locusStart="127" locusEnd="127">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>1061</date>. <name type="person">King Edward</name> to <name
+                                    type="person">Wulfwold, abbot</name>; grant of land at <name type="place">Ashwick,
+                                    Somerset</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Donatio cujusdam terrae <name type="person">Wlwodo abbati</name> per <name
+                                    type="person">Eadwardum regem</name> A. D. <date>1061</date></title>
+                        </head>
+                        <ab>is inserted <handNote>in a <origDate>xiiith cent.</origDate> hand</handNote>
+                            <layout>in double columns</layout></ab>
+
+                        <ab>
+                            <supplied>
+                                <ref type="bibl" target="Sawyer 1968">S 1034</ref>
+                            </supplied>
+                        </ab>
+                    </msItem>
+
+
+                    <msItem n="80" locusStart="128" locusEnd="129">
+                        <head type="CCC">
+                            <title>Domesday satellite survey of <name type="place">Bath Abbey</name>,
+                                <date>1165</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Terrae Bathonensis abbatiae A. D. <date>1165</date></title>
+                        </head>
+                        <ab>
+                            <handNote>In the original hand</handNote>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="81" locusStart="130" locusEnd="130">
+                        <head type="CCC">
+                            <title>Bull of <name type="person">Pope Adrian</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Bulla de confirmatione episcopatus Bathonensis per <name type="person">Adrianum
+                                    papam</name></title>
+                        </head>
+                        <ab><layout>Double columns</layout>, <origDate>xiii</origDate></ab>
+                    </msItem>
+
+                    <msItem n="82" locusStart="130" locusEnd="130">
+                        <head type="CCC">
+                            <title>Charter of the prior of <name type="place">Bath Abbey</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Recognitio juris <name type="person">Willelmi fratris</name> ad unam hidam terrae
+                                apud <name type="place">Weston</name> per <name type="place">conventum
+                                    Bathonensem</name></title>
+                        </head>
+                        <ab><origDate>xiii</origDate>, <handNote>another hand</handNote>. Part of a column</ab>
+                    </msItem>
+
+                    <msItem n="83" locusStart="131" locusEnd="131">
+                        <head type="CCC">
+                            <title>Agreement between <name type="place">Bath Abbey</name> and <name type="person">Elias
+                                    Cotel</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Conventio facta inter <name type="place">conventum Bathonensem</name> et <name
+                                    type="person">Eliam Cotel</name> de pastura ex occidentali parte de <name
+                                    type="place">Southewode</name> A. D. <date>1258</date></title>
+                        </head>
+                        <ab>
+                            <origDate>xiv ?</origDate>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="84" locusStart="132" locusEnd="134">
+                        <head type="CCC">
+                            <title>List of the Bishops of <name type="place">Bath</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Nomina episcoporum Bathonensium</title>
+                        </head>
+                        <ab locusNew="132">
+                            <quote>finis registri Bathonensis</quote>
+                        </ab>
+                        <ab>
+                            <origDate>xv-xvi</origDate>
+                        </ab>
+                        <ab locus="132">A note is added by <name type="person">Parker</name></ab>
+                        <ab>pp. <locus>133</locus>-<locus>134</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="85" locusStart="135" locusEnd="136">
+                        <head type="CCC">
+                            <title>Letter of <name type="person">Galfrid, archdeacon of Worcester</name>, to <name
+                                    type="person">Pope Alexander III</name> concerning the <name type="place"
+                                    >Pershore</name> charter</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Epistola <name type="person">Galfridi ecclesiae Wigorniensis archidiaconi</name>
+                                    (<name type="person">Henrici II</name>. nothi) ad <name type="person">Alexandrum
+                                    papam III</name>. de carta <name type="person">Edgari regis</name>
+                                <name type="place">ecclesiae Parshorensi</name> concessa</title>
+                        </head>
+                        <ab>
+                            <quote><q>Hoc scriptum appensum fuit magnae chartae de coenobio Parshorensi in testimonium
+                                    ejus chartae.</q><lb/> Si cartae, de quarum testimonio in hac epistola agitur, non
+                                fuerunt supposititiae, usus sigillorum cartis appensorum praevaluit inter Saxones,
+                                mentio enim hic fit sigillorum <name type="person">Eadgari regis</name>, <name
+                                    type="person">Dunstani archiepiscopi</name> et <name type="person">Alferi regis
+                                    Merciorum</name>: sed dubiae prorsus fidei videntur quaecunque usui recepto
+                                signorum, quae in omnibus cartis Saxonicis conspiciuntur, ita contradicunt</quote>
+                        </ab>
+                        <ab>
+                            <handNote>In <name type="person">Joscelin</name>'s hand</handNote>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="86" locusStart="137" locusEnd="138">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>836</date> (<name type="place">Croft, Leics.</name>). Grant by
+                                    <name type="person">Wiglaf, king of Mercia</name>, to the minster at <name
+                                    type="place">Hanbury, Worcs.</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta confirmationis monasterii in <name type="place">Heanbyrg</name> per <name
+                                    type="person">Wiglafum regem Merciorum</name></title>
+                        </head>
+                        <ab>On a <material>paper</material> leaf</ab>
+
+                        <ab>
+                            <supplied>
+                                <ref type="bibl" target="Sawyer 1968">S 190</ref>
+                            </supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="87" locusStart="138b" locusEnd="138b">
+                        <head type="CCC">
+                            <title>Goods and chattels of <name type="person">Simon of Mepham</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Bona et catalla <name type="person">Simonis de Mepham</name> nuper archiepiscopi
+                                Cantuariensis defuncti in indentura inter custodes temporalium archiepiscopatus loci
+                                illius et executores testamenti ipsius defuncti contenta</title>
+                        </head>
+                        <ab>A vellum document pasted on <material>vellum</material> leaf</ab>
+                    </msItem>
+
+                    <msItem n="88" locusStart="139" locusEnd="142">
+                        <head type="CCC">
+                            <title>Charter of c. A.D. <date>935 x 938 (? 937)</date>. <name type="person">King
+                                    Athelstan</name> to <name type="person">Ælfheah</name>, minister; grant of 10 hides
+                                at <name type="place">Farnborough, Berks.</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>&#222;is ys &#254;ara x hida boc &#230;t <name type="place"
+                                    >Fearnbeorgan</name> &#254;e <name type="person">Æ&#254;elstan</name> cing
+                                gebocode <name type="person">Ælfeahe</name> his &#254;egne on ece yrfe</title>
+                        </head>
+                        <ab>
+                            <quote>Sequuntur apographa quarundam cartarum cum terminis Saxonice, quae ex autographis (ut
+                                videtur) descripsit <name type="person">D. Henricus [Robertas] Talbot</name> ecclesiae
+                                Norwicensis prebendarius, quarum titulos Saxonicos apposui cum notitia Latina ex <ref
+                                    type="bibl" target="Wanley 1697">Wanlei catalogo</ref> desumpta</quote>
+                        </ab>
+                        <ab>
+                            <quote>Donatio x manentium in <name type="place">Fearnbebeorgan</name> fideli ministro <name
+                                    type="person">Ælfeahe</name> per <name type="person">Æthelstanum
+                                regem</name></quote>
+                        </ab>
+
+                        <ab>The charters which follow are on <material>paper</material></ab>
+                        <ab>At top is the note</ab>
+                        <ab locusNew="139">
+                            <q>Manus <name type="person">m<abbr rend="superscript">ri</abbr> Talbot</name> q(uondam)
+                                prebendarii in <name type="place">eccl. Norwic.</name></q>
+                        </ab>
+                        <ab>This is <name type="person">Robert (not Henry) Talbot</name></ab>
+                        <ab>The <name type="place">Abingdon</name> charters are printed in <ref type="bibl"
+                                target="Stevenson 1858d"><hi rend="italic">Chronicon Monasterii de Abingdon</hi> (Rolls
+                                Series), Introduction p. viii</ref>. Also many by <ref type="bibl"
+                                target="Kemble 1839-1848">Kemble</ref> and <ref type="bibl" target="Birch 1885-1899"
+                                >Birch</ref>. <ref type="bibl" target="Kemble 1839-1848">Kemble 356</ref><supplied>;
+                                    <ref type="bibl" target="Sawyer 1968">S 411</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="89" locusStart="143" locusEnd="144">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>949</date>. <name type="person">King Eadred</name> to <name
+                                    type="person">Æthelmær</name>, praeses; grant of 20 hides at <name type="place"
+                                    >Chetwode</name> and <name type="place">Hillesden, Bucks</name>. With note, in
+                                English, referring to <name type="place">Chadshunt, Warwicks.</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="person">Æ&#254;elm&#230;res</name> booc &#230;t <name
+                                    type="place">cet&#447;uda</name> and hildes dune t&#447;uentig hida on ece
+                                yrfe</title>
+                        </head>
+                        <ab>
+                            <quote>Donatio xx decem manentium ad <name type="place">Cetwuda</name> et æt hildes <name
+                                    type="person">Æthelmeri</name> praesidi per <name type="person">Eadredum
+                                    regem</name> A. D. <date>949</date>, <date>anno regni 3<abbr rend="superscript"
+                                        >o</abbr></date></quote>
+                        </ab>
+                        <ab>
+                            <ref type="bibl" target="Kemble 1839-1848">Kemble 424</ref>
+                            <supplied>; <ref type="bibl" target="Sawyer 1968">S 544</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="90" locusStart="145" locusEnd="146">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>952 (for 953 x 955)</date>. <name type="person">King
+                                    Eadred</name> to <name type="person">Ælfwine</name>, vassalus; grant of 3 hides at
+                                    <name type="place">Barkham, Berks.</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>&#222;is is &#254;ara &#254;reora hida land boc &#230;t beorchamma
+                                &#254;e <name type="person">Eadred</name> cyning ge bocode <name type="person"
+                                    >Ælf&#447;ine</name> his &#254;egene on ece yrfe</title>
+                        </head>
+                        <ab>
+                            <quote>Donatio 3 cassatorum in <name type="place">Beorthan</name> cuidam vasallo nomine
+                                    <name type="person">Ælfwine</name> per <name type="person">Eadredum regem</name> A.
+                                D. <date>952</date></quote>
+                        </ab>
+                        <ab>
+                            <ref type="bibl" target="Kemble 1839-1848">Kemble 431</ref>
+                            <supplied>; <ref type="bibl" target="Sawyer 1968">S 559</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="91" locusStart="147" locusEnd="148">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>955 or 956</date>. <name type="person">King Eadwig</name> to
+                                    <name type="person">Æthelwold, abbot</name>, and his abbey at <name type="place"
+                                    >Abingdon</name>; grant of 20 hides at <name type="place">Abingdon</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>&#222;is is &#254;&#230;ra xx hyda boc &#230;t abbandune &#254;e
+                                    <name type="person">Ead&#447;ig</name> cyning gebecze on ece yrfe in to sca
+                                marian cyricean</title>
+                        </head>
+                        <ab>
+                            <quote>Restitutio xx mansiuncularum <name type="person">Æthelwaldo abbati</name> et
+                                monasterio <name type="place">S. Mariae de Abbandune</name> per <name type="person"
+                                    >Eadwigum regem</name> A. D. <date>956</date>. Indict 14</quote>
+                        </ab>
+                        <ab>
+                            <ref type="bibl" target="Kemble 1839-1848">Kemble 441</ref>
+                            <supplied>; <ref type="bibl" target="Sawyer 1968">S 605</ref></supplied>
+                        </ab>
+
+                        <ab>
+                            <supplied>Item continues on pp. <locus>153</locus>-<locus>154</locus></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="92" locusStart="149" locusEnd="150">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>956</date>. <name type="person">King Eadwig</name> to <name
+                                    type="place">St Mary's Abbey, Abingdon</name>; grant of 20 hides at <name
+                                    type="place">Tadmarton, Oxon.</name>
+                            </title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Donatio xx hidarum æt <name type="place">tadmaerton</name>
+                                <name type="place">S. Mariae et cenobio Abbendunensi</name> per <name type="person"
+                                    >Eadwigum regem</name> A. D. <date>956</date>. Indict 14</title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Kemble 1839-1848">Kemble 442</ref>
+                            <supplied>; <ref type="bibl" target="Sawyer 1968">S 584</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="93" locusStart="151" locusEnd="154">
+                        <head type="CCC">
+                            <title>Charter of <name type="person">Empress Matilda</name> and <name type="person">Henry,
+                                    Duke of Normandy</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta donationis totius terrae extra portam de Sud et prebendarum <name type="place"
+                                    >ecclesiae S. Nicholai</name> post decessum vel spontaneam demissionem canonicorum
+                                    <name type="person">magistro Benedicto</name> ad aedificandam ecclesiam canonicorum
+                                regularium per <name type="person">Matildam imperatricem</name> et <name type="person"
+                                    >Henricum ducem Normanniae</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="94" locusStart="155" locusEnd="158">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>951</date>. <name type="person">King Eadred</name> to <name
+                                    type="person">Wulfric</name>, his faithful minister; grant of 25 hides at <name
+                                    type="place">Chieveley, Berks.</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>&#222;is is &#254;ara fif and t&#447;entiga hida &#230;t <name
+                                    type="place">cifanlea</name> &#254;e <name type="person">eadred</name> cing
+                                gebocode <name type="person">&#447;ulfrice</name> his &#254;egne on ece
+                                yrfe</title>
+                        </head>
+                        <ab>
+                            <quote>Concessio 25 mansarum æt <name type="place">Cifanlea</name> cuidam fideli ministro
+                                nomine <name type="person">Wulfrico</name> per <name type="person">Eadredum regem</name>
+                                A. D. <date>951</date>. Indict 9</quote>
+                        </ab>
+                        <ab>
+                            <ref type="bibl" target="Kemble 1839-1848">Kemble 430</ref>
+                            <supplied>; <ref type="bibl" target="Sawyer 1968">S 558</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="95" locusStart="159" locusEnd="160">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>956</date>. <name type="person">King Eadwig</name> to <name
+                                    type="person">Brihthelm</name>, his kinsman, bishop-elect; grant of 5 hides at <name
+                                    type="place">(Church) Stowe, Northants.</name>
+                            </title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>&#222;is is &#254;ara v hida boc &#230;t <name type="place"
+                                    >sto&#447;e</name> &#254;e <name type="person">Ead&#447;ige</name> cing
+                                gebocode <name type="person">byrtelme</name> his m&#230;ge on ece yrfe</title>
+                        </head>
+                        <ab>
+                            <quote>Donatio v mansarum aet <name type="place">Stowe</name> ... <name type="person"
+                                    >Byrhtelmo</name> per <name type="person">Eadwigum regem</name> A.D.
+                                    <date>956</date>. Indict 14</quote>
+                        </ab>
+                        <ab>
+                            <ref type="bibl" target="Kemble 1839-1848">Kemble 449</ref>
+                            <supplied>; <ref type="bibl" target="Sawyer 1968">S 615</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="96" locusStart="161" locusEnd="162">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>956</date>. <name type="person">King Eadwig</name> to <name
+                                    type="person">Beorhtnoth</name>, his faithful princeps; grant of 5 hides at <name
+                                    type="place">Tadmarton, Oxon.</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>&#222;is is &#254;ara v hida boc &#230;t <name type="place"
+                                    >tadmertune</name> &#254;e <name type="place">ead&#447;ig</name> cing
+                                gebocode <name type="person">beorno&#254;a</name> ealderman on ece yrfe</title>
+                        </head>
+                        <ab>
+                            <quote>Donatio v mansarum in <name type="place">Tadmertune</name> cuidam fideli nomine <name
+                                    type="person">Beornoth</name> per <name type="person">Eadwigum regem</name> A. D.
+                                    <date>956</date>. Indict 14</quote>
+                        </ab>
+                        <ab>
+                            <ref type="bibl" target="Kemble 1839-1848">Kemble 448</ref>
+                            <supplied>; <ref type="bibl" target="Sawyer 1968">S 611</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="97" locusStart="163" locusEnd="166">
+                        <head type="CCC">
+                            <title>Inspeximus of <name type="person">Edward II</name> for the <name type="place">church
+                                    of Worcester</name>, containing <name type="person">Edgar</name>'s charter of A.D.
+                                    <date>963</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta confirmationis <name type="place">ecclesiae Wigornensis</name>, in qua
+                                recitatur per inspeximus carta <name type="person">Edgari regis</name>, per <name
+                                    type="person">Edwardum II</name></title>
+                        </head>
+                        <ab locusNew="165">
+                            <handNote>In another hand</handNote>
+                            <q>had oute of the <name type="place">cathedrall church of Worcester</name></q>
+                        </ab>
+
+                        <ab>
+                            <supplied>
+                                <ref type="bibl" target="Sawyer 1968">S 731</ref>
+                            </supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="98" locusStart="167" locusEnd="168">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>968</date>. <name type="person">King Edgar</name> to <name
+                                    type="place">St Mary's Abbey, Abingdon</name>; grant of 25 hides at <name
+                                    type="place">Fyfield, Berks.</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>&#222;is is &#254;ara xxv hida landboc &#230;t <name type="place"
+                                    >fifhidan</name> pe <name type="person">eadgar</name> cyng gebocede gode and sca
+                                marian in to <name type="place">abbandune</name> on ece yrfe</title>
+                        </head>
+                        <ab>
+                            <quote>Donatio xxv cassatorum æt <name type="place">Fifhidan</name>
+                                <name type="place">ecclesiae B. Mariae æt Abbendune</name> per <name type="person"
+                                    >Eadgarum regem</name> A. D. <date>968</date></quote>
+                        </ab>
+                        <ab>
+                            <ref type="bibl" target="Kemble 1839-1848">Kemble 546</ref>
+                            <supplied>; <ref type="bibl" target="Sawyer 1968">S 758</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="99" locusStart="169" locusEnd="170">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>999</date>. <name type="person">King Æthelred</name> to <name
+                                    type="place">St Mary's Abbey, Abingdon</name>; grant of 15 hides at <name
+                                    type="place">South Cerney, Gloucs.</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Donatio v cassatorum æt <name type="place">cyrne</name>
+                                <name type="place">ecclesiae B. Mariae æt Abbendune</name> per <name type="person"
+                                    >Æthelredum regem</name> A. D. <date>929</date>. Indict 14</title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Kemble 1839-1848">Kemble 703</ref>
+                            <supplied>; <ref type="bibl" target="Sawyer 1968">S 896</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="100" locusStart="171" locusEnd="174">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>930</date>. <name type="person">King Athelstan</name> to <name
+                                    type="person">Cynath, abbot</name>; grant of 10 hides at <name type="place"
+                                    >Dumbleton, Gloucs.</name>, with 2 hides at <name type="place">Aston Somerville,
+                                    Worcs.</name>; with a Latin note recording <name type="person">King Edgar</name>'s
+                                confirmation of the land to <name type="person">Osulf, bishop of Ramsbury</name> (A.D.
+                                    <date>959 x 970</date>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta <name type="person">Æthelstani regis</name> de terris in <name type="place"
+                                    >Dumoltan</name>
+                                <name type="place">ecclesiae Abbendunensi</name> restitutis per <name type="person"
+                                    >Eadgarum regem</name></title>
+                        </head>
+
+                        <ab>
+                            <ref type="bibl" target="Kemble 1839-1848">Kemble 346</ref>
+                            <supplied>; <ref type="bibl" target="Sawyer 1968">S 404</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="101" locusStart="175" locusEnd="180">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>995</date>. <name type="person">King Æthelred</name> to <name
+                                    type="person">Wulfric (Spot)</name>, grant of 2.5 hides in the common land at <name
+                                    type="place">Dumbleton, Gloucs.</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>&#222;is is <name type="place">dumaltan</name> boc</title>
+                        </head>
+                        <ab>
+                            <quote>Donatio duarum mansarum et dimid. æt <name type="place">Dumaltan</name> cuidam
+                                ministro nomine <name type="person">Wlfric</name> per <name type="person">Æthelredum
+                                    regem</name> A. D. <date>995</date>. Indict 8, annoque regni 7<abbr
+                                    rend="superscript">o</abbr></quote>
+                        </ab>
+                        <ab>
+                            <ref type="bibl" target="Kemble 1839-1848">Kemble 692</ref>
+                            <supplied>; <ref type="bibl" target="Sawyer 1968">S 886</ref></supplied>
+                        </ab>
+                        <ab>
+                            <quote>Harum cartarum autographa <name type="person">D. Hen. Talboto</name> describenda
+                                exhibuit <name type="person">D. Owenus</name>, qui ea omnia (ut videtur) collegerat post
+                                    <name type="place">monasterii Abbendunensis</name> destructionem ad quod
+                                pertinebant</quote>
+                        </ab>
+                        <ab>At the end of 101 is the note</ab>
+                        <ab locusNew="178">
+                            <q>I had y<abbr rend="superscript">s</abbr> copye here off off <name type="person">m<abbr
+                                        rend="superscript">r</abbr> doctor Owen phisicyan</name></q>
+                        </ab>
+                        <ab><locus>179</locus>-<locus>180</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="102" locusStart="181" locusEnd="186">
+                        <head type="CCC">
+                            <title>Index of monasteries</title>. <title>Charter of <name type="person">Stephen</name>
+                                making <name type="person">Henry</name> his successor</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta <name type="person">regis Stephani</name>, qua constituit <name type="person"
+                                    >Henricum ducem Normanniae</name> post eum successorem regni Angliae et
+                                heredem</title>
+                        </head>
+                        <ab locus="181">An alphabetical index of names of monasteries occurring in the charters which
+                            follow</ab>
+                    </msItem>
+
+                    <msItem n="103" locusStart="187" locusEnd="222">
+                        <head type="CCC">
+                            <title>Accounts of the foundations of English cathedrals and monasteries</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>An account of the foundation of most of the cathedrals and monasteries in <name
+                                    type="place">England</name></title>
+                        </head>
+                        <ab><supplied>Items</supplied> 103-142 have a separate paging running from 1 to 132<supplied>,
+                                now superseded</supplied></ab>
+                    </msItem>
+
+                    <msItem n="104" locusStart="223" locusEnd="223">
+                        <head type="CCC">
+                            <title>Charter founding <name type="place">West Dereham</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta fundationis monasterii de <name type="place">[West] Dereham</name> per <name
+                                    type="person">Hubertum ecclesiae Eboracensis decanum</name></title>
+                        </head>
+                        <ab><supplied>Items</supplied> 104-133 are all either printed in the <ref type="bibl"
+                                target="Dugdale et al 1846a">
+                                <hi rend="italic">Monasticon</hi>
+                            </ref> or noted by <ref type="bibl" target="Tanner 1748">Tanner</ref></ab>
+                    </msItem>
+
+                    <msItem n="105" locusStart="223" locusEnd="223">
+                        <head type="CCC">
+                            <title>Grant to <name type="place">West Dereham</name> by <name type="person">Hubert Walter,
+                                    Bishop of Salisbury</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta donationis tenementi eidem monasterio per eundem <name type="person">Hubertum
+                                    [tunc] episcopum Sarisbur.</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="106" locusStart="224" locusEnd="225">
+                        <head type="CCC">
+                            <title>Charter of <name type="person">Henry II</name> for <name type="place">Glastonbury
+                                    Abbey</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta confirmationis possessionum <name type="place">monasterii de Glastonbury</name>
+                                data per <name type="person">Henricum II</name>. quando posuit fundamentum <name
+                                    type="place">ecclesiae Glaston.</name> quae dum in manu ejus fuerat, incendio
+                                perierat</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="107" locusStart="226" locusEnd="226">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>714</date>. Statement by <name type="person">Ecgwine, bishop of
+                                    the Hwicce</name>, of the lands he acquired for the minster at <name type="place"
+                                    >Eynsham</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Testificatio donationum <name type="person">Ergwini Wiciorum</name> episcopi
+                                monasterio quod fundavit apud <name type="place">Egnisham</name></title>
+                        </head>
+
+                        <ab>
+                            <supplied>Item continues p. <locus>227</locus></supplied>
+                        </ab>
+
+                        <ab>
+                            <supplied>
+                                <ref type="bibl" target="Sawyer 1968">S 1250</ref>
+                            </supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="108" locusStart="226a" locusEnd="226c">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>1005</date>. <name type="person">King Æthelred</name> to <name
+                                    type="place">Eynsham Abbey</name>; confirmation of the foundation by <name
+                                    type="person">Æthelmær</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta <name type="person">regis Æthelredi</name> de fundatione <name type="place"
+                                    >monasterii de Egnesham</name>, ex veteri libro cartarum abbatiae de <name
+                                    type="place">Egnisham</name></title>
+                        </head>
+
+                        <ab>
+                            <supplied>
+                                <ref type="bibl" target="Sawyer 1968">S 911</ref>
+                            </supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="109" locusStart="227" locusEnd="229">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>1061</date>. <name type="person">King Edward</name> to <name
+                                    type="place">St Mary's, Rouen</name>; grant of <name type="place">Ottery St Mary,
+                                    Devon</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Donatio cujusdam villae nomine <name type="place">Otregiae (Ottery)</name>
+                                <name type="place">ecclesiae B. Mariae civitatis Rothomagensis</name> per <name
+                                    type="person">Eadwardum regem</name> A. D. <date>1061</date></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Kemble 1839-1848">Kemble, 810</ref>
+                            <supplied>; <ref type="bibl" target="Sawyer 1968">S 1033</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="110" locusStart="229" locusEnd="229">
+                        <head type="CCC">
+                            <title>Charter for <name type="place">Dearnehalle Abbey</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta fundationis <name type="place">monasterii de Dearnehalle</name> per <name
+                                    type="person">Edwardum principem [vulgo dict. nigrum]</name>
+                                <date>55 Edw. III</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="111" locusStart="230" locusEnd="233">
+                        <head type="CCC">
+                            <title>Charter founding the <name type="place">cathedral church of Norwich</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta fundationis ecclesiae <name type="place">cathedralis Norwicensis</name> per
+                                    <name type="person">Herbertum episcopum</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="112" locusStart="234" locusEnd="236">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>1042 x 1066</date>. <name type="person">King Edward</name> to
+                                    <name type="place">Ely Abbey</name>; grant of land at <name type="place"
+                                    >Lakenheath</name> and confirmation of privileges and land</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta confirmationis <name type="place">ecclesiae Eliensis</name> per <name
+                                    type="person">Edwardum [confessorem]</name></title>
+                        </head>
+
+                        <ab>
+                            <supplied>
+                                <ref type="bibl" target="Sawyer 1968">S 1051</ref>
+                            </supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="113" locusStart="237" locusEnd="240">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>970</date> (<name type="place">Woolmer, Hants.</name>). <name
+                                    type="person">King Edgar</name> to <name type="place">Ely Abbey</name>; confirmation
+                                of privileges and land</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta fundationis <name type="place">cenobii Eliensis</name> per <name type="person"
+                                    >Eadgarum regem</name></title>
+                        </head>
+
+                        <ab>
+                            <supplied>
+                                <ref type="bibl" target="Sawyer 1968">S 779</ref>
+                            </supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="114" locusStart="241" locusEnd="243">
+                        <head type="CCC">
+                            <title>Charter concerning <name type="place">Mullicourt Priory</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta incorporationis vel appropriationis <name type="place">prioratus de
+                                    Mullicourt</name>
+                                <name type="place">conventui Eliensi</name> per <name type="person">Henricum
+                                    regem</name>
+                                <date>anno regni 24</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="115" locusStart="244" locusEnd="244">
+                        <head type="CCC">
+                            <title>Charter concerning the <name type="place">Abbey of St Mary, Leicester</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta fundationis cenobii <name type="place">S. Mariae de Leycestria</name> per <name
+                                    type="person">Robertum comitem Leicestriae</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="116" locusStart="245" locusEnd="249">
+                        <head type="CCC">
+                            <title>Charter founding the <name type="place">collegiate church of Higham
+                                Ferrers</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta fundationis <name type="place">ecclesiae collegiatae de Higham Ferrers</name>
+                                per <name type="person">Henricum archiepiscopum Cantuar.</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="117" locusStart="250" locusEnd="260">
+                        <head type="CCC">
+                            <title>Confirmation and Inspeximus for the <name type="place">cathedral of Exeter</name>,
+                                including charters of <name type="person">Æthelred</name>, <name type="person"
+                                    >Cnut</name> and <name type="person">Edward the Confessor</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta confirmationis <name type="place">ecclesiae cathedralis Exon.</name> [in qua
+                                citantur per inspeximus cartae <name type="person">Athelredi</name>
+                                <name type="person">Cnuti</name> et <name type="person">beati Edwardi</name> (et <name
+                                    type="person">Johannis</name>) regum] per <name type="person">Hen. III</name>.
+                                    <date>anno 55</date></title>
+                        </head>
+
+                        <ab>
+                            <supplied>
+                                <ref type="bibl" target="Sawyer 1968">S 880 (Æthelred), S 954 (Cnut), and S 1021 (Edward
+                                    the Confessor)</ref>
+                            </supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="118" locusStart="261" locusEnd="262">
+                        <head type="CCC">
+                            <title>Charter founding the monastery of <name type="place">St Mary's, Butley</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta fundationis <name type="place">monasterii S. Mariae de Butleia</name> per <name
+                                    type="person">Ranulphum de Glanvilla</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="119" locusStart="263" locusEnd="270">
+                        <head type="CCC">
+                            <title>Charter founding <name type="place">Battle Abbey</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta fundationis <name type="place">monasterii de Bello</name> per <name
+                                    type="person">Willelmum I</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="120" locusStart="271" locusEnd="271">
+                        <head type="CCC">
+                            <title>Charter for <name type="place">Edington Abbey</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta <name type="person">Roberti episcopi Sarisburiensis</name> de erectione <name
+                                    type="place">monasterii de Edynton</name> per <name type="person">Willelmum
+                                    episcopum Winton.</name> fundati</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="121" locusStart="272" locusEnd="272">
+                        <head type="CCC">
+                            <title>Charter for <name type="place">Holme Abbey</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta donationis <name type="place">Holmcoltriae</name>
+                                <name type="place">monasterio de Hulmo</name> per <name type="person">Henricum filium
+                                    Davidis regis Scotiae</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="122" locusStart="273" locusEnd="273">
+                        <head type="CCC">
+                            <title>Charter founding <name type="place">Ashridge Abbey</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta fundationis <name type="place">monasterii de Esseruge (Ashridge)</name> per
+                                    <name type="person">Ricardum regis Alemaniae filium et comitem
+                                Cornubiae</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="123" locusStart="274" locusEnd="275">
+                        <head type="CCC">
+                            <title>Charter founding <name type="place">Reading Abbey</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta fundationis <name type="place">monasterii de Redynge</name> per <name
+                                    type="person">Henricum I</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="124" locusStart="275" locusEnd="275">
+                        <head type="CCC">
+                            <title>Charter for <name type="place">Castle Acre Priory</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Donatio ecclesiarum de <name type="place">Acra</name>, <name type="place"
+                                    >Mothelwolde</name>, <name type="place">Roinges</name>, quae vocatur <name
+                                    type="place">Ledenchirche</name>, <name type="place">Wekemere</name> et <name
+                                    type="place">Trunchet</name>, et duarum partium decimarum in <name type="place"
+                                    >villa de Ermister</name>, <name type="place">monasterio de Acra</name> per <name
+                                    type="person">Willelmum comitem de Suthreia</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="125" locusStart="276" locusEnd="277">
+                        <head type="CCC">
+                            <title>Charter founding <name type="place">Wymondham Abbey</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta fundationis <name type="place">monasterii de Wymondeham</name> per <name
+                                    type="person">Willelmum de Albeneio</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="126" locusStart="278" locusEnd="279">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>1004</date>. <name type="person">King Æthelred</name> to <name
+                                    type="place">Burton Abbey</name>; confirmation of privileges and lands granted by
+                                    <name type="person">Wulfric</name> in his will</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta <name type="person">Athelstani regis</name> de fundatione <name type="place"
+                                    >monasterii de Burton</name></title>
+                        </head>
+
+                        <ab>
+                            <supplied>
+                                <ref type="bibl" target="Sawyer 1968">S 906</ref>
+                            </supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="127" locusStart="280" locusEnd="280">
+                        <head type="CCC">
+                            <title>Charter founding <name type="place">Faversham Abbey</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta fundationis <name type="place">abbathiae de Faveresham</name> per <name
+                                    type="person">Stephanum regem</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="128" locusStart="281" locusEnd="283">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>973</date>. <name type="person">King Edgar</name> to <name
+                                    type="place">Thorney Abbey</name>; grant of privileges and confirmation of
+                                land</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta fundationis <name type="place">monasterii de Thorney</name> per <name
+                                    type="person">Eadgarum regem</name> A. D. <date>973</date></title>
+                        </head>
+
+                        <ab>
+                            <supplied>
+                                <ref type="bibl" target="Sawyer 1968">S 792</ref>
+                            </supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="129" locusStart="284" locusEnd="285">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>1021 x 1023</date>. <name type="person">King Cnut</name> to
+                                    <name type="place">Bury St Edmunds Abbey</name>; grant of privileges and renders of
+                                fish</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta <name type="person">Cnuti regis</name> de confirmatione <name type="place"
+                                    >monasterii S. Edmundi</name></title>
+                        </head>
+
+                        <ab>
+                            <supplied>
+                                <ref type="bibl" target="Sawyer 1968">S 980</ref>
+                            </supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="130" locusStart="286" locusEnd="288">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>1038 x 1039</date>. <name type="person">King Harthacnut</name>
+                                to <name type="place">Bury St Edmunds Abbey</name>; grant of privileges</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta <name type="person">Hardeknuti regis</name> de immunitatibus ejusdem
+                                monasterii</title>
+                        </head>
+
+                        <ab>
+                            <supplied>
+                                <ref type="bibl" target="Sawyer 1968">S 995</ref>
+                            </supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="131" locusStart="289" locusEnd="291">
+                        <head type="CCC">
+                            <title>Charter for <name type="place">Lewes</name>; Charter of A.D. <date>1044 x
+                                1047</date>. <name type="person">King Edward</name> to the <name type="place">church of
+                                    St Benedict (of Holme)</name>; confirmation of land</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta fundationis <name type="place">monasterii de Lewes</name> per <name
+                                    type="person">Willelmum de Warenna</name> et <name type="person">Gundradam</name>
+                                uxorem ejus</title>
+                        </head>
+
+                        <ab>
+                            <supplied>
+                                <ref type="bibl" target="Sawyer 1968">S 1055 on p. <locus>291</locus></ref>
+                            </supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="132" locusStart="292" locusEnd="294">
+                        <head type="CCC">
+                            <title>Charter for <name type="place">Bermondsey Abbey</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Donatio <name type="place">ecclesiae de Bermondeseia</name> fratribus de caritate per
+                                    <name type="person">Willelmum II</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="133" locusStart="295" locusEnd="298">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>964 (963)</date> (<name type="place">Gloucester</name>, 28
+                                December). <name type="person">King Edgar</name> to <name type="place">St Mary's Abbey,
+                                    Worcester</name>; grant of privileges</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta <name type="person">regis Edgari</name> facta <name type="place">ecclesiae
+                                    Wigorniensis</name> A. D. <date>964</date></title>
+                        </head>
+
+                        <ab>
+                            <supplied>
+                                <ref type="bibl" target="Sawyer 1968">S 731</ref>
+                            </supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="134" locusStart="299" locusEnd="299">
+                        <head type="CCC">
+                            <title>Synod of <name type="place">Winchester</name> under <name type="person"
+                                    >Lanfranc</name>, <date>1076</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Synodus Wintoniensis sub <name type="person">Lanfranco episcopo</name></title>
+                        </head>
+                        <ab>Ex vetusto libro e bibliotheca <name type="place">Wigorniensis ecclesie</name> = <ref
+                                type="ms" target="CCC190">MS 190. 16</ref></ab>
+                    </msItem>
+
+                    <msItem n="135" locusStart="300" locusEnd="301">
+                        <head type="CCC">
+                            <title>Synod of <name type="place">London</name> under <name type="person">Lanfranc</name>,
+                                    <date>1075</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Synodus Londinensis sub eodem</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="136" locusStart="302" locusEnd="304">
+                        <head type="CCC">
+                            <title>Synod of <name type="place">London</name> under <name type="person">Anselm</name>,
+                                    <date>1102</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Synodus Londinensis sub <name type="person">Anselmo</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="137" locusStart="304" locusEnd="306">
+                        <head type="CCC">
+                            <title>Letter of <name type="person">Gerard, archbishop of York</name>, to <name
+                                    type="person">Anselm, archbishop of Canterbury</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Epistola <name type="person">Gerardi archiepiscopi Ebor.</name> ad <name
+                                    type="person">Anselmum</name></title>
+                        </head>
+                        <ab>From <ref type="ms" target="CCC135">MS 135</ref></ab>
+
+                        <ab>
+                            <supplied>Epistulae ad Anselm, no. 255</supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="138" locusStart="307" locusEnd="309">
+                        <head type="CCC">
+                            <title>On churches founded before the coming of the Normans</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De ecclesiis fundatis ante adventum Normannorum in Anglia</title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Hardy 1862b">Hardy I 674</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="139" locusStart="310" locusEnd="310">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>605</date> (<name type="place">Canterbury</name>). <name
+                                    type="person">Æthelberht, king of Kent</name>, to <name type="person">St
+                                    Peter</name>; grant of land to the east of <name type="place">Canterbury</name> for
+                                the foundation of a minster</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta fundationis <name type="place">monasterii S. Augustini Cantuariensis</name> per
+                                    <name type="person">Ethelbertum regem Cantiae</name> A. D. <date>605</date></title>
+                        </head>
+                        <ab>Ex libro veteri ecclesie Cantuariensis fol. 156 cuius principium est Incipit registrum
+                                Will<abbr rend="superscript">i</abbr> prioris, i.e. <ref type="ms" target="OBL991">MS.
+                                Tanner 165</ref></ab>
+
+                        <ab>
+                            <supplied>
+                                <ref type="bibl" target="Sawyer 1968">S 2</ref>
+                            </supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="140" locusStart="310" locusEnd="311">
+                        <head type="CCC">
+                            <title>Charter of A.D. <date>605</date> (<name type="place">Canterbury</name>). <name
+                                    type="person">Æthelberht, king of Kent</name>, to <name type="person">St
+                                    Augustine</name> for the <name type="place">minster of SS Peter and Paul (St
+                                    Augustine's), Canterbury</name>; grant of land to the east of <name type="place"
+                                    >Canterbury</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta donationis alicujus terrae eidem monasterio per eundem A. D.
+                                <date>605</date></title>
+                        </head>
+
+                        <ab>
+                            <supplied>
+                                <ref type="bibl" target="Sawyer 1968">S 3</ref>
+                            </supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="141" locusStart="312" locusEnd="316">
+                        <head type="CCC">
+                            <title>Arms of the English nobility</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Arms of the English nobility</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="142" locusStart="317" locusEnd="318">
+                        <head type="CCC">
+                            <title>Letter of <name type="person">Thomas Becket</name> to <name type="person">Henry
+                                    II</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Epistolae <name type="author">Thomas [Beckett] archiepiscopi Cantuariensis</name> ad
+                                    <name type="person">Henricum regem</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="143" locusStart="319" locusEnd="333">
+                        <head type="CCC">
+                            <title>Catalogue of English monasteries, noting their value and size </title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Catalogus monasteriorum in <name type="place">Anglia</name>, ubi notatur eorum valor,
+                                cujus fuerunt ordinis, et numerus eorum, qui in eis sustentabantur</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="144" locusStart="334" locusEnd="334">
+                        <head type="CCC">
+                            <title>Dates of the building of several abbeys in <name type="place">England</name>
+                            </title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Dates of the building of several abbeys in <name type="place">England</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="145" locusStart="335" locusEnd="336">
+                        <head type="CCC">
+                            <title>Catalogue of the abbeys of regular canons in <name type="place"
+                                >England</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Catalogue of all the abbeys of regular canons in <name type="place"
+                                >England</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="146" locusStart="337" locusEnd="338">
+                        <head type="CCC">
+                            <title>Catalogue of Premonstratensian abbeys from <name type="author">William of
+                                    Worcester</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Catalogus abbatiarum ordinis Premonstrensis ex <name type="author">Willelmo de
+                                    Worcester</name></title>
+                        </head>
+                        <ab>From <ref type="ms" target="CCC210">MS 210</ref></ab>
+                    </msItem>
+
+                    <msItem n="147" locusStart="339" locusEnd="350">
+                        <head type="CCC">
+                            <title>Catalogue of monasteries</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Nomina monasteriorum, cujusve sint ordinis, numerus monachorum in singulis, et nomina
+                                fundatorum ut comperta sunt coram commissariis in diversis dioecesibus</title>
+                        </head>
+                        <ab>The names of the commissioners are given</ab>
+                    </msItem>
+
+                    <msItem n="148" locusStart="351" locusEnd="355">
+                        <head type="CCC">
+                            <title>Foundations of <name type="place">Winchester Cathedral</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>A copie of the first, second, thirde and fourthe foundation of the <name type="place"
+                                    >cathedrall church of Winchester</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="149" locusStart="355" locusEnd="358">
+                        <head type="CCC">
+                            <title>Inventory of <name type="place">Winchester Cathedral</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Inventory of the <name type="place">cathedrall church of St. Swythens in
+                                    Winchester</name></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Strype 1711">Strype, <hi rend="italic">Parker</hi>, Appendix
+                                XVI</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="150" locusStart="359" locusEnd="368">
+                        <head type="CCC">
+                            <title>Entry of the <name type="person">Emperor Charles V</name> into <name type="place"
+                                    >Augsburg</name>, <date>June 1530</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>The entry of the moste sacred majestic imperiall, done in the cittie of <name
+                                    type="place">Ausboura [Augsburg]</name> the <date>xv daie of June, in the yere of
+                                    oure Lorde 1530</date>: withe the godly and devoute procession made on the morowe,
+                                beinge <date>the xvi daie of the same moneth</date>, in the which the emperours majestic
+                                being bareheded did cary a torche of white waxe</title>
+                        </head>
+                        <ab>
+                            <supplied agent="JamesCorrigenda">Printed for <name type="person">Parker</name> (H. P.
+                                S.)</supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="151" locusStart="368" locusEnd="370">
+                        <head type="CCC">
+                            <title>Baptism of <name type="person">Queen Mary</name> at <name type="place"
+                                    >Greenwich</name>, <date>1515</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Baptizatio <name type="person">reginae Mariae</name> apud <name type="place"
+                                    >Grenwich</name> A. D. <date>1515. 7 Hen. VIII</date>. Anglice</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="152.1" locusStart="371" locusEnd="374">
+                        <head type="CCC">
+                            <title>Declaration of the state of the new hospitals in <name type="place">London</name>,
+                                    <date>1553</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>A true and shorte declaration of the state and charge of the newe erectede
+                                hospitalles [<name type="place">St. Thomas</name> and <name type="place">Christs</name>]
+                                in the citie of <name type="place">London</name> A. D. <date>1553</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="152.2" locusStart="374" locusEnd="374">
+                        <head type="CCC">
+                            <title>Account of a Lord Mayor's banquet, <date>1529/30</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Account of a Lord Mayor's banquet <date>21 Hen. VIII</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="153" locusStart="375" locusEnd="379">
+                        <head type="CCC">
+                            <title>The copie of the greate miserie and subjection that the countrye of <name
+                                    type="place">Naples</name> ys broughte unto </title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>The copie of the greate miserie and subjection that the countrye of <name
+                                    type="place">Naples</name> ys broughte unto, and taxes that every man dothe paye,
+                                whiche was free and excedinge plentifull of all thinges and nowe broughte unto this
+                                myserie by the meanes and craftie fayned friendshipp of the Spanyardes, a spectakle for
+                                    <name type="place">Englande</name> and all othere countreyes yf men be not blynde
+                                and lack their wittes</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="154" locusStart="380" locusEnd="382">
+                        <head type="CCC">
+                            <title>Baptism of <name type="person">Queen Elizabeth</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Baptizatio <name type="person">Elizabethae reginae Angliae</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="155" locusStart="382a" locusEnd="382a">
+                        <head type="CCC">
+                            <title>Declaration for popery and liberty of the earls of <name type="person"
+                                    >Northumberland</name> and <name type="person">Westmoreland</name>,
+                                    <date>1569</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>The declaration for popery and liberty of the earls of <name type="person"
+                                    >Northumberland</name> and <name type="person">Westmoreland</name>, when they raised
+                                arms, <date>1569</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="156" locusStart="383" locusEnd="398">
+                        <head type="CCC">
+                            <title>Account of <name type="person">Cardinal Wolsey</name>'s embassy to the emperor,
+                                    <date>1521</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>An account of <name type="person">cardinal Wolsey</name>'s embassy to the emperor A.
+                                D. <date>1521</date></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="157" locusStart="399" locusEnd="410">
+                        <head type="CCC">
+                            <title>Letter of <name type="person">John Bradforthe</name> against the Spaniards</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>A letter sent by <name type="author">John Bradforthe</name> to the right honourable
+                                lordes, the erles of <name type="person">Arundel</name> and <name type="person"
+                                    >Shrowsburie</name>, <name type="person">Darbie</name> and <name type="person"
+                                    >Pembroke</name>, declaring the nature of the Spaniards, and discovering the most
+                                detestable treasons, which they have pretended against our most noble kingdom of <name
+                                    type="place">England</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="158" locusStart="410a" locusEnd="410a">
+                        <head type="CCC">
+                            <title>Printed papal bull giving thanks for the return of <name type="place">England</name>
+                                to Roman Catholicism, <date>1554</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Bulla plenariae indulgentiae per <name type="person">S. D. N. Julium divina
+                                    providentia papam III</name>. concessae omnibus Christi fidelibus, qui Deo optimo
+                                pro unione regni Angliae sanctae matri ecclesiae jam facta gratias egerint, ac pro
+                                ceteris qui adhuc in errore remanent, nec non pro pace inter principes christianos
+                                obtinenda humiliter supplicaverint A. D. <date>1554</date></title>, typis <name
+                                type="person">Iohannis Cawode</name> impressa </head>
+
+                    </msItem>
+
+                    <msItem n="159" locusStart="411" locusEnd="414">
+                        <head type="CCC">
+                            <title>Printed papal bull in English giving thanks for the return of <name type="place"
+                                    >England</name> to Roman Catholicism </title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>The transsumpt of the Jubile in Latine, of late come forthe by a bull of our most
+                                holy father the pope <name type="person">Paulus the forth</name> of that name, set
+                                forthe and declared in Englishe, for the better understanding of the people, by the
+                                comaundement of <name type="person">the bushop of Elye</name> and subscribed with his
+                                hande</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="160" locusStart="415" locusEnd="415">
+                        <head type="CCC">
+                            <title>Printed declaration of the <name type="author">Bishop of London</name> to his
+                                diocese</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>The declaration of <name type="author">the byshop of London</name> to be published to
+                                the laye people of his diocesse concernynge theyr reconciliation</title>, printed </head>
+                        <ab>Printed by <name type="person">Cawood</name></ab>
+                    </msItem>
+
+                    <msItem n="161" locusStart="416" locusEnd="416">
+                        <head type="CCC">
+                            <title>Printed decree from Cardinal Pole to the bishops of England concerning the resumption
+                                of Catholic practices</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Decretum legantinum cardinalis Poli, <hi rend="italic">typis impressum cujus in
+                                    fronte legitur hic titulus</hi>. The trew copy of the transumpt or writynge of late
+                                sente to <name type="person">the byshoppe of London</name>, by the mooste reverend
+                                father in God, the lorde <name type="person">cardinal Pole</name>, legate de latere,
+                                under his graces seale, to be published and sente unto the byshops of this realme of
+                                    <name type="place">England</name>, concerning the due use of confessionals faculties
+                                and licences, specially in the chosing of ghostly fathers, having aulters portatif, in
+                                eating or using of white meate or fleshe in tymes by the law forbidden</title>
+                        </head>
+                        <ab>Printed by <name type="person">Cawood</name></ab>
+                    </msItem>
+
+                    <msItem n="162" locusStart="417" locusEnd="432">
+                        <head type="CCC">
+                            <title>Charge of the justices of the forests</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>The charge of the justices of the forests</title>
+                        </head>
+                        <ab>
+                            <ref type="ms" target="CCC105">MS 105. 45</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="163" locusStart="433" locusEnd="444">
+                        <head type="CCC">
+                            <title>Old English Dictionary</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Expositio antiquorum vocabulorum Saxonicorum</title>
+                        </head>
+                        <ab>
+                            <ref type="ms" target="CCC105">MS 105. 46</ref>
+                        </ab>
+                        <ab>163 ends as the other copy</ab>
+                    </msItem>
+
+                    <msItem n="164" locusStart="445" locusEnd="450">
+                        <head type="CCC">
+                            <title>Foundation of monasteries in <name type="place">Normandy</name>
+                            </title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Fundatio quorundam cenobiorum in <name type="place">Normannia</name></title>
+                        </head>
+                        <ab>Hec ex historia continuationis <name type="person">Sigisberti Gemblacensis</name> per <name
+                                type="person">Rob. de Torineio Abb. S. Mich. de monte in Normannia</name> quondam
+                            prior(is) Cenobii Beccensis. Is this <ref type="ms" target="LBLCD8">Domitian VIII
+                            ?</ref></ab>
+                    </msItem>
+
+                    <msItem n="165" locusStart="451" locusEnd="453">
+                        <head type="CCC">
+                            <title>Council of <name type="place">London</name> concerning reconciliation with the
+                                apostolic see, <date>1554</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Concilium magnum habitum <name type="place">Londoniae</name>
+                                <date>Nov. 29, 1554</date>, de reconciliatione hujus regni ad sedem apostolicam,
+                                imperfect</title>
+                        </head>
+                        <ab>[This newes came owte of the emperors cowrte to the cowncell here in <name type="place"
+                                >hollande</name>]</ab>
+                    </msItem>
+
+                    <msItem n="166" locusStart="454" locusEnd="454">
+                        <head type="CCC">
+                            <title>Conditions of the peace made in France</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Conditiones pacis factae in Gallia</title>
+                        </head>
+
+                    </msItem>
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, SP, CF</p>
+                            <p>msCheck: RJR 02/09/08.</p>
+                            <p>remarks: NB Figure at beginning.</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

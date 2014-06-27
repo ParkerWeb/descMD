@@ -1,0 +1,383 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC383">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>383</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>19. 2</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>339</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Anglo-Saxon Laws</head>
+                <head type="James">Leges Anglo-Saxonicae</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">190</height>
+                        <width unit="mm">119</width>
+                    </measureGrp><measureGrp type="James">7.3 x 4.6</measureGrp>, <extent>ff. 9 + 62</extent>,
+                        <layout>26 lines to a page</layout>. Cent. <origDate>xii (1125-30)</origDate> and
+                        <origDate>xvi</origDate>, <handNote>in good clear hands</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>10</num> (wants 10: cent. <date>xvi</date>) | 1<num>6</num> 2<num>8</num> (6 canc.)
+                            3<num>8</num> | 4<num>10</num> (8-10 canc.: cent. <date>xvi</date>) |
+                            5<num>8</num>-8<num>8</num>: 2 cancels in 7 and 8</collation>.</p>
+
+                <p function="Research"><ref type="bibl" target="Liebermann 1903">Liebermann (<hi rend="italic"
+                            >Gesetze</hi>, p. xix)</ref> describes this MS. as B. According to him it was written about
+                        <date>1125</date>-<date>1130</date> and belonged to <name type="place">St Paul's of
+                        London</name>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-iv + 1-72 + v-viii</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="ang" otherLangs="lat frm">Old English, Latin, and Anglo-Norman.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="2r" locusEnd="69v">
+                        <head type="CCC">
+                            <title>Laws of the Anglo-Saxons</title>
+                        </head>
+                        <seg>
+                            <ab>The first quire is of cent. <origDate>xvi</origDate> and is paged <supplied>s</supplied>
+                                <locus locusNew="1r">a</locus> to <locus locusNew="9v">s</locus></ab>
+                            <ab>Text begins <locus locusNew="2r">c</locus></ab>
+
+                            <rubric locusNew="2r"><name type="person">Ædgars</name> lage</rubric>
+                            <incipit locusNew="2r">Ðis is seo gerædnes þe <name type="person">eadgar</name>
+                                cyng</incipit>
+
+                            <ab>It is a copy of <ref type="ms" target="LBLH55">Harley 55</ref></ab>
+
+                            <ab>Ends <locus locusNew="4v">h</locus>, <locus locusNew="5r">i</locus>-<locus locusNew="9v"
+                                    >s</locus> blank</ab>
+                        </seg>
+                        <seg>
+                            <ab>The pages now numbered <locus locusNew="16r">13</locus>-<locus locusNew="30v">42</locus>
+                                originally preceded p. <locus locusNew="10r">1</locus>. Thus the true order (excluding
+                                the additions of cent. xvi) is : pp. <locus locusNew="16r">13</locus>-<locus
+                                    locusNew="30v">42</locus>, <locus locusNew="10r">1</locus>-<locus locusNew="15v"
+                                    >12</locus> (gap), <locus locusNew="38r">43</locus>-<locus locusNew="69v"
+                                    >108</locus></ab>
+                        </seg>
+                        <seg>
+                            <ab><locus locusNew="10r">1</locus> begins imperfectly</ab>
+                            <ab locus="1" locusNew="10r">bringan ne mæge 7 he ðonne ful sy</ab>
+
+                            <ab locusNew="10r">Blaseras: <ref type="bibl" target="Liebermann 1903">Liebermann (L.), p.
+                                    388</ref></ab>
+                            <ab>
+                                <supplied agent="RJR">
+                                    <ref type="bibl" target="Cameron 1973">Cameron B14.34</ref>
+                                </supplied>
+                            </ab>
+                            <ab>Forfang: <supplied>
+                                    <ref type="bibl" target="Liebermann 1903">Liebermann (L.), p. 388</ref>
+                                </supplied>
+                            </ab>
+                            <ab>
+                                <supplied agent="RJR">
+                                    <ref type="bibl" target="Cameron 1973">Cameron B14.35</ref>
+                                </supplied>
+                            </ab>
+
+                            <ab locus="2" locusNew="10r">Hundredgemot: <ref type="bibl" target="Liebermann 1903"
+                                        ><supplied>Liebermann (L.)</supplied> 192</ref></ab>
+                            <ab>
+                                <supplied agent="RJR">
+                                    <ref type="bibl" target="Cameron 1973">Cameron B14.15s</ref>
+                                </supplied>
+                            </ab>
+                            <rubric locusNew="11r"><name type="person">ÆÐELREDES</name> LAGE (I)</rubric>
+                            <ab>
+                                <ref type="bibl" target="Liebermann 1903">Liebermann (L.) 216</ref>
+                            </ab>
+                            <ab>
+                                <supplied agent="RJR">
+                                    <ref type="bibl" target="Cameron 1973">Cameron B14.20</ref>
+                                </supplied>
+                            </ab>
+                            <ab>At bottom of <supplied>(f.)</supplied>
+                                <locus locusNew="12r">5</locus>
+                                <handNote>in a <origDate>xiii</origDate>th cent. hand</handNote> is</ab>
+                            <ab locusNew="12r"> Kiben est ame e bel amia ke li faut il mole to hise Worten / tant hunt
+                                chate cist oisel sus lumbrage kienestrif sunt / de druerie fine les plus surs noten
+                                sulun lur curage les queles / deiuent auer laseisne. lamauiz dist ke dames de uasur /
+                                deiuent auer laseisine damur. le rosinol dist ke ceserreit utraie / eiz deiuent puceles
+                                aufrois ni (?) sas<abbr rend="superscript">o</abbr>e. la mauiz Nond (?) </ab>
+                            <rubric locus="6" locusNew="12v"><name type="person">Ælfredes</name> laga cyninges</rubric>
+                            <ab>
+                                <ref type="bibl" target="Liebermann 1903">L. p. 126, Col. 2 (Text 2)</ref>
+                            </ab>
+                            <ab>
+                                <supplied agent="RJR">
+                                    <ref type="bibl" target="Cameron 1973">Cameron B14.5</ref>
+                                </supplied>
+                            </ab>
+                            <ab locus="7" locusNew="13r"><name type="person">Eadweard</name> and <name type="person"
+                                    >Guthrun</name></ab>
+                            <ab>
+                                <ref type="bibl" target="Liebermann 1903">L. p. 128</ref>
+                            </ab>
+                            <ab>
+                                <supplied agent="RJR">
+                                    <ref type="bibl" target="Cameron 1973">Cameron B14.6</ref>
+                                </supplied>
+                            </ab>
+                            <ab locus="10" locusNew="14v"><name type="person">Æthelstan</name> II 1-c. 6</ab>
+                            <ab>
+                                <ref type="bibl" target="Liebermann 1903">L. 150</ref>
+                            </ab>
+                            <ab>
+                                <supplied agent="RJR">
+                                    <ref type="bibl" target="Cameron 1973">Cameron B14.9</ref>
+                                </supplied>
+                            </ab>
+                            <explicit locusNew="15v">he his æt sacan</explicit>
+                            <ab>A quire lost after <supplied>(f.)</supplied>
+                                <locus locusNew="15v">12</locus></ab>
+                        </seg>
+                        <seg>
+                            <ab locus="13" locusNew="16r"><name type="person">Ælfred</name> to <name type="person"
+                                    >Ine</name> from § 3.</ab>
+                            <incipit locusNew="16r">Oþres bisceopes</incipit>
+                            <ab><ref type="bibl" target="Liebermann 1903">L. p. 51</ref>. The beginning gone</ab>
+                            <ab>
+                                <supplied agent="RJR">
+                                    <ref type="bibl" target="Cameron 1973">Cameron B14.4</ref>
+                                </supplied>
+                            </ab>
+                            <ab>At the bottom of p. <supplied>(f.)</supplied>
+                                <locus locusNew="24r">29</locus>
+                                <handNote>in a fine small hand <origDate>xiii early (?)</origDate></handNote></ab>
+                            <incipit locusNew="24r"><name type="person">Matildis bey</name> soror <name type="person"
+                                    >magistri Roberti bey</name> de Abbond(on)</incipit>
+                            <ab>Ends imperfect</ab>
+                            <rubric locusNew="30v">Be morðsliht</rubric>
+                            <explicit locus="42" locusNew="30v">gyf he ðonne að forð</explicit>
+                            <ab>Here should follow <supplied>(ff.)</supplied>
+                                <locus locusNew="10r">1</locus>-<locus locusNew="15v">12</locus></ab>
+                        </seg>
+                        <seg>
+                            <ab locusNew="31r">A <origDate>xvi</origDate>th cent. quire like the first follows here,
+                                containing the Laws of <name type="person">Cnut</name> (I Cnut 17. 1) copied from <ref
+                                    type="ms" target="LBLH55">Harley, 55</ref></ab>
+                            <ab locus="43" locusNew="38r">I, II Cnut from 1 14. 2. <ref type="bibl"
+                                    target="Liebermann 1903">L. p. 294</ref> beginning at</ab>
+                            <incipit locusNew="38r">mæsse dæge s&#447;a he beboden beo</incipit>
+                            <ab>
+                                <supplied agent="RJR">
+                                    <ref type="bibl" target="Cameron 1973">Cameron B14.30</ref>
+                                </supplied>
+                            </ab>
+                        </seg>
+                        <seg>
+                            <ab>On the lower margins of <locus locusNew="40v">48</locus>-<locus locusNew="42v"
+                                    >52</locus>
+                                <handNote>in the <origDate>xiii</origDate>th cent. hand</handNote> is a series of
+                                directions in Latin and French to say certain Psalms in certain circumstances</ab>
+                            <incipit locusNew="40v">qui in inopiam decidit dicat Judica me deus, etc. ... contre
+                                destourbers quant vos leuez matin. si dirrez. vi. feiz. Deus in nomine tuo,
+                                etc.</incipit>
+                            <ab>Ending</ab>
+                            <explicit locusNew="42r">Q<abbr rend="superscript">i</abbr> troble seueit die od
+                                gemissemenz. Domine refugium, etc.</explicit>
+                            <ab>On <locus locusNew="42v">52</locus> similarly</ab>
+                            <incipit locusNew="42v">Qui dit ces dous vers a sun moriant. salme nentrat mie en enfern.
+                                Domine quia ego seruus tuus, etc.</incipit>
+                        </seg>
+
+                        <seg>
+                            <ab locus="72" locusNew="52v"><name type="person">Eadweard</name> I, II <ref type="bibl"
+                                    target="Liebermann 1903">L. p. 138</ref></ab>
+                            <ab>
+                                <supplied agent="RJR">
+                                    <ref type="bibl" target="Cameron 1973">Cameron B14.7</ref>
+                                </supplied>
+                            </ab>
+                            <ab locus="78" locusNew="54v"><name type="person">Eadmund</name> I, II <ref type="bibl"
+                                    target="Liebermann 1903"><supplied>L. </supplied> 184</ref></ab>
+                            <ab>
+                                <supplied agent="RJR">
+                                    <ref type="bibl" target="Cameron 1973">Cameron B14.13, 14.14</ref>
+                                </supplied>
+                            </ab>
+                            <ab locus="81" locusNew="56r">
+                                <q>Swerian</q>
+                                <ref type="bibl" target="Liebermann 1903"><supplied>L. </supplied> 396</ref>
+                            </ab>
+                            <ab>
+                                <supplied agent="RJR">
+                                    <ref type="bibl" target="Cameron 1973">Cameron B14.39</ref>
+                                </supplied>
+                            </ab>
+                            <ab locus="83" locusNew="57r"><name type="person">Ælfred</name> and <name type="person"
+                                    >Guthrun</name>. Text I <ref type="bibl" target="Liebermann 1903"><supplied>L.
+                                    </supplied> 126</ref></ab>
+                            <ab>
+                                <supplied agent="RJR">
+                                    <ref type="bibl" target="Cameron 1973">Cameron B14.5</ref>
+                                </supplied>
+                            </ab>
+                            <ab locus="84" locusNew="57v">
+                                <q>Wifmanna beweddung</q>
+                                <ref type="bibl" target="Liebermann 1903"><supplied>L. </supplied> 442</ref>
+                            </ab>
+                            <ab>
+                                <supplied agent="RJR">
+                                    <ref type="bibl" target="Cameron 1973">Cameron B14.43</ref>
+                                </supplied>
+                            </ab>
+                            <ab locus="86" locusNew="58v">
+                                <q>Wergeldzahlung</q>
+                                <ref type="bibl" target="Liebermann 1903"><supplied>L. </supplied> 392</ref>
+                            </ab>
+                            <ab>
+                                <supplied agent="RJR">
+                                    <ref type="bibl" target="Cameron 1973">Cameron B14.38</ref>
+                                </supplied>
+                            </ab>
+                            <ab locus="87" locusNew="59r">Charm against cattle-stealers. <ref type="bibl"
+                                    target="Cockayne 1866">Cockayne, <hi rend="italic">Anglo-Saxon Leechdoms</hi> III
+                                    286</ref></ab>
+                            <ab>
+                                <supplied agent="RJR">
+                                    <ref type="bibl" target="Cameron 1973">Cameron B23.1.6</ref>
+                                </supplied>
+                            </ab>
+                            <incipit locusNew="59r">Gyf feoh sy undernumen</incipit>
+                            <ab>(from other MSS.)</ab>
+                            <incipit locus="87" locusNew="59r">Hit bec&#447;æð</incipit>
+                            <ab>
+                                <ref type="bibl" target="Liebermann 1903"><supplied> L. </supplied> 400</ref>
+                            </ab>
+                            <ab>
+                                <supplied agent="RJR">
+                                    <ref type="bibl" target="Cameron 1973">Cameron B14.40</ref>
+                                </supplied>
+                            </ab>
+                            <ab locus="88" locusNew="59v"><name type="person">Æthelred</name> II <ref type="bibl"
+                                    target="Liebermann 1903"><supplied>L. </supplied> 220</ref></ab>
+                            <ab>
+                                <supplied agent="RJR">
+                                    <ref type="bibl" target="Cameron 1973">Cameron B14.21</ref>
+                                </supplied>
+                            </ab>
+                            <ab>On margin of <locus locusNew="60v">90v</locus> (<origDate>xiii</origDate>)</ab>
+                            <ab locusNew="60v"> v. feit diet<lb/>miserere mei deus </ab>
+                            <ab locus="93" locusNew="62r">
+                                <q>In Dunsæte land</q>
+                                <ref type="bibl" target="Liebermann 1903"><supplied>L. </supplied> 374</ref>
+                            </ab>
+                            <ab>
+                                <supplied agent="RJR">
+                                    <ref type="bibl" target="Cameron 1973">Cameron B14.31</ref>
+                                </supplied>
+                            </ab>
+                            <rubric locus="96" locusNew="63v">Ðegenes lagu</rubric>
+                            <ab>(Rectitudines sing. pers.) <ref type="bibl" target="Liebermann 1903"><supplied>L.
+                                    </supplied> 444</ref></ab>
+                            <ab>
+                                <supplied agent="RJR">
+                                    <ref type="bibl" target="Cameron 1973">Cameron B14.44</ref>
+                                </supplied>
+                            </ab>
+                            <ab locus="102" locusNew="66v">
+                                <q>Gerefa</q>
+                                <ref type="bibl" target="Liebermann 1903"><supplied>L. </supplied> 453</ref>
+                            </ab>
+                            <ab>
+                                <supplied agent="RJR">
+                                    <ref type="bibl" target="Cameron 1973">Cameron B14.45</ref>
+                                </supplied>
+                            </ab>
+                        </seg>
+
+                        <ab locus="107" locusNew="69r"><handNote>In another hand of cent.
+                                <origDate>xii</origDate></handNote>: <ref type="bibl" target="Liebermann 1900"
+                                    ><q>Matrosenstellung aus Landgütern der Kirche <name type="place">London</name> um
+                                        <date>1000</date>.</q> Ed. by Liebermann, <hi rend="italic">Archiv für neuere
+                                    Sprache</hi> CIV 23</ref>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Sawyer 1968">S 1458a</ref>
+                            </supplied>. It begins</ab>
+                        <incipit locusNew="69r">(S)cipmen. Of ticc .IIII. Of tillingaham .II.</incipit>
+                        <explicit locusNew="69v">Of hæþlege .7 of Codanham .I.</explicit>
+                        <ab>Follows a note on genealogy of West Saxons</ab>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron B18.1</ref>
+                            </supplied>
+                        </ab>
+                        <incipit locusNew="69v">(&#503;)a &#447;æs agangen fram cristes acennednesse cccc 7
+                            xciiii &#447;intra þa <name type="person">cerdic</name> 7 <name type="person"
+                                >cynric</name> his sunu coman up æt <name type="person">cerdices</name> oran mid fif
+                            scipun 7 se <name type="person">cerdic</name> &#447;es elesing. elesa ge&#447;ising,
+                            etc.</incipit>
+                        <explicit locusNew="69v">þa feng æsc&#447;ine to rice þes cyn gæð to <name type="person"
+                                >cerdice</name> 7 he heold .II. gear. þa feng cent&#447;ine</explicit>
+                        <ab locusNew="70r">Four blank vellum flyleaves</ab>
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: foliation check, BA; awaiting final check RJR - complete 7/11/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

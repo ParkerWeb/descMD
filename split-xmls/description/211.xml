@@ -1,0 +1,203 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC211">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>211</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Lib. ab Al. 12</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">John de Burgo, Pupilla oculi</head>
+                <head type="James">Pupilla Oculi</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">284</height>
+                        <width unit="mm">192</width>
+                    </measureGrp><measureGrp type="James">11.1 x 7.5</measureGrp>, <extent>ff. 175 + 1</extent>,
+                        <layout>double columns of 46 lines</layout>. Cent. <origDate>xv</origDate>, <handNote>in a
+                        current hand</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>12</num> 2<num>10</num> 3<num>12</num>-5<num>12</num>
+                            6<num>8</num>-9<num>8</num> 10<num>12</num>-14<num>12</num> 15<num>6</num> (wants 6) |
+                            16<num>8</num> 17<num>8</num> | 18<num>4</num></collation>.</p>
+
+                <p function="Additions">On the flyleaf <supplied>(f. <locus>iv</locus>)</supplied> a notice of the
+                    division of the book (<date>xv</date>) and other notes. </p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i + 1-175 + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="eng">Latin and English.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="171v">
+                        <head type="CCC">
+                            <name type="author">John de Burgo</name>, <title>Pupilla oculi</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Pupilla oculi <name type="author">Mag. Iohannis de Burgo</name></title>
+                        </head>
+                        <incipit locus="1r">Humane condicio nature</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="154v">denario numero parcium terminatur</explicit>
+                        <rubric locus="154v">Explicit pupilla oculi</rubric>
+                        <ab locusNew="154v">
+                            <lg>
+                                <l>Laus tibi sit christe quoniam liber explicit iste.</l>
+                                <l>Talmi pupilla nec inest melior puto uilla</l>
+                                <l>A quo scribetur ipsum deus auxilietur</l>
+                            </lg>
+                        </ab>
+                        <ab>The two inscriptions given by <ref type="bibl" target="Nasmith 1777">Nasmith</ref>
+                            follow</ab>
+                        <ab locusNew="154v">
+                            <quote> Inscriptiones ad finem hujus tractatus.<lb/>
+                                <q>Iste liber constat <name type="person">Matheo Hutton</name> rectori ecclesiarum de
+                                        <name type="place">Uldale</name> et <name type="place">Distyngton</name>, qui
+                                    quidem Mattheus dedit hunc librum magistro <name type="person">Ricardo Hutton</name>
+                                    consanguineo suo tempore obitus sui viz. <date>III<abbr rend="superscript"
+                                            >cio</abbr> die Maii anno 1506</date>.</q> Hutton<lb/>
+                                <q>Ecclesiae parochiali de <name type="place">Aldebury</name> ex dono <name
+                                        type="person">Ricardi Hutton</name> quondam rectoris ejusdem ecclesiae ibidem in
+                                    perpetuum permansurum <date>vicesimo nono die mensis Maii anno Domini 1513</date> et
+                                        <date>anno regni <name type="person">regis Henrici octavi</name> IIII<abbr
+                                            rend="superscript">to</abbr></date>.</q> Hutton</quote>
+                        </ab>
+
+                        <ab rend="afterContents"><name type="place">Uldale</name> and <name type="place"
+                                >Distington</name> are in <name type="place">Cumberland</name>: <name type="place"
+                                >Albury</name> is in <name type="place">Surrey</name></ab>
+                        <ab>f. <locus locusNew="155r">153r</locus>+<locus locusNew="155v">153v</locus> blank</ab>
+                        <ab locus="156r">Table Abbas—Ypocrisis in another hand</ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="172r" locusEnd="172r">
+                        <head type="CCC">
+                            <title>Documents of the parish of <name type="place">Albury</name> for the payment of
+                                clerks</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>The cessynge made by the parishe of <name type="place">Aldebury</name> for the
+                                payment of the clerks wages ther to contynew for evermore</title>
+                        </head>
+
+                        <ab>
+                            <quote>The lands and tenements from which the payments are to be made are here specified,
+                                but not the sums to be paid</quote>
+                        </ab>
+
+                        <ab><name type="place">Albury</name> is in <name type="place">Surrey</name></ab>
+                    </msItem>
+
+                    <msItem n="3" locusStart="172v" locusEnd="173r">
+                        <head type="CCC">
+                            <title>Documents of the parish of <name type="place">Shere</name> relating to tithes from
+                                the lordship of <name type="place">Gomshall</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>The parcels of londs of the whiche the parson of <name type="place">Schier</name>
+                                shall receive the tythes of, in the lordshippe of <name type="place">Gomneshulve</name>
+                                boundyng upon the parishe of <name type="place">Alburye</name></title>
+                        </head>
+
+
+                        <ab><name type="place">Albury</name> and <name type="place">Shere</name> are in <name
+                                type="place">Surrey</name></ab>
+                    </msItem>
+
+                    <msItem n="4" locusStart="173v" locusEnd="174r">
+                        <head type="CCC">
+                            <title>Documents of the parish of <name type="place">Shere</name> relating to tithes from
+                                the parish of <name type="place">Albury</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>The parcells of all suche londs as the parson of <name type="place">Schyre</name>
+                                schall take the tieth corn within the parishe of <name type="place">Aldebury</name>
+                                renewed the yer of our Lord God <date>MCCCCCXVIII</date></title>
+                        </head>
+
+
+                        <ab><name type="place">Albury</name> and <name type="place">Shere</name> are in <name
+                                type="place">Surrey</name></ab>
+                    </msItem>
+
+                    <msItem n="5" locusStart="174v" locusEnd="175v">
+                        <head type="CCC">
+                            <title>Documents of the parish of <name type="place">Albury</name> relating to the
+                                churchyard</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>The names and tenements of those that are bound to close the churche-yard of <name
+                                    type="place">Aldebury</name> renewed in the yere of our Lord God
+                                <date>1563</date></title>
+                        </head>
+
+
+                        <ab><name type="place">Albury</name> is in <name type="place">Surrey</name></ab>
+                    </msItem>
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJM 31/07/08</p>
+                            <p>remarks: Silent correction in Item 3 of Nasmith: "Gomneshulne" becomes "Gomneshulve"</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

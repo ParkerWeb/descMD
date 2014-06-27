@@ -1,0 +1,418 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC526">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>526</idno>
+                    <altIdentifier type="Elbing">
+                        <idno>N. 28</idno>
+                    </altIdentifier>
+
+                </msIdentifier>
+                <head type="CCC">Spiritual and Devotional Tracts</head>
+                <head type="James">[Untitled]</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">294</height>
+                        <width unit="mm">215</width>
+                    </measureGrp>, <measureGrp type="James">11.5 x 8.5</measureGrp>, <extent>ff. 348 + 1</extent>,
+                        <layout>double columns of 40 lines</layout>. Cent. <origDate>xv (1431), etc.</origDate>,
+                        <handNote>clearly written in more than one hand</handNote>. In a very bad state from damp.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>12</num> (1, 2 mut.)-11<num>12</num> 12<num>14</num> (blank) | 13<num>14</num>
+                        (wants 1) 14<num>12</num>-18<num>12</num> | 19<num>12</num>-23<num>12</num> (wants 12) |
+                            24<num>12</num>-26<num>12</num> (wants 7, 11, 12 blank) 27 (twenty-five) 28<num>12</num>, 1
+                        flyleaf</collation>.</p>
+
+                <p function="Additions">Binding fragmentary.</p>
+                <p function="Additions">The leaves at the end are much damaged.</p>
+                <p function="Additions">In the fragment of the last cover are some notes in German
+                        (<origDate>xv</origDate>) in which is mention of the kochemeister.</p>
+                <p type="CCC">
+                    <foliation>Too fragile to be foliated in its entirety. Partially imaged: front cover exterior + ff.
+                        1-211v + back cover exterior - problem of tight binding and curvature into gutter resulted in
+                        some lack of sharp focus for a few leaves; ff. 250v, 251r supplied from digitised old colour
+                        slides</foliation>.</p>
+
+                <p type="CCC"/>
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="ger">Latin and German.</textLang>
+
+                    <label>Contents</label>
+
+
+                    <milestone n="I" unit="volume"/>
+                    <msItem n="1.1" locusStart="1r" locusEnd="12v">
+                        <head type="CCC">
+                            <title>De xii gradibus humilitatis</title>
+                        </head>
+                        <head type="James">
+                            <title>De xii gradibus humilitatis</title>
+                        </head>
+                        <ab>(Palma spiritualis: old list)</ab>
+                        <ab>mutilated at the beginning</ab>
+                    </msItem>
+
+                    <msItem n="1.2" locusStart="12v" locusEnd="18v">
+                        <head type="CCC"><name type="author">pseudo-Anselm of Canterbury OSB</name>, <title>De
+                                mensuratione crucis</title></head>
+                        <explicit locusNew="18v">ita ut alios eciam possit consolari. Amen</explicit>
+                    </msItem>
+
+                    <msItem n="2.1" locusStart="18v" locusEnd="20v">
+                        <head type="CCC">
+                            <title>Speculum consciencie et contemplationis</title>
+                        </head>
+                        <rubric locus="18v">Incipit Speculum consciencie et contemplationis</rubric>
+                        <incipit locusNew="18v">Si uis perfectus fieri stude</incipit>
+                        <explicit locusNew="20v">lugendum et plorandum</explicit>
+                    </msItem>
+
+                    <msItem n="2.2" locusStart="20v" locusEnd="22v">
+                        <head type="CCC"><name type="author">pseudo-Bernard of Clairvaux OCist</name>, <title>De
+                                interiori domo (extract)</title></head>
+                        <head type="James">
+                            <title><name type="author">Bernhard</name> de contemplacione</title>
+                        </head>
+                        <rubric locus="20v">De speculo consciencie et contemplacionis <name type="author"
+                                >Bernhardi</name> vel de contemplacione</rubric>
+
+                        <incipit locusNew="20v">Uitam uniuscuiusque non cognoscit</incipit>
+                        <explicit locusNew="22v">miratus regis potencia</explicit>
+                    </msItem>
+
+                    <msItem n="3" locusStart="22v" locusEnd="27v">
+                        <head type="CCC">
+                            <title>Gratiarum acciones pro beneficiis</title>
+                        </head>
+                        <rubric locus="22v">Incipiunt gratiarum acciones pro beneficiis receptis a deo</rubric>
+                        <incipit locusNew="22v">Sancte sanctorum potentissime</incipit>
+                        <explicit locusNew="27v">te miserante valeam promereri. Amen</explicit>
+                    </msItem>
+
+                    <msItem n="4" locusStart="27v" locusEnd="56r">
+                        <head type="CCC">
+                            <title>Paradisus Spiritualis</title>
+                        </head>
+                        <rubric locus="27v">Incipit liber qui dicitur Paradisus Spiritu(a)lis</rubric>
+                        <incipit locusNew="27v">Paradisum spiritualem uniuersi describendo ymaginamur pratum</incipit>
+                        <explicit locusNew="56r">tale edifica in te et ubi habites semper ora. Amen</explicit>
+                        <rubric locusNew="56r">Explicit liber iste sit laus et gloria tibi Jesu Criste. Amen</rubric>
+                    </msItem>
+
+                    <msItem n="5.1" locusStart="56r" locusEnd="129r">
+                        <head type="CCC">
+                            <name type="author">Henricus Suso OP</name>, <title>Horologium sapientiae</title>
+                        </head>
+                        <head type="James">
+                            <title>Horologium sapientiae (<name type="author">Henricus Suso</name>)</title>
+                        </head>
+
+                        <incipit locus="57r" locusNew="56r">Sentite de domino in bonitate</incipit>
+                        <explicit locusNew="127r">in decore suo conspicientes I. c. d. n. qui cum, etc.</explicit>
+                        <ab>Table of chapters to 98: then the note</ab>
+                        <ab locusNew="129r"> Hyr ist nicht me. Amen </ab>
+                        <rubric locusNew="129r">Explicit horlogium sapientie fratris A. ordinis predicatorum.
+                            E.</rubric>
+                    </msItem>
+
+                    <msItem n="5.2" locusStart="129r" locusEnd="131r">
+                        <head type="CCC"><name type="author">Henricus Suso OP</name>, <title>Cursus de aeterna
+                                sapientia</title></head>
+                        <head type="James">
+                            <title>Hours of the Eternal Wisdom: in Latin</title>
+                        </head>
+                        <rubric locus="127r" locusNew="129r">Quicunque desiderat sapienciam eternam familiarem sibi
+                            sponsam habere debet ei has horas cottidie deuote ... gere</rubric>
+
+                        <rubric locusNew="131r">Explicit cursus sapiencie que est Ihesus Christus</rubric>
+                    </msItem>
+
+                    <msItem n="5.3" locusStart="131r" locusEnd="146v">
+                        <head type="CCC">
+                            <title>Prayers at Mass and to the Virgin</title>
+                        </head>
+                        <ab>Three prayers</ab>
+                        <ab>a.</ab>
+                        <ab locus="131r">At Mass. In presencia sanctissimi corporis</ab>
+                        <ab>b.</ab>
+                        <ab>To the Virgin. O sanctissima et gloriosissima</ab>
+                        <ab>c.</ab>
+                        <ab locus="131v"><supplied>To the Virgin</supplied>. O gloriosissima et sublimis</ab>
+                        <ab>ff. <locus>133r</locus>-<locus>146v</locus> blank</ab>
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+                    <msItem n="6" locusStart="147r" locusEnd="147r">
+                        <head type="CCC">
+                            <name type="author">Caesarius of Arles</name>, <title>Admonitio (fragment of Sermo
+                                7)</title>
+                        </head>
+                        <ab>End of</ab>
+                        <explicit locusNew="147r">Amonicio <name type="person">S. Augustini</name> per quam ostendit
+                            quam bonum sit leccionem diuinam legere</explicit>
+                        <ab>(a little over a column)</ab>
+                    </msItem>
+
+                    <msItem n="7" locusStart="147r" locusEnd="147r">
+                        <head type="CCC">
+                            <name type="author">pseudo-Thomas Aquinas OP</name>, <title>Epistola de modo
+                                studendi</title>
+                        </head>
+                        <rubric locus="147r">Sequitur exemplar <name type="person">S. Thome de Aquino</name> missum
+                            cuidam fratri interroganti qualiter studio ac thesauro sciencie intendendum sit ad
+                            profectum</rubric>
+                        <incipit locusNew="147r">Quia quesiuisti qualiter oporteat in thesauro sciencie</incipit>
+                        <explicit locusNew="147r">attingere poteris quod affectas. Amen</explicit>
+                        <rubric locusNew="147r">Sequitur aliud </rubric>
+                    </msItem>
+
+                    <msItem n="8" locusStart="147v" locusEnd="147v">
+                        <head type="CCC">
+                            <title>Exemplar <name type="person">Sancti Bernhardi</name></title>
+                        </head>
+                        <rubric locus="147v">Exemplar <name type="person">S. Bernhardi</name>. ... quemadmodum se habere
+                            debeant dum diuinis laudibus assistunt</rubric>
+                        <incipit locusNew="147v">Vos ammoneo dilectissimi pure ac strenue</incipit>
+                    </msItem>
+
+                    <msItem n="9" locusStart="147v" locusEnd="155v">
+                        <head type="CCC">
+                            <name type="author">Jan van Ruusbroec</name>, <title>Tractatus de perfectione filiorum Dei
+                                (transl. by <name type="person">Willem Jordaens</name>)</title>
+                        </head>
+                        <rubric locus="147v">Incipit tractatus de perfeccione filiorum dei</rubric>
+                        <incipit locusNew="147v">Quicunque wlt venire in perfectissimo statu</incipit>
+                        <explicit locusNew="155v">unum cum eo fiemus uti sum superius utcunque profatus ut nobis
+                            prestare dignetur trinus et unus. Amen</explicit>
+                        <rubric locusNew="155v">Explicit tractatus de perfeccione filiorum dei</rubric>
+                    </msItem>
+
+                    <msItem n="10" locusStart="155v" locusEnd="157r">
+                        <head type="CCC">
+                            <name type="author">pseudo-Bonaventure OFM</name>, <title>De septem gradibus
+                                contemplationis</title>
+                        </head>
+                        <rubric locus="155v">Incipit tractatus de gradibus contemplacionis editus a <name type="person"
+                                >fr. Bonaventura de ordine minorum</name></rubric>
+                        <incipit locusNew="155v">Contemplatiuorum aquilinos obtutus</incipit>
+                        <explicit locusNew="157r">manibus eburneis cont(r)ectauit S[otoyi, dominum nostrum I. C. qui est
+                            bened. in secula seculorum Amen</explicit>
+                        <rubric locusNew="157r">Explicit tractatus, etc.</rubric>
+                    </msItem>
+
+                    <msItem n="11" locusStart="157r" locusEnd="160r">
+                        <head type="CCC">
+                            <name type="author">pseudo-Augustine</name>, <title>De essentia divinitatis</title>
+                        </head>
+                        <rubric locus="157r">Incipit Jeronimus de membrorum Christi significacione</rubric>
+                        <incipit locusNew="157r">Omnipotens pater et filius et spiritus Sanctus unus ac trinus</incipit>
+                        <explicit locusNew="160r">videbimus eum sicut est. Tu autem domine, etc.</explicit>
+                        <rubric locusNew="160r">Explicit liber beati Jeronimi de membrorum Christi
+                            significacione</rubric>
+                        <ab locusNew="160r">Scribbles in col. 2</ab>
+                    </msItem>
+
+                    <msItem n="12" locusStart="160v" locusEnd="211r">
+                        <head type="CCC">
+                            <title>De preparatoine domus animae</title>
+                        </head>
+                        <ab locusNew="160v">Prologus</ab>
+                        <rubric locus="160v">Domine dilexi decorem domus tue et locum habitacionis glorie tue</rubric>
+                        <incipit locusNew="160v">Glosa dicit hic .i. dilexi me facere decorem</incipit>
+                        <explicit locusNew="160v">erexi humiliter et distinxi</explicit>
+                        <ab locusNew="160v">Registrum</ab>
+                        <ab locusNew="160v">De preparacione aree domus anime .1.<lb/>...<lb/>De tectis anime .31.</ab>
+                        <ab locusNew="160v">Text</ab>
+                        <incipit locusNew="160v">Diligenter exerce agrum tuum</incipit>
+                        <explicit locusNew="211r">uerus pacificus sit in secula benedictus. Amen</explicit>
+                    </msItem>
+
+                    <msItem n="13" locusStart="211r" locusEnd="212v">
+                        <head type="CCC">
+                            <title>Meditations</title>
+                        </head>
+                        <ab locus="211r">Meditations on</ab>
+                        <incipit locusNew="211r">Natus est nobis hodie saluator</incipit>
+                        <incipit locusNew="212r">Verbum caro factum est</incipit>
+                    </msItem>
+
+                    <msItem n="14" locusStart="213r" locusEnd="219v">
+                        <head type="CCC">
+                            <title>Speculum humanae salvationis (Added texts on Passion and Joys and Sorrows of the
+                                Virgin Mary)</title>
+                        </head>
+                        <ab locus="212r" locusNew="213r">The end of the Speculum Humane Saluationis</ab>
+                        <incipit locusNew="213r">In precedenti capitulo de intollerabili pena dampnatorum</incipit>
+                        <ab>Ending f. <locus>216v</locus>
+                            <supplied agent="NJM">(ff. <locus>217r</locus>-<locus>219v</locus> blank)</supplied></ab>
+                    </msItem>
+
+                    <milestone n="III" unit="volume"/>
+                    <msItem n="15" locusStart="220r" locusEnd="250r">
+                        <head type="CCC">
+                            <name type="author">Hugo de Balma OCarth</name>, <title>Theologia mystica (De triplici
+                                via)</title>
+                        </head>
+                        <head type="James">
+                            <title>De triplici via</title>
+                        </head>
+                        <rubric locus="220r">Vie Syon lugent eo quod non sit qui vadit ... licet hoc uerbum dixit
+                            Jeremias propheta</rubric>
+
+                        <incipit locusNew="220r">Triplex est igitur via ista</incipit>
+                        <ab><handNote>Change of hand</handNote> at f. <locus>249r</locus>. Apparently ends f.
+                                <locus>250r</locus></ab>
+                    </msItem>
+
+                    <msItem n="16.1" locusStart="250v" locusEnd="251r">
+                        <head type="CCC">
+                            <name type="author">Jan van Ruusbroec</name>, <title>Epistola super generibus
+                                exercitantum</title>
+                        </head>
+                        <head type="James">
+                            <title>Liber spiritualis vitae by <name type="author">J. Ruysbroeck</name></title>
+                        </head>
+                        <incipit locusNew="250v">Conflue ... jocunditate in dulcissimi</incipit>
+                        <explicit locusNew="251r">filios vestras et filias in domino I. C. Amen</explicit>
+                        <ab><name type="person">Johannes de Rustbrot [Ruscbrot]</name> prior in viride valle totus
+                            vester in domino</ab>
+                        <ab>Capp. XVIII</ab>
+                    </msItem>
+
+                    <msItem n="16.2" locusStart="251r" locusEnd="266v">
+                        <head type="CCC"><name type="author">Thomas Aquinas OP</name>, <title>De perfectione spiritualis
+                                uitae</title></head>
+                        <rubric locusNew="251r">Incipit liber spiritualis vite perfeccionem et statum declarans quid sit
+                            auctoris intencio. Cap. I</rubric>
+                        <incipit locusNew="251r">Quoniam quidam perfeccionis ignari</incipit>
+                        <ab>Ends (cap. XXII)</ab>
+                        <explicit locusNew="266v">vicem eius agens qui est mediator dei et hominum homo Christus Ihesus
+                            qui est fons omnis perfeccionis Cui est gloria in secula seculorum. Amen</explicit>
+                        <rubric locusNew="266v">Explicit libellus <name type="person">Thome de Aquino</name> spiritualis
+                            vite perfeccionem et statum declarans</rubric>
+                    </msItem>
+
+                    <msItem n="17" locusStart="266v" locusEnd="278v">
+                        <head type="CCC">
+                            <name type="author">Jerome</name>, <title>Epistula ad <name type="person">Rusticum</name>
+                                (ep. 125)</title>
+                        </head>
+                        <rubric locus="266v">Sequitur ergo alius liber videlicet Epistola <name type="author">beati
+                                Jeronimi</name> presbiteri ad <name type="person">Rusticum monachum</name> Incipitur
+                            ergo iste</rubric>
+                        <incipit locusNew="266v">Nichil est christiano felicius</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="271r">magna sunt premia. Amen</explicit>
+                        <rubric locusNew="271r">Explicit epistola, etc.</rubric>
+                        <ab>ff. <locus>271v</locus>-<locus>278v</locus> blank</ab>
+                    </msItem>
+
+                    <milestone n="IV" unit="volume"/>
+                    <msItem n="18" locusStart="279r" locusEnd="312v">
+                        <head type="CCC">
+                            <name type="author">Jan van Ruusbroec</name>, <title>De ornatu spiritualium nuptiarum
+                                (transl. by <name type="person">Willem Jordaens</name>)</title>
+                        </head>
+                        <rubric locusNew="279r">Incipit Epistola domini <name type="author">Johannis (Ruysbroeck)</name>
+                            primi prioris vallis (viridis) ad fratres Carthosienses de Capella Rolamdi (Rosamundi: old
+                            list) in flandria super interpretacione libri sequentis</rubric>
+                        <incipit locusNew="279r">Flagitastis fratres karissimi literis humilibus</incipit>
+                        <explicit locusNew="279r">adoranciam obfecisse</explicit>
+                        <rubric locusNew="279r">Liber iste dicitur de ornatu spiritualium nupciarum et fundatur in
+                            verbis domini viz. Ecce sponsus venit exite obviam ei</rubric>
+                        <rubric locusNew="279v">Incipit prologus liber de ornatu spiritualium nupciarum</rubric>
+                        <incipit locus="279v">Ecce sponsus venit, etc. Expergiscemini prudentes
+                            virgines<lb/>...<lb/>Christus igitur dei virtus et sapiencia</incipit>
+                        <ab>Text much injured</ab>
+                        <ab>Ends </ab>
+                        <rubric locusNew="305v">Explicit ... us libri de ornatu spir. nup. et fundatur in verbis domini
+                            videlicet (?). Ecce-obuiam ei.<lb/> Anno <date>Milles. cccc<abbr rend="superscript">o</abbr>
+                                Tricesimo primo</date></rubric>
+                        <ab>ff. <locus>306r</locus>-<locus>312v</locus> blank</ab>
+                    </msItem>
+
+                    <milestone n="V" unit="volume"/>
+                    <msItem n="19" locusStart="313r" locusEnd="347r">
+                        <head type="CCC">
+                            <name type="author">Francesco Petrarca</name>, <title>De uita solitaria</title>
+                        </head>
+                        <head type="James">
+                            <title><name type="author">Petrarcha</name> de laude vite solitarie</title>
+                        </head>
+                        <ab>Prologus</ab>
+                        <incipit locusNew="313r">Paucos homines noui quibus opusculorum</incipit>
+                        <explicit locusNew="313v">totam frontem serene tranquilleque rnentis aspicias</explicit>
+                        <ab>Secundus prologus</ab>
+                        <incipit locus="314r">Credo generosum (?)</incipit>
+                        <explicit locusNew="314v">et quod in illis vides in cunctis (?) estima</explicit>
+                        <ab locus="314v">Qualiter diues surgit media nocte</ab>
+                        <incipit locusNew="314v">Surgit occupatus infelix habitator urbium</incipit>
+                        <ab>Qualiter solitarius surgit</ab>
+                        <incipit locusNew="314v">Surgit solitarius felix atque ociosus</incipit>
+                        <ab locus="325v">Liber I ends</ab>
+                        <ab locus="346v"><supplied>Liber</supplied> II <supplied>ends</supplied></ab>
+                        <ab locus="347r">Incomplete list of capitula</ab>
+                        <ab><locus>348r</locus>-<locus>348v</locus> and vellum flyleaf blank</ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJM 6/2/2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,191 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC442">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>442</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>O. 25</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>226</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Canon Law Collection</head>
+                <head type="James">
+                    <q>De Fide Christiana</q>
+                </head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">193</height>
+                        <width unit="mm">104</width>
+                    </measureGrp>, <measureGrp type="James">7.7 x 4.2</measureGrp>, <extent>ff. 84</extent>, <layout>28
+                        lines to a page</layout>. Cent. <origDate>xi-xii</origDate>, <handNote>in a hand not unlike that
+                        of <name type="place">Christ Church, Canterbury</name></handNote>. </p>
+
+
+                <p><label>Collation:</label>
+                    <collation>i<num>8</num> ii<num>8</num> iii<num>10</num> iv<num>10</num> (with cancels)
+                            v<num>8</num>-x<num>8</num></collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>dicitur quod non approbat</secFol>.</p>
+
+                <p function="Provenance">At top of f. <locus>1</locus>
+                    <decoNote>in red chalk</decoNote>: por. See <ref type="ms" target="CCC308">MS 308. II</ref>, <ref
+                        type="ms" target="CCC323">MS 323</ref>.</p>
+                <p function="Decoration"><decoNote>Rubrics in red rustic capitals. Initials green and
+                    red</decoNote>.</p>
+
+
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + pp. 1-168 + ff. iii-iv</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1" locusEnd="168">
+                        <head type="CCC">
+                            <title>Canon Law Collection</title>
+                        </head>
+
+                        <rubric locusNew="1">Epistola <name type="author">Alcuini</name> levite ad imperatorem <name
+                                type="person">Karolum</name></rubric>
+                        <incipit locusNew="1">
+                            <lg>
+                                <l>O rex augusto clarissime dignus honore</l>
+                                <l>...</l>
+                                <l>Mens pia permandet semper amare deum</l>
+                            </lg>
+                        </incipit>
+                        <ab>(<ref type="bibl" target="Migne 101">P. L. CI 14</ref>)</ab>
+                        <ab>These lines occur at the end of the Preface to <name type="author">Alcuin</name>'s work de
+                            fide S. Trinitatis</ab>
+                        <rubric locusNew="1">Quod omnia per Christum sint. ipse uero nonfactus sed natus sit</rubric>
+                        <incipit locusNew="1">In principio fecit deus celum et terram in christo</incipit>
+                        <ab>(<name type="author">Alcuin</name> de fide S. Trin. II xiv)</ab>
+                        <rubric locusNew="1">De unitate Trinitatis et Trinitate unitatis</rubric>
+                        <incipit locusNew="1">Teneamus igitur firmissime patrem et filium</incipit>
+                        <rubric locusNew="2">Quod deus ubique totus sit potestate naturali</rubric>
+                        <rubric locusNew="2">Quare dicatur deus in celo magis habitare quam in terra</rubric>
+                        <rubric locusNew="2">Quomodo dicatur filius in euangelio nescire diem iudicii</rubric>
+                        <ab>Extracts from <q>
+                                <name type="person">Geronimus</name>
+                            </q> p. <locus>3</locus>, <name type="person">Julianus Toletanus</name> p. <locus>4</locus>
+                            etc. <name type="person">Ioh. Chrysostom</name> p. <locus>8</locus>, <name type="person"
+                                >Aug.</name> p. <locus>9</locus>, etc.</ab>
+
+                        <rubric locus="12">Quod finito iudicio incipiet esse celum novum et terra noua</rubric>
+                        <incipit locusNew="12">Ut ait <name type="person">beatus Augustinus</name> peracto finitoque
+                            iudicio</incipit>
+                        <explicit locusNew="12">figura enim preterit non natura</explicit>
+                        <rubric locusNew="12">Explicit de futuro seculo</rubric>
+                        <ab>(Then, without break)</ab>
+                        <rubric locusNew="12">Hec <name type="person">damaso papae</name> scribit <name type="person"
+                                >aurelius</name> ipse</rubric>
+                        <incipit locusNew="12">Beatissimo <name type="person">pape damaso</name>
+                            <name type="author">aurelius Carthaginensis episcopus</name></incipit>
+                        <rubric locus="13">Rescriptum <name type="person">damasi pape</name> ad ipsum</rubric>
+                        <ab>Extracts from Canons of Councils and from Fathers (<name type="person">Aug.</name>, <name
+                                type="person">Jeron.</name>, <name type="person">Greg.</name>, <name type="person"
+                                >Isidore</name>, etc.: the latest are <name type="person">Bede</name> and <name
+                                type="person">Rabanus Maurus</name> quoted on pp. <locus>53</locus>, <locus>74</locus>
+                            and <locus>134</locus>). They begin with a paragraph</ab>
+                        <incipit locus="14">Canones generalium conciliorum a temporibus constantini ceperunt</incipit>
+                        <rubric locusNew="14">Que sint rata concilia</rubric>
+                        <incipit locusNew="14">Quatuor autem principalia</incipit>
+                        <rubric locus="15">Ex concilio <name type="person">bonefacii pape</name> qui iiii<abbr
+                                rend="superscript">tus</abbr> a <name type="person">beato Gregorio</name> fuit</rubric>
+                        <incipit locusNew="15">Sunt nonnulli stulti dogmatis</incipit>
+                        <rubric locus="16"><name type="person">Ysodorus</name> in sinonimis de voto</rubric>
+                        <rubric locus="17">Ex canone apostolorum de ordinando episcopo</rubric>
+                        <rubric locusNew="17">Item de sacrisicio (!) domini</rubric>
+                        <rubric locusNew="17">Item de fideiussioribus (!) clericorum</rubric>
+
+                        <rubric locus="17">Ex concilio Cartaginensi habita ab episcopis xcvi kal. Sept.</rubric>
+                        <rubric locusNew="17"><name type="person">Innocentius</name> in epistola ad <name type="person"
+                                >Decentium</name></rubric>
+                        <rubric locusNew="17">Idem ad <name type="person">Ruffum</name> et <name type="person"
+                                >Eusebium</name> episcopos, etc.</rubric>
+                        <ab>On p. <locus>25</locus> begins a series of quotations from the False Decretals</ab>
+                        <rubric locusNew="25">Incipit decreta <name type="person">Clementis pape</name></rubric>
+                        <incipit locusNew="25">Si qui ex fratribus negotia habent inter se</incipit>
+                        <ab>The subjects of the extracts are not marked off by rubrics. The last appear to deal with the
+                            treatment of errors in doctrine: after two from Popes <name type="person">Zosimus</name> and
+                                <name type="person">Caelestinus</name> follows</ab>
+                        <rubric locus="161"><name type="person">Ieronimus</name> de membris domini nostri</rubric>
+                        <incipit locusNew="161">Omnipotens deus pater et filius et spiritus sanctus unus est atque
+                            trinus unus uidelicet in natura trinus in personis</incipit>
+                        <ab>Ending</ab>
+                        <explicit locusNew="168">sine sono uocis uel quolibet strepitu. occulte in mentibus sanctorum
+                            uoluntatem suam atque rectum inspirare siue futura</explicit>
+                        <ab><ref type="bibl" target="Martianay and Pouget 1706">Opera ed. Martianay V 120</ref>, <ref
+                                type="bibl" target="Migne 042">P. L. XLII 1199</ref></ab>
+
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: RJR 7/11/2008</p>
+                            <p>remarks: question about replacing roman numerals with words (iiiitus = quartus), etc.</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

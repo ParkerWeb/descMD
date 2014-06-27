@@ -1,0 +1,489 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC335">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>335</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Q. 6</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>260</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Tracts on the Saracens and Miscellaneous Texts</head>
+                <head type="James">Tractatus de Mahometo, etc.</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">218</height>
+                        <width unit="mm">148</width>
+                    </measureGrp><measureGrp type="James">8.6 x 5.5</measureGrp>, <extent>ff. 1 + 153</extent>,
+                        <layout>mostly 34-35 lines to a page</layout>. Cent. <origDate>xv</origDate>, <handNote>clearly
+                        written in several hands</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>10</num>-9<num>10</num> 10<num>12</num> 11<num>10</num> 12<num>10</num>
+                            13<num>6</num> 14 (three) 15<num>4(?)</num> 16<num>2</num> 17<num>6</num> (wants 6)
+                            18<num>2(?)</num> 19<num>8</num> 20 (one)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>nere in tua fide</secFol>.</p>
+
+                <p function="Provenance">I believe that the <name type="place">Ely</name> cross which marks the Priory
+                    books has been torn out of the edge of f. <locus>1r</locus>.<lb/> The flyleaf is of vellum and is
+                    the end of a deed (<origDate>xiv early?</origDate>) concerning the Priory (of Ely ?) and the
+                    Hospitallers (?). It has the handsome notarial mark of <name type="person">Will.de Beluero</name>
+                    clericus Lincoln.dioc. Names of witnesses are given. Also a list of contents. <lb/> At the end of
+                    the volume, low down on the page, in large letters, is: <q>Iste liber pertinet <name type="place"
+                            >ecclesie eliensi</name></q> (erased and revived). </p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i + 1-153 + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="frm">Latin and Anglo-Norman.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="9v">
+                        <head type="CCC">
+                            <name type="author">Sarracenus (pseudo-al-Kindi)</name>, <title>Epistola ad
+                                Christianum</title>
+                        </head>
+
+                        <rubric locusNew="1r">Incipit epistola sarraceni ad suam sectam christianum inuitantem
+                            (!)</rubric>
+
+                        <incipit locus="1r">In nomine dei misericordis et miseratoris adiutorium tuum o domine. Tempore
+                            abdalla helmemun fuit quidam de prudentissimis et excellentissimis elchesuu filii
+                            alahalet</incipit>
+
+                        <explicit locusNew="1r">scripsit itaque helesnimi christiano cartam cuius exemplar hoc
+                            est</explicit>
+
+                        <rubric locusNew="1r">Glosa</rubric>
+                        <incipit locusNew="1r">Sciendum quod ex quo sarraceni <name type="place">egiptum</name>
+                            possiderunt ... omnes reges emur helimni [mo] (<ref type="ms" target="OCC184">Emirhelmomini,
+                                C.C.C. Oxford</ref>) vocauerunt</incipit>
+
+                        <explicit locusNew="1r">Azoara. i. capitulum siue oraculum dicitur arabice</explicit>
+
+                        <ab>Text</ab>
+
+                        <incipit locus="1r">A quodam filio cuiusdam ad quendam filium cuiusdam Christianum salus super
+                            se et misericordia dei scriptum meum tibi cum pace</incipit>
+                        <ab>Ends</ab>
+                        <explicit locusNew="9v">Placida et spontanea voluntate ad ea que nostra sunt venias exhortamur.
+                            vale</explicit>
+                        <rubric locusNew="9v">Explicit epistola sarraceni inuitantis ad sectam suam</rubric>
+
+                        <ab><supplied>Items</supplied> 1, 2 are in MS. <ref type="ms" target="OCC184">C.C.C. Oxford 184,
+                                art. 6, 7</ref> (of cent. <date>xiv early</date>)</ab>
+                    </msItem>
+
+                    <msItem n="2" locusStart="9v" locusEnd="44r">
+                        <head type="CCC">
+                            <title>Response of a Christian to the letters of the Saracen</title>
+                        </head>
+
+                        <rubric locusNew="9v">Rescriptum Christiani ad maurum suam legem nichil esse merito rationis
+                            ostendentis</rubric>
+                        <incipit locus="9v">In nomine dei patris et filii et spiritu sancti misericordis et miseratoris
+                            ad quendam filium cuiusdam quidam filius cuiusdam christianus minimus seruorum Christi salus
+                            a deo salus et pietas et clemencia etc. ... vidi literas tuas et gratias egi deo</incipit>
+
+                        <explicit locusNew="44r">et aliquam facere utilitatem hominibus</explicit>
+                        <incipit locusNew="44r">Cum vero peruenissent iste due epistole ad emurhelmomini
+                            elmenu</incipit>
+                        <explicit locusNew="44r">oraciones dei super eum. sit nobis deus adiutor et protector et
+                            procurator benignus in omnibus. amen</explicit>
+
+                        <ab><supplied>Items</supplied> 1, 2 are in MS. <ref type="ms" target="OCC184">C.C.C. Oxford 184,
+                                art. 6, 7</ref> (of cent. <date>xiv early</date>)</ab>
+                    </msItem>
+
+                    <msItem n="3.1" locusStart="44r" locusEnd="45r">
+                        <head type="CCC">
+                            <name type="author">Peter the Venerable OSB</name>, <title>Epistola ad <name type="person"
+                                    >Bernardum Claravallensem</name> de impia secta <name type="person"
+                                >Muhamet</name></title>
+                        </head>
+
+
+                        <rubric locus="44r">Incipit epistola domini <name type="author">Petri venerabili</name>
+                            cluniacensis abbatis ad dominum <name type="person">Bernardum Clareuallensem abbatem</name>
+                            de impia secta <name type="person">mahumet</name> pseudoprophete</rubric>
+                        <incipit locusNew="44v">Singulari ueneracione colendo</incipit>
+                        <explicit locusNew="45r">gazis uestre sapiencie suppleat</explicit>
+                        <rubric locusNew="45r">Explicit epistola</rubric>
+                        <ab>
+                            <ref type="bibl" target="Bibliander 1543">Bibliander, Apologia etc., Basel 1543, I 1</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="3.2" locusStart="45r" locusEnd="48v">
+                        <head type="CCC"><name type="author">Peter the Venerable OSB</name>, <title>Summa totius
+                                haeresis Sarracenorum</title></head>
+
+                        <rubric locus="45r">Incipit vita <name type="person">mahumet</name></rubric>
+                        <ab locus="45v">Capitula</ab>
+                        <ab>Text</ab>
+                        <incipit locusNew="45v">Summa tocius heresis ac diabolice secte</incipit>
+                        <ab>
+                            <ref type="bibl" target="Bibliander 1543">Bibliander I 2</ref>
+                        </ab>
+
+                        <rubric locus="48v">Prologus <name type="author">Roberti translatoris</name> uiri eruditi et
+                            scolastici ad dominum <name type="person">Petrum abbatem</name></rubric>
+                        <incipit locusNew="48v">Cum iubendi religio parendique votum</incipit>
+                        <explicit locusNew="49r">cedere affirmat</explicit>
+                        <ab>
+                            <ref type="bibl" target="Bibliander 1543">Bibliander I 7</ref>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="49r" locusEnd="56v">
+                        <head type="CCC">
+                            <name type="author">Robert Ketton</name>, <title>Chronica mendosa Sarracenorum (transl. by
+                                    <name type="author">Hermann of Carinthia</name>)</title>
+                        </head>
+
+                        <rubric locus="49r">Cronica mendosa et ridiculosa sarracenorum</rubric>
+                        <incipit locusNew="49r">In creacionis sue primordio</incipit>
+                        <explicit locusNew="56v">die 10 almuharan</explicit>
+                        <ab>
+                            <ref type="bibl" target="Bibliander 1543">Bibliander I 213</ref>
+                        </ab>
+
+
+                    </msItem>
+
+                    <msItem n="5" locusStart="57r" locusEnd="65r">
+                        <head type="CCC">
+                            <name type="author">Hermann of Carinthia (attrib.)</name>, <title>De generatione Mahumet et
+                                nutritura eius</title>
+                        </head>
+
+                        <rubric locus="57r">De generacione <name type="person">mahumet</name> et nutritura eius. quod
+                            transtulit <name type="person">hermanus sclauus</name> scolasticus subtilis et ingeniosus
+                            apud <name type="place">legionem hispanie ciuitatem</name></rubric>
+                        <incipit locusNew="57r">Liber generacionis mahumet nuncii dei</incipit>
+                        <explicit locusNew="65r">cum gratiarum accione rediui</explicit>
+                        <ab>
+                            <ref type="bibl" target="Bibliander 1543">Bibliander I 201</ref>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="6.1" locusStart="65r" locusEnd="73r">
+                        <head type="CCC">
+                            <name type="author">Hermann of Carinthia (attrib.)</name>, <title>De doctrina
+                                Mahumet</title>
+                        </head>
+
+                        <rubric locus="65r">De doctrina <name type="person">mahumet</name> que apud sarracenos magne
+                            auctoritatis est sub eodem <name type="person">hermanno</name> translata cum esset
+                            peritissimus utriusque lingue. scilicet latine et arabice</rubric>
+                        <incipit locusNew="65r">Erat nuncius dei oracio dei super eum et salus sedens inter socios in
+                            ciuitate sua <name type="place">Jesrab</name> et descendit super eum angelus <name
+                                type="person">gabriel</name></incipit>
+
+                        <explicit locusNew="73r">cuius vere tu nuncius et propheta</explicit>
+                        <ab>
+                            <ref type="bibl" target="Bibliander 1543">Bibliander I 189</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="6.2" locusStart="73r" locusEnd="74r">
+                        <head type="CCC">
+                            <name type="author">Robert Ketton</name>, <title>Preface to the Liber legis Saracenorum quem
+                                Alchoran uocant</title>
+                        </head>
+
+                        <rubric locus="73r">Prefacio <name type="author">Roberti translatoris</name> ad dominum <name
+                                type="person">petrum cluniacensem abbatem</name> in libro legis sarracenorum quem <name
+                                type="person">mahumet</name> pseudopropheta per angelum <name type="person"
+                                >gabrielem</name> quasi de celo sibi missa confinxit</rubric>
+
+                        <incipit locusNew="73r">Domino suo <name type="person">petro</name></incipit>
+                        <explicit locusNew="74r">necessariis argumentis insistens</explicit>
+                        <ab>
+                            <ref type="bibl" target="Bibliander 1543">Bibliander I 7</ref>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="7" locusStart="74r" locusEnd="101r">
+                        <head type="CCC">
+                            <name type="author">Riccoldus de Monte Crucis OP</name>, <title>Libellus contra legem
+                                Sarracenorum</title>
+                        </head>
+
+                        <rubric locus="74r">Incipit libellus <name type="author">fratris Ricculdi</name> ordinis
+                            predicatorum contra legem sarracenorum prohemium</rubric>
+                        <incipit locusNew="74r">Quot sunt dies serui tui</incipit>
+                        <ab locusNew="75r">Capitula</ab>
+                        <ab>Text</ab>
+                        <incipit locus="75r">Primo igitur oportet scire qui sunt principales errores</incipit>
+
+                        <explicit locusNew="101r">lex adeo sanctissima pariter et obseruabilis mundo</explicit>
+                        <rubric locusNew="101r">Explicit</rubric>
+                        <ab>
+                            <ref type="bibl" target="Bibliander 1543">Bibliander II 83</ref>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="8" locusStart="101r" locusEnd="118v">
+                        <head type="CCC">
+                            <name type="author">Vincent of Beauvais OP</name>, <title>Speculum historiale (extract from
+                                book 25, 118-45)</title>
+                        </head>
+
+                        <rubric locus="101r">De conuersione <name type="person">Petri Alfunsi</name> quondam Iudei et
+                            edicione libri sui auctor est (?)</rubric>
+                        <incipit locusNew="101r">Eo tempore <name type="person">petrus alfunsus</name> quondam iudeus et
+                            moyses appellatum iudaismum reliquit</incipit>
+                        <ab>Extracts, ending</ab>
+                        <explicit locusNew="118v">quam cepi legem implere perficiat. Amen. Hec <name type="person"
+                                >vincencius</name> in speculo libro 26 in fine eiusdem libri</explicit>
+                        <ab>
+                            <supplied agent="NJM">In fact, the modern literature says book 25</supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="9" locusStart="119r" locusEnd="121v">
+                        <head type="CCC">
+                            <title>Tractatus de dungionibus diaboli</title>
+                        </head>
+
+                        <rubric locus="119r">Incipit tractatus de dungionibus (i. domibus) diaboli</rubric>
+                        <incipit locusNew="119r">Milicia est vita hominis super terram</incipit>
+                        <explicit locusNew="121v">ad rectam voluntatem penitendi valeat reuocari</explicit>
+
+                    </msItem>
+
+                    <msItem n="10" locusStart="121v" locusEnd="122v">
+                        <head type="CCC">
+                            <name type="author">pseudo-Bonaventure OFM</name>, <title>Sermo de modo uiuendi</title>
+                        </head>
+
+                        <rubric locus="121v">Sermo de modo uiuendi <name type="author">fratri
+                            bonauenture</name></rubric>
+                        <incipit locusNew="121v">Quisquis es qui per fidem spem et caritatem</incipit>
+                        <explicit locusNew="122v">uideatur deus per gloriam ad quam nos perducat. amen</explicit>
+
+                    </msItem>
+
+                    <msItem n="11" locusStart="123r" locusEnd="128v">
+                        <head type="CCC">
+                            <title>Sermons</title>
+                        </head>
+
+                        <ab>Extracts</ab>
+                        <ab locus="123r">One on the development of the embryo</ab>
+                        <ab locus="123v">Orations to an assembly</ab>
+                        <incipit locusNew="123v">Reuerendi domini legius dominus noster rex considerans dissenciones et
+                            discordias quas habemus ab intrinseco</incipit>
+                        <ab>quotes the <hi rend="italic">Policraticus</hi> and <name type="person">Aristotle</name>: on
+                            f. <locus>125r</locus> is an allusion to the Scotch as rebels</ab>
+                        <ab locus="125r">Sermon at a visitation</ab>
+                        <incipit locusNew="125r">Ponans visitacionem tuam pacem. ps. 60. Amantissimi fratres mei ratione
+                            triplici visitacio ordinatur</incipit>
+                        <ab>Ends <locus>127v</locus>. <locus>128r</locus>-<locus>128v</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="12.1" locusStart="129r" locusEnd="131v">
+                        <head type="CCC">
+                            <title>Treatise on birds, fish, marvels and animals</title>
+                        </head>
+
+
+                        <ab locusNew="129r">Begins imperfectly on Aues</ab>
+                        <ab locus="129r">naciones morsibus impugnant. Sunt autem magnitudine cignorum colore ...
+                            griphes. onocraculus ... sirenes etc.</ab>
+                        <ab locus="129v" locusNew="129r">Pisces</ab>
+                        <ab locus="129v">De lapidibus</ab>
+                        <ab locus="130v">Mirabilia. Hec predicta que partim ex historiis orientalium mappa mundi partim
+                            ex scriptis beati <name type="person">Augustini</name>, <name type="person">ysidori</name>,
+                            et ex libris etiam <name type="person">plinii</name> et <name type="person">solini</name>
+                            ... Ciclopes. Pigmei. Gigantes. Barnacle-geese etc.</ab>
+
+                        <ab locus="131r">Instinct of animals. More about birds, ending</ab>
+                        <explicit locus="131v">Cignus ... cantum suum ad modum cithare aptat</explicit>
+                        <rubric locusNew="131v">Explicit. Amen</rubric>
+                    </msItem>
+
+
+                    <msItem n="12.2" locusStart="132r" locusEnd="132v">
+                        <head type="CCC">
+                            <title>Orthographia gallica</title>
+                        </head>
+                        <head type="James">
+                            <title>On French pronunciation</title>
+                        </head>
+                        <ab>
+                            <handNote>Another hand</handNote>
+                        </ab>
+
+                        <incipit locus="132r">Diccio gallice dictata debet regulariter secundum quod scribitur
+                            pronunciari</incipit>
+                        <explicit locusNew="132v">differencia est in gallicis inter mound scriptum per d. et mount
+                            scriptum per t. Regulariter omnis diccio debet scribi secundum quod pronunciatur</explicit>
+
+
+                    </msItem>
+
+                    <msItem n="13" locusStart="132v" locusEnd="133v">
+                        <head type="CCC">
+                            <title>De septem signis in Christi natiuitate</title>
+                        </head>
+
+                        <rubric locus="132v">De 7 signis in Christi natiuitate</rubric>
+                        <incipit locusNew="132v">Primum signum natiuitatis Christi fuit quod princeps unus id est <name
+                                type="person">cesar augustus</name> per omnem orbem regnabat</incipit>
+                        <ab>2nd Peace, 3rd Census, 4th Death of 1030 slaves who would not return to their proper
+                            masters, 5th Star, 6th Perihelion, 7th Fount of oil at <name type="place">Rome</name></ab>
+
+
+                    </msItem>
+
+                    <msItem n="14" locusStart="133v" locusEnd="135v">
+                        <head type="CCC">
+                            <title>De duodecim lapidibus civitatis Dei</title>
+                        </head>
+
+                        <rubric locus="133v">Nomina lapidum</rubric>
+                        <incipit locusNew="133v">Iaspis primus ponitur in fundamento ciuitatis dei. qui talem naturam
+                            habet</incipit>
+                        <explicit locusNew="135v">sed quasi vinum rubens apparens</explicit>
+                        <rubric locusNew="135v">Explicit de XII lapidibus</rubric>
+
+                    </msItem>
+
+                    <msItem n="15" locusStart="136r" locusEnd="137v">
+                        <head type="CCC">
+                            <title>Regula fratrum minorum (extract)</title>
+                        </head>
+
+                        <rubric locus="136r">Regula et vita fratrum minorum hoc est silicet domini nostri Ihesu Christi
+                            sanctum euangelium obseruare viuendo in obediencia sine proprio voluntate et
+                            castitate</rubric>
+                        <incipit locusNew="136r">Frater franciscus promittit obedienciam etc. ... Si qui voluerit istam
+                            vitam accipere</incipit>
+                        <explicit locusNew="137v">que firmiter promisimus obseruemus</explicit>
+                        <rubric locusNew="137v">Explicit regula fratrum minorum</rubric>
+
+                    </msItem>
+
+                    <msItem n="16" locusStart="138r" locusEnd="142v">
+                        <head type="CCC">
+                            <title>Tracts on diet in French and Latin (Prognostications)</title>
+                        </head>
+                        <head type="James">
+                            <title>On diet, regimen and weather during the twelve months, in French</title>
+                        </head>
+                        <ab>
+                            <handNote>A smaller hand</handNote>
+                        </ab>
+
+                        <incipit locus="138r">Le meys de Januer appellent les astronomienz entendement cil apreygnent
+                            coment lem dyst le cors grarder</incipit>
+                        <explicit locusNew="139r">mort de prince ou de roy ou de counte ou de altre grant
+                            gentz</explicit>
+
+                        <rubric locusNew="139r">Hic incipit Idoneus Tractatus</rubric>
+                        <incipit locus="139r">Mense Januarii vinum album ieiunus bibe</incipit>
+                        <rubric locus="139v">Sequitur Rubrica de accionibus</rubric>
+                        <ab><handNote>Very ill written</handNote>, ending <locus>142v</locus></ab>
+                        <ab locus="142v">Receipts in French and Latin, headed <q><name type="person">Will<abbr
+                                        rend="superscript">s</abbr> de haneworth</name> iuxta Disce mark(et ?)</q></ab>
+
+
+                    </msItem>
+
+                    <msItem n="17" locusStart="143r" locusEnd="153v">
+                        <head type="CCC">
+                            <title>Documents relating to <name type="person">Roger Raude of Kenynghale</name> and <name
+                                    type="person">Robert Longham</name></title>
+                        </head>
+
+                        <head type="James">
+                            <title>Copies of documents</title>
+                        </head>
+
+                        <ab locusNew="144r">1. <date>1386</date>. <name type="person">Roger Raude de
+                            Kenynghale</name></ab>
+                        <ab locusNew="143v">2. <date>1387</date> at <name type="place">Trinity Hall</name>. <name
+                                type="person">Rob. Longham</name>, vicar of <name type="place">St John's,
+                                Maddermarket</name> (<name type="place">Norwich</name>)</ab>
+                        <ab locusNew="144r">3. Relates to Steucheworth (<name type="place">Stetchworth</name>)
+                                <date>1387</date></ab>
+                        <ab>On f. <locus>144v</locus> begin a series of Formulae: on f. <locus>150r</locus> one relating
+                            to <name type="place">Hauxton</name> and <name type="place">Shelford</name></ab>
+                        <ab>On f. <locus>153r</locus> a deed of 138.. relating to <name type="place">Lopham</name>,
+                            ending: <q>in le bordenhostel Cantabr.</q></ab>
+                        <ab locusNew="153v">Partial list of contents on f. <locus>153v</locus></ab>
+
+
+                    </msItem>
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: NJM 30/12/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

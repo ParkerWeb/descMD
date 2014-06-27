@@ -1,0 +1,152 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC280">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>280</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>E. 10</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>54</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Henry of Huntingdon, Historia Anglorum</head>
+
+                <head type="James">Henry of Huntingdon</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">255</height>
+                        <width unit="mm">175</width>
+                    </measureGrp><measureGrp type="James">10.1 x 7</measureGrp>, <extent>ff. 5 + 204</extent>,
+                        <layout>30 lines to a page</layout>. Cent. <origDate>xii-xiii</origDate>, in <handNote>a very
+                        fine bold script</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>5 flyleaves, 1 paper leaf, 1<num>8</num>, 2<num>8</num>, 3<num>10</num>, 4<num>8</num>
+                            5<num>10</num>, 6<num>8</num>-22<num>8</num>, 23<num>10</num>, 24<num>8</num>,
+                            25<num>6</num></collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>terita representaui</secFol>.</p>
+
+                <p function="Additions">The flyleaves <supplied>(ff. <locus>1r</locus>-<locus>5v</locus>)</supplied> are
+                    blank but for a late table of contents <supplied>(f. <locus>1v</locus>)</supplied>.</p>
+
+                <p function="Additions">On the paper leaf is <name type="person">Bale</name>'s account of <name
+                        type="author" key="HeHu01">Henry of Huntingdon</name>
+                    <supplied>(f. <locus>5ar</locus>)</supplied>.</p>
+
+                <p function="Provenance" rend="afterContents">The manuscript is the first of those mentioned by <ref
+                        type="bibl" target="Arnold 1879">Arnold in his Introduction to his edition, xxxv</ref>. He
+                    thinks it probable that it belonged to <name type="place" key="CanterbAug">St Augustine's,
+                        Canterbury</name>, but I cannot identify it in the catalogue, and no mark survives.</p>
+                <p function="Research">
+                    <supplied agent="JamesCorrigenda">Used in <ref type="bibl" target="Savile 1601">Savile's
+                            edition</ref>.</supplied>
+                </p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-5 + 5a + 6-209 + 209a-b + iii-iv</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="6r" locusEnd="209v">
+                        <head type="CCC"><name type="author" key="HeHu01">Henry of Huntingdon</name>, <title>Historia
+                                Anglorum</title></head>
+
+                        <head type="James">
+                            <title>
+                                <name type="author" key="HeHu01">Henry of Huntingdon</name>
+                            </title>
+                        </head>
+
+                        <rubric locus="6r">Incipit prologus Historie anglorum contexte ab <name type="author">Henrico
+                                Huntudonensi</name> archidiacono. Anno gratie <date when-iso="1135">m<abbr
+                                    rend="superscript">o</abbr> c<abbr rend="superscript">o</abbr> xxx<abbr
+                                    rend="superscript">o</abbr> v<abbr rend="superscript">o</abbr></date></rubric>
+                        <incipit locusNew="6r">Cum in omni fere litterarum studio</incipit>
+
+                        <ab><handNote>A distinct change of hand</handNote> occurs at f. <locus locusNew="195v"
+                                >191r</locus></ab>
+
+                        <explicit locus="209r" locusNew="209v">Spiritus es. caro sum. te nunc intrante reuixi</explicit>
+                        <rubric locus="209r" locusNew="209v">Et iam regi nouo nouus liber donandus est</rubric>
+                        <ab>(red)</ab>
+                        <rubric locusNew="209v">Explicit liber decimus. hic incipit liber undecimus</rubric>
+                        <ab>(green)</ab>
+                        <rubric locusNew="209v">
+                            <name type="author">henrico iuniori</name>
+                        </rubric>
+                        <ab>(red)</ab>
+
+                        <ab>Ed. <ref type="bibl" target="Arnold 1879">Arnold, Rolls Series, 292</ref></ab>
+                    </msItem>
+
+                </msContents>
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: typed from the James Catalogue by GDB</p>
+                            <p>markup: GDB</p>
+                            <p>markupCheck: CF, BA</p>
+                            <p>msCheck: NJC 25.1.2007; title checked and loci for incipit/explicit/rubric supplied NJC
+                                23.3.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

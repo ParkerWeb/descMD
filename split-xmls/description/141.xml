@@ -1,0 +1,140 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC141">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>141</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>O.16</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>224</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Registrum bibliothece de Syon</head>
+
+                <head type="James">Catalogue of the Library of Syon Monastery</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">343</height>
+                        <width unit="mm">222</width>
+                    </measureGrp>
+                    <measureGrp type="James">13.3 x 8.8</measureGrp>, <extent>ff. 112 + 3</extent>, <layout>varying
+                        numbers of lines to a page</layout>. Cent. <origDate>xv-xvi</origDate>, <handNote>clearly
+                        written</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num> 1<num>10</num> 2<num>12</num> (7 canc.) 3<num>10</num> (+1) 4<num>10</num>
+                            5<num>8</num> (+1) 6<num>10</num> (two canc.) 7<num>2</num> (+1) 8<num>8</num> 9<num>2</num>
+                            10<num>10</num> (one canc.) | 11<num>8</num>-14<num>8</num> (wants 8)
+                        b<num>1</num></collation>.</p>
+
+
+                <p>On flyleaf <supplied>(f. <locus>ir</locus>)</supplied> a mark <figure xml:id="figure326a"/></p>
+
+
+                <p>The shelf-catalogue occupies ff. <locus>1r</locus>-<locus locusNew="80v">81v</locus>. The Index ff.
+                        <locus>82r</locus>-<locus locusNew="109r">110v</locus>.</p>
+                <p function="Research">The volume was admirably edited by <ref type="bibl" target="Bateson 1898">Miss
+                        Bateson, Cambridge 1898</ref>, at the University Press.</p>
+
+
+                <p function="Decoration"><decoNote>There are very handsome initials, principally in pen-work, to the
+                        divisions of the Catalogue: three elaborate ones are on f. <locus>1r</locus>. On the margin of
+                        this has been a picture</decoNote>.<lb/>
+                    <decoNote>A roughly painted diaper ground remains, but an oblong patch, probably of finer vellum,
+                        which must have had a figure (either a suppliant or a dead man in a coffin), is
+                    gone</decoNote>.<lb/> Above this an early copper engraving has been pasted on the page and torn off
+                    all except a small corner.</p>
+                <p>Below the painted ground is the motto: <q>Viuentes in carne orate pro mortuis quia moriemini</q>.</p>
+
+
+
+
+
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-ii + 1-112 + iii + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="109r">
+
+                        <head type="CCC">
+                            <title>Registrum bibliothece de <name type="place">Syon</name></title>
+                        </head>
+
+
+                        <head type="James">
+                            <title>Catalogue of the Library of <name type="place">Syon Monastery</name></title>
+                        </head>
+
+                        <ab>
+                            <supplied>ff. <locus>109v</locus>-<locus>112v</locus> are blank leaves which have been ruled
+                                out but contain no text</supplied>
+                        </ab>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, CF</p>
+                            <p>msCheck: NJM 31/07/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

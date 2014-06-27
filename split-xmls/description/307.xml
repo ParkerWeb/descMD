@@ -1,0 +1,370 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC307">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>307</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>W. 3</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>297</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Felix of Crowland, Vita Sancti Guthlaci. John Waleys OFM, Floriloquium and other
+                    works</head>
+                <head type="James">Vita S. Guthlaci. Ioh. Wallensis</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">250</height>
+                        <width unit="mm">160</width>
+                    </measureGrp>, <measureGrp type="James">9.9 x 6.3</measureGrp>, <extent>ff. 2 + 52 | 4 +
+                        108</extent>, <layout>two volumes</layout> of cent. <origDate>ix</origDate> (<name type="person"
+                        >Bradshaw</name>) <origDate>and xiv</origDate>.</p>
+
+                <p/>
+
+                <p function="Multivolume" rend="withinContents"><lb/><label>Volume I:</label>
+                    <handNote>In a very fine bold English hand</handNote> of cent. <origDate>ix</origDate>, <layout>24
+                        lines to a page</layout>. <lb/><label>Volume II:</label> f. <locus locusNew="53r"
+                        >1r</locus>-<locus locusNew="53v">1v</locus> blank. On <locus locusNew="54r">iir</locus>-<locus
+                        locusNew="56r">iiiv</locus> an alphabetical table to the next treatise <layout>in double
+                        columns</layout>, <handNote>in a hand of cent. <origDate>xv</origDate></handNote>;
+                        <supplied>(text)</supplied>
+                    <handNote>in a good hand</handNote> of cent. <origDate>xiv early</origDate>, <layout>double columns
+                        of 41 lines</layout>. </p>
+
+
+                <p><label>Collation:</label><lb/>
+                    <label>Volume I:</label><collation>a<num>2</num>, 1<num>8</num>-6<num>8</num>
+                        7<num>4</num></collation>.<lb/><label>Volume II:</label>
+                    <collation>a<num>4</num>, 1<num>12</num>-9<num>12</num></collation>.</p>
+
+
+                <p><label>2 fo.:</label><lb/>
+                    <label>Volume I:</label>
+                    <secFol>ut lucem</secFol><lb/>
+                    <label>Volume II:</label>
+                    <secFol>mundialium</secFol>.</p>
+
+
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-ii + 1-164 + c-d</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+                    <milestone n="I" unit="volume"/>
+                    <msItem n="1" locusStart="1r" locusEnd="52v">
+                        <head type="CCC">
+                            <name type="author">Felix of Crowland</name>, <title>Vita <name type="person">Sancti
+                                    Guthlaci</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Vitam <name type="person">S. Guthlaci</name> per <name type="author">Felicem
+                                    Croylandensem</name></title>
+                        </head>
+
+
+
+                        <ab>
+                            <decoNote>In black capitals</decoNote>
+                        </ab>
+                        <rubric locus="1r">Incipit prologus <name type="person">sci Gu&#240;Laci</name></rubric>
+                        <incipit locus="1r">In domino dominorum<lb/>(<handNote>cursive from this point</handNote>)
+                            domino meo mihi prae ceteris regalium primatuum gradibus dilectissimo
+                            &#230;lf&#447;oldo regi ... felix</incipit>
+                        <explicit locus="3r">in principio finem in fine conpono</explicit>
+                        <rubric locus="3v">Explicit prologus</rubric>
+                        <rubric locus="3v">Incipiunt capitula libri <name type="person">sci guthlaci</name>
+                            anachoritae</rubric>
+                        <ab>53 capitula</ab>
+                        <rubric locus="6r">Finiunt capitula</rubric>
+                        <ab>(<decoNote>black capitals</decoNote>)</ab>
+                        <rubric locus="6v">Incipit uita</rubric>
+                        <incipit locus="6v">Fuit itaque in diebus <name type="person">aethelredi</name>
+                            inlustris</incipit>
+                        <ab>
+                            <decoNote>The initial is slightly ornamented in black</decoNote>
+                        </ab>
+                        <ab>
+                            <decoNote>From c. 28 the chapters have titles in capitals</decoNote>
+                        </ab>
+                        <ab locus="52r">C. 53 ends</ab>
+                        <explicit locus="52r">Uiditque uidentes quos prius uidere negauit; Grates deo persoluens. dignas
+                            quas ullus reddere nescit</explicit>
+                        <seg>
+                            <ab locusNew="52r"><handNote>In a smaller script of the same period, but I think not by the
+                                    same scribe</handNote>, an acrostic follows</ab>
+
+                            <ab>
+                                <lg>
+                                    <l><hi rend="bold">E</hi> go licet uilis uernaculus Christi <hi rend="bold"
+                                        >I</hi>;</l>
+                                    <l><hi rend="bold">A</hi> diuuatus gratia iusta depingen <hi rend="bold">S</hi>;</l>
+                                    <l><hi rend="bold">D</hi> omino donante digne quae feci <hi rend="bold">T</hi>;</l>
+                                    <l><hi rend="bold">U</hi> ota gud uenimus ad summ <hi rend="bold">A</hi>;</l>
+                                    <l><hi rend="bold">U</hi> oluminis istius fuerunt quip <hi rend="bold">P'</hi>;</l>
+                                    <l><hi rend="bold">A</hi> d decembri falendas (!) dies putat <hi rend="bold"
+                                        >I</hi>;</l>
+                                    <l><hi rend="bold">L</hi> ucide uiginti uos deprecor exi <hi rend="bold">N</hi>;</l>
+                                    <l>(verso)</l>
+                                    <l><hi rend="bold">D</hi> elere u(t) dignetur debita re <hi rend="bold">X</hi>;</l>
+                                    <l><hi rend="bold">U</hi> iuenti preces fundere patr <hi rend="bold">I</hi>;</l>
+                                    <l><hi rend="bold">S</hi> emper in secula cui gloria mane <hi rend="bold"
+                                        >T</hi>;</l>
+                                    <l>(no space in the original, but a larger initial)</l>
+                                    <l><hi rend="bold">C</hi> larificis uirtutum armis ia <hi rend="bold">M</hi>;</l>
+                                    <l><hi rend="bold">A</hi> c seon regen moyses mirabile fat <hi rend="bold"
+                                        >U</hi>;</l>
+                                    <l><hi rend="bold">L</hi> ate per mundum merito preconia <hi rend="bold">D</hi>;</l>
+                                    <l><hi rend="bold">D</hi> ecelebrant dum orci multar <hi rend="bold">E</hi>;</l>
+                                    <l><hi rend="bold">V</hi> ixerat in terris fulsit qui floribus it <hi rend="bold"
+                                            >A</hi>;</l>
+                                    <l><hi rend="bold">G</hi> randisonis gud quem clamant cantibus it <hi rend="bold"
+                                            >A</hi>;</l>
+                                    <l><hi rend="bold">B</hi> enigne natus in orbe deus ex semine iaco <hi rend="bold"
+                                            >B</hi>;</l>
+                                    <l><hi rend="bold">E</hi> lectosque suos ad alma uocabat regn <hi rend="bold"
+                                        >A</hi>;</l>
+                                    <l><hi rend="bold">A</hi> eternus fulgens dominus qui est iustorum recto <hi
+                                            rend="bold">R</hi>;</l>
+                                    <l><hi rend="bold">T</hi> umulus iste pulchre sacrata membra includi <hi rend="bold"
+                                            >T</hi>;</l>
+                                    <l><hi rend="bold">U</hi> t cunctis per orbem mira fulserunt munera Iosep <hi
+                                            rend="bold">H</hi>;</l>
+                                    <l><hi rend="bold">S</hi> ic huius alma clarescunt signa uirtutes metu <hi
+                                            rend="bold">O</hi>;</l>
+                                    <l><hi rend="bold">G</hi> ratia ac sancta merita gestat ante tribuna <hi rend="bold"
+                                            >L</hi>;</l>
+                                    <l><hi rend="bold">V</hi> enientem dominus dono ditabit honoris magn <hi rend="bold"
+                                            >O</hi>;</l>
+                                    <l><hi rend="bold">D</hi> eguit hic dignus hoc loco annos octo et septe <hi
+                                            rend="bold">M</hi>;</l>
+                                    <l><hi rend="bold">L</hi> aboris sancti premium iudicat auctor uita <hi rend="bold"
+                                            >E</hi>;</l>
+                                    <l><hi rend="bold">A</hi> ulam hanc atque nos gud uideat placido uult <hi
+                                            rend="bold">U</hi>;</l>
+                                    <l><hi rend="bold">C</hi> uius nos credimus opitulatus precibus almi <hi rend="bold"
+                                            >S</hi>;</l>
+                                </lg>
+                            </ab>
+                            <ab>There may be three acrostics here: certainly there are two. The first, of ten lines, is
+                                sufficiently plain, though the text contains mistakes (e.g. falendas for kalendas). The
+                                initials and finals read EADUUALDUS ISTA PINXIT. The meaning seems to be that the scribe
+                                by God's help has reached the end of his task, 20 days before the kalends of December,
+                                and asks for the prayers of the reader</ab>
+                            <ab>The six lines which follow are hexameters (of rather indifferent construction). The
+                                initials give CALDUG (i.e. <name type="person">Gudlac</name> reversed). The finals at
+                                present give MUDEAA. I cannot doubt that they were meant to read <name type="person"
+                                    >GUDLAC</name>. The first line in that case must have ended with a G : and, in fact,
+                                line 2 beginning Ac seon shows that an allusion to <name type="person">Og</name> is
+                                wanted in line I (which is obviously imperfect)</ab>
+                            <ab>Line 3 (also a short line) pretty plainly ended with <name type="person"
+                                >David</name></ab>
+                            <ab>Line 4 (also short) needs a word ending with L (?<name type="person">Michael</name>,
+                                Israel, mel)</ab>
+                            <ab>Lines 5 and 6 both end with ita: in 1. 6, a word like istac or illic or perhaps et lac
+                                is wanted</ab>
+                            <ab>I cannot undertake to restore the text so as to yield a good sense: but it is at least
+                                certain that the first line is imperfect and that the name of <name type="person"
+                                    >Og</name> must have occurred in it</ab>
+                            <ab>The twelve remaining lines contain fragments of hexameters but cannot themselves be
+                                called hexameters. The initials and finals give respectively <name type="person">BEATUS
+                                    GUDLAC</name> and <name type="person">BARTHOLOMEUS</name>. The connexion of <name
+                                    type="person">St Bartholomew</name> and <name type="person">St Guthlac</name> is
+                                well known</ab>
+                            <ab>For the text of the Life see <ref type="bibl"
+                                    target="Henschenius and Papebrochius 1675b">Acta SS. II Ap.</ref> and <ref
+                                    type="bibl" target="d'Achery and Mabillon 1688-1701">Mabillon, Acta SS. O.S.B. III
+                                    257</ref> (both from MSS. on the Continent). Other early copies are <ref type="ms"
+                                    target="CCC389">MS 389</ref> in this library, <ref type="ms" target="LBLA15">Royal
+                                    13 A. XV</ref>, <ref type="ms" target="LBLNC7">Cotton Nero C. VII</ref>, <ref
+                                    type="ms" target="LBLNE1">Nero E. I</ref>, <ref type="ms" target="LBLH97">Harley
+                                    3097</ref></ab>
+                            <ab>See <ref type="bibl" target="Hardy 1862a">Hardy I 404</ref></ab>
+                        </seg>
+
+                    </msItem>
+
+
+                    <milestone n="II" unit="volume"/>
+                    <msItem n="2" locusStart="53r" locusEnd="99r">
+                        <head type="CCC">
+                            <name type="author">John Waleys OFM</name>, <title>Floriloquium siue Compendiloquium de
+                                uitis illustrium philosophorum et de dictis eorunden</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Floriloquium philosophorum <name type="author">Iohannis Wallensis</name></title>
+                        </head>
+                        <ab>
+                            <quote>In posteriore parte, seculo <origDate>xv</origDate> scripta, continentur tractatus
+                                sequentes</quote>
+                        </ab>
+                        <rubric locus="1r" locusNew="57r">Floriloquium philosophorum (<name type="author">Joh.
+                                Wallensis</name>)</rubric>
+
+                        <incipit locusNew="57r">Cum enim debeamus apes imitari</incipit>
+                        <explicit locusNew="58v">in hoc finis huius collectionis de qua sit laus christo</explicit>
+                        <rubric locus="2v" locusNew="58v">Tractatus de vita illustrium philosophorum et de dictis
+                            moralibus eorundem et exemplis imitabilibus</rubric>
+                        <incipit locusNew="58v">Cum ex uita honesta gentilium</incipit>
+
+                        <explicit locusNew="99r">qui solus illuminat omnem hominem uenientem in hunc mundum. Jo. I. Et
+                            hec ad presens sufficiant de predictis</explicit>
+                        <rubric locusNew="99r">Explicit</rubric>
+                    </msItem>
+
+
+                    <msItem n="3" locusStart="99r" locusEnd="103v">
+                        <head type="CCC">
+                            <name type="author">John Waleys OFM</name>, <title>Breuiloquium de sapientia siue
+                                Philosophia sanctorum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Ejusdem breviloquium de philosophia sive sapientia sanctorum</title>
+                        </head>
+                        <incipit locus="42r" locusNew="99r">Huius breuiloquii quod est de sapientia sanctorum</incipit>
+                        <explicit locusNew="99r">mundanorum in uita et operibus</explicit>
+                        <rubric locusNew="99r">Breuiloquium de philosophia siue sapientia sanctorum</rubric>
+                        <incipit locusNew="99r">Cum uani sunt omnes homines</incipit>
+                        <explicit locusNew="103v">que amicos dei et prophetas constituit. sap. 7. et hec ad presens de
+                            hiis sufficiant</explicit>
+                        <ab>Later colophon added</ab>
+                    </msItem>
+
+
+                    <msItem n="4" locusStart="104r" locusEnd="119v">
+                        <head type="CCC">
+                            <name type="author">John Waleys OFM</name>, <title>Legiloquium siue De decem
+                                praeceptis</title>
+                        </head>
+
+                        <head type="James">
+                            <title>Legiloquium <name type="author">Ioh. Wallensis</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Tractatus de legibus sacrae scripturae</title>
+                        </head>
+
+                        <ab locus="48r" locusNew="104r">No title</ab>
+                        <incipit locusNew="104r">Scribam eis multiplices leges meas. osee. d. omnipotens creator omnium
+                            ac omnium sapiens gubernator</incipit>
+                        <explicit locusNew="119r">et ipso fruantur et sacientur in eternum</explicit>
+                        <ab locus="63v" locusNew="119v">blank</ab>
+
+                    </msItem>
+
+
+                    <msItem n="5" locusStart="120r" locusEnd="152v">
+                        <head type="CCC">
+                            <name type="author">John Waleys OFM</name>, <title>Tractatus de paenitentia</title>
+                        </head>
+                        <head type="James">
+                            <title>Summa de penitentia <name type="author">Ioh. Wallensis</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Sanctorum exempla et collectiones de penitentia</title>
+                        </head>
+                        <ab>
+                            <handNote>Change of hand</handNote>
+                        </ab>
+
+                        <incipit locusNew="120r">Quoniam prouida sollertia est iugiter meditari</incipit>
+                        <explicit locusNew="120r">de talium ineuitabili dampnacione</explicit>
+                        <rubric locusNew="120r">Prime partis sunt X. capitula etc.</rubric>
+                        <incipit locusNew="120r">In primis uero notandum quod penitentia describitur
+                            multipliciter</incipit>
+                        <ab locus="70r" locusNew="126r">
+                            <handNote>The first hand is resumed</handNote>
+                        </ab>
+                        <ab>There seem to be 9 parts of the treatise</ab>
+                        <explicit locusNew="151r">ipse memorie continuacio eternitatis. Et hec ad presens sufficiant de
+                            predictis</explicit>
+                        <ab><locus locusNew="151v">95v</locus>-<locus locusNew="152v">96v</locus> blank</ab>
+                    </msItem>
+
+
+                    <msItem n="6" locusStart="153r" locusEnd="164v">
+                        <head type="CCC">
+                            <name type="author">Thomas Aquinas OP</name>, <title>De ente et essentia</title>
+                        </head>
+
+                        <head type="James">
+                            <name type="author">Th. Aquinas</name>
+                            <title>de ente et essentia</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De ente et essentia</title>
+                        </head>
+
+                        <ab locus="97r" locusNew="153r">No title</ab>
+                        <incipit locusNew="153r">Quia paruus error in principio magnus est in fine</incipit>
+
+                        <explicit locusNew="158v">sua simplicitate. in quo sit finis huius sermonis amen</explicit>
+
+                        <ab><locus locusNew="159r">103r</locus>-<locus locusNew="164v">108v</locus> blank</ab>
+
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, but not by a second person</p>
+                            <p>msCheck: RJR 1/9/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

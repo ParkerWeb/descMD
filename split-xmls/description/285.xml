@@ -1,0 +1,185 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC285">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>285</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>N. 31</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>193</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Tito Livio Frulovisi, Vita Henrici V regis Angliae. Aldhelm, De laudibus
+                    uirginitatis</head>
+                <head type="James">T. Livius Foroliviensis. Aldhelmus</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">259</height>
+                        <width unit="mm">173</width>
+                    </measureGrp><measureGrp type="James">10.2 x 7.1</measureGrp>, <extent>ff. 3 + 71 + 57 + 1</extent>,
+                        <layout>29 and 27 lines to a page</layout>. Two volumes. Cent. <origDate>xv</origDate>,
+                        <handNote>in Italian-like minuscule</handNote>, and cent. <origDate>x</origDate>
+                        (<origDate>xi</origDate> Napier) <handNote>in Caroline minuscule</handNote>.</p>
+
+
+                <p>
+                    <label>Collation:</label><lb/>
+                    <label>Volume I:</label>
+                    <collation>a<num>4</num> (wants 1) 1<num>8</num>-8<num>8</num> 9<num>6</num> 10 (one). 3 +
+                        71</collation>.<lb/>
+                    <label>Volume II:</label>
+                    <collation>A<num>6</num> B<num>8</num> C<num>8</num> (+ slip) D<num>8</num>-G<num>8</num> H (two), 1
+                        flyleaf. 57 + 1</collation>. </p>
+
+                <p>
+                    <label>2 fo.:</label>
+                    <lb/>
+                    <label>Volume I:</label>
+                    <secFol>Spes erat</secFol>.<lb/>
+                    <label>Volume II:</label>
+                    <secFol>Piscibus</secFol>.</p>
+
+
+
+                <p function="Additions">On f. <locus>1r</locus> covered with paper are some scribbles. On f.
+                        <locus>1v</locus> in red: <q>Hoc tuus exiguo te munere donat amator / Nemo carens magnis tradere
+                        magna potest</q>. ff. <locus>2r</locus>-<locus>3v</locus> blank.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-132 + iii-iv</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="gre ang">Latin with occasional Greek phrases in item 1 and Old
+                        English glosses in item 2.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="4r" locusEnd="74v">
+
+
+                        <head type="CCC"><name type="author">Tito Livio Frulovisi</name>, <title>Vita <name
+                                    type="person">Henrici V</name> regis Angliae</title></head>
+
+
+                        <rubric locus="4r">Inuictissimi Anglorum franciaeque Regis <name type="person">henrici
+                                quinti</name> ad eius filium christianissi(m)um Regem <name type="person">he(n)ricum
+                                sextum</name> uita per <name type="author">T. liuium de frulouisiis</name>
+                            ferrarie(n)sem edita feliciter incipit</rubric>
+                        <incipit locus="4r">Cum a primis annis de parente meo</incipit>
+                        <ab>
+                            <decoNote>An exceedingly fine initial of the arms of <name type="place">England</name> and
+                                    <name type="place">France</name> quarterly, with a splendid excrescence of ornament
+                                mostly on burnished gold, with sharply cusped edges, containing grotesques and
+                                conventional foliage: cropped at top by the binder</decoNote>
+                        </ab>
+
+                        <ab>Ends</ab>
+                        <explicit locus="73r">regnum tuum <name type="place">franciae</name> bene regundum et
+                            gubernandum legauit. &#964;&#8182; &#952;&#969;&#772;
+                            &#948;&#972;&#958;&#945;</explicit>
+                        <ab>ff. <locus>73v</locus>-<locus>74v</locus> blank</ab>
+                        <ab>The text of this life was edited by <ref type="bibl" target="Hearne 1716b">Hearne in
+                                1716</ref></ab>
+
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="2" locusStart="75r" locusEnd="131v">
+
+                        <head type="CCC"><name type="author">Aldhelm</name>, <title>De laudibus
+                            uirginitatis</title></head>
+
+                        <ab>An erasure at top of f. <locus>75r</locus></ab>
+                        <ab>
+                            <decoNote>Titles in red capitals</decoNote>
+                        </ab>
+                        <rubric locus="75r">Incipit liber <name type="author">Aldhelmi</name> Episcopi de virginitate
+                            seu laude sanctorum</rubric>
+                        <ab>(<ref type="bibl" target="Migne 089"><supplied>P. L.</supplied> LXXXIX</ref> 237)</ab>
+
+                        <incipit locus="75r">Metrica tirones nunc promant carmina castos</incipit>
+                        <ab>The slip (f. <locus>92r</locus>) supplies 6 lines omitted on f. <locus>91v</locus></ab>
+
+                        <ab>Ends</ab>
+                        <explicit locus="122v">Plumabant pariter macta uirtute coronam</explicit>
+
+                        <rubric locus="122v">Explicit libellus <name type="author">Aldhelmi</name> Episcopi de laude
+                            sanctorum patrum atque uirginum</rubric>
+                        <rubric locus="122v">Eiusdem de octo uitiis principalibus</rubric>
+                        <ab>(<ref type="bibl" target="Migne 089"><supplied>P. L.</supplied> LXXXIX</ref> 281)</ab>
+                        <incipit locus="122v">Digestis igitur sanctorum laudibus almis</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="131v">Adduci merear Christo regnante per ethram</explicit>
+                        <rubric locus="131v">Explicit &#923;&#921;&#914;&#919;&#929; <name
+                                type="author">Aldhelmi</name> Archiepiscopi de viii vitiis principalibus</rubric>
+                        <ab>On f. <locus>132r</locus> an erasure</ab>
+                        <ab>A scribble cut off at top: — <name type="place">Anglie</name> primati et apostolice sedis
+                            ... in spiritualibus generali et officiali ... patri debitas cum honore </ab>
+                        <ab>Also the name <name type="person">humfry</name></ab>
+
+                        <ab>A <decoNote>drawing of an ornament (or notarial mark)</decoNote> below</ab>
+
+                        <ab>Such Anglo-Saxon glosses as occur in this MS. are given by <ref type="bibl"
+                                target="Napier 1900">Professor Napier, Old English Glosses, Oxford</ref> (p. xiii)</ab>
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJC 4.12.07</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

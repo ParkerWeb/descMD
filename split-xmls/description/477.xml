@@ -1,0 +1,162 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC477">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>477</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>N. 39</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>196</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Bonaventure OFM, Breuiloquium pauperis. Peter Lombard, Sententiarum abbreuiationes.
+                    Simon Hinton OP, Summa iuniorum</head>
+                <head type="James">Bonaventura. Sententiae Abbreviatae. Instructio Iuniorum</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">131</height>
+                        <width unit="mm">82</width>
+                    </measureGrp>, <measureGrp type="James">5.1 x 3.5</measureGrp>, <extent>ff. 4 + 273 + 1</extent>,
+                        <layout>30 lines to a page</layout>. Cent. <origDate>xiii late or xiv early</origDate>,
+                        <handNote>well written</handNote>.</p>
+
+
+
+                <p><label>Collation:</label>
+                    <collation>a<num>4</num>, 1<num>12</num>-15<num>12</num> (+ seven (8 wanting 8) after 1)
+                            16<num>12</num> (+ two after 8) 17<num>12</num>-22<num>12</num>, 1 flyleaf</collation>.</p>
+                <p><label>2 fo.:</label>
+                    <secFol>secundum exigenciam</secFol>.</p>
+
+                <p function="Additions">On f. <locus>ir</locus>:<lb/> Continentur in isto libello:<lb/> Flecto
+                    genua.<lb/> Sentencie abreuiate.<lb/> Instructio juniorum.<lb/> An erasure below.<lb/> ff.
+                        <locus>iv</locus>-<locus>ivv</locus> blank. </p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-iv + 1-272 + v + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="108v">
+                        <head type="CCC">
+                            <name type="author">Bonaventure OFM</name>, <title>Breuiloquium pauperis</title>
+                        </head>
+                        <rubric locus="1r">Incipit breuiloquium pauperis in sacra scriptura</rubric>
+                        <ab>(<name type="author">Bonaventurae</name>)</ab>
+                        <incipit locusNew="1r">Flecto genua ad patrem domini nostri Ihesu Christi ex quo omnis
+                            paternitas</incipit>
+                        <explicit locusNew="106v">donec intrauerim in gaudium dei mei qui est trinus et unus deus
+                            benedictus in secula seculorum. Amen</explicit>
+                        <rubric locusNew="106v">Explicit breuiloquium pauperis in sacra scriptura</rubric>
+                        <ab>ff. <locus>107r</locus>-<locus>108v</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="2" locusStart="109r" locusEnd="200v">
+                        <head type="CCC">
+                            <name type="author">Peter Lombard</name>, <title>Sententiarum abbreuiationes</title>
+                        </head>
+                        <head type="James">
+                            <title>Sententiae abbreuiatae</title>
+                        </head>
+                        <ab>(another copy, with prologue, in <ref type="ms" target="OBL509">Bodl. Laud. Misc.
+                            397</ref>)</ab>
+                        <incipit locusNew="109r">Rerum alia est qua fruendum est et hec est trinitas</incipit>
+                        <ab>Ends</ab>
+                        <explicit locusNew="200r">letabitur iustus cum viderit vindictam</explicit>
+                        <rubric locusNew="200r">Explicit</rubric>
+                        <rubric locusNew="200r">(Explicit sentencie abreuiate)</rubric>
+                        <ab locus="201v" locusNew="200v">blank</ab>
+                    </msItem>
+
+                    <msItem n="3" locusStart="201r" locusEnd="271r">
+                        <head type="CCC">
+                            <name type="author">Simon Hinton OP</name>, <title>Summa iuniorum</title>
+                        </head>
+                        <head type="James">
+                            <title>Summa de dictis Catholicorum or Instructio iuniorum</title>
+                        </head>
+                        <incipit locusNew="201r">Ad instruccionem iuniorum quibus non uacat opusculorum uariorum
+                            prolixitatem perscrutari</incipit>
+                        <explicit locusNew="271r">sic dictum uel factum unus (?) est obex positus in uia
+                            morum</explicit>
+                        <rubric locusNew="271r">Explicit</rubric>
+                        <ab>On the Articles of Faith, Sacraments, etc. There is another copy in <ref type="ms"
+                                target="CCC392">MS 392</ref> and another in <ref type="ms" target="OBL509">Bodl. Laud
+                                Misc. 397</ref> ending differently</ab>
+
+                        <ab>On <locus locusNew="272v">273v</locus> late verses (<origDate>xv</origDate>)</ab>
+                        <ab locusNew="272v">
+                            <lg>
+                                <l>Si velis in ecclesiam ingressum rectum facere</l>
+                                <l>Signo crucis te munias expurges te de scelere,</l>
+                                <l>etc.</l>
+                            </lg>
+                        </ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJM 30/01/2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

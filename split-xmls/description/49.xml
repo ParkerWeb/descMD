@@ -1,0 +1,421 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC049">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>49</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>E. 2</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>44</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Bible</head>
+                <head type="James">Biblia</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">345</height>
+                        <width unit="mm">225</width>
+                    </measureGrp>, <measureGrp type="James">13.6 x 8.8</measureGrp>, <extent>ff. 444 + 7</extent>,
+                        <layout>double columns of 54 lines</layout>. Cent. <origDate>xiii</origDate>, <handNote>very
+                        well written, wide margins. Three hands</handNote>.</p>
+
+
+
+                <p><label>Collation:</label>
+                    <collation>a<num>4</num>, 1<num>4</num> 2<num>10</num>-21<num>10</num> 22<num>12</num>
+                            23<num>10</num>-30<num>10</num> 31<num>12</num>-33<num>12</num> | 34<num>10</num>
+                            35<num>10</num> 36<num>12</num>-38<num>12</num> 39<num>10</num>
+                            40<num>12</num>-43<num>12</num>, b<num>3</num></collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>phantur. D. I. G. i.</secFol>.</p>
+
+                <p function="Provenance">From <name type="place">St Augustine's, Canterbury</name>. On flyleaf:<lb/>
+                    <q>Biblia <name type="person">G. de Langele minor</name>.</q><lb/> See the Catalogue (<ref
+                        type="bibl" target="James 1903">Ancient Libraries</ref>, p. 197, no. 9), Biblia <name
+                        type="person">Galfridi de Langle minor</name>.</p>
+
+                <p function="Additions">Also on flyleaf (<origDate>xv</origDate>):<lb/>
+                    <q>Mem. quod dominus <name type="person">Thomas elnam(?)</name> habet 4 (or x) s. viz. sed
+                        consummatum est. hec scripta sunt in libro<lb/>Ihesus exiuit de templo et corroborauit
+                        templum.</q><lb/> Old pencil notes follow.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-iv + 1-444 + v-viii + c-d</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="444r">
+                        <head type="CCC">
+                            <title>Bible</title>
+                        </head>
+                        <ab locus="1r"><name type="author">Jerome</name> ad <name type="person">Paulinum</name></ab>
+                        <ab>Prologue to Pentateuch</ab>
+                        <ab locus="4r">blank</ab>
+                        <ab locus="5r">Genesis - 2 Paralipomenon, Prayer of <name type="person">Manasses</name>
+                            absent</ab>
+                        <ab locus="72v">Proll. and Capp. to <name type="person">Joshua</name>
+                            <supplied>(<locus>73r</locus>)</supplied>. Capp. to Judges
+                                <supplied>(<locus>81v</locus>)</supplied></ab>
+                        <ab locus="90v"><name type="person">Ruth</name>. Prol. Post Samsonem iudicauit</ab>
+                        <ab locus="92r">I Reg. Prol. Capp. <supplied>(<locus>92v</locus>)</supplied>. 3 Reg. Capp.
+                                    <supplied>(<locus>115v</locus>)</supplied></ab>
+                        <ab locus="139v">I Par. Prol.</ab>
+                        <ab locus="163r">Esdr. - Job (Proll.) <supplied>(<locus>185r</locus>)</supplied></ab>
+                        <ab locus="195r">Psalter Gallican</ab>
+                        <ab locus="215v">Prov. (Prol.)—Ecclus. <supplied>(<locus>233r</locus>)</supplied></ab>
+                        <ab locus="247r"><name type="person">Isaiah</name> - <name type="person">Malachi</name>
+                            <supplied>(<locus>330r</locus>)</supplied></ab>
+                        <ab><name type="person">Baruch</name> absent: no unusual prologues</ab>
+                        <ab locus="331r">1, 2 Maccabees. The quire begins with the end of <name type="author"
+                                >Rabanus</name>'s prologue, followed by Prol. <name type="author">Jeronimi</name>,
+                            Machabeorum Libri. <handNote>The hand is that of the Psalter and other portions of the
+                                book</handNote></ab>
+                        <ab locus="349v">Evv. Proll. Plures fuisse. <name type="person">Matheus</name> ex iudea
+                                    <supplied>(<locus>350r</locus>)</supplied></ab>
+                        <ab locus="392r">Acts, Catholic Epistles, <name type="person">Pauline</name> Epistles
+                            (Laodiceans follows Heb.)</ab>
+                        <ab locus="438r">Apocalypse</ab>
+                        <ab locus="444v">On this page is</ab>
+                        <ab locus="444v">A.d. millesimo quingentesimo sexagesimo.<lb/>In domino confido (etc.)</ab>
+                        <ab locus="viir">On the next flyleaves are old pencil notes, and (<origDate>xv</origDate>)
+                                    <q><name type="person">Sancte augustine</name> ora pro nobis</q>
+                            <decoNote>With a sketch of a shield bearing a cross</decoNote>
+                            <supplied>(<locus>viiv</locus>)</supplied></ab>
+                        <ab>
+                            <handNote>Three scribes seem to be distinguishable. One writes the Pentateuch (?), Psalms,
+                                Maccabees etc. Another is seen in Proverbs etc. The third in the Prophets and Epistles.
+                                On the whole I believe the work to be French</handNote>
+                        </ab>
+                        <ab>In the book (at Ecclus. XXXV) is a contemporary book-marker, consisting of a disc of vellum
+                            which revolves between two other pieces so shaped that only half of the disc is exposed. It
+                            is inscribed in this wise: <figure xml:id="figure99a"/></ab>
+                        <ab>See a description of a somewhat similar medieval book-marker in <ref type="bibl"
+                                target="Wordsworth and Littlehales 1904">Wordsworth and Littlehale</ref>'s Service-books
+                            of the English Church, p. 280 (Methuen)</ab>
+                        <ab>
+                            <decoNote>The historiated initials are interesting and spirited. The colours used in them
+                                are as a rule pale. The subjects are as follows</decoNote>
+                        </ab>
+
+                        <ab locus="1r">
+                            <hi rend="italic">Prologue</hi>. <decoNote><name type="person">Jerome</name> nimbed,
+                                tonsured, under trefoiled arch facing R. writing, with knife in L. hand, at desk.
+                                Buildings in spandrels. Gold ground</decoNote>
+                        </ab>
+                        <ab locus="5r">
+                            <hi rend="italic">Genesis</hi>. <decoNote>Eight medallions (lozenge in quatrefoil). <hi
+                                    rend="italic">a</hi>. Christ holds globe with dove on it. <hi rend="italic">b</hi>.
+                                Points to clouds, <hi rend="italic">c</hi>. Creates trees, <hi rend="italic">d</hi>.
+                                Holds moon and puts sun into sky. <hi rend="italic">e</hi>. Half-length, buds below, <hi
+                                    rend="italic">f</hi>. Creates <name type="person">Adam</name>: beasts on R. and L.
+                                    <hi rend="italic">g</hi>. Sits blessing. <hi rend="italic">h</hi>. Crucified with
+                                the Virgin and <name type="person">St John</name>. He is beardless in all these
+                                pictures. <lb/>A Stork or Crane on the projecting foot of the initial</decoNote>
+                        </ab>
+                        <ab locus="22r">
+                            <hi rend="italic">Exodus</hi>. <decoNote><name type="person">Moses</name> takes off shoe.
+                                Christ in flames on R. with scroll <hi rend="italic">Moyses Moyses</hi>. Sheep
+                                below</decoNote>
+                        </ab>
+                        <ab locus="36v">
+                            <hi rend="italic">Leviticus</hi>. <decoNote>Man slaughters lamb on table on L. Man on R.
+                                marks lintel of door</decoNote>
+                        </ab>
+                        <ab locus="46v">
+                            <hi rend="italic">Numbers</hi>. <decoNote>L. God with scroll <hi rend="italic">tollite
+                                    summam</hi>. <name type="person">Moses</name>, the Israelites</decoNote>
+                        </ab>
+                        <ab locus="60v">
+                            <hi rend="italic">Deuteronomy</hi>. <decoNote><name type="person">Moses</name> horned
+                                addresses group on R</decoNote>
+                        </ab>
+                        <ab locus="73r">
+                            <hi rend="italic">Joshua</hi>. <decoNote>Two priests bear ark : two blow trumpets</decoNote>
+                        </ab>
+                        <ab locus="81v">
+                            <hi rend="italic">Judges</hi>. <decoNote>Battle of horsemen, chain-mail and
+                                surcoats</decoNote>
+                        </ab>
+                        <ab locus="90v">
+                            <hi rend="italic">Ruth</hi>. <hi rend="italic">a</hi>. <decoNote>Man and woman (<name
+                                    type="person">Naomi</name> and <name type="person">Elimelech</name>?).</decoNote>
+                            <hi rend="italic">b</hi>. <decoNote><name type="person">Ruth</name> gleaning</decoNote>, <hi
+                                rend="italic">c</hi>. <decoNote>Reapers</decoNote>
+                        </ab>
+                        <ab locus="93v">
+                            <decoNote><hi rend="italic">1 Regnum</hi>. <name type="person">Hannah</name> in prayer at
+                                altar on R. <name type="person">Eli</name> listens on L.</decoNote>
+                        </ab>
+                        <ab locus="106r">
+                            <hi rend="italic">2. Regnum</hi>. <decoNote><name type="person">Zadok</name> anoints <name
+                                    type="person">Solomon</name> (full-face). Another on R. holds crown. Fine
+                                work</decoNote>
+                        </ab>
+                        <ab locus="116v">
+                            <hi rend="italic">3 Regnum</hi>. <decoNote>Judgment of <name type="person">Solomon</name>:
+                                the dead child lies in front</decoNote>
+                        </ab>
+                        <ab locus="128v">
+                            <hi rend="italic">4 Regnum</hi>. <decoNote><name type="person">Elisha</name> kneels and
+                                receives the mantle of <name type="person">Elijah</name> who ascends on R. in two
+                                wheeled car drawn by horse</decoNote>
+                        </ab>
+                        <ab locus="140r">
+                            <hi rend="italic">1 Paralipomenon</hi>. <decoNote>A king seated with joined hands crowned by
+                                a priest on L. Two spectators</decoNote>
+                        </ab>
+                        <ab locus="150r">
+                            <hi rend="italic">2 Paralipomenon</hi>. <decoNote><name type="person">Solomon</name> on L.
+                                crowned directs four workmen, one mixes mortar, a 2nd climbs ladder, a 3rd has plummet,
+                                the 4th listens</decoNote>
+                        </ab>
+                        <ab locus="163r">
+                            <hi rend="italic">Prologue to Esdras</hi>. <decoNote><name type="person">Josiah</name> at
+                                altar: people adore on L.</decoNote>
+                        </ab>
+                        <ab locus="172v">
+                            <decoNote><hi rend="italic">Tobit</hi>. <name type="person">Tobias</name> with staff. <name
+                                    type="person">Raphael</name> points to <name type="person">Tobit</name> on
+                                R.</decoNote>
+                        </ab>
+                        <ab locus="176r">
+                            <hi rend="italic">Judith</hi>. <decoNote><name type="person">Judith</name> beheads <name
+                                    type="person">Holofernes</name> (crowned). Maid's head seen on R.</decoNote>
+                        </ab>
+                        <ab locus="180v">
+                            <hi rend="italic">Esther</hi>, <decoNote><hi rend="italic">a</hi>
+                                <name type="person">Ahasuerus</name> stretches his sceptre down to <hi rend="italic"
+                                    >b</hi>
+                                <name type="person">Esther</name>, <hi rend="italic">c</hi>
+                                <name type="person">Mordecai</name> in broad hat, <hi rend="italic">d</hi>
+                                <name type="person">Haman</name> hanging. Fine work</decoNote>
+                        </ab>
+                        <ab locus="185v">
+                            <hi rend="italic">
+                                <name type="person">Job</name>
+                            </hi>
+                            <decoNote>nude on dunghill, his wife on R.</decoNote>
+                        </ab>
+                        <ab locus="195r">
+                            <hi rend="italic">Psalter. Beatus vir</hi>. <decoNote>Above. <name type="person"
+                                    >David</name> plays harp, another plays fiddle. Below. <name type="person"
+                                    >David</name> slings at and then beheads <name type="person"
+                                >Goliath</name>.<lb/>This is a splendid initial with very fine grotesques in the stalk
+                                and foot of it</decoNote>
+                        </ab>
+                        <ab locus="198r">
+                            <hi rend="italic">Dominus illuminatio</hi>. <decoNote>Christ. <name type="person"
+                                    >David</name> points to his eye</decoNote>
+                        </ab>
+                        <ab locus="200r">
+                            <hi rend="italic">Dixi custodiam</hi>. <decoNote><name type="person">David</name> seated
+                                points to his mouth</decoNote>
+                        </ab>
+                        <ab locus="202r">
+                            <hi rend="italic">Quid gloriaris</hi>. <decoNote>A man about to slay a young woman in
+                                blue</decoNote>
+                        </ab>
+                        <ab locus="202r">
+                            <hi rend="italic">Dixit insipiens</hi>. <decoNote><name type="person">David</name> seated.
+                                The fool with bauble and cake before him</decoNote>
+                        </ab>
+                        <ab locus="204r">
+                            <hi rend="italic">Salvum</hi>. <decoNote>Above, two men cast out <name type="person"
+                                    >Jonah</name>. Below, he emerges from the fish and grasps a tree</decoNote>
+                        </ab>
+                        <ab locus="206v">
+                            <hi rend="italic">Exultate</hi>. <decoNote><name type="person">David</name> sits playing on
+                                seven bells</decoNote>
+                        </ab>
+                        <ab locus="208v">
+                            <hi rend="italic">Cantate</hi>. <decoNote>Two coped clerks sing at desk</decoNote>
+                        </ab>
+                        <ab locus="211r">
+                            <hi rend="italic">Dixit dominus</hi>. <decoNote>The Father and Son (both beardless). The
+                                Dove descends between them</decoNote>
+                        </ab>
+                        <ab locus="213r">
+                            <hi rend="italic">Ad dominum</hi>
+                            <decoNote>cxix (cxx) has a large decorative initial</decoNote>
+                        </ab>
+                        <ab locus="216r">
+                            <hi rend="italic">Proverbs</hi>. <decoNote><name type="person">Solomon</name> on L. <name
+                                    type="person">Rehoboam</name> in green before him holding a ball</decoNote>
+                        </ab>
+                        <ab locus="223v">
+                            <hi rend="italic">Ecclesiastes</hi>. <decoNote>A young woman seated. A young man in blue
+                                also seated holds up a wreath of flowers and lays his hand on her arm</decoNote>
+                        </ab>
+                        <ab locus="226r">
+                            <hi rend="italic">Canticum Canticorum</hi>. <decoNote>The Virgin seated, with the Child
+                                kissing her</decoNote>
+                        </ab>
+                        <ab locus="227v">
+                            <hi rend="italic">Sapientia</hi>. <decoNote>Wisdom seated crowned with open book</decoNote>
+                        </ab>
+                        <ab locus="233r">
+                            <hi rend="italic">Ecclesiasticus</hi>. <decoNote>Crowned man seated</decoNote>
+                        </ab>
+                        <ab locus="247r">
+                            <name type="person">Isaiah</name>
+                            <decoNote>nude bound head down between two posts and sawn by two men</decoNote>
+                        </ab>
+                        <ab locus="263v">
+                            <hi rend="italic">Jeremiah</hi>. <decoNote><name type="person">Ezekiel</name> in bed. Above,
+                                the heads of the four cherubic beasts (wrongly put here)</decoNote>
+                        </ab>
+                        <ab>
+                            <hi rend="italic">Lamentation</hi>. <decoNote>No initial</decoNote>
+                        </ab>
+                        <ab locus="284v">
+                            <hi rend="italic">Ezekiel</hi>. <decoNote>The prophet seated with scroll</decoNote>
+                        </ab>
+                        <ab locus="304r">
+                            <hi rend="italic">Daniel</hi> (Prologue). <decoNote>In the den, at window of a tower on R.
+                                Lions' heads seen at opening below. On L. <name type="person">Habakkuk</name> with food,
+                                and angel above</decoNote>
+                        </ab>
+                        <ab locus="304v">
+                            <decoNote>Text. Decorative initial</decoNote>
+                        </ab>
+                        <ab locus="313r">
+                            <hi rend="italic">
+                                <name type="person">Hosea</name>. </hi>
+                            <decoNote>seated with book. <hi rend="italic">
+                                    <name type="person">Joel</name>
+                                </hi>
+                                <supplied>(<locus>316r</locus>)</supplied>, <hi rend="italic">
+                                    <name type="person">Amos</name>
+                                </hi>
+                                <supplied>(<locus>317v</locus>)</supplied>, <hi rend="italic">
+                                    <name type="person">Obadiah</name>
+                                </hi>
+                                <supplied>(<locus>320r</locus>)</supplied>, similar</decoNote>
+                        </ab>
+                        <ab locus="320v">
+                            <hi rend="italic">
+                                <name type="person">Jonah</name>. </hi>
+                            <decoNote>sits nude under tree looking at <name type="place">Nineveh</name> on R.</decoNote>
+                        </ab>
+                        <ab>
+                            <decoNote>The remainder except <hi rend="italic">Haggai</hi> and <hi rend="italic"
+                                    >Zechariah</hi>. (which have no initial) have single figures</decoNote>
+                        </ab>
+                        <ab locus="331r">
+                            <hi rend="italic">1 Maccabees</hi>. <decoNote><name type="person">Alexander</name> dying in
+                                bed, two men listen to him, fine work</decoNote>
+                        </ab>
+                        <ab locus="342r">
+                            <hi rend="italic">2 Maccabees</hi>. <decoNote><name type="person">Nehemiah</name> kneels
+                                with people behind him. Christ seen in air on R.: below, a lamb among flames: fine
+                                work</decoNote>
+                        </ab>
+                        <ab locus="350r">
+                            <hi rend="italic">Matheus</hi>. <decoNote><name type="person">Jesse</name> reclines. Six
+                                heads in tree above: one crowned</decoNote>
+                        </ab>
+                        <ab locus="361v">
+                            <hi rend="italic">Marcus</hi>. <decoNote>Decorative</decoNote></ab>
+
+
+                        <ab locusNew="369r"><hi rend="italic">Lucas</hi>. <decoNote>writes on board on his
+                                knee</decoNote></ab>
+
+                        <ab locusNew="382r"><hi rend="italic">
+                                <name type="person">John</name>
+                            </hi>. <decoNote>looks at his pen</decoNote></ab>
+
+                        <ab locus="392r">
+                            <hi rend="italic">Acts</hi>. <decoNote>Four Apostles seated : <name type="person"
+                                    >Peter</name>, <name type="person">Paul</name> and two others</decoNote>
+                        </ab>
+                        <ab locus="404v">
+                            <hi rend="italic">Catholic Epistles</hi>. <decoNote>Single figures and decorative</decoNote>
+                        </ab>
+                        <ab locus="411r">
+                            <hi rend="italic">Romans - Philemon</hi>. <decoNote><name type="person">Paul</name> seated,
+                                with or without sword</decoNote>
+                        </ab>
+                        <ab locus="433v">
+                            <hi rend="italic">Hebrews</hi>. <decoNote>Decorative</decoNote>
+                        </ab>
+                        <ab locus="437v">
+                            <hi rend="italic">Laodiceans</hi>. <decoNote><name type="person">Paul</name> with
+                                sword</decoNote>
+                        </ab>
+                        <ab locus="438r">
+                            <hi rend="italic">Apocalypse</hi>. <decoNote><name type="person">John</name>
+                                writing</decoNote>
+                        </ab>
+
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJM 04.06.2008</p>
+                            <p>
+                                <hi>remarks: There are two bookmarkers in this manuscript. The one James describes is
+                                    now marking the beginning of the psalter at 195r. The second is within Kings at
+                                    119v-120r opening. These have been photographed but are not yet included.</hi>
+                            </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

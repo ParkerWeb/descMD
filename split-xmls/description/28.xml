@@ -1,0 +1,137 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC028">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>28</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>L. 7</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>128</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Origen, Homilies on Numbers (transl. by Rufinus)</head>
+
+                <head type="James">Origenis Homiliae in librum Numerorum</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">351</height>
+                        <width unit="mm">225</width>
+                    </measureGrp><measureGrp type="James">13.8 x 8.8</measureGrp>, <extent>ff. 84 + 1</extent>,
+                        <layout>double columns of 37 lines</layout>. Cent. <origDate>xii</origDate>, <handNote>in a very
+                        fine upright round hand</handNote>. <decoNote>Initials mostly in plain colour, but, at the
+                        beginning, variegated</decoNote>.</p>
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num>-11<num>8</num> (wants 5-8): 1 flyleaf of MS at end of covered
+                        paper</collation>.</p>
+
+
+
+                <p function="Provenance">From <name type="place">Abingdon</name>. On f. <locus>1r</locus> in small hand
+                        <origDate>xii-xiii</origDate>: <q>liber <name type="place">sancte marie Abbendonie</name>
+                        quicumque ipsum ali(e)nauerit anathema sit. Amen</q>.</p>
+
+                <p function="Additions">In old pencil: <q>(Omelie) <name type="author">Origenis</name> xxv(iii).</q></p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-84 + iii-v</foliation>.</p>
+
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="84v">
+
+                        <head type="CCC"><name type="author">Origen</name>, <title>Homilies on Numbers (transl. by <name
+                                    type="person">Rufinus</name>)</title></head>
+
+                        <head type="James">
+                            <name type="author">Origenis</name>
+                            <title>Homiliae in librum Numerorum</title>
+                        </head>
+
+
+
+                        <rubric locus="1r">Incipit Prologus <name type="person">Rufini</name> In libro numeri ad <name
+                                type="person">Ursatium</name></rubric>
+
+                        <incipit locus="1r">Ut uerbis tibi pater beati martiris loquar</incipit>
+                        <ab>(<ref type="bibl" target="Migne PG 012">P. G. XII 583</ref>)</ab>
+                        <explicit locus="1r">in profectum legentium promat</explicit>
+                        <rubric locus="1v">Incipit de Principio numerorum</rubric>
+                        <incipit locus="1v">Diuinis numeris non omnes digni</incipit>
+                        <ab>Homily xxviii ends</ab>
+                        <explicit locus="83r">etiam capilli capitis numerati sunt per Ihesum Christum dominum nostrum
+                            cui est gloria et imperium in secula seculorum Amen.</explicit>
+                        <ab><locus>83v</locus>-<locus>84v</locus> blank</ab>
+
+                        <ab>Cf. <ref type="bibl" target="von Harnack 1897">Harnack, <hi rend="italic">Geschichte der
+                                    Altchristlichen Literatur</hi> I 356</ref>. <ref type="bibl"
+                                target="Bardenhewer 1902-03">Bardenhewer, <hi rend="italic">Geschichte der
+                                    Altkirchlichen Literatur</hi> II 95</ref></ab>
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, CF 2nd</p>
+                            <p>msCheck: RJR 20.07.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

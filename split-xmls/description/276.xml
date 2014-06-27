@@ -1,0 +1,217 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC276">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>276</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>A. 5</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>5</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Histories of the Romans and Normans</head>
+                <head type="James">Eutropius. Dudo</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">266</height>
+                        <width unit="mm">180</width>
+                    </measureGrp><measureGrp type="James">10.5 x 7</measureGrp>, <extent>ff. 2 + 134 + 2</extent>,
+                        <layout>varying numbers of lines to a page</layout>. Cent. <origDate>xi (and xii?)</origDate>,
+                        <handNote>in various hands, all very good</handNote>.</p>
+
+
+                <p function="Multivolume" rend="withinContents"><lb/><label>Volume I:</label> This volume has <layout>42
+                        lines to a page</layout>, <handNote>in several hands, all good, the one beginning at f.
+                            <locus>39r</locus> is the finest</handNote>. <lb/><label>Volume II:</label>
+                    <layout>Mostly double columns of 33 lines</layout>, <handNote>in two very excellent hands, one large
+                        and bold, the other very light and pretty</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num> 1<num>8</num>-6<num>8</num> 7<num>6</num> | I<num>8</num>-X<num>8</num> |
+                            b<num>2</num></collation>.</p>
+
+                <p function="Provenance">From <name type="place">St Augustine's, Canterbury</name>. On f.
+                        <locus>ir</locus> an erasure, also: S (?) lib. ffre. Walter' Vls ... . On f. <locus>iiv</locus>:
+                    Historia Romanorum et normannorum (<origDate>xiii</origDate>): added later: Cum B. De librar. S.
+                    Aug. Cant. Dist. x<abbr rend="superscript">a</abbr>. Gra. II. See <ref type="bibl"
+                        target="James 1903"><hi rend="italic">Ancient Libraries</hi>, pp. 293, 528</ref>.</p>
+                <!--<p function="Additions">Square musical notation on a faint 4-line stave (approximately 12 notes) setting the text beginning "hoc est preceptum ..."</p>-->
+
+
+                <p type="CCC">
+                    <foliation>ff. a + i-ii + 1-136 + b</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="gre">Latin and
+                        Greek.<!-- The Greek is provided from 57r onwards, and is frequently accompanied by Latin translation--></textLang>
+
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="1r" locusEnd="52v">
+                        <head type="CCC"><name type="author">Paul the Deacon</name>, <title>Historia Romana (an
+                                augmentation of <name type="author">Flavius Eutropius</name>, <hi rend="italic"
+                                    >Breuiarium ab urbe condita</hi>)</title></head>
+                        <head type="Nasmith">
+                            <title>Historia Romana ab urbe condita ad <name type="person">Justinianum</name> imperatorem
+                                libri xvi</title>
+                        </head>
+                        <ab>
+                            <quote>Decem priores libri sunt <name type="author">Eutropii</name> cum additamentis <name
+                                    type="person">Pauli diaconi</name>, sex posteriores incerti autoris</quote>
+                        </ab>
+                        <ab>f. <locus>1r</locus> blank</ab>
+                        <ab>f. <locus>1v</locus> has <decoNote>title in four lines, purple initial, text in capitals,
+                                green and purple in alternate lines</decoNote></ab>
+                        <rubric locusNew="1v">Incipit / liber / primus / Historiae / Romanorum</rubric>
+                        <incipit locusNew="2r">Primus in <name type="place">italia</name> ut quibusdam placet</incipit>
+                        <ab locusNew="2r">
+                            <decoNote>(purple and green capitals)</decoNote>
+                        </ab>
+                        <ab locusNew="35v">Liber X ends</ab>
+                        <explicit locusNew="35v">ad maiorem scribendi diligentiam reseruamus</explicit>
+                        <rubric locusNew="35v">Explicit liber decimus. hucusque historiam <name type="author"
+                                >eutropius</name> composuit cui tamen aliqua <name type="person">paulus diaconus</name>
+                            addidit</rubric>
+                        <rubric locus="35r" locusNew="35v">Incipit liber undecimus</rubric>
+                        <incipit locusNew="36r"><date>Anno ab urbe condita millesimo centesimo octauo decimo</date>
+                            <name type="person">Ualentinianus</name> tricesimus octauus e pannonia</incipit>
+                        <ab locusNew="51r">Liber XVI ends</ab>
+                        <explicit locus="51v" locusNew="51r">Quia uero restant adhuc que <name type="person"
+                                >iustiniani</name> augusti felicitate dicantur in sequenti deo presule libello promenda
+                            sunt</explicit>
+                        <rubric locusNew="51r">Explicit liber XVI</rubric>
+                        <rubric locus="51r">Imperatores <name type="place">Rome</name> vel <name type="place"
+                                >Constantinopoli</name> regnantes</rubric>
+                        <incipit locusNew="51r"><name type="person">Augustus</name> regnauit annos quinquaginta
+                            vi</incipit>
+                        <explicit locusNew="52v"><name type="person">Iustinus</name>
+                            <name type="place">Constantinopoli</name> ... morbo periit</explicit>
+                        <ab><handNote>A later hand</handNote> adds</ab>
+                        <ab locusNew="52v"><name type="person">Iustinianus</name> nepos <name type="person"
+                                >Justini</name> ex sorore</ab>
+                        <ab>Cf. <ref type="ms" target="CCC129">MS 129. 1</ref></ab>
+                    </msItem>
+
+                    <msItem n="2" locusStart="53r" locusEnd="54v">
+
+
+                        <head type="CCC">
+                            <title>Spurious charter of <name type="author">Pope Leo VIII</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Carta <name type="author">Leonis papae VIII</name>. in qua confirmat <name
+                                    type="person">Ottoni I</name>. imperatori jus tam eligendi quam ordinandi pontificem
+                                Romanum et alios episcopos</title>
+                        </head>
+
+                        <incipit locusNew="53r">Conuenit apostolico moderamine pollentibus</incipit>
+                        <ab>(<ref type="bibl" target="Jaffe 1885-8">Jaffe 3704</ref>)</ab>
+                        <explicit locusNew="53v">eternam cum omnibus sanctis habere mereatur in saeculorum saecula.
+                            Amen</explicit>
+
+                        <ab>f. <locus>54r</locus>-<locus>54v</locus> blank</ab>
+
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="3" locusStart="55r" locusEnd="134v">
+
+
+                        <head type="CCC"><name type="author">Dudo of Saint-Quentin</name>, <title>De moribus et actis
+                                primorum Normanniae ducum</title></head>
+
+                        <head type="Nasmith">
+                            <title><name type="author">Dudonis</name> historia Normannorum</title>
+                        </head>
+
+                        <ab>
+                            <quote>
+                                <q>De libraria <name type="place">sancti Augustini Cantuariensi</name></q>
+                            </quote>
+                        </ab>
+
+                        <rubric locusNew="55r">Epistola panagirica atque apologitica ratione transcursa</rubric>
+                        <incipit locus="55r">Inclito et pie venerando ... <name type="person">Adalberoni</name> ...
+                                <name type="author">Dude</name> ... Gloriosissimi nominis tui diuulgamen</incipit>
+                        <explicit locusNew="57r">senatorem celestis aule</explicit>
+                        <rubric locus="57r">Allocutio ad librum. monocolo monostropho ducursa</rubric>
+                        <ab locusNew="57r">(In Greek letters, transliterated above)</ab>
+                        <incipit locusNew="57r">Themate pertenui quoniam digestus haberis</incipit>
+                        <rubric locus="58r">Versus ad comitem <name type="person">rodulfum</name></rubric>
+                        <rubric locus="58v">Item ad <name type="person">Rodbertum archiepiscopum</name></rubric>
+                        <rubric locus="59v">Oratio</rubric>
+                        <ab>Text</ab>
+                        <incipit locus="59v">Totius nanque molis orbe descripto</incipit>
+                        <ab>The Greek words are written with some knowledge</ab>
+                        <ab>Ends unfinished</ab>
+                        <explicit locus="134v">uulgus concrepabat pro uocibus ululantium</explicit>
+                        <ab>(<ref type="bibl" target="Duchesne 1619">Duchesne, p. 157D</ref>)</ab>
+                        <ab locusNew="135r">The flyleaves are blank</ab>
+                        <ab>See <ref type="bibl" target="Hardy 1862b">Hardy I 616</ref></ab>
+                        <ab>Ed. <ref type="bibl" target="Duchesne 1619">Duchesne, 1619. <hi rend="italic">Historiae
+                                    Normannorum Scriptores Antiqui</hi></ref>
+                        </ab>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: RJR 15.9.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

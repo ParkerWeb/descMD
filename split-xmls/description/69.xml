@@ -1,0 +1,135 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC069">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>69</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>L. 14</idno>
+                        <!--James corrects in Corrigenda-->
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>135</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Gregory the Great, Homiliae XL in euangelia</head>
+
+                <head type="James">Gregorii Homiliae</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">300</height>
+                        <width unit="mm">215</width>
+                    </measureGrp><measureGrp type="James">12 x 8.7</measureGrp>, <extent>ff. 83</extent>, <layout>double
+                        columns of 31 and 36 lines</layout>. Cent. <origDate>viii-ix</origDate> (<name type="person"
+                        >Bradshaw</name>) <handNote>in a fine Hiberno-Saxon hand</handNote>, <decoNote>with initials of
+                        Celtic type</decoNote>. The last leaf has been stuck to the cover and is torn.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>12?</num> (wants 1, 2), 2<num>8</num> (wants 1?), 3<num>8</num>-10<num>8</num>, 11
+                        (two)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>Reuocando</secFol>.</p>
+
+                <p function="Decoration" rend="afterContents"><decoNote>The initials are of rather rough execution. A
+                        peculiar feature is that every page is bordered on R. and L. and between the columns with lines
+                        of red dots, in groups of three</decoNote>.</p>
+                <p function="Writing"><handNote>The hand varies in closeness but may very probably be the same
+                        throughout</handNote>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i + 1-83 + ii</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="83v">
+                        <head type="CCC"><name type="author" key="GrGr01">Gregory the Great</name>, <title>Homiliae XL
+                                in euangelia</title></head>
+
+                        <head type="James">
+                            <title>Homilies on the Gospels</title>
+                        </head>
+
+                        <ab>The Gospel Lections are given in full</ab>
+                        <rubric locusNew="1r">Omelia euangeliorum <name type="author">gregorii papae</name> urbis romae
+                            numero uiginti. secundum <name type="person">marcum</name></rubric>
+
+                        <ab>(<ref type="bibl" target="Migne 070">P. L. LXX <supplied>(actually
+                            LXXVI)</supplied></ref>)</ab>
+                        <incipit locus="1r">In illo tempore <name type="person">maria magdalene</name> et <name
+                                type="person">maria iacobi</name> et <name type="person">solomae</name></incipit>
+                        <explicit locus="1r">uidebitis sicut dixit uobis</explicit>
+                        <ab locusNew="1r">
+                            <decoNote>Initial I, in green, pink and yellow, with panels of interlaced work. The ground
+                                round it is thickly dotted with red. The letters <q>N ILLO</q> are filled in with pink
+                                and interlacing.</decoNote>
+                        </ab>
+                        <ab>The Homily follows</ab>
+                        <rubric locus="1r">Multis uobis lectionibus fratres karissimi</rubric>
+                        <ab>The Homilies are irregularly numbered: the last, imperfect, should be the xlth (on <name
+                                type="person">Dives</name> and <name type="person">Lazarus</name>)</ab>
+                    </msItem>
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF, CF 2nd</p>
+                            <p>markupCheck: GDB</p>
+                            <p>msCheck: RJR</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

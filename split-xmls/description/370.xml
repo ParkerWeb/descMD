@@ -1,0 +1,340 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC370">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>370</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>9. 6</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>322</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+
+
+                <head type="CCC">Historia Alexandri Magni (Gesta Alexandri magni). Epistolae Alexandri. Gesta Edwardi
+                    III</head>
+                <head type="James">Gesta Alexandri. Iter in terram sanctam. Gesta Edwardi</head>
+
+                <p function="Codicology"><material>Vellum (and paper)</material>, <measureGrp type="CCC">
+                        <height unit="mm">230</height>
+                        <width unit="mm">160</width>
+                    </measureGrp>
+                    <measureGrp type="James">9 x 6.5</measureGrp>, <extent>ff. 104</extent>, three main volumes. Century
+                        <origDate>xiv</origDate>, <handNote>several good hands</handNote>.</p>
+
+                <p function="Multivolume">
+                    <lb/><label>Volume I:</label>
+                    <handNote>A large hand of cent. <origDate>xiv</origDate></handNote>, <layout>26 lines</layout>.
+                        <lb/><label>Volume II:</label>
+                    <handNote>Smaller hand</handNote>, <layout>36 lines to a page</layout>. <lb/><label>Volume
+                        III:</label>
+                    <handNote>Another hand</handNote>, <layout>36 lines to a page</layout>. </p>
+
+                <p><label>Collation:</label>
+                    <collation> 1<num>12</num> (12 cancelled) 2<num>12</num> - 4<num>12</num> | 5<num>8</num> -
+                            7<num>8</num> 8<num>10</num> 9<num>8</num> (+ 2 paper after 1) 10<num>6</num> (6 cancelled)
+                        | 11<num>?12</num> (wants 5-8)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>nectanabus</secFol>.</p>
+
+                <p function="Provenance">Probably from <name type="place">Norwich</name>, to which no. 5 refers.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-105 + iii-iv</foliation>
+                </p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="1r" locusEnd="25v">
+
+                        <head type="CCC">
+                            <title>Historia <name type="person">Alexandri Magni</name> (Gesta <name type="person"
+                                    >Alexandri magni</name>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Historia <name type="person">Alexandri magni regis Macedonum</name>, ortus vita et
+                                obitus</title>
+                        </head>
+                        <head type="James">
+                            <title>Gesta <name type="person">Alexandri</name></title>
+                        </head>
+
+                        <rubric locus="1r">Incipit historia <name type="person">Alexandri magni regis Macedonum</name>.
+                            ortus uita et obitus</rubric>
+                        <incipit locusNew="1r"><name type="place">Egyptii</name> sapientes fati genere diuino primi
+                            feruntur</incipit>
+                        <explicit locusNew="25v">ueneno superatus atque extinctus occubuit</explicit>
+                        <rubric locusNew="25v">Explicit ortus uita et obitus <name type="person">Alexandri regis magni
+                                macedonum</name></rubric>
+                        <ab>Abridgement of <name type="person">Julius Valerius</name> (<ref type="bibl"
+                                target="Zacher 1867">ed. Zacher, Iulii Valerii Epitome, 1867</ref>): see <ref
+                                type="bibl" target="Ward 1883">H.L.D. Ward, <hi rend="italic">British Museum Catalogue
+                                    of Romances</hi> I 106</ref></ab>
+                    </msItem>
+
+                    <msItem n="2" locusStart="25v" locusEnd="38v">
+
+                        <head type="CCC">
+                            <title>Epistola <name type="author">Alexandri</name> ad <name type="person"
+                                    >Aristotelem</name> de situ <name type="place">Indiae</name> (Gesta <name
+                                    type="person">Alexandri magni</name>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Epistola <name type="person">Alexandri regis magni Macedonum</name>, quam ab <name
+                                    type="place">India</name> magistro suo <name type="person">Aristoteli</name>
+                                misit</title>
+                        </head>
+
+                        <rubric locus="25v">Incipit epistola <name type="author">Alexandri regis magni macedonum</name>
+                            quam ab india magistro suo <name type="person">aristotili</name> misit</rubric>
+                        <incipit locusNew="25v">Semper memor tui</incipit>
+                        <explicit locusNew="38v">optime aristotelis ponderaris</explicit>
+                        <rubric locusNew="38v">Finit epistola <name type="author">Alexandri regis magis macedonum</name>
+                            missa ab <name type="place">india</name> ad <name type="person">arist.</name> preceptorum
+                            suum</rubric>
+
+                        <ab>Ed. <ref type="bibl" target="Paulini 1706">Andr. Paulini, Giessen, 1706</ref>. <ref
+                                type="bibl" target="Cockayne 1861">Cockayne (Narratiunculae, 1861)</ref>; <ref
+                                type="bibl" target="Hilka 1908">A. Hilka, Breslau-program 1909</ref>, etc. <ref
+                                type="bibl" target="Ward 1883"><title>Catalogue of Romances</title> I 108</ref></ab>
+                    </msItem>
+
+                    <msItem n="3" locusStart="38v" locusEnd="47v">
+
+                        <head type="CCC">
+                            <title>Epistolae inter <name type="person">Alexandrum magnum</name> et <name type="person"
+                                    >Dindium</name> regum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Epistolae inter <name type="person">Alexandrum magnum</name> et <name type="person"
+                                    >Dindimum</name> regem</title>
+                        </head>
+                        <ab>(<name type="person">Alexander</name>
+                            <name type="person">Dindimo</name>)</ab>
+                        <incipit locus="38v">Sepius ad aures</incipit>
+                        <ab>The following letters are</ab>
+                        <incipit locus="39r">Desiderantem te <name type="person">alexander</name></incipit>
+                        <incipit locus="44v">Si hec ita sunt</incipit>
+                        <incipit locus="45r">Nos inquit <name type="person">dindimus</name></incipit>
+                        <incipit locus="45v">Tunc ideo beatum te</incipit>
+                        <explicit locusNew="47v">inuidie quodam meliora prestantur</explicit>
+                        <ab><ref type="bibl" target="Bysshe 1668">Ed. Bysshe, <hi rend="italic">Palladius de Gentibus
+                                    Indiae et Bragmanibus</hi>, 1668</ref>. <ref type="bibl" target="Ward 1883"><hi
+                                    rend="italic">Cat. of Romances</hi> I 108</ref></ab>
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+                    <msItem n="4" locusStart="48r" locusEnd="80r">
+                        <head type="CCC">
+                            <title>Gesta <name type="person">Alexandri magni</name> (Historia de Preliis)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Gesta <name type="person">Alexandri magni</name> imperatoris et regis <name
+                                    type="place">Macedoniae</name></title>
+                        </head>
+                        <rubric locus="48r">Hic incipit gesta <name type="person">Alexandri magni</name> Imperatoris et
+                            Regis <name type="place">Macedonie</name></rubric>
+                        <incipit locusNew="48r">Sapientissimi <name type="place">egipcii</name> scientes mensuram
+                            terre</incipit>
+                        <ab>Ending</ab>
+                        <explicit locus="80r">Mense marcio fabricauit xii ciuitates que adhuc inhabitantur</explicit>
+                        <rubric locusNew="80r">Expliciunt gesta <name type="person">Alexandri magni</name> quondam regis
+                                <name type="place">Macedonie</name> qui totam mundi machinam suo imperio
+                            subiugauit</rubric>
+                        <ab>This is the <q>Historia de Preliis</q>. Cf. <ref type="bibl" target="Ward 1883"><hi
+                                    rend="italic">Cat. of Romances</hi> I 120</ref></ab>
+                        <ab>A riddle</ab>
+                        <incipit locus="80r">Fili si uixisses quantum uixisti et iterum tantum et dimidium tanti dimidij
+                            centum compleuisses annos</incipit>
+
+                        <incipit locusNew="80r">Vixisset iuuenis annis bis terque uigenis</incipit>
+                        <explicit locusNew="80r">A summa luna primi coibente profundo</explicit>
+                    </msItem>
+
+                    <msItem n="5" locusStart="80v" locusEnd="85r">
+
+                        <head type="CCC">
+                            <name type="author">William Bateman</name>, <title>Injunctiones</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Injunctiones datae priori et capitulo ecclesiae <name type="place">Norwicensis</name>
+                                per <name type="author">Willelmum [Bateman] episcopum Norwicensem</name> in visitatione
+                                sua</title>
+                        </head>
+                        <incipit locus="80v"><name type="person">Willelmus permissione diuina Norwic. ep.</name> ...
+                            Priori et capitulo <name type="place">ecclesie nostre Norwic.</name> ... Ex debito
+                            pastoralis officii</incipit>
+                        <explicit locusNew="85r">modo simili custodiri. dat. in palacio nostro <name type="place"
+                                >Norwicensi</name>
+                            <date>die v mensis maij. anno domini mill. ccc<abbr rend="superscript">mo</abbr>
+                                quadragesimo septimo</date>. Et consecracionis nostre iiij In cuius rei testimonium
+                            sigillum nostrum duximus apponendum</explicit>
+                        <explicit locusNew="85r">Hee sunt iniuncciones <name type="author">d. Will. de Norwico. Norwic.
+                                Ep.</name></explicit>
+                        <ab>The end is on f. <locus locusNew="85r">83r</locus></ab>
+                        <ab>Immediately before this are inserted two leaves of paper containing</ab>
+                        <ab>
+                            <quote>Hic interseruntur duo folia chartacea seculo <date>xvi</date> scripta quibus
+                                continetur</quote>
+                        </ab>
+                    </msItem>
+                    <msItem n="6" locusStart="83r" locusEnd="84v">
+
+                        <head type="CCC">
+                            <name type="author">Thomas Walsingham OSB</name>, <title>Chronica maiora (extracts: De
+                                calumnia et injuriis ... in <name type="place">monasterio sancti Edmundi</name>)</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>De calumnia et injuriis per eundem episcopum in <name type="place">monasterio S.
+                                    Edmundi</name> illatis, et per merita <name type="person">S. Edmundi</name> finitis,
+                                una cum gravaminibus ejusdem monasterii, ex historia aurea</title>
+                        </head>
+
+                        <rubric locus="83r">De calumnia et iniuriis per <name type="person">Willelmus Bateman</name> ...
+                            in <name type="place">monasterio S. Edmundi</name> illatus et per merita <name type="person"
+                                >S. Edmundi</name> finitis</rubric>
+
+                        <incipit locusNew="83r">Ex libro 22 histor. auree Johannis anglici cap. 49</incipit>
+                        <rubric locus="84r">Grauamina monasterij</rubric>
+                        <rubric locus="84v">Ex <name type="person">Thomas Walsingham</name> in maiori hist.</rubric>
+                    </msItem>
+
+                    <msItem n="7" locusStart="85v" locusEnd="97v">
+                        <head type="CCC">
+                            <title>Itinerarium cuiusdam anglici terram sanctam, <date>1344</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Itinerarium cujusdam Anglici terram sanctam et alia loca sancta visitantis, anno
+                                    <date>1344</date></title>
+                        </head>
+
+                        <ab>
+                            <handNote>In the former hand</handNote>: no title </ab>
+
+                        <incipit locus="85v">Arripiens quondam iter et pergere sum profectus ad sanctum sepulcrum. quia
+                            quanto hominis ingenium curiosius tanto uult perspicacius rimari que super terram et mare
+                            perspexi precordialiter impressi</incipit>
+                        <ab>The lower part of f. <locus locusNew="95r">94r</locus> is cut off</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="94v" locusNew="95v">Et sic reposita est nobis corona iusticie quam reddet nobis
+                            in illa die iustus iudex</explicit>
+                        <rubric locusNew="95v">Explicit Itinerarium cuiusdam anglici terram sanctam et alia loca sancta
+                            uisitantis</rubric>
+                        <ab>ff. <locus locusNew="96r">95r</locus> - <locus locusNew="97v">96v</locus> blank</ab>
+                        <ab>The travellers (three Englishmen) left <name type="place">Avignon</name> on <date>3 October
+                                1344</date> and reached home late in <date>1345</date></ab>
+                        <ab>The description of <name type="place">Cyprus</name> is interesting. I do not find that the
+                            narrative has been printed.</ab>
+                    </msItem>
+
+                    <milestone n="III" unit="volume"/>
+
+                    <msItem n="8" locusStart="98r" locusEnd="105v">
+
+                        <head type="CCC">
+                            <title>Gesta <name type="person">Edwardi III</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Acta bellicosa <name type="person">Edwardi III. regis Angliae</name> et <name
+                                    type="person">Edwardi principis Walliae</name> ejus filii in mari et regno
+                                Franciae</title>
+                        </head>
+                        <rubric locus="97r" locusNew="98r">Hec sunt acta bellicosa illustrissimorum principum dominorum
+                                <name type="person">Edwardi</name> d. g. regis ... et <name type="person">Edwardi</name>
+                            eiusdem regis primogeniti ... a penultimo die mensis Junij anno domini mill. ccc<abbr
+                                rend="superscript">mo</abbr> quadragesimo sexto ... et deinceps</rubric>
+
+                        <incipit locusNew="98r"><name type="person">Felix</name> anglie regis <name type="person"
+                                >Edwardi</name> progressus ad littora procerum armatorum et plebis exercitum</incipit>
+                        <ab>After f. <locus locusNew="101v">100</locus> is a lacuna of 4 leaves (probably) where the
+                            events of <date>July 29 - Aug. 10 (part), 1346</date>, were narrated.</ab>
+
+                        <ab>Ends f. <locus locusNew="104v">103v</locus> (<date>20 Aug. 1346</date>)</ab>
+
+                        <explicit locus="103v" locusNew="104v">Sagittariorum domesticorum et familiaris comitiua. quidam
+                            premissa faciebat licet sibi caucius alii <abbr>ipmus</abbr></explicit>
+
+                        <ab>f. <locus locusNew="105r">104r</locus> is blank</ab>
+
+                        <ab>On f. <locus locusNew="105v">104v</locus> is the same text as on f. <locus locusNew="103v"
+                                >102v</locus> beginning</ab>
+                        <incipit locus="104r" locusNew="105v">Rex anglorum illo die</incipit>
+                        <ab>and ending at a rather earlier point than f. <locus locusNew="103v">102v</locus></ab>
+                        <explicit locusNew="105v">poiastes ensi auoir</explicit>
+
+                        <ab>It was used by <ref type="bibl" target="Barnes 1688">Joshua Barnes in his Life of Edward
+                                III, 1688, Bk II, chap. 2</ref>, and was printed in full by <ref type="bibl"
+                                target="Moisant 1894">J. Moisant, S. J., <hi rend="italic">Le Prince Noir en
+                                    Aquitaine</hi>, etc., 1894, p. 157</ref>; also by <ref type="bibl"
+                                target="Prentout 1904">Prof. Prentout of Caen</ref>.</ab>
+                    </msItem>
+                </msContents>
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, BA, CF</p>
+                            <p>msCheck: NJC 17/12/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

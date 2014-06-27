@@ -1,0 +1,154 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC530">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>530</idno>
+                    <altIdentifier type="Elbing">
+                        <idno>N. 32</idno>
+                    </altIdentifier>
+
+                </msIdentifier>
+                <head type="CCC">Avicenna (Abu 'Ali al-Husain ibn 'Abdallah Ibn Sina), Canon medicinae (transl. by
+                    Gerard of Cremona). Galen, De accidenti et morbo</head>
+                <head type="James">[Untitled]</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">305</height>
+                        <width unit="mm">222</width>
+                    </measureGrp>, <measureGrp type="James">12 x 8.6</measureGrp>, <extent>ff. 164</extent>,
+                        <layout>double columns of 33 lines</layout>. Cent. <origDate>xiv (1398)</origDate>, <handNote>in
+                        an ugly and much contracted hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>12</num> (+2) 2<num>12</num>-9<num>12</num> 10<num>10</num>
+                            11<num>12</num>-13<num>12</num> 14<num>8</num></collation>.</p>
+
+                <p function="Provenance"><name type="person">Mary Pernham</name> on f. <locus>2v</locus>.</p>
+                <p function="Additions">Binding gone.</p>
+                <p function="Additions">On the first page is a medical note <supplied>(f.
+                    <locus>1r</locus>)</supplied>.</p>
+                <p type="CCC">
+                    <foliation>ff. 1-164</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="2v" locusEnd="120v">
+                        <head type="CCC">
+                            <name type="author">Avicenna (Abu 'Ali al-Husain ibn 'Abdallah Ibn Sina)</name>,
+                                <title>Canon medicinae (transl. by <name type="author">Gerard of Cremona</name>)</title>
+                        </head>
+                        <ab>ff. <locus>1v</locus>, <locus>2r</locus> blank</ab>
+                        <ab locus="2v">
+                            <decoNote>A large and rather rough initial in red, green, yellow and white, the height of
+                                the page</decoNote>
+                        </ab>
+                        <ab locusNew="2v"> Pars Canonis <name type="author">Avicennae</name>
+                        </ab>
+                        <incipit locusNew="2v">In primis deo gratias agamus sicud sui ordinis celsitudo et beneficii
+                            ipsius multitudo merentur</incipit>
+                        <explicit locusNew="3r">nunc autem hunc componam librum quem in quinque sic diuidemus
+                            libros</explicit>
+                        <ab locusNew="3r">Capitula follow</ab>
+                        <ab>Text</ab>
+                        <incipit locusNew="5v">Dico quod medicina est scientia que humani corporis</incipit>
+                        <ab>Fragment of a <origDate>xiith cent.</origDate> Psalter used in the binding at f.
+                                <locus>15r</locus>, etc.</ab>
+                        <ab locus="17r">Fen II</ab>
+                        <ab>Ends</ab>
+                        <rubric locus="66v">Explicit fen secunda primi Canonis <name type="author"
+                            >Auicenne</name></rubric>
+                        <rubric locusNew="66v">Incipit fen prima quarti canonis</rubric>
+                        <rubric locus="67r">Liber canonis quartus incipit de egritudinibus particularibus</rubric>
+                        <ab locusNew="67r">Capitula</ab>
+                        <ab>Text</ab>
+                        <incipit locusNew="68r">Febris est calor extraneus</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="120v" locusNew="120r">est sena. finis huius deo laus in secula seculorum. Amen.
+                            amen</explicit>
+                        <rubric locusNew="120r">Explicit prima fen quarti canonis <name type="author"
+                            >auicenne</name></rubric>
+                    </msItem>
+
+                    <msItem n="2" locusStart="120r" locusEnd="162v">
+                        <head type="CCC">
+                            <name type="author">Galen</name>, <title>De accidenti et morbo</title>
+                        </head>
+                        <rubric locusNew="120r">Incipit liber de morbo et accidente <name type="author">galieni</name>
+                            et cetera</rubric>
+                        <ab locus="120v">blank</ab>
+                        <ab>Text <decoNote>with large initial as on f. <locus>2v</locus> (colours
+                            varied)</decoNote></ab>
+                        <incipit locus="121r">In inicio huius libri diffinire morbum oportet ut intencio huius particule
+                            cognoscatur</incipit>
+                        <explicit locusNew="162v">semper adia secuntur et que non, etc.</explicit>
+                        <rubric locusNew="162v">Expletus est liber de morbo et accidente <name type="author"
+                                >galieni</name> viri gloriosi Anno domini <date>m<abbr rend="superscript">o</abbr>
+                                    c<abbr rend="superscript">o</abbr>c<abbr rend="superscript">o</abbr>c<abbr
+                                    rend="superscript">o</abbr> nonagesimo octauo</date> in die Sancti Viti deo
+                            laus</rubric>
+                        <ab locusNew="163r">Two blank leaves follow</ab>
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 17/12/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

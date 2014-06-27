@@ -1,0 +1,135 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC147">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>147</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>R. 3</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>156</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Wycliffite Bible (Later Version)</head>
+                <head type="James">Bible in English</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">310</height>
+                        <width unit="mm">200</width>
+                    </measureGrp><measureGrp type="James">12.2 x 8</measureGrp>, <extent>ff. 454</extent>,
+                        <layout>double columns of 60 and 59 lines</layout>. Cent. <origDate>xv</origDate> (<q>perhaps
+                            <date>before 1430</date></q>), <handNote>by several scribes</handNote>. </p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>12</num> 2<num>12</num> (wants 12) 3<num>12</num>-25<num>12</num> 26<num>10</num>
+                            27<num>12</num>-31<num>12</num> (+1) | 32<num>8</num> (wants 7) 33<num>12</num>
+                            34<num>12</num> 35<num>8</num> 36<num>12</num>-39<num>12</num> (wants 4, 11,
+                    12)</collation>.</p>
+
+                <p>It is no. 116 in <ref type="bibl" target="Forshall 1850a">Forshall and Madden (I p. lv)</ref>.</p>
+
+                <p function="Additions">There are marginal notes on the prologue by <name type="person">Geoffrey Blithe,
+                        Bishop of Coventry and Lichfield (<date>1503-33</date>)</name>, adverse to <name type="person"
+                        >Wycliffe</name>. See especially ff. <locus>14v</locus>, <locus>15r</locus>: on the latter page
+                    is a <name type="person">Parker</name>ian note: <q>This is the hand of notes of <name type="person"
+                            >Galfride Blith</name> sum-time Busshop of Lich. and Couentry as before.</q></p>
+                <p>In <ref type="bibl" target="Townsend 1837">Foxe Acts and Monuments IV</ref> 186 articles are cited
+                    which were produced against <name type="person">Richard Hun</name> (<date>1514</date>): <q><name
+                            type="person">Dr Hed</name> did now also after his death collect certaine others out of the
+                        prologue of his English Bible remaining then in the Bishop's hands</q> (<name type="person"
+                        >Fitzjames of London</name>). Many or all of the passages in the Prologue to which these
+                    Articles refer are marked or annotated in our MS. by <name type="person">Blithe</name>. It has been
+                    suggested that this may be <name type="person">Hun</name>'s copy (cf. <ref type="bibl" target="???"
+                        >Church Quarterly Review, 1901, p. 292</ref>).</p>
+
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-454 + iii-iv</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="enm">Middle English.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="454v">
+                        <head type="CCC">
+                            <title>Wycliffite Bible (Later Version)</title>
+                        </head>
+                        <head type="James">
+                            <title>Bible in English.</title>
+                        </head>
+
+                        <ab locus="1r">Prologue</ab>
+                        <ab locus="18v">Tables of Epistles and Gospels</ab>
+                        <ab locus="24r">Genesis—2 Paralipomenon, Prayer of <name type="person">Manasses</name></ab>
+                        <ab>Five leaves in <name type="person">Judith</name>, <name type="person">Esther</name> and
+                                <name type="person">Job</name> have been removed and replaced</ab>
+                        <ab>Psalms, Proverbs—Ecclesiasticus, Prophets, Maccabees</ab>
+                        <ab locus="371r">Evangelia</ab>
+                        <ab locus="410r">Pauline Epistles</ab>
+                        <ab>Acts, Catholic Epistles. A leaf gone in 1, 2 <name type="person">Peter</name></ab>
+                        <ab>Apocalypse ends imperfectly in xxi 18</ab>
+                        <explicit locusNew="454v">Of þe stoon iaspis and</explicit>
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJC 9.10.07</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

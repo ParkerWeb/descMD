@@ -1,0 +1,419 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC038">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>38</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>P. 17</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>254</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Tabulae etc. super Decreta et Decretales</head>
+
+                <head type="James">Tabulae etc. super Decreta et Decretales</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">345</height>
+                        <width unit="mm">215</width>
+                    </measureGrp>
+                    <measureGrp type="James">13.7 x 8.3</measureGrp>, <extent>ff. 2 + 239</extent>, <layout>double and
+                        triple columns</layout>. Cent. <origDate>xiv</origDate>, <handNote>in various very good
+                        hands</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>2 flyleaves, 1<num>12</num>-9<num>12</num> 10<num>8</num> 11<num>8</num> |
+                            12<num>12</num>-14<num>12</num> (one canc.) 15<num>8</num> 16<num>12</num>-19<num>12</num>
+                            20<num>8</num> | 21<num>12</num> 22<num>4</num></collation>.</p>
+
+                <p function="Provenance">From <name type="place">S. Augustine's Abbey, Canterbury</name>. On f.
+                        <locus>1r</locus>: <q>Tabula super decreta et super decretales cum casibus summariis quinque
+                        librorum decretalium et sexti et septimi cum aliis tractatibus necessariis quam adquisiuit <name
+                            type="place">ecclesie S. Augustini Cant.</name>
+                        <name type="person">frater J. Mankael</name> cuius anime propicietur deus Amen</q>.</p>
+
+                <p>See <ref type="bibl" target="James 1903"><hi rend="italic">Ancient Libraries</hi>, p. 395, no.
+                        1723</ref>.</p>
+
+                <p>Old foliation very incorrect, but used here.</p>
+                <p>The old table of contents follows the heading given above.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-iii + 1-171 + 171a + 172-237 + iv-v</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="2r" locusEnd="9r">
+
+                        <head type="James">
+                            <title>Tabula super <name type="person">Innocencii</name> [opus] quae vocatur
+                                Margarita</title>
+                        </head>
+
+                        <ab>Articles 1-27 form a volume</ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="9r" locusEnd="47r">
+
+                        <head type="James">
+                            <title>Casus summarii quinque librorum decretalium et sexti et septimi usque de regularibus
+                                et transeuntibus ad religionem</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="47r" locusEnd="48r">
+
+                        <head type="James">
+                            <title>Casus juris in quibus aliquis contrahit infamiam</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="48r" locusEnd="48v">
+
+
+                        <head type="James">
+                            <title>Casus juris in quibus aliquis est ipso jure excommunicatus</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="5" locusStart="48v" locusEnd="50r">
+
+
+                        <head type="James">
+                            <title>Casus juris in quibus aliquis est excommunicandus</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="6" locusStart="50r" locusEnd="51r">
+
+
+                        <head type="James">
+                            <title>Casus juris in quibus aliquis est ipso jure suspensus</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="7" locusStart="51r" locusEnd="52r">
+
+
+                        <head type="James">
+                            <title>Casus juris in quibus aliquis est suspendendus</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="8" locusStart="52r" locusEnd="54v">
+
+                        <head type="James">
+                            <title>Tractatus de sententiis excommunicationis suspensionis et interdicti</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="9" locusStart="54v" locusEnd="55v">
+
+                        <head type="James">
+                            <title>Tractatus de mensura temporis in agenda penitentia secundum canones</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="10" locusStart="55v" locusEnd="57r">
+
+                        <head type="James">
+                            <title>Tractatus de privilegiis et excessibus prelatorum</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="11" locusStart="57r" locusEnd="63r">
+
+                        <head type="James">
+                            <title>Tractatus de dispensationibus super irregularitate</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="12" locusStart="63r" locusEnd="63v">
+
+                        <head type="James">
+                            <title>Casus in quibus Papa dispensare non potest</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="13" locusStart="63v" locusEnd="67v">
+
+                        <head type="James">
+                            <title>Casus in quibus solus Papa dispensare potest</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="14" locusStart="67v" locusEnd="70r">
+
+                        <head type="James">
+                            <title>Tractatus de dispensationibus episcoporum</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="15" locusStart="70r" locusEnd="72r">
+
+                        <head type="James">
+                            <title>Casus in quibus episcopus non dispensat</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="16" locusStart="72r" locusEnd="73r">
+
+                        <head type="James">
+                            <title>Tractatus de dispensationibus legatorum sedis apostolicae</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="17" locusStart="73r" locusEnd="74r">
+
+                        <head type="James">
+                            <title>Quis sit legatus et quid ad officium legati pertinet</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="18" locusStart="74r" locusEnd="74v">
+
+                        <head type="James">
+                            <title>De dispensationibus patriarcharum et primatum</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="19" locusStart="74v" locusEnd="75v">
+
+                        <head type="James">
+                            <title>De dispensatione abbatum</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="20" locusStart="75v" locusEnd="76v">
+
+                        <head type="James">
+                            <title>De effectu dispensationis</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="21" locusStart="76v" locusEnd="77v">
+
+                        <head type="James">
+                            <title>Pro quibus culpis sit penitens ad episcopum remittendus</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="22" locusStart="77v" locusEnd="79v">
+
+                        <head type="James">
+                            <title>Tractatus de penitentiis et remissionibus</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="23" locusStart="79v" locusEnd="84r">
+
+                        <head type="James">
+                            <title>Aureum memoriale confessorum</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="24" locusStart="84r" locusEnd="85v">
+
+                        <head type="James">
+                            <title>Expositiones quorundam verborum</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="25" locusStart="85v" locusEnd="85v">
+
+                        <head type="James">
+                            <title>Tabulae quaedam de diversis titulis decretalium</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="26" locusStart="85v" locusEnd="115v">
+
+
+                        <head type="James">
+                            <title>Tabula dictorum <name type="person">Innocentii</name> de diversis titulis decretalium
+                                excerptorum</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="27" locusStart="116r" locusEnd="123v">
+
+
+                        <head type="James">
+                            <title>Brevis continentia materiae decretorum</title>
+                        </head>
+
+                        <ab>At the end of this are five blank leaves <supplied>, two of which are stubs</supplied></ab>
+
+                    </msItem>
+
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="28" locusStart="124r" locusEnd="161r">
+
+                        <head type="James">
+                            <title>Tabula super decretales</title>
+                        </head>
+
+                        <ab locus="124r">End of a text of Decretals (imperfect)</ab>
+
+                        <rubric locus="127v">Incipit prohemium super tabulam decretalium</rubric>
+                        <incipit locusNew="127v">Prompte uolentibus per hoc opusculum in decretalibus</incipit>
+                        <ab locusNew="128r">
+                            <layout>The table is in triple columns</layout>
+                        </ab>
+
+                    </msItem>
+
+                    <milestone n="III" unit="volume"/>
+
+                    <msItem n="29" locusStart="161v" locusEnd="220v">
+                        <head type="James">
+                            <title>Tabula super decreta</title>
+                        </head>
+
+                        <ab>With preface beginning</ab>
+                        <incipit locus="168v" locusNew="161v">Prompte uolentibus per hoc opusculum in decretis</incipit>
+                        <ab locusNew="162r">
+                            <layout>Table in double columns</layout>
+                        </ab>
+                        <ab>Ends <locus locusNew="219r">307r</locus></ab>
+                        <ab><locus locusNew="219v">307v</locus>-<locus locusNew="220v">308v</locus> blank</ab>
+                    </msItem>
+
+                    <milestone n="IV" unit="volume"/>
+
+                    <msItem n="30" locusStart="221r" locusEnd="221v">
+                        <head type="James">
+                            <title>Concordantia decretorum ad titulos decretalium</title>
+                        </head>
+
+                        <ab>
+                            <handNote>In hand like volume I</handNote>
+                        </ab>
+                        <rubric locus="309r" locusNew="221r">Incipit primus liber decretalium cum concordanciis
+                            decretorum ad omnem materiam inueniendam</rubric>
+                        <ab>One leaf only</ab>
+                        <rubric locusNew="221v">Expliciunt Concordancie decretorum titulorum decretalium a <name
+                                type="person">magistro Johanne</name> de deo composite in <name type="place">ciuitate
+                                bononieum</name> (sic)</rubric>
+                    </msItem>
+
+                    <milestone n="V" unit="volume"/>
+
+                    <msItem n="31" locusStart="222r" locusEnd="236v">
+
+                        <head type="James">
+                            <title>Explanationes verborum legum</title>
+                        </head>
+                        <ab>Verba Legum</ab>
+                        <ab>Prologue</ab>
+                        <incipit locusNew="222r">(E)quitatis ad iusticiam iuris ad iurisprudenciam</incipit>
+                        <explicit locusNew="222r">facilius queat inueniri</explicit>
+                        <rubric locusNew="222r">Incipit explanatio in uerba legum</rubric>
+                        <incipit locusNew="222r">(A)bigens est qui pecora a pascuis subducit abigendi studio</incipit>
+                        <ab>Ends with <q>Zizania</q></ab>
+                        <explicit locusNew="235v">sciat necessarium esse introducendis quod superuacuum est
+                            peruentis</explicit>
+                        <rubric locusNew="235v">Explicit explanatio uerborum legum</rubric>
+                        <ab locus="324v" locusNew="236v">Verses</ab>
+                        <incipit locusNew="236v">
+                            <lg>
+                                <l>Dum video florem dum sencio floris odorem</l>
+                                <l>Preteriti moris ueterisque recordor amoris</l>
+                            </lg>
+                        </incipit>
+                    </msItem>
+
+                </msContents>
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF, BA, CF 2nd</p>
+                            <p>msCheck: NJC 11/07/07.</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

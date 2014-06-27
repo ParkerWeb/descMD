@@ -1,0 +1,184 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC209">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>209</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Lib. ab Al. 10</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Peter Lombard, Sententiarum libri IV. John of Damascus, De fide orthodoxa. pseudo-Hugh
+                    of Saint-Victor OSA, Summa sententiarum</head>
+
+                <head type="James">Sententiae P. Lombardi. Sententiae Joh. Damasceni. Hugo de S. Victore</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">304</height>
+                        <width unit="mm">213</width>
+                    </measureGrp>
+                    <measureGrp type="James">12 x 8.5</measureGrp>, <layout>double columns of 49 lines</layout>. Cent.
+                        <origDate>xiii</origDate>, <quote>seculo <origDate>xvi</origDate> scriptus</quote>,
+                        <handNote>mostly in a small pointed hand</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1<num>12</num>-7<num>12</num> (wants 12) 8<num>12</num> 9<num>12</num> 10<num>2</num>
+                            11<num>12</num>-13<num>12</num> 14<num>4</num> | 15<num>12</num>-17<num>12</num>
+                            18<num>4</num></collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>quod non secundum</secFol> or <secFol>cumque his</secFol>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-189 + iii-iv</foliation>.</p>
+
+
+
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="149v">
+
+
+                        <head type="CCC"><name type="author">Peter Lombard</name>, <title>Sententiarum libri
+                            IV</title></head>
+
+                        <head type="Nasmith">
+                            <title><name type="author">Petri Lombardi</name> sententiarum lib. iv</title>
+                        </head>
+
+                        <incipit locus="1r">Cupientes aliquid</incipit>
+                        <explicit locus="149v">uia duce peruenit</explicit>
+                        <ab>With many glosses</ab>
+
+
+                    </msItem>
+
+
+                    <msItem n="2" locusStart="150r" locusEnd="179v">
+
+                        <head type="CCC"><name type="author">John of Damascus</name>, <title>De fide orthodoxa (transl.
+                                by <name type="author">Burgundio of Pisa</name>)</title></head>
+
+                        <head type="Nasmith">
+                            <title><name type="author">Iohannis Damasceni</name>, qui vocatur Mansur, liber, in quo
+                                [est] etiam traditio orthodoxae fidei capitulis divisa centum, a <name type="person"
+                                    >Burgundio</name> judice, cive Pisano, de Graeco in Latinum, <name type="person"
+                                    >domino III. Eugenio</name> beatae memoriae papa translatus</title>
+                        </head>
+
+                        <incipit locus="150">Deum nemo uidit</incipit>
+                        <explicit locus="179v">gaudium fructificantes. Amen</explicit>
+                    </msItem>
+
+
+                    <msItem n="3" locusStart="180r" locusEnd="189v">
+
+                        <head type="CCC"><name type="author">pseudo-Hugh of Saint-Victor OSA</name>, <title>Summa
+                                sententiarum</title></head>
+
+                        <head type="Nasmith">
+                            <title><name type="author">Hugonis de sancto Victore</name> summa sententiarum,
+                                imperfect</title>
+                        </head>
+
+                        <ab><layout>In triple columns</layout>: <handNote>another hand</handNote>, <layout>54 lines to a
+                                column</layout></ab>
+                        <ab locus="180r">Incipiunt sententie <name type="person">mag. hugberti ficfiensis</name></ab>
+                        <incipit locus="180r">De fide et spe que in nobis est omnipotenti (omni poscenti) rationem
+                            reddere ut ait <name type="person">petrus</name> in epistola sua</incipit>
+                        <ab>
+                            <ref type="bibl" target="Migne 171"><supplied>P. L.</supplied> CLXXI 1067</ref>
+                        </ab>
+                        <ab>
+                            <ref type="bibl" target="Migne 176"><supplied>P. L.</supplied> CLXXVI 42</ref>
+                        </ab>
+
+
+
+                        <ab locus="189v"><handNote>The hand changes on the last leaf</handNote>: and on the last page is
+                            in <layout>two columns</layout></ab>
+                        <ab>Ends unfinished</ab>
+                        <ab>
+                            <handNote>The first hand ends</handNote>
+                        </ab>
+                        <explicit locus="189r">Quanto leuiori impulsu fuerat prostratus</explicit>
+                        <ab>A space follows: <handNote>then in the other hand</handNote></ab>
+                        <ab locus="189r">Que non tantum istas aures corporreas sed interiores</ab>
+
+                    </msItem>
+
+
+
+
+                </msContents>
+
+
+                <additional>
+
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, CF 2nd</p>
+                            <p>msCheck: CF 13.9.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

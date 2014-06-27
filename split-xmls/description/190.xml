@@ -1,0 +1,969 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC190">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>190</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>L. 12</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>133</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Penitential</head>
+
+                <head type="James">Poenitentiale, etc. (Lat.-Sax.)</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">285</height>
+                        <width unit="mm">185</width>
+                    </measureGrp><measureGrp type="James">11.5 x 7.6</measureGrp>, <extent>ff. 2 + 4 + 212 + 2</extent>,
+                    varying numbers of lines to a page. Cent. <origDate>xi</origDate>, <handNote>in several fine
+                        hands</handNote>.</p>
+
+                <p function="Multivolume" rend="withinContents"><lb/><label>Volume I:</label> The first four leaves
+                    contain the Table given <supplied>by Nasmith</supplied>.<lb/>
+                    <label>Volume II:</label>
+                    <handNote>The hand is at first large and black, and after a single change of script (probably) a
+                        small and delicate hand appears (p. <locus>320</locus>) and continues with a few interruptions
+                        to the end</handNote>.<lb/>
+                    <label>Volume III:</label>
+                    <handNote>Mostly in a hand similar to that of no. 22 sqq.</handNote></p>
+
+                <p><label>Collation:</label>
+                    <collation>2 small flyleaves pasted together. a<num>4(?)</num> 1<num>8</num>-7<num>8</num> | gap |
+                            8<num>8</num>-18<num>8</num> 19<num>?6</num> (wants 4, 5) || 20<num>4</num>
+                            21<num>8</num>-24<num>8</num> (wants 7) | 25<num>8</num>-28<num>8</num> (wants 3, 7, 8) | 2
+                        flyleaves</collation>.</p>
+
+                <p function="Provenance">The book is from <name type="place">Exeter</name>. At top of p. <locus
+                        locusNew="iii">1r</locus> (<origDate>xvi</origDate>) is: Ex ... us (probably for <name
+                        type="place">Exoniensis</name>). </p>
+
+                <p function="Additions">In large letters on the verso of the flyleaf <supplied>(p.
+                        <locus>i</locus>)</supplied>: Penitencialis <name type="person">Theodori</name> archi. epi. The
+                    word Theodori has been in part re-written.</p>
+
+
+                <p function="Research" rend="withinContents">This is identified by <name type="person">Wanley</name>
+                    with the book presented by <name type="person">Leofric</name> to the <name type="place">Church of
+                        Exeter</name> and entered in the list of his gifts as <hi rend="italic">Scrift boc on
+                        Englisc</hi>. In <ref type="ms" target="CCC265">MS 265</ref> certain passages supplied from it
+                    are said to be from a <hi rend="italic">codex Exoniensis</hi>.<lb/> A copy of this MS. made in
+                        <date>1656</date> by <name type="person">John Retchford</name> for <name type="person">Mr.
+                        Cornelius Bee</name> is <ref type="ms" target="LBLH38">MS. Harl. 438</ref> (<ref type="bibl"
+                        target="Bateson 1895">Miss Bateson, <hi rend="italic">Engl. Hist. Rev.</hi> 1895, p. 715
+                        note</ref>).<lb/> In the article just cited <ref type="bibl" target="Bateson 1895">Miss Bateson
+                        gives a most valuable study of this MS. on pp. 715-720</ref>, showing the many discrepancies
+                    between the table of chapters and the text.<lb/> I have thought it well to append a summary of her
+                    account, as follows:<lb/>
+                    <ref type="bibl" target="Wilkins 1737a">Wilkins</ref> and <ref type="bibl" target="Thorpe 1840b"
+                        >Thorpe</ref> printed their version of the <hi rend="italic">Excerptiones Egberti</hi> from the
+                        <ref type="ms" target="LBLNA1">Cotton MS. Nero A. 1</ref>. <ref type="bibl"
+                        target="Johnson 1850">Johnson</ref> translated them and compared them with the collections in
+                        <ref type="ms" target="CCC265">MS 265</ref>. <ref type="bibl" target="Selborne 1888">Lord
+                        Selborne in his <hi rend="italic">Ancient Facts and Fictions about Tithes</hi></ref> compared
+                    these two latter MSS. in further detail. The MS. 190 forms an interesting link between the two. It
+                    appears to have escaped attention owing to the misleading nature of the table of contents.<lb/>
+                    <ref type="bibl" target="Thorpe 1840b">Thorpe</ref> printed as far as the 43rd (44th) chapter <hi
+                        rend="italic">de Reconciliatione</hi>.<lb/> No break here, p. 94; then follows <hi rend="italic"
+                        >Item de reconc.</hi> and a passage from a Nicene Canon.<lb/> Two long passages not noted in the
+                    index:<lb/> a. Rubric. <hi rend="italic">In nomine Domini</hi>. Primo omnium admonemus omnes homines
+                    ut super omnia ... percipere mereatur sempiternam. Amen.<lb/> b. Space for Rubric. <hi rend="italic"
+                        >Ecclesia sponsa Christi est et omnium domina</hi>. Against the spoilers of the church: cases of
+                        <name type="person">Pompey</name> and <name type="person">Alaric</name> quoted.<lb/> p. 97. cap.
+                    45. Clerus grece, sors latine (cf. <ref type="ms" target="LBLNA1">Nero A. 1, f. 127r</ref>).<lb/> 46
+                    resembles <ref type="bibl" target="Thorpe 1840b">Thorpe's Excerpt § 161</ref>.<lb/> 45-50 are
+                    concerned with election and ordination of bishops and priests.<lb/> 47 resembles closely <ref
+                        type="ms" target="CCC265">MS 265</ref>, pp. 4-7.<lb/> 49 excerpts from the first Nicene Council:
+                    contains <ref type="bibl" target="Thorpe 1840b">Thorpe Excerpt 98, 99</ref>.<lb/> 50 from the
+                    Council of Agde 544, cap. 35.<lb/> 51 quotes <name type="person">Beda</name> on the history of the
+                    pallium.<lb/> p. 105. 52 resembles <ref type="bibl" target="Thorpe 1840b">Thorpe 44</ref>: a passage
+                    from <name type="person">Gregory</name> added.<lb/> 53. Council of Chalcedon cap. 2, with <ref
+                        type="bibl" target="Thorpe 1840b">Thorpe 33</ref>.<lb/> 54. Quicunque dignitatem gradus non
+                    custodierit, with quotations from O. T.<lb/> 55 quotes Popes <name type="person">St Alexander</name>
+                    and <name type="person">Felix</name>.<lb/> p. 109. 56. From <name type="person">Gregory</name> to
+                        <name type="person">Johannes Defensor</name> (<ref type="bibl" target="Migne 077">P. L. LXXVII
+                        1294</ref>).<lb/> 57. Sunt quidam sancte dei ecclesie inimici, complains that some deny force to
+                    the clerical oath: quotes <name type="person">Pope Pelagius</name>.<lb/> 58. Gregorius ait. Scimus
+                    itaque quia vita presulum nulli; breaks off.<lb/> Capp. 59, 60, 61, 62, 63 lost.<lb/> p. 111. Latter
+                    half of <ref type="bibl" target="Thorpe 1840b">Thorpe, 60</ref>.<lb/>
+                    <ref type="bibl" target="Thorpe 1840b">Thorpe, 61-85</ref>.<lb/> Three sentences, beginning Si homo
+                    uexatus a diabolo, which resemble the genuine Theodore, Lib. II x § 1, 2, 3; also in <ref type="ms"
+                        target="CCC265">MS 265</ref>, p. 71.<lb/>
+                    <ref type="bibl" target="Thorpe 1840b">Thorpe, 86-97</ref>.<lb/> Passage on tithes, de jure
+                    sacerdotali; also in <ref type="ms" target="CCC265">MS 265</ref>.<lb/>
+                    <ref type="bibl" target="Thorpe 1840b">Thorpe, 101-127</ref>.<lb/> Rubrication begins again at cap.
+                    104, <ref type="bibl" target="Thorpe 1840b">Thorpe</ref>.<lb/> p. 124. Quotation from <name
+                        type="person">Pope Leo</name> to <name type="person">Rusticus of Narbonne</name>.<lb/> Excerpts
+                    128-130, 134, 146 (called <q>Can. Bonan.</q> for <q>Roman.</q>), 135-140.<lb/> Then the break; 2
+                    pages left blank and subsequently filled in; see above, p. 458, arts. 5-9.<lb/> p. 134-8. Excerpts
+                    132, 133, 147-160.<lb/> p. 138. 1st Nicene council, cap. 3, more fully than in excerpt 31.<lb/>
+                    Excerpt 32.<lb/> From this point there is no further resemblance to the excerpts.<lb/> Passages with
+                    rubric <hi rend="italic">Alia</hi>. Multis autem declaratur exemplis (that clerics should not bear
+                    arms). <hi rend="italic">De militia et victoria christianorum</hi> etc.<lb/> p. 139. On the
+                    captivity of the Jews, followed by the <name type="person">Alcuin</name> passages; see above.<lb/>
+                    Then the nature of the contents changes.<lb/> Miss Bateson proceeds to show that the index of the
+                    MS. is discrepant with the contents, <q>a discrepancy of much interest, since the index tells us
+                        that what is missing is that mysterious work <hi rend="italic">Capitula de sacerdotali jure
+                            Egcberti archiepiscopi</hi>. After cap. 63 (64), on the analogy of <ref type="ms"
+                            target="LBLNA1">Nero A. 1</ref> and <ref type="ms" target="CCC265">MS 265</ref> we expect
+                        that titles applicable to the Capitulary in 21 chapters will follow, but this does not
+                        happen.</q> The list (of 25 chapters) begins with 1. <hi rend="italic">Item Canones
+                        Sanctorum</hi> and ends with 25. <hi rend="italic">Ut ab alterius episcopo nullus crisma
+                        accipiat</hi>.<lb/> The index proceeds 26 <hi rend="italic">De coniugio</hi> and here the
+                    contents of the MS. begin to answer the description of the index. This title may well cover the
+                    excerpts 113-20.<lb/> The next, 27.<hi rend="italic"> Item de legitimo coniugio</hi> = Exc.
+                    121-125<lb/> 28 = 126<lb/> 29 = 127<lb/> 30. <name type="person">Leonis pape</name> (cf. <ref
+                        type="bibl" target="Hinschius 1863">Hinschius, <hi rend="italic">Ps. Isidor</hi>, p. 615, cap.
+                        4</ref>) is not in <ref type="ms" target="LBLNA1">Nero A. 1</ref>.<lb/> 31 = 128-9<lb/> 32 =
+                    130<lb/> 33 = 146<lb/> 34 = 134-140<lb/> 35 = 132-3<lb/> Here again the index breaks down, making no
+                    note of Exec. 147-151.<lb/> 36 = 152-3<lb/> No note is made of Exec. 154-160. The rest of the titles
+                    in the index tally with those of the text.<lb/>
+                    <q>The meaning of these discrepancies, and especially the relation of capp. 1-25 to the title which
+                        alleges them to be of <name type="person">Egbert</name>'s authorship, I cannot explain. But no
+                        discussion of the authorship of the work <hi rend="italic">De Iure Sacerdotali</hi> is complete
+                        without a reference to this manuscript.</q></p>
+                <p>There are three main portions of the book: the first consists of 19 quires (20 including the
+                    preliminary one) and is in Latin. It contains Nasmith's articles 1-18. The second contains nos.
+                    19-29: the third the remainder. </p>
+                <p function="CCCNote">
+                    <supplied>James reproduces Nasmith's contents-list, which he printed from the eleventh-century
+                        contents-list of the manuscript; however this does not correspond exactly to the manuscript's
+                        actual contents. Therefore we have not included Nasmith's material in Volume I of this
+                        description. To view the Nasmith material for this section, follow the link to the .pdf
+                        reproduction of the James catalogue.</supplied>
+                </p>
+                <p type="CCC">
+                    <foliation>pp. a-d + i-xii + 1-388 + 388a-b + 389-424 + e-h</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="ang">Latin and Old English.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="ii" locusEnd="ii">
+                        <head type="CCC">
+                            <title>Hymn for the consecration of the oils at the main Mass on Maundy Thursday</title>
+                        </head>
+
+
+                        <ab>On the verso of the flyleaf is a hymn (for the hallowing of the Chrism) <decoNote>with
+                                neumes</decoNote></ab>
+                        <ab locusNew="ii">Antiphon</ab>
+                        <incipit locusNew="ii">O redemptor sume carmen temet concinentium</incipit>
+                        <ab>(see p. <locus>259</locus> of the MS.)</ab>
+                        <ab locusNew="ii">Uersus</ab>
+                        <incipit locusNew="ii">Audi iudex mortuorum una spes mortalium</incipit>
+                        <explicit locusNew="ii">ne senescat tempore. O redemptor</explicit>
+                        <ab>Added (without neumes)</ab>
+                        <ab locusNew="ii"> Hoc ecclesia fundatur. Credentes glori(ficat ?). Sit hoc crisma benedictum.
+                            cunctis saluberrimum. </ab>
+
+
+                    </msItem>
+
+                    <msItem n="2.1" locusStart="iii" locusEnd="xii">
+                        <head type="CCC">
+                            <title>Contents list</title>
+                        </head>
+
+
+                        <ab locusNew="iii">The first four leaves contain the Table with <decoNote>titles in red
+                                capitals</decoNote></ab>
+                        <ab>The headings are: capitula <q>de penitentium</q> (i-lxiii), de canonibus (but no capp.
+                            follow), de sacerdotali Iure <name type="author">Egcberti Archiep.</name> (i-xcviiii), de
+                            libro scintillarum. Ending lxxii. de Anticristo</ab>
+                    </msItem>
+
+                    <msItem n="2.2" locusStart="xii" locusEnd="xii">
+                        <head type="CCC">
+                            <title>Extract from <name type="author">Pope Gregory the Great</name></title>
+                        </head>
+                    </msItem>
+                    <msItem n="2.3" locusStart="1" locusEnd="12">
+                        <head type="CCC">
+                            <title>De initio creature</title>
+                        </head>
+                    </msItem>
+                    <msItem n="2.4" locusStart="12" locusEnd="94">
+                        <head type="CCC">
+                            <title>Poenitentiale <name type="author">pseudo-Theodori</name></title>
+                        </head>
+                        <ab>
+                            <supplied agent="RJR">Old English gloss on p. <locus>17</locus> is <ref type="bibl"
+                                    target="Cameron 1973">Cameron C89.2</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="3" locusStart="94" locusEnd="110">
+                        <head type="CCC">
+                            <title>Texts concerning ecclesiastics</title>
+                        </head>
+
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="111" locusEnd="130">
+                        <head type="CCC">
+                            <title><name type="author">Wulfstan</name>'s Canon Law Collection ('Excerptiones <name
+                                    type="author">pseudo-Egberti</name>', recension B, partial text)</title>
+                        </head>
+                        <ab>
+                            <supplied agent="RJR">continued on pp. <locus>134</locus>-<locus>138</locus></supplied>
+                        </ab>
+                        <ab locus="134">The text continues with <ref type="bibl" target="Thorpe 1840b">Thorpe cxxxii,
+                                cxxxiii</ref> and then passes to <ref type="bibl" target="Thorpe 1840b">Thorpe
+                                cxlvii-clx</ref></ab>
+                        <ab>This comprises xxxv-xxxvii (part) of the capitula of Nasmith</ab>
+                    </msItem>
+
+                    <msItem n="5" locusStart="130" locusEnd="130">
+                        <head type="CCC">
+                            <title>Ex decretis <name type="author">sancti Gelasii papae</name></title>
+                        </head>
+
+                        <rubric locus="130">Ex decretis <name type="author">Sancti Gelasii</name> Papae</rubric>
+                        <ab>
+                            <handNote>fine round hand</handNote>
+                        </ab>
+                        <incipit locusNew="130">Quod in unaquaque ecclesia cui episcopus preest tam de reditibus quam de
+                            fidelium oblationibus quattuor debeant fieri portiones etc.</incipit>
+                    </msItem>
+
+                    <msItem n="6" locusStart="130" locusEnd="130">
+                        <head type="CCC">
+                            <title>Old English charm for recovering stolen chattels</title>
+                        </head>
+
+                        <ab locus="130">Charm. <handNote>Smaller black hand</handNote></ab>
+                        <incipit locusNew="130">Gyf feoh sy under fangen. Gyf hit sy hors sing on his feteran</incipit>
+                        <explicit locusNew="130">for &#254;am hi hyt forhelan ne mihtan</explicit>
+                        <ab>
+                            <ref type="bibl" target="Cockayne 1864">Cockayne, <hi rend="italic">Leechdoms</hi>, I
+                                392</ref>
+                        </ab>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron B23.1.4</ref>
+                            </supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="7" locusStart="131" locusEnd="131">
+                        <head type="CCC">
+                            <title>Decree of <name type="author">Pope Leo</name></title>
+                        </head>
+
+                        <rubric locus="131">Ex decretis <name type="author">Sancti leonis</name> papae</rubric>
+                        <ab>
+                            <handNote>hand like 5</handNote>
+                        </ab>
+                        <incipit locusNew="131">Ut nullus episcopus seruum alterius ad officium clericatus promoueat
+                            etc.</incipit>
+                        <ab>
+                            <handNote>Smaller hand</handNote>
+                        </ab>
+                        <rubric locusNew="131"><name type="author">Theodorus</name> dicit</rubric>
+                        <incipit locusNew="131">Si quis in seculari habitu uota uouerit</incipit>
+                        <ab>(followed by Theodore II ix § 1, 2)</ab>
+                    </msItem>
+
+                    <msItem n="8" locusStart="131" locusEnd="131">
+                        <head type="CCC">
+                            <title>Decree on jurisdiction over the clergy</title>
+                        </head>
+
+                        <ab>
+                            <handNote>Rather smaller hand</handNote>
+                        </ab>
+                        <ab>(a)</ab>
+                        <rubric locusNew="131">xxviiii. De eo quod non iudicandi sunt etc.</rubric>
+                        <ab>(<ref type="bibl" target="Wasserschleben 1874"><hi rend="italic">Canon. Hibern.</hi> XXI 29,
+                                ed. Wasserschleben</ref>)</ab>
+                        <incipit locusNew="131"><name type="person">Constantinus</name> rex ait ad episcopos</incipit>
+                        <ab>(b)</ab>
+                        <incipit locusNew="131">Non oportet iudices ecclesie habere timorem hominum etc.</incipit>
+                        <ab>(<ref type="bibl" target="Wasserschleben 1874"><hi rend="italic">Hibern</hi>. XXI 12,
+                                part</ref>)</ab>
+                        <rubric locus="131">Ut nullus accusati sedem usurpet episcopi</rubric>
+                        <ab>(<hi rend="italic">Conc. Sardic</hi>. cap. 4)</ab>
+                        <incipit locusNew="131"><name type="person">Gaudentius</name> ep. dixit, addendum si
+                            placet</incipit>
+                        <explicit locusNew="131">episcopi romani determinata</explicit>
+                    </msItem>
+
+                    <msItem n="9.1" locusStart="132" locusEnd="133">
+                        <head type="CCC">
+                            <title>Table of consanguinity</title>
+                        </head>
+
+
+
+                        <ab locus="132">De consanguinitate, <decoNote>a diagrammatic table</decoNote> extending over two
+                            pages <locus>132</locus>, <locus>133</locus></ab>
+                        <ab>This table is not in <ref type="bibl" target="Thorpe 1840b">Thorpe</ref></ab>
+                    </msItem>
+
+                    <msItem n="9.2" locusStart="138" locusEnd="143">
+                        <head type="CCC">
+                            <title>Texts on Christian warfare</title>
+                        </head>
+                        <ab>Follows</ab>
+                        <rubric locus="138">De magna Synodo</rubric>
+                        <ab>De militia et victoria Christianorum etc. to De tribulationibus<hi rend="footnote">The text
+                                of this is conjecturally ascribed to <name type="author">Alcuin</name> by <ref
+                                    type="bibl" target="Bateson 1895">Miss Bateson, and printed by her <hi rend="italic"
+                                        >Eng. Hist. Rev.</hi> 1895, p. 731</ref>.</hi>, p. <locus>142</locus>, which
+                            ends</ab>
+                        <explicit locusNew="143">Dei est quippe et adiuuare et in fugam uertere</explicit>
+                    </msItem>
+
+                    <msItem n="9.3" locusStart="143" locusEnd="151">
+                        <head type="CCC">
+                            <title>Expositio officium sacre missae</title>
+                        </head>
+                        <rubric locus="143">Incipit Expositio officium sacre missae</rubric>
+                        <incipit locusNew="143">Missarum uero officium constat ex introitu</incipit>
+                        <ab>(xliv in capitula) ending p. <locus>151</locus> (lxi de quinquagesima)</ab>
+                        <explicit locusNew="151">ieuinium sacratissimum adimpleuit</explicit>
+
+                    </msItem>
+
+                    <msItem n="10.1" locusStart="151" locusEnd="159">
+                        <head type="CCC">
+                            <name type="author">Ælfric OSB</name>, <title>Second Latin Pastoral Letter for <name
+                                    type="person">Wulfstan</name></title>
+                        </head>
+                        <rubric locus="151">Sermo ad sacerdotes</rubric>
+                        <incipit locusNew="151">O sacerdotes domini</incipit>
+                        <ab>Anglo-Saxon at p. <locus>336</locus></ab>
+                        <ab>(lxii)</ab>
+                    </msItem>
+                    <msItem n="10.2" locusStart="159" locusEnd="162">
+                        <head type="CCC"><name type="author">Wulfstan</name>, <title>Homily VIIIa</title></head>
+                        <rubric locus="159">Incipit de baptismo</rubric>
+                        <incipit locusNew="159">Primo necesse est ut paganus catecuminus sit</incipit>
+                        <ab>( = <ref type="ms" target="CCC265">MS 265, p. 180</ref>)</ab>
+                        <ab>Printed by <ref type="bibl" target="Napier 1883">Napier, <hi rend="italic">Wulfstan</hi>,
+                                No. IV, p. 2</ref></ab>
+                    </msItem>
+                    <msItem n="10.3" locusStart="162" locusEnd="173">
+                        <head type="CCC">
+                            <title>Offices and related texts</title>
+                        </head>
+                        <rubric locus="162">Incipit super electos ad catecuminum faciendum etc.</rubric>
+                        <rubric locus="163">De officio et mysterio missae</rubric>
+                        <incipit locusNew="163">Officium quidem misse magna ex parte ad solum pertinet
+                            sacerdotem</incipit>
+                        <ab>(<ref type="ms" target="CCC265">MS 265, p. 182</ref>)</ab>
+                        <rubric locus="164">Benedictio salis (et aquae)</rubric>
+                        <rubric locus="169">Item benedictio salis et aquae</rubric>
+                        <ab>two forms</ab>
+                        <rubric locus="169">Incipit admonitio spiritalis doctrine</rubric>
+                        <incipit locusNew="169">Exalta in fortitudine uocem tuam</incipit>
+                        <ab>(=<ref type="ms" target="CCC265">MS 265, p. 3</ref>)</ab>
+                        <rubric locus="171">Admonitio episcoporum utilis</rubric>
+                        <incipit locusNew="171">O karissime frater corde tenus perspice</incipit>
+                        <ab>(= <ref type="ms" target="CCC265">MS 265, p. 4</ref>)</ab>
+                    </msItem>
+
+                    <msItem n="11" locusStart="173" locusEnd="179">
+                        <head type="CCC">
+                            <name type="author">Alcuin</name>, <title>Epistola 17</title>
+                        </head>
+
+                        <rubric locus="173">Epistola <name type="author">Albini leuite</name> ad <name type="person"
+                                >&#198;&#240;ELNARDUM</name><hi rend="footnote">Apparently altered from <name
+                                    type="person">&#198;&#240;ELDARDUM</name></hi> archiep.</rubric>
+                        <incipit locusNew="173">Pio patri et sancte sedis presuli <name type="person"
+                                >&#230;&#254;elhardo</name></incipit>
+                        <ab>(=<ref type="ms" target="CCC265">MS 265, p. 7</ref>)</ab>
+                    </msItem>
+
+                    <msItem n="12.1" locusStart="179" locusEnd="183">
+                        <head type="CCC">
+                            <name type="author">Alcuin</name>, <title>Epistola 114</title>
+                        </head>
+
+
+                        <rubric locus="179">Item Epistola <name type="author">Alcuini</name> ad <name type="person"
+                                >Eanbaldum</name> archiepiscopum</rubric>
+                        <incipit locusNew="179">Ecce karissime fili</incipit>
+                        <ab>( = <ref type="ms" target="CCC265">MS 265, p. 13</ref>)</ab>
+                        <ab>These two letters, which occur again in <ref type="ms" target="CCC265">MS 265</ref>, have
+                            been collated by <ref type="bibl" target="D&#252;mmler 1895?"
+                            >D&#252;mmler</ref></ab>
+                        <ab>(lxvi)</ab>
+                    </msItem>
+
+                    <msItem n="12.2" locusStart="183" locusEnd="188">
+                        <head type="CCC"><name type="author">Isidore of Seville</name>, <title>Extracts from Sententiae,
+                                book 3, chapters 36-38 (perhaps taken from <name type="person">pseudo-Amalarius</name>,
+                                Institutio canonicorum, book 1, chapters 20, 29, and 30), and related
+                            texts</title></head>
+                        <rubric locus="183">De doctrina et exemplis prepositorum</rubric>
+                        <incipit locusNew="183">Tam doctrina quam uita etc.</incipit>
+                        <ab>(= <ref type="ms" target="CCC265">MS 265, p. 17</ref>) to Nasmith lxix</ab>
+                    </msItem>
+
+                    <msItem n="13" locusStart="188" locusEnd="264">
+                        <head type="CCC">
+                            <title>Texts on ecclesiastical customs by <name type="author">Ælfric OSB</name>, <name
+                                    type="author">Hrabanus Maurus</name>, <name type="author">Abbo of
+                                    Saint-Germain-des-Prés</name> and others</title>
+                        </head>
+
+
+                        <rubric locus="188">Sermo Episcopi ad clericos</rubric>
+                        <incipit locusNew="188">Ego uobis clericis mihi subditis</incipit>
+                        <ab>Anglo-Saxon on p. <locus>320</locus></ab>
+                        <ab>( = <ref type="ms" target="CCC265">MS 265, p. 160</ref>)</ab>
+                        <ab>(lxx)</ab>
+                        <rubric locus="201">Incipit de septem ecclesiasticis gradibus</rubric>
+                        <incipit locusNew="201">Hostiarii sunt idem et ianitores</incipit>
+                        <rubric locusNew="204">Item de Sacerdotibus</rubric>
+                        <ab>The section Item de Sacerdotibus, p. <locus>204</locus>, = beginning of <ref type="ms"
+                                target="CCC265">MS 265, p. 185</ref>. See also <ref type="ms" target="CCC265">MS 265,
+                                pp. 188, 194</ref></ab>
+                        <!--<ab locusNew="218">Music. Hartzell also notes music on pp. 218 and 219 - neumed sections within text</ab>-->
+                        <!--<ab locusNew="247">Music.  Hartzell notes the neumed Alleluia in the lower margin: "Alleluia. Sancte eligi tu dulcedo pauperum"</ab>-->
+                        <ab>
+                            <supplied agent="RJR">Old English gloss on p. <locus>246</locus> is <ref type="bibl"
+                                    target="Cameron 1973">Cameron C82.2</ref></supplied>
+                        </ab>
+                        <rubric locusNew="253">Qualiter penitentes in cena domini in ecclesiam introducuntur</rubric>
+                        <ab locus="252">In the form <q>Qualiter penitentes in cena domini in ecclesiam
+                            introducuntur</q>, p. <locus locusNew="253">252</locus>, <decoNote>neumes
+                            occur</decoNote></ab>
+                        <!--<ab>Music. Hartzell says "Nearly vertical Anglo-Saxon forms: virga sharply pointed: cursive climacus (p. 253/13) used in place of standard form in same phrase: quilisma: prorrectus of clivis and ascender (p. 258/21). Romanian letters: c, e, l, m, s, iv, ut, ios." Hartzell, p.45.</ab>-->
+                        <incipit locusNew="253">Vere fratres karissimi</incipit>
+                        <ab>The sermon (p. <locus>253</locus>) Vere fratres karissimi <hi rend="footnote">By <name
+                                    type="author">Abbo of St Germain</name>: <ref type="bibl" target="d'Achery 1723"
+                                    >D'Achery, <hi rend="italic">Spicil</hi>. I 337</ref></hi> is in Anglo-Saxon on p.
+                                <locus>354</locus>. Other portions also occur in Anglo-Saxon (see post). <decoNote>More
+                                neumes</decoNote> on pp. <supplied><locus>258</locus> and</supplied>
+                            <locus>259</locus></ab>
+                        <ab>Ends</ab>
+                        <explicit locus="264">et clamante diacono Ite missa est pergat unusquisque ad sua</explicit>
+                    </msItem>
+
+                    <msItem n="14" locusStart="264" locusEnd="281">
+                        <head type="CCC">
+                            <name type="author">Defensor of Ligugé</name>, <title>Liber scintillarum (extracts)</title>
+                        </head>
+
+
+                        <rubric locus="265" locusNew="264">Incipiunt excerptiones ex libro scintillarum (72). In primis
+                            de caritate</rubric>
+                        <incipit locusNew="264">Dominus dicit, Maiorem caritatem etc.</incipit>
+                        <ab>There are a good many Anglo-Saxon interlinear glosses</ab>
+                        <ab>Ends</ab>
+                        <rubric locusNew="281">De breuitate huius uitae</rubric>
+                        <explicit locusNew="281">finiatur uita cum culpa</explicit>
+                        <ab>(<ref type="bibl" target="Migne 088">P. L. LXXXVIII 597</ref>)</ab>
+                        <ab>
+                            <supplied agent="RJR">Old English gloss on pp. <locus>265</locus>-<locus>266</locus> is <ref
+                                    type="bibl" target="Cameron 1973">Cameron C60</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="15" locusStart="281" locusEnd="291">
+                        <head type="CCC">
+                            <name type="author">Adso Dervensis OSB</name>, <title>De ortu et tempore antichristi</title>
+                        </head>
+
+                        <rubric locus="281">Epistola <name type="author">Adsonis Monachi</name> ad <name type="person"
+                                >Gerbergam reginam</name> de Anticristo (ci 1291)</rubric>
+                        <incipit locusNew="281">Excellentissimo ac regali dignitate pollenti</incipit>
+                        <ab locus="289">
+                            <handNote>Hand changes</handNote>
+                        </ab>
+                        <ab>Ends</ab>
+                        <explicit locus="291">que fueritis dignata imperare</explicit>
+                    </msItem>
+
+                    <msItem n="16" locusStart="292" locusEnd="292">
+                        <head type="CCC">
+                            <title>Capitula of the Council of Winchester <date>1070</date></title>
+                        </head>
+
+                        <ab locus="292">
+                            <handNote>A round hand like that on p. <locus>130</locus> appears</handNote>
+                        </ab>
+                        <ab>Titles in black, rubricated</ab>
+                        <rubric locus="292">Celebrati capitula concilii apud <name type="place"
+                            >uuintoniam</name></rubric>
+                        <incipit locusNew="292">Quod nulli liceat duobus episcopatibus presidere</incipit>
+                        <explicit locusNew="292">quod calices non sint cerei</explicit>
+                        <ab><ref type="bibl" target="Wilkins 1737a">Wilkins, <hi rend="italic">Concilia</hi> I
+                            365</ref>. A copy in <ref type="ms" target="CCC117">MS 117. 4</ref> is described as being
+                            from a Worcester MS.</ab>
+                    </msItem>
+
+                    <msItem n="17" locusStart="292" locusEnd="292">
+                        <head type="CCC">
+                            <title>Capitula of the Council of Windsor <date>1070</date></title>
+                        </head>
+
+                        <rubric locus="292">Capitula concilii apud <name type="place">uuindlesora</name> celebrati in
+                            pentecosten</rubric>
+                        <incipit locusNew="292">De introitu episcoporum et abbatum per symoniacam heresim</incipit>
+                        <explicit locusNew="292">qui hec non fecerit anathema sit</explicit>
+                        <ab>I do not find this text in <ref type="bibl" target="Wilkins 1737a">Wilkins</ref></ab>
+                    </msItem>
+
+                    <msItem n="18" locusStart="293" locusEnd="294">
+                        <head type="CCC">
+                            <title>Penitential articles issued after the Battle of Hastings</title>
+                        </head>
+
+                        <rubric locus="293">De penitentia in bello homines occidentium</rubric>
+                        <incipit locusNew="293">Hec est penitentie institutio secundum decreta normannorum presulum
+                            auctoritate summi pontificis confirmata per legatum suum <name type="place">ermenfredum
+                                episcopum</name> sedunensem</incipit>
+                        <explicit locusNew="294">ut neque ipsi uendant neque alii emant</explicit>
+                        <ab>
+                            <ref type="bibl" target="Wilkins 1737a">Wilkins, <hi rend="italic">Concilia</hi> I 366</ref>
+                        </ab>
+                        <ab>The lower part of p. <locus>294</locus> has been written upon, the writing erased, and the
+                            Latin Epistola de Canonibus<hi rend="footnote">
+                                <ref type="bibl" target="Thorpe 1840b">Thorpe, 8vo, II 342</ref>
+                            </hi> (<name type="author">Ælfric</name> to <name type="person">Wulsin</name>) written on it
+                            in cent. <origDate>xvi</origDate> (<ref type="bibl" target="Wanley 1705">Wanley, p.
+                            5</ref>). The old title is still decipherable as ABSOLUTIO</ab>
+
+                    </msItem>
+                    <milestone n="II" unit="volume"/>
+                    <msItem n="19" locusStart="295" locusEnd="308">
+                        <head type="CCC">
+                            <name type="author">Ælfric OSB</name>, <title>Letter to <name type="person"
+                                >Wulfsige</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Epistola de canonibus Saxonice [scilicet <name type="person">Ælfrici</name> ad
+                                sacerdotes]</title>
+                        </head>
+                        <ab>
+                            <quote>cui premissa est epistola nuncupatoria ad <name type="person">Wulfinum
+                                    episcopum</name>, Latine et manu recenti</quote>
+                        </ab>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron B1.8.1</ref>
+                            </supplied>
+                        </ab>
+                        <rubric locus="295">Be preoste syno&#240;e</rubric>
+                        <incipit locusNew="295">Ic secge eo&#447; preostum</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1840b">Thorpe, 8vo, II 342. <hi rend="italic">The Canons of
+                                    Ælfric</hi></ref>
+                        </ab>
+                        <incipit locus="304">Ic bidde eo&#447; &#254;&#230;t ge gymon eo&#447;ra
+                            sylfra</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1840b">Thorpe, 8vo, II p. 358</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="20" locusStart="308" locusEnd="314">
+                        <head type="CCC">
+                            <name type="author">Ælfric OSB</name>, <title>Catholic Homilies, Second Series,
+                                Apostles</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Homelia Saxonica</title>
+                        </head>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron B1.2.45</ref>
+                            </supplied>
+                        </ab>
+                        <rubric locus="308">Sequentia Sancti Euuangelii secundum <name type="person"
+                            >Lucam</name></rubric>
+                        <incipit locusNew="308">In illo tempore. Designauit Dominus et alios</incipit>
+                        <incipit locusNew="308">Se h&#230;lend gec&#233;as hi to eacan</incipit>
+                        <ab>
+                            <ref type="bibl" target="Thorpe 1846">Thorpe, <hi rend="italic">Homilies</hi>, II 528</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="21" locusStart="314" locusEnd="319">
+                        <head type="CCC">
+                            <title>De ecclesiasticis gradibus</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De ecclesiasticis gradibus, Saxonice</title>
+                        </head>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron B13.3</ref>
+                            </supplied>
+                        </ab>
+                        <rubric locus="314">De eclesiasticis gradibus</rubric>
+                        <incipit locusNew="314">Heah hadas syndon to healdenne</incipit>
+                        <ab>Also in <ref type="ms" target="CCC201">MS 201, p. 108</ref> and <ref type="ms"
+                                target="OBL232">Junius, 121, f. 35v</ref></ab>
+                    </msItem>
+
+                    <msItem n="22" locusStart="320" locusEnd="320">
+                        <head type="CCC">
+                            <name type="author">Ælfric OSB</name>, <title>Preface to his Old English Letters to <name
+                                    type="person">Wulfstan</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Prologus venerabilis <name type="author">Ælfrici</name> abbatis ad <name
+                                    type="person">Wulstanum archiepiscopum</name>, Latine</title>
+                        </head>
+                        <ab locus="320">
+                            <handNote>Fine round hand</handNote>
+                        </ab>
+                        <ab>
+                            <ref type="bibl" target="Wanley 1705">Wanley, p. 22, from a Bodleian MS.</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="23" locusStart="320" locusEnd="336">
+                        <head type="CCC">
+                            <name type="author">Ælfric OSB</name>, <title>First Old English Letter for <name
+                                    type="person">Wulfstan</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Prima epistola Anglice exposita</title>
+                        </head>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron B1.8.2</ref>
+                            </supplied>
+                        </ab>
+                        <incipit locus="320">Vs bisceopum gedafena&#240;</incipit>
+                        <ab>Latin on p. <locus>188</locus></ab>
+                        <ab> Thorpe, <ref type="bibl" target="Thorpe 1840c">fol. 452</ref>, <ref type="bibl"
+                                target="Thorpe 1840b">8vo, II 364</ref> (<hi rend="italic">Ælfric's Pastoral
+                                Epistle</hi>) </ab>
+                    </msItem>
+
+                    <msItem n="24" locusStart="336" locusEnd="337">
+                        <head type="CCC">
+                            <name type="author">Ælfric OSB</name>, <title>Second Old English Letter for Wulfstan</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Secunda epistola quando dividis crismam</title>
+                        </head>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron B1.8.3</ref>
+                            </supplied>
+                        </ab>
+                        <incipit locus="336">Eala ge m&#230;sse preostas</incipit>
+                        <ab>Latin on p. <locus>151</locus></ab>
+                        <ab><ref type="bibl" target="Thorpe 1840b">Thorpe, 8vo, II 390 (quando dividis chrisma)</ref>
+                            from this MS.</ab>
+                    </msItem>
+
+                    <msItem n="25" locusStart="337" locusEnd="349">
+                        <head type="CCC">
+                            <name type="author">Ælfric OSB</name>, <title>Second Old English Letter for Wulfstan
+                                (continued)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sermo in cena Domini, et VI feria et sabbato sancto, Saxonice</title>
+                        </head>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron B1.8.3 cont.</ref>
+                            </supplied>
+                        </ab>
+                        <incipit locus="337">In cena domini et in parasceue et in sancto sabbato. On &#254;yssum
+                            &#254;rym s&#447;igenihtum ge sceolan singan &#230;t g&#230;dere</incipit>
+                        <ab>Nos. 25, 26 seem not to have been printed</ab>
+                    </msItem>
+
+                    <msItem n="26" locusStart="349" locusEnd="350">
+                        <head type="CCC">
+                            <title>On the Mass: Celebration of Vigils</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De officio missae in vigilia pascae, Saxonice</title>
+                        </head>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron B12.9</ref>
+                            </supplied>
+                        </ab>
+                        <rubric locus="349">De officio Missae etc.</rubric>
+                        <incipit locusNew="349">On &#254;one haligan easter &#230;fen gange man to
+                            nones</incipit>
+                        <ab>Latin, p. <locus>221</locus></ab>
+                        <rubric locus="350">De officio missae in vigilia pentecosten</rubric>
+                        <ab>Latin, p. <locus>226</locus></ab>
+                        <ab>Nos. 25, 26 seem not to have been printed</ab>
+                    </msItem>
+
+                    <msItem n="27" locusStart="351" locusEnd="353">
+                        <head type="CCC">
+                            <title>Anonymous Homily for Ash Wednesday</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sermo in capite jejunii, Saxonice</title>
+                        </head>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron B3.2.9</ref>
+                            </supplied>
+                        </ab>
+                        <ab>At this point <handNote>a large hand appears</handNote></ab>
+                        <incipit locus="351">Gehyra&#240; bro&#240;ru &#254;a leofestan &#447;e
+                            mynegia&#240; eo&#447;</incipit>
+                        <ab>Latin, p. <locus>247</locus></ab>
+                        <ab>Copied for <name type="person">Professor Napier</name>; apparently only here</ab>
+                    </msItem>
+
+                    <msItem n="28.1" locusStart="353" locusEnd="360">
+                        <head type="CCC">
+                            <title>Anonymous Homily In Cena Domini</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sermo in cena Domini ad penitentes, Saxonice</title>
+                        </head>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron B3.2.23</ref>
+                            </supplied>
+                        </ab>
+                        <ab>Latin, p. <locus>253</locus></ab>
+                        <ab>Copied for <name type="person">Professor Napier</name>; apparently only here</ab>
+                    </msItem>
+
+                    <msItem n="28.2" locusStart="360" locusEnd="360">
+                        <head type="CCC">
+                            <title>Canons on the punishment of sins</title>
+                        </head>
+                        <ab locus="360">Followed on p. <locus>360</locus> by Latin extracts from Canons in a later
+                            hand</ab>
+                        <incipit locus="360">Excommunicati si perdurant in pristinis criminibus etc.</incipit>
+                    </msItem>
+
+                    <msItem n="29.1" locusStart="361" locusEnd="363">
+                        <head type="CCC">
+                            <name type="author">Serlo of Bayeux</name>, <title>De filiis presbyterorum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Invectivum in damnantes conjugia sacerdotum</title>
+                        </head>
+
+                        <ab locus="361"><layout>In two columns</layout>, cent. <origDate>xii</origDate></ab>
+                        <incipit locusNew="361">Lex inmortalis quam longo tempore talis</incipit>
+                        <explicit locusNew="361">atque coheredem patrie reuocauit ad edem</explicit>
+                        <ab><ref type="bibl" target="Wright 1872a">Th. Wright, <hi rend="italic">Anglo-Latin
+                                    Satirists</hi>, II 208</ref> (another text, called Versus Seltonis), also <ref
+                                type="bibl" target="Dümmler 1897"><hi rend="italic">Mon. Germ. Hist. Libelli de
+                                    lite</hi>, III 580</ref>, with a facsimile of the MS.</ab>
+                        <ab>pp. <locus>362</locus>, <locus>363</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="29.2" locusStart="364" locusEnd="364">
+                        <head type="CCC">
+                            <title>Excommunication</title>
+                        </head>
+                        <ab locus="364">An Excommunication form <handNote>in fine large hand</handNote></ab>
+                        <ab>
+                            <ref type="bibl" target="Liebermann 1903">Liebermann, <hi rend="italic">Gesetze</hi>, p.
+                                434</ref>
+                        </ab>
+                    </msItem>
+                    <milestone n="III" unit="volume"/>
+                    <msItem n="30.1" locusStart="365" locusEnd="365">
+                        <head type="CCC">
+                            <title>Old English formula of confession and absolution</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Liber confessionalis <name type="author">Ecgberti Eboracensis archiepiscopi</name>,
+                                Saxonice, qui olim ex se conficiebat unum volumen; quod tandem vero una cum aliis
+                                diversis tractatibus in hunc librum compingebatur</title>
+                        </head>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron B11.9.1</ref>
+                            </supplied>
+                        </ab>
+                        <ab locusNew="365">The first page (<locus>365</locus>) is <handNote>in a large hand</handNote>
+                            and contains an Anglo-Saxon Confession and Absolution</ab>
+                        <incipit locusNew="365"> Ic andette &#254;e drihten aelmihtig god etc.<lb/> Gemyltsige
+                            eo&#447; se aelmihtiga god etc. </incipit>
+                        <ab>
+                            <ref type="bibl" target="Wanley 1705">Wanley, p. 111</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="30.2" locusStart="366" locusEnd="418">
+                        <head type="CCC">
+                            <title>Confessionale <name type="author">pseudo-Egberti</name> (Old English)</title>
+                        </head>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron B11.1.1</ref>
+                            </supplied>
+                        </ab>
+                        <ab locusNew="366">
+                            <decoNote>Title in red capitals</decoNote>
+                        </ab>
+                        <rubric locus="366">Her onginna&#240; &#240;isse boce capitulas &#240;e &#447;e
+                            hata&#240; scrift boc</rubric>
+                        <ab>This MS. is taken by Thorpe as the basis of his text (<ref type="bibl" target="Thorpe 1840c"
+                                >folio edn, p. 343</ref>: <ref type="bibl" target="Thorpe 1840b">8vo II 128</ref>)</ab>
+                        <ab>After <hi rend="italic">Confessionale</hi> 41 (<ref type="bibl" target="Thorpe 1840b"
+                                >Thorpe</ref>) is the chapter (p. <locus>384</locus>)</ab>
+                        <incipit locus="384"><name type="person">&#222;eodorus</name> se m&#230;ra bisceop ge
+                            sette &#254;as r&#230;dinge to bysene</incipit>
+                        <explicit locusNew="386">mid teara agotennysse</explicit>
+                        <ab>(<ref type="bibl" target="Thorpe 1840b">Thorpe, II. 132</ref>)</ab>
+                        <ab locus="387"><ref type="bibl" target="Thorpe 1840b">Thorpe's <hi rend="italic"
+                                    >Poenitentiale</hi> Liber I</ref> begins p. <locus locusNew="387">387a</locus></ab>
+                        <ab locus="390">Liber II</ab>
+                        <ab locus="399"><supplied>Liber</supplied> III</ab>
+                        <ab locus="404"><supplied>Liber</supplied> IV</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="418">f&#230;ste x gear</explicit>
+                        <ab>(<ref type="bibl" target="Thorpe 1840b">Thorpe, II. 170-230</ref>)</ab>
+                    </msItem>
+
+                    <msItem n="30.3" locusStart="384" locusEnd="384">
+                        <head type="CCC"><name type="author">Chrodegang</name>, <title>Regula canonicorum, chapter 83
+                                (Old English version)</title></head>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron B10.4.2</ref>
+                            </supplied>
+                        </ab>
+                    </msItem>
+                    <msItem n="30.4" locusStart="384" locusEnd="386">
+                        <head type="CCC">
+                            <title>Confessionale <name type="author">pseudo-Egberti</name> (Old English,
+                                extract)</title>
+                        </head>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron B11.2.1</ref>
+                            </supplied>
+                        </ab>
+                    </msItem>
+                    <msItem n="30.5" locusStart="387" locusEnd="413">
+                        <head type="CCC">
+                            <title>Poenitentiale <name type="author">pseudo-Egberti</name> (Old English)</title>
+                        </head>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron B11.3.1</ref>
+                            </supplied>
+                        </ab>
+                    </msItem>
+                    <msItem n="30.6" locusStart="413" locusEnd="414">
+                        <head type="CCC">
+                            <title>Confessionale <name type="author">pseudo-Egberti</name> (Additional section
+                                z)</title>
+                        </head>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron B11.2.2</ref>
+                            </supplied>
+                        </ab>
+                    </msItem>
+                    <msItem n="30.7" locusStart="414" locusEnd="416">
+                        <head type="CCC">
+                            <title>Formulas and Directions for the Use of Confessors</title>
+                        </head>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron B11.10.1</ref>
+                            </supplied>
+                        </ab>
+                    </msItem>
+                    <msItem n="30.8" locusStart="416" locusEnd="418">
+                        <head type="CCC">
+                            <title>Poenitentiale <name type="author">Theodori</name> and Capitula d'Acheriana
+                                (partial)</title>
+                        </head>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron B11.5</ref>
+                            </supplied>
+                        </ab>
+                    </msItem>
+                    <msItem n="31" locusStart="418" locusEnd="420">
+                        <head type="CCC">
+                            <title>Anglo-Saxon Laws Mirce, Að, and Hadbot</title>
+                        </head>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron B14.48, B14.49, B14.50</ref>
+                            </supplied>
+                        </ab>
+                        <ab>On pp. <locus>418</locus>-<locus>420</locus>
+                            <handNote>in a smaller hand</handNote> are the texts of Be Mercena lage, Be gehadendra
+                            a&#240;e 7 be hadbote printed by <ref type="bibl" target="Liebermann 1903">Liebermann,
+                                    <hi rend="italic">Gesetze</hi>, 462 sqq.</ref></ab>
+                        <ab>Flyleaves blank</ab>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP and BA</p>
+                            <p>markup: SP and BA</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: RJR 31/01/2009</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

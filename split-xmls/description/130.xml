@@ -1,0 +1,291 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC130">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>130</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Under D. 2</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>361</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Collectio Lanfranci</head>
+                <head type="James">Corpus Canonum</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">330</height>
+                        <width unit="mm">215</width>
+                    </measureGrp>, <measureGrp type="James">12.8 x 8.75</measureGrp>, <extent>ff. 222 + 2</extent>,
+                        <layout>46 lines to a page</layout>. Cent. <origDate>xi-xii</origDate>, <handNote>in a very
+                        beautiful clear round minuscule, by several scribes</handNote>.</p>
+
+
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, I<num>8</num>-XV<num>8</num> XVI<num>6</num>
+                            XVII<num>8</num>-XXVIII<num>8</num>: 1 flyleaf</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>modi neglegant</secFol>.</p>
+
+                <p function="Provenance" rend="withinContents">On f. <locus>222v</locus> the beginning of the decretal
+                    of <name type="person">Gregory VII</name> which is on f. <locus>123r</locus>.<lb/> Below this
+                        (<origDate>xvi</origDate>) <q>T. C. C.</q> with considerable spaces between the letters. Whether
+                    this stands for <name type="person">Thomas Cranmer, Cantuar.</name> I do not know.<lb/> I believe
+                    this book was at least written at <name type="place">Canterbury</name>, and I rather incline to
+                    attribute it to <name type="place">St Augustine's</name>, on the strength of the script.<lb/> The
+                    items enumerated above (on ff. <locus>120v</locus>-<locus>122v</locus>) occur in the undoubtedly
+                        <ref type="ms" target="CTC405">Canterbury (Christ Church) Decreta at Trinity College B. 16.
+                        44</ref>, which was brought by <name type="person">Lanfranc</name> from <name type="place"
+                        >Bec</name>.<lb/> I am not sure that some of the marginalia near the beginning are not in the
+                    hand of <name type="person">Bale</name>.</p>
+
+
+
+
+
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i + 1-57 + 57a + 58-61 + 61a + 62-220 + ii + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="ir" locusEnd="220r">
+                        <head type="CCC">
+                            <title>Collectio Lanfranci</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Corpus Canonum</title>
+                        </head>
+                        <ab>
+                            <quote>Epistolae et decreta pontificum Romanorum a <name type="person">Clemente</name> ad
+                                    <name type="person">Gregorium VII</name></quote>
+                        </ab>
+                        <ab locusNew="ir">The lower part of the first flyleaf is cut off. On the verso
+                                (<locus>iv</locus>), <handNote>in a large early hand</handNote>, is <q>Canones</q>. In a
+                            small later hand: <q>Corpus Canonum</q></ab>
+                        <ab locusNew="1r">The upper part of f. <locus>1r</locus> is cut off: a bit of the title,
+                                <decoNote>in red capitals</decoNote>, is left</ab>
+                        <ab locusNew="1r">Text begins in the letter of <name type="person">Clement</name> to <name
+                                type="person">James</name></ab>
+                        <incipit locusNew="1r">Notum tibi facio domine quia petrus qui uere fidei merito</incipit>
+                        <ab>There are marginalia in two hands of cent. <origDate>xvi early or xv late</origDate>. On ff.
+                                <locus>7v</locus>, <locus>9r</locus>, are <decoNote>initials in red, yellow and purple,
+                                edged with green. The subsequent initials are generally in single colours</decoNote>. On
+                            f. <locus>59r</locus> is <decoNote>another more elaborate initial</decoNote></ab>
+
+                        <ab>After Decreta Gregorii Iunioris (De illicitis coniugiis) follow</ab>
+                        <rubric locus="117v" locusNew="115v">Ex grecis et latinis canonibus et sinodis romanis atque
+                            decretis presulum ac principum romanorum hec capitula sparsim collecta sunt. et ingilramno
+                            mediomatrice urbis episcopo rome a beato <name type="person">papa adriano</name> tradita.
+                            sud die tertio decimo kalendarum octobrium indictione nona. quando pro sui negotii causa
+                            agebatur I.</rubric>
+                        <incipit locusNew="115v">Dei ordinationem accusat</incipit>
+                        <ab>lxxviii ends</ab>
+                        <explicit locusNew="118v">uel permiserit uiolandam</explicit>
+                        <rubric locus="120v" locusNew="118v">Sinodale decretum Nicholai</rubric>
+                        <incipit locusNew="119r"><name type="person">Nicholaus ep.</name> ... atque benedictione
+                            gaudere</incipit>
+                        <rubric locus="121v" locusNew="119v">Cuius supra</rubric>
+                        <incipit locus="121v" locusNew="119v">Domnus <name type="person">papa Nicholaus</name> sinodo in
+                            basilica constantiniana presidens dixit. Erga symoniachos</incipit>
+                        <incipit locus="121v" locusNew="119v"><name type="person">Nichilominus</name> auctoritate
+                            apostolica</incipit>
+                        <explicit locusNew="119v">quasi iam omnino intronizatus sit</explicit>
+                        <rubric locus="121v" locusNew="119v">lusiurandum quod in eadem synodo fecit <name type="person"
+                                >beringarius</name></rubric>
+                        <incipit locus="121v" locusNew="119v">Ego <name type="person">beringerius</name>
+                            indignus</incipit>
+                        <rubric locusNew="120r">Hanc epistolam accepit <name type="person">Lanfrancus</name> cum
+                            monachus et prior esset <name type="place">Becci</name></rubric>
+                        <incipit locus="122r" locusNew="120r"><name type="person">Nycholaus</name> etc. Satis
+                            desideratam uestram</incipit>
+                        <rubric locusNew="120r">Hanc accepit cum <name type="person">Cadomensi</name> cenobio
+                            preesset</rubric>
+                        <incipit locus="122r" locusNew="120r"><name type="person">Alexander</name> etc. <name
+                                type="person">lanfranco</name> utriusque sapientie gratia referto</incipit>
+                        <incipit locus="122v" locusNew="120v">Anno ab incarnacione domini sempiterni principii
+                                <date>millesimo septuagesimo nono</date></incipit>
+                        <ab locusNew="120v">Council under <name type="person">Gregory VII</name> with oath of <name
+                                type="person">Beringarius</name></ab>
+                        <explicit locus="122v" locusNew="120v">qui per eius doctrinam ab ea recesserant</explicit>
+                        <ab>The first column of <locus locusNew="121r">123r</locus> left blank. A decretal of <name
+                                type="person">Gregory VII</name></ab>
+                        <ab locusNew="121r"><q>Sanctorum patrum uestigiis inherentes</q> occupies the rest of the leaf
+                                (<layout>in 2 columns on verso</layout>)</ab>
+                        <ab>See on the above, <ref type="bibl" target="Böhmer 1902">Böhmer, <hi rend="italic">Die
+                                    Fälschungen Lanfranks</hi>, 1902, p. 62 note</ref></ab>
+                        <rubric locus="124r" locusNew="122r">Incipiunt capitula in canones qui dicuntur
+                            apostolorum</rubric>
+                        <ab>(<decoNote>red capitals</decoNote>)</ab>
+                        <ab locus="124v" locusNew="122v">Text <decoNote>with fine initial in red and
+                            green</decoNote></ab>
+                        <ab locus="124r" locusNew="122v">
+                            <quote>Canones 41, qui dicuntur apostolorum</quote>
+                        </ab>
+                        <ab locus="126r" locusNew="124r">
+                            <quote>CONCILIA GRAECA.<lb/> Symbolum Nicenum<lb/> Concilium Nicenum, Can. 20.<lb/>
+                                Anciranum, Can. 24.<lb/> Neocassariense, Can. 14.<lb/> Gangrense, Can. 20.<lb/>
+                                Sardicense, Can. 21.<lb/> Antiochenum, Can. 25.<lb/> Laodicense, Can. 60.<lb/>
+                                Constantinopolitanum, Regul. 3.<lb/> Symbolum Constantinopolitanum.<lb/> Concilium
+                                Ephesinum I. Can. 16.<lb/> Chalcedonense, Can. 27.<lb/> Constitutio fidei ejusdem
+                                concilii.<lb/> Symbola Nicena et Constantinopolitana.<lb/> Edictum Marciani pro
+                                confirmatione ejusdem concilii.<lb/> Regula Attici de epistola formata</quote>
+                        </ab>
+                        <ab>The Greek Councils end with Regula Attici Constantinopolitani Ep. de epistola formata
+                            (giving the Greek alphabet)</ab>
+                        <ab>
+                            <quote>CONCILIA LATINA</quote>
+                        </ab>
+                        <rubric locus="141v" locusNew="139v">Huc usque grecorum concilia. De hinc latinorum
+                            sequuntur</rubric>
+                        <ab locus="141v" locusNew="139v">
+                            <quote>AFRICANA. Concilium Cartaginense I. Can. 14<lb/> Cartaginense II. Can. 13.<lb/>
+                                Cartaginense III. Can. 49.<lb/> Cartaginense IV. Can. 105.<lb/> Cartaginense V. Can.
+                                15.<lb/> Cartaginense VI. Can. 9. cum epistolis ad pontifices Romanos de canonibus
+                                Nicenis.<lb/> Cartaginense VII. Can. 5.<lb/> Milevitanum, Can. 26</quote>
+                        </ab>
+
+                        <ab locus="149v" locusNew="147v">
+                            <handNote>A clearly different scribe</handNote>
+                        </ab>
+                        <rubric locus="154v" locusNew="152v">Huc usque Africe Concilia de hinc Gallie sequuntur</rubric>
+                        <ab locus="154v" locusNew="152v">
+                            <quote>GALLICANA. Concilium Arelatense I. Can. 24<lb/> Arelatense II. Can. 24.<lb/>
+                                Arelatense III.<lb/> Valetinum, Can. 6.<lb/> Tauritanum, Can. 7.<lb/> Regiense, Can.
+                                6.<lb/> Arausicanum, Can. 31.<lb/> Vasense, Can. 9.<lb/> Agatense, Can. 72.<lb/>
+                                Aurelianense, Can. 27</quote>
+                        </ab>
+
+                        <ab locus="158v" locusNew="156v">
+                            <handNote>Former scribe resumes</handNote>
+                        </ab>
+                        <ab locus="163r" locusNew="161r">
+                            <quote>HISPANICA. Concilium Eliberitanum, Can. 79<lb/> Terraconense, Can. 12.<lb/>
+                                Gerundense, Can. 10.<lb/> Csesar-Augustanum, Can. 9.<lb/> Hilerdense, Can. 16.<lb/>
+                                Valentinum, Can. 6.<lb/> Toletanum I. Can. 21.<lb/> Toletanum II. Can. 5.<lb/> Toletanum
+                                III. Can. 23.<lb/> Toletanum IV. Can. 75.<lb/> Toletanum V. Can. 9.<lb/> Toletanum VI.
+                                Can. 19.<lb/> Toletanum VII. Can. 7.<lb/> Toletanum VIII. Can. 15.<lb/> Toletanum IX.
+                                Can. 17.<lb/> Toletanum X. Can. 6.<lb/> Toletanum XI. Can. 16.<lb/> Toletanum XII. Can.
+                                13.<lb/> Toletanum XIII. Can. 6.<lb/> Bracarense I. Can. 42.<lb/> Bracarense II. Can.
+                                12.</quote>
+                        </ab>
+
+
+                        <ab>
+                            <quote>Canones collecti ex orientalium synodis per <name type="person">Martinum
+                                    episcopum</name> et concilium Bracarense excerpti et emendati; qui clericos spectant
+                                Can. 68, qui laicos Can. 16.</quote>
+                        </ab>
+                        <ab>
+                            <quote>Concilium Bracarense III. Can. 10.<lb/> Hispalense I. Can. 2.<lb/> Hispalense II.
+                                Can. 13</quote>
+                        </ab>
+                        <rubric locus="163r" locusNew="161r">Huc usque Gallie Concilia, de hinc (Ispanie)
+                            sequuntur</rubric>
+                        <ab>At <locus locusNew="164v">166v</locus>, <locus locusNew="180v">182v</locus> and elsewhere
+                            are changes of scribes</ab>
+                        <ab locus="218r" locusNew="216r">Conc. Hispalense II ends</ab>
+                        <explicit locusNew="216r">Honorius cordubensis ep. subscripsi</explicit>
+                        <ab>Then follows</ab>
+                        <ab locus="218r" locusNew="216r">
+                            <quote>Epistola <name type="person">Lanfranci</name> Cantuar. ad episcopum Hibernian</quote>
+                        </ab>
+                        <incipit locusNew="216r"><name type="author">Lanfrancus</name> ... uenerando hibernie ep. D.
+                            (Ep. 33)</incipit>
+                        <explicit locusNew="216v">abrenunciandum eis decreuimus</explicit>
+                        <ab locus="219" locusNew="217r">
+                            <quote>Catalogus pontificum Romanorum ad <name type="person">Calixtum II</name></quote>
+                        </ab>
+                        <rubric locus="219r" locusNew="217r">Catalogus Romanorum pontificum</rubric>
+                        <ab>There are biographical notices of the three last, <name type="person">Paschal II</name>,
+                                <name type="person">Gelasius II</name>, <name type="person">Calixtus II</name>,
+                            ending</ab>
+                        <explicit locusNew="219v">Cessauit autem episcopatus dies iii</explicit>
+                        <ab locus="221v" locusNew="219v">
+                            <quote>Catalogus imperatorum ad <name type="person">Tiberium</name> anno
+                                <date>698</date></quote>
+                        </ab>
+                        <rubric locus="221v" locusNew="219v">De imperatoribus</rubric>
+                        <ab><name type="person">Octauianus Aug.</name> Ann. vi. Notes persecutions etc. Ends</ab>
+                        <explicit locus="222r" locusNew="220r"><name type="person">Leontius</name> ann. iii. Liberius de
+                            hinc quintum animi (annum) agit. Indiction. prima</explicit>
+                        <ab>After a space, <handNote>in a later hand</handNote></ab>
+                        <incipit locusNew="220r">Annus <date>centenus millenus septuagenus Primus</date> erat. primas.
+                            Cum ruit ense <name type="person">thomas (Cant. above)</name></incipit>
+                        <ab>After a space, <handNote>in the original hand</handNote></ab>
+                        <incipit locusNew="220r"><name type="place">Xenodochium</name> id est locus uenerabilis in quo
+                            peregrini suscipiuntur etc.</incipit>
+                        <ab>ending</ab>
+                        <explicit locusNew="220r"><name type="place">Brephrotrophium</name> idest locus uenerabilis in
+                            quo infantes aluntur</explicit>
+
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 03/11/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

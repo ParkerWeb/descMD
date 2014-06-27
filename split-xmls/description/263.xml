@@ -1,0 +1,130 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC263">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>263</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>H. 8</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>88</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Honorius Augustodunensis, Speculum ecclesiae</head>
+                <head type="James">Honorii Speculum Ecclesiae</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">267</height>
+                        <width unit="mm">180</width>
+                    </measureGrp><measureGrp type="James">10.5 x 7</measureGrp>, <extent>ff. 143 + 1</extent>,
+                        <layout>double columns of 31 lines</layout>. Cent. <origDate>xiii</origDate>, <handNote>finely
+                        written in two hands</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num>-5<num>8</num> (one canc.) 6<num>8</num>-18<num>8</num>, 1
+                        flyleaf</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>ipse illustrat</secFol>.</p>
+
+                <p function="Provenance">At top of f. <locus>1r</locus>
+                    <name type="person">Parker</name> has written in chalk: <name type="place">Canterbury</name>. There
+                    were several copies of a <note type="title">Speculum ecclesiae</note> at <name type="place">Christ
+                        Church</name>, e.g. <ref type="bibl" target="James 1903"><hi rend="italic">Ancient
+                            Libraries</hi>, p. 92, no. 943</ref>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + 1-144 + i + c</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="144v">
+
+                        <head type="CCC">
+                            <name type="author">Honorius Augustodunensis</name>, <title>Speculum ecclesiae</title>
+                        </head>
+
+                        <rubric locus="1r">Fratres solitario de speculo ecclesie</rubric>
+                        <ab>(<name type="author">Honorius of Autun</name>
+                            <ref type="bibl" target="Migne 172">P. L. CLXXII 814</ref>)</ab>
+                        <incipit locusNew="1r">Cum proxime in nostro conuentu resideres</incipit>
+                        <explicit locusNew="1r">profecerint ex tuis loquelis</explicit>
+                        <ab locusNew="1r">
+                            <decoNote>Initial of the Church as a crowned woman, half-length, on gold ground: not very
+                                fine work</decoNote>
+                        </ab>
+                        <rubric locusNew="1r">Prologus Solitarii</rubric>
+                        <incipit locusNew="1r">Peritissimi pictores <name type="person">ambrosius</name> et <name
+                                type="person">augustinus</name>
+                            <name type="person">Ieronimus</name>, etc.</incipit>
+                        <explicit locusNew="1r">mores et actus suos componat</explicit>
+                        <rubric locus="1r">Incipit speculum ecclesie</rubric>
+                        <incipit locusNew="1r">Cum igitur uis alloqui populum inprimis ori pectorique tuo</incipit>
+                        <explicit locusNew="1r">sic humiliter incipe</explicit>
+                        <rubric locus="1v">In die natalis domini sermo</rubric>
+                        <incipit locusNew="1v">Letentur celi et exultet terra</incipit>
+                        <ab>Ends imperfectly in the sermon on <name type="person">St Martin</name></ab>
+                        <explicit locus="144v">O cuius meriti apud deum hic uir extitit. qui hunc uite restituit. qui se
+                            ipsum</explicit>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: RJR 3.8.07</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

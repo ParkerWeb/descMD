@@ -1,0 +1,392 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC315">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>315</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>N. 9</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>173</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Theological (Exegetical) Works by Richard of Saint-Victor OSA, Andrew of Saint-Victor
+                    OSA and Bede the Venerable</head>
+
+                <head type="James">Richardus de S. Victore. Andreas de S. Victore, etc.</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">240</height>
+                        <width unit="mm">167</width>
+                    </measureGrp>
+                    <measureGrp type="James">9.4 x 6.5</measureGrp>, <extent>ff. 4 + 113 + 3</extent>, <supplied>three
+                        volumes</supplied>, <layout>double columns of 36 and 50 lines</layout>. Cent.
+                        <origDate>xiii</origDate>, <handNote>in an exquisite regular upright book hand</handNote>.</p>
+
+                <p function="Multivolume" rend="withinContents"><lb/><label>Volume II:</label>
+                    <handNote>Closely written</handNote>.<lb/>
+                    <label>III Volume:</label>
+                    <layout>Double columns of 32 lines</layout>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation> a<num>4</num> 1<num>8</num> 2<num>8</num> 3<num>6</num> (wants 6) |
+                            4<num>8</num>-7<num>8</num> 8<num>6</num> | 9<num>8</num> 10<num>8</num> |
+                            11<num>8</num>-14<num>8</num> 15<num>6</num> (6 folding leaf), 3 flyleaves</collation>.</p>
+
+
+                <p function="Provenance">On f. <locus>ir</locus>: <q>Iste liber est de communitate fratrum minorum
+                        Oxon.</q>. A similar inscription has been on f. <locus>ivv</locus>.</p>
+
+                <p function="Additions">On f. <locus>iv</locus>: <q>Sic me vestiri fecit <name type="person">R.
+                            Colman</name>que ligari. <date>1419</date>.</q> On f. <locus>iir</locus>-<locus>iiv</locus>
+                    and at end are grammatical notes: some relate to a journey in which the writer was at <name
+                        type="place">Montpellier</name> and at <name type="place">Cologne</name>. On f.
+                        <locus>iiir</locus>
+                    <q>Prec. ii<abbr rend="superscript">s</abbr> vj<abbr rend="superscript">d</abbr></q>. Pencil notes
+                    on f. <locus>ivr</locus>. On <locus>ivv</locus> list of contents.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-iv + 1-113 + v-vii + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="6r">
+
+
+                        <head type="CCC">
+                            <name type="author">Richard of Saint-Victor OSA</name>, <title>Expositio tabernaculi
+                                foederis</title></head>
+                        <head type="Nasmith">
+                            <title><name type="author">Ricardus de Sancto Victore</name> super tabernaculum
+                                federis</title>
+                        </head>
+
+                        <rubric locus="1" locusNew="1r">Incipit prologus. In explanationem tabernaculi federis</rubric>
+                        <incipit locusNew="1r">Rogatus ab amicis</incipit>
+                        <ab>(<ref type="bibl" target="Migne 196"><supplied>P. L.</supplied> CXCVI</ref> 211)</ab>
+                        <explicit locusNew="1r">erogauero</explicit>
+                        <incipit locusNew="1r">Precepturus dominus</incipit>
+                        <explicit locusNew="6r">ex parte dictum monstratum est</explicit>
+
+                    </msItem>
+
+
+
+                    <msItem n="2" locusStart="6r" locusEnd="10r">
+
+                        <head type="CCC">
+                            <name type="author">Richard of Saint-Victor OSA</name>, <title>De meditandis plagis quae
+                                circa finem mundi euenient</title></head>
+
+                        <head type="Nasmith">
+                            <title>Idem super obscura verba Ecclesiastis</title>
+                        </head>
+
+                        <incipit locus="11" locusNew="6r">Memento creatoris tui</incipit>
+                        <ab>(<ref type="bibl" target="Migne 196"><supplied>P. L.</supplied> CXCVI</ref> 201)</ab>
+                        <explicit locusNew="10r">peruersitate compescere</explicit>
+                    </msItem>
+
+
+
+                    <msItem n="3" locusStart="10r" locusEnd="19r">
+
+                        <head type="CCC">
+                            <name type="person">Richard of Saint-Victor OSA</name>, <title>De templo <name type="person"
+                                    >Salomonis</name> ad litteram</title></head>
+
+                        <head type="Nasmith">
+                            <title>Ejusdem descriptio templi <name type="person">Solomonis</name></title>
+                        </head>
+
+                        <incipit locus="19" locusNew="10r">Descripcio templi <name type="person">Salomonis</name>
+                            secundum librum regum</incipit>
+                        <ab>
+                            <supplied>(<ref type="bibl" target="Migne 196">P. L. CXCVI</ref> 223)</supplied>
+                        </ab>
+                        <explicit locusNew="19r">centum reciaculis circumdabantur</explicit>
+                    </msItem>
+
+
+
+                    <msItem n="4" locusStart="19r" locusEnd="21v">
+
+                        <head type="CCC"><name type="author">Richard of Saint-Victor OSA</name>, <title>De concordia
+                                temporum regum</title></head>
+
+                        <head type="Nasmith">
+                            <title>Idem in librum Regum</title>
+                        </head>
+
+
+                        <incipit locus="35" locusNew="19r">In hiis que in libro regum de diuturnitate</incipit>
+                        <ab>(<ref type="bibl" target="Migne 196"><supplied>P. L.</supplied> CXCVI</ref> 241)</ab>
+                        <explicit locusNew="21v">tam filiis quam patribus</explicit>
+                    </msItem>
+
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="5" locusStart="22r" locusEnd="38v">
+
+                        <head type="CCC"><name type="author">Andrew of Saint-Victor OSA</name>, <title>Expositio
+                                hystorica in librum Regum</title></head>
+
+
+                        <head type="Nasmith">
+                            <title>Andreas in libros Regum</title>
+                        </head>
+
+
+                        <ab>
+                            <quote>Quae sequuntur charactere simili sed adhuc minutiori scripta sunt</quote>
+                        </ab>
+
+
+                        <incipit locus="41" locusNew="22r">Fuit uir unus ... Ad commendationem sancti <name
+                                type="person">Samuelis</name></incipit>
+                        <ab>
+                            <decoNote>Pretty initial in blue and flat colours</decoNote>
+                        </ab>
+
+                        <explicit locusNew="38v">
+                            <supplied>mundantur et raduntur pauimenta</supplied>
+                        </explicit>
+
+                    </msItem>
+
+
+                    <msItem n="6" locusStart="38v" locusEnd="58v">
+
+
+                        <head type="CCC"><name type="author">Andrew of Saint-Victor OSA</name>,
+                            <title>Dossier</title></head>
+
+
+
+
+                        <head type="Nasmith">
+                            <title>Idem in libros Macchabaeorum</title>
+                            <lb/>
+                            <title>Idem in libros Danielis</title>
+                        </head>
+
+                        <incipit locusNew="38v">
+                            <supplied>In hac ultima huius operis particula que sint reliqua uerborum uniuscuiusque regum
+                                iuda</supplied>
+                        </incipit>
+
+
+                        <explicit locusNew="44r"><name type="place">israel</name> sine rege fuit</explicit>
+
+                        <ab locus="83" locusNew="44r">Tables of Prophets, Kings (various) and Judges</ab>
+                        <ab>Cf. <ref type="ms" target="CCC030">MS 30</ref></ab>
+
+
+
+
+
+                        <incipit locus="86" locusNew="45v">Principatum israelitice gentis post mortem <name
+                                type="person">moysi</name></incipit>
+                        <ab>With Chronicle to <name type="person">Theodosius minor</name> and <name type="person"
+                                >Marcianus</name></ab>
+                        <explicit locusNew="50r">britones minus sufficienter stipendia darent</explicit>
+                        <ab>Cf. <ref type="ms" target="CCC030">MS 30</ref></ab>
+
+
+
+
+                        <incipit locus="86" locusNew="50r">In <name type="place">egypto</name> enim primus regnauit
+                                <name type="person">ptolomeus</name></incipit>
+
+                        <explicit locusNew="58v">Regnauerunt Medi annis cccl</explicit>
+                        <ab>Cf. <ref type="ms" target="CCC030">MS 30</ref></ab>
+
+                        <ab><locus locusNew="59r">113</locus>-<locus locusNew="59v">114</locus> blank</ab>
+                    </msItem>
+
+
+
+                    <msItem n="7" locusStart="60r" locusEnd="70r">
+
+                        <head type="CCC"><name type="author">Bede the Venerable</name>, <title>Chronica maiora (De
+                                temporum ratione, cc. 66-71), excerpt</title></head>
+
+                        <head type="Nasmith">
+                            <title>Excerptum de libro <name type="author">Bedae</name> de temporibus, de sex mundi
+                                aetatibus</title>
+                        </head>
+
+
+                        <rubric locusNew="60r">Exceptum de libro <name type="author">bede</name> de temporibus de vi
+                            huius mundi etatibus</rubric>
+                        <incipit locusNew="60r">De sex huius mundi etatibus ac septima uel octaua</incipit>
+
+                        <explicit locusNew="70r">debito tanto pater honore recondidit</explicit>
+
+                        <rubric locusNew="70r">Explicit excerptum ... etatibus</rubric>
+                    </msItem>
+
+
+
+                    <msItem n="8" locusStart="70r" locusEnd="72v">
+
+                        <head type="CCC"><name type="author">Bede the Venerable</name>, <title>De locis
+                            sanctis</title></head>
+
+                        <head type="Nasmith">
+                            <title>Libellus <name type="author">Bedae</name> de situ terrarum</title>
+                        </head>
+
+
+
+                        <rubric locusNew="70r">Incipit libellus <name type="author">bede</name> presbiteri de situ
+                            terrarum</rubric>
+
+                        <ab>Verses. <q>Descripsi breuiter fines situsque locorum ... Qua beat eternum uisio summa
+                                tui</q> ed. <ref type="bibl" target="Geyer 1898">Geyer</ref>, p. 301</ab>
+
+
+                        <ab>Capitula</ab>
+                        <ab>Text</ab>
+                        <rubric locusNew="70r">Incipit ipse libellus de locis sanctis</rubric>
+                        <rubric locusNew="70r">De situ <name type="place">Ierusalem</name></rubric>
+                        <incipit locusNew="70r">Situs urbis <name type="place">ierusalem</name> pene in orbem
+                            circumactus</incipit>
+
+                        <explicit locusNew="72v">studio tibi temperare satagas</explicit>
+                        <rubric locusNew="72v">De situ terrarum <name type="author">Bede</name> presbiteri explicit
+                            libellus</rubric>
+                        <ab>
+                            <supplied agent="JamesCorrigenda">Mentioned in <ref type="bibl" target="???">MGH. <hi
+                                        rend="italic">Chron. min</hi>. I 233</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="9" locusStart="73r" locusEnd="75v">
+
+                        <head type="CCC">
+                            <title>Tractatus de locis et statu sanctae <name type="place">terrae
+                                Ierosolimitanae</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>De statu terrae sanctae, seculo duodecimo</title>
+                        </head>
+
+
+                        <incipit locus="141" locusNew="73r">Terra <name type="place">ierosolimitana</name> in centro
+                            mundi posita est</incipit>
+                        <ab>Ends (de <name type="person">imperatore frederico</name>)</ab>
+                        <explicit locusNew="75v">Nulla est enim ambitio me(mo)randi quos constat plurimos fuisse et
+                            nullos</explicit>
+
+                    </msItem>
+
+
+
+                    <milestone n="III" unit="volume"/>
+
+                    <msItem n="10" locusStart="76r" locusEnd="113r">
+
+                        <head type="CCC"><name type="author">Richard of Saint-Victor OSA</name>, <title>In uisionem
+                                    <name type="person">Ezechielis</name></title></head>
+
+                        <head type="Nasmith">
+                            <title><name type="author">Richardus de Sancto Victore</name> super visionem et templum
+                                    <name type="person">Ezechielis</name></title>
+                        </head>
+
+                        <ab>
+                            <quote>Opus subsequens charactere a precedentibus diverso scriptum est, et ut mihi videtur
+                                haud longe post aetatem autoris</quote>
+                        </ab>
+
+
+
+                        <incipit locus="147" locusNew="76r">Multis diuine scripture multo amplius dulcescunt</incipit>
+                        <ab>(<ref type="bibl" target="Migne 196"><supplied>P. L.</supplied> CXCVI</ref> 527)</ab>
+                        <ab>
+                            <quote>cum figuris diversarum partium templi non invenuste depictis</quote>
+                        </ab>
+                        <ab>
+                            <decoNote>Illustrated with 13 diagrams, several of which occupy a full page and are richly
+                                coloured (pp. <locus locusNew="101r">197</locus>, <locus locusNew="101v">198</locus>,
+                                    <locus locusNew="104v">204</locus>, <locus locusNew="108r">211</locus>)</decoNote>
+                        </ab>
+                        <ab>Ends</ab>
+                        <explicit locus="218" locusNew="111v">erunt leuitis qui ministrant domui</explicit>
+                        <ab><locus locusNew="112r">219</locus>, <locus locusNew="112v">220</locus> blank</ab>
+
+
+                        <ab locusNew="113r">The next leaf is a folding one and has <decoNote>a diagram showing the
+                                division of the <name type="place">Holy Land</name> among the Tribes</decoNote></ab>
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: CF 6.8.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

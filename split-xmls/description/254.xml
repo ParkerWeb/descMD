@@ -1,0 +1,136 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+
+                <msIdentifier xml:id="CCC254">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>254</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>D. 6</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>370</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+
+
+                <head type="CCC">Gregory IX, Decretales</head>
+
+                <head type="James">Decretales Novae</head>
+
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">275</height>
+                        <width unit="mm">185</width>
+                    </measureGrp><measureGrp type="James">10.9 x 7</measureGrp>, <extent>ff. 253 + 1</extent>,
+                        <layout>double columns of 37 and 42 lines</layout>. Cent. <origDate>xiii</origDate>,
+                        <handNote>in a small clear pointed script: principally in two hands</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num> 2<num>10</num> 3<num>8</num> 4<num>10</num>
+                            5<num>8</num>-21<num>8</num> 22<num>6</num> (wants 6) 23<num>8</num>-31<num>8</num> |
+                            32<num>4</num></collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>unitatem</secFol>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-250 + iii-vi</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="249r">
+
+                        <head type="CCC"><name type="author">Gregory IX</name>, <title>Decretales</title></head>
+
+                        <head type="James">
+                            <title><name type="author">Gregorii</name> ix Decretales</title>
+                        </head>
+
+                        <ab locus="1r">Liber I</ab>
+                        <incipit locusNew="1r">Rex Pacificus pia miseratione</incipit>
+
+                        <ab locus="62r">Liber II</ab>
+
+                        <ab locus="123v" locusNew="122v">Liber III</ab>
+
+                        <ab locus="178r">Liber IV</ab>
+
+                        <ab locus="199r">Liber V</ab>
+
+                        <ab>Ends</ab>
+
+                        <explicit locus="249r">circa talium institucionum officia</explicit>
+
+                        <ab locusNew="249r">An erasure at the bottom of this page</ab>
+                        <ab locus="249v">Two lists of <hi rend="italic">tituli</hi> follow</ab>
+
+                    </msItem>
+
+                </msContents>
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text:copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, BA, CF</p>
+                            <p>msCheck: NJC 30.05.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

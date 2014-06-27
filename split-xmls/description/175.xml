@@ -1,0 +1,427 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC175">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>175</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>I. 11</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>101</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Walter of Coventry (attrib.), Memoriale</head>
+                <head type="James">Memoriale Walteri de Coventria</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">288</height>
+                        <width unit="mm">192</width>
+                    </measureGrp><measureGrp type="James">11.4 x 7.4</measureGrp>, <extent>ff. 169</extent>,
+                        <layout>double columns of 41 and 45 lines</layout>. Cent. <origDate>xiii late</origDate>
+                    <handNote>in a good hand approaching the charter hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num> 2<num>12</num>-14<num>12</num> 15 (five)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>post rumo.</secFol>.</p>
+
+                <p function="Research" rend="afterContents">The edition by <ref type="bibl" target="Stubbs 1872"><ref
+                            type="bibl" target="Stubbs 1873"/>Stubbs in the Rolls Series</ref> contains practically the
+                    whole of the text of this volume. In the Introduction to vol. I he gives the history of the
+                    manuscript. It was discovered by <name type="person">Leland</name> between <date>1538</date> and
+                        <date>1544</date>, seen by <name type="person">Bale</name> in Leland's possession (<ref
+                        type="bibl" target="Bale 1902">Index Scriptorum, ed. Poole and Bateson</ref>) and acquired by
+                        <name type="person">Parker</name>
+                    <q>before <date>1572</date>, in which year the <ref type="bibl" target="Parker 1572">
+                            <hi rend="italic">Antiquitates</hi>
+                        </ref> were printed</q> (see <ref type="ms" target="CCC110">MS 110. 7</ref>).</p>
+
+
+
+                <p type="CCC">
+                    <foliation>ff. i-vi + 1-166 + vii-ix</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="frm">Latin and Anglo-Norman.</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="vir" locusEnd="vir">
+                        <head type="CCC">
+                            <title>Tituli cardinalium cum brevi descriptione eorum officii</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Tituli cardinalium cum brevi descriptione eorum officii</title>
+                        </head>
+
+                        <ab>f. <locus>vr</locus>-<locus>vv </locus>is blank</ab>
+                        <ab>
+                            <handNote>In a hand of <date>xiii-xiv</date></handNote>
+                        </ab>
+
+                        <incipit locus="vir">Quia primo summo pontifici i. Christo in triumphali ecclesia tres Ierarchie
+                            Angelorum obsequntur</incipit>
+                        <ab>List of Cardinals, ending</ab>
+                        <explicit locus="vir"><name type="person">Sancte Agathe</name><lb/>
+                            <name type="person">Sancte Lucie</name> in capite suburre<lb/> S. Kirici<lb/> Et sic sunt li
+                            cardinales</explicit>
+                        <ab>(not in <ref type="bibl" target="Stubbs 1872">Stubbs</ref><ref type="bibl"
+                                target="Stubbs 1873"/>)</ab>
+
+                        <ab locus="2v" locusNew="viv">An extract from <ref type="bibl" target="Bale 1902">Bale (p.
+                                264)</ref> on <name type="person">Walter of Coventry</name></ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="1r" locusEnd="1r">
+                        <head type="CCC">
+                            <title>Historia Britonum per compendium</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Historia Britonum per compendium</title>
+                        </head>
+
+                        <ab>
+                            <quote>Huic historiae prefixae sunt Anglice emensuratio et recensio septem regnorum
+                                Heptarchiae, illa Gallice, haec Latine. Ipsa historia incipit <q><name type="place"
+                                        >Britannia</name> insularum optima inter <name type="place">Galliam</name>,</q>
+                                et ex <name type="person">Galfredo Monumetensi</name> satis inscite et jejuniter
+                                compilata videtur: mores enim sui seculi ad pristinum hoc tempus transtulit autor
+                                imperitus, et loquitur de parliamento, baronibus, comitibus, et homagio feudali apud
+                                Britonas</quote>
+                        </ab>
+
+                        <ab>The main hand of the book begins here</ab>
+
+                        <rubric locusNew="1r" locus="3r">
+                            <name type="place">Anglia</name>
+                        </rubric>
+                        <incipit locusNew="1r" locus="3r">La lungure de <name type="place">engleterre</name> cuntent
+                                viii<abbr rend="superscript">c</abbr> lues ceo est a sauer' de <name type="place"
+                                >escosce</name> deskes a <name type="place">toteneys</name> en <name type="place"
+                                >cornwalle</name>. E. en leur ccc lues ceo est a sauer de <name type="place"
+                                >meneueye</name> la uyle <name type="person">seynt dauid</name> deskes a doure
+                            etc.</incipit>
+                        <ab>Length of <name type="place">Ireland</name></ab>
+                        <ab>Kingdoms of the Heptarchy in Latin</ab>
+                        <ab>(<ref type="bibl" target="Stubbs 1872">Stubbs</ref>, Appendix to Preface vol. I). </ab>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="1r" locusEnd="4v">
+                        <head type="CCC">
+                            <title>Nomina regum <name type="place">Angliae</name> et chronica Saxonum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Nomina regum <name type="place">Angliae</name> et chronica Saxonum</title>
+                        </head>
+                        <ab>
+                            <quote>In hoc chronico deducitur historia <name type="place">Angliae</name> usque ad <name
+                                    type="person">Edwardum I</name>. sed ita raptim ut binis saltem constet foliis.
+                                Incipit, <q><name type="person">Adelstanus</name> fuit primus rex de Saxonibus in <name
+                                        type="place">Anglia</name> qui regnavit post <name type="person"
+                                        >Chadwalladum</name> ultimum regem Britonum; ipse vero <name type="place"
+                                        >Eymundernesse</name> quam a paganis emerat in perpetuam elemosinam <name
+                                        type="place">ecclesiae Sancti Petri Eboraci</name> dedit.</q></quote>
+                        </ab>
+
+                        <rubric locusNew="1r" locus="3r">Incipit historia britonum per compendium</rubric>
+                        <incipit locusNew="1r" locus="3r"><name type="place">Britannia</name> insularum optima inter
+                                <name type="place">galliae</name> (sic)</incipit>
+                        <ab>Ends in <date>1291</date> with verses on <name type="person">Edward I</name></ab>
+                        <explicit locus="6v" locusNew="4v"><name type="person">Eduuardus</name> quartus modo regnat
+                            filius huius etc.</explicit>
+                        <ab>(<ref type="bibl" target="Stubbs 1872">Stubbs I 3-19</ref>)</ab>
+                        <ab>Col. 1 on f. <locus>5r</locus> is blank</ab>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="5r" locusEnd="5r">
+                        <head type="CCC">
+                            <title>Privilegium <name type="place">ecclesiae Sancti Petri Eboraci</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Privilegium <name type="place">ecclesiae Sancti Petri Eboraci</name> sive epistola
+                                    <name type="person">Gregorii papae</name> ad <name type="person">Augustinum</name>
+                                de ordinatione episcopi Eboracensis qui habeat pallium et jus metropolitanum</title>
+                        </head>
+
+                        <head type="James">
+                            <title>Privilege of <name type="place">York</name></title>
+                        </head>
+
+                        <incipit locus="5r">Reuerentissimi et sanctissimi Patri ffratri <name type="person"
+                                >Augustino</name></incipit>
+                        <ab>(Bede Historia Ecclesiastica I 29)</ab>
+                        <explicit locusNew="5r">custodiat reuerentissime frater</explicit>
+                        <ab>(<ref type="bibl" target="Stubbs 1872">Stubbs I 19</ref>)</ab>
+                    </msItem>
+
+                    <msItem n="5" locusStart="5r" locusEnd="6r">
+                        <head type="CCC">
+                            <title>Chronica regum <name type="place">Northumbriae</name> et archiepiscoporum
+                                Eboracensium</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Chronica regum <name type="place">Northumbriae</name> et archiepiscoporum
+                                Eboracensium</title>
+                        </head>
+
+                        <ab>
+                            <quote>Continet historiam ecclesiasticam istius provinciae a <name type="person"
+                                    >Paulino</name> ad <name type="person">Thurstanum</name> compendiose in uno folio
+                                scriptam</quote>
+                        </ab>
+
+                        <incipit locusNew="5r">Beatus siquidem <name type="person">Gregorius papa</name> ubi gentem
+                            anglorum</incipit>
+
+                        <explicit locusNew="6r">monachus factus obdormiuit in domino sub <name type="person">rege
+                                stephano</name></explicit>
+                        <ab>The greater part of a column blank (<ref type="bibl" target="Stubbs 1872">Stubbs I
+                            20</ref>)</ab>
+                    </msItem>
+
+                    <msItem n="6" locusStart="6r" locusEnd="6v">
+                        <head type="CCC">
+                            <title>Quaedam de conquestu <name type="place">Hiberniae</name> et jure regis <name
+                                    type="place">Angliae</name> in Scotos</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Quaedam de conquestu <name type="place">Hyberniae</name> et jure regis <name
+                                    type="place">Angliae</name> in Scotos</title>
+                        </head>
+
+                        <incipit locusNew="6r">Nota quod <name type="place">ybernia</name> habet octingenta miliaria in
+                            longitudine— alienoram uxorem leuwelini ultimi ex alienora sorore <name type="person"
+                                >henrici</name> quarti patris <name type="person">Eaduuardi</name> illustris regis
+                            anglie</incipit>
+                        <ab>(<ref type="bibl" target="Stubbs 1872">Stubbs I 24</ref>)</ab>
+                        <ab>Blank, part of column <locus>6v</locus></ab>
+                        <ab>On English rights in <name type="place">Scotland</name></ab>
+                        <incipit locus="6v">(Sciendum ? Item ?) quia in carta <name type="person">Regis Edgari</name>
+                            scocie <name type="place">Dunelmensi</name> continetur quod idem rex cognoscit se possidere
+                            etc.</incipit>
+                        <ab>
+                            <name type="person">Papa Honorius 3<abbr rend="superscript">us</abbr></name>
+                        </ab>
+                        <ab><name type="person">Gregorius papa</name> scribit regi Scocie</ab>
+                        <ab><name type="person">Clemens papa</name> scribens regi anglie</ab>
+                        <ab>(<ref type="bibl" target="Stubbs 1872">Stubbs I 24</ref>)</ab>
+
+
+                    </msItem>
+
+                    <msItem n="7" locusStart="6v" locusEnd="6v">
+                        <head type="CCC">
+                            <title>Prophetiae Sybillae et <name type="person">Merlini</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Prophetiae Sybillae et <name type="person">Merlini</name></title>
+                        </head>
+
+                        <ab>
+                            <quote>Precedentia haec chronica non <name type="person">Gualtero Coventrensi</name> (si
+                                ipse demum subsequentium autor sit habendus) sed potius anonymo cuidam monacho fani
+                                    <name type="place">S. Petri apud Eboracenses</name> adscribenda videntur, uti satis
+                                liquet ex donatione cujus fit mentio in initio chronici Anglo-Saxonum, chartaque et
+                                historiis quae illud excipiunt. Nec vero absimile videtur hosce quaterniones codici
+                                fuisse postea insertos, nam etsi caractere reliquis simili exarentur, magna tamen
+                                cernitur literarum initialium varietas, quae in illis simplici forma sine ornamento
+                                rubro atramento delineantur, in reliquo autem codice multo sunt ornatiores et diversis
+                                coloribus pictae</quote>
+                        </ab>
+
+                        <rubric locus="6v">Prophecia sibille et <name type="person">merlini</name> uatis de <name
+                                type="place">Albania</name> et Anglis et eorum euentibus</rubric>
+                        <incipit locus="6v">
+                            <lg>
+                                <l>Regnum scocorum fuit inter cetera regna</l>
+                            </lg>
+                        </incipit>
+                        <explicit locusNew="6v">
+                            <lg>
+                                <l>Historie ueteris <name type="person">Gildas</name> luculentus arator</l>
+                                <l>Hec retulit paruo carmine plura notans</l>
+                            </lg>
+                        </explicit>
+                        <ab>(<ref type="bibl" target="Stubbs 1872">Stubbs I 25</ref>)</ab>
+                        <rubric locus="6v">Sibilla De euentibus regnorum et eorum regum ante finem mundi</rubric>
+                        <incipit locus="6v">
+                            <lg>
+                                <l>Gallorum leuitas germanos iustificabit</l>
+                            </lg>
+                        </incipit>
+                        <ab>The last seven lines <handNote>in a different hand</handNote>, ending</ab>
+                        <explicit locusNew="6v">
+                            <lg>
+                                <l>Papa cito moritur Cesar regnabit ubique</l>
+                                <l>Sub quo tunc vana cessabit gloria cleri</l>
+                            </lg>
+                        </explicit>
+                        <ab>(<ref type="bibl" target="Stubbs 1872">Stubbs I 26</ref>)</ab>
+
+                    </msItem>
+
+                    <msItem n="8" locusStart="7r" locusEnd="166r">
+                        <head type="CCC"><name type="author">Walter of Coventry (attrib.)</name>,
+                                <title>Memoriale</title></head>
+                        <head type="Nasmith">
+                            <title>Annales <name type="place">Angliae</name> per <name type="author">Walterum
+                                    Coventrensem</name></title>
+                        </head>
+                        <ab>
+                            <quote>Titulus hic neotericus ex inscriptione ad imum hujus paginae desumptus videtur, quae
+                                ita se habet <q>Memoriale fratris <name type="person">Walteri de Coventr</name></q> et
+                                quae <q>manu diversa et recentiori scripta</q> ut placuit <name type="person">Cl.
+                                    Tannero</name>
+                                <q>innuit hoc potius donum fuisse <name type="person">Gualteri</name> quam scriptum.</q>
+                                De hac controversia aliorum sit judicium, inscriptio ipsa reliquo codici haud multo
+                                recentior mihi videtur; et opus hoc <name type="person">Waltero</name> olim fuisse
+                                adscriptum probat titulus deformi manu (seculo xv, si conjecturis uti liceat) in folio
+                                rejectitio ad finem codicis exaratus.<lb/> In annalibus ad finem anni <date>1154</date>
+                                <q>Explicit chronica <name type="person">Mariani</name>,</q> et similiter ad finem anni
+                                    <date>1201</date>
+                                <q>Expliciunt chronica <name type="person">Rogeri Hovedene</name>.</q> Incipiunt
+                                    <q>Romanorum nonagesimus tertius</q> et continent historiam <name type="place"
+                                    >Angliae</name> ab anno <date>1025</date>/<date>1003</date> ad annum
+                                    <date>1225</date></quote>
+                        </ab>
+                        <ab>The Annals begin. At the bottom of f. <locus>7r</locus>
+                            <handNote>in a very large black hand (<date>xiv early</date>)</handNote> is: Memoriale
+                            fratris <name type="author">Walteri de Couentr.</name></ab>
+                        <ab>From the position and script of this I should be inclined to call it a Library mark. See
+                            further below</ab>
+                        <ab>Text</ab>
+                        <incipit locusNew="7r">Romanorum nonogesimus III<abbr rend="superscript">us</abbr>
+                            <name type="person">Henricus</name> regnauit annis xxii</incipit>
+                        <ab>(<ref type="bibl" target="Stubbs 1872">Stubbs I 27</ref>)</ab>
+                        <ab>Text ends</ab>
+                        <explicit locusNew="166r">literis domini pape acceptis repatriauit</explicit>
+                        <ab locusNew="166v">Verso blank</ab>
+                        <ab locusNew="viir">On last leaf some references to the text (<origDate>xvi</origDate>)</ab>
+                        <ab locusNew="viiv">On verso scribbles</ab>
+                        <ab>1 (<origDate>xv-xvi</origDate>). ? Mongy</ab>
+                        <ab>2 (<origDate>xiv</origDate>). Cronica <name type="author">Walteri de Conuentren.</name> Anno
+                                d<abbr rend="superscript">ni</abbr>
+                            <date>m<abbr rend="superscript">o</abbr> c<abbr rend="superscript">o</abbr> lxx<abbr
+                                    rend="superscript">o</abbr> vj<abbr rend="superscript">o</abbr></date> Rex filius
+                                <name type="person">matildis imperatricis</name> fecit fund(itus) destrui <name
+                                type="place">Castellum Leycester</name> et menia urbis et <name type="place">Castellum
+                                de groby</name> similiter</ab>
+                        <ab>This seems, to show an interest in <name type="place">Leicester</name> on the part of the
+                            scribbler</ab>
+                        <ab rend="afterContents"><ref type="bibl" target="Stubbs 1872">Stubbs discusses the authorship
+                                at length and on pp. xx, xxi</ref> comes to the conclusion that <name type="author"
+                                >Walter of Coventry</name> is probably to be regarded as the author</ab>
+                        <ab rend="afterContents">On <ref type="bibl" target="Stubbs 1872">p. xxii</ref> he says that
+                                <q>what little there is of local indication in the book, and it is very little, points
+                                to <name type="place">York</name> rather than <name type="place">Coventry</name></q> (as
+                            the home of the writer), <q>possibly the city, but almost certainly to the <name
+                                    type="place">diocese of York</name>.</q></ab>
+                        <ab rend="afterContents">On <ref type="bibl" target="Stubbs 1872">p. xxv</ref>: <q><ref
+                                    type="bibl" target="Nasmith 1777">Nasmith</ref>'s inference that the writer was a
+                                monk of <name type="place">S. Peter's York</name>, is of course erroneous: there were no
+                                monks at S. Peter's; but if he were a monk at all, there was no lack of monasteries in
+                                    <name type="place">Yorkshire</name> and <name type="place">Nottinghamshire</name>.
+                                The great abbey of <name type="place">S. Mary's, York</name>, was governed at the very
+                                time at which the MS. was written, by <name type="person">Simon of Warwick</name>, who
+                                was Abbot from <date>1258</date> to <date>1296</date>: and amongst the names of the
+                                monks then under vows there are those of <name type="person">William of Derby</name>
+                                prior of S. Bees and afterwards of S. Mary's, and <name type="person">Walter of
+                                    Leicester</name> a great scholar and most excellent preacher (<ref type="ms"
+                                    target="OBL892">MS. Bodley 39</ref>). If the statement of <name type="person"
+                                    >Pits</name> had any value that Walter was a native of <name type="place"
+                                    >Warwick</name>, we might safely set him down as a follower of Abbot Simon: but
+                                anyhow the collocation of names is suggestive</q></ab>
+                        <ab><ref type="bibl" target="Tanner 1748">Tanner</ref> thought that the inscription <q>Memoriale
+                                fratris <name type="person">W. de C.</name></q> meant that the book was <q>potius donum
+                                    <name type="person">Gualteri</name> quam scriptum.</q>
+                            <ref type="bibl" target="Stubbs 1872">Stubbs disagrees with him (p. xx)</ref> and cites the
+                                <hi rend="italic">Memoriale presbyterorum</hi> and the <hi rend="italic">Memoriale</hi>
+                            of <name type="person">Prior Henry of Eastry</name> and of <name type="person">Henry Spenser
+                                Bishop of Norwich</name> as instances of the use of the word to mean a collection of
+                            facts which the writer desires to be remembered</ab>
+                        <ab>He does not cite instances which (coupled with the large script, and position of the words)
+                            incline me to believe that <ref type="bibl" target="Tanner 1748">Tanner</ref> is in the
+                            right, and that the inscription means that <name type="author">Walter of Coventry</name>
+                            presented the book to the library of his monastery and was not the author of it. Instances
+                            of such inscriptions are:<lb/>
+                            <ref type="ms" target="CUL511">University Library Ee. 5. 11</ref>. Astronomical Tables etc.
+                            Memoriale <name type="person">J. Wilton</name>.<lb/>
+                            <ref type="ms" target="CUL431"><supplied>University Library</supplied> Ff. 4. 31</ref>.
+                                <name type="person">Hieronymus</name> in Matthaeum. Memoriale <name type="person">fr.
+                                Walteri Hunt</name> doctoris conuentus Carmelitarum oxonie.<lb/>
+                            <ref type="ms" target="CULG218"><supplied>University Library</supplied> Gg. 2. 18</ref>.
+                            Legenda Aurea. Memoriale <name type="person">fr. Joh. de Drayton</name> monachi cuius anime
+                            propicietur deus.<lb/>
+                            <ref type="ms" target="LAM160">Lambeth MS. 160</ref>. Polychronica. Memoriale <name
+                                type="person">fr. Willelmi broscumbe</name> magistri. K. ij.<lb/>
+                            <ref type="ms" target="LAM215">Lambeth MS. 215</ref>. <name type="person">Athanasius</name>
+                            de trinitate. Memoriale de <name type="place">Lanthonia</name>.<lb/> The third of these
+                            examples, oddly enough, Tanner was inclined to interpret as an ascription of authorship. He
+                            had not seen that the work was the well-known Golden Legend of <name type="person">Jacobus
+                                de Voragine</name>. The list might readily be enlarged, but I have thought the examples
+                            cited sufficient to show that the formula is an accustomed one for expressing a donation on
+                            the part of the person named</ab>
+
+                    </msItem>
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJC 20.11.07.</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

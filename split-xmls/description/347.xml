@@ -1,0 +1,197 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC347">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>347</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>11. 4</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>330</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Almanach</head>
+                <head type="James">Almanach Profacii. Tables, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">320</height>
+                        <width unit="mm">215</width>
+                    </measureGrp><measureGrp type="James">12.6 x 8.7</measureGrp>, <extent>ff. 1 + 69 + 13</extent>,
+                        <layout>text, double columns of 40 lines: usually tables of figures</layout>. Cent.
+                        <origDate>xiv early</origDate>, <handNote>very well written</handNote>.</p>
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num> (wants 1, 2, 8) 2<num>8</num>-9<num>8</num> | 10<num>14</num>
+                        (wants 13)</collation>.</p>
+
+                <p function="Provenance">From <name type="place">Norwich Cathedral Priory</name>. On p. <locus>4</locus>
+                    is an erasure beginning <q>liber iste</q> and ending <q>Norwic</q>. There is also mention at the end
+                    of <name type="person">Adam Estone</name>, and the Kalendar is of <name type="place"
+                    >Norwich</name>.</p>
+
+
+
+                <p function="Additions">Old lists of contents on flyleaf <supplied>(p. <locus>1</locus>)</supplied> and
+                    on p. <locus locusNew="4">6</locus>.</p>
+
+                <p>
+                    <quote>Almanac Prophacii Judei, cum tabulis motuum solis lunae et planetarum, inter quas Ciclus
+                        primationum per <name type="author">Robertum Grostest</name> episcopum Lincoln. tabula dicta
+                        Philomela per <name type="author">Petrum de Dacia</name>, et tabula quaedam <name type="author"
+                            >Gerlandi</name></quote>
+                </p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + pp. 1-165 + ff. iii-iv</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="5" locusEnd="12">
+
+
+                        <head type="CCC"><name type="author">Profatius Iudaeus (Jacob ben Machir)</name>, <title>Tabulae
+                                almanac</title></head>
+
+
+
+                        <ab locus="5">Text, <decoNote>with good blue initial and red pen-work</decoNote></ab>
+                        <incipit locusNew="5">Quia omnes homines naturaliter scire desiderant et inquirere res
+                            occultas</incipit>
+                        <explicit locus="12">motum etiam cursus a principio eclipsis usque in finem eius</explicit>
+                        <rubric locusNew="12">Expliciunt Canones</rubric>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="13" locusEnd="146">
+                        <head type="CCC">
+                            <title>Tables for the planets, sun and moon</title>
+                        </head>
+                        <ab>A series of Tables <handNote>very well written</handNote>
+                            <decoNote>in red and black</decoNote>: as far as p. <locus>27</locus> each page is marked in
+                            the lower corner <q>corr(ectum)</q></ab>
+                        <ab locus="13">Tables for the planets</ab>
+                        <rubric locus="22" locusNew="42">Tabula solis</rubric>
+                        <rubric locus="50">Medius cursus lune</rubric>
+                        <rubric locus="53">Tabula argumenti lune</rubric>
+                        <ab>for the years <date>1300</date>-<date>1323</date></ab>
+                        <rubric locus="102">Tabula equacionis lune</rubric>
+                        <rubric locus="114">Tabula diuisionis longitudinis buth.</rubric>
+                        <rubric locus="116">Medii motus capitis drachonis</rubric>
+                        <rubric locus="119">Diuersitatis aspectus in longitudine et latitudine ad montem
+                            pessuli</rubric>
+                        <rubric locus="120">Latitudinis lune</rubric>
+                        <rubric locus="120">Eclipsis lune</rubric>
+                        <rubric locus="121">Cursus solis et lune</rubric>
+                        <ab>(<name type="place">Montpellier</name>)</ab>
+                        <rubric locus="122">Eleuacionis signorum</rubric>
+                        <rubric locus="124">Portionis</rubric>
+                        <rubric locus="125">Minutorum proporcionalium</rubric>
+                        <ab>Ending <locus>140</locus></ab>
+                        <ab>p. <locus>141</locus> blank</ab>
+                        <rubric locus="142">Cicli primacionum secundum <name type="author">lincolniensem</name></rubric>
+                        <ab>p. <locus>145</locus> blank</ab>
+                        <ab locus="146">Note</ab>
+                        <incipit locusNew="146">In hoc primationum ciclo 4 linee descendentes</incipit>
+                    </msItem>
+
+                    <msItem n="3" locusStart="147" locusEnd="158">
+                        <head type="CCC">
+                            <title>Kalendar of <name type="place">Norwich Cathedral Priory</name></title>
+                        </head>
+
+                        <ab locus="147">Kalendar <decoNote>in red and black</decoNote></ab>
+                        <ab>Notes of eclipses for the <date>xiv</date>th century are added</ab>
+                        <ab>The kalendar has</ab>
+                        <ab locusNew="149">24 March. Passio <name type="person">Sancti Willelmi</name></ab>
+                        <ab locusNew="151">30 May. <name type="person">Sancti ethelberti regis</name></ab>
+                        <ab locusNew="152">23 June. <name type="person">Sancte Etheldrede Virginis</name></ab>
+                        <ab locusNew="153">31 July. Sanctorum <name type="person">Neoti</name> et <name type="person"
+                                >Germani</name></ab>
+                        <ab locusNew="155">16 September. Translatio Reliquiarum in albis: in red</ab>
+                        <ab locusNew="155">24 September. Dedicatio ecclesie <name type="place">Norwyc.</name>: in
+                            red</ab>
+
+
+                        <ab locusNew="156">6 October. <name type="person">Sancte Fidis</name> Virginis: in red</ab>
+
+                        <ab locusNew="156">7 October. <name type="person">Sancte Osithe</name> Virginis</ab>
+                        <ab locusNew="156">17 October. Translatio <name type="person">Sancte Etheldrede</name>
+                        </ab>
+                        <ab locusNew="158">29 December. <name type="person">Thomas</name> erased </ab>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="159" locusEnd="163">
+                        <head type="CCC"><name type="author">Petrus de Dacia</name>, <title>Tabula</title></head>
+
+                        <rubric locus="159">Tabula <name type="author">Magistri Petri de dacia</name> dicti
+                            philomena</rubric>
+                        <ab>With explanatory text</ab>
+                        <incipit locusNew="159">Ad locum etiam lune habendum uideas quota est dies etc.</incipit>
+                        <ab locusNew="163">On p. <locus>163</locus>, in a small current hand</ab>
+                        <rubric locusNew="163">Incipit exposicio quorundam terminorum astrologicorum quos scripsit
+                            frater <name type="person">adam de Estone</name> monachus Norwycensis</rubric>
+                        <incipit locusNew="163">Almantica est angulus latus in medio et in ligatura</incipit>
+                        <ab>Ends on the same page</ab>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF, BA, CF 2nd</p>
+                            <p>msCheck:NJM 7.8.07</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

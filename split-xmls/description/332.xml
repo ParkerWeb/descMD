@@ -1,0 +1,394 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC332">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>332</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>W. 1</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>301 (1)</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Miscellany largely concerning the Virgin Mary</head>
+                <head type="James">Augustini, Rathramni, Anselmi etc. quaedam</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">223</height>
+                        <width unit="mm">150</width>
+                    </measureGrp>
+                    <measureGrp type="James">8.8 x 6</measureGrp>, <extent>ff. 1 + 123</extent>, <layout>30 and 20 lines
+                        to a page</layout>. Cent. <origDate>xi-xii</origDate>, two volumes in <handNote>various hands
+                        all resembling the <name type="place">Christ Church (Canterbury)</name> type</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num> 2<num>8</num> 3 (four) 4<num>8</num> 5<num>8</num>
+                            6<num>10</num> (10 canc.) | 7<num>8</num>-13<num>8</num> (8 canc.) |
+                            14<num>8</num>-16<num>8</num> (wants 8), one slip at end</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>carnem</secFol>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a + i + pp. 1-238 + 238a + 239a + 239-244 + ff. ii + b</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1" locusEnd="34">
+                        <head type="CCC">
+                            <name type="author">Augustine</name>, <title>De praesentia Dei (epistola 187)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sermo <name type="author">sancti Augustini</name> de presentia Dei ad <name
+                                    type="person">Dardanum</name></title>
+                        </head>
+
+                        <rubric locus="1">Sermo <name type="author">Sancti Augustini</name> episcopi doctoris de
+                            presentia dei ad <name type="person">dardanum</name></rubric>
+                        <ab>(<ref type="bibl" target="Migne 033"><supplied>P. L.</supplied> XXXIII 832</ref>)</ab>
+
+                        <incipit locusNew="1">Fateor me frater</incipit>
+                        <explicit locusNew="34">qua concedis et ueniam</explicit>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="34" locusEnd="40">
+                        <head type="CCC">
+                            <name type="author">pseudo-Seneca</name>, <title>Epistolae <name type="person"
+                                    >Senecae</name> ad <name type="person">Paulum</name> et <name type="person"
+                                    >Pauli</name> ad <name type="person">Senecam</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Epistolae XIV <name type="person">Pauli</name> ad <name type="person">Senecam</name>
+                                et <name type="person">Senecae</name> ad <name type="person">Paulum</name></title>
+                        </head>
+                        <head type="James">
+                            <title>Epistles of <name type="person">Seneca</name> and <name type="person">Paul</name>
+                                (14)</title>
+                        </head>
+
+                        <ab>Paragraph</ab>
+                        <incipit locus="34"><name type="person">Nero</name>
+                            <name type="person">senecam</name> preceptorem ad necem compulit</incipit>
+                        <rubric locusNew="34"><name type="person">Senece</name> hoc epitaphium fuit</rubric>
+                        <incipit locusNew="34">Cura labor meritum, etc.</incipit>
+                        <ab>(<ref type="bibl" target="Riese 1869">Anthologia Latina Riese 667</ref>)</ab>
+                        <rubric locus="35">In nomine domini nostri Iesu Christi <name type="author">Ieronimus</name> de
+                            cathalogo uirorum illustrium capitulo xii<abbr rend="superscript">mo</abbr></rubric>
+                        <incipit locusNew="35"><name type="person">Lucius anneus seneca</name> cordubensis</incipit>
+                    </msItem>
+
+                    <msItem n="3" locusStart="41" locusEnd="69">
+                        <head type="CCC">
+                            <name type="author">Ratramnus of Corbie</name>, <title>De natiuitate Christi</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Liber <name type="author">Rathramni</name> de eo quod Christus ex virgine natus
+                                est</title>
+                        </head>
+
+                        <rubric locus="41">Incipit liber <name type="author">Rathramni</name> de eo quod Christus ex
+                            uirgine natus est</rubric>
+                        <incipit locusNew="41">Si uno sub magistro Christo omnes christiani censemus</incipit>
+                        <ab>(<ref type="bibl" target="Migne 121"><supplied>P. L.</supplied> CXXI 81</ref>)</ab>
+
+                        <explicit locusNew="69">exercitia nobis nostra complacebunt</explicit>
+                        <rubric locusNew="69">Explicit liber <name type="author">Rathramni</name> de eo quod Christus ex
+                            uirgine natus est per usitatam feminei corporis partem</rubric>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="70" locusEnd="90">
+                        <head type="CCC">
+                            <name type="author">Ratramnus of Corbie</name>, <title>De anima</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Liber <name type="author">Rathramni</name> de anima</title>
+                        </head>
+
+                        <rubric locus="70">Incipit liber eiusdem <name type="author">Rathramni</name> de anima</rubric>
+                        <incipit locusNew="70">Duo quantum memini proposuistis</incipit>
+
+                        <explicit locusNew="90">precor et arguatis et corrigatis</explicit>
+                        <rubric locusNew="90">Explicit liber <name type="author">Rathramni</name> de Anima</rubric>
+                        <ab>Apparently not printed</ab>
+
+                    </msItem>
+
+                    <msItem n="5" locusStart="91" locusEnd="102">
+                        <head type="CCC">
+                            <name type="author">Ambrosius Autpertus</name>, <title>Sermo de assumptione beatae
+                                Mariae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sermo de assumptione sanctae Dei genitricis <name type="person">Mariae</name></title>
+                        </head>
+
+                        <rubric locus="90" locusNew="91">Sermo de assumptione sancte dei genitricis <name type="person"
+                                >Marie</name></rubric>
+                        <ab>(<ref type="bibl" target="Migne 039"><supplied>P. L.</supplied> XXXIX 2130</ref>)</ab>
+                        <incipit locusNew="91">Adest nobis dilectissimi fratres dies ualde uenerabilis</incipit>
+
+                        <ab><ref type="ms" target="CCC451">MS 451. 9</ref> (<name type="author">Ausbert</name>)</ab>
+
+                    </msItem>
+
+                    <msItem n="6" locusStart="102" locusEnd="112">
+                        <head type="CCC">
+                            <name type="author">pseudo-Augustine</name>, <title>De assumptione beatae Mariae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sermo alius de eadem</title>
+                        </head>
+
+                        <rubric locus="102">Item sermo de assumptione, etc.</rubric>
+                        <ab>(<ref type="bibl" target="Migne 040"><supplied>P. L.</supplied> XL 1143</ref>)</ab>
+
+                        <incipit locusNew="102">Quia profundissime et sua dignitate altissime</incipit>
+                    </msItem>
+
+                    <msItem n="7" locusStart="112" locusEnd="120">
+                        <head type="CCC">
+                            <name type="author">Paschasius Radbertus</name>, <title>De assumptione beatae uirginis
+                                Mariae (sermo 2) </title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sermo <name type="author">beati Hieronimi</name> presbiteri de eadem</title>
+                        </head>
+
+                        <rubric locus="112">Item sermo <name type="author">beati Ieronimi</name> presbiteri de
+                            assumptione, etc.</rubric>
+                        <ab>(<name type="author">Hildefonsus</name>
+                            <ref type="bibl" target="Migne 096"><supplied>P. L.</supplied> XCVI 250</ref>)</ab>
+                        <incipit locusNew="112">Inter precipuas sanctorum festiuitates</incipit>
+                    </msItem>
+
+                    <msItem n="8" locusStart="120" locusEnd="127">
+                        <head type="CCC">
+                            <name type="author">Paschasius Radbertus</name>, <title>De assumptione beatae uirginis
+                                Mariae (sermo 3)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sermo alius de eadem</title>
+                        </head>
+
+                        <rubric locus="120">Item sermo de assumptione, etc.</rubric>
+                        <ab>(<ref type="bibl" target="Migne 096"><supplied>P. L.</supplied> XCVI 254</ref>)</ab>
+                        <incipit locusNew="120">Adest nobis dilectissimi fratres hodierna festiuitas <name type="person"
+                                >Beate Marie</name></incipit>
+
+                        <ab>
+                            <ref type="ms" target="CCC451">MS 451. 12</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="9" locusStart="127" locusEnd="130">
+                        <head type="CCC">
+                            <name type="author">pseudo-Ildefonsus of Toledo</name>, <title>Sermo de assumptione beatae
+                                Mariae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sermo alius <name type="author">Beati Hieronimi</name> de eadem</title>
+                        </head>
+
+                        <rubric locus="127">Sermo <name type="author">beati Ieronimi</name> presbiteri de assumptione
+                                <name type="person">Sancte Marie</name></rubric>
+                        <ab>(<ref type="bibl" target="Migne 096"><supplied>P. L.</supplied> XCVI 258</ref>)</ab>
+                        <incipit locusNew="127">Fratres dilectissimi cum aliquid pro amore creatoris in
+                            creatura</incipit>
+
+                        <ab>
+                            <ref type="ms" target="CCC451">MS 451. 13</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="10" locusStart="130" locusEnd="153">
+                        <head type="CCC">
+                            <name type="author">pseudo-Paschasius Radbertus</name>, <title>De partu uirginis</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Alius sermo <name type="author">Hieronimi</name> eadem de re sacris consecratus
+                                virginibus</title>
+                        </head>
+
+                        <rubric locus="130">Sermo <name type="author">beati Ieronimi</name> presbiteri de assumptione,
+                            etc. sacris consecratus uirginibus</rubric>
+                        <ab>(<ref type="bibl" target="Migne 096"><supplied>P. L.</supplied> XCVI 235</ref>)</ab>
+                        <incipit locusNew="130">Quotienscumque dilectissime uobis aliquid pro amore conditoris
+                            nostri</incipit>
+
+                        <ab>
+                            <ref type="ms" target="CCC451">MS 451. 10</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="11" locusStart="153" locusEnd="179">
+                        <head type="CCC">
+                            <name type="author">Paschasius Radbertus</name>, <title>Commentary on Matthew (Preface and
+                                Book I)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Scholia ex libro <name type="author">Paschasii</name> diaconi Romanae ecclesiae de
+                                Christi salvatoris nostri genealogia</title>
+                        </head>
+
+                        <rubric locus="153">Incipit scholia ex libro <name type="author">paschasii</name> diaconi romane
+                            ecclesie de Christi et saluatoris nostri genealogia. que in matheum ab <name type="person"
+                                >abraham</name> sancto ad quem primum facta est hec repromissio usque ad ipsum eundemque
+                            Christum dominum per quadraginta et duas generationes ab ipso euangelista diuinitus deducta
+                            et declarata est</rubric>
+
+                        <incipit locusNew="153">Liber inquit matheus generationis Iesu Christi filii <name type="person"
+                                >dauid</name></incipit>
+                        <explicit locusNew="179">dignatus est apparere Iesus Christus dominus noster qui cum patre et
+                            spiritu sancto uiuit et regnat in secula seculorum. Amen</explicit>
+
+                    </msItem>
+
+                    <msItem n="12" locusStart="180" locusEnd="194">
+                        <head type="CCC">
+                            <name type="author">Fulbert of Chartres (pseudo-Ambrose)</name>, <title>Sermo de nativitate
+                                beatae virginis Mariae (sermo 4)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sermo <name type="author">beati Ambrosii</name> Mediolanensis archiepiscopi de
+                                nativitate sanctae Dei genetricis et perpetuae virginis <name type="person"
+                                    >Mariae</name></title>
+                        </head>
+
+                        <rubric locus="180">Incipit Sermo <name type="author">beati Ambrosii</name> mediolanensis
+                            archiepiscopi de natiuitate sancte dei genitricis et perpetue uirginis <name type="person"
+                                >Marie</name></rubric>
+                        <incipit locusNew="180">Natiuitatis gloriose dei genitricis ac perpetue virginis Marie precelsa
+                            solennitas</incipit>
+
+                        <ab>
+                            <ref type="ms" target="CCC451">MS 451. 15</ref>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="13" locusStart="194" locusEnd="199">
+                        <head type="CCC">
+                            <name type="author">pseudo-Ildefonsus of Toledo</name>, <title>Sermo de assumptione beatae
+                                Mariae (extract)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sermo ejusdem de assumptione sanctae Dei genetricis <name type="person"
+                                >Mariae</name></title>
+                        </head>
+
+                        <rubric locus="192" locusNew="194">Item sermo <name type="author">Sancti Ambrosii</name> de
+                            assumptione sancte dei genitricis <name type="person">Mariae</name></rubric>
+                        <incipit locusNew="194">Creator omnium et auctor uite</incipit>
+                        <ab>(<ref type="bibl" target="Migne 096"><supplied>P. L.</supplied> XCVI 279</ref>
+                            <name type="author">Hildefonsus</name>)</ab>
+                        <ab>
+                            <ref type="ms" target="CCC451">MS 451. 15</ref>
+                        </ab>
+                        <ab>pp. <locus>198</locus>-<locus>199</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="14" locusStart="200" locusEnd="241">
+                        <head type="CCC">
+                            <name type="author">Eadmer of Canterbury OSB</name>, <title>De beatitudine caelestis
+                                patriae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Anselmus</name> de eterna beatitudine cum epistola prefatoria
+                                    <name type="author">Eadmeri</name> ad <name type="person">Gulielmum</name></title>
+                        </head>
+                        <ab locus="200">On p. <locus>200</locus> (last page of a quire) the prologue of <name
+                                type="author">Eadmer</name>
+                            <handNote>in a good <name type="place">Christchurch</name> hand</handNote>. <hi
+                                rend="footnote"><name type="person">Mr Rule</name> considered this to be <q>doubtless in
+                                        <name type="author">Eadmer</name>'s own hand, with corrections that may be by
+                                        <name type="person">Anselm</name>.</q></hi></ab>
+                        <incipit locusNew="200">Reuerendo domino ... <name type="person">Guillelmo</name> monacho ...
+                            frater <name type="author">Eadmerus</name></incipit>
+                        <explicit locusNew="200">recordari ualebam. Valeat sanctitas tua et oret pro me</explicit>
+                        <rubric locus="201">(<name type="author">Anselmus</name> de eterna beatitudine)</rubric>
+                        <ab locusNew="201"><handNote>In a much larger hand</handNote>, beginning a new quire: <layout>20
+                                lines to a page only</layout></ab>
+                        <incipit locusNew="201">Multi homines quibus non nunquam boni mores</incipit>
+                        <ab>(<ref type="bibl" target="Migne 159"><supplied>P. L.</supplied> CLIX 587</ref>)</ab>
+                        <explicit locusNew="241">in confusionem eternam a diabo(lo) precipitati depereunt</explicit>
+                        <ab>Cf. <ref type="ms" target="CCC034">MS 34. 2</ref>, <ref type="ms" target="CCC135">MS 135.
+                                2</ref>, <ref type="ms" target="CCC154">MS 154. 48</ref></ab>
+                    </msItem>
+
+                    <msItem n="15" locusStart="242" locusEnd="244">
+                        <head type="CCC">
+                            <name type="author">Cassiodorus Senator</name>, <title>Historia tripartita, I. 11,
+                                part</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Anselmus</name> de conversatione monachorum</title>
+                        </head>
+
+                        <rubric locus="242">Eiusdem de conuersatione monachorum</rubric>
+                        <incipit locusNew="242">Vtilissima res ad homines uenit conuersatio monachorum</incipit>
+                        <explicit locus="244">generaliter passiones corporis deuincit et anime</explicit>
+                        <ab locusNew="iir">On a slip, bound in, is <q>Finito libro reddatur (gratia Christo)</q></ab>
+
+                    </msItem>
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: RJR 31/10/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

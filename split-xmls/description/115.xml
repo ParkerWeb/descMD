@@ -1,0 +1,111 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC115">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>115</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Misc. 15</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Pierre Alexandre, Praelectiones de eterna Dei praescientia, praedestinatione,
+                    providentia et libero arbitrio</head>
+                <head type="James">Petri Alexandri Praelectiones de Eterna Dei Praescientia, Praedestinatione,
+                    Providentia et Libero Arbitrio, Habitae in Ecclesia Cathedrali Cantuar. a.d. 1552</head>
+
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">332</height>
+                        <width unit="mm">218</width>
+                    </measureGrp>
+                    <measureGrp type="James">13.3 x 8.5</measureGrp>, <extent>ff. 76 numbered</extent>. Cent.
+                        <origDate>xvi</origDate>.</p>
+
+                <p>At foot of title <supplied>(<locus>1r</locus>)</supplied>
+                    <handNote>in another hand (? the author's)</handNote>:<lb/>
+                    <q>Auctore <name type="author">petro alexandro</name> attrebatensi<lb/> Sacre theologie et veri dei
+                        ministro</q>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-v + 1-81 + vi-ix</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="76r">
+
+                        <head type="CCC">
+                            <name type="author">Pierre Alexandre</name>, <title>Praelectiones de eterna Dei
+                                praescientia, praedestinatione, providentia et libero arbitrio</title></head>
+
+                        <ab>There are many marginalia, perhaps by the author</ab>
+                        <ab>Ends f. <locus>76r</locus> then in red in the author's hand</ab>
+                        <ab locusNew="76r">Nosse deum radix immortalitatis, Sap. 15</ab>
+                        <ab>(cf. <ref type="ms" target="CCC102">MS 102. 10</ref>)</ab>
+                        <ab>On a flyleaf are some unimportant notes on <name type="person">Bradwardine</name> etc.</ab>
+                        <ab>See also <ref type="ms" target="CCC126">MS 126</ref></ab>
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJC 9.10.07</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,145 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC086">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>86</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>M. 4</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>143</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Hrabanus Maurus, Commentary on Matthew</head>
+                <head type="James">Rabanus super Matthaeum</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">395</height>
+                        <width unit="mm">260</width>
+                    </measureGrp>, <measureGrp type="James">15.9 x 10.5</measureGrp>, <extent>ff. 187</extent>,
+                        <layout>double columns of 44 lines</layout>. Cent. <origDate>xii</origDate>, <handNote>in a fine
+                        bold black script</handNote>. Original binding: white skin over flat boards, flaps at top and
+                    bottom of cover: strap and pin fastening.</p>
+
+                <p><label>Collation:</label>
+                    <collation>I<num>8</num>-XIII<num>8</num> XIV<num>10</num> XV<num>8</num>-XXI<num>8</num>
+                            XXII<num>10</num> XXIII<num>8</num> (wants 8)</collation>.</p>
+
+                <p function="Provenance">From <name type="place">Rievaulx</name>. On f. <locus>1r</locus> at top in
+                    capitals: <q>Liber Sancte Marie Rievallis</q>. Occurs in the Catalogue printed in my <ref
+                        type="bibl" target="James 1895b">
+                        <hi rend="italic">Catalogue of MSS. at Jesus College</hi> (p. 47)</ref></p>
+
+                <p type="CCC">
+                    <foliation>ff. 1-187. Partially imaged: front cover exterior and interior + ff. 1r-4v + back cover
+                        exterior and interior</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="187v">
+                        <head type="CCC">
+                            <name type="author" key="Hrabanus-001">Hrabanus Maurus</name>, <title>Commentary on
+                                Matthew</title>
+                        </head>
+
+                        <rubric locus="1r">Domino beatissimo ac merito uenerabili et in conspectu domini sincera
+                            caritate carissimo patri <name type="person">haistulfo archiepiscopo</name>
+                            <name type="author">rabanus</name> indignus presbiter eterne pacis in xpisto optat
+                            salutem</rubric>
+                        <ab>(<ref type="bibl" target="Migne 107">P. L. CVII</ref>)</ab>
+                        <ab locusNew="1r">
+                            <decoNote>Green and red capitals</decoNote>
+                        </ab>
+                        <rubric locusNew="1r">Memor itaque illius precepti quod per uas sibi aptum</rubric>
+                        <ab locusNew="1r">
+                            <decoNote>Handsome blue initial</decoNote>
+                        </ab>
+                        <explicit locusNew="2r">corroborare digneris</explicit>
+                        <rubric locusNew="2r">Explicit prologus</rubric>
+                        <ab locus="2r">Capitula <handNote>in smaller script</handNote></ab>
+                        <ab locusNew="3r">Liber I</ab>
+                        <incipit locusNew="3r">Expositionem itaque scripturus in euangelium beati Mathei</incipit>
+                        <ab locus="25v">Liber II</ab>
+                        <ab locus="53r"><supplied>Liber</supplied> III</ab>
+                        <ab locus="75r"><supplied>Liber</supplied> IV</ab>
+                        <ab locus="94v"><supplied>Liber</supplied> V</ab>
+                        <ab locus="117v"><supplied>Liber</supplied> VI</ab>
+                        <ab locus="137r"><supplied>Liber</supplied> VII</ab>
+                        <ab locus="159r"><supplied>Liber</supplied> VIll</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="187v">premia sulleuet. in qua uiuit et regnat cum patre deus in unitate spiritu
+                            sancti per omnia secula seculorum. Amen</explicit>
+                        <rubric locus="187v">Versus <name type="author">Rabani</name> (37)</rubric>
+                        <incipit locusNew="187v">Mattheus leui comitem tenet ordine marcum</incipit>
+
+                        <explicit locusNew="187v">Lucas depromit sancti sacramenta iohannis </explicit>
+
+
+
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: ELB 8/1/2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,114 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC165">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>165</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Misc. 18</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>390</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Peter Abelard, Sic et non</head>
+                <head type="James">Petri Abelardi Sic et Non</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">291</height>
+                        <width unit="mm">202</width>
+                    </measureGrp><measureGrp type="James">11.5 x 8</measureGrp>, <extent>ff. 396 (355 written)</extent>,
+                        <layout>about 31 lines to a page</layout>. Cent. <origDate>xvi</origDate>, clearly written.</p>
+
+                <p function="Additions">A note from <name type="person">Trithemius</name> on flyleaf
+                            <supplied>(<locus>ivv</locus>)</supplied>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-iv + pp. 1-254 + 264a-b + 265-348 (349-350 missing) + 351-362 (363-364 missing) +
+                        365-396</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1" locusEnd="355">
+                        <head type="CCC"><name type="author">Peter Abelard</name>, <title>Sic et non</title></head>
+                        <head type="James">
+                            <title><name type="author">Petri Abelardi</name> Sic et Non</title>
+                        </head>
+
+
+                        <ab locusNew="1">Prologue</ab>
+                        <incipit locusNew="1">Cum in tanta uerborum multitudine</incipit>
+                        <ab>
+                            <ref type="bibl" target="Migne 177"><supplied>P. L.</supplied> CLXXVII 1339</ref>
+                        </ab>
+                        <explicit locusNew="15">quae ipse retractando correxerit positum esse</explicit>
+                        <ab locus="15" locusNew="16">Text</ab>
+                        <ab>ends</ab>
+                        <explicit locus="342">diuine cognitionis intentione defluxerit</explicit>
+                        <ab>Table p. <locus>345</locus>, ending p. <locus>355</locus>. The rest blank</ab>
+
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: CF 21.08.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

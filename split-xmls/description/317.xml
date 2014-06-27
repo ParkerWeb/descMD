@@ -1,0 +1,429 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC317">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>317</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>K. 6</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>111</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Sermons. John Waldeby OESA, Homilies. Tables</head>
+                <head type="James">Sermones. Ioh. Waldeby, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">230</height>
+                        <width unit="mm">155</width>
+                    </measureGrp><measureGrp type="James">9 x 6</measureGrp>, <extent>ff. 4 + 49 + 232 + 3</extent>,
+                        <layout>two main volumes</layout> of cent. <origDate>xiii early</origDate> and cent.
+                        <origDate>xv</origDate>.</p>
+
+                <p function="Multivolume" rend="withinContents"><lb/><label>Volume I:</label>
+                    <handNote>A good small hand</handNote> of cent. <origDate>xiii early</origDate>, <layout>37 lines to
+                        a page</layout>.<lb/>
+                    <label>Volume II:</label>
+                    <layout>Double columns of 29 lines</layout>. Cent. <origDate>xii-xiii</origDate>, <handNote>a larger
+                        hand, very clear and good</handNote>.<lb/>
+                    <label>Volume III:</label>
+                    <layout>Double columns of 38 etc. lines</layout>. Cent. <origDate>xv</origDate>, <handNote>in an
+                        ugly current hand</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>4 flyleaves, I<num>8</num>-IV<num>8</num> V<num>4</num> (wants 4) | VI<num>8</num>
+                            VII<num>8</num> || a<num>8</num>-q<num>8</num> A<num>8</num>-N<num>8</num>, 3
+                        flyleaves</collation>.</p>
+
+
+
+                <p>
+                    <label>2 fo.:</label>
+                    <lb/>
+                    <label>Volume I:</label>
+                    <secFol>ab eis</secFol>.<lb/>
+                    <label>Volume III:</label>
+                    <secFol>pericli pro qua</secFol>.</p>
+
+
+                <p function="Additions">Late notes on f. <locus>iv</locus> and list of contents on f.
+                    <locus>ivv</locus></p>
+
+                <p type="CCC">
+                    <foliation>ff. a + i-iv + 1-281 + v-vii + b</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="1r" locusEnd="2v">
+                        <head type="CCC">
+                            <title>Synodal Statutes of <name type="author">Eudes de Sully, Bishop of
+                                Paris</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Prohibitiones et precepta ad observandum in synodo sacerdotibus data a venerabili
+                                    <name type="person">G. Parisiensi episcopo</name></title>
+                        </head>
+
+                        <rubric locus="1r">In nomine Sancti trinitatis. Incipiunt prohibitiones et precepta ad
+                            obseruandum in Sinodo sacerdotibus data a venerabili <name type="person">G. parisiensi
+                                Episcopo</name></rubric>
+                        <incipit locus="1r">Districte precipitur sacerdotibus ut ieiuni intrent Sinodum</incipit>
+                        <ab>The original hand ends</ab>
+                        <explicit locus="2v">Nullus faciat iusiurandum patronis antequam fuerit episcopo
+                            presentatus</explicit>
+                        <ab><handNote>A not much later hand</handNote> adds five other clauses</ab>
+                    </msItem>
+
+                    <msItem n="2" locusStart="3r" locusEnd="35v">
+                        <head type="CCC"><name type="author">Geoffrey Babio du Louroux</name>,
+                            <title>Sermons</title></head>
+                        <head type="Nasmith">
+                            <title>Sermones varii</title>
+                        </head>
+
+                        <ab>Sermons, a part of the collection which occurs in <ref type="ms" target="CCC320">MS
+                                320</ref>. It is by <name type="author">Geoffrey (called by older writers Peter)
+                                Babion</name>. The complete collection begins Dicite pusillanimes. See <ref type="ms"
+                                target="CSJK23">St John's College, K. 23</ref>.<hi rend="footnote">The greater part of
+                                it is printed among the works of <name type="person">Hildebert</name> by <ref
+                                    type="bibl" target="Beaugendre 1708">Beaugendre</ref>. See a full account by Hauréau
+                                in <ref type="bibl" target="Hauréau 1890">Notices et Extraits XXXI 2</ref>, pp.
+                                126-141</hi></ab>
+                        <incipit locus="3r"><name type="person">Maria</name> soror moysi peccauit murmurando</incipit>
+                        <ab>(no. 12 of the collection)</ab>
+                        <incipit locus="4v">Nolite diligere mundum</incipit>
+
+                        <rubric locus="6r">De natale domini</rubric>
+                        <incipit locus="6r">Excutere de puluere</incipit>
+
+                        <incipit locus="7v">Noli emulari</incipit>
+
+                        <rubric locus="8v">Dominica in ramis palmarum</rubric>
+                        <incipit locus="8v">Dicite filie syon</incipit>
+
+
+                        <incipit locus="11r">Dominus noster Ihesus Christus ut sanctificaret per sanguinem</incipit>
+                        <incipit locus="12r">Scitote fratres karissimi quia uetus homo uester</incipit>
+                        <incipit locus="13v">Ecce odor filii mei</incipit>
+                        <rubric locus="15r">In cena domini</rubric>
+                        <incipit locus="15r">Dominus noster Ihesus Christus in qua nocte tradebatur</incipit>
+                        <incipit locus="16r">Estote imitatores dei</incipit>
+                        <incipit locus="17v">Cum intinxisset dominus Ihesus panem</incipit>
+                        <incipit locus="18v">Sciens Ihesus quia uenit hora</incipit>
+                        <incipit locus="19v">Venite filii audite me</incipit>
+                        <ab>Thirteen more sermons follow. The last two are on</ab>
+                        <incipit locusNew="33v">Homo quidam peregre proficiscens</incipit>
+                        <incipit locusNew="34v">Oportet dilectissimi ut sacramentorum christi quibus purificati et
+                            sanctificati estis</incipit>
+                        <explicit locusNew="35v">dominus tetigit aures surdi et muti</explicit>
+
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="3" locusStart="36r" locusEnd="49v">
+                        <head type="CCC"><name type="author">Alcuin</name>, <title>De uirtutibus et uitiis (chapters
+                                6-36)</title></head>
+                        <head type="Nasmith">
+                            <title>De vitiis et virtutibus</title>
+                        </head>
+
+                        <ab locus="36r">? <name type="author">Alcuinus</name> ad <name type="person">Widonem
+                                comitem</name></ab>
+                        <rubric locus="36r">De pace</rubric>
+                        <incipit locus="36r">Saluator ad patrem rediens quasi speciale munus</incipit>
+                        <rubric locusNew="36r">De misericordia</rubric>
+                        <incipit locusNew="36r">Precipuum est misericordie</incipit>
+                        <ab>Ends</ab>
+                        <incipit locus="47v">Hec tibi dulcissime fili <name type="person">wido</name></incipit>
+                        <explicit locus="47v">perpetua coronabitur gloria</explicit>
+                        <ab>At top of <locus>48r</locus> is an erasure of six short lines which seem irrecoverable</ab>
+                        <ab>Below: Sancti spiritus assit nobis gratia</ab>
+
+                        <ab>Poem</ab>
+                        <incipit locus="48r">
+                            <lg>
+                                <l>Vita beata deus mortem gustauit ad horam</l>
+                                <l>Aspice qui transis quia tu michi causa doloris</l>
+                            </lg>
+                        </incipit>
+
+
+
+                        <explicit locusNew="48v">
+                            <lg>
+                                <l>Nescio quid pro te maius possum dare quam me</l>
+                            </lg>
+                        </explicit>
+
+                        <ab>
+                            <lg>
+                                <l>Flet genetrix natum dilectus plorat amicum</l>
+                                <l>Fili. quid mater. deus es. sum. cur ita pendes</l>
+                                <l>Ne genus humanum uadat ad interitum</l>
+                                <l>Ligno primus <name type="person">adam</name> periit lignoque secundus</l>
+
+                                <l>Ne pereat mundus est crucifixus <name type="person">adam</name></l>
+                            </lg>
+                        </ab>
+
+                        <ab locus="48v">In two columns: another hand. A short extract or sermon on <name type="person"
+                                >Rahab</name></ab>
+
+                        <incipit locusNew="48v"><name type="person">Iosue</name> ducens populum israel in
+                            terram</incipit>
+                        <ab><locus>49v</locus> blank</ab>
+
+                    </msItem>
+
+                    <milestone n="III" unit="volume"/>
+
+                    <msItem n="4" locusStart="50r" locusEnd="97r">
+                        <head type="CCC">
+                            <name type="author">John Waldeby OESA</name>, <title>Homilies on the Lord's Prayer or
+                                Itinerarium salutis</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Itinerarium salutis <name type="author">fratris Iohannis Waldeby</name> super
+                                orationem dominicam. </title>
+                        </head>
+
+                        <rubric locusNew="50r">Prologus</rubric>
+                        <incipit locus="1r" locusNew="50r">Sepcies in die laudem dixi tibi</incipit>
+                        <incipit locus="4v " locusNew="53v">Pater noster, etc. hec epistola est supplicatoria</incipit>
+
+                        <explicit locusNew="97r">a peccatis nostris in sanguine suo. Ipso gloria et imperium in secula
+                            seculorum. Amen</explicit>
+                        <rubric locusNew="97r">Explicit itinerarium salutis <name type="author">fratris Johannis
+                                Waldeberi</name> super orationem dominicam</rubric>
+
+                    </msItem>
+
+                    <msItem n="5" locusStart="97r" locusEnd="119r">
+                        <head type="CCC">
+                            <name type="author">John Waldeby OESA</name>, <title>Homilies on Ave Maria or Salutatio
+                                angelica</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Quinque homeliae super quinque verba salutationis angelicae per <name type="author"
+                                    >fratrem Iohannem Waldeby</name></title>
+                        </head>
+
+                        <incipit locus="48r" locusNew="97r">Uas eleccionis <name type="person">paulus</name> doctor
+                            gentium</incipit>
+
+                        <explicit locusNew="119r">saluatoris ad laudis preconium cui cum sua prole benedicta sit honor
+                            et gloria in secula seculorum. Amen</explicit>
+                        <rubric locusNew="119r">Expliciunt quinque omelie super quinque uerba salutacionis angelice
+                            secundum <name type="author">fratrem Johannem Waldebi</name></rubric>
+
+
+                    </msItem>
+
+                    <msItem n="6" locusStart="119r" locusEnd="150r">
+                        <head type="CCC">
+                            <name type="author">John Waldeby OESA</name>, <title>Homilies on the Apostles' Creed</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sermones ejusdem super symbolum apostolorum</title>
+                        </head>
+
+                        <rubric locus="70r" locusNew="119r">Incipit cimbolum eiusdem fratris</rubric>
+                        <incipit locusNew="119r">Uenerabili in Christo ... <name type="person">Thome ... abbati de
+                                Sancto Albano</name></incipit>
+                        <incipit locusNew="119v">Credo adiuua incredulitatem meam. mihi quidem karissimi
+                            consideranti</incipit>
+
+
+                        <explicit locusNew="150r">auctor fidei nostre Ihesus Christus cui sit omnis honor et virtus.
+                            Amen</explicit>
+                        <rubric locusNew="150r">Expliciunt sermones <name type="author">Waldebi</name> super orationem
+                            dominicam salutacionem angelicam et simbolum apostolorum. deo gracias</rubric>
+
+                    </msItem>
+
+                    <msItem n="7" locusStart="150r" locusEnd="160r">
+                        <head type="CCC"><name type="author">Edmund of Abingdon</name>, <title>Speculum ecclesiae
+                                (excerpt of Latin version)</title></head>
+                        <head type="Nasmith">
+                            <title>Speculum <name type="author">Sancti Edmundi</name> scriptum per eundem</title>
+                        </head>
+
+                        <rubric locus="101r" locusNew="150r">Incipit Speculum <name type="author">Sancti
+                            Edmundi</name></rubric>
+                        <incipit locusNew="150r">In nomine domini nostri Ihesu Christi amen. Iste liber est qui docet
+                            uiuere perfecte</incipit>
+
+                        <explicit locusNew="160r">ab origine mundi per eum qui uiuit et regnat deus in secula seculorum.
+                            Amen</explicit>
+                        <rubric locusNew="160r">Explicit speculum <name type="author">Sancti Edmundi</name> scriptum per
+                            manus <name type="person">magistri Johannis Well</name></rubric>
+
+                    </msItem>
+
+                    <msItem n="8" locusStart="160v" locusEnd="166v">
+                        <head type="CCC"><name type="author">pseudo-Augustine</name>, <title>De visitatione
+                                infirmorum</title></head>
+                        <head type="Nasmith">
+                            <title>Liber <name type="author">Sancti Augustini</name> Hipponensis episcopi de visitatione
+                                infirmorum ad nepotem suum</title>
+                        </head>
+
+                        <incipit locus="111v" locusNew="160v">Uisitacionis gratia nepoti meo</incipit>
+                        <ab>(<ref type="bibl" target="Migne 040"><supplied>P. L.</supplied> XL</ref> 1147)</ab>
+
+                    </msItem>
+
+                    <msItem n="9" locusStart="166v" locusEnd="174r">
+                        <head type="CCC"><name type="author">pseudo-Augustine</name>, De cura pro mortuis gerenda</head>
+                        <head type="Nasmith">
+                            <title>Idem de cura gerenda pro mortuis</title>
+                        </head>
+
+                        <incipit locusNew="166v">Diu sanctitati tue</incipit>
+                        <ab>(<ref type="bibl" target="Migne 040"><supplied>P. L.</supplied> XL</ref> 591)</ab>
+
+                    </msItem>
+
+                    <msItem n="10.1" locusStart="174r" locusEnd="176r">
+                        <head type="CCC"><name type="author">John Deverose</name>, <title>Vtrum imagines sint
+                                adorandae</title></head>
+                        <head type="Nasmith">
+                            <title>Utrum imagines sint adorandae</title>
+                        </head>
+
+                        <rubric locus="125r" locusNew="174r">Utrum ymagines sint adorande</rubric>
+                        <incipit locusNew="174r">Dic quod adoracio ymaginum est licita et meritoria</incipit>
+
+                        <explicit locusNew="176r">menti possunt dici inimici crucis et passionis Christi</explicit>
+
+                    </msItem>
+
+                    <msItem n="10.2" locusStart="176r" locusEnd="177v">
+                        <head type="CCC"><name type="author">John Deverose</name>, <title>De materia
+                                peregrinationis</title></head>
+
+                        <rubric locus="127r" locusNew="176r">De materia peregrinacionis</rubric>
+                        <incipit locusNew="176r">In materia peregrinacionis dico quod licitum est hominibus peregrinari
+                            ad reliquias sanctorum</incipit>
+
+                        <explicit locusNew="177v">conseruet uos Christi veritas infallibilis</explicit>
+
+                    </msItem>
+
+                    <msItem n="11" locusStart="178r" locusEnd="206r">
+                        <head type="CCC">
+                            <title>Alphabetical table of biblical themes</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Tabula alphabetica in bibliam, sive loci communes ex Sacris Scripturis ordine
+                                alphabetico</title>
+                        </head>
+
+                        <incipit locus="129r" locusNew="178r">Abstinenciam precepit deus ade quod ex omni ligno,
+                            etc.</incipit>
+                        <ab>Last article Zelus</ab>
+                        <explicit locusNew="206r"><name type="person">Johannes apostolus</name> prohibuit quendam
+                            eicientem demonia in nomine etc.</explicit>
+                        <rubric locusNew="206r">Explicit tabula super bibliam</rubric>
+
+                    </msItem>
+
+                    <msItem n="12" locusStart="206v" locusEnd="277v">
+                        <head type="CCC">
+                            <title>Alphabetical table of theological concepts</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Tabula alia de diversis rebus</title>
+                        </head>
+
+                        <incipit locus="157v" locusNew="206v">Accidia. nota accidiosus est sicut canis
+                            famelicus</incipit>
+                        <ab>Last article Christus</ab>
+
+                        <explicit locusNew="272r">ubi nos eleuare dignetur qui est benedictus in secula seculorum.
+                            Amen</explicit>
+                        <ab locus="223r" locusNew="272r">List of titles</ab>
+                        <ab locus="224v" locusNew="273v">Another table: Aduentus Christi to Ydolatria</ab>
+
+                    </msItem>
+
+                    <msItem n="13" locusStart="278r" locusEnd="280v">
+
+                        <head type="Nasmith">
+                            <title>Tabula super evangelia ad videndum ubi evangelistae idem dicunt, et ubi quilibet
+                                singula</title>
+                        </head>
+
+                        <rubric locusNew="278r">Incipit tabula super euuangelia ad videndum ubi plures euangeliste idem
+                            dicant et ubi quilibet singula ut patet in canone tabule</rubric>
+                        <rubric locusNew="278r">Incipit tabula super euangelium <name type="person"
+                            >Mathei</name></rubric>
+                        <incipit locusNew="278r">Quidam doctores antiqui circa euangelia studiosi quorum primus fuit
+                                <name type="person">ammonius alexandrinus</name></incipit>
+                        <ab>The table begins on <locus locusNew="279r">230r</locus> and ends <locus locusNew="280v"
+                                >231v</locus> on Matthew xxvi. The remaining leaves are blank</ab>
+
+                    </msItem>
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJC 27.11.07</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

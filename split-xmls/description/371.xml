@@ -1,0 +1,616 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC371">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>371</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>15. 1</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>338</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Eadmer of Canterbury OSB, Opuscula</head>
+                <head type="James">Eadmeri Opuscula</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">226</height>
+                        <width unit="mm">155</width>
+                    </measureGrp><measureGrp type="James">9 x 6</measureGrp>, <extent>ff. 11 + 219</extent>, <layout>33
+                        lines to a page</layout>. Cent. <origDate>xi-xii</origDate>, <handNote>in an excellent <name
+                            type="place">Christ Church</name> hand</handNote>.</p>
+                <p><label>Collation:</label>
+                    <collation>I<num>8</num> (1 canc.) II<num>4</num> || I<num>8</num>-V<num>8</num> (+1)
+                            VI<num>8</num>-XIII<num>8</num> (+ slip after 2) XIV<num>8</num>-XXIV<num>8</num>
+                            XXV<num>10</num> XXVI<num>8</num> XXVII<num>8</num></collation>. On the numbering of the
+                    quires (which is incorrect from XVII onwards), and the structure generally, see <ref type="bibl"
+                        target="Rule 1884">Rule's Preface to Eadmer's <hi rend="italic">Historia Novorum</hi>, pp.
+                        lxxix, lxxx</ref>.</p>
+                <p function="Provenance">From <name type="place">Christ Church, Canterbury</name>, <ref type="bibl"
+                        target="James 1903"><hi rend="italic">Ancient Libraries</hi>, p.46, no. 257</ref>.</p>
+
+                <p function="Additions">On p. 1 (f. <locus locusNew="1r">ir</locus>) in the original hand, in capitals:
+                    Opuscula <name type="author">Edmeri</name> Cantoris. <name type="person">Gervase of
+                        Canterbury</name>, <ref type="bibl" target="Stubbs 1880">Rolls ed. II 374</ref>, alludes to this
+                    title, probably, in the words: Legat <name type="author">Edmeri</name> Cantoris opuscula ... qui ...
+                    plenius nosse uoluerit.</p>
+
+                <p function="Additions">Verses (<origDate>xiv</origDate>) <lb/>a. <name type="place">Anglia</name> terra
+                    ferax, etc. (2).<lb/> b. Si canis applaudit meretrix hillarem tibi vultum. <lb/>Prebeat (4).<lb/> c.
+                    Scire nichil quondam vicium fuit est modo virtus <lb/>nunc nichil est vicium preter habere
+                    nichil.<lb/> d. Quatuor ecclesias hiis portis itur in omnes <lb/>Cesaris aut Simonis sanguinis atque
+                    dei, <lb/>Prima patet magnis nummosis altera, caris <lb/>Tercia sed paucis ianua quarta patet.</p>
+
+                <p function="Additions">List of contents (p. <locus locusNew="1v">2</locus>), printed by <ref
+                        type="bibl" target="Rule 1884">Rule, l. c., p. lxxix</ref></p>
+
+                <p function="Research">The value and interest of this volume are well brought out by <name type="person"
+                        >Mr Martin Rule</name> in his <ref type="bibl" target="Rule 1884">Preface to the Rolls edition
+                        of the Historia Novorum, pp. lxxviii-lxxxiv</ref>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-231 + iii-iv</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="2r" locusEnd="2r">
+                        <head type="CCC">
+                            <name type="author">Eadmer of Canterbury OSB</name>, <title>Hymn for <name type="person">St
+                                    Dunstan</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Versus de <name type="person">sancto Dunstano</name></title>
+                        </head>
+
+                        <rubric locus="3" locusNew="2r">Versus de <name type="person">Sancto Dunstano</name></rubric>
+                        <ab>
+                            <handNote>Not the same hand as the main text</handNote>
+                        </ab>
+                        <incipit locusNew="2r">Salue sancta dies</incipit>
+                        <ab>
+                            <ref type="bibl" target="Stubbs 1874">Stubbs, <hi rend="italic">Memorials of S.
+                                Dunstan</hi>, 424</ref>
+                        </ab>
+                        <ab><locus locusNew="2v">4</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="3r" locusEnd="3v">
+                        <head type="CCC">
+                            <name type="author">Eadmer of Canterbury OSB</name>, <title>Hymn for St Edward king and
+                                martyr</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Hymnus de <name type="person">sancto Edwardo</name> rege et martire</title>
+                        </head>
+
+                        <rubric locus="5" locusNew="3r">Ymnus de <name type="person">Sancto Eadwardo</name> Rege et
+                            martire</rubric>
+                        <ab locusNew="3r">At the top of the page is the music (four-line stave ruled with dry
+                            point)</ab>
+                        <incipit locusNew="3r">Aue dies prefulgida in qua superna curia congaudet et
+                            dignissimam</incipit>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="3v" locusEnd="4r">
+                        <head type="CCC">
+                            <name type="author">Nicholas of Worcester OSB</name>, <title>Epistola de matre <name
+                                    type="person">Sancti Eadwardi martyris</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Nicolai</name> ad <name type="person">Eadmerum</name> de
+                                matre <name type="person">sancti Edwardi</name></title>
+                        </head>
+
+                        <ab>
+                            <quote>Annotavit <name type="person">Jocelinus</name>, <q>Hujus epistolae descriptionem
+                                    improbat antiquior chronographus <name type="person">Osbernus Cantuar.</name> in
+                                    vita <name type="person">Dunstani</name>.</q></quote>
+                        </ab>
+
+                        <incipit locus="6" locusNew="3v">Domno <name type="person">Eadmero</name> suus <name
+                                type="author">Nicolaus</name></incipit>
+                        <ab locusNew="3v">
+                            <decoNote>Purple initial</decoNote>
+                        </ab>
+                        <ab><ref type="bibl" target="Stubbs 1874">Stubbs, l. c., p. 422</ref>. <ref type="bibl"
+                                target="Rule 1884">Rule, <hi rend="italic">Eadmeri Historia Novorum</hi>, p.
+                            cxxvi</ref></ab>
+                    </msItem>
+
+                    <msItem n="4" locusStart="4r" locusEnd="5r">
+                        <head type="CCC">
+                            <name type="author">Nicholas of Worcester OSB</name>, <title>Epistola de primatu sedis
+                                Eboracensis in <name type="place">Scotia</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Nicolai</name> ad <name type="person">Eadmerum</name>
+                                sancti Andreae electum quod archiepiscopus Eboracensis nullum habet jus primatus in
+                                Scotos</title>
+                        </head>
+
+                        <incipit locus="7" locusNew="4r">Electo per dei gratiam in <name type="place">S. Andree
+                                cathedram</name></incipit>
+
+                    </msItem>
+
+                    <msItem n="5" locusStart="5v" locusEnd="9r">
+                        <head type="CCC">
+                            <name type="author">Eadmer of Canterbury OSB</name>, <title>Epistola ad
+                                Glastonienses</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Quale sit quod Glastonienses asserunt se corpus <name type="person">beati
+                                    Dunstani</name> habere</title>
+                        </head>
+
+                        <incipit locus="10" locusNew="5v">Quale sit quod Glastonienses</incipit>
+                        <ab>
+                            <ref type="bibl" target="Stubbs 1874">Stubbs, l. c., p. 412</ref>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="6" locusStart="9v" locusEnd="11v">
+                        <head type="CCC">
+                            <title>Letter from the <name type="person">archbishop of York</name> to <name type="person"
+                                    >the pope</name> concerning the <name type="person">bishop of Durham</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Epistola ad summum pontificem contra episcopum Dunelmensem per archiepiscopum
+                                Eboracensem</title>
+                        </head>
+
+                        <ab>
+                            <quote>duabus paginis antea vacuis inscripta a <name type="person">Mattheo Parker</name>, ex
+                                libro qui dicitur forma componendi epistolas</quote>
+                        </ab>
+
+                        <ab>In <name type="person">Parkerian</name> hand</ab>
+                        <rubric locus="18" locusNew="10r">Hec e libro qui dicitur forma componendi epistolas in
+                            quaternione G.</rubric>
+                        <ab>(<ref type="ms" target="CCC358">no. 358</ref>)</ab>
+
+                        <ab><locus locusNew="10v">20</locus>-<locus locusNew="11v">22</locus> blank, ruled</ab>
+
+                    </msItem>
+
+                    <msItem n="7" locusStart="12r" locusEnd="39v">
+                        <head type="CCC">
+                            <name type="author">Eadmer of Canterbury OSB</name>, <title>Vita <name type="person">Sancti
+                                    Wilfridi Eboracensis</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Vita <name type="person">sancti Wilfridi</name> Eboracensis archiepiscopi et
+                                confessoris</title>
+                        </head>
+
+                        <incipit locus="23" locusNew="12r"><name type="place">Britannia</name> quam angli victis a
+                            se</incipit>
+
+                        <ab>
+                            <ref type="bibl" target="Raine 1879">Raine, <hi rend="italic">Historians of Church of
+                                    York</hi>, Rolls I 161</ref>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="8" locusStart="39v" locusEnd="44r">
+                        <head type="CCC">
+                            <name type="author">Eadmer of Canterbury OSB</name>, <title>Breuiloquium uitae Sancti
+                                Wilfridi</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Breviloquium uitae ejusdem patris</title>
+                        </head>
+
+                        <incipit locus="78" locusNew="39v">Spero fratres karissimi sanctitatem uestram non
+                            latere</incipit>
+
+                        <ab>
+                            <ref type="bibl" target="Raine 1879">Raine, l. c., p. 227</ref>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="9" locusStart="44r" locusEnd="51v">
+                        <head type="CCC">
+                            <name type="author">Eadmer of Canterbury OSB</name>, <title>Vita <name type="person">Sancti
+                                    Odonis Cantuariensis</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Vita <name type="person">sancti Odonis</name> archiepiscopi et confessoris</title>
+                        </head>
+
+                        <incipit locus="87" locusNew="44r">Venerabilis Christi confessor <name type="person">odo</name>
+                            nobilibus sed paganis parentibus</incipit>
+                        <ab><ref type="bibl" target="Hardy 1862b">Hardy I 568</ref>. <ref type="bibl"
+                                target="Wharton 1691a">Wharton, <hi rend="italic">Anglia Sacra</hi> I 78</ref>. <ref
+                                type="bibl" target="Janningus, Sollerius and Pinius 1721">Acta Sanctorum 4 July (II
+                                67)</ref>. <ref type="bibl" target="Migne 133">P. L. CXXXIII 931</ref>, etc. </ab>
+
+                    </msItem>
+
+                    <msItem n="10" locusStart="51v" locusEnd="77v">
+                        <head type="CCC">
+                            <name type="author">Eadmer of Canterbury OSB</name>, <title>Vita <name type="person">Sancti
+                                    Dunstani</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Vita <name type="person">sancti Dunstani</name> archiepiscopi et confessoris</title>
+                        </head>
+
+                        <incipit locus="102" locusNew="51v">Quia Deum in sanctis suis mirabilem</incipit>
+                        <ab>
+                            <ref type="bibl" target="Stubbs 1874">Stubbs, l. c., p. 162</ref>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="11" locusStart="77v" locusEnd="88r">
+                        <head type="CCC">
+                            <name type="author">Eadmer of Canterbury OSB</name>, <title>Miracula <name type="person"
+                                    >Sancti Dunstani</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De miraculis quae idem pater mundo exemptus fecit in mundo</title>
+                        </head>
+
+                        <incipit locus="154" locusNew="77v">Nonnulla que de uita <name type="person">beati
+                                dunstani</name></incipit>
+                        <ab>
+                            <ref type="bibl" target="Stubbs 1874">Stubbs, l. c., p. 223</ref>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="12" locusStart="88v" locusEnd="95v">
+                        <head type="CCC">
+                            <name type="author">Anselm of Canterbury OSB (attrib.)</name>, <title>De ordinatione <name
+                                    type="person">beati Gregorii</name> Anglorum apostoli</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Scriptum de ordinatione <name type="person">beati Gregorii</name> Anglorum
+                                apostoli</title>
+                        </head>
+                        <incipit locus="176" locusNew="88v">Ad gloriam beati patris <name type="person">Gregorii</name>
+                            audientium mentibus commendandam affectum nostrum hodierne diei solemnitas
+                            excitauit</incipit>
+                        <explicit locusNew="95v">gratiosos et exultantes deo perspexerit. ipso eodem deo donante qui
+                            semper idem existens eternaliter uiuit uincit regnat et imperat. Amen</explicit>
+                        <rubric locusNew="95v">Scriptum de ordinatione <name type="person">beati Gregorii</name>
+                            explicit</rubric>
+                        <ab>
+                            <ref type="bibl" target="Rule 1884">Rule. Eadmer, <hi rend="italic">Historia Novorum</hi>
+                                LXXIX note</ref>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="13" locusStart="95v" locusEnd="107v">
+                        <head type="CCC">
+                            <name type="author">Eadmer of Canterbury OSB</name>, <title>De excellentia <name
+                                    type="person">uirginis Mariae</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Consideratio <name type="author">Eadmeri</name> peccatoris et pauperis Dei de
+                                excellentia gloriosissimae virginis matris Dei</title>
+                        </head>
+
+                        <incipit locus="190" locusNew="95v">Supereminentem omni quod post hominem deum creatum
+                            est</incipit>
+
+                        <explicit locusNew="107v">iugi deuotione famuletur qui cum deo patre et spiritu sancto uiuit
+                            dominatur et regnat per infinita secula deus. AMHN</explicit>
+
+                        <rubric locusNew="107v">Scriptum <name type="author">Edmeri</name> peccatoris de piissima matre
+                            domini saluatoris explicit</rubric>
+
+                    </msItem>
+
+                    <msItem n="14" locusStart="107v" locusEnd="123v">
+                        <head type="CCC">
+                            <name type="author">Eadmer of Canterbury OSB</name>, <title>Vita <name type="person">Sancti
+                                    Oswaldi</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Vita <name type="person">sancti Oswaldi</name> Eboracensis archiepiscopi et
+                                confessoris</title>
+                        </head>
+
+                        <incipit locus="214" locusNew="107v">Secundum propositum gratie dei uenerandus eboracensis
+                            antistes</incipit>
+                        <ab><ref type="bibl" target="Raine 1886">Raine, l. c. II 1</ref>. <ref type="bibl"
+                                target="Migne 159">P. L. CLIX</ref></ab>
+                        <ab><locus locusNew="111r">221</locus>-<locus locusNew="111v">222</locus> form a slip (<locus
+                                locusNew="111r">221</locus> blank) of smaller size, <handNote>in another
+                            hand</handNote>, supplying an omission</ab>
+
+                    </msItem>
+
+                    <msItem n="15" locusStart="123v" locusEnd="130v">
+                        <head type="CCC">
+                            <name type="author">Eadmer of Canterbury OSB</name>, <title>Miracula <name type="person"
+                                    >Sancti Oswaldi</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De miraculis ejusdem patris</title>
+                        </head>
+
+                        <incipit locus="246" locusNew="123v">Transcursis iuxta quod deus dare dignatus est</incipit>
+                        <ab>
+                            <ref type="bibl" target="Raine 1886">Raine, l. c. II 41</ref>
+                        </ab>
+
+                    </msItem>
+                    <msItem n="16" locusStart="130v" locusEnd="141r">
+                        <head type="CCC">
+                            <name type="author">Anselm of Canterbury OSB (attrib.)</name>, <title>De beatitudine
+                                perennis uitae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Scriptum de beatitudine vitae perennis, desumptum ex sermone habito ab <name
+                                    type="person">Anselmo Cantuariensi</name> in <name type="place">cenobio
+                                    Cluniacensi</name></title>
+                        </head>
+
+                        <ab locusNew="130v">Prologue</ab>
+                        <incipit locus="261" locusNew="131r">Reuerendo domino et fratri et amico suo <name type="person"
+                                >Gulielmo</name> monacho ... <name type="author">Eadmerus</name></incipit>
+                        <explicit locusNew="131r">recordari ualebam. Ualeat sanctitas tua et oret pro me</explicit>
+                        <rubric locusNew="131r">E(x)plicit prologus</rubric>
+                        <rubric locusNew="131r">Incipit scriptum quoddam de beatitudine perennis uite</rubric>
+                        <incipit locusNew="131r">Multi homines quibus nonnumquam boni mores</incipit>
+                        <ab>(<ref type="bibl" target="Migne 159"><supplied>P. L.</supplied> CLIX 587</ref>)</ab>
+                        <explicit locusNew="141r">Sit igitur deus benedictus in omnibus. Amen</explicit>
+                        <rubric locusNew="141r">Explicit scriptum de beatitudine perennis uite sumptum de uerbis beati
+                            patris <name type="person">Anselmi</name> Cantuariensis archiepiscopi</rubric>
+                        <ab>Cf. <ref type="ms" target="CCC135">MS 135</ref> etc.</ab>
+                    </msItem>
+
+                    <msItem n="17" locusStart="141r" locusEnd="146v">
+                        <head type="CCC">
+                            <name type="author">Eadmer of Canterbury OSB</name>, <title>Vita <name type="person">Sancti
+                                    Bregowini archiepiscopi</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Vita <name type="person">beati Bregowini</name> Cantuariensis archiepiscopi et
+                                confessoris</title>
+                        </head>
+
+                        <incipit locus="281" locusNew="141r">Exordium propositi mei atque procursum</incipit>
+                        <explicit locusNew="146v">benedictus in secula seculorum et ultra amen</explicit>
+                        <ab><ref type="bibl" target="Hardy 1862b">Hardy I 483</ref>. <ref type="bibl"
+                                target="Wharton 1691b">Wharton, <hi rend="italic">Anglia Sacra</hi> II 184</ref>. <ref
+                                type="bibl" target="Pinius, Cuperus and Stiltingus 1741">Acta Sanctorum 26 Aug. (V
+                                831)</ref>. <ref type="bibl" target="Migne 159">P. L. CLIX 753</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="18" locusStart="147r" locusEnd="189v">
+                        <head type="CCC">
+                            <name type="author">Eadmer of Canterbury OSB</name>, <title>Vita <name type="person">Sancti
+                                    Anselmi</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Vita <name type="person">Anselmi</name> Cantuariensis archiepiscopi, libri ii</title>
+                        </head>
+
+                        <rubric locus="293" locusNew="147r">Incipiunt capitula in vitam <name type="person"
+                                >Anselmi</name> archiepiscopi</rubric>
+                        <ab>Paler ink</ab>
+                        <rubric locus="299" locusNew="150r">Incipit Prefatio sequentis operis</rubric>
+                        <incipit locusNew="150r">Quoniam multas et antecessorum</incipit>
+                        <ab locusNew="150r">
+                            <decoNote>A gay initial in red, green and purple</decoNote>
+                        </ab>
+                        <ab locusNew="167r">Liber II, <locus locusNew="167r">333</locus></ab>
+                        <ab>Ends <locus locusNew="189r">377</locus>. <locus locusNew="189v">378</locus> blank</ab>
+                        <ab>
+                            <ref type="bibl" target="Rule 1884">Rule, l. c. p. 303 sqq.</ref>
+                            <ref type="bibl" target="Migne 158">P. L. CLVIII 49</ref>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="19" locusStart="190r" locusEnd="197v">
+                        <head type="CCC">
+                            <name type="author">Eadmer of Canterbury OSB</name>, <title>Miracula <name type="person"
+                                    >Sancti Anselmi</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Descriptio quorundam miraculorum gloriosi patris <name type="person">Anselmi</name>
+                                archiepiscopi</title>
+                        </head>
+
+                        <ab locusNew="190r">Prologue</ab>
+                        <incipit locus="379" locusNew="190r">Cum uitam uenerandi patris</incipit>
+                        <ab>Text</ab>
+                        <incipit locus="380" locusNew="190v"><name type="person">Helias</name> quidam nomine monachus
+                            fuit</incipit>
+                        <explicit locusNew="195v">Ego hic finem imposui</explicit>
+                        <ab><locus locusNew="196r">391</locus>-<locus locusNew="197v">394</locus> blank</ab>
+                        <ab><ref type="bibl" target="Rule 1884">Rule, p. 425</ref>. <ref type="bibl"
+                                target="Liebermann 1879b">Liebermann, <hi rend="italic">Ungedruckte Anglonormannische
+                                    Geschichtsquellen</hi> no. XVI (p. 302, 3)</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="20" locusStart="198r" locusEnd="208r">
+                        <head type="CCC">
+                            <name type="author">Eadmer of Canterbury OSB</name>, <title>De conceptione <name
+                                    type="person">sanctae Mariae</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De conceptione sanctae <name type="person">Mariae</name> editum ab <name
+                                    type="author">Eadmero</name> monacho magno peccatore</title>
+                        </head>
+
+                        <incipit locus="395" locusNew="198r">Principium quo salus mundo processit mihi considerare
+                            uolenti</incipit>
+                        <explicit locusNew="208r">sue carnis substantia uerum hominem genuisse. Amen</explicit>
+                        <rubric locusNew="208r">Explicit de conceptione Sancte <name type="person">Marie</name></rubric>
+                        <ab><ref type="bibl" target="Thurston and Slater 1904">Ed. 1904 by Thurston and Slater
+                                (Freiburg, Herder)</ref>: cf. <ref type="bibl" target="Migne 159">P.L. CLIX
+                            301</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="21" locusStart="208r" locusEnd="212r">
+                        <head type="CCC">
+                            <name type="author">Eadmer of Canterbury OSB</name>, <title>Vita <name type="person">beati
+                                    Petri</name> primi abbatis</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Vita beati <name type="person">Petri</name> primi abbatis cenobii gloriosorum
+                                apostolorum Petri et Pauli quod Cantuariae situm est</title>
+                        </head>
+
+                        <incipit locus="416" locusNew="208v">Inter innumeras sue deitatis sententias summus et equo
+                            moderamine cuncta disponens</incipit>
+
+                        <explicit locusNew="212r">coheredes ipsi constituat per eum qui secum in unitate sancti spiritu
+                            per omnia secula uiuit et regnat. Amen</explicit>
+                        <ab><ref type="bibl" target="Hardy 1862a">Hardy I 206</ref>. Cf. <ref type="bibl"
+                                target="Bollandus and Henschenius 1643">Acta Sanctorum 6 Jan. (I 334)</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="22" locusStart="212r" locusEnd="212v">
+                        <head type="CCC">
+                            <name type="author">Eadmer of Canterbury OSB</name>, <title>De memoria sanctorum quos
+                                ueneraris</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sententia de memoria sanctorum quos veneraris</title>
+                        </head>
+
+                        <ab>In three Lectiones</ab>
+                        <ab>i.</ab>
+                        <incipit locus="423" locusNew="212r">Ex memoria sanctorum que a filiis sancte ecclesie</incipit>
+                        <ab>ii.</ab>
+                        <incipit locusNew="212r">Cum enim isti diebus ac noctibus insistunt laudibus dei</incipit>
+                        <ab>iii.</ab>
+                        <incipit locus="424" locusNew="212v">Uult et precipit ut eos diligamus</incipit>
+                        <explicit locusNew="212v">misericorditer introducat</explicit>
+
+                    </msItem>
+
+                    <msItem n="23" locusStart="212v" locusEnd="220v">
+                        <head type="CCC">
+                            <name type="author">Eadmer of Canterbury OSB</name>, <title>Scriptum <name type="author"
+                                    >Eadmeri</name> peccatoris ad mouendam super se misericordiam <name type="person"
+                                    >beati Petri</name> ianitoris regni caelestis</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Scriptum <name type="author">Eadmeri</name> peccatoris ad commovendam super se
+                                misericordiam <name type="person">beati Petri</name> janitoris regni celestis</title>
+                        </head>
+
+                        <incipit locus="425" locusNew="213r">Eximium decus regni dei aliqua mei officii
+                            deuotione</incipit>
+                        <explicit locusNew="220v">et ad idem felici cursu peruenire. Amen</explicit>
+                        <rubric locusNew="220v">Explicit scriptum <name type="author">Edmeri</name> de memoria et
+                            prouocatione gratie beati <name type="person">Petri</name></rubric>
+
+                    </msItem>
+
+                    <msItem n="24" locusStart="220v" locusEnd="225v">
+                        <head type="CCC">
+                            <name type="author">Eadmer of Canterbury OSB</name>, <title>De reliquiis <name type="person"
+                                    >Sancti Audoeni</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De reliquiis <name type="person">sancti Audoeni</name> et quorundam aliorum sanctorum
+                                quae <name type="place">Cantuariae in ecclesia Domini salvatoris</name> habentur</title>
+                        </head>
+
+                        <incipit locus="441" locusNew="221r">Quoniam multas terrarum partes fama respersit reliquias
+                            beati <name type="person">Audoeni</name></incipit>
+                        <explicit locusNew="225v">hominem omnino reliquit immunem. ubi ad uota precum eius dictum est a
+                            circumstantibus Amen Amen Amen</explicit>
+                        <ab><ref type="bibl" target="Rule 1884">Rule, l. c. LXXIX note</ref>. <ref type="bibl"
+                                target="Bishop and Gasquet 1908">E. Bishop, <hi rend="italic">Bosworth Psalter</hi>, p.
+                                64, note</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="25" locusStart="226r" locusEnd="231v">
+                        <head type="CCC">
+                            <name type="author">Eadmer of Canterbury OSB</name>, <title>Consideratio de beatissimo <name
+                                    type="person">Gabriele archangelo</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Insipida quaedam divinae dispensationis consideratio edita ab <name type="author"
+                                    >Eadmero</name> magno peccatore de beatissimo <name type="person">Gabriele</name>
+                                archangelo</title>
+                        </head>
+
+                        <rubric locus="451" locusNew="226r">Insipida quedam diuine dispensationis consideratio</rubric>
+                        <incipit locusNew="226r">Quia me de nonnullis que corporeis sensibus subiacent</incipit>
+                        <explicit locusNew="230v">ipso nuntiante in homine uenit. uiuens et regnans cum deo patre suo in
+                            unitate spiritu sancti unus solus et omnipotens deus per immortalia secula seculorum.
+                            Amen</explicit>
+                        <ab><locus locusNew="231r">461</locus> blank. On <locus locusNew="231v">462</locus>
+                            <handNote>in a late hand</handNote>: Liber de vitis aliquot sanctorum</ab>
+
+                    </msItem>
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: RJR 19/12/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

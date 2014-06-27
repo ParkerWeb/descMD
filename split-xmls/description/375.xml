@@ -1,0 +1,348 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC375">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>375</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>9. 8</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>323</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Metrical Lives of St Katherine and St Ælfheah, Hymns</head>
+                <head type="James">Passio S. Katherinae. Passio S. Ælphegi, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">211</height>
+                        <width unit="mm">141</width>
+                    </measureGrp><measureGrp type="James">8.3 x 5.5</measureGrp>, <extent>ff. 1 + 120</extent>,
+                        <layout>32 lines to a page</layout>. Cent. <origDate>xii-xiii</origDate>, <handNote>very
+                        beautifully written, not in the <name type="place">Christ Church</name> hand, but in that of
+                            <name type="place">St Albans</name> (see later)</handNote>.</p>
+
+                <p function="Provenance">From <name type="place">Christ Church, Canterbury</name>. At top of f.
+                        <locus>1r</locus> (<origDate>xii</origDate>): <lb/>Passio (written over erasure) sce <name
+                        type="person">katerine</name> et sci <name type="person">Ælphegi</name>. <lb/>In the upper R.
+                    corner the mark <figure xml:id="figure219b"/>. <lb/><ref type="bibl" target="James 1903"><hi
+                            rend="italic">Ancient Libraries</hi>, p. 49, no. 281</ref>.</p>
+                <p function="Provenance" rend="withinContents">It seems to me that the book must be a production of the
+                    scriptorium of <name type="place">St Albans</name> sent probably as a present to <name type="place"
+                        >Christ Church</name>. </p>
+
+                <p function="Additions">The flyleaf is a slip having on the verso <supplied>(f.
+                        <locus>1A</locus>)</supplied> in <name type="person">Parkerian</name> hand an extract from <name
+                        type="author">Eadmer</name>'s <hi rend="italic">Vita <name type="person">Anselmi</name></hi> (I,
+                    cap. 30): <lb/><name type="person">Lanfrancus</name> ad <name type="person">Anselmum</name>.
+                    <lb/>Fateor inquit subtilem perspicaciam (referring to <name type="person">Osbern</name>'s <hi
+                        rend="italic">Passio <name type="person">Aelphegi</name></hi>).</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num>-15<num>8</num></collation>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1a (loose leaf) + 1-120 + iii-iv</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="54v">
+                        <head type="CCC">
+                            <title>Metrical life of <name type="person">St Katherine</name></title>
+                        </head>
+                        <head type="James">
+                            <title>Passio <name type="person">Sancte Katerine</name></title>
+                        </head>
+
+                        <ab>(no heading)</ab>
+                        <incipit locusNew="1r">
+                            <lg>
+                                <l>Ut super omne melos delectat cantus oloris</l>
+                                <l>Cum uicina premit mors et noua causa doloris</l>
+                            </lg>
+                        </incipit>
+                        <ab>30 lines in sets of six<lb/> 1-6 rhyme –oris<lb/> 7-12 rhyme –orem <lb/> 13-18 rhyme –undo
+                            <lb/> 19-24 rhyme –auit <lb/> 25-30 rhyme –are </ab>
+                        <ab>ending</ab>
+                        <explicit locusNew="1r">
+                            <lg>
+                                <l>Hanc imitemur ad hec bona que meruit properare</l>
+                                <l>Festinemus et hec sine tempore finis amare</l>
+                            </lg>
+                        </explicit>
+
+                        <ab>
+                            <decoNote>Gold initial to text of f. <locus>1v</locus></decoNote>
+                        </ab>
+                        <incipit locus="1v">Non humilis turbe proles insignis in urbe <name type="place"
+                                >Alexandrina</name> uirgo nituit <name type="person">catherina</name></incipit>
+                        <ab>In paragraphs, <decoNote>with red, blue and green initials</decoNote></ab>
+                        <ab>Fresh divisions begin at</ab>
+                        <ab locus="8v">Talia dum memorat dum uiua uoce perorat</ab>
+                        <ab locus="16r">Uirgo sit inquit ita sed si minus arte polita</ab>
+                        <ab locus="24r">Iam <name type="person">catherina</name> satis tantis ac tot superatis</ab>
+                        <ab locus="34r">Nox abit aurore superaccedente rubore</ab>
+                        <ab>
+                            <decoNote>On f. <locus>42r</locus> is a coloured drawing occupying the upper half of the
+                                page: washed with colour: no background. <name type="person">Katherine</name> in green
+                                habit with jewelled nimbus stands in the midst of four red and brown wheels set with
+                                knives. Divine Hand in cloud on L. The wheels are all set upright, showing all the
+                                spokes</decoNote>
+                        </ab>
+
+                        <incipit locus="44v" locusNew="43v">
+                            <lg>
+                                <l>At Regina dolis non cessit fragmine molis</l>
+                                <l>Territa penali</l>
+                            </lg>
+                        </incipit>
+
+                        <ab>Ends</ab>
+
+
+                        <explicit locus="54v">
+                            <lg>
+                                <l>O pia martir aue cui spirat aroma suaue, etc.</l>
+                                <l>...</l>
+                                <l>Hec precor hec dona ne frauder uirgo corona</l>
+                                <l>Victricibus palme tibi sit laus spiritus alme</l>
+                            </lg>
+                        </explicit>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="54v" locusEnd="56v">
+                        <head type="CCC">
+                            <name type="author">Vitalis of Blois</name>, <title>Geta (extract)</title>
+                        </head>
+
+                        <ab>In a different ink, not much later, a speech by <name type="person">Sosia</name> and reply
+                            by <name type="person">Geta</name> (cf. the <hi rend="italic">Comoedia Getae</hi>)</ab>
+
+                        <incipit locus="54v">
+                            <lg>
+                                <l>Contemptus limo sapientia marcet in imo</l>
+                                <l>Que fuerat primo florida parque thymo</l>
+                            </lg>
+                        </incipit>
+
+                        <ab>Ending</ab>
+
+                        <explicit locusNew="56v">
+                            <lg>
+                                <l>Ergo studere uelis ut ames. ac mente fidelis </l>
+                                <l>Cantes in celis carmina plena melis </l>
+                                <l>Ut perpes uita feruenter amando petita </l>
+                                <l>Que super astra sita sit tibi. fiat ita. Amen </l>
+                            </lg>
+                        </explicit>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="57r" locusEnd="120r">
+                        <head type="CCC">
+                            <title>Metrical life of <name type="person">St Ælfheah</name></title>, <title>Hymns</title>
+                        </head>
+                        <head type="James">
+                            <title>Passio <name type="person">Sancti Ælphegi</name></title>
+                        </head>
+
+                        <ab locusNew="57r"><handNote>In a hand like the first</handNote>: <decoNote>large gold
+                                initial</decoNote> (no title)</ab>
+
+                        <incipit locus="57r">
+                            <lg>
+                                <l>Mens quod amando diu concepit de generosa</l>
+                                <l>Martiris <name type="person">Ælfegi</name> uirtute parit studiosa</l>
+                                <l>Tanti gesta patris recitare uolens animosa</l>
+                                <l>Dum pro posse suo fierit cupit officiosa </l>
+                                <l>Metra nouando canit que sunt prius edita prosa</l>
+                                <l>Nam pater <name type="person">Osbernus</name> de laude uiri speciosa </l>
+                                <l>Scribit habetque sibi satis id gens religiosa </l>
+                                <l>Sed uirtute tamen minor etas deliciosa </l>
+                                <l>Carmine scripta probat cui prosa dicta perosa</l>
+                            </lg>
+                        </incipit>
+
+                        <ab>This then is a versification of <name type="person">Osbern</name>'s work, probably by the
+                            author of no. 1</ab>
+                        <ab>The Passion begins</ab>
+
+                        <incipit locusNew="57r">
+                            <lg>
+                                <l>Floruit insignis pater <name type="person">Ælfegus</name> generosa</l>
+                                <l>De radice fluens ac summe religiosa</l>
+                            </lg>
+                        </incipit>
+
+                        <ab>Breaks occur</ab>
+
+                        <incipit locus="65v">Uenerat interea presul <name type="person">Wentanus</name> ad
+                            astra</incipit>
+                        <incipit locus="74v">Iam dorobernorum summus patriarcha beatus</incipit>
+
+                        <incipit locus="84r">Cum fragor armorum cecidisset pace sepultus</incipit>
+                        <incipit locus="96v">Hactenus excidium destructe fleuimus urbis</incipit>
+                        <incipit locus="106v">Talia <name type="person">dunstanus</name> dum pertractando
+                            reuoluit</incipit>
+                        <ab>Ending</ab>
+                        <explicit locusNew="116v">
+                            <lg>
+                                <l>Omnibus expletis finem licet expediamus</l>
+                                <l>Quo tibi festiuas laudes pater alme canamus</l>
+                            </lg>
+                        </explicit>
+
+                        <seg>
+                            <incipit locus="116v">
+                                <lg>
+                                    <l>Salue festa dies celebris lux tempus et hora</l>
+                                    <l>Qua pater <name type="person">ælfegus</name> uenit ad alta poli</l>
+                                </lg>
+                            </incipit>
+                            <explicit locusNew="118r">
+                                <lg>
+                                    <l>Ergo patris tanti festum gratanter honorans</l>
+                                    <l>Cantica sollemni digna repende die</l>
+                                </lg>
+                            </explicit>
+                        </seg>
+                        <seg>
+                            <ab>On <name type="person">S. Alban</name></ab>
+                            <incipit locus="118r">
+                                <lg>
+                                    <l>Salue festa dies celebri dignissima laude</l>
+                                    <l>Qua deus <name type="person">Albanum</name> uexit ad astra poli</l>
+                                </lg>
+                            </incipit>
+                            <explicit locusNew="118v">
+                                <lg>
+                                    <l>Ergo rogemus eum qui uexit ad astra tropheum</l>
+                                    <l>Ut pietate dei consociemur ei</l>
+                                </lg>
+                            </explicit>
+                        </seg>
+
+                        <seg>
+                            <ab>On the Invention of <name type="person">S. Alban</name></ab>
+                            <incipit locus="118v">
+                                <lg>
+                                    <l>Ecce dies celebris memori uenerabilis euo</l>
+                                    <l>Martyris eximii prisca trophea nouans</l>
+                                    <l>Hec est illa dies meruit que prima uidere</l>
+                                    <l>Martyris <name type="person">Albani</name> menbra sepulta diu</l>
+                                </lg>
+                            </incipit>
+                            <explicit locusNew="119r">
+                                <lg>
+                                    <l>Martyris oret opem tanto plebs leta patrono</l>
+                                    <l>Plebs quam pre cuntis ossa reperta beant</l>
+                                </lg>
+                            </explicit>
+                        </seg>
+
+
+                        <seg>
+                            <ab>On SS. <name type="person">Peter</name> and <name type="person">Paul</name></ab>
+                            <incipit locus="119r">
+                                <lg>
+                                    <l>Salue festa dies totum celebranda per orbem</l>
+                                    <l>Martirii duplicis lumine clara micans</l>
+                                </lg>
+                            </incipit>
+                            <ab locusNew="119r">
+                                <lg>
+                                    <l>Hac etenim <name type="person">Petrus</name>
+                                        <name type="person">Paulo</name> comitante triumphans</l>
+                                    <l>Ad supera sedes ampla trophea tulit</l>
+                                </lg>
+                            </ab>
+                            <explicit locusNew="119v">
+                                <lg>
+                                    <l>Nos igitur tantis ducibus iubilemus eorum</l>
+                                    <l>Poscentes meritis perpete luce frui</l>
+                                </lg>
+                            </explicit>
+                        </seg>
+
+                        <seg>
+                            <ab>
+                                <handNote>In a quite different and very rough hand</handNote>
+                            </ab>
+
+                            <ab>On Christmas (?)</ab>
+                            <incipit locus="119v">
+                                <lg>
+                                    <l>Salue festa dies celebri recolenda triumpho</l>
+                                    <l>Quam celebrat sponso sponsa dicata suo</l>
+                                </lg>
+                            </incipit>
+                            <explicit locusNew="120r">
+                                <lg>
+                                    <l>Ergo sequamur eam uirtutum dona ferentes</l>
+                                    <l>Ad salomona pium nos pia uita trahat </l>
+                                    <l>Sancta syon nos ad christum trahat ex aquilone</l>
+                                    <l>Partis in australis nos regione locans</l>
+                                </lg>
+                            </explicit>
+                        </seg>
+                    </msItem>
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: Foliation check BA, awaiting final title check by RJR - see esp. Item 2 -
+                                completed 6/11/2008</p>
+                            <p>remarks: Library mark to add. Foliation check - image of f. 1A not present.</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>
