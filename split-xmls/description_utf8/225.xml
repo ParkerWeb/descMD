@@ -1,0 +1,131 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC225">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>225</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Lib. ab Al. 45</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Guido de Monte Rocherii, Manipulus curatorum</head>
+                <head type="James">Manipulus Curatorum</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">238</height>
+                        <width unit="mm">167</width>
+                    </measureGrp>, <measureGrp type="James">9.5 x 6.6</measureGrp>, <extent>ff. 159 + 2</extent>,
+                        <layout>34 lines to a page</layout>. Cent. <origDate>xv</origDate>, <handNote>neatly written in
+                        an Italian hand</handNote>. Italian stamped binding.</p>
+                <p><label>Collation:</label>
+                    <collation>1 vellum flyleaf, 1<num>10</num>-16<num>10</num> (wants 10), 1 vellum
+                    flyleaf</collation>.</p>
+                <p function="Provenance">E Lib. <name type="person" key="JohnGibs-001">Joan: Gibson</name> C. C. C. C.
+                    Alum.<lb/>He was admitted in <date>1717</date>.<lb/>Added in MS. in the College copy of Stanley's
+                    Catalogue.</p>
+                <p function="Additions">On the flyleaf a note of early editions of the book.</p>
+                <p function="Additions" rend="withinContents">Watermark of paper. Arrow in bow.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i + 1-158 + ii</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="2r" locusEnd="156v">
+                        <head type="CCC">
+                            <name type="author">Guido de Monte Rocherii</name>, <title>Manipulus curatorum</title>
+                        </head>
+                        <ab>f. <locus>1r</locus>-<locus>1v</locus> a few notes</ab>
+                        <rubric locus="2r">Manipulus Curatorum</rubric>
+                        <incipit locusNew="2r">In isto libello sunt tres particule</incipit>
+                        <ab>List of divisions</ab>
+                        <rubric locus="4r">Incipit manipulus curatorum compositus a <name type="author">magistro Guidone
+                                de Monte Rocherio</name></rubric>
+                        <incipit locusNew="4r">Reuerendo in Christo ... <name type="person">d. Raymundo</name></incipit>
+                        <explicit locusNew="5r">scriptum <name type="place">Tiuoli</name> anno domini <date>m<abbr
+                                    rend="superscript">o</abbr> ccc<abbr rend="superscript">o</abbr> xxxiii<abbr
+                                    rend="superscript">o</abbr></date></explicit>
+                        <rubric locus="5r">Incipit prologus</rubric>
+                        <incipit locusNew="5r">Quoniam sciendum quod dicit <name type="person">propheta
+                            malachias</name></incipit>
+                        <explicit locusNew="6r">sunt agenda</explicit>
+                        <rubric locus="6r">Incipit libellus qui dicitur manipulus curatorum etc.</rubric>
+                        <incipit locusNew="6r">Diuiditur ergo presens opusculum</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="166v" locusNew="156v">et pro me peccatore ad deum preces fundat amen, ora pro
+                            nobis sancta dei genetrix ut digni etc.</explicit>
+                        <ab>Note added</ab>
+                        <ab>
+                            <q>Si quis peccauerit advocatum habemus etc.</q>
+                        </ab>
+
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 23/05/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,150 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC437">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>437</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>I. 15</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>105</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Bible</head>
+                <head type="James">Biblia</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">190</height>
+                        <width unit="mm">135</width>
+                    </measureGrp>, <measureGrp type="James">7.9 x 5.8</measureGrp>, <extent>ff. 300</extent>,
+                        <layout>double columns of 64 lines</layout>. Cent. <origDate>xiii</origDate>, <handNote>in a
+                        very fine minute hand.</handNote>
+                    <decoNote>Initials in blue with red flourishing</decoNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>i (six), 1<num>16</num>-5<num>16</num> 6<num>18</num> 7<num>14</num> 8<num>12</num>
+                            9<num>10</num> 10<num>14</num> 11<num>12</num> 12<num>16</num>-14<num>16</num>
+                            15<num>14</num> 16<num>16</num>-18<num>16</num> 19<num>12</num>
+                    20<num>12</num></collation>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-300 + iii-iv</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+                    <msItem n="0" locusStart="1r" locusEnd="6v">
+                        <head type="CCC"><name type="author">Peter of Poitiers</name>, <title>Genealogia
+                                historiarum</title></head>
+                        <ab locus="1r">On the first six leaves is an epitome of Bible History to the Ascension with
+                            genealogies (names in medallions)</ab>
+                        <incipit locusNew="1v">Considerans historie sacre prolixitatem</incipit>
+                        <explicit locusNew="5v">cum <name type="person">ioseph</name> fuit electus inter dies
+                            ascensionis et pentecosten</explicit>
+                        <ab>
+                            <supplied>ff. 5 and 6 have been misbound (6/5), while f. <locus>5v</locus> is the explicit,
+                                the epitome continues to f. <locus>6v</locus></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="1" locusStart="7r" locusEnd="283v">
+                        <head type="CCC">
+                            <title>Bible</title>
+                        </head>
+                        <ab locus="7r">Prol. a. Jerome ad paulinum</ab>
+                        <ab locusNew="8v">b. Desiderii mei</ab>
+                        <ab locusNew="9r">Genesis-2 Par.; no prayer of Manasses</ab>
+                        <ab locus="119r" locusNew="99v">Ezr., Neem., Tobit-Job</ab>
+                        <ab locusNew="119r">Psalter, Gallican</ab>
+                        <ab locusNew="131v">Prov., Ecclus. Oratio Salomonis</ab>
+                        <ab locusNew="153v">Ysa.- Mal. 1, 2 Macc.</ab>
+                        <ab locusNew="221v">Evv., Act., Paul. Epp.</ab>
+                        <ab locusNew="264v">Prefacio pelagii. Primum queritur</ab>
+                        <ab locusNew="265r">Laod. follows Col.</ab>
+                        <ab locusNew="269v">Cath. Epp., Apoc.</ab>
+                        <ab locus="277r">blank</ab>
+                        <ab locus="278r">Interpretationes nominum</ab>
+                        <incipit locusNew="278r"><name type="person">Aaron</name> mons fortis</incipit>
+                        <explicit locusNew="283r"><name type="person">Zorobabel</name> ... uel iste magister
+                            confusionis. Aggeus et m<abbr rend="superscript">t</abbr> I</explicit>
+                        <ab locus="283v">blank</ab>
+
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="284r" locusEnd="296v">
+                        <head type="CCC">
+                            <title>Themata for Sermons</title>
+                        </head>
+                        <ab locus="284r">Themata for sermons</ab>
+                        <rubric locusNew="284r">Dom. I in aduentu domini</rubric>
+                        <incipit locusNew="284r">Cum appropinquaret ... Nota quod hoc ewangelium deseruit duobus
+                            diebus</incipit>
+                        <ab locusNew="295r">The last (unfinished ?) is for <hi rend="italic">Dom. XXVI Post pent.</hi>,
+                            on <hi rend="italic">Est puer unus hic</hi></ab>
+                        <ab locus="295r">List of topics in the Gospels</ab>
+                        <incipit locusNew="295r">de diuinitate uerbi et genealogia ihesu</incipit>
+                        <ab locus="296r">List of Epistles and Gospels. Proper of Time</ab>
+                        <ab>ff. <locus>297r</locus>-<locus>300v</locus> blank</ab>
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: KW 20/05/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

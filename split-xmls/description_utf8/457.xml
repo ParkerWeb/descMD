@@ -1,0 +1,162 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC457">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>457</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>N. 12</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>177</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Alexander of Canterbury OSB, Liber ex dictis beati Anselmi</head>
+                <head type="James">Alexandri Dicta Anselmi</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">174</height>
+                        <width unit="mm">122</width>
+                    </measureGrp>, <measureGrp type="James">6.7 x 5</measureGrp>, <extent>ff. 1 + 116</extent>,
+                        <layout>23 lines to a page</layout>. Cent. <origDate>xii early</origDate>, <handNote>in the
+                            <name type="place">Christ Church</name> hand</handNote>.</p>
+
+
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num>-14<num>8</num> 15<num>4</num></collation>.</p>
+                <p><label>2 fo.:</label>
+                    <secFol>hominum</secFol> or <secFol>vitaret</secFol>.</p>
+                <p function="Additions">On the flyleaf in <name type="author" key="MatthewP-001">Parker</name>'s chalk:<lb/>
+                    <name type="person">Edmerus</name> author Scriptor is qui scripsit historiam edmeri rerum nouarum in
+                        <name type="place">anglia</name>.<lb/> and the same on the verso.</p>
+                <p function="Provenance">At top of f. <locus>1r</locus> partly in capitals:<lb/> Liber ex dictis beati
+                        <name type="author">Anselmi</name>. De monte humilitatis,<lb/> and the mark
+                    &#183;AN&#183;</p>
+                <p function="Provenance">To the left is a later name.</p>
+                <p function="Provenance">It may be no. 114 in Eastry's Catalogue (<ref type="bibl" target="James 1903"
+                            ><hi rend="italic">Ancient Libraries</hi>, p. 30</ref>): De monte humilitatis secundus.</p>
+
+                <p function="Research">The tract is by <name type="author">Alexander</name> a monk of <name type="place"
+                        >Christ Church</name>. See <ref type="bibl" target="Rule 1884">Mr Rule's preface to his edition
+                        of Eadmer's <hi rend="italic">Historia</hi> (Rolls)</ref>, p. lxxv. In an appendix to his
+                    Preface, pp. cxx-cxxvi, he has printed the greater part of chapters 21, 39-42, 44, 45.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i + 1-116 + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="115v">
+                        <head type="CCC">
+                            <name type="author">Alexander of Canterbury OSB</name>, <title>Liber ex dictis beati
+                                Anselmi</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>[<name type="author">Eadmeri</name>] liber ex dictis B. <name type="person"
+                                    >Anselmi</name> et de miraculis ejusdem ad abbatem <name type="person"
+                                    >Anselmum</name> S. R. E. legatum archiepiscopi nepotem</title>
+                        </head>
+
+                        <rubric locus="1r">Incipit prologus subiecti operis</rubric>
+                        <incipit locusNew="1r">Compellis me venerabilis Abba et sancte Romane ecclesie legate domine
+                                <name type="person">anselme</name> ut tibi (these lines re-written in cent.
+                                <origDate>xvi</origDate>) quedam de dictis magnifici uiri <name type="person"
+                                >anselmi</name> ... auunculi tui</incipit>
+                        <ab>(the date suggested by <ref type="bibl" target="Rule 1884">Mr Rule</ref> for this prologue
+                            is <date>1115</date>)</ab>
+                        <explicit locusNew="1r">que a quibus acceperim in ipsis patebit relationibus</explicit>
+                        <rubric locus="1v" locusNew="1r">Explicit prologus Incipiunt capitula (52)</rubric>
+                        <rubric locus="3r">De monte humilitatis et vii<abbr rend="superscript">tem</abbr> gradibus eius
+                            et duabus eiusdem montis custodibus</rubric>
+                        <incipit locusNew="3r">Dominus et redemptor noster spiritu</incipit>
+                        <incipit locusNew="3r">Septiformis gratie plenus profundam superbie uallem uolens nobis
+                            obstruere</incipit>
+                        <ab locusNew="3r">The opening words <hi rend="italic">dominus, etc.</hi> had been omitted and
+                            the ornamented initial is given to <hi rend="italic">Septiformis</hi>: the omitted words
+                            were then added on L. by the original scribe</ab>
+                        <ab locusNew="3r">At top, erased, is <name type="place">Ecclesie Christi Cantuariens</name>
+                        </ab>
+                        <ab locusNew="71v">There is a division after ch. xx. The title of this is given in the capitula
+                            as de consecratione domus dei et sacrificiorum immolatione et eorum significatione. In the
+                            text it is shorter, de edificatione templi</ab>
+                        <ab locus="72v">It ends</ab>
+                        <explicit locus="72v">In timore uitia in amore orationes incendamus</explicit>
+                        <ab locusNew="72v">Most of the page is blank and there are some later pen-trials on it</ab>
+                        <ab locusNew="73r">The second part of the book has a separate rubric in the Capitula; de
+                            miraculis, and consists of detached stories, some of which relate to <name type="person">St
+                                Anselm</name>. The first is</ab>
+                        <rubric locus="73r">De <name type="person">sancto Iacobo</name> apostolo</rubric>
+                        <incipit locusNew="73r">Sancte recordationis <name type="person">anselmus</name> summus anglorum
+                            ecclesie pontifex dum a patria exularet</incipit>
+                        <ab locus="115v">The last chapter (Qualiter <name type="person">Willelmus</name> turbas demonum
+                            uiderit et ab eis per bonos angelos liberatus sit) ends f. <locus>115v</locus></ab>
+                        <explicit locus="115v">et utinam nos digni efficiamur eorum tuitione inuictissima et
+                            indeficienti ac salutifera amicitia</explicit>
+
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: RJR 1/9/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

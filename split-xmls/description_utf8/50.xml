@@ -1,0 +1,393 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC050">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>50</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>F. 3</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>58</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Wace, Roman de Brut. Roman de Guy de Warewic</head>
+
+                <head type="James">Brut of Wace. Gui de Warwyk etc.</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">335</height>
+                        <width unit="mm">230</width>
+                    </measureGrp><measureGrp type="James">13.2 x 9</measureGrp>, <extent>ff. 181 + 8</extent>,
+                        <layout>double columns of 42 lines</layout>. Cent. <origDate>xiii (second half)</origDate>,
+                        <handNote>well written, in pale ink</handNote>. <decoNote>Red and blue initials with pen
+                        flourishing</decoNote>: <decoNote locus="1r">saw-ornament in red and blue</decoNote> on f.
+                        <locus>1r</locus>.</p>
+
+                <p><label>Collation:</label>
+                    <collation> a<num>4</num>, 1<num>12</num>-7<num>12</num>, 8<num>6</num>,
+                            9<num>12</num>-15<num>12</num>, 16<num>8</num> (wants 8), b<num>4</num>
+                    </collation>.</p>
+
+                <p function="Additions">Fly-leaves (8) from a <origDate>xiii</origDate>th cent. Law MS. in
+                        <layout>double columns, closely written</layout>: the text contains many formulae. The names <q>
+                        <name type="person">Willelmus Prestone</name>
+                    </q> and <q>
+                        <name type="person">Bachon</name>
+                    </q> are scribbled on them.</p>
+
+                <p function="Provenance">From <name type="place" key="CantAu">St Augustine's, Canterbury</name>: on f.
+                        <locus>1r</locus>: <q locus="1r">de librario S. Aug. cum. A</q>. It is no. 1516 in the old
+                    catalogue. On f. <locus>6r</locus>: <q locus="6r">Liber de librario S. Aug. Cantuarie Dist. G<abbr
+                            rend="superscript">ra</abbr></q>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-vi + 1-181 + vii-xii</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="frm">Latin and Anglo-Norman.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="6r">
+                        <head type="CCC">
+                            <title>Genealogy of the kings of <name type="place">Britain</name></title>
+                        </head>
+
+
+
+                        <rubric locus="1r">Hec sunt nomina Regum <name type="person">britannie</name> ab aduentu <name
+                                type="person">Bruti</name> primo in <name type="place" key="Engl">insula albyon</name>
+                            usque ad primum aduentum Saxonum in <name type="place" key="Brit">britannia</name></rubric>
+                        <incipit locusNew="1r">Primus fuit <name type="person" key="Brut01">brutus</name> qui viginti
+                            quatuor annis</incipit>
+                        <explicit locusNew="3r">infra terram combustus est</explicit>
+
+                        <rubric locus="3r">Hec sunt nomina Regum britonum post primum aduentum anglorum in <name
+                                type="place" key="Engl">anglia</name></rubric>
+                        <incipit locusNew="3r">Primus erat <name type="person">aurelius</name></incipit>
+
+                        <ab locus="3v">(<name type="person">Cadwaladrus</name>)</ab>
+                        <explicit locusNew="3v">in domino obdormiuit</explicit>
+                        <rubric locusNew="3v">Expliciunt nomina regum</rubric>
+
+
+                        <incipit locusNew="3v">Numerus omnium</incipit>
+                        <explicit locusNew="3v">Hic est, centum</explicit>
+
+                        <rubric locus="3v">De quatuor viis principalibus britannie</rubric>
+                        <incipit locusNew="3v">Tante autem gracie</incipit>
+
+                        <rubric locusNew="3v">De quatuor mirabilibus britannie</rubric>
+                        <incipit locusNew="3v">Quatuor autem</incipit>
+                        <explicit locusNew="3v">per campos diffundi</explicit>
+
+                        <rubric locusNew="3v">De quinque plagis britannie</rubric>
+                        <incipit locusNew="3v">Quinque plagas ab exordio</incipit>
+                        <explicit locusNew="3v">deuicerunt et optinuerunt</explicit>
+
+                        <rubric locusNew="3v">De gygante quem <name type="person">arturus</name> sua uirtute et audacia
+                            interfecit</rubric>
+                        <incipit locusNew="4r">Nunciatur quendam gigantem</incipit>
+
+                        <rubric locus="4v">De Saxonibus et de regina <name type="person">Sexburgie</name> a <name
+                                type="place">Germania</name> ueniente</rubric>
+
+                        <rubric locusNew="4v">De prudencia anglorum</rubric>
+
+                        <rubric locus="5r">De constitucione anglorum et de diuisione terrarum et prouinciarum secundum
+                            disposicionem et libitum <name type="person">Sexburge</name> regine</rubric>
+
+                        <rubric locusNew="5r">De coronacione anglorum</rubric>
+
+
+                        <ab> List of kings from <name type="person">Hengist</name> to <name type="person">Henry
+                                III</name> (CVIII)</ab>
+
+
+
+                        <ab locus="7r" locusNew="6r">Paragraph</ab>
+                        <rubric locusNew="6r">de stirpe <name type="person">Bruti</name></rubric>
+                        <ab>Date of conquest</ab>
+
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="6v" locusEnd="90r">
+                        <head type="CCC"><name type="author" key="Wace01">Wace</name>, <title>Roman de <name
+                                    type="person">Brut</name></title></head>
+                        <head type="James">
+                            <title>The Brut of <name type="author" key="Wace01">Wace</name></title>
+                        </head>
+
+                        <incipit locus="7v" locusNew="6v">
+                            <lg>
+                                <l>Li (sic) uult oir e uult sauer</l>
+                                <l>de rei en rei de eir en eir</l>
+                            </lg>
+                        </incipit>
+                        <explicit locusNew="90r">
+                            <lg>
+                                <l>
+                                    <date>Mil. e cent. e cinkaunte anz</date>
+                                </l>
+                                <l>Fist mestre <name type="author">Wace</name> cest Romanz</l>
+                            </lg>
+                        </explicit>
+                        <rubric locusNew="90r">Explicit liber <name type="person">bruti</name> regis <name type="place"
+                                >britannie maioris</name></rubric>
+                        <ab>Ed. <ref type="bibl" target="LeRoux de Lincy1836-8">Leroux de Lincy. Rouen 1836-8</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="3" locusStart="90r" locusEnd="90v">
+                        <head type="CCC">
+                            <title>Le livere des reis de <name type="place" key="Brit">Britannie</name></title>
+                        </head>
+
+                        <ab locus="90r">
+                            <handNote>In a small hand nearly contemporary</handNote>
+                        </ab>
+
+                        <ab>A short account of the kings from <name type="person">Egbert</name> to <name type="person"
+                                >Henry III</name></ab>
+
+                        <incipit locusNew="90r">(L)i reis de <name type="place">Estengle</name> aueit <name type="place"
+                                >Crantebreggesire</name>. <name type="place">Northfolke</name> etc.</incipit>
+                        <explicit locusNew="90v">(a)pres <name type="person">Iohan</name> fu rei <name type="person"
+                                >Henri</name> son fiz</explicit>
+                    </msItem>
+
+                    <msItem n="4" locusStart="91r" locusEnd="94v">
+                        <head type="CCC">
+                            <title>Romanz di un chivaler et sa dame e un clerk</title>
+                        </head>
+                        <rubric locus="91r">Romanz de vn chiualer e de sa dame e de vn clerk</rubric>
+                        <incipit locusNew="91r">
+                            <lg>
+                                <l>Un chiualer iadis estoit</l>
+                                <l>Ke femme e enfaunz auoit</l>
+                                <l>De sun cors esteit tres pruz</l>
+                                <l>A tuz estait corteis e druz</l>
+                            </lg>
+                        </incipit>
+                        <explicit locusNew="94v">
+                            <lg>
+                                <l>E kant moruht la bone dame</l>
+                                <l>A deu rendi sus sa alme</l>
+                            </lg>
+                        </explicit>
+                        <ab>Printed from this MS. by <ref type="bibl" target="Meyer 1872">P. Meyer, Romania, I,
+                            68</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="5" locusStart="94v" locusEnd="102r">
+                        <head type="CCC">
+                            <title><name type="person">Amis</name> et <name type="person">Amiloun</name></title>
+                        </head>
+                        <rubric locus="94v">
+                            <lg>
+                                <l>Ci comence le storie</l>
+                                <l>Ke deuum auer en memorie</l>
+                                <l>De syres <name type="person">amis</name> e <name type="person">amilun</name></l>
+                                <l>Ke furent si tro bon cumpaynu(n)</l>
+                                <l>E unke ne amerunt treysun</l>
+                            </lg>
+                        </rubric>
+                        <incipit locusNew="94v">
+                            <lg>
+                                <l>Ki ueut oir chancoun damur</l>
+                                <l>De loange de grant doucur</l>
+                            </lg>
+                        </incipit>
+                        <explicit locusNew="102r">
+                            <lg>
+                                <l>Ici finist de <name type="person">amilon</name></l>
+                                <l>E de sire <name type="person">amis</name> sun compaignon</l>
+                            </lg>
+                        </explicit>
+                        <ab>This is the same version as that in the <ref type="ms" target="LBLC12">Royal MS. 12 c.
+                                xii</ref> (<ref type="bibl" target="Ward 1873">Ward, <hi rend="italic">Catalogue of
+                                    Romances</hi> I, 674</ref>), ed. <ref type="bibl" target="Kolbing 1884">Kölbing in
+                                    <hi rend="italic">Altenglische Bibliothek</hi>, 1884</ref></ab>
+                    </msItem>
+
+                    <msItem n="6" locusStart="102r" locusEnd="102v">
+                        <head type="CCC">
+                            <title>The Four Daughters of God</title>
+                        </head>
+                        <rubric locus="102r">
+                            <lg>
+                                <l>Ci comence lestorie de quatre sorurs</l>
+                                <l>En tout le mund ne furunt meliurs</l>
+                            </lg>
+                        </rubric>
+                        <incipit locusNew="102r">
+                            <lg>
+                                <l>Entendez a moi li ueuz et enfanz</l>
+                                <l>Paroles oiret ke mult sunt uaillanz</l>
+                            </lg>
+                        </incipit>
+                        <ab locusNew="102r">
+                            <lg>
+                                <l>De quatre sorurs uus uoil dire</l>
+                                <l>Ke sunt filles nostre sire</l>
+                                <l>Si uus dirrai la concordance</l>
+                                <l>De la primere destaunce</l>
+                                <l>Ke fu entre deu e homme</l>
+                                <l>Pur ceo ke adam mort la pome</l>
+                                <l>Nul homme si bel serui ne eust</l>
+                                <l>Deu. ke li ni estut</l>
+                                <l>Al a fin en enfern descendre</l>
+                                <l>E la demorer e attendre</l>
+                                <l>Unkes ne furent uisitez</l>
+                                <l>Deske merci e uerite</l>
+                            </lg>
+                        </ab>
+                        <ab>Col. 2</ab>
+                        <ab locusNew="102r">
+                            <lg>
+                                <l>Sentre acontrerent a un iour</l>
+                                <l>E Justice e sa sorur</l>
+                                <l>Mult doucement se entrebracerent</l>
+                                <l>E de un contek se entrepeiserent</l>
+                            </lg>
+                        </ab>
+                        <ab>Ends</ab>
+                        <ab locusNew="102v">
+                            <lg>
+                                <l>Beau <name type="person">piere</name> fet misericorde</l>
+                                <l>Si peis ne face ceste concorde</l>
+                                <l>Od laide ke ieo li faz</l>
+                                <l>Ou trouerom mes solaz</l>
+                                <l> Beau <name type="person">piere</name> fet dunc uerite</l>
+                                <l>Ne peut nient estre aquite</l>
+                                <l>Le prison en ceste guise</l>
+                                <l>Ke ieo ne fusse ariere mise</l>
+                                <l>Jeo uois tut dis od teste leuee</l>
+                                <l>E ieo serroie trop greuee</l>
+
+                            </lg>
+                        </ab>
+                        <explicit locusNew="102v">
+                            <lg>
+                                <l>Trop matee trop desconfite</l>
+                                <l>Si par uus esteie desdite</l>
+                            </lg>
+                        </explicit>
+                        <rubric locusNew="102v">Explicit</rubric>
+                        <rubric locusNew="102v">
+                            <lg>
+                                <l>Ci finit lestorie de quatre sorurs</l>
+                                <l>Ke furent uailanz e de bone murs</l>
+                            </lg>
+                        </rubric>
+                        <ab>Evidently unfinished in spite of the colophon</ab>
+                        <ab>Not printed: other copies in <ref type="ms" target="CUL420">University Library Kk. 4.
+                                20</ref>, <ref type="ms" target="LBLH01">Harley 1801</ref>, <ref type="ms"
+                                target="LBL292">Arundel 292</ref>. See <ref type="bibl" target="Meyer 1886">Romania, XV,
+                                353 (P. Meyer)</ref>
+                        </ab>
+                    </msItem>
+
+
+                    <msItem n="7" locusStart="102v" locusEnd="181r">
+                        <head type="CCC">
+                            <title>Roman de <name type="person" key="GuWa01">Guy de Warewic</name></title>
+                        </head>
+
+                        <head type="James">
+                            <name type="person" key="GuWa01">Gui de Warwyk</name>
+                        </head>
+
+                        <rubric locus="102v">
+                            <lg>
+                                <l>E comence lestorie de <name type="person">gyun</name></l>
+                                <l>Ke de <name type="place">Warwyk</name> porta le nun</l>
+                            </lg>
+                        </rubric>
+                        <incipit locusNew="103r">
+                            <lg>
+                                <l>Puis cel tens ke deus fu nez</l>
+                                <l>e establi crestienetez</l>
+                            </lg>
+                        </incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="181r">
+                            <lg>
+                                <l>E cil qi en la sainte trinite</l>
+                                <l>Un deu est par sa pite</l>
+                                <l>Nus doint en terre si seruir</l>
+                                <l>Ke a li en glorie puissums venir. Amen</l>
+                            </lg>
+                        </explicit>
+                        <ab><locus>181v</locus> blank</ab>
+                        <ab>See <ref type="bibl" target="Ward 1883">Ward, <hi rend="italic">Catalogue</hi>, I,
+                            471</ref>. <ref type="bibl" target="Le Clerc 1852"><hi rend="italic">Histoire
+                                    Littéraire</hi>, XXII, 841</ref></ab>
+
+                    </msItem>
+
+                </msContents>
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: typed from the James Catalogue by GDB</p>
+                            <p>markup: GDB</p>
+                            <p>markupCheck: CF, CF 2nd</p>
+                            <p>msCheck: GDB+RJR+NJC</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

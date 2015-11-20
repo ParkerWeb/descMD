@@ -1,0 +1,135 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC575">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>575</idno>
+                    <altIdentifier type="Stanley">
+                        <idno/>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno/>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">The Parker Register</head>
+                <p>
+                    <supplied>This MS description is not part of the M. R. James catalogue; it is based in part on the
+                        description given in <ref type="bibl" target="Vaughan and Fines 1960">Vaughan and Fines,
+                            'Handlist', p. 119</ref>.</supplied>
+                </p>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">177</height>
+                        <width unit="mm">133</width>
+                    </measureGrp>, <measureGrp type="James">7 x 5.25</measureGrp>, <extent>ff. 88</extent>. Cent.
+                        <origDate>xvi</origDate>.</p>
+
+                <p function="Provenance">Formerly catalogued as printed book SP. 13.</p>
+
+                <p function="Binding">Rough sheep binding, eighteenth century, blind-tooled.</p>
+
+                <p>A list of the books and manuscripts bequeathed by <name type="person">Matthew Parker</name> to <name
+                        type="place">Corpus Christi College, Cambridge</name>; copies of two indentures laying down
+                    conditions for the care of books and plate bequeathed by Parker; details of some books given after
+                    Parker's time, etc. Copies of the Register were given to the other two colleges named in the
+                    indenture: <ref type="ms" target="CGC710">Gonville and Caius College (MS 710/743)</ref> and <ref
+                        type="ms" target="CTH029">Trinity Hall (MS 29)</ref>
+                </p>
+
+                <p type="CCC">
+                    <foliation>ff. i-iv + pp. 1a-22a + 1-81 + 82a-c + 83-100 + 100a-b + 101-146 + ff.
+                    v-vii</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="eng">Latin and English.</textLang>
+
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1a" locusEnd="22a">
+                        <head type="CCC">
+                            <title>Indentures concerning <name type="person">Matthew Parker</name>'s bequest to <name
+                                    type="place">Corpus Christi College, Cambridge</name></title>
+
+                        </head>
+
+                    </msItem>
+                    <msItem n="2" locusStart="1" locusEnd="vr">
+                        <head type="CCC">
+
+                            <title>List of printed books and manuscripts given by <name type="person">Matthew
+                                    Parker</name> to <name type="place">Corpus Christi College, Cambridge</name></title>
+
+                        </head>
+
+                        <rubric locusNew="1">Inuentarium librorum in maiore bibliotheca</rubric>
+
+
+                        <rubric locusNew="41">Inuentarium librorum in minore bibliotheca</rubric>
+
+                        <ab>See <ref type="bibl" target="James 1912a">M. R. James, <hi rend="italic">Catalogue of
+                                    Manuscripts in the Library of Corpus Christi College, Cambridge</hi>, I (1912),
+                                introduction, pp. xxxiii-xliii</ref>, describing the contents of this section of the
+                            Register taken from the <ref type="ms" target="CTH029">Trinity Hall copy</ref>, <ref
+                                type="bibl" target="Jayne 1956">S. Jayne, <hi rend="italic">Library Catalogues of the
+                                    English Renaissance</hi> (1956), pp. 117-19</ref></ab>
+
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: typed from Vaughan and Fines 'Handlist' BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 17/12/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

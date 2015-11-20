@@ -1,0 +1,615 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC164">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>164</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>I. 4</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>98</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Ranulf Higden OSB, Polychronicon. Biblia pauperum etc.</head>
+                <head type="James">R. Higden Polychronicon. Biblia Pauperum etc.</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">299</height>
+                        <width unit="mm">202</width>
+                    </measureGrp>, <measureGrp type="James">11.5 x 8.1</measureGrp>, <extent>ff. 1+ 42 + 18 + 34 +
+                        2</extent>, <layout>four portions</layout> of cent. <origDate>xiv, xiii, xv</origDate>.</p>
+
+                <p function="Multivolume" rend="withinContents"><lb/><label>Volume I:</label> Cent. <origDate>xiv
+                        late</origDate>, <handNote>well written</handNote>, <layout>39 lines to a page</layout>.
+                        <lb/><label>Volume II:</label> Cent. <origDate>xiii</origDate>, <handNote>small
+                    hands</handNote>: <layout>double columns of 55 etc. lines</layout>. <lb/><label>Volume III:</label>
+                    A Biblia Pauperum, <decoNote>drawings in outline with washes of yellow, brown, red,
+                        purple</decoNote>. Cent. <origDate>xv early</origDate>. <lb/><label>Volume IV:</label> Cent.
+                        <origDate>xv</origDate>, <layout>double columns of 46 lines</layout>, <handNote>small
+                        hand</handNote>.</p>
+
+
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num> 2<num>10</num> 3<num>8</num>-5<num>8</num> | A<num>12</num> (11,
+                        12 canc.) B<num>8</num> || a<num>12</num> b<num>12</num> c<num>10</num> || d
+                    (two)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>uocionis</secFol>.</p>
+
+                <p function="Provenance">At the bottom of f. <locus locusNew="1r">ir</locus> is:<lb/>
+                    <q>liber m. <name type="person">Johannis Gunthorp decani Wellensis</name> emptus a <name
+                            type="person">dauid lyenel</name>
+                        <date>13<abbr rend="superscript">a</abbr> Julii a<abbr rend="superscript">o</abbr> vij<abbr
+                                rend="superscript">o</abbr>
+                            <name type="person">h(enrici)</name></date> vij<abbr rend="superscript">mi</abbr> pro
+                            iiij<abbr rend="superscript">s</abbr> iiij<abbr rend="superscript">d</abbr>.</q><lb/>
+                    <name type="person">Gunthorp</name> was a considerable collector of books. He was Dean of <name
+                        type="place">Wells</name> and died in <date>1498</date>.</p>
+
+
+                <p function="Additions"><supplied agent="NJM">(f. <locus>iv</locus>)</supplied> The flyleaf, of smaller
+                    size than the rest, has a late list of contents.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i + 1-94 + ii-iii + c-d</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+                    <milestone n="I" unit="volume"/>
+                    <msItem n="1" locusStart="1r" locusEnd="42v">
+                        <head type="CCC">
+                            <name type="author">Ranulf Higden OSB</name>, <title>Polychronicon (incomplete)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Ranulphi Higdeni</name> polychronici Lib. I. et pars 2ndi</title>
+                        </head>
+
+                        <ab>Prologue to <name type="author">Higden</name>'s <title>Polychronicon</title></ab>
+                        <incipit locus="1r">Post preclaros arcium scriptores</incipit>
+                        <ab locus="4r">This page is left blank for a <decoNote>large circular diagram of the
+                                world</decoNote></ab>
+                        <ab locus="25r">The poem on <name type="place">Wales</name> is <layout>in triple
+                                columns</layout></ab>
+                        <ab>Liber II begins f. <locus>37v</locus>; ends f. <locus>42r</locus> with ch. vi</ab>
+                        <explicit locus="42r"><name type="person">Ninus</name> et <name type="person">Semiramis</name>
+                            ampliarunt</explicit>
+                        <ab>
+                            <ref type="bibl" target="Babington 1869">Rolls ed. II 250</ref>
+                        </ab>
+                        <ab locus="42v">blank: pencil note: <q>numerus fo. script. 41</q> (<origDate>xv</origDate>)</ab>
+                        <ab locusNew="42v">
+                            <decoNote>A sketch of a ship drawn with dry point</decoNote>
+                        </ab>
+
+                    </msItem>
+
+
+
+                    <milestone n="II" unit="volume"/>
+                    <msItem n="2.1" locusStart="43r" locusEnd="50v">
+                        <head type="CCC">
+                            <name type="author">Hugh of Fouilloy OSA</name>, <title>Auicularius (De auibus)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Moralizationes avium</title>
+                        </head>
+
+                        <ab>
+                            <quote>In hoc tractatu spatia ubique occurrunt vacua figuris avium ut videtur
+                                designata</quote>
+                        </ab>
+                        <ab>
+                            <hi rend="bold">2a</hi>
+                        </ab>
+                        <ab>Begins with a portion of an imperfect tract: about the Fall, and origin of Evil</ab>
+                        <incipit locus="1r" locusNew="43r">Quod quia falsum est a deo hoc esse necesse est. Nam quia ab
+                            alio hic sit quam a solo deo cum ex ipso auctore operis mali non sit</incipit>
+                        <ab locus="1v" locusNew="43v">Ending unfinished</ab>
+                        <explicit locusNew="43v">cui omnis est subiecta ratio nature quam ut aiunt in muliere.
+                            hoc</explicit>
+                        <ab>
+                            <handNote>Change of hand</handNote>
+                        </ab>
+                        <ab>
+                            <hi rend="bold">2b</hi>
+                        </ab>
+                        <ab locus="1v" locusNew="43v">Libellus cuiusdam ad Rainerum de tribus columbis: no title</ab>
+                        <incipit locusNew="43v">Desiderii tui karissime peticionibus satisfacere cupiens columbam cuius
+                            penne etc.</incipit>
+                        <ab>Another copy, illustrated, is at <ref type="ms" target="CSS100">Sidney Sussex College, no.
+                                100</ref> in my Catalogue: another at <ref type="ms" target="LAML28">Sion College,
+                                London</ref>. The tract not infrequently accompanies Bestiaries</ab>
+                        <ab>Printed with the works of Hugo de S. Victore II 394</ab>
+                        <ab>
+                            <decoNote>Spaces are left here for 28 pictures</decoNote>
+                        </ab>
+                        <ab>Ends with a section on the eagle</ab>
+                        <incipit locus="8v" locusNew="50r">Aquila uocata ab acumine oculorum</incipit>
+                        <explicit locusNew="50v">dum se ipsum christo per bonam operationem conformem reddit</explicit>
+                        <ab>As in the copy at <ref type="ms" target="LAML28">Sion College</ref></ab>
+
+                    </msItem>
+                    <msItem n="2.2" locusStart="50v" locusEnd="50v">
+                        <head type="CCC">
+                            <name type="author">Cyprian of Carthage</name>, <title>De dominica oratione</title>
+                        </head>
+                        <ab>
+                            <hi rend="bold">2c</hi>
+                        </ab>
+                        <rubric locus="8v" locusNew="50v">Ex tractatu <name type="person">beati cipriani martiris</name>
+                            de oratione dominica</rubric>
+                        <incipit locusNew="50v">Sit orantibus sermo et disciplina</incipit>
+                        <ab>Followed by extracts from <name type="person">Jerome</name>, <name type="person"
+                                >Augustine</name>, <name type="person">Gregory</name></ab>
+                    </msItem>
+
+                    <msItem n="3" locusStart="50v" locusEnd="54r">
+                        <head type="CCC">
+                            <name type="author">Hugh of Fouilloy OSA</name>, <title>De rota praelationis</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Tractatus de rota fortunae; cum duabus illuminationibus ipsius rotae fraterculis
+                                circumdatae, omni venustate denudatis</title>
+                        </head>
+
+                        <ab locus="8v" locusNew="50v">Prologue (no title)</ab>
+                        <incipit locus="8v" locusNew="50v">Sicut comperi non est tibi frater honerosum diu fuisse
+                            discipulum</incipit>
+                        <explicit locusNew="50v">rotam prelationis in capite presentis opusculi pingam</explicit>
+                        <ab locus="9r" locusNew="51r">List of capitula (18). (1) de pictura rote; (2) de hiis que sunt
+                            in rota; (3) de axe; (4) de modiolo etc.; (18) qualis debeat esse prelatus teste <name
+                                type="person">beato Gregorio</name></ab>
+                        <incipit locusNew="51r">Uiri religiosi uita sicut rota uoluitur</incipit>
+                        <ab locusNew="51r">
+                            <decoNote>Half the page is occupied by a picture of the wheel of Prelacy. At the top is
+                                throned the Abbas with crosier: on each side is a monk turning the wheel by the tyre. At
+                                bottom sits another with book on desk. All are in black habits. Many inscriptions in red
+                                explain the picture. The twelve spokes of the wheel, and its other parts, symbolize
+                                virtues</decoNote>
+                        </ab>
+                        <ab locus="10v" locusNew="52v">The first part ends</ab>
+                        <explicit locus="10v" locusNew="52v">si culmen prelationis ascendere contradicat</explicit>
+                        <ab locus="10v" locusNew="52v">Part II</ab>
+                        <incipit locus="10v" locusNew="52v">Post rotam uere religionis locuturi sumus frater de rota
+                            simulationis iob</incipit>
+                        <explicit locusNew="52v">a legente facilius intelligi possint</explicit>
+                        <ab locusNew="52v">Capitula (14). (1) de pictura rote...; (14) de circuitu rote</ab>
+                        <ab locusNew="52v">
+                            <decoNote>Half the page is occupied by a picture of the same character as before. Abbot at
+                                top, monk in brown on L. in black on R., one at bottom sits dejected. These four are
+                                respectively Honor possidentis, labor adquirendi, dolor amittentis, pudor nil habentis.
+                                The parts of this wheel symbolize vices</decoNote>
+                        </ab>
+                        <ab>The edges of 2 leaves following f. <locus locusNew="52v">12r</locus> are intrusive,
+                            apparently</ab>
+                        <ab>Text</ab>
+                        <incipit locus="11r" locusNew="53r">(S)tatura rote similitudinem designat ypocrite</incipit>
+                        <explicit locus="12r" locusNew="54r">Et hoc iterum de predictis rotis sufficiat donee de his
+                            aliquis potiora dicat</explicit>
+                        <ab>This text occurs, without the prologue, in <ref type="ms" target="OBL772">Bodl. MS. Digby
+                                171 f. 71</ref></ab>
+                    </msItem>
+
+
+                    <msItem n="4" locusStart="54v" locusEnd="60v">
+                        <head type="CCC">
+                            <title>Sermons</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sermones in diversos festos</title>
+                        </head>
+
+                        <ab locus="12v" locusNew="54v">Sermons</ab>
+                        <incipit locusNew="54v">Sufficit tamen de una uirgine loqui uerum</incipit>
+                        <ab>Treats of various classes of feasts</ab>
+                        <incipit locus="14v" locusNew="56v">Sapientia edificauit sibi domum</incipit>
+                        <incipit locus="17v" locusNew="59v">Adorna thalamum</incipit>
+                        <incipit locus="18r" locusNew="60r">Septuagessima in alterius rei memoriam</incipit>
+                        <incipit locus="18v" locusNew="60v">Vi(n)centi dabo manna absconditum</incipit>
+                        <ab locusNew="60v">Pencil note. <q>Numerus fo. script. 18</q></ab>
+
+                    </msItem>
+
+                    <milestone n="III" unit="volume"/>
+                    <msItem n="5" locusStart="61r" locusEnd="94v">
+                        <head type="CCC">
+
+                            <title>Biblia pauperum</title>
+
+                        </head>
+                        <head type="Nasmith">
+                            <title>Delineationes historiarum veteris et novi testamenti numero XCVII haud inelegantes,
+                                coloribus leviter tinctae</title>
+                        </head>
+                        <ab>
+                            <decoNote>The pictures (lacunae excepted) exactly coincide with a set in <ref type="ms"
+                                    target="LBLK05">British Museum (King's MS. 5)</ref> of Flemish (Dutch) work, very
+                                finely coloured. The arrangement in the copy before us is peculiar. The two types are on
+                                the Left page one above the other; the antitype on Right page with four busts of
+                                prophets bearing scrolls: <figure xml:id="figure372a"/></decoNote>
+                        </ab>
+
+                        <ab>The text on the Left page is a brief explanation of the type, beginning: <q>Legitur [Gen.
+                                cap. xxix<abbr rend="superscript">o</abbr>] quod...</q></ab>
+                        <ab>On the Right page are usually three verses, e.g. for Epiphany</ab>
+                        <ab locusNew="63r">
+                            <lg>
+                                <l>Plebs notat hec gentes christo iungi cupientes.</l>
+                                <l>Christus adoratur aurum thus mirra letatur.</l>
+                                <l>Hoc tipice gentem notat ad christum uenientem,</l>
+                            </lg>
+                        </ab>
+                        <ab>of which the 1st and 3rd refer to the types and the 2nd to the antitype</ab>
+                        <ab>A reduced facsimile of two pages is given in <ref type="bibl" target="CAS 1893">Camb. Ant.
+                                Soc. Proceedings Vol. VII, pi. xii</ref></ab>
+                        <ab>The British Museum MS. has its pictures arranged as a series of triptychs</ab>
+                        <ab>I give a list of the subjects, with notes from the <ref type="ms" target="LBLK05">British
+                                Museum MS.</ref>, which I will call k</ab>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">1</hi>
+                            </ab>
+                            <ab>The types are gone: in k they are the Fall and <name type="person">Gideon</name>'s
+                                Fleece</ab>
+                            <ab locus="1r" locusNew="61r">Annunciation</ab>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">2</hi>
+                            </ab>
+                            <ab locus="1v" locusNew="61v">Burning Bush. <name type="person">Aaron</name>'s Rod</ab>
+                            <ab locus="2r" locusNew="62r">Nativity</ab>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">3</hi>
+                            </ab>
+                            <ab locus="2v" locusNew="62v"><name type="person">Abner</name> comes to <name type="person"
+                                    >David</name>, <name type="person">Queen of Sheba</name></ab>
+                            <ab locus="3r" locusNew="63r">Adoration of the Magi</ab>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">4</hi>
+                            </ab>
+                            <ab locus="3v" locusNew="63v">Purification of women. <name type="person">Hannah</name>
+                                offers <name type="person">Samuel</name></ab>
+                            <ab locus="4r" locusNew="64r">Presentation of <name type="person">Christ</name>: 4 is
+                                wanting in k</ab>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">5</hi>
+                            </ab>
+                            <ab locus="4v" locusNew="64v">Flight of <name type="person">Jacob</name> from <name
+                                    type="person">Esau</name>. <name type="person">David</name> let down from
+                                window</ab>
+                            <ab locus="5r" locusNew="65r">Flight into <name type="place">Egypt</name></ab>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">6</hi>
+                            </ab>
+                            <ab locus="5v" locusNew="65v"><name type="person">Moses</name> destroys the Golden Calf.
+                                Dagon falls (Two priests carry a jewelled shrine: two images fall)</ab>
+                            <ab locus="6r" locusNew="66r">Idols of Egypt fall. (<name type="person">Joseph</name>, and
+                                    <name type="person">Mary</name> on the ass, enter on left)</ab>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">7</hi>
+                            </ab>
+                            <ab locus="6v" locusNew="66v"><name type="person">Abraham</name> and the three Angels. The
+                                Three Children in the Furnace</ab>
+                            <ab locus="7r" locusNew="67r">The Transfiguration. 7 is wanting in k.</ab>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">8</hi>
+                            </ab>
+                            <ab locus="7v" locusNew="67v"><name type="person">Nathan</name> convicts <name type="person"
+                                    >David</name>. <name type="person">Miriam</name> smitten with leprosy</ab>
+                            <ab locus="8r" locusNew="68r"><name type="person">Magdalene</name> washes <name
+                                    type="person">Christ</name>'s feet</ab>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">9</hi>
+                            </ab>
+                            <ab locus="8v" locusNew="68v"><name type="person">Darius</name> bids <name type="person"
+                                    >Ezra</name> build the Temple. <name type="person">Judas Maccabaeus</name> cleanses
+                                the Temple</ab>
+                            <ab locus="9r" locusNew="69r"><name type="person">Christ</name> cleanses the Temple</ab>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">10</hi>
+                            </ab>
+                            <ab locus="9v" locusNew="69v"><name type="person">Elisha</name> (<name type="person"
+                                    >Elijah</name>) raises the widow's son. <name type="person">Elisha</name> stretches
+                                himself on the Shunammite's son</ab>
+                            <ab locus="10r" locusNew="70r">Raising of <name type="person">Lazarus</name></ab>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">11</hi>
+                            </ab>
+                            <ab locus="10v" locusNew="70v"><name type="person">Judith</name>'s return with <name
+                                    type="person">Holofernes</name>' head. Sons of the prophets meet <name type="person"
+                                    >Elisha</name></ab>
+                            <ab locus="11r" locusNew="71r">Entry into Jerusalem</ab>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">12</hi>
+                            </ab>
+                            <ab locus="11v" locusNew="71v"><name type="person">Melchizedek</name> and <name
+                                    type="person">Abraham</name>. The Manna</ab>
+                            <ab locus="12r" locusNew="72r">The Last Supper</ab>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">13</hi>
+                            </ab>
+                            <ab locus="12v" locusNew="72v"><name type="person">Joseph</name> sold to the Ishmaelites.
+                                    <name type="person">Joseph</name> sold to <name type="person">Potiphar</name></ab>
+                            <ab locus="13r" locusNew="73r"><name type="person">Judas</name> and the Priests</ab>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">14</hi>
+                            </ab>
+                            <ab locus="13v" locusNew="73v"><name type="person">Joab</name> kills <name type="person"
+                                    >Abner</name>. <name type="person">Tryphon</name> betrays Jews</ab>
+                            <ab locus="14r" locusNew="74r">The Betrayal</ab>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">15</hi>
+                            </ab>
+                            <ab locus="14v" locusNew="74v"><name type="person">Jezebel</name> slays prophets. <name
+                                    type="person">Daniel</name> cast into the den</ab>
+                            <ab locus="15r" locusNew="75r">Dampnacio <name type="person">Christi</name> ad mortem (<name
+                                    type="person">Pilate</name> washing his hands)</ab>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">16</hi>
+                            </ab>
+                            <ab locus="15v" locusNew="75v"><name type="person">Joseph</name> stripped by his brothers.
+                                    <name type="person">Absalom</name> conspires against <name type="person"
+                                    >David</name></ab>
+                            <ab locus="16r" locusNew="76r">Conspiracio in mortem <name type="person">Christi</name>
+                                (Jews on Right <name type="person">Christ</name> bound on Left)</ab>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">17</hi>
+                            </ab>
+                            <ab locus="16v" locusNew="76v">Shame of <name type="person">Noah</name>. <name type="person"
+                                    >Elisha</name> mocked</ab>
+                            <ab locus="17r" locusNew="77r"><name type="person">Christ</name> mocked and crowned with
+                                thorns</ab>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">18</hi>
+                            </ab>
+                            <ab locus="17v" locusNew="77v"><name type="person">Isaac</name> carries the wood. <name
+                                    type="person">Elijah</name> and the widow with two sticks</ab>
+                            <ab locus="18r" locusNew="78r">Bearing the Cross</ab>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">19</hi>
+                            </ab>
+                            <ab locus="18v" locusNew="78v">Sacrifice of <name type="person">Isaac</name>. Brazen
+                                serpent</ab>
+                            <ab locus="19r" locusNew="79r">Crucifixion</ab>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">20</hi>
+                            </ab>
+                            <ab locus="19v" locusNew="79v">Creation of <name type="person">Eve</name>. Rock smitten</ab>
+                            <ab locus="20r" locusNew="80r">The side pierced</ab>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">21</hi>
+                            </ab>
+                            <ab locus="20v" locusNew="80v"><name type="person">Joseph</name> put in the pit. <name
+                                    type="person">Jonah</name> cast overboard</ab>
+                            <ab locus="21r" locusNew="81r">The Entombment</ab>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">22</hi>
+                            </ab>
+                            <ab locus="21v" locusNew="81v"><name type="person">Samson</name> carries the gates. <name
+                                    type="person">Jonah</name> cast up</ab>
+                            <ab locus="22r" locusNew="82r">The Resurrection</ab>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">23</hi>
+                            </ab>
+                            <ab locus="22v" locusNew="82v"><name type="person">David</name> kills <name type="person"
+                                    >Goliath</name>. <name type="person">Samson</name> rends the lion</ab>
+                            <ab locus="23r" locusNew="83r">Harrowing of Hell</ab>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">24</hi>
+                            </ab>
+                            <ab locus="23v" locusNew="83v"><name type="person">Reuben</name> finds the pit empty. The
+                                spouse in Canticles finds the bedchamber empty</ab>
+                            <ab locus="24r" locusNew="84r">The Women at the Sepulchre</ab>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">25</hi>
+                            </ab>
+                            <ab locus="24v" locusNew="84v"><name type="person">Habakkuk</name> brought to <name
+                                    type="person">Daniel</name> finds him alive in the den. The spouse in Canticles
+                                finds her beloved</ab>
+                            <ab locus="25r" locusNew="85r">Noli me tangere (<name type="person">Christ</name> has the
+                                spade)</ab>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">26</hi>
+                            </ab>
+                            <ab locus="25v" locusNew="85v"><name type="person">Joseph</name> makes himself known (the
+                                brethren are in a ship). So also in k. The Prodigal's return (the fatted calf slain: a
+                                man sharpening his knife)</ab>
+                            <ab locus="26r" locusNew="86r"><name type="person">Christ</name> appears to the Virgin and
+                                Apostles</ab>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">27</hi>
+                            </ab>
+                            <ab locus="26v" locusNew="86v"><name type="person">Gideon</name> and the angel. <name
+                                    type="person">Jacob</name> wrestles with the angel</ab>
+                            <ab locus="27r" locusNew="87r">Incredulity of <name type="person">Thomas</name></ab>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">28</hi>
+                            </ab>
+                            <ab locus="27v" locusNew="87v"><name type="person">Enoch</name> translated. <name
+                                    type="person">Elijah</name> translated</ab>
+                            <ab locus="28r" locusNew="88r">Ascension</ab>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">29</hi>
+                            </ab>
+                            <ab locus="28v" locusNew="88v">Giving of the Law. <name type="person">Elijah</name>'s
+                                sacrifice: fire descends</ab>
+                            <ab locus="29r" locusNew="89r">Pentecost</ab>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">30</hi>
+                            </ab>
+                            <ab locus="29v" locusNew="89v"><name type="person">Bathsheba</name> seated by <name
+                                    type="person">Solomon</name>. <name type="person">Esther</name> seated by <name
+                                    type="person">Ahasuerus</name></ab>
+                            <ab locus="30r" locusNew="90r">Coronation of the Virgin</ab>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">31</hi>
+                            </ab>
+                            <ab locus="30v" locusNew="90v">Judgment of <name type="person">Solomon</name>. The Amalekite
+                                slain (2 Sam. i)</ab>
+                            <ab locus="31r" locusNew="91r">Last Judgment</ab>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">32</hi>
+                            </ab>
+                            <ab locus="31v" locusNew="91v"><name type="person">Job</name> and his children feasting.
+                                    <name type="person">Jacob</name>'s ladder</ab>
+                            <ab locus="32r" locusNew="92r">Gaudia bonorum. The Heavenly Palace with a crowned head at
+                                each window</ab>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">33</hi>
+                            </ab>
+                            <ab locus="32v" locusNew="92v"><name type="person">Dathan</name> and <name type="person"
+                                    >Abiram</name> swallowed up (standing in earth up to their knees). <name
+                                    type="place">Sodom</name> and <name type="place">Gomorrah</name> destroyed</ab>
+                            <ab locus="33r" locusNew="93r">Pena dampnatorum. Souls and devils in Hell mouth</ab>
+                        </seg>
+                        <ab locus="33v" locusNew="93v">On this page a pencil note. Numerus fo. pict. 33. Numerus fo.
+                            script, et pict. totius libri 92</ab>
+                        <ab>ff. <locus locusNew="94r">34r</locus>-<locus locusNew="94v">34v</locus> blank</ab>
+                    </msItem>
+
+
+
+                    <milestone n="IV" unit="volume"/>
+                    <msItem n="6" locusStart="iir" locusEnd="iiiv">
+                        <head type="CCC">
+                            <name type="author">François de Meyronnes OFM</name>, <title>Moralia siue Liber de
+                                uirtutibus (excerpt)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Fragmentum sermonis</title>
+                        </head>
+
+                        <head type="James">
+                            <title>The Moralia of <name type="author">Fr. de Mayronis</name>, imperfect</title>
+                        </head>
+                        <incipit locus="iir">Auditu auris audiui te etc. quia uero audicio diuina pertinet
+                            etc.</incipit>
+                        <ab>See <ref type="ms" target="OME201">MS. Merton College, Oxford 201. 1</ref></ab>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJM 28/11/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

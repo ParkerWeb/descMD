@@ -1,0 +1,209 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC330">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>330</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>N. 23</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>185</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Martianus Capella, De nuptiis Philologiae et Mercurii; Glossary on Martianus
+                    Capella</head>
+                <head type="James">Martianus Capella cum Commento</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">220</height>
+                        <width unit="mm">150</width>
+                    </measureGrp>, <measureGrp type="James">8.7 x 6</measureGrp>, <extent>ff. 87 + 40</extent>,
+                        <layout>two volumes, 37 and 29-32 lines to a page</layout>. Cent. <origDate>xi-xii</origDate>
+                    and cent. <origDate>x(?)</origDate> respectively. <handNote>Vol. I in a fine minute upright hand.
+                        Vol. II in a clear but rather rough and sloping Carolingian minuscule</handNote>.</p>
+
+
+
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num>-11<num>8</num> (wants 8) || a<num>8</num>-e<num>8</num></collation>.</p>
+
+                <p>
+                    <label>2 fo.:</label><lb/>
+                    <label>Volume I:</label>
+                    <secFol>capiti eius</secFol>.<lb/>
+                    <label>Volume II:</label>
+                    <secFol>martianum dicens</secFol>.</p>
+                <p function="Additions">The quires in vol. I are oddly marked. The last leaf of 1 <supplied>(f.
+                            <locus>8v</locus>)</supplied> and first of 2 <supplied>(f. <locus>9r</locus>)</supplied> are
+                    marked in red <hi rend="italic">a. b</hi>: the last of 2 <supplied>(f.
+                        <locus>16v</locus>)</supplied> and first of 3 <supplied>(f. <locus>17r</locus>)</supplied> are
+                    marked <hi rend="italic">c. d</hi> and so on.</p>
+                <p function="Provenance">It is not unlike a <name type="place">Christchurch</name> book, but no
+                    indication of former ownership survives. </p>
+
+                <p type="CCC">
+                    <foliation>ff. i-iii + 1-127 + iv-v</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="1r" locusEnd="87v">
+                        <head type="CCC">
+                            <name type="author">Martianus Capella</name>, <title>De nuptiis Philologiae et
+                                Mercurii</title>
+                        </head>
+
+                        <ab>
+                            <decoNote>Title in green and red</decoNote>
+                        </ab>
+                        <rubric locus="1r"><name type="author">Marciani. Minei. Felicis. Capellae</name>. Liber Primus.
+                            Incipit. De Nuptiis Philologiae et Mercurii</rubric>
+
+                        <incipit locus="1r">Tu quem psallentem thalamis quem matre camena</incipit>
+                        <ab locusNew="1r">
+                            <decoNote>Initial with figure of man and fish</decoNote>
+                        </ab>
+                        <ab>
+                            <handNote>Marginal notes in a very good hand</handNote>
+                        </ab>
+                        <ab locus="9r">Liber II</ab>
+                        <ab locus="16v"><supplied>Liber</supplied> III</ab>
+                        <ab locus="27v"><supplied>Liber</supplied> IV</ab>
+                        <ab>
+                            <decoNote>A space left for diagram on f. <locus>35r</locus>: diagram inserted later on f.
+                                    <locus>35v</locus></decoNote>
+                        </ab>
+                        <ab locus="38r">Liber V</ab>
+                        <ab locus="50r"><supplied>Liber</supplied> VI</ab>
+                        <ab locus="62r"><supplied>Liber</supplied> VII</ab>
+                        <ab locus="70v"><supplied>Liber</supplied> VIII</ab>
+                        <ab locus="77v"><supplied>Liber</supplied> IX</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="87r">In medio residens complectitur omnia phebus</explicit>
+                        <ab locusNew="87r">
+                            <decoNote>Colophon in red and green</decoNote>
+                        </ab>
+                        <rubric locus="87r"><name type="author">Martiani &#183; Minei &#183;<lb/>Felicis
+                                &#183; Capell&#281;</name> &#183;<lb/>Genere &#183; Afri<lb/>Civis
+                            Carthaginensis<lb/>Dignitate Romani &#183;<lb/>Explicit Liber &#183;<lb/>Nonus
+                            &#183;<lb/>De Armonica &#183;<lb/>Idest Musica &#183; /</rubric>
+                        <ab locus="87v">blank except for note (<date>xvi</date>) referring to vol. II. <q>Hoc
+                                Commentarium est <name type="person">Alexandri Neckam</name> / vide <ref type="bibl"
+                                    target="Bale 1902">Bale, 272</ref></q></ab>
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="2" locusStart="88r" locusEnd="127v">
+                        <head type="CCC">
+                            <title>Glossary on Martianus Capella, De nuptiis Philologiae et Mercurii</title>
+                        </head>
+
+                        <rubric locus="1r" locusNew="88r">Incipiunt Glose <name type="person">Marciani</name></rubric>
+                        <incipit locus="1r" locusNew="88r">Iste <name type="person">martianus</name> genere
+                            cartaginensis fuit studens primo philosophiae postmodum uero poetriae</incipit>
+                        <ab locusNew="88r">
+                            <decoNote>Initial in black with plaited pattern</decoNote>
+                        </ab>
+                        <rubric locus="10v" locusNew="97v">Incipit secundus liber de nuptialis</rubric>
+                        <rubric locus="19r" locusNew="106v">Incipit Dia lectica</rubric>
+                        <ab>
+                            <decoNote>Part of <locus locusNew="112r">25r</locus> blank: diagram on <locus
+                                    locusNew="112v">25v</locus></decoNote>
+                        </ab>
+                        <rubric locus="26v" locusNew="113v">Incipit de rethorica</rubric>
+                        <rubric locus="30v" locusNew="117v">De Geometria</rubric>
+                        <ab>The lines of the last quire (<locus locusNew="120r">33r</locus>-<locus locusNew="127v"
+                                >40v</locus>) are longer than the rest and have been cut</ab>
+                        <rubric locus="34v" locusNew="121v">Incipit de arithmetica</rubric>
+                        <rubric locus="38r" locusNew="125r">Incipit de musica</rubric>
+                        <ab>Ends</ab>
+                        <explicit locus="39v" locusNew="126v">Iugariorum. a prouintia iugaria. Marcidam
+                            paruam</explicit>
+                        <rubric locus="39v" locusNew="126v">Explicit de <name type="person">Marciano</name></rubric>
+
+
+
+                        <rubric locus="39v" locusNew="126v">Incipiunt collecte glose</rubric>
+
+                        <incipit locus="39v" locusNew="126v">Subiugo philo sem' (polisemus) sermo est<lb/>signif. enim
+                            rogo (rego) ut ipse<lb/>rate conit (ratem conto) subigit (erasure)<lb/>et uacuo (acuo) ut
+                            subigit in cote<lb/>secures. et compello ut subigitque fateri. et fodio<lb/>ut pedes subigit
+                            terram, etc</incipit>
+                        <incipit locus="39v" locusNew="126v">Autumno ... Metor ... Mecior ... Meto</incipit>
+                        <incipit locus="39v" locusNew="126v">Nitela. musaraneus</incipit>
+                        <incipit locus="39v" locusNew="126v">Dicheos gr. lat. iustus. unde<lb/>Dichoia iustitia
+                            adicheia<lb/>iniustitia. Expers inscius, etc</incipit>
+                        <incipit locus="40r" locusNew="127r">Expertus ... Continuare</incipit>
+                        <incipit locus="40r" locusNew="127r">Pauo auis pabonamque genus uehiculi unde in passione
+                            Sebastiani. leuauit eum in pabone suo</incipit>
+                        <ab>Various Greek words are glossed, but there seem to be no vernacular glosses, nor other names
+                            of authors</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="40v" locusNew="127v">Sero tarde. lito ... seuere ... fere ... utro ... Itidem
+                            iterum et similiter Indidem. ex eodem loco. Idendidem. idipsum uiritim per singulos
+                            uiros</explicit>
+                        <ab>These glosses, both those on <name type="person">Marcianus</name> and the Glosae Collectae,
+                            are identical with those in <ref type="ms" target="CCC153">MS 153</ref></ab>
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: RJR 15/12/2008</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

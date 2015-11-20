@@ -1,0 +1,578 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC066A">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>66A</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Under D. 12</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>367</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Jacques de Vitry, Historia orientalis. Willelmus de Rubruk OFM, Itinerarium ad partes
+                    orientales. pseudo-John of Damascus, Barlaam et Iosaphat</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">300</height>
+                        <width unit="mm">208</width>
+                    </measureGrp>, <measureGrp type="James">11.7 x 8.2</measureGrp>, <layout>in double columns of 39
+                        lines</layout>. Cent. <origDate>xii (xiii?) and xiv</origDate>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>8<num>4</num> 9<num>12</num>-15<num>12</num> (+1*) 16<num>12</num>-28<num>12</num> (wants
+                        10-12)</collation>.</p>
+
+                <p function="Provenance">p. <locus>115</locus> blank, on p. <locus>116</locus> list of contents
+                        (<origDate>xvi</origDate>) and also a piece of parchment pasted on inscribed
+                        (<origDate>xiv-xv</origDate>): <q>J. 90.<lb/> Liber de communitate monachorum <name type="place"
+                            >Sancti Edmundi</name> in quo subscripta continentur.</q><lb/> List of contents (9-24). The
+                        <ref type="ms" target="CUL127">MS. Ff. I. 27</ref> in the University Library, given by <name
+                        type="person">Archbishop Parker</name>, contains (Art. 19-29) the latter part of this volume.<lb/>
+                    <supplied>James provides a full listing of the contents for two manuscripts, one from Sawley and one
+                        from Bury St. Edmunds, each of which had been split in half and rebound - the first half of the
+                        Sawley with the first half of the Bury, second half of Sawley with second half of Bury - into
+                            <ref type="ms" target="CCC066">MS 66</ref> and <ref type="ms" target="CUL127">Cambridge
+                            University Library Ff. 1. 27</ref> respectively. James' MS 66 has since been separated again
+                        (rebound in 1954 by John Gray) so that James' Volume I (the Sawley portion) is now <ref
+                            type="ms" target="CCC066">MS 66</ref> and James' Volume II (the Bury portion) is now MS 66A.
+                        <lb/>James lists the following contents for the complete Bury MS., which is currently divided
+                        between MS 66A and <ref type="ms" target="CUL127">CUL Ff. 1. 27</ref>:</supplied><lb/>
+                    <hi rend="bold">CCC 66 <supplied>(now CCCC MS 66A)</supplied></hi>:<lb/>
+                    <name type="author">Jacobus de Vitriaco</name><lb/><name type="author">Willelmus
+                    Rubruc</name><lb/>Journey of <name type="person">Macarius</name><lb/>Imago mundi Liber I<lb/><name
+                        type="person">Prester John</name><lb/><name type="person">Johannes de Sacro bosco</name> de
+                    sphera<lb/>Barlaam and Josaphat<lb/>Imago mundi Liber II<lb/>Story of the Cross<lb/>French poem
+                    thereon<lb/>Infancy of Christ. French verse<lb/>Tracts on the Holy Land<lb/>Stories of <name
+                        type="person">Pilate</name> and <name type="person">Judas</name><lb/>Miracles<lb/><name
+                        type="author">pseudo-Methodius</name><lb/><hi rend="bold">ULC Ff. I 27</hi>:<lb/><name
+                        type="author">Giraldus Cambrensis</name> Descriptio Hiberniae<lb/><name type="author">Giraldus
+                        Cambrensis</name> Vaticinalis historia<lb/>Life of <name type="person">Patrick</name><lb/><name
+                        type="author">Giraldus Cambrensis</name> Descriptio Cambriae
+                        (<origDate>xvi</origDate>)<lb/>Prophecies<lb/><name type="author">Giraldus Cambrensis</name>
+                    Itinerarium Cambriae<lb/><name type="person">Patrick</name>'s Purgatory<lb/>Extract from Chronicle
+                    of <name type="person">Sigebert</name><lb/>Prophecy of <name type="person">Merlin</name><lb/>Life of
+                        <name type="person">St David</name><lb/><name type="author">Gaufredus de Fontibus</name>
+                        (<origDate>xv</origDate>) de infantia <name type="person">Sancti Edmundi</name><lb/>
+                    <supplied>For the complete list of contents given by James for both manuscripts, please see the
+                        following figure: <figure xml:id="figure145a2"/></supplied></p>
+
+                <p type="CCC">
+                    <foliation>f. a + pp. 115-122 + ff. 1-221 + 221a + 221b + 222-238 + f. b</foliation>.</p>
+
+                <msContents>
+
+                    <textLang mainLang="lat" otherLangs="frm eng">Latin, Anglo-Norman and English.</textLang>
+
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="117" locusEnd="67r">
+                        <head type="CCC">
+                            <name type="author">Jacques de Vitry</name>, <title>Historia orientalis</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Historia Ierosolimitana abbreviata</title>
+                        </head>
+                        <head type="James">(<name type="author">Iacobi de Vitriaco</name>), <title>Historia
+                                Jerosolimitana abbreviata Liber I</title></head>
+                        <ab locus="117">
+                            <decoNote>in red with blue initials</decoNote>.<lb/> Capitula of <supplied>item</supplied>
+                            no. 9 <supplied>(now item no. 1)</supplied>
+                            <decoNote>in red</decoNote> followed by three blank pages.<lb/> New foliation then
+                            begins</ab>
+
+                        <ab locusNew="1r">Capitulum I</ab>
+                        <incipit locus="1r">Terra sancta promissionis deo amabilis</incipit>
+                        <ab locusNew="1r">
+                            <decoNote>Initial with gold ground. Monk with pastoral staff offers book to Bishop with
+                                cross</decoNote>
+                        </ab>
+                        <explicit locus="67r">de die in diem expectantes</explicit>
+                        <rubric locus="67r">Explicit</rubric>
+                        <ab>
+                            <ref type="bibl" target="Bongars 1611a">Bongars <hi rend="italic">Gesta Dei per
+                                Francos</hi>, p. 1047</ref>
+
+                        </ab>
+
+                    </msItem>
+
+
+
+                    <msItem n="2" locusStart="67r" locusEnd="110r">
+                        <head type="CCC">
+                            <name type="author">Willelmus de Rubruk OFM</name>, <title>Itinerarium ad partes
+                                orientales</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Itinerarium terrae Tartarorum per <name type="author">W. de Rubruc</name></title>
+                        </head>
+
+                        <incipit locus="67r">Excellentissimo domino et christianissimo <name type="person"
+                                >Lodovico</name> dei gracia Regi francorum illustri <name type="author">Frater W. de
+                                Rubruc</name></incipit>
+                        <ab locusNew="67r">
+                            <decoNote>Initial: above two friars offer a book to king on R. (half-length below), two
+                                friars with staves walk to R.</decoNote>
+                        </ab>
+                        <explicit locus="110r">plures interpretes et copiosas expensas etc.</explicit>
+                        <ab>Also in <ref type="ms" target="CCC181">MS 181. 9</ref>, <ref type="ms" target="CCC407">MS
+                                407. 2</ref>. Ed. by <ref type="bibl" target="d'Avezac 1839b">D'Avezac 1839
+                            etc.</ref></ab>
+
+                    </msItem>
+
+
+                    <msItem n="3" locusStart="110r" locusEnd="116r">
+
+                        <head type="Nasmith">
+                            <title>Itinerarium usque ad paradisum terrestrem</title>
+                        </head>
+
+                        <incipit locus="110r">Gloria et magnificencia deo soli benignissimo</incipit>
+                        <ab>(<ref type="bibl" target="Migne 073"><supplied>P. L.</supplied> LXXIII 415</ref>)</ab>
+                        <ab locusNew="110r">
+                            <decoNote>Initial. Three monks in black facing R.</decoNote>
+                        </ab>
+                        <explicit locus="116r">uiuit et ubique regnat deus benedictis et laudabilis nunc et semper per
+                            immensa secula seculorum. Amen</explicit>
+                        <ab>An earlier copy from <name type="place">Bury</name> is in <ref type="ms" target="OBL571">MS.
+                                Bodl. e Mus. 26</ref></ab>
+
+                    </msItem>
+
+
+                    <msItem n="4" locusStart="116r" locusEnd="127r">
+
+                        <head type="Nasmith">
+                            <title>Imago mundi, liber primus</title>
+                        </head>
+
+                        <rubric locus="116r">Incipit prologus super librum de ymagine mundi</rubric>
+                        <ab>(<ref type="bibl" target="Migne 172"><supplied>P. L.</supplied> CLXXII 119</ref>)</ab>
+                        <incipit locus="116r">Septiformi spiritu</incipit>
+                        <explicit locus="116r">penitus ignorare</explicit>
+                        <rubric locus="116r">Explicit prologus</rubric>
+                        <rubric locus="116r">Incipit liber</rubric>
+                        <incipit locus="116r">Sapiencie alumpno abdita</incipit>
+                        <ab>(the name <name type="person">Henricus</name> is absent)</ab>
+                        <explicit locus="116v">commendat tradicio</explicit>
+                        <rubric locus="116v">Diffinicio mundi</rubric>
+                        <incipit locus="116v">Mundus dicitur quasi</incipit>
+                        <explicit locus="127r">rex angelorum regnans per omnia secula seculorum. Amen</explicit>
+                        <ab>(<ref type="bibl" target="Migne 172">l.c. 146</ref>)</ab>
+                        <rubric locus="127r">Explicit finaliter iste liber</rubric>
+                        <ab>
+                            <decoNote>Added in red</decoNote>
+                        </ab>
+                        <rubric locus="127r">Explicit prima pars libri qui dicitur ymago mundi. Queratur secunda pars
+                            inferius post gesta Barlaam et Josaphat ad hoc signum</rubric>
+                        <ab>(sign follows)</ab>
+
+                    </msItem>
+
+
+                    <msItem n="5" locusStart="127r" locusEnd="130r">
+                        <head type="CCC">
+                            <name type="author">Iohannes presbyter ('Prester John')</name>, <title>Epistola <name
+                                    type="person">Manueli Comneno</name> imperatori Graecorum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Epistola <name type="person">presbiteri Ioannis</name> de descriptione Indiae</title>
+                        </head>
+
+                        <incipit locus="127r"><name type="person">Presbiter iohannes</name> potencia et
+                            uirtute</incipit>
+                        <ab locusNew="127r">
+                            <decoNote>Initial. Seated king with sceptre</decoNote>
+                        </ab>
+                        <explicit locus="130r">genere ciborum essemus impleti</explicit>
+                        <ab>Collated by <name type="person">H. Bradshaw</name> for <name type="person">Dr
+                            Zarncke</name></ab>
+
+                    </msItem>
+
+
+                    <msItem n="6" locusStart="130v" locusEnd="138v">
+                        <head type="CCC">
+                            <name type="author">Iohannes de Sacro Bosco</name>, <title>Tractatus de sphaera</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Roberti [Grosteste] Lincolniensis</name> tractatus de
+                                sphera</title>
+                        </head>
+
+                        <rubric locus="130v">Incipit tractatus de spera</rubric>
+                        <ab>(By <name type="author">Johannes de Sacro Bosco</name>)</ab>
+                        <incipit locus="130v">Tractatum de spera in quatuor capitula</incipit>
+                        <ab locusNew="130v">
+                            <decoNote>Initial. Man in blue holding armillary sphere</decoNote>
+                        </ab>
+                        <explicit locus="138v">machina dissoluetur</explicit>
+                        <rubric locus="138v">Hic explicit tractatus spere scriptus anno domini <date>m<abbr
+                                    rend="superscript">o</abbr>. cc<abbr rend="superscript">o</abbr>. lxxx.
+                                tercio</date></rubric>
+
+                    </msItem>
+
+
+                    <msItem n="7" locusStart="139r" locusEnd="208r">
+                        <head type="CCC">
+                            <name type="author">pseudo-John of Damascus</name>, <title>Barlaam et Iosaphat</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Liber gestorum Barlaam et Josaphat servorum Dei editus Graeco sermone a <name
+                                    type="author">Ioanne Damasceno</name> viro sancto et erudito</title>
+                        </head>
+
+                        <incipit locus="139r">Cum igitur cepissent monasteria construi</incipit>
+                        <ab locusNew="139r">
+                            <decoNote>Initial. Man in blue offers apple to youth seated on R. with sceptre</decoNote>
+                        </ab>
+                        <explicit locus="208r">perducere dignare per Jhesum Christum filium tuum Amen</explicit>
+                        <rubric locus="208r">Explicit liber de gestis barlaam et iosaphat Regis seruorum dei</rubric>
+
+                    </msItem>
+
+
+                    <msItem n="8" locusStart="208r" locusEnd="221v">
+
+                        <head type="Nasmith">
+                            <title>Imago mundi, liber secundus</title>
+                        </head>
+
+                        <rubric locus="208r">Incipit secunda pars libri qui dicitur ymago mundi et debet subsequi suam
+                            primam partem superius ad hoc signum</rubric>
+                        <incipit locus="208r">Priori libello globum</incipit>
+                        <ab>Ends with</ab>
+                        <explicit locus="221r"><name type="person">Lotharius</name> regnum anno xii menses iii dies xii
+                            in christo fidelissimus constans pacificus miles inperteritus</explicit>
+                        <ab>List of Popes</ab>
+                        <incipit locus="221r"><name type="person">Petrus apostolus</name> annis xxv</incipit>
+                        <ab>The end is supplied <handNote>by the original hand</handNote> on a slip after f.
+                                <locus>221v</locus></ab>
+                        <explicit locus="221ar"><name type="person">Nicholaus III<abbr rend="superscript"
+                                >us</abbr></name>
+                            <name type="person">Martinus III<abbr rend="superscript">us</abbr></name> (IV)
+                                (<date>1281</date>)</explicit>
+
+                    </msItem>
+
+
+                    <msItem n="9" locusStart="221v" locusEnd="224r">
+                        <head type="CCC">
+                            <title>Legend of the Cross Before Christ</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De arbore vitae in paradiso, historia fabulosa</title>
+                        </head>
+
+                        <head type="James">
+                            <title>Story of the Cross</title>
+                        </head>
+                        <ab>(<ref type="bibl" target="Meyer 1882">W. Meyer, Abh. bayer. Akad. XVI, ii,
+                            131</ref><!--Corrected from iii to ii by James Corrigenda-->)</ab>
+                        <incipit locus="221v">Post peccatum ade expulso eo de paradyso</incipit>
+                        <ab locusNew="221v">
+                            <decoNote>Initial gold ground. Christ beardless stands on L., on R. sits <name type="person"
+                                    >Adam</name> with hand to head (sleeping): <name type="person">Eve</name> emerges
+                                from his side</decoNote>
+                        </ab>
+                        <ab>Ends</ab>
+                        <explicit locus="224r">In ea quidem crucifixerunt domini nostri Ihesum Christum in salutem
+                            omnium sane credencium qui factus est obediens patri usque ad mortem, cui est laus et honor
+                            et imperium per omnia secula seculorum. Amen</explicit>
+
+                    </msItem>
+
+
+                    <msItem n="10.1" locusStart="224v" locusEnd="227r">
+                        <head type="CCC">
+                            <title>Seth or The Holy Rood in Verse</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Versus Gallici de eadem re</title>
+                        </head>
+                        <ab locus="224v">French poem on the same, one of many versions</ab>
+                        <incipit locusNew="224v">
+                            <lg>
+                                <l>Apres ke <name type="person">Adam</name> fu getez</l>
+                                <l>De paradys pur ses pechez</l>
+                            </lg>
+                        </incipit>
+                        <explicit locusNew="227r">
+                            <lg>
+                                <l>E deus pur sa passiun</l>
+                                <l>De nos pechez nus doint remissiun</l>
+                                <l>E al drein si repentir</l>
+                                <l>Ke la ioie puisum servir</l>
+                                <l>Par la sue seinte aye</l>
+                                <l>Ni eit nul ke amen ne die</l>
+                            </lg>
+                        </explicit>
+                    </msItem>
+                    <msItem n="10.2" locusStart="227r" locusEnd="228r">
+                        <head type="CCC">
+                            <title>Childhood of Jesus</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Versus Gallici de eadem re</title>
+                        </head>
+                        <head type="James">
+                            <title>Infancy of Christ; an extract</title>
+                        </head>
+
+                        <ab locus="227r">full text in <ref type="ms" target="OBL426">MS. Selden supra 38</ref>: see <ref
+                                type="bibl" target="Meyer 1886"><hi rend="italic">Romania</hi> XV 334 (P.
+                            Meyer)</ref></ab>
+                        <incipit locusNew="227r">
+                            <lg>
+                                <l>En cel tens ke <name type="person">herodes</name> saueit</l>
+                                <l>Ke ihesu crist neez estoit</l>
+                                <l>Grant enuie de co aueit</l>
+                                <l>Ke nul sur ly ne regnereit</l>
+                            </lg>
+                        </incipit>
+                        <ab>Narrates Flight into <name type="place">Egypt</name>, meeting with beasts, tree bowing,
+                            child fallen from house-top raised up (124 lines)</ab>
+                        <explicit locusNew="228r">
+                            <lg>
+                                <l>E deus nus doint issi loer</l>
+                                <l>E son nun magnifier</l>
+                                <l>Ke nus puissum auer pardun</l>
+                                <l>E de nos pecchez remissiun</l>
+                                <l>Amen. Pater noster Aue dium</l>
+                            </lg>
+                        </explicit>
+
+                    </msItem>
+
+
+                    <msItem n="11" locusStart="228r" locusEnd="230r">
+                        <head type="CCC">
+                            <name type="author">Jacques de Vitry</name>, <title>Historia orientalis (excerpt)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Descriptio terrae sanctae</title>
+                        </head>
+
+                        <incipit locus="228r"><name type="person">Honorius papa</name> uolens scire terram agarenorum
+                            contra quos exercitus christianorum preparabatur</incipit>
+                        <ab locusNew="228r">
+                            <decoNote>Decorative initial</decoNote>
+                        </ab>
+                        <explicit locus="230r">ibi locus est ubi <name type="person">abraham</name> immolare filium
+                            uoluit</explicit>
+
+                    </msItem>
+
+
+                    <msItem n="12" locusStart="230r" locusEnd="230v">
+                        <head type="CCC">
+                            <name type="author">Bede the Venerable</name>, <title>Historia ecclesiastica gentis Anglorum
+                                (excerpt from book 5)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De situ terrae Ierosolimitanae secundum <name type="person">Bedam</name></title>
+                        </head>
+
+                        <incipit locus="230r"><name type="place">Bethleem</name> ciuitas <name type="person"
+                                >dauid</name> in dorso sita est</incipit>
+                        <explicit locus="230v">albo et rubicundo permixtus uidetur</explicit>
+                        <ab>(Bede, Historia ecclesiastica V 16)</ab>
+
+                    </msItem>
+
+
+                    <msItem n="13" locusStart="230v" locusEnd="231r">
+                        <head type="CCC">
+                            <name type="author">Bede the Venerable</name>, <title>Historia ecclesiastica gentis Anglorum
+                                (excerpt from book 5)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De loco Dominicae ascensionis</title>
+                        </head>
+
+                        <incipit locus="230v"><name type="place">Mons oliuarum</name> altitudine <name type="place"
+                                >monti syon</name> par est</incipit>
+                        <incipit locus="230v">In die ascensionis dominice per annos singulos</incipit>
+                        <explicit locus="230v">terre prosternere</explicit>
+                        <incipit locus="230v"><name type="place">Hebron</name> quondam ciuitas et metropolis</incipit>
+                        <incipit locus="231r">Hec de opusculis excerpta arculphi</incipit>
+                        <explicit locus="231r">hystoriis indere placuit</explicit>
+                        <ab>(Bede, Historia ecclesiastica V 17)</ab>
+
+                    </msItem>
+
+
+                    <msItem n="14" locusStart="231r" locusEnd="232v">
+                        <head type="CCC">
+                            <title>The Birth and Life of <name type="person">Pilate</name> (extract from Legenda
+                                Aurea)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De ortu <name type="person">Pilati</name> et ejus vita</title>
+                        </head>
+
+                        <incipit locus="231r">Cum rex tyrus nacione maguntinus</incipit>
+                        <explicit locus="232v">sunt plurime machinaciones dyabolice</explicit>
+                        <ab>Legenda Aurea, cap. 53 ed. <ref type="bibl" target="Graesse 1846">Graesse p. 231</ref></ab>
+
+                    </msItem>
+
+
+                    <msItem n="15" locusStart="232v" locusEnd="232v">
+                        <head type="CCC">
+                            <title>The Birth and Life of <name type="person">Judas</name> (extract from Legenda
+                                Aurea)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De ortu <name type="person">Judae</name> et ejus vita</title>
+                        </head>
+
+                        <incipit locus="232v">Fuit in diebus <name type="person">herodis</name> regis <name
+                                type="person">poncio pilato</name> preside uir in iudea nomine <name type="person"
+                                >ruben</name></incipit>
+                        <explicit locus="232v">Ideo penitencia ductus ad suasionem cimbree. Jhesu Christi fit
+                            discipulus</explicit>
+                        <ab locusNew="232v">
+                            <decoNote>Initial. <name type="person">Judas</name> hanging</decoNote>
+                        </ab>
+                        <ab>Legenda Aurea, cap. 45, <ref type="bibl" target="Graesse 1846"><supplied>ed.
+                                    Graesse</supplied> p. 184</ref></ab>
+
+                    </msItem>
+
+
+                    <msItem n="16" locusStart="233r" locusEnd="234v">
+                        <head type="CCC">
+                            <title>Visio <name type="person">Rodulfi</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Visio revelata anno <date>1209</date>
+                                <name type="person">Rodulpho</name> sacristae monasterii Cesarea sive Keisam nuncupati
+                                in territorio Augustensis ecclesiae</title>
+                        </head>
+
+                        <rubric locus="233r">Hec uisio reuelata est anno uerbi incarnati <date>m<abbr rend="superscript"
+                                    >o</abbr>. cc<abbr rend="superscript">o</abbr>. ix<abbr rend="superscript"
+                                >o</abbr>.</date> sec</rubric>
+                        <incipit locus="233r">In regno <name type="person">Allemann'</name> in <name type="place"
+                                >Sweuie</name> prouincia in territorio augustensis ecclesie situm est monasterium
+                            quoddam ordonis cisterciensis cesarea nuncupatum ... Keisam uero uulgari sermone</incipit>
+                        <ab>(The Host seen in human form)</ab>
+                        <explicit locus="234v">rex seculorum uisibiliter humilitate pertractandum. qui est super omnia
+                            benedictis in secula. Amen</explicit>
+                        <ab>Extracts in <ref type="bibl" target="Hampe 1897"><hi rend="italic">Neues Archiv</hi>, XXII
+                                668 (Hampe)</ref></ab>
+                        <ab locus="234r">A sentence in English occurs</ab>
+
+                    </msItem>
+
+
+                    <msItem n="17" locusStart="234v" locusEnd="235v">
+                        <head type="CCC">
+                            <title>De <name type="person">Stephano</name> monacho cartusiensi</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De <name type="person">Stephano</name> monacho cartusiensi, qualiter eum beata virgo
+                                primo eripuit de naufragio corporis, et postea de temptationibus cordis; qualiter eum
+                                formam orandi docuit, quia ei devotus in seculo extiterat</title>
+                        </head>
+
+                        <rubric locus="234v">De <name type="person">Stephano</name> monacho etc.</rubric>
+                        <ab>as Nasmith</ab>
+                        <incipit locus="234v">Quidam clericus nomine <name type="person">Stephanus</name> secundum
+                            seculi dignitatem preclarus</incipit>
+                        <explicit locus="235v">sperantes in te letificas. Qui cum unigenito tuo regnas et gloriaris in
+                            secula seculorum. Amen</explicit>
+
+                    </msItem>
+
+
+                    <msItem n="18" locusStart="235v" locusEnd="238v">
+                        <head type="CCC">
+                            <name type="author">pseudo-Methodius</name>, <title>Revelations</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Liber <name type="author">Methodii episcopi</name> Paterensis et martyris Christi
+                                quem ex Hebraeo et Graeco in Latinum transferre curavit, id est de principio seculi et
+                                inter regna gentium et fine seculorum, quem illustris vir beatus <name type="person"
+                                    >Jeronimus</name> in suis opusculis collaudavit</title>
+                        </head>
+
+                        <rubric locus="235v">In Christi nomine incipit liber etc.</rubric>
+                        <ab>as Nasmith</ab>
+                        <incipit locus="235v">Sciendum namque est nobis fratres karissimi quomodo in principio</incipit>
+                        <ab locus="236r">
+                            <handNote>The hand seems to change</handNote>
+                        </ab>
+                        <ab>Ends</ab>
+                        <explicit locus="238r">eripere dignetur qui cum patre et spiritu sancto uiuit et regnat deus per
+                            infinita secula seculorum. Amen</explicit>
+                        <ab>Printed in <ref type="bibl" target="Herold 1555">Orthodoxographa</ref>; last by <ref
+                                type="bibl" target="Sackur 1898">E. Sackur, <hi rend="italic">Sibyllinische Texte</hi>,
+                                1898</ref></ab>
+                        <ab locus="238v">blank covered with paper <supplied>(This paper has been removed since James's
+                                time.)</supplied></ab>
+
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: KW 18/11/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

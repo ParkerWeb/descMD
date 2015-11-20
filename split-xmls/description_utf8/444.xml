@@ -1,0 +1,169 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+
+                <msIdentifier xml:id="CCC444">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>444</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>R. 11</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>164</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Genesis and Exodus in Middle English Verse</head>
+
+                <head type="James">Genesis and Exodus in English Verse</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">189</height>
+                        <width unit="mm">109</width>
+                    </measureGrp><measureGrp type="James">7.4 x 4.2</measureGrp>, <extent>ff. 1 + 81</extent>,
+                        <layout>26 lines to a page</layout>. Cent. <origDate>xiv (near 1300)</origDate>, <handNote>in a
+                        large clear upright hand</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num>-8<num>8</num> (7 canc.) 9<num>8</num>
+                        10<num>10</num></collation>.</p>
+
+
+                <p function="Additions">On f. <locus>iv</locus>: Plinius nullus tam malus est liber quin ex eo boni
+                    aliquid capi possit <date>1485</date>.<lb/> (This motto is written in a good many of the
+                    manuscripts.)<lb/> On f. <locus>1r</locus> at top: Sapit qui suscepit. <name type="person">Ric.
+                        Southwell</name>.</p>
+
+                <p function="Research">The whole text has been edited for the E. E. T. S. by the Revd <ref type="bibl"
+                        target="Morris 1865">R. Morris (1865)</ref>. The dialect is said to be East Midland. The
+                    manuscript is unique.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i + 1-81 + c-d</foliation>.</p>
+
+
+
+                <msContents>
+                    <textLang mainLang="enm">Middle English.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="81r">
+
+
+                        <head type="CCC">
+                            <title>Genesis and Exodus in English Verse</title>
+                        </head>
+
+
+                        <head type="James">
+                            <title>Genesis and Exodus in English Verse</title>
+                        </head>
+
+
+
+                        <ab>(Genesis)</ab>
+                        <incipit locus="1r">
+                            <lg>
+                                <l>Man og to lunen &#240;at rimes ren</l>
+                            </lg>
+                        </incipit>
+
+                        <explicit locusNew="49v">
+                            <lg>
+                                <l>And god so graunte amen amen</l>
+                            </lg>
+                        </explicit>
+
+                        <ab>(Exodus)</ab>
+                        <incipit locus="49v">
+                            <lg>
+                                <l>Godes bliscing be &#447;i&#240; us</l>
+                                <l>her nu biginned exodus</l>
+                            </lg>
+                        </incipit>
+
+
+                        <explicit locusNew="81r">
+                            <lg>
+                                <l>Wi&#240; mu&#240; and herte sey &#447;e Amen</l>
+                            </lg>
+                        </explicit>
+
+                        <rubric locusNew="81r">Explicit liber Exodus</rubric>
+
+                        <ab>f. <locus>81v</locus> blank</ab>
+
+
+
+                    </msItem>
+
+
+                </msContents>
+
+
+
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text:copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, SP, CF</p>
+                            <p>msCheck: NJM 18.6.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

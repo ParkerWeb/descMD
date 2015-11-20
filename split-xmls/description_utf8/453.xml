@@ -1,0 +1,138 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC453">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>453</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>O. 27</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>227</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Robert Grosseteste, Epistolae (1-126), De cura pastorali (epistola 127)</head>
+                <head type="James">Rob. Grosseteste Epistolae</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">173</height>
+                        <width unit="mm">122</width>
+                    </measureGrp>, <measureGrp type="James">6.9 x 5</measureGrp>, <extent>ff. 197</extent>, <layout>30
+                        lines to a page</layout>. Cent. <origDate>xv</origDate>, <handNote>in a rather current
+                        hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>12</num>-15<num>12</num> (12 canc.) 16<num>12</num> 17<num>6</num></collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>speciosus. ipse est</secFol>.</p>
+
+                <p function="Research" rend="afterContents">This is the principal MS. used by Luard for his <ref
+                        type="bibl" target="Luard 1861">edition</ref>. It contains Epistolae 1-127 in that edition (see
+                    his Introduction, p. xcvi)</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-iii + pp. 1-56 (57-58 missing) + 59-396 + ff. iv-v</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1" locusEnd="330">
+                        <head type="CCC">
+                            <name type="author">Robert Grosseteste</name>, <title>Epistolae (1-126)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Epistolae <name type="author">Roberti Grostest episcopi Lincoln.</name></title>
+                        </head>
+
+                        <ab locusNew="1">
+                            <decoNote>A very beautiful initial and partial border of characteristic English work:
+                                facsimile of this page in <ref type="bibl" target="Luard 1861">Luard's edition</ref>
+                                (Rolls Series)</decoNote>
+                        </ab>
+                        <ab><supplied>Letter</supplied> 1</ab>
+                        <incipit locus="1">Dilecto sibi in Christo Mag<abbr rend="superscript">ro</abbr>
+                            <name type="person">Ade Rufo</name>
+                            <name type="author">R. Grosseteste</name></incipit>
+
+
+
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="330" locusEnd="395">
+                        <head type="CCC">
+                            <name type="author">Robert Grosseteste</name>, <title>De cura pastorali (epistola
+                                127)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Tractatus ejusdem de cura pastorali</title>
+                        </head>
+
+                        <ab><supplied>Letter</supplied> 127</ab>
+                        <incipit locus="330"><name type="person">Moyses</name> qui tradente domino</incipit>
+                        <explicit locusNew="395">in ipsa superiori potestate obeditur</explicit>
+                        <rubric locusNew="395">Expliciunt Epistole domini <name type="author">Lincol(n)iensis</name>
+                            secundum, etc.</rubric>
+
+                        <ab>
+                            <supplied>p. <locus>396</locus> is blank</supplied>
+                        </ab>
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, but not by a second person</p>
+                            <p>msCheck: NJC 15/10/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

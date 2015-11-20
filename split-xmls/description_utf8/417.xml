@@ -1,0 +1,195 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC417">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>417</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Q. 8</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>264</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">John Stone OSB, Chronicle</head>
+                <head type="James">Ioh. Stone</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">214</height>
+                        <width unit="mm">145</width>
+                    </measureGrp>, <measureGrp type="James">8.4 x 5.8</measureGrp>, <extent>ff. 103</extent>,
+                        <layout>about 21 lines to a page</layout>. Cent. <origDate>xv (1467)</origDate>, <handNote>in a
+                        good clear hand</handNote>. </p>
+
+
+
+                <p><label>Collation:</label>
+                    <collation>1<num>6</num> 2<num>8</num>-10<num>8</num> 11<num>12</num> 12<num>14</num> (wants
+                        14)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>Expense</secFol> or <secFol>Stephanus</secFol>.</p>
+
+                <p function="Provenance">From <name type="place">Christ Church, Canterbury</name>. It does not appear in
+                    any old catalogue.</p>
+
+                <p function="Research">The whole text (with slight omissions) has been edited by the <ref type="bibl"
+                        target="Searle 1902">Rev. W. G. Searle for the Cambridge Antiquarian Society, Christ Church,
+                        Canterbury, 1902, C. A. S. 8vo publications no. 34</ref>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-103 + iii-iv</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="7v">
+                        <head type="CCC">
+                            <name type="author">John Stone OSB</name>, <title>Chronicle (Donations to the Church of
+                                    <name type="place">Christ Church, Canterbury</name>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Dona et expensae quae vel quas ad diversa opera et ornamenta ad domus Dei decorem
+                                noscitur dedisse</title>
+                        </head>
+
+                        <rubric locus="1r">Liber fratris <name type="author">Johannis Stone</name> monachi <name
+                                type="place">ecclesie Christi Cant.</name> quem ex suo magno labore composuit a. d.
+                                    <date>mill<abbr rend="superscript">mo</abbr> cccc<abbr rend="superscript">mo</abbr>
+                                    lxvij<abbr rend="superscript">o</abbr></date>. monachatus sui anno
+                            quinquagesimo</rubric>
+                        <ab>(<ref type="bibl" target="Searle 1902">Searle, p. 3</ref>)</ab>
+                        <ab>ff. <locus>1v</locus>-<locus>3v</locus> blank</ab>
+                        <incipit locus="4r">In memoriam rei futuram. Anno gratie <date>mill. quadring. decimo
+                                octauo</date> videlicet in die S. lucie virginis feria ii<abbr rend="superscript"
+                                >a</abbr> contingit quod frater <name type="author">Johannes Stone</name> monachus
+                            sancte Cantuar. Ecclesie receptus et acceptatus fuit ad habitum monachalem tempore domini
+                                <name type="person">Johannis Wodennisbeg'</name> tunc prioris qui subsequenter vixit in
+                            religione per .l. (small blank space) cum sancti spiritus gracia assistente ut speratur qui
+                            eciam ne traderentur perpetue obliuioni dona et expensas que uel quas ad diuersa opera et
+                            ornamenta ad domus dei decorem noscitur dedisse hic curauit seriosius inserere et in specie
+                            annotare</incipit>
+                        <ab>(<ref type="bibl" target="Searle 1902">Searle, p. 5</ref>)</ab>
+                        <ab locusNew="4r">In primis ad feretra SS. <name type="person">dunstani</name> et <name
+                                type="person">Elphegi</name> vj<abbr rend="superscript">s</abbr>. viij<abbr
+                                rend="superscript">d</abbr></ab>
+                        <ab locus="5v">Ending</ab>
+                        <ab>ff. <locus>6r</locus>-<locus>7v</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="8r" locusEnd="96v">
+                        <head type="CCC">
+                            <name type="author">John Stone OSB</name>, <title>Chronicle (Books of obits and other
+                                memorials)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Liber de obitibus et aliis memorabilibus istius cenobii autore <name type="author"
+                                    >Iohanne Stone</name> [ab anno <date>1415</date> ad annum <date>1472</date>]</title>
+                        </head>
+
+                        <ab>Then, <handNote>in a hand somewhat different in aspect but probably the same</handNote>, the
+                            Chronicle</ab>
+                        <rubric locusNew="8r">
+                            <name type="author">Willelmus Stone</name>
+                        </rubric>
+                        <ab>(<ref type="bibl" target="Searle 1902">Searle, p. 7</ref>)</ab>
+                        <incipit locus="8r">Anno domini <date>m<abbr rend="superscript">o</abbr> ccccm<abbr
+                                    rend="superscript">o</abbr> xv<abbr rend="superscript">o</abbr></date>
+                            <name type="author">Willelmus Stone Granetarius</name> obiit</incipit>
+                        <ab locus="79v"><handNote>There is an obvious modification in the hand</handNote>
+                                (<date>1467</date>)</ab>
+                        <ab locus="93r">The last entry (<handNote>in a different hand</handNote>), <date>1472</date>.
+                            Consecration of <name type="person">Bp Goldwell</name> (<ref type="bibl"
+                                target="Searle 1902">Searle, p. 118</ref>)</ab>
+                        <ab>ff. <locus>93v</locus>-<locus>96v</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="3" locusStart="97r" locusEnd="100r">
+                        <head type="CCC">
+                            <title>Enthronement of <name type="person">William Warham, Archbishop of Canterbury</name>,
+                                    <date>1505</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Inthronizatio D. <name type="person">Willelmi Warham Cantuar. archiepiscopi</name>
+                                <date>anno regis <name type="person">Henrici VII</name>. vicesimo</date>, <hi
+                                    rend="italic">manu neoterica</hi></title>
+                        </head>
+
+                        <ab>
+                            <handNote>In a quite different hand</handNote>
+                        </ab>
+                        <rubric locus="97r">Intronizacio domini <name type="person">Willelmi Warham Cantuariensis
+                                archiepiscopi</name>
+                            <date>anno r. r. henrici 7<abbr rend="superscript">i</abbr> xx<abbr rend="superscript"
+                                    >o</abbr></date></rubric>
+                        <incipit locusNew="97r">Quoniam temporis longitudine</incipit>
+                        <explicit locusNew="100r">possit merces concedi. Finis</explicit>
+                        <ab locus="100r">Two paragraphs in the same hand on a penitent and a theft of jewels</ab>
+                        <ab>The contents of ff. <locus>97r</locus>-<locus>100r</locus> are not printed by Searle</ab>
+                        <ab>ff. <locus>100v</locus>-<locus>103v</locus> blank</ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 15/12/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

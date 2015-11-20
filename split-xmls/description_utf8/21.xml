@@ -1,0 +1,191 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC021">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>21</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>E. 4</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>45</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Ranulf Higden OSB, Polychronicon (continued to 1377)</head>
+
+                <head type="James">Ranulphi Higden Polychronicon</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">378</height>
+                        <width unit="mm">262</width>
+                    </measureGrp><measureGrp type="James">14.8 x 10.4</measureGrp>, <extent>ff. 179 + 2</extent>,
+                        <layout>46 lines to a page</layout>. Cent. <origDate>xiv (late)</origDate>, <handNote>very
+                        finely written</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>2 flyleaves, a<num>10</num> (1 canc.) 1<num>8</num>-20<num>8</num> 21<num>6</num>
+                            22<num>4</num></collation>.</p>
+
+                <p function="Provenance">At the bottom of the last leaf but one (p. <locus locusNew="178v">356</locus>):
+                        <q>Istum librum <name type="person">henricus somer</name> dedit <name type="place">hospitali s.
+                            Johannis Euangeliste Cantebrigie</name> cuius anime propicietur deus.</q></p>
+                <p function="Provenance">Below, by one of <name type="person">Parker</name>'s scribes: <q>Hic <name
+                            type="person">henricus somer</name> fuit dominus manerii de Jakes in <name type="place"
+                            >Grancestre</name> et s(? trenu)us Inimicus <name type="place">Collegio Corporis Christi
+                            Cantabrigiae</name> ratione decimarum in Grancestre ut in libris Collegii patet.</q>
+                </p>
+                <p function="Provenance">Names: <name type="person">doctor shorton</name>, <name type="person">Henr.
+                        Somer</name>, and '<name type="person">exham</name>' are also scribbled here.</p>
+
+                <p function="Decoration" rend="afterContents"><decoNote>Each book has a very fine decorative initial and
+                        partial border in gold and colour. The red flourishing of the smaller initials is very
+                        good</decoNote>. </p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-ii + 1-178 + iii + c-d</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="8v">
+
+                        <head type="James">
+                            <title>Table</title>
+                        </head>
+
+                        <ab><name type="person">Abraham</name> - <name type="person">Zacharias</name></ab>
+                        <ab>On f. <locus>1r</locus> (<name type="person" key="MaPa01">Parker</name>). <q>In custodia
+                                magistri</q></ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="9r" locusEnd="9v">
+
+                        <head type="James">
+                            <title>Mappa mundi</title>
+                        </head>
+
+                        <ab locusNew="9r">
+                            <decoNote>Mappa mundi, full-page, almond-shaped, surrounded by green ocean. <name
+                                    type="place">Jerusalem</name> in centre</decoNote>
+                        </ab>
+                        <ab>p. <locus locusNew="9v">18</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="10r" locusEnd="174r">
+
+                        <head type="CCC">
+                            <name type="author" key="RaHi01">Ranulf Higden OSB</name>, <title>Polychronicon (continued
+                                to 1377)</title>
+                        </head>
+
+                        <head type="James">
+
+                            <name type="author" key="RaHi01">Ranulphi Higden</name>
+                            <title>Polychronicon</title>
+                        </head>
+
+
+
+                        <incipit locus="17" locusNew="10r">Post preclaros</incipit>
+
+
+                        <ab>At <locus locusNew="167v">332</locus> (anno <date>1342</date>) <q>carceris et capitis
+                                interdixit</q>, is the note (in the text) <q>Usque huc scripsit R.</q></ab>
+                        <ab>Text continues</ab>
+                        <ab locusNew="167v">Hoc idem anno non. Junii natus est regi E. III<abbr rend="superscript"
+                                >o</abbr>
+                            <name type="person">Edmundus</name> etc.</ab>
+
+
+                        <ab>Liber VII ends in <date>1377</date></ab>
+                        <explicit locus="347" locusNew="174r">Et quod grauius longam continuacionem postea
+                            habuerunt</explicit>
+                        <rubric locusNew="174r">Explicit liber septimus qui est ultimus historie policronice</rubric>
+
+
+                    </msItem>
+
+
+
+                    <msItem n="4" locusStart="174r" locusEnd="178v">
+
+                        <head type="CCC">
+                            <name type="author">Ranulf Higden OSB</name>, <title>Polychronicon (Chronology to
+                                    <date>1377</date>)</title></head>
+
+                        <ab>In a different hand probably of cent. <origDate>xiv late</origDate></ab>
+                        <rubric locus="347" locusNew="174r">Hic incipit Cronica bona et compendiosa de regibus <name
+                                type="place">anglie</name> tantum a <name type="person">Noe</name> usque ad hunc
+                            diem</rubric>
+                        <incipit locusNew="174r"><name type="person">Noe</name> fuerunt tres filii</incipit>
+                        <ab>Ends with the accession of <name type="person">Richard II</name></ab>
+                        <explicit locus="356" locusNew="178v">in regnum successit anglorum anno etatis sue
+                            undecimo</explicit>
+
+
+                    </msItem>
+
+                </msContents>
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, CF 2nd</p>
+                            <p>msCheck: NJC 25.01.2007; re-checked for titles by NJC 23.3.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

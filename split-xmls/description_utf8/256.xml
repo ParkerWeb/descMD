@@ -1,0 +1,184 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC256">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>256</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>O. 4</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>206</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">David of Augsburg OFM, De exterioris et interioris hominis compositione. Iohannes de
+                    Caulibus (pseudo-Bonaventure) OFM, Meditationes uitae Christi</head>
+
+                <head type="James">Formula Novitiorum. Bonaventurae Meditatio</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">270</height>
+                        <width unit="mm">195</width>
+                    </measureGrp><measureGrp type="James">10.8 x 7.8</measureGrp>, <extent>ff. 147 + 4</extent>,
+                        <layout>35 lines to a page</layout>. Cent. <origDate>xiv</origDate>, <quote>seculo
+                            <origDate>xv</origDate> scriptus</quote>, <handNote>in more than one clear
+                    hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num> 1<num>8</num>-11<num>8</num> (wants 2) | 12<num>8</num>-18<num>8</num> 19
+                        (four), 2 flyleaves</collation>.</p>
+
+                <p function="Additions">On f. <locus locusNew="iiv">iv</locus>: <name type="person">Sancta
+                        ffrydeswyda</name> ora pro nobis.<lb/> Mark J at top of f. <locus>1r</locus>.<lb/>On the last
+                    flyleaf <supplied>(f. <locus>vr</locus>)</supplied> is pasted a smaller paper leaf written in red
+                    ink: <q>Femina quedam solitaria et reclusa numerum vulnerum christi scire cupiens ... inter quedam
+                        cum desiderio que audierant perfecerunt.</q></p>
+                <!--<p function="Additions">Writing in black on reverse side, obscured by the paste-down</p>-->
+
+                <p type="CCC">
+                    <foliation>ff. i-iii + 1-147 + iv-vi</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="87v">
+
+                        <head type="CCC">
+                            <name type="author">David of Augsburg OFM</name>, <title>De exterioris et interioris hominis
+                                compositione</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Formula novitiorum, reformatio mentis et profectus religiosorum libri iii</title>
+                        </head>
+
+                        <ab locus="1r">Table of chapters</ab>
+                        <ab>Text</ab>
+                        <incipit locus="2v">Primo considerare debes quare ueneris</incipit>
+
+                        <ab>(cf. <ref type="bibl" target="Migne 184"><supplied>P. L.</supplied> CLXXXIV 1189</ref>)</ab>
+                        <ab>Liber III ends</ab>
+                        <explicit locus="83v">Pro acceptis uel promissis que nobis concedat deus qui uiuit et regnat in
+                            secula seculorum. Amen</explicit>
+
+                        <rubric locusNew="84r">Explicit tercius liber de profectu Religiosorum</rubric>
+                        <rubric locusNew="84r">Posce quod ignoscat deus aut bona det mala tollat</rubric>
+                        <rubric locusNew="84r">Et pro concessis tibi grates dando vigil sis</rubric>
+
+                        <rubric locus="84r">Inuentorium seu reportorium in opere precedente s. formula
+                            nouiciorum</rubric>
+
+                        <ab>f. <locus>87r</locus>-<locus>87v</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="88r" locusEnd="147v">
+
+                        <head type="CCC">
+                            <name type="author">Iohannes de Caulibus (pseudo-Bonaventure) OFM</name>,
+                                <title>Meditationes uitae Christi</title>
+                        </head>
+
+                        <head type="James">
+                            <name type="author">pseudo-Bonaventura</name>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Meditatio omnium meditationum excellentissima de vita Christi edita a reverendo
+                                cardinali <name type="person">Bonaventura</name></title>
+                        </head>
+
+                        <ab>
+                            <quote>
+                                <q>Hujus generis scriptores possunt lectori testari abunde, quae fuerat doctrinae forma
+                                    per totam ecclesiam confirmata quo tempore hic author claruit, et vel ob hanc causam
+                                    servandus</q>
+                            </quote>
+                        </ab>
+
+
+                        <ab>Prologue</ab>
+                        <incipit locusNew="88r">Inter alia virtutum et laudum preconia</incipit>
+                        <ab>Text</ab>
+                        <incipit locus="89r">Cum per longissima tempora</incipit>
+                        <explicit locusNew="147v">dignetur assumere de quo loquimur scilicet dominus noster Iesus
+                            Christus qui est super omnia deus benedictus et laudabilis in secula seculorum.
+                            Amen</explicit>
+
+                        <ab locusNew="ivr">On flyleaf, verses</ab>
+                        <ab>
+                            <lg>
+                                <l>Surge miser vigila lege canta scribe vel ora</l>
+                                <l>Et fac quod nulla sine fructu transeat hora.</l>
+                                <l>Est graue prestare grauius prestata rogare</l>
+                                <l>Cum peto tunc dubito duo perdere rem et amorem.</l>
+                                <l>Hic sto pro ventis ac pro multis nocumentis</l>
+                                <l>Si quis me frangat ipsum malediccio tangat.</l>
+                                <l>etc.</l>
+                            </lg>
+                        </ab>
+
+                    </msItem>
+
+                </msContents>
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text:copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, BA, CF</p>
+                            <p>msCheck: NJM 31.05.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,231 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC439">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>439</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>K. 18</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>123</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Robert Grosseteste, Compotus correctorius. Defensor of Ligugé, Liber scintillarum.
+                    Isidore of Seville, De ortu et obitu patrum. Honorius Augustodunensis, Elucidarius</head>
+                <head type="James">Scintillarium, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">197</height>
+                        <width unit="mm">142</width>
+                    </measureGrp>, <measureGrp type="James">7.7 x 5.6</measureGrp>, <extent>ff. 15 + 142</extent>,
+                        <layout>two volumes</layout>. Cent. <origDate>xv and xii-xiii</origDate>.</p>
+
+                <p function="Multivolume"><lb/><label>Volume I:</label>
+                    <layout>Double columns of 53 lines</layout>
+                    <handNote>in a very small hand</handNote>. Cent. <origDate>xv</origDate>. <lb/><label>Volume
+                        II:</label> Cent. <origDate>xii late or xiii early</origDate>, <layout>25 lines to a
+                        page</layout>, <handNote>good hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num> (1 replaced) b<num>12</num> c (one) | 1<num>8</num> (wants 8)
+                            2<num>8</num>-7<num>8</num> (8 canc.) 8<num>8</num>-18<num>8</num></collation>. Many margins
+                    of leaves cut off</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i + 1-156 + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="eng">Latin and English.</textLang>
+
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+                    <msItem n="1" locusStart="1v" locusEnd="14v">
+                        <head type="CCC">
+                            <name type="author">Robert Grosseteste</name>, <title>Compotus correctorius</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Computus ecclesiasticus dom. <name type="author">Roberti Grosseteste</name> episcopi
+                                Lincolniensis</title>
+                        </head>
+                        <ab locus="iiv" locusNew="1v">
+                            <decoNote>a rota in twelve divisions inscribed in red and black</decoNote>
+                        </ab>
+                        <ab locus="1r" locusNew="2r">Capitula</ab>
+                        <incipit locus="2r">Capitulum primum de causa bisexti, etc.</incipit>
+                        <ab>Text</ab>
+                        <incipit locusNew="2r">Compotus est sciencia numeracionis et diuisionis temporum</incipit>
+                        <ab>Ends</ab>
+                        <explicit locusNew="13v">ut ieiunemus nos admonet atque matheus</explicit>
+                        <rubric locusNew="13v">Explicit compotus ecclesiasticus domini <name type="author">roberti
+                                grosseteste</name> episcopi lincolniensis</rubric>
+                        <ab locusNew="13v">A table of solar cycle</ab>
+                        <ab locusNew="14v">A <origDate>xvi</origDate>th cent. flyleaf</ab>
+
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="2" locusStart="15r" locusEnd="65v">
+                        <head type="CCC">
+                            <name type="author">Defensor of Ligugé</name>, <title>Liber scintillarum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Scintillarium</title>
+                        </head>
+                        <head type="James">
+                            <title>Scintillarium</title>
+                        </head>
+                        <ab>(<name type="author">Defensoris</name>: <ref type="bibl" target="Migne 088"><supplied>P.
+                                    L.</supplied> LXXXVIII 597</ref>)</ab>
+                        <ab locus="2r" locusNew="15r">Capitula (98)</ab>
+                        <ab>Text</ab>
+                        <incipit locus="2r" locusNew="16r">Dominus dicit in euangelio</incipit>
+                        <explicit locus="48r" locusNew="62r">donentur uictoribus premia sempiterna</explicit>
+                        <ab>Followed by other extracts, viz.</ab>
+                        <incipit locus="48r" locusNew="62r">Ex concilio <name type="person">Bonefacii pape</name> qui
+                            quartus a <name type="person">beato Gregorio</name> fuit. quod liceat monachis cum
+                            sacerdotali officio ubique ministrare</incipit>
+                        <rubric locus="49r" locusNew="63r">Ex decreto <name type="person">beati Gregorii</name>
+                            pape</rubric>
+                        <incipit locusNew="63r">Episcopus missam celebrare debet in ordinatione presbyteri</incipit>
+                        <explicit locusNew="63v">iuxta constitutum cc<abbr rend="superscript">torum</abbr> x<abbr
+                                rend="superscript">cem</abbr> et viii<abbr rend="superscript">to</abbr> patrum.
+                            Amen</explicit>
+                        <incipit locus="49v" locusNew="63v">Tria dedit deus primo homini. Scientiam. Altitudinem.
+                            Delectationem. Cum sine spe timor est mox desperatio torquet, etc.</incipit>
+
+                        <explicit locus="50r" locusNew="64r">Scapulare et cuculla idem est. Storia et matta et natta
+                            idem est</explicit>
+                        <incipit locus="50r" locusNew="64r">Duodecim apostolorum autem nomina, etc.</incipit>
+                        <incipit locusNew="64r">Hi sunt operarii qui mittendi erant, etc.</incipit>
+                        <ab>On the Apostles</ab>
+                        <ab>followed by some verses and notes, ending</ab>
+                        <explicit locusNew="65v">Iniquum dicitur duobus modis, aliud iniustum, aliud molestum</explicit>
+                    </msItem>
+
+                    <msItem n="3" locusStart="65v" locusEnd="94v">
+                        <head type="CCC">
+                            <name type="author">Isidore of Seville</name>, <title>De ortu et obitu patrum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Isidorus</name> de ortu et obitu prophetarum et apostolorum, et
+                                ubi prophetaverunt, et quantum vixerunt, et ubi sepulti sunt</title>
+                        </head>
+                        <rubric locus="51v" locusNew="65v"><name type="author">Isidorus</name> de ortu et obitu
+                            prophetarum, etc.</rubric>
+                        <ab>(<ref type="bibl" target="Migne 083"><supplied>P. L.</supplied> LXXXIII 129</ref>)</ab>
+                        <incipit locusNew="66r">Adam homo primus sexta feria factus</incipit>
+                        <ab>Ends: de <name type="person">S. Stephano</name></ab>
+                        <explicit locusNew="94r">mentientes clamabant christi militem miseri morte</explicit>
+                        <rubric locus="80r" locusNew="94r">De anima</rubric>
+                        <incipit locusNew="94r">Erant quidam heresi qui tertulliani incurrerunt</incipit>
+                        <explicit locusNew="94v">et cetere uirtutes</explicit>
+                        <rubric locus="80v" locusNew="94v">Item de anima</rubric>
+                        <incipit locusNew="94v">Origo anime ex spiritu dei</incipit>
+                        <explicit locusNew="94v">Cogitatio ad consilium</explicit>
+                    </msItem>
+
+                    <msItem n="4" locusStart="95r" locusEnd="156v">
+                        <head type="CCC">
+                            <name type="author">Honorius Augustodunensis</name>, <title>Elucidarius</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Elucidarium <name type="author">Anselmi</name></title>
+                        </head>
+                        <ab>
+                            <decoNote><origDate>xvi</origDate>th cent. title to the Elucidarium in black
+                                letter</decoNote>
+                        </ab>
+                        <rubric locusNew="95r">Incipit Elucidarium</rubric>
+                        <ab>(<name type="person">Honorius <q>of Autun,</q></name>
+                            <ref type="bibl" target="Migne 172"><supplied>P. L.</supplied> CLXXII</ref>)</ab>
+                        <incipit locusNew="95r">Sepius rogatus a condiscipulis</incipit>
+                        <ab locus="103r" locusNew="117r">Liber II</ab>
+                        <ab locus="120v" locusNew="134v"><supplied>Liber</supplied> III</ab>
+                        <explicit locusNew="154r">uideas bona ierusalem omnibus diebus uite tue. Amen</explicit>
+                        <rubric locusNew="154r">Finit liber iste in nomine domini</rubric>
+                        <rubric locusNew="154r">Orate pro me .D. scriptore qui hunc librum scripsi omnes qui in hoc
+                            libro legeritis</rubric>
+                        <ab>
+                            <handNote>In another hand</handNote>
+                        </ab>
+                        <incipit locus="140r" locusNew="154r">... J nno sexto die Dominus dixit Faciamus hominem ad
+                            ymaginem, etc.</incipit>
+                        <ab locus="140v" locusNew="154v">et fecit eum in animam uiuentem. Dic mihi unde factum est
+                            corpus adam. Respondit. De octo partibus, etc.</ab>
+                        <ab>
+                            <supplied agent="JamesCorrigenda">Cf. <ref type="ms" target="CCC326">MS 326. p.
+                                135</ref></supplied>
+                        </ab>
+                        <ab locus="141r" locusNew="155r">On the naming of Adam by the four angels</ab>
+                        <ab locus="141v" locusNew="155v"><handNote>In large round hand</handNote>: part of a sermon on a
+                            dedication festival (?)</ab>
+                        <incipit locusNew="155v">Letare fratres karissimi in his que dicta sunt nobis, etc.</incipit>
+                        <incipit locusNew="155v">Sancta ecclesia nos rogat hodie letari</incipit>
+                        <ab locus="142v" locusNew="156v">Ends imperfectly: pasted over</ab>
+                        <ab locusNew="156r">At bottom, scribbled (<origDate>xv</origDate>)</ab>
+                        <ab locusNew="156r">
+                            <q>To &#254;<abbr rend="superscript">e</abbr> ... of <name type="place"
+                                >Bedeford</name></q>
+                        </ab>
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJM 9/1/2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

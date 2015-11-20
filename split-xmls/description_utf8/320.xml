@@ -1,0 +1,574 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC320">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>320</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>T. 1</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>282</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Sermons by Geoffrey Babio du Louroux and others. Anglo-Saxon Penitential</head>
+                <head type="James">Sermones. Canones, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">232</height>
+                        <width unit="mm">146</width>
+                    </measureGrp>, <measureGrp type="James">9.1 x 6</measureGrp>, <extent>ff. 114 + 54</extent>, two
+                    volumes. <decoNote>Titles in red capitals</decoNote>.</p>
+
+                <p function="Multivolume"><lb/><label>Volume I:</label>
+                    <layout>37-40 lines to a page.</layout> Cent <origDate>xii</origDate>, <handNote>in a large clear
+                        script</handNote>, cut at the top. <lb/><label>Volume II:</label>
+                    <layout>20 lines to a page</layout>, said to be <q>not later than cent. viii,</q> but this seems to
+                    be an exaggerated estimate of its age. <handNote>It is in a fine bold minuscule not specially
+                        Anglian, rather Carolingian</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <lb/><label>Volume I:</label>
+                    <collation> 1<num>8</num> (wants 1-3) 2<num>8</num>-7<num>8</num> (+ 1 after 5) 8<num>8</num>
+                            9<num>8</num> (wants 1) 10<num>8</num> (wants 8) 11<num>8</num>-15<num>8</num> (8
+                        mut.)</collation>. <lb/>
+                    <lb/><label>Volume II:</label>
+                    <collation>I<num>8</num> (2 replaced by a smaller blank leaf) II<num>8</num>-VI<num>8</num>
+                            VII<num>6</num></collation>.</p>
+
+
+
+
+                <p type="CCC">
+                    <foliation>ff. a + i-iii + 1-170 + iv-v</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="ang">Latin and Old English.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="1r" locusEnd="116v">
+                        <head type="CCC"><title>Sermons</title> by <name type="author">Geoffrey Babio du Louroux</name>
+                            and others</head>
+                        <head type="Nasmith">
+                            <title>Uberrimam collectionem sermonum seu homeliarum in dies festos, &amp;c.</title>
+                        </head>
+
+                        <ab>
+                            <quote>Ex <name type="author">S. Augustino</name> precipue</quote>
+                        </ab>
+
+                        <ab>A collection of Sermons, part of which is also in <ref type="ms" target="CCC317">MS 317
+                                (2)</ref>, by <name type="author">Geoffrey Babion</name></ab>
+                        <ab locusNew="1r">Begins imperfectly with the doxology of a sermon</ab>
+                        <ab>The first complete sermon is the third of the collection as described by <ref type="bibl"
+                                target="Hauréau 1890">Hauréau (<hi rend="italic">Notices et Extraits</hi> XXXI 2.
+                                126)</ref></ab>
+
+                        <incipit locus="1r">Apparuit benignitas</incipit>
+
+                        <rubric locus="2v">De <name type="person">Sancto Stephano</name></rubric>
+                        <incipit locusNew="2v">Diligite inimicos</incipit>
+
+                        <rubric locus="3v">De <name type="person">Sancto Iohanne</name></rubric>
+                        <incipit locusNew="3v">Vulpes foueas habent</incipit>
+
+                        <rubric locus="5r">In die Epiphanie</rubric>
+                        <incipit locusNew="5r">Cum natus esset. Cum creator</incipit>
+
+                        <rubric locus="6v">De dominica</rubric>
+                        <incipit locusNew="6v">Cum descendisset Iesus. Quando Christus</incipit>
+                        <rubric locus="8r">In purificacione <name type="person">Sancte Marie</name></rubric>
+                        <incipit locusNew="8r">Postquam impleti. Consuetudo fratres</incipit>
+                        <rubric locus="10r">De quadragesima</rubric>
+                        <incipit locusNew="10r">Audi <name type="place">israel</name> mandata uite</incipit>
+
+                        <rubric locus="11v">De quadragesima</rubric>
+                        <incipit locusNew="11v">Si quis diligit me</incipit>
+                        <rubric locus="13r">De quadragesima</rubric>
+                        <incipit locusNew="13r"><name type="person">Maria soror <name type="person">moysi</name></name>
+                            peccauit</incipit>
+                        <ab locusNew="13r">It is with this sermon that the correspondence with the collection in <ref
+                                type="ms" target="CCC317">MS 317</ref> begins </ab>
+
+                        <rubric locus="15r">In quadragesima</rubric>
+                        <incipit locusNew="15r">Nolite diligere mundum</incipit>
+                        <ab locus="16v">(De quadragesima)</ab>
+                        <incipit locusNew="16v">Excutere de puluere</incipit>
+                        <rubric locus="18v">Alius sermo</rubric>
+                        <incipit locusNew="18v">Noli emulari</incipit>
+                        <rubric locus="20r">Ad palmas</rubric>
+                        <incipit locusNew="20r">Dicite filie Syon</incipit>
+                        <rubric locus="22v">Ad palmas</rubric>
+                        <incipit locusNew="22v">Dominus noster Ihesus Christus ut sanctificaret</incipit>
+                        <rubric locus="24r">Ad palmas</rubric>
+                        <incipit locusNew="24r">Scitote fratres karissimi quia uetus homo</incipit>
+                        <rubric locus="25v">Alius sermo</rubric>
+                        <incipit locusNew="25v">Ecce odor filii mei</incipit>
+
+                        <rubric locus="27r">In cena domini</rubric>
+                        <incipit locusNew="27r">Dominus noster Iesus Christus in qua nocte</incipit>
+                        <rubric locus="28v">In cena domini</rubric>
+                        <incipit locusNew="28v">Estote imitatores</incipit>
+                        <ab locus="30r">(In cena domini)</ab>
+                        <incipit locusNew="30r">Cum intinxisset</incipit>
+                        <ab locus="32r">(In cena domini)</ab>
+                        <incipit locusNew="32r">Sciens Iesus quia uenit hora</incipit>
+                        <ab locus="33v">(In cena domini)</ab>
+                        <incipit locusNew="33v">Venite filii audite me</incipit>
+
+                        <rubric locus="35r">Sermo de cruce</rubric>
+                        <incipit locusNew="35r">Popule meus quid feci tibi</incipit>
+                        <rubric locus="37r">De resurrectione</rubric>
+                        <incipit locusNew="37r"><name type="person">Paulus</name> apostolus ait. Etenim pascha</incipit>
+                        <rubric locus="38v">Ad letaniam maiorem</rubric>
+                        <incipit locusNew="38v">Diuina scriptura fratres karissimi</incipit>
+                        <rubric locus="39r">Sermo <name type="author">Augustini</name> de Sancto <name type="person"
+                                >Helia</name></rubric>
+                        <incipit locusNew="39r">Dominus deus noster nolens aliquem</incipit>
+                        <rubric locus="40r">In exaltatione sancte crucis</rubric>
+                        <incipit locusNew="40r">Verbum crucis pereuntibus</incipit>
+                        <rubric locus="41r">In rogationibus</rubric>
+                        <incipit locusNew="41r">Quis uestrum habebit amicum</incipit>
+                        <rubric locus="42v">Alius sermo</rubric>
+                        <incipit locusNew="42v">Confitemini alterutrum</incipit>
+                        <rubric locus="43v">In die asscensionis</rubric>
+                        <incipit locusNew="43v">Eleuatus est sol</incipit>
+                        <rubric locus="44v">In pentecosten</rubric>
+                        <incipit locusNew="44v">Verbo dei celi firmati</incipit>
+                        <rubric locus="45v">In die pentecosten</rubric>
+                        <incipit locusNew="45v">Dum complerentur dies</incipit>
+                        <ab locus="47r">(In die pentecosten)</ab>
+                        <incipit locusNew="47r">Ubi uenit plenitudo</incipit>
+                        <ab locus="47v">(In die pentecosten)</ab>
+                        <incipit locusNew="47v">In omnibus fratres karissimi exhibeamus nosmetipsos</incipit>
+                        <rubric locus="49v">In die pentecosten</rubric>
+                        <incipit locusNew="49v">Cum egredetur <name type="person">loth</name></incipit>
+                        <ab locusNew="50v">(In die pentecosten)</ab>
+                        <incipit locusNew="50v">Ecce quam bonum</incipit>
+                        <ab locusNew="51r">Here a somewhat smaller leaf is inserted with parts of two sermons, one
+                            on</ab>
+                        <incipit locusNew="51v">Cum descendisset Iesus</incipit>
+
+                        <rubric locus="52v">Ad contemplatiuos</rubric>
+                        <incipit locusNew="52v">Legitur fratres karissimi quod <name type="person">iacob</name> duas
+                            uxores</incipit>
+                        <rubric locus="54v">Ad contemplatiuos</rubric>
+                        <incipit locusNew="54v">Quesiui dilectum meum</incipit>
+                        <ab>
+                            <handNote>The hand changes at f. <locus>55r</locus></handNote>
+                        </ab>
+                        <rubric locus="56v">Alius sermo ad sanctimoniales</rubric>
+                        <incipit locusNew="56v">Omnis gloria eius</incipit>
+
+                        <rubric locus="58r">Sermo per fine mundi uel ecclesie contemnatur (!)</rubric>
+                        <incipit locusNew="58r">Dicit apostolus <name type="person">paulus</name>. Non est
+                            potestas</incipit>
+                        <rubric locus="60r">Sermo ad sacerdotes et ad omnes seruos domini</rubric>
+                        <incipit locusNew="60r">Homo quidam peregre</incipit>
+                        <rubric locus="61v">Sermo ad sacerdotes et ad omnes illos qui uendunt sacramenta
+                            ecclesie</rubric>
+                        <incipit locusNew="61v">Locutus est dominus ad <name type="person">moysen</name></incipit>
+                        <rubric locus="63r">Sermo in sinodo ad sacerdotes communis</rubric>
+                        <incipit locusNew="63r">Posuit <name type="person">moyses</name> labrum</incipit>
+                        <rubric locus="64r">Alius sermo ad pastores ecclesie</rubric>
+                        <incipit locusNew="64r">Designauit dominus et alios</incipit>
+                        <rubric locus="66r" locusNew="65r">Alius ad pastores domini</rubric>
+                        <incipit locusNew="65r">Ue pastoribus</incipit>
+
+                        <rubric locus="67r" locusNew="66r">Alius ad pastores domini</rubric>
+                        <incipit locusNew="66r">Factum est uerbum dominus ad <name type="person"
+                            >ezechielem</name></incipit>
+                        <rubric locus="68v" locusNew="67v">Alius sermo ad sacerdotes</rubric>
+                        <incipit locusNew="67v">Deus stetit in sinagoga</incipit>
+
+
+                        <incipit locus="69r">Dicit dominus per <name type="person">ieremiam</name></incipit>
+                        <ab>
+                            <handNote>First hand resumes at f. <locus>70r</locus></handNote>
+                        </ab>
+                        <rubric locus="71v">De episcopis et sacerdotibus <name type="author">gregorius
+                                constantinopolitanus</name></rubric>
+                        <incipit locusNew="71v">Valde pertimesco</incipit>
+                        <rubric locus="74v">Alius sermo</rubric>
+                        <incipit locusNew="74v">Fecit deus duo magna luminaria</incipit>
+                        <rubric locus="77v">In die dedicatione ecclesie</rubric>
+                        <incipit locusNew="77v">Facta sunt encenia</incipit>
+                        <rubric locus="79v">In die dedicatione ecclesie</rubric>
+
+                        <incipit locusNew="79v">Fundamenta eius</incipit>
+
+                        <rubric locus="81r">In die dedicatione ecclesie</rubric>
+                        <incipit locusNew="81r"><name type="person">Salomon</name> edificauit</incipit>
+
+                        <rubric locus="91v">De decimis</rubric>
+                        <incipit locusNew="91v">Filii hominum usquequo graui corde</incipit>
+
+                        <rubric locus="93r">De excommunicatis</rubric>
+                        <incipit locusNew="93r">Surge qui dormis</incipit>
+                        <rubric locus="94r">De superbia <name type="author">Gregorius</name>
+                            <name type="person">Iohanni Episcopo</name> constantinopolitano</rubric>
+
+                        <incipit locusNew="94r">Diabolus despectis angelorum</incipit>
+
+                        <rubric locus="95r">Sermo <name type="author">Augustini</name> de penitentia</rubric>
+                        <incipit locusNew="95r">Penitentes penitentes</incipit>
+                        <ab>
+                            <ref type="bibl" target="Migne 039"><supplied>P. L.</supplied> XXXIX 1713</ref>
+                        </ab>
+
+                        <ab locus="96r">Sermo <name type="author">Augustini</name> de confessione peccatorum</ab>
+                        <incipit locusNew="96r">In omnibus scripturis</incipit>
+
+                        <rubric locus="98r">Sermo de uersu psalmi xlix ubi ait sedens</rubric>
+                        <incipit locusNew="98v">Sedens aduersus fratrem</incipit>
+
+
+                        <rubric locus="101r">Incipit sermo <name type="author">Sancti Augustini</name></rubric>
+                        <incipit locusNew="101r">Beatus uir qui post aurum</incipit>
+
+                        <rubric locus="102r">Incipit sermo <name type="author">Sancti Augustini</name> Redimite
+                            tempus</rubric>
+
+                        <rubric locus="104r">Ammonitio <name type="author">Sancti Augustini</name> ad eos qui dicunt ex
+                            peccato ad modicum uerto me</rubric>
+                        <rubric locus="105r"><name type="author">Augustinus</name> de periculo sacerdotis (de diuite,
+                            etc.)</rubric>
+
+                        <incipit locus="109v" locusNew="111v">Prima sacerdotis statio ad dexteram altaris</incipit>
+
+                        <incipit locus="109v" locusNew="111v"><name type="person">Clemens romanus pontifex</name> hanc
+                            parabolam inuenit in canonibus quod dominus dixit ad <name type="person">beatum
+                                petrum</name> magistrum meum de duodecim diebus ueneris quos omnes christiani debent
+                            ieiunare</incipit>
+
+                        <explicit locusNew="112r">Et hoc sciatis quod isti xii dies ueneris in pane et aqua sunt
+                            obseruandi</explicit>
+                        <ab>(cf. <ref type="bibl" target="Mercati 1901">Mercati, <hi rend="italic">Studi e Testi</hi> 5.
+                                1901, p. 81, 240</ref>)</ab>
+
+                        <incipit locus="110r" locusNew="112r">Dixit pater noster <name type="person">arsenius</name> de
+                            quodam sene qui erat magnus in hac uita simplex autem in fide</incipit>
+
+                        <ab locus="110v" locusNew="112v">Extracts from <name type="author">Augustine</name></ab>
+
+                        <incipit locus="113r" locusNew="115r">In die illa erunt v ciuitates in terra <name type="place"
+                                >egipti</name> loquentes lingua <name type="place">chanaan</name></incipit>
+
+                        <ab locusNew="115v">Letter of <name type="person">Pilate</name> to <name type="person"
+                                >Claudius</name> (cf. <ref type="bibl" target="Tischendorf 1853">Tischendorf, <hi
+                                    rend="italic">Evangelia Apocrypha</hi>, p. 413</ref>)</ab>
+
+                        <incipit locus="113v" locusNew="115v"><name type="person">Pontius pilatus</name>
+                            <name type="person">regio claudio</name> suo salutem. Nuper accidit</incipit>
+
+                        <explicit locusNew="115v">Cumque hec <name type="person">claudius</name> suscepisset ... Iste
+                            iesus per te faciet uindictam de inimicis suis</explicit>
+                        <ab locusNew="115v">Immediately followed by a few lines on <name type="person">Sanctus
+                                Genesius</name> partly cut off</ab>
+                        <explicit locus="114r" locusNew="116r">quasi per ludum baptizatus martir effectus est</explicit>
+
+                        <ab>Lower part of f. <locus locusNew="116r">114r</locus>-<locus locusNew="116v">114v</locus> cut
+                            off: verso blank</ab>
+
+                        <ab>The contents including the miscellaneous extracts at the end correspond very closely with
+                            those of <ref type="ms" target="CSJK23">St John's College MS. K. 23</ref></ab>
+
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="2.1" locusStart="117r" locusEnd="117v">
+                        <head type="CCC">
+                            <title>Old English exhortations</title>
+                        </head>
+
+                        <ab locusNew="117r">The first leaf is written <handNote>in a small neat regular hand</handNote>
+                            in Anglo-Saxon:</ab>
+                        <incipit locusNew="117r">Gelyfst đu on god ćlfmihtine 7 on ţone sunu 7 on (đ)one halgan gast ...
+                            Ic bidde ţe ćrest for godes lufon 7 for his ege ţćt ţu ţin lif mid rihte lybbe 7 ţinum
+                            drihtne mid eađmedum hyre, etc.</incipit>
+                        <explicit locusNew="117v">God ćlfmihtig gefultumige us ţćt &#447;e moton 7 magon godes
+                            miltse begytan đa h&#447;ile ţe &#447;e on ţisum earman life beon moton</explicit>
+                        <ab>Not noticed by <ref type="bibl" target="Wanley 1705">Wanley</ref></ab>
+
+                        <ab>
+                            <supplied>Extracts from <ref type="bibl" target="Cameron 1973">Cameron</ref> nos. B1.9.6 and
+                                B11.10.2</supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="2.2" locusStart="117v" locusEnd="141r">
+                        <head type="CCC">
+                            <title>Poenitentiale <name type="author">Theodori</name> (incomplete)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Corpus canonum Anglicanorum, <name type="author">Theodori</name> ut videtur libri ii.
+                                quorum rubricas ectoris in gratiam apposui</title>
+                        </head>
+
+
+
+                        <ab>
+                            <quote>Liber primus.<lb/> I. De crapula et ebrietate.<lb/> II. De fornicatione.<lb/> III. De
+                                avaritia furtiva.<lb/> IV. De occisione hominum.<lb/> V. De his qui per heresin
+                                decipiuntur.<lb/> VI. De perjurio.<lb/> VII. De multis et diversis malis et quae non
+                                nocent necessaria.<lb/> VIII. De diverso lapsu servorum Dei.<lb/> IX. De his qui
+                                degraduntur vel ordinari non possunt.<lb/> X. De baptizatis bis qualiter peniteant.<lb/>
+                                XI. De his qui damnant dominicam et indicta jejunia ecclesiae Dei.<lb/> XII. De
+                                communione eucharistiae vel sacrificio.<lb/> XIII. De reconciliatione.<lb/> XIV. De
+                                penitentia nubentium specialiter.<lb/> XV. De cultura idolorum.<lb/>
+                                <lb/>Liber secundus.<lb/> I. De ecclesiae ministerio.<lb/> II. De tribus gradibus
+                                ecclesiae principalibus.<lb/> III. De ordinatione diversorum.<lb/> IV. De baptismate et
+                                confirmatione.<lb/> V. De missa defunctorum.<lb/> VI. De abbatibus et monachis vel
+                                monasterio.<lb/> VII. De ritu mulierum vel ministerio in ecclesia.<lb/> VIII. De moribus
+                                Graecorum et Romanorum.<lb/> IX. De communione Scottorum et Britonum qui in pascha et
+                                tonsura catholici non sunt.<lb/> X. De vexatis a diabolo.<lb/> XI. De usu vel abjectione
+                                animalium.<lb/> XII. De questibus conjugiorum.<lb/> XIII. De servis et ancillis.<lb/>
+                                XIV. De diversis questionibus.</quote>
+                        </ab>
+
+
+                        <ab locusNew="117v">On the lower part of the verso in a later hand is a list of the contents of
+                            this part of the volume: perhaps written in cent. <origDate>xi</origDate>:</ab>
+
+                        <ab locusNew="117v">Canon <name type="author">Theodori</name>. de Ratione penitencie. de
+                            diuersis questionibus. <name type="author">augustini</name> questiones. <name type="author"
+                                >gregorii</name> responsiones. penitentiale. de trina domini incarnatione. de annis
+                            domini. de <name type="place">Ierosolima</name> et rebus in ea gestis</ab>
+
+                        <ab locusNew="118r">The next leaf is rather smaller in size and replaces a lost leaf which
+                            contained the beginning of the preface. It is ruled but blank and has on the verso a copy in
+                            red capitals of the rubric on the verso of the next leaf:</ab>
+
+                        <rubric locusNew="118v">Incipit liber primus de crapula et ebrietate</rubric>
+
+                        <ab locusNew="118v">and below this the initial S</ab>
+
+                        <ab locusNew="119r">With the next leaf (the third) the text begins imperfectly in the
+                            preface:</ab>
+                        <incipit locusNew="119r">singularis scientie hominem </incipit>
+                        <ab>(<ref type="bibl" target="Haddan and Stubbs 1871">Haddan and Stubbs III 177</ref>)</ab>
+                        <explicit locusNew="119r">Credo enim hec eos bono</explicit>
+
+                        <ab>Here the recto ends</ab>
+                        <ab locusNew="119v">The last line and a half at top of verso are erased. Then follows the rubric
+                            given above</ab>
+
+                        <ab>Text</ab>
+                        <incipit locusNew="119v">Si quis episcopus</incipit>
+
+                        <ab locus="23" locusNew="130v">Liber II</ab>
+
+
+                        <rubric locusNew="130v">Incipit liber secundus de ecclesiae ministerio et re aedificatione
+                            eius</rubric>
+
+                        <incipit locusNew="130v">Aeclesiam licet ponere in alium locum</incipit>
+                        <ab>(<ref type="bibl" target="Haddan and Stubbs 1871">Haddan and Stubbs, p. 190</ref>)</ab>
+
+                        <ab>Ends</ab>
+
+                        <explicit locus="44" locusNew="141r">quando desiderant uel possunt. si oportune non possunt
+                            finit</explicit>
+
+                        <ab>This MS. is taken as the base of their text by <ref type="bibl"
+                                target="Haddan and Stubbs 1871">Haddan and Stubbs (III 176)</ref></ab>
+
+                        <ab>The missing portions of the preface are supplied from other copies. See also <ref
+                                type="bibl" target="Wasserschleben 1851">Wasserschleben (<hi rend="italic"
+                                    >Bussordnungen</hi>, p. 182</ref>)</ab>
+
+                    </msItem>
+
+
+                    <msItem n="3" locusStart="141r" locusEnd="154r">
+                        <head type="CCC"><name type="author">Gregory the Great</name>, <title>Libellus
+                                responsionum</title></head>
+                        <head type="Nasmith">
+                            <title>X. Interrogationes <name type="author">beati Augustini</name> episcopi Cantuariorum
+                                ecclesiae cum responsionibus <name type="author">sancti Gregorii</name> papae urbis
+                                Romae</title>
+                        </head>
+
+                        <rubric locus="44" locusNew="141r">Interrogatio <name type="author">Beati Agustini</name>
+                            Episcopi Cantuariorum aecclesiae</rubric>
+
+                        <incipit locusNew="141r">De episcopis qualiter cum suis clericis</incipit>
+
+                        <ab>On p. <locus locusNew="146v">55</locus> is the question about the relics of <name
+                                type="person">St Sixtus</name> which is considered to be spurious (<ref type="bibl"
+                                target="Haddan and Stubbs 1871">Haddan and Stubbs, p. 203 note</ref>)</ab>
+
+                        <ab>Ends</ab>
+                        <explicit locusNew="154r">ex dilectione quam portat inuitus</explicit>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="154v" locusEnd="154v">
+                        <head type="CCC"><title>Poem by <name type="author">Archbishop Theodore</name></title>,
+                                <title>note on alms</title></head>
+                        <head type="Nasmith">
+                            <title>Pretium redimendi penitentiam unius diei vel anni, cum hac rubrica, <q>Te nunc sancte
+                                    speculator verbi Dei digni dator <name type="person">Hćddi</name> pie presul precor
+                                    pontificum ditum decor pro me tuo peregrino preces funde <name type="person"
+                                        >Theodoro</name></q></title>
+                        </head>
+                        <ab>
+                            <quote> Hinc patet codicem exaratum fuisse inter annum <date>690</date> quo decessit <name
+                                    type="person">Theodorus</name>, et annum <date>704</date>, quo mortuus est <name
+                                    type="person">Hćdda episcopus Winton.</name></quote>
+                        </ab>
+
+                        <ab>At top of p. <locus locusNew="154v">71</locus> in red capitals, and written as if it were
+                            the title to what follows, is</ab>
+
+                        <rubric locusNew="154v">Te nunc sancte speculator uerbi dei digni dator <name type="person"
+                                >Hćddi</name><lb/>pie presul precor pontificum ditum decor pro me tuo<lb/>peregrino
+                            preces funde <name type="person">Theodoro</name></rubric>
+
+                        <ab>Then follows:</ab>
+
+                        <incipit locus="71" locusNew="154v">Unius diei praetium de pane et aqua unus denarius</incipit>
+
+                        <ab>Ending <handNote>in a smaller script</handNote>:</ab>
+
+                        <explicit locusNew="154v">Item in alio loco indicatur c psalmos inuerno</explicit>
+
+                    </msItem>
+
+                    <msItem n="5.1" locusStart="155r" locusEnd="166v">
+                        <head type="CCC"><title>Order of confession</title> and <title>Poenitentiale
+                                Sangermanense</title></head>
+                        <head type="Nasmith">
+                            <title>Ordo ad dandam penitentiam, qualiter episcopi vel presbiteri penitentes suscipere
+                                debeant</title>
+                        </head>
+
+                        <rubric locus="72" locusNew="155r">Incipit ordo ad dandam paenitentiam qualiter episcopi uel
+                            presbiteri penitentes suscipere debeant</rubric>
+
+
+                        <incipit locusNew="155r">Quotiens cumque christiani ad penitentiam accedunt ieiunia eis
+                            inponimus</incipit>
+                        <ab>(<ref type="bibl" target="Migne 105"><supplied>P. L.</supplied> CV 693, 717</ref>)</ab>
+
+                        <ab>The last section (<q>de fornicatione</q>) ends <locus locusNew="166v">95</locus></ab>
+
+                        <explicit locusNew="166v">Constituimus eos decenni tempore secundum gradus quaest. constituta
+                            pent.</explicit>
+
+                    </msItem>
+
+                    <msItem n="5.2" locusStart="166v" locusEnd="170r">
+                        <head type="CCC">
+                            <title>Notes on the chronology of the incarnation and other subjects</title>
+                        </head>
+                        <rubric locus="95" locusNew="166v">De trina incarnatione Christi</rubric>
+                        <ab>(<decoNote>in green capitals</decoNote>)</ab>
+                        <incipit locusNew="166v">Dominus noster Iesus Christus ter carnaliter huic mundo ortus
+                            est</incipit>
+                        <explicit locusNew="166v">xiiii die lune passus regnante <name type="person">tyberio
+                                caesare</name></explicit>
+                        <rubric locus="95" locusNew="166v">De annis domini </rubric>
+                        <incipit locusNew="166v">Sunt ergo anni domini nostri Ihesu Christi in corpore conuersantis
+                            xxxiii</incipit>
+                        <explicit locusNew="167r">Ex qua autem die baptizatus est dominus usque in diem passionis sue
+                            recepti sunt dies iuxta seriem</explicit>
+                        <incipit locusNew="167r">Prima aetas fuit ab <name type="person">adam</name> usque ad <name
+                                type="person">noe</name> anni ii milia ccxlii</incipit>
+                        <ab>ending with the ages of man:</ab>
+                        <explicit locus="98" locusNew="168r">Senium nullo certo annorum numero finitur</explicit>
+                        <incipit locusNew="168r">Ossa hominis sunt numero ccxviiii. numerus uenarum ccclxv. dentium
+                            numerus in perfecta aetate xxxii</incipit>
+
+                        <incipit locus="99" locusNew="168v">Christianus historicus dicit longitudinem mundi xii milium
+                            latitudo vii miliarum</incipit>
+                        <incipit locus="99" locusNew="168v">Longitudo templi lx cubitos</incipit>
+                        <ab locusNew="168v">Tabernacle. Church of <name type="person">St Peter</name>. Stair of <name
+                                type="person">St Peter</name>. Tower. Ark of <name type="person">Noah</name>. Books of
+                            O. and N.T. Verses in Psalter. Measures of length; ending </ab>
+                        <explicit locusNew="169r">xii-pertice arripinam faciunt. xii arripine uige (sic)
+                            faciunt</explicit>
+                        <incipit locus="100" locusNew="169r">In principio creauit</incipit>
+                        <ab>(Works of the Days of Creation)</ab>
+                        <rubric locus="100" locusNew="169r">De <name type="place">hierosolima</name> et rebus in ea
+                            gestis</rubric>
+                        <incipit locusNew="169r">In monte excelso <name type="place">hierusalem</name> posita est. et in
+                            media illa ciuitate</incipit>
+                        <explicit locusNew="169v">et de illo sanguine fuit terra purgata et sanctificata. et <name
+                                type="person">adam</name> redemptus de inferno</explicit>
+                        <ab>This group of paragraphs from <q>de trina incarnatione</q> occurs in <ref type="ms"
+                                target="CCC183">no. 183</ref>. I have transcribed the greatest part of them in my
+                            description of that MS. Some of the same matter is in <ref type="ms" target="LBLJA2">Julius
+                                A. 2</ref> in Anglo-Saxon</ab>
+                        <ab locus="102" locusNew="170r">Admonition about Ember days (<handNote>not in the hand of the
+                                first leaf</handNote>)</ab>
+
+                        <incipit locusNew="170r">Scylt te &#447;iđ đa eahta heahsynna ţe se deofun ţe &#447;ile
+                            mid bes&#447;ican ţćt is morđor</incipit>
+                        <explicit locusNew="170r">healh xii: ymren dagas ţe on xii monţum beođ 7 beorh ţe geornne
+                            &#447;iđ ţas halgan tid 7 &#447;iđ ţa ymdren dagas 7 &#447;iđ</explicit>
+                        <ab>(unfinished)</ab>
+                        <ab>
+                            <supplied><ref type="bibl" target="Cameron 1973">Cameron</ref> B11.1.2</supplied>
+                        </ab>
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: SP, RJR Jan 09</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

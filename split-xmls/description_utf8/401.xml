@@ -1,0 +1,125 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC401">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>401</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Misc. 24</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>383</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Abd Allah Baydawi, Tawali Al-Anwar. Mahmud Isfahani, Commentary on Tawali
+                    Al-Anwar</head>
+                <head type="James">Liber Arabicus</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">214</height>
+                        <width unit="mm">147</width>
+                    </measureGrp>, <measureGrp type="James">8.5 x 6</measureGrp>, <extent>ff. 244 + 6</extent>,
+                        <layout>25 lines to a page</layout>. Cent. <origDate>xvi</origDate>, <handNote>in the Maghrabi
+                        character</handNote>.</p>
+
+                <p>At the beginning are five leaves of a thick woolly paper which seem a good deal earlier than the
+                    rest. These are portions of larger leaves folded so that the writing comes vertically. There is also
+                    another leaf of smaller size. <supplied>(ff. <locus>viv</locus>-<locus>ir</locus>)</supplied></p>
+
+                <p function="Additions">The volume must have been acquired from an English source by <name type="person"
+                        >Parker</name>: otherwise he would not have had written on f. <locus locusNew="243v">1r</locus>
+                    (as he has done): <lb/>Hic liber quondam fuit <name type="person">Theodori archiepiscopi
+                        Cantuariensis</name> (!!!).</p>
+
+                <p><name type="person">Professor E. G. Browne</name> has very kindly given me the following note on the
+                    contents of the volume <supplied>(see contents below)</supplied></p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + 1-244 + i-vi + c</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="ara" otherLangs="lat">Arabic and Latin.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="244v" locusEnd="203r">
+                        <head type="CCC">
+                            <name type="author">Abd Allah Baydawi</name>, <title>Tawali Al-Anwar min Matali'
+                                al-Anzar</title>
+                        </head>
+
+                        <ab>A theological treatise by <name type="author">Násiru'd-Dín 'Abdu'lláh ben 'Umar al
+                                Bay&#803;dawí</name>, who died <date>A.H. 716</date>, entitled: Tawáli
+                            'u'l-Anwár</ab>
+                        <ab>See <ref type="bibl" target="Ahlwardt 1887">Ahlwardt's Catalogue of Arabic MSS. at Berlin,
+                                no. 1772</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="202v" locusEnd="1r">
+                        <head type="CCC">
+                            <name type="author">Mahmud Isfahani</name>, <title>Commentary on Tawali' al-Anwar</title>
+                        </head>
+
+                        <ab>A commentary on the above, entitled: Matáli 'u'l-An&#803;dhár, by <name type="author"
+                                >Shamsu'd-Dín Ma&#803;hmúd ben 'Abdu 'r-Rahmán al Isfahání</name>, who died of the
+                            plague at <name type="place">Cairo</name> in <date>A.H. 749 or 750</date></ab>
+                        <ab>See <ref type="bibl" target="Rieu 1894">Rieu's <hi rend="italic">Supplement to the Arabic
+                                    Catalogue</hi>, pp. 112, 113 (no. 186)</ref></ab>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: NJC 15/12/2008</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,779 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC057">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>57</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>B. 4</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>16</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Abingdon Benedictine Collection with Martyrology</head>
+                <head type="James">Regula S. Benedicti. Martyrologium Abbendoniense. Smaragdi Diadema Monachorum</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">323</height>
+                        <width unit="mm">252</width>
+                    </measureGrp>, <measureGrp type="James">12.9 x 10</measureGrp>, <extent>ff. 162</extent>, <layout>27
+                        lines to a page</layout>. Cent. <origDate>x-xi</origDate> (<ref type="bibl" target="Napier 1900"
+                        >Napier</ref>), <handNote>in a very beautiful flat-topped hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num> (8 supplied)-3<num>8</num> (3 and 6 supplied) 4<num>8</num> 5<num>10</num>
+                        (wants 9, 10) 6<num>8</num>-9<num>8</num> 10<num>2</num> 11<num>8</num>-13<num>8</num> (wants 5,
+                        6) 14<num>8</num>-16<num>8</num> 17<num>10</num> 18<num>8</num>-21<num>8</num></collation>.</p>
+
+                <p function="Provenance">From <name type="place">Abingdon</name>, as will appear.</p>
+                <p function="Decoration"><decoNote>Initials in red: some green, usually quite plain. Many smaller
+                        initials in black are filled with yellow. Headings of sections etc. uniformly in fine plain red
+                        capitals</decoNote>.</p>
+                <p function="Additions">f. <locus>1r</locus> is covered with paper.</p>
+                <p function="Additions">On the verso <supplied>(<locus>1v</locus>)</supplied> a remark of <name
+                        type="person">Parker</name>'s date and an old title:<lb/>
+                    <q>Regula S. Benedicti <lb/> et martilogium <lb/> et diadema monachorum <lb/> ac etiam quidam
+                        tractatus qui docet qualiter monachi in monasterio debent conuersari et est post regulam S.
+                        Benedicti.</q></p>
+                <p function="Research">See <ref type="bibl" target="Napier 1900">Napier, <hi rend="italic">Old English
+                            Glosses</hi>, p. xxii</ref>.</p>
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-163 + iii-iv</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="ang">Latin and Old English.</textLang>
+
+                    <label>Contents</label>
+
+                    <msItem n="1.1" locusStart="2r" locusEnd="32v">
+                        <head type="CCC">
+                            <title>Regula <name type="person">Sancti Benedicti</name></title>
+                        </head>
+                        <head type="James">
+                            <title>Regula S. Benedicti</title>
+                        </head>
+                        <incipit locusNew="2r">Obsculta o fili precepta magistri</incipit>
+                        <ab locusNew="2r">(<decoNote>green initial, red capitals</decoNote>)</ab>
+                        <ab locusNew="2r">A line of writing at the top is mostly cut off</ab>
+                        <ab>Many words are glossed, in two hands of cent. <origDate>xi?</origDate></ab>
+                        <ab>The first Anglo-Saxon gloss occurs on f. <locus>3r</locus>: there are very few of them. They
+                            have been printed by <ref type="bibl" target="Napier 1900">Napier, <hi rend="italic">Old
+                                    English Glosses</hi>, p. 231</ref></ab>
+                        <ab>Prol. ends</ab>
+                        <explicit locusNew="3v">mereamur esse consortes</explicit>
+                        <rubric locus="3v">Incipiunt capitula Regulae (lxxiii)</rubric>
+                        <rubric locusNew="4v">Explicit capitulatio</rubric>
+                        <rubric locus="4v">De generibus monachorum vel uita et conversatione eorum qui volunt caelestia
+                            scandere regna</rubric>
+                        <ab locusNew="4v">(<decoNote>red capitals</decoNote>)</ab>
+                        <incipit locusNew="5r">Quatuor genera esse monachorum</incipit>
+                        <ab locusNew="5r">(<decoNote>large red capitals</decoNote>)</ab>
+                        <ab>f. <locus>8r</locus>-<locus>8v</locus> is supplied <handNote>in a very fine English hand of
+                                cent. <origDate>xi</origDate></handNote></ab>
+                        <ab>Also ff. <locus>19r</locus>-<locus>19v</locus>, <locus>22r</locus>-<locus>22v</locus></ab>
+                        <ab>Ends f. <locus>32v</locus></ab>
+                        <explicit locus="32v">deo protegente peruenies. Facientibus haec regna patebunt
+                            aeterna</explicit>
+                        <rubric locusNew="32v">Finit Regula Beati Benedicti</rubric>
+
+                    </msItem>
+
+                    <msItem n="1.2" locusStart="32v" locusEnd="32v">
+                        <head type="CCC"><name type="author">Ambrosius Autpertus (pseudo-Fulgentius)</name>,
+                                <title>Admonition</title></head>
+
+                        <incipit locusNew="32v">Dicebat uero sanctus <name type="person">Fulgentius</name> iuxta regulam
+                            patrum uiuere semper stude etc.</incipit>
+                        <explicit locusNew="32v">perducunt ad celi palatia</explicit>
+                    </msItem>
+
+                    <msItem n="2" locusStart="33r" locusEnd="34v">
+                        <head type="CCC">
+                            <title>Memoriale qualiter, part 1</title>
+                        </head>
+                        <rubric locus="33r">Memoriale qualiter in monasterio conversari debemus</rubric>
+                        <incipit locusNew="33r">Nocturnis horis cum ad opus diuinum de lectulo surrexerit
+                            frater</incipit>
+                        <ab>(<ref type="bibl" target="Migne 066">P. L. LXVI 927</ref>)</ab>
+                        <explicit locusNew="34v">dicant. Misereatur noster omnipotens deus. Amen</explicit>
+                        <ab>By <name type="author">Benedict of Aniane</name> (see <ref type="bibl" target="Bateson 1894"
+                                >Miss Bateson, <hi rend="italic">English Historical Review</hi> 1894, p. 693</ref>)</ab>
+                    </msItem>
+
+                    <msItem n="3.1" locusStart="34v" locusEnd="37v">
+                        <head type="CCC">
+                            <title>Memoriale qualiter, part 2</title>
+                        </head>
+                        <rubric locus="34v">Incipit epitoma <name type="author">Lothwici Imperatoris</name> super
+                            Regulam beati Benedicti</rubric>
+                        <ab>(<ref type="bibl" target="Bateson 1894">Miss Bateson, <hi rend="italic">English Historical
+                                    Review</hi> 1894, pp. 694-695</ref>)</ab>
+                        <incipit locusNew="34v">A kalendis autem Octobris usque in pascha hora nona</incipit>
+                        <ab>
+                            <decoNote>Sketch of a beast at top of f. <locus>37r</locus>: of an initial on f.
+                                    <locus>38r</locus></decoNote>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="3.2" locusStart="37v" locusEnd="37v">
+                        <head type="CCC">
+                            <title>De festiuitatibus anni (= canon 36 of the Council of <name type="place">Mainz</name>,
+                                    <date>813</date>)</title>
+                        </head>
+                        <rubric locusNew="37v">De festivitatibus anni</rubric>
+                        <explicit locusNew="37v">in una quaque parrochia sancta corpora requiescunt</explicit>
+                    </msItem>
+
+                    <msItem n="4" locusStart="37v" locusEnd="40v">
+                        <head type="CCC">
+                            <title>Collectio capitularis of (probably) <date>818 x 819</date></title>
+                        </head>
+                        <rubric locus="37v">Item adbreviatio eius qui supra</rubric>
+                        <incipit locusNew="37v">Anno dominice incarnationis <date>DCCC.XVII.</date> imperii uero
+                            gloriosissimi principis <name type="person">lodouuici</name> IIII<abbr rend="superscript"
+                                >to</abbr> vi idus iulii etc.</incipit>
+                        <ab>Ends</ab>
+                        <incipit locus="40v">Ut uolatilia etc.</incipit>
+                        <explicit locusNew="40v">in ipsorum maneat arbitrio</explicit>
+                    </msItem>
+
+                    <msItem n="5" locusStart="41r" locusEnd="94v">
+                        <head type="CCC">
+                            <name type="author">Usuard</name>, <title>Martyrologium, with <name type="place"
+                                    >Abingdon</name> additions</title>
+                        </head>
+                        <head type="James">
+                            <title>Martyrologium</title>
+                        </head>
+                        <rubric locusNew="41r">Kalendae Mensis Ianuarii</rubric>
+                        <ab>(<decoNote>red capitals</decoNote>)</ab>
+                        <rubric locusNew="41r">Circumcisio domini nostri Iesu Christi</rubric>
+                        <ab>(<decoNote>black capitals</decoNote>)</ab>
+                        <incipit locusNew="41r"><name type="place">Rome</name> natale <name type="person">Sancti
+                                almachii</name> etc.</incipit>
+                        <ab>There are many additions to the text, most of which have been mutilated by the binder's
+                            plough. I think it will be useful if I note them in a slightly abbreviated form, since I
+                            cannot discover that they have been printed</ab>
+                        <rubric locus="41v" locusNew="40r">III Non. Ianuarii</rubric>
+                        <ab locus="41v">
+                            <q>(Obi)tus fratris nostri <name type="person">&#447;ufhelmi</name> / (mona)chi et
+                                diaconi</q>
+                        </ab>
+                        <rubric locus="41v">II Non. Ian.</rubric>
+                        <ab locus="41v">
+                            <q>(Obitu)s fratris nostri <name type="person">Alfgari</name> / (d)iaconi nostre
+                                congregationis</q>
+                        </ab>
+                        <rubric locus="42r">VII Id. Ian.</rubric>
+                        <ab locus="42r">
+                            <q>Obitus fratris nostri <name type="person">&#447;ulfheahi</name> monachi ac
+                                sacerdotis</q>
+                        </ab>
+                        <rubric locus="42r">IIII Id. Ian.</rubric>
+                        <ab locus="42r">
+                            <q>Eodem die translatio beati / <name type="person">Iudoci</name> sacerdotis egregii</q>
+                        </ab>
+                        <rubric locus="42v">III Id. Ian.</rubric>
+                        <ab locus="42v">
+                            <q>(Obitus) fratris nostri <name type="person">kynrici</name> / (mona)chi ac sacerdotis
+                                (nostre) congregationis</q>
+                        </ab>
+                        <rubric locus="42v">II Id. Ian.</rubric>
+                        <ab locus="42v">
+                            <q>(Ob.) fratris nostri <name type="person">briht</name> / ... monachi ac diaconi nostre
+                                congregationis</q>
+                        </ab>
+                        <rubric locus="43r">XVII Kal. Feb.</rubric>
+                        <ab locus="43r">
+                            <q>Ob. <name type="person">ead&#447;ini</name> / ...</q>
+                        </ab>
+                        <rubric locus="43v">XIII Kal. Feb.</rubric>
+                        <ab locus="43v">
+                            <q>fratris nostri <name type="person">brihtm&#230;ri</name> / ... sacerdotis</q>
+                        </ab>
+                        <rubric locus="44r">XI Kal. Feb.</rubric>
+                        <ab locus="44r">
+                            <q>Obitus fratris nostri <name type="person">eust</name> / ... monachi ac sacerdotis</q>
+                        </ab>
+                        <rubric locus="44r">X Kal. Feb.</rubric>
+                        <ab locus="44r">
+                            <q>Obitus fratris nostri <name type="person">b ... / helmi</name> monachi ac sacerdotis / .
+                                et depositio &#230; / militis. et depositio o ... / abb.</q>
+                        </ab>
+                        <rubric locus="44v">VIII Kal. Feb.</rubric>
+                        <ab locus="44v">
+                            <q>fratris nostri <name type="person">brihtno&#240;i</name> (mo)nachi</q>
+                        </ab>
+                        <rubric locus="44v">VI Kal. Feb.</rubric>
+                        <ab locus="44v">
+                            <q>fratris nostri <name type="person">Alf&#447;oldi</name> / sacerdotis et deposit / ...
+                                thi <supplied agent="RJR">(echi)</supplied>. monachi ac sacerdotis / ... fratris nostri
+                                    <name type="person">brihtgeti</name> / ... sacerdotis</q>
+                        </ab>
+                        <rubric locus="45r">IIII Kal. Feb.</rubric>
+                        <ab locus="45r">
+                            <q>Obitus fratris nostri ky ... / monachi ac sacerdotis</q>
+                        </ab>
+                        <rubric locus="45r">III Kal. Feb.</rubric>
+                        <ab locus="45r">
+                            <q>Depositio <name type="person">ae&#254;...</name> / episcopi</q>
+                        </ab>
+                        <rubric locus="45v">Kalendae Februarii Mensis</rubric>
+                        <ab locus="45v">
+                            <q>fratris nostri <name type="person">ead&#447;ig</name> monachi nostre
+                                congregationis</q>
+                        </ab>
+                        <ab locus="45v">
+                            <q>(f.) nostri <name type="person">ae&#254;el&#447;ardi</name> monachi ac diaconi
+                                (n.) congregationis</q>
+                        </ab>
+                        <rubric locus="45v">III Non. Feb.</rubric>
+                        <ab locus="45v">
+                            <q>fratris nostri <name type="person">Leonis</name> sacerdotis nostre congregationis</q>
+                        </ab>
+                        <rubric locus="46r">VI Id. Feb.</rubric>
+                        <ab locus="46r">
+                            <q>Obitus fratris nostri (obliterated) <supplied agent="RJR">(... monachi ac sacerdotis ...
+                                    congregationis)</supplied></q>
+                        </ab>
+                        <rubric locus="46v">III Id. Feb.</rubric>
+                        <ab locus="46v">
+                            <q>fratris nostri <name type="person">&#447;ynsini</name></q>
+                        </ab>
+                        <ab locus="46v">
+                            <q>Deposicio <name type="person">baldgari</name> sacerdotis</q>
+                        </ab>
+                        <rubric locus="46v">II Id. Feb.</rubric>
+                        <ab locus="46v">
+                            <q>... lfstani ep.</q>
+                        </ab>
+                        <ab locus="46v">
+                            <q>(Deposicio) <name type="person">&#230;&#254;elgari</name> presulis</q>
+                        </ab>
+                        <rubric locus="47r">XVI Kal. Martii</rubric>
+                        <ab locus="47r">
+                            <q>Obitus <name type="person">&#447;ulfm&#230;ri</name> monachi nostre
+                                congregationis</q>
+                        </ab>
+                        <rubric locus="47v">XIII Kal. Mar.</rubric>
+                        <ab locus="47v">
+                            <q>fratris nostri <name type="person">&#230;&#254;el</name> ... sacerdotis nostre
+                                congregationis</q>
+                        </ab>
+                        <rubric locus="47v">XII Kal. Mar.</rubric>
+                        <ab locus="47v">
+                            <q>fratris nostri <name type="person">&#230;lfrici</name> sacerdotis nostre
+                                congregationis</q>
+                        </ab>
+                        <rubric locus="48r">VIII Kal. Mar.</rubric>
+                        <ab locus="48r">
+                            <q>Hic obiit fratris nostri s ... diaconis nostre congregationis</q>
+                        </ab>
+                        <rubric locus="48v">V Kal. Mar.</rubric>
+                        <ab locus="48v">
+                            <q>... us <name type="person">&#230;&#254;el&#447;ini</name> abb.</q>
+                        </ab>
+                        <rubric locus="49v">VI Non. Mar.</rubric>
+                        <ab locus="49v">
+                            <q>Ipso die depositio <name type="person">sancti ceddae</name> episcopi et confessoris</q>
+                        </ab>
+                        <rubric locus="49v">IIII Non. Mar.</rubric>
+                        <ab locus="49v">
+                            <q><supplied agent="RJR">[Obit]us</supplied>
+                                <name type="person">eaduuini</name> ... <supplied agent="RJR">fratris nostri</supplied>
+                                sa ... dotis</q>
+                        </ab>
+                        <rubric locus="49v">III Non. Mar.</rubric>
+                        <ab locus="49v">
+                            <q><supplied agent="RJR">[Obi]tus</supplied>
+                                <name type="person">freo&#240;egari</name> abbatis</q>
+                        </ab>
+                        <ab locus="49v">
+                            <q><name type="person">Afno&#240;i</name> monachi</q>
+                        </ab>
+                        <ab locus="49v">
+                            <q><name type="person">alfgari</name> pueri subdiaconi</q>
+                        </ab>
+                        <rubric locus="50r">II Non.</rubric>
+                        <ab locus="50r">
+                            <q>Obitus fratris nostri ... monachi ac sacerdotis</q>
+                        </ab>
+                        <rubric locus="50r">VIII Id. Mar.</rubric>
+                        <ab locus="50r">
+                            <q>Obitus fratris nostri <name type="person">ea ...</name> monachi ac diaconi</q>
+                        </ab>
+                        <rubric locus="50r">VI Id. Mar.</rubric>
+                        <ab locus="50r">
+                            <q>... mon. sac. <name type="person">aelfr ...</name></q>
+                        </ab>
+                        <rubric locus="51r">XVI Kal. Apr.</rubric>
+                        <ab locus="51r">
+                            <q><name type="person">... ri</name> monachi</q>
+                        </ab>
+                        <rubric locus="51r">XV Kal. Apr.</rubric>
+                        <ab locus="51r">
+                            <q>Eodem die Sancti <name type="person">ead&#447;eardi</name> reg. et m.</q>
+                        </ab>
+                        <ab locus="51r">
+                            <q>Obitus fratris nostri <name type="person">&#447;igbrihti</name> monachi ac</q>
+                        </ab>
+                        <rubric locus="51v">X Kal. Apr.</rubric>
+                        <ab locus="51v">
+                            <q><name type="person">ae&#254;elrici</name> diaconi</q>
+                        </ab>
+                        <rubric locus="52r">VI Kal. Apr.</rubric>
+                        <ab locus="52r">
+                            <q><name type="person">Rogin ...</name> et monachi</q>
+                        </ab>
+                        <rubric locus="52v">IIII Kal. Apr.</rubric>
+                        <ab locus="52v">
+                            <q><name type="person">ae&#254;estanus</name> obiit / ... venerabilis abba / (Que)m deus
+                                in celi / (cul)mine constituat</q>
+                        </ab>
+                        <rubric locus="53r">Non. Apr.</rubric>
+                        <ab locus="53r">
+                            <q>... monachi ac sacerdotis</q>
+                        </ab>
+                        <rubric locus="53v">IIII Id. Apr.</rubric>
+                        <ab locus="53v">
+                            <q>(Ob)iit <name type="person">aelf&#447;inus</name> monachi et l.<lb/>cognominatus
+                                    <name type="place">hocking</name></q>
+                        </ab>
+                        <rubric locus="53v">III Id. Apr.</rubric>
+                        <ab locus="53v">
+                            <q><name type="person">briht&#447;ig</name> episcopi</q>
+                        </ab>
+                        <rubric locus="53v">II Id. Apr.</rubric>
+                        <ab locus="53v">
+                            <q>... <name type="person">godus</name> monachi</q>
+                        </ab>
+                        <rubric locus="54r">XVII Kal. Mai.</rubric>
+                        <ab locus="54r">
+                            <q><name type="person">bri ...</name> monachi ac sacerdotis</q>
+                        </ab>
+                        <rubric locus="54v">XV Kal. Mai.</rubric>
+                        <ab locus="54v"><q><name type="person">... ad&#447;ini</name> abb.</q> Another entry
+                            gone</ab>
+                        <rubric locus="55r">XIII Kal. Mai.</rubric>
+                        <ab locus="55r">
+                            <q>Eodem die passio sancti <name type="person">aelfeahi</name> archiepiscopi et martyris</q>
+                        </ab>
+                        <rubric locus="55r">XII Kal. Mai.</rubric>
+                        <ab locus="55r">
+                            <q><name type="person">aelf ...</name> monachi a sacerdotis</q>
+                        </ab>
+                        <rubric locus="55r">X Kal. Mai.</rubric>
+                        <ab locus="55r">
+                            <q>
+                                <name type="person">briht ...</name>
+                            </q>
+                        </ab>
+                        <rubric locus="55v">IX Kal. Mai.</rubric>
+                        <ab locus="55v">
+                            <q>... <name type="person">e&#254;elredi</name> regis</q>
+                        </ab>
+                        <ab locus="55v">
+                            <q><name type="person">... eagi</name> comitis et fratris</q>
+                        </ab>
+                        <ab locus="55v">
+                            <q><name type="person">... no&#240;i</name> monachi et subdiaconi</q>
+                        </ab>
+                        <ab locus="55v">
+                            <q><name type="person">alfgari</name> (mon.)</q>
+                        </ab>
+                        <rubric locus="56r">VII Kal. Mai.</rubric>
+                        <ab locus="56r">
+                            <q><name type="person">aelf&#447;ini</name> ... subdiaconi</q>
+                        </ab>
+                        <rubric locus="56r">IIII Kal. Mai.</rubric>
+                        <ab locus="56r">obliterated</ab>
+                        <rubric locus="57r">Kalendae Mensis Maiae</rubric>
+                        <ab locus="57r">
+                            <q><name type="person">ead&#447;ig</name> militis</q>
+                        </ab>
+                        <rubric locus="57r">VI Non. Mai.</rubric>
+                        <ab locus="57r">
+                            <q><name type="person">sidemanni</name><lb/>et sororis nostre <name type="person">aels
+                                    ...</name></q>
+                        </ab>
+                        <rubric locus="57r">V Non. Mai.</rubric>
+                        <ab locus="57r">
+                            <q>Ipso die eleuatio et translatio secunda corporis sanctissimi confessoris Christi et
+                                abbatis <name type="person">Bertini</name></q>
+                        </ab>
+                        <rubric locus="57v">V Non. Mai.</rubric>
+                        <ab locus="57v">
+                            <q>Obitus <name type="person">Erenberti</name> militis bononiensis</q>
+                        </ab>
+                        <rubric locus="57v">III Non. Mai.</rubric>
+                        <ab locus="57v">
+                            <q><name type="person">&#447;ulfgari</name> monachi</q>
+                        </ab>
+                        <rubric locus="58r">VIII Id. Mai.</rubric>
+                        <ab locus="58r">
+                            <q><name type="person">bv ...</name> monachi ac sacerdotis</q>
+                        </ab>
+                        <rubric locus="59r">II Id. Mai.</rubric>
+                        <ab locus="59r">
+                            <q><name type="person">aelfsini</name> episcopi</q>
+                        </ab>
+                        <ab locus="59r">
+                            <q><name type="person">beorst ...</name> (mon.)</q>
+                        </ab>
+                        <rubric locus="60r">XIIII Kal. Iun.</rubric>
+                        <ab locus="60r">
+                            <q>Eodem die dormiuit <name type="person">sanctus Dunstanus</name> archiepiscopus in
+                                Christo</q>
+                        </ab>
+                        <rubric locus="60v">XII Kal. Iun.</rubric>
+                        <ab locus="60v">
+                            <q><name type="person">Si&#447;ardi</name> monachi ac sacerdotis</q>
+                        </ab>
+                        <rubric locus="60v">X Kal. Iun.</rubric>
+                        <ab locus="60v">
+                            <q><name type="person">aelfredi</name> mon. ac sacerdotis <lb/><name type="person"
+                                    >brihtegi</name> subdiaconi</q>
+                        </ab>
+                        <rubric locus="61r">VI Kal. Iun.</rubric>
+                        <ab locus="61r">
+                            <q>Item in ead. <name type="place">brittanie insula</name> dep. <name type="person">uener.
+                                    bede</name> presbyteri confess. et doctoris</q>
+                        </ab>
+                        <rubric locus="61r">V Kal. lun.</rubric>
+                        <ab locus="61v">
+                            <q><name type="person">osgari</name> abb.</q>
+                        </ab>
+                        <rubric locus="61v">IIII Kal. Iun.</rubric>
+                        <ab locus="61v">
+                            <q><name type="person">aelf&#447;ini</name> monachi<lb/>
+                                <name type="person">&#447;ulf&#447;ii</name> diac.</q>
+                        </ab>
+                        <rubric locus="61v">III Kal. Iun.</rubric>
+                        <ab locus="61v">
+                            <q><name type="person">aelf&#447;ii</name> monachi</q>
+                        </ab>
+                        <rubric locus="62r">II Kal. Iun.</rubric>
+                        <ab locus="62r">
+                            <q><name type="person">eadgifu</name> abbatiss(e).<lb/>
+                                <name type="person">brihtmaeri</name> diac.</q>
+                        </ab>
+                        <rubric locus="62v">II Non. Iun.</rubric>
+                        <ab locus="62v">
+                            <q>depos. <name type="person">S. petroci C.</name></q>
+                        </ab>
+                        <rubric locus="63v">II Id. Iun.</rubric>
+                        <ab locus="63v">
+                            <q>... requiescit in hoc poliandro</q>
+                        </ab>
+                        <ab>The ends of six elegiac lines</ab>
+                        <ab locus="63v">
+                            <q>... omine clarisono</q>
+                        </ab>
+                        <ab locus="63v">
+                            <q>... aderat ceu mistica lampas</q>
+                        </ab>
+                        <ab locus="63v">
+                            <q>... us moribus egregius</q>
+                        </ab>
+                        <ab locus="63v">
+                            <q>... iunii carnalia liquit</q>
+                        </ab>
+                        <ab locus="63v">
+                            <q>... s. scandit ad astra poli</q>
+                        </ab>
+                        <rubric locus="63v">II Id. Iun.</rubric>
+                        <ab locus="63v">
+                            <q><name type="person">Lifingi</name> episcopi</q>
+                        </ab>
+                        <rubric locus="64r">XVII Kal. lul.</rubric>
+                        <ab locus="64r">
+                            <q>dep. s. <name type="person">eadburg</name>. V.</q>
+                        </ab>
+                        <rubric locus="64r">XVI Kal. Iul.</rubric>
+                        <ab locus="64r">
+                            <q>inuentio corporis <name type="person">Sancti Bertini</name> Abbatis et confessoris</q>
+                        </ab>
+                        <rubric locus="64v">XV Kal. Iul.</rubric>
+                        <ab locus="64v">
+                            <q><name type="person">botulfii</name> abbatis</q>
+                        </ab>
+                        <rubric locus="65r">X Kal. Iul.</rubric>
+                        <ab locus="65r">
+                            <q>In ciuitate <name type="place">cestrensi</name>
+                                <name type="person">S. Werburge V.</name></q>
+                        </ab>
+                        <rubric locus="65r">VIII Kal. Iul.</rubric>
+                        <ab locus="65r">
+                            <q><name type="person">godef ...</name> monachi</q>
+                        </ab>
+                        <rubric locus="66r">IIII Kal. Iulii</rubric>
+                        <ab locus="66r">
+                            <q><name type="person">brihtrici</name> monachi ac sacerdotis</q>
+                        </ab>
+                        <rubric locus="66v">VI Non. Iul.</rubric>
+                        <ab locus="66v">
+                            <q>depositio <name type="person">Sancti S&#447;i&#254;uni</name></q>
+                        </ab>
+                        <rubric locus="67r">III Non. Iul.</rubric>
+                        <ab locus="67r">
+                            <q><name type="person">aelfsta ...</name> abb.</q>
+                        </ab>
+                        <rubric locus="67r">II Non. Iul.</rubric>
+                        <ab locus="67r">
+                            <q>dep. <name type="person">S. Sexb(urge)</name> sororis <name type="person">sancte
+                                    adeldride</name></q>
+                        </ab>
+                        <rubric locus="67v">Non. Iul.</rubric>
+                        <ab locus="67v">
+                            <q>dep. beati <name type="person">Hedde</name> pontificis (de quo) <name type="person"
+                                    >uenerabilis Beda</name> presbiteri in gestis etc.</q>
+                        </ab>
+                        <ab locus="67v">
+                            <q>transitus <name type="person">... elburge</name> u. sororis <name type="person">S.
+                                    edeldride</name></q>
+                        </ab>
+                        <rubric locus="67v">VIII Id. Iul.</rubric>
+                        <ab locus="67v">
+                            <q>Deposicio <name type="person">eadgari</name></q>
+                        </ab>
+                        <ab locus="67v">
+                            <q>Dep. <name type="person">Sancti Grimbaldi</name></q>
+                        </ab>
+                        <rubric locus="67v">VII Id. Iul.</rubric>
+                        <ab locus="67v">
+                            <q><name type="person">Godrici</name> monachi ac sacerdotis</q>
+                        </ab>
+                        <rubric locus="68r">IIII Id. Iul.</rubric>
+                        <ab locus="68r">
+                            <q>Idibus qui quar ...<lb/> dimisit ponders ...<lb/> Presbiter <name type="person">aelfr
+                                    ...</name><lb/> frater et ipse bon(us)</q>
+                        </ab>
+
+                        <rubric locus="68r">III Id. Iul.</rubric>
+                        <ab locus="68v">
+                            <q>
+                                <name type="person">Sancte Mildride V.</name>
+                            </q>
+                        </ab>
+                        <rubric locus="68v">Idus Iulii</rubric>
+                        <ab locus="68v">
+                            <q>Transl. Sancti S&#447;i&#240;uni</q>
+                        </ab>
+                        <ab locus="68v">
+                            <q>Deusdedit archiepiscopi</q>
+                        </ab>
+                        <rubric locus="68v">XVII Kal. Augi.</rubric>
+                        <ab locus="68v">
+                            <q>Translatio prima ... <name type="person">Sancti Bertini</name></q>
+                        </ab>
+                        <rubric locus="68v">XVI Kal. Aug.</rubric>
+                        <ab locus="69r">
+                            <q>
+                                <name type="person">Sancti Kenelmi</name>
+                            </q>
+                        </ab>
+                        <ab locus="69r">
+                            <q>Sancti Alexii</q>
+                        </ab>
+                        <ab locus="69r">
+                            <q>Obitus ae&#240;el&#447;ardi monachi ac sacerdotis</q>
+                        </ab>
+                        <rubric locus="69r">XV Kal. Aug.</rubric>
+                        <ab locus="69r">
+                            <q>Transl. <name type="person">Sancte edburge V.</name></q>
+                        </ab>
+                        <ab locus="69r">
+                            <q>electio Sancti <name type="person">ead&#447;eardi</name> regis</q>
+                        </ab>
+                        <rubric locus="69r">XIII Kal. Aug.</rubric>
+                        <ab locus="69r">
+                            <q><name type="person">Sancte Margarite</name> V. M.</q>
+                        </ab>
+                        <rubric locus="71r">Kalendae Mensis Augusti</rubric>
+                        <ab>a.</ab>
+                        <ab locus="71r">
+                            <q>hic presentis uite (terminum?)<lb/> et supernae lucis (principium ?)<lb/> beatus pater
+                                    <name type="person">a&#254;(el&#447;oldus)</name><lb/> episcopus sortitus
+                                est</q>
+                        </ab>
+                        <ab>b.</ab>
+                        <ab locus="71r">
+                            <q>In anglia ciuitate (uuenta-)<lb/> na. natalis S. <name type="person">adel&#447;o(ldi
+                                    ep.)</name><lb/> sanctitate ac miraculis (admi-)<lb/> randi qui primum
+                                abbe(ndonien-)<lb/> sium monachorum pas(tor)<lb/> et abba extitit. dei(nde uero)<lb/>
+                                <name type="person">eadgaro</name> piissimo (rege)<lb/> compellente pontific(alem)<lb/>
+                                cathedram in prephat(a)<lb/> urbe adeptus est</q>
+                        </ab>
+                        <rubric locus="74v">IX Kal. Sep.</rubric>
+                        <ab locus="74v">
+                            <name type="person">Bartholomew</name>
+                        </ab>
+                        <rubric locus="77r">Non. Sep.</rubric>
+                        <ab locus="77r">
+                            <q>in monasterio dictum (!) sithdiu depositio <name type="person">Sanctissimi Bertini</name>
+                                confessoris et abbatis</q>
+                        </ab>
+                        <rubric locus="79r">XVI Kal. Oct.</rubric>
+                        <ab locus="79r">
+                            <q>monast(erio) <name type="place">&#447;yltunensi</name>
+                                <name type="person">Sancte (ead)gi&#240;e</name> uirginis</q>
+                        </ab>
+                        <rubric locus="80v">II Kal. Oct.</rubric>
+                        <ab locus="81r">
+                            <q>Dep. <name type="person">S. hon(orii)</name> archiepiscopi etc.</q>
+                        </ab>
+                        <rubric locus="83r">III Id. Oct.</rubric>
+                        <ab locus="83r">
+                            <abbr><name type="person">Uilfridi</name> ep.</abbr>
+                        </ab>
+                        <rubric locus="83v">XIIII Kal. Nov.</rubric>
+                        <ab locus="83v">
+                            <q><name type="person">... reo&#240;es&#447;y&#240;e</name> (uirg)inis</q>
+                        </ab>
+                        <rubric locus="84r">X Kal. Nov.</rubric>
+                        <ab locus="84r">
+                            <q>In ciuitate <name type="place">(rotoma)go</name> nat. <name type="person">(S.
+                                    Ro)mani</name> a ...</q>
+                        </ab>
+                        <rubric locus="85v">Kalendae Mensis Novembris</rubric>
+                        <ab locus="85v"><name type="person">ignulfus</name> mon. sac.</ab>
+                        <rubric locus="86v">VIII Id. Nov.</rubric>
+                        <ab locus="86v"><name type="person">brihtno&#240;us</name> sac.</ab>
+                        <rubric locus="86v">VI Id. Nov.</rubric>
+                        <ab locus="86v">
+                            <q>Depositio domni <name type="person">... &#447;ini</name> abbatis</q>
+                        </ab>
+                        <rubric locus="88v">XII Kal. Dec.</rubric>
+                        <ab locus="88v">
+                            <q><name type="person">Eadmundi</name> regis et martyris</q>
+                        </ab>
+                        <rubric locus="88v">XI Kal. Dec.</rubric>
+                        <ab locus="88v">
+                            <name type="person">Columbani</name>
+                        </ab>
+                        <rubric locus="90r">III Non. Dec.</rubric>
+                        <ab locus="90v">
+                            <q>Depositio <name type="person">Sancti birini</name></q>
+                        </ab>
+                        <rubric locus="91r">VI Id. Dec.</rubric>
+                        <ab locus="91r">
+                            <q>Obiit <name type="person">Math.</name> filia <name type="person">uuilelm.</name></q>
+                        </ab>
+                        <rubric locus="91v">Id. Dec.</rubric>
+                        <ab locus="91v">
+                            <q>In pago pontiuo <name type="person">Sancti Iudoci</name> confessoris xii<abbr
+                                    rend="superscript">cim</abbr> &#8478;</q>
+                        </ab>
+                        <ab>Ends</ab>
+                        <explicit locus="94r">Retiarie sancti ermetis exorciste</explicit>
+                        <ab locus="94v">At top <supplied>a</supplied> monogram of A and &#969;</ab>
+                        <ab>Then two formulae (<origDate>xi</origDate>) to announce death</ab>
+                        <ab>a.</ab>
+                        <incipit locus="94v">&#8224; Domnus abba N. totaque Abbandoniensis coenobii caterua
+                            etc.</incipit>
+                        <ab>(for a priest's death)</ab>
+                        <ab>b.</ab>
+                        <incipit locus="94v">&#8224; Karissimo domno <name type="person"
+                                >&#230;&#254;elstano</name> et cunctis fratribus Abbanduniensis monasterii.
+                            Nouerit uestra fraternitas quendam leuitam nomine N.</incipit>
+                        <ab locus="94v">
+                            <decoNote>Below this is a faint sketch of an angel facing R. and pointing upwards: in very
+                                good Anglo-Saxon style</decoNote>
+                        </ab>
+                        <ab>One or two other scribbles occur</ab>
+                    </msItem>
+
+                    <msItem n="6" locusStart="95r" locusEnd="163v">
+                        <head type="CCC">
+                            <name type="author">Smaragdus of Saint-Mihiel</name>, <title>Diadema monachorum
+                                (incomplete)</title>
+                        </head>
+                        <head type="James">
+                            <name type="author">Smaragdi</name>
+                            <title>diadema monachorum</title>
+                        </head>
+                        <ab>(<ref type="bibl" target="Migne 102">P. L. CII</ref>)</ab>
+                        <rubric locusNew="95r">Hunc modicum libellum <name type="author">Smaragdus</name> De (di)versis
+                            virtutibus collegit. et ei nomen Diadema monachorum inposuit. quia sicut diadema regis
+                            gemmis. ita et hic liber fulget virtutibus</rubric>
+                        <ab locusNew="95r">(<decoNote>good red capitals</decoNote>)</ab>
+                        <incipit locusNew="95r">Hunc modicum operis nostri libellum</incipit>
+                        <explicit locusNew="95r">capitulum ponimus primum</explicit>
+                        <rubric locusNew="95r">Explicit prologus</rubric>
+                        <ab locus="95v">Capitula (100)</ab>
+                        <rubric locus="97r">Incipit liber diadema monachorum<lb/>Primitus de oratione</rubric>
+                        <incipit locusNew="97v">Hoc est remedium eius qui uitiorum temptamentis exaestuat</incipit>
+                        <ab locusNew="97v">
+                            <decoNote>This has a very good initial of fine interlaced work with dragons'
+                                heads</decoNote>
+                        </ab>
+                        <ab>
+                            <decoNote>Sketch of a man's bust on f. <locus>108v</locus>: of rough interlaced ornament (in
+                                dry point) on f. <locus>112v</locus></decoNote>
+                        </ab>
+                        <ab>There are some glosses but, I think, none in Anglo-Saxon</ab>
+                        <ab>Ends imperfectly in c. 84</ab>
+                        <explicit locusNew="163v">Conscientiam nostram ab operibus mortuis i. a peccatis</explicit>
+                        <ab locusNew="163v">Note (<origDate>xvi early</origDate>)</ab>
+                        <ab locusNew="163v">
+                            <q>Hic deest totus quaternio</q>
+                        </ab>
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: RJR 16/12/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

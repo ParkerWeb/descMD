@@ -1,0 +1,178 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC184">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>184</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>D. 3</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>360</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Eusebius of Caesarea, Historia ecclesiastica, transl. by Rufinus</head>
+
+                <head type="James">Eusebii Historia Per Rufinum</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">288</height>
+                        <width unit="mm">202</width>
+                    </measureGrp>
+                    <measureGrp type="James">11.2 x 8</measureGrp>, <extent>ff. 176 + 6</extent>, <layout>28 lines to a
+                        page</layout>. Cent. <origDate>xii</origDate>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>a<num>4</num> (1 a slip) 1<num>8</num>-XXII<num>8</num> b<num>2</num></collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>succesiones</secFol> or <secFol>conscripta</secFol>.</p>
+
+                <p>On the flyleaves (ff. <locus>ir</locus>-<locus>ivr</locus>) are unimportant notes (<date>xv</date>
+                    and <date>xvi</date>).</p>
+
+                <p function="Provenance"><handNote>In a fine hand which is that characteristic of <name type="place"
+                            >Christ Church, Canterbury</name>.</handNote> There can be little doubt that the book was
+                    written there.<lb/> At the bottom of f. <locus>1r</locus> is:<lb/>
+                    <q>Ecclesiastica historia per <name type="person">Ricardum monachum</name></q>.<lb/> The position
+                    and character of this mark lead me to believe that the book, written at <name type="place"
+                        >Canterbury</name>, belonged to <name type="place">Rochester priory</name>. (See <ref
+                        type="bibl" target="James 1903">
+                        <hi rend="italic">Ancient Libraries of Canterbury</hi>
+                    </ref>, p. lxxxviii.)<lb/> It is probably a copy of <ref type="ms" target="CCC187">MS 187</ref>: see
+                    on that.</p>
+                <p>Titles in small red capitals.</p>
+
+
+
+
+
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-iv + 1-176 + v-vi + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="175v">
+
+
+
+                        <head type="CCC">
+                            <name type="author">Eusebius of Caesarea</name>, <title>Historia ecclesiastica, transl. by
+                                    <name type="author">Rufinus</name></title>
+                        </head>
+
+                        <head type="James">
+                            <title><name type="author">Eusebii</name> Historia Per <name type="person"
+                                >Rufinum</name></title>
+                        </head>
+
+                        <rubric locus="1r">Incipit Prefatio historie Ecclesiastice. Epistola <name type="author"
+                                >Rufini</name> ad <name type="person">Chromatium</name></rubric>
+                        <ab>(<ref type="bibl" target="Migne 021"><supplied>P. L.</supplied> XXI 462</ref>)</ab>
+                        <incipit locusNew="1r">Peritorum dicunt esse</incipit>
+                        <ab locusNew="1r">
+                            <decoNote>Initial in red, green, yellow</decoNote>
+                        </ab>
+                        <explicit locusNew="1v">ad obitum <name type="person">Theodosii augusti</name></explicit>
+
+                        <rubric locusNew="1v">Explicit prefatio</rubric>
+                        <rubric locusNew="1v">Incipiunt capitula Libri primi</rubric>
+                        <rubric locusNew="1v">Expliciunt capitula libri primi</rubric>
+                        <rubric locusNew="1v">Incipit hystorie ecclesiastice <name type="author">Eusebii Cesariensis
+                                episcopi</name> Liber primus Cap. I.</rubric>
+                        <incipit locus="2r">Successiones sanctorum apostolorum</incipit>
+                        <ab locusNew="2r">
+                            <decoNote>Fine initial, red outline (mainly) on yellow ground, with figure of a man among
+                                foliage</decoNote>
+                        </ab>
+                        <ab locus="17r">Liber II</ab>
+                        <ab locus="30r"><supplied>Liber</supplied> III</ab>
+                        <ab locus="48r"><supplied>Liber</supplied> IV</ab>
+                        <ab locus="65r"><supplied>Liber</supplied> V</ab>
+                        <ab locus="85r"><supplied>Liber</supplied> VI</ab>
+                        <ab locus="106r"><supplied>Liber</supplied> VII</ab>
+                        <ab locus="121r"><supplied>Liber</supplied> VIII</ab>
+                        <ab locus="133v"><supplied>Liber</supplied> IX</ab>
+                        <ab locus="145r"><supplied>Liber</supplied> X</ab>
+                        <ab locus="162v"><supplied>Liber</supplied> XI</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="175v">percepturus premia meritorum</explicit>
+                        <rubric locusNew="175v">Ecclesiastice Historie undecimus liber explicit</rubric>
+                        <ab><locus>176r</locus> blank</ab>
+                        <ab>On f. <locus>176v</locus> and flyleaves are lists of bishops from the History
+                                (<origDate>xvi</origDate>) and other scribbles</ab>
+                        <ab>A portion of text is omitted in Liber XI (XXIII sqq.: destruction of Serapeum etc.)</ab>
+                        <ab>On f. <locus>173v</locus> the text reads</ab>
+                        <ab locusNew="173v">Post hoc reuulsum ceruicibus que apud illos sunt elementis cuius littere seu
+                            uocabuli</ab>
+                        <ab>See further on <ref type="ms" target="CCC187">MS 187</ref></ab>
+
+
+                    </msItem>
+
+                </msContents>
+
+                <additional>
+
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, CF 2nd</p>
+                            <p>msCheck: NJC 18.9.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

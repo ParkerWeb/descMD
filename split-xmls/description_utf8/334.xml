@@ -1,0 +1,169 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC334">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>334</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>K. 8</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>113</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Origen, Homilies on Luke (transl. by Jerome)</head>
+                <head type="James">Origenes super Lucam</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">230</height>
+                        <width unit="mm">122</width>
+                    </measureGrp>, <measureGrp type="James">9.1 x 4.8</measureGrp>, <extent>ff. 1 + 111</extent>,
+                        <layout>22 lines to a page</layout>. Cent. <origDate>viii-ix</origDate> (Bradshaw), <handNote>in
+                        a <q>Lombardic</q> minuscule.<hi rend="footnote">Cf. <ref type="bibl"
+                                target="Bond and Thompson 1873-78">Pal. Soc. Series I, pls. 8, 9</ref></hi>
+                    </handNote>Lines ruled with dry point. Headings in square and uncial capitals, ei, ti, tr, ri, etc.
+                    are combined. <decoNote>Initials have grotesque animal forms, in outline; others have carefully
+                        executed plaited work.</decoNote></p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num> (wants 5) 2<num>8</num>-14<num>8</num></collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>et ante nesciret</secFol>.</p>
+
+                <p function="Provenance">Very probably this book came from the same place as <ref type="ms"
+                        target="CCC193">MS 193</ref> (? <name type="place">Corbie</name>). A note in the
+                        <supplied>college's copy of Nasmith's</supplied>
+                    <ref type="bibl" target="Nasmith 1777">Catalogue</ref> gives <name type="person">Dr Traube</name>'s
+                    opinion that it is French, probably Northern. </p>
+                <p function="Research">
+                    <supplied agent="JamesCorrigenda"><name type="person">Professor W. M. Lindsay</name> suggests a
+                        comparison with the script of <ref type="ms" target="BML423">MS. Laon 423</ref> and of <ref
+                            type="ms" target="BNF168">Paris B. N. lat. 12168</ref>.</supplied>
+                </p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + A + 1-111 + iii-iv</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="111v">
+                        <head type="CCC">
+                            <name type="author">Origen</name>, <title>Homilies on <name type="person">Luke</name>
+                                (transl. by <name type="person">Jerome</name>)</title>
+                        </head>
+
+                        <ab>Title in capitals, partly in outline. <decoNote>Initial of plaited work</decoNote></ab>
+                        <rubric locus="1r">IN NOMINE SCE<lb/>Trinitatis<lb/>incipiunt interpretationes in <name
+                                type="author">Lucam</name> Euangelistam</rubric>
+                        <ab>(<ref type="bibl" target="Migne 026">P. L. XXVI 219</ref>)</ab>
+                        <ab locusNew="1r">Text. <decoNote>Initial of beast on hind legs and beaked fish
+                                fighting</decoNote></ab>
+                        <incipit locus="1r"><name type="person">Hieronimus</name>
+                            <name type="person">paulae</name><lb/>et <name type="person">eustochio</name>. ante paucos
+                            dies quorundam in <name type="author">matheum</name> et <name type="author">lucam</name>
+                            commentarios uos legisse dixistis /</incipit>
+                        <explicit locus="2r">scripturarum quondam studium fuerit</explicit>
+                        <rubric locus="2r">Explicit prefacio</rubric>
+                        <rubric locus="2r">Incipiunt Homelias ˇ <name type="author">origenis</name> in <name
+                                type="author">lucam</name> ˇ xxxuiiii uerse<lb/>ab ˇ <name type="person">eusebio</name>
+                            ˇ <name type="person">hyronimo</name> /</rubric>
+                        <incipit locus="2r"><name type="person">Hyronimus</name><lb/>presbiter<lb/>natus uico <name
+                                type="person">eusebio</name> ˇ et pater eius <name type="person">eusebius</name> nomen ˇ
+                            in exordium <name type="person">luce</name> usque<lb/>ad eum locum ubi ait ˇ scribere tibi
+                            optime <name type="person">theofile</name> dicte homelie in diebus dominicis. I</incipit>
+                        <ab><ref type="bibl" target="Migne 026">P. L. XXVI 221</ref>; <ref type="bibl"
+                                target="Migne PG 013">P. G. XIII 1801</ref></ab>
+                        <incipit locus="2r">Sicut olim in populo iudeorum multi prophetiam<lb/>pollicebantur</incipit>
+                        <ab>Homily I ends imperfectly</ab>
+                        <explicit locus="4v">ut diligamini a deo. et uos <name type="person">theofili</name></explicit>
+                        <ab>Homily II begins imperfectly</ab>
+                        <incipit locus="5r">culata fuerit. Hoc enim ne suspicare[i] quidem de homine potest</incipit>
+
+
+                        <ab>Each Homily has <decoNote>heading in uncials, and initial in outline usually with animal
+                                forms, beaked fishes, etc. Homily 14 <supplied>(f. <locus>34r</locus>)</supplied> has
+                                its title and initial touched with green. In Homily 18 <supplied>(f.
+                                    <locus>49v</locus>)</supplied> title and initial have some washing of red as well as
+                                green, and red dots about some of the letters. The small initials in the text about here
+                                are similarly coloured and dotted. This ornamentation affects all quire 7 (ff.
+                                    <locus>48r</locus>-<locus>55v</locus>)</decoNote>
+                        </ab>
+
+                        <ab>On f. <locus>97v</locus> written in <q>pencil</q> down the left side of the page in very
+                            irregular characters is this very interesting inscription. A few letters have gone through
+                            cropping: <q>FOR/TJ/NA/TV/ ssc/ˇIp/ˇit/ˇstu/ˇibr/ˇm/ˇra/ˇe/ˇro/ˇllu</q><lb/> i.e. <q><name
+                                    type="person">Fortunatus</name> scripsit istum librum orate pro illum (!)</q></ab>
+                        <ab>Homily 39 ends</ab>
+                        <explicit locus="111r">offerre ei munera que nobis restituat. Et pro terrenis celestia largiatur
+                            in christo iesus. Cui est gloria et imperium in secula seculorum amen</explicit>
+                        <ab locusNew="111r">
+                            <decoNote>A rude sketch of an animal below</decoNote>
+                        </ab>
+                        <ab><locus>111v</locus> is blank</ab>
+
+
+
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: foliation check, BA. Awaiting final title check from RJR - complete
+                                7/11/2008</p>
+                            <p>remarks: interlinear correction</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

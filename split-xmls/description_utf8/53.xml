@@ -1,0 +1,683 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC053">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>53</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>E. 12</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>51, 52 and 382</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">The Peterborough Psalter and Bestiary</head>
+                <head type="James">Psalterium. Chronicon Petroburgense. Bestiarium</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">347</height>
+                        <width unit="mm">231</width>
+                    </measureGrp>, <measureGrp type="James">13.7 x 9.3</measureGrp>, <extent>ff. 210 + 2</extent>,
+                        <layout>two volumes</layout> of cent. <origDate>xiv</origDate>, <handNote>exquisitely written
+                        and ornamented</handNote>.</p>
+
+                <p function="Multivolume"><lb/><label>Volume II:</label>
+                    <handNote>In an exquisite hand</handNote>, <layout>double columns of 42 lines</layout>. Cent.
+                        <origDate>xiv early</origDate>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num> 1<num>6</num>-3<num>6</num> | 4<num>12</num>-17<num>12</num> 18<num>2</num>
+                        || 19<num>12</num> 20<num>12</num> (wants 11, 12)</collation>.</p>
+
+                <p function="Provenance">From <name type="place">Peterborough</name>.<lb/> On the flyleaf
+                            <supplied>(<locus>ir</locus>)</supplied>
+                    <handNote>in a large hand slightly later than that of the book</handNote>:<lb/>
+                    <q>Psalterium fratris <name type="person">Hugonis de Stiuecle</name>; prioris</q>.<lb/> The last
+                    word may be a later addition.</p>
+
+                <p function="Research">Other noteworthy Peterborough Psalters are at <ref type="ms" target="BBR961"
+                        >Brussels, Bib. Roy. 9963 <supplied>(s/b 9961-2)</supplied></ref>, <ref type="ms"
+                        target="CFM012">Fitzwilliam Museum, no. 12</ref>, <ref type="ms" target="LSA059">Society of
+                        Antiquaries (Psalter of Rob. de Lindsey)</ref>, <ref type="ms" target="CSJD06">St John's
+                        College, <hi rend="italic">Glossed</hi> Psalter of Robert de Lindsey</ref>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-d + i-ii + 1-2 + 4 + 3 + 5-210 + e</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="frm">Latin and Anglo-Norman.</textLang>
+
+                    <label>Contents</label>
+
+
+                    <milestone n="I" unit="volume"/>
+                    <msItem n="1" locusStart="1r" locusEnd="180r">
+                        <head type="CCC">
+                            <title>Psalter and Office of the Dead</title>
+                        </head>
+                        <ab locus="1r">Kalendar <decoNote>in red and black</decoNote></ab>
+
+                        <ab> Decoration.<lb/>
+                            <decoNote>The Kalendar has two medallions with gold grounds (in lower margin except in
+                                January) illustrating the occupation and sign of each month</decoNote>
+                        </ab>
+                        <ab locusNew="1r"><hi rend="italic">January</hi>. <decoNote>Three-faced, at table, drinking with
+                                left face eating with right: boar's head on table</decoNote></ab>
+                        <ab locusNew="1r"><hi rend="italic">Aquarius</hi>. <decoNote>Woman in blue seated full-face with
+                                two bottles</decoNote></ab>
+                        <ab locusNew="1v"><hi rend="italic">February</hi>. <decoNote>Sits with face to L. by fire and
+                                hooks a piece of meat out of a pot. <hi rend="italic">Piscis</hi></decoNote></ab>
+                        <ab locusNew="2r"><hi rend="italic">March</hi>. <decoNote>In hat prunes vine (tree): facing L.
+                                    <hi rend="italic">Aries</hi></decoNote></ab>
+                        <ab locusNew="2v"><hi rend="italic">April</hi>. <decoNote>Rides to L. hawk on hand. <hi
+                                    rend="italic">Taurus</hi></decoNote></ab>
+                        <ab locusNew="3r"><hi rend="italic">May</hi>. <decoNote>A girl with full face on grass holding
+                                flowers in each hand</decoNote></ab>
+                        <ab locusNew="3r"><hi rend="italic">Gemini</hi>. <decoNote>Nude, linked by arm round each
+                                other's back: a blank shield in front of them</decoNote></ab>
+                        <ab locusNew="3v"><hi rend="italic">June</hi>. <decoNote>In broad hat, mowing. <hi rend="italic"
+                                    >Leo</hi></decoNote></ab>
+                        <ab locusNew="4r"><hi rend="italic">July</hi>. <decoNote>In broad hat, reaping. <hi
+                                    rend="italic">Cancer</hi></decoNote></ab>
+                        <ab locusNew="4v"><hi rend="italic">August</hi>. <decoNote>Threshes. <hi rend="italic"
+                                    >Virgo</hi> holds palm</decoNote></ab>
+                        <ab locusNew="5r"><hi rend="italic">September</hi>. <decoNote>Two figures, one with stick, and
+                                hotte on back: one treads grapes</decoNote></ab>
+                        <ab locusNew="5r"><hi rend="italic">Libra</hi>. <decoNote>Held by a woman</decoNote></ab>
+                        <ab locusNew="5v"><hi rend="italic">October</hi>. <decoNote>Sows from a wooden barrel-like
+                                vessel. <hi rend="italic">Scorpio</hi></decoNote></ab>
+                        <ab locusNew="6r"><hi rend="italic">November</hi>. <decoNote>Beats oak, for a pig. <hi
+                                    rend="italic">Sagittarius</hi>. Centaur, hind-feet lion-like, shoots
+                                backward</decoNote></ab>
+                        <ab locusNew="6v"><hi rend="italic">December</hi>. <decoNote>Strikes pig with back of axe. <hi
+                                    rend="italic">Capricorn</hi> half-goat, half cornu copiae.</decoNote></ab>
+
+                        <ab>In the Kalendar</ab>
+                        <ab locusNew="1r"><hi rend="bold">January</hi><lb/> 4. <name type="person">Eadwardi reg.
+                                C.</name><lb/> 19. <name type="person">Wlstani Ep. C.</name></ab>
+
+
+
+                        <ab locusNew="1v"><hi rend="bold">February</hi><lb/> 3. <name type="person">Werburge V.</name>
+                            added early<lb/> 28. <name type="person">Oswaldi archiep</name>.</ab>
+
+
+                        <ab locusNew="2r"><hi rend="bold">March</hi><lb/> 1. <name type="person">Dauid</name><lb/> 6.
+                            Translacio <name type="person">kyneburge kyneswythe ac Tybbe</name>. <decoNote>duplex in
+                                red</decoNote><lb/>
+                            <supplied>18.</supplied>
+                            <name type="person">Eadwardi</name><lb/>
+                            <supplied>20.</supplied>
+                            <name type="person">Cuthberti</name></ab>
+
+
+
+                        <ab locusNew="2v"><hi rend="bold">April</hi><lb/> 3. <name type="person">Ricardi Ep. C.</name>
+                            <decoNote>in red</decoNote><lb/>
+                            <supplied>19.</supplied>
+                            <name type="person">Aelphegi</name></ab>
+
+
+                        <ab locusNew="3r"><hi rend="bold">May</hi><lb/> 19. <name type="person">Dunstani</name>
+                            <decoNote>in red</decoNote><lb/>
+                            <supplied>25.</supplied>
+                            <name type="person">Aldelmi</name>, <decoNote>in red</decoNote><lb/>
+                            <supplied>26.</supplied>
+                            <name type="person">Augustini</name>, <decoNote>in red</decoNote></ab>
+
+                        <ab locusNew="3v"><hi rend="bold">June</hi><lb/> 3. Obitus <name type="person">Rogeri de
+                                Essesse</name>
+                            <decoNote>in red</decoNote><lb/> 23. <name type="person">Etheldrede</name></ab>
+
+                        <ab locusNew="4r"><hi rend="bold">July</hi><lb/> 7. Translatio <name type="person">S. Thome
+                                M.</name>
+                            <decoNote>in red</decoNote> erased and rewritten in cent. <origDate>xvi</origDate></ab>
+
+                        <ab locusNew="4v"><hi rend="bold">August</hi><lb/> 5. <name type="person">Oswald</name> added
+                                <decoNote>in red</decoNote> late</ab>
+
+                        <ab locusNew="5r"><hi rend="bold">September</hi><lb/> 4. <name type="person"
+                            >Cuthberti</name><lb/> 15. Festiuitas reliquiarum Sarum<lb/> 16. <name type="person"
+                                >Edithe</name><lb/> 24. Dedicacio <name type="place">ecclesie S. Trinitatis
+                                Norwici</name>
+                            <decoNote>in red</decoNote><lb/> 27. <decoNote>In red</decoNote> in margin, original: Obitus
+                            d. <name type="person">Iohannis Comitis Warrenn'</name> a<abbr rend="superscript">o</abbr>
+                            gratie <date>M<abbr rend="superscript">o</abbr> CCC<abbr rend="superscript">o</abbr>
+                                    IIIJ<abbr rend="superscript">o</abbr></date><lb/> 28. Dedicacio <name type="place"
+                                >ecclesie Burgi</name>
+                            <decoNote>in red</decoNote></ab>
+
+                        <ab locusNew="5v"><hi rend="bold">October</hi><lb/> 4. <name type="person">Francisci C. et
+                                doctoris</name>
+                            <decoNote>in red</decoNote><lb/> 5. or 6. Added in margin <handNote>in charter
+                                hand</handNote>: <q>Obitus <name type="person">Hugonis de Stiuecle quondam Prioris
+                                    Burg</name></q><lb/> 21. 11,000 Virgins erased</ab>
+
+                        <ab locusNew="6r"><hi rend="bold">November</hi>
+                            <supplied>16. and 20.</supplied> Both <name type="person">Edmund</name>s <decoNote>in
+                                red</decoNote></ab>
+
+                        <ab locusNew="6v"><hi rend="bold">December</hi><lb/> 3. Obitus <name type="person">dyonisie de
+                                Styrop</name><lb/> 10. Obitus lecie matris domini <name type="person">oliueri de
+                                Wysete</name><lb/> 15. Obitus d. <name type="person">Willelmi de Warenn'</name><lb/> 29.
+                                <name type="person">Thomas</name> erased and rewritten <decoNote>in red</decoNote></ab>
+
+                        <ab locusNew="7r">
+                            <decoNote>Twelve leaves with pictures</decoNote>
+                        </ab>
+
+                        <ab>The full-page pictures preceding the Psalter are thus arranged</ab>
+                        <ab>a. <decoNote>A prophet and apostle under architectural canopy sometimes supported by central
+                                shaft, sometimes not; within frame. The apostle has a clause of the creed on a scroll;
+                                the prophet a corresponding prophecy. Names in red below the frame. Colours flat, pale
+                                green, blue, pink, brown etc. No grounds. Fine drawing</decoNote></ab>
+                        <ab>b, c. <decoNote>Gold grounds with incised pattern. Frame in colour. Architecture in
+                                spandrels, red silk guards. Fine drawing and colour: faces often have a dab of pink on
+                                the cheeks. The subjects are Life of Christ etc.</decoNote></ab>
+                        <ab>d. <decoNote>Prophet and apostle, as in a.</decoNote></ab>
+                        <ab locusNew="7r">1. <hi rend="italic">
+                                <name type="person">Jeremias</name>
+                            </hi>. <decoNote>Pointed cap.</decoNote>
+                            <q>Patrem uocabitis me dicit dominus</q>.<lb/>
+                            <hi rend="italic">
+                                <name type="person">Petrus</name>
+                            </hi>. <q>Credo etc. - terre</q></ab>
+                        <ab locusNew="7v">2. <decoNote>Annunciation under trefoiled arch. Both figures stand: a lily pot
+                                between them. The Virgin has a book. Scroll. <q>AUE GR</q></decoNote></ab>
+                        <ab locusNew="8r">3. <decoNote>Nativity under cinqfoiled arch. The usual scheme, with <name
+                                    type="person">Joseph</name> seated on R.</decoNote></ab>
+                        <ab locusNew="8v">4. <hi rend="italic">
+                                <name type="person">Andreas</name>
+                            </hi>. <q>Et in I. C. dom. nostrum</q>.<lb/>
+                            <hi rend="italic">
+                                <name type="person">Dauid</name>
+                            </hi> in cap. <q>Filius meus es tu hodie genui te</q></ab>
+                        <ab locusNew="9r">5. <hi rend="italic">
+                                <name type="person">Ysaias</name>
+                            </hi>. <q>Ecce uirgo concipiet et pariet filium</q>.<lb/>
+                            <hi rend="italic">
+                                <name type="person">Jacobus</name>
+                            </hi>. <q>Qui conceptus - virgine</q></ab>
+                        <ab locusNew="9v">6. <decoNote>Resurrection under trefoiled arch. Three knights in mail. The one
+                                on L. has a yellow shield with six chevrons sable. An angel kneels on the end of the
+                                tomb facing R.</decoNote></ab>
+                        <ab locusNew="10r">7. <decoNote>Ascension in plain frame, without arch. There is no hill. The
+                                Virgin has a book. The figures below number seven in all</decoNote></ab>
+                        <ab locusNew="10v">8. <hi rend="italic">
+                                <name type="person">Daniel</name>
+                            </hi>. <q>Post ebdomadas lxii occiditur christus</q>.<lb/>
+                            <hi rend="italic">
+                                <name type="person">Johannes</name>
+                            </hi> (bearded). <q>Passum - sepultum</q></ab>
+                        <ab locusNew="11r">9. <hi rend="italic">
+                                <name type="person">Oseas</name>
+                            </hi>. <q>O mors ero mors tua morsus tuus ero o inferne</q>.<lb/>
+                            <hi rend="italic">
+                                <name type="person">Thomas</name>
+                            </hi>. <q>Descendit - mortuis</q></ab>
+                        <ab locusNew="11v">10. <decoNote>Coronation of the Virgin. Plain frame. In the upper corners are
+                                two angels with censers and incense-boats</decoNote></ab>
+                        <ab locusNew="12r">11. <decoNote>Betrayal under cinqfoil. <name type="person">Judas</name> has a
+                                ring round his head not rilled in with colour as are most. <name type="person"
+                                    >Malchus</name>, full face, is screaming. <name type="person">Peter</name>'s sword
+                                is cutting off the top of his head: much blood is on his face</decoNote></ab>
+                        <ab locusNew="12v">12. <hi rend="italic">
+                                <name type="person">Amos</name>
+                            </hi>. <q>Qui edificat in celum ascensionem suam</q>.<lb/>
+                            <hi rend="italic">
+                                <name type="person">Jacobus maior (minor)</name>
+                            </hi>. <q>Ascendit - omnipotentis</q></ab>
+                        <ab locusNew="13r">13. <hi rend="italic">
+                                <name type="person">Johel</name>
+                            </hi>. <q>In ualle Iosaphath iudicabit omnes gentes</q>.<lb/>
+                            <hi rend="italic">
+                                <name type="person">Philippus</name>
+                            </hi>. <q>Inde - mortuos</q>
+                            <!--s--></ab>
+                        <ab locusNew="13v">14. <decoNote>The Scourging. Cinqfoil arch. Christ bound to the pillar, full
+                                face. The ordinary scheme, with two executioners</decoNote></ab>
+                        <ab locusNew="14r">15. <decoNote>Bearing the Cross. Trefoil arch. Christ, covered with wounds.
+                                He walks to R. One executioner with his hand on His back draws Him on. The Virgin
+                                follows supporting the Cross. <name type="person">John</name> behind,
+                            weeping</decoNote></ab>
+                        <ab locusNew="14v">16. <hi rend="italic">
+                                <name type="person">Aggeus</name>
+                            </hi>. <q>Spiritus meus erit in medio uestri</q> (this and the prophecy of <name
+                                type="person">Sophonias</name>, which are both unusual, occur in a <ref type="ms"
+                                target="UPM138">Bible of cent. xiii belonging to <name type="person">Mr Pierpont
+                                    Morgan</name></ref>).<lb/>
+                            <hi rend="italic">
+                                <name type="person">Bartholomeus</name>
+                            </hi>. <q>Credo - sanctum</q></ab>
+                        <ab locusNew="15r">17. <hi rend="italic">
+                                <name type="person">Mattheus</name>
+                            </hi>. <q>Sanctam eccl. - communionem</q>.<lb/>
+                            <hi rend="italic">
+                                <name type="person">Sophonias</name>
+                            </hi>. <q>Hec est civitas gloriosa que dicit extra me non est</q></ab>
+                        <ab locusNew="15v">18. <decoNote>Crucifixion with the Virgin and <name type="person">S.
+                                    John</name>. Cinqfoil arch. Christ's side is wounded: three nails are used: no crown
+                                of thorns</decoNote></ab>
+                        <ab locusNew="16r">19. <decoNote>Two trefoil arches: no shaft.<lb/> L. The Virgin and Child. She
+                                holds a flower, He a fruit.<lb/> R. <name type="person">Christopher</name> leaning on an
+                                oar, in the midst of the stream. Christ with an orb on His shoulder. Fish in the
+                                water</decoNote></ab>
+                        <ab locusNew="16v">20. <hi rend="italic">
+                                <name type="person">Malachias</name>
+                            </hi>. <q>Cum odio habueris dimitte</q>.<lb/>
+                            <hi rend="italic">
+                                <name type="person">Symon</name>
+                            </hi>. <q>Remissionem peccatorum</q></ab>
+                        <ab locusNew="17r">21. <hi rend="italic">
+                                <name type="person">Zacharias</name>
+                            </hi>. <q>Suscitabo filios uestros</q>.<lb/>
+                            <hi rend="italic">
+                                <name type="person">Thadeus</name>
+                            </hi> (<decoNote>beardless</decoNote>). <q>Carnis resurrectionem</q></ab>
+                        <ab locusNew="17v">22. <decoNote>Christ seated full face, in lozenge; L. hand on orb. The
+                                Evangelical emblems in the angles, with names</decoNote></ab>
+                        <ab locusNew="18r">23. <decoNote>Trefoil arch. L. <hi rend="italic">
+                                    <name type="person">Jacobus maior</name>
+                                </hi>. Green wallet with escallop slung round him. Staff and book. R. <name
+                                    type="person">John Baptist</name>, hairy robe: he points to medallion of <hi
+                                    rend="italic">Agnus Dei</hi> in his L. hand</decoNote></ab>
+                        <ab locusNew="18v">24. <hi rend="italic">
+                                <name type="person">Abdias</name>
+                            </hi>. <q>Et erit regnum domini. Amen</q>.<lb/>
+                            <hi rend="italic">
+                                <name type="person">Mathias</name>
+                            </hi>. <q>Vitam - amen</q></ab>
+
+                        <ab locusNew="19r">Psalter <layout>in double columns of 17 lines</layout>. <handNote>In a very
+                                large, tall, upright hand</handNote></ab>
+
+                        <ab>Then follows the Psalter</ab>
+                        <ab locusNew="19r"><hi rend="italic">Beatus uir</hi>. <decoNote>At bottom: L. <name
+                                    type="person">David</name> with sling-stones in his garment. Three sheep in front.
+                                R. <name type="person">Goliath</name> mailed: shield with face on it: banneret and
+                                spear: red surcoat: stone in forehead</decoNote></ab>
+                        <ab locusNew="19r">
+                            <decoNote>R. margin. Jesse tree on gold ground. <name type="person">Jesse</name> sleeping at
+                                bottom: then <hi rend="italic">a.</hi>
+                                <name type="person">David</name> with harp. <hi rend="italic">b.</hi>
+                                <name type="person">Solomon</name> with scroll. <hi rend="italic">c.</hi> A bad king in
+                                surprised attitude. <hi rend="italic">d.</hi> Virgin and child. <hi rend="italic"
+                                    >e.</hi> Christ with orb blessing</decoNote>
+                        </ab>
+                        <ab locusNew="19r">
+                            <decoNote>Initial. <name type="person">David</name> playing the harp. A chaffinch above in
+                                the border</decoNote>
+                        </ab>
+                        <ab locusNew="38v"><hi rend="italic">Dominus illuminatio</hi>. <decoNote><name type="person"
+                                    >David</name> kneels face R. at altar, finger to his eye. Head of Christ
+                                above</decoNote></ab>
+                        <ab locusNew="52r"><hi rend="italic">Dixi</hi>. <decoNote>Similar. He points to his protruded
+                                tongue</decoNote></ab>
+                        <ab locusNew="64r"><hi rend="italic">Dixit</hi>. <decoNote><name type="person">David</name>
+                                throned on L. A bald fool in mantle only, eating a cake and holding a
+                            club</decoNote></ab>
+                        <ab locusNew="76v"><hi rend="italic">Saluum</hi>. <decoNote>Christ above: <name type="person"
+                                    >Jonah</name> (?) below in water, perhaps emerging from the mouth of the large
+                                fish</decoNote></ab>
+                        <ab locusNew="92v"><hi rend="italic">Exultate</hi>. <decoNote><name type="person">David</name>
+                                plays on five bells. Note the very fine white ornament on the blue ground outside the
+                                letter. This is conspicuous in other places</decoNote></ab>
+                        <ab locusNew="106v"><hi rend="italic">Cantate</hi>. <decoNote>Clerks, one in cope, two in albs.
+                                Book on desk on R.</decoNote></ab>
+                        <ab locusNew="122v"><hi rend="italic">Dixit dominus</hi>. <decoNote>The Father and Son seated
+                                full face. Cruciform nimbi. The Father on R. with hand on globe, the Son blessing. The
+                                Dove between them</decoNote></ab>
+                        <ab locusNew="136r"><hi rend="italic">Ad dominum</hi> (CXIX. CXX). <decoNote>Like <hi
+                                    rend="italic">Dominus illuminatio</hi>, but here <name type="person">David</name> is
+                                bareheaded and beardless: in blue</decoNote></ab>
+                        <ab locusNew="153r"><hi rend="italic">Confitebor (Cantica)</hi>. <decoNote>Christ throned
+                                full-face</decoNote></ab>
+                        <ab locus="153r">Cantica and Litany</ab>
+
+                        <ab>In the Litany</ab>
+                        <ab>Apostles: <name type="person">Petre II</name></ab>
+                        <ab>Martyrs: <name type="person">Osuualde (2nd)</name>. <name type="person">Florentine</name>.
+                                <name type="person">Albane</name>, <name type="person">Edmunde</name>, <name
+                                type="person">Elphege</name>, <name type="person">Thoma</name> erased</ab>
+                        <ab>Confessors: <name type="person">Atheluuolde (5th)</name> ... <name type="person"
+                                >Cuthberte</name>, <name type="person">Guthlace</name>, <name type="person"
+                                >Uuilfride</name>, <name type="person">Suithune</name>, <name type="person"
+                                >Dunstane</name>, <name type="person">Iohannes</name>, <name type="person"
+                            >Aidane</name>, <name type="person">Botulphe</name>, <name type="person">Egidi</name>, <name
+                                type="person">Leonarde</name>, <name type="person">Iuliane</name>, <name type="person"
+                                >Uulstane</name>, <name type="person">Hugo II</name>, <name type="person"
+                            >Edmunde</name></ab>
+                        <ab>Virgins: <name type="person">Kyneburga</name>, <name type="person">Kynesuuitha</name>, <name
+                                type="person">Tibba</name> ... <name type="person">Etheldritha</name>, <name
+                                type="person">Sexburga</name>, <name type="person">Werburga</name></ab>
+
+                        <ab>Suffrage for the Pope erased</ab>
+                        <ab>Collects</ab>
+                        <incipit locusNew="169r">Deus cui proprium est misereri</incipit>
+                        <incipit locusNew="169v">Omnipotens sempiterne deus. qui facis mirabilia</incipit>
+                        <incipit locusNew="169v">Pretende domine</incipit>
+                        <incipit locusNew="169v">Ure igni</incipit>
+                        <incipit locusNew="169v">Acciones nostras</incipit>
+                        <incipit locusNew="170r">Adesto domine</incipit>
+                        <incipit locusNew="170r">A domo tua quesumus domine repellantur</incipit>
+                        <incipit locusNew="170r">Deus a quo sancta desideria</incipit>
+                        <incipit locusNew="170r">Ecclesie tue quesumus</incipit>
+                        <incipit locusNew="170v">Animabus quesumus</incipit>
+                        <incipit locusNew="170v">Deus qui es sanctorum</incipit>
+                        <ab locus="171r">Commendacio animarum</ab>
+                        <incipit locusNew="174r">Placebo</incipit>
+                        <ab locusNew="174r">(Office of the Dead). <decoNote>A bier with blue pall and four
+                                candles</decoNote></ab>
+
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="180v" locusEnd="184v">
+                        <head type="CCC">
+                            <title>Livere de Reis de Britannie</title>
+                        </head>
+
+                        <ab><handNote>In a hand of cent. <origDate>xiv early</origDate></handNote>: <layout>double
+                                columns of 32 lines</layout></ab>
+                        <ab locus="180v">Chronicle of <name type="place">England</name> in French to <name type="person"
+                                >Edward I</name>'s death </ab>
+                        <incipit locusNew="180v">Deuant la natiuite nostre seignur mil et cc. anz uint <name
+                                type="person">brutus</name> le fiz <name type="person">siluius</name> en <name
+                                type="place">engletere</name></incipit>
+                        <ab locus="184r"><handNote>The first hand ends</handNote> (on <name type="person">Edward
+                                I</name>)</ab>
+                        <explicit locusNew="184r">Cil regna .xxxiiij. anz et x. meis si morust e git a <name
+                                type="place">weymoster</name></explicit>
+                        <ab locusNew="184r">A hand of about <origDate>1400</origDate> continues</ab>
+                        <incipit locusNew="184r">Apres cesti Roi <name type="person">eduuard</name> vint sire <name
+                                type="person">eduuard</name> soun fiiz</incipit>
+                        <ab locus="184v">Ending with the coronation of <name type="person">Henry IV</name></ab>
+                        <explicit locusNew="184v">lan de grace <date>mil. ccc. nouaunttime et neofyme</date></explicit>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="185r" locusEnd="188v">
+                        <head type="CCC">
+                            <title>Chronicle of <name type="place">Peterborough</name></title>
+                        </head>
+                        <head type="James">
+                            <title>Chronicle of <name type="place">Peterborough Abbey</name></title>
+                        </head>
+                        <ab>
+                            <handNote>In the first hand of <supplied>item</supplied> 2</handNote>
+                        </ab>
+
+                        <incipit locusNew="185r">Anno ab incarnacione domini <date>Dc<abbr rend="superscript">o</abbr>
+                                quinquagesimo</date> ab aduentu S. Augustini iv<abbr rend="superscript">o</abbr> fundata
+                            fuit <name type="place">ecclesia de medeshamstede</name> que nunc <name type="place"
+                                >Burg</name> uocatur</incipit>
+                        <ab locusNew="186v">
+                            <handNote>The first hand goes down to abbot <name type="person">Will. de
+                                Wodeford</name></handNote>
+                        </ab>
+                        <explicit locusNew="186v">per iiij annos ecclesiam bene rexit et mortuus est</explicit>
+                        <ab locus="186v">
+                            <handNote>The second hand of <supplied>item</supplied> no. 2 continues</handNote>
+                        </ab>
+                        <incipit locusNew="186v">
+                            <name type="person">Godefridus de croiland</name>
+                        </incipit>
+                        <ab locusNew="187r">And ends with <name type="person">Will. Genge</name>
+                            (<date>1396-1408</date>)</ab>
+                        <explicit locus="187v">soluend' dicto abbati infra duos annos prox' post annum creacionis
+                            eiusdem</explicit>
+                        <ab>Referred to by <name type="person">Tanner</name> etc., but seemingly not printed</ab>
+                        <ab>f. <locus>188r</locus>-<locus>188v</locus> is blank</ab>
+
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+                    <msItem n="4" locusStart="189r" locusEnd="209v">
+                        <head type="CCC">
+                            <title>Bestiary</title>
+                        </head>
+
+                        <head type="James">
+                            <title>A Bestiary</title>
+                        </head>
+
+                        <incipit locusNew="189r">Bestiarum uocabulum proprie conuenit leonibus pardis cxi 217</incipit>
+                        <incipit locusNew="189r">Phisici dicunt leones tres principales naturas habere</incipit>
+
+
+                        <ab>The ornamentation of the Bestiary is very fine indeed</ab>
+                        <ab locus="189r">
+                            <decoNote>(the first leaf) has partial border (oak <!--(corrected in James corrigenda)-->and
+                                ivy-leaf). On R. a splendid grotesque with bow and arrow.<lb/> Initial with seated Lion
+                                among ivy-leaves: most beautifully painted.<lb/> Miniature: five intersecting circles in
+                                a square: grounds gold, patterned red and patterned blue. The medallions show:<lb/> a.
+                                Hunters on L. Lion on R. obliterates his tracks with his tail.<lb/> b. He roars at his
+                                whelp to raise it.<lb/> c. He looks at or is attacked by a serpent (scorpion ?).<lb/> d.
+                                He sniffs at a dead nude man (but will not attack him).<lb/> e. He eats a monkey, which
+                                cures him of sickness.<lb/> There is also an initial with human bust. These occur
+                                frequently</decoNote>
+                        </ab>
+                        <ab>
+                            <decoNote>The pictures which follow are of various dimensions: frames in gold or colour with
+                                projecting leaves: grounds gold or patterned, blue or red divided into two, or
+                                quarterly. The subjects are</decoNote>
+                        </ab>
+                        <ab locus="189v">
+                            <decoNote>Tiger deceived by mirrors. Huntsman rides off with cub. Pard</decoNote>
+                        </ab>
+                        <ab locus="190r">
+                            <decoNote>Panther attracting beasts by his breath except the dragon which disappears into
+                                the ground</decoNote>
+                        </ab>
+                        <ab locus="190v">
+                            <decoNote>Antelope, horns caught in tree. Huntsman. Unicorn, head in maid's lap, pierced by
+                                hunter. Lynx. Gryphon on dead ox</decoNote>
+                        </ab>
+                        <ab locus="191r">
+                            <decoNote>Elephant with castle</decoNote>
+                        </ab>
+                        <ab locus="191v">
+                            <decoNote>Beavers pursued bite off their glands. Ibex stands on its horns. Hyena devours
+                                shrouded corpse</decoNote>
+                        </ab>
+                        <ab locus="192r">
+                            <decoNote><q>Bonnacon</q> with curved horns, hunter on L. Monkeys carrying their young,
+                                hunters on L. Human-headed hairy-legged satyr. Deer eating serpent, swimming a
+                                river</decoNote>
+                        </ab>
+                        <ab locus="192r" locusNew="192v">
+                            <decoNote>White goats</decoNote>
+                        </ab>
+                        <ab locus="193r">
+                            <decoNote>Caprea, red. Monoceros. Two bears, licking a cub</decoNote>
+                        </ab>
+                        <ab locus="193v">
+                            <decoNote>Leucro(co)tta grinning. Crocodile devouring man. Manticora, humanheaded.
+                                Parandrus, antlered and clawed. Fox feigning death to attract birds</decoNote>
+                        </ab>
+                        <ab locus="194r">
+                            <decoNote>Eale, huge horns. Wolf biting his paw: sheepfold on R., dog barking</decoNote>
+                        </ab>
+                        <ab locus="194v">
+                            <decoNote>Group of dogs (L. part smeared). King (<name type="person">Garamantes</name>) on
+                                L.: dogs attack his armed enemies</decoNote>
+                        </ab>
+                        <ab locus="195r">
+                            <decoNote>Dead man watched by dog which keeps off birds: on R. dog attacks his
+                                murderer</decoNote>
+                        </ab>
+                        <ab locus="195v">
+                            <decoNote><name type="person">Adam</name> robed, seated on L. by tree, naming beasts (lion,
+                                horse, ox, etc.) on R. Sheep. Ram</decoNote>
+                        </ab>
+                        <ab locus="196r">
+                            <decoNote>Lamb. Goat. Boar. Bullock. Ox. Camel: two men load it</decoNote>
+                        </ab>
+                        <ab locus="196v">
+                            <decoNote>Dromedary. Ass. Wild ass mutilates its young. Two horses</decoNote>
+                        </ab>
+                        <ab locus="197v">
+                            <decoNote>Cat. Mice. Weasel</decoNote>
+                        </ab>
+                        <ab locus="198r">
+                            <decoNote>Mole. Hedgehogs with apples. Ants: corn on L.</decoNote>
+                        </ab>
+                        <ab locus="198v">
+                            <decoNote>A row of doves (?). Eagle on nest looking at the sun: R. plunging into the
+                                sea</decoNote>
+                        </ab>
+                        <ab locus="199r">
+                            <decoNote>Vulture: a man's foot in its beak. Cranes: one holds stone in claw, others bow to
+                                it</decoNote>
+                        </ab>
+                        <ab locus="199v">
+                            <decoNote>Parrot. Chaladrius (two) on sick man's bed. Storks: (a) on water, (b) eating
+                                snake</decoNote>
+                        </ab>
+                        <ab locus="200r">
+                            <decoNote>Swans. Ibis: gives snake's eggs to its young. Ostriches arranging eggs in the
+                                sand. Fulica</decoNote>
+                        </ab>
+                        <ab locus="200v">
+                            <decoNote>Halcyon,<!--James corrects in corrigenda--> green. Phoenix : (a) in nest fired by
+                                sunbeam, (b) dead, a dragon flying away from it</decoNote>
+                        </ab>
+                        <ab locus="201r">
+                            <decoNote>Goatsucker in tree: man slings at it. Ercinea avis. Hoopoes: brightly coloured.
+                                Pelicans with young. Owl (unlike): sun above</decoNote>
+                        </ab>
+                        <ab locus="201v">
+                            <decoNote>Ship on L. Mermaid on R. holding two fish. Partridges. Pie</decoNote>
+                        </ab>
+                        <ab locus="202r">
+                            <decoNote>Hawks. Nightingale on eggs. Sun and moon on R. Bats. Crow. Cornix in tree: man
+                                sits in chair on R. (auguring from its cry)</decoNote>
+                        </ab>
+                        <ab locus="202v">
+                            <decoNote>Doves. Dove covering its nest with squillae to keep off wolf which runs off on
+                                L.</decoNote>
+                        </ab>
+                        <ab locus="203r">
+                            <decoNote>Swallow. Quail. Peacock. Hoopoe</decoNote>
+                        </ab>
+                        <ab locus="203v">
+                            <decoNote>Cock and hen. Ducks. Bees: two straw hives on L.</decoNote>
+                        </ab>
+                        <ab locus="204v">
+                            <decoNote>Large dragon lies on its back open mouthed under tree: doves fly about. Three
+                                snakes. Blue and red dragon</decoNote>
+                        </ab>
+                        <ab locus="205r">
+                            <decoNote>Basilisk (cock with snake's tail) attacked by weasel, birds fly about it: serpents
+                                flee on R. Two fourlegged vipers eat each other</decoNote>
+                        </ab>
+                        <ab locus="205v">
+                            <decoNote>Asp (winged) stopping his ear: man (charmer) on R.</decoNote>
+                        </ab>
+                        <ab locus="206r">
+                            <decoNote>Scitalis. Amphisbaena. Hydrus entering mouth of crocodile. Boas sucking a cow.
+                                Jaculus attacking sheep</decoNote>
+                        </ab>
+                        <ab locus="206v">
+                            <decoNote>Syren, white snake, bites man's leg. Seps. Dipsae attack a man. Lacertus.
+                                Salamander in apple tree in C, licks the fruit: on R., a man who tastes it falls dead.
+                                On R. Salamander in fire. Saura emerges from hole in the wall (changing its skin) and
+                                looks at sun. Two stelliones</decoNote>
+                        </ab>
+                        <ab locus="207r">
+                            <decoNote>Four blue snakes, variously engaged, viz. changing skin: drinking at stream:
+                                attacking a clothed man on R.: fleeing from a nude man on R.</decoNote>
+                        </ab>
+                        <ab locus="207v">
+                            <decoNote>Two fish</decoNote>
+                        </ab>
+                        <ab>
+                            <decoNote>There are no more illustrations, nor are spaces left for them</decoNote>
+                        </ab>
+
+
+                        <ab locusNew="210r">The last section is on Rane</ab>
+                        <incipit locusNew="210r">Rane a garulitate eo quod circa genitales strepunt paludes</incipit>
+                        <ab>ending</ab>
+                        <explicit locusNew="210r">pelidorum. popillorum. solearum. lacertorum. ut luligo et huic
+                            similia</explicit>
+
+                    </msItem>
+
+                    <msItem n="5" locusStart="210r" locusEnd="210v">
+                        <head type="CCC">
+                            <title>Poem on the Vanity of the World (Cur mundus militat)</title>
+                        </head>
+
+                        <ab>The poem</ab>
+                        <incipit locus="210r">
+                            <lg>
+                                <l>Cur mundus militat sub uana gloria</l>
+                                <l>Cuius prosperitas est transitoria</l>
+                                <l>...</l>
+                                <l>Superna cogita cor sit in ethere</l>
+                                <l>Felix qui poterit mundum contempnere</l>
+                            </lg>
+                        </incipit>
+                        <ab>(<ref type="bibl" target="Wright 1841">Wright, <hi rend="italic">Poems of W. Mapes</hi>, p.
+                                147</ref>)</ab>
+                        <ab locus="210v">blank</ab>
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJM 20/08/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

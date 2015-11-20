@@ -1,0 +1,146 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC226">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>226</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Lib. ab Al. 27</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Stephen Langton, De poenitentia sub persona Magdalenae</head>
+
+                <head type="James">Stephen Langton (?) De penitentia Magdalenae</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">233</height>
+                        <width unit="mm">170</width>
+                    </measureGrp><measureGrp type="James">9.2 x 6.8</measureGrp>, <extent>ff. 112 + 4</extent>,
+                        <layout>30 lines to a page</layout>. Cent. <origDate>xiii</origDate>, <handNote>apparently in
+                        the same hand as <ref type="ms" target="CCC222">MS 222</ref>: the flyleaves belonging to it are
+                        in that volume</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>3 flyleaves, I<num>8</num>-XV<num>8</num>, 1 flyleaf</collation>.</p>
+
+                <p function="Additions">The flyleaves are from a MS. of sermons (?) in double columns. The name <q>
+                        <name type="person">Savanarola</name>
+                    </q> is scribbled on the flyleaf; no doubt in consequence of some confusion with <ref type="ms"
+                        target="CCC237">MS 237</ref>.</p>
+
+                <p>Marginal references to authorities are given <handNote>in a hand of cent.
+                        <date>xiii</date></handNote>: noteworthy is one which occurs several times, <q>philo in libro
+                        sapientie</q> as a ref. to the Wisdom of Solomon.</p>
+
+                <p function="Provenance">The text is evidently the Liber de penitentia Magdalenae of which the flyleaves
+                    are in <ref type="ms" target="CCC222">MS 222</ref>. This volume therefore is also from <name
+                        type="place" key="CanterbChCh">Christ Church, Canterbury</name>. No title is given.</p>
+
+                <p rend="afterContents">The tract is ascribed by <ref type="bibl" target="Bale 1902">Bale</ref> and <ref
+                        type="bibl" target="Tanner 1748">Tanner</ref> to <name type="person">Simon Langton</name>, but
+                    by <ref type="ms" target="OBC152">Balliol MS. 152</ref>, by <name type="person">Boston of
+                        Bury</name>, and also by <ref type="bibl" target="Bale 1902">Bale</ref>, to <name type="person"
+                        key="StLa01">Stephen Langton</name>.</p>
+
+                <p type="CCC">
+                    <foliation>pp. a-d + ff. i-iii + 1-112 + iv</foliation>.</p>
+
+
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="110r">
+                        <head type="CCC"><name type="author" key="StLa01">Stephen Langton</name>, <title>De poenitentia
+                                sub persona Magdalenae</title></head>
+
+                        <head type="James">
+                            <name type="author">Stephen Langton (?)</name>
+                            <title>De penitentia Magdalenae</title>
+                        </head>
+
+                        <incipit locusNew="1r">Miserator et misericors dominus Ihesus Christus qui misericordias suas
+                            mirificauit in terra querens quod perierat</incipit>
+
+                        <seg>
+                            <incipit locusNew="7r">Dicturi de nomine. primo huius nominis <name type="person"
+                                    >maria</name></incipit>
+
+                            <ab>Text ends f. <locus>110r</locus> perhaps unfinished.</ab>
+                            <explicit locus="110r">Columba uero meditatur et gemit dicente propheta quasi columbe
+                                meditantes gememus</explicit>
+                        </seg>
+
+
+
+                    </msItem>
+
+                </msContents>
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: typed from the James Catalogue by GDB</p>
+                            <p>markup: GDB</p>
+                            <p>markupCheck: CF, CF 2nd</p>
+                            <p>msCheck: NJM 27.03.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

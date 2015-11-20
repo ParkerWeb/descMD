@@ -1,0 +1,175 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC027">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>27</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>L. 6</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>127</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Zacharias of Besan&#231;on OPrem, De concordia euangelistarum</head>
+
+                <head type="James">Unum ex quatuor Zachariae Chrysopolitani</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">365</height>
+                        <width unit="mm">240</width>
+                    </measureGrp><measureGrp type="James">14.5 x 9.5</measureGrp>, <extent>ff. 228</extent>,
+                        <layout>double columns of 48 lines</layout>. Cent. <origDate>xii-xiii early</origDate>,
+                        <handNote>in a good clear round hand</handNote>.</p>
+                <p><label>Collation:</label>
+                    <collation>3 flyleaves, 1<num>8</num>-28<num>8</num> 29<num>4</num></collation>.</p>
+
+                <p function="Provenance">From <name type="place">Leiston Abbey, Suffolk</name>. The inscription is gone,
+                    but <ref type="bibl" target="Nasmith 1777">Nasmith</ref> says: <quote>Paginae primae olim legebatur
+                        inscriptum: Ex dono dompni <name type="person">Galfridi archidiaconi</name> cuius anima per
+                        misericordiam dei requiescat in pace. Amen. De <name type="place">ecclesia beatae Marie de
+                            Leystona, Suffolc</name>.</quote></p>
+                <p function="Additions">On the flyleaves at the beginning is a list of the liturgical Gospels for the
+                    year with references to the text of the volume. The 3rd leaf is blank.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-iii + 1-227 + c-d</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="227v">
+
+                        <head type="CCC"><name type="author">Zacharias of Besan&#231;on OPrem</name>, <title>De
+                                concordia euangelistarum</title></head>
+
+                        <head type="James">
+                            <title>Unum ex quatuor <name type="author">Zachariae Chrysopolitani</name></title>
+                        </head>
+
+                        <ab>Title (<origDate>xvi</origDate>)</ab>
+                        <rubric locusNew="1r">Unum ex quatuor sive concordia euangeliorum cum expositione continua <name
+                                type="person">zacarie</name>
+                            <name type="person">zacharie</name> inquam <name type="person"
+                            >chrisopolitani</name></rubric>
+                        <ab>(<ref type="bibl" target="Migne 186">P. L. CLXXXVI 11</ref>)</ab>
+
+                        <ab>Prologue</ab>
+                        <incipit locusNew="1r">De excellentia euangelii et differentia ipsius ad legem etc.</incipit>
+
+                        <ab>Ending</ab>
+
+                        <explicit locus="12r">et apprehendere expetunt recognoscant</explicit>
+                        <rubric locusNew="12r">Explicit</rubric>
+                        <rubric locus="12r">Incipit prefacio <name type="person">Zacharie crisopolitani</name> in unum
+                            ex quattuor</rubric>
+
+                        <incipit locus="12r">Unum ex quattuor euangelistarum dictis euangelium claro studio composuit
+                            amonius alexandrinus</incipit>
+
+                        <explicit locusNew="12v">huic operi sepe applicare oportere</explicit>
+                        <rubric locusNew="12v">Explicit prologus</rubric>
+
+                        <ab locus="12v">Capitula</ab>
+                        <rubric locus="14r">Expositiones</rubric>
+                        <incipit locus="14r">Notum facimus lectori quod expositionis lucem sumpsimus a <name
+                                type="person">ieronimo</name> etc.</incipit>
+                        <explicit locus="14v">eadem uel uicina dixerunt. hucusque <name type="person"
+                            >ieronimus</name></explicit>
+                        <rubric locus="14v">Incipit prologus luce</rubric>
+
+                        <incipit locus="14v">Quandoquidem multi ... ueritatem. Multi non tam numerositatem quam heresium
+                            diuersitatem etc.</incipit>
+
+                        <rubric locus="15r">Incipit unum ex quatuor seu concordia euangelistarum</rubric>
+
+                        <incipit locus="15r">In principio ... apud deum. Verbum id est sapientia nata</incipit>
+
+                        <ab>Text ends</ab>
+                        <explicit locus="224r">post paruum tempus ascensionis</explicit>
+                        <rubric locusNew="224r">Gratias ago tibi christe: quoniam explicit liber iste</rubric>
+                        <rubric locusNew="224r">Explicit unum ex quatuor seu concordia euangeliorum et desuper expositio
+                            continua exactissima diligencia edita a <name type="author">Zacharia
+                            crisopolitano</name></rubric>
+
+                        <ab>
+                            <handNote>In later hand</handNote>
+                        </ab>
+                        <incipit locus="224r">Et ueniunt <name type="place">bethsaidam</name> et adducunt ei cecum etc.
+                            Cuncti qui a domino curantur languores</incipit>
+
+                        <explicit locusNew="224v">ubi et merces operum restat sint contenti</explicit>
+
+                        <ab>
+                            <handNote>In the original hand</handNote>
+                        </ab>
+                        <ab>Interpretationes nominum</ab>
+                        <incipit locus="225r"><name type="person">Abraham</name>, pater uidens populum</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="227v"><name type="person">Zebedeus</name> memoria domini uel memor domini uel
+                            sacrificium uel donatus uel fluens iste</explicit>
+                        <ab>f. 228 blank, <supplied>now missing</supplied></ab>
+
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, CF 2nd</p>
+                            <p>msCheck: NJM 3.7.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

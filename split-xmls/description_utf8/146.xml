@@ -1,0 +1,568 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC146">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>146</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>D. 3</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>34</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">The Samson Pontifical</head>
+                <head type="James">Pontificale (WinchesterWorcester)</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">310</height>
+                        <width unit="mm">190</width>
+                    </measureGrp>, <measureGrp type="James">12.3 x 7.5</measureGrp>, <extent>ff. 31 + 129 + 7</extent>,
+                        <layout>mostly 27 lines to a page</layout>. Cent. <origDate>x-xi, xii</origDate>
+                    <handNote>very finely written in a good many hands</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>4</num> 2<num>8</num> 3<num>4</num> 4<num>8</num> 5<num>8</num> (8 canc.) ||
+                            6<num>8</num>-16<num>8</num> (+1) 17<num>8</num>-21<num>8</num> || 22<num>8</num> (wants
+                        8)</collation>.</p>
+
+                <p function="Additions">Various notes in red by <name type="person">Parker</name> on flyleaf.</p>
+
+                <p function="Provenance" rend="afterContents">Pp. <locus>1</locus>-<locus>60</locus> (nos. 1-12) are
+                        <name type="place">Worcester</name>, written for <name type="person">Bishop Samson</name>
+                        (<date>1096</date>-<date>1112</date>). Nos. 13-21 <name type="place">Winchester</name>.
+                        <supplied>Items</supplied> 22, 23 <name type="place">Worcester</name> supplements.</p>
+
+                <p function="Research" rend="afterContents">The origin of the two portions of the book has been pointed
+                    out by <ref type="bibl" target="Henderson 1875">Henderson, York Pontifical 1875, Surtees Society
+                        (Introd.), nos. iv and xiii</ref>. See also <ref type="bibl" target="Frere 1901">W. H. Frere,
+                        Alcuin Club Collections, English Pontifical Services 1901 I p. 93</ref>. He says <q>The
+                        Benedictional seems to belong to <name type="place">Winchester</name> and to the
+                        <date>xi</date>th century: it is possible that some of the preceding part of the Corpus is
+                        older.</q> But the <name type="place">Winchester</name> portion is undoubtedly the oldest part
+                    of the book. <ref type="bibl" target="Liebermann 1903">Liebermann Gesetze p. xxi calls it Ci and
+                        uses it for Coronation oath, Ordeals, and Excommunication forms pp. 215, 401, 435</ref>. <ref
+                        type="bibl" target="Wickham Legg 1900">L. G. W. Legg, Coronation records, prints the
+                        Coronation-service (p. 12)</ref>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i + pp. 1-332 + ff. c-d</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="gre ang eng">Latin, Greek, Old English and English.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1" locusEnd="2">
+                        <head type="CCC">
+                            <title>Professions and absolution</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Profectiones subjectionis papae Romano ab episcopis et abbatibus electis
+                                faciendae</title>
+                        </head>
+
+                        <ab>
+                            <handNote>In two hands</handNote>
+                        </ab>
+                        <ab locus="1">a. Profession of obedience to the Archbishop of Canterbury</ab>
+                        <incipit locusNew="1">Ego .N. Wigornensis ecclesie electus</incipit>
+                        <ab locusNew="1">b. <handNote>Another hand</handNote>. Profession of obedience to the pope</ab>
+                        <ab locusNew="1">c. Profession of an abbot</ab>
+                        <ab locus="2">Form of Absolution</ab>
+                        <incipit locusNew="2">Ipse dominus Ihesus Christus equalis patri</incipit>
+                        <rubric locusNew="2">Benedictio generalis pro cunctis fidelibus defunctis</rubric>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="3" locusEnd="6">
+                        <head type="CCC">
+                            <title>Blessings and excommunication</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Benedictiones perae et baculi et imaginum, et excommunicatio eorum qui ecclesiam
+                                Wigorniensem violaverint</title>
+                        </head>
+
+                        <rubric locus="3">Benedictio pere et baculi</rubric>
+                        <ab locusNew="3">
+                            <handNote>Hand like that of item 1a <supplied>(<locus>1</locus>)</supplied></handNote>
+                        </ab>
+                        <rubric locus="4">Benedictio super imagines</rubric>
+                        <ab locusNew="4">
+                            <handNote>Later hand</handNote>
+                        </ab>
+                        <ab locus="5">Excommunicatio</ab>
+                        <incipit locusNew="5">Ex auctoritate patris etc. ... et <name type="person">Sancti
+                                Oswaldi</name> archiepiscopi etc.</incipit>
+                        <ab locusNew="5">
+                            <handNote>A new hand</handNote>
+                        </ab>
+                        <ab locus="5">Preces and Collect for Washing of Feet</ab>
+                        <ab locusNew="5">
+                            <handNote>Larger later hand</handNote>
+                        </ab>
+                        <ab>p. <locus>6</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="7" locusEnd="11">
+                        <head type="CCC">
+                            <title>Order for a provincial Council</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Qualiter concilium agatur provinciale prima secunda et tertia die</title>
+                        </head>
+
+                        <ab><handNote>In the same hand</handNote> as items 4 and 5</ab>
+                        <ab>Neumes. <decoNote>Initials plain red and green</decoNote></ab>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="11" locusEnd="16">
+                        <head type="CCC">
+                            <title>Reconciliation of an altar</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Reconciliatio altaris vel sacri loci seu cymiterii, qui fuerit pollutus</title>
+                        </head>
+
+                        <ab><handNote>In the same hand</handNote> as items 3 and 5</ab>
+                        <ab>Neumes. <decoNote>Initials plain red and green</decoNote></ab>
+
+                    </msItem>
+
+                    <msItem n="5" locusStart="16" locusEnd="22">
+                        <head type="CCC">
+                            <title>Service of Ash Wednesday</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Qualiter quarta feria in capite jejunii circa penitentes agatur</title>
+                        </head>
+
+                        <ab><handNote>In the same hand</handNote> as items 3 and 4</ab>
+                        <ab>Neumes. <decoNote>Initials plain red and green</decoNote></ab>
+
+                    </msItem>
+
+                    <msItem n="6" locusStart="23" locusEnd="30">
+                        <head type="CCC">
+                            <title>Additions to the benedictional</title>. <title>Additions to ordination
+                                services</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Recapitulatio benedictionum diversarum secundum ordinem Romanum scriptarum</title>
+                        </head>
+
+                        <ab>
+                            <handNote>In a very pretty upright round hand</handNote>
+                        </ab>
+                        <ab>The rubrics, after that given by Nasmith, are</ab>
+                        <rubric locus="24">In consecratione uel restauratione altarium benedictio aquae</rubric>
+                        <rubric locus="26">Benedictio Byxis uel alius uasis in quo seruetur eucharistia</rubric>
+                        <rubric locus="26">Consecratio altaris et calicis et patenae corporalisque</rubric>
+                        <rubric locus="27">Oratio ad Reconciliationem clericorum</rubric>
+                        <rubric locusNew="27">Benedictio imaginis <name type="person">Sancti Johannis
+                                Evangelistae</name></rubric>
+                        <ab>(two forms)</ab>
+                        <ab locusNew="29">Ordination</ab>
+                        <rubric locusNew="29">Archidiaconus sine casula procedens et nomina clericorum qui ordinandi
+                            sunt (re-written) pre manibus habens humiliter in Episcopum et his eum uerbis
+                            alloquitur</rubric>
+                        <ab locus="30">
+                            <handNote>Hand changes on p. <locus>30</locus></handNote>
+                        </ab>
+                        <ab>Rubrics in this section are in capitals</ab>
+
+                    </msItem>
+
+                    <msItem n="7" locusStart="31" locusEnd="37">
+                        <head type="CCC">
+                            <title>Service of Maundy Thursday</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Qualiter penitentes in cena Domini in ecclesiam introducuntur</title>
+                        </head>
+
+                        <ab>
+                            <handNote>In the hand of <supplied>items</supplied> 3-5</handNote>
+                        </ab>
+                        <ab>Marginal additions of cent. <origDate>xii-xiii</origDate></ab>
+
+                    </msItem>
+
+                    <msItem n="8" locusStart="37" locusEnd="50">
+                        <head type="CCC">
+                            <title>Service of Maundy Thursday cont.</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Benedictio olei et chrismatis</title>
+                        </head>
+
+                        <ab>
+                            <handNote>In the hand of <supplied>items</supplied> 3-5</handNote>
+                        </ab>
+                        <ab>Marginal additions of cent. <origDate>xii-xiii</origDate></ab>
+
+                    </msItem>
+
+                    <msItem n="9" locusStart="51" locusEnd="51">
+                        <head type="CCC">
+                            <title>Additional collect for the consecration of a church</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Dedicatio ecclesiae</title>
+                        </head>
+
+                        <ab>
+                            <handNote>Another hand</handNote>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="10" locusStart="52" locusEnd="52">
+                        <head type="CCC">
+                            <title>Ordinand's oath to <name type="person">Bishop Samson</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Professio subjectionis ab ordinandis</title>
+                        </head>
+
+                        <ab>
+                            <quote>Hinc ex nomine <name type="person">Sampsonis episcopi Wigorniensis</name> colligimus
+                                hanc partem codicis exaratam fuisse circa annum <date>1100</date></quote>
+                        </ab>
+
+                        <ab>
+                            <handNote>A large hand</handNote>
+                        </ab>
+
+                        <ab locusNew="52">The words <q>in presentia domini <name type="person">SAMSONIS</name>
+                                episcopi</q> occur</ab>
+
+                    </msItem>
+
+                    <msItem n="11" locusStart="53" locusEnd="56">
+                        <head type="CCC">
+                            <title>Interrogatories to an abbot</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Qualiter ad abbatem electus praelatione episcopali sit examinandus et
+                                consecrandus</title>
+                        </head>
+
+                        <ab><handNote>A hand which has not appeared before</handNote>. <name type="place">Wigornensis
+                                ecclesia</name> is mentioned: one form of profession on p. <locus>53</locus>
+                            re-written</ab>
+
+                    </msItem>
+
+                    <msItem n="12.1" locusStart="56" locusEnd="62">
+                        <head type="CCC">
+                            <title>Oblatio pueri and music for the consecration of a church</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Benedictio pueri in monachum</title>
+                        </head>
+
+                        <ab>
+                            <handNote>In two hands</handNote>
+                        </ab>
+                        <ab>On p. <locus>60</locus>, <handNote>in a good small round hand</handNote>: part of the office
+                            for dedication of a church with neumes</ab>
+                    </msItem>
+
+                    <msItem n="12.2" locusStart="61" locusEnd="62">
+                        <head type="CCC">
+                            <title>Monastic profession, end of erased Index, and material for the consecration of a
+                                church</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Benedictio pueri in monachum</title>
+                        </head>
+
+
+                        <ab>At p. <locus>61</locus> the original book, of cent. <origDate>x-xi?</origDate>, begins. The
+                            upper part of the page has been erased and re-written (<origDate>xi</origDate>) with a
+                            paragraph</ab>
+                        <rubric locusNew="61">De professione clericorum. <name type="person">Gregorius Petro</name>
+                            subdiacono sicilie</rubric>
+                        <incipit locusNew="61">Ante triennium subdiacones etc.</incipit>
+                        <ab>and a suffrage</ab>
+                        <explicit locusNew="61">Ut hos fratres nostros ad sacros ordines promouendos in sacra religione
+                            conseruare digneris T. R.</explicit>
+                        <ab>The rest of the page has its original writing, a table of contents beginning
+                            (imperfectly)</ab>
+                        <incipit locusNew="61">Benedictio super regem cotidiana. Item alia Item alia lxxiiii</incipit>
+                        <ab>ending with</ab>
+                        <explicit locusNew="62">Benedictio fonti in quo aliqua neglegentia contigerit xcix</explicit>
+                        <ab>This gives the contents of the present pages <locus>282</locus> to <locus>298</locus>. The
+                            Roman numbers refer to items, not pages</ab>
+                        <ab>Followed by a later paragraph</ab>
+                        <incipit locus="62">Hec sunt que ante dedicationem preparanda sunt</incipit>
+                        <ab>Then <handNote>in the original hand</handNote></ab>
+                        <rubric locus="62">Missa pro edificante ecclesiam</rubric>
+                        <ab>The hand of this part of the book is very fine. <decoNote>Rubrics in alternate lines of red
+                                and green</decoNote>. Neumes. <decoNote>Initials in blue, red, green, some with simple
+                                ornament</decoNote></ab>
+
+                    </msItem>
+
+                    <msItem n="13" locusStart="63" locusEnd="108">
+                        <head type="CCC">
+                            <title>Consecrations, reconciliations, and blessings</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Ordo ad consecrandam domum Dei omniaque sacra utensilia et vestimenta</title>
+                        </head>
+
+                        <ab>The Greek alphabet is at top of p. <locus>67</locus></ab>
+                        <ab locus="102" locusNew="104">Some marginal additions (<origDate>xi</origDate>)</ab>
+                        <ab>Blessing of paten and chalice mostly re-written (<origDate>xi</origDate>)</ab>
+
+                    </msItem>
+
+                    <msItem n="14" locusStart="108" locusEnd="123">
+                        <head type="CCC">
+                            <title>Ordination services</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Ordinatio psalmistae, ostiarii, lectoris, exorcistae, accoliti, subdiaconi, diaconi
+                                et presbiteri</title>
+                        </head>
+
+                        <ab>In ordination of priests part of p. <locus>121</locus> re-written</ab>
+                        <ab>The items are numbered in Roman up to <q>xviii. Benedictio uestis uiduae</q></ab>
+
+                    </msItem>
+
+                    <msItem n="15" locusStart="123" locusEnd="128">
+                        <head type="CCC">
+                            <title>Ordination of an abbot or abbess</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Ordinatio abbatis et abbatissae</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="16" locusStart="129" locusEnd="138">
+                        <head type="CCC">
+                            <title>Ordination of a bishop</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Ordinatio episcopi</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="17" locusStart="138" locusEnd="150">
+                        <head type="CCC">
+                            <title>Coronation service</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Consecratio regis et reginae</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="18" locusStart="150" locusEnd="159">
+                        <head type="CCC">
+                            <title>Professions of monks, virgins, widows</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Benedictio monachorum et sanctimonialium</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="19" locusStart="159" locusEnd="301">
+                        <head type="CCC">
+                            <title>Benedictional</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Benedictiones episcopales per totum annum</title>
+                        </head>
+
+
+                        <ab>Proper of Time begins</ab>
+                        <rubric locus="159">Dominica IIII. ante natale Domini nostri Iesu Christi</rubric>
+                        <ab locusNew="159">
+                            <decoNote>Red and blue initial</decoNote>
+                        </ab>
+                        <ab locus="204"><decoNote>A handsome red and blue initial</decoNote> (Easter)</ab>
+                        <rubric locus="229">Finiunt Dominicales Benedictiones</rubric>
+                        <rubric locusNew="229">Benedictio de Sancta Trinitate</rubric>
+                        <rubric locusNew="230">Benedictio cotidie ad matutinum etc.</rubric>
+                        <ab>Ending with</ab>
+                        <rubric locus="238">Benedictio scrinii uel arce</rubric>
+                        <ab locus="239">Proper of Saints</ab>
+                        <rubric locusNew="239">Benedictio in natalem <name type="person">Sancti Stephani</name>
+                            protomartiris</rubric>
+                        <ab locusNew="239">
+                            <decoNote>Green and blue initial</decoNote>
+                        </ab>
+                        <ab>Includes <name type="person">Elphege Episcopus</name>, <name type="person">Cuthbert</name>,
+                                <name type="person">Ćtheldrytha</name>, Natalis <name type="person">Sancti
+                                Suuithuni</name>, Translatio <name type="person">Sancti Suuithuni</name>, <name
+                                type="person">Atheluuoldus</name> (two), Translatio <name type="person"
+                                >Atheluuoldi</name>, <name type="person">Denis</name>, <name type="person"
+                            >Iustus</name>, <name type="person">Birinus</name></ab>
+
+
+                        <rubric locus="275">Finiunt Benedictiones in nataliciis sanctorum</rubric>
+                        <ab locus="275">Common of Saints</ab>
+                        <ab>After Benedictio in Anniversario festo aecclesiae (p. <locus>280</locus>) a small blank was
+                            left at the bottom of the page. In this a rather later hand has written</ab>
+                        <rubric locusNew="280">Orationes ad libros benedicendos</rubric>
+                        <incipit locusNew="280">Descendat quesumus</incipit>
+                        <rubric locusNew="280">Alia oratione</rubric>
+                        <ab locusNew="280">Initial A and one line written, then erased. It is completed on p.
+                                <locus>323</locus></ab>
+
+                        <rubric locus="281">Benedictio super regem tempore sinodi</rubric>
+                        <ab>The last is</ab>
+                        <rubric locusNew="300">Benedictio salis et aquae ad pecora sananda</rubric>
+                    </msItem>
+
+                    <msItem n="20" locusStart="301" locusEnd="312">
+                        <head type="CCC">
+                            <title>Exorcism</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Exorcismus aquae tum gelidae tum ferventis ad judicium Dei demonstrandum</title>
+                        </head>
+
+                        <ab>On p. <locus>303</locus> Halsung in Anglo-Saxon: others on pp. <locus>304</locus> and
+                                <locus>308</locus>, <locus>309</locus>. See <ref type="bibl" target="Liebermann 1903"
+                                >Liebermann, Gesetze 401</ref></ab>
+                        <ab>
+                            <supplied agent="RJR">Cameron B12.1.2, B12.1.3</supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="21" locusStart="312" locusEnd="319">
+                        <head type="CCC">
+                            <title>Exorcism</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Exorcismus panis ordeacei uel casei</title>
+                        </head>
+
+                        <ab locus="314">Form of Exorcism for a possessed person begins on p. <locus>314</locus> without
+                            proper title</ab>
+                        <ab locus="318">The old portion of the book ends in this, imperfectly, with p.
+                                <locus>318</locus></ab>
+                        <ab locus="319">The text is completed on p. <locus>319</locus>
+                            <handNote>in a hand like that of <supplied>items</supplied> 3-5 (but not the same, I
+                                think)</handNote></ab>
+
+                    </msItem>
+
+                    <msItem n="22" locusStart="319" locusEnd="328">
+                        <head type="CCC">
+                            <title>Blessings</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Benedictio sponsi et sponsae</title>
+                        </head>
+
+                        <ab locusNew="319">In this same hand, ending on p. <locus>322</locus></ab>
+                        <ab locusNew="322">At the bottom of this page is the first line of the prayer (ad libros
+                            benedicendos) which was begun on p. <locus>280</locus>. It is completed on p.
+                                <locus>323</locus> by <handNote>a pretty round hand</handNote> which continues with</ab>
+                        <rubric locus="323">Benedictio sanctorum Confessorum <name type="person">Ecgwini</name> ac <name
+                                type="person">Oswaldi</name></rubric>
+                        <rubric locus="324">Benedictio nuptialis</rubric>
+                        <rubric locus="325">ad lectum</rubric>
+                        <ab>and one erased</ab>
+                        <ab>On p. <locus>326</locus>
+                            <handNote>another similar hand</handNote> appears, no title</ab>
+                        <incipit locusNew="326">Inclina domine aurem tuam ad me</incipit>
+                        <ab locusNew="326">At bottom, the <supplied>following</supplied> words, <handNote>in a small
+                                hand</handNote> with neumes</ab>
+                        <incipit locusNew="326">Alleluia. Uox exultationis et salutis in tabernaculis iustorum</incipit>
+
+                        <ab>On p. <locus>327</locus> a hand like that of <supplied>item</supplied> 6 writes (Apoc. xxi.
+                            3)</ab>
+                        <incipit locusNew="327">In diebus illis uenit angelus et locutus est mecum</incipit>
+                        <explicit locusNew="328">scripti sunt in libro uitae</explicit>
+                        <ab locus="328">A Collect <handNote>in a large hand</handNote></ab>
+
+                    </msItem>
+
+                    <msItem n="23" locusStart="329" locusEnd="331">
+                        <head type="CCC">
+                            <title>Curses</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Maledictiones</title>
+                        </head>
+
+                        <ab>
+                            <handNote>Probably in the hand of p. <locus>327</locus></handNote>
+                        </ab>
+                        <ab>Two forms of cursing a thief</ab>
+                        <ab locusNew="331">On the last page (<origDate>xv-xvi</origDate>): <q>Mem. ţat ther be lefte at
+                                    <name type="person">mr northeleys</name> xxxij bokes</q></ab>
+                        <ab>It is evident that the four leaves pp. <locus>323</locus>-<locus>330</locus> were at one
+                            time meant to be inserted after p. <locus>280</locus></ab>
+
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: RJR 15/10/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

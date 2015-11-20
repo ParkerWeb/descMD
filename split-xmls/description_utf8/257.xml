@@ -1,0 +1,199 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC257">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>257</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>O. 3</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>207</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Robert Grosseteste, Tabula super Dicta, Dicta CXLVII, De confessione (sermo 15), De
+                    cura pastorali (epistola 127)</head>
+
+                <head type="James">Robert Grosseteste Dicta, etc.</head>
+
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">275</height>
+                        <width unit="mm">180</width>
+                    </measureGrp><measureGrp type="James">10.7 x 7</measureGrp>, <extent>ff. 1 + 180 + 16 + 4</extent>,
+                        <layout>39 and 45 lines to a page</layout>. Cent. <origDate>xv early</origDate>,
+                            <quote>seculo<origDate> xiv</origDate> scriptus</quote>, <handNote>in two good
+                        hands</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num>-21<num>8</num> 22<num>12</num> || a<num>8</num> b<num>8</num>, 4
+                        flyleaves</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>calor propter</secFol>.</p>
+
+                <p function="Additions">On the last flyleaf <supplied>(f. <locus>vr</locus>)</supplied> an inscription:
+                    Liber magistri Willelmi W...<lb/> Also the name: <name type="place">Grenehamerton</name>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i + 1-196 + ii-vi</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="1r" locusEnd="8v">
+
+                        <head type="CCC"><name type="author">Robert Grosseteste</name>, <title>Tabula super
+                                Dicta</title></head>
+
+                        <head type="Nasmith">
+                            <title>Tabula super dicta [<name type="author">Roberti Grostest episcopi</name>]
+                                Lincolniensis</title>
+                        </head>
+
+
+                        <ab locus="1r">Table</ab>
+                        <incipit locusNew="1r">Abstinencia</incipit>
+                        <explicit locusNew="8v">Christus</explicit>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="9r" locusEnd="180v">
+
+                        <head type="CCC"><name type="author">Robert Grosseteste</name>, <title>Dicta
+                            CXLVII</title></head>
+
+                        <head type="James">
+                            <name type="author">Robert Grosseteste</name>
+                            <title>Dicta</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Dicta [ejusdem] <name type="author">Lincolniensis</name>. Capitula CXLVII</title>
+                        </head>
+
+
+
+                        <ab>Text</ab>
+                        <incipit locus="9r">Amor multipliciter dici videtur</incipit>
+
+                        <ab locusNew="9r">
+                            <decoNote>Handsome but rough border to this page in colours and gold.</decoNote>
+                        </ab>
+                        <ab>Ends</ab>
+                        <explicit locus="179v">haustus aque cognicionis iusticie et misericordie</explicit>
+                        <rubric locusNew="179v">Explicit <name type="author">lincolniensis</name> dicta numero 147 deo
+                            gracias. Amen</rubric>
+                        <ab>f. <locus>180r</locus>-<locus>180v</locus> blank</ab>
+                    </msItem>
+
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="3" locusStart="181r" locusEnd="185r">
+
+                        <head type="CCC"><name type="author">Robert Grosseteste</name>, <title>De confessione (sermo
+                                15)</title></head>
+
+                        <head type="Nasmith">
+                            <title>Tractatus ejusdem de confessione</title>
+                        </head>
+
+                        <ab locusNew="181r"><handNote>In a finer hand</handNote>. <decoNote>First page bordered in gold
+                                and colour</decoNote></ab>
+
+                        <rubric locus="181r">Incipit tractatus <name type="author">Lincolniensis</name> de
+                            confessione</rubric>
+
+                        <incipit locusNew="181r">Quoniam cogitacio hominis confitebitur tibi</incipit>
+                        <explicit locus="185r">copiam et confitendi potenciam</explicit>
+                        <rubric locusNew="185r">Explicit tractatus <name type="author">lincolniensis</name> de
+                            confessione</rubric>
+
+                    </msItem>
+
+
+                    <msItem n="4" locusStart="185r" locusEnd="195r">
+                        <head type="CCC"><name type="author">Robert Grosseteste</name>, <title>De cura pastorali
+                                (epistola 127)</title></head>
+                        <head type="Nasmith">
+                            <title>Tractatus sive sermo ejusdem de cura pastorali</title>
+                        </head>
+                        <head type="James">
+                            <title>De cura pastorali</title>
+                        </head>
+
+                        <incipit locus="185r">Dominus noster Iesus Christus eternus eterni patris filius</incipit>
+                        <explicit locus="193r">ad infernalia deificatis</explicit>
+
+                        <incipit locus="193r">Interim dum predicta agerentur instanti quodam noboi (nobili) Romano
+                            pluries apud eundem episcopum</incipit>
+                        <explicit locus="195r">quod scriptum a prenominato domino <name type="person">Johanne</name>
+                            diacono cardinali tantum modo intuenti perlectum fuit in hiis verbis Dominus noster Iesus
+                            Christus sicut supra</explicit>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, SP, BA, CF</p>
+                            <p>msCheck: NJM 10.7.2007</p>
+                            <p>remarks: Grenehamerton place or personal name? = Green Hammerton, a manor in
+                                Yorkshire</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

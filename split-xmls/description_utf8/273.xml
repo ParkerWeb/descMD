@@ -1,0 +1,226 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+
+                <msIdentifier xml:id="CCC273">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>273</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>O. 8</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>213</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Theological Works by Gandulf of Bologna, Bernard of Clairvaux and Remigius of Auxerre.
+                    Arnulf of Lisieux, Epistola</head>
+
+                <head type="James">Super Sententias, etc. Ernulfi Lexoviensis Epistolae</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">260</height>
+                        <width unit="mm">195</width>
+                    </measureGrp>
+                    <measureGrp type="James">10.2 x 7.7</measureGrp>, <extent>ff. 1 + 232</extent>, <layout>32 lines to
+                        a page</layout>. Cent. <origDate>xii-xiii early</origDate>, <quote>seculo
+                            <origDate>xiv</origDate> scriptus</quote>, <handNote>in a beautiful hand</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>12</num>-14<num>12</num> (+1) 5<num>12</num>-16<num>12</num>
+                            17<num>4</num> | 18<num>12</num>-20<num>12</num> (wants 12)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>ymagine</secFol>.</p>
+
+                <p function="Additions">On flyleaf <origDate>xvi early</origDate>: Ultimus ego bullen (or bulley).<hi
+                        rend="footnote">Also in MS. <ref type="ms" target="CTC015">Trinity College B. 1. 16</ref>: cf.
+                            <ref type="ms" target="CSS073">Sidney Sussex 73</ref></hi>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-iii + 1-230 + iv-viii</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="1r" locusEnd="127v">
+
+                        <head type="CCC"><name type="author">Gandulf of Bologna</name>, <title>Sententiae</title></head>
+
+                        <head type="James">
+                            <title>Super Sententias</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Summa quaedam theologiae, libri iv</title>
+                        </head>
+
+                        <ab>
+                            <quote>Primus liber tractat de trinitate, secundus de creatione, de statu hominis post
+                                lapsum, etc. tertius de incarnatione verbi, quartus de sacramentis</quote>
+                        </ab>
+                        <ab>No title: apparently an abridgment of the Sentences</ab>
+                        <incipit locusNew="1r">Cum hec sit fides catholica ut unum deum in trinitate</incipit>
+                        <ab>Ends</ab>
+                        <rubric locus="46v">Explicit I<abbr rend="superscript">us</abbr>. De creatione celi et
+                            terre</rubric>
+                        <rubric locusNew="46v">Liber secundus incipit</rubric>
+                        <incipit locusNew="46v">Ex predictis euidenter patet unam substantiam</incipit>
+                        <ab locusNew="77v">Liber III</ab>
+                        <incipit locus="76v" locusNew="77v">Ubi uenit plenitudo temporis</incipit>
+                        <ab locusNew="107v">Liber IV</ab>
+                        <incipit locus="106v" locusNew="107v">Humano generi in bonis naturalibus uulnerato</incipit>
+                        <ab>Ends</ab>
+                        <rubric locusNew="127v">an a brutis animalibus corpus Christi sumatur</rubric>
+                        <explicit locusNew="127v">Formam ergo tantummodo et saporem non corpus domini sumit</explicit>
+                    </msItem>
+                    <msItem n="2" locusStart="127v" locusEnd="175v">
+
+                        <head type="CCC">
+                            <title>De poenitentia</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Tractatus de penitentia, sacris ordinibus, matrimonio, &amp;c.</title>
+                        </head>
+                        <ab>
+                            <quote>Videtur continuatio precedentis operis</quote>
+                        </ab>
+                        <rubric locus="126v" locusNew="127v">Penitentie tractatus sequitur</rubric>
+                        <incipit locusNew="127v">De penitentia congrue post predicta agendam uidetur</incipit>
+                        <explicit locusNew="175v">tantum feruet quis ad diligendum proximum quantum ad diligendum
+                            deum</explicit>
+                    </msItem>
+                    <msItem n="3" locusStart="175v" locusEnd="189r">
+
+                        <head type="CCC"><name type="author">Bernard of Clairvaux OCist</name>, <title>De gratia et
+                                libero arbitrio</title></head>
+                        <head type="Nasmith">
+                            <title>Sententia <name type="author">Bernardi abbatis Clarevallensis</name> de libero
+                                arbitrio</title>
+                        </head>
+                        <rubric locus="174v" locusNew="175v">Sententia <name type="author">Bernardi Abbatis
+                                Clareuallensis</name> de libero arbitrio</rubric>
+                        <incipit locusNew="175v">Opusculum de gratia et libero arbitrio</incipit>
+                        <explicit locusNew="175v">uitam eternam habebunt</explicit>
+                        <rubric locusNew="175v">Incipit liber</rubric>
+                        <incipit locusNew="175v">Loquente me coram aliquando</incipit>
+                        <ab>(<ref type="bibl" target="Migne 182"><supplied>P. L.</supplied> CLXXXII 1001</ref>)</ab>
+                        <explicit locusNew="189r">non quos iustos inuenit hos magnificauit</explicit>
+                        <rubric locusNew="189r">Explicit</rubric>
+                    </msItem>
+                    <msItem n="4" locusStart="189r" locusEnd="198v">
+
+                        <head type="CCC"><name type="author">Remigius of Auxerre</name>, <title>Expositio missae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Expositio super missam</title>
+                        </head>
+                        <rubric locus="188r" locusNew="189r">Incipit expositio super missam</rubric>
+                        <incipit locusNew="189r">Celebratio misse in commemoratione passionis Christi
+                            peragitur</incipit>
+                        <ab>Ends unfinished</ab>
+                        <explicit locus="194r" locusNew="195r">sed quod melius est pater patrum id est episcoporum.
+                            Sequitur. et antistite nostro sicut enim</explicit>
+                        <ab><locus locusNew="195v">194v</locus>-<locus locusNew="198v">197v</locus> blank</ab>
+
+                    </msItem>
+                    <milestone n="II" unit="volume"/>
+                    <msItem n="5" locusStart="199r" locusEnd="229r">
+                        <head type="CCC"><name type="author">Arnulf of Lisieux</name>, <title>Epistolae</title></head>
+                        <head type="James">
+                            <name type="author">Ernulfi Lexoviensis</name>
+                            <title>Epistolae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Ernulfi Lexoviensis episcopi</name> epistolae ad <name
+                                    type="person">Alexandrum papam</name> et ad episcopos Angliae aliosque de
+                                suscipiendo <name type="person">Alexandro papa</name> et de intrusione <name
+                                    type="person">Octaviani</name>; et <name type="author">Alexandri</name> ad illum
+                                epistola</title>
+                        </head>
+                        <ab>
+                            <handNote>In another hand of the same date</handNote>
+                        </ab>
+                        <ab locus="198r" locusNew="199r">48 letters of <name type="author">Ernulf of Lisieux</name> and
+                            others</ab>
+                        <rubric locusNew="199r"><name type="author">Ernulfus</name> dei gratia Lecizouensis episcopi
+                            Dilecto suo <name type="person">Egidio Rothomagensis Archidiaconis</name> salutem</rubric>
+                        <incipit locusNew="199r">Epistolas que aliquando diuersis a me sunt destinate personis in
+                            libellum redigi</incipit>
+                        <ab>(<ref type="bibl" target="Migne 201"><supplied>P. L.</supplied> CCI 17</ref>)</ab>
+                        <ab>The last</ab>
+                        <incipit locus="229r" locusNew="230r">Inter omnes ecclesias uacantes apud nos nulla erat ut
+                            credimus que pastore magis indigeret idoneo quam <name type="place"
+                            >eliensis</name></incipit>
+                        <explicit locusNew="230r">remedium senciet destinatum</explicit>
+                        <ab locusNew="230r">Note, <origDate>xvi</origDate></ab>
+                        <ab locusNew="230r">Malus est enim custos diuturnitatis metus contraque beneuolentia fidelis est
+                            uel ad perpetuitatem</ab>
+                        <ab><locus locusNew="230v">229v</locus>-<locus locusNew="233v">232v </locus>blank</ab>
+
+                        <ab>Letters of <name type="author">Ernulf</name> are edited in <ref type="bibl" target="????"
+                                >Bibl. Patr. Colon. T. XII, Lugd. T. XXII</ref>, also by <ref type="bibl"
+                                target="Giles 1844d">J. A. Giles, 1844</ref>, who does not use this MS.; also in <ref
+                                type="bibl" target="Migne 201">P. L. CCI</ref></ab>
+                    </msItem>
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text:copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, BA, CF</p>
+                            <p>msCheck: RJR 2.8.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,156 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC196">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>196</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>D. 5</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>36</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Old English Martyrology. Old English Vindicta saluatoris</head>
+                <head type="James">Martyrologium Saxonice. Vindicta Salvatoris Saxonice</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">285</height>
+                        <width unit="mm">170</width>
+                    </measureGrp>, <measureGrp type="James">11.3 x 7.2</measureGrp>, <extent>ff. 61</extent>, <layout>27
+                        lines to a page</layout>. Assigned to cent. <origDate>x early</origDate> by <ref type="bibl"
+                        target="Herzfeld 1900">Herzfeld</ref>, but <origDate>? xi early</origDate>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num> (wants 1) 2<num>8</num>-7<num>8</num> || 8<num>8?</num> (wants 1,
+                        8)</collation>.</p>
+
+                <p function="Provenance">Identified by <name type="person">Wanley</name> as one of <name type="person"
+                        >Leofric</name>'s gifts to <name type="place">Exeter</name> entered as <q>Martirologium.</q></p>
+
+                <p type="CCC">
+                    <foliation>pp. a-d + 1-122 + e-h</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="ang">Old English.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1" locusEnd="110">
+                        <head type="CCC">
+                            <title>Old English martyrology (incomplete)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Pars maxima Martirologii seu potius Menologii Anglo-Saxonici, nempe a die 19 mensis
+                                Martis usque ad diem 21 Decembris inclusive</title>
+                        </head>
+                        <ab>Anglo-Saxon Martyrology beginning imperfectly at 19 March</ab>
+                        <ab>
+                            <supplied>
+                                <ref type="bibl" target="Cameron 1973">Cameron B19.2.1</ref>
+                            </supplied>
+                        </ab>
+                        <ab locus="1">Several quires must be gone at the beginning</ab>
+                        <ab>Text begins</ab>
+                        <incipit locusNew="1">se ys to &#447;am ge set &#447;&#230;t he cele&#240;
+                            &#447;&#230;ra tungla</incipit>
+                        <ab>Edited by <ref type="bibl" target="Herzfeld 1900">Herzfeld for the Early English Text
+                                Society, 1900</ref></ab>
+                        <ab>Ends imperfectly in Dec. 21 (St Thomas)</ab>
+                        <explicit locus="110">ne myhton &#230;lreorde &#447;eode hergian on
+                            &#447;a</explicit>
+                        <ab>On the character of this Martyrology see <ref type="bibl" target="Chapman 1908">J. Chapman,
+                                    <hi rend="italic">Early History of the Vulgate Gospels</hi></ref></ab>
+
+
+                    </msItem>
+
+
+                    <msItem n="2" locusStart="111" locusEnd="122">
+                        <head type="CCC">
+                            <title>Old English Vindicta saluatoris (incomplete)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Fragmentum Saxonicum capite et calce truncatum sex tantum constans foliis, in quo
+                                habetur: Pars legationis fabulosse <name type="person">Nathanis Judei</name> ad <name
+                                    type="person">Tiberium Caesarem</name></title>
+                        </head>
+                        <ab locus="111">Fragment of an Anglo-Saxon version of the <hi rend="italic">Vindicta
+                                Salvatoris</hi></ab>
+                        <ab>(see <ref type="bibl" target="Tischendorf 1853">Tischendorf, <hi rend="italic">Evang.
+                                    Apocr.</hi></ref>)</ab>
+                        <ab>
+                            <supplied>
+                                <ref type="bibl" target="Cameron 1973">Cameron B8.5.4.1</ref>
+                            </supplied>
+                        </ab>
+                        <ab>Printed by <ref type="bibl" target="Goodwin 1851">C. W. Goodwin, <hi rend="italic">The
+                                    Anglo-Saxon Legends of St Andrew and St Veronica</hi>, Cambridge, 1851</ref>, and
+                            last by <ref type="bibl" target="Assmann 1889">Assmann, <hi rend="italic">A.-S. Homilien u.
+                                    Heiligenleben</hi>, 1889, p. 181 (in <hi rend="italic">Bibl. d. A.-S.
+                                Prosa</hi>)</ref>: both use other complete copies of the text</ab>
+                        <ab>Ends imperfectly</ab>
+                        <explicit locus="122">Ac uolosianus hire to c&#447;&#230;&#240;. La
+                            &#447;if</explicit>
+
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: RJR 18/08/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,195 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC219">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>219</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Lib. ab Al. 32</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+
+                <head type="CCC">Gesta Alexandri</head>
+
+                <head type="James">Gesta Alexandri</head>
+
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">243</height>
+                        <width unit="mm">170</width>
+                    </measureGrp><measureGrp type="James">9.5 x 6.2</measureGrp>, <extent>ff. 70</extent>, <layout>29
+                        lines to a page</layout>. Cent. <origDate>xii</origDate>, <quote>seculo <origDate>xvi</origDate>
+                        scriptus</quote>, <handNote>in a very good hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation> 1<num>8</num> (wants 1, 2) 2<num>8</num>-9<num>8</num></collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>Futuri</secFol>.</p>
+
+                <p function="Additions">The covers are lined with bits of a very large printed Psalter, and the
+                    flyleaves <supplied>(ff. <locus>ir</locus>-<locus>iv</locus>,
+                        <locus>xr</locus>-<locus>xv</locus>)</supplied> are fragments of a MS. service-book
+                        (<origDate>xv</origDate>) with music on four-line stave.
+                    <!--This service book is very similar to one that is used in other Corpus manuscripts--></p>
+
+                <p type="CCC">
+                    <foliation>ff. i-v + 1-70 + vi-x</foliation>.</p>
+
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="64r">
+
+                        <head type="CCC">
+                            <title>Gesta <name type="person">Alexandri</name></title>
+                        </head>
+
+                        <head type="James">
+                            <title>Gesta <name type="person">Alexandri</name></title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>Historia regis Macedonum <name type="person">Philippi</name>, filiique ejus <name
+                                    type="person">Alexandri magni</name>, excerpta de libris <name type="person"
+                                    >Pompeii</name>
+                                <name type="person">Trogi</name>
+                                <name type="person">Orosii</name>
+                                <name type="person">Iosephi</name>
+                                <name type="person">Ieronimi</name>
+                                <name type="person">Solini</name>
+                                <name type="person">Augustini</name>
+                                <name type="person">Bedae</name> et <name type="person">Ysodori</name></title>
+                        </head>
+
+
+                        <rubric locus="1r"><name type="place">Macedonia</name> ante a nomine emathionis uel emathii
+                            Regis cuius prima</rubric>
+
+                        <incipit locus="1r">Uirtutis experimenta</incipit>
+
+                        <ab>
+                            <handNote>Names of authorities are in red in the margin</handNote>
+                        </ab>
+
+
+                        <ab locus="12v" locusNew="11v">Liber II</ab>
+
+
+
+                        <ab locus="22v"><supplied>Liber</supplied> III</ab>
+
+
+
+                        <ab locus="27v" locusNew="37v"><supplied>Liber</supplied> IV</ab>
+
+
+                        <ab>Ends</ab>
+
+                        <explicit locus="64r">Denique hec solutio belli macedonici et hic finis fuit perindeque qui
+                            belli finis idem et libri sit</explicit>
+
+                    </msItem>
+
+
+                    <msItem n="2" locusStart="64r" locusEnd="70r">
+
+                        <head type="CCC">
+                            <title>Collatio <name type="person">Alexandri</name> cum <name type="person">Dindimo</name>
+                                per Litteras Facta (Collatio I)</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistolae <name type="person">Alexandri</name> ad <name type="person">Dindimum</name>
+                                regem Bragmanorum, et <name type="person">Dindimi</name> ad <name type="person"
+                                    >Alexandrum</name></title>
+                        </head>
+
+                        <rubric locus="64r">Incipit epistole <name type="person">Alexandri</name> ad <name type="person"
+                                >dindium</name> regem bragmannorum et <name type="person">dindimi</name> ad <name
+                                type="person">Alexandrum</name>. <name type="person">Alexander</name></rubric>
+
+                        <incipit locusNew="64r">Sepius ad aures meas</incipit>
+
+                        <ab>Ends</ab>
+                        <explicit locus="70r">aut in <name type="place">indie</name> quod a meliore
+                            prestantur</explicit>
+
+                        <ab>See <ref type="bibl" target="Ward 1883">Ward, <hi rend="italic">Catalogue of Romances</hi> I
+                                108</ref></ab>
+
+                        <ab>On f. <locus>70v</locus> a note</ab>
+
+                        <ab locusNew="70v"><q>xx<abbr rend="superscript">ti</abbr> acr. <abbr>dnic</abbr> terre in <name
+                                    type="place">urstwik</name> perten. terr. nuper duce Suff. att intt. milonis brigge
+                                per annum S. xiii<abbr rend="superscript">s</abbr> iiij<abbr rend="superscript"
+                                >d</abbr></q>. <name type="place">Urswick</name> is in <name type="place"
+                                >Lancashire</name></ab>
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, BA, CF</p>
+                            <p>msCheck: NJC 25.01.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

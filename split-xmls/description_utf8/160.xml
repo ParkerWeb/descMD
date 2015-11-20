@@ -1,0 +1,156 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC160">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>160</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>N. 4</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>168</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Bede the Venerable, Commentary on Catholic Epistles</head>
+                <head type="James">Beda super Epistolas Canonicas</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">310</height>
+                        <width unit="mm">205</width>
+                    </measureGrp>
+                    <measureGrp type="James">12.5 x 8</measureGrp>, <extent>ff. 102 + 2</extent>, <layout>double columns
+                        of 29 lines</layout>. Cent. <origDate>xi</origDate>, <handNote>in fine round hand script with a
+                        slight slope, rather irregular</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num> I<num>8</num> (wants 1) II<num>8</num>-X<num>8</num> XI<num>10</num>
+                            XII<num>8</num> XXIII<num>8</num> (wants 6-8)</collation>.</p>
+
+
+                <p><label>2 fo.:</label>
+                    <secFol>profugi</secFol>.</p>
+
+
+
+
+
+                <p function="Additions">Two flyleaves <supplied>(ff. a-b)</supplied> from a handsome <date>xvth</date>
+                    cent. service-book: music of office for Common of Apostles.</p>
+
+
+                <p function="Provenance">At top of f. <locus>1r</locus> erased and revived: <q>liber Refectorij <name
+                            type="place">burg</name></q>.<lb/> Also, not erased: <q><name type="author">Beda</name>
+                        super canonicas epistolas</q> (<date>xiv</date>).<lb/> The same in lower margin erased.<lb/>
+                    Burg' almost certainly means <name type="place">Peterborough</name>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + a-b + 1-102 + iii-iv</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="102v">
+
+                        <head type="CCC">
+                            <name type="author">Bede the Venerable</name>, <title>Commentary on Catholic
+                                Epistles</title>
+                        </head>
+
+
+                        <ab>Heading in red capitals</ab>
+                        <rubric locus="1r">Explanatio <name type="author">uenerabilis Bede presbiteri</name> super
+                            [septem added] canonicas epistolas</rubric>
+                        <ab>(<ref type="bibl" target="Migne 093"><supplied>P. L.</supplied> XCIII 9</ref>)</ab>
+                        <incipit locusNew="1r"><name type="person">Iacobus</name>
+                            <name type="person">Petrus</name>
+                            <name type="person">Johannes</name>
+                            <name type="person">Iudas</name> septem epistolas</incipit>
+                        <ab locus="1v">Epistola <name type="person">Jacobi</name></ab>
+                        <ab locus="26r"><supplied>Epistola</supplied> 1 <name type="person">Petri</name></ab>
+                        <ab locus="49r"><supplied>Epistola</supplied> 2 <name type="person">Petri</name></ab>
+                        <ab locus="64v"><supplied>Epistola</supplied> 1 <name type="person">Johannis</name></ab>
+                        <ab locus="94r"><supplied>Epistola</supplied> 2 <name type="person">Johannis</name></ab>
+                        <ab locus="95v"><supplied>Epistola</supplied> 3 <name type="person">Johannis</name></ab>
+                        <ab locus="97r">
+                            <supplied>Epistola</supplied>
+                            <name type="person">Jude</name>
+                        </ab>
+                        <ab>Ending</ab>
+
+                        <explicit locus="102v">sed ante omne seculum et nunc et per omnia secula seculorum
+                            Amen</explicit>
+
+                        <rubric locusNew="102v">Explicit expositio <name type="author">Bede presbiteri</name> super
+                            canonicas epistolas</rubric>
+
+                        <ab>This couplet is written twice in a hand of <date>xiv</date>, <date>xv</date></ab>
+                        <ab>
+                            <lg>
+                                <l>Non aliter melius poterit caro uiua domari</l>
+                                <l>Mortua qualis erit quam semper premeditari</l>
+                            </lg>
+                        </ab>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, SP, CF</p>
+                            <p>msCheck: RJR 23.8.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

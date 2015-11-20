@@ -1,0 +1,122 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC418">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>418</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Misc. 10</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Martin Bucer, Collectanea</head>
+                <head type="James">M. Buceri Collectanea</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">203</height>
+                        <width unit="mm">153</width>
+                    </measureGrp>, <measureGrp type="James">8.1 x 6</measureGrp>, <extent>pp. 634 numbered</extent>, a
+                    good many blank. Cent. <origDate>xvi</origDate>, <handNote>mostly in <name type="author"
+                            >Bucer</name>'s autograph</handNote>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-vii + pp. 1-522 + 522a-h + 523-622 + 622a + 623a + 623-634 + f.
+                    viii</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="iir" locusEnd="634">
+                        <head type="CCC">
+                            <name type="author">Martin Bucer</name>, <title>Collectanea</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Martini Buceri</name> loci communes ex sanctis patribus aliisque
+                                autoribus collecti. <hi rend="italic">Ad finem</hi>, Formula vivendi praescripta
+                                familiae sua a <name type="author">M. Bucero</name> et propria manu revisa. Deest Oratio
+                                funebris in exequiis <name type="author">Buceri</name> a <name type="person">Mattheo
+                                    Parker</name> habita cujus meminit <name type="person">Stanleius</name></title>
+                        </head>
+                        <ab>
+                            <supplied agent="JamesCorrigenda">Oratio funebris in exequiis <name type="author"
+                                    >Buceri</name>. This was a printed tract (H. P. S.)</supplied>
+                        </ab>
+                        <ab>Title by <name type="person">Parker</name> or another</ab>
+                        <rubric locusNew="iir">Hic liber locorum communium collectus a <name type="author">M.
+                                Bucero</name> et sua manu ut plurimum scriptus</rubric>
+                        <ab>A list of the topics treated occupies nine pages
+                                    <supplied>(<locus>iiir</locus>-<locus>viir</locus>)</supplied></ab>
+                        <ab>pp. <locus>585</locus>-<locus>622</locus> contain another index <handNote>in a different
+                                hand</handNote>, with additions by <name type="author">Bucer</name></ab>
+                        <ab>pp. <locus>627</locus>-<locus>634</locus> are occupied by</ab>
+                        <ab> Formula viuendi prescripta familiae sue a <name type="person">M. bucero</name> et propria
+                            manu revisa. Dominus noster Ihesu Christus doceat formetque nos omnes </ab>
+                        <ab>There are particular directions to <name type="person">Martinus</name> and <name
+                                type="person">Wilhelmus</name></ab>
+
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: KAW 22/04/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

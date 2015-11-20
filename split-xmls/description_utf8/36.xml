@@ -1,0 +1,332 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC036">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>36</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>P. 5</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>234</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Vitas Patrum</head>
+
+                <head type="James">Vitae Patrum etc.</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">335</height>
+                        <width unit="mm">224</width>
+                    </measureGrp>
+                    <measureGrp type="James">13.2 x 9</measureGrp>, <extent>ff. 182</extent>, <layout>double columns of
+                        44 lines</layout>. Cent. <origDate>xv early</origDate>, <handNote>in a good upright English
+                        hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num>-23<num>8</num> (wants 7, 8)</collation>.</p>
+
+                <p function="Provenance">From <name type="place">Norwich Cathedral Priory</name>.</p>
+
+                <p>On f. <locus>1r</locus> at top is the mark <q>M. lxvj</q>.</p>
+
+                <p function="Decoration">
+                    <decoNote>Catchwords enclosed in pretty scrolls.</decoNote>
+                </p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-182 + iii-iv</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="182v">
+
+                        <head type="CCC">
+                            <title>Vitas Patrum</title>
+                        </head>
+
+                        <seg>
+                            <rubric locus="1r">Incipit vita <name type="person">Sancti Pauli primi
+                                heremite</name></rubric>
+                            <ab>(<ref type="bibl" target="Migne 023">P. L. XXIII 17</ref>)</ab>
+                            <incipit locusNew="1r">Inter multos sepe dubitatum est</incipit>
+                            <explicit locusNew="3v">cum regnis suis</explicit>
+                            <rubric locusNew="3v">Explicit vita <name type="person">sancti pauli primi
+                                heremite</name></rubric>
+                        </seg>
+
+                        <seg>
+                            <rubric locus="3v">Incipit prologus in vita <name type="person">beati
+                                Antonii</name></rubric>
+                            <ab>(<ref type="bibl" target="Migne 073">P. L. LXXIII 125</ref>, etc.)</ab>
+                            <incipit locusNew="3v">
+                                <name type="person">Presbiter euagrius</name>
+                            </incipit>
+                            <explicit locusNew="3v">tanti nominis uiro</explicit>
+                            <rubric locusNew="3v">Explicit prologus</rubric>
+
+                            <rubric locus="3v">Incipit uita <name type="person">Sancti Antonii</name></rubric>
+                            <incipit locusNew="3v">Igitur <name type="person">antonius</name> nobilibus</incipit>
+                            <explicit locusNew="20v">corrupcionis artifices</explicit>
+                            <rubric locusNew="20v">Explicit uita <name type="person">Sancti Antonii monachi et
+                                    heremite</name> primum scripta ab <name type="person">Athanasio Episcopo
+                                    Alexandrino</name> in greco translata in latino ab <name type="person">Euagrio
+                                    presbitero</name> utilis ad monachos et necessaria satis ad instruccionem uirtutum
+                                et informacionem regule</rubric>
+                        </seg>
+
+
+                        <seg>
+                            <rubric locus="20v">Incipit prologus <name type="author">beati Jeronimi</name> in uita <name
+                                    type="person">Sancti Hillarionis</name></rubric>
+                            <ab>(<ref type="bibl" target="Migne 023">P. L. XXIII 29</ref>)</ab>
+                            <incipit locusNew="20v">Scripturus uitam</incipit>
+                            <explicit locusNew="21r">aure transibo</explicit>
+                            <rubric locusNew="21r">Explicit prologus</rubric>
+
+                            <rubric locusNew="21r">Incipit uita <name type="person">Sancti Hillarionis</name></rubric>
+                            <incipit locusNew="21r"><name type="person">Hillarion</name> ortus</incipit>
+                            <explicit locusNew="28r">locum dilexerat</explicit>
+                            <rubric locusNew="28r">Explicit uita <name type="person">beati hyllarionis</name></rubric>
+                        </seg>
+
+                        <seg>
+                            <rubric locus="28r">Incipit prologus in libro qui appellatur vitas sanctorum patrum</rubric>
+                            <ab>(<name type="person">Rufinus</name>, <ref type="bibl" target="Migne 021">P. L. XXI
+                                    387</ref>)</ab>
+                            <incipit locusNew="28r">Benedictus dominus qui uult</incipit>
+                            <explicit locusNew="29r">pacienciam requirant</explicit>
+                            <rubric locusNew="29r">Explicit prologus</rubric>
+
+                            <rubric locus="29r">Incipit uita <name type="person">Sancti Johannis</name></rubric>
+                            <incipit locusNew="29r">Primum igitur tanquam uerum</incipit>
+                            <ab>The next lives are: <name type="person">Hor</name>, <name type="person">Ammon</name>,
+                                    <name type="person">Helias</name>, <name type="person">Bessus</name></ab>
+                            <ab>Ends with <name type="person">Piamon</name> and<name type="person">Johannes
+                                Abbas</name></ab>
+                            <explicit locusNew="52v">nobis ostendit mirabilia. Ipsi gloria et honor in secula seculorum.
+                                Amen</explicit>
+                            <rubric locusNew="52v">Explicit liber qui appellatur uitas sanctorum patrum</rubric>
+                        </seg>
+
+                        <seg>
+                            <rubric locus="52v">Incipit actus <name type="person">Malchi monachi captiui</name></rubric>
+                            <incipit locusNew="52v">Qui nauali</incipit>
+                            <ab>(<ref type="bibl" target="Migne 023">P. L. XXIII 53</ref>)</ab>
+                        </seg>
+
+                        <seg>
+                            <rubric locus="54v">Incipit uita <name type="person">Sancti Frontonii</name></rubric>
+                            <incipit locusNew="54v">Qui homo</incipit>
+                            <ab>(<ref type="bibl" target="Bollandists1899">BHL.3192</ref>)</ab>
+                        </seg>
+
+                        <seg>
+                            <rubric locusNew="55v">De leone a <name type="person">beato Jeronimo</name> curato</rubric>
+                            <incipit locus="56r">Quadam die aduesperascente</incipit>
+                            <explicit locusNew="57r">nec finientur in secula seculorum. amen</explicit>
+                            <rubric locusNew="57r">Explicit de leone a <name type="person">beato
+                                Jeronimo</name>curato</rubric>
+                        </seg>
+
+
+                        <seg>
+                            <rubric locus="57r">Incipit liber <name type="person">Sancti Athanasii</name> de
+                                exhortacione monachorum</rubric>
+                            <incipit locusNew="57r">Et si quid gloriari</incipit>
+                            <ab>(<ref type="bibl" target="Migne 018">XVIII 71</ref>)</ab>
+                            <explicit locusNew="59v">deus pacis erit uobiscum</explicit>
+                            <rubric locusNew="59v">Explicit <supplied>liber singularis sancti Athanasii
+                                    episcopi</supplied></rubric>
+                        </seg>
+
+                        <seg>
+                            <rubric locus="59v">Adhortacionum liber sanctorum patrum...quas de greco in latinum
+                                transtulit <name type="person">beatus Jeronimus presbiter</name></rubric>
+                            <incipit locusNew="59v">Interrogauit quidam <name type="person">abbatem
+                                Antonium</name></incipit>
+                            <ab>(<ref type="bibl" target="Migne 073">P. L. LXXIII 855</ref> etc.)</ab>
+
+                            <rubric locus="60v">De quieta conuersacione</rubric>
+                            <incipit locusNew="60v">Dixit <name type="person">abbas Antonius</name>. Sicut
+                                pisces</incipit>
+
+                            <rubric locus="61v">De compunctione</rubric>
+                            <incipit locusNew="61v">Dicebant de <name type="person">abbate arsenio</name></incipit>
+
+                            <rubric locus="63r">De continencia</rubric>
+                            <incipit locusNew="63r">Fratres aliqui uolentes</incipit>
+
+                            <rubric locus="66v">De fornicacione liber quintus</rubric>
+                            <incipit locusNew="66v">Dicebat <name type="person">abbas Antonius</name> Estimo
+                                quod</incipit>
+
+                            <rubric locus="72v">De nichil possidendo (liber vi)</rubric>
+                            <incipit locusNew="72v">Frater quidam renuncians</incipit>
+
+                            <ab locus="74r">De paciencia et fortitudine (liber vii)</ab>
+                            <incipit locusNew="74r"><name type="person">Sanctus Antonius abbas</name> cum
+                                sederet</incipit>
+
+                            <ab locus="79r">De inani gloria</ab>
+                            <incipit locusNew="79r">Audiuit aliquando <name type="person">abbas
+                                Antonius</name></incipit>
+
+                            <ab locus="81r">De nemine iudicando (liber ix) </ab>
+                            <incipit locusNew="81r">Contigit aliquando fratri</incipit>
+
+                            <rubric locus="82r">De discrecione (liber x)</rubric>
+                            <incipit locusNew="82r">Dixit <name type="person">abbas Antonius</name> quod sunt
+                                quedam</incipit>
+
+                            <ab locus="90v">De sobrietate (liber xi) </ab>
+                            <incipit locusNew="90v">Frater interrogauit <name type="person">abbatum
+                                Arsenium</name></incipit>
+
+                            <ab locus="93v">De oratione</ab>
+                            <incipit locusNew="93v">Dicebant de <name type="person">abbate Arsenio</name> quod a
+                                uespere</incipit>
+
+                            <ab locus="94v">De hospitalitate</ab>
+
+                            <ab locus="96r">De obediencia</ab>
+
+                            <ab locus="98v">De humilitate</ab>
+
+                            <rubric locus="105r">De paciencia</rubric>
+
+                            <rubric locus="106v">De caritate</rubric>
+
+                            <rubric locus="108r">De contemplacione</rubric>
+                        </seg>
+
+                        <seg>
+                            <rubric locus="111v">usque huc de greco in latinum transtulit <name type="person">pelagius
+                                    diaconus</name> ecclesie romane et abhinc deinceps <name type="person">Johannes
+                                    subdiaconus</name></rubric>
+
+                            <incipit locusNew="111v">Abiit aliquando <name type="person">zacharias</name> ad
+                                abbatem</incipit>
+                            <ab>(<ref type="bibl" target="Migne 073">P. L. LXXIII 993</ref>)</ab>
+
+                            <rubric locus="114v">De sanctis senioribus qui signa faciebant</rubric>
+                            <incipit locusNew="114v">Dicebat <name type="person">abbas dulas</name></incipit>
+
+                            <rubric locus="115v">De conuersacione optima diuersorum patrum </rubric>
+
+                            <rubric locus="119v">Incipiunt septem capitula uerborum que misit <name type="person">abbas
+                                    moyses</name>
+                                <name type="person">abbati pimenio</name> et qui custodierit ea liberabitur a
+                                pena</rubric>
+                            <incipit>Dixit <name type="person">senex moyses</name></incipit>
+                            <explicit locusNew="122r">et suffocabat eum</explicit>
+                            <rubric locusNew="122r">Expliciunt sermones sanctorum patrum interpretati de greco in
+                                latinum a <name type="person">pelagio diacono</name> et <name type="person">Johanne
+                                    subdiacono</name> Sancte Romane ecclesie</rubric>
+                        </seg>
+
+                        <seg>
+                            <rubric locus="122r">Incipit epistola <name type="person">Sancti Macharii monachi</name> ad
+                                filios</rubric>
+                            <incipit locusNew="122r">In primis quidem si ceperit</incipit>
+                        </seg>
+
+                        <seg>
+                            <rubric locus="123r">Vita <name type="person">Sancte Marine virginis et
+                                monachi</name></rubric>
+                            <incipit locusNew="123v">Frater erat quidam</incipit>
+                            <ab>(cf. <ref type="bibl" target="Bollandists1899">BHL</ref>. 5528)</ab>
+                        </seg>
+
+                        <seg>
+                            <rubric locus="124r">Vita <name type="person">Sancti Symeonis Syri</name> qui in columpna
+                                stetit</rubric>
+                            <incipit locusNew="124r">Sanctus igitur <name type="person">symeon</name></incipit>
+                            <explicit locusNew="128v">nonas ianuarias regnante domino nostro Ihesu Christo cui est honor
+                                et gloria cum patre et spiritu sancto in secula seculorum. amen</explicit>
+                            <ab>(cf. <ref type="bibl" target="Bollandists1899">BHL</ref>. 7956 sqq.)</ab>
+                        </seg>
+
+                        <seg>
+                            <rubric locus="129r">Incipit prefacio <name type="author">Johannis (Cassiani)</name>
+                                heremite in decem collaciones missa ad <name type="person">Leoncium papam</name> et
+                                    <name type="person">Eladium fratrem carissimum</name></rubric>
+                            <incipit locusNew="129r">Debitum quod</incipit>
+                            <explicit locusNew="129v">instituta properemus</explicit>
+                            <rubric locusNew="129v">Explicit prologus</rubric>
+                            <ab>(<ref type="bibl" target="Migne 049"><supplied>P. L.</supplied> XLIX 477</ref>)</ab>
+                            <rubric locus="129v">Capitula in primam collacionem</rubric>
+                            <rubric locus="129v">Incipit collacio <name type="person">Abbatis Moysi</name></rubric>
+                            <incipit locusNew="129v">Cum in heremo <name type="place">scithi</name></incipit>
+                            <ab>Collatio x (<name type="person">abbatis Ysaac II</name> de oratione) ends</ab>
+                            <explicit locus="182v">uersiculi huius meditacione seruauerint</explicit>
+
+                            <ab locusNew="182v">[<origDate>xvi</origDate>: <q>Expliciunt decem collationes <name
+                                        type="author">Cassiani</name> sed sunt impresse 24 collationes</q>.]</ab>
+                        </seg>
+
+                    </msItem>
+
+                </msContents>
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF, CF 2nd</p>
+                            <p>msCheck: MS check by SP 04/08/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

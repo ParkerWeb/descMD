@@ -1,0 +1,730 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC037">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>37</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>I. 2</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>93</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Astronomical Tracts. Statutes etc.</head>
+
+                <head type="James">Astronomica</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">335</height>
+                        <width unit="mm">225</width>
+                    </measureGrp>
+                    <measureGrp type="James">13.2 x 8.5</measureGrp>, <extent>ff. 99 + 1</extent>, <layout>double
+                        columns of 53 lines at first, then varying much</layout>. Several volumes, mostly of cent.
+                        <origDate>xiv early</origDate>.</p>
+
+                <p function="Multivolume" rend="withinContents"><lb/><label>Volume II a:</label>
+                    <handNote>In a larger hand</handNote>, <layout>single columns</layout>. <lb/><label>Volume
+                        III:</label>
+                    <handNote>A smaller hand</handNote>, <layout>double columns</layout>. - <label>II b.</label>
+                    <handNote>The former hand</handNote>. <lb/><label>Volume IV:</label>
+                    <handNote>A charter hand</handNote>, foliated i-x on lower margins. <lb/><label>Volume V:</label>
+                    <handNote>A smaller hand which begins on the last page of vol. IV</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>12</num> 2<num>12</num> | 3<num>10</num> 4<num>10</num> | 5<num>4</num>
+                        6 (two) | 7<num>12</num> 8 (two) | 9<num>10</num> | 10<num>12</num> | 11<num>6</num> 12 (seven:
+                        2 and 3 are slips: 4 is numbered vi: 7 is numbered x)</collation>.</p>
+
+
+                <p function="Provenance">From <name type="place">Boxley Priory, Kent</name>. On the flyleaf
+                        <supplied>(f. <locus>1v</locus>)</supplied> is an erased inscription which revived reads:<lb/>
+                    <q>liber <name type="place">S. Marie de Boxele</name> emptus per dompnum <name type="person">Jo.
+                            heriettsham</name> ab <lb/> executoribus m. <name type="person">Jo. Renham</name> nuper
+                        rectoris de <name type="place">holyngbourne</name> in <lb/> quem qui maliciose alienauerit
+                        anathema sit maranatha Amen</q>.</p>
+
+                <p>There is a table of contents <supplied>(f. <locus>1v</locus>)</supplied> (<origDate>xv</origDate>)
+                    headed: <q>continentur</q>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-100 + iii-iv</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="frm">Latin and Anglo-Norman.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="2r" locusEnd="22v">
+
+                        <head type="CCC"><name type="author">Campanus of Novara</name>, <title>Theorica
+                                planetarum</title></head>
+                        <head type="James">
+                            <title>Theorica Campani</title>
+                        </head>
+                        <incipit locusNew="2r">Primus philosophie magister ipsius negocium in tria</incipit>
+                        <ab locusNew="2v">On <locus locusNew="2v">1v</locus> is sewn a <decoNote>volvel</decoNote>, on
+                            the back of which is part of a document, possibly a statute. The words occur <q>ut adirent
+                                secum in Vascon. ad debelland. hostes</q>, more of the same is on the back of a
+                                <decoNote>volvel</decoNote> on f. <locus>6v</locus></ab>
+                        <ab>Ends</ab>
+                        <explicit locus="22v">de mercurio supra docuimus deo gratias amen</explicit>
+                        <rubric locusNew="22v">explicit</rubric>
+                    </msItem>
+
+                    <msItem n="2" locusStart="22v" locusEnd="25v">
+
+                        <head type="CCC">
+                            <title>Notes on Astronomical Conjunctions, <date>1306</date>-<date>1315</date></title>
+                        </head>
+                        <ab>
+                            <handNote>Another hand</handNote>
+                        </ab>
+                        <rubric locus="22v">Incipit coniunctiones quedam calculate</rubric>
+                        <incipit locusNew="22v">Nota quod anno <date>1306</date> inperfectio 21 die aprilis
+                            fuit</incipit>
+                        <ab>The years for which observations are made go up to <date>1315</date></ab>
+                        <ab>On f. <locus>24r</locus> is the beginning of a table of squares and cubes of numbers</ab>
+                        <ab>f. <locus>24v</locus> blank</ab>
+                        <ab>On f. <locus>25r</locus> - <locus>25v</locus>
+                            <decoNote>two rough diagrams</decoNote>, the first headed</ab>
+                        <rubric locusNew="25r">liber planetarum et quot circulos habent et qualiter mouentur et de
+                            quantitate eorum</rubric>
+                    </msItem>
+
+                    <milestone n="IIa" unit="volume"/>
+
+                    <msItem n="3" locusStart="26r" locusEnd="26v">
+
+                        <head type="CCC">
+                            <title>Calendar of Exchequer Term Days</title>
+                        </head>
+
+                        <rubric locus="26r">Kalendarium de Scaccario</rubric>
+                        <incipit locusNew="26r">Quia Anglicana mos est quod quilibet computans incipiet titulum compoti
+                            sui in crastino S. Michaelis</incipit>
+                        <ab locusNew="26v">List of principal feasts for the year <locus>26v</locus></ab>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="27r" locusEnd="45v">
+
+                        <head type="CCC">
+                            <name type="author">Walter of Elveden</name>, <title>Kalendarium cum tribus cyclis
+                                decennoualibus</title>
+                        </head>
+
+                        <rubric locus="27r">Kalendarium Eluedene</rubric>
+                        <ab>(by <name type="person">Walter Elveden</name> of <name type="place">Gonville Hall</name>.
+                            See <ref type="bibl" target="Venn 1897">Venn, <hi rend="italic">Biogr. Hist.</hi>
+                            12</ref>)</ab>
+                        <ab>This is in ordinary Kalendar form: entries in red and black</ab>
+                        <ab>After the festival column follow others giving <q>Hore diei. Hore noctis</q></ab>
+                        <rubric locusNew="27r">Occupacio diei artificialis</rubric>
+                        <ab>This last is subdivided into <q>Miliaria. Stadia. Passus. Pedes. Pollices. Grana</q></ab>
+                        <ab>(As a fact the last three of these columns are filled with noughts throughout.) Each month
+                            has a statement of the average length of the day and the average length of the day's
+                            journey</ab>
+                        <ab>The Kalendar is English but not very characteristic: <name type="person">Etheldreda</name>,
+                                <name type="person">Mildred</name>, <name type="person">Osith</name> occur, but not
+                                <name type="person">Edith</name>. <name type="person">Wulstan</name> on Jan. 19 and June
+                            7. <name type="person">Erkenwald</name> on Ap. 30</ab>
+                        <ab>
+                            <handNote>In smaller hand</handNote>
+                        </ab>
+                        <ab>On ff. <locus>33r</locus>, <locus>34r</locus> are tables of the Moon and of the Sunday
+                            letter</ab>
+                        <ab>ff. <locus>34v</locus>, <locus>35r</locus> blank</ab>
+                        <ab>On f. <locus>35v</locus> rules for multiplication</ab>
+                        <incipit locusNew="35v">Sunt autem vi Regule multiplicacionis etc.</incipit>
+                        <ab>On f. <locus>36r</locus>
+                            <handNote>the large hand resumes</handNote>: On multiplication</ab>
+                        <incipit locusNew="36r">Numerus est multitudo ex unitate composita</incipit>
+                        <ab locus="37r">Table of Numbers</ab>
+                        <ab locus="37v">A second Kalendar</ab>
+                        <ab><handNote>In the same hand as the former</handNote>, marking the Locus Solis and also Ciclus
+                            1, 2, 3</ab>
+                        <ab>The entries are as in the former, but <name type="person">David</name> and <name
+                                type="person">Edith</name> are in their proper places</ab>
+                        <ab locus="43v">Tables of eclipses of Sun and Moon (<date>1330</date> - <date>1386</date>)</ab>
+                        <rubric locus="44v"><supplied>Lux est</supplied> canon exponensis istud kalendarium</rubric>
+                        <ab locus="45r">
+                            <decoNote>Diagrams of eclipses of Sun and Moon (in red and blue)</decoNote>
+                        </ab>
+
+                    </msItem>
+
+
+                    <milestone n="III" unit="volume"/>
+
+                    <msItem n="5" locusStart="46r" locusEnd="48r">
+
+                        <head type="CCC"><name type="author">Alexander de Villa Dei</name>, <title>Massa
+                            compoti</title></head>
+
+                        <rubric locus="46r">Liber compoti</rubric>
+                        <incipit locusNew="46r">Aureus in iano numerus clauesque nouantur</incipit>
+                        <ab>Ending</ab>
+                        <explicit locusNew="48r">Mobilis ibo ciphos ate liber habeto coenas</explicit>
+                        <rubric locusNew="48r">Explicit Compotus</rubric>
+
+                    </msItem>
+
+
+
+                    <msItem n="6" locusStart="48r" locusEnd="49v">
+
+                        <head type="CCC"><name type="author">Alexander de Villa Dei</name>,
+                            <title>Algorismus</title></head>
+
+                        <rubric locus="48r">Hic Incipit Algorismus</rubric>
+                        <ab>(<name type="person">Alexandri de Villa Dei</name>)</ab>
+                        <incipit locusNew="48r">Hic algorismus ars presens dicitur in qua</incipit>
+                        <explicit locusNew="49v">Si par per medium sibi multiplicata propinqua</explicit>
+                        <rubric locusNew="49v">Explicit Algorismus</rubric>
+                        <ab><ref type="bibl" target="Halliwell 1839">Halliwell (<hi rend="italic">Rara
+                                Mathematica</hi>)</ref> etc.</ab>
+
+                    </msItem>
+
+
+                    <milestone n="IIb" unit="volume"/>
+
+
+                    <msItem n="7" locusStart="50r" locusEnd="50v">
+
+                        <head type="CCC">
+                            <title>Astronomical Tables</title>
+                        </head>
+
+                        <rubric locus="50r">Tabule Astronomice</rubric>
+
+                    </msItem>
+
+
+                    <msItem n="8" locusStart="51r" locusEnd="51v">
+
+                        <head type="CCC">
+                            <title>De complexione signorum</title>
+                        </head>
+
+                        <rubric locus="51r">De complexione signorum</rubric>
+                        <incipit locusNew="51r">Aries est signum mobile calidum siccum etc.</incipit>
+                        <ab>Ending (Pisces)</ab>
+                        <explicit locusNew="51v">Puer natus graciosus erit</explicit>
+                        <rubric locusNew="51v">Dum Jupiter In Aquario Regnat multum gaudet</rubric>
+                    </msItem>
+
+                    <msItem n="9" locusStart="52r" locusEnd="61r">
+
+                        <head type="CCC">
+                            <title>Zodiac predictions</title>
+                        </head>
+
+
+                        <rubric locus="52r">Tractatur de fatis in gallico</rubric>
+                        <incipit locusNew="52r">Si ascun homme saunz doute veut sauoir la verite des choses qe a luy
+                            pount auenir. Soulom sa destine</incipit>
+                        <ab>The text goes through the signs, ending with Pisces</ab>
+                        <explicit locusNew="61r">Ele viuera v. aunz ou xvij. ou L. aunz</explicit>
+                        <rubric locusNew="61r">Et sic finitur per bona temporalia ut non amittamus eterna per Christum
+                            dominum nostrum. Amen</rubric>
+                    </msItem>
+
+                    <msItem n="10" locusStart="61r" locusEnd="65v">
+
+                        <head type="CCC"><name type="author">pseudo-Hippocrates</name>, <title>Astrologia
+                                medicorum</title></head>
+
+                        <rubric locus="61r">Tractatus <name type="person">ypocratis</name> pro infirmitatibus per
+                            astronomiam cognoscendis</rubric>
+                        <incipit locusNew="61r">Dicit <name type="person">ypocras</name> qui fuit medicus et magister
+                            optimus quod nullus debet committere se in manus illius qui non est medicus
+                            perfectus</incipit>
+                        <ab>Also goes through the signs, ending in Pisces</ab>
+                        <explicit locusNew="65r">et si fortuna eam aspexerit uiuet si non morietur</explicit>
+                        <ab><locus>65v</locus> is blank, and here ends vol. II which has an original foliation running
+                            from i to xxxv (<locus>26r</locus> - <locus>65r</locus>) but wanting some leaves after xx
+                            (ff. <locus>46r</locus> - <locus>49r</locus> do not belong to it)</ab>
+
+
+                    </msItem>
+
+
+                    <milestone n="IV" unit="volume"/>
+
+
+                    <msItem n="11" locusStart="66r" locusEnd="72v">
+
+                        <head type="CCC">
+                            <title>Gazetteer of England (Castles, abbeys, priories)</title>
+                        </head>
+
+
+                        <ab>Headed</ab>
+                        <rubric locus="66r">
+                            <name type="place">Anglia</name>
+                        </rubric>
+                        <ab>List of counties follows</ab>
+                        <ab>Then</ab>
+                        <rubric locusNew="66r">En cest liure sont escriptt touz les nouns des castelx <name type="place"
+                                >dengleterre</name>. et ensement Abbeez. et Prioreez en chescun countee</rubric>
+
+                        <ab>Begins with <name type="place">Kent</name>, ends with <name type="place"
+                            >Stafford</name></ab>
+                        <ab>After <locus>69r</locus> and <locus>71r</locus> are two small slips (f. <locus>69ar</locus>
+                            and f. <locus>71ar</locus>)</ab>
+                        <ab>After <name type="place">Stafford</name> (<locus>72r</locus>) are Archbishoprics and
+                            Bishoprics of <name type="place">England</name> and <name type="place">Wales</name></ab>
+                        <ab locusNew="72r">Sum of Castles and Bishoprics. Then <name type="place">Cumberland</name>
+                            (blank) and <name type="place">Westmorland</name></ab>
+                        <ab>On f. <locus>72v</locus> note in Latin of reigns from <name type="person">William I</name>
+                            to <name type="person">Edward II</name> (19 years 7 months). This is in different ink</ab>
+
+
+                    </msItem>
+
+
+
+                    <msItem n="12" locusStart="73r" locusEnd="74r">
+
+                        <head type="CCC">
+                            <title>Gazetteer of England (<name type="place">Suffolk</name>)</title>
+                        </head>
+
+
+                        <rubric locusNew="73r">Nomina Hundredorum Villarum et hamelettorum tocius Com. <name
+                                type="place">Suffolk</name></rubric>
+                        <ab>Begins with <name type="place">Hertesmere (Hartismere)</name> and ends with <name
+                                type="place">Lacford</name></ab>
+
+
+                    </msItem>
+
+
+
+                    <msItem n="13" locusStart="74v" locusEnd="74v">
+
+                        <head type="CCC">
+                            <title>Gazetteer of England (<name type="place">Hertfordshire</name>)</title>
+                        </head>
+
+
+                        <ab>In different ink</ab>
+                        <rubric locus="74v">Nomina Hundredorum Villarum Hamelettorum tocius com. <name type="place"
+                                >Hertford</name></rubric>
+                        <ab>Begins with <name type="place">Oddeseles</name> and ends with <name type="place">Libertas S.
+                                Albani</name></ab>
+
+
+                    </msItem>
+
+
+                    <msItem n="14" locusStart="74v" locusEnd="75r">
+
+                        <head type="CCC">
+                            <title>Gazetteer of England (<name type="place">Berkshire</name>)</title>
+                        </head>
+
+
+                        <ab locus="74v">List of Hundreds in <name type="place">Berkshire</name></ab>
+
+                    </msItem>
+
+
+
+                    <milestone n="V" unit="volume"/>
+
+
+                    <msItem n="15" locusStart="75v" locusEnd="77v">
+
+                        <head type="CCC">
+                            <title>Statutes, Writs</title>
+                        </head>
+
+
+                        <rubric locus="75v">Statuta de districtionibus</rubric>
+                        <ab>(French)</ab>
+                        <ab>Latin note follows</ab>
+                        <incipit locusNew="75v">Dominus Rex habebit tantum x milites etc.</incipit>
+                        <rubric locus="75v">Statuta de Scaccario</rubric>
+                        <ab>(French)</ab>
+                        <ab locus="76r">Rex Thesaurariis et Baronibus suis de Scaccario s. Ut indempnitate nostre. (Anno
+                            septimo)</ab>
+                        <ab locus="76v">A nostre seigneur le Roi et a son conseil <name type="person">monstre Thomas
+                                deuerwyke</name> clerk pur profist le Roi</ab>
+                        <ab locus="77r">Le Roi veut que touz maners des Baillifs etc. ... soient responaunt a
+                            leschekier</ab>
+                        <ab>Change of hand</ab>
+
+
+                    </msItem>
+
+
+                    <msItem n="16" locusStart="78r" locusEnd="82v">
+
+                        <head type="CCC">
+                            <title>Proceedings of the London Eyre, <date>1321</date> (Itinerary, proclamation, returns,
+                                pleas)</title>
+                        </head>
+
+
+                        <ab locus="78r">Breve de itinere justiciariorum apud <name type="place">Turrim London</name> (14
+                                <name type="person">Edward II</name>) followed by Proclamation</ab>
+                        <ab locus="78v">Retorn of Brief, Names of freeholders</ab>
+                        <ab locus="79v">Placita</ab>
+
+
+                    </msItem>
+
+
+                    <msItem n="17" locusStart="82v" locusEnd="84r">
+
+                        <head type="CCC">
+                            <title>Proceedings of the London Eyre, <date>1321</date> (Quo warranto)</title>
+                        </head>
+
+
+                        <ab locus="82v">Breve <name type="person">regis Edwardi</name> de quo warranto ad vicecomitem
+                            London (reciting the customs)</ab>
+                        <ab locus="83v">Other briefs, <q>de priorissa de Haliwell</q> etc.</ab>
+
+
+                    </msItem>
+
+
+
+                    <msItem n="18" locusStart="84v" locusEnd="85v">
+
+                        <head type="CCC">
+                            <title>Proceedings of the London Eyre, <date>1321</date> (Ordinances of the <name
+                                    type="place">City of London</name>)</title>
+                        </head>
+
+
+                        <rubric locus="84v">Ordinaciones <name type="place">ciuitatis London</name></rubric>
+                        <ab>(French)</ab>
+                        <incipit locusNew="84v">En primes que la poes dieux et la poes nostre seigneur le Roy</incipit>
+
+
+                    </msItem>
+
+
+
+                    <msItem n="19" locusStart="85v" locusEnd="86r">
+
+                        <head type="CCC">
+                            <title>Proceedings of the London Eyre, <date>1321</date> (Writ, pleas)</title>
+                        </head>
+
+                        <ab locus="85v">Breve regis de oppressionibus dampnis et grauaminibus (<date>1318</date>).
+                            Placita follow</ab>
+
+                    </msItem>
+
+
+
+                    <msItem n="20" locusStart="86v" locusEnd="86v">
+
+                        <head type="CCC">
+                            <title>List of values of English wool (per sack, by county)</title>
+                        </head>
+
+                        <ab locus="86v">Value de Leyne <name type="place">dengleterre</name></ab>
+                        <ab>List of counties</ab>
+                        <ab locusNew="86v"><name type="place">Londres</name>: le sak pur vj marc<lb/>
+                            <name type="place">Kent</name>: le sak pur vj marc<lb/>
+                            <name type="place">Surrey</name>: le sak pur vj marc<lb/>
+                            <name type="place">Sussex</name>: le sak pur vj marc</ab>
+                        <ab>The highest is <name type="place">Hereford</name> (xii marc.) the lowest (<name type="place"
+                                >Northumberland</name>, <name type="place">Cumberland</name>, <name type="place"
+                                >Westmorland</name>, <name type="place">Durham</name>) five marks</ab>
+
+                    </msItem>
+
+
+
+                    <msItem n="21" locusStart="87r" locusEnd="87r">
+
+                        <head type="CCC">
+                            <title>A petition against extortion from <name type="place">Lincoln</name>, <name
+                                    type="place">Derby</name>, <name type="place">Leicester</name>, etc.</title>
+                        </head>
+
+                        <ab locus="87r">A petition against extortion from <name type="place">Lincoln</name>, <name
+                                type="place">Derby</name>, <name type="place">Leicester</name>, etc. (French)</ab>
+
+                    </msItem>
+
+
+                    <msItem n="22" locusStart="87r" locusEnd="87r">
+
+                        <head type="CCC">
+                            <title>Writ 'non molestando'</title>
+                        </head>
+
+                        <ab locus="87r">A Brief of <name type="person">Edward</name>
+                            <q>Ponderatori suo in villa de S. Boihulfo(?)</q> (<date>10 Edward II</date>)</ab>
+
+                    </msItem>
+
+
+
+                    <msItem n="23" locusStart="87v" locusEnd="87v">
+
+                        <head type="CCC">
+                            <title>Lex marisci</title>
+                        </head>
+
+
+                        <incipit locus="87v">Elegantur primo per totam</incipit>
+
+
+                    </msItem>
+
+
+                    <msItem n="24" locusStart="88r" locusEnd="88r">
+
+                        <head type="CCC">
+                            <title>Names of the Sheriffs of <name type="place">Scotland</name></title>
+                        </head>
+
+                        <ab>Change of hand</ab>
+                        <rubric locus="88r">Nomina Vicecomitum Scocie</rubric>
+                        <ab>With sum of each Vicecomitatus</ab>
+                        <ab locusNew="88r">Some values of produce. <q>Stirkes I anni prec. xx<abbr rend="superscript"
+                                    >d</abbr></q> etc.</ab>
+
+                    </msItem>
+
+
+                    <msItem n="25" locusStart="88v" locusEnd="90r">
+
+                        <head type="CCC">
+                            <title>Ordinance for the King's household</title>
+                        </head>
+
+                        <incipit locus="88v">Pur ceo que nostre seigneur le Roi voet estre asserte etc.</incipit>
+
+                    </msItem>
+
+
+                    <msItem n="26" locusStart="90v" locusEnd="90v">
+
+                        <head type="CCC">
+                            <title>Terms of the surrender of <name type="place">Berwick</name></title>
+                        </head>
+
+                        <rubric locus="90v">Les condicions sur le rendre de la ville de <name type="place"
+                                >Berewyk</name> (<date>1333</date>)</rubric>
+
+                    </msItem>
+
+
+                    <msItem n="27" locusStart="91v" locusEnd="91v">
+
+                        <head type="CCC">
+                            <title>Prophecy of the conquest of <name type="place">Ireland</name></title>
+                        </head>
+
+                        <incipit locus="91v">Scribitur in libris annalibus <name type="place">Hibernie</name> secundum
+                            quod <name type="person">Mag. Walterus de Istelep</name> Thesaurarius Hibern. eos
+                            inuestigans anno domini <date>m<abbr rend="superscript">o</abbr> ccc<abbr rend="superscript"
+                                    >mo</abbr> xvij<abbr rend="superscript">o</abbr></date> incipiente de prophetia
+                            super statu terre <name type="place">hibern.</name> comper(i)t in hiis verbis. Cum enim
+                            quatuor hibernici prophetas habeant <name type="person">Molingum</name>
+                            <name type="person">Bractannum</name>
+                            <name type="person">Patricium</name> et <name type="person">Colmekillum</name></incipit>
+                        <ab>(prophecy of Conquest of <name type="place">Ireland</name>)</ab>
+                        <explicit locusNew="91v">continue semper optinebunt</explicit>
+
+                    </msItem>
+
+
+                    <msItem n="28" locusStart="91v" locusEnd="95v">
+
+                        <head type="CCC">
+                            <title>Material relating to <name type="place">Ireland</name> (fees, services,
+                                exchequer)</title>
+                        </head>
+
+                        <ab locus="91v">Number of cantreds, villae etc. in <name type="place">Ireland</name></ab>
+                        <incipit locus="92r">Seruicia domini Regis per totam <name type="place">Hiberniam</name>
+                                (<date>1317</date>)</incipit>
+                        <ab>Ending with</ab>
+                        <ab locusNew="94v">Ordinatio facta de Statuta Scaccarij <name type="place">Dublin</name></ab>
+                        <ab>f. <locus>95r</locus> (a slip, verso blank)</ab>
+
+                    </msItem>
+
+
+
+                    <msItem n="29" locusStart="96r" locusEnd="96v">
+
+                        <head type="CCC">
+                            <title>La copie dune lettre que vient de la onqe de la desconfiture que <name type="person"
+                                    >Mons. Roberd Dartois</name> fist sur <name type="person">Fraunczois</name></title>
+                        </head>
+
+                        <rubric locusNew="96v">La copie dune lettre que vient de la onqe de la desconfiture que <name
+                                type="person">Mons. Roberd Dartois</name> fist sur <name type="person"
+                            >Fraunczois</name></rubric>
+
+                        <ab>Another hand</ab>
+                        <ab>f. <locus>96v</locus> a slip, recto blank</ab>
+                        <incipit locus="96v">En droit des noueles de cestes parties voilletz sauoir que nostre seigneur
+                            le Roy ... est deuaunt la ville de <name type="place">Tournoye</name></incipit>
+
+                    </msItem>
+
+
+                    <msItem n="30" locusStart="97r" locusEnd="98r">
+
+                        <head type="CCC">
+                            <title>La fforme del Trewe prise entre <name type="person">Sire Edward Roy</name>
+                                <name type="place">dengleterre</name> et <name type="person">Sire Philippe Roy</name> de
+                                    <name type="place">France</name> (<date>1343</date>)</title>
+                        </head>
+
+                        <rubric locusNew="97r">La fforme del Trewe prise entre <name type="person">Sire Edward
+                                Roy</name>
+                            <name type="place">dengleterre</name> et <name type="person">Sire Philippe Roy</name> de
+                                <name type="place">France</name></rubric>
+                        <ab>(<date>1343</date>)</ab>
+
+
+                    </msItem>
+
+
+                    <msItem n="31" locusStart="98r" locusEnd="98r">
+
+                        <head type="CCC">
+                            <title>Verses in Latin and French</title>
+                        </head>
+
+                        <ab>Verses in two columns. The first column miscellaneous</ab>
+                        <incipit locus="98r">Qui scit adulari gratis debet famulari etc.</incipit>
+                        <ab>Ending with some lines on the age of the Virgin (63 years)</ab>
+                        <ab>The second column a dialogue between Monacha and Clericus</ab>
+                        <rubric locusNew="98r">Monacha </rubric>
+                        <incipit locusNew="98r">
+                            <lg>
+                                <l>Me tibi teque mihi genus etas et decor equant</l>
+                                <l>Cur non ergo sumus sic in amore pares</l>
+                            </lg>
+                        </incipit>
+                        <ab>Ends</ab>
+                        <explicit locusNew="98r">Est grauius sponsam te uiolare dei</explicit>
+                        <ab>See <ref type="bibl" target="Hauréau 1879">Hauréau in <hi rend="italic">Notices et
+                                    Extraits</hi> XXIX 2. 249</ref>. Also <ref type="bibl" target="Hagen 1877">Hagen,
+                                    <hi rend="italic">Carmina medii aevi</hi>, p. 206</ref></ab>
+
+
+                    </msItem>
+
+
+                    <msItem n="32" locusStart="98v" locusEnd="99r">
+
+                        <head type="CCC">
+                            <title>Treatise on weights and measures</title>
+                        </head>
+
+                        <rubric locus="98v">De pondere et mensuris rerum diuersarum</rubric>
+                        <incipit locusNew="98v">Solidus argenti constat ex xii denariis etc.</incipit>
+
+                    </msItem>
+
+
+                    <msItem n="33" locusStart="99r" locusEnd="99v">
+
+                        <head type="CCC">
+                            <title>Treatise on the method of measuring land</title>
+                        </head>
+
+                        <rubric locus="99r">Incipit modus mensurandi terram</rubric>
+                        <incipit locusNew="99v">Primo sciendum est quod quelibet acra terre</incipit>
+
+
+                    </msItem>
+
+
+                    <msItem n="34" locusStart="100r" locusEnd="100r">
+
+                        <head type="CCC">
+                            <title>Cest le arrai et lassemble des gentz <name type="person">Descoce</name> que vindrent
+                                a la bataille de <name type="place">Berewik</name>. Cest assauoir</title>
+                        </head>
+
+                        <ab>
+                            <handNote>Another hand</handNote>
+                        </ab>
+                        <incipit locus="100r">Cest le arrai et lassemble des gentz <name type="person">Descoce</name>
+                            que vindrent a la bataille de <name type="place">Berewik</name>. Cest assauoir ... auant
+                            garde le <name type="person">coumt de Morrene</name></incipit>
+                        <ab><locus>100v</locus>
+                            <supplied>was</supplied> pasted over with paper <supplied>(repaired since James'
+                                time)</supplied></ab>
+
+                    </msItem>
+
+                </msContents>
+
+                <additional>
+
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, CF 2nd</p>
+                            <p>msCheck: NJC 20.9.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

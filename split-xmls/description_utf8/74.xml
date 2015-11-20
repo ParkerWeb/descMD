@@ -1,0 +1,151 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC074">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>74</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>P. 13</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>246</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Berengarius Fredoli, Inuentarium iuris canonici</head>
+
+                <head type="James">Berengarii Biterrensis Inventarium</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">440</height>
+                        <width unit="mm">305</width>
+                    </measureGrp><measureGrp type="James">17.2 x 12</measureGrp>, <extent>ff. 247 + 1</extent>,
+                        <layout>double columns of 67 lines</layout>. Cent. <origDate>xiv early</origDate>, <handNote>in
+                        good clear Italian hand</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>12</num>-21<num>12</num> (7-11 canc.)</collation>.</p>
+
+
+                <p function="Provenance">From <name type="place">Norwich</name>. On f. <locus>1r</locus> at top in
+                        <handNote>Italian-like hand</handNote>: <q>liber ecclesie <name type="place">norwycen</name> per
+                        magistrum <name type="person">Adam de Eston</name> monachum dicti loci</q>.<lb/> Below this, in
+                    red, the class-mark: <q>X. XXXIIII.</q><lb/>
+                    <name type="person">Adam Easton</name>, monk of <name type="place">Norwich</name>, Dean of <name
+                        type="place">York</name> and Cardinal of <name type="place">St Cecilia</name>, died in
+                        <date>1397</date>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i + 1-247 + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="246v">
+
+                        <head type="CCC"><name type="author">Berengarius Fredoli</name>, <title>Inuentarium iuris
+                                canonici</title></head>
+
+
+                        <head type="James">
+                            <title><name type="author">Berengarii (Fredolis)</name> episcopi Biterrensis inuentarium
+                                iuris canonici</title>
+                        </head>
+
+                        <ab>(No title in the MS.)</ab>
+                        <incipit locusNew="1r">Patri suo ac domino Reuerendo domino <name type="person">G. dei
+                                prouidencia ebredunensi</name> archiepiscopo <name type="author">Berengarius</name>
+                            miseratione diuina episcopi Biterrensis etc.</incipit>
+                        <incipit locusNew="1r">Deus cuius prouidencia in sui dispositione non fallitur</incipit>
+                        <explicit locusNew="1r">Datur in domo nostra de <name type="place">Thinereto</name> anno
+                            natiuitatis christi mill<abbr rend="superscript">o</abbr>. ccc. die dominica post
+                                <supplied>festum</supplied> assumptionis beate <name type="person"
+                            >marie</name></explicit>
+                        <incipit locusNew="1r"><name type="person">Aaron</name>. quod Aaron sacerdocium
+                            approbatur</incipit>
+                        <ab>In alphabetical order. Each letter has a <decoNote>handsome initial in red or blue filled
+                                with penwork: smaller initials are of the same kind</decoNote>. There are marginal notes (<supplied>
+                                <origDate>xv</origDate>
+                            </supplied> etc.)</ab>
+                        <ab>Ends with Zizania</ab>
+                        <explicit locusNew="244r">s. c. ti. de malo</explicit>
+                        <rubric locusNew="244r">Sit nomen domini Benedictum amen</rubric>
+                        <ab>There follows a list of the articles in four columns to a page, ending</ab>
+                        <rubric locusNew="246v">Explicit tabula inuentarii domini <name type="person">R. dei gracia
+                                Tusculani Episcopi Cardinalis</name>. Deo gracias</rubric>
+
+                    </msItem>
+
+
+
+
+
+                </msContents>
+
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text:copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, CF</p>
+                            <p>msCheck: NJC 11.4.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

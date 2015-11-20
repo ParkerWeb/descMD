@@ -1,0 +1,130 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC350">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>350</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>8. 6</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>319</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Thomas Rudbourne OSB, Historia maior de fundatione ecclesiae Wintoniensis</head>
+                <head type="James">T. Rudburne</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">301</height>
+                        <width unit="mm">213</width>
+                    </measureGrp><measureGrp type="James">12 x 8.5</measureGrp>, <extent>pp. 438</extent>. Cent.
+                        <origDate>xvi</origDate>, <handNote>well written</handNote>.</p>
+
+
+                <p function="Additions">
+                    <supplied>A loose leaf found after p. 212 is now attached to the front inner board.</supplied>
+                </p>
+
+                <p type="CCC">
+                    <foliation>ff. a (loose leaf) + i-iii + pp. 1-438 + ff. iv-v</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1" locusEnd="438">
+
+
+                        <head type="CCC"><name type="author">Thomas Rudbourne OSB</name>, <title>Historia maior de
+                                fundatione <name type="place">ecclesiae Wintoniensis</name></title></head>
+
+                        <head type="Nasmith">
+                            <title>Historia major <name type="author">Thomae Rudburn</name></title>
+                        </head>
+
+                        <ab>
+                            <quote>Incipit in medio capitis secundi et desinit in anno 8<abbr rend="superscript"
+                                    >o</abbr>
+                                <name type="person">regis Stephani</name>
+                                <date>1142</date></quote>
+                        </ab>
+
+                        <ab>Begins imperfectly:</ab>
+                        <incipit locusNew="1">tana que lingua Britannica kaergwent (blank) a flamen dicitur</incipit>
+                        <ab>(<ref type="bibl" target="Wharton 1691a">Wharton, <hi rend="italic">Anglia Sacra</hi> I
+                                181</ref>)</ab>
+
+
+                        <ab>Ends imperfectly (in <name type="person">Stephen</name>)</ab>
+
+                        <explicit locusNew="438">qui mallent equitationum discursus quam pacem. preterea plures
+                            illorum</explicit>
+
+                        <ab>Note added: Aliud exemplar habet <name type="person">Gulielmus (Sancroft) Archiepiscopus
+                                Cantuariensis</name> Anno Domini <date>1683</date></ab>
+
+
+                        <ab>This is a transcript from the imperfect <ref type="ms" target="LAM183">Lambeth MS. no.
+                                183</ref>, itself a paper book of cent. <date>xv</date></ab>
+
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJC 8.10.07</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

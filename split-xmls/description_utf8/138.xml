@@ -1,0 +1,552 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC138">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>138</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>E. 11</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>53</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Chronicles, Various</head>
+                <head type="James">Chronica varia</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">300</height>
+                        <width unit="mm">215</width>
+                    </measureGrp><measureGrp type="James">11.8 x 8.25</measureGrp>, <extent>ff. 106 + 3</extent>,
+                        <layout>double columns of 43 and 54 lines</layout>. Cent. <origDate>xiv</origDate>, <handNote>in
+                        a very rough but clear hand</handNote>. </p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf: 1 quire gone, 2<num>10</num> 3<num>8</num> 4<num>8</num> 5<num>10</num>
+                            6<num>12</num> 7<num>14</num> (10 canc.) 8 (two) 9<num>12</num> (wants 9) | 10<num>6</num> |
+                            11<num>4</num> 12<num>4</num> 13<num>8</num> 14<num>4</num> (+ 1 after 1st and 1 after 4th)
+                            15<num>6</num></collation>.</p>
+
+
+
+                <p function="Additions">On the flyleaf <supplied>(f. <locus>ir</locus>)</supplied> is a table made for
+                        <name type="person">Parker</name>, at the end is: <q><name type="person">Robertus Recorde</name>
+                        erat qui notauit hunc librum characteribus Saxonicis</q>. This alludes to various extracts from
+                    the Anglo-Saxon Chronicle written in <handNote>a neat <date>xvi</date>th century hand</handNote> on
+                    the margins of the earlier leaves. Recorde was Fellow of <name type="place">All Souls'</name> in
+                        <date>1531</date>, M.D. Cambridge <date>1545</date>, d. <date>1558</date>.</p>
+
+                <p function="Provenance">The book seems to be from <name type="place">Norwich</name>: see later. It
+                    seems to be mentioned in <ref type="bibl" target="Bale 1902">Bale, Index</ref>, p. 94, s.v. Gildas.
+                    Many references to <name type="person">Recorde</name>'s <q>Museum</q> occur in the Index.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i + 1-97 + 97a-d + 98-100 + 100a + 101-106 + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="63v">
+                        <head type="CCC">
+                            <title>Epitome of the history of <name type="place">Britain</name> from the birth of Christ
+                                to the year <date>1255</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Alexandri Essebiensis</name> epitome historiae <name type="place"
+                                    >Britanniae</name> a Christo nato ad annum <date>1255</date></title>
+                        </head>
+
+                        <ab>
+                            <quote>Ad initium hujus historiae desunt fol. 10</quote>
+                        </ab>
+
+                        <ab>Ten leaves are missing. <name type="person">Parker</name>'s paging begins with 21</ab>
+                        <ab>Text begins</ab>
+                        <rubric locusNew="1r">Anno gracie <date>75</date></rubric>
+                        <incipit locusNew="1r"><name type="person">Rex pictorum rodricus</name> de <name type="place"
+                                >sithia</name> ueniens in aquilonalem <name type="place">britannie</name>
+                            partem</incipit>
+                        <ab>Ends in <date>1257</date></ab>
+                        <explicit locusNew="63v"><name type="person">Ricardus frater <name type="person">regis
+                                    henrici</name></name> ... solenniter aquis grani coronatur</explicit>
+                        <ab>
+                            <q>Apparently an abridgment of <name type="person">Matt. Paris</name> ... There does not
+                                seem to be anything in the piece that gives authority for assigning it to <name
+                                    type="person">Alexander of Esseby</name>.</q>
+                            <ref type="bibl" target="Hardy 1871">Hardy III 145</ref>
+                        </ab>
+
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="64r" locusEnd="70r">
+                        <head type="CCC"><name type="author">Roger of Howden</name>, <title>Chronica (excerpts
+                                    <date>1066</date>-<date>1201</date>)</title></head>
+                        <head type="Nasmith">
+                            <title>Excerptiones de chronicis <name type="author">Rogeri Hoveden</name> ab anno
+                                    <date>1066</date> ab annum <date>1201</date></title>
+                        </head>
+                        <ab>Begins</ab>
+                        <rubric locusNew="64r"><date>1077</date>. <name type="person">haraldus</name></rubric>
+                        <incipit locus="147" locusNew="64r"><name type="person">Rex norwegie haraldus</name> cum plus
+                            quam 500 nauibus</incipit>
+                        <ab>Ends with a letter of Christ recited by <name type="person">Abbot Eustace (of Fleix)</name>
+                            in <date>1201</date></ab>
+                        <explicit locusNew="70r">ut fere deuorabunt. Et cetera nonnulla de eodem scripto retulit palam
+                            Abbas ille</explicit>
+                        <rubric locusNew="70r">Explicit excerpciones de cronicis <name type="author">Rogeri de
+                                houedene</name></rubric>
+                        <ab>Mentioned by <ref type="bibl" target="Stubbs 1868">Stubbs, Hoveden I lxxxiv</ref>, <ref
+                                type="bibl" target="Hardy 1871">Hardy III 15</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="70r" locusEnd="71v">
+                        <head type="CCC">
+                            <title>Letters between masters of the <name type="place">University of Paris</name> and
+                                Popes <name type="person">John XXII</name> and <name type="person">Benedict XII</name>
+                                concerning the status of the soul after death, A. D. <date>1333</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Epistolae inter <name type="place">Parisienses</name> doctores ad mandatum <name
+                                    type="person">Philippi regis Francorum</name>, et <name type="person">Ioannem
+                                    XXII</name>, et <name type="person">Benedictum XII</name>. papas de statu animarum
+                                post mortem A. D. <date>1333</date></title>
+                        </head>
+
+                        <ab>Added later by the original scribe</ab>
+                        <ab>
+                            <hi rend="bold">a.</hi>
+                        </ab>
+                        <ab locus="157" locusNew="70r"><name type="person">Johanni</name> ... <name type="person">Petrus
+                                patriarcha Ierosol.</name> etc.</ab>
+                        <ab>
+                            <hi rend="bold">b.</hi>
+                        </ab>
+                        <ab locusNew="70v"><name type="person">Johannes</name>. Ne super hiis que de animabus</ab>
+                        <ab>
+                            <hi rend="bold">c.</hi>
+                        </ab>
+                        <ab locusNew="71r"><name type="person">Benedictus</name>. Benedictus deus in donis suis</ab>
+                    </msItem>
+
+                    <msItem n="4" locusStart="71v" locusEnd="71v">
+
+                        <head type="CCC">
+                            <title>Charter of <name type="person">Richard I</name> concerning the renunciation of the
+                                homage of the King of <name type="place">Scotland</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Carta <name type="person">Ricardi I</name>. de renuntiatione homagii regis <name
+                                    type="place">Scotiae</name></title>
+                        </head>
+
+                        <ab>Added later by the original scribe</ab>
+                        <ab>Mutilated by loss of leaf</ab>
+                    </msItem>
+
+                    <msItem n="5" locusStart="72r" locusEnd="72r">
+                        <head type="CCC">
+                            <title>Chronological and historical notes on the period <date>1329</date> to
+                                    <date>1347</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Breves notae chronologicae et historicae ab anno <date>1329</date> ad annum
+                                    <date>1347</date></title>
+                        </head>
+                        <ab><handNote>In another hand</handNote>, begins imperfectly</ab>
+                        <incipit locus="161" locusNew="72r">aduentus domini. <name type="person">edwardus
+                                secundus</name> apud <name type="place">glouerniam</name> sepelitur</incipit>
+                        <ab>Ends <date>1347</date></ab>
+                        <explicit locusNew="72r"><name type="person">Thomas dagword</name> circa nativitatem Johanni
+                            baptiste <name type="person">carolum de bloys</name> in bello cepit</explicit>
+
+                    </msItem>
+
+                    <msItem n="6" locusStart="72v" locusEnd="72v">
+                        <head type="CCC">
+                            <title>Genealogical diagram indicating <name type="person">Edward III</name>'s claim to the
+                                French throne</title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>Stemma genealogicum <name type="person">Sancti Ludovici regis Franciae</name> ad
+                                ostendendum jus <name type="person">Edwardi III</name>. in <name type="place">regnum
+                                    Franciae</name></title>
+                        </head>
+
+                        <ab>
+                            <handNote>In the original hand</handNote>
+                        </ab>
+                        <ab><locus>73r</locus>-<locus>74v</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="7" locusStart="75r" locusEnd="80r">
+                        <head type="CCC"><name type="author">William of Jumičges OSB</name>, <title>Gesta Normannorum
+                                ducum (excerpts)</title></head>
+                        <head type="Nasmith">
+                            <title>Excerptiones de historia <name type="author">Wilhelmi Gemiticensis</name> de gestis
+                                ducum <name type="place">Normannorum</name></title>
+                        </head>
+
+                        <incipit locus="167" locusNew="75r"><name type="person">lapheth</name> enim <name type="person"
+                                >noe</name> filius genuit filium quem <name type="person">magog</name>
+                            nominauit</incipit>
+                        <ab>Ends</ab>
+                        <explicit locusNew="80r">hos per normannica compita dispergeret uiolancia dire
+                            captiuitatis</explicit>
+                        <ab>Follows <handNote>in a little later hand</handNote></ab>
+                        <incipit locus="177" locusNew="80r">Fuit enim apud <name type="place">damascum metropolim
+                                sirie</name> quedam matrona (<name type="person">S. Mary of Sardenay</name>)</incipit>
+                        <ab>Unfinished, <locus>80v</locus> blank</ab>
+                        <ab>Mentioned by <ref type="bibl" target="Hardy 1865">Hardy II 18</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="8" locusStart="81r" locusEnd="84v">
+                        <head type="CCC">
+                            <title>Liber Vasilographus (excerpts); Prophecies</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Liber extractus de libro qui dicitur Vanlographo i. e. imperialis scriptura, quam
+                                    <name type="person">Sibilla Erithea Babilonica</name> condidit ad petitionem
+                                Graecorum, ipsa <name type="person">Priami regis Trojae</name> filia; quem <name
+                                    type="person">Vedoxa peritissimus pater</name> in Graecum transtulit de Caldeo;
+                                tandem de errario <name type="person">Emanuelis imperatoris Graecorum</name> editum
+                                    <name type="person">Eugenius</name>
+                                <name type="place">regni Siciliae</name> admiratus de Graeco transtulit</title>
+                        </head>
+                        <ab>
+                            <hi rend="bold">a.</hi>
+                        </ab>
+                        <incipit locus="179" locusNew="81r">Exquiritis me o illustrissima turba danaum</incipit>
+                        <ab>(<ref type="bibl" target="Alexandre 1853">Alexandre, Oracula Sibyllina II 291</ref>)</ab>
+                        <ab>With some interlinear glosses</ab>
+                        <explicit locusNew="82v">hos autem in sorte demonum uoret <name type="place"
+                            >auernus</name></explicit>
+                        <rubric locusNew="82v">Explicit liber <name type="person">sibille erithee
+                            babilonice</name></rubric>
+                        <ab>Another copy with the same title in <ref type="ms" target="CUL116">University Library
+                                Mm.1.16</ref></ab>
+                        <ab>Vanlographus is Vasilographus. <name type="person">Vedoxa peritissimus pater</name> is
+                            corrupt for <name type="person">Doxapater</name>: on <name type="person">Nilus
+                                Doxapatrius</name> see <ref type="bibl" target="Rendel Harris 1893">Rendel Harris, The
+                                Ferrar Group</ref></ab>
+                        <ab>
+                            <hi rend="bold">b.</hi>
+                        </ab>
+                        <ab>Another prophecy</ab>
+                        <incipit locus="182" locusNew="82v">Deinde leopardus ex illis procreabitur qui regnum bestie
+                            inuadendo</incipit>
+                        <explicit locusNew="83r">ante sepulcrum domini gladium uibrabit</explicit>
+                        <ab>
+                            <hi rend="bold">c.</hi>
+                        </ab>
+                        <ab>
+                            <handNote>In a larger hand</handNote>
+                        </ab>
+                        <incipit locus="183" locusNew="83r">Prophetia cuiusdam spiritus phitonici in <name type="place"
+                                >Cambria</name></incipit>
+                        <incipit locusNew="83r">Catulus leenicus in lupum rapidum conuertetur</incipit>
+                        <explicit locusNew="83r">promerebitur fauorem altissimi et ad superos conuolabit</explicit>
+                        <ab>(Note in lower margin. <q>A.d. <date>1365</date> redibit tota <name type="place"
+                                    >grecia</name> ad obedienciam romanorum et tunc audietur noua de predicacione
+                                antichristi. hoc reperitur secundum <name type="person">loachim</name> in maiori (?)
+                                libro de concordanciis</q>)</ab>
+                        <rubric locusNew="83r">Versus normanniae uaticinales</rubric>
+                        <ab>(13)</ab>
+                        <incipit locus="183" locusNew="83r"><name type="place">Anglia</name> transmittet leopardum.
+                            lilia galli</incipit>
+                        <explicit locusNew="83r">Imperium mundi sibi quo dabit huic heremita</explicit>
+                        <ab>Versus <name type="person">Alani</name> uiri sancti et religiosi de eodem 6<abbr
+                                rend="superscript">o</abbr></ab>
+                        <ab>
+                            <lg>
+                                <l>Illius imperium gens barbara senciet. illum</l>
+                                <l>Roma uolet tanto principe digna regi</l>
+                                <l>Conferet hic rome plus laudis quam sibi <name type="place">roma</name></l>
+                                <l>Plus dabit hic orbi quam dabit orbis ei</l>
+                            </lg>
+                        </ab>
+
+                        <ab>Versus <name type="author">Gilde</name> de sexto <name type="place">hibernie</name></ab>
+                        <ab>
+                            <lg>
+                                <l>Ter tria lustra tenet cum semi tempore sexti</l>
+                                <l>Ens uagus in primo perdet. sed fine resumet</l>
+                                <l>Multa rapit medio. uolitans sub fine secundi</l>
+                                <l>Orbem submittet. reli(quo)s clerumque reducet</l>
+                                <l>Ad statum primum. tunc renouat loca sancta</l>
+                                <l>Huic terrena spuens sanctus sub ethere scandet.</l>
+                            </lg>
+                        </ab>
+                        <ab locus="183" locusNew="83r">Prediction of planetary conjunctions and their consequences for
+                                <date>October 1365</date>, <date>June 1357</date></ab>
+
+                    </msItem>
+
+                    <msItem n="9" locusStart="84r" locusEnd="84r">
+                        <head type="CCC">
+                            <name type="author">Iohannes de Rupescissa OFM (attrib.)</name>, <title>Prophecies</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Nonnulla alia ejusdem farinae ex <name type="author">Ioanne de
+                                Rupescissa</name></title>
+                        </head>
+
+                        <rubric locus="183" locusNew="84r">Verba <name type="author">fratri Johannis de Rupe(s)cissa
+                                ord. min.</name> de futuris euentibus etc. abreuiata de libro qui intitulatur ostensor
+                            futurorum</rubric>
+                        <ab>Referring to the years <date>1350</date> and following</ab>
+
+                    </msItem>
+
+                    <msItem n="10" locusStart="85r" locusEnd="88v">
+                        <head type="CCC"><name type="author">Philip of Clairvaux OCist</name>, <title>Vita <name
+                                    type="person">Sanctae Elizabethae de Spalbec</name></title></head>
+
+                        <head type="Nasmith">
+                            <title>Narratio quaedam de virgine in <name type="place">territorio Leodiensi</name>, quae
+                                miracula multa fecit, scripta per <name type="author">Philippum de
+                                Claraeval</name></title>
+                        </head>
+
+                        <rubric locusNew="85r">De <name type="person">Sancta Elisabetha virgine</name></rubric>
+                        <ab locus="185" locusNew="85r">A <date>xvi</date>th century note: angelus malus transfigurat se
+                            in angelum lucis</ab>
+                        <incipit locus="185" locusNew="85r">Quoniam ut legitur in ecclesiastico 43. gloria domini plenum
+                            est opus eius</incipit>
+
+                        <ab>(By <name type="author">Philip of Clairvaux</name>. <ref type="bibl"
+                                target="Bollandists 1898-99">BHL. 2484</ref>)</ab>
+                        <explicit locusNew="85r">non possumus non loqui</explicit>
+                        <incipit locusNew="85r">Porro in <name type="place">territorio leodicensi</name></incipit>
+                        <ab>(<name type="place">Abbey of Herkenrode</name>)</ab>
+                        <explicit locusNew="88v">occupacionum necessitas necessario claudit stilum</explicit>
+
+                        <ab locus="192" locusNew="88v">Another copy of no. 6: but rougher</ab>
+
+                    </msItem>
+
+                    <msItem n="11" locusStart="89r" locusEnd="97cr">
+
+                        <head type="CCC">
+                            <title>History of the bishops of <name type="place">Lindisfarne</name> and <name
+                                    type="place">Durham</name> from <name type="person">Aidan</name> to <name
+                                    type="person">Richard de Bury</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Brevis historia episcoporum <name type="place">Lindisfarnensium</name> et <name
+                                    type="place">Dunelmensium</name> ab <name type="person">Aidano</name> ad <name
+                                    type="person">Ricardum de Bury</name></title>
+                        </head>
+
+                        <incipit locusNew="89r">Anno dominice incarnatione <date>635</date> aduentus anglorum in <name
+                                type="place">britanniam</name></incipit>
+                        <ab>From <name type="person">Aidan</name> to the election of <name type="person">Robert de
+                                Graystanes</name>, <date>1333</date></ab>
+                        <ab>Ends</ab>
+                        <explicit locus="210" locusNew="97v">unde omnes <name type="person">Ricardo de Bury</name>
+                            obedienciam iurauerunt</explicit>
+                        <ab>Four small leaves of paper are here inserted <supplied>(ff.
+                                    <locus>97ar</locus>-<locus>97dv</locus>)</supplied>, of cent. <date>xvi</date>,
+                            containing an account of <name type="person">Richard de Bury</name></ab>
+
+                        <incipit locusNew="97ar"><name type="person">Richardus de Bury</name> fuit sufficienter
+                            literatus in regendo familiam distinctus</incipit>
+                        <explicit locusNew="97ar">ad australem angulum <name type="place">dunelm ecclesie</name>
+                            tumulatus</explicit>
+                        <incipit locusNew="97ar">Hec in tabula. Que iam sequuntur narrauit <name type="person">Willelmus
+                                de Chambr.</name>
+                            <name type="person">Richardus de Bury</name> natus fuit in quadam villula</incipit>
+                        <explicit locus="5" locusNew="97cr">monachos <name type="place">dunelmensis ecclesie</name>
+                            semper habuit in maximo honore</explicit>
+                        <ab>ff. <locus>97cv</locus>-<locus>97dv</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="12" locusStart="98r" locusEnd="99v">
+                        <head type="CCC"><name type="author">Thomas Stubbs OP (attrib.)</name>, <title>Chronica
+                                pontificum <name type="place">ecclesiae Eboracensis</name></title></head>
+                        <head type="Nasmith">
+                            <title>Successio episcoporum <name type="place">Eboracensium</name></title>
+                        </head>
+
+                        <incipit locus="211" locusNew="98r">Tempore quo gens northanhimbrorum cum suo <name
+                                type="person">rege edwino</name></incipit>
+                        <ab>Goes down to <name type="person">Thurstinus</name>
+                            <date>1140</date></ab>
+                        <explicit locusNew="99v">in fine uite sue decreuit</explicit>
+                        <ab>A fuller text in <ref type="bibl" target="Raine 1886">Raine, <hi rend="italic">Historians of
+                                    the Church of York</hi> (Rolls) II 513</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="13" locusStart="99v" locusEnd="100ar">
+                        <head type="CCC">
+                            <title>Bull of <name type="author">Pope Clement V</name>, 'Regnans in caelis', <date>12
+                                    August 1308</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Processus contra templarios</title>
+                        </head>
+                        <incipit locus="214" locusNew="99v"><name type="person">Clemens episcopus</name> etc. Regnans in
+                            celis</incipit>
+                        <ab>It is a copy of the Bull, ending (lower margin cut)</ab>
+                        <explicit locusNew="100v">gemendi materia fletum non (?)</explicit>
+                        <ab>Here is inserted a small leaf of vellum with entries in three hands of cent.
+                                <origDate>xiii</origDate></ab>
+                        <ab>
+                            <hi rend="bold">(a)</hi>
+                        </ab>
+                        <incipit locusNew="100ar">Concessimus Domino Priori et Conuentui <name type="place"
+                                >Cantuarie</name> plenariam societatem ecclesie nostre etc.</incipit>
+                        <explicit locusNew="100ar">Et sciendum quod occasione huius societatis et concessionis
+                            archiepiscopi cantuariensis in <name type="place">ecclesia norwici</name> uel episcopi
+                            norwicensis in <name type="place">ecclesia cantuarie</name> iurisdictionem nullam uel
+                            potestatem sibi poterunt uendicare plusquam prius habuisse dinoscuntur</explicit>
+                        <ab>
+                            <hi rend="bold">(b)</hi>
+                        </ab>
+                        <incipit locusNew="100ar">Concessimus singulis monachis <name type="place">S. Benedicti de
+                                Hulmo</name> iii missas etc.</incipit>
+                        <ab>
+                            <hi rend="bold">(c)</hi>
+                        </ab>
+                        <incipit locusNew="100ar">Concessimus <name type="place">abbati et conuentui de Bello</name>
+                            plenariam societatem domus nostre etc.</incipit>
+                        <ab>The end of (a) points to <name type="place">Norwich</name> as the source of this leaf, and I
+                            have no reason for thinking that the leaf has not been in the volume for a long period. The
+                            verso is blank</ab>
+
+                    </msItem>
+
+                    <msItem n="14" locusStart="101r" locusEnd="105r">
+                        <head type="CCC">
+                            <title>History of <name type="place">England</name> from the coming of the Saxons to the
+                                reign of <name type="person">Henry II</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Brevis historia <name type="place">Angliae</name> ab adventu Saxonum ad <name
+                                    type="person">Henricum II</name>.</title>
+                        </head>
+
+                        <ab>
+                            <hi rend="bold">(a)</hi>
+                        </ab>
+                        <ab locus="217" locusNew="101r">Descent from <name type="person">Adam</name> to <name
+                                type="person">Woden</name>: and descents of the kings of the Heptarchy from <name
+                                type="person">Woden</name></ab>
+                        <ab>
+                            <hi rend="bold">(b)</hi>
+                        </ab>
+                        <incipit locusNew="101r"><name type="place">Britannia</name> insula a quodam romano nomine <name
+                                type="person">bruto</name> dicta</incipit>
+                        <ab>Ends</ab>
+                        <explicit locusNew="105r">Cui successit <name type="person">henricus</name> filius <name
+                                type="person">galfridi comitis andegauensis</name> et <name type="person">matilde
+                                imperatricis</name> filie <name type="person">regis henrici</name>. qui duxit in uxorem
+                            alienoram reginam francie filiam ducis aquitanie</explicit>
+                        <ab>A column and a bit blank</ab>
+
+                    </msItem>
+
+                    <msItem n="15" locusStart="105v" locusEnd="106v">
+                        <head type="CCC">
+                            <title>Letters between <name type="author">Pope Innocent VI</name> and <name type="author"
+                                    >Edward, prince of Wales</name> concerning peace, A.D. <date>1355</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistolae inter <name type="person">Innocentium papam VI</name>. et <name
+                                    type="person">Edwardum principem Walliae</name> de pace A. D.
+                                <date>1355</date></title>
+                        </head>
+                        <ab>
+                            <handNote>In a larger hand</handNote>
+                        </ab>
+                        <ab>(a)</ab>
+                        <ab locus="226" locusNew="105v"><name type="person">Innocencius</name> ... <name type="person"
+                                >edwardo ... principi Wallie</name></ab>
+                        <ab>
+                            <name type="place">Avignon</name>
+                            <date>5 Nonas Octobris 3rd year of pontificate</date>
+                        </ab>
+                        <ab>(b)</ab>
+                        <ab>To the same. <name type="place">Avignon</name>
+                            <date>14 kalendas Novembris 4th year</date></ab>
+                        <ab>(c)</ab>
+                        <ab><name type="person">Edward</name> to <name type="person">Innocent</name></ab>
+                        <incipit locusNew="106r">Humili recommendacione prehabita seipsum paratissimum cum omni
+                            reuerencia filiali</incipit>
+                        <explicit locusNew="106v">per tempora longiora. Dat. etc. Deuotissimus filius uester <name
+                                type="person">Edwardus princeps Wallie</name></explicit>
+
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJC 27.11.07 </p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

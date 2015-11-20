@@ -1,0 +1,302 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC068">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>68</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>N. 3</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>167</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Theological Works, mostly on the Offices, by Cassiodorus, Isidore, and others</head>
+
+                <head type="James">Cassiodorii, Isidori, Amalarii, Ivonis quaedam</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">301</height>
+                        <width unit="mm">208</width>
+                    </measureGrp><measureGrp type="James">11.8 x 8.2</measureGrp>, <extent>ff. 134</extent>,
+                        <layout>double columns of 50 lines</layout>. Cent. <origDate>xv (1432)</origDate>, <handNote>in
+                        a rather broken but clear hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a, b gone | c<num>8</num> d<num>8</num> (wants 8 blank) e<num>8</num>-t<num>8</num>
+                        (wants 8)</collation>.</p>
+
+                <p><label>fol. penult.:</label>
+                    <q>gemma non</q>.</p>
+
+                <p><label>2 fo.:</label>
+                    <supplied>
+                        <secFol>ueremus ne</secFol>
+                    </supplied>.</p>
+
+                <p function="Additions">On f. <locus>1r</locus>: <q>hunc librum misit <name type="person">d.
+                            perne</name>. <date>5 Sept. 1567</date></q></p>
+
+
+                <p function="Provenance">Belonged to <name type="person" key="WaCr01">Walter Crome</name> of <name
+                        type="place">Gonville Hall</name>, who gave several books to that foundation and to the
+                    University Library (<ref type="bibl" target="Venn 1897">Venn I 6</ref>).</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-134 + iii-iv</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+                    <msItem n="0" locusStart="1r" locusEnd="1r">
+
+                        <head type="CCC">
+                            <title>Gelasian decree de libris recipiendis</title>
+                        </head>
+
+                        <ab>Begins with the end of the Gelasian decree de libris recipiendis etc.</ab>
+
+
+                        <incipit locusNew="1r"><name type="person">Arrius</name>
+                            <name type="person">macedonius</name>
+                            <name type="person">eunormus</name> (!) <name type="person">nouarus</name> (!) <name
+                                type="person">sabbatinus</name> etc.</incipit>
+                        <explicit locusNew="1r">in eternum confitemur esse dampnata</explicit>
+                        <rubric locusNew="1r">Explicit epistola <name type="person">gelasii pape</name></rubric>
+
+                    </msItem>
+
+                    <msItem n="1" locusStart="1r" locusEnd="12r">
+
+                        <head type="CCC"><name type="author" key="Cass01">Cassiodorus Senator</name>, <title>De
+                                institutionibus diuinarum scripturarum</title></head>
+
+
+                        <rubric locus="1r">Incipit prefatio <name type="author">cassiodori senatoris</name> de
+                            institucione diuinarum litterarum</rubric>
+                        <ab>(<ref type="bibl" target="Migne 070">P. L. LXX 105</ref>)</ab>
+                        <incipit locusNew="1r">Cum studia secularium literarum</incipit>
+                        <explicit locus="2r">est breuiter intimatum</explicit>
+                        <ab locus="2r">Capitula</ab>
+                        <ab>Text</ab>
+                        <incipit locusNew="2r">Primus scripturarum diuinarum codex</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="12v">pro uobis inuicem pio domino supplicemus. Amen</explicit>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="12v" locusEnd="15v">
+
+                        <head type="CCC"><name type="author" key="ThOr01">Theodulf of Orléans</name>, <title>De ordine
+                                baptismatis (De sacramento baptismatis)</title></head>
+
+                        <rubric locus="12v">Incipit prefatio <name type="person">Sancti Ysidori</name> in libro de
+                            sacramento baptismatis</rubric>
+                        <incipit locusNew="12v">Reuerentissimo atque karissimo</incipit>
+                        <explicit locusNew="12v">exhibicione triumphat</explicit>
+                        <rubric locusNew="12">Explicit prefatio</rubric>
+
+                        <ab>Capitula 13</ab>
+                        <ab>Text</ab>
+                        <incipit locusNew="12">Quod modo infantes cathecumini</incipit>
+                        <ab>(<ref type="bibl" target="Migne 105"><supplied>P. L.</supplied> CV 224</ref>)</ab>
+                        <ab>Ends</ab>
+
+                        <explicit locus="15r">quibus in sepulchro dominus fuisse legitur preteritur. Amen</explicit>
+                        <ab>Scribbled (in <name type="person" key="WaCr01">Walter Crome</name>'s hand): <q><name
+                                    type="person">Isodorus</name> de sacramento baptismi quod <name type="person"
+                                    >Crome</name></q></ab>
+                        <ab>f. <locus>15v</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="16r" locusEnd="31v">
+
+                        <head type="CCC"><name type="author" key="IsSe01">Isidore of Seville</name>, <title>De
+                                ecclesiasticis officiis</title></head>
+
+                        <ab locusNew="16r">Title scribbled at top by <name type="person" key="WaCr01">Crome</name>.</ab>
+                        <rubric locus="16r">Incipit epistola <name type="author">ysidori hispalensis
+                                archiepiscopi</name> in libro primo de ecclesiasticis officiis</rubric>
+
+                        <ab>(<ref type="bibl" target="Migne 083"><supplied>P. L.</supplied> LXXXIII 737</ref>)</ab>
+                        <incipit locusNew="16r">Domino meo <supplied>et dei seruo</supplied>
+                            <name type="person">fulgencio</name></incipit>
+                        <explicit locusNew="16r">testificacio adhibetur auctorum</explicit>
+                        <ab>Capitula</ab>
+                        <ab>Text</ab>
+                        <incipit locusNew="16r">Ea que in officiis</incipit>
+
+                        <seg>
+                            <ab locus="22v">Liber II</ab>
+                        </seg>
+                        <ab>ends</ab>
+                        <explicit locus="31v">ut sermo noster promittis sententiis firmaretur</explicit>
+                        <rubric locusNew="31v">Deo gracias. Orate pro scriptore</rubric>
+                        <rubric locusNew="31v">Explicit epistola <name type="author">ysidori hispalensis
+                                archiepiscopi</name> de ecclesiasticis officiis per <name type="person"
+                                >tielmannum</name> filium clewardi clericum traiectensis dyocesis anno domini <date
+                                when-iso="1432">m.cccc. et xxxii<abbr rend="superscript">o</abbr> 17<abbr
+                                    rend="superscript">a</abbr> die mensis marcii</date></rubric>
+                        <ab locusNew="31v">In red below <q>hic interserantur quaterni duo</q>.</ab>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="32r" locusEnd="111r">
+
+                        <head type="CCC"><name type="author">Rupert of Deutz OSB</name>, <title>De diuinis
+                                officiis</title></head>
+
+                        <ab>Prohemium</ab>
+                        <incipit locusNew="32r">Ea (written La) que per anni circulum</incipit>
+                        <ab>(<ref type="bibl" target="Migne 170"><supplied>P. L.</supplied> CLXX 11</ref>)</ab>
+                        <explicit locusNew="32r">unde causas institucionis acceperint iam dicendum est</explicit>
+
+                        <ab>Capitula</ab>
+                        <ab>Text</ab>
+                        <incipit locus="32v">Septem canonicas horas diei</incipit>
+                        <ab locus="37r">Liber II</ab>
+                        <ab locus="43r"><supplied>Liber</supplied> III</ab>
+                        <ab locus="51r"><supplied>Liber</supplied> IV</ab>
+                        <ab locus="60r"><supplied>Liber</supplied> V</ab>
+                        <ab locus="68r"><supplied>Liber</supplied> VI</ab>
+                        <ab locus="75r"><supplied>Liber</supplied> VII</ab>
+                        <ab locus="78r"><supplied>Liber</supplied> VIII</ab>
+                        <ab locus="81r"><supplied>Liber</supplied> IX</ab>
+                        <ab locus="88v"><supplied>Liber</supplied> X</ab>
+                        <ab locus="94r"><supplied>Liber</supplied> XI</ab>
+                        <ab locus="101r"><supplied>Liber</supplied> XII</ab>
+                        <ab locus="106v"><supplied>Liber</supplied> XIII</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="110v">quanto occulcior pugna tanto difficilior uictoria est. Amen</explicit>
+                        <rubric locus="111r">Explicit liber <name type="person">ysidori yspalensis episcopi</name> de
+                            ecclesiasticis institucionibus</rubric>
+                    </msItem>
+
+
+
+                    <msItem n="5" locusStart="111r" locusEnd="120v">
+                        <head type="CCC">
+                            <name type="author">William of Malmesbury</name>, <title>Abbreviatio Amalarii, an
+                                abridgement of <name type="author" key="AmMe01">Amalarius of Metz</name>, De
+                                ecclesiasticis officiis</title>
+                        </head>
+
+                        <rubric locus="111r">Incipit prefatio <name type="author">Wilhelmi</name> in abbreuiacione <name
+                                type="author">amelarii</name></rubric>
+                        <incipit locusNew="111r">In historicis nos narracionibus occupatos detorsit a proposito tua
+                                <name type="person">roberte</name> amice uoluntas</incipit>
+                        <ab>(<ref type="bibl" target="Migne 179"><supplied>P. L.</supplied> CLXXIX 1771</ref>)</ab>
+                        <explicit locusNew="111r">in <name type="author">amalarium</name> qui catholice de talibus
+                            scripsit animum intende</explicit>
+                        <ab>Capitula</ab>
+                        <ab>Text</ab>
+                        <incipit locusNew="111r">Antiquus ecclesie mos fuit iam inde ab apostolorum seruatus
+                            temporibus</incipit>
+                        <ab locus="116r">Liber II</ab>
+                        <ab locus="119v"><supplied>Liber</supplied> III</ab>
+                        <ab>ends</ab>
+                        <explicit locus="120v">nemo certe pericius</explicit>
+                        <rubric locusNew="120v">Explicit <name type="author">Wilhelmus</name> in abbreuiacione <name
+                                type="author">amelarii</name></rubric>
+                        <ab>Other MSS. of this work are <ref type="ms" target="LAM380">Lambeth 380</ref> and <ref
+                                type="ms" target="OAS28">All Souls' College 28</ref>. The prologue is printed from the
+                            latter by <ref type="bibl" target="Stubbs 1887">Bishop Stubbs (in W. Malmesbury Gesta Regum
+                                I cxxviii</ref>)</ab>
+
+                    </msItem>
+
+                    <msItem n="6" locusStart="121r" locusEnd="134r">
+
+                        <head type="CCC">
+                            <title>A composite work formed from <name type="author">Drogo of Laon</name>, <title>De
+                                    diuinis officiis</title>, and <name type="author">Bernold of Constance</name>,
+                                    <title>Micrologus</title></title>
+                        </head>
+
+                        <ab locus="121r">Capitula</ab>
+                        <ab>Text</ab>
+                        <incipit locusNew="121r">Dominus filios israel de dura seruitute <name type="place"
+                                >egipti</name></incipit>
+
+                        <ab>(<ref type="bibl" target="Migne 166"><supplied>P. L.</supplied> CLXVI 1557</ref>)</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="134r">non deuocioni ascribitur</explicit>
+                        <rubric locusNew="134r">Explicit liber <name type="person">yuonis carnotensis episcopi</name> de
+                            officiis ecclesiasticis</rubric>
+                        <rubric locusNew="134r">Finito libro sit laus et gloria Christo</rubric>
+                        <rubric locusNew="134r">Explicit expliciat qui plus uult scribere scribat</rubric>
+                        <rubric locusNew="134r">Explicit lectura de ecclesiasticis officiis incho(a)ta ac completa per
+                            manum <name type="person">Tielmanni</name> filii clewardi clerici traiectensis dyocesis anno
+                            domini <date when-iso="1432">m<abbr rend="superscript">o</abbr> ccc<abbr rend="superscript"
+                                    >o</abbr> xxxii<abbr rend="superscript">o</abbr> xiii<abbr rend="superscript"
+                                    >a</abbr> die Junii</date> hora sexta de mane uel circiter. Orate pro eo</rubric>
+
+                        <ab>Then follows what seems a supply of an omitted passage. There are a good many marginalia in
+                            the hand of <name type="person">Crome</name>. <name type="person">Tielman</name> wrote at
+                            least one other book for <name type="person">Crome</name>, viz., <ref type="ms"
+                                target="CGC114">Gonville and Caius no. 114</ref>. Two MSS. at Balliol College, Oxford
+                            (nos. <ref type="ms" target="OBC028">28</ref>, <ref type="ms" target="OBC35B">35 B</ref>)
+                            were written by a <name type="person">Tielman filius Reyneri</name>.</ab>
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, CF 2nd</p>
+                            <p>msCheck: RJR</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

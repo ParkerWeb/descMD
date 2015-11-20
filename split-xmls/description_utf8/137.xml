@@ -1,0 +1,429 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC137">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>137</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>P. 19</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>252</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Theological and Devotional Tracts</head>
+
+                <head type="James">Philosophia Monachorum etc.</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">312</height>
+                        <width unit="mm">211</width>
+                    </measureGrp><measureGrp type="James">12.25 x 8.25</measureGrp>, <extent>ff. 144 + 4</extent>,
+                        <layout>double columns of 60 lines</layout>. Cent. <origDate>xiv</origDate>, <handNote>rather
+                        roughly written</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num> 1<num>12</num>-7<num>12</num> 8<num>10</num> 9<num>12</num>-12<num>12</num>
+                            13<num>2</num> b<num>2</num></collation>.</p>
+
+
+                <p function="Provenance">From <name type="place">Christ Church, Canterbury</name>. On f. <locus
+                        locusNew="iir">ir</locus> at top erased: <q>de claustro ecclesie Christi Cant.</q> and:
+                        <q>Philosophia monachorum eccl. Chr. Cant.</q></p>
+
+                <p function="Provenance">A similar erased inscription on f. <locus>2r</locus> and, not erased, on f. 82
+                        (<locus>83</locus>). On f. <locus locusNew="iiiv">iiv</locus>: <q>Qui me renouauit. Altissimus
+                        eum benedicat. JS</q></p>
+
+
+                <p function="Provenance">On f. <locus>2r</locus> Parker has written: <q>Canterbery (?) King</q>. The
+                    book does not occur in the extant catalogues.</p>
+
+
+                <p function="Additions">Old list of contents on f. <locus locusNew="iir">ir</locus>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-iii + 1-143 + iv-vii</foliation>.</p>
+
+
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="enm">Latin and Middle English.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="33r">
+
+
+
+                        <head type="James">
+                            <title>Philosophia Monachorum</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Philosophia monachorum, libri v</title>
+                        </head>
+
+
+                        <ab locus="1r">Capitula</ab>
+
+                        <rubric locusNew="1v">Incipit philosophia monachorum. prologus premittitur</rubric>
+
+                        <incipit locusNew="1v">Volo set nondum valeo qui autem dedit velle</incipit>
+
+                        <ab>Liber v ends</ab>
+
+                        <explicit locus="33r">in operibus suis et consiliis et disposicionibus deo impendat</explicit>
+
+                        <rubric locusNew="33r">Explicit tractatus qui dicitur philosophia monachorum</rubric>
+
+                    </msItem>
+
+
+                    <msItem n="2" locusStart="33v" locusEnd="92v">
+
+                        <head type="CCC">
+                            <name type="author">Bernard Ayglier OSB</name>, <title>Commentary on Regula <name
+                                    type="person">Sancti Benedicti</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Expositio in regulam <name type="person">Sancti Benedicti</name> secundum <name
+                                    type="person">Bernardum</name> abbatem monasterii Cassinensis</title>
+                        </head>
+
+
+                        <seg>
+                            <rubric locus="33v">Legitur in proverbiis</rubric>
+                            <incipit locusNew="33v">Doctrina prudencium facilis</incipit>
+                            <explicit locusNew="33v">verbis edi peticionibus postulastis</explicit>
+                            <rubric locusNew="33v">Explicit prologus auctoris</rubric>
+                        </seg>
+
+                        <seg>
+                            <incipit locusNew="33v">Absculta aliqua littera habet obsculta</incipit>
+                            <explicit locusNew="38r">quod vobis paratum est ab origine mundi. Amen</explicit>
+
+                            <rubric locus="38r">Incipiunt capitula</rubric>
+
+
+                            <ab locus="38r">Comment: <q>Regulam istam beatum patrem <name type="author"
+                                        >Benedictum</name> edidisse non dubium est</q></ab>
+                            <ab>Ends</ab>
+                            <explicit locus="92v">ad gloriam regni sui perueniamus eternam. Amen</explicit>
+
+                            <rubric locusNew="92v">Explicit regula <name type="person">Sancti Benedicti</name> secundum
+                                    <name type="person">Bernardum</name> abbatem monasterii Cassinensis</rubric>
+
+                            <ab>(<name type="author">Bernard Ayglerius or Ayglenus</name> ob. <date>1282</date>)</ab>
+                        </seg>
+
+                    </msItem>
+
+
+                    <msItem n="3" locusStart="93r" locusEnd="117r">
+
+                        <head type="CCC">
+                            <name type="author">James of Milan OFM</name>, <title>Stimulus amoris</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Liber qui vocatur stimulus amoris</title>
+                        </head>
+
+
+                        <incipit locus="93r">Liber iste qui stimulus amoris in dilectissimum et pium Ihesum</incipit>
+                        <ab>Text</ab>
+                        <incipit locusNew="93r">Currite gentes undique</incipit>
+                        <explicit locusNew="117r">que sint matres et filii. quod nobis concedat etc.</explicit>
+                        <ab>
+                            <ref type="bibl" target="Bonaventure1882-1902">Bonaventura Opera, tom. VII</ref>
+                        </ab>
+
+                    </msItem>
+
+
+                    <msItem n="4" locusStart="117r" locusEnd="119r">
+
+
+
+                        <head type="Nasmith">
+                            <title>Expositio super orationem dominicam</title>
+                        </head>
+
+                        <rubric locus="117r">Pater noster etc.</rubric>
+                        <incipit locusNew="117r">O inmensa clemencia</incipit>
+
+
+                    </msItem>
+
+
+                    <msItem n="5" locusStart="119r" locusEnd="120v">
+
+
+                        <head type="Nasmith">
+                            <title>Expositio super antiphonam salve regina</title>
+                        </head>
+
+                        <incipit locus="119r">Ad salutandam beatam uirginem primo debes eius magnitudinem</incipit>
+
+                        <explicit locusNew="120v">ut laudet deum omnis creatura</explicit>
+
+                        <rubric locusNew="120v">Explicit meditaciones cuiusdam simplicis cordati et pauperrimi
+                            discalciati et contemptibilis denudati sapientissimorum ruditissimi electorum infimi et
+                            minorum minimi Deo gracias</rubric>
+
+
+                    </msItem>
+
+
+                    <msItem n="6" locusStart="120v" locusEnd="121r">
+
+
+                        <head type="Nasmith">
+                            <title>Quinque consideranda, quae dant homini maximum dolorem</title>
+                        </head>
+
+                        <incipit locus="120v">Cum enim multa in humane fragillitatis condicione</incipit>
+
+                    </msItem>
+
+
+                    <msItem n="7" locusStart="121r" locusEnd="121r">
+
+
+                        <head type="Nasmith">
+                            <title>De lachrimis quae quatuor modis utiliter effunduntur</title>
+                        </head>
+
+                        <incipit locus="121r">Nota quod quatuor sunt genera aquarum</incipit>
+
+
+                    </msItem>
+
+
+                    <msItem n="8" locusStart="121r" locusEnd="122r">
+
+
+                        <head type="Nasmith">
+                            <title>Expositio in versiculum Deus in adjutorium, et quod invocandus sit in omnibus
+                                operibus</title>
+                        </head>
+
+                        <incipit locus="121r">Proximus cognicioni est qui que inquirere debeat prudenter
+                            agnoscat</incipit>
+
+                    </msItem>
+
+
+
+                    <msItem n="9" locusStart="122r" locusEnd="123v">
+
+                        <head type="CCC">
+                            <name type="author">psuedo-Bernard of Clairvaux OCist</name>, <title>Speculum
+                                peccatoris</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Speculum peccatoris</title>
+                        </head>
+
+                        <incipit locus="122r">Quoniam karissimi in huius uia uite fugientis</incipit>
+                        <explicit locusNew="123v">nouissima tua prudenter prouideas</explicit>
+                        <ab>By <name type="author">R. Hampole </name></ab>
+
+
+                    </msItem>
+
+
+                    <msItem n="10" locusStart="123v" locusEnd="132v">
+
+                        <head type="CCC">
+                            <name type="author">Hugh of Saint-Victor OSA</name>, <title>De institutione
+                                nouiciorum</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title><name type="author">Hugo de Sancto Victore</name> de disciplina clericorum</title>
+                        </head>
+
+                        <ab locus="123v">Tituli</ab>
+                        <ab>Text</ab>
+                        <incipit locusNew="123v">Quia fratres largiente domino de uana conuersacione</incipit>
+
+                        <ab>(<ref type="bibl" target="Migne 176"><supplied>P. L.</supplied> CLXXVI 925</ref>)</ab>
+
+                        <explicit locusNew="132v">adiuua me domine deus meus</explicit>
+                        <rubric locusNew="132v">Explicit liber <name type="author">Hugonis prioris ecclesiae S.
+                                Victoris</name> de Disciplina clericorum</rubric>
+
+
+                    </msItem>
+
+
+
+
+
+                    <msItem n="11" locusStart="132v" locusEnd="139r">
+
+                        <head type="CCC">
+                            <title><name type="author">Hugh of Saint-Victor OSA</name>, De conscientia</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Idem de conscientia</title>
+                        </head>
+
+                        <rubric locus="132v">Incipit tractatus <name type="author">Hugonis</name> de
+                            consciencia</rubric>
+                        <incipit locusNew="132v">Domus hec in qua habitamus</incipit>
+                        <ab>(<ref type="bibl" target="Migne 184"><supplied>P. L.</supplied> CLXXXIV 507</ref>)</ab>
+
+                        <explicit locusNew="139r">quam terrestrium occupacione</explicit>
+                        <rubric locusNew="139r">Explicit <name type="author">Hugonis de Sancto Victore</name> de
+                            consciencia</rubric>
+
+
+                    </msItem>
+
+
+                    <msItem n="12" locusStart="139r" locusEnd="141v">
+
+                        <head type="CCC">
+                            <name type="author">Eusebius Gallicanus</name>, <title>Homiliae ad monachos</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Omeliae <name type="author">Beati Eusebii episcopi</name> ad monachos</title>
+                        </head>
+
+                        <rubric locus="139r">Hic incipiunt omelie <name type="author">beati Eusebii episcopi</name> ad
+                            monachos</rubric>
+
+                        <seg>
+                            <incipit locusNew="139r">Exhortatur nos sermo diuinus ut curramus dum lucem
+                                habemus</incipit>
+
+                            <ab>(<ref type="bibl" target="Migne 050"><supplied>P. L.</supplied> L 833</ref>)</ab>
+                        </seg>
+
+                        <seg>
+                            <incipit locusNew="139v">Quid autem salubritatis</incipit>
+                        </seg>
+
+                        <seg>
+                            <incipit locusNew="139v">Instruit nos atque hortatur</incipit>
+                        </seg>
+
+                        <seg>
+                            <incipit locusNew="140r">Ait quodam loco</incipit>
+                        </seg>
+
+                        <seg>
+                            <incipit locusNew="140v">Si quis est qui sibi</incipit>
+                        </seg>
+
+                        <seg>
+                            <incipit locusNew="140v">Ad hoc ad istum locum</incipit>
+                        </seg>
+
+                        <seg>
+                            <incipit locusNew="141r">Si quando terre operarius</incipit>
+                        </seg>
+
+                        <seg>
+                            <incipit locusNew="141v">Elaborate pocius deinceps </incipit>
+                            <explicit locusNew="141v">in futura presidium. Amen</explicit>
+                            <rubric locusNew="141v">Expliciunt omelie <name type="author">Sancti Eusebii</name>
+                                abreuiate</rubric>
+                        </seg>
+
+
+                    </msItem>
+
+
+                    <msItem n="13" locusStart="141v" locusEnd="143v">
+
+
+                        <head type="Nasmith">
+                            <title>Homelia <name type="author">Origenis</name> de lamentatione <name type="person"
+                                    >Magdalenae</name> ad sepulchrum Domini</title>
+                        </head>
+
+                        <incipit locus="141v"><name type="person">Maria</name> stabat ad monimentum</incipit>
+                        <explicit locusNew="143v">quia vidi dominum et hec dixit mihi. cui est honor etc.</explicit>
+                        <rubric locus="143v">Explicit omelia <name type="author">origenis</name></rubric>
+
+                        <ab>(<ref type="bibl" target="Erasmus 1557">Basle edn, 1557, II 528</ref>)</ab>
+
+                        <ab locusNew="vv">There are various scribbles on the three last leaves, one in English: <q>god
+                                brugge vs alle to guod ende</q></ab>
+
+
+                    </msItem>
+
+
+                </msContents>
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, CF 2nd</p>
+                            <p>msCheck: NJM 27.3.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

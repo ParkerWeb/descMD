@@ -1,0 +1,226 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC299">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>299</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>T. 6</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>294</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Letters of Ivo of Chartres and Anselm of Canterbury OSB</head>
+                <head type="James">Ivonis Epistolae, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">260</height>
+                        <width unit="mm">175</width>
+                    </measureGrp>
+                    <measureGrp type="James">10.2 x 6.9</measureGrp>, <extent>ff. 2 + 51 + 70</extent>, <layout>double
+                        columns of 32 and 31 lines</layout>. Cent. <origDate>xiii </origDate>, <handNote>in good upright
+                        narrow script. Two hands appear (e.g. on f. <locus>42r</locus>)</handNote>.</p>
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num> 1<num>8</num> (+1) 2<num>8</num>-5<num>8</num> 6<num>10</num> ||
+                            I<num>8</num>-VIII<num>8</num> IX<num>6</num></collation>.</p>
+                <p>Old foliation (incorrect) used</p>
+                <p function="Provenance">At top of f. <locus>1r</locus> erased: <q>De perquisito ffratris <name
+                            type="person">Johannis Tille</name> ordinis ffratrum predicatorum a. d. <date>1405</date>
+                        scilicet epistole <name type="author">Yuonis Carnotensis</name> et epistole <name type="author"
+                            >beati Anselmi</name></q>.</p>
+                <p function="Provenance">This, compared with an inscription in <ref type="ms" target="CCC306">MS
+                        306</ref>, where the name of <name type="person">John Tille</name> also occurs, shows that this
+                    book belonged to the Dominicans of <name type="place">London</name>. See also <ref type="ms"
+                        target="CTC154">Trinity College MS. O.2.50</ref>, given by <name type="person">John Tille</name>
+                    to his convent in <date>1421</date>.</p>
+
+                <p function="Additions">On f. <locus>iv</locus>: <lb/><q>Ut ualeat uiuatque diu persona prioris,<lb/>
+                        det deus et uicium uelit omnis demere moris: amen</q>
+                    <lb/>and two old titles.</p>
+                <p>f. <locus>iir</locus>-<locus>iiv</locus> blank</p>
+
+
+
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-ii + 1-107 (108 missing) + 109-123 + c-d</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+
+
+                    <msItem n="0" locusStart="1r" locusEnd="1v">
+
+                        <head type="CCC">
+                            <title>Letter</title>
+                        </head>
+
+                        <ab>On f. <locus>1r</locus>: <handNote>A letter in a different hand from the rest</handNote>:
+                            single lines, no title</ab>
+                        <incipit locus="1r">Intimo suo suus intimus ille despicere terram et suspicere celum</incipit>
+                        <explicit locusNew="1v">erit tibi contra te in testimonium cum christus apparuerit.
+                            Valete</explicit>
+
+
+                    </msItem>
+
+
+
+
+
+                    <msItem n="1" locusStart="2r" locusEnd="5v">
+
+
+                        <head type="CCC">
+                            <name type="author">Ivo of Chartres</name>, <title>De ecclesiasticis sacramentis, sermo
+                                5</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>De concordia veteris et novae legis sacramentorum</title>
+                        </head>
+
+                        <rubric locusNew="2r">De conueniencia, etc.</rubric>
+                        <ab>(<ref type="bibl" target="Migne 162">P. L. CLXII</ref> 505 sqq. Sermo v)</ab>
+                        <incipit locus="2r">Benefitia que pro saluandorum</incipit>
+                        <explicit locusNew="5v">dominabitur omnium gentium</explicit>
+                        <ab>See <ref type="ms" target="CCC289">MS 289. 9</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="5v" locusEnd="52v">
+
+                        <head type="CCC">
+                            <name type="author">Ivo of Chartres</name>, <title>Epistolae (95 plus one from <name
+                                    type="person">Pope Urban</name>)</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title><name type="author">Ivonis Carnotensis</name> epistolae XCV, et una <name
+                                    type="author">Urbani</name> ad illum et populum <name type="place"
+                                    >Carnotensem</name></title>
+                        </head>
+
+                        <rubric locusNew="5v">Epistola I <name type="author">Iuonis</name></rubric>
+                        <ab>(<ref type="bibl" target="Migne 162">P. L. CLXII</ref>)</ab>
+
+                        <ab>
+                            <q>dilectissimo abbati maioris monasterii B.</q>
+                        </ab>
+                        <ab locusNew="52r">No. XCV. <name type="person">Gaufrido Windocinensis monasterii
+                            abbato</name></ab>
+                        <ab locusNew="52r">XCVI. <name type="author">Urbanus</name> ... clero ac populo carnotensi</ab>
+                        <ab>Confirming election of <name type="person">Ivo</name></ab>
+                        <explicit locus="52v">Data <name type="place">capue</name>
+                            <date>viii kal. decembris</date></explicit>
+
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="3" locusStart="53r" locusEnd="53r">
+
+
+                        <head type="CCC">
+                            <title>An English Lament on the Death of <name type="person">St Anselm</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Fletus ecclesiae Anglicanae ob mortem <name type="person">Anselmi</name></title>
+                        </head>
+
+                        <ab locus="53r">No title</ab>
+                        <incipit locusNew="53r">Flete mecum precor. (!) mea pignora flete fideles<lb/> Tempora leticie
+                            nam periere michi</incipit>
+
+                        <explicit locusNew="53r">Quo me nitentem succurrens uisibus egris<lb/> Proue(h)at omnipotens
+                            trinus et unus amen</explicit>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="53v" locusEnd="123v">
+
+
+                        <head type="CCC">
+                            <name type="author">Anselm of Canterbury OSB</name>, <title>Epistolae</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title><name type="author">Anselmi archiepiscopi Cantuariensis</name> epistolae CCXV</title>
+                        </head>
+
+                        <rubric locus="53v">Epistola I <name type="author">Anselmi Archiepiscopi
+                            Cantuariensis</name></rubric>
+                        <incipit locusNew="53v">Domino et fratro karissimo <name type="person">Hernosto</name> frater
+                            Anselmus</incipit>
+                        <rubric locusNew="122r">Epistola CCXV</rubric>
+                        <incipit locusNew="122r"><name type="author">Anselmus Archiepiscopus</name> R. amico et
+                            sororibus suis</incipit>
+                        <ab locusNew="122r">Filie karissime cum aliquid</ab>
+                        <explicit locusNew="122v">Difficile uero postquam caput earum intra mentem admittimus</explicit>
+                        <ab>f. <locus>123r</locus>-<locus>123v</locus> blank</ab>
+
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: RJR 5/9/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

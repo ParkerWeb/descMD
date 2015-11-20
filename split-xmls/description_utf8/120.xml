@@ -1,0 +1,713 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC120">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>120</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Misc. 20</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>388</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Visitation injunctions. Cathedral Statutes (Canterbury, Westminster, Ely, Worcester,
+                    Hereford)</head>
+                <head type="James">Statutes of Cathedrals, etc.</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">315</height>
+                        <width unit="mm">208</width>
+                    </measureGrp><measureGrp type="James">12.25 x 8.25</measureGrp>, <extent>pp. 606, numbered</extent>. <supplied>
+                        <layout>Ten volumes</layout>
+                    </supplied>.</p>
+
+                <p function="Additions">Flyleaf from service book (<origDate>xv</origDate>: Christmas office).
+                        <supplied>(ff. <locus>iiir</locus>-<locus>iiiv</locus>)</supplied></p>
+
+                <p type="CCC">
+                    <foliation>ff. i-iv + pp. 1-50 + 50a-51a + 51-54 + 54a-d + 55-70 + 70a-l + 71-154 (155-156 missing)
+                        + 157-180 (181-190 missing) + 191-320 + 320a-d + 321-510 + 510a-511a + 511-606 + ff.
+                        v-vi</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="eng">Latin and English.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="1" locusEnd="14">
+                        <head type="CCC">
+                            <title>Incorporation of <name type="place">Canterbury cathedral</name> by <name
+                                    type="person">Henry VIII</name>, <date>8 April 1540</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Incorporatio <name type="place">ecclesiae cathedralis Cantuariensis</name> per <name
+                                    type="person">regem Henricum VIII</name>. data <date>8 Aprilis, anno regni 32<abbr
+                                        rend="superscript">o</abbr>, A. D. 1540</date></title>
+                        </head>
+                        <ab><supplied>Items</supplied> 1-12 form a separate volume</ab>
+                        <ab>Title in <name type="person">Cranmer</name>'s hand</ab>
+                    </msItem>
+
+                    <msItem n="2" locusStart="15" locusEnd="54">
+                        <head type="CCC">
+                            <title>Statutes of <name type="place">Canterbury cathedral</name> promulgated by <name
+                                    type="person">Henry VIII</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Statuta <name type="place">ecclesiae cathedralis Cantuariensis</name> facta per <name
+                                    type="person">regem Henricum VIII</name></title>
+                        </head>
+                        <ab>The Statutes are identical with those for <name type="place">Ely</name> (no. 20), <name
+                                type="place">Worcester</name> (no. 35), <name type="place">Peterborough</name> (no. 39)
+                            except for a section on the Six Preachers. Title on p. <locus>50</locus> in <name
+                                type="person">Cranmer</name>'s hand</ab>
+                    </msItem>
+
+                    <msItem n="3" locusStart="54a" locusEnd="54d">
+                        <head type="CCC">
+                            <title>Visitation of <name type="person">Archbishop Matthew Parker</name> to <name
+                                    type="place">Canterbury</name>, <date>3 July 1570</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Thorder of the beginning of the visitation of the most reverend father in God <name
+                                    type="person">L. Matthew</name> archebushoppe of Canturbury in the <name
+                                    type="place">cathedral church of Canturbury</name>, <date>the third day of July, A.
+                                    D. 1570</date></title>
+                        </head>
+                        <ab>Cf. <ref type="bibl" target="Strype 1711">Strype, Parker I 303</ref></ab>
+                    </msItem>
+
+                    <msItem n="4" locusStart="55" locusEnd="62">
+                        <head type="CCC">
+                            <title>Injunctions given to the dean and chapter of <name type="place">Canterbury
+                                    cathedral</name> during a visitation by the king's commissioners,
+                                <date>1547</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Injunctions given to the dean and chapiter of the <name type="place">cathedral
+                                    churche of Canterburie</name> in the kings majesties visitation by auctorite of his
+                                highnes commission given to his majesties commissioners <name type="person">Jo.
+                                    Masone</name>, <name type="person">Ja. Hales</name>, <name type="person">Symon
+                                    Bryggs</name> and <name type="person">Fraunces Cave</name>, <date>in the first year
+                                    of the reign of our soverain lorde <name type="person">Edward the VI</name></date>,
+                                &amp;c.</title>
+                        </head>
+                        <ab>Cf. <ref type="bibl" target="Dixon 1878-1902">Dixon, <hi rend="italic">History</hi> II.
+                                428</ref>. <ref type="bibl" target="Frere 1910b">Frere, <hi rend="italic">Visitation
+                                    Articles</hi> II 140</ref></ab>
+                    </msItem>
+
+                    <msItem n="5" locusStart="63" locusEnd="67">
+                        <head type="CCC">
+                            <title>Injunctions given to the dean and chapter of every cathedral by <name type="person"
+                                    >Edward VI</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Injunctions given by the most excellent prince <name type="person">Edward VI</name>,
+                                &amp;c. to the deans, &amp;c. in everie cathedral churche of this realme</title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Frere 1910b">Frere, <hi rend="italic">Visitation Articles</hi> II
+                                135</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="6" locusStart="68" locusEnd="69">
+                        <head type="CCC">
+                            <title>Injunctions given by <name type="person">Archbishop Thomas Cranmer</name> to the
+                                dean, prebendaries and preachers of <name type="place">Canterbury cathedral</name>,
+                                    <date>27 October 1551</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Injunctions given by <name type="person">Thomas archbishoppe of Canterbury</name>,
+                                &amp;c. to the dean, prebendaries, preachers, &amp;c. of the metropolitical and
+                                    <name type="place">cathedral churche of Canterburie</name>
+                                <date>the 27 daie of October, in the fourth yere of the reign of our soverain lord <name
+                                        type="person">Edward the VI</name></date>, &amp;c.</title>
+                        </head>
+                        <ab><ref type="bibl" target="Jenkyns 1833b">Parker Society Cranmer II, <hi rend="italic"
+                                    >Remains</hi> p. 161</ref>. <ref type="bibl" target="Frere 1910b">Frere, <hi
+                                    rend="italic">Visitation Articles</hi> II 251</ref></ab>
+                    </msItem>
+
+                    <msItem n="7" locusStart="70" locusEnd="70">
+                        <head type="CCC">
+                            <title>Statute permitting <name type="person">Elizabeth I</name> to alter the statutes of
+                                the new cathedral churches</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>The statute wherby <name type="person">queene Elisabeth</name> maie alter,
+                                &amp;c. the statutes, &amp;c. of the newe erected cathedral churches
+                                        <date>1<abbr rend="superscript">o</abbr> Eliz</date></title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="8" locusStart="70a" locusEnd="70b">
+                        <head type="CCC">
+                            <title>Injunctions given by the commissioners of visitation to the dean and prebendaries of
+                                    <name type="place">Canterbury cathedral</name>, <date>September 1560</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Injunctions given by <name type="person">Mr. Thomas Yale</name>, <name type="person"
+                                    >Edward Leedes</name>, <name type="person">Stephen Nevinson</name> and <name
+                                    type="person">Alexander Nowell</name>, commissioners to <name type="person">Matthewe
+                                    archbishoppe of Canterburie</name> for his metropolitical visitation lately
+                                exercised within the <name type="place">diocese of Canterberie</name>, to the dean,
+                                prebendaries, &amp;c. of the same church the  day of <date>September
+                                1560</date></title>
+                        </head>
+
+                        <ab><ref type="bibl" target="Frere 1910b">Frere, <hi rend="italic">Visitation Articles</hi> II
+                                251</ref>, <ref type="bibl" target="Frere 1910c">III 78</ref></ab>
+                    </msItem>
+
+                    <msItem n="9" locusStart="70c" locusEnd="70f">
+                        <head type="CCC">
+                            <title>Injunctions given during the visitation of <name type="person">Archbishop Matthew
+                                    Parker</name> to the dean and prebendaries of <name type="place">Canterbury
+                                    cathedral</name>, <date>1570</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Injunctiones datae in visitatione <name type="person">Matthaei Cantuariensis</name>
+                                <date>1570</date></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Frere 1910c">Frere, <hi rend="italic">Visitation Articles</hi> III
+                                237</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="10" locusStart="70g" locusEnd="70l">
+                        <head type="CCC">
+                            <title>Injunctions given during the visitation of <name type="person">Archbishop Matthew
+                                    Parker</name> to the dean and prebendaries of <name type="place">Canterbury
+                                    cathedral</name>, <date>1573/4</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Injunctiones <name type="person">Matthaei Cantuariensis archiepiscopi</name> traditae
+                                decano et prebendariis <name type="place">ecclesiae cathedralis Cantuariensis</name> in
+                                visitatione sua ordinaria et metropolitano. <date>1573/4</date></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Frere 1910c">Frere, <hi rend="italic">Visitation Articles</hi> III
+                                355</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="11" locusStart="71" locusEnd="84">
+                        <head type="CCC">
+                            <title>List of stipends due to the dean and prebendaries and other ministers of <name
+                                    type="place">Canterbury cathedral</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>The stipends dew to the deane and prebendaryes and to other mynysters of <name
+                                    type="place">Chrystys church in Canterburie</name> with the fees ordynary and
+                                extraordinarye takyn out of the tresorers boke by <name type="person">Mr. Milles
+                                    prebendarie</name></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Frere 1910c">Frere, <hi rend="italic">Visitation Articles</hi> III
+                                355</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="12" locusStart="85" locusEnd="86">
+                        <head type="CCC">
+                            <title>List of names of the prebendaries and other ministers of <name type="place"
+                                    >Canterbury cathedral</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Nomina prebendariorum et caeterorum ministrorum <name type="place">ecclesiae
+                                    cathedralis Cantuariensis</name></title>
+                        </head>
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="13" locusStart="87" locusEnd="88">
+                        <head type="CCC">
+                            <title>Presentation of <name type="person">John Hill</name> to a prebend at the <name
+                                    type="place">collegiate church of St Peter, Westminster</name>, 1564</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Presentatio <name type="person">Iohannis Hill</name> ad prebendam in <name
+                                    type="place">ecclesia collegiata S. Petri Westmonasterii</name> per breve de private
+                                sigillo <date>21 Julii, 6 Eliz.</date></title>
+                        </head>
+                        <ab><supplied>Items</supplied> 13-17 form a volume</ab>
+                        <ab>[13, 14 are on the flyleaf of 15]</ab>
+
+
+                    </msItem>
+
+                    <msItem n="14" locusStart="88" locusEnd="88">
+                        <head type="CCC">
+                            <title>Letter assigning <name type="person">John Hill</name> a choir stall and place in
+                                chapter at the <name type="place">collegiate church of St Peter, Westminster</name>,
+                                    <date>1564</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Literae mandatoriae ut stallum in choro et locus in capitulo eidem <name
+                                    type="person">Iohanni Hill</name> assignarentur, <date>22 Julii ejusdem
+                                anni</date></title>
+                        </head>
+                        <ab>[13, 14 are on the flyleaf of 15]</ab>
+                    </msItem>
+
+                    <msItem n="15" locusStart="89" locusEnd="192">
+                        <head type="CCC">
+                            <title>Statutes of the collegiate church of St Peter, Westminster</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Statuta <name type="place">collegii beati Petri Westmonasterii</name> a serenissima
+                                    <name type="person">regina Elizabetha</name> fundati, <date>ultimoque mensis Junii
+                                    erecti, 1560</date></title>
+                        </head>
+                        <ab>[13, 14 are on the flyleaf of 15]</ab>
+                    </msItem>
+
+                    <msItem n="16" locusStart="193" locusEnd="196">
+                        <head type="CCC">
+                            <title>Register of taxable goods for the provinces of <name type="place">Canterbury</name>
+                                and <name type="place">York</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Registrum taxationis omnium bonorum spiritualium et temporalium provinciarum
+                                Cantuarie et Eboraci</title>
+                        </head>
+                        <ab>
+                            <quote>Haec taxatio facta est ante erectionem novorum episcopatuum per <name type="person"
+                                    >Henricum VIII</name>. summa utriusque provinciae paulo excedit ducent. mill.
+                                libr.</quote>
+                        </ab>
+                        <ab locusNew="193">
+                            <handNote>Change of hand at no. 16</handNote>
+                        </ab>
+                        <ab>Cf. <ref type="ms" target="CCC101">MS 101. 51</ref></ab>
+                    </msItem>
+
+                    <msItem n="17" locusStart="197" locusEnd="202">
+                        <head type="CCC">
+                            <title>Bull of <name type="author">Gregory V</name> concerning the sums owed by the English
+                                episcopacy</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Bulla <name type="author">Gregorii papae V</name>. de quantitate denariorum per
+                                singulos episcopatus <name type="place">Angliae</name> solvend.</title>
+                        </head>
+                        <ab>
+                            <quote>Hanc taxationem <name type="person">Gregorio V</name>. male esse adscriptam ex eo
+                                apparet quod mentio fit quorundam episcopatuum qui eo seculo nondum erant erecti: summa
+                                omnium decimarum est CXCIV Ł. IV s. VIII d.</quote>
+                        </ab>
+                        <ab>Cf. <ref type="ms" target="CCC101">MS 101. 52</ref></ab>
+                        <ab locus="197"><supplied>Item</supplied> 17 ends on p. <locus>197</locus>: pp.
+                                <locus>198</locus>-<locus>202</locus> blank</ab>
+
+                    </msItem>
+
+                    <milestone n="III" unit="volume"/>
+
+                    <msItem n="18" locusStart="203" locusEnd="240">
+                        <head type="CCC">
+                            <title>Statutes of <name type="place">Ely cathedral</name> promulgated by <name
+                                    type="person">Elizabeth I</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Statuta <name type="place">ecclesiae sanctae et individuae trinitatis Eliensis</name>
+                                edita per <name type="person">reginam Elisabetham</name></title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="19" locusStart="241" locusEnd="246">
+                        <head type="CCC">
+                            <title>Injunctions of the commissioners of visitation to the dean and prebendaries of <name
+                                    type="place">Ely cathedral</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Articles or injunctions gyven by <name type="person">Thomas Yale</name> and <name
+                                    type="person">Henry Harvey</name> LL. DD. commissioners of <name type="person"
+                                    >Matthew archbushop of Caunterberie</name>, to the dean and prebendaries of <name
+                                    type="place">Elye</name></title>
+                        </head>
+                    </msItem>
+
+                    <milestone n="IV" unit="volume"/>
+
+                    <msItem n="20" locusStart="247" locusEnd="283">
+                        <head type="CCC">
+                            <title>Statutes of <name type="place">Ely cathedral</name> promulgated by <name
+                                    type="person">Henry VIII</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Statuta <name type="place">ecclesiae sanctae et individuae Trinitatis Eliensis</name>
+                                edita per <name type="person">Henricum VIII</name>. ejusdem ecclesiae fundatorem,
+                                tradita decano et capitulo Eliensi per <name type="person">Nic. episcopum
+                                    Wigorniensem</name>
+                                <name type="person">Geo. episcopum Cicestrensem</name> et <name type="person">Ric.
+                                    Cox</name> mandate et nomine metuendissimi regis <date>20 Junii 36 Henrici
+                                    VIII</date></title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="21" locusStart="284" locusEnd="286">
+                        <head type="CCC">
+
+                            <title>Letter from the bishop of Worcester, <name type="author">George Day, Bishop of
+                                    Chichester</name> and <name type="author">Richard Cox, archdeacon of Ely</name>,
+                                    <date>1544</date></title>
+
+                        </head>
+                        <head type="Nasmith">
+                            <title>Letter from the bishops of Worcester and Chichester and <name type="author">Richard
+                                    Cox</name>, that they had sent them the book of statutes which they order to be
+                                publickly read and every one to swear to the observance of them: dated <name
+                                    type="place">Westminster</name>
+                                <date>June 23, 1544</date></title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="22" locusStart="287" locusEnd="290">
+                        <head type="CCC">
+                            <title>Order of <name type="author">Robert Stuard, dean of <name type="place">Ely
+                                        cathedral</name></name>, concerning the nomination of certain room and offices,
+                                    <date>25 November 1551</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>An order devised and concluded bi thassent of <name type="person">Mr. Robert
+                                    Stuard</name> deane of the cathedral churche of Ely and the chapter of the same,
+                                concerning the nomination of certein romys and offices, <date>25 November
+                                1551</date></title>
+                        </head>
+                        <ab>A paper attached</ab>
+                        <ab>
+                            <quote>An original signed by the chapter; <name type="person">Matthew Parker</name> was then
+                                second prebend</quote>
+                        </ab>
+                    </msItem>
+
+                    <milestone n="V" unit="volume"/>
+
+                    <msItem n="23" locusStart="291" locusEnd="304">
+                        <head type="CCC">
+                            <title>Plans for the building of the <name type="place">King's School, Ely</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>The boke of the erection of the <name type="place">kings new college at Ely</name>,
+                                with the names and porcion of livinge assigned to the deane and all other officers
+                                appoynted for the accomplishment of the same</title>
+                        </head>
+                        <ab>
+                            <quote>It concludes thus, <q>And so to bere all charges and to paie the tenths and first
+                                    fruits it maie please the kings majestie to endowe the church with DCCCCXXXV Ł. XVII
+                                    d. ob. signed <name type="person">Richard Ryche</name></q></quote>
+                        </ab>
+                        <ab>
+                            <ref type="bibl" target="Bentham 1771">Bentham's Ely, Appendix XXXIV. Cf. p. 225</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="24" locusStart="305" locusEnd="312">
+                        <head type="CCC">
+                            <title>Incorporation and foundation of <name type="place">Ely cathedral</name> by <name
+                                    type="person">Henry VIII</name>, <date>10 September 1542</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Incorporatio et fundatio <name type="place">ecclesiae cathedralis Eliensis</name> per
+                                    <name type="person">regem Henricum VIII</name>. facta <date>10 Sept. anno regni
+                                    33</date></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Bentham 1771">Bentham's Ely, p. 225</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="25" locusStart="313" locusEnd="318">
+                        <head type="CCC">
+                            <title>Royal charter concerning the endowment of the <name type="place">King's School,
+                                    Ely</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Summa cartae domini regis de dotatione <name type="place">collegii Eliensis</name>
+                                contenta in quatuor paginis</title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="26" locusStart="319" locusEnd="320">
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Henry VIII</name> to <name type="person">Thomas
+                                    Goodrich, Bishop of Ely</name>, and others, <date>1542</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Letter of <name type="author">Henry VIII</name>. to the bishop of Ely, <name
+                                    type="person">sir Robert Payton</name>, <name type="person">Philip Parys</name> and
+                                    <name type="person">John Goodricke</name> Esqrs. directing them to assign proper
+                                dwelling houses to the dean, prebendaries and other ministers of the <name type="place"
+                                    >church of Ely</name>, out of the buildings belonging to the late dissolved priory:
+                                dated <name type="place">Westminster</name>
+                                <date>28 Octobris anno regni 33</date></title>
+                        </head>
+                        <ab>Cf. <ref type="bibl" target="Bentham 1771">Bentham, pp. 226, 27</ref>, <ref type="bibl"
+                                target="Stewart 1868">D. J. Stewart, Ely Cathedral, p. 248</ref></ab>
+                    </msItem>
+
+                    <msItem n="27" locusStart="320a" locusEnd="320d">
+                        <head type="CCC">
+                            <title>Assignment of chambers in pursuance of a letter of <name type="person">Henry
+                                    VIII</name> to <name type="person">Thomas Goodrich, Bishop of Ely</name>,
+                                    <date>1542</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Assignment of the chambers in pursuance to the above order</title>
+                        </head>
+                        <ab>A paper attached</ab>
+                    </msItem>
+
+                    <milestone n="VI" unit="volume"/>
+
+                    <msItem n="28" locusStart="321" locusEnd="322">
+                        <head type="CCC">
+                            <title>Letter from <name type="author">Dr Cox</name> and <name type="author">Dr Meye</name>
+                                to <name type="person">Matthew Parker</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Letter from <name type="author">Dr. Cox</name> and <name type="person">Dr.
+                                    Meye</name> to <name type="person">Dr. Parker</name>, on the affairs of the
+                                cathedral</title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="29" locusStart="323" locusEnd="338">
+                        <head type="CCC">
+                            <title>Valuation of all the possessions of the <name type="place">King's School,
+                                Ely</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Valor annuus omnium et singulorum dominiorum, maneriorum, terrarum et possessionum,
+                                quorumcunque tam temporalium quam spiritualium versus dotationem <name type="place">novi
+                                    collegii domini regis in Ely</name>, in diversis comitatibus subscriptis jacentium
+                                et existentium assignatorum una cum omnibus foedis vadis pensionibus et aliis denariorum
+                                summis de eisdem sive eorum aliquo annuatim exeuntibus</title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="30" locusStart="339" locusEnd="340">
+                        <head type="CCC">
+                            <title>Decree of the dean and chapter of <name type="place">Ely cathedral</name> for the
+                                distribution of Ł20 annually to the poor</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Decree of the dean and chapter of <name type="place">Ely</name>, for the distribution
+                                of 20Ł. yearly to the poor, made <date>Dec. 8, 154-</date></title>
+                        </head>
+                        <ab>Also on p. <locus>353</locus></ab>
+
+                    </msItem>
+
+                    <msItem n="31" locusStart="341" locusEnd="356">
+                        <head type="CCC">
+                            <title>Inventory of the plate, jewels and ornament formerly belonging to the <name
+                                    type="place">priory of Ely</name>, <date>20 November 1541</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Thinventary of all the plate, jewells, ornaments of the churche, implements of
+                                houshold corn, catail and other things belonging to the late <name type="place">priory
+                                    of Ely</name>, now left in the custody of <name type="person">Mr. Robert
+                                    Welles</name> gardiane ther, made the <date>20 daie of Novembre, anno regis Henrici
+                                    VIII. 31<abbr rend="superscript">o</abbr></date></title>
+                        </head>
+                    </msItem>
+
+                    <milestone n="VII" unit="volume"/>
+
+                    <msItem n="32" locusStart="357" locusEnd="358">
+                        <head type="CCC"><name type="author">Polydore Vergil</name>, <title>On the foundation of the
+                                    <name type="place">monastery at Ely</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De instauratione <name type="place">coenobii Eliensis</name> et institutione collegii
+                                monachorum ibidem per <name type="person">Ethelredam</name>
+                                <name type="person">Innae</name> Orientalium Anglorum regis filiam, ex <name
+                                    type="person">Polidoro Virgilio</name></title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="33" locusStart="359" locusEnd="400">
+                        <head type="CCC">
+                            <title>Excerpts from a history of <name type="place">the church at Ely</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Excerpta ex vetusto codice <name type="place">ecclesiae Eliensis</name></title>
+                        </head>
+                        <ab>
+                            <quote>[scilicet ex historia <name type="author">Thomae Eliensis</name>], continent,
+                                historiam ecclesiae usque ad captam Insulam tempore <name type="person">Gulielmi
+                                    Conq.</name></quote>
+                        </ab>
+                    </msItem>
+
+                    <milestone n="VIII" unit="volume"/>
+
+                    <msItem n="34" locusStart="401" locusEnd="408">
+                        <head type="CCC">
+                            <title>Foundation and incorporation of <name type="place">Worcester cathedral</name> by
+                                    <name type="person">Henry VIII</name>, <date>24 January 1543</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Fundatio et incorporatio <name type="place">ecclesiae cathedralis Wigorniensis</name>
+                                facta per <name type="person">Henricum VIII</name>. <date>24 Januarii, anno regni
+                                    33</date></title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="35" locusStart="409" locusEnd="479">
+                        <head type="CCC">
+                            <title>Statutes of <name type="place">Worcester cathedral</name> promulgated
+                                    <date>1545</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Statuta <name type="place">ecclesiae cathedralis Wigorniensis</name> facta
+                                        <date>36<abbr rend="superscript">o</abbr> anno regis <name type="person">Henrici
+                                        VIII</name></date>. et tradita per <name type="person">N. Wigorniensem</name>
+                                <name type="person">Georgium Cicestrensem</name> et <name type="person">Richardum Cox
+                                    archidiaconum Eliensem</name></title>
+                        </head>
+                        <ab>
+                            <quote>Nota <name type="person">magistri Pedder decani</name>, <q>Architypus horum
+                                    statutorum, ut fertur, <name type="person">cardinali Polo</name> tradebatur per
+                                        <name type="person">Seth Holand</name> decanum tempore <name type="person"
+                                        >reginae Mariae</name>, nec postea restitutus.</q></quote>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="36" locusStart="479" locusEnd="484">
+                        <head type="CCC">
+                            <title>Injunctions of the commissioners of visitation to the dean and chapter of <name
+                                    type="place">Worcester cathedral</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Injunctions given by <name type="person">Richard Davies</name> professor of
+                                divinitie, <name type="person">Thomas Yonge</name> and <name type="person">Rouland
+                                    Meyrigg</name> professors of the laws and <name type="person">Richarde Pates</name>
+                                professor of the commen lawes, visitors for <name type="person">quene Elisabeth</name>
+                                to the deane and chapiter of <name type="place">Worcester</name></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Frere 1910c">Frere, <hi rend="italic">Visitation Articles</hi> III.
+                                44</ref>
+                        </ab>
+                    </msItem>
+
+                    <milestone n="IX" unit="volume"/>
+
+                    <msItem n="37" locusStart="485" locusEnd="515">
+                        <head type="CCC">
+                            <title>Customs and statutes of <name type="place">Hereford cathedral</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Consuetudines et statuta <name type="place">ecclesiae cathedralis
+                                    Herefordensis</name></title>
+                        </head>
+                        <ab>pp. <locus>485</locus>-<locus>515</locus> are printed in <ref type="bibl"
+                                target="Wordsworth 1897a">Bradshaw and Wordsworth <hi rend="italic">Lincoln Cathedral
+                                    Statutes</hi> II 44sqq. On p. 43 this MS. is described</ref></ab>
+                    </msItem>
+
+                    <msItem n="38" locusStart="516" locusEnd="520">
+                        <head type="CCC">
+                            <title>Injunctions of the commissioners of visitation to the dean and chapter of <name
+                                    type="place">Hereford cathedral</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Injunctions given [by the same visitors] to the deane and chapiter of <name
+                                    type="place">Hereford</name></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Frere 1910c">Frere, <hi rend="italic">Visitation Articles</hi> III
+                                47</ref>
+                        </ab>
+                    </msItem>
+
+                    <milestone n="X" unit="volume"/>
+
+                    <msItem n="39" locusStart="521" locusEnd="606">
+                        <head type="CCC">
+                            <title>Statutes of <name type="place">Peterborough cathedral</name> promulgated by <name
+                                    type="person">Henry VIII</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Statuta <name type="place">ecclesiae cathedralis Petroburgensis</name>, data per
+                                    <name type="person">Henricum VIII</name></title>
+                        </head>
+                        <ab>
+                            <ref type="bibl" target="Frere 1910c">Frere, <hi rend="italic">Visitation Articles</hi> III
+                                47</ref>
+                        </ab>
+                        <ab>ends p. <locus>598</locus></ab>
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck:</p>
+                            <p>remarks: NB Item 21 names</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

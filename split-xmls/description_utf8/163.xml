@@ -1,0 +1,223 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC163">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>163</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>I. 3</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>94</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Pontifical (Romano-Germanic)</head>
+
+                <head type="James">Ordo Servitii. Ordinale etc.</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">301</height>
+                        <width unit="mm">201</width>
+                    </measureGrp>
+                    <measureGrp type="James">11.7 x 8.1</measureGrp>, <extent>ff. 148 + 1</extent>, <layout>25 lines to
+                        a page</layout>. Cent. <origDate>xi</origDate>, <handNote>in two very beautiful hands. The
+                        second of these begins at p. <locus>145</locus></handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num>-11<num>8</num> 12<num>6</num> (5, 6 canc.)
+                            13<num>8</num>-19<num>8</num></collation>.</p>
+
+                <p function="Provenance">Apparently a <name type="place">Winchester</name> book, from a Continental
+                    archetype of <name type="place">Cologne diocese</name>.</p>
+
+                <p><handNote>The first nine quires are in a beautiful round hand: the rest in an equally good hand but
+                        less remarkably beautiful</handNote>.</p>
+
+                <p function="Decoration"><decoNote>On the flyleaf is pasted a full-page woodcut of the Crucifixion, on
+                        vellum, from a Missal (as in <ref type="ms" target="CCC162">MS 162</ref>)</decoNote>.</p>
+
+                <p>On the verso is a <name type="person">Parkerian</name> list of contents.</p>
+
+                <p function="Research">The book is not in <ref type="bibl" target="Frere 1901">W. H. Frere's list of
+                        English Pontificals (Alcuin Club Collections 1900)</ref>.</p>
+
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i + pp. 1-296 + ff. c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="gre">Latin and Greek.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1" locusEnd="296">
+
+                        <head type="CCC">
+                            <title>Pontifical (Romano-Germanic)</title>
+                        </head>
+
+
+                        <rubric locus="1">Incipit ordo catholicorum librorum qualiter in ecclesia ponendi sunt </rubric>
+                        <rubric locusNew="1">In uigilia natalis domini leguntur lectiones tres de <name type="person"
+                                >esaia</name></rubric>
+                        <ab>On p. <locus>43</locus> the Traditio symboli in Greek (Latin letters): with neumes</ab>
+                        <ab>On p. <locus>83</locus> sqq. are Benedictiones Ambrosianae for the oil etc. on Maundy
+                            Thursday</ab>
+                        <ab>The ordo ends on p. <locus>149</locus>, running from Christmas Eve to Christmas Eve</ab>
+
+
+                        <ab locus="149">Extracts from Decreta and Councils</ab>
+                        <rubric locusNew="149">Quod clerus et populus firmare debet de electo episcopo</rubric>
+                        <rubric locus="155">Ordo qualiter episcopus in Romana ecclesia ordinatur</rubric>
+                        <rubric locus="156">Incipit examinatio in ordinatione episcopi secundum Gallos</rubric>
+                        <rubric locus="182">Ordo qualiter ordinetur Romanus pontifex</rubric>
+                        <rubric locus="182">Ordo quando pallium datur archiepiscopo</rubric>
+                        <rubric locus="185">Incipit ordo ad regem benedicendum</rubric>
+                        <rubric locus="194">Incipit ordo Romanus ad benedicendum imperatorem</rubric>
+                        <rubric locus="195">Item Benedictio ad ordinandum imperatorem secundum occidentales</rubric>
+
+                        <rubric locus="197">Benedictio regine</rubric>
+                        <rubric locus="199">Canon de edificanda ecclesia. Nemo ecclesiam edificet etc.</rubric>
+                        <rubric locus="201">Ordo ad dedicandam ecclesiam</rubric>
+                        <ab locus="202">The Litany has</ab>
+                        <ab locusNew="202">
+                            <lg>
+                                <l>Martyrs: <name type="person">Pancrati</name>
+                                    <name type="person">Vite</name>
+                                    <name type="person">Maurici</name>
+                                    <name type="person">Gereon</name>
+                                    <name type="person">Victor</name>
+                                    <name type="person">Dyonisi</name></l>
+                                <l>Confessors: <name type="person">Galle</name>
+                                    <name type="person">Seuerine</name>
+                                    <name type="person">Euergisile</name>
+                                    <name type="person">Cuniberte</name>
+                                    <name type="person">Heriberte</name></l>
+                                <l>Virgins: <name type="person">Brigida</name>
+                                    <name type="person">Walburgis</name>
+                                    <name type="person">Gerdrudis</name></l>
+                            </lg>
+                        </ab>
+                        <ab>Evidently <name type="place">Cologne</name></ab>
+                        <ab locus="209">Greek alphabet</ab>
+                        <ab>The offices for dedication of all ornaments, and for reconciliation of a church, continue to
+                            p. <locus>257</locus></ab>
+                        <rubric locus="257">Consecratio sacre uirginis que in epiphania uel in secunda feria pasche aut
+                            in apostolorum nataliciis celebratur</rubric>
+                        <ab locus="263">Et dicat episcopus benedictionem <name type="person">mathei apostoli</name><hi
+                                rend="footnote">This is the blessing uttered by <name type="person">St Matthew</name>
+                                over the <name type="person">princess Ephigenia</name> in the Latin apocryphal Acts
+                                    (<ref type="bibl" target="Abdias 1560">Abdias, <hi rend="italic">Hist. Apost.</hi>
+                                    VII 13</ref>; Fabricius, <ref type="bibl" target="Fabricius 1703-19">Cod. Apoc. N.
+                                    T. 1 662</ref>)</hi> super eam. Deus plasmator corporum etc.</ab>
+                        <rubric locus="266">Ad diaconissam faciendam</rubric>
+                        <rubric locus="268">Consecratio vidue</rubric>
+                        <rubric locus="270">Ordo qualiter in Romana ecclesia sacri ordines fiunt</rubric>
+                        <ab>Rubrics end on p. <locus>283</locus>, but the same hand continues</ab>
+                        <ab locus="283">Form for dedication of an image of <name type="person">St Peter</name></ab>
+                        <ab locus="285">Form for dedication of an image of <name type="person">St Swithin</name></ab>
+                        <incipit locusNew="285">Oremus fratres dilectissimi rerum omnium conditorem </incipit>
+                        <explicit locusNew="286">Ergo presentem dilectissimi serui tui et beati patris nostri
+                            S&#503;I&#208;VNI effigiem</explicit>
+                        <ab>
+                            <handNote>In smaller script</handNote>
+                        </ab>
+                        <rubric locus="286">Benedicat nos diuina maiestas domini</rubric>
+                        <incipit locusNew="286">
+                            <lg>
+                                <l>Gloria uictori sit christo laude perhenni</l>
+                                <l>Qui super astra manet, cuius uictoria pollet</l>
+                            </lg>
+                        </incipit>
+
+                        <ab>Ends</ab>
+                        <explicit locusNew="287">
+                            <lg>
+                                <l>Presulibus nostris subiectis cum sibi totis</l>
+                                <l>Angligenis turmis concedat dona salutis</l>
+                                <l>Qui super</l>
+                                <l>Nostro pontifici cuius sumus in diocesi</l>
+                                <l>Da regnum uite qua scandat et ipse superne</l>
+                                <l>Gloria uictori</l>
+                            </lg>
+                        </explicit>
+                        <ab locus="287">Benedictio perae et baculi</ab>
+                        <rubric locus="290">Exhortation preliminary to office of the dead</rubric>
+                        <incipit locusNew="290">Quando celebramus dies fratrum defunctorum</incipit>
+                        <explicit locusNew="294">pro bonis operibus premia consequamur</explicit>
+                        <ab locus="294">Office in smaller script</ab>
+                        <incipit locusNew="294">Qui <name type="person">Lazarum</name></incipit>
+                        <ab>A few neumes inserted </ab>
+                        <ab>Ends at top of p. <locus>296</locus></ab>
+
+
+
+                    </msItem>
+
+
+
+
+                </msContents>
+
+
+
+
+                <additional>
+
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, CF</p>
+                            <p>msCheck: RJR 20.9.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

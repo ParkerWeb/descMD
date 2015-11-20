@@ -1,0 +1,193 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC046">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>46</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>O. 14</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>218</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">John of Salisbury, Policraticus, Metalogicon</head>
+                <head type="James">Joh. Salisberiensis Policraticus et Metalogicon</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">342</height>
+                        <width unit="mm">247</width>
+                    </measureGrp>, <measureGrp type="James">13.4 x 10</measureGrp>, <extent>ff. 1 + 22 + 240</extent>,
+                        <layout>double columns of 40 lines</layout>. Cent. <origDate>xii and xv</origDate>
+                    <handNote>very finely written</handNote>. The volume seems to me to be the work of two scribes:
+                    characteristic specimens of the work of each are on ff. <locus>18r</locus> and
+                    <locus>143r</locus>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, | a<num>8</num> b<num>8</num> c<num>8</num> |
+                        I<num>8</num>-XXX<num>8</num></collation>.</p>
+
+                <p function="Provenance">From <name type="place" key="ChristCh-001">Christ Church, Canterbury</name>. It
+                    is the copy owned by <name type="person" key="ThomasBe-001">Thomas a Becket</name> and very likely
+                    presented to him by his friend the author. <ref type="bibl" target="James 1903">
+                        <hi rend="italic">Ancient Libraries of Canterbury</hi> , pp. 85, 158, 510</ref>. Apparently
+                        <name type="person" key="MatthewP-001">Parker</name> acquired it from Dean <name type="person"
+                        key="Nicholas-001">Nicholas Wotton</name> of Canterbury.</p>
+
+                <p function="Additions">On the flyleaf <supplied>(f. <locus>cr</locus>)</supplied> is: <q>D. II. Gra X.
+                        <lb/>Policraticus <name type="author" key="JohnofSa-001">Johannis de saleberi</name>
+                        <lb/>Item metalogicon eiusdem <lb/>(added <origDate>xiii</origDate>
+                        <name type="person" key="ThomasBe-001">Sci Thome martiris</name>)</q>.</p>
+                <p function="Additions">Above <supplied>(f. <locus>cr</locus>)</supplied> (<origDate>xiii</origDate>):
+                        <q>Die secunda</q>.</p>
+                <p function="Additions">On f. <locus locusNew="1ar">ir</locus> of text (<origDate>xv</origDate>):
+                        <q>Policraticus <name type="author" key="JohnofSa-001">Johanni Carnot.</name></q>, erased words
+                    follow.</p>
+                <p function="Additions">Also <supplied>(f. <locus>1ar</locus>)</supplied>
+                    <origDate>xvi early</origDate>: <q>huius possessor <name type="person">Johannes Armoror</name>
+                            p<abbr rend="superscript">b</abbr>ss<abbr rend="superscript">i</abbr>(?)</q>.</p>
+
+                <p function="Research">The text of the Policraticus in this MS. has been now first used by <ref
+                        type="bibl" target="Webb 1909">Mr C. C. J. Webb of Magdalen College, Oxford, for his edition
+                        (Oxford, 1909)</ref>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-c + 1a-22a + i-ii + 1-238 + d-e</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1ar" locusEnd="22av">
+                        <head type="CCC">
+                            <title>Table indexing John of Salisbury's Policraticus</title>
+                        </head>
+
+                        <ab>Quires a, b, c are of cent. <origDate>xv</origDate>
+                            <layout>in double columns of 54 lines</layout>, and contain</ab>
+                        <ab>Tabula super polycraticum</ab>
+                        <incipit locus="1ar">Absolui. Non extorquetis absolui</incipit>
+                        <ab locusNew="21av">to <q>Ypodamia</q></ab>
+                        <ab><locus>22ar</locus>-<locus>22av</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="ir" locusEnd="183v">
+                        <head type="CCC">
+                            <name type="author" key="JohnofSa-001">John of Salisbury</name>, <title>Policraticus</title>
+                        </head>
+
+                        <ab>The original book begins</ab>
+                        <rubric locus="ir">Incipit entheticus <name type="author" key="JohnofSa-001">Iohannis
+                                saresberiensis</name> in policraticum</rubric>
+                        <incipit locus="ir">Si mihi credideris linguam cohibebis et aule</incipit>
+                        <ab>(<ref type="bibl" target="Migne 199">P. L. CXCIX 379</ref>)</ab>
+                        <explicit locus="iiv">Vix pateris dici pauca uel ista tene</explicit>
+                        <ab>These leaves are not numbered in the old foliation, which I use</ab>
+                        <rubric locus="iiv">Incipit prologus Policratici de curialium nugis et uestigiis
+                            philosophorum</rubric>
+                        <incipit locus="1r">Iocundissimus cum in multis tum in eo</incipit>
+                        <ab>(<ref type="bibl" target="Migne 199">P. L. CXCIX 385</ref>)</ab>
+                        <explicit locus="2v">magni consilii angelus</explicit>
+                        <rubric locus="2v">Explicit prologus I libri</rubric>
+                        <ab locus="2v">Capitula</ab>
+                        <rubric locus="2v">Incipit liber primus policratici</rubric>
+                        <incipit locus="2v">Inter omnia que uiris solent obesse</incipit>
+                        <ab locusNew="2v">
+                            <decoNote>Fine initial in gold, blue, red, green, pink, set in a panel of green. It has
+                                interlaced top, panelled stalk, and leaf ornament at bottom</decoNote>
+                        </ab>
+                        <ab locus="13r">Liber II with capitula <supplied>(on f. <locus>12v</locus>)</supplied>.
+                                <decoNote>Initial in blue and red</decoNote></ab>
+                        <ab locus="37v"><supplied>Liber</supplied> III</ab>
+                        <ab locus="52r"><supplied>Liber</supplied> VI <supplied>(should be IV)</supplied></ab>
+                        <ab locus="62v"><supplied>Liber</supplied> V</ab>
+                        <ab locus="82v"><supplied>Liber</supplied> VI <supplied>(capitula on f.
+                                <locus>82r</locus>)</supplied></ab>
+                        <ab locus="101r"><supplied>Liber</supplied> VII, <decoNote>pretty initial</decoNote>
+                            <supplied>on f. <locus>101v</locus></supplied></ab>
+                        <ab locus="134v"><supplied>Liber</supplied> VIII</ab>
+                        <explicit locus="183v">dirigat in eo gressus nostros</explicit>
+                        <rubric locus="183v">Explicit Policraticus <name type="author" key="JohnofSa-001">Johannis de
+                                Saresberie</name>. Liber VIII</rubric>
+                    </msItem>
+
+                    <msItem n="3" locusStart="184r" locusEnd="240v">
+                        <head type="CCC">
+                            <name type="author" key="JohnofSa-001">John of Salisbury</name>, <title>Metalogicon</title>
+                        </head>
+                        <rubric locus="184r">Incipit prologus <name type="author" key="JohnofSa-001">Iohannis</name> in
+                            Metalogicon</rubric>
+                        <ab>(<ref type="bibl" target="Migne 199">P. L. CXCIX 823</ref>)</ab>
+                        <incipit locus="184r">In humanis rebus nichil fere</incipit>
+                        <explicit locus="184v">placita uoluntati</explicit>
+                        <rubric locus="184v">Explicit prologus</rubric>
+                        <rubric locus="184v"><supplied>Incipiunt</supplied> capitula libri primi</rubric>
+                        <rubric locus="185r">Incipit metalogicon <name type="author" key="JohnofSa-001">Johannis</name>.
+                            Liber I</rubric>
+                        <incipit locus="185r">Aduersus insigne donum nature</incipit>
+                        <ab locus="198v">Liber II</ab>
+                        <ab locus="212r" locusNew="213r"><supplied>Liber</supplied> III (prol.)</ab>
+                        <ab locus="224r"><supplied>Liber</supplied> IV</ab>
+                        <explicit locus="238r">amatorem pariter et cultorem</explicit>
+                        <rubric locus="238r">Metalogicon <name type="author" key="JohnofSa-001">Iohannis de
+                                Saeresberie</name> liber quartus explicit</rubric>
+                        <ab locus="238r">A <name type="person" key="MatthewP-001">Parker</name>ian note on the author's
+                            date follows</ab>
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 4/4/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

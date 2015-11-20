@@ -1,0 +1,157 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC310">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>310</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>K. 5</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>110</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Hugh of Saint-Victor OSA, De sacramentis christianae fidei</head>
+                <head type="James">Hugo de Sacramentis</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">247</height>
+                        <width unit="mm">154</width>
+                    </measureGrp>
+                    <measureGrp type="James">9.8 x 6.2</measureGrp>, <extent>ff. 2 + 150</extent>, <layout>double
+                        columns of 42 lines</layout>. Cent. <origDate>xii late</origDate>, <handNote>in a beautiful
+                        small pointed hand</handNote>.</p>
+                <p><label>Collation:</label>
+                    <collation> a<num>2</num> 1<num>6</num> (+1) 2<num>8</num>-8<num>8</num> |
+                            I<num>8</num>-XI<num>8</num> (wants 8)</collation>.</p>
+                <p><label>2 fo.:</label>
+                    <secFol>Explicatio</secFol> or <secFol>miseriam</secFol>.</p>
+
+
+                <p>Lower margins of last leaves gnawed by mice.</p>
+
+                <p function="Additions">On f. <locus>ir</locus> at top is the date <date>1569</date>. Below this is the
+                    set-off of an inscription in a hand of cent. <date>xv</date>: <q>iber Sanct ...th. qui vocatur <name
+                            type="person">hugo</name></q>. I do not think this can be read Sancti Cuthberti; Swyth'
+                    seems more likely.</p>
+                <p>Below this (<date>xvi</date>): <name type="person">L(ennard ?) Graing</name>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-ii + 1-150 + c-d</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="150r">
+
+
+                        <head type="CCC">
+                            <name type="author">Hugh of Saint-Victor OSA</name>, <title>De sacramentis christianae
+                                fidei</title>
+                        </head>
+
+                        <ab><locus>iv</locus>-<locus>iiv</locus> blank</ab>
+                        <rubric locusNew="1r">Incipit prologus libri de sacramentis ab initio usque ad finem in unam
+                            seriem dispositis</rubric>
+                        <ab>(<ref type="bibl" target="Migne 176"><supplied>P. L.</supplied> CLXXVI</ref> 174)</ab>
+                        <incipit locusNew="1r">Librum de sacramentis christiane fidei studio quorundam</incipit>
+                        <ab>
+                            <decoNote>Fine initial. Gold ground; a beardless man, black haired, in long close robe
+                                mainly blue (with decorated collar, girdle and hem), holds up kite-shaped shield in L.
+                                hand behind his shoulder, and pierces with a spear the mouth of a green dragon with red
+                                wings and white head, on which he stands</decoNote>
+                        </ab>
+                        <ab locusNew="1r">Capitula</ab>
+                        <incipit locus="3r">Cum igitur de prima erudicione sacri eloquii</incipit>
+                        <explicit locusNew="4v">tractando extendunt</explicit>
+                        <rubric locusNew="4v">Explicit prologus</rubric>
+                        <rubric locusNew="4v">Incipit liber <name type="author">hugonis</name> de sacramentis ad
+                            secundam erudicionem sacris eloquii quod est fundamentum sciencie. Prima pars exameron in
+                            opera conditionis</rubric>
+                        <incipit locusNew="4v">Arduum profecto et laboriosum opus</incipit>
+                        <ab>
+                            <decoNote>Initials alternately red and blue</decoNote>
+                        </ab>
+                        <ab>Ends</ab>
+                        <explicit locus="62v">precepta. sacramenta promissa</explicit>
+                        <rubric locusNew="62v">Explicit liber primus xii clausulas siue partes continens</rubric>
+                        <ab><locus>63r</locus>-<locus>63v</locus> blank</ab>
+
+                        <rubric locus="64r">Incipit liber sacramentorum noui testamenti</rubric>
+                        <incipit locusNew="64r">Magne sunt in scripturis sacris</incipit>
+                        <ab>
+                            <decoNote>Fine decorative initial on gold ground</decoNote>
+                        </ab>
+                        <ab locus="66r" locusNew="64r">Capitula</ab>
+                        <ab>Text</ab>
+                        <incipit locusNew="66r">In superiori parte operis</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="150r">Ecce quod erit in fine sine fine</explicit>
+                        <rubric locusNew="150r">Explicit liber magistris <name type="author">hugonis</name>. Anima eius
+                            in pace requiescat</rubric>
+                        <ab locusNew="150r"><q>?????</q> (<origDate>xvi</origDate>)</ab>
+                        <ab><locus>150v</locus> blank</ab>
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: CF 25.7.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,575 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC189">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>189</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>G. 7</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>67</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Canterbury Documents. William Thorne OSB, Chronicle (587-1375)</head>
+
+                <head type="James">Chronica Will. Thorne etc.</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">290</height>
+                        <width unit="mm">195</width>
+                    </measureGrp>
+                    <measureGrp type="James">11.4 x 7.7</measureGrp>, <extent>ff. 203 + 8</extent>, <supplied>two
+                        volumes</supplied>, <layout>various numbers of lines to a page</layout>. Cent. <origDate>xiv and
+                        xii</origDate>, <handNote>in various hands</handNote>.</p>
+
+                <p function="Multivolume"><lb/><label>Volume II</label>. <handNote>A fresh volume and hand</handNote>:
+                        <layout>44 etc. lines to a page</layout>
+                </p>
+
+
+                <p><label>Collation:</label>
+                    <collation>a<num>4</num> 1<num>14</num> (11 canc.) 2<num>12</num> 3<num>12</num> | 4<num>8</num> |
+                            5<num>12</num>-9<num>12</num> (+ 11*) 10<num>12</num> (+ slip)
+                            11<num>12</num>-15<num>12</num> 16<num>8</num> | 17<num>6</num> | 18 (three) |
+                            19<num>8</num> (8 a fragment) | b<num>4</num></collation>.</p>
+
+
+                <p>
+                    <label>2 fo.:</label>
+                    <lb/>
+                    <label>Volume II:</label>
+                    <secFol>episcopum fore</secFol>.</p>
+
+
+                <p function="Additions">The eight flyleaves <supplied>(ff. <locus>ir</locus>-<locus>ivv</locus>,
+                            <locus>vr</locus>-<locus>viiiv</locus>)</supplied> are from a <origDate>xiii</origDate>th
+                    cent. MS. of quaestiones<layout> in double columns</layout>, first and last pages pasted over with
+                    paper.</p>
+                <p function="Provenance">The note given by <name type="person">Nasmith</name> (<q>Hic liber primo
+                        mutuatus</q> etc.) is <handNote>in a Parkerian hand</handNote> on f. <locus>1r</locus>. It
+                    implies that the home of the book was <name type="place">St Augustine's Abbey</name>.</p>
+
+
+
+
+
+
+                <p type="CCC">
+                    <foliation>ff. a + i-iv + 1-112 + 112a + 113-203 + v-viii + b</foliation>.</p>
+
+
+
+                <msContents>
+
+                    <textLang mainLang="lat" otherLangs="frm">Latin and Anglo-Norman.</textLang>
+
+                    <label>Contents</label>
+
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="1r" locusEnd="1v">
+
+
+
+                        <head type="CCC">
+                            <title>List of keepers of the <name type="place">Kent</name> coast in the reign of Edward
+                                III</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Custodes periculorum super coster. maris in <name type="place">com. Kant.</name>
+                                <date>XIII die Augusti anno regis Edwardi tertii XLIIII<abbr rend="superscript"
+                                        >to</abbr></date></title>
+                        </head>
+
+                        <ab locus="1r">
+                            <handNote>In a <date>xv</date>th cent. hand</handNote>
+                        </ab>
+                        <ab locusNew="1r">There are some notes on measures besides the matter described by <name
+                                type="person">Nasmith</name></ab>
+                        <ab locus="1v">In an earlier hand a note on <name type="place">St Augustine's Abbey</name></ab>
+                        <incipit locusNew="1v">A <name type="person">sancto petro primo abbate</name> usque ad <name
+                                type="person">aldhunum</name></incipit>
+                        <explicit locusNew="1v">per <name type="person">archiepiscopum lanfrancum</name> serpentina
+                            calliditate processus pentecostales amisit</explicit>
+
+                    </msItem>
+
+
+
+                    <msItem n="2" locusStart="1v" locusEnd="1v">
+
+
+
+                        <head type="CCC">
+                            <title>Explanation of the custom of 'gavelet' in the county of <name type="place"
+                                    >Kent</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Expositio cujusdam usagii in <name type="place">com. Kant.</name> quod dicitur
+                                Gavelate</title>
+                        </head>
+
+                        <ab>
+                            <handNote><supplied>Items</supplied> 2-5 are in a hand similar to that of
+                                    <supplied>item</supplied> 1 except that a list (<q>Ordinatio de vicariis cum
+                                    appropriatione earundem videantur in fine libri</q>) is in a hand of cent.
+                                    <origDate>xvi</origDate></handNote>
+                        </ab>
+
+                    </msItem>
+
+
+
+                    <msItem n="3" locusStart="1v" locusEnd="2r">
+
+
+
+                        <head type="CCC">
+                            <title>Payment owed to the church of <name type="place">Sibertswold</name> by the <name
+                                    type="place">abbey of St Radegund</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Pensio ecclesiae de <name type="place">Siberteswalde</name> solv. per <name
+                                    type="place">abbatiam sanctae Radegundis</name></title>
+                        </head>
+
+                        <ab>
+                            <handNote><supplied>Items</supplied> 2-5 are in a hand similar to that of
+                                    <supplied>item</supplied> 1 except that a list (<q>Ordinatio de vicariis cum
+                                    appropriatione earundem videantur in fine libri</q>) is in a hand of cent.
+                                    <origDate>xvi</origDate></handNote>
+                        </ab>
+
+                    </msItem>
+
+
+                    <msItem n="4" locusStart="2r" locusEnd="2r">
+
+
+
+                        <head type="CCC">
+                            <title>List of the churches of <name type="place">St Augustine's abbey</name> appropriated
+                                by <name type="person">Archbishop Simon Langham</name>, <date>April 1368</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Dimissio omnium ecclesiarum <name type="place">monasterii sancti Augustini</name>
+                                appropriatarum facta per dominum <name type="person">Simonem Langham archiepiscopum
+                                    Cantuariensem</name>
+                                <date>18 Aprilis 1368</date></title>
+                        </head>
+
+                        <ab>
+                            <handNote><supplied>Items</supplied> 2-5 are in a hand similar to that of
+                                    <supplied>item</supplied> 1 except that a list (<q>Ordinatio de vicariis cum
+                                    appropriatione earundem videantur in fine libri</q>) is in a hand of cent.
+                                    <origDate>xvi</origDate></handNote>
+                        </ab>
+
+                    </msItem>
+
+
+                    <msItem n="5" locusStart="2v" locusEnd="2v">
+
+
+
+                        <head type="CCC">
+                            <title>Declaration of <name type="person">Archbishop William Courtenay</name> that his visit
+                                to <name type="place">St Augustine's abbey</name> will not prejudice its future
+                                privileges, <date>1389</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Protestatio <name type="person">Willelmi Courtenay archiepiscopi Cantuariensis</name>
+                                ne ingressus suus monasterii privilegiis deroget vel praejudicet in futurum</title>
+                        </head>
+
+                        <ab>
+                            <handNote><supplied>Items</supplied> 2-5 are in a hand similar to that of
+                                    <supplied>item</supplied> 1 except that a list (<q>Ordinatio de vicariis cum
+                                    appropriatione earundem videantur in fine libri</q>) is in a hand of cent.
+                                    <origDate>xvi</origDate></handNote>
+                        </ab>
+
+                        <ab><supplied>Item</supplied> 5 is dated <date>1389, 23 aprilis</date></ab>
+
+
+                    </msItem>
+
+
+
+                    <msItem n="6" locusStart="3r" locusEnd="15v">
+
+
+
+                        <head type="CCC">
+                            <title>Chronology from the beginning of the world to <date>1378</date></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Chronologia quaedam ab orbe condito ad annum <date>1378</date></title>
+                        </head>
+
+                        <ab locus="3r">
+                            <handNote>In a small hand</handNote>
+                        </ab>
+                        <incipit locusNew="3r"><name type="person">Adam</name> homo primus de limo terre extra paradisum
+                            in agro damasseno</incipit>
+                        <ab>Apparently a <name type="place">Canterbury</name> chronology</ab>
+                        <ab>Ends</ab>
+                        <explicit locusNew="15v">Anno <date>(m<abbr rend="superscript">o</abbr>) iii<abbr
+                                    rend="superscript">c</abbr> lxxviij</date>
+                            <name type="person">urbanus 6</name> fit papa dominica in ramis palmarum</explicit>
+
+
+                    </msItem>
+
+
+                    <msItem n="7" locusStart="16r" locusEnd="23r">
+                        <head type="CCC">
+                            <title>History of <name type="place">Britain</name> from antiquity to the death of <name
+                                    type="person">Edward III</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Historia <name type="place">Britanniae</name> a prima antiquitate ad mortem <name
+                                    type="person">Edwardi III</name></title>
+                        </head>
+                        <incipit locus="16r">Transactis a constitucione mundi iii m<abbr rend="superscript">l</abbr>
+                                viii<abbr rend="supersrcipt">c</abbr> iii annis quidam <name type="person">Rex grecie
+                                nomine Cycropes</name> cunctis regibus terre potentior habebat xxx filias</incipit>
+
+                        <ab>Foundations of monasteries and donations to <name type="place">St Augustine's</name> are
+                            noted</ab>
+                        <ab>Ends with <name type="person">Edward III</name></ab>
+                        <explicit locusNew="23r">iste regnauit li annis et <name type="place">Westmonasterii</name> cum
+                            patribus suis sepelitur</explicit>
+                    </msItem>
+
+
+
+                    <msItem n="8" locusStart="23v" locusEnd="25v">
+
+                        <head type="CCC">
+                            <title>Constitution of <name type="author">Pope Innocent</name> on the chapters of the
+                                Benedictine order</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Constitutio <name type="author">Innocentii papae</name> de capitulis ordinis <name
+                                    type="person">Sancti Benedicti</name> celebrandis</title>
+                        </head>
+
+                        <ab locus="23v"><handNote>In another hand</handNote>, 1st year of pontificate</ab>
+                        <incipit locusNew="23v">Regis pacifici qui regnat in celis</incipit>
+                        <ab>f. <locus>25r</locus>+<locus>25v</locus> blank</ab>
+
+                    </msItem>
+
+
+                    <msItem n="9" locusStart="26r" locusEnd="32r">
+                        <head type="CCC">
+                            <title>Fragment from a history of <name type="place">England</name> and <name type="place"
+                                    >Scotland</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Fragmentum cujusdam historiae <name type="place">Angliae</name> et <name type="place"
+                                    >Scotiae</name></title>
+                        </head>
+                        <ab locus="26r">
+                            <layout>Double columns</layout>
+                        </ab>
+
+                        <ab locusNew="26r">Begins imperfectly with a note at top<lb/><q>Regnum Scotorum est in
+                                occidentale parte <name type="place">britannie</name> et regnum pictorum in
+                                aquilonali</q> etc.</ab>
+                        <ab>Text</ab>
+                        <incipit locusNew="26r">occiso <name type="person">Thymgarus</name> solus reg'. post istum <name
+                                type="person">Riuallo</name> quo mortuo erat inter fratres et nepotes</incipit>
+                        <ab>The same text as <supplied>item</supplied> no. 7: see f. <locus>16v</locus></ab>
+                        <ab locusNew="30r">After <name type="person">Edward III</name> it adds</ab>
+                        <explicit locusNew="30r"><name type="person">Ricardus filius Edwardi</name> principis sub anno
+                            domini <date>m<abbr rend="superscript">l</abbr> iii<abbr rend="superscript">c</abbr>
+                                lxxvij</date> puer x annorum etate xvii kal. aug. in regem coronatus est</explicit>
+                        <ab>On <locus locusNew="30v">29v</locus> are paragraphs omitted in the text. The latest
+                            referring to <date>1259</date></ab>
+
+                        <ab>On f. <locus locusNew="31r">30r</locus>. Lists of kings from <name type="person"
+                                >Ethelbert</name> to <name type="person">Richard II</name>, and archbishops from <name
+                                type="person">Augustine</name> to <name type="person">Simon Langham</name></ab>
+
+                        <ab locus="30v" locusNew="31v">List of kings (and dioceses) in <name type="place">England</name>
+                            at the time of <name type="person">Augustine</name></ab>
+                        <ab locus="31r" locusNew="32r">Counties and dioceses (cf. <ref type="ms" target="CCC301">MS
+                                301</ref>)</ab>
+                        <rubric locus="31r" locusNew="32r">Contenta in decretali (<handNote>another
+                            hand</handNote>)</rubric>
+
+                    </msItem>
+
+
+                    <msItem n="10" locusStart="32v" locusEnd="33r">
+                        <head type="CCC">
+                            <title>Archiepiscopal constitutions</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Constitutiones archiepiscopales de eis quae parochiani tenentur invenire in
+                                ecclesiis; et de decimis per ecclesiarum rectores a suis parochianis petendis</title>
+                        </head>
+
+
+                        <ab locus="31v" locusNew="32v">Constitutions (1) of <name type="person">Robert</name> and <name
+                                type="person">Walter</name>. (2) Of <name type="person">Robert</name> at <name
+                                type="place">Lambeth</name></ab>
+
+                    </msItem>
+
+
+
+                    <msItem n="11" locusStart="33v" locusEnd="37r">
+                        <head type="CCC">
+                            <title>On the sale and tithe of wool</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De venditione et decimis lanae</title>
+                        </head>
+
+
+                        <rubric locus="32v" locusNew="33v">Vendicio lane</rubric>
+                        <ab>Extract from Rotulus placitorum <date>12 Edwardi II</date> on dues of Abbot and
+                            Archbishop</ab>
+                        <ab locus="33r" locusNew="34r">Table of a book referring to <name type="place">St
+                                Augustine's</name>: double columns</ab>
+                        <ab locus="35v" locusNew="36v">On the Cinque Ports</ab>
+                        <ab locus="35v" locusNew="36v">Number of churches etc. in <name type="place">England</name></ab>
+                        <ab locus="36r" locusNew="37r">Explanation of Sake, Soke etc. (also in <ref type="ms"
+                                target="CCC301">MS 301</ref>)</ab>
+
+                    </msItem>
+
+                    <msItem n="12" locusStart="37v" locusEnd="37v">
+                        <head type="CCC">
+                            <title>Estimate of the lands and manors of <name type="place">St Augustine's abbey,
+                                    Canterbury</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Terra maneriorum <name type="place">Sancti Augustini</name> mensurata</title>
+                        </head>
+
+
+                        <incipit locus="36v" locusNew="37v">In <name type="place">Rodrycheffeld</name> ccl acras
+                            etc.</incipit>
+                        <ab>(<ref type="bibl" target="Twysden 1652">Twysden, <hi rend="italic">Decem Scriptores</hi>
+                                col. 2202</ref>)</ab>
+                        <ab>Chronological notes and note of death of <name type="person">Joh. Derby</name>, monachus et
+                            sacrista monasterii Sancti Augustini Cantuarie. (<date>1404 die S. liuini</date>): qui de
+                            nouo fecit domum angularem ex opposito <name type="place">ecclesie Sancti Andree</name> in
+                            cantuarie. Et decorauit et ornauit ecclesiam predicti monasterii cum xiii fenestris de opere
+                            lapideo et vitreo bene et suspicaciter (?) perfectis</ab>
+
+                    </msItem>
+
+
+                    <msItem n="13" locusStart="38r" locusEnd="45v">
+                        <head type="CCC">
+                            <title>List of counties of <name type="place">England</name> with their castles, monasteries
+                                and priories</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Comitatus <name type="place">Angliae</name>, et castella abbatiae et prioratus in
+                                quolibet comitatu</title>
+                        </head>
+
+
+                        <ab locus="37r" locusNew="38r">A quire in a larger hand: first, a table with headings
+                                <q>Longitudo</q>. <q>Latitudo</q>. <q>Pedes</q>. <q>Pollices</q> (<ref type="bibl"
+                                target="Twysden 1652">Twysden, 2203</ref>)</ab>
+                        <ab>List of counties, monasteries, castles: monastic order specified</ab>
+                        <ab locus="45v">Note <handNote>in another hand</handNote> on money and measures</ab>
+
+
+                    </msItem>
+
+
+                    <msItem n="14" locusStart="45v" locusEnd="45v">
+                        <head type="CCC">
+                            <title>Letter of <name type="person">Pope Boniface IV</name> to <name type="person"
+                                    >Ethelbert, king of Kent</name> on the foundation of <name type="place">Christ
+                                    Church, Canterbury</name>, dated <date>615</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Litera <name type="author">Bonifacii papae</name> missa <name type="person"
+                                    >Ethelberto</name> de prima fundatione <name type="place">ecclesiae
+                                Christi</name></title>
+                        </head>
+
+
+                        <ab locus="45v">Dated <date>615</date></ab>
+                        <incipit locusNew="45v">Domino excellentissimo atque precellentissimo filio</incipit>
+                        <ab>In <ref type="ms" target="LBLCA3">Claudius A. III</ref> and <ref type="ms" target="LBLCE1"
+                                >Cleopatra E. I</ref>. See <ref type="bibl" target="Böhmer 1902">Bohmer, <hi
+                                    rend="italic">Fälschungen Lanfranks</hi>, p. 145</ref></ab>
+
+
+                    </msItem>
+
+
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="15" locusStart="46r" locusEnd="203v">
+
+                        <head type="CCC"><name type="author">William Thorne OSB</name>, <title>Chronicle
+                                    (<date>587</date>-<date>1375</date>)</title></head>
+
+                        <head type="Nasmith">
+                            <title>Chronica fratris <name type="author">Wilhelmi Thorne</name>, cui subnectuntur
+                                evidentiae donationum <name type="place">ecclesiae Christi Cantuarie</name></title>
+                        </head>
+
+
+                        <ab>
+                            <quote>
+                                <q>Hic liber primo mutuatus a <name type="person">Mag. Thoma Twine</name>, sed postea
+                                    datus fuit <name type="person">Matthaeo Cantuariensi</name> per <name type="person"
+                                        >Mag (blank) Bracher</name> (cum aliis quibusdam libris) quondam monachum Sancti
+                                    Augustini qui fuit confessor in aula regia et verus possessor hujus libri</q>
+                            </quote>
+                        </ab>
+
+
+                        <ab>Headed in red</ab>
+                        <rubric locus="46r">Cronice ff. Will<abbr rend="superscript">mi</abbr> Thorne</rubric>
+                        <incipit locusNew="46r">Ualens labor et laude dignus per quem ignota noscuntur occultata ad
+                            noticiam patescunt etc.</incipit>
+                        <ab>Annotated by some of the scribes of previous articles</ab>
+
+                        <ab>Printed from this and another MS. by <ref type="bibl" target="Twysden 1652">Twysden in <hi
+                                    rend="italic">Decem Scriptores</hi> 1757</ref></ab>
+
+                        <ab>On ff. <locus locusNew="182v">181v</locus> - <locus locusNew="185r">184r</locus> are
+                            inserted some later Placita (one of <date>19 Henrici VI</date>): <locus locusNew="185v"
+                                >184v</locus> - <locus locusNew="186v">185v</locus> blank</ab>
+                        <ab>This copy ends f. <locus locusNew="191r">190r</locus> (on <date>1375</date>) with the
+                            election of <name type="person">Michael de peccham</name> (see notes on this election in
+                                <ref type="ms" target="CCC301">MS 301</ref>)</ab>
+                        <ab><ref type="bibl" target="Twysden 1652">Twysden's cap. xl, col. 2150</ref>, ends thus:
+                                <q>maneria de oris et dene constat augmentata</q></ab>
+                        <ab>This MS. reads: <q>constat augmentata</q>, and continues</ab>
+                        <explicit locusNew="191r">Igitur defuncto abbate supra dicto regia licencia prehabita elegerunt
+                            per viam compromissi fratrem <name type="person">Michael de Pecham</name> tunc camerarium
+                            virum prestantissimum die S. Albani anno supradicto </explicit>
+                        <ab>This sentence does not appear to be in <ref type="bibl" target="Twysden 1652"
+                            >Twysden</ref></ab>
+                        <ab>On <locus locusNew="191v">190v</locus> has been a papal document: erased except the first
+                            words, <q><name type="person">Johannes Ep.</name> seruus seruorum</q></ab>
+                        <ab locusNew="192r">
+                            <handNote>Another hand</handNote>
+                        </ab>
+                        <incipit locus="191r" locusNew="192r">ffait assauoir de la ffraunchise lerceuesque de Canterbirs
+                            qil ad en <name type="place">Staplegate</name> en lauant dit citee</incipit>
+                        <ab>(<ref type="bibl" target="Twysden 1652">Twysden 2204</ref>)</ab>
+                        <ab>
+                            <locus locusNew="193r">192r</locus>
+                        </ab>
+                        <ab>On <locus locusNew="193v">192v</locus> - <locus locusNew="195v">194r</locus> (<locus
+                                locusNew="195v">195r</locus>) <handNote>in various hands</handNote> are copies of
+                            documents</ab>
+                        <rubric locus="192v" locusNew="193v">Breue <name type="person">regis (Ricardi)</name> escaetori
+                            de kancia ... de seisina temporalium tempore vacacionis</rubric>
+                        <rubric locus="193r" locusNew="194r">Perambulacio balliuorum et comit. <name type="place">ciuit.
+                                Cantuarie</name>
+                            <date>46 Edwardi III</date></rubric>
+                        <rubric locus="193v" locusNew="194v">Juramentem etc. Vicarii de <name type="place"
+                                >Plumsted</name></rubric>
+                        <rubric locus="193v" locusNew="194v">Ordinacio Vicarii de <name type="place"
+                            >litlebourne</name></rubric>
+                        <rubric locus="194" locusNew="195r">Forma obligacionis camere pape</rubric>
+                        <ab>(<ref type="bibl" target="Twysden 1652">Twysden 2206</ref>)</ab>
+                        <ab locus="194v" locusNew="195v">Document relating to <name type="place">Plumsted</name>, dated
+                                <date>1387</date></ab>
+                        <ab><locus locusNew="196r">195r</locus> (- <locus locusNew="197r">196r</locus>) sqq. are of
+                            cent. <origDate>xii</origDate> and are <handNote>in a <name type="place">Christ
+                                    Church</name> hand</handNote>. They contain <q>Evidentiae ecclesiae Christi
+                                Cant.</q> and are printed by <ref type="bibl" target="Twysden 1652">Twysden
+                                2207-2226</ref></ab>
+
+                        <ab locusNew="196r">
+                            <supplied>A number of <name type="place">Christ Church, Canterbury</name> documents, mostly
+                                abbreviated Anglo-Saxon charters. See <ref type="bibl" target="Sawyer 1968">Sawyer, <hi
+                                        rend="italic">Anglo-Saxon Charters</hi></ref>: S 1609, S 8, S 230, S 1610, S 19,
+                                S 22, S 1611, S 90, S 1612, S 38, S 1613, S 1430a, S 155, S 1259, S 160, S 111, S 1436,
+                                S 1615, S 1616, S 1617, S 1618, S 175, S 1619, S 186, S 1266, S 188, S 414, S 1623, S
+                                1438, S 1625, S 286, S 1626, S 1627, S 1628, S 1629, S 1209, S 132, S 1614, S 398, S
+                                1210, S 537, S 546, S 31, S 477, S 1632, S 1633, S 1212, S 1636, S 1503, S 1378, S 1638,
+                                S 905, S 1624, S 1639, S 1630, S 1634, S 1635, S 1640, S 1641, S 1642, S 1222, S 1221, S
+                                1218, S 1637, S 1646, S 1643, S 1089, S 1047, S 1090, S 1645, S 1530, S 1631, S 1389, S
+                                1644, S 959 </supplied>
+                        </ab>
+
+                        <ab locusNew="203r">The last leaf is a fragment</ab>
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF, SP</p>
+                            <p>markupCheck: checked by CF, BA, CF</p>
+                            <p>msCheck: NJC, SP 1/12/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

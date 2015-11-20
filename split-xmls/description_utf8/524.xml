@@ -1,0 +1,216 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC524">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>524</idno>
+                    <altIdentifier type="Elbing">
+                        <idno>N. 26</idno>
+                    </altIdentifier>
+
+                </msIdentifier>
+                <head type="CCC">Spiritual and Devotional Tracts</head>
+                <head type="James">[Untitled]</head>
+                <p function="Codicology"><material>Vellum and paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">295</height>
+                        <width unit="mm">220</width>
+                    </measureGrp>, <measureGrp type="James">11.7 x 8.8</measureGrp>, <extent>ff. 219</extent>,
+                        <layout>mostly double columns of 42 and 43 lines</layout>, <handNote>in two hands of cent.
+                            <origDate>xiv-xv</origDate>, of better quality than most</handNote>. </p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>16</num> (outer and middle sheets vellum) 2<num>12</num>-8<num>12</num> (wants 9
+                        blank) 9<num>12</num> (blank) 10<num>12</num> 11<num>12</num> | 12<num>12</num> (outer and
+                        middle sheets vellum)-15<num>12</num> (12 canc.) | 16<num>16</num> (as 1) 17<num>12</num>
+                        (paper: wants 7) 18<num>12</num> (blank: ten left)</collation>.</p>
+                <p function="Additions">Binding as before: three metal tags, one pierced: label <q>.76.</q> Bosses.
+                    Chain-mark at middle top of last cover.</p>
+                <p function="Provenance"><name type="person">Mary Pernham</name> on f. <locus>1v</locus>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-220 + iii</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="70r">
+                        <head type="CCC">
+                            <title>Distinctiones</title>
+                        </head>
+                        <incipit locus="1r">Abstinencia facit corpus obedire spiritui</incipit>
+                        <ab>Ends with Spiritus</ab>
+                        <explicit locusNew="68v">passus est pro salute omnium nostrum. Ipsi igitur laus et gloria in
+                            sempiterna secula. Amen</explicit>
+                        <incipit locusNew="68v">Diuina coadiutus gratia multorumque patrauit gynasiis</incipit>
+                        <explicit locusNew="69r">firmiter figo pedem</explicit>
+                        <rubric locusNew="69r">Anno dei <date>m<abbr rend="superscript">o</abbr> cccciiij<abbr
+                                    rend="superscript">o</abbr></date> finitus est iste liber die ultima carnispriuii
+                            per manus <name type="person">Johannis</name>, etc.</rubric>
+                        <ab locus="69r">Extracts (Auctoritates)</ab>
+                    </msItem>
+
+                    <msItem n="2" locusStart="70v" locusEnd="74r">
+                        <head type="CCC"><name type="author">pseudo-Bonaventure OFM</name>, <title>De gradibus uirtutum
+                                (Summula aurea de gradibus uirtutum)</title></head>
+                        <head type="James">
+                            <title>De virtutibus</title>
+                        </head>
+
+                        <incipit locusNew="70v">Infimus gradus karitatis est diligere amicum</incipit>
+                        <ab locus="73r">Ends unfinished</ab>
+                        <ab>ff. <locus>73v</locus>, <locus>74r</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="3" locusStart="74v" locusEnd="77v">
+                        <head type="CCC"><name type="author">Isidore of Seville</name>, <title>Synonyma (excerpts from
+                                book 2)</title></head>
+
+                        <head type="James">
+                            <name type="author">Ysidorus</name>
+                            <title>de institucione vite</title>
+                        </head>
+                        <incipit locusNew="74v">Dilecte fili mi dilige lacrimas</incipit>
+                        <ab>(<ref type="bibl" target="Migne 017"><supplied>P. L.</supplied> XVII</ref> 749, <ref
+                                type="bibl" target="Migne 087"><supplied>P. L.</supplied> LXXXVII</ref> 457)</ab>
+                        <explicit locusNew="77v">apud deum reputatur. deo gracias. amen</explicit>
+                        <rubric locusNew="77v">Explicit <name type="author">ysidorus</name> de institucione
+                            vite</rubric>
+                    </msItem>
+
+                    <msItem n="4" locusStart="78r" locusEnd="91r">
+                        <head type="CCC"><name type="author">Alexander de Villa Dei (attrib.)</name>, <title>Summarium
+                                biblicum (Epitome bibliorum) (extracts)</title></head>
+                        <head type="James">
+                            <name type="author">Alexander de Villa dei</name>
+                            <title>Epitome Bibliorum</title>
+                        </head>
+
+                        <ab><hi rend="italic">Genesis</hi>. Sex. prohibet. peccant. abel. Enoch. archa. fil.
+                            intrant</ab>
+                        <ab>Ends with</ab>
+                        <ab locusNew="91r"> Jude</ab>
+                        <ab locusNew="91r">Electe. Gayo. Judas. archangelus. enoch</ab>
+                    </msItem>
+
+                    <msItem n="5" locusStart="91v" locusEnd="111v">
+                        <head type="CCC"><name type="author">Peter Lombard</name>, <title>Sententiarum
+                                abbreuiationes</title></head>
+                        <ab>A similar epitome of the Sentences</ab>
+                        <ab locusNew="91v"> Tres. tres. vestigium. gemuit. natura. volendo </ab>
+                        <ab>The explanatory notes are not added on f. <locus>92r</locus> and the text ends unfinished on
+                            f. <locus>93r</locus></ab>
+                        <ab>ff. <locus>93v</locus>-<locus>111r</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="6" locusStart="112r" locusEnd="135v">
+                        <head type="CCC">
+                            <title>Spiritual tracts and sermons</title>
+                        </head>
+                        <rubric locus="112r">De effectibus dominici corporis et sanguinis</rubric>
+                        <incipit locusNew="112r">Sapore diuini faui quisquis estuas</incipit>
+                        <explicit locusNew="126v">exitum nostrum Ihesus Chritus dominus noster qui viuit ......deus per
+                            omnia secula seculorum. amen</explicit>
+                        <rubric locusNew="126v">Explicit compilacio de domini corporis et sanguinis domini nostri Ihesu
+                            Christi effectibus amen</rubric>
+                        <rubric locusNew="126v">In nomine domini. amen</rubric>
+                        <ab locus="126v">De effectu aduentus, etc., domini</ab>
+                        <incipit locusNew="126v">Aduentus dei in animam cum multos habeat effectus</incipit>
+                        <rubric locusNew="129v">De vj pheodis</rubric>
+                        <incipit locusNew="129v">Tradunt sancti doctores animam consequi vi pheoda in summa
+                            patria</incipit>
+
+                        <ab>followed by</ab>
+                        <rubric locusNew="131r">De vij sensibus spiritualibus</rubric>
+                        <rubric locusNew="131r">De quidditate gracie</rubric>
+                        <ab locus="132r"> Sermon on <name type="person">S. John Baptist</name>
+                        </ab>
+                        <incipit locusNew="132r">Fuit homo missus ... Quando aliquis in regno suo</incipit>
+
+                        <rubric locus="132r" locusNew="134r">Sermo de dedicacione</rubric>
+                        <incipit locusNew="134r">Sanctificauit thabernaculum</incipit>
+                    </msItem>
+
+                    <msItem n="7" locusStart="136r" locusEnd="182v">
+                        <head type="CCC"><name type="author">Henrik Totting van Oyta</name>, <title>Passio
+                                Domini</title></head>
+                        <rubric locusNew="136r">Sequitur passio domini per mag. <name type="person">heynricum</name> de
+                            eutavo sacre theologie professorem</rubric>
+                        <incipit locusNew="136r">Erit vita tua quasi pendens ... In hiis verbis mystice nobis
+                            proponitur</incipit>
+                        <ab>Ends unfinished, f. <locus>182v</locus></ab>
+                        <explicit locus="182v">vnde ypocrite gloriam querentes</explicit>
+                    </msItem>
+
+                    <msItem n="8" locusStart="183r" locusEnd="220v">
+                        <head type="CCC">
+                            <title>Tractatus de peccato et eius speciebus and sermon</title>
+                        </head>
+                        <rubric locusNew="183r">De peccato et eius speciebus</rubric>
+                        <incipit locusNew="183r">Status proficiencium consistit in 3<abbr rend="superscript"
+                            >bus</abbr>:perhaps unfinished</incipit>
+                        <ab>Followed by some auctoritates and a sermon or two</ab>
+                        <ab>ff. <locus>204r</locus>-end <supplied>(<locus>220v</locus>)</supplied> are blank</ab>
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJM 5.11.2008</p>
+                            <p> remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

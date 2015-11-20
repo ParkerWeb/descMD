@@ -1,0 +1,224 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC070">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>70</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>F. 6</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>63 bis</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Leges Anglorum</head>
+
+                <head type="James">Leges Anglorum</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">288</height>
+                        <width unit="mm">196</width>
+                    </measureGrp><measureGrp type="James">11.6 x 7.5</measureGrp>, <extent>ff. 98</extent>,
+                        <layout>mostly 48 lines to a page</layout>. Cent. <origDate>xiv (early)</origDate>, <handNote>in
+                        charter-hand, and another (pp. <locus>75</locus>-<locus locusNew="105">104</locus>) of more
+                        book-type</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>12</num> (+1*) 2<num>4</num> (+1) 3<num>8</num> 4<num>10</num>
+                            5<num>12</num>-8<num>12</num> 9<num>10</num> 10<num>4</num></collation>.</p>
+
+                <p function="Provenance">On p. <locus>101</locus> in red in lower margin: <q><name type="person"
+                            >Horn</name> mihi cognomen <name type="person">Andreas</name> est mihi nomen</q>.
+                        <decoNote>Above is a small drawing of a fish</decoNote>. The same line occurs (with others) in
+                    the unique copy of the Speculum Justitiariorum (<ref type="ms" target="CCC258">MS 258</ref>). See
+                    Professor <name type="person">Maitland</name>'s Introduction to the latter (<ref type="bibl"
+                        target="Whittaker 1895">Selden Society 1893 Mirror of Justices, <name type="person"
+                            >Whittaker</name> and <name type="person">Maitland</name>, p. 70 sqq.</ref>).</p>
+
+                <p function="Research">This manuscript has been studied by <ref type="bibl" target="Liebermann 1894">Dr
+                            <name type="person">Liebermann</name> (Ueber die Leges Anglorum, Halle 1894)</ref>. The
+                    collection contained in it is called by him <hi rend="italic">Leges Anglorum saeculo xiii ineunte
+                        Londoniis collectae</hi>. In the <ref type="bibl" target="Liebermann 1903">Gesetze p. xxi</ref>
+                    he calls the MS. <q>Co</q>. and assigns it to <origDate>1310-15</origDate>. He makes use of its
+                    text.</p>
+                <p>
+                    <quote>Uberrima collectio legum <name type="place">Angliae</name> a rege <name type="person"
+                            >Ina</name> ad <name type="person">Henricum III</name>, sequenti ordine disposita</quote>
+                </p>
+
+                <p type="CCC">
+                    <foliation>ff. i-iv + pp. 1-196 + ff. v-vi</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+                    <msItem n="1" locusStart="1" locusEnd="3">
+                        <head type="CCC">
+                            <title>Leges Anglorum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Prefationis loco, Expositiones quorundam Saxonicorum vocabulorum in legibus et cartis
+                                antiquis occurrentium</title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="2" locusStart="4" locusEnd="10">
+                        <head type="Nasmith">
+                            <title>Leges <name type="person">Inae</name></title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="3" locusStart="10" locusEnd="19">
+                        <head type="Nasmith">
+                            <title>Leges <name type="person">Aluredi</name> regis</title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="4" locusStart="19" locusEnd="30">
+                        <head type="Nasmith">
+                            <title>Leges <name type="person">Athelstani</name> regis</title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="5" locusStart="31" locusEnd="36">
+
+                        <head type="Nasmith">
+                            <title>Judicium ordalii</title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="6" locusStart="37" locusEnd="51">
+                        <head type="Nasmith">
+                            <title>Leges regis <name type="person">Cnutonis</name></title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="7" locusStart="52" locusEnd="79">
+                        <head type="Nasmith">
+                            <title>Leges sancti <name type="person">Edwardi</name> quas confirmavit <name type="person"
+                                    >Wilhelmus Bastardus</name></title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="8" locusStart="79" locusEnd="107">
+                        <head type="Nasmith">
+                            <title>Leges [<name type="person">Henrici</name>]</title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="9" locusStart="107" locusEnd="107">
+                        <head type="Nasmith">
+                            <title>Carta regis <name type="person">Stephani</name></title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="10" locusStart="108" locusEnd="170">
+                        <head type="Nasmith">
+                            <title>Leges <name type="person">Henrici II</name></title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="11" locusStart="171" locusEnd="180">
+                        <head type="Nasmith">
+                            <title>Carta <name type="person">Ioannis</name> regis et carta de <name type="place"
+                                    >Ronnemede</name> dicta aurea bulla</title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="12" locusStart="180" locusEnd="190">
+                        <head type="Nasmith">
+                            <title>Cartae et leges <name type="person">Henrici III</name></title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="13" locusStart="191" locusEnd="191">
+                        <head type="Nasmith">
+                            <title>Rubrica statutorum <name type="person">Edwardi I</name></title>
+                        </head>
+                        <ab>
+                            <quote>Ad finem horum statutorum, manu coeva inscribuntur hae notae; <q>Non erit plus nunc,
+                                    quia satis habes in ii libris subsequentibus videlicet libro vocato Speculum
+                                    justiciare, et altero libro vocato Brethun, et non sunt libri sigillati per regem
+                                    attamen taliter placitabantur temporibus regum <name type="person">Edwardi</name>
+                                    filii regis <name type="person">Henrici III</name>, et <name type="person"
+                                        >Edwardi</name> filii regis <name type="person">Edwardi</name>.</q></quote>
+                        </ab>
+
+
+                        <ab>
+                            <quote>
+                                <q>Ista statuta quorum prohemia superius hic intitulantur in libro isto non scribentur
+                                    nec registrario quia alibi habentur, et quia intendo ex libro isto et aliis magnum
+                                    codicem componere quia utile duxi posteris presentia temporum nostrorum
+                                    exprimere.</q>
+                            </quote>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="14" locusStart="192" locusEnd="195">
+
+                        <head type="Nasmith">
+                            <title>Leges quas rex <name type="person">Aelfredus</name> de veteri testamento scripsit et
+                                scribere fecit</title>
+                        </head>
+                    </msItem>
+                </msContents>
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, CF 2nd</p>
+                            <p>msCheck: NJC 25.01.2007; second check NJC 30.05.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

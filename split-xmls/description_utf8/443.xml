@@ -1,0 +1,152 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC443">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>443</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>O. 24</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>225</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Peter Quivel, Constitutions (Exeter, 1287)</head>
+                <head type="James">Constitutiones Exonienses</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">195</height>
+                        <width unit="mm">117</width>
+                    </measureGrp>, <measureGrp type="James">7.6 x 4.9</measureGrp>, <extent>ff. 2 + 100</extent>,
+                        <layout>22 lines to a page</layout>. Cent. <origDate>xiv late?</origDate>, <handNote>in an ugly
+                        rather sloping but clear hand</handNote>. </p>
+
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num>, 1<num>8</num>-12<num>8</num> 13<num>4</num></collation>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-ii + 1-100 + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="eng">Latin and English.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="ir" locusEnd="80v">
+                        <head type="CCC">
+                            <name type="author">Peter Quivel</name>, <title>Constitutions (<name type="place"
+                                    >Exeter</name>, <date>1287</date>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Synodus <name type="author">Petri [Quivil]</name> episcopi Exon. habita anno
+                                    <date>1287</date></title>
+                        </head>
+
+                        <incipit locus="ir">Sinodus venerabilis patris domini <name type="person">Petri dei gratia
+                                exoniensis Episcopi</name></incipit>
+                        <ab>(Capitula)</ab>
+                        <ab>Text</ab>
+                        <incipit locus="1r">Altissimus de terra creauit medicinam ecc<abbr rend="superscript">l</abbr>.
+                                xxxviii<abbr rend="superscript">o</abbr> quod primo et principaliter intelligitur de
+                            medicina anime</incipit>
+                        <ab>The last chapter</ab>
+                        <rubric locusNew="76v">de oblationibus</rubric>
+                        <ab>ends f. <locus>79r</locus></ab>
+                        <explicit locus="79r">dat. <name type="place">Exon.</name> xvi kal. Maii feria iiii<abbr
+                                rend="superscript">a</abbr> post dominicam qua cantatur <hi rend="italic">quasi modo
+                                geniti</hi>. a. d. <date when-iso="1287">m<abbr rend="superscript">o</abbr> cc<abbr
+                                    rend="superscript">mo</abbr> octuagessimo septimo</date>. consecracionis nostre
+                            septimo</explicit>
+                        <ab>ff. <locus>79v</locus>, <locus>80r</locus>-<locus>80v</locus> blank</ab>
+                        <ab>Printed partly from a <ref type="ms" target="ECL524">MS. at Exeter</ref>. <ref type="bibl"
+                                target="Wilkins 1737b">Wilkins, <hi rend="italic">Concilia</hi> II</ref> 129</ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="81r" locusEnd="98v">
+                        <head type="CCC"><name type="author">Peter Quivel</name>, <title>Summula
+                            confessionis</title></head>
+                        <head type="Nasmith">
+                            <title>Modus exigendi confessiones, etc. ejusdem episcopi</title>
+                        </head>
+
+                        <rubric locus="81r">Summa (?) penitenciarie cum parte synodi</rubric>
+                        <incipit locusNew="81r">Altissimus de terra creauit medicinam Ecc. xxxviii. Iste altissimus est
+                            de quo canit ecclesia dicens tu solus altissimus</incipit>
+                        <ab>(<ref type="bibl" target="Wilkins 1737b">Wilkins, <hi rend="italic">Concilia</hi> II</ref>
+                            162)</ab>
+                        <ab>(Of confessors)</ab>
+                        <ab>The last chapter</ab>
+                        <rubric locusNew="98r">de cimbalo</rubric>
+                        <ab>(i.e. symbolo)</ab>
+                        <explicit locusNew="98v">Alioquin cum super hoc requisiti fuerint tanquam insufficientes
+                            repellantur. Orate pro episcopo petro viuo et mortuo et quicunque hoc fecerit gaudebit
+                            indulgencia xl<abbr rend="superscript">a</abbr> dierum</explicit>
+                        <ab locus="99r"> prec. xs </ab>
+                        <ab locusNew="99v">On the following pages a receipt in English and some scribbles</ab>
+
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: KW 6.11.2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

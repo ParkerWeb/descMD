@@ -1,0 +1,230 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC372">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>372</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>9. 7</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>321</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Martin of Troppau OP, Chronica pontificum et imperatorum. Taxation surveys temp. Henry
+                    III</head>
+                <head type="James">Chronica Martini Poloni, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">225</height>
+                        <width unit="mm">160</width>
+                    </measureGrp>, <measureGrp type="James">8.9 x 6.5</measureGrp>, <extent>ff. 63 + 22</extent>,
+                        <layout>two volumes</layout>.</p>
+
+                <p function="Multivolume"><lb/><label>Volume I:</label>
+                    <layout>35 lines to a page</layout>. Cent. <origDate>xiv</origDate>, <handNote>in a good clear
+                        rather rough hand</handNote>, and <origDate>xv</origDate>. <lb/><label>Volume II:</label>
+                    <layout>about 31 lines to a page</layout>, has suffered from damp.</p>
+
+                <p><label>Collation:</label><lb/><label>Volume I:</label>
+                    <collation>1<num>12</num> 2<num>8</num> 3<num>8</num> 4<num>10</num> 5<num>8</num> 6<num>12</num>
+                            7<num>6</num> (wants 6).<lb/><label>Volume II:</label> a<num>12</num> b<num>10</num> (9, 10
+                        line cover)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>secutum est in quo</secFol>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-iii + 1-84 + iv-v</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+                    <milestone n="I" unit="volume"/>
+                    <msItem n="1" locusStart="1r" locusEnd="57v">
+                        <head type="CCC">
+                            <name type="author" key="Martinof-001">Martin of Troppau OP</name>, <title>Chronica
+                                pontificum et imperatorum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Chronica <name type="author" key="Martinof-001">Martini Poloni</name> papa
+                                penitentiarii de pontificibus et imperatoribus Romanis</title>
+                        </head>
+
+                        <rubric locus="1r">Incipit cronica fratris <name type="author" key="Martinof-001">martini</name>
+                            ordonis fr. predicatorum domini pape Capellani et penitenciarii</rubric>
+                        <incipit locus="1r">Quoniam scire tempora summorum pontificum romanorum</incipit>
+                        <ab locus="9v">From here onwards the Emperors and Popes are on alternate pages</ab>
+                        <ab locus="100" locusNew="50v">There is pencil writing below the text</ab>
+                        <ab locus="113r" locusNew="57r">Popes end with <name type="person" key="MartinIV-001">Martin
+                                IV</name></ab>
+                        <ab locus="114" locusNew="57v">Emperors <supplied>end</supplied> with Coronation of <name
+                                type="person" key="EdwardI,-001">Edward I</name>: a. d. <date when-iso="1274">m<abbr
+                                    rend="superscript">o</abbr> cc<abbr rend="superscript">o</abbr> lxxiiii. xiiii kal.
+                                Sept.</date></ab>
+                    </msItem>
+
+
+
+                    <msItem n="2" locusStart="58r" locusEnd="63v">
+                        <head type="CCC">
+                            <title>Liber provincialis seu notitia episcopatuum per universum orbem christianum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Liber provincialis seu notitia episcopatuum per universum orbem christianum</title>
+                        </head>
+
+                        <rubric locus="115" locusNew="58r">Incipit liber qui dicitur prouincialis</rubric>
+                        <ab>
+                            <layout>double columns</layout>
+                        </ab>
+                        <incipit locusNew="58r">In ciuitate romana sunt quinque ecclesie patriarchales</incipit>
+
+                        <explicit locusNew="63v">Archiepiscopatus <name type="place" key="Kalocsax-001"
+                                >Colocensis</name> nullum habet suffraganeum</explicit>
+
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+                    <msItem n="3" locusStart="64r" locusEnd="75v">
+                        <head type="CCC">
+                            <title>Notitia ecclesiarum in quolibet decanatu in comitatu <name type="place"
+                                    key="Suffolkx-001">Suffolc</name>. et decimae ab eis solvendae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Notitia ecclesiarum in quolibet decanatu in comitatu <name type="place"
+                                    key="Suffolkx-001">Suffolc</name>. et decimae ab eis solvendae</title>
+                        </head>
+
+                        <ab>Begins</ab>
+                        <rubric locusNew="64r"><name type="place" key="Suffolkx-001">Suff</name> ...</rubric>
+
+                        <ab>
+                            <supplied>James presents the following in tabular form, reflecting the layout of the
+                                text:</supplied>
+                        </ab>
+                        <ab><hi rend="bold">
+                                <supplied>Heading, Column 1:</supplied>
+                            </hi> Decanatus de <name type="place" key="Bosmerex-001">Bosmere</name></ab>
+                        <ab><hi rend="bold">
+                                <supplied>Heading, Column 2:</supplied>
+                            </hi> Decima integra</ab>
+                        <ab><supplied>Text, Column 1:</supplied> De Rectore de <name type="place" key="Stonhamx-001"
+                                >Stonham</name> Comitis</ab>
+                        <ab><supplied>Text, Column 2:</supplied> xls</ab>
+                        <ab>The writing is very faint in many places</ab>
+                        <explicit locusNew="73v">Decanatus de <name type="place" key="Blackbur-001"
+                            >Blakeburne</name></explicit>
+                        <ab>ff. <locus locusNew="74v">11v</locus>-<locus locusNew="75v">12v</locus> blank</ab>
+
+                    </msItem>
+
+
+                    <msItem n="4" locusStart="76r" locusEnd="80r">
+                        <head type="CCC">
+                            <title>Taxatio et decimae solutae a qualibet domo religiosa propter spiritualia vel
+                                temporalia in comitatu <name type="place" key="Suffolkx-001">Suffolc.</name> et
+                                alia</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Taxatio et decimae solutae a qualibet domo religiosa propter spiritualia vel
+                                temporalia in comitatu <name type="place" key="Suffolkx-001">Suffolc.</name></title>
+                        </head>
+
+                        <ab locus="13r" locusNew="76r">In tabular form, e.g.</ab>
+                        <ab><supplied>Column 1:</supplied> Abbas de <name type="place" key="Derhamxx-001"
+                            >Derham</name></ab>
+                        <ab><supplied>Column 2:</supplied> (Taxacio) Temporal. cvs. vd.</ab>
+                        <ab><supplied>Column 3:</supplied> (Decima) xs. vjd ob.</ab>
+                        <ab><supplied>Column 4:</supplied> Rec. apud <name type="place" key="Ilketsha-001"
+                                >Jlketishale</name> in dec. de <name type="place" key="Wangford-001">waynford
+                                Suff.</name></ab>
+
+                    </msItem>
+
+
+                    <msItem n="5" locusStart="80v" locusEnd="84v">
+                        <head type="CCC">
+                            <title>Feoda baronum et aliorum tenentium in capite in comitatu <name type="place"
+                                    key="Suffolkx-001">Suffolc.</name> tempore <name type="person" key="HenryIII-001"
+                                    >Henrici III</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Feoda baronum et aliorum tenentium in capite in comitatu <name type="place"
+                                    key="Suffolkx-001">Suffolc.</name> tempore <name type="person" key="HenryIII-001"
+                                    >Henrici III</name>. quando auxilium ei concessum est ad maritandum sororem suam
+                                imperatori</title>
+                        </head>
+
+                        <incipit locus="17v" locusNew="80v"><name type="person" key="HenryIII-001">Henricus dei gratia
+                                Rex Anglie</name>, etc. Vice com. <name type="place" key="Norfolkx-001">Norff.</name> et
+                                <name type="place" key="Suffolkx-001">Suff.</name></incipit>
+                        <incipit locusNew="80v">Quia feoda baronum nostrorum qui comitatu tuo</incipit>
+                        <explicit locusNew="80v">de quibus auxilium nobis concessum est ad maritandum sororem nostram
+                            Romano imperatori, etc.</explicit>
+                        <ab>Blanks are left as if the original were mutilated</ab>
+                        <ab>The Hundreds of <name type="place" key="Barbergh-001">Babbergh</name> and <name type="place"
+                                key="Cosfordx-001">Cosford</name> are the only ones named</ab>
+                        <ab locus="19v" locusNew="82v">Ends apparently incomplete</ab>
+                        <ab>ff. <locus locusNew="83r">20r</locus>-<locus locusNew="84v">20v</locus> blank</ab>
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 4/4/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

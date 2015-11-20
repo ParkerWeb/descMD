@@ -1,0 +1,129 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC527">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>527</idno>
+                    <altIdentifier type="Elbing">
+                        <idno>N. 27</idno>
+                    </altIdentifier>
+
+                </msIdentifier>
+                <head type="CCC">Moral Dictionary. Bartholomaeus de S. Concordio Pisanus OP, Summa de casibus
+                    conscientiae. pseudo-Jerome, De essentia diuinitatis</head>
+                <head type="James">[Untitled]</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">285</height>
+                        <width unit="mm">210</width>
+                    </measureGrp>, <measureGrp type="James">11.2 x 8.6</measureGrp>, <extent>ff. cir. 350</extent>,
+                        <layout>double columns of 37 lines</layout>. Cent. <origDate>xiv</origDate>, <handNote>in an
+                        ugly pointed hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>12</num> (1 fragmentary stuck to cover) 2<num>12</num>-7<num>12</num>
+                            8<num>10</num> 9<num>12</num> 10<num>12</num> 11<num>10</num> 12<num>12</num>
+                            13<num>12</num>. After this point the leaves are much stuck together and very
+                        tender</collation>.</p>
+
+                <p function="Binding">Binding: first cover broken, metal tag on second cover.</p>
+                <p function="Additions">Contents: Summa Pisani de Penitentia (old list)</p>
+                <p type="CCC">
+                    <foliation>Too fragile to be foliated in its entirety. Partially imaged: front cover exterior +
+                        first gathering rectos only foliated as a-l + back cover exterior</foliation>.</p>
+
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1">
+                        <head type="CCC">
+                            <title>Moral Dictionary</title>
+                        </head>
+                        <ab>An alphabetical moral dictionary</ab>
+                    </msItem>
+
+                    <msItem n="2">
+                        <head type="CCC">
+                            <name type="author">Bartholomaeus de S. Concordio Pisanus OP</name>, <title>Summa de casibus
+                                conscientiae</title>
+                        </head>
+                        <ab>A treatise 'de peccatis'</ab>
+                        <ab>Colophon</ab>
+                        <ab> Anno Incarn. domini <date>m. ccc<abbr rend="superscript">o</abbr> xcv</date> ffinitus est
+                            liber iste sentencia <name type="person">Innocencii pape 4<abbr rend="superscript">ti</abbr>
+                                magni</name> de penitencia In die fferia quarta ante festum <name type="person">S.
+                                Gregorii</name> doctoris sanctissimi et gloriosi </ab>
+                    </msItem>
+
+                    <msItem n="3">
+                        <head type="CCC">
+                            <name type="author">pseudo-Jerome</name>, <title>De essentia Dei</title>
+                        </head>
+
+                        <head type="James"><name type="author">Jerome</name>, <title>de membris domini</title></head>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: 9/1/2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

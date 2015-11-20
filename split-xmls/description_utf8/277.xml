@@ -1,0 +1,245 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC277">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>277</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>H. 9</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>91</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Adam of Barking, Carmen de serie sex aetatum</head>
+                <head type="James">Adam of Barking</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">270</height>
+                        <width unit="mm">110</width>
+                    </measureGrp><measureGrp type="James">10.6 x 4.5</measureGrp>, <extent>ff. 1 + 141</extent>,
+                        <layout>56-60 lines to a page</layout>. Cent. <origDate>xii-xiii</origDate>, <handNote>in more
+                        than one very neat hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num> 2<num>8</num> 3<num>12</num> 4<num>10</num>
+                            5<num>8</num>-8<num>8</num> (+ 6*) 9<num>4</num> (+ slip) 10<num>8</num> 11<num>14</num>
+                        (+7*: 10, 11 canc.) 12<num>10</num>-15<num>10</num> 16<num>8</num> (wants 6-8)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>Dum christum</secFol>.</p>
+
+                <p>Quires 5-8 have an old numbering I-IIII.</p>
+                <p>On the flyleaf <supplied>(f. <locus>iv</locus>)</supplied>
+                    <name type="person">Bale</name>'s account of <name type="person">Adamus Barkingensis</name>.</p>
+                <p><ref type="bibl" target="Leland 1775d">Leland (<hi rend="italic">Collectanea</hi> IV 150)</ref> saw a
+                    copy of this work at <name type="place">Sherborne</name>, which may be the one before us. </p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i + 1-75 + 75a + 76-141 + c-d</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="141v">
+                        <head type="CCC"><name type="author">Adam of Barking</name>, <title>Carmen de serie sex
+                                aetatum</title></head>
+                        <ab>It begins</ab>
+                        <rubric locus="1r">Auctor huius operis de sex etatum serie tractare proponens breuiterque
+                            concludere que leuiter transierunt carptim tangit in prologo precedenti de quibus latius est
+                            tractaturus in opere subsequenti dicens se otio iam diu deditum torpore deposito iam ad
+                            studia reuersum se de magnis breuiter tractaturum promittens et unde tractaturus hec (hic?)
+                            seriatim capitula premittens</rubric>
+                        <incipit locusNew="1r">
+                            <lg>
+                                <l>Scribere decreui decursum labilis eui</l>
+                                <l>Claudere fine breui fine peracta leui</l>
+                            </lg>
+                        </incipit>
+                        <explicit locusNew="1r">
+                            <lg>
+                                <l>Que lux leticie . quis sit fons philosophie</l>
+                                <l>Quid caput ecclesie . que uia . duxque uie</l>
+                            </lg>
+                        </explicit>
+                        <incipit locusNew="1r">
+                            <lg>
+                                <l>Tempora patris <name type="person">ade</name> renouante stilo mihi trade</l>
+                                <l>Musa stilo trade tempora patris <name type="person">ade</name></l>
+                            </lg>
+                        </incipit>
+
+                        <ab locusNew="3v">The story of the Creation is begun on f. <locus>3v</locus></ab>
+                        <rubric locusNew="3v">Auctor huius operis a summo omnium auctore deo narrationis seriem inchoans
+                            etc.</rubric>
+                        <incipit locusNew="3v">
+                            <lg>
+                                <l>Ante creaturas tot secula totque figuras</l>
+                                <l>Tot generum formas tantas per tot loca normas</l>
+                            </lg>
+                        </incipit>
+                        <ab>On f. <locus>15r</locus> the Flood is reached. Here is a gap. After 12 lines, ending</ab>
+                        <explicit locusNew="15r">
+                            <lg>
+                                <l>Nil alibi tutum nihil est a morte solutum</l>
+                                <l>Nulla foris tuta morti sunt queque tributa,</l>
+                            </lg>
+                        </explicit>
+                        <ab locusNew="15r">the rest of the page is blank</ab>
+                        <ab>a.</ab>
+                        <incipit locus="15v">
+                            <lg>
+                                <l>Nuper eram locup(l)es multisque beatus amicis</l>
+                                <l>Et risere mihi fata secunda diu</l>
+                            </lg>
+                        </incipit>
+                        <ab>(<name type="person">Hildebert</name>
+                            <ref type="bibl" target="Migne 171"><supplied>P. L.</supplied> CLXXI 1418</ref>)</ab>
+                        <explicit locusNew="16r">
+                            <lg>
+                                <l>Ille potens mitis tenor et concordia rerum</l>
+                                <l>Quicquid uult in me digerat. eius ero</l>
+                            </lg>
+                        </explicit>
+                        <ab>b.</ab>
+                        <incipit locus="16r">
+                            <lg>
+                                <l>Si supplex hominum tibi seruiat ordo. quid inde</l>
+                            </lg>
+                        </incipit>
+                        <explicit locusNew="16r">
+                            <lg>
+                                <l>Tam cito pretereunt hec omnia quod nihil inde</l>
+                            </lg>
+                        </explicit>
+                        <ab>(6 lines)</ab>
+                        <ab>c.</ab>
+                        <incipit locusNew="16r">
+                            <lg>
+                                <l>Ridentis iocus est fortune copia rerum</l>
+                                <l>Mobilis hec nescit continuare iocum</l>
+                            </lg>
+                        </incipit>
+                        <explicit locusNew="16v">
+                            <lg>
+                                <l>Ergo cum proles mihi sit bona. non nihil inde</l>
+                                <l>Nam sine prole pater est sine sole dies</l>
+                            </lg>
+                        </explicit>
+                        <ab>(24 lines)</ab>
+                        <ab>Rest of <locus>16v</locus> blank</ab>
+
+                        <rubric locus="17r">Auctor ad materie seriem redit</rubric>
+                        <incipit locus="17r">
+                            <lg>
+                                <l>Hiis interiectis uti decet amodo rectis</l>
+                                <l>Ad seriem recti recto decet ordine flecti</l>
+                            </lg>
+                        </incipit>
+                        <ab locusNew="17r">with a sign referring to a passage on f. <locus>75v</locus></ab>
+                        <ab>Story of <name type="person">Abraham</name> begins f. <locus>21r</locus></ab>
+                        <ab>On f. <locus>38r</locus> is a break and reference to a passage which occurs on f.
+                                <locus>80v</locus></ab>
+                        <ab>On f. <locus>38v</locus> a fresh beginning</ab>
+                        <incipit locus="38v">
+                            <lg>
+                                <l>Dum uigil inquiro de lacte simulque butiro</l>
+                            </lg>
+                        </incipit>
+                        <ab>which only occupies this page</ab>
+                        <ab>On f. <locus>39r</locus>
+                            <handNote>change of hand</handNote> and entirely new exordium: a very long address to Christ
+                            for all estates of men <hi rend="footnote">On f. <locus>47v</locus>-<locus>48r</locus> in a
+                                prayer for kings is a disquisition on the meaning of the several Regal ornaments</hi>,
+                            and a still longer disquisition on the Incarnation, the Virgin, and the types referring
+                            thereto</ab>
+                        <incipit locusNew="39r">
+                            <lg>
+                                <l>Ad titulum Christi titulo nota competit isti</l>
+                            </lg>
+                        </incipit>
+                        <ab>Quire 9, ff. <locus>72r</locus>-<locus>75v</locus>, <handNote>in the first hand</handNote>,
+                            is an insertion containing various supplements</ab>
+                        <ab>From f. <locus>92r</locus> onwards we have a very full treatment of the story of Genesis
+                            from Gen. xviii to the end</ab>
+                        <ab>On f. <locus>134r</locus> sqq. a much shorter account of the Plagues, Exodus, the Law, the
+                            Priestly vestments</ab>
+                        <ab locusNew="141r">Ending (after a few lines about <name type="person">David</name>)</ab>
+                        <explicit locus="141r">
+                            <lg>
+                                <l>Sunt modo cras ut heri nequeunt diuina moueri</l>
+                                <l>Sic manet immotum manet immutabile totum</l>
+                            </lg>
+                        </explicit>
+                        <ab>The work is unfinished: only four ages out of the six have been treated. The confused state
+                            of the work suggests that this copy may be the author's autograph</ab>
+                        <ab>On f. <locus>141v</locus>, <handNote>in another hand</handNote>, after 3 erased lines</ab>
+                        <incipit locusNew="141v">
+                            <lg>
+                                <l>Manducare potes formicam si capud aufers</l>
+                            </lg>
+                        </incipit>
+                        <explicit locusNew="141v">
+                            <lg>
+                                <l>In cruce sum pro te qui peccas desine pro me</l>
+                                <l>Desine do veniam do vitam corrige culpam</l>
+                            </lg>
+                        </explicit>
+
+                    </msItem>
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: NJC 18.09.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

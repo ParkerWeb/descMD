@@ -1,0 +1,287 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC003">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>3</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Under C. 4</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>358</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">The Dover Bible, Volume I</head>
+                <head type="James">Bibliorum Pars I</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">547</height>
+                        <width unit="mm">372</width>
+                    </measureGrp>, <measureGrp type="James">21.7 x 14.5</measureGrp>, <extent>ff. 273</extent>,
+                        <layout>double columns of 45 lines</layout>. Cent. <origDate>xii</origDate>, <handNote>in a fine
+                        hand much resembling that of <ref type="ms" target="CCC002I">MS 2</ref></handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>I<num>4?</num> (wanting 1, 4) II<num>8</num>-XXXV<num>8</num> (wants 8). Old foliation
+                        and numeration of quires incorrect</collation>.</p>
+
+                <p function="Provenance">From <name type="place">St Martin's Priory, Dover</name>. On the lower margin
+                    of f. <locus>4r</locus> is the press-mark of that house:<lb/>
+                    <q>: <figure xml:id="figure8a"/> : I : Prima pars Biblie ... es inter omnia animancia ...
+                    273.</q><lb/> It is entered in the old catalogue of <date>1389</date>.<lb/> See my <ref type="bibl"
+                        target="James 1903"><hi rend="italic">Ancient Libraries of Canterbury and Dover</hi>, pp. 413,
+                        522</ref></p>
+                <p type="CCC">
+                    <foliation>ff. i + 1-273</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="273v">
+                        <head type="CCC">
+
+                            <title>The Dover Bible, Volume I</title>
+
+                        </head>
+
+                        <ab>f. 1 gone</ab>
+                        <incipit locus="2r" locusNew="1r">Incipit ordo librorum catholicorum qui in ecclesia romana
+                            ponuntur in anni circulo ad legendum</incipit>
+                        <explicit locusNew="1r">In octauas theophanie eosdem psalmos easdemque lectiones quas in
+                            theophania preter has festiuitates quas superius diximus</explicit>
+                        <rubric locus="2r" locusNew="1r">Incipit prologus <name type="author">Jeronimi</name> presbiteri
+                            in Genesim</rubric>
+                        <incipit locusNew="1r">Desiderii mei</incipit>
+                        <ab locus="3r" locusNew="2r">Capitula (84)</ab>
+                        <ab>f. 4 (frontispiece to Genesis with word IN) gone</ab>
+                        <ab locus="5r" locusNew="3r">Genesis, beginning: <q>principio</q>: <decoNote>four lines in large
+                                coloured capitals</decoNote></ab>
+                        <rubric locus="25r" locusNew="23r">Explicit liber Bresith id est Genesis. Incipiunt capitula
+                            libri Hellesmoth idest Exodus</rubric>
+                        <ab locusNew="23r">Capitula (149)</ab>
+                        <ab locus="26r" locusNew="24r">
+                            <decoNote>Initial to Exodus of fine conventional foliage on blue ground. It contains a bust
+                                of <name type="person">Jacob</name> in medallion in the cross-bar of the H and busts of
+                                the twelve patriarchs in four groups of three below</decoNote>
+                        </ab>
+                        <ab locus="43r" locusNew="41r">Capitula to Leviticus (89)</ab>
+                        <ab locusNew="41v">
+                            <decoNote>Initial to Leviticus: decorative, contains lion and dragon</decoNote>
+                        </ab>
+                        <ab locus="55v" locusNew="53v">Capitula to Numbers (74)</ab>
+                        <ab locus="56v" locusNew="54v">
+                            <decoNote>Initial to Num. (<hi rend="italic">L</hi>.) containing six busts in medallions,
+                                the topmost one an angel, the others men</decoNote>
+                        </ab>
+                        <ab locus="74r" locusNew="72r">Capitula to Deuteronomy (154)</ab>
+                        <ab locusNew="73v">
+                            <decoNote>Initial to Deuteronomy (H). Above, on blue ground, <name type="person"
+                                    >Moses</name> nimbed, pointing to <hi rend="italic">Mons Horeb</hi> on L. and
+                                holding scroll which hangs down into the lower half of the letter, inscribed, in
+                                wonderfully fine capitals: <q>sufficit vobis quod in hoc monte mansistis</q>. Below, two
+                                groups of men (five in each) on yellow ground, receiving the scroll</decoNote>
+                        </ab>
+                        <rubric locusNew="89r">Explicit ad dabarim quod grece dicitur deuteronomium VIDC (=
+                            1600)</rubric>
+                        <ab locus="91r" locusNew="89r">Praefatio in <name type="person">Josue</name></ab>
+                        <incipit locusNew="89r">Tandem finito</incipit>
+                        <ab locus="91v" locusNew="89v">Capitula (33)</ab>
+                        <ab locusNew="89v">
+                            <decoNote>Decorative initial to text</decoNote>
+                        </ab>
+                        <ab locus="102v" locusNew="100v">Capitula to Judges (18)</ab>
+                        <ab locus="102v" locusNew="100v">
+                            <decoNote>Initial. <name type="person">IOSVE</name> ET <name type="person">CALEPH</name>,
+                                two figures on brown ground robed, each holding sword and shield, one shield (L.) is <hi
+                                    rend="italic">or</hi> seven bends sinister <hi rend="italic">vert</hi>, the other
+                                checky of <hi rend="italic">az</hi>. and <hi rend="italic">arg</hi>. a chief <hi
+                                    rend="italic">or</hi> fretty <hi rend="italic">sable</hi></decoNote>
+                        </ab>
+                        <rubric locusNew="112r">Explicit liber soptim id est iudicum V II DCCL</rubric>
+                        <ab locus="114r" locusNew="112r">
+                            <decoNote>Decorative initial to <name type="person">Ruth</name>, with dragon and grotesque
+                                head: bust of <name type="person">Ruth</name> in medallion</decoNote>
+                        </ab>
+                        <ab locus="115v" locusNew="113v">Prologue to Kings</ab>
+                        <incipit locusNew="113v">Uiginti ed (!) duas</incipit>
+                        <ab locus="116v" locusNew="114v">Capitula of 1, 2 Reg. (96)</ab>
+                        <ab locusNew="114v">
+                            <decoNote>Initial. Blue panel on green. <name type="person">Goliath</name> in mail shirt,
+                                peaked helmet, kite-shaped shield, long spear. <name type="person">David</name> small on
+                                L. slings at him. At the tail of the letter <name type="person">Goliath</name> fallen,
+                                with broken spear, helmet fallen off showing nose-piece. <name type="person"
+                                    >David</name> stands on him and beheads him</decoNote>
+                        </ab>
+                        <ab locus="133r" locusNew="131r">2 Reg. <decoNote>Initial. <name type="person">David</name>
+                                throned rends his clothes, a courtier at each side weeps. The Amalekite kneels on L.
+                                holding up crown and ring. At the tail of the letter, a man beheads the
+                                Amalekite</decoNote></ab>
+                        <ab locus="145v" locusNew="143v">Capitula of 3, 4 Reg. (86)</ab>
+                        <ab locus="146v" locusNew="144v">3 Reg. <decoNote>Decorative initial</decoNote></ab>
+                        <ab locus="161v" locusNew="159v">4 Reg. <decoNote>Initial. Blue ground, coloured clouds above.
+                                Christ nimbed in car drawn by two dappled horses surrounded by red flames (He holds the
+                                reins) grasps the wrist of <name type="person">Elijah</name> on L. who is in a single
+                                brown garment. Below his feet the mantle. At bottom <name type="person">Elisha</name>
+                                looks up and holds scroll (damaged) <q>Pater mi Pater mi currus Israel et auriga
+                                    eius</q></decoNote></ab>
+                        <ab locus="174v" locusNew="173v">Prologue to <name type="person">Isaiah</name></ab>
+                        <incipit locus="174v" locusNew="173v">Nemo cum prophetas</incipit>
+                        <ab locusNew="173v">
+                            <decoNote>Initial. <name type="person">Isaiah</name> (on blue and green ground) with scroll
+                                    <q>ve genti peccatrici</q>. He holds his hand to his face</decoNote>
+                        </ab>
+                        <ab locus="196r" locusNew="195r">Prologue to <name type="person">Jeremiah</name></ab>
+                        <incipit locus="196r" locusNew="195r"><name type="person">Ieremias</name> propheta cui
+                            hic</incipit>
+                        <ab locusNew="195r">
+                            <decoNote>Initial. Christ (&#913;&#770; and &#969;&#770; on the background)
+                                holds scroll, <q>Prophetam in gentibus dedi te</q>. Outside the letter, on brown ground,
+                                    <name type="person">Jeremiah</name> (beardless). Above him the words <q>A, A, A,
+                                    domine deus</q></decoNote>
+                        </ab>
+                        <rubric locusNew="220r">Lamentatio <name type="person">ieremie</name> prophete</rubric>
+                        <incipit locus="220*r" locusNew="220r">Et factum est</incipit>
+                        <rubric locus="222r">Finit lamentatio <name type="person">Jeremie</name> prophete. Oratio <name
+                                type="person">Jeremie</name> prophete (Lam. v)</rubric>
+                        <rubric locusNew="222v">Explicit liber <name type="person">Jeremie</name> prophete secundum
+                            Hebraicam translationem</rubric>
+                        <ab locusNew="222v">Prol. to <name type="person">Ezekiel</name></ab>
+                        <incipit locus="222v"><name type="person">Ezechiel</name> propheta cum <name type="person"
+                                >loachim</name></incipit>
+                        <ab locusNew="222v">
+                            <decoNote>Initial decorative</decoNote>
+                        </ab>
+                        <ab locusNew="245r">Prologue to <name type="person">Daniel</name></ab>
+                        <incipit locus="245r"><name type="person">Danihelem</name> prophetam iuxta</incipit>
+                        <ab locus="245v">
+                            <decoNote>Initial. <name type="person">Daniel</name> pointing upward to bust of Christ.
+                                Scroll, <q>cum venerit sanctus sanctorum cessabit unctio</q></decoNote>
+                        </ab>
+                        <ab locusNew="255r">Prologue to Twelve Prophets</ab>
+                        <incipit locus="255r">Non idem ordo</incipit>
+                        <ab locusNew="255r">Hos. <decoNote>Initial. <name type="person">Hosea</name> with scroll in both
+                                hands. <q>Recte vie domini iusti ambulabunt in eis</q></decoNote></ab>
+                        <ab locus="258r">Joel. <decoNote>Initial. <name type="person">Joel</name> nimbed with scroll.
+                                    <q>Magnus enim dies domini et terribilis valde</q></decoNote></ab>
+                        <ab locus="259v">
+                            <decoNote><name type="person">Amos</name>. With scroll. <q>Ve desiderantibus die(m
+                                    domi)ni</q></decoNote>
+                        </ab>
+                        <ab locus="261v">
+                            <decoNote><name type="person">Obadiah</name> with scroll. <q>In monte Sion erit salvatio et
+                                    vocabitur sanctus</q></decoNote>
+                        </ab>
+                        <ab locus="262r">
+                            <decoNote><name type="person">Jonah</name> baldheaded, with scroll in both hands. <q>Adhuc
+                                    xl dies et ninive subvertetur</q>. Below his feet the fish, with <name type="person"
+                                    >Jonah</name>'s head protruding from its mouth</decoNote>
+                        </ab>
+                        <ab locus="263r">
+                            <decoNote><name type="person">Micah</name>, beardless with scroll. <q>Erit mons domus domini
+                                    preparatus in vertice montiunt</q></decoNote>
+                        </ab>
+                        <ab locus="265r" locusNew="264v"><name type="person">Nahum</name>. Preface</ab>
+                        <incipit locus="265r" locusNew="264v"><name type="person">Naum</name> consolator</incipit>
+                        <ab locus="265r">
+                            <decoNote>Initial. <name type="person">Nahum</name> with scroll. Dominus patiens est et
+                                magnus fortitudine</decoNote>
+                        </ab>
+                        <ab locus="265v"><name type="person">Habakkuk</name>. Preface</ab>
+                        <incipit locus="265v"><name type="person">Abacuc</name> luctator</incipit>
+                        <ab locus="265v">
+                            <decoNote>Initial. <name type="person">Habakkuk</name> with hand to head and scroll.
+                                    <q>Domine audivi auditionem tuam et timui</q></decoNote>
+                        </ab>
+                        <ab locus="266v"><name type="person">Zephaniah</name>. Preface</ab>
+                        <incipit locus="266v"><name type="person">Sophonias</name> speculator</incipit>
+                        <ab locus="266v">
+                            <decoNote>Initial. <name type="person">Zephaniah</name> nimbed with scroll. <q>Sol
+                                    convertetur in tenebras et luna in sanguinem</q></decoNote>
+                        </ab>
+                        <ab locus="267v"><name type="person">Haggai</name>. Preface</ab>
+                        <incipit locus="267v"><name type="person">Aggeus</name> festiuus</incipit>
+                        <ab locus="267v">
+                            <decoNote>Initial. Bust of <name type="person">Haggai</name> in medallion at top with
+                                scroll. Ecce veniet desideratus cunctis gentibus</decoNote>
+                        </ab>
+                        <ab locus="268v"><name type="person">Zechariah</name>. Preface</ab>
+                        <incipit locus="268v"><name type="person">Zacharias</name> memor</incipit>
+                        <ab locus="268v">
+                            <decoNote>Initial like the last, scroll. <q>Exulta satis filia syon ecce rex tuus
+                                venit</q></decoNote>
+                        </ab>
+                        <ab locus="272r"><name type="person">Malachi</name>. Preface</ab>
+                        <incipit locus="272r"><name type="person">Malachias</name> aperte</incipit>
+                        <ab locus="272r">
+                            <decoNote>Initial. <name type="person">Malachi</name> beardless with scroll. <q>Quis poterit
+                                    cogitare diem adventus domini</q></decoNote>
+                        </ab>
+                        <ab>Each of the minor prophets is described in title and colophon as <q>secundum hebraicam
+                                veritatem</q></ab>
+                        <ab locus="273r">Text ends</ab>
+
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJM 14/08/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

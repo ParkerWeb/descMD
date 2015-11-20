@@ -1,0 +1,142 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+
+                <msIdentifier xml:id="CCC300">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>300</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>N. 21</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>187</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Pictor in carmine</head>
+
+                <head type="James">Pictor in Carmine</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">265</height>
+                        <width unit="mm">170</width>
+                    </measureGrp><measureGrp type="James">10.4 x 7</measureGrp>, <extent>ff. 68</extent>, <layout>33
+                        lines to a page</layout>. Cent. <origDate>xiii</origDate>, <handNote>beautifully
+                        written</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num>-8<num>8</num> 9<num>4</num></collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>Dicit deus</secFol>.</p>
+
+                <p function="Research">This MS. has been transcribed by Mr <name type="person">A. Rogers</name> for <ref
+                        type="bibl" target="James 1951">a projected edition by myself</ref>. A portion of the text is in
+                        <ref type="ms" target="CCC217">MS 217</ref>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-76 + iii-iv</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="76v">
+
+                        <head type="CCC">
+                            <title>Pictor in carmine</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Pictor in carmine, sive historiae veteris et novi testamenti in ecclesiis pingendae,
+                                carminibus expressae</title>
+                        </head>
+
+                        <ab>Prologue</ab>
+                        <rubric locus="1r">Dolens in sanctuario</rubric>
+                        <ab locusNew="1r">Initial cut out. Above are the words <q>Theologia.</q>
+                            <q>Pictor.</q> showing what it represented</ab>
+                        <explicit locusNew="1v">prestantiori copia temperare</explicit>
+                        <ab><ref type="bibl" target="Delisle 1880">Delisle, Mélanges de paléographie, p. 206</ref> (from
+                                <ref type="ms" target="LBL353">Sir T. Phillipps's MS. 11059</ref>)</ab>
+                        <ab locus="2r">List of subjects</ab>
+
+                        <ab locusNew="2r">(i) Colloquium gabrielis, etc.</ab>
+
+                        <ab locusNew="10v">(cxxxviii) Sedens christus in iudicio etc.</ab>
+                        <ab locus="11r">Text</ab>
+
+                        <rubric locusNew="11r">Colloquium gabrielis, etc.</rubric>
+                        <incipit locusNew="11r">Per caput exangue planta mulieris in angue</incipit>
+                        <ab locusNew="11r">
+                            <decoNote>Top of initial cut out</decoNote>
+                        </ab>
+                        <ab>There are marginal Biblical references and other notes <handNote>in the original
+                                hand</handNote></ab>
+                        <ab>Ends</ab>
+
+                        <explicit locus="66v" locusNew="74v">Dispare mercede. dextros hinc inde sinistros</explicit>
+
+                        <ab>ff. <locus locusNew="75r">66r</locus>-<locus locusNew="76v">67v</locus> blank</ab>
+
+                    </msItem>
+
+                </msContents>
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text:copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, BA</p>
+                            <p>msCheck: NJM 01.06.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,135 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC085">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>85</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>L. 3</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>124</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">John of Freiburg OP, Summa confessorum</head>
+                <head type="James">Ioh. Friburgensis Summa Confessorum</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">385</height>
+                        <width unit="mm">270</width>
+                    </measureGrp><measureGrp type="James">15.4 x 10.8</measureGrp>, <extent>ff. 135</extent>,
+                        <layout>double columns of 66 lines</layout>. Cent. <origDate>xiv</origDate>, <handNote>clearly
+                        written in a German hand ?</handNote></p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num>-17<num>8</num> wants 8</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>niaca heresis</secFol>.</p>
+
+                <p function="research" rend="afterContents"><ref type="bibl" target="Freiburg 1487">Printed at
+                        Reutlingen in 1487</ref>, <ref type="bibl" target="Freiburg 1518">Lyons 1518</ref> etc. The
+                    author flourished about <date>1320</date></p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-135 + iii-iv</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="135v">
+                        <head type="CCC">
+                            <name type="author">John of Freiburg OP</name>, <title>Summa confessorum</title>
+                        </head>
+
+                        <rubric locusNew="1r">Nota quod lector iste <name type="author">Iohannes</name> ante
+                            compilacionem huius summe confessorum fecerat tabulam super summam <name type="person"
+                                >Raymundi</name> etc.</rubric>
+                        <rubric locusNew="1r">Prologus <name type="author">fratri Iohannis</name> lectoris in priorem
+                            libellum questionum casualium</rubric>
+                        <incipit locusNew="1r">Quoniam dubiorum noua difficultas</incipit>
+                        <explicit locusNew="1r">lector poterit informari</explicit>
+                        <rubric locusNew="1r">Explicit</rubric>
+                        <rubric locusNew="1r">Incipit prologus eiusdem <name type="author">fratri Iohannis</name>
+                            lectoris in summa confessorum</rubric>
+                        <incipit locusNew="1r">Saluti animarum et proximorum utilitati</incipit>
+                        <ab>Tituli</ab>
+                        <ab>Text</ab>
+                        <incipit locus="1v">Quoniam inter ecclesiastica crimina</incipit>
+                        <ab locus="29r">Liber II</ab>
+                        <ab locus="56v"><supplied>Liber</supplied> III</ab>
+                        <ab locus="120v"><supplied>Liber</supplied> IV</ab>
+                        <ab>Ends</ab>
+                        <explicit locusNew="135r">quam de matrimoniis hic conclusit. Cui est honor in secula seculorum.
+                            Amen</explicit>
+                        <rubric locusNew="135r">Explicit tractatus de matrimonio et finitur per sequens quasi in
+                                IIII<abbr rend="superscript">or</abbr> libros distincta tota summa confessorum</rubric>
+                        <ab locusNew="135r">Below in <handNote>a large scrawly hand</handNote>
+                            (<origDate>xv</origDate>), <q>Constat <name type="person">M. Xpofero Jely</name></q>.</ab>
+
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJM 31/07/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

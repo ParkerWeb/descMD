@@ -1,0 +1,147 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC029">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>29</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>B. 1</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>13</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Petrus Comestor, Historia scholastica</head>
+                <head type="James">Petri Comestoris Historia Scholastica</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">348</height>
+                        <width unit="mm">250</width>
+                    </measureGrp>, <measureGrp type="James">13.8 x 10.1</measureGrp>, <extent>ff. 158 + 11</extent>,
+                        <layout>double columns of 49 lines</layout>. Cent. <origDate>xiii early</origDate>, <handNote>in
+                        two main hands, both very good</handNote>. </p>
+
+
+                <p><label>Collation:</label>
+                    <collation>3 flyleaves, a<num>2?</num> b<num>6</num>, 1<num>8</num>-20<num>8</num> (wants 7-8). One
+                        page at each end covered with <material>paper</material></collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>considerans</secFol> or <secFol>uocat</secFol></p>
+
+                <p function="Additions">Three flyleaves at the beginning are from a <origDate>xiii</origDate>th cent.
+                    MS. of decretals <handNote>in small hand</handNote>. Then a blank leaf (<locus locusNew="iv"
+                        >i</locus>).</p>
+
+                <p function="Additions">f. <locus locusNew="vr">iir</locus> a has <origDate>xvi</origDate>th cent. note
+                    and title.</p>
+                <p function="Decoration">On <locus locusNew="vv">iiv</locus>
+                    <decoNote>a drawing of the seven-branched candlestick with allegorical explanation, and diagram of
+                        'transitus filiorum israel per mare rubrum'.</decoNote></p>
+                <p function="Additions">ff. <locus locusNew="vir">iiir</locus>-<locus locusNew="xir">viiir</locus> have
+                    the compendium of sacred history up to the time of Christ which is often found written on rolls and
+                    attributed to <name type="person">Petrus Pictavensis</name>:<lb/>
+                    <q>Considerans hystorie sacre prolixitatem</q><lb/> with genealogical tables.</p>
+                <p function="Decoration">On <locus locusNew="xiv">viiiv</locus>
+                    <decoNote>a drawing of a seraph, with the allegorical significance of the six wings and
+                        feathers</decoNote>.</p>
+                <p function="Decoration" rend="afterContents"><decoNote>There are some very handsome decorative initials
+                        containing grotesque figures, e.g. Genesis f. <locus>1v</locus>; Exodus (a centaur) <supplied>f.
+                                <locus>19r</locus></supplied>; Numbers (retaining its cloth guard) <supplied>f.
+                                <locus>34v</locus></supplied>; Joshua, curious figure <supplied>f.
+                            <locus>44r</locus></supplied></decoNote>.</p>
+                <p type="CCC">
+                    <foliation>ff. a-b + i-xi + 1-157 + xii + c-d</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+<msItem n="0" locusStart="vir" locusEnd="xir">
+
+<head type="CCC"><name type="author">Peter of Poitiers</name>, <title>Genealogia historiarum</title></head>
+</msItem>
+
+                    <msItem n="1" locusStart="1r" locusEnd="xiiv">
+                        <head type="CCC"><name type="author">Petrus Comestor</name>, <title>Historia
+                            scholastica</title></head>
+                        <rubric locusNew="1r">
+                            <name type="author">Petri Comestoris</name>
+                            <title>Historia Scholastica</title>
+                        </rubric>
+                        <rubric locus="1r">Incipit prologus epistolaris</rubric>
+                        <incipit locusNew="1r">Reuerendo patri et domino suo <name type="person"
+                            >Willelmo</name></incipit>
+                        <explicit locusNew="1r">per omnia benedictus deus. Amen</explicit>
+                        <ab>Capitula</ab>
+                        <rubric locusNew="1r">Incipit prefatio</rubric>
+                        <incipit locus="1v">Imperatorie maiestatis</incipit>
+                        <ab>(<ref type="bibl" target="Migne 198"><hi rend="italic">P. L.</hi> CXCVIII 1053</ref>)</ab>
+                        <explicit locusNew="1v">princeps est et principium</explicit>
+                        <rubric locus="1v">Incipit hystoria scolastica de creatione</rubric>
+                        <incipit locusNew="1v">In principio erat uerbum</incipit>
+                        <ab locus="66r">Hand changes</ab>
+                        <explicit locus="157v">in catacumbis</explicit>
+                        <ab locusNew="157v">Epitaph of <name type="person">P. Comestor</name> in a later hand</ab>
+                        <ab locus="158r" locusNew="xiir">blank</ab>
+                        <ab locus="158v" locusNew="xiiv">Verso covered with paper</ab>
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: CF 9.1.2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

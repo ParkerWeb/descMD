@@ -1,0 +1,391 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+
+                <msIdentifier xml:id="CCC030">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>30</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>M. 9</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>144</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Andrew of Saint-Victor OSA, Commentary on the Heptateuch, Commentary on the Minor
+                    Prophets. Bede the Venerable, Commentary on Proverbs. Jerome, Commentary on Ecclesiastes</head>
+
+                <head type="James">Andreas Victorinus in Heptateuchum et XII Prophetas. Beda super Parabolas. Hieronymus
+                    in Ecclesiasten</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">357</height>
+                        <width unit="mm">240</width>
+                    </measureGrp><measureGrp type="James">14.1 x 9.3</measureGrp>, <extent>ff. 245 + 4</extent>,
+                        <layout>double columns of 43 lines</layout>. Cent. <origDate>xiii</origDate>, <handNote>very
+                        well written</handNote>. <decoNote>Initials in blue and red</decoNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>4 flyleaves, 1<num>8</num>-20<num>8</num> (5 canc.) 21<num>8</num>-20<num>8</num>,
+                            31<num>6</num>
+                    </collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>dicendo lucem</secFol>.</p>
+
+
+
+
+                <p function="Provenance">Perhaps from <name type="place" key="CoggPr">Coggeshall Priory</name> in <name
+                        type="place">Essex</name>. On the middle of f. <locus locusNew="ivr">iir</locus> in large red
+                    letters is a title not unlike those which occur in other <name type="place" key="CoggPr"
+                        >Coggeshall</name> books: <q locus="iir">ś Historica expositio <name type="author" key="AnSV01"
+                            >Andree</name> super Eptaticum et super Regum et super Paralipomenon et super parabolas et
+                        Ecclesiasten ś Et <name type="author" key="Bede01">Beda</name> super parabolas ś <name
+                            type="author" key="Jero01">Jeronimus</name> super ecclesiasten ś <name type="author"
+                            key="AnSV01">Andreas</name> super xii prophetas.</q> But on the same page in black ink
+                        <origDate>xv</origDate> or <origDate>xvi</origDate> is a scratched out mark <q>B. 63</q>. Such a
+                    mark sometimes points to <name type="place">Norwich</name>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-vi + 1-245 + vii-viii</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="50v">
+
+                        <head type="CCC"><name type="author" key="AnSV01">Andrew of Saint-Victor OSA</name>,
+                                <title>Commentary on the Heptateuch</title></head>
+                        <head type="James">
+                            <name type="author" key="AnSV01">Andreas Victorinus</name>
+                            <title>in Heptateuchum</title>
+                        </head>
+
+
+
+                        <rubric locus="1r">Expositio <name type="author" key="AnSV01">Andree</name> abbatis hystorica
+                            super Eptaticum</rubric>
+
+                        <incipit locusNew="1r">Difficile quod durum quod graue quod asperum est obseruatur</incipit>
+
+                        <ab>Super Exodum</ab>
+
+                        <incipit locus="19r">Iste secundus liber <name type="person" key="Mose01">moysi</name> hebraice
+                            hellesmoth</incipit>
+
+                        <ab>Super Leuiticum</ab>
+
+                        <incipit locus="33v">Liber Leuiticus hebraice vagecra</incipit>
+
+                        <ab>Super Numeros</ab>
+                        <incipit locus="39v">Quoniam multitudinis israelitice</incipit>
+
+                        <ab>Super Deuteronomium</ab>
+                        <incipit locus="43r">Deuteronomii scribendi hec precipue causa</incipit>
+
+                        <ab>Super <name type="person">Iosue</name></ab>
+                        <incipit locus="47r">A nomine auctoris dicitur liber iste</incipit>
+
+
+                        <ab>Super ludicum</ab>
+                        <incipit locus="48v">Tempora iudicum liber iste describit</incipit>
+
+                        <ab>Ends</ab>
+                        <explicit locus="50v">pro illo commemoratis</explicit>
+
+
+
+                    </msItem>
+
+
+
+
+
+                    <msItem n="2.1" locusStart="51r" locusEnd="73v">
+
+                        <head type="CCC"><name type="author" key="AnSV01">Andrew of Saint-Victor OSA</name>,
+                                <title>Commentary on Kings</title></head>
+
+
+                        <seg>
+                            <rubric locus="51r">Expositio <name type="author" key="AnSV01">Andree</name> Hystorica in
+                                Librum Regum</rubric>
+                        </seg>
+
+                        <incipit locus="51r">Fuit uir unus etc. Ad commendationem sancti <name type="person"
+                                key="Samu01">samuel</name></incipit>
+
+
+                        <ab locus="64r">Liber II </ab>
+                        <ab locus="67r">Liber III </ab>
+
+                        <ab locus="71v">Liber IV </ab>
+
+                        <ab>Ends</ab>
+                        <explicit locus="73v">quibus mundantur et raduntur pauimenta</explicit>
+
+                    </msItem>
+
+
+
+
+
+                    <msItem n="2.2" locusStart="73v" locusEnd="84v">
+
+                        <head type="CCC"><name type="author" key="AnSV01">Andrew of Saint-Victor OSA</name>,
+                                <title>Dossier </title></head>
+
+
+
+
+                        <ab>Supplement from Chronicles</ab>
+
+                        <rubric locus="73v">Reliqua uerborum uniuscuiusque regum iuda ab hiis que in libro regum degesta
+                            sunt</rubric>
+                        <incipit locusNew="73v">In hac ultima huius operis particula</incipit>
+                        <ab>There is an old pencil note: <q>non est hec lectura que? sequitur ut uidetur usque in xiij
+                                folium sequentem (?) or sextarii (?)</q>.</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="78r">cum eo et ascendat</explicit>
+
+
+                        <ab locus="78r">Table of kings and prophets, headed Regia prophetarum</ab>
+
+
+                        <ab>Summary of Jewish kings and prophets</ab>
+
+                        <incipit locus="78v">
+                            <name type="person" key="Robo01">Roboam</name> filius salomonis de <name type="person"
+                                >naama</name> amanitidite (!) matre natus</incipit>
+                        <explicit locusNew="80v">hi qui ante eos habent titulos prophetauerunt</explicit>
+
+
+                        <ab>Summary of history of high priests, of the Maccabees and Herods</ab>
+
+                        <incipit locus="80v">Principatum israelitice gentis post mortem <name type="person" key="Mose01"
+                                >moysi</name> et successoris eius Ihesu presules qui appellabantur iudices</incipit>
+                        <explicit locusNew="84v">qui <name type="person">nero</name> priuignus <name type="person"
+                                key="Clau01">claudii</name> filii <name type="person">agripine</name> uxoris sue et in
+                            regnum successit</explicit>
+
+                    </msItem>
+                    <msItem n="2.3" locusStart="84v" locusEnd="87r">
+
+                        <head type="CCC"><name type="author">Bede</name>, <title>De temporum ratione
+                            (excerpt)</title></head>
+
+                        <head type="James">Chronicle of the World</head>
+
+                        <ab>(cf. P. L. LI 335 <supplied>or rather P. L. XC 520-56</supplied>)</ab>
+
+                        <incipit locus="84v"><name type="person" key="Adam01">Adam</name> annorum cxxx genuit <name
+                                type="person" key="seth01">seth</name> cui superuixit dccc</incipit>
+                        <ab>Gap between the Captivity and <name type="person" key="Domi01">Domitian</name>. Quarta etas
+                            ends with the former. Quinta etas begins with the latter.</ab>
+                        <ab>Ends with <name type="person" key="Marc01">Marcian</name> and <name type="person"
+                                key="Vale01">Valentinian</name></ab>
+                        <explicit locusNew="87r">Gens anglorum siue saxonum <name type="place">britanniam</name> tribus
+                            longis nauibus aduehitur. quibus dum iter prosperatum domi fama referret mittitur exercitus
+                            fortior qui iunctus prioribus primo hostes quos petebant abigit. Deinde in sotios
+                            animaduertens totam prope insulam ab orientali eius plaga usque ad occidentalem igne uel
+                            ense subigit conficta occasione quod pro se militantibus (bri)<hi rend="footnote">A blank of
+                                3 letters in the MS</hi> tones minus sufficienter stipendia darent</explicit>
+
+                    </msItem>
+
+                    <msItem n="2.4" locusStart="87r" locusEnd="87r">
+
+                        <head type="CCC"><name type="author">Isidore of Seville</name>, <title>Etymologiae (excerpt from
+                                book 5, chapters 37-38)</title></head>
+
+                        <incipit locus="87r">Olimpias apud grecos constituta</incipit>
+                        <explicit locusNew="87r">aduenientem in nos gratiam spiritus sancti</explicit>
+                        <incipit locusNew="87r">Secula a generationibus consistunt </incipit>
+                        <explicit locusNew="87r">hoc est usque ad annum quinquagesimum</explicit>
+                        <ab>(two short paragraphs)</ab>
+
+                    </msItem>
+
+
+
+
+
+                    <msItem n="3" locusStart="87r" locusEnd="118v">
+
+                        <head type="CCC"><name type="author" key="AnSV01">Andrew of Saint-Victor OSA</name>,
+                                <title>Commentary on Proverbs and Ecclesiastes</title></head>
+
+                        <rubric locus="87v" locusNew="87r">Introitus <name type="author" key="AnSV01">Andree</name> in
+                            libros <name type="person">Salomonis</name></rubric>
+                        <incipit locusNew="87v">Ad opuscula <name type="author" key="Salo01">Salomonis</name> iuxta
+                            littere superficiem</incipit>
+                        <ab locus="88r">In Parabolis</ab>
+                        <explicit locus="107v">populi frequentia esse solet</explicit>
+
+                        <ab locus="107v">In Ecclesiasten</ab>
+
+                        <ab>At <locus locusNew="113v">113r</locus> the headline changes to <q>Secundum <name
+                                    type="person" key="Bede01">Bedam</name> super Ecclesiasten</q>, but no break in the
+                            text appears</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="118v">nec eum despicit nec cum indicat preterit</explicit>
+
+
+                    </msItem>
+
+
+
+
+
+                    <msItem n="4" locusStart="118v" locusEnd="151r">
+
+                        <head type="CCC"><name type="author" key="Bede01">Bede the Venerable</name>, <title>Commentary
+                                on Proverbs</title></head>
+
+                        <head type="James">
+
+                            <name type="author" key="Bede01">Beda</name>
+                            <title>super Parabolas</title>
+
+                        </head>
+
+                        <rubric locus="118v">Expositio historica in Parabolas secundum <name type="author" key="Bede01"
+                                >Bedam</name></rubric>
+                        <ab>(<ref type="bibl" target="Migne 091">P. L. XCI 946</ref>)</ab>
+                        <incipit locusNew="118v">Parabole <name type="person">Salomonis</name> etc. Parabole grece
+                            latine dicuntur similitudines</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="151r">collaudate seruitiis. Amen</explicit>
+
+                    </msItem>
+
+
+
+
+
+                    <msItem n="5" locusStart="151r" locusEnd="158v">
+
+                        <head type="CCC"><name type="author" key="Jero01">Jerome</name>, <title>Commentary on
+                                Ecclesiastes</title></head>
+                        <head type="James">
+                            <name type="author" key="Jero01">Hieronymus</name>
+                            <title>in Ecclesiasten</title>
+                        </head>
+
+
+                        <rubric locus="151r">Incipit prologus beati <name type="person" key="Jero01">Ieronimi</name>
+                            presbiteri in librum Ecclesiastes (<name type="person" key="Salo01">Salomonis</name>) filii
+                            dauid regis <name type="place" key="Jeru01">iherusalem</name></rubric>
+
+                        <ab>(<ref type="bibl" target="Migne 023">P. L. XXIII 1009</ref>)</ab>
+
+                        <incipit locusNew="151r">Memini me hoc</incipit>
+
+                        <rubric locusNew="151r">Incipit prefatio</rubric>
+
+                        <incipit locusNew="151r">Verba Ecclesiastes etc.</incipit>
+
+                        <incipit locusNew="151r">Tribus nominibus fuisse uocatum</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="158v">Cum enim mors uenerit nescit quali</explicit>
+                        <ab>(unfinished)</ab>
+
+                    </msItem>
+
+
+                    <msItem n="6" locusStart="159r" locusEnd="245r">
+
+                        <head type="CCC"><name type="author" key="AnSV01">Andrew of Saint-Victor OSA</name>,
+                                <title>Commentary on the Minor Prophets</title></head>
+
+                        <head type="James">
+
+                            <name type="author" key="AnSV01">Andreas Victorinus</name>
+                            <title>super XII Prophetas</title>
+
+                        </head>
+
+                        <rubric locus="159r"><name type="author" key="AnSV01">Andreas</name> super Osee</rubric>
+                        <incipit locusNew="159r">Quanta sit <name type="person" key="Hose01">Osee</name> prophete
+                            difficultas</incipit>
+
+                        <ab>Super <name type="person">Malachiam</name>. Ends</ab>
+
+                        <explicit locus="245r">In <name type="person">helya</name>
+                            <name type="person" key="John01">Iohannem</name> intelligens</explicit>
+
+                        <ab locusNew="245v">Verso blank save for a scribbled text</ab>
+                    </msItem>
+
+
+
+                </msContents>
+
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text:copied from James.txt CF</p>
+                            <p>markup:CF</p>
+                            <p>markupCheck: GDB, CF</p>
+                            <p>msCheck: NJM 19.3.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

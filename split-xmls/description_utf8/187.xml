@@ -1,0 +1,173 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC187">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>187</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>A. 3</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>3</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Eusebius of Caesarea, Historia ecclesiastica, transl. by Rufinus</head>
+                <head type="James">Eusebii Historia per Rufinum</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">293</height>
+                        <width unit="mm">192</width>
+                    </measureGrp><measureGrp type="James">11.6 x 7.7</measureGrp>, <extent>ff. 133</extent>, <layout>30
+                        and 35 lines to a page</layout>. Cent. <origDate>xi</origDate>, <handNote>in a fine and delicate
+                        round minuscule. Two scribes seem readily distinguishable</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>I<num>8</num>-XVI<num>8</num> XVII<num>6</num> (wants 6)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>Testimonium Iosephi</secFol>.</p>
+
+                <p function="Provenance">No mark is left, but from a list of books repaired at <name type="place">Christ
+                        Church, Canterbury</name>, it can be identified as having belonged to that house. The opening
+                    words of the second leaf give the clue. <ref type="bibl" target="James 1903"><hi rend="italic"
+                            >Ancient Libraries</hi>, p. 158, no. 155</ref>.</p>
+
+                <p function="Decoration">
+                    <decoNote>Titles in small red and green capitals.</decoNote>
+                </p>
+
+
+                <p function="Research" rend="afterContents">It seems evident that this MS. and <ref type="ms"
+                        target="CCC184">MS 184</ref> are related in view of their nearly identical omissions in Liber
+                    XI, xxiii.<lb/>
+                    <ref type="ms" target="CCC184">MS 184</ref> reads: <q>Post hoc reuulsum ceruicibus que apud illos
+                        sunt elementis cuius littere seu uocabuli.</q> With no note there, or subsequently, of omission.
+                    <lb/> MS 187 reads: <q>Post hoc reuulsum ceruicibus [then an erasure of a few words and .&#920;.
+                        written in the space]. Cuius littere seu uocabuli.</q> The omitted text is supplied on ff.
+                        <locus>131v</locus>-<locus>133r</locus> preceded by a &#920;.<lb/> It seems likely to me
+                    that the words <q>que apud illos sunt elementis</q> were originally written in MS 187 (which was
+                    copied from a mutilated archetype): that the omission was discovered later on, the words erased and
+                    a sign of omission put in, and the text written at the end of the book. In the interval the <ref
+                        type="ms" target="CCC184">MS 184</ref> was copied from MS 187.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-133 + iii-iv</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1" locusEnd="133v">
+                        <head type="CCC"><name type="author">Eusebius of Caesarea</name>, <title>Historia ecclesiastica,
+                                transl. by <name type="author">Rufinus</name></title>
+                        </head>
+
+                        <rubric locus="1r">Incipit Prefatio historie Ecclesiastice. Epistola <name type="author"
+                                >Rufini</name> ad <name type="person">Chromatium</name></rubric>
+                        <ab>(<ref type="bibl" target="Migne 021"><supplied>P. L.</supplied> XXI 462</ref>)</ab>
+                        <incipit locusNew="1r">Peritorum dicunt esse</incipit>
+                        <ab locusNew="1r">
+                            <decoNote>Rather rough initial in red, green and blue</decoNote>
+                        </ab>
+                        <explicit locus="1v">usque ad obitum <name type="person">theodosii augusti</name></explicit>
+                        <rubric locusNew="1v">Explicit prefatio</rubric>
+                        <rubric locusNew="1v">Incipit Capitula libri primi</rubric>
+                        <rubric locus="2r">Expliciunt capitula libri primi</rubric>
+                        <rubric locusNew="2r">Incipit hystorie Ecclesiastice <name type="author">Eusebii</name>
+                            Cesariensis Episcopi liber primus Capitulum I</rubric>
+                        <incipit locusNew="2r">Successiones sanctorum Apostolorum</incipit>
+                        <ab locusNew="2r">
+                            <decoNote>Initial in blue, red, and green</decoNote>
+                        </ab>
+                        <ab>
+                            <handNote>The hand changes on f. <locus>17v</locus></handNote>
+                        </ab>
+                        <ab locus="18r">Liber II</ab>
+                        <ab locus="29r"><supplied>Liber</supplied> III</ab>
+                        <ab locus="42r"><supplied>Liber</supplied> IV</ab>
+                        <ab locus="53v" locusNew="54v"><supplied>Liber</supplied> V</ab>
+                        <ab>At the beginning of liber V is the note</ab>
+                        <ab locusNew="54v">
+                            <q>Juxta librum alium quem vidi iste liber 5 non diuiditur in capitula. hic tamen diuiditur
+                                et iuxta hoc cotaui</q>
+                        </ab>
+                        <ab locus="69r"><supplied>Liber</supplied> VI</ab>
+                        <ab locus="84v"><supplied>Liber</supplied> VII</ab>
+                        <ab locus="95r"><supplied>Liber</supplied> VIII</ab>
+                        <ab locus="103v"><supplied>Liber</supplied> IX</ab>
+                        <ab locus="110v"><supplied>Liber</supplied> X</ab>
+                        <ab locus="123r"><supplied>Liber</supplied> XI</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="131v">percepturus premia meritorum</explicit>
+                        <rubric locusNew="131v">Hystorie ecclesiastice liber xi explicit</rubric>
+                        <ab>After this is supplied <handNote>in a later, smaller and rougher script
+                                    (<origDate>xii</origDate>)</handNote> a portion of text omitted in c. xxiii-xxix of
+                            liber XI, on the destruction of the Serapeum and various corruptions of paganism</ab>
+                        <incipit locus="131v">et depressum e medio simul extrahitur caput</incipit>
+                        <ab>(<ref type="bibl" target="Schwartz 1908">Berlin edition. Eusebius II 2. 1028, l.
+                            20</ref>)</ab>
+                        <explicit locus="133r">litterarum que apud illos sunt elementis</explicit>
+                        <ab>(<ref type="bibl" target="Schwartz 1908">Berlin edition Eusebius II 2. p. 1035, l.
+                            8</ref>.)</ab>
+                        <ab><locus>133v</locus> blank</ab>
+                        <ab>There are some neat marginalia <handNote>in a hand of cent. <origDate>xiv late or xv
+                                    early</origDate></handNote></ab>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: RJR 5.10.07</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

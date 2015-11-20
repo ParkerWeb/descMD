@@ -1,0 +1,488 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC406">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>406</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>G. 3</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>69</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Seneca, Tragedies. Iohannes de Alta Villa, Architrenius. Miscellaneous Texts</head>
+                <head type="James">Senecae Tragoediae. Architrenius, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">215</height>
+                        <width unit="mm">155</width>
+                    </measureGrp>, <measureGrp type="James">8.4 x 6.3</measureGrp>, <extent>ff. 4 + 144</extent>,
+                        <layout>double and triple columns of 53, 46, 51, etc. lines</layout>. Cent.
+                        <origDate>xiii</origDate>
+                    <handNote>in several very good small hands</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>4</num> 1<num>8</num>-5<num>8</num> | 6<num>8</num>-8<num>8</num> | 9<num>8</num>
+                            10<num>4</num> 11<num>8</num>-13<num>8</num> | 14<num>10</num> (10 canc.) 15<num>4</num> (1
+                        canc.) | 16<num>8</num>-19<num>8</num> (8 a slip)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>sceptra obtinentur</secFol>.</p>
+
+                <p function="Additions">On f. <locus>ir</locus> is pasted a slip with a list of contents
+                        (<origDate>xiii</origDate>):<lb/>
+                    <q>In hoc uolumine cantinentur subscripta.<lb/> i. Tragedie <name type="author">Senece</name>. Soror
+                        tonantis.<lb/> ii. Architrenius. Velificatur athos, etc.</q><lb/> The other flyleaves blank.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a + i-iv + 1-144 + b</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="40v">
+                        <head type="CCC">
+                            <name type="author">Seneca</name>, <title>Tragedies</title>
+                        </head>
+
+                        <head type="James">
+                            <title><name type="author">Senecae</name> Tragoediae</title>
+                        </head>
+                        <ab>
+                            <layout>Triple columns. Misbound. The true order of the quires is 1, 4, 3, 2, 5</layout>
+                        </ab>
+
+                        <ab>
+                            <hi rend="bold">a.</hi>
+                        </ab>
+                        <ab locus="1r">
+                            <note type="title">Hercules Furens</note>
+                        </ab>
+                        <rubric locusNew="1r">Iuno</rubric>
+                        <incipit locusNew="1r">Soror tonantis hoc enim solum mihi</incipit>
+
+
+                        <ab>
+                            <hi rend="bold">b.</hi>
+                        </ab>
+                        <ab locus="5r">
+                            <note type="title">Thiestes</note>
+                        </ab>
+                        <ab>Ending imperfect</ab>
+                        <explicit locusNew="8v">Parere crescit pondus et dextram grauat</explicit>
+                        <ab>l. 986</ab>
+                        <ab>Continued f. <locus>25r</locus></ab>
+
+
+                        <ab>
+                            <hi rend="bold">c.</hi>
+                        </ab>
+                        <ab locus="9r">
+                            <note type="title">Medea</note>
+                        </ab>
+                        <ab>Begins imperfect l. 387</ab>
+                        <incipit locusNew="9r">Flammata facies spiritum ex alto citat</incipit>
+                        <ab>The beginning is on f. <locus>23v</locus></ab>
+
+
+
+                        <ab>
+                            <hi rend="bold">d.</hi>
+                        </ab>
+                        <ab locus="11r">
+                            <note type="title">Agamemnon</note>
+                        </ab>
+
+
+                        <ab>
+                            <hi rend="bold">e.</hi>
+                        </ab>
+                        <ab locus="14r">
+                            <note type="title">Octauia</note>
+                        </ab>
+                        <ab>Breaks off at l.761</ab>
+                        <explicit locusNew="16v">Superos adora maneat ut presens metus</explicit>
+                        <ab>Continued on f. <locus>33r</locus></ab>
+
+
+                        <ab>
+                            <hi rend="bold">f.</hi>
+                        </ab>
+                        <ab locus="17r">
+                            <note type="title">Edippus</note>
+                        </ab>
+                        <ab>Beginning at l. 285</ab>
+                        <incipit locus="17r">Gelidumque dirimit</incipit>
+                        <ab>The beginning is on f. <locus>32r</locus></ab>
+
+
+                        <ab>
+                            <hi rend="bold">g.</hi>
+                        </ab>
+                        <ab locus="19v">
+                            <note type="title">Troas</note>
+                        </ab>
+
+
+                        <ab>
+                            <hi rend="bold">c.</hi>
+                        </ab>
+                        <ab locus="23v">Beginning of <note type="title">Medea</note></ab>
+
+
+                        <ab>
+                            <hi rend="bold">b.</hi>
+                        </ab>
+                        <ab locus="25r">End of <note type="title">Thiestes</note></ab>
+
+
+                        <ab>
+                            <hi rend="bold">h.</hi>
+                        </ab>
+                        <ab locus="25r">
+                            <note type="title">Thebais</note>
+                        </ab>
+
+
+                        <ab>
+                            <hi rend="bold">i.</hi>
+                        </ab>
+                        <ab locus="27v">
+                            <note type="title">Ypolitus</note>
+                        </ab>
+
+
+                        <ab>
+                            <hi rend="bold">g.</hi>
+                        </ab>
+                        <ab locus="32r">Beginning of <note type="title">Edippus</note></ab>
+
+
+                        <ab>
+                            <hi rend="bold">e.</hi>
+                        </ab>
+                        <ab locus="33v">End of <note type="title">Octavia</note></ab>
+
+
+                        <ab>
+                            <hi rend="bold">k.</hi>
+                        </ab>
+                        <ab locus="33v">
+                            <note type="title">Hercules Oetheus</note>
+                        </ab>
+                        <ab>Ending <locus>39v</locus></ab>
+                        <explicit locus="39v">Fulmina mutes</explicit>
+                        <rubric locusNew="39v">Lucii. Annei. <name type="author">Senece</name>. Hercules Oe ... neus
+                            explicit feliciter</rubric>
+
+                        <ab>f. <locus>40r</locus>-<locus>40v</locus> blank</ab>
+                        <ab>Examined by <name type="person">Mr C. E. Stuart</name>, Trinity College, Craven Student
+                            1907. It is one of the earliest of the English MSS.</ab>
+
+
+                    </msItem>
+
+
+
+                    <msItem n="2" locusStart="41r" locusEnd="64v">
+                        <head type="CCC">
+                            <name type="author">Iohannes de Alta Villa</name>, <title>Architrenius</title>
+                        </head>
+
+                        <head type="James">
+                            <title><name type="author">Iohannis de Alta villa</name> Architrenius</title>
+                        </head>
+                        <ab><handNote>Another hand</handNote>: <layout>double columns</layout></ab>
+                        <incipit locusNew="41r">Velificatur athos dubio mare ponte ligatur</incipit>
+                        <ab>
+                            <ref type="bibl" target="Wright 1872a">Wright,<hi rend="italic"> Satirical Poets of the
+                                    Twelfth Century</hi> I 240</ref>
+                        </ab>
+                        <ab>Ends f. <locus>64r</locus></ab>
+                        <explicit locus="64r">Equet in eternum populus dilectus et ultra</explicit>
+                        <rubric locus="64r">Explicit</rubric>
+                        <ab>On f. <locus>64v</locus>
+                            <layout>in 4 columns</layout> are the capitula to the Architrenius</ab>
+
+                    </msItem>
+
+
+                    <msItem n="3" locusStart="65r" locusEnd="74r">
+                        <head type="CCC">
+                            <name type="author">Bernardus Silvestris</name>, <title>Epistola ad <name type="person"
+                                    >Terricum</name> in Megacosmum</title>
+                        </head>
+
+                        <head type="James">
+                            <title><name type="author">Bernardi Siluestris</name> Megacosmus</title>
+                        </head>
+                        <ab><handNote>Another hand</handNote>: <layout>double columns</layout></ab>
+                        <rubric locusNew="65r">Incipit Epistola magistri <name type="author">bernardi siluestris</name>
+                            ad <name type="person">magistrum Terricum</name> in megacosmum</rubric>
+                        <incipit locusNew="65r"><name type="person">Terrico</name> ueris scientiarum titulis
+                            doctori</incipit>
+                        <explicit locusNew="65r">ualeatque uita uestra</explicit>
+                        <rubric locusNew="65r">Incipit <title>megacosmus</title>
+                            <name type="author">bernardi siluestris</name></rubric>
+                        <incipit locusNew="65r">Congeries informis adhuc cum silua teneret</incipit>
+                        <ab locus="69r">Liber II</ab>
+                        <ab>Ends <locus>74r</locus></ab>
+                        <explicit locus="74r">Ductoresque pedes omnificasque manus</explicit>
+                        <rubric locusNew="74r">Explicit cosmographia magistri <name type="person">bernardi
+                                siluestris</name></rubric>
+                        <ab>Ed. <ref type="bibl" target="Barach and Wrobel 1876">Wrobel and Barach, <hi rend="italic"
+                                    >Biblioth. philos. mediae aetatis </hi>I, Innsbruck, 1875</ref></ab>
+
+                    </msItem>
+
+
+                    <msItem n="4" locusStart="74v" locusEnd="86v">
+                        <head type="CCC">
+                            <name type="author">Joseph of Exeter</name>, <title>Bellum Troianum</title>
+                        </head>
+
+                        <head type="James">
+                            <title><name type="author">Iosephi Exoniensis</name> Ilias</title>
+                        </head>
+                        <ab locus="74v">(Prologue)</ab>
+                        <incipit locusNew="74v">
+                            <lg>
+                                <l>Cresce <name type="author">Ioseph</name> nomen augmenti moribus imple</l>
+                                <l>Ne uirtute minor nomine maior eas</l>
+                                <l>...</l>
+                                <l>Nam uacuus labor est carpere mortis iter</l>
+                            </lg>
+                        </incipit>
+                        <rubric locusNew="74v"><name type="author">Frigii Daretis</name> Yliados liber primus de prima
+                            pergamorum euersione incipit </rubric>
+                        <incipit locus="75r">
+                            <lg>
+                                <l>Iliadum lacrimas concessaque pergama fatis</l>
+                                <l>Prelia bina ducum bis adactam cladibus urbem</l>
+                            </lg>
+                        </incipit>
+
+                        <ab locus="77r"><supplied>Here</supplied>
+                            <handNote>the hand changes</handNote> and there are <layout>3 columns to a
+                            page</layout></ab>
+                        <ab>Ends</ab>
+                        <explicit locus="86v">Quam pascit presens extremaque krminat etas</explicit>
+                        <rubric locusNew="86v"><name type="author">Frigii Daretis</name> yliados liber explicit</rubric>
+                        <ab>Printed several times: e.g. in the <ref type="bibl" target="Dresemius 1825">London reprint
+                                of the Delphin edition of Dares Phrygius and Dictys Cretensis (1825)</ref></ab>
+
+                    </msItem>
+
+
+                    <msItem n="5" locusStart="86v" locusEnd="100v">
+                        <head type="CCC">
+                            <name type="author">Alanus ab Insula (Alain de Lille)</name>, <title>Anticlaudianus</title>
+                        </head>
+
+                        <head type="James">
+                            <title><name type="author">Alani</name> Anticlaudianus (without the prose preface)</title>
+                        </head>
+                        <incipit locusNew="86v">Auctoris mendico stilum falerasque poete</incipit>
+                        <ab>
+                            <ref type="bibl" target="Wright 1872a">Wright, <hi rend="italic">Satirical Poets of the
+                                    Twelfth Century</hi> II 272</ref>
+                        </ab>
+                        <ab>Ends</ab>
+                        <explicit locus="100v">Supplantare nouas saltem post fata silebit</explicit>
+
+                    </msItem>
+
+
+                    <msItem n="6.1" locusStart="101r" locusEnd="101v">
+                        <head type="CCC">
+                            <title>De coloribus sententiarum</title>
+                        </head>
+
+                        <ab>
+                            <hi rend="bold">a.</hi>
+                        </ab>
+                        <ab locus="101r">Poem exemplifying <q>colores,</q>
+                            <layout>double columns</layout></ab>
+                        <ab><supplied>Headings in</supplied> margin</ab>
+                        <rubric locusNew="101r">Exempla colorum sententiarum</rubric>
+
+                        <incipit locusNew="101r">Ecce <abbr rend="superscript">Est</abbr> pape leges sacras
+                                dictante<abbr rend="superscript">re</abbr> minorum</incipit>
+                        <ab locusNew="101r">
+                            <hi rend="italic">Distinctio</hi>
+                        </ab>
+                        <ab locusNew="101r">Prescriptam iuris formam seruare sed errant</ab>
+                        <ab locusNew="101r">
+                            <hi rend="italic">Licencia</hi>
+                        </ab>
+                        <ab locusNew="101r">Quam plures quorum ce pape redarguit error.<lb/> Parcis non punis enormia
+                            lucra sequentes, etc.<lb/>...</ab>
+                        <ab locusNew="101r">(<hi rend="italic">Breuitas</hi>)</ab>
+                        <ab locusNew="101r">Non persona patris uel sacri flaminis esse<lb/> Debuit ipsa salus hominis
+                            sic collige paucis</ab>
+
+                        <ab locus="101v">
+                            <hi rend="italic">Demonstracio</hi>
+                        </ab>
+                        <explicit locusNew="101v">Ciuibus angelicis celo nascente creatis<lb/> Lucifer egregie lucis de
+                            luce creantis<lb/> ...<lb/> Istius radix sic sum quasi causa remota<lb/> Huius pestis ero
+                            uicine causa salutis<lb/>
+                        </explicit>
+                    </msItem>
+
+                    <msItem n="6.2" locusStart="102r" locusEnd="112v">
+                        <head type="CCC"><name type="author">Geoffrey de Vinsauf</name>, <title>Poetria
+                            noua</title></head>
+
+                        <ab>
+                            <hi rend="bold">b.</hi>
+                        </ab>
+                        <rubric locus="102r">Incipit liber magistri <name type="author">Galfridi (Vinesauf: cut off)
+                                Anglici</name> ad <name type="person">Willelmum de Wrotham</name> epistola
+                            prima</rubric>
+                        <incipit locusNew="102r">
+                            <lg>
+                                <l>Quem pape scripsi munus speciale libelli</l>
+                                <l>Accipe flos regni primo pocieris honore</l>
+                                <l>...</l>
+                                <l>Sed licet omnis apex tibi crescat honoris, honore</l>
+                                <l>Crescere non poteris quantum de iure mereris</l>
+                            </lg>
+                        </incipit>
+                        <ab>Text begins</ab>
+                        <incipit locusNew="102r">Papa stupor mundi si dixero papa nocenti</incipit>
+                        <ab>Ends <locus>112v</locus></ab>
+                        <explicit locus="112v">Plene. sed res est longe fecundior ore</explicit>
+                        <rubric locusNew="112v">Explicit artificium lepide loquendi</rubric>
+                        <ab>Printed in <ref type="bibl" target="Leyser 1721">Leyser, pp. 861-978</ref></ab>
+
+                    </msItem>
+
+
+                    <msItem n="7" locusStart="113r" locusEnd="144v">
+                        <head type="CCC">
+                            <name type="author">Walter of Ch&#226;tillon</name>, <title>Alexandreis</title>
+                        </head>
+                        <head type="James">
+                            <title><name type="author">Gualteri de Castellione</name> Alexandreis</title>
+                        </head>
+                        <ab locus="113r">
+                            <handNote>Another hand</handNote>
+                        </ab>
+                        <incipit locusNew="113r">
+                            <lg>
+                                <l>Primus <name type="person">aristotiles</name> imbutum nectare sacro</l>
+                                <l>...</l>
+                                <l>Pergama miratur et sompnia uisa retractat</l>
+                            </lg>
+                        </incipit>
+
+                        <incipit locusNew="113r">Gesta ducis macedonie totum digesta per orbem</incipit>
+                        <explicit locusNew="113r">nostram paciare camenam</explicit>
+                        <ab>
+                            <handNote>The next eleven lines in another hand</handNote>
+                        </ab>
+                        <incipit locusNew="113r">
+                            <lg>
+                                <l>Nondum prodierat mature plena tenellis</l>
+                                <l>...</l>
+                                <l>Confusos turbare duces primumque (?) leonis</l>
+                            </lg>
+                        </incipit>
+
+                        <ab locus="141v">Liber X ends</ab>
+                        <explicit locus="141v">
+                            <lg>
+                                <l>Gloria <name type="person">Willelmi</name> nullum moritura per euum</l>
+                                <l>Laus tibi sit christe quia finitur liber iste</l>
+                            </lg>
+                        </explicit>
+
+
+                        <rubric locusNew="141v">Explicit liber Alexandri</rubric>
+                        <ab locus="141v">Prose prologue</ab>
+                        <incipit locusNew="141v">Moris est usitati cum in auribus multitudinis</incipit>
+
+                        <explicit locusNew="141v">totum opus per capitula distinguamus</explicit>
+                        <ab>Capitula follow, ending with the argument of Liber I (<q>Primus <name type="person"
+                                    >Aristotiles</name></q>) as above</ab>
+                        <ab>See <ref type="bibl" target="???"><hi rend="italic">Hist. Litt.</hi> XV 100</ref>. <ref
+                                type="bibl" target="Ward 1883">Ward, <hi rend="italic">Catalogue of Romances</hi> I
+                                94</ref>. Often printed</ab>
+                        <ab>On ff. <locus>142v</locus>-<locus>144r</locus> are scribbles, notes, memorial verses, lists
+                            of sins, etc.</ab>
+                        <ab>Liber VII 331, etc. reads</ab>
+
+                        <incipit locusNew="132r">
+                            <lg>
+                                <l>Nollet corruptus munere iudex</l>
+                                <l>Non caderent hodie nullo discrimine sacri</l>
+                                <l>Pontifices. quales nuper cecidisse queruntur</l>
+                                <l>Vicine modico distantes equore terre</l>
+                                <l>Sed quia labilium, etc.</l>
+                            </lg>
+                        </incipit>
+
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJM 9/1/2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

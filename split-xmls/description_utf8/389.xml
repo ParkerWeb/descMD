@@ -1,0 +1,201 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC389">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>389</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>G. 2</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>68</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Lives of the Hermits Paul and Guthlac</head>
+                <head type="James">Vita Pauli. Vita Guthlaci</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">230</height>
+                        <width unit="mm">140</width>
+                    </measureGrp><measureGrp type="James">9 x 5.6</measureGrp>, <extent>ff. 66</extent>, <layout>19
+                        lines to a page</layout>. Cent. <origDate>ix?</origDate>, <handNote>in an exquisite flat-topped
+                        minuscule of Celtic aspect</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num>-5<num>8</num> 6<num>10</num> (8 canc.) 7<num>10</num> (3, 7 canc.)
+                            8<num>10</num> (4 canc.)</collation>.</p>
+
+                <p function="Provenance">From <name type="place">St Augustine's, Canterbury</name>: on f.
+                        <locus>1r</locus> at top: Di. IX<abbr rend="superscript">a</abbr> Gradu tercio V. Lower down
+                        (<origDate>xii</origDate>):<lb/> Vita <name type="person">S. pauli primi heremite</name>.<lb/>
+                    Vita <name type="person">S. Guthlaci</name>.<lb/> (<origDate>xiv</origDate>) Liber <name
+                        type="place">S. Aug. Cant.</name><lb/> Not entered in the old catalogue.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-66 + iii-iv</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="ang">Latin and Old English.</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1v" locusEnd="16v">
+                        <head type="CCC">
+                            <name type="author">Jerome</name>, <title>Vita <name type="person">Sancti Pauli primi
+                                    heremitae</name></title>
+                        </head>
+
+                        <ab>
+                            <decoNote>On f. <locus>1v</locus> is a full-page drawing of <name type="person"
+                                    >Jerome</name>, tonsured, beardless, in green robe, face R. seated in a rich chair
+                                writing in book on desk, with pen in R. and knife in L. hand. A dove at his ear.
+                                Architecture above, supported by shafts with acanthus capitals. A curtain, twisted up,
+                                hangs on R.</decoNote>
+                        </ab>
+                        <ab locus="2r">Preface. <decoNote>Title in red and green capitals. Very fine initial in black
+                                and red outline: interlaced work in black: dragons' heads in red</decoNote></ab>
+
+                        <incipit locus="2r"><name type="person">Hieronimus</name> presbiter natus a patre <name
+                                type="person">eusebio</name> hunc librum scripsit in <name type="place">bethleem</name>
+                            in loco uidelicet militum qui uocatur litostrotos: temnanus ait. si quidem aptum erat ut de
+                            milite in loco militum scriberetur uel in oppido stridodis quod nomen uersum a gothis <name
+                                type="place">dalmatia</name> nuncupatur, etc.</incipit>
+
+                        <explicit locusNew="3v">quia ambo in uita eorum adfirmauerunt uerbum eorum post mortem alterius
+                            alter dicit</explicit>
+                        <ab locusNew="3v">
+                            <decoNote>Rustic capitals, red</decoNote>
+                        </ab>
+                        <rubric locusNew="3v">De variis estimationibus quis utique primus monachus habitauit
+                            heremum</rubric>
+                        <incipit locusNew="4r">Inter multos saepe dubitatum est a quo potissimum</incipit>
+                        <ab>(<ref type="bibl" target="Migne 023"><supplied>P. L.</supplied> XXIII 17</ref>)</ab>
+                        <ab locusNew="4r">
+                            <decoNote>Fine initial as on f. <locus>2r</locus></decoNote>
+                        </ab>
+                        <ab>
+                            <decoNote>Titles of chapters in red rustic capitals. Initials usually plain purple, but
+                                sometimes in outline, interlaced</decoNote>
+                        </ab>
+                        <ab>Ends</ab>
+                        <explicit locus="16v">tonicam <name type="person">pauli</name> cum meritis eius quam regum
+                            purpuras cum poenis suis</explicit>
+                        <rubric locusNew="16v">Finit liber</rubric>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="17r" locusEnd="66r">
+                        <head type="CCC">
+                            <name type="author">Felix of Crowland</name>, <title>Vita <name type="person">Sancti
+                                    Guthlaci</name></title>
+                        </head>
+                        <ab>f. <locus>17r</locus> is blank</ab>
+                        <ab>on f. <locus>17v</locus> is <decoNote>a faint pencil sketch in excellent style of a king
+                                throned full-face, a sword across his knee, holding up an admonitory finger to a
+                                beardless person on R.</decoNote></ab>
+                        <rubric locus="18r">Incipit prologus (in vita) <name type="person">Sancti
+                            Guthlaci</name></rubric>
+                        <ab>(by <name type="author">Felix</name>: cf. <ref type="ms" target="CCC307">MS 307.
+                            1</ref>)</ab>
+                        <incipit locusNew="18r">In domino dominorum domino meo mihi pre ceteris regalium primatuum
+                            gradibus dilectissimo <name type="person">aelfuualdo</name></incipit>
+                        <ab locusNew="18r">
+                            <decoNote>Fine initial as on f. <locus>2r</locus></decoNote>
+                        </ab>
+                        <explicit locusNew="20r">principium in principio finem in fine conpono</explicit>
+                        <rubric locusNew="20r">Explicit prologus</rubric>
+                        <rubric locus="20r">Incipit capitula libri <name type="person">Sancti Guthlaci</name>
+                            anachorite</rubric>
+                        <ab><decoNote>Initials alternately green and purple</decoNote>: 53 capp. ending
+                                <locus>22r</locus></ab>
+                        <rubric locus="22v">In nomine trino et divino Incipit liber de vita <name type="person">Sancti
+                                Guthlaci</name> strenuissimi ac perfectissimi anachoritae</rubric>
+                        <ab>(<decoNote>red capitals</decoNote>)</ab>
+                        <incipit locusNew="22v">Fuit itaque in diebus <name type="person">aethelredi</name> inlustris
+                            anglorum regis</incipit>
+                        <ab locusNew="22v">
+                            <decoNote><supplied>The first two words of the incipit in</supplied> green and purple
+                                capitals</decoNote>
+                        </ab>
+                        <ab locusNew="22v">
+                            <decoNote>Magnificent initial of interlaced work and dragons' heads as on f.
+                                    <locus>2r</locus></decoNote>
+                        </ab>
+                        <ab>On f. <locus>34v</locus> strofosus is glossed frćte</ab>
+                        <ab>On f. <locus>35v</locus> raucisonis <supplied>is glossed</supplied> hasgrumelum
+                                <supplied>and</supplied> horrescere hlyţan</ab>
+                        <ab>On f. <locus>41r</locus> strinebant (-debant) <supplied>is glossed</supplied>
+                            scriccettan</ab>
+                        <ab>On f. <locus>41v</locus> forcipe i. bile</ab>
+                        <ab>On and after f. <locus>57v</locus> viii lections are marked in the margin, from: Contigit
+                            ergo inter haec postquam dilectus dei famulus <name type="person">guţlacus</name> ter quinis
+                            annorum uoluminibus</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="66r">Uiditque uidentes quos prius uidere negauit. Grates deo persoluens dignas
+                            quas nullus reddere nescit</explicit>
+                        <rubric locusNew="66r">Explicit liber <name type="person">Sancti Guthlaci</name>
+                            anachoritae</rubric>
+                        <ab>Cf. <ref type="ms" target="CCC307">MS 307</ref>. <ref type="bibl"
+                                target="Henschenius and Papebrochius 1675">Acta Sanctorum II Aprilis</ref>, etc.</ab>
+                        <ab>On f. <locus>66v</locus> beginning of an alphabet <decoNote>in green capitals</decoNote> and
+                            a late scribble</ab>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: RJR 3/10/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

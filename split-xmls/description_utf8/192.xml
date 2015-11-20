@@ -1,0 +1,200 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC192">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>192</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>E. 9</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>55</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Amalarius of Metz, Liber officialis</head>
+                <head type="James">Amalarius</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">283</height>
+                        <width unit="mm">195</width>
+                    </measureGrp><measureGrp type="James">11.1 x 8</measureGrp>, <extent>ff. 97 + 1</extent>,
+                        <layout>26, 30, 31 lines to a page</layout>. Cent. <origDate>x (952)</origDate>, <handNote>in
+                        two main hands at least</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>i<num>12</num> (two cancels) ii<num>8</num> iii<num>12</num> (two cancels)
+                            iv<num>10</num> v<num>12</num> (two cancels) vi<num>10</num>-viii<num>10</num>
+                            ix<num>12</num> (two cancels) x<num>10</num> (wants 10): 1 flyleaf</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>quid sit</secFol> or <secFol>usque dum</secFol>.</p>
+
+                <p function="Provenance">Written at <name type="place">Landevennech</name> in <name type="place"
+                        >Brittany</name> and afterwards in the library of <name type="place">Christ Church,
+                        Canterbury</name> (<ref type="bibl" target="James 1903">no. 74 (not 73) in <name type="person"
+                            >Eastry</name>'s Catalogue, <hi rend="italic">Ancient Libraries</hi>, p. 24</ref>).</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-ii + 1-99 + c-d</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="gre cel">Latin with some Greek and occasional Breton
+                        glosses.</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="99r">
+                        <head type="CCC">
+                            <name type="author">Amalarius of Metz</name>, <title>Liber officialis</title></head>
+                        <head type="Nasmith">
+                            <title>Collectio <name type="author">Amalarii</name> viri doctissimi de ordine Romanae
+                                ecclesiae qui vocatur liber officialis</title>
+                        </head>
+                        <ab locusNew="1r">Title in capitals</ab>
+                        <rubric locusNew="1r">Collectio <name type="author">amalarii</name> uiri doctissimi de ordine
+                            Romane aeclesiae. qui vocatur liber officialis</rubric>
+                        <ab>(<ref type="bibl" target="Migne 105">P. L. CV</ref>)</ab>
+                        <ab locusNew="1r">A small letter <q>a</q> (<origDate>xiv ?</origDate>) at upper R. corner</ab>
+                        <ab locusNew="1r">Capitula of two books</ab>
+                        <rubric locusNew="2v">Expliciunt capitula libri .ii</rubric>
+                        <rubric locusNew="2v">Incipit collectio ... officialis</rubric>
+                        <ab>At top of f. <locus>3r</locus> (<origDate>xiv</origDate>)</ab>
+                        <ab locusNew="3r"><name type="author">Amalarius</name> de ordine ecc ...</ab>
+                        <ab locusNew="3r">(corner of leaf torn off)</ab>
+                        <ab>The preliminary letter to <name type="person">Louis the Pious</name> is absent</ab>
+                        <incipit locusNew="3r">Postquam scripsi libellum qui a mea paruitate uocatur de eclesiastico
+                            officio</incipit>
+                        <ab>(Praefatio altera, belonging to the revised form of the work, <ref type="bibl"
+                                target="Migne 105">P. L. CV 987</ref>)</ab>
+                        <ab locusNew="3r">
+                            <handNote>The hand is a rough and unskilled Carolingian minuscule</handNote>
+                        </ab>
+                        <ab>There are fairly numerous interlinear glosses, among which <ref type="bibl"
+                                target="Bradshaw 1889a">Mr Bradshaw (<hi rend="italic">Collected Papers</hi>, p.
+                                472)</ref> detected several in Breton. These were printed by <ref type="bibl"
+                                target="Stokes 1879">Dr Whitley Stokes in <hi rend="italic">Revue Celtique</hi>,
+                                1879-80, p. 338</ref></ab>
+                        <ab>
+                            <decoNote>Initials are rough, filled with patches of dull red and yellow</decoNote>
+                        </ab>
+                        <ab>
+                            <handNote>The first obvious change of hand is on f. <locus>13v</locus></handNote>
+                        </ab>
+                        <ab><handNote>A third hand, much larger and rounder, appears on ff.
+                                    <locus>37r</locus>-<locus>38v</locus></handNote>, thus</ab>
+                        <ab locusNew="37r">Liber I, Capitulum xxxviii. De observatione dierum etc.</ab>
+                        <ab>ends</ab>
+                        <explicit locus="37r">et sunt omnes dies tamquam dominica</explicit>
+                        <ab>Then a heading not in the capitula</ab>
+                        <rubric locusNew="37r">Paulisper de ministratoribus persecutionis Christi quid actum sit
+                            uideamus</rubric>
+                        <incipit locus="37r">Primus <name type="person">herodes</name> sub quo passi sunt
+                            infantes</incipit>
+                        <ab>On the deaths of the Herods and <name type="person">Pilate</name> and destruction of <name
+                                type="place">Jerusalem</name>, mostly from <name type="person">Josephus</name></ab>
+                        <explicit locusNew="38v">et qui in sollempnitate pasche dominum crucifixerunt in eadem
+                            sollempnitate ab hostibus perirent</explicit>
+                        <rubric locusNew="38v"><name type="person">Hieronimus</name> in libro ebraicorum
+                            nominum</rubric>
+                        <incipit locusNew="38v">Iscarioth memoriale domini</incipit>
+                        <explicit locusNew="38v">et de uico eiusdem tribus ischarioth dominum uendidit</explicit>
+                        <ab locus="39r">Liber II, i, de xii lectionibus</ab>
+                        <ab locusNew="39r">
+                            <handNote>The second hand resumes, and, I think, continues to the end</handNote>
+                        </ab>
+                        <ab>At R. upper corner of <locus>39r</locus> is <q>xb</q> (? for <q>Christe benedic</q>)</ab>
+                        <ab>A curiously indented piece has been cut out of the bottom of
+                                <locus>39r</locus>-<locus>39v</locus></ab>
+                        <ab>f. <locus>47r</locus>-<locus>47v</locus> is mutilated</ab>
+                        <ab>In the margins, throughout, a large <q>L</q> is frequently written</ab>
+                        <ab>Cap. lxi or lxii De sexta feria ends</ab>
+                        <explicit locus="97r">quia in ea peracta est</explicit>
+                        <ab>(Liber IV capitulum xvi in <ref type="bibl" target="Migne 105">P. L. CV</ref>)</ab>
+                        <ab locusNew="97r">&#934;&#921;&#925;&#921;&#920; D&#919;&#937;
+                            &#915;&#929;&#923;&#920;&#921;&#923;&#931;
+                            &#923;&#924;&#919;&#925;</ab>
+                        <ab>On f. <locus>97v</locus> is the inscription given by Nasmith (corrected by me)</ab>
+                        <ab locusNew="97v">
+                            <quote>Anno a natiuitate dni nri ihu xpi dcccclii decima indictione <lb/> epactis x(x)ii
+                                concurrens iiii<abbr rend="superscript">tus</abbr> cum bisexto; ciclo lunari xix<abbr
+                                    rend="superscript">o</abbr> luna xiiii<abbr rend="superscript">a</abbr>
+                                <lb/> pasche ID. aprilis. dies pasche. xiiii<abbr rend="superscript">o</abbr> kl. MAI;
+                                luna ipsius diei xviiii<abbr rend="superscript">a</abbr>; <lb/> iussit <name
+                                    type="person">amadeus diaconus</name> atque habitu monachus hunc <lb/> libellum
+                                scribere pro sua anima ad utilitatem fratrum: et quicunque <lb/> legerit uel scrutatus
+                                fuerit aut scripserit eum precor <lb/> ut dicat, anima eius requiescat in pace; Sed et
+                                quicunque eum <lb/> rapuerit uel per uim siue per latrocinium abstulerit a
+                                fra<lb/>tribus <name type="place">sancti uuingualoei</name> in cuius honore est scriptus
+                                ana<lb/>thema sit amaranatha in aduentu dni, omnibus fratribus haec atestantibus</quote>
+                        </ab>
+                        <ab locusNew="97v">The date is <date>dccccLii</date> but the L is nearly gone</ab>
+                        <ab>After this is a single leaf <supplied>(f. <locus>99r</locus>)</supplied> in <layout>double
+                                columns of 35 lines</layout> written apparently on one side only. <handNote>The script
+                                is of much the same character as that of the volume, but smaller</handNote></ab>
+                        <ab>At top in <handNote>a large hand <origDate>xii-xiii</origDate></handNote> is</ab>
+                        <rubric locusNew="99r"><name type="author">Amalarius</name> de ordine ecclesiastici
+                            officii</rubric>
+                        <ab>which seems characteristic of <name type="place">Christ Church, Canterbury</name></ab>
+                        <ab>The text begins</ab>
+                        <incipit locusNew="99r">In caena domini reseruetur de ipso corpore domini unde in
+                            crastinum</incipit>
+                        <ab>and ends (De sabbato sancto)</ab>
+                        <explicit locusNew="99r">Statim sequitur antiphona ad magnificat et oratio n. Et finita sunt
+                            ipsa die</explicit>
+                        <ab>A facsimile of f. <locus>49r</locus> and of the colophon is given in the <ref type="bibl"
+                                target="NPS 1907">New Palaeographical Society's publication for 1907 (pl.
+                            109)</ref></ab>
+                    </msItem>
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: RJR 30.11.07</p>
+                            <p>remarks: Check Greek again...</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

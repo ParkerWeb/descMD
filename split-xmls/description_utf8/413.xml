@@ -1,0 +1,123 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC413">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>413</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Misc. 11</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">John Baret OCarm, Collectanea from the Early Fathers on Tradition</head>
+                <head type="James">Ioh. Barret Collectanea</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">213</height>
+                        <width unit="mm">154</width>
+                    </measureGrp>, <measureGrp type="James">8.4 x 6.2</measureGrp>, <extent>ff. 221</extent>. Cent.
+                        <origDate>xvi</origDate>, <handNote>neatly written</handNote>.</p>
+
+                <p function="Research">Other volumes of <name type="author">Barret</name>'s <title>Collectanea</title>
+                    are <ref type="ms" target="CCC124">MS 124</ref> and <ref type="ms" target="CCC428">MS 428</ref>. See
+                    also <ref type="ms" target="CCC114B">MS 114 no. 305</ref>.<lb/></p>
+                <p function="Additions">There is no title.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-110 + 110a + 111-165 (166 missing) + 167-179 + 179a + 180-221 +
+                        iii-iv</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="221v">
+                        <head type="CCC">
+                            <name type="author">John Baret OCarm</name>, <title>Collectanea</title>
+                        </head>
+
+                        <rubric locus="1r">Obiter annotata et obseruata ex summa conciliorum et pontificum</rubric>
+                        <ab locus="21r">Collectanea from the early Fathers on Tradition</ab>
+                        <rubric locus="37r">De veritate Corporis Christi in Eucharistia</rubric>
+                        <rubric locus="57r">De sacrae eucharistiae asseruatione</rubric>
+                        <rubric locus="65r">De Eucharistiae eleuatione et adoratione</rubric>
+                        <rubric locus="67r">De adoratione Christi in Sacramento</rubric>
+                        <rubric locus="71r">De sacrificio Missae</rubric>
+                        <rubric locus="79r">De Sacramentorum vi et efficacia</rubric>
+                        <rubric locus="87r">Peccata sacerdoti confitenda</rubric>
+                        <rubric locus="95r">De satisfactione</rubric>
+                        <rubric locus="104r">De inuocatione Sanctorum</rubric>
+                        <rubric locus="112r">De Ieiunio</rubric>
+                        <rubric locus="125r">Oratio pro mortuis</rubric>
+                        <rubric locus="132r" locusNew="133r">De Purgatorio</rubric>
+                        <rubric locus="134r">De primatu sedis Romane</rubric>
+                        <rubric locus="142r">In qua lingua potissimum orandum</rubric>
+                        <rubric locus="150r">Fragmenta seu farragines quaedam hinc inde ex sacris scriptoribus collectae
+                            hoc seculo cognitu apprime necessariae</rubric>
+                        <rubric locus="212r">De ieiuniis 4<abbr rend="superscript">tae</abbr> et 6<abbr
+                                rend="superscript">tae</abbr> feriae, et sabbati</rubric>
+                        <ab>
+                            <supplied source="KAW">ff. <locus>214r</locus>-<locus>221v</locus> blank</supplied>
+                        </ab>
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: KAW 22/04/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

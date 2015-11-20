@@ -1,0 +1,160 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC352">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>352</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>2. 14</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>309</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Boethius, De institutione arithmetica</head>
+                <head type="James">Boethii Arithmetica</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">300</height>
+                        <width unit="mm">220</width>
+                    </measureGrp>, <measureGrp type="James">11.9 x 8.5</measureGrp>, <extent>ff. 80</extent>, <layout>22
+                        lines to a page</layout>. Cent. <origDate>ix-x</origDate> (<name type="person">Bradshaw</name>),
+                        <handNote>in a beautiful <q>insular</q> minuscule</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num>-9<num>8</num> 10<num>?2</num> (2 canc.) 11<num>8</num> (wants
+                        8)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>caligantibus</secFol>.</p>
+
+
+                <p function="Provenance">From <name type="place">St Augustine's, Canterbury</name>: on f.
+                        <locus>ir</locus> (<date>xiv</date>):<lb/>Arsmetica <name type="author">Boecii</name> cum
+                    A.<lb/> Liber <name type="place">Sancti Augustini Cant.</name>
+                </p>
+
+
+                <p function="Additions">On f. <locus>iv</locus>
+                    <handNote>in an earlier black hand</handNote>: Arimethica <name type="author">Boetii</name>. <ref
+                        type="bibl" target="James 1903"><hi rend="italic">Ancient Libraries</hi>, p. 303, no.
+                    1008</ref>.</p>
+
+                <p function="Additions">On f. <locus>ir</locus>
+                    <decoNote>a quatrefoil diagram, marked with Roman numerals, in many compartments. At top and bottom
+                        Longitudo, on R. and L. Latitudo, in capitals</decoNote>. It occurs again at the head of cap.
+                    XII, f. <locus>14r</locus>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-80 + iii-iv</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="2r" locusEnd="80v">
+                        <head type="CCC">
+                            <name type="author">Boethius</name>, <title>De institutione arithmetica</title></head>
+
+                        <ab>
+                            <decoNote>In red</decoNote>
+                        </ab>
+                        <rubric locus="2r">Domino meo <name type="person">patricio</name> suma fide <name type="author"
+                                >boetius</name> salutem</rubric>
+                        <incipit locusNew="2r">In dandis accipiendisque muneribus</incipit>
+                        <ab>(<ref type="bibl" target="Migne 063">LXII <supplied>(actually LXIII)</supplied></ref>
+                            1079)</ab>
+
+                        <ab>Glosses, some in small upright script, beginning:</ab>
+                        <incipit locusNew="2r">Ordo est. Si liquido constabit nec ab hoc aliud inuentum</incipit>
+                        <ab>Others in the hand of the text</ab>
+                        <explicit locusNew="3v">auctor merito quam probator</explicit>
+                        <ab>
+                            <decoNote>In red</decoNote>
+                        </ab>
+                        <rubric locusNew="3v">Finit prologus <name type="person">sesibuti</name></rubric>
+                        <rubric locus="3v">Incipit prologus <name type="person">nicomachi</name></rubric>
+                        <incipit locusNew="3v">Inter omnes prisce auctoritatis uiros</incipit>
+                        <ab>
+                            <decoNote>Diagrams in red: some, e.g. on f. <locus>30r</locus>, with slight ornament.
+                                Initials in green and red</decoNote>
+                        </ab>
+
+                        <ab locus="34r">Liber II</ab>
+
+                        <ab>Ends imperfectly in capitulum liii (or liv)</ab>
+
+                        <explicit locus="80v">uel ab inaequalibus ad aequalia aequaliter uel quotlibet</explicit>
+
+                        <ab>The last rubric is:</ab>
+
+                        <rubric locusNew="80v">De maxima et perfecta symphonia que tribus distenditur
+                            interuallis</rubric>
+
+                        <ab>
+                            <decoNote>The signs used to show the references of the glosses to the text are very
+                                noteworthy</decoNote>
+                        </ab>
+
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, SP, CF</p>
+                            <p>msCheck: SP 11/8/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

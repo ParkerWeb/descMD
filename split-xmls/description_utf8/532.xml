@@ -1,0 +1,143 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC532">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>532</idno>
+                    <altIdentifier type="Elbing">
+                        <idno>N. 34</idno>
+                    </altIdentifier>
+
+                </msIdentifier>
+                <head type="CCC">Innocent III (Lotharius de Segnis) (attrib.), Sermones</head>
+                <head type="James">[Untitled]</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">297</height>
+                        <width unit="mm">220</width>
+                    </measureGrp>, <measureGrp type="James">11.8 x 9</measureGrp>, <extent>ff. 294</extent>,
+                        <layout>double columns of 35, etc. lines</layout>. Cent. <origDate>xv</origDate>, <handNote>in
+                        several decent hands</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>12</num> (+1) 2<num>12</num>-11<num>12</num> 12<num>10</num> 13<num>12</num>
+                            14<num>14</num> 15<num>12</num> 16<num>12</num> (+1) || 17<num>12</num>-21<num>12</num> |
+                            22<num>10</num> 23<num>12</num> 24<num>10</num> 25<num>10</num> (wants 10)</collation>.</p>
+                <p function="Provenance">
+                    <supplied><name type="person">Mary P</name> on f. <locus>1v</locus>.</supplied>
+                </p>
+                <p function="Additions">Binding broken, 3 tags remain (one pierced) and one boss.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-iv + 1-109 + 1010-1049 + 1005 + 1051-1067 + 168-294 + v-vii</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+                    <milestone n="I" unit="volume"/>
+                    <msItem n="1" locusStart="ivr" locusEnd="193r">
+                        <head type="CCC"><name type="author">Innocent III (Lotharius de Segnis) (attrib.)</name>,
+                                <title>Sermones</title></head>
+                        <ab>On f. <locus locusNew="ivr">1r</locus> a table of the Sermons headed</ab>
+                        <incipit locus="1r" locusNew="ivr">Iste sunt sermones que continentur in presenti libro qui
+                            intitulatur et attribuitur <name type="person">Innocencio pape tercio</name></incipit>
+                        <ab>Text</ab>
+                        <incipit locus="2r" locusNew="1r">Ecce ego mitto angelum meum, etc. Rex regum et dominus
+                            dominancium pro salute populi sui</incipit>
+                        <ab>The last are de <name type="person">S. Johanne ewangelista</name> and <q>de tribus regibus
+                                (apertis thezauris suis)</q></ab>
+                        <ab>Ending</ab>
+                        <explicit locus="193r">tanquam inutilia a uita compellit</explicit>
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+                    <msItem n="2" locusStart="194r" locusEnd="253v">
+                        <head type="CCC"><name type="author">Innocent III (Lotharius de Segnis) (attrib.)</name>,
+                                <title>Sermones</title></head>
+                        <head type="James">Sermones</head>
+                        <incipit locusNew="194r">Ecce veniet propheta magnus et ipse renouabit <name type="place"
+                                >iherusalem</name> propheta magnus intelligitur christus</incipit>
+                        <ab locusNew="194r">A note at the top to the effect that the leaves in this portion are
+                            misplaced</ab>
+                        <ab>The last is on</ab>
+                        <incipit locusNew="248r">Qui habet sponsam sponsus est</incipit>
+                        <ab locus="251v">Ending</ab>
+                        <rubric locus="251v">Expliciunt sermones <name type="author">domini Innocencii pape
+                                tercii</name></rubric>
+                        <rubric locus="251v">Dignare me laudare te virgo sacrata.<lb/> Da mihi virtutem contra hostes
+                            tuos, etc.</rubric>
+                        <ab>ff. <locus>252r</locus>-<locus>253v</locus> blank</ab>
+                    </msItem>
+
+                    <milestone n="III" unit="volume"/>
+                    <msItem n="3" locusStart="254r" locusEnd="294v">
+                        <head type="CCC"><name type="author">Innocent III (Lotharius de Segnis) (attrib.)</name>,
+                                <title>Sermones</title></head>
+                        <ab locus="254r">Sermons in several hands</ab>
+                        <incipit locusNew="254r">Cum venit plenitudo temporis, etc. In propositis verbis apostoli
+                            quatuor precipue considerare debemus</incipit>
+                        <ab locusNew="293r">The last is on Caro mea vere est cibus</ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, SP, CF</p>
+                            <p>msCheck: SP 9/2/09</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

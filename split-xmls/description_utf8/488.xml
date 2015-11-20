@@ -1,0 +1,116 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC488">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>488</idno>
+                    <altIdentifier type="Stanley">
+                        <idno/>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno/>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">John Joscelyn, Historiola Collegii Corporis Christi</head>
+                <head type="James">Joscelyn's Historiola</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">285</height>
+                        <width unit="mm">207</width>
+                    </measureGrp>, <measureGrp type="James">11.3 x 8.3</measureGrp>, <extent>pp. 99 numbered in red
+                        chalk</extent>, <layout>23 lines to a full page</layout>. Cent. <origDate>xvi
+                    (1569)</origDate>.</p>
+
+                <p function="Additions">At each end is a <material>vellum</material> leaf from an inventory roll of
+                    cent. <origDate>xv-xvi</origDate>, in English, containing these headings
+                            <supplied>(<locus>iv</locus> and <locus>99</locus>)</supplied>:<lb/> Hangings, Carpettes,
+                    Pillowes, Plegges (mostly plate), Counterpoyntes and other Stuff, In the Entre by the Chapell, In
+                    the Chapell.<lb/> The last includes <q>a Missale Imprinted,</q>
+                    <q>a Tablet of Alabaster w<abbr rend="superscript">t</abbr> a Crucifix.</q></p>
+
+                <p function="Additions"><decoNote>On the title-page is printed the woodcut of the College arms with the
+                        fields coloured</decoNote>, and the motto Signat auis Christum, etc., printed below. A frame has
+                    been drawn round it in pencil. The title is written above:<lb/> Historia de fundatione et statu
+                        <name type="place">Collegii corporis Christi et beatae Mariae virginis Cantabrigiae</name>: tam
+                    de primis fundatoribus eiusdem quam de aliis benefactoribus et ceteris euentibus ad hunc usque annum
+                    domini <date>1569</date>.</p>
+                <p type="CCC">
+                    <foliation>f. i + pp. 1-13 + 13a + 14a + 14-48 + 48a + 49a + 49-94 (95-96 missing) +
+                        97-100</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="eng">Latin and English.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="3" locusEnd="91">
+                        <head type="CCC"><name type="author">John Joscelyn</name>, <title>Historiola <name type="place"
+                                    >Collegii Corporis Christi</name></title></head>
+                        <ab locus="3">The text begins on p. <locus>3</locus> and <decoNote>has by way of initial a
+                                wood-cut engraving, hand-coloured, of Parker's arms and motto</decoNote></ab>
+                        <ab>It ends on p. <locus>91</locus></ab>
+                        <ab>The whole text was edited for the <ref type="bibl" target="Clark 1880">Cambridge Antiquarian
+                                Society in 1880 by J. W. Clark, M.A. (v. p. 52 for a notice of the MSS.)</ref></ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: KW</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

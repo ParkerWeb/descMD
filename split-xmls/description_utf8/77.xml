@@ -1,0 +1,137 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC077">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>77</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>B. 9</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>21</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Willelmus Durandus the Elder, Speculum iudiciale</head>
+                <head type="James">Duranti Speculum Judiciale</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">410</height>
+                        <width unit="mm">260</width>
+                    </measureGrp><measureGrp type="James">16.1 x 10.2</measureGrp>, <extent>ff. 340 + 1</extent>,
+                        <layout>double columns of 79 lines</layout>. Cent. <origDate>xiv</origDate>, <handNote>in good
+                        hand modelled on Italian</handNote>. <decoNote>Ornaments probably English</decoNote>. </p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>12</num>-16<num>12</num> 17<num>10</num> 18<num>8</num>
+                            19<num>12</num>-29<num>12</num> (wants 11, 12): old foliation slightly
+                    incorrect</collation>. </p>
+
+                <p function="Provenance">From <name type="place">St Albans</name>. At top of last leaf is
+                        (<origDate>xv</origDate>): <q>De studio dompni <name type="place">abbatis S. Albani</name></q>.
+                    At the bottom of f. <locus>1r</locus> is T <handNote>in a cursive hand</handNote>. </p>
+
+                <p function="Additions">Flyleaf, two leaves of a <origDate>xv</origDate>th cent. MS. of a Life of
+                    Christ, c. 19 on the Temptation, c. 30, <q>De conuersione <name type="person">Marie
+                        Magdalene</name></q>. </p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-iii + 1-38 (39 missing) + 40-64 + 64a + 65-191 + 191a + 192-230 + 230a + 231-338 +
+                        iv-v</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="338v">
+                        <head type="CCC"><name type="author">Willelmus Durandus the Elder</name>, <title>Speculum
+                                iudiciale</title></head>
+                        <head type="James">
+                            <name type="author">Duranti</name>
+                            <title>Speculum Judiciale</title>
+                        </head>
+
+                        <ab>Prologue</ab>
+                        <rubric locusNew="1r">Reuerendo in Christo patri suo domino <name type="person">Octobono</name>
+                            ... <name type="author">Guillelmo Duranti</name></rubric>
+                        <incipit locusNew="1r">De throno dei procedunt fulgura et uoces</incipit>
+                        <explicit locusNew="2r">postulans et deuote</explicit>
+                        <ab>
+                            <decoNote>There is a good border and initial to f. <locus>1r</locus>; daisy-buds are
+                                prominent</decoNote>
+                        </ab>
+                        <ab locus="2r">Capitula</ab>
+                        <ab>Text</ab>
+                        <incipit locusNew="2r">Quoniam parum esset nosse iura</incipit>
+                        <ab locus="91r">Pars II begins f. <locus>91r</locus> and has a <decoNote>nice
+                            initial</decoNote></ab>
+                        <ab locus="222r">Pars or Liber III, also <decoNote>with good initial</decoNote></ab>
+                        <ab>Ends</ab>
+                        <explicit locus="338v">sed solum brauium sempiternum ad quod nos perducat qui sine fine uiuit et
+                            regnat. Amen</explicit>
+                        <rubric locusNew="338v">Explicit speculum iudiciale magistri <name type="author">Guillelmi
+                                Duranti</name></rubric>
+
+                    </msItem>
+
+                </msContents>
+
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF CF 2nd</p>
+                            <p>msCheck: NJC 11.07.07</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

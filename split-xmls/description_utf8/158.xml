@@ -1,0 +1,182 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC158">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>158</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>O. 28</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>231</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Cicero (M. Tullius Cicero), De inuentione. pseudo-Cicero, De ratione dicendi ad
+                    Herennium (Rhetorica ad Herennium)</head>
+
+                <head type="James">M. T. Ciceronis Rhetorica</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">290</height>
+                        <width unit="mm">200</width>
+                    </measureGrp>
+                    <measureGrp type="James">11.3 x 7.7</measureGrp>, <extent>ff. 136 + 3</extent>, <layout>double
+                        columns of 27 lines</layout>. Cent. <origDate>xv</origDate>, <handNote>in a beautiful Roman hand
+                        rather sloped, but not by and Italian scribe</handNote>. <decoNote>Very fine
+                    intials</decoNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num> A<num>8</num>-R<num>8</num> b<num>1</num></collation>.</p>
+
+                <p function="Provenance">At top of f. <locus>1r</locus> (<date>xvi</date>):<lb/>
+                    <q>Liber quondam <name type="person">Theodori Archiepi Cantuariensis</name></q><lb/> Doubtless the
+                    book was found by <name type="person">Parker</name> at <name type="place">Canterbury</name> and he
+                    was deceived by the Roman script into thinking it an early work.</p>
+
+
+                <p function="Decoration"><decoNote>The decorative initials are very beautiful. The letter is in gold:
+                        coloured foliage (pale brown) surrounds it on a ground, parti-coloured, of blue and red dotted
+                        with white: these grounds have sharply cusped edges. There are finely painted grotesque figures
+                        in grisaille and dragons (compare this with <ref type="ms" target="CCC285">MS
+                        285</ref>)</decoNote>.<lb/>
+                    <decoNote>Sub-sections have plain gold initials</decoNote>.</p>
+
+                <p function="Research"><name type="person">Mr E. H. Minns</name> of <name type="place">Pembroke
+                        College</name> has called attention to the probable identity of the scribe of this MS. with the
+                    scribe of the <ref type="ms" target="CPC235">Pembroke College MS. no. 235</ref>, who gives his name
+                    as <name type="person">John Pacy, Chaplain</name>, with the date <date>1464</date>. There is no
+                    decorative work in the Pembroke MS.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + a-b + 1-136 + c + iii-iv</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="72v">
+
+                        <head type="CCC">
+                            <name type="author">Cicero (M. Tullius Cicero)</name>, <title>De inuentione</title>
+                        </head>
+
+
+                        <ab locusNew="1r">In red capitals</ab>
+                        <rubric locus="1r"><name type="author">Marci Tullii Ciceronis</name> Rethoricorum liber primus
+                            Incipit</rubric>
+                        <incipit locusNew="1r">Sepe multum hoc mecum cogitaui</incipit>
+                        <explicit locusNew="3r">considerare poterit</explicit>
+                        <rubric locusNew="3r">Finit prologus</rubric>
+                        <rubric locus="3r">Incipit de genere artis Rethorice Liber Primus</rubric>
+                        <incipit locusNew="3r">Civilis quedam racio est</incipit>
+                        <ab locus="35r">Liber II</ab>
+                        <ab locusNew="35r">
+                            <decoNote>Initial. Man shooting at butterfly</decoNote>
+                        </ab>
+                        <ab>Ends</ab>
+                        <explicit locus="72r">que restant reliquis dicemus</explicit>
+                        <ab>f. <locus>72v</locus> blank</ab>
+
+                    </msItem>
+
+
+
+                    <msItem n="2" locusStart="73r" locusEnd="136v">
+
+                        <head type="CCC">
+                            <name type="author">pseudo-Cicero</name>, <title>De ratione dicendi ad Herennium (Rhetorica
+                                ad Herennium)</title></head>
+
+                        <rubric locus="73r"><name type="author">Marci Tullii Ciceronis</name> in nova Rethorica Liber
+                            Primus Incipit</rubric>
+                        <incipit locusNew="73r">At si in negociis familiaribus</incipit>
+                        <ab>Liber II</ab>
+                        <incipit locus="80v">In primo libro <name type="person">herenni</name></incipit>
+                        <ab>Liber III</ab>
+                        <incipit locus="95v">Ad omnem iudicialem causam</incipit>
+                        <ab>Liber IV</ab>
+                        <incipit locus="106v">Quoniam in hoc libro <name type="person">herenni</name></incipit>
+                        <explicit locusNew="124v">ad sentenciarum exornacionem transeamus</explicit>
+                        <ab>Liber V</ab>
+                        <ab>
+                            <supplied>This manuscript preserves as Liber V the section of Liber IV concerning <q>Figures
+                                    of Thought</q> (Liber IV: 47-69)</supplied>
+                        </ab>
+                        <incipit locus="124v">Distribucio est cum in plures res</incipit>
+                        <ab>(<supplied>Liber</supplied> IV 47)</ab>
+                        <ab>On f. <locus>135r</locus> the lower part of col. 2 and all col. 1 on f. <locus>135v</locus>
+                            are erased from</ab>
+                        <ab locusNew="135r">contorquet brachium et dubitanti gracho (<supplied>Liber</supplied> IV
+                            68)</ab>
+                        <ab>to</ab>
+                        <ab locusNew="135v">erceantur non habent, aut si diffisus sit (<supplied>Liber</supplied> IV
+                            69)</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="136r">diligencia consequemur exercitacionis</explicit>
+                        <ab>On f. <locus>136v</locus> is scribbled hart hary (?)</ab>
+
+                    </msItem>
+
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, BA, CF</p>
+                            <p>msCheck: NJC 27/11/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

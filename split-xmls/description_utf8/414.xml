@@ -1,0 +1,418 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC414">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>414</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>P. 10</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>237</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Gervase of Tilbury, Otia imperialia. Julius Valerius, transl., Historia Alexandri
+                    magni. pseudo-Turpinus, Historia Caroli magni et Rolandi. 'Dares Phrygius', De excidio Troiae
+                    historia. Walter Map, Epistola Valerii ad Rufinum, Tractatus de ortu deorum, Historia de adventu
+                    Enee in Italiam, De primis habitatoribus Anglia. Geoffrey of Monmouth, Historia regum
+                    Britanniae</head>
+                <head type="James">Gervasius Tilberiensis. Gesta Alexandri, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">206</height>
+                        <width unit="mm">149</width>
+                    </measureGrp>, <measureGrp type="James">8.1 x 6</measureGrp>, <extent>ff. 3 + 282</extent>,
+                        <layout>mostly 37-38 lines to a page</layout>. Cent. <origDate>xiv</origDate>, <handNote>in
+                        several hands, rather rough</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>3 flyleaves, 1<num>10</num>-4<num>10</num> (wants 1) 5<num>10</num> 6<num>12</num>
+                            7<num>10</num> 8<num>10</num> 9<num>12</num> (wants 10-12) 10<num>12</num> 11<num>12</num>
+                            12<num>6</num> 13<num>4</num> (wants 4) 14<num>12</num> 15<num>8</num> 16<num>2</num>
+                            17<num>10</num> 18<num>4</num> 19<num>10</num> (+2 after 1) 20<num>8</num> 21<num>8</num>
+                            22<num>12</num>-29<num>12</num>. Parker's pagination omits one leaf</collation>.</p>
+                <p><label>2 fo.:</label>
+                    <secFol>vincit edocuit</secFol>.</p>
+                <p function="Provenance">The heading of no. 6 points to a Franciscan house, and the general aspect of
+                    the book suggests <name type="place" key="EastAngl-001">East Anglia</name>.</p>
+
+                <p function="Additions">On ff. <locus>iv</locus>-<locus>iir</locus> are <name type="author"
+                        key="MatthewP-001">Parkerian</name> notes and on f. <locus>iiiv</locus> a <name type="author"
+                        key="MatthewP-001">Parkerian</name> transcript of the beginning of the text for the use of those
+                    who are unaccustomed to the contractions.</p>
+
+                <p function="Additions">At top of <locus>1r</locus> (p. <locus>3</locus>) a small erasure and the title
+                    Ocia inperialia.</p>
+                <p type="CCC">
+                    <foliation> ff. a-b + i-ii + pp. 1-394 + 394a + 395a + 395-562 + ff. c-d</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="3" locusEnd="248">
+                        <head type="CCC">
+                            <name type="author" key="Gervaseo-001">Gervase of Tilbury</name>, <title>Otia
+                                imperialia</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author" key="Gervaseo-001">Gervasii Tilberiensis</name> otia imperialia
+                                ad <name type="person" key="OttoIVHo-001">Ottonem IV</name></title>
+                        </head>
+
+                        <ab>
+                            <quote>Tria diversa opera quae <name type="author" key="Gervaseo-001">Gervasio</name> vulgo
+                                attribuuntur, nempe<lb/> Commentarius de regnis imperatorum Romanorum<lb/> Mundi
+                                descriptio, et<lb/> Tractatus de mirabilibus mundi<lb/> omnia in his otiis imperialibus
+                                continentur</quote>
+                        </ab>
+                        <ab locus="3">
+                            <name type="author" key="Gervaseo-001">Gervasii Tilberiensis</name>
+                            <title>Otia imperialia</title>
+                        </ab>
+                        <rubric locusNew="3">Serenissimo domino suo <name type="person" key="OttoIVHo-001">Ottoni
+                                quarto</name>, etc. (added)</rubric>
+                        <incipit locusNew="3"><name type="person" key="OttoIVHo-001">Ottoni quarto romano
+                                imperatori</name> semper augusto <name type="author" key="Gervaseo-001">Geruasius
+                                tilberiensis</name> vester dignacione marescallus, etc.</incipit>
+                        <rubric locusNew="3">Collaccio regni et sacerdocii</rubric>
+                        <incipit locusNew="3">Duo sunt imperator Auguste quibus hic mundus regitur</incipit>
+
+                        <explicit locusNew="7">conregnetis in eternum cum Christo</explicit>
+                        <rubric locus="7">Explicit prefatio Secuntur tituli capitulorum operis sequentis</rubric>
+                        <rubric locus="8">Prima libri decisio</rubric>
+                        <incipit locusNew="8">Cum uniuscuiusque rei principium</incipit>
+                        <ab>The end of <hi rend="italic">Decisio</hi> I and beginning of II (from capitulum 24 de
+                            diluuio et archa: <ref type="bibl" target="Leibnitz 1707">Leibnitz</ref>, p. 906) are
+                            wanting. A marginal note on p. <locus>51</locus> says, Hic deficiunt x folia de alio libro.
+                            require (?) supra in principio sed et ait augustinus</ab>
+                        <ab><hi rend="italic">Decisio</hi> II begins in the section de ortu <name type="place"
+                                >tigris</name> et <name type="place">gangis</name> (<ref type="bibl"
+                                target="Leibnitz 1707">Leibnitz</ref>, p. 911 ?)</ab>
+                        <ab>At p. <locus>79</locus> a page and a half are left blank: a quire was wanting, but was
+                            evidently supplied. The text on p. <locus>81</locus> continues without break</ab>
+
+                        <rubric locus="172">Incipit tercia decisio continens mirabilia uniuscuiusque prouincie</rubric>
+                        <incipit locusNew="172">Ut operi cepto debitam consummacionis</incipit>
+                        <ab locus="178">
+                            <handNote>The hand changes</handNote>
+                        </ab>
+                        <ab>There is a gap after p. <locus>182</locus>, after the heading</ab>
+                        <rubric locus="182">De visione portarum inferni</rubric>
+                        <ab>p. <locus>183</locus> deals with 'celatura lapidum'</ab>
+                        <ab>Ends with the letter to <name type="person">John</name> on p. <locus>242</locus></ab>
+                        <explicit locusNew="242">continuans aput deuotum dominum Imperatorem</explicit>
+                        <ab><handNote>In a smaller hand</handNote>, paragraphs mostly from the Letter and Gesta of
+                            Alexander, the Gesta Karoli, and Justin</ab>
+                        <rubric locus="242">De calice aque et arundinibus</rubric>
+                        <incipit locusNew="242">In libro de situ indie et generibus hominum et ferarum ita
+                            legitur</incipit>
+
+                        <ab>De ypotamis. De Scorpionibus. De miranda belua maris indici ... De <name type="place">valle
+                                iordia</name> ... grippis, arundinibus, etc., seribus, signis in morte <name
+                                type="person">Alexandri</name>, signis in morte <name type="person">Karoli</name>, 7
+                            dormientibus in germania, scripto hominis et umbra hominis, Cariboli, etc., statu iudeorum
+                            et balsamo, Parthis et eorum ortu</ab>
+                        <ab>Ending imperfectly, p. <locus>248</locus></ab>
+                        <explicit locus="248">persequi destructores omiserunt. Eo tempore eciam <name type="person"
+                                >theodotus</name></explicit>
+
+                        <ab>The only printed text of the whole work is that in <ref type="bibl" target="Leibnitz 1707"
+                                >Leibnitz</ref>, Scriptores Rerum Brunsvicensium I 881-1005, taken from a <ref type="ms"
+                                target="WOL481">MS. at Wolfenb&#252;ttel</ref> formerly at <name type="place"
+                                key="StAugust-001">St Augustine's, Canterbury</name>, collated for <name type="person"
+                                key="Gottfrie-001">Leibnitz</name> with the Corpus Christi MS. by <name type="person"
+                                >Chr. Wasse</name> of <name type="place">Queens' College</name></ab>
+                    </msItem>
+
+
+
+                    <msItem n="2" locusStart="249" locusEnd="275">
+                        <head type="CCC">
+                            <name type="author" key="JuliusVa-001">Julius Valerius</name> transl., <title>Historia <name
+                                    type="person" key="Alexande-001">Alexandri magni</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Vita <name type="person" key="Alexande-001">Alexandri magni</name></title>
+                        </head>
+
+                        <ab>
+                            <handNote>In the first hand</handNote>
+                        </ab>
+                        <rubric locus="249">Incipiunt gesta <name type="person" key="Alexande-001">Alexandri
+                                Magni</name> et eius genere atque vita</rubric>
+                        <incipit locusNew="249">Egipti sapientes sati genere diuino</incipit>
+                        <explicit locusNew="275">extinctus occubuit</explicit>
+                        <rubric locusNew="275">Explicit vita <name type="person" key="Alexande-001"
+                            >Alexandri</name></rubric>
+                        <ab>Abridgment of <name type="author" key="JuliusVa-001">Julius Valerius</name>. Ed. <ref
+                                type="bibl" target="Zacher1867">Zacher</ref>. <ref type="bibl" target="Ward1883">Ward,
+                                    <hi rend="italic">Catalogue of Romances</hi> I</ref>, p. 186 <supplied>[actually pp.
+                                120-122]</supplied></ab>
+
+                    </msItem>
+
+
+                    <msItem n="3" locusStart="275" locusEnd="320">
+                        <head type="CCC">
+                            <name type="author" key="pseudo-T-001">pseudo-Turpinus</name>, <title>Historia <name
+                                    type="person" key="Charlema-001">Caroli magni</name> et <name type="person"
+                                    >Rolandi</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author" key="pseudo-T-001">Turpini</name> historia <name type="person"
+                                    key="Charlema-001">Caroli magni</name></title>
+                        </head>
+
+                        <rubric locus="275">Epistola <name type="author" key="pseudo-T-001">turpini</name> de gestis
+                                <name type="person" key="Charlema-001">Karoli</name></rubric>
+                        <incipit locusNew="275">
+                            <name type="author" key="pseudo-T-001">Turpinus dei gratia Archiepiscopus Remensis</name>
+                        </incipit>
+                        <explicit locusNew="275">deo placeas</explicit>
+                        <rubric locusNew="275">Explicit</rubric>
+                        <rubric locus="275">Incipit tituli capitulorum sequentis hystorie que est de bello
+                            Roscidiuallensi <name type="person" key="Charlema-001">karoli imperatoris
+                            magni</name></rubric>
+                        <ab>Capitula (34)</ab>
+                        <ab>Text</ab>
+                        <incipit locus="277">Gloriosissimus Christi apostolus <name type="person"
+                            >Iacobus</name></incipit>
+
+                        <explicit locusNew="316">beatus <name type="person">Matheus</name> apostolus et ewangelista sua
+                            predicacione conuertit ad dominum</explicit>
+                        <rubric locusNew="316">Explicit</rubric>
+                        <ab><ref type="bibl" target="Ward 1883">Ward, Catalogue I</ref> 546. Cf. <ref type="ms"
+                                target="CCC292">MS 292</ref>, <ref type="ms" target="CCC318">MS 318</ref></ab>
+                        <rubric locusNew="316">
+                            <lg>
+                                <l>Qui legis hoc carmen <name type="author" key="pseudo-T-001">turpino</name> posce
+                                    iuuamen</l>
+                                <l>Ut pietate dei subueniatur ei</l>
+                            </lg>
+                        </rubric>
+                        <rubric locusNew="316">Finitur hystoria Belli Roscidiuallis</rubric>
+                        <ab>pp. <locus>317</locus>-<locus>320</locus> blank</ab>
+
+                    </msItem>
+
+
+                    <msItem n="4" locusStart="321" locusEnd="343">
+                        <head type="CCC">'<name type="author" key="DaresPhr-001">Dares Phrygius</name>', <title>De
+                                excidio Troiae historia</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author" key="DaresPhr-001">Daretis Phrygii</name> de excidio Troja
+                                historia, <name type="person" key="Corneliu-001">Cornelio Nepote</name>
+                                interprete</title>
+                        </head>
+
+                        <ab locus="321">
+                            <name type="author" key="DaresPhr-001">Dares Phrygius</name>
+                        </ab>
+                        <incipit locusNew="321">
+                            <name type="person" key="Corneliu-001">Cornelius nepos</name>
+                            <name type="person" key="GaiusSal-001">salustio</name>
+                        </incipit>
+                        <explicit locusNew="321">ad pollicitum reuertamur</explicit>
+                        <incipit locusNew="321"><name type="person" key="Peleusxx-001">Peleus rex</name> in peloponense
+                            essonem fratrem habuit</incipit>
+                        <ab locus="341">Hand changes</ab>
+                        <ab>The last section on f. <locus>340</locus> begins</ab>
+                        <incipit locus="340"><name type="person" key="Penthesi-001">Pentesilea</name> ex
+                            consuetudine</incipit>
+                        <ab>The first on p. <locus>341</locus> begins</ab>
+                        <incipit locus="341">Hoc postquam multis verbis dixit</incipit>
+                        <explicit locusNew="343">huc usque historia <name type="author" key="DaresPhr-001"
+                                >daretis</name> scripta est</explicit>
+                        <incipit locusNew="343">Quis troianorum quem grecorum occiderit. <name type="person"
+                                key="Hectorxx-001">Hector</name>
+                            <name type="person" key="Protesil-001">prothesilaum</name></incipit>
+                        <explicit locusNew="343">palamonem. ephistrephum. ficidium</explicit>
+                        <ab>Added</ab>
+                        <ab locusNew="343">Tot numerus occisorum 1839000 .i. occidentium centum milia
+                                <supplied>triginta</supplied>
+                            <figure xml:id="figure302b"/> milia et nouem milia</ab>
+                        <ab><ref type="bibl" target="Ward 1883">Ward, Catalogue I</ref> p. 12</ab>
+
+                    </msItem>
+
+
+                    <msItem n="5" locusStart="343" locusEnd="366">
+                        <head type="CCC">
+                            <name type="author" key="WalterMa-001">Walter Map</name>, <title>Epistola Valerii ad Rufinum
+                                ne ducat uxorem (De nugis curialium, dist. 4, 3-5), with the Commentary of <name
+                                    type="author" key="JohnRide-001">John Ridewall OFM</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Valerius ad Rufinum de nuptiis non habendis cum expositione</title>
+                        </head>
+
+                        <ab locus="343">Valerius ad Rufinum (<name type="author" key="WalterMa-001">Mapes</name>, <hi
+                                rend="italic">De Nugis Curialum</hi> Distinctio IV)</ab>
+                        <incipit locusNew="343">Loqui prohibeor <supplied>et tacere non possum</supplied> - scripsisse
+                            videar. Vale. Amen</incipit>
+                        <rubric locusNew="349">Explicit epistola Valerii ad Ruffini de non ducenda uxore</rubric>
+                        <incipit locus="349">Incipit exposicio eius</incipit>
+                        <incipit locusNew="349">Loqui, etc. Hec epistola continet principaliter tria</incipit>
+                        <explicit locusNew="366">rugose frontis et tristis offenditque correptos</explicit>
+                        <rubric locusNew="366">Explicit</rubric>
+                        <ab>This is the comment of <name type="author" key="JohnRide-001">John Rideval or
+                            Ridewas</name>. <ref type="bibl" target="Tanner 1748">Tanner, <hi rend="italic">Bibliotheca
+                                    Britannico-Hibernica</hi></ref>, p. 630</ab>
+                    </msItem>
+
+
+                    <msItem n="6" locusStart="367" locusEnd="396">
+                        <head type="CCC">
+
+                            <title>Tractatus de ortu deorum</title>
+
+                        </head>
+                        <head type="Nasmith">
+                            <title>Tractatus de ortu deorum</title>
+                        </head>
+
+                        <ab>
+                            <handNote>The former hand</handNote>
+                        </ab>
+                        <rubric locus="367">Incipit tractatus de ortu deorum et integ(umen)tis breuibus et
+                            utilibus</rubric>
+                        <rubric locusNew="367"><name type="person">Maria</name>. Jhesus. <name type="person"
+                                >Jhoannes</name>. <name type="person">Andreas</name>. <name type="person"
+                                >franciscus</name></rubric>
+                        <incipit locusNew="367">Dii quos pagani finxerunt et adhuc colendo uenerantur homines olim
+                            fuisse</incipit>
+                        <explicit locusNew="396">quod equum constat esse velocissimum</explicit>
+                        <rubric locusNew="396">Explicit tractatus de ortu deorum et integumentis breuibus et
+                            utilibus</rubric>
+                        <ab>By <name type="author" key="Johannes-001">Johannes Anglicus</name>? a copy of his <hi
+                                rend="italic">Integumenta on the Metamorphoses of Ovid</hi> is in <ref type="ms"
+                                target="OBL705">Bodl. MS. Digby 104</ref>, f. 161</ab>
+
+                    </msItem>
+
+
+                    <msItem n="7" locusStart="397" locusEnd="419">
+                        <head type="CCC">
+
+                            <title>Historia de adventu <name type="person">Enee</name> in <name type="place"
+                                    >Italiam</name></title>
+
+                        </head>
+                        <head type="Nasmith">
+                            <title>Historia adventus <name type="person">Eneae</name> in <name type="place"
+                                    >Italiam</name></title>
+                        </head>
+
+                        <rubric locus="397">Incipit hystoria de itinere de aduentu <name type="person">Enee</name> in
+                                <name type="place">ytaliam</name></rubric>
+                        <incipit locusNew="397">Superius autem excidio troie secundum <name type="person"
+                                key="DaresPhr-001">Daretem</name> explicito. Iter <name type="person">enee</name> in
+                                <name type="place">ytaliam</name> casusque suos quidam <name type="person">Paulus</name>
+                            ita prosequitur. <name type="person">Eneas</name> igitur cum <name type="person"
+                                >anchise</name> patre et <name type="person">ascanio</name> filio</incipit>
+
+                        <explicit locusNew="419">et cepit albanum ciuitas <name type="place">Rome</name> subiecta esse,
+                            etc.</explicit>
+
+                    </msItem>
+
+
+                    <msItem n="8" locusStart="419" locusEnd="421">
+                        <head type="CCC">
+
+                            <title>De primis habitatoribus Anglia</title>
+
+                        </head>
+                        <head type="Nasmith">
+                            <title>De primis habitatoribus Angliae</title>
+                        </head>
+
+                        <incipit locus="419"><name type="place">Anglia</name> modo dicta olim <name type="place"
+                                >Albion</name> dicebatur et habebat inhabitatores gigantes</incipit>
+                        <explicit locusNew="421">Et sic veritas clarescit historie de primis habitatoribus huius terre,
+                            etc.</explicit>
+
+                    </msItem>
+
+
+                    <msItem n="9" locusStart="421" locusEnd="562">
+                        <head type="CCC">
+                            <name type="author" key="Geoffrey-001">Geoffrey of Monmouth</name>, <title>Historia regum
+                                Britanniae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author" key="Geoffrey-001">Galfredi Monumetensis</name> historia
+                                Britanniae</title>
+                        </head>
+
+                        <rubric locus="421">(<name type="author" key="Geoffrey-001">Galfridus
+                            Monumetensis</name>)</rubric>
+                        <incipit locusNew="421">Dum mecum multa</incipit>
+                        <explicit locusNew="422">gratulatur affectu</explicit>
+                        <incipit locusNew="422">Britannia insularum optima</incipit>
+                        <ab>The prophecies of <name type="person" key="Merlinxx-001">Merlin</name> occur as usual</ab>
+                        <ab>Ends</ab>
+                        <explicit locusNew="562">transferre curaui</explicit>
+                        <ab>Apparently not mentioned by <name type="person" key="ThomasDu-001">Hardy</name></ab>
+
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 19/03/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

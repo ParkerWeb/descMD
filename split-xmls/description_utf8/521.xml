@@ -1,0 +1,239 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC521">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>521</idno>
+                    <altIdentifier type="Elbing">
+                        <idno>N. 23</idno>
+                    </altIdentifier>
+
+                </msIdentifier>
+                <head type="CCC">Johannes Tortsch of Leipzig, Onus mundi. Glossed Hymnal</head>
+                <head type="James">[Untitled]</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">290</height>
+                        <width unit="mm">199</width>
+                    </measureGrp>, <measureGrp type="James">11.4 x 8.2</measureGrp>, <extent>ff. 176</extent>,
+                        <layout>double columns of 40 and 46 lines, two volumes</layout> of cent. <origDate>1424 and
+                        1388</origDate>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>12</num> (+1) 2<num>12</num>-6<num>12</num> (4-12 torn out): more leaves torn out:
+                        7 (two) | 8<num>12</num> 9<num>12</num> 10<num>10</num> 11<num>12</num> 12<num>10</num>
+                            13<num>10</num> 14<num>12</num>-16<num>12</num> 17<num>10</num>
+                    18<num>10</num></collation>.</p>
+
+                <p function="Provenance"><name type="person">Mary Pernham</name> on f. <locus>1v</locus>.</p>
+                <p function="Binding">Stamped leather binding, bosses, one metal tag and one loop, label
+                    &#183;112&#183;</p>
+                <p function="Additions">List of contents in the cover <supplied>(f. <locus>iiv</locus>)</supplied>.</p>
+                <p type="CCC">
+                    <foliation>ff. i-iii + 1-12 (13 missing) + 14-93 + a (loose leaf) + 94-176 + iv</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="ger">Latin and German.</textLang>
+
+                    <label>Contents</label>
+
+
+                    <milestone n="I" unit="volume"/>
+                    <msItem n="1" locusStart="1r" locusEnd="43r">
+                        <head type="CCC"><name type="author">Johannes Tortsch of Leipzig</name>, <title>Onus mundi
+                                (compilation from Reuelationes of <name type="person">Birgitta of Sweden</name>)</title>
+                        </head>
+                        <head type="James">
+                            <title>Liber qui intitulatur onus mundi .i. prophetia de malo pene superuenturo ipsi
+                                mundo</title>
+                        </head>
+                        <rubric locusNew="1r">Prologus <supplied>Onus mundi</supplied></rubric>
+                        <incipit locusNew="1r">Sapiencia que domini que aperuit os muti et asine rudibili animali humana
+                            verba formare tribuit</incipit>
+                        <explicit locusNew="2r">in angustia sua mirifice confortanciam</explicit>
+                        <ab locusNew="2r">Cap. I</ab>
+                        <incipit locus="2r">Cristus filius loquitur ad sponsam suam nouam <name type="author">sanctam
+                                brigittam</name></incipit>
+                        <ab>In three books: at end of liber I</ab>
+                        <rubric locusNew="20v">Explicit prima pars huius libelli que est de tribulacione futura anno
+                            domini <date>m<abbr rend="superscript">o</abbr> quadringetesimo xxiiij</date>. In die <name
+                                type="person">sancte braxedis</name></rubric>
+                        <ab>Liber III ends</ab>
+                        <explicit locusNew="43v">et in futuro seculo maior fiat. Amen. Amen</explicit>
+                    </msItem>
+
+                    <msItem n="2" locusStart="43v" locusEnd="48r">
+                        <head type="CCC">
+                            <name type="author">Richard of Saint-Victor OSA</name>, <title>De meditandis plagis quae
+                                circa finem mundi euenient</title>
+                        </head>
+                        <rubric locus="43v">
+                            <name type="author">Richardus de Sancto Victore</name>
+                        </rubric>
+                        <rubric locus="43v">De nouissimis temporibus</rubric>
+                        <ab>(<ref type="bibl" target="Migne 196"><supplied>P. L.</supplied> CXCVI 201</ref>)</ab>
+                        <incipit locusNew="43v">Memento creatoris tui ... quantum ad litere superficiem</incipit>
+                        <explicit locusNew="48r">peruersitate compescere</explicit>
+                        <rubric locusNew="48r">Explicit liber de memoria creatoris <name type="author">Magistri Richardi
+                                de Sancto Victore</name> Anno domini <date>m<abbr rend="superscript">o</abbr> cccc<abbr
+                                    rend="superscript">o</abbr> xxiiij</date> fferia 2<abbr rend="superscript">a</abbr>
+                            ante festum natiuitatem Marie</rubric>
+                    </msItem>
+
+                    <msItem n="3" locusStart="48r" locusEnd="48v">
+                        <head type="CCC">
+                            <title>Vitae Patrum (extracts)</title>
+                        </head>
+                        <head type="James">
+                            <title>Extract from Vitae Patrum (?)</title>
+                        </head>
+                        <rubric locus="48r">Sanctus quirio de nouissimis temporibus</rubric>
+
+                        <incipit locusNew="48r">Sancti fratres in egipto congregati prophetauerunt</incipit>
+                        <explicit locusNew="48v">feliciores atque probabiliores. hec ubi supra</explicit>
+                        <ab locus="48v">Reference to passages in NewTestament on the last times</ab>
+                    </msItem>
+
+                    <msItem n="4" locusStart="48v" locusEnd="51r">
+                        <head type="CCC"><name type="author">pseudo-Methodius</name>, <title>Revelations (abridged
+                                version)</title></head>
+                        <head type="James">
+                            <name type="author">PS.-Methodius</name>
+                        </head>
+                        <rubric locus="48v">Sequuntur aliqua de reuelacionibus <name type="author">Sancti
+                                Methodii</name>, etc.</rubric>
+                        <incipit locusNew="48v">Sciendum vobis est fratribus karissimi quoniam in principio deus creauit
+                            celum</incipit>
+                        <explicit locusNew="51r">cum igne et zulphure sub uno (mo)mento</explicit>
+                        <rubric locusNew="51r">Explicit <name type="author">Sanctus Methodius</name> martyr Anno domini
+                                    <date>m<abbr rend="superscript">o</abbr> cccc xxv<abbr rend="superscript"
+                                >o</abbr></date> in die <name type="person">Sancte Agathe</name> virginis et
+                            martyris</rubric>
+                    </msItem>
+
+                    <msItem n="5.1" locusStart="51r" locusEnd="52v">
+                        <head type="CCC">
+                            <title>Synodal statutes of <name type="person">Bishop of Varmia</name>
+                                (&#214;stpreussen)</title>
+                        </head>
+                        <rubric locus="51r">Secuntur instituta synodalia Warmiensis episcopi</rubric>
+                        <incipit locusNew="51r"><name type="person">Hynricus dei et apostolice sedis gratia Episcopus
+                                Warmiensis</name> ... Cum de statu clericorum et ecclesiarum regimine</incipit>
+                        <explicit locusNew="52v">prout iustum fuerit procedemus</explicit>
+                        <rubric locusNew="52v">Expliunt hec. anno quo supra in die <name type="person">sancte
+                                dorothee</name> virginis et martiris</rubric>
+                        <ab>Leaves torn out, some of which had genealogical tables</ab>
+                    </msItem>
+
+                    <msItem n="5.2" locusStart="53r" locusEnd="54v">
+                        <head type="CCC">
+                            <title>List of popes and historical events</title>
+                        </head>
+                        <ab locus="53r">A list of Popes, <name type="person">Boniface VIII</name> to <name type="person"
+                                >Martin II</name>, and Emperors, <name type="person">Albert</name> to <name
+                                type="person">Sigismund</name>, with notes of historical events arranged in medallions.
+                            Several refer to <name type="person">St Brigitta</name></ab>
+                        <ab>ff. <locus>53v</locus>-<locus>54v</locus> blank</ab>
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+                    <msItem n="6" locusStart="55r" locusEnd="175r">
+                        <head type="CCC">
+                            <title>Glossed Hymnal</title>
+                        </head>
+                        <rubric locus="55r">Glossa super Hymnos</rubric>
+                        <incipit locusNew="55r">In lumine tuo uidebimus lumen .N. hanc proposicionem scribit
+                            propheta</incipit>
+                        <ab>A list of the hymns glossed is in the cover <supplied>(f.
+                            <locus>iiv</locus>)</supplied></ab>
+                        <ab>Conditor alme syderum <supplied>(f. <locus>55v</locus>)</supplied> to Rerum deus tenax vigor
+                                <supplied>(f. <locus>174v</locus>)</supplied></ab>
+                        <ab>Ends</ab>
+                        <explicit locusNew="175r">assit nobis cum eterna vita quam concedat nobis deus qui uiuit et
+                            regnat in secula seculorum. Amen. Et in hoc terminatur liber iste</explicit>
+                        <rubric locusNew="175r">Explicit iste liber sit scriptor crimine liber. Amen.<lb/> Qui dare vult
+                            aliis non debet dicere vultis (?)<lb/> W' vns nyet d' sy (?) uirheyt.<lb/> Finito libro sit
+                            laus.<lb/> Anno domini <date>m<abbr rend="superscript">o</abbr> ccc<abbr rend="superscript"
+                                    >o</abbr> lxxxviii<abbr rend="superscript">o</abbr></date></rubric>
+                    </msItem>
+
+                    <msItem n="7" locusStart="175v" locusEnd="175v">
+                        <head type="CCC">
+                            <title>De signis pestilencie</title>
+                        </head>
+                        <rubric locus="175v">De signis pestilencie</rubric>
+                        <incipit locusNew="175v">Hic videndum est de signis pestilencie. pro quo sciendum quod de numero
+                            signorum pestilenciam signancia</incipit>
+                        <ab>There are 10 signs:<lb/> Conjugation of bad planets.<lb/> Comets, etc.<lb/> Long westerly or
+                            southerly winds, cloudy weather especially from middle of May to July.<lb/> Cloudy and wet
+                            summer.<lb/> Variation of temperature.<lb/> Hot days and cold nights.<lb/> Numbers of frogs,
+                            toads, mice, fleas.<lb/> Animals come up from their holes in the ground.<lb/> Birds leave
+                            their nests.<lb/> Weather is unseasonable</ab>
+                        <ab>Ends</ab>
+                        <explicit locusNew="175v">Aliter pronosticans faciliter posset (or -es) errare</explicit>
+                        <ab locusNew="176r">In the 2nd cover: a hymn to <name type="person">St Katherine</name>
+                            <decoNote>with a few musical notes</decoNote></ab>
+                        <incipit locusNew="176r">Aue <name type="person">katherina</name> martir et regina</incipit>
+                        <explicit locusNew="176r">ut intremus tecum choris angelorum. Amen</explicit>
+
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJM 4/2/2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

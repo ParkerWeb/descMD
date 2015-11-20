@@ -1,0 +1,500 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC041">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>41</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>S. 2</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>278</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Old English Bede</head>
+                <head type="James">Bedae Historia Saxonice</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">340</height>
+                        <width unit="mm">205</width>
+                    </measureGrp>, <measureGrp type="James">13.7 x 8.5</measureGrp>, <extent>ff. 244 + 2</extent>,
+                        <layout>25 lines to a page (27 in quires K-N)</layout>. Cent. <origDate>xi</origDate>,
+                        <handNote>in two principal hands of which one is remarkably large. Both are clear and
+                        black</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 modern flyleaf, 1<num>8</num> 2<num>6</num> 3<num>8</num>-12<num>8</num>
+                            13<num>10</num> (4 canc.) 14<num>8</num>-30<num>8</num> 31<num>6</num> (wants 6), 1 flyleaf
+                        modern</collation>. The first quire with an old mark is F (6); this marking goes to M or perhaps
+                    N (13): 14 is marked A; this marking runs to R(30): 31 has no mark.</p>
+
+                <p function="Provenance">The volume was one of those given by <name type="person">Leofric</name> to
+                        <name type="place">Exeter</name>. On <locus locusNew="488">244v</locus> is his inscription
+                        <handNote>in good round minuscules</handNote>, in Latin and Anglo-Saxon <supplied agent="RJR"
+                            >(<ref type="bibl" target="Cameron 1973">Cameron B16.10.5</ref>)</supplied>:<lb/>
+                    <q>Hunc librum dat <name type="person">leofricus</name> episcopus ecclesie sancti petri apostoli in
+                            <name type="place">exonia</name> ubi sedes episcopalis est ad utilitatem successorum suorum.
+                        Si quis illum abstulerit inde, subiaceat maledictioni. FIAT. FIAT. FIAT.<lb/> &#208;as boc
+                        gef <name type="person">Leofric</name>. b. into sce petres mynstre on exancestre &#254;aer
+                        se bisceopstol is for (his) sa&#447;le alisednysse 7 gif hig h&#447;a ut &#230;t
+                        brede god hine fordo on &#254;&#230;re e ...</q><lb/> It is not entered in the list of
+                        <name type="person">Leofric</name>'s gifts contained in the <ref type="ms" target="OBL719"
+                        >Bodleian MS. Auct. D. 2. 16</ref> and printed by <ref type="bibl" target="Dugdale et al 1846a"
+                        >Dugdale</ref>, <ref type="bibl" target="Wanley 1705">Wanley</ref>, <ref type="bibl"
+                        target="Warren 1883">Warren (<hi rend="italic">Leofric Missal</hi>) etc.</ref></p>
+
+                <p function="Research">This MS. was used by <ref type="bibl" target="Whelock 1643">Abraham Whelock for
+                        his edition of 1644</ref>. Various notes on flyleaves and margins are in his hand. The last
+                    editions are that by <ref type="bibl" target="Miller 1890">Dr T. Miller, 1891 etc. (E. E. T.
+                        S.)</ref> (who gives an account of it in his introduction (§I p. xvii and §II), and a full
+                    collation of its text), and that by <ref type="bibl" target="Schipper 1899">J. Schipper (<hi
+                            rend="italic">Bibliotek der Angelsächsischen Prosa</hi> IV 1899)</ref>.<lb/> The date
+                    assigned by <ref type="bibl" target="Schipper 1899">Schipper</ref> is the middle of <date>cent.
+                        xi</date>, and that assigned by <name type="person">Dr G. F. Warner</name> is
+                        <date>1030-1040</date>.</p>
+                <p function="Additions"><decoNote>The ornamentation of this book is interesting. It consists chiefly of
+                        decorative initials which are irregularly inserted. They are in outline: a faint wash of red has
+                        been applied in some cases. In many instances the pencil sketch (afterwards executed in ink) is
+                        visible</decoNote>.</p>
+                <p function="Research">It seems to me very likely that the volume was written in two main portions
+                    (quires 1-13 and 14-31) which were begun simultaneously. This view is suggested by the lettering of
+                    the quires, and I think the indications afforded by the initials and hands do not disagree with it.
+                        <ref type="bibl" target="Miller 1891a">Dr Miller</ref> distinguishes four sections and a
+                    plurality of scribes. <ref type="bibl" target="Schipper 1899">Schipper</ref> once held a similar
+                    view, but withdrew it in deference to the scribe's own assertion (in the verses on pp.
+                        <locus>483</locus>, <locus>484</locus>) that he wrote the book <q>with his two hands.</q></p>
+                <p function="Additions">The margins have been utilized for the transcription of a good many interesting
+                    texts. Some of these (especially the <hi rend="italic">Salomon and Saturn</hi>) are well known. I do
+                    not think that a complete list has been given, and I attempt one here. <ref type="bibl"
+                        target="Wanley 1705">Wanley (<hi rend="italic">Cat</hi>. p. 114)</ref> takes account of the
+                    Anglo-Saxon passages only.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i + pp. 1-490 + ff. c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="ang" otherLangs="lat">Old English and Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1" locusEnd="488">
+                        <head type="CCC">
+
+                            <title>Old English <name type="author">Bede</name> with marginal additions</title>
+
+                        </head>
+
+                        <head type="James">
+                            <title>The History of <name type="author">Bede</name> in the Anglo-Saxon version</title>
+                        </head>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron B9.6</ref>
+                            </supplied>
+                        </ab>
+                        <ab locus="1">Begins with Capitula</ab>
+                        <rubric locusNew="1">&#208;IS / IS / SEO / GESETTNES &#208;lSSE / BRYTENE O&#208;
+                            HIBERNIA / etc.</rubric>
+                        <ab>
+                            <decoNote>in capitals which gradually diminish in size</decoNote>
+                        </ab>
+                        <ab locus="1">
+                            <decoNote>There is a large initial: no more occur till p. <locus locusNew="61"
+                                >62</locus></decoNote>
+                        </ab>
+                        <ab locus="2"><supplied>Marginalia:</supplied>
+                            <q>bletsung to candelun. Domine Iesu Christe creator celi</q>, etc. Text in Latin, ending p.
+                                <locus>7</locus>, with Collect: <q>Deus omnipotens tua nos protectione custodi</q>, etc.
+                                <q>his peractis cantetur</q> Ant. <q>Haue gratia plena. Sancti Simeonis collecta. Erudi
+                                quesumus domine</q></ab>
+                        <ab>
+                            <supplied agent="RJR">Old English liturgical rubrics intermittent in Latin text: <ref
+                                    type="bibl" target="Cameron 1973">Cameron B12.5.2</ref></supplied>
+                        </ab>
+                        <ab locus="8"><supplied>Marginalia:</supplied> Masses for Sexagesima and Quinquagesima,
+                            continued on following pages (p. <locus>13</locus> Feria iii infra quinquag., p.
+                                <locus>14</locus> Sabbatum)</ab>
+                        <ab locus="16"><supplied>Marginalia:</supplied> Dom. in(i)tium xl (1st Sun. in Lent). Masses,
+                            continued up to Good Friday (p. <locus>36</locus> and
+                            <locus>38</locus>-<locus>39</locus>)</ab>
+                        <ab locus="18">Preface of <name type="author">Bede</name>. <decoNote>Initial and first words not
+                                inserted</decoNote></ab>
+                        <ab locus="22">Text begins. <decoNote>Initial and first words not inserted</decoNote></ab>
+                        <ab locus="45"><supplied>Marginalia:</supplied> Mass for <name type="person">St
+                            Benedict</name></ab>
+                        <ab locus="46"><supplied>Marginalia:</supplied> Office for Easter Eve</ab>
+                        <ab locus="60"><supplied>Marginalia:</supplied> SS. <name type="person">Philip</name> and <name
+                                type="person">James</name>. Invention of the Cross</ab>
+                        <ab locus="61"><supplied>Marginalia:</supplied>
+                            <locus>61</locus> sqq. Antiphons, etc. for Advent</ab>
+                        <ab locus="66">Liber II. <decoNote>Initial not inserted</decoNote></ab>
+                        <ab locus="74" locusNew="75"><supplied>Marginalia:</supplied> For the Christmas season</ab>
+                        <ab>There is no more marginal writing until p. <locus>122</locus></ab>
+                        <ab locus="122"><supplied>Marginalia:</supplied>
+                            <q>On &#254;one forman deeig on geare &#254;&#230;t is on &#254;one
+                                &#230;restan geohel d&#230;ig</q>. (Of Christmas Day and the marvels
+                            accompanying the Nativity)</ab>
+                        <ab locus="124">Liber III. <decoNote>Initial not inserted</decoNote></ab>
+                        <ab locus="124">
+                            <decoNote>A bit of ornament in the margin. Nothing more till p. <locus>161</locus> where is
+                                an initial in fine outline with a human figure hanging by the neck. The next is at p.
+                                    <locus>175</locus></decoNote>
+                        </ab>
+                        <ab locus="124">
+                            <supplied>Marginalia:</supplied>
+                            <q>On &#254;one ilcan d&#230;ig cristes acennednesse godes circean
+                                ar&#447;or&#240;ia&#240; sanctam anastasiam</q>
+                        </ab>
+                        <ab locus="125">
+                            <supplied>Marginalia:</supplied>
+                            <q>(O)n &#240;one forman d&#230;ig bi&#240; <name type="person">sancta
+                                    eufemian</name> tid</q>
+                        </ab>
+                        <ab locus="128"><supplied>Marginalia:</supplied> Similar notice of <name type="person">St
+                                Stephen</name></ab>
+                        <ab locus="130"><supplied>Marginalia:</supplied> (l. 4). <name type="person">St John
+                                Evangelist</name></ab>
+                        <ab locus="131"><supplied>Marginalia:</supplied> The Innocents</ab>
+                        <ab locus="132"><supplied>Marginalia:</supplied>
+                            <name type="person">St Silvester</name>. A blank follows</ab>
+                        <ab>For the above matter (from p. <locus>122</locus>) see <ref type="bibl"
+                                target="Herzfeld 1900"><hi rend="italic">Old English Martyrology</hi> (E. E. T. S.) ed.
+                                Herzfeld</ref></ab>
+                        <ab locus="134"><supplied>Marginalia:</supplied> pp. <locus>134</locus>-<locus>139</locus>.
+                            Latin text. Offices for Advent</ab>
+                        <ab locus="158"><supplied>Marginalia:</supplied> Mis(sa) quam sacerdos pro se debet</ab>
+                        <ab locus="182"><supplied>Marginalia:</supplied> Latin prayer: <q>Pietatem tuam quesumus domine
+                                nostrorum absolue uincula delictorum</q></ab>
+                        <ab locusNew="182"><supplied>Marginalia:</supplied> Anglo-Saxon follows: &#447;i&#240;
+                            ymbe nim eor&#254;an ofer &#447;eorp mid &#254;inre s&#447;i&#254;ran
+                            handa under &#254;inum s&#447;i&#254;ran fet 7 c&#447;et fo ic under fot
+                            funde ic hit h&#447;&#230;t eor&#240;e m&#230;g, etc. (<ref type="bibl"
+                                target="Cockayne 1864">Cockayne, <hi rend="italic">Saxon Leechdoms</hi>, Rolls Series I
+                                384</ref>)</ab>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron A43.8</ref>
+                            </supplied>
+                        </ab>
+                        <ab locus="192"><supplied>Marginalia:</supplied> pp. <locus>192</locus>-<locus>194</locus>.
+                            Offices for the Eve and Feast of All Saints</ab>
+                        <ab locus="196"><supplied>Marginalia:</supplied> pp. <locus>196</locus>-<locus>198</locus>.
+                            Fragment of <hi rend="italic">Salomon and Saturn</hi>, used by <ref type="bibl"
+                                target="Kemble 1845-48">Kemble</ref> and other editors. It supplements the only other
+                            known MS. (<ref type="ms" target="CCC422">MS 422</ref> in this collection)</ab>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron A13</ref>
+                            </supplied>
+                        </ab>
+                        <incipit locusNew="196">Saturnus c&#447;&#230;&#240; h&#447;&#230;t ic
+                            iglanda</incipit>
+                        <explicit locusNew="198">ofer m&#230;gene 7 hine eac ofsleh&#240;. T. (<ref type="bibl"
+                                target="Kemble 1845-48">l. 189 Kemble</ref>)</explicit>
+                        <ab locus="206">
+                            <decoNote>initial in pencil</decoNote>
+                        </ab>
+                        <ab>
+                            <decoNote>On p. <locus>207</locus> sqq., initials in plain black</decoNote>
+                        </ab>
+                        <ab locus="206"><supplied>Marginalia:</supplied> pp. <locus>206</locus>, <locus>207</locus>,
+                                <locus>208</locus>. Charms partly printed by <ref type="bibl" target="Cockayne 1864"
+                                >Cockayne, <hi rend="italic">Leechdoms</hi> I 394, 398</ref></ab>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron A43.9, A43.10, B23.1.1</ref>
+                            </supplied>
+                        </ab>
+                        <ab locusNew="206">
+                            <supplied>Marginalia:</supplied>
+                            <q>Ne forstolen ne forholen etc.<lb/> Gif feoh sy undernumen etc.<lb/> ... <name
+                                    type="person">Petur</name>
+                                <name type="person">pol</name>
+                                <name type="person">patric</name>
+                                <name type="person">pilip</name>
+                                <name type="person">marie</name>
+                                <name type="person">brigit</name>
+                                <name type="person">felic</name> in nomine dei 7 <name type="person">chiric</name>
+                                <hi rend="footnote"><name type="person">Cyriacus</name> is coupled with <name
+                                        type="person">Patrick</name> in the hymn <hi rend="italic">Rogo patrem</hi> in
+                                        <ref type="ms" target="LBLH53">Harl. 7653</ref> and the <ref type="ms"
+                                        target="DRA230">Leabhar Brecc</ref></hi> qui queri(t) inuenit</q>
+                        </ab>
+                        <ab>What follows has not been printed</ab>
+                        <ab locus="207">
+                            <supplied>Marginalia:</supplied>
+                            <q>Christus illum siue (= sibi) elegit in terris ficarium qui de gemino captiuos liberet
+                                seruitio plerosque / de seruitute quos redemet hominum innumeros de sabuli obsoluit
+                                dominio ymnos / cum apocalipsi salmosque cantat dei cousque et edificandum dei tractat
+                                pupulum quem legem / in trinitate sacre credent nominis tribusque personis unam
+                                &#183; Sona domine (zona domini) precintus diebus ac noc / tibus (sine)
+                                intermissione deum oret dominum cuius ingentes laboris pcepturis pcepturis (sic) premium
+                                / cum apostoli(s) regnauit scs super israel. Audite omnes amantes deum sancta merita
+                                uiri in Christo / beati patricii episcopi &#183; quomodo bonum ab actum simulatur
+                                angelis perfectum - que est propter uitam / equatur apostolis patricii laudes semper
+                                dicamus ut nos cum illo defendat deus. / Crux Christi reducat Crux Christi perriit et
+                                inuenta est habraeham tibi uias montes / p. <locus>208</locus> / silua(s) semitas
+                                fluminas andronas cludat Isaac tibi tenebras inducat Crux iacob te / ad iudicium ligatum
+                                perducat iudei christum crucifixerunt persimum (!) sibimet ipsum perpetrauerunt / opus
+                                celauerunt quod non potuerunt celare sic nec hoc furtum celatur nec celare (-ri) possit
+                                / per dominum nostrum</q>. Space follows. Cf. <ref type="bibl" target="Cockayne 1864"
+                                >Cockayne loc. cit. 60, 286</ref></ab>
+                        <ab locusNew="208"><supplied>Marginalia:</supplied> Receipt: <q>&#447;i&#240; eah
+                                &#447;&#230;rce</q>, etc. <ref type="bibl" target="Cockayne 1864">Cockayne I
+                                382</ref></ab>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron B21.5.1</ref>
+                            </supplied>
+                        </ab>
+                        <ab>The lines from <q>Christus illum</q> to <q>defendat deus</q> are the last stanzas, very
+                            corruptly written, of the Hymn of SS. <name type="person">Sechnall</name> or <name
+                                type="person">Secundinus</name> on <name type="person">St Patrick</name>, of which only
+                            four complete copies are known. This fragment has not been noticed. Special efficacy was
+                            attached to the stanzas here quoted. See <ref type="bibl" target="Bernard and Atkinson 1898"
+                                >Bernard and Atkinson (<hi rend="italic">The Irish Liber Hymnorum</hi>)</ref></ab>
+                        <ab locus="224">Liber IV. <decoNote>Initial</decoNote></ab>
+                        <ab locus="224">(Liber IV) <decoNote>initial in outline, the first of a numerous and very pretty
+                                series</decoNote></ab>
+                        <ab locus="224"><supplied>Marginalia:</supplied> pp. <locus>224</locus>-<locus>225</locus>.
+                            Office for the Invention of the Cross</ab>
+                        <ab locus="254"><supplied>Marginalia:</supplied> pp. <locus>254</locus>-<locus>280</locus>.
+                            Homily. <q>Men &#254;a leofestan ic eo&#447; bidde 7 ea&#240;modlice
+                                l&#230;re</q>, <ref type="bibl" target="unknown 1893"><hi rend="italic">Archiv</hi>,
+                                XCI 379 (latter part)</ref>. Copied for <name type="person">Professor Napier</name>:
+                            also in <ref type="ms" target="VCL117">Vercelli MS.</ref></ab>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron B3.4.9</ref>
+                            </supplied>
+                        </ab>
+                        <ab locus="272"><supplied>Marginalia:</supplied> Interrupted at p. <locus>272</locus> by a
+                            prayer in Latin:<lb/>
+                            <q>&#447;i&#240; ealra feoda grimnessum. Dextera domini fecit uirtutem, dextera
+                                domini exaltauit me</q> (<ref type="bibl" target="Cockayne 1864">Cockayne I
+                            386</ref>)</ab>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron B23.1.2</ref>
+                            </supplied>
+                        </ab>
+                        <ab locus="280"><supplied>Marginalia:</supplied> pp. <locus>280</locus>-<locus>287</locus>.
+                            Homily. <q>Her saga&#240; ymbe &#254;a halgan marian usser dryh(t)nes modor</q> (on
+                            the Assumption).<lb/> Copied for <name type="person">Professor Napier</name>: apparently
+                            only in this MS.</ab>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron B3.3.21</ref>
+                            </supplied>
+                        </ab>
+                        <ab locus="287"><supplied>Marginalia:</supplied> pp. <locus>287</locus>-<locus>295</locus>.
+                            Homily (on Last Judgment, Heaven, Hell, etc.). <q>Repleatur os meum laude ut possim cantare.
+                                Men &#254;a leofestan t&#447;a ceastra &#447;&#230;ron from fruman
+                                &#447;orode</q>.<lb/> Copied for <name type="person">Professor Napier</name>:
+                            apparently only here</ab>
+                        <ab locus="295"><supplied>Marginalia:</supplied> pp. <locus>295</locus>-<locus>301</locus>.
+                            Homily (on Ascension Day, Last Judgment, etc.). <q>Hec est dies quam fecit dominus exultemus
+                                et letemur in ea. Men &#254;a leofestan Her saga&#240; an &#254;issum bocum
+                                ym &#240;a miclan ge&#447;ird</q>.<lb/> Copied for <name type="person">Professor
+                                Napier</name>: also in <ref type="ms" target="CCC303">MS 303, p. 72</ref></ab>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron B3.2.29 and B8.5.3</ref>
+                            </supplied>
+                        </ab>
+                        <ab locusNew="322">
+                            <supplied>Caedmon's hymn, West Saxon version, <ref type="bibl" target="Cameron 1973">Cameron
+                                    A32.2</ref></supplied>
+                        </ab>
+                        <ab locus="326"><supplied>Marginalia:</supplied> Charm. <q>&#447;i&#240; sarum eagum.
+                                Domine sancte pater omnipotens aeterne deus sana occulos hominis istius N etc.</q> (<ref
+                                type="bibl" target="Cockayne 1864">Cockayne I 387</ref>)</ab>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron B23.1.3</ref>
+                            </supplied>
+                        </ab>
+                        <ab locusNew="326"><supplied>Marginalia:</supplied>
+                            <q>&#447;i&#240; sarum earum</q> (<ref type="bibl" target="Cockayne 1864">Cockayne I
+                                387</ref>)</ab>
+                        <ab locusNew="326"><supplied>Marginalia:</supplied>
+                            <q>Rex glorie Christe [raphaelem angelum] exclude fandoro[a]hel auribus famulo dei illi mox
+                                recede ab aurium torquenti sed in raphaelo angelo sanitatem auditui componas. Per.
+                                &#447;i&#240; magan segcnesse</q>. (<ref type="bibl" target="Cockayne 1864"
+                                >Cockayne I 387</ref>)</ab>
+                        <ab locusNew="326">
+                            <supplied>Marginalia:</supplied>
+                            <q>Adiuua nos deus salutaris noster exclude angelum sanielem angelum malum qui stomachum
+                                dolorem stomachi facit sed in dormielo sancto angelo tuo sanitatem serui tui in tuo
+                                sancto nomine sanatione(m) ad ad tribuere. per</q>
+                        </ab>
+                        <ab locus="327">
+                            <decoNote>a black initial, and then some omitted</decoNote>
+                        </ab>
+                        <ab locus="329">
+                            <supplied>Marginalia:</supplied>
+                            <q>Creator et sanctificator pater et filius et spiritus sanctus ut sit benedictio tua super
+                                omnia dona ista. per.<lb/> + &#183; sator &#183; arepo &#183; tenet
+                                &#183; opera &#183; rotas.<lb/> Deus qui ab initio fecisti hominem et dedisti ei
+                                in adiutorium similem sibi ut crescere [vel nt]<lb/> et multiplicare [vel nt] da super
+                                terram huic famulam tuam N ut prospere et sine dolore parturit</q>
+                        </ab>
+                        <ab locus="350"><supplied>Marginalia:</supplied> pp. <locus>350</locus>-<locus>353</locus>.
+                            Charm. (<ref type="bibl" target="Wanley 1705">Wanley, p. 115</ref>: <ref type="bibl"
+                                target="Cockayne 1864">Cockayne I 388</ref>)<lb/>
+                            <q>Ic me on &#254;isse gyrde beluce</q></ab>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron A43.11</ref>
+                            </supplied>
+                        </ab>
+                        <ab locus="352">
+                            <decoNote>initial</decoNote>
+                        </ab>
+                        <ab locus="365">
+                            <decoNote>initial</decoNote>
+                        </ab>
+                        <ab locus="368">Liber V. <decoNote>No initial</decoNote></ab>
+                        <ab locus="370"><supplied>Marginalia:</supplied> pp. <locus>370</locus>-<locus>373</locus>.
+                            Masses for Common of Saints and Pro rege. <decoNote>Rubrics in red capitals</decoNote></ab>
+                        <ab locus="399" locusNew="394">
+                            <decoNote>initial (very rough)</decoNote>
+                        </ab>
+                        <ab locus="400">
+                            <decoNote>initial</decoNote>
+                        </ab>
+                        <ab locus="402"><supplied>Marginalia:</supplied> pp. <locus>402</locus>-<locus>417</locus>.
+                            Homily on <name type="person">St Michael</name>.<lb/>
+                            <q>Men &#240;a leofestan us is to &#447;or&#240;ianne 7 to m&#230;rsianne
+                                seo gemind &#254;aes halgan heah engles <name type="person">sancte
+                                Michaeles</name></q> (<handNote>hand changes</handNote> on p. <locus>408</locus>).<lb/>
+                            Copied for <name type="person">Professor Napier</name>: apparently only here</ab>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron B3.3.24</ref>
+                            </supplied>
+                        </ab>
+                        <ab locus="410">
+                            <decoNote>a very pretty <supplied>initial</supplied>, with a small figure of Christ,
+                                beardless, on the Cross, the Divine Hand above (within the Cross)</decoNote>
+                        </ab>
+                        <ab locus="433">
+                            <decoNote>a sketch of a man with two rings confining his legs</decoNote>
+                        </ab>
+                        <ab>On f. <locus>436</locus> and <locus>448</locus> are scribbles in runes <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron B25.4.1</ref>
+                            </supplied></ab>
+                        <ab locus="436">
+                            <figure xml:id="figure82a1"/>
+                        </ab>
+                        <ab locus="448">
+                            <figure xml:id="figure82a2"/>
+                        </ab>
+                        <ab locus="474">
+                            <decoNote>a bit of ornament in pencil</decoNote>
+                        </ab>
+                        <ab locus="475"><supplied>Marginalia:</supplied> pp. <locus>475</locus>-<locus>477</locus>.
+                            Responses from Job, and <q>de Tobi</q>, <q>de Iudith</q>, <q>Dom. I mensis October usque in
+                                Dom. i mensis November</q>, <q>de minoribus prophetis (written pphens) a[d] dom. I mens.
+                                nou. usque medium aduentu domini</q>.</ab>
+                        <ab locus="478"><supplied>Marginalia:</supplied> Responses etc. for <name type="person">S.
+                                Martin</name></ab>
+                        <ab locus="482"><supplied>Marginalia:</supplied> Responses etc. for <name type="person">John
+                                Baptist</name> and <name type="person">Peter</name> and <name type="person"
+                            >Paul</name></ab>
+                        <ab locus="483">
+                            <supplied>Marginalia:</supplied>
+                            <q>For &#254;one cyng 7 for &#254;one bysceop 7 for eall cris(tene...edge of leaf
+                                gone)</q>
+                        </ab>
+                        <ab><supplied>Marginalia:</supplied> A Mass (a paganorum nos defende periculis)</ab>
+                        <ab locus="484"><supplied agent="RJR">Old English Bede</supplied> ends</ab>
+                        <explicit locus="484">o&#240; his daga ende drihten herigan. Amen</explicit>
+                        <ab locusNew="484">[Added: <q>ge&#447;eor&#254;e &#254;aet</q>] This is the end of
+                            the scribe's prayer which is given in full by <ref type="bibl" target="Wanley 1705"
+                                >Wanley</ref>, by <ref type="bibl" target="Miller 1890">Miller</ref> and by <ref
+                                type="bibl" target="Schipper 1899">Schipper</ref></ab>
+                        <ab locus="484">
+                            <decoNote>surrounded and partly written over by later text, is part of a fine figure of
+                                Christ crucified: it lacks the left arm. The head is bearded, the Cross not
+                                drawn</decoNote>
+                        </ab>
+                        <ab locus="484"><supplied>Marginalia:</supplied> pp. <locus>484</locus>-<locus>488</locus>.
+                            Following the end of the text. Homily giving the story of the Passion.<lb/>
+                            <q>Men &#240;e gehira&#240; nu hu (space) drihten &#447;&#230;s sprecende on
+                                &#254;as tid to his geferum</q>.<lb/> Copied for <name type="person">Professor
+                                Napier</name>: apparently only here</ab>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron B3.2.19</ref>
+                            </supplied>
+                        </ab>
+                        <ab locus="485">
+                            <decoNote>On the next page is a small nude figure (also written over) standing on rocky
+                                ground and holding up his hands, spread out on a level with his shoulders</decoNote>
+                        </ab>
+                        <ab locus="488"><supplied>Marginalia:</supplied> Unimportant scribbles. Above the <name
+                                type="person">Leofric</name>-inscription is: <q>Atte le</q></ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: RJR 10/10/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

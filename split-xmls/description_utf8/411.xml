@@ -1,0 +1,283 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC411">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>411</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>N. 10</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>174</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Psalter</head>
+                <head type="James">Psalterium (Cantuariense)</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">210</height>
+                        <width unit="mm">145</width>
+                    </measureGrp>, <measureGrp type="James">8.3 x 6</measureGrp>, <extent>ff. 3 + 146</extent>,
+                        <layout>23 lines to a page</layout>. Cent. <origDate>x</origDate>, <handNote>in a good black
+                        minuscule</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a (three) 1<num>8</num>-17<num>8</num> 18<num>4</num> | 19<num>6</num></collation>.</p>
+
+                <p function="Provenance">Probably written at <name type="place">Tours</name>, but with some ornament
+                    added in <name type="place">England</name>. The emphasis laid on <name type="person">Vincent</name>
+                    and <name type="person">Benedict</name>
+                    <supplied>in the second Litany</supplied> points to an abbey dedicated to the former saint. It is
+                    plain that the book was in <name type="place">England</name> in cent. <date>xi</date> when the
+                    drawing on f. <locus>1v</locus> was added. The occurrence of the Gospel for the feast of <name
+                        type="person">St Elphege</name> confirms the tradition that the book was at <name type="place"
+                        >Canterbury</name>.</p>
+
+                <p function="Additions">An inscription on f. <locus>140v</locus> of cent. <origDate>xvi</origDate> runs
+                    thus: Hoc psalterium laminis argenteis deauratis et gemmis ornatum, quondam fuit .N. Cantuar.
+                    Archiepiscopi, tandem venit in manus <name type="person">Thomae Becket</name> quondam Cant.
+                    archiepiscopi quod testatum est in veteri scripto. </p>
+
+                <p function="Additions">On f. <locus>2r</locus> of text is an erasure, apparently beginning
+                    psalterium.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a + i-iii + 1-146 + b</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="ir" locusEnd="146v">
+                        <head type="CCC">
+                            <title>Psalter</title>
+                        </head>
+
+                        <ab>ff. <locus>ir</locus>-<locus>iir</locus> blank</ab>
+
+                        <ab locusNew="iiv">On ff. <locus>iiv</locus>, <locus>iiir</locus>
+                            <handNote>in hand of cent. <origDate>xii</origDate></handNote>, <decoNote>with music on
+                                4-line stave</decoNote>, are the notations for Benedicamus domino, <q>Ite missa
+                            est</q></ab>
+                        <ab>
+                            <supplied agent="BA">The music continues on f. <locus>iiiv</locus> with short texts from the
+                                Passions as follows:</supplied>
+                        </ab>
+                        <rubric locus="iiiv">Dominica in palmis</rubric>
+                        <incipit locusNew="iiiv">Hely, hely, etc.</incipit>
+                        <ab>The same for</ab>
+                        <rubric locusNew="iiiv">Feria tertia</rubric>
+                        <ab>For</ab>
+                        <rubric locusNew="iiiv">Feria IIII</rubric>
+                        <incipit locusNew="iiiv">Pater in manus tuas</incipit>
+                        <rubric locusNew="iiiv">Feria VI</rubric>
+                        <incipit locusNew="iiiv">Consummatum est</incipit>
+
+
+
+                        <ab>Some original leaves have gone before the present fol. <locus>1r</locus></ab>
+
+                        <ab>On f. <locus>1r</locus> is the end of the <name type="author">pseudo-Augustinian</name>
+                            passage Canticum psalmorum animam decorat (<ref type="bibl" target="Migne 131">CXXXI
+                                142</ref>, <ref type="bibl" target="Migne 142">CXLII 46</ref>). It begins here at</ab>
+                        <incipit locusNew="1r">cor laetificat etc.</incipit>
+                        <ab>ending</ab>
+
+                        <explicit locus="1r">animam suam in caelo mirificabit in saecula saeculorum. Amen</explicit>
+
+                        <ab>
+                            <decoNote>On f. <locus>1v</locus> a fine frame in colour with panels of excellent interlaced
+                                work and some birds' heads at the angles. Within it is a fine full-length figure in
+                                outline in the Anglo-Saxon style of a bearded man with fillet about his head, holding a
+                                book. The drapery is excellent</decoNote>
+                        </ab>
+
+                        <ab locusNew="1v">Below, the initials W. S., very small</ab>
+
+                        <ab locusNew="2r">The text of the Psalter begins f. <locus>2r</locus>: <decoNote>plain gold
+                                initial to Beatus. The words <hi rend="italic">Beatus vir</hi> in red and green
+                                capitals</decoNote></ab>
+                        <ab>
+                            <decoNote>Initials to verses alternately in red and a peculiar green. Titles of Psalms are
+                                in red rustic capitals</decoNote>
+                        </ab>
+
+                        <ab>The first few Psalms have copious interlinear glosses in Latin, but after about Ps. xii
+                            these become very scanty</ab>
+
+                        <ab locus="40r">Ps. li <hi rend="italic">Quid gloriaris</hi> has <decoNote>full-page frame with
+                                interlaced work (white on black) and large initial with similar work. Green and
+                                yellow-brown are conspicuous colours here</decoNote></ab>
+                        <ab locus="81v">Ps. ci <hi rend="italic">Domine exaudi</hi> has also <decoNote>a full-page frame
+                                with panels of interlaced work. This is specially interesting because the colours have
+                                to a large extent not been put in, and the pattern remains in outline. Purple is the
+                                only colour which has been added: part of the outline here is in red</decoNote></ab>
+                        <ab locusNew="94v"><hi rend="italic">Dixit dominus</hi> has <decoNote>a larger initial than the
+                                rest, but it is quite a plain one</decoNote></ab>
+                        <ab>After Ps. cl: <decoNote>in red capitals</decoNote></ab>
+                        <rubric locus="123v">Alleluia. Expliciunt psalmi</rubric>
+                        <rubric locus="123v">Psalmus ipsi Dauid</rubric>
+                        <incipit locus="123v">Pusillus eram</incipit>
+                        <ab>(Ps. 151)</ab>
+                        <ab locus="124r">Cantica</ab>
+                        <ab>On f. <locus>130r</locus> are two corrections very plainly <handNote>in the <name
+                                    type="place">Christ Church</name> hand</handNote></ab>
+                        <ab>The Cantica end with: Benedictus, Magnificat, Te deum, Nunc dimittis, Ymnus angelicus (i.e.
+                            Gloria in excelsis), Pater noster, Credo, Fides <name type="author">Sancti Anasthasii
+                                episcopi</name></ab>
+
+                        <rubric locus="137r">Pura oratio ad dominum cum intercessionibus sanctorum omnium</rubric>
+                        <incipit locus="137r">Suscipiat pietas tua domine deus meus humilitatis meae praeces</incipit>
+                        <rubric locus="137r">Incipiunt Letaniae</rubric>
+                        <ab locusNew="137v">Apostles: <name type="person">Petre</name> in capitals<lb/> Martyrs: <name
+                                type="person">Stephane</name> in capitals, <name type="person">line</name>, <name
+                                type="person">clete</name>, <name type="person">clemens</name>, <name type="person"
+                                >sixte</name>, <name type="person">laurenti</name>, <name type="person">yppolite</name>,
+                                <name type="person">dionisi</name>, <name type="person">rustice</name>, <name
+                                type="person">eleutheri</name>, <name type="person">corneli</name>, <name type="person"
+                                >iuste</name>, <name type="person">cypriane</name><lb/> Confessors: <name type="person"
+                                >Siluester</name> (capitals), <name type="person">gregori</name>, <name type="person"
+                                >hilari</name>, <name type="person">martine</name>, <name type="person">ambrosi</name>,
+                                <name type="person">geronime</name>, <name type="person">augustine</name>, <name
+                                type="person">remegi</name>, <name type="person">benedicte</name>, <name type="person"
+                                >paule</name>, <name type="person">antoni</name>, <name type="person">machari</name>
+                            <lb/> Virgins: <name type="person">Felicitas</name> (capitals), <name type="person"
+                                >perpetua</name>, <name type="person">agatha</name>, <name type="person">lucia</name>,
+                                <name type="person">agnes</name>, <name type="person">cecilia</name>, <name
+                                type="person">petronella</name>, <name type="person">eufemia</name>, <name type="person"
+                                >anastasia</name>, <name type="person">scolastica</name></ab>
+                        <ab>Suffrage</ab>
+                        <incipit locusNew="138r">Ut congregationem nostram</incipit>
+                        <ab>On f. <locus>138v</locus> a series of prayers</ab>
+                        <rubric locusNew="138v">Oratio ad nouem ordines angelorum</rubric>
+                        <incipit locusNew="138v">Deus qui lapso lucifero</incipit>
+
+
+                        <rubric locusNew="138v">Oratio ad patriarchas et prophetas</rubric>
+                        <rubric locusNew="138v">Oratio ad chorum apostolorum</rubric>
+
+
+                        <rubric locusNew="139r">Oratio ad chorum sanctorum martyrum</rubric>
+                        <rubric locusNew="139r">Oratio ad omnes confessores</rubric>
+                        <ab>(<name type="person">Gregory</name> and <name type="person">Augustine</name> mentioned)</ab>
+                        <rubric locusNew="139r">Oratio ad sanctam mariam et omnes sanctas virgines</rubric>
+                        <rubric locus="139v">Pro nostris infirmitatibus</rubric>
+                        <rubric locusNew="139v">Pro pace postulanda</rubric>
+                        <rubric locusNew="139v">Pro uenia populi</rubric>
+
+                        <ab>f. <locus>140r</locus> is in <handNote>a beautiful upright round hand of cent.
+                                    <date>xi</date></handNote></ab>
+                        <rubric locus="140r">Incipiunt Letaniae</rubric>
+                        <ab locusNew="140r">Apostles: <name type="person">Petre II</name> (capitals) ... <name
+                                type="person">simon</name>, <name type="person">iuda</name> , <name type="person"
+                                >mathia</name>, <name type="person">marce</name>, <name type="person">luca</name>, <name
+                                type="person">marcialis</name><lb/> Martyrs: <name type="person">Stephane</name>, <name
+                                type="person">maximiane</name>, <name type="person">iustine</name>, <name type="person"
+                                >contestor</name>, <name type="person">line</name>, <name type="person">clete</name>,
+                            ... <name type="person">laurenti</name>, <name type="person">uincenti II</name> (capitals),
+                                <name type="person">apollonaris</name>, <name type="person">geruasi</name>, <name
+                                type="person">protasi</name>, <name type="person">christophore</name>, <name
+                                type="person">georgii</name>, <name type="person">dionisii</name> cum sociis, <name
+                                type="person">eustachii</name> cum sociis (capitals), <name type="person"
+                            >herasme</name>, <name type="person">osuuolde</name><lb/> Confessors: <name type="person"
+                                >Benedicte II</name> (capitals), <name type="person">martine</name>, <name type="person"
+                                >hilarii</name>, <name type="person">siluester</name>, <name type="person"
+                                >gregori</name>, <name type="person">augustine</name>, <name type="person"
+                                >cuthberhte</name>, <name type="person">remegi</name>, <name type="person"
+                                >germane</name>, <name type="person">maure</name>, <name type="person">placide</name>,
+                                <name type="person">columbane</name>, <name type="person">antoni</name>, <name
+                                type="person">arseni</name>, <name type="person">machari</name>, <name type="person"
+                                >caurentine</name><lb/> Virgins: <name type="person">Felicitas</name>, <name
+                                type="person">perpetua</name>, <name type="person">maria magdalena</name>, <name
+                                type="person">scolastica</name>, <name type="person">agatha</name>, <name type="person"
+                                >agnes</name>, <name type="person">cecilia</name>, <name type="person">lucia</name>,
+                                <name type="person">brigida</name>, <name type="person">eugenia</name>, <name
+                                type="person">eulalia</name>, <name type="person">petronella</name><lb/> Here it ends
+                            imperfectly</ab>
+                        <ab>Then follow, <handNote>in a black <name type="place">Christ Church</name> hand of cent.
+                                    <origDate>xi, xii</origDate>,</handNote> several liturgical gospels <decoNote>with
+                                red and blue initials</decoNote></ab>
+                        <rubric locus="141r">In vigilia nativitatis Domini secundum <name type="person"
+                            >matheum</name></rubric>
+                        <incipit locusNew="141r">Cum esset desponsata</incipit>
+                        <rubric locusNew="141r">In die secundum <name type="person">Iohannem</name></rubric>
+                        <incipit locusNew="141r">In principio</incipit>
+                        <rubric locusNew="141v">Secundum <name type="person">Marcum</name></rubric>
+                        <ab>(Easter)</ab>
+                        <incipit locusNew="141v"><name type="person">Maria magdalena</name> ... emerunt
+                            aromata</incipit>
+                        <rubric locus="142r">In assumptione <name type="person">Sancte Marie</name> secundum <name
+                                type="person">Lucam</name></rubric>
+                        <incipit locus="142r">Intrauit Ihesus</incipit>
+                        <rubric locusNew="142r">In passione <name type="person">Sancti Elfegi</name> Archiepiscopi
+                            secundum <name type="person">Iohannem</name></rubric>
+                        <incipit locusNew="142r">Dixit Ihesus discipulis suis Ego sum pastor bonus</incipit>
+                        <rubric locus="142v">Secundum <name type="person">Iohannem</name></rubric>
+                        <incipit locus="142v">Dixit Ihesus discipulis suis Ego sum uitis uera</incipit>
+                        <ab>ff. <locus>143r</locus>-<locus>146v</locus> blank</ab>
+
+                        <ab>The three martyrs <name type="person">Maximian</name>, <name type="person">Justin</name> and
+                                <name type="person">Contestor</name> in the second Litany are obscure to me</ab>
+
+
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: foliation check BA - awaiting title check RJR - complete 6/11/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

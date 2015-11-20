@@ -1,0 +1,455 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC181">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>181</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>E. 8</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>61</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">William of Jumičges OSB, Gesta Normannorum ducum. Robert de Torigni OSB, Chronica.
+                    Iohannes de Plano Carpini, Historia Mongolorum. Willelmus de Rubruk OFM, Itinerarium ad partes
+                    orientales</head>
+                <head type="James">William of Jumičges etc. Itinera Odorici, W. de Rubruc, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">291</height>
+                        <width unit="mm">182</width>
+                    </measureGrp>, <measureGrp type="James">11.5 x 7.2</measureGrp>, <extent>ff. 200 + 2</extent>,
+                        <layout>37 lines to a page</layout>. Cent. <origDate>xiv (first half)</origDate>
+                    <handNote>in a good large clear hand, perhaps modelled on the Italian script of the
+                    time</handNote>.</p>
+
+
+
+                <p><label>Collation:</label>
+                    <collation>2 flyleaves, 1<num>12</num> 2<num>12</num> 3<num>8</num> 4<num>12</num>-6<num>12</num>
+                        (wants 12) 7<num>12</num>-9<num>12</num> 10<num>8</num> (wants 6-8) 11<num>10</num> (wants 6-10)
+                            12<num>12</num> 13<num>12</num> 14<num>12</num> 14<num>4</num>
+                            15<num>12</num>-19<num>12</num> (wants 12)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>manu tenebat</secFol>.</p>
+
+                <p function="Provenance">At the bottom of <locus locusNew="1">i</locus> is the mark: In. 3. J. This is
+                    the mark of the <name type="place">Abbey of St Mary at York</name>. In <ref type="ms"
+                        target="OCC224">C. C. C. Oxford MS. 224</ref> is one very similar, together with the name of the
+                    monastery. Others are at <ref type="ms" target="DTC207">Dublin1</ref> and <ref type="ms"
+                        target="DTC332">Dublin2</ref> and in <ref type="ms" target="NUL001"><name type="person">Lord
+                            Herries</name>' Library at <name type="place">Everingham</name></ref>: cf. <ref type="ms"
+                        target="CCC309">MS 309</ref> in this collection.</p>
+
+                <p function="Research" rend="withinContents">In <ref type="bibl" target="Delisle 1880">M. Delisle's <hi
+                            rend="italic">Mélanges de Paléographie et de Bibliographie</hi>, 1880, p. 190</ref>, a
+                    Leyden manuscript is described, the contents of which coincide in a remarkable degree with those of
+                    the volume under consideration. It is <ref type="ms" target="LUBF77">Vossianus 104</ref> of the
+                        <date>early xiv</date>th cent., has 191 leaves, and formerly belonged to <name type="person"
+                        >Paul Petau</name>. To M. Delisle's description I owe many of the references inserted above. A
+                    statement of the correspondences of the two books may be given here:<lb/><figure xml:id="figure425a"
+                    /><lb/> It is evident that the two are sister books. The only important difference between them is
+                    that the Leyden MS. contains the History of <name type="person" key="Geoffrey-001">Geoffrey of
+                        Monmouth</name>. The Cambridge MS. may at one time have contained this also, since at the place
+                    where it would naturally come (after p. <locus>216</locus>) a quire ends. The one thing in the
+                    Cambridge MS. which does not occur in the Leyden one is the Bull added on p. <locus>278</locus> by a
+                    later hand</p>
+                <p type="CCC">
+                    <foliation>ff. a-b + i-ii + pp. 1-400 + ff. c-d</foliation>.</p>
+
+                <msContents>
+
+                    <textLang mainLang="lat" otherLangs="frm">Latin and Anglo-Norman.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1" locusEnd="206">
+                        <head type="CCC">
+                            <name type="author" key="Williamo-001">William of Jumičges OSB</name>, <title>Gesta
+                                Normannorum ducum, with a continuation <date>1070-1135</date> by <name type="author"
+                                    key="Robertde-001">Robert de Torigni OSB</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author" key="Williamo-001">Gulielmi Gemiticensis</name> de ducibus
+                                Normannorum cum continuatione incerti autoris ad annum <date>1271</date>, lib.
+                                ix</title>
+                        </head>
+
+                        <rubric locus="1">De castitate <name type="person">Rollonis</name> et quomodo reduxit corpus
+                            beati audoeni etc.</rubric>
+                        <incipit locus="1">Quante humilitatis <name type="person">Rollo</name> fuit</incipit>
+                        <rubric locus="2">Quoddam miraculum in tempore <name type="person">Rollonis</name></rubric>
+                        <incipit locus="2">Quidam uero aliud dicitur eidem comiti accidisse</incipit>
+                        <ab>(Knight rides on the Seine. Prophecy)</ab>
+                        <incipit locus="3">Similiter rex francie facit fidelitatem</incipit>
+                        <incipit locus="3">De <name type="person">Ricardo</name> filio primi ricardi dicitur quod fuerit
+                            pater patrie</incipit>
+                        <explicit locus="5">manerium quod ipse illis pro anima sua dabat</explicit>
+                        <ab>These anecdotes are in the edition of <name type="author" key="Williamo-001">William of
+                                Jumičges</name> by <ref type="bibl" target="Duchesne 1619">Duchesne</ref>, under the
+                            title of <hi rend="italic">Additamenta ad Hist. Normannorum</hi> p. 315</ab>
+                        <rubric locus="5">Incipit Epistola <name type="author" key="Williamo-001">Willelmi
+                                Gemeticensis</name> ad <name type="person">Willelmi ortodoxorum Anglorum regem</name> in
+                            Norman. ducum gestis</rubric>
+                        <incipit locus="5">Pio uictorioso atque ortodoxo</incipit>
+                        <explicit locus="6">uictoriose acque orthodoxe</explicit>
+                        <rubric locus="6">Explicit epistola etc.</rubric>
+                        <rubric locus="6">Capitula libri primi</rubric>
+                        <incipit locus="6">Ex quo francorum resumptis uiribus</incipit>
+                        <ab locus="13">Liber II</ab>
+                        <ab locus="30"><supplied>Liber</supplied> III</ab>
+                        <ab locus="37"><supplied>Liber</supplied> IV</ab>
+                        <ab locus="51"><supplied>Liber</supplied> V</ab>
+                        <ab locus="62"><supplied>Liber</supplied> VI</ab>
+                        <ab locus="76"><supplied>Liber</supplied> VII</ab>
+                        <ab locus="112"><supplied>Liber</supplied> VIII (gesta <name type="person">Henrici</name> by
+                                <name type="author" key="Robertde-001">Robert de Torigni</name>)</ab>
+                        <ab>The capitula of liber VIII are 43, but they do not agree with the divisions of the text.
+                            Thus no. 34 of the Capitula corresponds to ch. xxx of the text</ab>
+                        <ab>C. xv ends imperfectly p. <locus>126</locus></ab>
+                        <explicit locus="126">Occiso autem illo almalrico <name type="person">Rodulfus</name> de
+                            toneio</explicit>
+                        <ab>pp. <locus>127</locus>-<locus>130</locus> are blank</ab>
+                        <ab locus="131">The text is resumed in c. xxi</ab>
+                        <incipit locusNew="131">cateruis more pugnantium necnon et equitibus</incipit>
+                        <ab>This gap occurs in all known copies, which are derived from the <ref type="ms"
+                                target="LUB020">Leyden MS. 20</ref>, formerly at <name type="place">Bec</name></ab>
+                        <ab locus="139">C. xxx ends</ab>
+                        <explicit locus="139">gaudia misericorditer tribuat qui cum patre etc. secula seculorum.
+                            Amen</explicit>
+                        <rubric locus="140">Explicit liber gestorum ducum normannie continens res gestas <name
+                                type="person">primi henrici regis anglorum et ducis normannorum</name> epyth. (i.e.
+                            epythaphium)</rubric>
+                        <ab locus="140">
+                            <q>Quod modicum prestent quod opes magnum nichil extent</q>
+                        </ab>
+                        <ab locusNew="140">
+                            <q><name type="person">Henricus</name> pridem. tunc terror. nunc cinis idem</q>
+                        </ab>
+                        <ab>Without title, continuation</ab>
+                        <incipit locus="140">De filiabus <name type="person">primi Willelmi regis anglorum</name>
+                            sororibus incliti <name type="person">regis henrici</name> etc.</incipit>
+                        <ab>(= 35 of capitula to lib. VIII)</ab>
+                        <ab>The capitula take us down to p. <locus>147</locus> of text</ab>
+                        <explicit locus="147"><name type="person">Thebaldus</name> electus beccensis ecclesie benedictus
+                            est abbas apud <name type="place">Rothomagum</name> anno domino <name type="person">hugone
+                                archiepiscopo</name></explicit>
+                        <ab>(<ref type="bibl" target="Delisle 1872">Delisle</ref>, <hi rend="italic">Rob. de
+                                Torigni</hi> I 208)</ab>
+                        <ab>Text continues</ab>
+                        <rubric locus="147">
+                            <date when-iso="1139">mcxxxix</date>
+                        </rubric>
+                        <incipit locus="147"><name type="person">Stephanus rex anglorum</name> in natali obsedit
+                            bedefort</incipit>
+                        <ab>Down to the year <date>1169</date> (<q>et multi in ea perierunt</q>): this forms part of the
+                            chronicle of <name type="author">Robert de Torigni</name></ab>
+                        <ab><handNote>Change of ink occurs on p. <locus>188</locus></handNote> and on pp.
+                                <locus>189</locus>-<locus>190</locus>
+                            <handNote>change of hand, though the character of the script is the same</handNote></ab>
+                        <ab>Ends (<date>1272</date>)</ab>
+                        <explicit locus="206">a ciuitatibus et castellis normannie receptus est</explicit>
+                        <ab>Edited by <ref type="bibl" target="Duchesne 1619">Duchesne (pp. 10031014)</ref> from <ref
+                                type="ms" target="BNF663">MS. Bib. Nat. 14663 latin</ref>, also in the <ref type="bibl"
+                                target="Delisle 1877">Recueil des historiens <supplied>des Gaules et de la
+                                    France</supplied> XII 788, XVIII 345, XXIII 213</ref>. It begins in
+                                <date>1169</date>: <q>Fundata est <name type="place">abbatia de
+                            Wallomonte</name></q>.</ab>
+
+                    </msItem>
+
+
+
+                    <msItem n="2" locusStart="207" locusEnd="216">
+                        <head type="CCC">
+                            <title>Historia breuis Angliae a morte <name type="person">Gulielmi I</name>. ad annum
+                                    <date>1239</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Historia brevis Angliae a morte <name type="person">Gulielmi I</name>. ad annum
+                                    <date>1239</date></title>
+                        </head>
+                        <ab locus="207">No title</ab>
+                        <rubric locus="207">
+                            <date>M<abbr rend="superscript">o</abbr>. lxxx<abbr rend="superscript">o</abbr>. vij<abbr
+                                    rend="superscript">o</abbr>.</date>
+                        </rubric>
+                        <incipit locus="207">Obiit <name type="person">Guillelmus rex anglorum et dux normannie</name>
+                            qui angliam</incipit>
+                        <ab>Ends (<date>1239</date>)</ab>
+                        <explicit locus="215">Eodem anno natus fuit <name type="person">edoardus</name> filius <name
+                                type="person">h. regis anglie</name></explicit>
+                        <ab locus="216">blank</ab>
+                        <ab><ref type="bibl" target="Hardy 1871">Hardy III 74</ref>. Edited, from <date>1210</date>, in
+                            the <ref type="bibl" target="Delisle 1878"><hi rend="italic">Recueil des historiens des
+                                    Gaules et de la France</hi> XVIII 343</ref> from the <ref type="ms" target="BNF663"
+                                >Paris MS. 14663</ref></ab>
+                    </msItem>
+
+
+                    <msItem n="3" locusStart="217" locusEnd="236">
+                        <head type="CCC">
+                            <name type="author">Einhard</name>, <title>Vita <name type="person" key="Charlema-001"
+                                    >Caroli regis Francorum et imperatoris Romanorum</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Vita et conversatio excellentissimi principis D. <name type="person"
+                                    key="Charlema-001">Karoli magni</name> quondam imperatoris et regis Franciae</title>
+                        </head>
+
+                        <rubric locus="217">Hic incipit uita et conuersatio etc.</rubric>
+                        <ab>The Life by <name type="author">Eginhard</name> without <name type="author"
+                            >Walafrid</name>'s Prologue</ab>
+                        <incipit locus="217">Uitam et conuersationem et ex parte non modica res gesta(s) domini et
+                            nutritoris mei <name type="person" key="Charlema-001">Karoli</name></incipit>
+                        <ab>Ends after the will</ab>
+                        <explicit locus="236">Hec omnia filius eius <name type="person">hludouicus</name> ... summa
+                            deuotione adimplere curauit</explicit>
+
+                    </msItem>
+
+
+                    <msItem n="4" locusStart="236" locusEnd="261">
+                        <head type="CCC">
+                            <title>Historia Franciae ab Antenore ad annum <date>1137</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Historia Franciae ab Antenore ad annum <date>1137</date></title>
+                        </head>
+                        <ab>No title: known as the Abrege des gestes des Rois de France</ab>
+                        <incipit locus="236">Antenor et alii profugi ab excidio <name type="place"
+                            >troie</name></incipit>
+                        <explicit locus="261">successit ei <name type="person">ludouicus iunior rex francorum et dux
+                                acquitanorum</name> anno ab incarnacione domini <date>m<abbr rend="superscript"
+                                >o</abbr>. c<abbr rend="superscript">o</abbr>. xxx<abbr rend="superscript">o</abbr>.
+                                    vij<abbr rend="superscript">o</abbr></date></explicit>
+                        <ab>Edited by <ref type="bibl" target="Waitz 1851">Waitz in MGH. Scriptores IX
+                            395-406</ref></ab>
+                    </msItem>
+
+
+                    <msItem n="5" locusStart="262" locusEnd="265">
+                        <head type="CCC">
+                            <title>La pes et lordenance fete entre excellenz princes <name type="person">Loys roi de
+                                    France</name> et <name type="person">Henri roi d'Engleterre</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>La pes et lordenance fete entre excellenz princes <name type="person">Loys roi de
+                                    France</name> et <name type="person">Henri roi d'Engleterre</name></title>
+                        </head>
+
+                        <incipit locus="261" locusNew="262"><name type="person">Henris</name> par la grace de
+                            dieu</incipit>
+                        <explicit locus="264">lan de lincarnacion nostre seignor <date>m. cc. cinquante nouieme</date>
+                            et mois de septembre</explicit>
+
+                    </msItem>
+
+
+                    <msItem n="6" locusStart="264" locusEnd="277">
+                        <head type="CCC">
+                            <title>Bulla <name type="person">Gregorii papae</name> contra <name type="person"
+                                    >Simonem</name> et <name type="person">Guidonem de Monteforti</name> occisores cum
+                                eorum excusationibus et condemnatione</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Bulla <name type="person">Gregorii papae</name> de morte <name type="person">Henrici
+                                    de Alemannia</name> filii <name type="person">Ricardi imperatoris electi</name>
+                                contra <name type="person">Simonem</name> et <name type="person">Guidonem de
+                                    Monteforti</name> occisores cum eorum excusationibus et condemnatione</title>
+                        </head>
+
+                        <ab>The title of 6 follows <supplied>item 5</supplied>, but half a page is blank, and the text
+                            of 6 begins on p. <locus>265</locus></ab>
+                        <ab>Title</ab>
+                        <rubric locus="264">Citatio contra <name type="person">(guid)onem<abbr rend="superscript"
+                                    >erased</abbr> de monteforti</name> facta a <name type="person">gregorio papa
+                                X</name></rubric>
+                        <incipit locus="265"><name type="person">Gregorius</name> etc. ad certitudinem presencium et
+                            memoriam futurorum. quondam <name type="person">henrici de alemannia</name> etc.</incipit>
+                        <explicit locus="266">Kalends marcii anno primo</explicit>
+                        <ab>(<date>1273</date>). <ref type="bibl" target="Potthast 1875">Potthast no. 20682</ref></ab>
+                        <rubric locus="266">Excusationes <name type="person">(erasure) de monteforti</name> directe ad
+                                <name type="person">gregiam papam X</name></rubric>
+                        <incipit locus="266">Querela patris de se</incipit>
+                        <explicit locus="268">ad iustum iudicium subeundum</explicit>
+                        <rubric locus="268">Responsiones ad excusationes guidonis de monteforti et condempnatio
+                            ipsius</rubric>
+                        <incipit locus="268">Ad perpetuam rei memoriam nephandum scelus</incipit>
+                        <ab locus="275">(Orvieto, kalends Aprilis anno secundo) <ref type="bibl" target="Potthast 1875"
+                                >Potthast no. 20712</ref></ab>
+                        <ab locus="276">Paragraphs (on which see <ref type="bibl" target="Delisle 1880">Delisle <hi
+                                    rend="italic">Melanges</hi>, pp. 193, 4</ref>)</ab>
+                        <incipit locus="276"><name type="person">Clodoneus</name> (so) primus rex francorum xxx annis
+                            regnauit</incipit>
+                        <explicit locus="276"><name type="person">ludouicus</name> filius eiusdem <name type="person"
+                                >ludouici</name> xlvii annis</explicit>
+                        <ab>(Partly in French)</ab>
+                        <ab>On the Electors</ab>
+                        <incipit locus="276">Tres otones per successionem generis</incipit>
+                        <explicit locus="276">Hii statuunt dominum cunctis per secula summum. Germanica continet
+                            alemannicos...ad hungariae sunt limites imperii et usque clauoniae</explicit>
+                        <incipit locus="276">Conueniunt autem dicti electores</incipit>
+                        <ab>Story of <name type="person" key="Charlema-001">Charlemagne</name> and a fairy (<ref
+                                type="bibl" target="Paris 1865">Gaston Paris</ref>, <hi rend="italic">Hist. poetique de
+                                Charlemagne</hi>, p. 384)</ab>
+                        <ab locus="277">Poem, in twelve quatrains, by a Welshman</ab>
+                        <ab locus="277">
+                            <lg>
+                                <l>Trucidate(-re) saxones soliti cambrenses</l>
+                                <l>Ad cognates britones et cornubienses</l>
+                                <l>Requiraunt ut veniant per accutos enses</l>
+                                <l>Ad debellandos inimicos saxonienses</l>
+                                <l>...</l>
+                                <l> Hoc arthuri patruus uelit impetrare</l>
+                                <l>Sanctus daui<hi rend="footnote"><ref type="bibl" target="Wright 1839">Wright</ref>
+                                        reads <q>[qui]dam</q>: but clearly his MS. must have agreed with ours</hi>
+                                    maximus anglum ultra mare</l>
+                                <l>Scimus festum marti(i)s kalendis instare</l>
+                                <l>Ad natale solum britones studeat reuocare</l>
+                                <l>...</l>
+                                <l>Istis suis finibus contigit regnare</l>
+                                <l>Illis duces presides reges triumphare</l>
+                                <l>Quibus nullo merito se possint equare</l>
+                                <l>Est quam regnare longe plus induperare</l>
+                            </lg>
+                        </ab>
+                        <ab>This is the last stanza written</ab>
+                        <ab>Ed. from a <name type="place">Leyden</name> MS. (see post) by <ref type="bibl"
+                                target="Wright 1839">T. Wright, <hi rend="italic">Political Songs of England</hi>, p.
+                                56</ref></ab>
+
+                    </msItem>
+
+
+                    <msItem n="7" locusStart="278" locusEnd="278">
+                        <head type="CCC">
+                            <title>Bulla <name type="person">Ioannis papae</name> data A. D. <date>1326</date>, pro pace
+                                concilianda inter reges Franciae et Angliae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Bulla <name type="person">Ioannis papae</name> data A. D. <date>1326</date>, pro pace
+                                concilianda inter reges Franciae et Angliae</title>
+                        </head>
+
+                        <ab locus="278">
+                            <handNote>In another hand</handNote>
+                        </ab>
+
+                    </msItem>
+
+
+                    <msItem n="8" locusStart="279" locusEnd="321">
+                        <head type="CCC">
+                            <name type="author" key="Iohannes-001">Iohannes de Plano Carpini</name>, <title>Historia
+                                mongolorum quos nos tartaros appellamus</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author" key="Iohannes-001">Iohannis de Plano-carpini</name> ordinis
+                                fratrum minorum A. S. in partibus orient, nuncii historia Mongalorum quos nos Tartaros
+                                appellamus</title>
+                        </head>
+
+                        <rubric locus="279">Incipit ystoria mongalorum quos nos tartaros appellamus</rubric>
+                        <incipit locus="279">Omnibus fidelibus ad quos presens scriptura peruenerit fr. <name
+                                type="author" key="Iohannes-001">Johannes de plano carpini</name></incipit>
+                        <rubric locus="279">Explicit salutatio. incipit prologus</rubric>
+                        <incipit locus="279">Cum ex mandate sedis apostolice</incipit>
+                        <explicit locus="279">ab aliis infametur</explicit>
+                        <incipit locus="279">Uolentes igitur facta scribere</incipit>
+                        <explicit locus="321">siue perfectius illa que nondum erant completa</explicit>
+                        <rubric locus="321">Explicit historia mongalorum quos nos tartaros appellamus</rubric>
+                        <ab>Edited by <ref type="bibl" target="D'Avezac 1839c">D'Avezac, 1839</ref></ab>
+
+                    </msItem>
+
+
+                    <msItem n="9" locusStart="321" locusEnd="400">
+                        <head type="CCC">
+                            <name type="author" key="Willelmu-001">Willelmus de Rubruk OFM</name>, <title>Itinerarium ad
+                                partes orientales</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Itinerarium <name type="author" key="Willelmu-001">Willelmi de Rubruc</name> ad
+                                partes orientales</title>
+                        </head>
+                        <ab>Modern (<date>xvi</date>) title</ab>
+                        <incipit locus="321">Excellentissimo domino ... <name type="person">ludovico dei gracia regi
+                                francorum</name> illustri frater <name type="author" key="Willelmu-001">Willelmus de
+                                rubruc</name></incipit>
+                        <explicit locus="398">Immo plures interpretes et copiosas expensas</explicit>
+                        <ab>Ed. by <ref type="bibl" target="D'Avezac 1839b">D'Avezac, 1839</ref>. Also in <ref type="ms"
+                                target="CCC066">MS 66. 10</ref>, <ref type="ms" target="CCC407">MS 407. 2</ref></ab>
+                        <ab>Extract from <name type="author">Ethicus</name>' <title>Cosmography</title></ab>
+                        <incipit locus="398">Ut ait <name type="author">ethicus ph'icus</name> gens stultissima est
+                            inter alias gentes</incipit>
+                        <explicit locus="399"><name type="person">alexander</name> caspias portas muniuit</explicit>
+                        <ab>Lower part of leaf (probably blank) cut off</ab>
+                        <incipit locus="400"><name type="person">Martinus</name> (IV: to the Friars minor) Dilectis
+                            filiis ad fructus uberes quos in agro dominico</incipit>
+                        <explicit>
+                            <date>4. Ides Januarii anno primo</date>
+                        </explicit>
+                        <ab>(<date>1282</date>. <ref type="bibl" target="Potthast 1875">Potthast no. 21837</ref>)</ab>
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 20/03/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

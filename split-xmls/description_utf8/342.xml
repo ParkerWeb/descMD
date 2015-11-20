@@ -1,0 +1,138 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC342">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>342</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>9. 2</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>326</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">John of Rainham OSB (attrib.), Annales ecclesiae Roffensis</head>
+                <head type="James">Historia Roffensis</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">370</height>
+                        <width unit="mm">243</width>
+                    </measureGrp>, <measureGrp type="James">14.8 x 10</measureGrp>, <extent>ff. 130 written</extent>,
+                        <handNote>in several hands of cent. <origDate>xvi</origDate>, some extremely
+                    good</handNote>.</p>
+
+                <p function="Provenance">The volume is evidently a transcript of <ref type="ms" target="LBLND2">Nero D.
+                        2</ref> (on which see <ref type="bibl" target="Luard 1890">Luard, Flores Historiarum I p.
+                        xxvi</ref>). <ref type="bibl" target="Wharton 1691a">Wharton, Anglia Sacra I 341 (and p.
+                        xxxi)</ref> printed a great part of the passages relating to <name type="place"
+                    >Rochester</name>. <ref type="ms" target="LBLND2">Nero D. 2</ref> formerly belonged to <name
+                        type="person">Joscelin</name>, and the note mentioned by Nasmith was written by him therein. </p>
+
+                <p type="CCC">
+                    <foliation>ff. a + i-v + 1-130 + vi</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="129v">
+                        <head type="CCC">
+                            <name type="author">John of Rainham OSB (attrib.)</name>, <title>Annales ecclesiae Roffensis
+                                (a version of the Flores historiarum)</title>
+                        </head>
+
+                        <ab>
+                            <quote>Chronicon desumptum ex historia <name type="place">Roffensi</name> ab anno
+                                    <date>179</date> ad annum <date>1377</date>.<lb/><q>Haec omnia desumpta sunt ex
+                                    historia Roffensi, quam ut verisimile est tres monachi ejusdem ecclesiae sese ordine
+                                    in opere succedentes composuere: non enim est unius sonus totius orationis, non idem
+                                    stylus; sed triplex quidem ratio constructionis. Quorum monachorum primus deducit
+                                    historiam ab mundi initio ad obitum <name type="person">Henrici III.</name> ad annum
+                                    videlicet Domini <date>1273</date>, quando apparet monachum claruisse; alter adjecit
+                                    historiam <name type="person">Edwardi I.</name> filii prefati Henrici, qui obiit
+                                    anno Domini <date>1307</date>; reliquam persecutus est monachorum tertius: quibus
+                                    autem appellationibus fuere hi monachi me latet.</q>
+                                <lb/>
+                                <q>Prefata historia Roffensis nisi cum agat de rebus ecclesiae Roffensis est omnino
+                                    eadem cum historia [<name type="person">Matthei Westmonast.</name>] quae dicitur
+                                    flores historiarum.</q>
+                                <lb/> Duas priores partes hujus historiae, videlicet ad annum <date>1307</date>, <name
+                                    type="person">Edmundo de Haddenham</name> ascribendas putat <name type="person">Cl.
+                                    Whartonus</name>, et tertiam partem monachum ejusdem cenobii autorem non habuisse
+                                quod in ea nulla fit mentio de rebus Roffensibus. <lb/> Chronico praemittitur brevis
+                                historia de ecclesiis fundatis ante adventum Normannorum in <name type="place"
+                                    >Anglia</name> ex eodem libro Roffensi. </quote>
+                        </ab>
+
+                        <rubric locusNew="1r"><name type="place">Britannia</name> primo fidem Christi suscepit anno
+                                <date>179</date> ut ueriores annales commemorant per <name type="person">lucium</name>
+                            tunc temporis regem</rubric>
+                        <incipit locusNew="1r"><name type="person">Eleutherus papa</name> sedit in chathedra Romana
+                            annis quindecem mensibus sex</incipit>
+                        <ab>Ends</ab>
+                        <incipit locus="129v"><date>1377</date>. Hoc anno cardinalis <name type="place"
+                            >Angliae</name></incipit>
+                        <explicit locus="129v">et in festo eiusdem magdalene spiritum exhalavit</explicit>
+                        <ab>Then follows the note <supplied>given above</supplied></ab>
+                        <incipit locusNew="129v">Hec omnia desumpta sunt ex historia <name type="place"
+                            >Roffensi</name></incipit>
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: NJC 20/10/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

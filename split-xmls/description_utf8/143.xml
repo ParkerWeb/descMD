@@ -1,0 +1,174 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC143">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>143</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>R. 1</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>154</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Nicholas Love OCarth, The Mirrour of the blessyd Lyf of Christ. Treatise on the
+                    Sacrament</head>
+
+                <head type="James">Mirror of the Life of Christ etc.</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">320</height>
+                        <width unit="mm">220</width>
+                    </measureGrp><measureGrp type="James">12.6 x 8.7</measureGrp>, <extent>ff. 142 + 1</extent>,
+                        <layout>36 lines to a page</layout>. Cent. <origDate>xv</origDate>, <handNote>in a good clear
+                        hand, probably a little earlier than <ref type="ms" target="CCC142">MS 142</ref></handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, a<num>8</num> (wants 1) b<num>8</num>-s<num>8</num> (wants 8)</collation>.</p>
+
+                <p function="Additions">On the flyleaf: xxvi<abbr rend="superscript">s</abbr> viii<abbr
+                        rend="superscript">d</abbr>.</p>
+
+
+
+
+
+                <p type="CCC">
+                    <foliation>ff. a + i + 1-142 + b</foliation>.</p>
+
+
+
+
+                <msContents>
+
+                    <textLang mainLang="enm" otherLangs="lat">Middle English and Latin.</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="132v">
+
+                        <head type="CCC"><name type="author">Nicholas Love OCarth</name>, <title>The Mirrour of the
+                                blessyd Lyf of Christ</title></head>
+
+                        <head type="James">
+                            <title>Mirror of the Life of Christ</title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>The mirrour of the blessid lyf of Ihesu</title>
+                        </head>
+
+
+                        <ab>The first leaf with 46 capitula is gone</ab>
+                        <ab locus="1r">The note <q>Adtendite lector</q> follows the capitula: but not the
+                            memorandum</ab>
+                        <ab locus="1v">Prohemium with <decoNote>good border and initial</decoNote> on f.
+                                <locus>1v</locus></ab>
+                        <ab locus="4v">Text, <decoNote>fine initial and partial border</decoNote></ab>
+                        <ab>On f. <locus>128r</locus> is pasted a bit of a leaf of a <handNote>very finely
+                                written</handNote> Breviary(?) with a <decoNote>beautiful piece of border</decoNote>:
+                            cent. <date>xiv-xv</date></ab>
+
+
+                    </msItem>
+
+
+                    <msItem n="2" locusStart="132v" locusEnd="142r">
+
+                        <head type="CCC">
+                            <title>Treatise on the Sacrament</title>
+                        </head>
+
+
+                        <head type="Nasmith">
+                            <title>Treatise of the sacrament</title>
+                        </head>
+
+
+                        <ab>The tract on the Sacrament begins on f. <locus>132v</locus></ab>
+                        <ab>Ending</ab>
+                        <explicit locus="142r">&#254;y life blessid with outen endynge. Amen</explicit>
+                        <rubric locusNew="142r">Lorde Ihesu &#254;y blissed life helpe and comforte oure wrecchid
+                            life</rubric>
+
+                        <ab>
+                            <quote>The name of the author or possessor of this book was formerly written in golden
+                                letters on a vacant page at the end, but thro' time or accident is now partly defaced;
+                                the only remaining words are these, <q><name type="person">Johannes Monke</name> ...
+                                        <name type="person">Michael</name>...</q></quote>
+                        </ab>
+                        <ab>On f. <locus>142v</locus> at top in gold are the names<lb/>
+                            <q><name type="person">Iohannes Monke</name> ... <name type="person">Michael</name></q> but
+                            I see no trace of erasure. They have been meant to stand over a picture which was never
+                            drawn</ab>
+
+
+                    </msItem>
+
+
+
+
+                </msContents>
+
+
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, CF</p>
+                            <p>msCheck: NJM 01.06.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

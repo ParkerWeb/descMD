@@ -1,0 +1,157 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC088">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>88</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>M. 5</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>141</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Claudius Taurinensis, Commentary on Matthew</head>
+                <head type="James">Claudius Clemens super Matthaeum</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">385</height>
+                        <width unit="mm">280</width>
+                    </measureGrp><measureGrp type="James">15.2 x 11</measureGrp>, <extent>ff. 192 + 1</extent>,
+                        <layout>double columns of 34 lines</layout>. Cent. <origDate>x</origDate> (x-xi <name
+                        type="person">Bradshaw</name>), <handNote>in a fine upright minuscule</handNote>, <decoNote>with
+                        beautiful Celtic initials</decoNote>.</p>
+
+                <p rend="afterContents">Two hands are employed, one larger in the latter part of the book. The condition
+                    is very good.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num>-23<num>8</num> 24<num>10</num> (wants 9, 10)</collation>: old
+                    foliation incorrect.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>tore et aduocato</secFol>.</p>
+
+
+                <p function="Additions">Binding, old boards re-covered. At the end is part of a leaf of a finely written
+                    service-book <handNote>in <origDate>xv</origDate>th cent. English hand</handNote> containing
+                    Epistles.<lb/> Both on the flyleaf <supplied>(<locus>iiv</locus>)</supplied> and at top of f.
+                        <locus>1r</locus> are the letters <q>BO</q>
+                    <handNote>in a <origDate>xv</origDate>th cent. hand</handNote>.<lb/> On the flyleaf
+                            <supplied>(<locus>iiv</locus>)</supplied> is an old title (<origDate>xv-xvi</origDate>) and
+                    a <origDate>xvi</origDate>th cent. note on <name type="author">Claudius Clemens</name>.</p>
+                <p function="Provenance"><ref type="bibl" target="Leland 1775d">Leland Collectanea IV 150</ref> saw at
+                        <name type="place">Sherborne Abbey</name>: <q><name type="author">Claudius</name> super <name
+                            type="person">Matthaeum</name> scriptus litteris Longobardicis.</q>
+                    <name type="person">Mr Bradshaw</name> noted that it had belonged to <name type="person"
+                    >Bale</name>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-ii + 1-124 + 124a + 125-192 + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="191v">
+                        <head type="CCC"><name type="author">Claudius Taurinensis</name>, <title>Commentary on
+                                Matthew</title></head>
+                        <head type="James">
+                            <title>Claudius Clemens super Matthaeum</title>
+                        </head>
+
+                        <rubric locusNew="1r">Incipit prefatio <name type="author">Claudii presbiteri</name></rubric>
+                        <ab>(in capitals)</ab>
+                        <ab>(<ref type="bibl" target="Migne 104">P. L. CIV 835</ref>)</ab>
+                        <incipit locus="1r">Domino sancto ac beatissimo et mihi peculiari cultu etc.</incipit>
+                        <ab>
+                            <decoNote>The initial is very fine, with panels of interlaced work in the letter and in the
+                                field within. Green, purple, yellow and two reds are employed</decoNote>
+                        </ab>
+                        <explicit locusNew="2r">memento mei uir dei</explicit>
+                        <rubric locusNew="2r">Explicit prefatio</rubric>
+                        <ab>Printed from other MSS. in <ref type="bibl" target="Duemmler 1895">MGH. Epistolae IV
+                                593</ref></ab>
+                        <ab locus="2r">Capitula of Liber I.</ab>
+                        <ab>
+                            <ref type="bibl" target="Mai 1844">Mai <hi rend="italic">Nova Biblioteca</hi> I 501</ref>
+                        </ab>
+                        <ab>Text</ab>
+                        <incipit locus="2r">Post aduentum spiritus sancti super discipulos</incipit>
+                        <ab>
+                            <decoNote>Another very fine initial in the same colours</decoNote>
+                        </ab>
+                        <ab locus="74r">Capitula of Liber II</ab>
+                        <ab locus="74v">Text. <decoNote>Smaller but very curious and beautiful initial</decoNote></ab>
+
+                        <ab locus="133r">Capitula of Liber III</ab>
+                        <ab locus="133v">Text. Initial not inserted</ab>
+                        <ab>Liber III ends</ab>
+                        <explicit locus="192v" locusNew="191v">quemadmodum uidistis eum euntem in caelum.
+                            Amen</explicit>
+
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: checked RJR 23.08.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

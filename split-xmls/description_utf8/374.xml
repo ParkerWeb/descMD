@@ -1,0 +1,181 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC374">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>374</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>10. 2</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>328</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Brut. Ralph Marham OESA, Manipulus chronicorum ab mundi initio usque ad sua tempora
+                    (extract)</head>
+                <head type="James">Chronica</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">210</height>
+                        <width unit="mm">144</width>
+                    </measureGrp><measureGrp type="James">8.3 x 6</measureGrp>, <extent>ff. 81</extent>, <layout>two
+                        volumes, 26 and 30 lines to a full page</layout>. Cent. <origDate>xv-xvi</origDate> and
+                        <origDate>xv late</origDate>, <handNote>fairly well written</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1<num>10</num>-7<num>10</num> || 8<num>12</num> (11 canc.)</collation>.</p>
+
+                <p function="Provenance">On <locus locusNew="1r">1</locus> at top in <name type="person">Parker</name>'s
+                    red chalk is TW (for <name type="person">Twyne</name> or <name type="person">T. Wotton</name>) which
+                    should indicate a <name type="place">Canterbury</name> origin for the book.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-49 + 49a + 50-80 + iii-iv</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="enm gre">Latin, Middle English and Greek.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="1r" locusEnd="68r">
+                        <head type="CCC">
+                            <title>Brut (epitome to 1429)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Chronica bona seu epitome chronicorum a <name type="person">Bruto</name> ad <name
+                                    type="person">Henricum VI</name></title>
+                        </head>
+                        <ab>Text begins</ab>
+                        <incipit locus="1" locusNew="1r">Considerans historie britonum Pictorum Scottorum Saxonum
+                            Anglorum Danorum ac Normannorum prolixitatem necnon et difficultatem</incipit>
+                        <explicit locusNew="1r">usque ad Regem nostrum <name type="person">Henricum</name> filium <name
+                                type="person">Johannis Ducis Lancastr.</name> filii <name type="person">Edwardi
+                                tercii</name> dicti graciosi natum apud <name type="place">Wyndesore</name> ordinem
+                            historie sic produxi</explicit>
+
+                        <incipit locusNew="1r">Post excidium <name type="place">Troie</name></incipit>
+
+                        <ab locusNew="54v">The text of the French treaty of <date>1420</date> is given in full, pp.
+                                <locus locusNew="54v">110</locus>-<locus locusNew="65v">132</locus></ab>
+                        <ab>Ends with the Parliament of <date>1429</date></ab>
+                        <explicit locus="136" locusNew="67v">per milites Parliamenti et Communitat. regni <name
+                                type="place">anglie</name> duas integras quintas decimas</explicit>
+
+
+                        <ab><locus locusNew="68r">137</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="2" locusStart="68v" locusEnd="69v">
+
+                        <head type="Nasmith">
+                            <title>Receipts for a sore side and a morfew</title>
+                        </head>
+
+                        <ab>Receipts in English, <handNote>roughly written</handNote></ab>
+
+                        <ab locusNew="69v">On <locus locusNew="69v">140</locus> at top a note <hi rend="italic"
+                                >perhaps</hi> by <name type="person">Robert Talbot</name>:
+                            &#949;&#787;&#947;&#768;&#969; &#964;&#959;&#957;
+                            &#946;&#965;&#946;&#955;&#769;&#965;&#959;&#957;
+                            &#949;&#787;&#954;&#955;&#949;&#960;&#964;&#963;&#768;&#945;
+                            &#945;&#960;&#959; &#964;&#959;&#965;
+                            &#953;&#787;&#961;&#788;&#945; &#964;&#959;&#965;
+                            &#965;&#943;&#957;&#948;&#768;&#949; (=? I stole the book from the
+                            priest of Wendy or <name type="place">Windsor</name>?) and other scribbles</ab>
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="3" locusStart="70r" locusEnd="80v">
+
+                        <head type="CCC">
+                            <name type="author">Ralph Marham OESA</name>, <title>Manipulus chronicorum ab mundi initio
+                                usque ad sua tempora (extract)</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Manipulus chronicarum, distinctio 7</title>
+                        </head>
+
+                        <ab>
+                            <quote>Post descriptionem <name type="place">Angliae</name> et divisionem ejus in comitatus
+                                et episcopatus multa ex variis autoribus colliguntur in opprobrium gentis</quote>
+                        </ab>
+                        <ab locus="1" locusNew="70r">Beginning of a table with references (apparently) to the Manipulus
+                            Chronicarum</ab>
+                        <rubric locus="2" locusNew="70v">Manipulus Cronicarum. Distinccione 7 .c. primo</rubric>
+                        <incipit locusNew="70v"><name type="place">Britannie maiori</name> nomen primum fuit <name
+                                type="place">Albion</name> ab albis rupibus</incipit>
+                        <ab>On <locus locusNew="73v">8</locus> a section de translacionibus episcoporum</ab>
+                        <ab locus="11" locusNew="75r">De destruccione pictorum et Ritu Anglorum C. 15. De Ritu Anglorum
+                                <name type="person">Willelmus</name> Li. 3. Gens Anglicana cum hostes externos funditus
+                            depresserit</ab>
+                        <ab locus="14" locusNew="76v">Ends with a paragraph on <hi rend="italic">mira maris
+                                Anglicane</hi> (monkfishes, etc.)</ab>
+                        <ab>On <locus locusNew="77r">15</locus> a passage from <name type="author">John of
+                                Bridlington</name>'s prophecy</ab>
+                        <ab><locus locusNew="77v">16</locus>-<locus locusNew="79r">19</locus> blank</ab>
+                        <ab><locus locusNew="79v">20</locus> has a late note from <name type="author">Simeon of
+                                Durham</name></ab>
+                        <ab><locus locusNew="80r">21</locus> blank</ab>
+                        <ab><locus locusNew="80v">22</locus> covered with scribbles and pen-trials</ab>
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: NJC 9/12/2008</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

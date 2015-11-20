@@ -1,0 +1,135 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC490">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>490</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>none</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>none</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Register of Books and Plate belonging to Corpus Christi College, Cambridge</head>
+                <head type="James">Register</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">300</height>
+                        <width unit="mm">210</width>
+                    </measureGrp><measureGrp type="James">11.8 x 8.5</measureGrp>, <extent>ff. 37</extent>. Begun in
+                        <origDate>1613</origDate>.</p>
+
+                <p>At one end is a Register concerning the Library, at the other a Register of Plate.</p>
+                <p><decoNote><name type="person">Parker</name>'s arms are blazoned on the flyleaf: surmounted by a
+                        mitre</decoNote>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-9 + 9a + 10 + 10a + 11-36 + iii-iv</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="22r">
+                        <head type="CCC">
+                            <title>Register of Books in the libraries of <name type="place">Corpus Christi College,
+                                    Cambridge</name></title>
+                        </head>
+
+                        <rubric locusNew="1r">Registrum omnium librorum in utraque Bibliotheca Exteriore silicet et
+                            Interiore <name type="place">Collegii Corporis Christi Cantabrigiensis</name> anno dominicae
+                            incarnationis <date>MDCXIII Kalend. April.</date> atque inde porrň</rubric>
+
+                        <ab>The Bibliotheca Exterior is first treated. The records of donations go down to
+                                <date>1660</date>. The only manuscript mentioned is the Koran given by <name
+                                type="person">Mr Hitchcock</name> (<ref type="ms" target="CCC249">no. 249</ref>)</ab>
+
+                        <ab>After 14 blank leaves we have the Bibliotheca Interior</ab>
+
+                        <ab>A few manuscripts <q>extra Catologum</q> are mentioned: see further on the <hi rend="italic"
+                                >Libri ab aliis donati</hi> in the <ref type="bibl" target="James 1912a"
+                                >Introduction</ref></ab>
+
+                        <ab>The entries cover about a page</ab>
+
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="36r" locusEnd="22v">
+                        <head type="CCC">
+                            <title>Register of Plate belonging to <name type="place">Corpus Christi College,
+                                    Cambridge</name></title>
+                        </head>
+
+                        <ab>
+                            <supplied>The volume has been turned upside-down and restarted from the back</supplied>
+                        </ab>
+                        <ab>The Register of Plate begins with a resolution of the College (<date>8 June 1648</date>)
+                            that such a Register should be kept</ab>
+                        <ab>Then follow the arms of each donor very carefully drawn and a notice of his gift. These run
+                            from about <date>1590</date> to <date>1743</date></ab>
+                        <ab>The first 45 cups described were sold for Ł142. 10s. in <date>1648</date> and
+                                <date>1649</date>, according to a statement on f. <locus locusNew="33r">4v</locus>
+                            signed by the Master and Bursar</ab>
+                        <ab>There are other records of sales in <date>1656</date> and <date>1693/4</date></ab>
+                    </msItem>
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: checked by RJR 23.08.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

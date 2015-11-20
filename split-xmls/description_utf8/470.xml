@@ -1,0 +1,348 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC470">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>470</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>G. 13</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>74</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Kalendar of Norwich Cathedral Priory, Office of the Virgin, Litany, Prayers. Hildebert
+                    of Lavardin, De mysterio missae. Lawrence of Durham OSB, Hypognosticon. Osbert of Bawdsey, De
+                    expugnatione Lysbonensi. Sermon, Ab oriente uenerunt magi </head>
+                <head type="James">Hildebertus, Laurent. Dunelmensis, Osbernus, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">155</height>
+                        <width unit="mm">112</width>
+                    </measureGrp>, <measureGrp type="James">6 x 4.2</measureGrp>, <extent>ff. 2 + 149 + 2</extent>,
+                        <layout>23, 29, 26, 31 lines to a page. Three main volumes of</layout> cent. <origDate>xii late
+                        and xiii</origDate>, <handNote>in several hands</handNote>.</p>
+
+                <p function="Multivolume"><lb/><label>Volume II:</label>
+                    <handNote>in a very beautiful upright hand</handNote>, cent. <origDate>xii late</origDate>.
+                        <lb/><label>Volume III:</label> Change of hand. <lb/><label>Volume IV:</label>
+                    <handNote>in a good small clear pointed hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num>, 1<num>12</num> | 2<num>8</num> (wants 1) 3<num>8</num> 4<num>8</num> |
+                            5<num>16</num> 6<num>12</num>-11<num>12</num> (+1) | 12<num>6</num> 13<num>6</num>
+                            14<num>8</num> 15<num>6</num> (wants 6) | b (three)</collation>.</p>
+
+                <p function="Provenance">From <name type="place">Norwich</name>: on f. <locus>24r</locus> at top is the
+                    press-mark N. lxix. The Kalendar is also of <name type="place">Norwich</name>.</p>
+
+                <p function="Additions">A late and mutilated note on f. <locus>ir</locus> (<origDate>xv</origDate>).</p>
+
+                <p function="Additions">Flyleaf, parts of two leaves of a <origDate>xiii</origDate>th cent. logical (?)
+                    MS. with some scribbles: <handNote>one of these might be in <name type="person">Bucer</name>'s
+                        hand</handNote>, another of cent. <origDate>xiii</origDate> is:<lb/><name type="person"
+                        >Robertus</name> surgito cras et ito ad officium.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-ii + 1-149 + iii-v + c-d</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="1r" locusEnd="12v">
+                        <head type="CCC">
+                            <title>Kalendar of <name type="place">Norwich</name> Cathedral Priory</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Calendarium</title>
+                        </head>
+
+                        <ab locus="1r">Kalendar <decoNote>in red and black</decoNote> (<origDate>xiv early?</origDate>).
+                            Each month occupies a leaf and has elaborate tables of the Cycles. January and February are
+                            at the end</ab>
+
+
+                        <ab locus="1r"><hi rend="bold">March</hi><lb/>
+                            <name type="person">Adrian</name>, <name type="person">Perpetua</name>, <name type="person"
+                                >Geretrudis</name>, <name type="person">Cuthbert</name>, added<lb/>
+                            <supplied agent="NJM">Cuthbert is actually in the original hand</supplied><lb/> 24 Passio
+                                <name type="person">S. Willelmi</name>, <decoNote>red</decoNote></ab>
+
+                        <ab locus="2r"><hi rend="bold">April</hi><lb/>
+                            <name type="person">Petri Martyris</name>, added</ab>
+
+
+                        <ab locus="3r"><hi rend="bold">May</hi><lb/> 7 <name type="person">Domiciani</name>, added<lb/>
+                            11 <name type="person">Engulphi</name>, added<lb/> 13 <name type="person">Seruacii</name>,
+                            added<lb/> 19 <name type="person">Dunstan</name>, original<lb/> 20 <name type="person"
+                                >Ethelbert</name>, original<lb/> 28, 29, 31 <name type="person">Germanus</name>, <name
+                                type="person">Maximus</name>, <name type="person">Petronilla</name>, added</ab>
+
+
+                        <ab locus="4r"><hi rend="bold">June</hi><lb/> 1 <name type="person">Nicodemus </name>(!) = <name
+                                type="person">Nicomede</name>, added<lb/>
+                            <name type="person">Bonefacii</name>, <name type="person">Medardi</name>, added<lb/> 25
+                                <name type="person">Gallicani</name>, added<lb/> 27 vii dormientes, added<lb/>
+                            <name type="person">Botulph</name>, <name type="person">Alban</name>, <name type="person"
+                                >Etheldreda</name>, original</ab>
+
+
+                        <ab locus="5r"><hi rend="bold">July</hi><lb/> 19 <name type="person">Wilgefortis</name>, added:
+                            in margin <name type="person">Vncumbyr</name><lb/> 26 <name type="person">Anna</name>,
+                            added<lb/> 31 <name type="person">Neoti</name>, <name type="person">Germani</name>,
+                            original</ab>
+
+
+                        <ab locus="6r"><hi rend="bold">August</hi><lb/>
+                            <name type="person">Oswald</name>, <name type="person">Taurinus</name>, original<lb/>
+                            <name type="person">Clara</name>, added</ab>
+
+
+                        <ab locus="7r"><hi rend="bold">September</hi><lb/> 16 Transl. S. reliquiarum, original<lb/> 24
+                            Dedic. eccl. <name type="place">norwyc</name>. <decoNote>red with octave</decoNote></ab>
+
+
+                        <ab locus="8r"><hi rend="bold">October</hi><lb/> 6 <name type="person">Fidei</name>,
+                                <decoNote>red</decoNote><lb/> 7 <name type="person">Osithe</name><lb/> 13 <name
+                                type="person">Edwardi</name>, added<lb/> 17 Transl. <name type="person">S.
+                                Etheldrede</name>, original</ab>
+
+
+                        <ab locus="9r"><hi rend="bold">November</hi><lb/> 16 <name type="person">Edmundi C</name>.
+                                <decoNote>red</decoNote><lb/> 17 added : <name type="person">Anian</name>. <name
+                                type="person">Gengoul</name><lb/> 20 <name type="person">Emundi reg</name>.,
+                                <decoNote>red</decoNote></ab>
+
+
+                        <ab locus="11r"><hi rend="bold">January</hi><lb/> 15 Boniti et maur. orig.: marg. added: <name
+                                type="person">Maka</name>, <name type="person">Antony</name>, <name type="person"
+                                >Martha</name>, <name type="person">Emerenciana</name>, <name type="person"
+                                >Timothy</name>, <name type="person">Polycarp</name>, <name type="person"
+                                >Valerius</name>, <name type="person">Radegund</name></ab>
+
+
+                        <ab locus="12r"><hi rend="bold">February</hi><lb/> 2 <name type="person">Brigide</name>,
+                            added<lb/> 5 <name type="person">Gilberti</name>, added<lb/> Also <name type="person"
+                                >Vedast</name>, <name type="person">Helen</name>, <name type="person">Sotheris</name>,
+                                <name type="person">Faustinus</name>, <name type="person">Iuliana</name>, and (26) <name
+                                type="person">Augustine</name></ab>
+                        <ab>
+                            <handNote>The additions seem to betray the hand of a foreigner</handNote>
+                        </ab>
+
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="2" locusStart="13r" locusEnd="23v">
+                        <head type="CCC">
+                            <title>Office of the Virgin, Litany, Prayers</title>
+                        </head>
+
+                        <ab locus="13r">Daily offices</ab>
+                        <rubric locus="13r">Ante matutinas</rubric>
+                        <incipit locus="13r">Ad dominum cum tribularer</incipit>
+                        <incipit locus="13r">Omnipotens sempiterne deus qui facis mirabilia solus</incipit>
+                        <rubric locus="13r">Matutinas de Sancta Maria</rubric>
+                        <incipit locus="13r">Hymn. Quem terra</incipit>
+                        <incipit locus="13r">Antiphon. Benedicta tu</incipit>
+                        <ab locus="13v">Lectio I</ab>
+                        <incipit locus="13v">O beata maria quis tibi digne ualeat</incipit>
+                        <ab locus="13v"><supplied>Lectio</supplied> II</ab>
+                        <incipit locus="13v">Admitte piissima</incipit>
+                        <ab locus="13v"><supplied>Lectio</supplied> III</ab>
+                        <incipit locus="13v">Sancta maria succurre</incipit>
+                        <ab locus="14r">Capitulum in Lauds</ab>
+                        <incipit locus="14r">Sancta et immaculata</incipit>
+                        <ab locus="14r">Memoriae in Lauds</ab>
+                        <ab locusNew="14v"><name type="person">Augustine</name> as confessor</ab>
+                        <ab locus="15v">After Prime the Litany</ab>
+                        <ab>Martyrs: <name type="person">Edmunde</name>, <name type="person">Albane</name>, <name
+                                type="person">Wlfade</name>, <name type="person">Dionisi</name>, <name type="person"
+                                >Maurici</name>, etc.</ab>
+                        <ab>Confessors: <name type="person">Remigi</name>, <name type="person">Audoene</name>, <name
+                                type="person">Germane</name>, <name type="person">Iuliane</name>, <name type="person"
+                                >Aug. cum soc.</name>, <name type="person">Cuthberte</name>, <name type="person"
+                                >Ceadda</name>, <name type="person">Swithune</name>, <name type="person"
+                                >Benedicte</name>, <name type="person">Jeronime</name>, <name type="person"
+                                >Leonarde</name>, <name type="person">Egidi</name></ab>
+                        <ab>Virgins: none English</ab>
+                        <ab><name type="person">Wlfadus</name> was honoured at <name type="place"
+                            >Peterborough</name></ab>
+                        <ab locus="17v">Tierce</ab>
+                        <ab locusNew="19r">After Compline:</ab>
+                        <rubric locus="19r">Oratio in parasceue ante crucem</rubric>
+                        <incipit locus="19r">Domine Ihesu Christe fili dei uiui qui precepto patris nostre carnis
+                            infirma suscipiens</incipit>
+                        <rubric locus="20v">Oratio <name type="person">Anselmi Archiepiscopi
+                            Cantuariensis</name></rubric>
+                        <incipit locus="20v">Omnipotens deus et misericors pater</incipit>
+                        <rubric locus="20v">Oratio <name type="person">Sancti Augustinni</name> ante lectionem uel
+                            predicationem</rubric>
+                        <incipit locus="20v">Deus lux mentium expelle a me stulticie noctem</incipit>
+                        <rubric locus="21r">Oratio <name type="person">Sancti Ambrosii</name></rubric>
+                        <incipit locus="21r">Christe pater misericordiarum</incipit>
+                        <rubric locus="21r">Oratio <name type="person">uenerabilis Bede</name> presbyteri</rubric>
+                        <incipit locus="21r">Domine deus qui es uera et eterna</incipit>
+                        <incipit locus="21v">Omnipotens sempiterne deus respice propicius preces ecclesie tue</incipit>
+                        <ab>ff. <locus>22r</locus>-<locus>23v</locus> blank</ab>
+
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="24r" locusEnd="35v">
+                        <head type="CCC">
+                            <name type="author">Hildebert of Lavardin</name>, <title>De mysterio missae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Hildebertus</name>, de missa</title>
+                        </head>
+
+                        <ab locus="24r"><name type="author">Hildebertus</name> super missam.<handNote> A smaller
+                                hand</handNote></ab>
+                        <incipit locus="24r">Scribere proposui quid mistica sacra priorum</incipit>
+                        <ab>(<ref type="bibl" target="Migne 171"><supplied>P. L.</supplied> CLXXI 1177</ref>)</ab>
+                        <explicit locus="35r">Cum pater ad dextram cedit. et explet opus</explicit>
+                        <rubric locus="35r">Explicit</rubric>
+                        <ab locus="35v">blank</ab>
+
+                    </msItem>
+
+
+                    <milestone n="III" unit="volume"/>
+
+
+                    <msItem n="4" locusStart="36r" locusEnd="124v">
+                        <head type="CCC">
+                            <name type="author">Lawrence of Durham OSB</name>, <title>Hypognosticon</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Laurentii Dunelmensis</name> hypognosticon ad <name type="person"
+                                    >Gervasium</name></title>
+                        </head>
+
+                        <rubric locus="36r"><title>Yponosticon</title>
+                            <name type="author">laurencii du(ne)lmensis</name> de ueteri et nouo testa- mentis. Incipit
+                            liber primus</rubric>
+                        <incipit locus="36r">Principium rerum sine tempore tempora formans</incipit>
+                        <ab locus="124v">Liber IX ends</ab>
+                        <explicit locus="124v">Noster et iste liber qui primum cepit ab ipso. Completus per eum desinat
+                            hic in eo</explicit>
+                        <rubric locusNew="124v">Explicit iste liber sit laus tibi summe magister</rubric>
+                        <rubric locus="124v">Explicit liber <name type="author">laurencii dunelmensis</name></rubric>
+                        <ab>
+                            <ref type="bibl" target="Raine 1880">The prologue and some excerpts were edited with other
+                                works of <name type="person">Laurence</name>'s for the Surtees Society in 1880 by J.
+                                Raine</ref>
+                        </ab>
+                        <ab>On the last few leaves of it are many grammatical verses and <handNote>notes in various
+                                hands</handNote></ab>
+                        <ab locus="124v">note on Alleluia</ab>
+                        <ab>Grammatical verses</ab>
+
+                    </msItem>
+
+                    <milestone n="IV" unit="volume"/>
+
+                    <msItem n="5" locusStart="125r" locusEnd="146v">
+                        <head type="CCC">
+                            <name type="author">Osbert of Bawdsey</name>, <title>De expugnatione Lysbonensi</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Expeditio Francorum Anglorum et variarum nationum ad obsidendum Ulissipona in <name
+                                    type="place">Portugallia</name>, tempore <name type="person">Hildefonsi regis</name>
+                                per <name type="author">Osbernum</name></title>
+                        </head>
+
+                        <head type="James">
+                            <name type="author">Osbernus</name>
+                            <title>de expugnatione Lyxbonensi</title>
+                        </head>
+                        <incipit locus="125r"><name type="author">Osbernus de Baldreseie</name> R. salutem. Qualiter
+                            circa nos habeatur</incipit>
+                        <explicit locus="146r">luctus eorum in gaudium. ut cognoscant te solum deum uiuum et uerum et
+                            quem misisti Ihesum Christum filium tuum qui uiuis et regnas per omnia secula seculorum.
+                            Amen</explicit>
+                        <ab>Printed from this, the only extant copy, perhaps the author's autograph, by <ref type="bibl"
+                                target="Stubbs 1864">Stubbs <hi rend="italic">Memorials of Richard I</hi>, I
+                                cxlii-clxxxii</ref></ab>
+                        <ab locus="146v">blank</ab>
+
+                    </msItem>
+
+
+                    <msItem n="6" locusStart="147r" locusEnd="149v">
+                        <head type="CCC">
+                            <title>Sermon, Ab oriente venerunt magi</title>
+                        </head>
+
+                        <ab locus="147r">
+                            <handNote>A sermon in another good hand</handNote>
+                        </ab>
+                        <rubric locus="147r">Ab oriente uenerunt magi in bethleem adorare deum</rubric>
+                        <incipit locus="147r">Dominus nobiscum sit et deducat nos per uias rectas</incipit>
+                        <ab locus="149r">Note from <name type="person">Gregory</name>'s Pastoralis and another</ab>
+                        <ab locus="149v">blank</ab>
+
+
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJM 9/1/2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

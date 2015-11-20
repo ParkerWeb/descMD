@@ -1,0 +1,253 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC397">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>397</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Misc. N</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>395</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Peter the Chanter, Distinctiones Abel. Petrus Riga, Aurora. Miscellaneous Theological
+                    Texts</head>
+                <head type="James">P. Cantor. P. de Riga Aurora, etc.</head>
+                <p function="Codicology"><material>Paper and vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">212</height>
+                        <width unit="mm">159</width>
+                    </measureGrp>, <measureGrp type="James">8.5 x 6.1</measureGrp>, <extent>ff. 16 + 66 + 63 +
+                        33</extent>, <layout>several volumes</layout>. Cent. <origDate>xvi and xiii</origDate>.</p>
+
+                <p function="Multivolume"><lb/><label>Volume I:</label> Printed tract of <extent>16
+                        leaves</extent>.<lb/><label>Volume II:</label> Cent. <origDate>xiii</origDate>, <handNote>a
+                        small hand</handNote>, <layout>51 lines to a page</layout>.<lb/><label>Volume III:</label> Cent.
+                        <origDate>xiii</origDate>, <layout>mostly double columns of 53 lines</layout>.<lb/><label>Volume
+                        IV:</label> Cent. <origDate>xiii</origDate>, <layout>35 lines to a page</layout>.</p>
+
+
+                <p>
+                    <label>Collation:</label>
+                    <lb/>
+                    <label>Volume I:</label>
+                    <collation>1<num>10</num> (7, 8 canc.) 2<num>10</num> 3<num>10</num> 4<num>8</num> 5<num>8</num>
+                            6<num>10</num> 7<num>12</num></collation>.<lb/>
+                    <label>Volume II:</label>
+                    <collation>1<num>8</num> 2<num>8</num> (3 canc.) 3<num>8</num>-8<num>8</num></collation>.<lb/>
+                    <label>Volume III:</label>
+                    <collation>1<num>8</num> 2<num>10</num> 3<num>8</num> 4<num>8</num> (wants 8)</collation>. </p>
+
+                <p type="CCC"><foliation>ff. 1-178</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+                    <milestone n="I" unit="volume"/>
+                    <msItem n="1" locusStart="1r" locusEnd="16v">
+
+                        <head type="CCC"><name type="author">Petrus de Vincentia</name>, <title>De beatae uirginis
+                                conceptione ducentorum et sexdecim sanctae matris ecclesiae doctorum</title></head>
+
+                        <head type="Nasmith">
+                            <title>De beatae virginis conceptione ducentorum et sexdecim sanctae matris ecclesiae
+                                doctorum vera tuta et tenenda sententia [quod contraxit peccatum originale] per <name
+                                    type="person">Petrum de Vincentia</name> ordinis predicatorum</title>
+                        </head>
+
+
+
+                    </msItem>
+
+
+
+                    <milestone n="II" unit="volume"/>
+                    <msItem n="2" locusStart="17r" locusEnd="81v">
+                        <head type="CCC"><name type="author">Peter the Chanter</name>, <title>Distinctiones
+                            Abel</title></head>
+                        <head type="Nasmith">
+                            <title><name type="author">Petri cantoris Parisiensis</name> tractatus de
+                                distinctionibus</title>
+                        </head>
+
+                        <ab>At top of f. <locus locusNew="17r">1r</locus> is the title (<date>xv late</date>)
+                            Parisiensis in distinccionibus and also an old press-mark 12&#729;20, of cent.
+                                <date>xv</date>, which I do not recognise</ab>
+
+                        <incipit locus="1r" locusNew="17r"><name type="person">Abel</name> dicitur principium ecclesie
+                            propter innocenciam</incipit>
+                        <ab>Ends</ab>
+                        <rubric locusNew="81v">Christus</rubric>
+                        <explicit locusNew="81v">Est leo surgendo iouis ales summa petendo</explicit>
+                        <rubric locusNew="81v">Explicit distinccionum tractus <name type="author">cantoris
+                                parisiensis</name></rubric>
+                        <ab locusNew="81v">Note on precious stones</ab>
+                        <ab>See <ref type="ms" target="CCC047">no. 47</ref></ab>
+
+                    </msItem>
+
+
+                    <msItem n="3" locusStart="82r" locusEnd="82v">
+                        <head type="CCC"><name type="person">pseudo-Isidore of Seville</name>, <title>Differentiarum
+                                siue de proprietate sermonum (excerpts)</title></head>
+
+                        <ab>
+                            <layout>In double columns</layout>
+                        </ab>
+                        <rubric locus="66r" locusNew="82r">Incipit liber qui inscribitur ars rationis de proprietate
+                            seruicii diuersarum rerum</rubric>
+                        <incipit locusNew="82r">Inter polliceri et promittere hoc interest quod promittimus roganti
+                            pollicemur ultro</incipit>
+                        <ab>(<ref type="bibl" target="Migne 083"><supplied>P. L.</supplied> LXXXIII 1319</ref>
+                            <name type="person">Isidore</name>)</ab>
+                        <ab>Last lines cut off, ends</ab>
+                        <explicit locusNew="82r">Spiritus quo spiramus. Mens qualitas que bona</explicit>
+                        <ab locus="66v" locusNew="82v">blank</ab>
+
+                    </msItem>
+
+
+                    <milestone n="III" unit="volume"/>
+                    <msItem n="4" locusStart="83r" locusEnd="145v">
+                        <head type="CCC"><name type="author">Petrus Riga</name>, <title>Aurora</title></head>
+                        <head type="Nasmith">
+                            <title><name type="author">Petri de Riga</name> aurora</title>
+                        </head>
+
+                        <ab>
+                            <quote>Deesse videntur, liber Hester, Judith, Job, Cantica Canticorum, et magna pars actuum
+                                apostolorum</quote>
+                        </ab>
+                        <rubric locus="1r" locusNew="83r">
+                            <name type="author">Petrus de Riga</name>
+                            <title>Aurora</title>
+                        </rubric>
+                        <incipit locusNew="83r">Omnis scriptura diuinitus inspirata</incipit>
+                        <incipit locus="1v" locusNew="83v">Frequens sodalium meorum peticio</incipit>
+                        <incipit locusNew="83v">Principum mundi quales ab origine prima</incipit>
+
+                        <explicit locusNew="84r">Hec tibi preponi turba scolaris ama</explicit>
+
+
+                        <rubric locus="2r" locusNew="84r">Incipit liber genesis. de operibus sex dierum</rubric>
+                        <incipit locusNew="84r">Primo facta die duo celum terre leguntur</incipit>
+                        <ab locus="10r" locusNew="92r">Exodus</ab>
+                        <ab locus="16r" locusNew="98r">Leviticus</ab>
+                        <ab locus="20r" locusNew="102r">Numeri</ab>
+                        <ab locus="23r" locusNew="105r">Deuteronomium</ab>
+                        <ab locus="24v" locusNew="106v">Josue</ab>
+                        <ab locus="25v" locusNew="107v">Iudicum</ab>
+                        <ab locusNew="109v">
+                            <supplied>Ruth</supplied>
+                        </ab>
+                        <ab locus="27v" locusNew="109v">I Regum</ab>
+                        <ab locus="35v" locusNew="117v">Tobias</ab>
+                        <ab locus="37v" locusNew="119v">Daniel</ab>
+                        <ab locus="41r" locusNew="123r">Iudith</ab>
+                        <ab locus="42r" locusNew="124r">Esther</ab>
+                        <ab locus="43r" locusNew="125r">Macchabeorum</ab>
+                        <explicit locusNew="127r">De patre facturi cesar in aure tua</explicit>
+                        <rubric locus="45v" locusNew="127v">Incipit prologus noui testamenti</rubric>
+                        <incipit locusNew="127v">Post legem ueterem respira petre refulget</incipit>
+                        <explicit locusNew="141v">Dat finem <name type="person">petrus</name> finit et ipse
+                            suum</explicit>
+                        <rubric locusNew="141v">Explicit liber iiii<abbr rend="superscript">or</abbr>
+                            euangelistarum</rubric>
+                        <rubric locusNew="141v">Recapitulatio totius libri sententia (or summa)</rubric>
+                        <incipit locus="59v" locusNew="141v">Principio rerum post quinque dies homo primus</incipit>
+                        <explicit locusNew="143v"><name type="person">Barnabas</name> et <name type="person"
+                                >tytus</name> hii docuere fidem</explicit>
+                        <rubric locusNew="143v">Explicit</rubric>
+                        <rubric locus="61v" locusNew="143v">Incipit actus apostolorum</rubric>
+                        <incipit locusNew="143v"><name type="person">Tyberii</name> nono decimo regnantis in
+                            anno</incipit>
+                        <ab>Ends imperfect</ab>
+
+                        <explicit locus="63v" locusNew="145v">Quod tres <name type="person">herodes</name> fuerint <name
+                                type="person">iosephus</name> manifestat</explicit>
+                        <ab>Other copies are <ref type="ms" target="CCC083">MS 83</ref>. <ref type="ms" target="CCC217"
+                                >MS 217. 13</ref></ab>
+                    </msItem>
+
+
+                    <milestone n="IV" unit="volume"/>
+                    <msItem n="5" locusStart="146r" locusEnd="178v">
+                        <head type="CCC"><name type="author">William de Montibus</name>, <title>Tropi</title></head>
+                        <head type="Nasmith">
+                            <title>Tropi [Mag. <name type="author">Gulielmi de Montibus</name>]</title>
+                        </head>
+
+                        <rubric locusNew="146r">Tropi et phrases scripture (<date>xvi</date>)</rubric>
+                        <incipit locus="1r" locusNew="146r">Dei dona dispensamus pulsantibus claues ostiorum
+                            porrigimus</incipit>
+                        <explicit locusNew="146r">postremo de regulis et quibusdam aliis</explicit>
+                        <rubric locusNew="146r">De dictionibus</rubric>
+                        <incipit locusNew="146r">In primis itaque dicimus quod dictio semel posita</incipit>
+                        <ab>Ends</ab>
+                        <rubric locusNew="178r">Transposicio</rubric>
+                        <explicit locusNew="178v">In leccione uero tum ueteris tum noue legis occurrit figura
+                            conuersionis et transpositionis</explicit>
+
+                        <ab>Cf. <ref type="ms" target="CCC217">MS 217. 9</ref></ab>
+
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: CF 8.1.2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,121 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC240">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>240</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Lib ab Al. 31</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>112</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Thomas Walsingham OSB, Ypodigma Neustriae</head>
+                <head type="James">Th. Walsingham</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">196</height>
+                        <width unit="mm">142</width>
+                    </measureGrp>, <measureGrp type="James">7.8 x 5.8</measureGrp>, <extent>ff. 192</extent>,
+                        <layout>mostly 38 lines to a page</layout>. Cent. <origDate>xv</origDate>, <handNote>in a clear
+                        hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>10</num> (10 canc.) 2<num>8</num>-24<num>8</num> (8 canc.)</collation>.</p>
+
+                <p function="Provenance">On f. <locus>1r</locus> (<origDate>xv</origDate>): liber <name type="person"
+                        key="HugoFrau-001">m hugonis ffraunce</name>.<lb/> Also in red chalk <q>
+                        <name type="person" key="HenryVof-001">henr. 5</name>
+                    </q>.</p>
+
+                <p function="Additions">Binding, brown leather with a little blind tooling (<origDate>xvi</origDate>):
+                    one clasp gone.</p>
+                <p function="Research">The whole manuscript was edited by <ref type="bibl" target="Riley 1876">H. T.
+                        Riley in the Rolls Series, 1876</ref>. It is the only copy of the <hi rend="italic">Ypodigma
+                        Neustriae</hi>.</p>
+
+
+
+                <p type="CCC">
+                    <foliation>ff. i-iii + 1-193. Partially imaged: front cover exterior and interior + ff. i r-iii v +
+                        1r-24v + back cover exterior and interior</foliation>.</p>
+
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="189v">
+                        <head type="CCC">
+                            <name type="author" key="ThomasWa-001">Thomas Walsingham OSB</name>, <title>Ypodigma
+                                Neustriae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author" key="ThomasWa-001">Thomae Walsingham</name> Ypodigma Neustriae
+                                sive historia rerum Normannicarum et Anglicarum a <name type="person" key="RolloofN-001"
+                                    >Rollone primo duce Normanniae</name> ad annum <date>1419</date>, <date>7 Hen.
+                                    V</date></title>
+                        </head>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 16/05/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

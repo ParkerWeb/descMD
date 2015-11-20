@@ -1,0 +1,194 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC510">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>510</idno>
+                    <altIdentifier type="Elbing">
+                        <idno>N. 12</idno>
+                    </altIdentifier>
+
+                </msIdentifier>
+                <head type="CCC">Thomas Aquinas OP (attrib.), Sermones de corpore Christi. Tracts on the Mass. John of
+                    Hildesheim OCarm, Historia trium regum</head>
+                <head type="James">[Untitled]</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">295</height>
+                        <width unit="mm">220</width>
+                    </measureGrp>, <measureGrp type="James">11.7 x 8.5</measureGrp>, <extent>ff. 162</extent>,
+                        <layout>double columns mostly of 45 lines</layout>. Cent. <origDate>xiv (1398, etc.)</origDate>,
+                        <handNote>in several hands</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>12</num>-3<num>12</num> (10-12 blank, torn out) | 4<num>12</num>-12<num>12</num> 13
+                        (one left) | 14<num>12</num> 15<num>12</num> (wants 9-12)</collation>.</p>
+
+                <p function="Provenance"><name type="person">Mary Pe.</name> on f. <locus>4v</locus>.</p>
+                <p function="Additions">Binding as before, metal tags: that on second cover perforated, label illegible,
+                    straps gone.</p>
+                <p function="Additions">List of contents on the cover <supplied>(now missing)</supplied>.</p>
+                <p type="CCC">
+                    <foliation>ff. a-e (fragments) + i-ii + 1-162 + iii + f (fragment)</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="33v">
+                        <head type="CCC"><name type="author">Thomas Aquinas OP (attrib.)</name>, <title>Sermones de
+                                corpore Christi</title></head>
+                        <head type="James">
+                            <title>Sermones <name type="author">thome de aquino</name> de corpore Christi</title>
+                        </head>
+                        <incipit locusNew="1r">Modus procedendi in sermone de sacramento corporis domini</incipit>
+                        <ab>33 sermons ending</ab>
+                        <explicit locusNew="33r">Ista quasi sompniando scripsi vos vigilando ordinate</explicit>
+                        <rubric locusNew="33r">Expliciunt sermones de Corpore Christi beati <name type="author">Thome de
+                                aquino</name> eximii doctoris de ordine predicatorum A. d. <date>m<abbr
+                                    rend="superscript">o</abbr> ccc<abbr rend="superscript">o</abbr> nona<abbr
+                                    rend="superscript">o</abbr> viii</date>. finite ante festum Marie magdalene feria
+                                6<abbr rend="superscript">a</abbr> per manus <name type="person">pauli
+                                campanatoris</name> in mergenvelt miserere kntkus (?)</rubric>
+                        <ab locus="33v">blank</ab>
+                    </msItem>
+
+                    <msItem n="2" locusStart="34r" locusEnd="59v">
+                        <head type="CCC"><name type="author">pseudo-Bonaventure OFM</name>, <title>De officio missae
+                                (Expositio missae)</title></head>
+                        <ab>
+                            <handNote>Another hand</handNote>
+                        </ab>
+                        <rubric locus="34r">Exposicio misse bona</rubric>
+                        <incipit locusNew="34r">Christus assistens pontifex ... de d. I. C. summo et vero
+                            pontifice</incipit>
+                        <explicit locusNew="59r">uniformitas in ipso canone teneatur. Huic opusculo St<abbr
+                                rend="superscript">c</abbr> romana curia inseratur. Amen</explicit>
+                        <rubric locus="59r">Sequitur magnum et valde pulchrum et notabile signum de sacramento
+                            eukaristie</rubric>
+                        <incipit locusNew="59r">In ciuitate coloniensi erat quidam Iudeus qui semper cum christianis
+                            solebat de fide contendere</incipit>
+                        <ab>Receives Host, it is changed into the form of a child and he buries it</ab>
+                    </msItem>
+
+                    <msItem n="3" locusStart="59v" locusEnd="104r">
+                        <head type="CCC">
+                            <title>Summa sacrificiorum</title>
+                        </head>
+                        <head type="James">
+                            <title>Summa sacrificiorum</title>
+                        </head>
+                        <incipit locusNew="59v">Candor lucis eterne et speculum sine macula</incipit>
+                        <explicit locusNew="104r">benedicere et laudare cui laus est et honor et imperium per infinita
+                            secula seculorum. Amen</explicit>
+                        <rubric locusNew="104r">Expliciunt summa sacrificiorum</rubric>
+                    </msItem>
+
+                    <msItem n="4" locusStart="104v" locusEnd="105v">
+                        <head type="CCC">
+                            <title>Tractatus de indulgenciis</title>
+                        </head>
+                        <rubric locus="104v">Tractatus de indulgenciis</rubric>
+                        <incipit locusNew="104v">De indulgenciis primo quid sit indulgencia 2<abbr rend="superscript"
+                                >o</abbr> unde dicatur</incipit>
+                        <explicit locusNew="105v">statim euolabunt ad eterna gaudia ad que nos perducat</explicit>
+                    </msItem>
+
+                    <msItem n="5" locusStart="106r" locusEnd="127r">
+                        <head type="CCC"><name type="author">Bernardus de Parentinis OP</name>, <title>Tractatus de
+                                officio missae</title></head>
+                        <rubric locus="106r">Questiuncule <name type="person">bernhardi</name> de parentinis et <name
+                                type="person">thome de aquino</name></rubric>
+                        <incipit locusNew="106r">Sequuntur aliqua dubia circa officium misse</incipit>
+                        <incipit locusNew="106r">Queritur primo an femina potest accipere karacterem ordinis
+                            clericalis</incipit>
+                        <explicit locusNew="127r">pertinet ad perfeccionem virtutis</explicit>
+                    </msItem>
+
+                    <msItem n="6" locusStart="127r" locusEnd="142v">
+                        <head type="CCC">
+                            <title>De officio lamentacionum</title>
+                        </head>
+                        <rubric locus="127r">Sequitur de officio lamentacionum</rubric>
+                        <incipit locusNew="127r">De officio lamentacionum quod fit per tres noctes</incipit>
+                        <explicit locusNew="135r">Et quamplurima alia transeant pro presenti quia de officio
+                            lamentacionum dicta sufficiunt</explicit>
+                        <ab>ff. <locus>135v</locus>-<locus>142v</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="7" locusStart="143r" locusEnd="162v">
+                        <head type="CCC"><name type="author">John of Hildesheim OCarm</name>, <title>Historia trium
+                                regum</title></head>
+                        <head type="James">
+                            <title><name type="author">John of Hildesheim</name> de tribus Regibus</title>
+                        </head>
+                        <ab>(cf. <ref type="ms" target="CCC179">MS 179</ref>, <ref type="ms" target="CCC275">MS
+                                275</ref>)</ab>
+                        <incipit locusNew="143r">In primo capitulo huius libri qui est collectus</incipit>
+                        <ab>Text</ab>
+                        <incipit locus="144r">Cum venerandorum trium magorum</incipit>
+                        <explicit locusNew="162v">tibi patris tui et amoris sacri frui mereamur gloria. Amen</explicit>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJM 2/2/2009</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

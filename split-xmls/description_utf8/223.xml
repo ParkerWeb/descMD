@@ -1,0 +1,637 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC223">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>223</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Lib. ab Al. 16</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Prudentius, Cathemerinon, Liber apotheosis, Hamartigenia, Psychomachia, Peristephanon,
+                    Contra symmachum, Dittochaeon, De opusculis suis</head>
+                <head type="James">Prudentius</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">245</height>
+                        <width unit="mm">180</width>
+                    </measureGrp>, <measureGrp type="James">9.6 x 7.2</measureGrp>, <extent>ff. 2 + 168</extent>,
+                        <layout>34 lines to a page</layout>. Cent. <origDate>ix-x</origDate> (<name type="person"
+                        >Bradshaw</name>), <handNote>in good Caroline minuscule: two hands at least</handNote>.
+                        <decoNote>In the first part of the book, initials of lines are filled with red and green
+                        alternately</decoNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num> 1<num>8</num> (wants 1) 2<num>8</num>-5<num>8</num> 6<num>10</num>
+                            7<num>10</num> | 8<num>8</num>-20<num>8</num> 21<num>4</num> | one leaf which should follow
+                        quire 20 |</collation>.</p>
+                <p function="Provenance">Given by <name type="person">Daniel Rogers</name>, whose name is at each end
+                    and in the cover. Evidently it was once at <name type="place">St Bertin's Abbey</name> (or an
+                    English dependency of that abbey).</p>
+                <p function="Research" rend="withinContents">This MS. is mentioned by <ref type="bibl"
+                        target="Traube 1907">Traube, <hi rend="italic">Nomina Sacra</hi></ref>, p. 232, as being one of
+                    those in which the contraction nrt for noster is occasionally used. <q>We find it,</q> he says,
+                        <q>from <date>cent. ix to xi</date> at <name type="place">Corbie</name>, <name type="place">St
+                            Bertin</name>, <name type="place">Reims</name>, <name type="place">Troyes</name>, <name
+                            type="place">Langres</name>, <name type="place">Fleury</name> and <name type="place"
+                            >Tours</name>.</q> It is also noticed by <ref type="bibl" target="Dummler 1880"
+                        >D&#252;mmler in <hi rend="italic">Neues Archiv</hi> IV 533</ref>.</p>
+                <p function="Research">
+                    <supplied agent="JamesCorrigenda">The <name type="person">Rev. J. Mearns</name> kindly pointed out
+                        that in the <hi rend="italic">Cathemerinon</hi> the <hi rend="italic">Praefatio</hi> and ll. 1-3
+                        of the <hi rend="italic">Hymnus ad galli cantum</hi> are missing.</supplied>
+                </p>
+                <p type="CCC">
+                    <foliation>pp. i-ii + 1-340 + iii-iv</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="ang gre">Latin, Old English and Greek.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="0" locusStart="1" locusEnd="3">
+                        <head type="CCC">
+                            <title>Notes on Kings of France and the Abbey of Saint-Bertin, medical recipes</title>
+                        </head>
+
+
+                        <ab locus="ir" locusNew="1">
+                            <handNote>in a different hand from the rest</handNote>
+                        </ab>
+                        <ab>List of French Kings</ab>
+                        <ab locus="1"> Primus rex francorum faramundus regnauit annum unum<lb/> ...<lb/>
+                            <name type="person">Karolus</name> imperator ann. xlvii.<lb/>
+                            <name type="person">Hludouuicus</name> imp. ann. xxvii.<lb/>
+                            <name type="person">Karolus (Charles the Bald)</name> anni (blank) </ab>
+                        <ab>
+                            <handNote>So far the original hand</handNote>
+                        </ab>
+                        <!--<ab>Scraped and marginal neumed passages on pp.1-3</ab>-->
+                        <ab>Opposite are the following notes relating to the <name type="place">Abbey of St
+                                Bertin</name> etc.</ab>
+                        <ab locusNew="1">
+                            <q><name type="person">Hlodouius</name> (I) rex: Hic christianus efficitur. Remigius et
+                                sanctus uedastus florent</q>
+                        </ab>
+                        <ab locusNew="1">
+                            <name type="person">Dagobertus</name> (I): <name type="person">S. Audomarus</name> episcopus
+                            ordinatur </ab>
+                        <ab> II <name type="person">Hlodouius</name>: <name type="person">Adroaldus</name> res suas
+                                <name type="person">bertino</name> tradit </ab>
+                        <ab>I <name type="person">Hlotharius</name>: <name type="person">S. Audomarus</name> priuil.
+                            fecit <name type="person">sancto bertino</name></ab>
+                        <ab>I <name type="person">Theodericus</name>: <name type="person">Amalfridus</name> tradidit
+                            hunulfcurt item imm. II</ab>
+                        <ab>II <name type="person">Hilpericus</name>: Fecit inm(unitatem ?) <name type="person"
+                                >Erkenbodo</name> ep<abbr rend="superscript">o</abbr> et abb.</ab>
+                        <ab>III <name type="person">Hlotharius</name>: <name type="person">Pippinus</name> et <name
+                                type="person">karolus</name> sub his regibus ducatum exercent</ab>
+                        <ab>ll <name type="person">Theodoricus</name></ab>
+                        <ab>III <name type="person">Hildricus</name>: In monast. sithiu trusus est</ab>
+                        <ab>After <name type="person">Karolus</name> is written <handNote>in a coarse
+                            hand</handNote></ab>
+                        <ab><name type="person">Carl</name> rex<lb/>
+                            <name type="person">heanric</name> rex</ab>
+                        <ab>Then <handNote>in a better hand</handNote></ab>
+                        <ab><name type="person">Hludouuicus</name> rex<lb/>
+                            <name type="person">Hlotharius</name> rex<lb/>
+                            <name type="person">Hlodouuicus</name> rex ... <name type="person">ludericus</name> rex</ab>
+                        <ab locus="iv" locusNew="2">three receipts</ab>
+                        <rubric locusNew="2">Confectio timiamatis</rubric>
+                        <incipit locusNew="2">gotzumber uncias iii etc.</incipit>
+                        <rubric locusNew="2">Potio in apostema</rubric>
+                        <ab>Glossed in Anglo-Saxon</ab>
+                        <rubric locusNew="2">Item decoctio ad apostoma</rubric>
+                        <ab>After this a line of Anglo-Saxon</ab>
+                        <ab>ae&#254;elfer&#240;ing &#447;yrt. hind hele &#254;e. garclife.
+                            gear&#447;e. med &#447;yrt. henep</ab>
+                        <ab>On <locus locusNew="3">iir</locus> a nonsense couplet twice written</ab>
+                        <ab locusNew="3">
+                            <lg>
+                                <l>Esse sitas olli sedes illo satis oro</l>
+                                <l>Oro sitas olli sedes illo satis esse</l>
+                            </lg>
+                        </ab>
+                        <ab>and scribbles: bit of a Greek alphabet: words</ab>
+                        <ab locusNew="3">
+                            <q>
+                                <name type="person">Willelmus mo(nachus) de</name>
+                            </q>
+                        </ab>
+                        <ab locusNew="3"> Zona kalo pinc </ab>
+
+
+                    </msItem>
+
+                    <msItem n="1" locusStart="4" locusEnd="11">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>Cathemerinon, Hymns 1 and 2</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Opera <name type="author">Aurelii Prudentii Clementis</name> V. C.</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Ymnus matutinus</title>
+                        </head>
+                        <ab locusNew="4">
+                            <quote>Quorum rubricae sequuntur,<lb/> In fronte codicis habetur haec inscriptio, literis
+                                capitalibus, lineis alternatim<lb/> rubris et nigris.<lb/> TESTIMONIUM DE HISTORIA<lb/>
+                                INLUSTRIU VIRORUM CXL ET VIII<lb/>
+                                <name type="author">PRUDENTIUS</name> VIR SECULARIS<lb/> LITTERATURAE ERUDITUS
+                                COMPOSUIT<lb/> DIROCHEUM DE TOTO VETERI<lb/> ET NOVO TESTAMENTO PERSONIS EXCEPTIS<lb/>
+                                COMENTATUS EST ET IN MOREM GRC<lb/> EXAMERON DE MUNDI FABRIC. USQ. AD CONDI |
+                                TIONEM<lb/> PRIMI HOMINIS ET IN PREUARICATIONE EI<abbr rend="superscript">9</abbr><lb/>
+                                Desideratur pars primi libri qui vocatur KATHMHRINON</quote>
+                        </ab>
+                        <ab>On <locus locusNew="4">iiv</locus>
+                            <decoNote>in lines widely separated, in capitals, black and red in alternate
+                                lines</decoNote>, the inscription given by Nasmith</ab>
+                        <ab>The Preface of the Cathemerinon is wanting</ab>
+                        <ab>Hymn 1 begins with line 4</ab>
+                        <incipit locusNew="5">Iam Christus ad uitam uocat</incipit>
+                        <ab>Occasional variants are noted in the margin from the edition of <ref type="bibl"
+                                target="Giselin 1564">Giselinus</ref></ab>
+
+                        <ab>There are glosses (not many) <handNote>in a very fine minute English hand</handNote> of
+                            cent. <origDate>ix?</origDate></ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="11" locusEnd="17">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>Cathemerinon, Hymn 3</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Ymnus ante cibum</title>
+                        </head>
+                        <ab>Neumes occur on pp. <locus>11</locus>-<locus>13</locus></ab>
+                    </msItem>
+
+                    <msItem n="3" locusStart="17" locusEnd="20">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>Cathemerinon, Hymn 4</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Ymnus post cibum</title>
+                        </head>
+                        <ab>Neumes occur on p. <locus>17</locus></ab>
+                    </msItem>
+                    <msItem n="4" locusStart="20" locusEnd="25">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>Cathemerinon, Hymn 5</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Ymnus ad incensum lucernae</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="5" locusStart="25" locusEnd="29">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>Cathemerinon, Hymn 6</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Ymnus ante somnum</title>
+                        </head>
+                        <!--<ab>marginal neumes on p.25</ab>-->
+                    </msItem>
+                    <msItem n="6" locusStart="29" locusEnd="36">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>Cathemerinon, Hymn 7</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Ymnus jejunantium</title>
+                        </head>
+                        <!--<ab>starting at p.30, line 12, neumes within text</ab>-->
+                    </msItem>
+                    <msItem n="7" locusStart="36" locusEnd="38">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>Cathemerinon, Hymn 8</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Ymnus post jejunium</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="8" locusStart="38" locusEnd="41">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>Cathemerinon, Hymn 9</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Ymnus omnis horae</title>
+                        </head>
+                        <!--<ab>neumes on p.39</ab>-->
+                    </msItem>
+                    <msItem n="9" locusStart="41" locusEnd="46">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>Cathemerinon, Hymn 10</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Ymnus circa exequias defuncti</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="10" locusStart="47" locusEnd="50">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>Cathemerinon, Hymn 11</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Ymnus viii kal. Januarias</title>
+                        </head>
+                        <!--<ab>marginal neumes p.47</ab>-->
+                    </msItem>
+                    <msItem n="11" locusStart="50" locusEnd="56">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>Cathemerinon, Hymn 12</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Ymnus Epiphaniae</title>
+                        </head>
+                        <ab locusNew="56">
+                            <quote>finit kat&#951;merinon <name type="author">Prudentii Clementis</name></quote>
+                        </ab>
+                        <ab>Ends p. <locus>56</locus></ab>
+                        <rubric locus="56">FINIT KATHMHRINON <name type="author">PRudENTII CLEMenTIS</name></rubric>
+                    </msItem>
+
+
+                    <msItem n="12" locusStart="56" locusEnd="58">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>Liber apotheosis</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>LIBER I. APOTHEOSIM</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Hymnus de trinitate</title>
+                        </head>
+
+                        <rubric locusNew="56">LIBer &#913;&#928;&#969;&#952;&#919;&#927;CIC
+                            incipit</rubric>
+                    </msItem>
+
+                    <msItem n="13" locusStart="58" locusEnd="63">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>Liber apotheosis continued</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Contra heresim quae patrem passum dicit</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="14" locusStart="63" locusEnd="68">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>Liber apotheosis continued</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Contra Unionitas</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="15" locusStart="68" locusEnd="74">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>Liber apotheosis continued</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Contra Judaeos</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="16" locusStart="74" locusEnd="81">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>Liber apotheosis continued</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Contra Homuncionitas</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="17" locusStart="81" locusEnd="86">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>Liber apotheosis continued</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De natura animae</title>
+                        </head>
+                        <!--<ab>neumes p. 81 in text</ab>-->
+                    </msItem>
+                    <msItem n="18" locusStart="86" locusEnd="90">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>Liber apotheosis continued</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Adversus fantasmaticos qui Christum negant verum corpus hominis habuisse</title>
+                        </head>
+
+
+                    </msItem>
+                    <msItem n="19" locusStart="90" locusEnd="122">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>Hamartigenia</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>LIBER II. AMARTIGENIA</title>
+                        </head>
+                        <ab>Ends p. <locus locusNew="121">131</locus></ab>
+                        <ab locusNew="121">
+                            <decoNote>Lines widely spaced in red and black capitals</decoNote>
+                        </ab>
+                        <rubric locusNew="121">Explicit Amartigenia<lb/>de origine peccatorum<lb/><name type="author"
+                                >Aurelii Prudentii</name><lb/>uiri eloquentissimi<lb/>liber secundus<lb/>Deo gratias.
+                            Amen. Amen. Amen</rubric>
+                        <ab locus="132" locusNew="122">On p. <locus locusNew="122">132</locus> two paragraphs in a small
+                            hand concerning calendar</ab>
+                        <incipit locusNew="122">In primo anno embolismo hoc est in ogdoade tertio etc.</incipit>
+
+                    </msItem>
+
+                    <msItem n="20" locusStart="123" locusEnd="154">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>Psychomachia</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>LIBER III. PSYCHOMACHIA</title>
+                        </head>
+                        <ab>With p. <locus locusNew="123">133</locus> begins a new volume</ab>
+                        <rubric locusNew="123">Lib. III Psychomachia</rubric>
+                        <ab>On pp. <locus locusNew="133">143</locus> sqq. are some pencilled Anglo-Saxon glosses
+                                <handNote>in a rather large round hand</handNote></ab>
+                    </msItem>
+
+                    <msItem n="21" locusStart="155" locusEnd="188">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>Peristephanon, carmen 10</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Romanus sive passio <name type="person">S. Romani</name></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="22" locusStart="189" locusEnd="192">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>Peristephanon, carmen 1</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Passio <name type="person">Emetrii</name> et <name type="person"
+                                >Chelidonii</name></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="23" locusStart="192" locusEnd="209">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>Peristephanon, carmen 2</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Passio <name type="person">S. Laurentii</name></title>
+                        </head>
+                        <!--<ab>marginal neumes p. 204</ab>-->
+                    </msItem>
+                    <msItem n="24" locusStart="209" locusEnd="216">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>Peristephanon, carmen 3</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Hymnus in honorem passionis <name type="person">Eulaliae</name> beatissimae
+                                martyris</title>
+                        </head>
+                        <!--<ab><decoNote>including a dry-point or pencil sketch of a male? figure in the margin on p.211 and an animal head on p.212</decoNote></ab>-->
+                    </msItem>
+                    <msItem n="25" locusStart="216" locusEnd="222">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>Peristephanon, carmen 4</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Hymnus in honorem sanctorum X et VII martyrum</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="26" locusStart="222" locusEnd="239">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>Peristephanon, carmen 5</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Passio <name type="person">S. Vincentii</name> martyris</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="27" locusStart="239" locusEnd="244">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>Peristephanon, carmen 6</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Hymnus in honore beatissimorum martyrum <name type="person">Fructuosi</name> episcopi
+                                Tarraconensis et <name type="person">Augorii</name> et <name type="person"
+                                    >Eulogii</name> diaconi</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="28" locusStart="244" locusEnd="245">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>Peristephanon, carmen 7</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Hymnus in honore <name type="person">Quirini</name> beatissimi martyris episcopi
+                                ecclesiae Suscianae</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="29" locusStart="246" locusEnd="249">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>Peristephanon, carmina 8-9</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De loco in quo martyres passi sunt, nunc baptisterium est <name type="place"
+                                    >Calagorra</name></title>
+                        </head>
+                        <ab locus="256" locusNew="246">Passio Cassiani</ab>
+                    </msItem>
+
+                    <msItem n="30" locusStart="249" locusEnd="257">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>Peristephanon, carmen 11</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Ad <name type="person">Valerianum</name> episcopum de passione <name type="person"
+                                    >Ypoliti</name> beatissimi martyris</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="31" locusStart="257" locusEnd="259">
+                        <head type="CCC"><name type="author">Prudentius</name>, <title>Peristephanon, carmen 12</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Passio apostolorum</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="32" locusStart="259" locusEnd="262">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>Peristephanon, carmen 13</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Passio <name type="person">Cypriani</name></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="33" locusStart="262" locusEnd="266">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>Peristephanon, carmen 14</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Passio <name type="person">Agnetis</name></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="34" locusStart="266" locusEnd="325">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>Contra Symmachum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Contra <name type="person">Symmachum</name> lib. ii</title>
+                        </head>
+                        <ab locus="298" locusNew="288">Lib. II</ab>
+                        <ab locus="335" locusNew="325">Ends</ab>
+                    </msItem>
+
+                    <msItem n="35.1" locusStart="325" locusEnd="331">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>Dittochaeon</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Fragmentum, Dittochei, de quo fit mentio in inscriptione ad frontem codicis</title>
+                        </head>
+                        <ab locus="335" locusNew="325"> Dittocheum </ab>
+                        <rubric locusNew="325">De Adam et &#198;ua</rubric>
+                        <incipit locusNew="325">Aeua columba fuit</incipit>
+                        <ab>The end is misplaced and is now the last leaf (<locus>339</locus>-<locus>340</locus>)</ab>
+                        <ab>The poem is complete</ab>
+
+                    </msItem>
+
+                    <msItem n="35.2" locusStart="331" locusEnd="331">
+                        <head type="CCC">
+                            <name type="author">Prudentius</name>, <title>De opusculis suis</title>
+                        </head>
+                        <ab>It is followed by</ab>
+                        <rubric locusNew="340"><name type="author">Prudentius</name> de opusculis suis</rubric>
+                        <incipit locusNew="340">
+                            <lg>
+                                <l>Pius fidelis innocens pudicus.</l>
+                                <l>Dona conscientiae</l>
+                            </lg>
+                        </incipit>
+                        <ab>Which ends</ab>
+                        <explicit locus="341" locusNew="331">
+                            <lg>
+                                <l>luuabit ore personasse Christum.</l>
+                                <l>Quo regente uiuimus</l>
+                            </lg>
+                        </explicit>
+                    </msItem>
+
+                    <msItem n="36" locusStart="332" locusEnd="344">
+                        <head type="CCC">
+                            <name type="author">Iohannes Scotus Eriugena</name>, <title>Carmina (Versus ad <name
+                                    type="person">Karolum regem</name>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Versus <name type="author">Iohannis Scotti</name> ad <name type="person"
+                                    >Karolum</name> regem</title>
+                        </head>
+                        <rubric locus="342" locusNew="332">Uersus <name type="author">Iohannis Scotti</name> ad <name
+                                type="person">Karolum</name> Regem (101)</rubric>
+                        <incipit locusNew="332">Aule sidereae paralelos undique circos</incipit>
+                        <ab locus="344" locusNew="334">Ending <locus locusNew="334">344</locus></ab>
+                        <!-- <ab>neumes in text at top of p. 334</ab>-->
+                        <explicit locusNew="334">Heros magnanimus longaeuus uiuat in annos</explicit>
+                        <ab>Printed by Floss in part (vv. 78-101) from a transcript of the copy made by <ref type="bibl"
+                                target="Dümmler 1880">Th. Oehler (<hi rend="italic">Neues Archiv</hi> IV, p. 533)</ref>
+                            and from thence in <ref type="bibl" target="Migne 122"><hi rend="italic">P. L.</hi> CXXII
+                                1958</ref></ab>
+                        <ab>
+                            <supplied agent="JamesCorrigenda">Printed in full by <ref type="bibl" target="Traube 1896"
+                                    >Traube in <hi rend="italic">Poetae aevi Carolini</hi> III p. 550: see also p.
+                                    526</ref></supplied>
+                        </ab>
+                        <ab locus="345" locusNew="335">blank</ab>
+                        <ab locus="346" locusNew="336">On p. <locus locusNew="336">346</locus>
+                            <handNote>in other hands</handNote></ab>
+                        <rubric locusNew="336">Oratio super confirmatos</rubric>
+                        <incipit locusNew="336">Deus qui apostolis tuis sanctum dedisti spiritum</incipit>
+                        <rubric locusNew="336">Benedictio in pentecosten</rubric>
+                        <ab>Paragraph</ab>
+                        <incipit locusNew="336">In actione uobis commissa gloriose pastor prius ilium habere studeas
+                            placatum</incipit>
+                        <ab>An admonition to preachers etc.</ab>
+                        <ab locus="347" locusNew="337">An Anglo-Saxon alphabet</ab>
+                        <ab>On <locus locusNew="338">349</locus> many scribbles</ab>
+                        <!--<ab>including many neumes on p.338</ab>-->
+                        <ab>Anno incarn. dom. <date>dcccxlvi</date></ab>
+                        <ab>Anno incarn. dom. <date>dccclxvii vi kal. decemb. Fer. II viii id. Mart.</date> matricula
+                            sci pe</ab>
+
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: RJR 8/9/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

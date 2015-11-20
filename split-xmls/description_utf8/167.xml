@@ -1,0 +1,105 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC167">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>167</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>E. 6</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>48</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">John Capgrave OESA, Abreuiacion of Chronicles</head>
+                <head type="James">John Capgrave's Chronicle</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">301</height>
+                        <width unit="mm">201</width>
+                    </measureGrp><measureGrp type="James">11.9 x 7.8</measureGrp>, <extent>ff. 196</extent>, <layout>25
+                        and 31 lines to a page</layout>. Cent. <origDate>xvi</origDate>, in <handNote>two (?) very good
+                        clear hands</handNote>.</p>
+
+
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + pp. 1-196 + ff. iii-iv</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="enm">Middle English.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1" locusEnd="196">
+                        <head type="CCC"><name type="author">John Capgrave OESA</name>, <title>Abreuiacion of
+                                Chronicles</title></head>
+                        <head type="James"><name type="author">John Capgrave</name>'s <title>Chronicle</title></head>
+
+                        <ab>Capgrave's Chronicle of England, without the prologue</ab>
+                        <ab>Copied from the autograph MS. <ref type="ms" target="CUL412">University Library Cambridge
+                                Gg. 4. 12</ref>, which is the only other manuscript known</ab>
+                        <ab>Edited by <ref type="bibl" target="Hingeston 1858b">F. C. Hingeston, Rolls Series
+                            1858</ref>. He speaks of this MS. in his Introduction, p. xxvii</ab>
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJC 9.10.07</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

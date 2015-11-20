@@ -1,0 +1,370 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC042">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>42</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>H. 2</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>83</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Lives of Saints</head>
+                <head type="James">Vitae Sanctorum</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">340</height>
+                        <width unit="mm">212</width>
+                    </measureGrp>
+                    <measureGrp type="James">13.5 x 8</measureGrp>, <extent>ff. 103 + 2</extent>, <layout>42 and 40
+                        lines to a page</layout>. Cent. <origDate>xii</origDate>, <handNote>in several excellent hands
+                        of the <name type="place">Christ Church, Canterbury</name>, type</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num> 2<num>10</num> (6 canc.) 3<num>8</num>-12<num>8</num>
+                            13<num>8</num>, 1 flyleaf</collation>.</p>
+
+                <p>In most cases the first 4 leaves of quires are marked with consecutive letters of the alphabet in red
+                    thus: quire 3, k l m n; quire 4, o p q r etc.</p>
+
+                <p function="Additions">Flyleaf <supplied>(ff. <locus>iiir</locus>-<locus>iiiv</locus>)</supplied> from
+                    an encyclopaedic work (<origDate>xv</origDate>). Articles on Elimenta. Eukaristia.</p>
+
+
+
+                <p function="Provenance">From <name type="place">Dover Priory</name>. At top of f. <locus>1r</locus>
+                    <q>Liber de vita <name type="person">Sancti Martini</name> et aliorum plurimorum sanctorum cum aliis
+                        diuersis contentis. <name type="person">Johannis Ryngewolde</name> quondam monachi <name
+                            type="place">Douorie</name>. cuius anime propicietur altissimus Amen. D. II.</q><lb/> At
+                    bottom of f. <locus>4r</locus><lb/>
+                    <q>D. II. vita <name type="person">Sancti Martini</name> et aliorum sanctorum. - Corpus quod ad
+                        sepulcrum.</q>
+                    <lb/>See <ref type="bibl" target="James 1903"><hi rend="italic">Ancient Libraries of Canterbury and
+                            Dover</hi>, p. 49, no. 129</ref>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-iii + 1-104 + iv-vi</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="18v">
+                        <head type="CCC">
+                            <name type="author">Sulpicius Severus</name>, <title>Vita <name type="person">Sancti
+                                    Martini</name> (incl. Vita <name type="person">Sancti Briccii</name>)</title>
+                        </head>
+                        <head type="James">
+                            <title>Vita <name type="person">Sancti Martini</name></title>
+                        </head>
+
+                        <rubric locus="1r"><supplied>Liber de</supplied> Vita <name type="person">Sancti
+                            Martini</name></rubric>
+                        <ab>
+                            <supplied>In a later hand</supplied>
+                        </ab>
+                        <rubric locusNew="1r">In natali <name type="person">Sancti Martini</name> lectio I</rubric>
+                        <incipit locusNew="1r"><name type="person">Beatus martinus</name>
+                            <name type="place">sabarie pannoniarum oppido</name> oriundus</incipit>
+
+                        <explicit locusNew="18v"><name type="person">sanctus eustochius</name> successit magnifice
+                            sanctitatis. Imperante domino nostro Iesu Christo cui etc.</explicit>
+
+                        <ab>(From <name type="person">Sulpicius Severus</name> and <name type="person">Gregorius
+                                Turonensis</name>)</ab>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Bollandists 1898-99">BHL 5610-16</ref>, <ref type="bibl"
+                                    target="Bollandists 1900-1">1451</ref>
+                            </supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="19r" locusEnd="25v">
+                        <head type="CCC"><name type="author">Abbo of Fleury OSB</name>, <title>Passio <name
+                                    type="person">Sancti Eadmundi</name></title></head>
+                        <head type="James">
+                            <title><name type="author">Abbonis</name> Vita <name type="person">Sancti
+                                Eadmundi</name></title>
+                        </head>
+
+
+                        <incipit locusNew="19r">
+                            <name type="person">Domino sancte metropolitane dorobernensium ecclesie</name>
+                        </incipit>
+                        <explicit locusNew="19v">ad amorem tanti martiris. Vale <supplied>pater</supplied> in
+                            Christo</explicit>
+                        <incipit locusNew="19v">Asciti aliquando in <name type="place">brittanniam</name></incipit>
+                        <explicit locusNew="25v">quibus meremur supplicium. per eum qui uiuit et regnat in secula
+                            seculorum. Amen</explicit>
+                        <ab>
+                            <ref type="bibl" target="Arnold 1890">Arnold, <hi rend="italic">Memorials of St Edmunds
+                                    Bury</hi> I 3 etc.</ref>
+                        </ab>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Bollandists 1898-99">BHL 2392</ref>
+                            </supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="3" locusStart="26r" locusEnd="62r">
+
+                        <head type="CCC">
+                            <title>Legendary (incomplete)</title>
+                        </head>
+
+                        <ab>Portion of a Legendary, in which at first Responses and Antiphons are given as well as
+                            Collects etc. Neumes are sometimes added. After a while only Collects and Lessons are given.
+                            The legends run from <name type="person">Silvester</name> Dec. 31 to <name type="person"
+                                >Nereus</name> and <name type="person">Achilleus</name> (May 12) and include <name
+                                type="person">Amandus</name>, <name type="person">Angadrisma</name>, <name type="person"
+                                >Cuthbert</name>, Translation of <name type="person">Nicholas</name>, <name
+                                type="person">John of Beverley</name></ab>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="62v" locusEnd="81v">
+
+                        <head type="CCC"><name type="author">Osbern of Canterbury OSB</name>, <title>Vita et miracula
+                                    <name type="person">Sancti Dunstani</name></title></head>
+                        <head type="James">
+                            <title><name type="author">Osberni</name> Vita <name type="person">Sancti
+                                Dunstani</name></title>
+                        </head>
+
+                        <ab>(<ref type="bibl" target="Stubbs 1874">Stubbs, <hi rend="italic">Memorials of St
+                                    Dunstan</hi> 69</ref>)</ab>
+
+                        <incipit locusNew="62v">Confrater eorum per eam que in Christo est regenerationem <name
+                                type="author">Osbearnus</name> pacem bonam etc.</incipit>
+
+                        <incipit locusNew="62v">Multorum sepe ac uenerabilium</incipit>
+
+                        <explicit locusNew="63r">ista aggredi temptabo</explicit>
+                        <incipit locusNew="63r"><name type="person">Anglorum rege (A)thelstano</name> anno quidem
+                            imperii eius primo</incipit>
+
+                        <ab>Notes by <name type="person">Parker</name> and <name type="person">Joscelin</name>
+                            occur</ab>
+
+                        <ab>Ends imperfectly</ab>
+                        <explicit locusNew="81v">nec ab omnibus abstinendum putamus ne nulla esse uideantur que dicamus.
+                            Et quedam</explicit>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Bollandists 1898-99">BHL 2344-5</ref>
+                            </supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="5" locusStart="82r" locusEnd="99v">
+                        <head type="CCC">
+                            <name type="author">Boto of Prüfening OSB</name>, <title>Miraculae beatae uirginis
+                                Mariae</title>
+                        </head>
+                        <head type="James">
+                            <title>Miracula <name type="person">Beate Virginis</name></title>
+                        </head>
+
+                        <ab>(<handNote>another hand</handNote>)</ab>
+                        <ab>On miracles of the <name type="person">Virgin</name> see <ref type="bibl" target="Ward 1893"
+                                >Ward, <hi rend="italic">Catalogue of Romances</hi> (Brit. Mus.) II p. 586 sqq.</ref>
+                            References are here given to that work. The present collection does not exactly correspond
+                            with any there described</ab>
+
+                        <incipit locus="82r">Ad omnipotentis dei laudem cum sepe recitentur sanctorum miracula</incipit>
+                        <explicit locusNew="82r">largiente deo recitare studeamus</explicit>
+
+                        <ab>1. Compline of <name type="person">Virgin</name> instituted (<ref type="bibl"
+                                target="Ward 1893">Ward, p. 612</ref>)</ab>
+                        <ab>2. <name type="person">Hildefonsus</name><hi rend="footnote">Nos. 2-16 correspond almost
+                                exactly with the collection called by <ref type="bibl" target="Mussafia">Mussafia</ref>
+                                HM (<name type="person">Hildefonsus</name> - <name type="person">Murieldis</name>) and
+                                regarded by him as the oldest. <ref type="bibl" target="Ward 1893">Ward, p.
+                                604</ref></hi></ab>
+                        <ab>3. Gaude dei genitrix. Clerk who sang it rewarded</ab>
+                        <ab>4. Beggar sent to Paradise</ab>
+                        <ab>5. <name type="person">Ebbo</name></ab>
+                        <ab>6. Monk of <name type="place">St Peter's, Cologne</name></ab>
+                        <ab>7. <name type="person">Giraldus of Cluny</name></ab>
+                        <ab>8. Unlearned priest</ab>
+                        <ab>9. <name type="person">Petrus</name> and <name type="person">Stephanus</name> brothers at
+                                <name type="place">Rome</name></ab>
+                        <ab>10. Landgrabber saved</ab>
+                        <ab>11. Prior at <name type="place">Pavia</name></ab>
+                        <ab>12. <name type="person">Jeronimus of Pavia</name></ab>
+                        <ab>13. <name type="person">St Michael of Clusa</name></ab>
+                        <ab>14. <name type="person">St Michael</name> in <name type="place">Monte Tumba</name></ab>
+                        <ab>15. Clerk of <name type="person">St Cassian</name> at <name type="place">Pisa</name></ab>
+                        <ab>16. <name type="person">Murieldis of Fécamp</name></ab>
+                        <ab>17. Three knights plot to kill a man (<ref type="bibl" target="Ward 1893"
+                                    ><supplied>Ward,</supplied> p. 613</ref>)</ab>
+                        <ab>18. Nun of <name type="place">Shaftesbury</name> (<ref type="bibl" target="Ward 1893"
+                                    ><supplied>Ward,</supplied> p. 614</ref>)</ab>
+                        <ab>19. Mead multiplied (<ref type="bibl" target="Ward 1893"><supplied>Ward,</supplied> p.
+                                614</ref>)</ab>
+                        <ab>20. <name type="person">Abbot Elsin</name> (<ref type="bibl" target="Ward 1893"
+                                    ><supplied>Ward,</supplied> p. 614</ref>)</ab>
+                        <ab>21. Crucifix of <name type="place">Toledo</name> (<ref type="bibl" target="Ward 1893"
+                                    ><supplied>Ward,</supplied> p. 610</ref>)</ab>
+                        <ab>22. Foot healed at <name type="place">Vivaria</name> (<ref type="bibl" target="Ward 1893"
+                                    ><supplied>Ward,</supplied> p. 619</ref>)</ab>
+                        <ab>23. Musa (<ref type="bibl" target="Ward 1893"><supplied>Ward,</supplied> p. 620</ref>)</ab>
+                        <ab>24. <name type="person">Lefricus of Westminster</name> (<ref type="bibl" target="Ward 1893"
+                                    ><supplied>Ward,</supplied> p. 617</ref>)</ab>
+                        <ab>25. Evil Cleric saved (<ref type="bibl" target="Ward 1893"><supplied>Ward,</supplied> p.
+                                617?</ref>)</ab>
+                        <ab>26. Jewish boy in oven (<ref type="bibl" target="Ward 1893"><supplied>Ward,</supplied> p.
+                                601</ref>)</ab>
+                        <ab>27. Jew of <name type="place">Constantinople</name>(<ref type="bibl" target="Ward 1893"
+                                    ><supplied>Ward,</supplied> p. 611</ref>)</ab>
+                        <ab>28. Drowned clerk (<ref type="bibl" target="Ward 1893"><supplied>Ward,</supplied> p.
+                                612</ref>)</ab>
+                        <ab>29. Lily on grave of clerk (<ref type="bibl" target="Ward 1893"><supplied>Ward,</supplied>
+                                p. 605</ref>)</ab>
+                        <ab>30. Drunken cellarer: devil as bull (<ref type="bibl" target="Ward 1893"
+                                    ><supplied>Ward,</supplied> p. 612</ref>)</ab>
+                        <ab>31. Runaway monk</ab>
+
+                        <incipit locusNew="93r">Sic sunt quedam adhuc paucissima. de <name type="person">maria</name>
+                            scripta miracula. que hic metro quamuis sunt condita. non sunt tamen minus utilia. sed
+                            iccirco sic eas scripsimus. ut placerent magis legentibus</incipit>
+
+                        <ab>Miracles in metre follow (written as prose)</ab>
+
+                        <ab>32.</ab>
+                        <incipit locusNew="93r">Frater quidam qui in cenobio. Militauit celorum domino</incipit>
+                        <ab>(<ref type="bibl" target="Ward 1893"><supplied>Ward,</supplied> p. 620</ref>)</ab>
+                        <ab>33.</ab>
+                        <incipit locusNew="93v">Olim erat cognitus<lb/>quidam alter monachus. In illa prouintia<lb/>que
+                            fertur <name type="place">burgundia</name></incipit>
+                        <ab>(<ref type="bibl" target="Ward 1893"><supplied>Ward,</supplied> p. 620</ref>)</ab>
+                        <ab>34.</ab>
+                        <incipit locusNew="94v">Quedam sanctimon[ialis<lb/>uelut] fertur fuit talis. In conuentu
+                            feminarum<lb/>christi famulantium</incipit>
+                        <ab>(<ref type="bibl" target="Ward 1893"><supplied>Ward,</supplied> p. 621</ref>)</ab>
+                        <ab>35.</ab>
+                        <incipit locusNew="95v">Fratres operamini. neque seducamini. Sperantes quid metere. si non
+                            uultis serere</incipit>
+                        <ab>(<ref type="bibl" target="Ward 1893"><supplied>Ward,</supplied> p. 621</ref>)</ab>
+                        <ab>36.</ab>
+                        <incipit locusNew="96r">Huc uenite et audite omnes serui domini. Uolo namque rem narrare quam a
+                            quodam didici</incipit>
+                        <ab>(Clerk tempted to deny the <name type="person">Virgin</name>)</ab>
+                        <ab>(<ref type="bibl" target="Ward 1893"><supplied>Ward,</supplied> p. 621</ref>)</ab>
+                        <ab>37.</ab>
+                        <incipit locusNew="97r">Presul erat deo gratus ex francorum gente natus</incipit>
+                        <ab>(<name type="person">Bonitus of Clermont</name>, <ref type="bibl" target="Ward 1893"
+                                    ><supplied>Ward,</supplied> p. 622</ref>)</ab>
+                        <ab>38. In prose. Story of <name type="person">Theophilus</name></ab>
+                        <ab>(<ref type="bibl" target="Ward 1893"><supplied>Ward,</supplied> p. 595</ref>)</ab>
+                        <incipit locusNew="97v">Factum est autem priusquam incursio fieret</incipit>
+                        <ab>Ends unfinished</ab>
+                        <explicit locus="99v">Qui claues regn(i) celorum a deo suscipiens</explicit>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Bollandists 1900-1">BHL 5357</ref>
+                            </supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="6" locusStart="99v" locusEnd="99v">
+                        <head type="CCC">
+                            <title>Hymn for <name type="person">St Martin</name></title>
+                        </head>
+                        <head type="James">
+                            <title>Hymn for <name type="person">St Martin</name></title>
+                        </head>
+                        <ab>
+                            <handNote>In another hand</handNote>
+                            <layout>with space for musical notes</layout>
+                        </ab>
+                        <ab>(6 long lines)</ab>
+                        <incipit locusNew="99v">Laudes deo plebs decantet fidelis</incipit>
+                    </msItem>
+
+                    <msItem n="7" locusStart="100r" locusEnd="ivr">
+                        <head type="CCC">
+                            <title>Office for Christmas</title>
+                        </head>
+                        <head type="James">
+                            <title>Office for Christmas</title>
+                        </head>
+
+                        <ab>(Lections principally)</ab>
+
+                        <ab>On f. <locus>103r</locus> roughly written prayer to the <name type="person"
+                            >Virgin</name></ab>
+
+                        <ab locusNew="ivr">Scribbles on the last flyleaf, especially Per crucis hoc signum fugiat procul
+                            omne malignum. et per idem signum saluetur quicque benignum</ab>
+
+                    </msItem>
+
+                </msContents>
+
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF, BA</p>
+                            <p>msCheck: foliation check BA, initial titles SP, CF, BA. </p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

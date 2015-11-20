@@ -1,0 +1,116 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC368">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>368</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>12. 2</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>334</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Rule of St Benedict</head>
+                <head type="James">Regula S. Benedicti</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">225</height>
+                        <width unit="mm">170</width>
+                    </measureGrp>, <measureGrp type="James">8.9 x 6.6</measureGrp>, <extent>ff. 32</extent>, <layout>23
+                        lines to a page</layout>. Cent. <origDate>x-xi</origDate> (<name type="person">Bradshaw</name>),
+                        <handNote>in a good clear round hand</handNote>. <decoNote>Initials in red</decoNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num>-3<num>8</num> 4<num>4</num> 5<num>4</num></collation>.</p>
+                <p><label>2 fo.:</label>
+                    <secFol>iterum erit</secFol>.</p>
+                <p function="Additions">Late note <supplied>(<locus>1r</locus>)</supplied>: hic deest prohemium cum
+                    tabula.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-32 + iii-iv</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="32v">
+                        <head type="CCC">
+                            <title>Rule of <name type="author">St Benedict</name></title>
+                        </head>
+
+                        <ab>
+                            <decoNote>Title in red capitals</decoNote>
+                        </ab>
+                        <rubric locus="1r">De generibus uel vita monachorum</rubric>
+                        <incipit locusNew="1r">Monachorum quatuor esse genera manifestum est</incipit>
+                        <ab>At top of f. <locus>14r</locus> is a scribble (<date>xiii</date>): Karissimo domino suo
+                                <name type="person">N de petus</name> fel</ab>
+                        <ab>Ends in ch. lxi</ab>
+                        <incipit locusNew="32v">Si quis monachus peregrinus de longinquis regionibus
+                            superuenerit</incipit>
+                        <explicit locusNew="32v">non debet sociari corpore monasterio uerum etiam</explicit>
+
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, SP, CF</p>
+                            <p>msCheck: SP 11/8/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>
