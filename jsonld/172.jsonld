@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "@vocab": "http://bibframe.org/vocab/",
+    "bf": "http://bibframe.org/vocab/",
+    "id": "@id",
+    "note": "http://stanford.edu/notes/ns/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "type": "@type",
+    "value": "rdf:value"
+  },
+  "hasInstance": {
+    "contains": [
+      {
+        "extent": "1-120",
+        "title": {
+          "type": "Title",
+          "value": "Martin Bucer, Notes on the Book of CommonPrayer, 1551"
+        },
+        "type": "Instance"
+      },
+      {
+        "extent": "121-140",
+        "title": {
+          "type": "Title",
+          "value": "John Skip, Comments on disputed questions,1533"
+        },
+        "type": "Instance"
+      }
+    ],
+    "hasItem": {
+      "heldBy": {
+        "label": "Corpus Christi College",
+        "type": "Organization"
+      },
+      "id": "http://linked-data.stanford.edu/parker/ms/CCC172",
+      "identifiedBy": [
+        {
+          "scheme": "CCC",
+          "type": "LocalIdentifier",
+          "value": "CCC172"
+        },
+        {
+          "scheme": "Stanley",
+          "type": "LocalIdentifier",
+          "value": "Misc. 17"
+        },
+        {
+          "scheme": "TJames",
+          "type": "LocalIdentifier",
+          "value": "vac."
+        }
+      ],
+      "note": [
+        {
+          "type": "note:ProvenanceNote",
+          "value": ""
+        }
+      ],
+      "subLocation": "Parker Library",
+      "type": "Item"
+    },
+    "id": "http://linked-data.stanford.edu/parker/ms/CCC172_instance",
+    "language": "Latin.",
+    "type": "Manuscript"
+  },
+  "id": "http://linked-data.stanford.edu/parker/ms/CCC172_work",
+  "title": [
+    {
+      "type": "Title",
+      "value": "Martin Bucer, Notes on the Book of Common Prayer. John Skip, Comments on DisputedQuestions"
+    },
+    {
+      "type": "VariantTitle",
+      "value": "M. Bucer. Jo. Skypp",
+      "variantType": "James"
+    }
+  ],
+  "type": "Work"
+}

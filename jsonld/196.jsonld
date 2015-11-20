@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "@vocab": "http://bibframe.org/vocab/",
+    "bf": "http://bibframe.org/vocab/",
+    "id": "@id",
+    "note": "http://stanford.edu/notes/ns/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "type": "@type",
+    "value": "rdf:value"
+  },
+  "hasInstance": {
+    "contains": [
+      {
+        "extent": "1-110",
+        "title": {
+          "type": "Title",
+          "value": "Old English martyrology (incomplete)"
+        },
+        "type": "Instance"
+      },
+      {
+        "extent": "111-122",
+        "title": {
+          "type": "Title",
+          "value": "Old English Vindicta saluatoris (incomplete)"
+        },
+        "type": "Instance"
+      }
+    ],
+    "hasItem": {
+      "heldBy": {
+        "label": "Corpus Christi College",
+        "type": "Organization"
+      },
+      "id": "http://linked-data.stanford.edu/parker/ms/CCC196",
+      "identifiedBy": [
+        {
+          "scheme": "CCC",
+          "type": "LocalIdentifier",
+          "value": "CCC196"
+        },
+        {
+          "scheme": "Stanley",
+          "type": "LocalIdentifier",
+          "value": "D. 5"
+        },
+        {
+          "scheme": "TJames",
+          "type": "LocalIdentifier",
+          "value": "36"
+        }
+      ],
+      "note": [
+        {
+          "type": "note:ProvenanceNote",
+          "value": ""
+        }
+      ],
+      "subLocation": "Parker Library",
+      "type": "Item"
+    },
+    "id": "http://linked-data.stanford.edu/parker/ms/CCC196_instance",
+    "language": "Old English.",
+    "type": "Manuscript"
+  },
+  "id": "http://linked-data.stanford.edu/parker/ms/CCC196_work",
+  "title": [
+    {
+      "type": "Title",
+      "value": "Old English Martyrology. Old English Vindicta saluatoris"
+    },
+    {
+      "type": "VariantTitle",
+      "value": "Martyrologium Saxonice. Vindicta Salvatoris Saxonice",
+      "variantType": "James"
+    }
+  ],
+  "type": "Work"
+}

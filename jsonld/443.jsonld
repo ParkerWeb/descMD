@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "@vocab": "http://bibframe.org/vocab/",
+    "bf": "http://bibframe.org/vocab/",
+    "id": "@id",
+    "note": "http://stanford.edu/notes/ns/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "type": "@type",
+    "value": "rdf:value"
+  },
+  "hasInstance": {
+    "contains": [
+      {
+        "extent": "ir-80v",
+        "title": {
+          "type": "Title",
+          "value": "Peter Quivel, Constitutions (Exeter, 1287)"
+        },
+        "type": "Instance"
+      },
+      {
+        "extent": "81r-98v",
+        "title": {
+          "type": "Title",
+          "value": "Peter Quivel, Summulaconfessionis"
+        },
+        "type": "Instance"
+      }
+    ],
+    "hasItem": {
+      "heldBy": {
+        "label": "Corpus Christi College",
+        "type": "Organization"
+      },
+      "id": "http://linked-data.stanford.edu/parker/ms/CCC443",
+      "identifiedBy": [
+        {
+          "scheme": "CCC",
+          "type": "LocalIdentifier",
+          "value": "CCC443"
+        },
+        {
+          "scheme": "Stanley",
+          "type": "LocalIdentifier",
+          "value": "O. 24"
+        },
+        {
+          "scheme": "TJames",
+          "type": "LocalIdentifier",
+          "value": "225"
+        }
+      ],
+      "note": [
+        {
+          "type": "note:ProvenanceNote",
+          "value": ""
+        }
+      ],
+      "subLocation": "Parker Library",
+      "type": "Item"
+    },
+    "id": "http://linked-data.stanford.edu/parker/ms/CCC443_instance",
+    "language": "Latin and English.",
+    "type": "Manuscript"
+  },
+  "id": "http://linked-data.stanford.edu/parker/ms/CCC443_work",
+  "title": [
+    {
+      "type": "Title",
+      "value": "Peter Quivel, Constitutions (Exeter, 1287)"
+    },
+    {
+      "type": "VariantTitle",
+      "value": "Constitutiones Exonienses",
+      "variantType": "James"
+    }
+  ],
+  "type": "Work"
+}
