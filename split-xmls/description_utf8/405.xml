@@ -1,0 +1,1364 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC405">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>405</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>G. 4</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>70</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Charters, Letters, Bulls, Liturgical Texts, Anglo-Norman Texts etc.</head>
+                <head type="James">Chartae, Liturgica, Poemata, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">220</height>
+                        <width unit="mm">150</width>
+                    </measureGrp>, <measureGrp type="James">8.7 x 5.8</measureGrp>, <extent>ff. 1 + 253</extent>,
+                        <layout>several volumes</layout> of cent. <origDate>xiii and xiv early</origDate>, <handNote>all
+                        well written</handNote>.</p>
+
+                <p function="Multivolume"><lb/><label>Volume I:</label>
+                    <handNote>In charter hand</handNote>, <layout>29 lines to a page</layout>. <lb/><label>Volume
+                        II:</label> Cent. <origDate>xiii early</origDate>, <decoNote>in red, black and green</decoNote>.
+                        <lb/><label>Volume III:</label>
+                    <handNote>In a good black hand</handNote>, <layout>24 lines to a page</layout>. Cent. <origDate>xiv
+                        early?</origDate>
+                    <lb/><label>Volume IV:</label> The next division, <handNote>in charter hand</handNote>
+                    <lb/><label>Volume V:</label>
+                    <handNote>In a good set hand: the prose rather smaller than the verse</handNote>: <layout>there are
+                        31 and 30 lines to a page respectively</layout>. <lb/><label>Volume VI:</label>
+                    <handNote>In charter hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>10</num> | 2<num>6</num> | 3<num>12</num> 4<num>12</num> (+2 after 7)
+                            5<num>12</num>-11<num>12</num> | 12<num>10</num> 13<num>12</num>-20<num>12</num> |
+                            21<num>8</num> 22<num>8</num> | 23 (five)</collation>.</p>
+
+                <p function="Provenance">Evidently belonged to the brethren of <name type="place">St John of Jerusalem
+                        at Waterford</name>.</p>
+
+                <p function="Additions">
+                    <locus locusNew="iv">1</locus>, <locus locusNew="iir">2</locus> of cent.
+                    <origDate>xvi</origDate>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a + i-ii + 1-251 + b</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="enm frm">Latin, Middle English and Anglo-Norman.</textLang>
+
+                    <label>Contents</label>
+
+
+                    <milestone n="I" unit="volume"/>
+                    <msItem n="1" locusStart="1r" locusEnd="1r">
+                        <head type="CCC">
+                            <title>Bull of <name type="person">Pope Alexander IV</name> to the Knights Hospitallers of
+                                    <name type="place">Ireland</name>, <date>21 May 1255</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Bulla <name type="person">Alexandri papae</name> concedens fratribus hospitalis <name
+                                    type="place">Hierusalem in Hibernia</name> ut sint immunes ab omni ordinaria
+                                jurisdictione</title>
+                        </head>
+
+                        <ab locus="3" locusNew="1r">dated <date>xii Kalendas Junii pontificatus anno primo</date></ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="1r" locusEnd="1v">
+                        <head type="CCC">
+                            <title>Bull of <name type="person">Pope Alexander IV</name> to the Knights Hospitallers in
+                                    <name type="place">Ireland</name>, <date>5 February 1259</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Bulla ejusdem papae ut non teneantur dicti fratres solvere procurationes</title>
+                        </head>
+                        <explicit locus="3" locusNew="1v"><name type="place">Anngine</name> (!) <date>nono Februarii
+                                pontificatus anno quinto</date></explicit>
+                    </msItem>
+
+                    <msItem n="3" locusStart="1v" locusEnd="2r">
+                        <head type="CCC">
+                            <title>Bull of <name type="person">Pope Alexander IV</name> concerning excommunication,
+                                suspension and interdict, <date>20 February 1256</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Bulla ejusdem papae ut nulla sententia excommunicationis suspensionis aut interdicti
+                                promulgetur in dictos fratres aut clericos, ecclesias vel oratoria eorum sine speciali
+                                mandato sedis apostolicae</title>
+                        </head>
+                        <explicit locus="4" locusNew="2r"><name type="place">Lateran</name>. <date>x kalendas Marcii
+                                pontificatus anno secundo</date></explicit>
+                    </msItem>
+
+                    <msItem n="4" locusStart="2r" locusEnd="2v">
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Edward I</name> regarding the Knights Hospitallers of
+                                    <name type="place">Ireland</name> (<date>1281</date>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Breve regis vicecomiti <name type="place">Waterford</name> directum ut supersedeat
+                                demandae quam fecit priori et fratribus hospitalis <name type="place">Sancti Ioannis
+                                    Hierusalem in Hibernia</name> vel <name type="person">Ioanni Gilbert</name> tenenti
+                                eorum</title>
+                        </head>
+                        <explicit locus="5" locusNew="2v">
+                            <date>26 Novembris anno regni decimo</date>
+                        </explicit>
+                    </msItem>
+
+                    <msItem n="5" locusStart="2v" locusEnd="3r">
+                        <head type="CCC">
+                            <title>Bull of <name type="person">Pope John XXII</name> concerning the transfer of the
+                                property of the Templars to the Knights Hospitallers, <date>17/3/1317</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Bulla <name type="person">Iohannis papae</name> de translatione bonorum templariorum
+                                ad ordinem fratrum <name type="place">Sancti Ioannis de Hierusalem</name></title>
+                        </head>
+                        <explicit locus="6" locusNew="3r"><name type="place">Auinion</name>. <date>xvi kalendas apriles
+                                anno pontificatus primo</date></explicit>
+                    </msItem>
+
+                    <msItem n="6" locusStart="3v" locusEnd="5v">
+                        <head type="CCC">
+                            <title>Prophecies of Merlin</title> (<title>Prophecies of the Six Kings attrib.
+                                Merlin</title>) </head>
+                        <head type="Nasmith">
+                            <title>La prophetie [de] Merlin</title>
+                        </head>
+                        <ab><handNote>A larger hand</handNote>, <layout>29 lines to a page</layout></ab>
+                        <incipit locus="8" locusNew="3v">Ci comencent akuns des prophetiez des merueilles que <name
+                                type="person">merlyn</name> dit en son tens de <name type="place">engletterre</name>,
+                            etc.</incipit>
+                        <incipit locus="8" locusNew="3v">Vn aignel vendra hors de <name type="place">wyncestre</name>
+                            que auera blanche lange</incipit>
+                        <explicit locusNew="5v">et si finirount les heirs d<name type="place">engleterre</name> hors de
+                            lur heritage</explicit>
+                        <rubric locusNew="5v">Explicit prophecia merlini</rubric>
+                        <ab>Occurs also in <ref type="ms" target="LBLH46">Harl. 746</ref>. <ref type="bibl"
+                                target="Ward 1883">Ward, <hi rend="italic">Cat. of Romances</hi> I 309</ref></ab>
+                    </msItem>
+
+                    <msItem n="7" locusStart="5v" locusEnd="8r">
+                        <head type="CCC">
+                            <name type="author">Bede the Venerable (attrib.)</name>, <title>De Temporibus Liber chap.
+                                XVI-XXII (Observations on the Six Ages in Anglo-Norman)</title>. <title>List of
+                                Kings</title>. <title>Charms</title>. <title>The Perilous Days</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Table chronologique faite le <date>17 anne du regne d'<name type="person">Edouard
+                                        II</name></date></title>
+                        </head>
+                        <ab>
+                            <handNote>Charter hand again</handNote>
+                        </ab>
+                        <rubric locus="12" locusNew="5v">Ici comence le numbre de <name type="person">Adam</name> taunt
+                            ke al incarnacioun <name type="person">iesu crist</name> sicum de souz est escrit</rubric>
+                        <incipit locusNew="5v"><name type="person">Adam</name> auoit Cc xxx aunz quant il engendra <name
+                                type="person">seth</name></incipit>
+                        <explicit locusNew="6v">le sist age du mund quant il nasqui de <name type="person">la virgine
+                                marie</name> en le auesprement du mund a ky seit honurs e pussaunce saunz fyn.
+                            Amen</explicit>
+
+                        <ab>See <ref type="bibl" target="Meyer 1884"><hi rend="italic">Romania</hi> XIII 500</ref>. The
+                            tract is in <name type="author">Bede</name> (<ref type="bibl" target="Migne 090"
+                                    ><supplied>P. L.</supplied> XC 288</ref>)</ab>
+                        <incipit locus="14" locusNew="6v">Ly Reys <name type="person">Athelwlt'</name> regna xviij
+                            aunz</incipit>
+                        <explicit locusNew="7r"><name type="person">Harold</name> sun sorurge .xi. semeynes</explicit>
+                        <incipit locusNew="7r">Jci comence les nouns des Reys puis la venue <name type="person">Willyame
+                                le Cunquerour qe fu dit Bastard</name></incipit>
+                        <explicit locusNew="7r">Puis <name type="person">Edward (II)</name> soun fuiz qe auoit Regne
+                            quant ceste date fu fete xviij aunz (i.e. <date>1325</date>)</explicit>
+                        <ab locusNew="7r">Charm for a wound</ab>
+                        <incipit locus="15" locusNew="7r">Sicut longeus ebreus lancia fixit latus domini nostri Ihesu
+                            Christi nec diu sanguinauit, etc.</incipit>
+                        <incipit locus="15" locusNew="7r">Mem. Luna ianuarii in media nocte actenditur. Luna ffebruarii
+                            inter mediam noctem et gallicantum accenditur, etc.</incipit>
+                        <incipit locusNew="7v">Dites treis pater nostres ou le noun du pere, etc.</incipit>
+                        <ab locus="16" locusNew="7v">(Charm for crops)</ab>
+                        <ab locus="16" locusNew="7v">On unlucky days</ab>
+                        <incipit locus="16" locusNew="7v">Le meystres ky controuerunt lart numbrerunt le malures e le
+                            perylous iours qe sent e le an</incipit>
+                    </msItem>
+
+                    <msItem n="8" locusStart="8r" locusEnd="8r">
+                        <head type="CCC">
+                            <title>Interpretation of Dreams</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De la signification de songes</title>
+                        </head>
+                        <head type="James">
+                            <title>Of dreams</title>
+                        </head>
+                        <incipit locusNew="8r">Ky vout sauer la syngnifiaunce de sounges il deit dire ces .iii.
+                            salmes</incipit>
+                    </msItem>
+
+                    <msItem n="9" locusStart="8v" locusEnd="9r">
+                        <head type="CCC">
+                            <title>De vita christiana</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De vita christiana ad cujus observantiam quilibet christianus obligatur</title>
+                        </head>
+                        <ab>
+                            <handNote>In a set book-hand</handNote>
+                        </ab>
+                        <rubric locus="18" locusNew="8v">De uita christiana ad cuius obseruanciam quilibet christianus
+                            obligatur</rubric>
+                        <incipit locusNew="8v">Qui dicit se in christo manere debet sicut ille ambulauit et ipse
+                            ambulare. Christianus est qui in omnibus misericordiam facit, etc.</incipit>
+                        <incipit locusNew="8v">O frater si uis scire quis est uere penitens, etc.</incipit>
+                        <incipit locusNew="9r">Si tu frater velis scire omnem legem</incipit>
+                        <explicit locusNew="9r">memorare nouissima tua et in eternum non peccabis</explicit>
+                        <rubric locus="19" locusNew="9r">Oratio de <name type="person">beata maria</name></rubric>
+                        <incipit locusNew="9r">O <name type="person">maria</name> dei genitrix gloriosa</incipit>
+                        <incipit locusNew="9r">Benedicatur hora qua deus homo natus</incipit>
+                        <incipit locusNew="9r">Experimentum probatum. Cum mane leuaueris <name type="person"
+                                >michaelem</name> habe in mente et letum diem habebis</incipit>
+                        <ab>(The other names of angels are <name type="person">Gabriel</name>, <name type="person"
+                                >Uriel</name>, <name type="person">Raphael</name>, <name type="person">Raguel</name>,
+                                <name type="person">Barachiel</name>, <name type="person">Pantasseron</name>)</ab>
+                        <ab>Ends</ab>
+                        <explicit locusNew="9r"><name type="person">Urielem</name> et <name type="person"
+                                >Thobielem</name> cura ad principem vel ad seniorem veneris et sine periculo
+                            ibis</explicit>
+
+                        <ab locus="19" locusNew="9r">
+                            <handNote>In charter hand</handNote>
+                        </ab>
+                        <incipit locusNew="9r">Die martis in festi Sancti Marci ewangaliste anno domini <date>m<abbr
+                                    rend="superscript">o</abbr> cclxxxiiij<abbr rend="superscript">to</abbr></date>
+                            natus fuit <name type="person">Edwardus filius Regis Edwardi</name> apud <name type="place"
+                                >Carnaruam</name> ante horam terciam secundum <name type="person">Jacobum
+                            donati</name></incipit>
+                    </msItem>
+
+                    <msItem n="10.1" locusStart="9v" locusEnd="10v">
+                        <head type="CCC">
+                            <title>Incantation contre les maux et les périls</title>. <title>Epistle of Jesus to
+                                Abgar</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Incantation contre les maux et les perils</title>
+                        </head>
+                        <ab>
+                            <handNote>In set hand</handNote>
+                        </ab>
+                        <incipit locusNew="9v"><name type="person">Seynt leon apostoile de Rome</name> escrit ceste
+                            lettre e dit ky vnkys le lirra ia cel iour ne estout det' sun enimi, etc. + messias + sother
+                            + emanuel, etc.</incipit>
+                        <incipit locusNew="10r">Assistunt hinc famulo tuo + <name type="person">Willelmo</name> + hoc
+                            scriptum portanti, etc.</incipit>
+                        <incipit locusNew="10r">beatus es qui non uidisti me, etc.</incipit>
+                        <explicit locusNew="10r">in dei nomine securus ambulabit</explicit>
+                        <rubric locusNew="10r">Explicit epistola quam dominum nostrum Ihesum Christum manum (!) scriptam
+                            misit ad abagarem Regem qui eum videre desiderabit (!) + Ihesus + Nazarenus + Rex + Iudeorum
+                            + Miserere mei +</rubric>
+                        <ab locus="22" locusNew="10v"><handNote>In charter hand</handNote>: Verses</ab>
+
+
+                        <incipit locusNew="10v">
+                            <lg>
+                                <l>Quem fortuna leuis miserum facit esse beatum</l>
+                                <l>Sit (!) fortunatum degradat hora breuis.</l>
+                                <l>Of noman liche make&#541; hap in a stound many Riche</l>
+                                <l>Hym can he so fette weryt fyrst hym fond sone sette.</l>
+                                <l>Est res exempli confusa superbia Templi</l>
+                                <l>Ilk wisman take&#541; forbysne wat pride maket</l>
+                                <l>Of wylum templeis wyh helde non cyre til hem pres.</l>
+                                <l>Heyl god ye schilde modyr holy kyng bere milde, etc.</l>
+                                <l>And left vit sourwe van de&#541; comyt after amorwe.</l>
+                                <l>(8 lines)</l>
+                            </lg>
+                        </incipit>
+                        <ab locusNew="10v">i. <name type="person">Alban</name> super aquam<lb/> i. nauis.<!--<space/>-->
+                            Curranth. <name type="person">alban</name>. ar. lyn <!--<space/>--><supplied>unde versus
+                                    <name type="place">Ibern.</name></supplied><lb/> i. plenus.<!--<space/>--> De
+                            famylia <name type="person">alban</name>. intro. <!--<space/>-->unde versus Ibern.<lb/>
+                            Lactu. <!--<space/>-->De muntyr. <name type="person">alban</name>.
+                                Jn.<!--<space/>--><supplied>unde versus <name type="place">Ibern.</name></supplied></ab>
+
+                        <ab locusNew="10v">Curranth ar alban lyn alban muntyr de laan. Jn-S' </ab>
+                        <ab locusNew="10v">Quinque partes <name type="place">Hibernie</name>:<lb/>
+                            <name type="place">Lagenia</name> continet xxxi<abbr rend="superscript">a</abbr> cantres<lb/>
+                            <name type="place">Conactia</name> continet xxx<abbr rend="superscript">a</abbr> cantres<lb/>
+                            <name type="place">Mydya</name> continet xviii<abbr rend="superscript">a</abbr> cantres<lb/>
+                            <name type="place">Ultonya</name> continet xxxv<abbr rend="superscript">a</abbr> cantres<lb/>
+                            <name type="place">Memonya</name> continet lxx<abbr rend="superscript">a</abbr></ab>
+                        <explicit locusNew="10v">Qualibet <name type="place">Candreda</name> continet .xxx. villatas et
+                            quelibet villata potest sustinere ccc<abbr rend="superscript">tas</abbr> vaccas in pasturis
+                            et vacce sit diuidantur in quatuor armenta. nullam illarum appropinquabit ad aliam. Item
+                            quolibet (!) villa habet octo carucat' terre</explicit>
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="10.2" locusStart="11r" locusEnd="16v">
+                        <head type="CCC">
+                            <title>Irish Kalendar</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Calendarium et breviarium [imperfect] in <name type="place">Hybernia</name>
+                                usitatum</title>
+                        </head>
+                        <ab locus="23" locusNew="11r">Kalendar, with verses of dies Egyptiaci</ab>
+
+                        <ab locusNew="11r"><hi rend="bold">January</hi>
+                            <lb/>5. <name type="person">Simeonis monachi</name><lb/> 7. <name type="person">Cleri
+                                diaconi et confessoris</name><lb/> 9. <name type="person">Iudoci</name> Translatio<lb/>
+                            11. <name type="person">Columbe Virginis</name><lb/> 30. <name type="person">balthildis
+                                regine</name></ab>
+
+                        <ab locusNew="11v"><hi rend="bold">February</hi><lb/> 1. <name type="person">Brigide
+                                Virginis</name><lb/> 3. <name type="person">uuarburge Virginis</name><lb/> 4. <name
+                                type="person">Auentini episcopi</name><lb/> 17. <name type="person">Fintani
+                                Clonenachi</name></ab>
+
+                        <ab locusNew="12r">
+                            <hi rend="bold">March</hi><lb/> 1. <name type="person">Dauid</name><lb/> 2. <name
+                                type="person">Ceaddi</name><lb/> 5. <name type="person">Kerani Confessoris</name><lb/>
+                            7. <name type="person">Senani Confessoris</name><lb/> 13. <name type="person">Mochemoc
+                                Confessoris</name><lb/> 17. <name type="person">Patricii Episcopi</name>
+                            <decoNote>red</decoNote><lb/> 18. <name type="person">Eadmundi Regis Martyris</name><lb/>
+                            19. <name type="person">lactani Confessoris</name><lb/> 20. <name type="person"
+                                >Guthberti</name><lb/> 24. <name type="person">Moctai Confessoris</name></ab>
+
+                        <ab locusNew="12v"><hi rend="bold">April</hi><lb/> 5. <name type="person">Herinis
+                                Virginis</name><lb/> 7. <name type="person">Finani Confessoris</name><lb/> 15. <name
+                                type="person">Ruadani Cessoris</name><lb/> 18. <name type="person">Lasreani
+                                Abbatis</name><lb/> 19. <name type="person">ealphegii episcopi</name><lb/> 22. added.
+                            Obitus <name type="person">petri filii Johannis Le poer</name> Anno domini <date>m<abbr
+                                    rend="superscript">o</abbr> ccc<abbr rend="superscript">o</abbr> xxvij<abbr
+                                    rend="superscript">o</abbr></date>.<lb/> 30. <name type="person">Ronani
+                                Confessoris</name></ab>
+
+                        <ab locusNew="13r">
+                            <hi rend="bold">May</hi><lb/> 13. <name type="person">Muti presbyteri</name><lb/> 14. <name
+                                type="person">Karthagii Episcopi Confessoris</name><lb/> 16. <name type="person"
+                                >Brendini Abbatis</name><lb/> 18. <name type="person">Medani et domnani
+                                Confessoris</name><lb/> 19. <name type="person">Dunstani</name></ab>
+
+                        <ab locusNew="13v"><hi rend="bold">June</hi><lb/> 3. <name type="person">Comgeni Episcopi
+                                Confessoris</name><lb/> 9. <name type="person">Columbe Confessoris</name><lb/> 10. <name
+                                type="person">Censurii Episcopi (of Auxerre)</name><lb/> Added Duplex. Martiri<lb/> 17.
+                                <name type="person">Moling Confessoris</name>
+                            <decoNote>green</decoNote><lb/> 23. <name type="person">etheldride</name><lb/> 25. <name
+                                type="person">Moluoc Confessoris</name><lb/> 27. <name type="person">Benigni
+                                Confessoris</name></ab>
+
+                        <ab locusNew="14r"><hi rend="bold">July</hi><lb/> 2. <name type="person">Suithuni</name><lb/> 3.
+                                <name type="person">Tome</name> Translatio<lb/> 4. added <name type="person">Finbarri
+                                episcopi Confessoris</name><lb/> 8. <name type="person">Brocani Confessoris</name><lb/>
+                            13. <name type="person">Musiloc Confessoris</name><lb/> 15. <name type="person"
+                                >Suithuni</name><lb/> 17. <name type="person">Kenelmi</name><lb/> 18. <name
+                                type="person">Eadburge Virginis</name><lb/> 24. <name type="person">Declani Episcopi
+                                Confessoris</name><lb/> 29. <name type="person">Olaui Regis Martyris</name>
+                            <decoNote>red</decoNote></ab>
+
+                        <ab locusNew="14v">
+                            <hi rend="bold">August</hi><lb/> 4. <name type="person">Mulo Confessoris</name><lb/> 5.
+                                <name type="person">Osualdi</name><lb/> 8. <name type="person">Cirani
+                            Martyris</name><lb/> 12. <name type="person">Larriani Confessoris</name><lb/> 13. <name
+                                type="person">Memodoc Confessoris</name><lb/> 14. <name type="person">Factne
+                                Confessoris</name><lb/> 19. <name type="person">Mocte Confessoris</name><lb/> 25. <name
+                                type="person">Micheani Confessoris</name></ab>
+
+                        <ab locusNew="15r">
+                            <hi rend="bold">September</hi><lb/> 2. Sanctorum confessorum <name type="person"
+                                >inpiensi</name> et <name type="person">lomnani</name> et <name type="person"
+                                >colmani</name><lb/> 3. added <name type="person">Meicnisse Confessoris Diaconi
+                                Martyris</name><lb/> 4. <name type="person">Ultani Confessoris</name><lb/> 5. <name
+                                type="person">Bertini</name><lb/> 6. <name type="person">Columbe Virginis</name><lb/> 9.
+                                <name type="person">Ciarani Confessoris et Abbatis</name><lb/> 10. <name type="person"
+                                >Finneani et ateluoldi Confessoris</name><lb/> 12. <name type="person">Eilbe Episcopi
+                                Confessoris</name><lb/> 13. <name type="person">Degani Episcopi Confessoris</name><lb/>
+                            20. <name type="person">Signi Episcopi Confessoris</name><lb/> 23. <name type="person"
+                                >Adanni Confessoris</name><lb/> 24. Conceptio <name type="person">Sancti Iohannis
+                                Baptiste</name>
+                            <decoNote>red</decoNote><lb/> 25. <name type="person">Barre Confessoris</name><lb/> 26.
+                                <name type="person">Colmani Abbatis Confessoris</name><lb/> 28. <name type="person"
+                                >Experini Martyris</name></ab>
+
+                        <ab locusNew="15v">
+                            <hi rend="bold">October</hi><lb/> 4. <name type="person">Mansi</name> et <name type="person"
+                                >mansiani</name> et <name type="person">cipriani</name> Martyrorum<lb/> 11. <name
+                                type="person">Cammabe Confessoris</name><lb/> 12. <name type="person">Mobi
+                                Confessoris</name><lb/> 13. <name type="person">Comgani Confessoris</name><lb/> 16.
+                                <name type="person">Colmani</name> et <name type="person">regula</name> Confessorum<lb/>
+                            17. <name type="person">Etheldride</name><lb/> 21. <name type="person">Munne
+                                Confessoris</name><lb/> 23. <name type="person">Dalnachi Confessoris</name><lb/> 27.
+                            Sanctorum Confessorum <name type="person">Ercani</name>
+                            <name type="person">Abbani</name>
+                            <name type="person">Odmni</name></ab>
+
+                        <ab locusNew="16r">
+                            <hi rend="bold">November</hi><lb/> 3. <name type="person">Corcunutani Episcopi</name><lb/>
+                            4. <name type="person">Bristani Episcopi Confessoris</name><lb/> 5. <name type="person"
+                                >Collnani Confessoris</name><lb/> 7. <name type="person">Uuldeboldi Episcopi
+                                Confessoris</name><lb/> 10. <name type="person">Edani Confessoris</name><lb/> 12. <name
+                                type="person">Cummini Confessoris</name><lb/> 14. <name type="person">Colmani</name> et
+                                <name type="person">Garbani</name> Confessorum<lb/> 15. <name type="person">Machin
+                                Confessoris</name><lb/> 16. <name type="person">Macudis Episcopi Confessoris</name><lb/>
+                            20. <name type="person">Eadmundi Regis Martyris</name><lb/> 29. <name type="person">Brendini
+                                Confessoris</name></ab>
+
+                        <ab locusNew="16v">
+                            <hi rend="bold">December</hi><lb/> 2. <name type="person">Birini</name><lb/> 5. <name
+                                type="person">Crispine Virginis</name><lb/> 9. <name type="person">Cipriani
+                                Abbatis</name><lb/> 12. <name type="person">Finneani Abbatis</name><lb/> 18. <name
+                                type="person">Flannani Confessoris</name><lb/> 19. <name type="person">Samthinne
+                                Virginis</name><lb/> 24. <name type="person">Mucho Confessoris</name><lb/>
+                        </ab>
+
+                    </msItem>
+
+                    <milestone n="III" unit="volume"/>
+                    <msItem n="11" locusStart="17r" locusEnd="94r">
+                        <head type="CCC">
+                            <title>Breviary Offices (Irish)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Calendarium et breviarium [imperfect] in <name type="place">Hybernia</name>
+                                usitatum</title>
+                        </head>
+                        <head type="James">
+                            <title>Lessons etc., supplementary to a Breviary</title>
+                        </head>
+                        <seg>
+
+                            <ab>
+                                <hi rend="bold">a.</hi>
+                            </ab>
+                            <ab locus="33" locusNew="17r">Lessons and office for Corpus Christi and octave</ab>
+                            <rubric locusNew="17r">Feria v<abbr rend="superscript">ta</abbr> post festum Sancte
+                                trinitatis fiat festum corporis Christi. ad vesperas antiphon</rubric>
+                            <incipit locusNew="17r">Sacerdos in eternum, etc.</incipit>
+                            <ab>On <locus locusNew="36r">73</locus>-<locus locusNew="37r">75</locus> are added somewhat
+                                later <hi rend="italic">Lauda Syon, Benedictiones</hi> and Antiphon and Hymn for
+                                Compline</ab>
+                            <ab locus="76" locusNew="37v">blank</ab>
+                        </seg>
+
+                        <seg>
+                            <ab>
+                                <hi rend="bold">b.</hi>
+                            </ab>
+                            <rubric locus="78" locusNew="38v">In festiuitate <name type="person">Sancte brigide
+                                    uirginis</name> non martiris. Ad uesperas super psalmos antiphona </rubric>
+                            <incipit locusNew="38v">Hec est uirgo prudens</incipit>
+                            <ab>Hymn</ab>
+                            <incipit locusNew="38v">Phebi diem fert orbita</incipit>
+                            <ab>Lessons 9</ab>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">c.</hi>
+                            </ab>
+                            <rubric locus="95" locusNew="47r">De <name type="person">Sancto Antonio</name></rubric>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">d.</hi>
+                            </ab>
+                            <rubric locus="104" locusNew="51v">In natali <name type="person">Sancti Patricii
+                                    Archiepiscopi</name></rubric>
+                            <ab>Hymn</ab>
+                            <incipit locusNew="52r">Ecce fulget clarissima. <name type="person">patricii</name>
+                                sollempnitas</incipit>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">e.</hi>
+                            </ab>
+                            <rubric locus="121" locusNew="60r">
+                                <name type="person">Sancti Martini Episcopi et Confessoris</name>
+                            </rubric>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">f.</hi>
+                            </ab>
+                            <rubric locus="130" locusNew="64v">
+                                <name type="person">Sancti Barrmedini Episcopi Confessoris</name>
+                            </rubric>
+                            <ab>(connected with <name type="person">St Finnard</name>)</ab>
+                            <ab>Lect. I</ab>
+                            <incipit locusNew="64v">Anno ab incarnacione domini nostri Ihesu Christi <date>milesimo
+                                        cc<abbr rend="superscript">o</abbr> viii<abbr rend="superscript">o</abbr>
+                                        vii<abbr rend="superscript">o</abbr> Idus augusti presidenti</date> (-te) sedi
+                                apostolice domino <name type="person">innocentio papa quarto</name>, cathedesensis
+                                ecclesie obtinente uenerabili <name type="person">episcopo dauid</name></incipit>
+
+                            <explicit locusNew="72v">benedictum spiritum emisit et sic cum Christo mundo quieuit ab
+                                isto</explicit>
+                            <rubric locusNew="72v">Explicit uita beati <name type="person">barrmedini</name></rubric>
+                            <ab>See <ref type="bibl" target="Caulfield 1864">Caulfield, <hi rend="italic">Life of St Fin
+                                        Barr</hi>, 1864</ref></ab>
+                        </seg>
+
+                        <seg>
+                            <ab>
+                                <hi rend="bold">g.</hi>
+                            </ab>
+                            <rubric locus="146" locusNew="72v">Incipit uitam (!) <name type="person">sancte katerine
+                                    uirginis</name></rubric>
+                            <ab>Lect. I</ab>
+                            <incipit locusNew="73r"><name type="person">Maxentius</name> imperator <date>anno regni sui
+                                    tricessimo quinto</date></incipit>
+                            <ab>(cf. <ref type="bibl" target="Bollandists 1898-99">BHL. 1658</ref>)</ab>
+                        </seg>
+
+                        <seg>
+                            <ab>
+                                <hi rend="bold">h.</hi>
+                            </ab>
+                            <rubric locus="160" locusNew="79v">In exaltacione sancte Crucis</rubric>
+                        </seg>
+
+                        <seg>
+                            <ab>
+                                <hi rend="bold">i.</hi>
+                            </ab>
+                            <rubric locus="167" locusNew="83r">Hic incipit hystoria <name type="person">Sancti
+                                    Tihernaci</name> (5 Ap.) Archiepiscopi et Confessoris</rubric>
+                            <ab>Hymn</ab>
+                            <incipit locusNew="83r"><name type="person">Tyhernach</name> igne gratie anians superna
+                                querere</incipit>
+                            <ab>Lect. I</ab>
+                            <incipit locusNew="83v">Uenerabilis presul <name type="person">tyhernachus</name> regali
+                                natalium prerogatiua</incipit>
+                            <ab>(<ref type="bibl" target="Henschenius and Papebrochius 1675a"><hi rend="italic">Acta
+                                        SS</hi>. Ap. I 402 (400)</ref>)</ab>
+
+                            <ab>There are a good many marginal corrections</ab>
+                            <explicit locusNew="91r">cum dulci melodia secum sustulit. ubi perhenni perfruitur gloria in
+                                secula seculorum. Amen</explicit>
+                            <ab>Hymn at Lauds</ab>
+                            <incipit locusNew="91v">Adest dies celebris <name type="person">sancti
+                                tyhernaci</name></incipit>
+                            <ab><handNote>In charter hand</handNote>, a receipt</ab>
+                            <incipit locus="185" locusNew="92r">Pernez iii ponyez grandis e playnes de ysope</incipit>
+                            <ab>
+                                <handNote>Text hand, but different from the last</handNote>
+                            </ab>
+                            <rubric locus="186" locusNew="92v">Incipit officium de passione christi compositum a domino
+                                    <name type="person">papa Iohanne</name>, etc.</rubric>
+                            <incipit locusNew="92v">Patris sapiencia, etc.</incipit>
+                            <ab><locus locusNew="93v">188</locus>-<locus locusNew="94r">189</locus> blank</ab>
+                        </seg>
+
+                    </msItem>
+
+                    <milestone n="IV" unit="volume"/>
+                    <msItem n="12" locusStart="94v" locusEnd="97r">
+                        <head type="CCC">
+                            <title>Confirmation Charter of the Liberties of <name type="place">Waterford</name>,
+                                    <date>1311</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta <name type="person">Edwardi II</name>. de confirmatione libertatum civitatis de
+                                    <name type="place">Waterford</name>, data <date>anno regni 4<abbr rend="superscript"
+                                        >to</abbr></date></title>
+                        </head>
+                        <rubric locus="190" locusNew="94v">Transcriptum Carte de libertatibus <name type="place"
+                                >Waterfford</name></rubric>
+                        <explicit locusNew="97r">Datum per manum nostrum apud <name type="place">Wodestok</name>.
+                                <date>xii die apriles anno regni nostri quarto</date></explicit>
+
+                    </msItem>
+
+                    <msItem n="13" locusStart="97r" locusEnd="100v">
+                        <head type="CCC">
+                            <title>Borough Customs of <name type="place">Waterford</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Provisiones ordinatae per commune concilium civitatis <name type="place"
+                                    >Waterfordiae</name></title>
+                        </head>
+
+                        <incipit locusNew="97r">Prouisiones ordinate per commune consilium ciuitatis <name type="place"
+                                >Waterfordie</name></incipit>
+                        <explicit locusNew="100v">Item quod vigilator presentet omnes defaltas coram Balliuis si quas
+                            inuenerit</explicit>
+
+                    </msItem>
+
+                    <msItem n="14" locusStart="101r" locusEnd="115r">
+                        <head type="CCC">
+                            <title>Laws of <name type="place">Waterford</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Les leys et les usages de la chite de <name type="place">Waterford</name></title>
+                        </head>
+
+                        <rubric locus="203" locusNew="101r">Ches sont les leys e les usages de la Chite de <name
+                                type="place">Waterfford</name> les queus chascun Chiteseyn doit bien garder et saluement
+                            sans blemure. Car il sont establi par ancien tans</rubric>
+
+                        <incipit locusNew="101r">In primes si vn chitesein fiert vn forein</incipit>
+                        <explicit locusNew="115r">de faire les amendes a chelui ail feri soulom coe qe les trespas
+                            amounte. E estre amercie greuousement</explicit>
+
+                    </msItem>
+
+                    <msItem n="15" locusStart="115v" locusEnd="116v">
+                        <head type="CCC">
+                            <title>Customs of <name type="place">Waterford</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Consuetudines feria civitatis <name type="place">Waterford</name>, quae incipit et
+                                durat per novem dies</title>
+                        </head>
+
+                        <rubric locus="232" locusNew="115v">Consuetudines ferie ciuitatis <name type="place"
+                                >Waterfford</name> que incipit et durat per nouem dies</rubric>
+                        <rubric locus="233" locusNew="116r">Consuetudines in stallis carnificum</rubric>
+
+                    </msItem>
+
+                    <msItem n="16.1" locusStart="116v" locusEnd="117r">
+                        <head type="CCC">
+                            <title>Other customs of <name type="place">Waterford</name>, <date>1326</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Aliae consuetudines ejusdem civitatis factae <date>20 <name type="person">Edwardi
+                                        II</name></date></title>
+                        </head>
+
+                        <rubric locus="234" locusNew="116v">De congregacione habenda octo dies ante festum Sancti
+                            Michaelis quolibet anno</rubric>
+                        <incipit locusNew="116v">Prouisum fuit et ordinatum in ecclesia <name type="place">Sancti
+                                trinitatis Waterfford</name>
+                            <date>die Sancti Mathie apostoli anno regni <name type="person">Regis Edwardi filii Regis
+                                    edwardi</name> vicesimo</date></incipit>
+                        <ab>Other provisions in Latin and French</ab>
+
+                    </msItem>
+
+
+                    <msItem n="16.2" locusStart="117v" locusEnd="119r">
+                        <head type="CCC">
+                            <title>Customs of <name type="place">Bristol</name>, <date>1326</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Aliae consuetudines ejusdem civitatis factae <date>20 <name type="person">Edwardi
+                                        II</name></date></title>
+                        </head>
+
+                        <rubric locus="236" locusNew="117v">Constituciones ville <name type="place"
+                            >Bristoll</name></rubric>
+                        <incipit locusNew="117v">Burgenses ville <name type="place">Bristoll'</name> petunt sibi
+                            concedi</incipit>
+                        <explicit locusNew="119r">Si vero ista predicta bona extraneorum statim soluatur
+                            precium</explicit>
+                    </msItem>
+
+                    <msItem n="17" locusStart="119r" locusEnd="121r">
+                        <head type="CCC">
+                            <title>Charters for <name type="place">Drogheda</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Duae cartae villae de <name type="place">Drogheda</name></title>
+                        </head>
+
+                        <seg>
+                            <ab>
+                                <hi rend="bold">a.</hi>
+                            </ab>
+                            <rubric locus="239" locusNew="119r">Incipit carta ville de <name type="place"
+                                    >Drogheda</name></rubric>
+                            <incipit locusNew="119r">
+                                <name type="person">Henricus dei gratia Rex Anglorum</name>
+                            </incipit>
+                            <explicit locusNew="120r">Datum <date>anno Regni nostri xiii<abbr rend="superscript"
+                                        >o</abbr></date></explicit>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">b.</hi>
+                            </ab>
+                            <incipit locus="241" locusNew="120r"><name type="person">Edwardus</name> dei
+                                gratia</incipit>
+                            <ab>no date</ab>
+                        </seg>
+
+                    </msItem>
+
+                    <msItem n="18" locusStart="121r" locusEnd="121v">
+                        <head type="CCC">
+                            <title>Charter for <name type="place">Haverford</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta <name type="person">Edwardi</name> regis concessa villae de <name type="place"
+                                    >Haverford</name></title>
+                        </head>
+
+                        <rubric locus="243" locusNew="121r">Incipit carta ville de <name type="place"
+                            >Hauerfford</name></rubric>
+                        <incipit locusNew="121r"><name type="person">Edwardus</name> dei gratia</incipit>
+                        <explicit locusNew="121v">Datum apud <name type="place">Hereford</name>
+                            <date>primo die Nouembri Anno Regni nostri decimo nono</date></explicit>
+
+                    </msItem>
+
+                    <msItem n="19" locusStart="122r" locusEnd="123r">
+                        <head type="CCC">
+                            <title>Chronological notes from birth of Christ to <date>1308</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Annales brevissimi seu notae chronologicae a nato Christo usque ad annum
+                                    <date>1308</date></title>
+                        </head>
+
+                        <rubric locus="245" locusNew="122r">Anni a constitucione mundi usque ad incarnacione Christi
+                            fluxerant quinque milia. Centum nonaginta et Nouem</rubric>
+                        <incipit locusNew="122r">Anno domini <date>c. lxxx<abbr rend="superscript">o</abbr> iiii<abbr
+                                    rend="superscript">o</abbr></date>
+                            <name type="person">Eletheurius papa</name> sub quo <name type="person">Lucius Rex
+                                Brittaniae</name> suscepit Baptisma</incipit>
+                        <ab>A good many entries (especially later) refer to events in <name type="place"
+                            >Ireland</name></ab>
+                        <ab>Ends</ab>
+                        <explicit locusNew="123r">Anno domini <date>m<abbr rend="superscript">o</abbr> ccc<abbr
+                                    rend="superscript">o</abbr> decimo quinto</date>
+                            <name type="person">Edwardus</name> bruys intrauit <name type="place"
+                            >Hiberniam</name></explicit>
+
+                        <explicit locusNew="123r">Anno domini <date>m<abbr rend="superscript">o</abbr> ccc<abbr
+                                    rend="superscript">o</abbr> decimo octauo</date> idem <name type="person"
+                                >ewardus</name> bruys interfectus fuit in festo <name type="person">Sancti
+                                Kalixti</name> pape</explicit>
+
+                    </msItem>
+
+                    <msItem n="20" locusStart="123v" locusEnd="124v">
+                        <head type="CCC">
+                            <title>Medical receipts</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Remedes contre diverses maladies</title>
+                        </head>
+
+                        <ab locus="248" locusNew="123v">Receipts in French</ab>
+                        <rubric locusNew="123v">Pur la tusse</rubric>
+                        <incipit locusNew="123v">Pernez Rastine de Grenois id est hertestonke e de matefeloun e herbe
+                            Jon, etc.</incipit>
+                        <ab locus="250" locusNew="124v">Ending</ab>
+
+                    </msItem>
+
+                    <milestone n="V" unit="volume"/>
+                    <msItem n="21" locusStart="125r" locusEnd="127r">
+                        <head type="CCC">
+                            <title>Bull of <name type="author">Pope Boniface XIII</name> confirming Rule of the Knights
+                                Hospitallers by <name type="person">Raymond du Puy</name>, <date>7 April
+                                1301</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Bulla <name type="person">Bonifacii papae</name> de confirmatione regulae ordinis
+                                fratrum <name type="place">Sancti Ioannis Ierusalem</name> a quodam fratre <name
+                                    type="person">Raymundo</name> conditae</title>
+                        </head>
+
+                        <incipit locus="251" locusNew="125r"><name type="person">Bonifacius</name> epistola <name
+                                type="person">Culminis</name> apostolici solii</incipit>
+                        <explicit locusNew="127r">Datum <name type="place">lateran</name>. <date>vii Idus Aprilis anno
+                                pontificatus sexto</date></explicit>
+
+                    </msItem>
+
+                    <msItem n="22" locusStart="127r" locusEnd="154v">
+                        <head type="CCC">
+                            <title>The Rule of the Hospitallers (Order of the Hospital of St John Jerusalem)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Legende de la fondation d'une hospitale sur <name type="place">le mont de
+                                    Calvaire</name></title>
+                        </head>
+                        <head type="James">
+                            <title>Poem in French on the origin of the Hospitallers and their Rule</title>
+                        </head>
+                        <ab>
+                            <quote>Hospitalis ut videtur <name type="place">Sancti Ioannis de Hierusalem</name>, nam
+                                post narrationem multorum miraculorum sequitur eshortatio fratris <name type="person"
+                                    >Raymundi</name> regulae eiusdem ordinis autoris</quote>
+                        </ab>
+
+
+                        <incipit locusNew="127r">
+                            <lg>
+                                <l>Al tens <name type="person">zezar (i.e. Cesar?) le premerain</name></l>
+                                <l>Ke empereur fu romain</l>
+                                <l>E al tens <name type="person">antiochi</name></l>
+                                <l>Ke fu prince de sus lui</l>
+                                <l>Eu une esueske en la cite</l>
+                                <l>Ke <name type="place">ierusalem</name> est a pele</l>
+                                <l>Par sonn dreit nun (?) quant fu nez</l>
+                                <l><name type="person">Melchiazar</name> fu apelez</l>
+                                <l>Cist fu pro dome de sa lay</l>
+                                <l>Fors tant cum il fist une desray</l>
+                                <l>Quant del sepulcre <name type="person">seint dauid</name></l>
+                                <l>Besans et uestemens fors rauid</l>
+                            </lg>
+                        </incipit>
+                        <ab><name type="person">Antiochus</name> wishes to kill <name type="person">Melchiazar</name>,
+                            but has a vision forbidding him to do so and telling him to found an establishment on <name
+                                type="place">Mount Calvary</name></ab>
+                        <ab>On <locus locusNew="129r">259</locus> we have mention of <name type="person">Judas
+                                Maccabaeus</name> and on <locus locusNew="129v">260</locus> of <name type="person"
+                                >Zacharias</name> who succeeds <name type="person">Melchiazar</name> and is succeeded by
+                                <name type="person">St Julian</name></ab>
+
+                        <incipit locus="270" locusNew="134v">
+                            <lg>
+                                <l><name type="person">Reimund</name> li boen hospitaillers</l>
+                                <l>As poures deu prest emaniers</l>
+                                <l>As peiz as meins tut as premiers</l>
+                                <l>Serueit pur deu uolentiers</l>
+                                <l>Mestre de la frarie</l>
+                                <l>Dunt parlera le fiz marie</l>
+                                <l>Al derein iur de sa iustise</l>
+                            </lg>
+                        </incipit>
+
+
+
+                        <incipit locus="273" locusNew="136r">
+                            <lg>
+                                <l>Cist <name type="person">Reimund</name> dunt vous ai dit</l>
+                                <l>Il comensa icest escrit</l>
+                                <l>Par cunseil de sun couent</l>
+                                <l>E il en fu cumencement</l>
+                                <l>De ceus prist conseil qui meuz ualeient</l>
+                                <l>Ki plus de la lei deu cunisseient</l>
+                            </lg>
+                        </incipit>
+                        <ab>The remainder of the poem appears to be an exhortation based on the Rules of the order:
+                            ending <locus locusNew="154v">310</locus></ab>
+
+                        <explicit locus="310" locusNew="154v">
+                            <lg>
+                                <l>Tuz nus eime deu par sa grace</l>
+                                <l>Amen amen e deu le fasce</l>
+                                <l>E par sa pite</l>
+                                <l>Nus doint uiure en uerite</l>
+                                <l>Bein viure e bein murir</l>
+                                <l>Ceo seit deshore nostre desir</l>
+                                <l>E tel seit nostre entente</l>
+                                <l>Ke deu nus otriet la grant rente</l>
+                                <l>La quele ia ne poet descretre</l>
+                                <l>Par lenseignement de nostre mestre</l>
+                            </lg>
+                        </explicit>
+
+                        <ab>Apparently never printed</ab>
+                    </msItem>
+
+                    <msItem n="23" locusStart="155r" locusEnd="158r">
+                        <head type="CCC">
+                            <title>Prayer to the Virgin: Aves, Joys, Litany of Saints</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Pri&#232;re &#224; la virgine Marie</title>
+                        </head>
+
+                        <head type="James">
+                            <title>Litany to the Virgin in verse</title>
+                        </head>
+                        <incipit locusNew="155r">
+                            <lg>
+                                <l>Aue seinte marie mere al creatur</l>
+                                <l>Reine des angles plaine de dusur</l>
+                                <l>Aue esteile de meir de grant resplendisur</l>
+                                <l>Eschele de parais saluz de pecheur</l>
+                                <l>Aue seinte marie la uerge al rai iesse, etc.</l>
+                            </lg>
+                        </incipit>
+
+                        <ab><name type="person">John Evangelist</name>, <name type="person">John Baptist</name>, <name
+                                type="person">Peter</name>, <name type="person">Paul</name>, <name type="person"
+                                >Andrew</name>, <name type="person">James</name>, <name type="person">Thomas</name>,
+                                <name type="person">Bartholomew</name>, <name type="person">Simon</name>, <name
+                                type="person">Thaddeus</name>, <name type="person">Matthew</name>, <name type="person"
+                                >Barnabas</name>, <name type="person">Stephen</name>, <name type="person"
+                                >Laurence</name>, <name type="person">Thomas (Becket)</name>, <name type="person"
+                                >George</name>, <name type="person">Nicholas</name>, are invoked and the poem ends</ab>
+
+                        <explicit locusNew="158r">
+                            <lg>
+                                <l>E si requer les uirgines e cele duce flurs</l>
+                                <l>Requerez ma dame ke ele ma sait succurs</l>
+                                <l>Gloriuse raine eez de mai merci</l>
+                                <l>Pur amur Ihesu crist ducement vus pri.</l>
+                                <l>Qui cum patre et filio uiuit et regnat deus per omnia secula seculorum. Amen</l>
+                            </lg>
+                        </explicit>
+
+                        <ab>Also in the <ref type="ms" target="LBL919">Phillipps MS. 8336</ref>. Described and specimens
+                            given by <ref type="bibl" target="Meyer 1884">P. Meyer, Romania XIII 509</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="24" locusStart="158r" locusEnd="170v">
+                        <head type="CCC">
+                            <title>Disticha <name type="author">Catonis</name>, translated into Anglo-Norman by <name
+                                    type="author">Elias of Winchester</name>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Les distiches morales de <name type="author">Caton</name> mises en vers par <name
+                                    type="author">Helis de Guyncestre</name></title>
+                        </head>
+
+                        <head type="James">
+                            <title><name type="author">Caton</name> by <name type="author">Helias of
+                                Winchester</name></title>
+                        </head>
+                        <incipit locusNew="158r">
+                            <lg>
+                                <l>Ki uout sauer la faitement</l>
+                                <l>Ke <name type="person">catun</name> a sun fiz aprent</l>
+                                <l>Si en latin nel set entendre</l>
+                                <l>Ici le pot en rumaunz aprendre</l>
+                                <l>Cum <name type="author">helis de guyncestre</name></l>
+                                <l>Ki deu mette a sa destre</l>
+                                <l>Lat translate si fatemente</l>
+                                <l>Dit catun al cumencemente</l>
+                                <l>Cum ieo ma apacuy mut plusurs</l>
+                                <l>Greuement a folaer es murs</l>
+                            </lg>
+                        </incipit>
+                        <explicit locusNew="170v">
+                            <lg>
+                                <l>Ceo fit la breuent de mun ententement</l>
+                                <l>Ken la raisun ioius deus vers sulement</l>
+                                <l>Kil translata len entent tut autresy</l>
+                                <l>Duz <name type="author">helyes</name> dunt deus ait mercy.</l>
+                                <l>Explicit liber <name type="person">catonis</name></l>
+                            </lg>
+                        </explicit>
+                        <ab>On the author, see <ref type="bibl" target="Wright 1846">Wright, <hi rend="italic">Biogr.
+                                    Brit. Litt</hi>. II 123</ref>. <ref type="bibl" target="Stengel 1886">Stengel, <hi
+                                    rend="italic">Ausg. Abh. Geb. roman. Philol</hi>. XLVII 1886</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="25" locusStart="171r" locusEnd="178r">
+                        <head type="CCC">
+                            <title>Le Petit Sermon</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Vers sur l'amour du prochain</title>
+                        </head>
+
+                        <head type="James">
+                            <title>Poem on Love</title>
+                        </head>
+                        <incipit locusNew="171r">
+                            <lg>
+                                <l>Chescun deit estre ame</l>
+                                <l>Par la mesure de sa bounte</l>
+                                <l>Chescun uaut taunt cum il eime</l>
+                                <l>Si cum seint pol uus enseigne</l>
+                                <l>Il dist si il eust chescun ben</l>
+                                <l>Si il ne eust amur ne serreit ren</l>
+                            </lg>
+                        </incipit>
+
+                        <explicit locusNew="178r">
+                            <lg>
+                                <l>Ausi cum par mi ta nus</l>
+                                <l>Lalme od deu nad pour nus</l>
+                                <l>Kar tost aueroit pour parfite</l>
+                                <l>Ki ben pensat de mort subite</l>
+                            </lg>
+                        </explicit>
+
+                    </msItem>
+
+                    <msItem n="26" locusStart="178r" locusEnd="183v">
+                        <head type="CCC">
+                            <title>Le Petit Sermon (continued)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Vers sur le jour du jugement</title>
+                        </head>
+
+                        <incipit locus="357" locusNew="178r">
+                            <lg>
+                                <l>Ore escutez del iugement</l>
+                                <l>Dount pour uent ensement</l>
+                                <l>Ceo est a iour de iuise</l>
+                                <l>Kaunt serra estreite iustise.</l>
+                                <l>Iur de graunt amerte, etc.</l>
+                            </lg>
+                        </incipit>
+
+                        <explicit locusNew="183v">
+                            <lg>
+                                <l>Prium deu omnipotent</l>
+                                <l>Ke cel e tere fist de nent</l>
+                                <l>Ke sa ioie nus otrie</l>
+                                <l>Od lui en la pardurable uie</l>
+                                <l>La nus meine la douce marie. Amen</l>
+                            </lg>
+                        </explicit>
+
+                    </msItem>
+
+                    <msItem n="27" locusStart="183v" locusEnd="196v">
+                        <head type="CCC">
+                            <title>The Fall, Harrowing of Hell, and Passion</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De passione Christi</title>
+                        </head>
+
+                        <rubric locus="368" locusNew="183v">De passione christi</rubric>
+                        <incipit locusNew="183v">
+                            <lg>
+                                <l>Deu omnipotent</l>
+                                <l>Ke al comencement</l>
+                                <l>Creat cel e tere</l>
+                                <l>Nus seit cumfort</l>
+                                <l>E doint deuaunt la mort</l>
+                                <l>Verrai penaunce fere</l>
+                            </lg>
+                        </incipit>
+
+
+                        <explicit locusNew="196v">
+                            <lg>
+                                <l>Il est issi escrit</l>
+                                <l>Ke li apostle dist</l>
+                                <l>Ke solum sun poer</l>
+                                <l>Pur deu uoudra suffrir</l>
+                                <l>E peine od li partir</l>
+                                <l>E od li purra regner</l>
+                                <l>Aitel regne nus meine</l>
+                                <l>Ke pur nus suffir peine</l>
+                                <l>Iesu le tres duz</l>
+                                <l>Pur le amur de sa amie</l>
+                                <l>La pucele marie</l>
+                                <l>Amen diez tuz</l>
+                            </lg>
+                        </explicit>
+
+                    </msItem>
+
+                    <msItem n="28" locusStart="196v" locusEnd="212r">
+                        <head type="CCC">
+                            <name type="author">Perot Garbelei</name>, <title>Diuisiones mundi</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Divisiones mundi [autore <name type="author">Perot de Garbelie</name>]</title>
+                        </head>
+
+                        <rubric locus="394" locusNew="196v">Hic incipiunt diuisiones mundi</rubric>
+                        <ab>(by <name type="author">Perot de Garbelei</name>)</ab>
+                        <incipit locusNew="196v">
+                            <lg>
+                                <l>Un liuure de haut eure</l>
+                                <l>Ki descrist et deskeure</l>
+                                <l>Les choses de ceo mund</l>
+                                <l>E les gens ki i sunt</l>
+                                <l>A ie encunte troue</l>
+                                <l>Meint bon clert ben funde</l>
+                            </lg>
+                        </incipit>
+
+                        <incipit locusNew="196v">
+                            <lg>
+                                <l>Plusurs clers dient ben</l>
+                                <l>Ke nul pour nule ren</l>
+                                <l>Taunt ne sauereit de lettre</l>
+                                <l>Ne purreit mie mettre</l>
+                                <l>En romance ne rimer</l>
+                                <l>Tant ne sauereit de lettre</l>
+                                <l>Pur ceo sen est par fei</l>
+                                <l>
+                                    <name type="author">Perot de garbelei</name>
+                                </l>
+                                <l>Entremis pur auer</l>
+                                <l>Le gre e le uoler, etc.</l>
+                            </lg>
+                        </incipit>
+
+                        <explicit locusNew="212r">
+                            <lg>
+                                <l>Ore awm acumplies</l>
+                                <l>Del munds les treis parties</l>
+                                <l>Dist vus auum leuement</l>
+                                <l>Tut le establement</l>
+                                <l>Del mund e queus i est</l>
+                                <l>Grant preu e grant conquest</l>
+                                <l>Receuire il purrount </l>
+                                <l>Cil ki ben entendrount</l>
+                            </lg>
+                        </explicit>
+
+                        <ab>Not printed</ab>
+
+                    </msItem>
+
+                    <msItem n="29" locusStart="212r" locusEnd="228r">
+                        <head type="CCC">
+                            <name type="author">Gillebert de Cambres OCist</name>, <title>Lucidaire (incomplete)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De Anti-christo</title>
+                        </head>
+
+                        <rubric locus="425" locusNew="212r">Hic incipit de anticristo</rubric>
+                        <incipit locusNew="212r">
+                            <lg>
+                                <l>Meistre beneit seies tu</l>
+                                <l>Ben me as de tut resun rendu</l>
+                                <l>Mes de antecrist de maundasse</l>
+                                <l>Mult uolenters mestre si ie osase</l>
+                            </lg>
+                        </incipit>
+
+                        <explicit locusNew="228r">
+                            <lg>
+                                <l>Kar il ne uoudrunt preu doner</l>
+                                <l>As pours dens pur eus lauer</l>
+                                <l>Lur male vie ne lur peche</l>
+                                <l>Dunt il esteient einz lier</l>
+                                <l>Beneit seit ki cist liure fist</l>
+                                <l>E ensement celi ki le escrist</l>
+                            </lg>
+                        </explicit>
+
+                        <ab>Seemingly an extract from the French version of the <hi rend="italic">Elucidarium</hi> of
+                                <name type="person">Honorius of Autun</name></ab>
+
+                    </msItem>
+
+                    <msItem n="30" locusStart="228r" locusEnd="230v">
+                        <head type="CCC">
+                            <name type="author">Adam de Ross</name>, <title>St Paul's Vision of Hell
+                                (incomplete)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Visio <name type="person">sancti Pauli</name>, imperfecta</title>
+                        </head>
+
+                        <rubric locus="457" locusNew="228r">Hic incipit visio <name type="person">Sancti
+                            pauli</name></rubric>
+                        <incipit locusNew="228r">
+                            <lg>
+                                <l>Seignurs freres or escotez</l>
+                                <l>Vus ki estes a deu nomez</l>
+                                <l>Aidez mai a translater</l>
+                                <l>La visiun <name type="person">sein pol</name> le ber</l>
+                                <l>Dampne deu par sa dousur</l>
+                                <l>E par la sue grant amur</l>
+                                <l>Out merci e memorie</l>
+                                <l>Del almes ki furent en purgatorie, etc.</l>
+                            </lg>
+                        </incipit>
+                        <ab>Ending imperfectly</ab>
+                        <explicit locusNew="230v">
+                            <lg>
+                                <l><name type="person">Sein michel</name> li ad ceo dit</l>
+                                <l>Ami kar deu aueient en despit</l>
+                                <l>Lur chastete vnc ne garderent</l>
+                                <l>Ne dampne deu plein iur ne amerent</l>
+                                <l>Vnc ne chiurent parent</l>
+                            </lg>
+                        </explicit>
+                        <ab locusNew="230v">(Catchword) Plus ke autre</ab>
+                        <ab>It is the version by <name type="author">Adam de Ros</name>. See <ref type="bibl"
+                                target="Ward 1893">Ward, <hi rend="italic">Catalogue of Romances</hi> II 409</ref></ab>
+                        <ab>Printed from a Paris MS. by <ref type="bibl" target="Ozanam 1859">Ozanam (<hi rend="italic"
+                                    >OEuvres</hi> VI 413)</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="31" locusStart="231r" locusEnd="247r">
+                        <head type="CCC">
+                            <title>Libre des moralités (incomplete)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Discours des moralit&#233;s tir&#233; des philosophes</title>
+                        </head>
+                        <head type="James">
+                            <title>Tract on Virtues</title>
+                        </head>
+                        <ab>In prose. <handNote>Another good hand, which changes perhaps more than once</handNote>.
+                                <layout>There are at first 32 and later 22 lines to a page</layout></ab>
+
+
+                        <incipit locusNew="231r">Talent mestoit pris ke jeo recontasse de philosophes lenseygnement de
+                            cel clergie ke est apelez moralitez que en plusurs uolumes est enspandue</incipit>
+
+                        <ab>On <locus locusNew="243v">488</locus> in the place where a catchword is usually put, is
+                            written careforde</ab>
+                        <ab>The tract ends unfinished in a section beginning</ab>
+                        <incipit locusNew="246r">Tot al premir deit lysires puruoir a sa genz eo qe mester lur
+                            est</incipit>
+                        <explicit locusNew="246r">gard tey de conseiller. e bien te puruoy de home loer. ke</explicit>
+                        <ab><locus locusNew="246v">494</locus>-<locus locusNew="247r">495</locus> blank</ab>
+                        <ab>Another copy of this is in the <ref type="ms" target="BNF856">Paris MS. fr. 7856<abbr
+                                    rend="superscript">3.3</abbr></ref> which contains works by <name type="person"
+                                >Geoffrey of Waterford</name> (<ref type="bibl" target="Paris 1847"><hi rend="italic"
+                                    >Hist. Litt</hi>. XXI 228</ref>)</ab>
+
+                        <ab>It is a version of a tract by <name type="person">William of Conches</name>, printed by <ref
+                                type="bibl" target="Sundby 1869">Sundby</ref></ab>
+
+                    </msItem>
+
+                    <milestone n="VI" unit="volume"/>
+                    <msItem n="32" locusStart="247v" locusEnd="248v">
+                        <head type="CCC">
+                            <title>Letters patent of <name type="person">King Edward</name> regarding <name type="place"
+                                    >Ireland</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Literae patentes <name type="person">Edwardi regis</name> pro observatione quorundam
+                                articulorum in parliamento ordinatorum pro emendatione status terrae <name type="place"
+                                    >Hyberniae</name></title>
+                        </head>
+
+                        <ab locusNew="248v">Dated apud <name type="place">Croyndon</name>
+                            <date>3 Marcii anno Regni nostri quinto</date></ab>
+
+                    </msItem>
+
+                    <msItem n="33" locusStart="248v" locusEnd="249v">
+                        <head type="CCC">
+                            <title>Representation of towns to the justice and state council of <name type="place"
+                                    >Ireland</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Representation des maires, baillifs et communit&#233;s des cit&#233;s au
+                                justice et conseil de l'&#233;tat d'<name type="place">Irlande</name></title>
+                        </head>
+
+                        <ab>In French</ab>
+                        <incipit locus="498" locusNew="248v">A vous Sire Justice d<name type="place"
+                            >irlaunde</name></incipit>
+
+                    </msItem>
+
+                    <msItem n="34" locusStart="250r" locusEnd="250r">
+                        <head type="CCC">
+                            <title>Charter for <name type="place">Waterford</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta <name type="person">Edwardi regis</name> ut major civitatis de <name
+                                    type="place">Waterford</name> non teneatur ire ad <name type="place">Dublin</name>
+                                ad sacramentum prestandum, sed ipsum predecessori suo facere valeat</title>
+                        </head>
+
+                        <ab locus="501" locusNew="250r">Dated <name type="place">Westminster</name>
+                            <date>15 Januarii anno Regni nostri quarto</date></ab>
+
+                    </msItem>
+
+                    <msItem n="35" locusStart="250v" locusEnd="250v">
+                        <head type="CCC">
+                            <title>Charter for Knights Hospitallers of <name type="place">Ireland</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta prioris et fratrum <name type="place">Sancti Ioannis de Hierusalem in
+                                    Hybernia</name> de concessione terrae de <name type="place">Dromconan</name>
+                                <name type="person">Ioanni de Carwodely</name></title>
+                        </head>
+
+                        <incipit locus="502" locusNew="250v">ffrater <name type="person">Walterus de Emirus</name> prior
+                            fratrum hospitalis <name type="place">Jerusalem in hibernia</name></incipit>
+                        <ab locusNew="250v">(grant to <name type="person">Johannis de Calwodeleye</name>); witnesses'
+                            names given</ab>
+
+                    </msItem>
+
+                    <msItem n="36" locusStart="251r" locusEnd="251v">
+                        <head type="CCC">
+                            <title>Indulgences of <name type="person">Pope John XXII</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Indulgentia <name type="person">Iohannis papae</name></title>
+                        </head>
+
+                        <ab locus="503" locusNew="251r">
+                            <handNote>In a book hand</handNote>
+                        </ab>
+                        <incipit locusNew="251r">Dominus <name type="person">papa Johannes vicessimus secundus</name>
+                            volens diuinum cultum ampliare</incipit>
+                        <ab locusNew="251r">Indulgence: prescribing certain devotions. Two phrases in French and
+                            English</ab>
+                        <ab locusNew="251r">Verses on the temperaments (Largus amans hilaris, etc.)</ab>
+
+
+                        <ab locus="504" locusNew="251v"><supplied>This page</supplied>
+                            <handNote>is in the hand of the Lessons above</handNote> (article 11) and is a waste page of
+                            St Antony's office apparently</ab>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: KAW 30/10/08; NJC 7/11/2008</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

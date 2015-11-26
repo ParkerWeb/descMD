@@ -1,0 +1,186 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC399">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>399</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>I. 14</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>104</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Julian of Toledo, Prognosticon futuri saeculi</head>
+                <head type="James">Iulianus Toletanus</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">217</height>
+                        <width unit="mm">139</width>
+                    </measureGrp>, <measureGrp type="James">8.6 x 5.5</measureGrp>, <extent>ff. 1 + 140</extent>,
+                        <layout>21 lines to a page</layout>. Cent. <origDate>ix</origDate> (<name type="person"
+                        >Bradshaw</name>), <handNote>in a large upright rather heavy and coarse minuscule. The ornaments
+                        show some Celtic influence. The <hi rend="italic">a</hi> is sometimes open at the top like <hi
+                            rend="italic">u</hi>, sometimes of the ordinary <hi rend="italic">a</hi>
+                    form</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num>, 1<num>8</num> (wants 1) 2<num>8</num>-17<num>8</num> | 18<num>6</num> (5
+                        canc.)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>mortalium</secFol>.</p>
+
+                <p function="Provenance" rend="afterContents">There are a few corrections of cent.
+                        <origDate>xii</origDate>, <handNote>very possibly in English hands</handNote>, but I have not
+                    found any notes or scribbles which give a clue to the monastic provenance.</p>
+
+                <p function="Additions">On f. <locus>ir</locus> a title and note of contents in a hand which I take to
+                    be of cent. <origDate>xvi early</origDate>. It is like that of <ref type="ms" target="CCC395">MS
+                        395. 2</ref>. Note that <ref type="ms" target="CCC395">395</ref> is Catalan.</p>
+
+                <p function="Additions">On f. <locus>iv</locus> an erasure of cent. <origDate>xiii</origDate>
+                    irrecoverable. <lb/><locus>iir</locus> blank</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-c + i-ii + 1-140 + d</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="iiv" locusEnd="140v">
+                        <head type="CCC">
+                            <name type="author">Julian of Toledo</name>, <title>Prognosticon futuri saeculi</title>
+                        </head>
+
+                        <ab locus="iiv">occupied by a title <decoNote>in red and black capitals</decoNote> of cent.
+                                <date>xii</date>. <decoNote>Initial in red and green</decoNote></ab>
+
+                        <rubric locusNew="iiv">Incipit liber Pronosticorum futuri seculi /. <lb/> Sanctissimo ac / pre
+                            ceteris familiarissimo michi domino / ydalio Barcilonensis / sedis episcopo <name
+                                type="author">Iulianus Toletane</name> sedis Episcopus</rubric>
+
+
+                        <ab>(<ref type="bibl" target="Migne 096"><supplied>P. L.</supplied> XCVI</ref> 453)</ab>
+
+                        <ab locus="1r">
+                            <handNote>The original hand begins</handNote>
+                        </ab>
+                        <incipit locusNew="1r">Diem illum clara ... a redemptori omnium exceptione conspicuum quo
+                            presente anno pariter in urbe regia positi</incipit>
+
+
+                        <ab locusNew="1r">
+                            <decoNote>Initial in black with interlaced pattern left in white; contains a very rude
+                                figure of a nimbed man holding a book in each hand, a tree on R.</decoNote>
+                        </ab>
+
+
+                        <explicit locusNew="6v">debeat publicari sententiam</explicit>
+                        <rubric locus="6v">Oratio</rubric>
+                        <incipit locusNew="6v">Desertum <name type="place">idumeae</name> caecus et morbidus</incipit>
+                        <ab>
+                            <decoNote>Initial in black and red</decoNote>
+                        </ab>
+                        <explicit locusNew="8v">pleniori rerum auidentia contueri</explicit>
+                        <rubric locus="8v">Incipiunt capitula libri primi</rubric>
+                        <ab>(<decoNote>capitals, monogrammatized</decoNote>)</ab>
+                        <rubric locus="8v">De origine mortis humanoe</rubric>
+                        <ab>
+                            <decoNote>Initial with plaited work in the stem</decoNote>
+                        </ab>
+                        <rubric locus="10v">Incipit liber de origine mortis humane</rubric>
+                        <ab>(capitals)</ab>
+                        <incipit locusNew="10v">Quomodo mors primum subintrauerit in mundum. Peccato primi hominis
+                            actum</incipit>
+
+                        <rubric locus="36v">Incipiunt capitula libri secundi de animabus defuntorum quo modo habeant
+                            ante ultimam corporum resurrectionem</rubric>
+                        <ab>(capitals)</ab>
+                        <rubric locus="40r">Incipit liber secundus de animabus</rubric>
+                        <ab>(<decoNote>capitals, red and black</decoNote>)</ab>
+                        <rubric locus="81v">Incipiunt capitula libri tercii de ultima corporum resurreccione</rubric>
+                        <ab>(<decoNote>capitals: rather an elaborate initial in red; not of Celtic
+                            pattern</decoNote>)</ab>
+                        <rubric locus="86v">Incipit liber de ultima corporum resurrecione feliciter amen</rubric>
+                        <ab>(<decoNote>capitals: less elaborate initial</decoNote>)</ab>
+                        <incipit locusNew="86v">Quod tempus et diem iudicii</incipit>
+                        <ab locusNew="86v">
+                            <decoNote>Initial with something of Celtic flavour</decoNote>
+                        </ab>
+                        <ab>From f. <locus>102r</locus> to f. <locus>115r</locus>
+                            <handNote>the ink is paler and the hand seems different</handNote></ab>
+
+                        <ab>On f. <locus>115v</locus> the former aspect is resumed</ab>
+                        <ab locus="135v">The old hand ends imperfectly in capitulum lvi</ab>
+                        <explicit locusNew="135v">Quod tamen utrum in reprobis habeatur est fortasse ambiguum quia
+                            iuxta</explicit>
+                        <ab>ff. <locus>136r</locus> to end are a supply <handNote>in a good clear hand</handNote> of
+                            cent. <origDate>xii</origDate>: ending</ab>
+
+                        <explicit locus="139r">uenire ad regnum cuius nullus est finis</explicit>
+                        <rubric locusNew="139r">Explicit</rubric>
+                        <ab>ff. <locus>139v</locus>-<locus>140r</locus> are blank (f. <locus>140v</locus> pasted
+                            over)</ab>
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, SP, CF</p>
+                            <p>msCheck: SP 12/8/08</p>
+                            <p>remarks: Modern editor (Hillgarth) entitles text: Prognosticum future saeculi.</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,255 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC051">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>51</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>F. 2</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>57</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Eusebius of Caesarea, Chronici canones, transl. by Jerome. Sigebert of Gembloux OSB,
+                    Chronica</head>
+                <head type="James">Chronica Eusebii, Sigeberti, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">344</height>
+                        <width unit="mm">247</width>
+                    </measureGrp>, <measureGrp type="James">13.6 x 9.8</measureGrp>, <extent>ff. 134 + 1</extent>,
+                        <layout>37 lines to a page (double columns at first)</layout>. Cent. <origDate>xii
+                        late</origDate>, <handNote>very finely written in long lines</handNote>. <decoNote>Initials in
+                        red, green, blue: in the latter part of the book they are flourished</decoNote>.</p>
+
+
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num>-17<num>8</num> (wants 7, 8)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>bit nullo superius</secFol>.</p>
+
+                <p function="Provenance">From <name type="place" key="ChristCh-001">Christ Church, Canterbury</name>. On
+                    the flyleaf (reversed) is:<lb/>
+                    <q><title>Cronica <name type="author" key="Eusebius-001">Eusebii</name></title>
+                        <name type="person" key="Salomonx-001">Salomonis</name>. D. vj. Gra. xiij. Demonstratio i<abbr
+                            rend="superscript">a</abbr>.</q><lb/> See <ref type="bibl" target="James 1903"><hi
+                            rend="italic">Ancient Libraries</hi>, p. 49, no. 282</ref>. <name type="person"
+                        key="Salomonx-001">Salomon</name> is the donor's name: he was Sub-prior in <date>1207</date>,
+                    and gave several other books.</p>
+
+
+                <p function="Research" rend="withinContents">This MS. is noted as C 1 in <ref type="bibl"
+                        target="Bethmann1844a">MGH. Scriptores</ref> VI p. 290. It is there said to be of the ' familia
+                    Atrebatensis.' The only peculiar additions which it has are at the years 640, 698 ('depositio eximii
+                    patris nostri <name type="person">Bertini</name>'), 807, 820, which show it to have been either
+                    written at <name type="place">St Bertin's</name> or copied from a Bertinian archetype.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i + pp. 1-266 + ff. c-e</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1" locusEnd="105">
+                        <head type="CCC">
+                            <name type="author" key="Eusebius-001">Eusebius of Caesarea</name>, <title>Chronici canones,
+                                transl. by <name type="author">Jerome</name> (to <date>329</date>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Chronicon <name type="author" key="Eusebius-001">Eusebii Caesariensis</name> ex
+                                versione <name type="person">Hieronimi</name> ad annum <date>329</date></title>
+                        </head>
+
+                        <rubric locus="1">In Christi nomine incipit liber cronicorum. <name type="author"
+                                key="Eusebius-001">Eusebius</name>
+                            <name type="author">Ieronimus</name>
+                            <name type="person">uincentio</name> et <name type="person">Galieno</name> suis
+                            salutem</rubric>
+                        <ab>
+                            <decoNote>(in blue and red)</decoNote>
+                        </ab>
+                        <incipit locusNew="1">Uetus iste disertorum mos fuit</incipit>
+                        <ab locusNew="1">
+                            <decoNote>Initial. Gold ground. <name type="author">Jerome</name> as black monk in chair
+                                with open book: a clerk (young) sits at his feet writing</decoNote>
+                        </ab>
+                        <explicit locusNew="3">incerta sunt omnia</explicit>
+                        <rubric locusNew="3">Explicit prefatio <name type="author">ieronimi</name></rubric>
+                        <rubric locus="2" locusNew="3">Incipit <name type="author" key="Eusebius-001">Eusebii</name>
+                            interpretata prefatio</rubric>
+                        <incipit locusNew="4"><name type="person">Moysen</name> gentis Hebraice</incipit>
+                        <ab locusNew="4">
+                            <decoNote>Initial. Gold ground. On L. tonsured man sits writing. On R. a bishop in mitre,
+                                chasuble and pallium sits speaking to him</decoNote>
+                        </ab>
+                        <explicit locusNew="7">cum summa breuitate ponemus</explicit>
+                        <rubric locusNew="7">Explicit prefatio</rubric>
+                        <ab>Text</ab>
+                        <incipit locus="4v" locusNew="8">Primus assiriorum Rex <name type="person"
+                            >ninus</name></incipit>
+                        <ab locusNew="8">
+                            <decoNote>Initial. Gold ground. Sceptred king (<name type="person">Ninus</name>) sits on L.
+                                On R. above, a city (<name type="place">Nineveh</name>): below a child in bed or cradle
+                                    (<name type="person">Abraham</name> who was born in <name type="person"
+                                >Ninus</name>' reign). These initials are of fine bold work: edged with green</decoNote>
+                        </ab>
+                        <explicit locus="105">sequenti anno rome edita. <date>ccc. xxix</date></explicit>
+                    </msItem>
+
+
+                    <msItem n="2" locusStart="105" locusEnd="111">
+                        <head type="CCC">
+                            <name type="author" key="Eusebius-001">Eusebius of Caesarea</name>, <title>Chronici canones,
+                                transl. by <name type="author">Jerome</name> (continuation to <date>378</date>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Continuatio <name type="person">Hieronimi</name> ad annum <date>378</date></title>
+                        </head>
+
+
+                        <rubric locusNew="105">Huc usque hystoriam scribit <name type="author" key="Eusebius-001"
+                                >Eusebius pamphili</name> martiris contubernalis cui nos (i.e. <name type="author"
+                                >Jerome</name>) ista subiecimus</rubric>
+                        <incipit locusNew="105"><name type="person">Arnobius</name> rethor in <name type="place"
+                                >affrica</name></incipit>
+                        <explicit locus="111">Anni <date>quinque milia quingenti septuaginta nouem</date></explicit>
+                    </msItem>
+
+
+                    <msItem n="3" locusStart="111" locusEnd="115">
+                        <head type="CCC">
+                            <name type="author" key="Eusebius-001">Eusebius of Caesarea</name>, <title>Chronici canones,
+                                transl. by <name type="author">Jerome</name> (continuation to <date>455</date>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Continuatio <name type="person">Prosperi</name> ad mortem <name type="person"
+                                    >Valentiniani</name>
+                                <!--James corrects in corrigenda--></title>
+                        </head>
+
+
+                        <rubric locusNew="111">Huc usque <name type="author">Jeronimus</name> presbiter ordinem
+                            precedentium digessit annorum. que sequuntur prosper digessit</rubric>
+                        <incipit locusNew="111">Igitur <name type="person">Valente</name> a gothis</incipit>
+                        <explicit locus="116">carthaginem abducti sunt. Huc usque prosperi cronographia</explicit>
+                    </msItem>
+
+
+                    <msItem n="4" locusStart="116" locusEnd="266">
+                        <head type="CCC">
+                            <name type="author" key="Sigebert-001">Sigebert of Gembloux OSB</name>, <title>Chronica
+                                (continued by <name type="author" key="RalphDic-001">Ralph de Diceto</name>,
+                                Abbreuiationes chronicorum (excerpt <date>1099-1113</date>))</title></head>
+                        <head type="Nasmith">
+                            <title>Continuatio <name type="author" key="Sigebert-001">Sigeberti Gemblacensis</name> ad
+                                annum <date>1113</date></title>
+                        </head>
+
+                        <ab>
+                            <quote>Ad annum <date>1109</date> annotavit in margine <name type="person"
+                                >Joscelinus</name>, <name type="person" key="Sigebert-001">Sigebertum
+                                    Gemblacensem</name> chronicon suum ibi clausisse et reliqua <name type="author"
+                                    key="RalphDic-001">Ranulpho <supplied agent="JamesCorrigenda">(Rad.)</supplied>
+                                    Diceto</name> deberi; editores autem hujus chronici, ut discimus ex <name
+                                    type="person">Cavesio</name> et <name type="person">Oudino</name>, omnia usque ad
+                                annum <date>1113</date>, quo mortuus est <name type="person" key="Sigebert-001"
+                                    >Sigebertus</name>, ei attribuunt; sed nec haec nec ilia opinio mihi arridet, eo
+                                quod ex rebus memoratis patet hoc qualecunque supplementum aliquem ex coenobio <name
+                                    type="place">Aquiticensi (Anchin)</name> habuisse autorem</quote>
+                        </ab>
+
+
+                        <rubric locusNew="116">Incipit cronographia <name type="author" key="Sigebert-001">Sigeberti
+                                monachi gemblacensis</name></rubric>
+                        <incipit locusNew="116">Dicturi aliquid iuuante deo</incipit>
+                        <ab>There are some underlinings and notes by <name type="person" key="MatthewP-001"
+                                >Parker</name> (etc.) and a few older pencil notes. <name type="person"
+                                key="MatthewP-001">Parker</name> notes the omission of <name type="person">Pope
+                                Joan</name> (p. <locus locusNew="203">205</locus>)</ab>
+                        <ab>At p. <locus>256</locus> (A.D. <date>1099</date>) marginal note (<origDate>xvi</origDate>)
+                            that <name type="person" key="Sigebert-001">Sigebert</name> ends and <q>
+                                <name type="person" key="RalphDic-001">Ranulfus Dicetus</name>
+                            </q> continues</ab>
+                        <ab>On p. <locus>264</locus> is a passage about <q>
+                                <name type="person">Robertas aquicinensis cenobii quintus abbas</name>
+                            </q>. <name type="person" key="MatthewP-001">Parker</name> writes in the margin in red
+                            chalk</ab>
+                        <ab locusNew="264">
+                            <q>forte hic <name type="person">robertus</name> scripsit supplementum <name type="person"
+                                    key="Sigebert-001">sigiberti</name> ad annum <date>1182</date>. hoc supplementum
+                                habet <name type="person">mr patey (? Patten)</name> in parochia <name type="place"
+                                    >aldermanbury</name></q>
+                        </ab>
+                        <ab>Ends with the death of <name type="person" key="Sigebert-001">Sigibert of Gemblours</name>
+                                (iii<abbr rend="superscript">o</abbr> nones Octobris)</ab>
+                        <explicit locusNew="265">Dominus <name type="person" key="Sigebert-001">Sigibertus</name>
+                            uenerabilis monachus gemblacensis cenobii etc. ... suis grauissimum merorem absentie sue
+                            reliquit</explicit>
+                        <ab locus="266">On <supplied>this page</supplied> a very faint old pencil note beginning</ab>
+                        <incipit locusNew="266"><name type="person" key="Symmachu-001">Symmachus papa</name>
+                            constituit</incipit>
+
+
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 20/03/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

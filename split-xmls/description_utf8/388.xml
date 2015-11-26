@@ -1,0 +1,155 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC388">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>388</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>R. 8</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>161</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Medical Tracts</head>
+                <head type="James">Medica</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">242</height>
+                        <width unit="mm">157</width>
+                    </measureGrp>, <measureGrp type="James">9.3 x 6.1</measureGrp>, <extent>ff. 54</extent>,
+                        <layout>double columns of 40 lines</layout>. Cent. <origDate>xiv</origDate>, <handNote>in a good
+                        clear hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num>-4<num>8</num> 5 (three) 6<num>8</num> 7<num>8</num> 8
+                    (three)</collation>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-iii + 1-35 + 35a + 36-54 + iv-vi</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="frm" otherLangs="lat eng">Anglo-Norman, Latin and English.</textLang>
+
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="54v">
+                        <head type="CCC">
+                            <title>Medical Tracts</title>
+                        </head>
+
+                        <rubric locus="1r">Hic incipit liber <name type="person" key="Hippocra-001">ypocracii</name>
+                            <name type="person" key="Galenxxx-001">galieni</name> et <name type="person"
+                                key="Asclepiu-001">sclepei</name></rubric>
+                        <incipit locus="1r">
+                            <lg>
+                                <l><name type="person" key="Hippocra-001">Ypocras</name> se liuere fyt</l>
+                                <l>Ale emperour cesar myt</l>
+                                <l>Demandant si volz viure</l>
+                                <l>Entendez ben a moun liure</l>
+                                <l>etc.</l>
+                            </lg>
+                        </incipit>
+                        <rubric locus="1r">De urinis secundum magol (or -OS)</rubric>
+                        <rubric locus="1r">Urina viri sani est pura et aurei coloris</rubric>
+                        <ab>The text is in French, Latin and English: English appears first on f. <locus>4r</locus></ab>
+
+                        <ab locus="36r">A list of titles in English and at the end of it</ab>
+                        <incipit locus="36v">Here bygennes mani a god medecine yat leches han drawn out of ye bokes of
+                                <name type="person" key="Galenxxx-001">Galion</name> and <name type="person"
+                                key="Asclepiu-001">sclepius</name> and <name type="person" key="Hippocra-001"
+                                >ypocras</name></incipit>
+                        <ab>Ending</ab>
+                        <explicit locus="48v">of eld ale mad of barly malt and drinck it</explicit>
+                        <rubric locus="48v">Expliciunt medicine de tractatibus <name type="person" key="Hippocra-001"
+                                >ypocracii</name>
+                            <name type="person" key="Galenxxx-001">gallieni</name> et <name type="person"
+                                key="Asclepiu-001">sclepeij</name>, etc.</rubric>
+                        <rubric locus="48v">Ungwentum ad fistulam</rubric>
+                        <ab locus="48v">and other receipts Latin and English</ab>
+                        <ab locus="49v">(Virtutes signorum)</ab>
+                        <incipit locus="49v">
+                            <lg>
+                                <l>Nil capiti facies aries dum luna refulget</l>
+                                <l>Non tangas aures nec balnea tucius intres</l>
+                                <l>etc.</l>
+                            </lg>
+                        </incipit>
+                        <ab>Ending</ab>
+                        <explicit locus="49v">Carpe uiam tutus sit pocio supra (?sumpta) salubris</explicit>
+                        <rubric locus="49v">Expliciunt virtutes xij signorum lunacionum</rubric>
+                        <ab locus="50r">Various receipts in Latin</ab>
+                        <incipit locus="50v">Secreta medicine <name type="author">H. Sampsonis de Clouburnel</name>.
+                            Seus sunt lez erbes quy sunt appelle lez .v .launces</incipit>
+                        <incipit locus="51r">Ce est le charme seynt gabriel le portat par nostre seygnour pur charmer
+                            crestienes de verin, etc.</incipit>
+                        <ab locus="51v">Other receipts</ab>
+                        <ab locus="52r"> Nomina herbarum et earum virtutes </ab>
+                        <incipit locus="52r">Garofila latina Romanice garofle</incipit>
+                        <ab locus="53v">Ending</ab>
+                        <incipit locus="53v">He(re) mayst you knowen urins be coloures</incipit>
+                        <ab locus="54v">pasted over: apparently there is a name on it</ab>
+
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 20/03/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

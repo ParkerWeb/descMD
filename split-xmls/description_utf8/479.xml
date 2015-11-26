@@ -1,0 +1,128 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC479">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>479</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>N. 40</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>197</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">William Brito OFM, Expositiones uocabulorum Bibliae (Summa Britonis)</head>
+                <head type="James">Brito</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">125</height>
+                        <width unit="mm">72</width>
+                    </measureGrp>, <measureGrp type="James">4.9 x 3.4</measureGrp>, <extent>ff. 387</extent>,
+                        <layout>double columns of 27 lines</layout>. Cent. <origDate>xiii-xiv</origDate>,
+                        <handNote>clearly written</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1<num>16</num> 2<num>16</num> 3<num>18</num> 4<num>16</num>-11<num>16</num>
+                            12<num>14</num> 13<num>16</num>-23<num>16</num> 24<num>18</num> (+1)</collation>.</p>
+                <p><label>2 fo.:</label>
+                    <secFol>geatus quarte</secFol>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-387 + iii-iv</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="353v">
+                        <head type="CCC">
+                            <name type="author">William Brito OFM</name>, <title>Expositiones uocabulorum Bibliae (Summa
+                                Britonis)</title>
+                        </head>
+                        <rubric locusNew="1r">In nomine Ihesu Christi Incipit interpretaciones uocabulorum biblie ...
+                            uocatur summa britonis</rubric>
+                        <incipit locusNew="1r">Difficiles studeo partes quas biblia gestat</incipit>
+                        <explicit locusNew="1r">mera lux et uera sophia</explicit>
+                        <rubric locusNew="1r">Incipit liber a litera</rubric>
+                        <incipit locusNew="1r">A litera sicut dicit <name type="person">ysidorus</name></incipit>
+                        <ab>Ends with</ab>
+                        <incipit locusNew="353v"><name type="person">Zorobabel</name> apud hebreos</incipit>
+                        <explicit locusNew="353v">uerba sunt <name type="person">isidori</name> ethimol. vii</explicit>
+                        <incipit locusNew="353v">Hi(c) ego doctorum compegi scripta sacrorum</incipit>
+                        <explicit locusNew="353v">Sorte beatorum quod sim uelut unus eorum. amen</explicit>
+                        <ab>The verses differ from those in <ref type="ms" target="CCC460">MS 460. 4</ref></ab>
+                    </msItem>
+
+
+                    <msItem n="2" locusStart="354r" locusEnd="387v">
+                        <head type="CCC">
+                            <title>Interpretationes nominum Bibliae</title>
+                        </head>
+                        <head type="James">
+                            <title>Interpretationes nominum</title>
+                        </head>
+                        <ab>
+                            <handNote>Another hand</handNote>
+                        </ab>
+
+                        <incipit locusNew="354r"><name type="person">Aaron</name> mons fortis</incipit>
+                        <explicit locusNew="387v"><name type="person">Zorobabel</name> ... magister confusionis. hesdre
+                            3. Aggeus et m<abbr rend="superscript">t</abbr> I</explicit>
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJM 30/01/2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

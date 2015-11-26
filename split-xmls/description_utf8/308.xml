@@ -1,0 +1,212 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC308">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>308</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>W. 2</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>299</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Osbert of Clare OSB, Vita Sancti Ethelberti. Honorius Augustodunensis,
+                    Elucidarius</head>
+                <head type="James">Passio S. Ćthelberti. Elucidarium, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">248</height>
+                        <width unit="mm">172</width>
+                    </measureGrp>, <measureGrp type="James">9.7 x 6.8</measureGrp>, <extent>ff. 1 + 8 + 50</extent>,
+                        <layout>two volumes</layout> of cent. <origDate>xii</origDate>.</p>
+
+
+                <p function="Multivolume" rend="withinContents"><lb/><label>Volume I:</label>
+                    <layout>In double columns of 28 lines</layout>. Cent. <origDate>xii early</origDate>, <handNote>in a
+                        pretty hand</handNote>. <decoNote>Red initials</decoNote>.<lb/><label>Volume II:</label>
+                    <handNote>In a large round hand</handNote> of cent. <origDate>xii</origDate>, <layout>30 lines to a
+                        page</layout>. <handNote>Rather rough</handNote>. <decoNote>Names of authorities in red and
+                        green capitals in the margin</decoNote>. The first two initials are late insertions.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num> | 1<num>6</num> 2<num>12</num> (12 canc.)
+                            3<num>8</num>-6<num>8</num> (+1)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>sine fraudis</secFol>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + pp. 1-118 + ff. iii-iv</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="1" locusEnd="18">
+                        <head type="CCC"><name type="author">Osbert of Clare OSB</name>, <title>Vita Sancti
+                                Ethelberti</title></head>
+                        <head type="Nasmith">
+                            <title>Passio sancti Athelberti regis et martiris, autore <name type="author">Osberto
+                                    monacho de Stoke- Clare</name></title>
+                        </head>
+
+                        <rubric locus="1" locusNew="3">Incipit passio <name type="person">Sancti ATHELBERHTI</name>
+                            regis et martiris</rubric>
+                        <incipit locus="1" locusNew="3">Gloriosus ac summo regi acceptus rex <name type="person"
+                                >ATHELBERHTUS</name></incipit>
+                        <explicit locus="17">qui hic tue sancte festiuitati mente deuotissima congaudent. quod ipse
+                            prestare dignetur qui trinitas in unitate et unitas in trinitate perfecta uiuit et regnat
+                            per secula deus</explicit>
+                        <rubric locusNew="17">Explicit passio <name type="person">Sancti &#198;thelberhti</name>
+                            gloriosi martyris</rubric>
+                        <ab><ref type="bibl" target="Hardy 1862b">Hardy I 494</ref>. An abridgment in the <ref
+                                type="bibl" target="Horstmann 1901a">Nova Legenda Anglie (Horstmann) I 412</ref>. <ref
+                                type="bibl" target="Leland 1745">Leland Itin. VIII 57</ref></ab>
+                        <ab locus="81" locusNew="17">A charm against toothache (<origDate>xiv</origDate>) in Latin, with
+                            invocation of <name type="person">S. Apollonia</name></ab>
+                        <incipit locus="17">In nomine domini nostri Ihesu Cristi + tetragramaton + vicit leo de tribu
+                            iuda etc.</incipit>
+                        <ab locus="8v" locusNew="18">blank</ab>
+
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="2" locusStart="19" locusEnd="108">
+                        <head type="CCC"><name type="author">Honorius Augustodunensis</name>,
+                            <title>Elucidarius</title></head>
+                        <head type="Nasmith">
+                            <title>Elucidarium, sive dialogus summam totius theologiae christianae amplectens, lib.
+                                iii</title>
+                        </head>
+
+                        <ab>
+                            <quote>Opus <name type="author">Anselmo</name> vulgo attributum, ejus tamen nomine judicibus
+                                    <name type="person">Tannero</name> et <name type="person">Cavesio</name> prorsus
+                                indignum.<lb/> In hoc codice pariter ac in <ref type="ms" target="OBL932">Bodleiano
+                                    [Laud E. 9]</ref> nomen <name type="author">Anselmi</name> occurrit in margine inter
+                                autores unde desumpta est haec collectio</quote>
+                        </ab>
+                        <ab locus="1r" locusNew="19">At the top <name type="person">Parker</name> has written
+                                <decoNote>in red chalk</decoNote>: <q>por</q>
+                            <supplied agent="JamesCorrigenda">(Cf. <ref type="ms" target="CCC323">MS 323</ref>, <ref
+                                    type="ms" target="CCC442">MS 442</ref>)</supplied></ab>
+                        <incipit locus="1r" locusNew="19">Sepius rogatus a condiscipulis quasdam questiunculas</incipit>
+                        <ab>(<ref type="bibl" target="Migne 172"><supplied>P. L.</supplied> CLXXII</ref> 1109)</ab>
+                        <explicit locus="19">magistrorum sollers subtilitas</explicit>
+                        <incipit locus="19">Gloriose magister rogo ut ad inquisita</incipit>
+                        <ab locus="19">At the top of the leaf is written (<date>xiii-xiv</date>)</ab>
+                        <ab locus="19">
+                            <q>Incipit et finit liber Elucidarius iste.<lb/> Laus tibi sit christe quem crismatis unctio
+                                linit</q>
+                        </ab>
+                        <ab><handNote>There are some interesting notes in a similar hand on lower margins of ff. <locus
+                                    locusNew="32">7v</locus> sqq.</handNote> On <locus locusNew="34">8v</locus>-<locus
+                                locusNew="37">10r</locus> they are continuous</ab>
+                        <incipit locus="34">Incipit psalmi a beato <name type="person">hillario pictauensi episcopo
+                                egcepti</name> ad precandum deum intensiue ordinati</incipit>
+                        <ab>Verses and notes on Kalendar etc. <locus locusNew="38">10v</locus>, <locus locusNew="39"
+                                >11r</locus></ab>
+                        <ab locus="16v" locusNew="50">Liber II</ab>
+                        <incipit locus="16v" locusNew="50">Anima mea exultet in domino</incipit>
+                        <ab locus="30r" locusNew="77">Liber III</ab>
+                        <incipit locus="30r" locusNew="77">Iam innumeris ydre capitibus</incipit>
+                        <explicit locus="108">et uideas bona ierusalem omnibus diebus uite tue. Amen</explicit>
+                        <rubric locus="108">Explicit liber Elucidarii</rubric>
+
+                    </msItem>
+
+
+                    <msItem n="3" locusStart="108" locusEnd="112">
+                        <head type="CCC"><name type="author">Ivo of Chartres</name>, <title>Epistola ad uirginem in
+                                Dimensi monasterio Sancti Auiti</title></head>
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Ivonis Carnotensis</name> ad virgines in Dimensi
+                                monasterio Sancti Aviti</title>
+                        </head>
+
+                        <incipit locus="45v" locusNew="108"><name type="author">Ivo</name> dei gratia Carnotensium
+                            episcopus uirginibus in dimensi monasterio</incipit>
+                        <explicit locus="112">fortiter obseruare studentes. Valete</explicit>
+                        <incipit locus="47v" locusNew="112">Sit autem sermo uirginis prudens</incipit>
+                        <explicit locus="47v" locusNew="112">etiam ociosus sermo uitandus est</explicit>
+
+                    </msItem>
+
+
+                    <msItem n="4" locusStart="112" locusEnd="118">
+                        <head type="CCC"><name type="author">Ivo of Chartres</name>, <title>Sermo de beata
+                                uirgine</title></head>
+                        <head type="Nasmith">
+                            <title>Sermo de beata virgine</title>
+                        </head>
+
+                        <rubric locus="47v" locusNew="112">Intrauit Ihesus in quoddam castellum</rubric>
+                        <ab>(<ref type="bibl" target="Migne 158"><supplied>P. L.</supplied> CLVIII 644</ref>)</ab>
+                        <incipit locus="47v" locusNew="112">Quid ad gloriosam uirginem dei genitricem lectio ista
+                            pertineat</incipit>
+                        <explicit locus="118">precibus eius per Iesum Christum filium eius qui uiuit et regnat deus per
+                            omnnia secula seculorum amen</explicit>
+                        <ab locus="50v" locusNew="118">Some <date>xiii</date>th cent. notes have been erased: at top is
+                            an erasure, ending: <q>a. d. <date>1523</date></q></ab>
+
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, but not by a second person</p>
+                            <p>msCheck: ELB 21.1.2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

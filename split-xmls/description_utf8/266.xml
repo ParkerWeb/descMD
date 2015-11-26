@@ -1,0 +1,186 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+
+                <msIdentifier xml:id="CCC266">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>266</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>P. 11</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>236</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Peter of Blois, archdeacon of Bath, Epistolae and other works</head>
+
+                <head type="James">P. Blesensis</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">265</height>
+                        <width unit="mm">180</width>
+                    </measureGrp><measureGrp type="James">10.4 x 7.4</measureGrp>, <extent>ff. 1 + 174</extent>,
+                        <layout>double columns of 40 lines</layout>. Cent. <origDate>xiii early</origDate>, <handNote>in
+                        an excellent hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num>-14<num>8</num> 15<num>2</num> 16<num>8</num>-20<num>8</num>
+                        (wants 8) 21<num>6</num> 22<num>8</num> 23<num>8</num> (wants 8)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>que ex amicicie</secFol>.</p>
+
+                <p function="Provenance">The flyleaf <supplied>(pp. <locus>v</locus>-<locus>vi</locus>)</supplied> is
+                    blank (except for late notes). At top of p. <locus>1</locus> a press mark of cent.
+                        <origDate>xv</origDate>: M 57<abbr rend="superscript">m</abbr> which is that of the <name
+                        type="place">London</name> Carmelites: see the <ref type="ms" target="CSJI15">St. John's College
+                        MS. I 15</ref>.</p>
+
+                <p type="CCC">
+                    <foliation>pp. i-vi + 1-132 (133-134 missing) + 135-342 (343-344 missing) + 345-352 +
+                        vii-x</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1" locusEnd="230">
+
+                        <head type="CCC"><name type="author">Peter of Blois, archdeacon of Bath</name>,
+                                <title>Epistolae</title></head>
+
+                        <head type="Nasmith">
+                            <title><name type="author">Petri Blessensis</name> epistolae CXXXVII</title>
+                        </head>
+
+                        <rubric locus="1">Incipiunt epistole <name type="author">Petri Blesensis</name> Bathoniensis
+                            archidiaconi</rubric>
+                        <ab>(<ref type="bibl" target="Migne 207">P. L. CCVII</ref>)</ab>
+                        <rubric locusNew="1">Epistola prima</rubric>
+                        <incipit locusNew="1"><name type="person">Henrico</name> dei gratia illustrissimo anglorum regi
+                            ... suus petrus ... Rogatus a vobis epistolas quas passim</incipit>
+                        <ab locusNew="226">The last is to <name type="person">W. Archbishop of Rouen</name></ab>
+                        <incipit locus="226">Cuiusdam noui operis</incipit>
+                        <ab>Ending</ab>
+                        <explicit locus="228">et pars uestra in eternum</explicit>
+                        <ab>pp. <locus>229</locus>, <locus>230</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="231" locusEnd="252">
+
+                        <head type="CCC"><name type="author">Peter of Blois, archdeacon of Bath</name>, <title>De
+                                amicitia Christiana et de caritate Dei</title></head>
+
+                        <head type="Nasmith">
+                            <title>Idem de amicitia christiana</title>
+                        </head>
+
+                        <rubric locus="231">Prologus de amicicia christiana</rubric>
+                        <incipit locusNew="231">Quoniam diminute sunt ueritates</incipit>
+                        <ab>(<ref type="bibl" target="Migne 207"><supplied>P. L.</supplied> CCVII 871</ref>)</ab>
+                        <explicit locusNew="232">lima diligentiore complanent</explicit>
+                        <rubric locus="232">Incipit liber de amicitia christiana</rubric>
+                        <incipit locusNew="232">Subsannabit aliquis</incipit>
+                        <explicit locus="252">reatus eliminet</explicit>
+                        <rubric locusNew="252">Explicit libellus de amicicia christiana</rubric>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="252" locusEnd="308">
+
+                        <head type="CCC"><name type="author">Peter of Blois, archdeacon of Bath</name>, <title>De
+                                amicitia Christiana (excerpt)</title></head>
+                        <head type="Nasmith">
+                            <title>Idem de caritate seu de dilectione Dei</title>
+                        </head>
+
+                        <rubric locusNew="252">et incipit de caritate seu de dilectione dei primus liber</rubric>
+                        <incipit locus="252">Sicut precedentia docuerunt</incipit>
+                        <ab>(<ref type="bibl" target="Migne 207"><supplied>P. L.</supplied> CCVII 895</ref>)</ab>
+                        <explicit locus="308">et consummata glorie plenitudo?</explicit>
+                        <rubric locusNew="308">Explicit</rubric>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="309" locusEnd="351">
+                        <head type="CCC"><name type="author">Peter of Blois, archdeacon of Bath</name>, <title>Inuectiua
+                                contra perfidiam Iudaeorum</title></head>
+
+                        <head type="Nasmith">
+                            <title>Idem de contra perfidiam Judeorum</title>
+                        </head>
+
+                        <rubric locus="309">Opusculum <name type="author">Petri Blesensis</name> Bathoniensis
+                            Archidiaconi contra perfidiam Iudeorum</rubric>
+                        <ab>(<ref type="bibl" target="Migne 207"><supplied>P. L.</supplied> CCVII 825</ref>)</ab>
+
+                        <incipit locusNew="309">Querelam in tuis litteris longa vi (longam) et anxia vi (anxiam)
+                            texuisti</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="351">ut <name type="person">golias</name> ense proprio iuguletur</explicit>
+                        <ab locusNew="352">On p. <locus>352</locus> faint pencil notes and a scribble
+                                (<origDate>xv</origDate>) ...rothom</ab>
+
+                    </msItem>
+
+                </msContents>
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text:copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, BA, CF</p>
+                            <p>msCheck: RJR 30.05.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

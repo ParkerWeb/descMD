@@ -1,0 +1,141 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC501">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>501</idno>
+                    <altIdentifier type="Elbing">
+                        <idno>N. 3</idno>
+                    </altIdentifier>
+
+                </msIdentifier>
+                <head type="CCC">Gregory of Rimini OESA, Commentary on the Lombard's Sentences. Augustine, Soliloquia
+                    animae ad Deum. James of Milan OFM, Stimulus amoris. John of Freiburg OP, Confessionale</head>
+                <head type="James">[Untitled]</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">305</height>
+                        <width unit="mm">225</width>
+                    </measureGrp>, <measureGrp type="James">12 x 8.8</measureGrp>, <extent>ff. cir. 200</extent>,
+                        <layout>double columns of 51 lines</layout>. Cent. <origDate>xv</origDate>, <handNote>in three
+                        hands</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>impracticable</collation>.</p>
+
+                <p function="Additions">One cover left. The book can hardly be used.</p>
+
+                <p type="CCC">
+                    <foliation>Too fragile to be foliated in its entirety. Partially foliated and imaged: front cover
+                        exterior and interior + first gathering recto and verso foliated as ff. a-l + final page with
+                        explicit <hi rend="italic">confessionale Johannis theotunici</hi> foliated as m</foliation>.</p>
+
+                <p type="CCC"/>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1">
+                        <head type="CCC"><name type="author">Gregory of Rimini OESA</name>, <title>Commentary on the
+                                Lombard's Sentences</title></head>
+                        <rubric>Incipit <name type="author">Gregorius Ariminensis</name> in Sententias Libri IV</rubric>
+                        <incipit>Circa prohemium primo dubito utrum habitus ... theolo-icum acquisitum ... fides uel
+                            fide alcoi Q. non. nam habitus qui inducit aliam certitudinem ultra fidem non est</incipit>
+                        <ab>Ends</ab>
+                        <explicit>dyapha<abbr rend="superscript">m</abbr> quod possit esse subiectum (?) lucis. hec
+                                <name type="person">sanctus thomas</name></explicit>
+                    </msItem>
+
+                    <msItem n="2">
+                        <head type="CCC"><name type="author">pseudo-Augustine</name>, <title>Soliloquia animae ad
+                                Deum</title></head>
+                        <rubric>Soliloquium <name type="author">Augustini</name></rubric>
+                        <incipit>Cognoscam te domine</incipit>
+                    </msItem>
+
+                    <msItem n="3">
+                        <head type="CCC"><name type="author">James of Milan OFM</name>, <title>Stimulus
+                            amoris</title></head>
+                        <rubric><name type="author">Bernhardus</name> de stimulo amoris</rubric>
+                        <incipit>Currite gentes undique</incipit>
+                        <explicit>dulcis pre electis</explicit>
+                    </msItem>
+
+                    <msItem n="4">
+                        <head type="CCC"><name type="author">John of Freiburg OP</name>,
+                            <title>Confessionale</title></head>
+                        <rubric>Incipit prologus super confessionale fratris <name type="author">Iohannis
+                                theotonici</name> ordine predicatorum adiunctum deuo<abbr rend="superscript">ne</abbr>
+                            summe confessorum sic autem inc.</rubric>
+                        <incipit>Simpliciores et minus expertos confessores</incipit>
+                        <ab>Capitula</ab>
+                        <ab>Text</ab>
+                        <incipit>Cum aliquis petit suam confessionem audiri</incipit>
+                        <ab>Ends</ab>
+                        <explicit>frequentibus commonicionibus impulsabis</explicit>
+                        <rubric>Explicit confessionale fratris <name type="author">Johannis theotunici</name> lectoris
+                            de ordine predicatorum. Amen</rubric>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJM 2/2/2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

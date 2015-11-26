@@ -1,0 +1,520 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC297">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>297</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>A. 12</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>12</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Statuta. Palladius, De agricultura. Thorney Documents, etc.</head>
+                <head type="James">Statuta. Palladius. Thorney Documents, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">265</height>
+                        <width unit="mm">175</width>
+                    </measureGrp>, <measureGrp type="James">10.6 x 6.8</measureGrp>, <extent>ff. 1 + 22 + 182</extent>,
+                        <layout>double columns of 36 and 33 lines</layout>. Cent. <origDate>xiii-xiv early</origDate>,
+                        <handNote>in one very clear hand, writing in different sizes</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>6</num> 2<num>8</num> 3<num>8</num> | i<num>8</num>-xv<num>8</num> (+
+                        slip) xvi<num>8</num> xvii<num>10</num> | xviii<num>8</num> xix<num>8</num> (wants 8) |
+                            xx<num>8</num>-xxiii<num>8</num> (wants 3, 4, 5)</collation>.</p>
+
+                <p>The first four leaves of each quire are usually numbered on the verso: <q>iii fo. quat. viii,</q>
+                    etc.</p>
+
+                <p function="Provenance">From <name type="place">Thorney</name>, written by the precentor <name
+                        type="author">Johannes Brito</name>. On the lower margin of f. <locus locusNew="51r">29r</locus> is:<lb/>
+                    <q>Istum librum scripsit frater <name type="author">iohannes brito</name>.</q><lb/> On lower margin
+                    of <locus locusNew="253r">105r</locus> is a notice of receipt:<lb/>
+                    <q>Omnibus chr. fidelibus, etc. fr. <name type="author">J. Brito</name> precentor <name type="place"
+                            >Thorn'</name>. Has received from <name type="person">Roger de Drayton</name> Rector of
+                            <name type="place">All SS. Huntingdon</name> 5s de annua pensione precentorie <name
+                            type="place">Thorn'</name>. debita de termino S. Michel. a. d. <date>m<abbr
+                                rend="superscript">o</abbr> cc xcii</date>.</q></p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i + 1-205 + c-d</foliation>.</p>
+
+                <msContents>
+
+                    <textLang mainLang="lat" otherLangs="frm">Latin and Anglo-Norman.</textLang>
+
+                    <label>Contents</label>
+
+
+                    <milestone n="I" unit="volume"/>
+                    <msItem n="1" locusStart="1r" locusEnd="22v">
+                        <head type="CCC">
+                            <title>English Statutes</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Statuta regni abbreviata, id est, -provisiones de <name type="place">Merton</name>,
+                                -statuta de <name type="place">Marleburge</name>, -statuta <name type="place"
+                                    >Westmonasterii prima</name>, -statuta <name type="place">Gloucestriae</name>,
+                                -statuta <name type="place">Westmonasterii secunda</name>, -statuta de venditionibus et
+                                emptionibus terrarum, -statutum de viris religiosis</title>
+                        </head>
+
+                        <ab locus="1r">Tituli of the Statutes</ab>
+                        <ab locus="4" locusNew="2v">
+                            <name type="place">Merton</name>
+                        </ab>
+                        <ab locus="7" locusNew="4r">
+                            <name type="place">Marlebergie</name>
+                        </ab>
+                        <ab locus="11" locusNew="6r"><name type="place">Westmonasterii</name> I</ab>
+                        <ab locus="21r" locusNew="11r">
+                            <name type="place">Gloucester</name>
+                        </ab>
+                        <ab locus="24r" locusNew="12v">
+                            <name type="place">Westmonasterii</name> II</ab>
+                        <ab locus="38" locusNew="19v">Quia emptores</ab>
+                        <ab locus="39" locusNew="20r">de viris religiosis</ab>
+                        <ab><locus locusNew="21r">41</locus>-<locus locusNew="22v">44</locus> blank</ab>
+
+                    </msItem>
+
+
+
+                    <milestone n="II" unit="volume"/>
+                    <msItem n="2" locusStart="23r" locusEnd="91v">
+                        <head type="CCC">
+                            <name type="author">Palladius</name>, <title>De agricultura</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Paladii Rutili Tauri Aemiliani</name> viri illustris opus
+                                agriculturae lib. ii</title>
+                        </head>
+
+                        <rubric locus="1r" locusNew="23r"><name type="author">Palladii Rutuli Tauri Aemiliani</name>
+                            viri illustris opus agriculture. Incipiunt tituli libri primi</rubric>
+                        <incipit locusNew="23r">Pars es et prima prudencie</incipit>
+                        <ab>Many passages from the Georgics are written in the lower margins</ab>
+                        <explicit locusNew="91v">hora undecima pedes xxix</explicit>
+                        <rubric locusNew="91v"><name type="author">Palladii Rutili Tauri Emiliani</name> viri illustris
+                            opus agriculture explicit</rubric>
+
+                    </msItem>
+
+
+                    <msItem n="3" locusStart="91v" locusEnd="115v">
+                        <head type="CCC">
+                            <title>Register of ancient writs</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Regalia brevia sicut mos est in regno, sive registrum brevium antiquum</title>
+                        </head>
+
+                        <rubric locus="69v" locusNew="91v">Incipiunt regalia breuia sicut mos est in regno Et primo
+                            incipit breue de recto</rubric>
+                        <incipit locusNew="91v">Rex balliuis suis</incipit>
+                        <ab locusNew="115v">The last is about a claim of <name type="place">S. Katherine's priory
+                                Lincoln</name> to tithes at <name type="place">Newark</name>, claimed by <name
+                                type="person">William precentor of Lincoln</name></ab>
+
+                    </msItem>
+
+
+                    <msItem n="4.1" locusStart="115v" locusEnd="136v">
+                        <head type="CCC">
+                            <title>The art of writing letters, or a formulary (1)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Ars faciendi literas vel epistolas, sive formula: cartularum regiarum et epistolarum
+                                episcoporum, etc.</title>
+                        </head>
+                        <rubric locus="93v" locusNew="115v">Incipit ars faciendi literas uel epistolas rurales
+                            (curiales?) per compendium</rubric>
+                        <incipit locusNew="115v">In omnibus literis cuicumque et a quocunque transmittantur</incipit>
+                        <ab>In the first formulae the pope is <name type="person">Gregorius</name>, the King of England
+                                <name type="person">H</name>, the Abp of Canterbury <name type="person">R</name>. <name
+                                type="place">Barnwell</name> is often mentioned</ab>
+                        <ab>The last is</ab>
+                        <rubric locusNew="136v">De aliquo qui wlt suscipere habitum monachilem</rubric>
+                    </msItem>
+
+
+                    <msItem n="4.2" locusStart="136v" locusEnd="146v">
+                        <head type="CCC">
+                            <title>The art of writing letters, or a formulary (2)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Ars faciendi literas vel epistolas, sive formula: cartularum regiarum et epistolarum
+                                episcoporum, etc.</title>
+                        </head>
+
+
+                        <head type="James">
+                            <title>Regale (another registrum brevium)</title>
+                        </head>
+                        <rubric locusNew="136v">De terra emenda uel limitanda</rubric>
+                        <ab locusNew="142v">One <q>de atachiandis xii per xxiiii<abbr rend="superscript">or</abbr></q>
+                            is on a slip after f. <locus locusNew="142v">120</locus></ab>
+                        <ab locusNew="146r">Ends with one <q>super tenente tenementum cuius predecessor decessit ante
+                                aduentum iusticiariorum nostrorum</q></ab>
+                        <explicit locusNew="146v">apud <name type="place">oxoniam</name>
+                            <date>iiii die febr. anno regni nostri xx<abbr rend="superscript">o</abbr></date></explicit>
+                        <rubric locusNew="146v">Explicit Regale</rubric>
+
+                    </msItem>
+
+
+                    <msItem n="4.3" locusStart="146v" locusEnd="150r">
+                        <head type="CCC">
+                            <title>The art of writing letters, or a formulary (3)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Ars faciendi literas vel epistolas, sive formula: cartularum regiarum et epistolarum
+                                episcoporum, etc.</title>
+                        </head>
+
+                        <rubric locus="123v" locusNew="150r">Hec est forma cartarum</rubric>
+                        <incipit locusNew="146v">Notum sit omnibus tam presentibus</incipit>
+                        <ab locusNew="146v">followed by <q>Carta de Baronia</q></ab>
+                        <ab locusNew="150r">The last is <q>Concordia inter aliquos homines</q></ab>
+                        <explicit locusNew="150r">Hec transaccio facta fuit <date>iiii<abbr rend="superscript">o</abbr>
+                                die febr. anno regni <name type="person">H</name>. reg. tercii xx<abbr
+                                    rend="superscript">o</abbr>. ciclo lunari ii<abbr rend="superscript">o</abbr>. Anno
+                                ab incarnacione domini m<abbr rend="superscripts">o</abbr> cc<abbr rend="superscript"
+                                    >o</abbr> xxx<abbr rend="superscript">o</abbr> v<abbr rend="superscript"
+                                >o</abbr></date></explicit>
+
+                    </msItem>
+
+
+                    <msItem n="5.1" locusStart="150v" locusEnd="158v">
+                        <head type="CCC">
+                            <name type="author">William de Sumere</name>, <title>Experimenta</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Experimenta medicinalia magistri <name type="author">Willelmi de
+                                Sumereye</name></title>
+                        </head>
+
+                        <rubric locus="127v" locusNew="150v">Incipiunt experimenta magistri <name type="author">Willelmi
+                                de Sumereye</name></rubric>
+                        <incipit locusNew="150v">Huius opusculi series circa quedam membrorum remedia tam consimilium
+                            quam officialium seu omnium uersatur. quibus magister <name type="author">Willelmus de
+                                Sumereye</name> probatissima experiencia usuque plurimum esse fidem asserit
+                            adhibendam</incipit>
+
+                        <ab>The last is</ab>
+                        <rubric locusNew="158v">Ad tollendum super os equinum</rubric>
+                        <explicit locusNew="158v">delent acredinem</explicit>
+                        <rubric locusNew="158v">Explicit paruus uiaticus magistri <name type="author">Willelmi de
+                                Sumereie</name></rubric>
+                        <ab locus="135v" locusNew="158v">An added paragraph</ab>
+
+                    </msItem>
+
+
+                    <msItem n="5.2" locusStart="158v" locusEnd="161v">
+                        <head type="CCC">
+                            <title>A book of names</title>
+                        </head>
+
+
+                        <head type="James">
+                            <title>A book of names</title>
+                        </head>
+                        <rubric locus="135v" locusNew="158v">De personis ecclesiasticis et secularibus que preponantur
+                            et que postponantur et de creditoribus</rubric>
+                        <ab>Then follow</ab>
+                        <incipit locusNew="158v">Personarum quedam sunt ecclesiastice quedam seculares differencia vini,
+                            nomina pannorum, piscium, carnium que sunt in macello, auium et quomodo capiantur, de hiis
+                            que pertinent ad artem pistoriam, ad cibum, nomina rerum que aurifaber operatur, et
+                            instrumentorum eius, de cultellario et eius rebus, de varietate zonarum, cirotecarum,
+                            calciamentorum, que pertinent ad corvesarium, de sotularibus, de varietate sellarum,
+                            lorenarum, pellium</incipit>
+                        <explicit locusNew="161r">Item habeat alias de sabelino siue simbilino. ex heremino. ex matrice,
+                            ex fibro, siue ex beuere. ex wlpecula uel roserella</explicit>
+                        <ab locusNew="161r">Three receipts in French for making colours</ab>
+
+                    </msItem>
+
+
+                    <msItem n="6" locusStart="162r" locusEnd="176v">
+                        <head type="CCC">
+                            <title>Poems on the death of <name type="person">Radulphus Abbot of Thorney</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Poema versibus rithmicis scriptum in mortem <name type="person">Rodulphi abbatis
+                                    Thorneiae</name>; cum forma qua condolent caetera monasteria cum Thorniensi</title>
+                        </head>
+
+                        <ab locus="139r" locusNew="162r">Single lines written as prose</ab>
+                        <incipit locusNew="162r">
+                            <lg>
+                                <l>Que merces hominis tot desudare caminis</l>
+                                <l>Cuius habet finis tempora membra cinis</l>
+                                <l>Si uitam uolumus que transit et est quasi fumus</l>
+                                <l>Non homines sed humus sed magis umbra sumus</l>
+                            </lg>
+                        </incipit>
+                        <ab>Ends</ab>
+                        <explicit locusNew="162v">
+                            <lg>
+                                <l>Cum sit cognomen <name type="person">Radulfi</name> simplicis omen</l>
+                                <l>Ex re contractum nomen transiuit in actum</l>
+                            </lg>
+                        </explicit>
+                        <rubric locus="139v" locusNew="162v">Titulus ecclesie <name type="person">S. gudlaci
+                                croylandie</name></rubric>
+                        <incipit locusNew="162v">Nobis specialiter incumbit speciale aliquid ad commendacionem
+                            commendabilis uiri <name type="person">Dompni Radulfi Abbatis Thorneye</name></incipit>
+                        <explicit locusNew="164r">quam uersus heroicos uel elegos modulari</explicit>
+                        <ab>Part of the original obituary roll of <name type="person">Abbot Ralph</name> exists in the
+                                <ref type="ms" target="LBLA10">British Museum Royal 15. A. x*</ref>. See <ref
+                                type="bibl" target="Hope 1906">W. St J. Hope (<hi rend="italic">Obituary Roll of Abbot
+                                    Islip, Vetusta Monumenta</hi>, 1906, Postscript)</ref></ab>
+                        <incipit locus="141r" locusNew="164r">Uniuersis sancte matris ecclesie fidelibus ... pusillus
+                            grex monachorum Thorneye </incipit>
+                        <ab>(for <name type="person">Abbot Radulfus</name>)</ab>
+                        <explicit locusNew="166r">bonorum mercedem recipietis</explicit>
+                        <incipit locusNew="166r">Uniuersis ... pusillus grex monachorum Thorneye</incipit>
+                        <ab>(for <name type="person">Abbot Salomon</name>.)</ab>
+                        <incipit locus="143r" locusNew="167r">Inmaculate sponse ... <name type="person">Ricardus</name>
+                            ... Thornensis abbas</incipit>
+                        <ab>(for <name type="person">Abbot Robert</name>, <date>1237</date>)</ab>
+                        <ab>A note by the scribe in lower margin</ab>
+                        <incipit locusNew="167r">Require epitapium cuiusdam in libro scentenciarum <name type="person"
+                                >Gilberti</name> prioris in folio primo ante versus de duodecim lapidibus preciosis et
+                            aliud epitaphium cuiusdam religiosi in eodem libro f<abbr rend="superscript">o</abbr>. iiij
+                            ante versus</incipit>
+                        <incipit locus="146v" locusNew="169v">Uniuersis ... <name type="person">Willelmus</name> ...
+                                <name type="place">ecclesie S. Marie et S. Botulfi Thorneye</name> humilis
+                            abbas</incipit>
+                        <ab>(for <name type="person">Abbot Thomas</name>)</ab>
+                        <ab locus="149r" locusNew="172r">Titulus of <name type="place">Peterborough</name> for <name
+                                type="person">Abbot Thomas</name></ab>
+                        <ab locusNew="172r">
+                            <supplied>Titulus of </supplied>
+                            <name type="place">Croyland</name>
+                            <supplied>for</supplied>
+                            <name type="person"><supplied>Abbot</supplied> David</name>
+                        </ab>
+                        <ab locus="149v" locusNew="172v">
+                            <supplied>Titulus of</supplied>
+                            <name type="place">Peterborough</name>
+                            <supplied>for <name type="person">Abbot David</name></supplied>
+                        </ab>
+                        <ab locus="150r" locusNew="173r">
+                            <supplied>Titulus of</supplied>
+                            <name type="place">Ramsey</name>
+                            <supplied>for <name type="person">Abbot David</name></supplied>
+                        </ab>
+                        <ab locus="150r" locusNew="173r">
+                            <supplied>Titulus of</supplied>
+                            <name type="place">Croyland</name>
+                            <supplied>for</supplied>
+                            <name type="person"><supplied>Abbot</supplied> William</name>
+                        </ab>
+                        <ab locus="151r" locusNew="174r">
+                            <supplied>Titulus of</supplied>
+                            <name type="place">Ely</name>
+                            <supplied>for</supplied>
+                            <name type="person"><supplied>Abbot</supplied> David</name>
+                        </ab>
+                        <ab locus="151r" locusNew="174r">
+                            <supplied>Titulus of</supplied>
+                            <name type="place">Battle</name>
+                            <supplied>for</supplied>
+                            <name type="person"><supplied>Abbot</supplied> Thomas</name>
+                        </ab>
+                        <ab locus="152r" locusNew="175r">
+                            <supplied>Titulus of</supplied>
+                            <name type="place">Waltham</name>
+                            <supplied>for</supplied>
+                            <name type="person"><supplied>Abbot</supplied> Thomas</name>
+                        </ab>
+                        <ab>pp. <locus locusNew="175v">152v</locus>-<locus locusNew="176v">153</locus> blank</ab>
+                        <ab>Evidently a selection from the Obit Rolls preserved in the Abbey: made by the precentor as a
+                            storehouse of patterns for future use</ab>
+                        <ab>This document was not known to <ref type="bibl" target="Hope 1906">Mr W. St J. Hope, whose
+                                magnificent publication of the Roll of <name type="person">Abbot Islip</name> (<hi
+                                    rend="italic">Vetusta Monumenta</hi>, 1906)</ref> contains most valuable notes on
+                            English Obituary Rolls. See also <ref type="bibl" target="Delisle 1909">Delisle, <hi
+                                    rend="italic">Rouleau mortuaire du B. Vital ... de Savigny</hi>, 1909</ref></ab>
+                    </msItem>
+
+
+                    <msItem n="7" locusStart="177r" locusEnd="191r">
+                        <head type="CCC">
+                            <name type="author">Razes (Abu Bakr Muhammad ibn Zakariyya al-Razi)</name>, <title>Liber
+                                Almansoris (transl. by <name type="author">Gerard of Cremona</name>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Liber qui vocatur Rasin de medicina et anatomia</title>
+                        </head>
+
+                        <rubric locus="154r" locusNew="177r">Iste liber uocatur <name type="author"
+                            >Rasin</name></rubric>
+                        <incipit locusNew="177r">Albubem <name type="author">arazi filii zakarie</name> liber incipit
+                            qui ab eo uocatus et almansor eo quod regis mansoris precepto editus sit</incipit>
+                        <incipit locusNew="177r">In hoc libro aggregabo regi cui benedicat deus</incipit>
+                        <ab>Single lines</ab>
+                        <ab>Ends</ab>
+                        <rubric locusNew="191r">De forma matricis</rubric>
+                        <explicit locusNew="191r">alligatus erat et consequitur partus</explicit>
+                    </msItem>
+
+
+                    <msItem n="8" locusStart="191v" locusEnd="192v">
+                        <head type="CCC">
+                            <title>Anglo-Saxon law terms with a French gloss</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Some old Saxon terms of law explained in French</title>
+                        </head>
+
+                        <ab><handNote>Larger script, same hand</handNote>. See further on f. <locus locusNew="195r"
+                                >172r</locus></ab>
+                        <incipit locus="168v" locusNew="191v">Soke. bote de nos humes en nostre curt</incipit>
+                        <explicit locusNew="192r">Utlawe Estre fors de ley e forbani</explicit>
+                        <ab locus="169v" locusNew="192v">blank</ab>
+
+                    </msItem>
+
+
+                    <msItem n="9" locusStart="193r" locusEnd="200r">
+                        <head type="CCC">
+                            <title>Form of accounts for an abbey or convent</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Forma compoti abbatiae vel conventus</title>
+                        </head>
+
+                        <rubric locus="170r" locusNew="193r">Inquirendum super subscriptis capitulis ad compotum
+                            audiendum per singula maneria</rubric>
+                        <ab locusNew="193r">De redditibus assisis<lb/>De firmis molendini<lb/> ...</ab>
+                        <ab locusNew="195r">De carne<lb/>De caseo<lb/>De butiro<lb/>De seriantia<lb/></ab>
+                        <ab locus="172r" locusNew="195r">After this the list of Anglo-Saxon law terms is continued</ab>
+                        <ab locusNew="195r">Mundbriche. Trespas ver seignur<lb/>...</ab>
+                        <ab locusNew="195v">Theam. Progenie de nos hummes</ab>
+                        <rubric locus="172v" locusNew="195v">Incipit compoti ordinarius</rubric>
+                        <incipit locusNew="195v">Frumentum extra grangia. De remanenti precedentis compoti</incipit>
+                        <explicit locusNew="198r">Summa. Et sic remanet in supplusagio uel in arreragio</explicit>
+                        <rubric locus="175v" locusNew="198v">De uenacione</rubric>
+                        <ab>Extracts from lives of <name type="person">S. Giles</name>, <name type="person">S.
+                                Wihtburga</name>, <name type="person">S. Eustace</name>, <name type="person">S.
+                                Dunstan</name>, all connected with hunting</ab>
+                        <ab>A paragraph</ab>
+                        <incipit locusNew="199r">Canes uenaticos debemus respicere</incipit>
+                        <ab>(From Vitae patrum lib. ult. lxii cap. de perseuerancia f.)</ab>
+                        <ab><locus locusNew="199v">176v</locus>-<locus locusNew="200r">177r</locus> blank</ab>
+
+                    </msItem>
+
+
+                    <msItem n="10" locusStart="200v" locusEnd="202v">
+                        <head type="CCC">
+                            <title>Process of the pleas between the <name type="person">Abbot of Thorney</name>,
+                                plaintiff, and the <name type="person">Abbot of St Peters</name>, deforciant,
+                                    <date>1304</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Processus placiti inter abbatem Thorneye querentem et abbatem de Burgo Sancti Petri
+                                deforciantem de quodam chimino inter ripam de <name type="place">Nene</name> et villam
+                                de <name type="place">Eye</name>, anno Domini <date>M. CCC quarto</date></title>
+                        </head>
+
+                        <ab locus="177v" locusNew="200v">Consists of Billa, Irrotulacio, Veredictum, Composicio
+                            pacis</ab>
+                        <ab locus="179r" locusNew="202r">On this page a paragraph</ab>
+                        <incipit locus="179r" locusNew="202r">Anno gr. <date>m<abbr rend="superscript">o</abbr>
+                                c&#778;c&#778;c&#778; vii</date> circa fest. S. Aug. anglorum apostoli <name
+                                type="person">Iohannes de islepe</name> tunc senexcallus thorneye ... tenuit hundredum
+                            de normonhiscros</incipit>
+                        <ab>Riot of men of <name type="place">Huntingdon</name> who were summoned therefore</ab>
+
+                        <ab locus="179v" locusNew="202v">blank</ab>
+
+                    </msItem>
+
+
+                    <msItem n="11" locusStart="203r" locusEnd="205v">
+                        <head type="CCC">
+                            <title>Veterinary receipts for horses</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Les medicines e la chirurgerie a chivaux</title>
+                        </head>
+
+                        <rubric locus="180r" locusNew="203r">Ces sunt les mediciniz e la cirurgerie a chiuaus</rubric>
+                        <incipit locusNew="203r">A chiual qui morue</incipit>
+                        <explicit locus="181v" locusNew="204v">si lui donez net set. si est gariz</explicit>
+                        <ab locus="181v" locusNew="204v">Some old pencilled names</ab>
+                        <incipit locus="182v" locusNew="205v">Ad deponendum wartis (uerucas). (<handNote>original
+                                hand</handNote>)</incipit>
+                        <ab>Also</ab>
+                        <incipit locusNew="205v"><name type="person">Magister W. de fodringea</name> habet librum de
+                            regimine principum</incipit>
+                        <ab>Later</ab>
+                        <incipit locusNew="205v"><name type="person">W. bis Wyttylsey</name> loca Christe dato
+                            requiei</incipit>
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 1/12/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

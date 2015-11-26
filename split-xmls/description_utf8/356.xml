@@ -1,0 +1,275 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC356">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>356</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>3. 13</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>311</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Richard of Wetheringsett, Hugh of Saint-Victor OSA, Alanus ab Insula (Alain de Lille),
+                    Petrus Comestor, Remigius of Auxerre and Glossarium</head>
+                <head type="James">Qui Bene Praesunt. Hugo de S. Victore. Glossarium</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">272</height>
+                        <width unit="mm">171</width>
+                    </measureGrp><measureGrp type="James">10.5 x 6.7</measureGrp>, <extent>ff. 79 + 30 + 42</extent>,
+                        <layout>three volumes</layout> of cent. <origDate>xiv</origDate>, <origDate>xiii</origDate> and
+                        <origDate>ix?</origDate>.</p>
+
+
+                <p function="Multivolume" rend="withinContents"><lb/><label>Volume I:</label>
+                    <layout>Double columns of 30 lines</layout>, <handNote>large upright hand</handNote>.
+                        <lb/><label>Volume II:</label>
+                    <layout>Double columns of 46 lines</layout>, <handNote>two hands, both good, of cent. <origDate>xiii
+                            early</origDate>: the second is the larger</handNote>. <lb/><label>Volume III:</label>
+                    <layout>Double columns of 29 lines</layout>, <decoNote>initials in red</decoNote>, <handNote>in a
+                        fine <q>insular</q> hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>12</num>-6<num>12</num> 7<num>8</num> (wants 8) || I<num>8</num>-IV<num>8</num>
+                        (wants 7, 8) | a<num>6</num> b<num>8</num> c<num>8</num> d<num>4</num>-f<num>4</num>
+                            g<num>8</num></collation>.</p>
+
+
+
+                <p>
+                    <label>2 fo.:</label>
+                    <lb/>
+                    <label>Volume III:</label>
+                    <secFol>Archa</secFol>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-v + 1-39 + 39a + 40-151 + vi-x</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="1r" locusEnd="79v">
+                        <head type="CCC"><name type="author">Richard of Wetheringsett</name>, <title>Summa Qui bene
+                                praesunt</title></head>
+
+                        <head type="Nasmith">
+                            <title>Tractatus <name type="author">magistri R. [Ricardi Wetherseti]</name> cancellarii de
+                                Cantebruge qui dicitur numerale</title>
+                        </head>
+
+
+                        <rubric locus="1r">Incipit tractatus <name type="author">magistri R.</name> cancellarii de
+                            cantebruge qui dicitur numerale</rubric>
+                        <incipit locus="1r">Qui bene presunt presbiteri duplici honore digni habeantur</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="79v">Hic ergo erit consummatus</explicit>
+                        <rubric locusNew="79v">Explicit summa <name type="author">magistri Ricardi</name> cancellarii de
+                            cantebruge que numerale dicitur</rubric>
+                        <ab>Ascribed in <ref type="ms" target="CCC337">MS 337. 5</ref> to <name type="person">William de
+                                Montibus</name></ab>
+
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="2" locusStart="80r" locusEnd="87r">
+                        <head type="CCC"><name type="author">Hugh of Saint-Victor OSA</name>, <title>De institutione
+                                nouiciorum</title></head>
+
+                        <head type="Nasmith">
+                            <title>Tractatus magistri <name type="author">Hugonis de Sancto Victore</name> de
+                                disciplina</title>
+                        </head>
+
+
+                        <rubric locus="1r" locusNew="80r">Incipit tractatus magistri <name type="author">hugonis de
+                                sancto uictore</name> de disciplina</rubric>
+                        <incipit locusNew="80r">Quia fratres largiente domino de uana conuersatione</incipit>
+                        <ab>(<ref type="bibl" target="Migne 176"><supplied>P. L.</supplied> CLXXVI 925</ref>)</ab>
+                        <explicit locusNew="87r">interim nos diximus bonitatem uero orate ut uobis det deus
+                            amen</explicit>
+
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="87r" locusEnd="88v">
+                        <head type="CCC"><name type="author">Alanus ab Insula (Alain de Lille)</name>, <title>De sex
+                                alis cherubim</title></head>
+
+                        <head type="James">
+                            <title><name type="person">Alanus de Insula</name> or <name type="person">Clement of
+                                    Lanthony</name> de sex alis cherubim</title>
+                        </head>
+
+                        <rubric locus="8r" locusNew="87r">De vi alis quibus anima uolat ad deum, etc.</rubric>
+                        <incipit locusNew="87r">Prima ala est confessio non laudis</incipit>
+                        <ab>Ends</ab>
+                        <explicit locusNew="88v">eternaque fruens beatitudine. Amen</explicit>
+                        <ab>Often printed</ab>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="88v" locusEnd="102r">
+                        <head type="CCC"><name type="author">Petrus Comestor</name>, <title>Sententiae de
+                                sacramentis</title></head>
+
+                        <ab>
+                            <handNote>In the second hand</handNote>
+                        </ab>
+                        <rubric locus="9v" locusNew="88v">De sacramento baptismi</rubric>
+                        <incipit locusNew="88v">Tractaturi de sacramentis uideamus quid sit sacramentum</incipit>
+                        <ab>Ends</ab>
+                        <rubric locusNew="102r">de usu clauium</rubric>
+                        <explicit locusNew="102r">ligandi et soluendi quia ueros non habet sacerdotes</explicit>
+
+                    </msItem>
+
+                    <msItem n="5" locusStart="102r" locusEnd="109v">
+                        <head type="CCC"><name type="author">Remigius of Auxerre</name>, <title>Expositio missae
+                                (interpolated)</title></head>
+
+                        <head type="Nasmith">
+                            <title>Expositio in celebratione missae a <name type="author">Remigio Altisiodorensi</name>
+                                edita et sanctorum patrum summis et autoritate comfirmata</title>
+                        </head>
+
+                        <rubric locus="23r" locusNew="102r">Incipit e(x)positio in celebratione misse a <name
+                                type="author">Remigio altisiodorensi</name> edita et sanctorum patrum sententiis et
+                            auctoritate confirmata</rubric>
+                        <incipit locusNew="102v">Celebratio misse in commemorationem passionis</incipit>
+                        <explicit locusNew="109v">ecce agnus dei ecce qui tollit peccata mundi</explicit>
+                        <ab>A short erasure follows</ab>
+
+                    </msItem>
+
+                    <milestone n="III" unit="volume"/>
+
+                    <msItem n="6" locusStart="110r" locusEnd="151r">
+                        <head type="CCC">
+                            <title>Glossarium (Vocabularium)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Dictionarium quoddam seu explicatio vocum Latinarum difficiliorum</title>
+                        </head>
+                        <ab>
+                            <quote>Haec excipit manu-Normanno-Saxonica scriptum</quote>
+                        </ab>
+
+                        <ab>Glossary.<hi rend="footnote">I have not succeeded in identifying this text.</hi></ab>
+                        <incipit locusNew="110r">Abba Pater<lb/> Ab iiulius mensis<lb/> Ab augustus mensis<lb/> Abdico
+                            alieno. respuo</incipit>
+                        <ab locusNew="110r">
+                            <decoNote>Fine initial in outline with patches of blue: interlaced lines discontinued at the
+                                intersections</decoNote>
+                        </ab>
+                        <ab>A few early additions, and some <handNote>in a hand of cent.
+                                <origDate>xii</origDate></handNote>. One such addition (in letter I - <supplied>f.
+                                    <locus>125r</locus></supplied>) is Ymera. dies secundum vlvricum. Sperma semen</ab>
+                        <ab locusNew="128r">
+                            <handNote>The hand seems to change near the beginning of M</handNote>
+                        </ab>
+                        <ab>In the lower margin of f. <locus locusNew="129r">20r</locus>
+                            <handNote>in a hand of cent. <origDate>xi (?)</origDate></handNote> is the Sanctus with
+                            neumes</ab>
+
+                        <ab>
+                            <decoNote>Initial to letter N in green (f. <locus>130v</locus>). O in blue with a face
+                                    <supplied>(f. <locus>131v</locus>)</supplied></decoNote>
+                        </ab>
+
+                        <ab>In P is a break</ab>
+                        <ab locusNew="137r"> Presagi diuini presciui futurorum<lb/> Pressant premunt<lb/> (added) Pubes
+                            barba iuvenum </ab>
+                        <rubric locusNew="137r">GLOSAE</rubric>
+                        <ab>(<decoNote>large red capitals</decoNote>)</ab>
+                        <incipit locusNew="137r">Actis factis<lb/> Alumnis dilectis famulis uel seruis<lb/> Attonitis
+                            intentis<lb/> Ammonet rogat commonet</incipit>
+                        <ab>(Col. 2)</ab>
+                        <ab locusNew="137r">Abagreca ethimologia <lb/>a uescendo uocabulum <lb/>sumpsit quasi fuga. fage
+                            <lb/> enim grece dicitur comedere<lb/> Adhibens consentiens prestans<lb/> Albanum sucus de
+                            ferola</ab>
+                        <ab>P is then resumed</ab>
+                        <ab locusNew="137r">Prescelides armillas pedum mulierum<lb/> The insertion occupies two
+                            half-columns</ab>
+
+                        <ab>The vellum of the 4-leaved quires (d, e, f) is very thick</ab>
+                        <ab>Ends, col. 1</ab>
+                        <explicit locus="42r" locusNew="151r">Zografia pictura uel pictor<lb/> Zós uita<lb/> Zonarim
+                            cingulum<lb/> Zelotipia dicitur foror cum rancore mentis accensus fuerit</explicit>
+                        <ab>Col. 2</ab>
+                        <ab locusNew="151r">(A)leph mille uel doctrina<lb/> ...<lb/> (T)au mata dona concede<lb/> ris
+                            ene prope<lb/> o liuore uulnere<lb/> (C)onsulere percunctare<lb/> (U)surpat usu inlicita
+                            habet</ab>
+
+                        <ab>On <locus locusNew="151v">42v</locus>
+                            <handNote>in a sloping hand</handNote>, a receipt</ab>
+                        <ab locusNew="151v">Ad omnes tumores. uentris. renium (?). lumborum. coxarum, etc. ... Dicitur
+                            autem glutis taurina </ab>
+                        <ab>Added (<origDate>xi, xii</origDate>):</ab>
+                        <ab locusNew="151v"><name type="person">Sancte Caterine</name> festum vacat et <name
+                                type="person">S. Andree</name> et omnium apostolorum et ante omnes omnia <name
+                                type="person">S. Marie</name> festa et <name type="person">S. Nicholai</name></ab>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: NJM 19.11.07</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

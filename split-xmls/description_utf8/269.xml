@@ -1,0 +1,164 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC269">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>269</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>P. 23</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>248</idno>
+                    </altIdentifier>
+
+                </msIdentifier>
+
+
+                <head type="CCC">Anselm of Lucca, Collectio canonum</head>
+
+
+                <head type="James">Summa Iuris Canonici (Ivonis Carnotensis)</head>
+
+
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">265</height>
+                        <width unit="mm">165</width>
+                    </measureGrp><measureGrp type="James">10.4 x 6.5</measureGrp>, <extent>ff. 260</extent>, <layout>37
+                        and 34 lines to a page</layout>. Cent. <origDate>xii</origDate>, in <handNote>a beautiful round
+                        Italian-like minuscule</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num>-4<num>8</num> (wants 4), 5<num>8</num>-8<num>8</num> (wants 2, 3),
+                            9<num>6</num>?, 10<num>8</num>-15<num>8</num>, 16<num>10</num> 17<num>8</num>-33<num>8</num>
+                        (wants 8)</collation>.</p>
+
+                <p>f. <locus>1r</locus>-<locus>1v</locus> blank, recto covered with paper.</p>
+
+                <p rend="afterContents">ff. <locus locusNew="74v">75v</locus>, <locus locusNew="75r">76r</locus>, <supplied>
+                        <locus>88r</locus>-<locus>88v</locus>
+                    </supplied>, <locus>100v</locus>, <locus>101r</locus>, <locus>138v</locus>, <locus>185v</locus>,
+                        <locus>186r</locus>, <locus>196v</locus>, <locus>221r</locus>, and <locus>247r</locus> are
+                    blank.</p>
+
+                <p function="Additions" rend="afterContents">On f. <locus>167v</locus>, a late note (<date>xvi
+                        early</date>) on Arabic figures.</p>
+
+                <p function="Provenance" rend="afterContents">Immediately below <supplied> the explicit on f.
+                            <locus>258r</locus></supplied> (<origDate>xv</origDate> cent.): Liber <name type="place"
+                        key="PipeAbbey">sancte marie uirginis de pippwella</name>. Pipewell was a Cistercian abbey in
+                        <name type="place">Northamptonshire</name>.</p>
+
+                <p rend="afterContents"><locus>258v</locus>-<locus>260r</locus> are blank.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i + 1-260 + ii</foliation>.</p>
+
+
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="2r" locusEnd="258r">
+                        <head type="CCC"><name type="author">Anselm of Lucca</name>, <title>Collectio
+                            canonum</title></head>
+
+                        <head type="James">
+                            <title>Summa Iuris Canonici (<name type="author" key="IvCh01">Ivonis
+                                Carnotensis</name>)</title>
+                        </head>
+
+                        <ab locus="2r">Contents of the 13 books</ab>
+                        <ab locus="3r">Capitula of Liber I (90)</ab>
+
+
+                        <ab locus="4v">Addition (<origDate>xiii or xii late</origDate>): Placuit ut si quorumcunque
+                            clericorum uxores peccauerint ne forte licentiam peccandi plus habeant, etc.</ab>
+
+
+
+                        <ab>Liber I</ab>
+                        <rubric locus="5r">Quod in nouo testamento post christum dominum a petro sacerdotalis ceperit
+                            ordo</rubric>
+                        <ab>(<ref type="bibl" target="Migne 161"><supplied>P. L.</supplied> CLXI, 321</ref>)</ab>
+                        <incipit locus="5r">In nouo testamento post Christum dominum nostrum</incipit>
+
+                        <ab>Each book is preceded by capitula</ab>
+
+                        <ab>Liber XIII ends (capitulum 29)</ab>
+                        <rubric locus="257v">quod uictoria religiosi principis non ex opinione humana sed ex deo
+                            disponente proueniat</rubric>
+                        <explicit locus="258r">horum retributionem per spem futuro iudicio sustinetis</explicit>
+
+
+
+
+                    </msItem>
+
+                </msContents>
+
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: typed from the James Catalogue byGDB</p>
+                            <p>markup: GDB</p>
+                            <p>markupCheck: CF, CF 2nd</p>
+                            <p>msCheck: NJC 25.01.2007; titles checked and loci for incipit/explicit/rubric supplied NJC
+                                23.3.2007; new check NJC 30.05.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

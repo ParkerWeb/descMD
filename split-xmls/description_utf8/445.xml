@@ -1,0 +1,160 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC445">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>445</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>O. 23</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>229</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Richard de Pophis, Summa dictaminis secundum stilum romanae curiae</head>
+                <head type="James">Ric. de Pophis, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">183</height>
+                        <width unit="mm">129</width>
+                    </measureGrp>, <measureGrp type="James">7.3 x 4.8</measureGrp>, <extent>ff. 1 + 149</extent>,
+                        <layout>41 lines to a page</layout>. Cent. <origDate>xiii-xiv</origDate>, <handNote>in a more or
+                        less legal hand</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num> (+1) 2<num>12</num> 3<num>8</num>-13<num>8</num> 14<num>10</num>
+                            15<num>10</num> (10 canc.) 16<num>10</num> 17<num>10</num> (+1)</collation>.</p>
+                <p><label>2 fo.:</label>
+                    <secFol>ad contrahendum</secFol>.</p>
+
+                <p function="Additions">f. <locus locusNew="2">ir</locus> is a slip with the note printed by Nasmith</p>
+                <p function="Additions">
+                    <quote>Hic liber non indignus qui in quibusdam legatur, ut melius intelligas gravamen intolerabile
+                        de provisionibus papae, sed hoc restinxit <name type="person">Edwardus III</name></quote>
+                </p>
+                <p function="Research" rend="withinContents">Though ascribed by late notes to <name type="person"
+                        >Laurentius of Aquileia</name>, the treatise appears to be that of <name type="author">Ricardus
+                        de Pophis or de Rosis</name> (as contained in <ref type="ms" target="OME194">MS. Merton
+                        194</ref>
+                    <ref type="ms" target="OCC055">C. C. C. Oxford 55</ref>, etc.).</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + pp. 1-300 + ff. iii-iv</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="3" locusEnd="300">
+                        <head type="CCC">
+                            <name type="author">Richard de Pophis</name>, <title>Summa dictaminis secundum stilum
+                                romanae curiae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Forma dictitandi epistolas secundum stylum Romanae ecclesiae, autore <name
+                                    type="person">Mag. de Aquillegia</name></title>
+                        </head>
+
+                        <ab>On ff. <locus locusNew="3">1r</locus>-<locus locusNew="6">2v</locus> are</ab>
+                        <rubric locus="1r" locusNew="3">Forma custodie vacante prioratu</rubric>
+                        <incipit locusNew="3">Quanto viros ecclesiasticos</incipit>
+                        <rubric locus="1v" locusNew="4">Collacio cuiusdam hospitalis</rubric>
+                        <incipit locusNew="4"><name type="author">Ricardus ... Ep. Dunelm.</name> dilecto ... H. de H.
+                            monacho monasterii dunelm. (<name type="place">Hospital of Kypier</name>)</incipit>
+                        <rubric locusNew="4">Procuratorium ad contrahendum</rubric>
+                        <ab locusNew="4"><name type="person">R. dunelm. Ep.</name> to <name type="person">J. de
+                                S.</name></ab>
+                        <rubric locus="2r" locusNew="5">Absolucio Regis <name type="place">Anglie</name> de iuramento
+                            prestito super quibusdam concessionibus</rubric>
+                        <ab locusNew="5"><name type="person">Clemens</name> ... ven. fratri <name type="place"
+                                >Coventr.</name> Ep. et <name type="place">Lichfeld</name></ab>
+                        <explicit locusNew="6">
+                            <name type="place">Lugduni</name>
+                            <date>kal. jan. pontif. anno primo</date>
+                        </explicit>
+                        <ab>(Summa Dictaminis <name type="author">Ricardi de Pophis</name>)</ab>
+                        <ab locus="3r" locusNew="7">Capitula (<layout>in double columns</layout>)</ab>
+                        <incipit locusNew="7">Amicus amicum redarguit</incipit>
+                        <ab locus="8r" locusNew="17">
+                            <layout>In double columns</layout>
+                        </ab>
+                        <incipit locusNew="17">Circa disposicionem stili curie romane tale est artificium
+                            obseruandum</incipit>
+                        <ab locusNew="17">Also the end of the prologue</ab>
+                        <ab>Prologue</ab>
+                        <incipit locus="8v" locusNew="18">Nouiciorum studia ianuam sibi cupiencium aperiri dictatorie
+                            facultatis</incipit>
+                        <explicit locus="8r" locusNew="17">nomen altissimi deuotis laudibus extollatur</explicit>
+                        <ab>Text</ab>
+                        <rubric locus="10r" locusNew="21">Amicus amicum redarguit, etc.</rubric>
+                        <incipit locusNew="21">Quid et qualiter ... rerum temporalium adipe non sullimis</incipit>
+                        <ab>Ends</ab>
+                        <rubric locus="149v" locusNew="299">quod fiant orationes pro creatione summi pontificis</rubric>
+                        <explicit locus="149v" locusNew="300">gratia sancti spiritus infundatur</explicit>
+                        <rubric locus="149v" locusNew="300">Explicit</rubric>
+
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, SP</p>
+                            <p>msCheck: NJC 20/05/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

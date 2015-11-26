@@ -1,0 +1,129 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC250">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>250</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>L. 10</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>131</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Walter of Guisborough OSA, Chronicle (1048-1312)</head>
+                <head type="James">W. Hemingford (Hemingburgh)</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">279</height>
+                        <width unit="mm">188</width>
+                    </measureGrp><measureGrp type="James">11.1 x 7.2</measureGrp>, <extent>ff. 144</extent>, <layout>36
+                        lines to a page</layout>. Cent. <origDate>xvi early</origDate>, <handNote>in a rather ugly
+                        current hand</handNote>.</p>
+
+
+                <p function="Additions">An illegible erasure on f. <locus>1r</locus> at top: Sum .. Stuard(?)</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-iii + 1-146</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="144r">
+                        <head type="CCC">
+                            <name type="author">Walter of Guisborough OSA</name>, <title>Chronicle</title>
+                                (<date>1048</date>-<date>1312</date>) </head>
+
+                        <ab>Text</ab>
+                        <incipit locus="1r">Ne fastidiosus occurram</incipit>
+                        <explicit locusNew="1r">usque ad annum eundem domini m<abbr rend="superscript">o</abbr> ccc<abbr
+                                rend="superscript">o</abbr></explicit>
+                        <rubric locusNew="1r">Explicit prohemium Incipit liber primus... </rubric>
+                        <incipit locusNew="1r">Ut sciatur origo</incipit>
+                        <ab>Ends in <date>1312</date> (quomodo dominus <name type="person">Robertus de brus</name>
+                            latenter venit in episcopatum Dunelmensem etc.)</ab>
+                        <explicit locusNew="143v">siluit et quieuit</explicit>
+
+                        <rubric locus="144r">Nomina regum qui plenarie regnauerunt ex quo terra vocabatur <name
+                                type="place">Anglia</name> et populi Angli</rubric>
+
+                        <ab>Ends</ab>
+                        <explicit locusNew="144r">
+                            <lg>
+                                <l><name type="person">Ricardus tercius</name> regnauit hunc <name type="person"
+                                        >septimus henricus</name> jugulauit</l>
+                                <l>Triphario titulo frangitur ipse suo</l>
+                            </lg>
+                        </explicit>
+
+
+                        <ab rend="afterContents">This MS. is mentioned by <ref type="bibl" target="Hardy 1871">Hardy,
+                                    <hi rend="italic">Catalogue</hi> III 257</ref>. Edited by <ref type="bibl"
+                                target="Hamilton 1848">H. C. Hamilton, 1848 (English Historical Society)</ref><ref
+                                type="bibl" target="Hamilton 1849"/>. A partial transcript is in <ref type="ms"
+                                target="CCC100">MS 100</ref>. 4</ab>
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJC 8/4/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

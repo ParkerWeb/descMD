@@ -1,0 +1,243 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC456">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>456</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>T. 2</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>281</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Iohannes de Sacro Bosco, Tractatus de sphaera. Alexander de Villa Dei, Algorismus.
+                    Richard of Bury, Philobiblon. Secreta secretorum</head>
+                <head type="James">Joh. de Sacro Bosco, etc. Philobiblon Ric. de Bury. Secreta Secretorum</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">174</height>
+                        <width unit="mm">122</width>
+                    </measureGrp>, <measureGrp type="James">6.9 x 5.2</measureGrp>, <extent>ff. 1 + 12 + 88 +
+                        69</extent>, <layout>three volumes, 40, 27 and 23 lines to a page</layout>. Cent. <origDate>xiv
+                        late?</origDate>, <handNote>in three clear hands : the first two rather rough, the second very
+                        pretty</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>12</num> | 2<num>12</num>-4<num>12</num> 5<num>14</num>
+                            6<num>12</num>-8<num>12</num> 9 (two) | a<num>8</num>-h<num>8</num> i
+                    (five)</collation>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + pp. 1-340 + ff. iii-iv</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+                    <msItem n="1" locusStart="3" locusEnd="26">
+                        <head type="CCC">
+                            <name type="author" key="Johannes-002">Iohannes de Sacro Bosco</name>, <title>Tractatus de
+                                sphaera</title>
+                        </head>
+                        <head type="James">
+                            <title><name type="author" key="Johannes-002">Joh. de Sacro Bosco</name> de Sphaera</title>
+                        </head>
+                        <incipit locusNew="3">Tractatum de spera in quattuor capitula diuidimus</incipit>
+                        <ab locus="4">
+                            <decoNote>Only one diagram</decoNote>
+                        </ab>
+                        <explicit locusNew="23">tota mundi machina dissoluetur</explicit>
+                        <rubric locusNew="23">Explicit tractatus de spera</rubric>
+                        <ab>pp. <locus>24</locus>-<locus>26</locus> blank</ab>
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+                    <msItem n="2" locusStart="27" locusEnd="44">
+                        <head type="CCC">
+                            <title>Commentarius opus metricum de compoto manuali</title>
+                        </head>
+                        <head type="James">
+                            <title>Compotus manualis</title>
+                        </head>
+                        <incipit locusNew="27">Compotus iste diuiditur in sex partes quarum prima docet inuenire literam
+                            dominicalem</incipit>
+                        <ab>Ends with verses</ab>
+                        <explicit locus="44">
+                            <lg>
+                                <l>Non licet hic licet hic hic non licet hic licet hic non</l>
+                                <l>Est aries taurus gemini cancer leo uirgo</l>
+                                <l>Libra est scorpio architenens caper amphora piscis</l>
+                            </lg>
+                        </explicit>
+                        <ab locus="45">blank</ab>
+                    </msItem>
+
+                    <msItem n="3" locusStart="46" locusEnd="76">
+                        <head type="CCC">
+                            <name type="author">Alexander de Villa Dei</name>, <title>Algorismus</title>
+                        </head>
+                        <head type="James">
+                            <title><name type="author" key="Alexande-003">Alexander de Villa dei</name> de
+                                algorismo</title>
+                        </head>
+                        <incipit locusNew="46">Hec algorismus ars presens dicitur in qua</incipit>
+                        <ab locus="76">With prose insertions: ending</ab>
+                        <explicit locusNew="76">et habebis 22 que est summa predicte progressionis. hec iam dicta
+                            sufficiant ad dei laudem. Amen</explicit>
+                    </msItem>
+
+                    <msItem n="4" locusStart="77" locusEnd="96">
+                        <head type="CCC">
+                            <title>The Theory of the Moon</title>
+                        </head>
+                        <head type="James">
+                            <title>Theorica lunae</title>
+                        </head>
+                        <incipit locusNew="77">Circulus ecentricus circulus egresse cuspidis et egredientis centri idem
+                            sunt</incipit>
+                        <ab>
+                            <decoNote>Spaces and whole pages left blank for figures</decoNote>
+                        </ab>
+                        <explicit locusNew="96">quod sit eclipsis lune in oppositione</explicit>
+                        <rubric locusNew="96">Explicit theorica lune</rubric>
+                    </msItem>
+
+                    <msItem n="5" locusStart="97" locusEnd="126">
+                        <head type="CCC">
+                            <title>The Theory of the Planets</title>
+                        </head>
+                        <head type="James">
+                            <title>Theorica planetarum</title>
+                        </head>
+                        <incipit locusNew="97">Circa theoricam trium superiorum est sciendum</incipit>
+                        <ab>
+                            <decoNote>No diagrams inserted</decoNote>
+                        </ab>
+                        <explicit locusNew="126">et ideo luna non retro graditur vide figuram</explicit>
+                        <rubric locusNew="126">Explicit theorica planetarum</rubric>
+                    </msItem>
+
+                    <msItem n="6" locusStart="127" locusEnd="204">
+                        <head type="CCC">
+                            <name type="author" key="Richardd-001">Richard of Bury</name>, <title>Philobiblon</title>
+                        </head>
+                        <head type="James">
+                            <title><name type="author" key="Richardd-001">Ricardi de Bury</name> Philobiblon</title>
+                        </head>
+                        <incipit locusNew="127">Uniuersis Christo fidelibus ad quos tenor presentis scripture peruenerit
+                                <name type="author" key="Richardd-001">Ric. de Bury</name> miseracione diuina
+                            dunelmensis episcopus. Quid retribuam domino pro omnibus que retribuit michi</incipit>
+                        <ab>Ends imperfectly</ab>
+                        <explicit locus="202">ac eiusdem concedit perpetuum fruibilis fa|-ciei conspectum</explicit>
+                        <ab>This and the colophon are added in a <name type="author" key="MatthewP-001">Parker</name>ian
+                            hand</ab>
+                    </msItem>
+
+                    <milestone n="III" unit="volume"/>
+                    <msItem n="7" locusStart="205" locusEnd="339">
+                        <head type="CCC">
+                            <name type="author">pseudo-Aristotle</name>, <title>Secreta secretorum (incl. Epistola
+                                Aristotelis ad Alexandrum)</title>
+                        </head>
+                        <head type="James">
+                            <title><name type="author">PS.-Aristotelis</name> Secreta Secretorum</title>
+                        </head>
+                        <ab locus="203">On the first page are a receipt and memorial verses on the sees of <name
+                                type="place">England</name> and on musical notes <supplied agent="BLA">[excerpt from De
+                                octo tonis]</supplied></ab>
+                        <ab locus="204">blank</ab>
+
+                        <ab>Prologues</ab>
+                        <incipit locusNew="205">Domino suo.. <name type="person">Guidoni</name> viro de <name
+                                type="place">valencia</name> ... <name type="person">Philippus</name></incipit>
+                        <explicit locusNew="208">feliciter peruenire</explicit>
+                        <ab locus="208">Capitula of the ten books</ab>
+                        <incipit locus="213">Deus eternus custodiat regem nostrum</incipit>
+                        <explicit locusNew="215">alie naciones</explicit>
+                        <incipit locus="215"><name type="person">Iohannes</name> qui transtulit hunc librum</incipit>
+                        <explicit locusNew="216">sub hac forma</explicit>
+                        <rubric locus="216">(Epistola <name type="person">Aristotelis</name> missa regi <name
+                                type="person" key="Alexande-001">Alexandro</name>)</rubric>
+                        <incipit locusNew="216">O fili gloriosissime</incipit>
+                        <ab>The division into ten books indicated in the capitula is not fully preserved in the
+                            text</ab>
+                        <ab locus="225">Liber II (of capitula) de temperamento potestatis legis begins on p.
+                                <locus>225</locus> not noted in text</ab>
+                        <ab locus="298">Liber III. de forma iusticie, etc. p. <locus>298</locus> noted in margin</ab>
+                        <ab locus="302">Liber IV. de baiulis regis, etc. p. <locus>302</locus></ab>
+                        <ab locus="320">Liber V. de scribis, etc. p. <locus>320</locus></ab>
+                        <ab locus="321">Liber VI. de nunciis p. 321</ab>
+                        <ab locus="322">Liber VII. de propositis regum, etc. p. <locus>322</locus></ab>
+                        <ab locus="323">Liber VIII. de dispensacione, etc. p. <locus>323</locus></ab>
+                        <ab locus="326">Liber IX. de regimine bellatorum, etc. p. <locus>326</locus></ab>
+                        <ab locus="330">Liber X. qui dicitur phisonomia aristotelis p. <locus>330</locus></ab>
+                        <ab locus="339">Ending</ab>
+                        <explicit locus="339">ad meliorem et probaciorem partem. Completus est tract. de signis et
+                            moribus naturalibus hominum ad Regem magnificum <name type="person" key="Alexande-001"
+                                >Alex.</name> qui dominatus fuit toti orbi dictus monarcha in septentrione</explicit>
+                        <rubric locusNew="339">ffinito libro sit laus et gloria Christo. precium iiij<abbr
+                                rend="superscript">s</abbr> (?)</rubric>
+                        <ab locus="340">blank</ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 16/12/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

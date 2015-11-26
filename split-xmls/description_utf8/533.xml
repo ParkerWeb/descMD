@@ -1,0 +1,122 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC533">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>533</idno>
+                    <altIdentifier type="Elbing">
+                        <idno>N. 35</idno>
+                    </altIdentifier>
+
+                </msIdentifier>
+                <head type="CCC">Nicholas de Gorran OP, Commentary on Psalms</head>
+                <head type="James">[Untitled]</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">301</height>
+                        <width unit="mm">214</width>
+                    </measureGrp>, <measureGrp type="James">11.8 x 8.5</measureGrp>, <extent>ff. 250</extent>,
+                        <layout>double columns of 43 lines</layout>. Cent. <origDate>xv</origDate>, <handNote>in a
+                        fairly good hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>12</num> (1, 2 mut. 4 gone) 2<num>12</num>-6<num>12</num> 7<num>14</num>
+                            8<num>12</num> 9<num>10</num> 10<num>12</num>-21<num>12</num> (wants 12)</collation>.</p>
+
+                <p function="Additions">Binding broken, tags gone, some bosses remain.</p>
+                <p function="Additions">The paper is tender from damp, and the first two leaves are mutilated.</p>
+                <p type="CCC">
+                    <foliation>ff. i-iii + 1-250 + iv-vi</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="250v">
+                        <head type="CCC">
+                            <name type="author">Nicholas de Gorran OP</name>, <title>Commentary on Psalms</title>
+                        </head>
+                        <head type="James">
+                            <title>Postillae <name type="author">Nic. Gorram</name> super Psalmos lxviii-cl</title>
+                        </head>
+
+                        <incipit locusNew="1r">Saluum me fac, etc.</incipit>
+                        <incipit locusNew="1r">In precedentibus Christi resurreccionem</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="250v">nec lassari ad quam patriam nos perducat ille qui viuit et regnat per
+                            omnia secula seculorum. Amen</explicit>
+                        <rubric locus="250v">Expliciunt postille super psalterio a <name type="author">fratre nicolao de
+                                guiram</name> compilate</rubric>
+                        <ab>Fragments of a well-written vellum MS. (<origDate>xiii late?</origDate>) of a grammatical
+                            poem are used in the binding <supplied>(this has been removed since James' time and no
+                                longer appears with the manuscript)</supplied>. One section begins</ab>
+                        <ab>
+                            <lg>
+                                <l>Est obliquorum regimen quod scire laboras</l>
+                                <l>In primis regimen quod sunt pronomina post hec</l>
+                            </lg>
+                        </ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 17/12/2008</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,451 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC066">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>66</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Under D. 12</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>367</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Imago mundi. Pliny. Historia Anglorum. Miscellaneous Theological Texts</head>
+                <head type="James">Imago Mundi. Chronica. Itinera in Terram Sanctam etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">298</height>
+                        <width unit="mm">203</width>
+                    </measureGrp>, <measureGrp type="James">11.7 x 8.2</measureGrp>, <extent>ff. 58 + 4 + 238</extent>,
+                        <layout>in double columns of 33, 43, 37 lines</layout>. Cent. <origDate>xii (xiii?) and
+                        xiv</origDate>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num> (+1*) 2<num>8</num>-4<num>8</num> | 5<num>10</num> (10 canc.)
+                            6<num>8</num>-7<num>8</num></collation>.</p>
+
+                <p function="Provenance">Vol. I is from <name type="place">Sawley or Salley Abbey</name>. On p.
+                        <locus>2</locus> at top <decoNote>in red</decoNote> is:<lb/>
+                    <q>Liber Sancte Marie de Salleia</q>.<lb/> The latter half of it, bound up together with the latter
+                    half of the Bury St Edmund's MS. which forms Vol. II of the present book <supplied>(now <ref
+                            type="ms" target="CCC066A">MS 66A</ref>)</supplied>, was given by <name type="person"
+                        >Parker</name> to the <name type="place">University Library</name>, and is now <ref type="ms"
+                        target="CUL127">MS. Ff. 1. 27</ref> there.<lb/>
+                    <supplied>James provides a full listing of the contents for two manuscripts, one from <name
+                            type="place">Sawley</name> and one from <name type="place">Bury St. Edmund's</name>, each of
+                        which had been split in half and rebound - the first half of the Sawley with the first half of
+                        the Bury, second half of Sawley with second half of Bury - into MS 66 and <ref type="ms"
+                            target="CUL127">ULC Ff. 1. 27</ref> respectively. James' CCC 66 has since been separated
+                        again (rebound in 1954 by John Gray) so that James' Volume I (the Sawley portion) is now MS 66
+                        and James' Volume II (the Bury portion) is now <ref type="ms" target="CCC066A">MS
+                        66A</ref>.</supplied></p>
+                <p function="Research"><supplied>James lists the following contents for the complete Sawley MS., which
+                        is currently divided between MS 66 and <ref type="ms" target="CUL127">ULC. Ff. 1.
+                        27</ref>:</supplied><lb/>
+                    <hi rend="bold">CCC 66</hi>:<lb/> Mappa Mundi, p. 2.<lb/> Imago Mundi, p. 3.<lb/> Miscellaneous
+                    extracts on Cosmography, p. 58.<lb/> Wheel of Fortune, p. 66.<lb/> Genealogical table, p. 67.<lb/>
+                    Hist, de origine Anglorum, p. 68.<lb/> *Prologue of Gilbert of Limerick, p. 99.<lb/> Theobaldus
+                    Stampensis de confessione, p. 99.<lb/> Picture of Cherub, p. 100.<lb/> De sexalis Cherubin, p.
+                    101.<lb/> De confessione, p. 108.<lb/> De quatuor generibus confessionis, p. 112.<lb/>
+                    <hi rend="bold">ULC Ff. I 27</hi>:<lb/> Gildas.<lb/> *(Nennius) Hist. Britonum, p. 112.<lb/> Hist.
+                    Britonum (2) (<q>Gildas</q>): Drawing of the sons of Noah.<lb/> *Bede, de temporibus.<lb/>
+                    Chronological matter from Bede.<lb/> Stories from Will. Malmesbury.<lb/> Symeon of Durham. Hist.
+                    Dunelm.<lb/> Miscellanea (Durham).<lb/> Hist. de S. Cuthberto.<lb/> Anglo-Saxon poem on Durham.<lb/>
+                    &#198;thelwulf's poem.<lb/> De regibus angliae.<lb/> Miracles.<lb/> Richard of Hexham.<lb/>
+                    Full-page drawing.<lb/> Gilbert of Limerick.<lb/> Kings of Britain, Israel, Judah, Persia,
+                    Chaldaea.<lb/> Reges Francorum.<lb/>
+                    <supplied>For the complete list of contents given by James for both manuscripts, please see the
+                        following figure: <figure xml:id="figure145a1"/></supplied>
+                </p>
+
+                <p type="CCC">
+                    <foliation>f. i + pp. 1-22 + 22a + 23a + 23-114 + f. ii</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1" locusEnd="58">
+                        <head type="CCC"><name type="author">Honorius Augustodunensis</name>, <title>Imago
+                            mundi</title></head>
+                        <head type="Nasmith">
+                            <title>Imago mundi contexta per <name type="person">Henricum canonicum ecclesiae S.
+                                    Mariae</name> civitatis <name type="place">Moguntiae</name> de rerum naturis,
+                                imperatoribus, regnis, regibus, et pontificibus, usque ad <name type="person">Henricum
+                                    imperatorem</name> filium <name type="person">Henrici</name>, lib. ii</title>
+                        </head>
+                        <ab>
+                            <quote>Huic operi praefigitur mappa mundi, p.<locus>5</locus></quote>
+                        </ab>
+
+                        <ab locus="1">List of contents (<origDate>xv</origDate>), the latter part erased</ab>
+                        <ab locus="2"><decoNote>A Mappa Mundi in roughly oval form. In the corners of the page are
+                                full-length angels with gold nimbi and drapery in red and green outline. Two of them
+                                hold books, a third a trumpet</decoNote>. On this map see <ref type="bibl"
+                                target="Santarem 1852">Santarem <hi rend="italic">Essai de l'histoire de la
+                                    Cosmographie</hi> III 463-492</ref></ab>
+                        <ab locus="3">Capitula of Imago Mundi as far as <q>De Cesare Augusta</q></ab>
+                        <ab>Continuing</ab>
+                        <incipit locusNew="4">Post hec de omnibus imperatoribus ... (as far as the year IIII) quo anno
+                            liber iste finitur</incipit>
+                        <incipit locus="4">Iste <name type="person">henricus</name> qui hunc librum edidit fuit
+                            canonicus ecclesie s. marie ciuitatis <name type="place">Magontie</name> in qua ecclesia
+                            sunt canonici bis quater quaterque deni</incipit>
+                        <ab>A paragraph <handNote>in another hand</handNote></ab>
+                        <incipit locus="4">Omnes reges persarum artaxerses dicuntur</incipit>
+                        <explicit locusNew="4">omnes reges Atheniensium cicropes dicuntur</explicit>
+                        <rubric locus="5">Epistola <name type="author">henrici</name> ad <name type="person"
+                                >henricum</name></rubric>
+                        <incipit locusNew="5"><name type="author">Henrico</name>. Septiformi spiritu in trina fide,
+                            etc.</incipit>
+                        <ab>(<ref type="bibl" target="Migne 172">CLXXII 119</ref>)</ab>
+                        <explicit locusNew="5">penitus ignorare</explicit>
+                        <rubric locus="5">Rescriptum henrici. Incipit prefacio <name type="author">henrici</name> in
+                            libro qui dicitur ymago mundi</rubric>
+                        <incipit locusNew="5">Sapientie alumno abdita diligenter scrutanti</incipit>
+                        <ab>(<ref type="bibl" target="Migne 172">CLXXII 119</ref>)</ab>
+                        <explicit locusNew="6">maior(um) commendat traditio</explicit>
+                        <rubric locus="6">Liber <name type="person">Henrici</name> qui dicitur imago mundi</rubric>
+                        <rubric locusNew="6">Incipit liber I qui describit omnem corpoream creaturam</rubric>
+                        <incipit locusNew="6">Mundus dicitur quasi undique motus</incipit>
+                        <ab>(<ref type="bibl" target="Migne 172">CLXXII 121</ref>)</ab>
+                        <ab locusNew="6">
+                            <decoNote>Handsome initial in gold filled with work in red and green</decoNote>
+                        </ab>
+                        <ab locus="28">Liber II</ab>
+                        <incipit locusNew="28">Priori libello globum</incipit>
+                        <ab>(<ref type="bibl" target="Migne 172">CLXXII 146</ref>)</ab>
+                        <ab locus="51">An insertion or supply <handNote>in much smaller hand</handNote>: apparently the
+                            place was blank</ab>
+                        <ab>Ends</ab>
+                        <explicit locusNew="58">anno ab incarn. domini <date>m<abbr rend="superscript">o</abbr>. c<abbr
+                                    rend="superscript">o</abbr>. x<abbr rend="superscript">o</abbr></date>. [added
+                                (<origDate>xii</origDate>): <q>quis autem post hunc regnum adepturus sit, posteritas
+                                uidebit</q>]</explicit>
+                        <ab>Colophon added <origDate>xiv</origDate></ab>
+                        <rubric locusNew="58">Explicit ymago mundi contexta per <name type="person">Henricum canonicum
+                                ecclesie sancte marie</name> ciuitatis <name type="place">Magoncie</name> de rerum
+                            naturis etc. ad <name type="person">henricum imperatorem filium henrici</name></rubric>
+                        <ab>Usually ascribed to <name type="person">Honorius of Autun</name>, but conjectured by Lebeuf
+                            to have been written by a German (<ref type="bibl" target="Liebermann 1880"><hi
+                                    rend="italic">Neues Archiv</hi>
+                                <supplied>V</supplied> 643</ref><!--James has the incorrect volume (IV)-->). Extracts in
+                                <ref type="bibl" target="Pertz 1852">MGH (<hi rend="italic">Scriptores</hi> X
+                            132)</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="58" locusEnd="65">
+                        <head type="CCC">
+                            <title>Extracts from <name type="author">Pliny the Elder</name> and <name type="author"
+                                    >Solinus</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Quaedam ex <name type="author">Plinio</name> aliisque de geographia</title>
+                        </head>
+
+                        <ab locus="58">Plinius II<abbr rend="superscript">us</abbr> libro 1<abbr rend="superscript"
+                                >o</abbr></ab>
+                        <incipit locusNew="58">Mundus et in eo terre (?II 1)</incipit>
+                        <incipit locus="59">Uni animancium luctus</incipit>
+                        <incipit locusNew="59">Sequitur terra cui uni rerum (II 63)</incipit>
+                        <incipit locusNew="60">Effigiem dei formamque querere (II 7)</incipit>
+                        <explicit locusNew="60">totus animi totus sui</explicit>
+                        <rubric locusNew="60">Ista omnia <name type="person">plinius</name> secundus</rubric>
+                        <ab locus="61">
+                            <handNote>Another hand</handNote>
+                        </ab>
+                        <incipit locusNew="61"><name type="place">Niniue</name> speciosa interpretatur. Et de deo atque
+                            mundo in quodam philosophorum legitur. Tu cuncta superno ducis ab exemplo pulcrum
+                            pulcherrimus ipse etc.</incipit>
+                        <explicit locusNew="61">Nunc aliqua de ecclesie decore in medium prodeant</explicit>
+                        <incipit locus="61">Mundus septem habet liquores uinum. oleum, lac. etc.</incipit>
+                        <incipit locus="62"><name type="person">Solinus</name>. Vrbs <name type="place">Babilon</name>
+                            est lx m<abbr rend="superscript">a</abbr> passuum</incipit>
+                        <incipit locusNew="62">Uiginti duobus milibus passuum muro amplexa</incipit>
+                        <explicit locusNew="62">obiectu protente lingue strangulatur</explicit>
+                        <rubric locus="62">Mensura circuit totius terre sec. romanos doctissimos gnomonica ratione
+                            certissime comprobata</rubric>
+                        <incipit locusNew="62">Terre tocius ambitus omnisque plenus circuitus iuxta romanorum diuisionem
+                            est trecencies et quindecies centena m. passuum</incipit>
+                        <explicit locusNew="62">per gados et omnis mensura attestante artemidoro assertionibus meis
+                            habet m. octogies sexies lxxxv. En habes longitudinem multipliciter memoratam</explicit>
+                        <incipit locus="63">Latitude autem</incipit>
+                        <explicit locusNew="63">usque ad tilen ultimam tendi</explicit>
+                        <rubric locusNew="63">Alia ratio de longitudine</rubric>
+                        <incipit locusNew="63">Europe solius mensura</incipit>
+                        <explicit locusNew="63">cum ipsa meotide clxxxii xc passuum</explicit>
+                        <ab>
+                            <handNote>Change of hand</handNote>
+                        </ab>
+                        <incipit locusNew="63">Hec monstra sub solis ortu habitant. alii tocius oris planicie
+                            informes</incipit>
+                        <explicit locusNew="63">In mari rubro sunt tres insule. enea una. alia ferrea tercia
+                            erea</explicit>
+                        <incipit locus="64">Quis primus fuit rex in mundo. <name type="person">Tanus</name> rex scitarum
+                            in tempore <name type="person">Ragau</name></incipit>
+                        <explicit locusNew="64"><name type="person">Baltasar</name> regem illius interfecit</explicit>
+                        <incipit locus="64">Arbor quelibet infructuosa si perforetur terebro et cuneo obstruetur
+                            fructifera efficitur (ends here)</incipit>
+                        <ab locus="65">blank</ab>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="66" locusEnd="98">
+                        <head type="CCC">
+                            <title>Historia Anglorum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Historia de origine Anglorum et de regnis eorum ab <name type="person">Adam</name>
+                                usque ad <name type="person">secundum Henricum</name> imperatricis filium, qui regnavit
+                                in <name type="place">Anglia</name> post pium et nobilem regem <name type="person"
+                                    >Stephanum</name>, et de omnibus episcopatibus et episcopis totius Anglias pulchre
+                                et subtiliter composita</title>
+                        </head>
+                        <ab>
+                            <quote>
+                                <q>Ex adverso primae paginas est delineatio rotae fortunas coloribus illuminata;
+                                    sequitur tabula genealogica ab <name type="person">Adamo</name> ad <name
+                                        type="person">Woden</name>, in qua enumerantur generationes saltem xxvi; et post
+                                    hanc figura Wodeni satis nitida cum nominibus filiorum ejus unde reges Angliae
+                                    duxerunt originem: historia ipsa incipit ab heptarchia, et continuatur usque ad
+                                        <name type="person">Henricum II</name>, sed ea brevitate ut septem solummodo
+                                    constet foliis.<lb/> Liber secundus eadem brevitate enarrat successionem
+                                    episcoporum: res vero Eboracenses fusius caeteris tractantur, dimidio libri huic
+                                    provincial impenso: desinit utraque historia in anno <date>1181</date></q>
+                            </quote>
+                        </ab>
+
+                        <ab locus="66">
+                            <decoNote>A fine full-page picture framed, medallions at corners of two birds and two
+                                beasts.<lb/> Ground red at the sides, dark blue in the middle. Above in C. is the wheel
+                                of fortune mainly in gold with the usual four figures. It is inscribed:<lb/> (top)
+                                    <q>Glorior elatus</q>. (R.) <q>Descendo minorificatus</q>. (bottom) <q>Infimus axe
+                                    teror</q>. (L.) <q>rursus ad astra feror</q>.<lb/> Below two stately crowned females
+                                in patterned robes, and light pink mantles, gold-bordered. The one on L. <hi
+                                    rend="italic">Fortuna</hi> is turning the wheel. She has a scroll:<lb/>
+                                <q>Mundana casu aguntur omnia</q>.<lb/> The other <hi rend="italic">Sapientia</hi>
+                                points one finger up: her scroll is:<lb/>
+                                <q>Nichil in mundo fit casu</q>.<lb/> Round the frame on three sides is:<lb/>
+                                <q>Ego sapientia habito in consilio et eruditis intersum cogitationibus, per me reges
+                                    regnant etc. to inuenient me</q> (Prov. viii. 12-17).<lb/> The style is severe and
+                                impressive</decoNote>
+                        </ab>
+                        <ab locus="67">
+                            <decoNote>is framed and has a central shaft inscribed in red with the line of descent from
+                                    <name type="person">Adam</name> to <name type="person">Woden</name>. At top of this
+                                is the bust of <name type="person">Adam</name>, a silver rainbow over him, and at bottom
+                                are his feet. On R. and L. are Biblical genealogies, <name type="person">Adam</name> to
+                                    <name type="person">Manasses</name> and a list of descendants of <name type="person"
+                                    >Shem</name>, <name type="person">Ham</name>, <name type="person"
+                                >Japheth</name></decoNote>
+                        </ab>
+                        <ab>At bottom</ab>
+                        <rubric locusNew="67">Incipit historia de origine Anglorum et de regnis eorum</rubric>
+
+                        <incipit locus="68">Britannia a quodam consule romano <name type="person">Bruto</name> dictum
+                            est</incipit>
+                        <ab locus="69">
+                            <decoNote><supplied>This page</supplied> is framed and has full-length figure of <name
+                                    type="person">Woden</name> crowned holding gold flower, in red and green outline,
+                                silver and gold borders to his robes. At the sides are crowned busts of his seven sons.
+                                In the field are written accounts of them</decoNote>
+                        </ab>
+                        <ab>At bottom</ab>
+                        <rubric locusNew="69">Incipit liber primus de gestis regum</rubric>
+                        <ab locus="70">
+                            <handNote>The hand changes to a thicker and smaller script</handNote>
+                        </ab>
+                        <incipit locusNew="70">Prenotata serie generationum ex qua primi anglici generis reges
+                            prodierant</incipit>
+                        <ab>The kingdoms of the heptarchy are treated, successively, names of kings <decoNote>in
+                                red</decoNote> at the side and between the columns. <decoNote>Each kingdom has handsome
+                                gold or red initial of the same style as that on p. <locus>6</locus></decoNote></ab>
+                        <ab>Ends</ab>
+                        <explicit locusNew="79">Duxit uero uxorem <name type="person">Alienorem</name> ... ducis
+                            aquitanie</explicit>
+                        <rubric locusNew="79">Explicit liber primus de gestis regum</rubric>
+                        <rubric locus="79">Incipit liber secundus de gestis pontificum</rubric>
+                        <incipit locusNew="80">Siquidem anno ab incarnacione domini <date>d. lxxxxii</date>. <name
+                                type="person">Mauricius</name> ab augusto <name type="person">L<abbr rend="superscript"
+                                    >us</abbr> IIII<abbr rend="superscript">us</abbr></name> imperium
+                            suscipiens</incipit>
+                        <ab>The sees are treated separately, and there are many tables of bishops <decoNote>elaborately
+                                framed in red and green</decoNote></ab>
+                        <ab>Ends with <name type="place">Candida Casa</name> (<name type="person">9th Bp
+                                Christianus</name>): on p. <locus>98</locus> a later hand inserts <name type="place"
+                                >York</name>, ending with <name type="person">Tunbertus</name>, <name type="person"
+                                >Johannes</name></ab>
+                        <explicit locusNew="98">Explicit Historia de gestis omnium regum anglorum post aduentum illorum
+                            in angliam et episcoporum et omnium episcopatuum tocius anglie post aduentum sancti
+                            augustini in angliam usque hodiernum diem id est usque ad annum post incarnationem Christi
+                            m. c. octogesimum VIII regnante glorioso rege <name type="person">henrico secundo</name>.
+                            Angli saxones regnante <name type="person">marciano secundo</name> uenerunt ad britanniam
+                            anno uidel. post passionem Christi <date>cccc<abbr rend="superscript">mo</abbr>. xl<abbr
+                                    rend="superscript">o</abbr>. septimo</date></explicit>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="98" locusEnd="98">
+                        <head type="CCC"><name type="author">Gilbert of Limerick</name>, <title>De statu ecclesiae
+                                (prologue)</title></head>
+                        <head type="Nasmith">
+                            <title>Prologus libelli <name type="author">Gillas episcopi Luwnicensis</name> de usu
+                                ecclesiastico</title>
+                        </head>
+
+                        <ab locus="98">(<name type="author">Gilbert of Limerick</name>) <handNote>Larger
+                            hand</handNote></ab>
+                        <incipit locusNew="98">Episcopis presbiteris tocius hibernie infimus presulum. <name
+                                type="author">Gille lumnicensis</name> in Christo salutem. Rogatu necnon et precepto
+                            multorum ex uobis karissimi canonicalem consuetudinem in dicendis horis et peragendo tocius
+                            ecclesiastici ordinis officio scribere conatus sum etc.</incipit>
+                        <explicit locusNew="98">sic ei uestris precibus adiutus una uobiscum spallere in celestibus
+                            ualere merear. Amen</explicit>
+                        <rubric locusNew="98">Explicit prologus libelli <name type="author">Gille lumnicensis
+                                episcopi</name> De usu ecclesiastico</rubric>
+                        <ab>The prologue and the tract are in <ref type="ms" target="CUL127">Ff. 1. 27, pp. 239 - 42
+                                (no. 16)</ref>, and also in the <ref type="ms" target="DCL035">Durham MS. B. II.
+                                35</ref>. Printed by <ref type="bibl" target="Ussher 1632">Ussher, <hi rend="italic"
+                                    >Sylloge Epistolarum Hibernicarum</hi>, no. xxx</ref>. <ref type="bibl"
+                                target="Migne 159">P. L. CLIX 995</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="5" locusStart="99" locusEnd="101">
+                        <head type="CCC">
+                            <title>Letter of <name type="author">Theobald of Étampes</name> to <name type="person"
+                                    >Robert Bloet, Bishop of Lincoln</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Theobaldus Stampensis</name> ad <name type="person">Robertum
+                                    Lincoln</name>, de confessione in ultimo</title>
+                        </head>
+
+                        <rubric locus="99">De confessione in ultimo <name type="author">Teobaldus Stampensis</name> ad
+                                <name type="person">Robertum Lincolniensem Episcopum</name></rubric>
+                        <incipit locusNew="99">De quibusdam in diuina pagina titubantibus</incipit>
+                        <explicit locusNew="101">commimeatus (?) in puluerem redigatur</explicit>
+                        <rubric locus="101">Explicit epistola de confessione in ultimis</rubric>
+                        <ab>See <ref type="bibl" target="Böhmer 1897">Mon. Germ. Hist. (<hi rend="italic">Libelli de
+                                    Lite</hi> III 603: by Boehmer, from Dachery's printed edition)</ref></ab>
+                        <ab>The text is interrupted on p. <locus>100</locus> by the frontispiece to no. 6</ab>
+
+                    </msItem>
+
+                    <msItem n="6" locusStart="100" locusEnd="108">
+                        <head type="CCC"><name type="author">Clement of Lanthony OSA</name>, <title>De sex alis
+                                cherubim</title></head>
+                        <head type="Nasmith">
+                            <title>Descriptio <name type="person">magistri Clementis [Lanthoniensis]</name> prioris
+                                canonicorum regularium sanctas Mariae civitatis Claudiocestrias de sex alis et xxx
+                                pennis Cherubim</title>
+                        </head>
+
+                        <ab locus="100">
+                            <decoNote><supplied>This page</supplied> is framed and has full-page drawing in coloured
+                                outline of a six-winged cherub with the wings and feathers inscribed with names of
+                                virtues etc. represented by them</decoNote>
+                        </ab>
+                        <rubric locusNew="101">Incipit descriptio prime ale cherubin</rubric>
+                        <ab>(name of author added <origDate>xvi</origDate>)</ab>
+                        <incipit locusNew="102">Prima ala confessio est</incipit>
+                        <ab>(cf. <ref type="bibl" target="Migne 210">P. L. CCX 269</ref>)</ab>
+                        <explicit locusNew="108">in hac uita diligenter custodiat</explicit>
+                        <rubric locusNew="108">Explicit descriptio <name type="author">magistri clementis prioris
+                                canonicorum regularium S. Marie ciuit. claudiocestrie</name> de sex alis et xxx<abbr
+                                rend="superscript">ta</abbr> pennis cherubin</rubric>
+
+                    </msItem>
+
+                    <msItem n="7" locusStart="108" locusEnd="112">
+                        <head type="CCC"><name type="author">Clement of Lanthony OSA</name>, <title>De tribus in
+                                poenitentiae considerandis</title></head>
+                        <head type="Nasmith">
+                            <title>Idem de tribus in penitentia considerandis, scilicet compunctione, confessione,
+                                satisfactione</title>
+                        </head>
+
+                        <rubric locus="108">Incipit idem de tribus in penitentia considerandis, scilicet compunctione,
+                            confessione, satisfactione</rubric>
+                        <incipit locusNew="108">De confessione superiori tractatu</incipit>
+                        <explicit locusNew="112">minus uel parum peccantibus</explicit>
+
+                    </msItem>
+
+                    <msItem n="8" locusStart="112" locusEnd="114">
+
+                        <head type="Nasmith">
+                            <title>De quatuor generibus confessionis, et vera penitentia et humili confessione</title>
+                        </head>
+                        <ab>
+                            <quote>Posterior hujus codicis pars, <date>seculo xiv</date> scripta, fuit olim monasterii
+                                    <name type="place">Buriensis</name>, in ea autem continentur</quote>
+                        </ab>
+
+                        <incipit locus="112">Qui uulneris alicuius corporei dolore laborat</incipit>
+                        <explicit locusNew="114">exempli gratia dixisse sufficiat</explicit>
+                        <rubric locusNew="114">Explicit sermo de quatuor generibus confessionis</rubric>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: KW 7.11.2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

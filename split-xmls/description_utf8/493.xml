@@ -1,0 +1,103 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC493">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>493</idno>
+                    <altIdentifier type="Stanley">
+                        <idno/>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno/>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Regule astronomie ex Arnoldo extracte</head>
+                <head type="James">[Untitled]</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">203</height>
+                        <width unit="mm">151</width>
+                    </measureGrp>, <measureGrp type="James">8 x 5.9</measureGrp>, <extent>seven leaves</extent>. Cent.
+                        <origDate>xvi, 1st half</origDate>, <handNote>manuscript in a hand rather like that of <name
+                            type="person">Bale</name>, but not his</handNote>.</p>
+
+                <p function="Additions">Printed book no. 25, <name type="author">Io. de sacro busto</name>
+                    <date>1516</date>. <supplied>Now Parker Library shelfmark SP. 25 (4)</supplied></p>
+                <p function="Additions"><decoNote>In the cover at the end is pasted a well-drawn and well-preserved
+                        astrolabe with the movable portion cut out in cardboard and with the wooden pointer in perfect
+                        preservation</decoNote>. <supplied>This has now been removed and conserved. It is housed in a
+                        separate box. </supplied></p>
+                <p type="CCC">
+                    <foliation> ff. i + 1-8 + ii </foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="8v">
+                        <head type="CCC">
+                            <title>Regule astronomie ex <name type="author">Arnoldo</name> extracte</title>
+                        </head>
+                        <rubric locusNew="1r">Regule astronomie ex <name type="author">Arnoldo</name> extracte</rubric>
+                        <ab>including some tables</ab>
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 16/12/2008</p>
+                            <p>remarks: <hi>Need to include astrolabe... of course. Doesn't seem to have been
+                                    photographed. Need to figure out how that file will be named so we can include a
+                                    locus - SP 17/8/09</hi></p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

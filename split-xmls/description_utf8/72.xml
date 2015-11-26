@@ -1,0 +1,151 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC072">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>72</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>V. 5</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>298</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Gospel Lectionary</head>
+                <head type="James">Evangelia</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">291</height>
+                        <width unit="mm">207</width>
+                    </measureGrp><measureGrp type="James">11.4 x 8.3</measureGrp>, <extent>ff. 147</extent>, <layout>30
+                        lines to a page</layout>. Cent. <origDate>xii late or xiii early</origDate>, <handNote>in a
+                        splendid black hand, which suggests <name type="place">St Albans</name> to me</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>12</num> (misbound but complete) 2<num>8</num> (wants 1)
+                            3<num>8</num>-6<num>8</num> (one canc.) 7<num>8</num>-10<num>8</num> (1 canc.)
+                            11<num>8</num>-15<num>8</num> (5 canc.) 16<num>8</num>-18<num>8</num> 19
+                    (three)</collation>.</p>
+
+                <p><label>2 fo.</label><lb/>
+                    <hi rend="italic">in libro</hi>
+                    <secFol>Abraham</secFol>.<lb/>
+                    <hi rend="italic">in tabula</hi>
+                    <secFol>Feria</secFol>.</p>
+
+
+
+                <p function="Provenance" rend="afterContents">The book is of English work, and, as I said, more like
+                        <name type="place">St Albans</name> to my mind than <name type="place">Canterbury</name>. But
+                    the addition of <name type="person">St Augustine</name>'s feastthe only one, I think, to be
+                    found,does suggest that <name type="place">Canterbury</name> was its home.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + 1-147 + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="147r">
+                        <head type="CCC">
+                            <title>Gospel Lectionary</title>
+                        </head>
+                        <head type="James">
+                            <title>Evangelia</title>
+                        </head>
+                        <ab locus="1r">A Table of Gospels for the year. The use seems to be Roman</ab>
+                        <ab locus="13r">The Four Gospels. The first leaf of <name type="person">Matthew</name> is
+                            gone</ab>
+                        <ab>
+                            <decoNote>The margins are broad, and in them (besides the Ammonian sections in black) are
+                                the names of the feasts on which Gospels are to be read, in red and blue. Each section
+                                has a beautiful initial (without gold) blue or red, filled with very charming ornament
+                                in red, blue, yellow or green</decoNote>
+                        </ab>
+                        <ab>Prologue to <name type="person">Mark</name></ab>
+                        <incipit locus="48r">(<name type="person">Marcus</name> euangelista dei) et petri</incipit>
+                        <ab>f. <locus>49r</locus>-<locus>49v</locus> blank</ab>
+                        <ab locus="50r">Text of <name type="person">Mark</name>
+                            <decoNote>with magnificent initial: conventional foliage on gold, edged with
+                                green</decoNote></ab>
+                        <ab>Prologue to <name type="person">Luke</name></ab>
+                        <incipit locus="73v">(<name type="person">Lucas</name> Syrus)</incipit>
+                        <ab><locus>74v</locus> blank</ab>
+                        <ab locus="75r">Text of <name type="person">Luke</name>
+                            <decoNote>with magnificent initial (containing a dragon)</decoNote></ab>
+                        <ab>On f. <locus>92r</locus>
+                            <decoNote>in red and blue capitals, only slightly later than the other rubrics</decoNote>,
+                                <q>In die <name type="person">Sancti Augustini anglorum apostoli</name></q></ab>
+                        <ab>
+                            <decoNote>On margins of <locus>92v</locus>, <locus>93r</locus> are pencil sketches of
+                                initials and ornaments</decoNote>
+                        </ab>
+                        <ab locus="116r">Prologue to John</ab>
+                        <ab locus="117r">Text with admirable initial</ab>
+                        <ab locus="147r">Ends</ab>
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJM 06.08.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

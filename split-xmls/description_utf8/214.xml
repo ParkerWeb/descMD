@@ -1,0 +1,159 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC214">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>214</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Lib. ab Al. 17</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Boethius, Philosophiae consolatio</head>
+                <head type="James">Boethius</head>
+                <p function="Codicology"><material>Vellum <supplied>fragments mounted on paper</supplied>
+                    </material>, <measureGrp type="CCC">
+                        <height unit="mm">265</height>
+                        <width unit="mm">210</width>
+                    </measureGrp>, <extent>ff. 123</extent>, <layout>originally 18 lines to a page</layout>. The
+                    original size of the leaves must have been about 11 x 8. The largest fragments now measure about 9 x
+                    6. The top edge of some leaves survives in part; the rest have been entirely eaten away by rats and
+                    much of the text is gone. It has been in quires of eight leaves. The manuscript may be of cent.
+                        <origDate>xi</origDate> (x-xi <name type="person">Bradshaw</name>), <handNote>in two very clear
+                        hands</handNote>.</p>
+
+
+
+                <p function="Provenance">Given by <name type="person">Daniel Rogers</name>.</p>
+                <p function="Provenance" rend="withinContents">To me the book has very much the appearance of a <name
+                        type="place">Canterbury</name> production.</p>
+                <p function="Additions">
+                    <supplied agent="JamesCorrigenda">The manuscript was rebound and the mutilated leaves inlaid, in
+                        proper order, in <date>1911</date>.</supplied>
+                </p>
+
+                <p type="CCC">
+                    <foliation>ff. i-vi + 1-123 + vii-xv</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="gre ang">Latin, Greek and Old English.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="123v">
+                        <head type="CCC">
+                            <name type="author">Boethius</name>, <title>Philosophiae consolatio</title>
+                        </head>
+                        <head type="James">
+                            <title>
+                                <name type="author">Boethius</name>
+                            </title>
+                        </head>
+
+                        <ab locusNew="1r">
+                            <decoNote>The title and beginning of text are in red, green and black capitals</decoNote>
+                        </ab>
+
+                        <ab locusNew="1r">Thirteen fragments of leaves belong to Liber I. There are many gaps</ab>
+                        <ab>The first book has contemporary marginal and interlinear glosses in Latin. The marginal
+                            glosses have Greek letters referring to their places in the text.</ab>
+                        <ab locusNew="14r">Liber II begins with f. <locus>14r</locus> and has no gap</ab>
+                        <ab>The glosses continue into book II: at f. <locus>25v</locus> they cease</ab>
+                        <ab locus="36r">Liber III</ab>
+                        <ab locusNew="36r">With the third book begins an Anglo-Saxon gloss <handNote>in a very pretty
+                                and delicate hand</handNote>: <handNote>another coarser hand sometimes
+                            occurs</handNote>. The first<!--James corrected in corrigenda--> words are</ab>
+
+                        <ab locusNew="36r"> Iam [eallinga] cantum [sang] illa [&#447;eg] finiuerat [geendude] ...
+                            [ţaţ] </ab>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Cameron 1973">Cameron C9</ref>
+                            </supplied>
+                        </ab>
+                        <ab>This gloss continues to f. <locus>53r</locus> (line 1)</ab>
+                        <ab>Throughout the book the order of words, especially in the poems, is indicated by
+                            (Anglo-Saxon) letters written above the words: but very few if any further glosses
+                            occur</ab>
+                        <ab locus="70r">Liber IV</ab>
+                        <ab locus="99v">Liber V</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="121r" locusNew="122r">cuncta cernentis</explicit>
+
+                        <rubric locusNew="122r">Explicit liber quintus feliciter amen</rubric>
+                        <ab locus="121r" locusNew="122r">On this page are some later pencil notes (<date>xiii?</date>)
+                            in which sums of money are mentioned: very faint</ab>
+                        <ab>On f. <locus>123v</locus> besides scribbles and probationes pennae is the name <name
+                                type="person">Rodbertus</name> (<date>xi, xii</date>)</ab>
+
+
+
+                        <ab>The Anglo-Saxon gloss is mentioned by <ref type="bibl" target="Wanley 1705">Wanley p.
+                                151</ref></ab>
+
+                        <ab><ref type="bibl" target="Bright 1884">Bright, American Journal of Philology, V 488</ref>,
+                            gives an account of the glosses from information supplied by <name type="person">Professor
+                                Skeat</name>, and some specimens</ab>
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: BLA 30/9/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

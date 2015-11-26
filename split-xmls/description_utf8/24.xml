@@ -1,0 +1,203 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC024">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>24</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>M. 6</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>146</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Thomas Bradwardine, De causa Dei contra Pelagium</head>
+
+                <head type="James">Thomas Bradwardine de Causa dei contra Pelagium etc.</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">372</height>
+                        <width unit="mm">244</width>
+                    </measureGrp><measureGrp type="James">14.8 x 9.5</measureGrp>, <extent>ff. 274 + 1</extent>,
+                        <layout>double columns of 66-67 lines</layout>. Cent. <origDate>xiv</origDate>,
+                        <handNote>clearly written</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>12</num>-15<num>12</num> 16<num>10</num> 17<num>16</num>
+                            18<num>12</num>-22<num>12</num> 23<num>14</num> 24<num>4</num></collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>cupientes</secFol> or <secFol>dicebatur</secFol>.</p>
+
+                <p function="Provenance">From <name type="place">Worcester</name>. On flyleaf
+                    (<origDate>xiv</origDate>): <q>Liber qui intitulatur de causa dei contra <name type="person"
+                            >Pellagium</name> compilatus et editus per Reuerendum sacre theologie doctorem tunc
+                        Cancellarium <name type="place">London</name>. deinde Electum <name type="place">Cantuar</name>
+                        et <name type="place">Lincoln</name>. magistrum <name type="person">Thomam de Bradewardyn</name>
+                        procuratus tamen ad <name type="place">Ecclesiam Wigorn</name> (erased) per ffratrem <name
+                            type="person">Johannem de Prestone</name> de <name type="place">Somersete</name> monachum
+                        eiusdem ecclesie a. d. <date>millesimo ccc<abbr rend="superscript">mo</abbr> xlviij<abbr
+                                rend="superscript">uo</abbr></date>. quem titulum quicumque fraudulenter deleuerit
+                        librumque ab ecclesia eadem alienauerit Deleat eum deus de libro uite et anathemate feriatur.
+                        Pro cuius anima pietatis obsequio ab inspicientibus deuocius exoretur</q>. [<name type="person"
+                        >Preston</name> gave another MS., still at <ref type="ms" target="WCLF11">Worcester (F.
+                        11)</ref>.]</p>
+
+
+                <p function="Provenance">In red chalk: <q>Hic liber datur <name type="person">Mattheo Cantuar</name> per
+                        D. A. j.....e.<hi rend="footnote">?<name type="person">Andrew Perne</name>: cf. <ref type="ms"
+                                target="CCC068">MS 68</ref></hi>
+                        <date>20 dec. 1567</date></q>.</p>
+
+                <p function="Additions">Note on <name type="author">Bradwardine</name> (<origDate>xvi</origDate>).</p>
+
+                <p function="Provenance">On f. <locus>1r</locus> at top (large): <q>Liber <name type="place">monasterii
+                            (de wigornia?)</name></q>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-iii + 1-274 + iv-v</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="271v">
+
+                        <head type="CCC"><name type="author">Thomas Bradwardine</name>, <title>De causa Dei contra <name
+                                    type="person">Pelagium</name></title></head>
+
+                        <head type="James">
+                            <name type="author">Thomas Bradwardine</name>
+                            <title>de Causa dei contra <name type="person">Pelagium</name></title>
+                        </head>
+
+
+                        <rubric locus="1r">De causa dei contra <name type="person">pelagium</name> et de uirtute
+                            causarum <name type="author">Thome de Bredewardyna</name> cancellarii <name type="place"
+                                >london</name></rubric>
+                        <incipit locusNew="1r">Magnorum et multorum peticionibus</incipit>
+                        <explicit locus="2r">accipio causam tuam</explicit>
+                        <ab locus="2r">Capitula</ab>
+                        <ab locus="4v">Incipit primus liber</ab>
+                        <incipit locusNew="1v">In primis firmissime supponatur</incipit>
+                        <seg>
+                            <ab locus="136v">Liber II</ab>
+                        </seg>
+                        <seg>
+                            <ab locus="197r">Liber III</ab>
+                        </seg>
+                        <ab>Ending</ab>
+                        <explicit locus="271v">et electos gaudium sempiternum</explicit>
+                        <rubric locusNew="271v">Explicit istud opus de causa dei contra <name type="person"
+                                >pelagium</name> et de uirtute causarum uirtute dei cause causarum perscriptum <name
+                                type="place">london</name>. anno <date>milesimo trecentesimo quadragesimo quarto</date>
+                            domini Ihesu Christi</rubric>
+                        <ab>The work was printed by <ref type="bibl" target="Savile 1618">Savile, London,
+                            1618</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="271v" locusEnd="274r">
+
+                        <head type="CCC"><name type="author">Bernard of Clairvaux OCist</name>, <title>Epistolae nos.
+                                11, 12, 13, 4</title>
+                        </head>
+
+                        <rubric locus="271v">Ad dominum papam contra hereses <name type="person">Petri Abelardi</name>
+                            In libro de consideracione ad <name type="person">Eugenium</name> papam hanc epistolam
+                            inuenies et est epistola 10<abbr rend="superscript">a</abbr>
+                            <name type="person">bernardi</name> inter epistolas suas</rubric>
+
+                        <incipit locus="272r">Amantissimo patri et domino <name type="person"
+                            >innocencio</name></incipit>
+
+                        <ab>followed by</ab>
+                        <ab locus="272v">Epistola XI ad Cardinales etc.</ab>
+
+                        <ab locus="273r"><supplied>Epistola</supplied> XII ad <name type="person">Hamericum</name></ab>
+
+                        <ab locus="273r"><supplied>Epistola</supplied> XIII Episcopi Francie <name type="person"
+                                >Innocencio</name></ab>
+
+                        <ab locus="273v"><supplied>Epistola</supplied> IV <name type="person">Innocencius</name> ad
+                            episcopos Francie</ab>
+
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="274r" locusEnd="274r">
+
+                        <head type="CCC"><name type="author">John Pecham OFM</name>, <title>Errores
+                            damnati</title></head>
+
+                        <ab locus="274r">Iste sunt articuli nouiter diuulgati quos inter hereses dampnatos in se uel in
+                            suis similibus dampnandos esse credimus etc.</ab>
+                        <incipit locus="274r">In nomine domini</incipit>
+                        <ab>(articles of <name type="person">John Peckham</name>
+                            <date>1250, 30 April</date>)</ab>
+
+                        <ab>f. <locus>274v</locus> blank</ab>
+
+                    </msItem>
+
+                </msContents>
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, CF 2nd</p>
+                            <p>msCheck: NJC 6.3.2007; second check NJC 30.5.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

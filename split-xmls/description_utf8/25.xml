@@ -1,0 +1,955 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC025">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>25</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>L. 1</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Cyprian of Carthage, Letters and Short Treatises</head>
+                <head type="James">Cypriani Epistolae et Tractatus</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">380</height>
+                        <width unit="mm">245</width>
+                    </measureGrp><measureGrp type="James">14.9 x 9.9</measureGrp>, <extent>ff. 144 + 2</extent>,
+                        <layout>double columns of 49-50 lines</layout>. Cent. <origDate>xiv</origDate>, <handNote>in a
+                        clear hand</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>2 flyleaves, 1<num>12</num>-12<num>12</num></collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>ad bestias</secFol>.</p>
+
+                <p function="Additions">On flyleaf <supplied>(f. <locus>ir</locus>)</supplied>
+                    (<origDate>xvi</origDate>): <q>Willelmus ffreman est possessor huius libelli<lb/> Qui scripsit
+                        scripta sua dextra sit benedicta</q>.</p>
+
+                <p function="Provenance">At the end of the table of contents <supplied>(f.
+                        <locus>iiv</locus>)</supplied> is an erasure which, revived, looks like <q>liber Abbendonie</q>
+                    (i.e. <name type="place">Abingdon Abbey</name>).</p>
+
+                <p function="Decoration">
+                    <decoNote>The ornament of the book is good. The first Epistle has an initial <supplied>(f.
+                                <locus>1r</locus>)</supplied> of <name type="author">Cyprian</name> in green mitre and
+                        lilac chasuble (with pattern of groups of 3 gold dots) seated with crosier blessing: gold
+                        ground. The other tracts have blue initials with elaborate interiors in red leaving designs in
+                        white.</decoNote>
+                </p>
+
+                <p>On second flyleaf <supplied>(f. <locus>iiv</locus>)</supplied>: <q>In hoc uolumine continentur
+                        epistole <name type="author">beati Cypriani</name> episcopi cartaginensis ex dictis <name
+                            type="person">Sancti Augustini</name> (lined through) magni oratoris et gloriosi
+                        martiris.</q> Followed by list of 74 epistles.</p>
+
+                <p function="Research" rend="after Contents">The order of contents corresponds exactly with that in <ref
+                        type="ms" target="CPC154">Pembroke College 154</ref> (cent. <date>xii</date>, from <name
+                        type="place">Buildwas</name>); but the latter adds <hi rend="italic">Ymnus de pascha</hi>. See
+                    on the MSS. of <name type="author">Cyprian</name>
+                    <ref type="bibl" target="von Soden 1904">Hans v. Soden in <hi rend="italic">Texte u.
+                            Untersuchungen</hi> N. F. x.</ref> A collation of this MS. was supplied to <ref type="bibl"
+                        target="Fell and Pearson 1682">Fell and Pearson for their edition (1682)</ref>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-ii + 1-144 + c-d</foliation>
+                </p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+                    <msItem n="1" locusStart="1r" locusEnd="3r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Ad
+                            Donatum</title></head>
+
+                        <head type="James">
+                            <title>Epistola <name type="author">beati Cypriani</name> ad <name type="person"
+                                    >donatum</name></title>
+                        </head>
+
+                        <incipit locusNew="1r">Bene admones</incipit>
+
+                    </msItem>
+                    <msItem n="2" locusStart="3r" locusEnd="6v">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>De habitu
+                                uirginum</title></head>
+
+                        <head type="James">
+                            <title>de disciplina et habitu uirginum</title>
+                        </head>
+
+
+                    </msItem>
+                    <msItem n="3" locusStart="6v" locusEnd="12r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>De lapsis</title></head>
+
+
+                        <head type="James">
+                            <title>de lapsis</title>
+                        </head>
+
+                        <incipit locusNew="6v">Pax ecce</incipit>
+
+                        <ab>[On f. <locus>11r</locus>
+                            <q><name type="person">James rydgewey</name> othe this book</q> etc.
+                                (<origDate>xvi</origDate>)]</ab>
+
+                    </msItem>
+                    <msItem n="4" locusStart="12r" locusEnd="16v">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>De catholicae ecclesiae
+                                unitate</title></head>
+
+                        <head type="James">
+                            <title>de unitate ecclesie</title>
+                        </head>
+
+
+                    </msItem>
+
+                    <msItem n="5" locusStart="16v" locusEnd="22r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>De dominica
+                                oratione</title></head>
+
+                        <head type="James">
+                            <title>de dominica oracione</title>
+                        </head>
+
+
+                    </msItem>
+                    <msItem n="6" locusStart="22r" locusEnd="25v">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>De
+                            mortalitate</title></head>
+
+                        <head type="James">
+                            <title>de mortalitate</title>
+                        </head>
+
+
+                    </msItem>
+                    <msItem n="7" locusStart="25v" locusEnd="30r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>De opere et
+                                eleemosynis</title></head>
+
+                        <head type="James">
+                            <title>de opere et elemosina</title>
+                        </head>
+
+
+                    </msItem>
+                    <msItem n="8" locusStart="30r" locusEnd="34r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Ad
+                            Demetrianum</title></head>
+
+                        <head type="James">
+                            <title>ad <name type="person">Demetrianum</name></title>
+                        </head>
+
+
+                    </msItem>
+                    <msItem n="9" locusStart="34r" locusEnd="38r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>De bono
+                                patientiae</title></head>
+
+                        <head type="James">
+                            <title>de bono paciencie</title>
+                        </head>
+
+
+                    </msItem>
+                    <msItem n="10" locusStart="38r" locusEnd="41r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>De zelo et
+                                liuore</title></head>
+
+                        <head type="James">
+                            <title>de zelo et liuore</title>
+                        </head>
+
+
+                    </msItem>
+                    <msItem n="11" locusStart="41r" locusEnd="46v">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Ad <name type="person"
+                                    >Fortunatum</name> de exhortatione martyrii</title></head>
+
+                        <head type="James">
+                            <title>ad <name type="person">Fortunatum</name></title>
+                        </head>
+
+
+                    </msItem>
+                    <msItem n="12" locusStart="46v" locusEnd="57r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Ad <name type="person"
+                                    >Quirinium</name>, books 1 and 2</title></head>
+
+                        <head type="James">
+                            <title>ad <name type="person">Quirinum</name> de sacramento Christi: liber I</title>
+                        </head>
+
+
+                    </msItem>
+                    <msItem n="13" locusStart="57r" locusEnd="70r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Ad <name type="person"
+                                    >Quirinium</name>, book 3</title></head>
+
+                        <head type="James">
+                            <title>ad eundem de disciplina christiane religionis (Liber II)</title>
+                        </head>
+
+
+                    </msItem>
+                    <msItem n="14" locusStart="70r" locusEnd="75r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            55</title></head>
+
+                        <head type="James">
+                            <title>ad <name type="person">Antonianum</name></title>
+                        </head>
+
+
+                    </msItem>
+                    <msItem n="15" locusStart="75r" locusEnd="77r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            74</title></head>
+
+                        <head type="James">
+                            <title>ad <name type="person">Pompeium</name></title>
+                        </head>
+
+
+                    </msItem>
+                    <msItem n="16" locusStart="77r" locusEnd="79r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            69</title></head>
+
+                        <head type="James">
+                            <title>ad <name type="person">Magnum</name> de nouaciano</title>
+                        </head>
+
+
+                    </msItem>
+                    <msItem n="17" locusStart="79r" locusEnd="80r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola 69
+                                (continued)</title></head>
+
+                        <head type="James">
+                            <title>ad eundem de eodem</title>
+                        </head>
+
+
+                    </msItem>
+                    <msItem n="18" locusStart="80r" locusEnd="80v">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            40</title></head>
+
+                        <head type="James">
+                            <title>de <name type="person">Numidico</name></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="19" locusStart="80v" locusEnd="82r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            67</title></head>
+
+                        <head type="James">
+                            <title>de <name type="person">Marciale</name> et <name type="person">Basilide</name></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="20" locusStart="82r" locusEnd="83r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            64</title></head>
+
+                        <head type="James">
+                            <title>ad <name type="person">Fid[i]um</name> de infantibus baptizandis</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="21" locusStart="83r" locusEnd="83r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            2</title></head>
+
+                        <head type="James">
+                            <title>ad <name type="person">Eucracium</name> de hystrione</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="22" locusStart="83r" locusEnd="84r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            60</title></head>
+
+                        <head type="James">
+                            <title>ad <name type="person">Cornelium</name></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="23" locusStart="84r" locusEnd="85r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            57</title></head>
+
+                        <head type="James">
+                            <title>ad <name type="person">Cornelium</name></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="24" locusStart="85r" locusEnd="90r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            59</title></head>
+
+                        <head type="James">
+                            <title>ad <name type="person">Cornelium</name></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="25" locusStart="90r" locusEnd="91r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            52</title></head>
+
+                        <head type="James">
+                            <title>ad <name type="person">Cornelium</name></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="26" locusStart="91r" locusEnd="91r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            47</title></head>
+
+                        <head type="James">
+                            <title>ad <name type="person">Cornelium</name></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="27" locusStart="91r" locusEnd="92r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            45</title></head>
+
+                        <head type="James">
+                            <title>ad <name type="person">Cornelium</name></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="28" locusStart="92r" locusEnd="92r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            44</title></head>
+
+                        <head type="James">
+                            <title>ad <name type="person">Cornelium</name></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="29" locusStart="92r" locusEnd="92v">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            51</title></head>
+
+                        <head type="James">
+                            <title>ad <name type="person">Cornelium</name></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="30" locusStart="92v" locusEnd="93v">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            13</title></head>
+
+                        <head type="James">
+                            <title>ad <name type="person">Rogacianum</name> etc.</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="31" locusStart="93v" locusEnd="94v">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            43</title></head>
+
+                        <head type="James">
+                            <title>ad plebem de quinque presbiteris</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="32" locusStart="94v" locusEnd="95v">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            65</title></head>
+
+                        <head type="James">
+                            <title>ad <name type="person">Epitectum</name> et plebem</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="33" locusStart="95v" locusEnd="96r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            1</title></head>
+
+                        <head type="James">
+                            <title>ad clerum et plebem</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="34" locusStart="96r" locusEnd="96v">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            61</title></head>
+
+                        <head type="James">
+                            <title>ad 'Ultimum' (<name type="person">Lucium</name>) de exilio reuersum</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="35" locusStart="96v" locusEnd="97r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            46</title></head>
+
+                        <head type="James">
+                            <title>ad <name type="person">Maximum Nichostratum</name></title>
+                        </head>
+
+                    </msItem>
+
+
+                    <msItem n="36" locusStart="97r" locusEnd="98v">
+
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            66</title></head>
+
+                        <head type="James">
+                            <title>ad <name type="person">Florencium</name></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="37" locusStart="98v" locusEnd="99v">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            4</title></head>
+
+                        <head type="James">
+                            <title>ad <name type="person">Pomponium</name> de uirginibus</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="38" locusStart="99v" locusEnd="101v">
+
+                        <head type="CCC"><name type="author">pseudo-Cyprian of Carthage</name>, <title>Quod idola dii
+                                non sint</title></head>
+
+                        <head type="James">
+                            <title>Quod idola dii non sint etc.</title>
+                        </head>
+
+                    </msItem>
+
+
+                    <msItem n="39" locusStart="101v" locusEnd="102r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            56</title></head>
+
+                        <head type="James">
+                            <title>ad <name type="person">Fortunatum</name> de hiis qui per tormenta superantur</title>
+                        </head>
+
+                    </msItem>
+
+
+                    <msItem n="40" locusStart="102r" locusEnd="102v">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            3</title></head>
+
+                        <head type="James">
+                            <title>ad <name type="person">Rogacianum</name> de diacono</title>
+                        </head>
+
+                    </msItem>
+
+
+                    <msItem n="41" locusStart="102v" locusEnd="103r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            72</title></head>
+
+                        <head type="James">
+                            <title>ad <name type="person">Stephanum</name> de concilio</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="42" locusStart="103v" locusEnd="105v">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            58</title></head>
+
+                        <head type="James">
+                            <title>ad Tibaritanos</title>
+                        </head>
+
+                    </msItem>
+
+
+                    <msItem n="43" locusStart="105v" locusEnd="108v">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            63</title></head>
+
+                        <head type="James">
+                            <title>ad <name type="person">Cecilium</name> de sacramento calicis</title>
+                        </head>
+
+                    </msItem>
+
+
+                    <msItem n="44" locusStart="108v" locusEnd="109v">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            6</title></head>
+
+                        <head type="James">
+                            <title>ad martires et confessores</title>
+                        </head>
+
+                    </msItem>
+
+
+                    <msItem n="45" locusStart="109v" locusEnd="110v">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            76</title></head>
+
+                        <head type="James">
+                            <title>ad eosdem epistola secunda</title>
+                        </head>
+
+                    </msItem>
+
+
+                    <msItem n="46" locusStart="110v" locusEnd="115r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            73</title></head>
+
+                        <head type="James">
+                            <title>ad <name type="person">Juuaianum</name> de hereticis baptizandis</title>
+                        </head>
+
+                        <incipit locusNew="110v">Scripsisti</incipit>
+
+                    </msItem>
+
+                    <msItem n="47" locusStart="115r" locusEnd="115v">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            71</title></head>
+
+                        <head type="James">
+                            <title>(ad <name type="person">Quintum</name>) de hereticis baptizandis</title>
+                        </head>
+
+                    </msItem>
+
+
+                    <msItem n="48" locusStart="115v" locusEnd="119r">
+
+                        <head type="CCC">
+                            <title>Sententiae episcoporum numero LXXXVII de haereticis baptizandis</title>
+                        </head>
+
+                        <head type="James">
+                            <title>Sentencie episcoporum numero octoginta septem</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="49" locusStart="119r" locusEnd="119v">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            28</title></head>
+
+                        <head type="James">
+                            <title>ad <name type="person">Moysen</name> et <name type="person">Maximum</name></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="50" locusStart="119v" locusEnd="120v">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            37</title></head>
+
+                        <head type="James">
+                            <title>ad eosdem epistola secunda</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="51" locusStart="120v" locusEnd="121r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            38</title></head>
+
+                        <head type="James">
+                            <title>de <name type="person">Aurelio</name> confessore</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="52" locusStart="121r" locusEnd="122r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            39</title></head>
+
+                        <head type="James">
+                            <title>ad clerum de <name type="person">Selerino</name> confessore</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="53" locusStart="122r" locusEnd="122v">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            70</title></head>
+
+                        <head type="James">
+                            <title>ad <name type="person">Juuaianum</name> de hereticis baptizandis </title>
+                        </head>
+
+                        <incipit locusNew="122r"><name type="author">Cyprianus</name> liberalis</incipit>
+
+                    </msItem>
+
+                    <msItem n="54" locusStart="122v" locusEnd="124v">
+
+                        <head type="CCC"><name type="author">pseudo-Cyprian of Carthage</name>, <title>De
+                                aleatoribus</title></head>
+
+                        <head type="James">
+                            <title>de aleatoribus</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="55" locusStart="124v" locusEnd="129v">
+
+                        <head type="CCC"><name type="author">pseudo-Cyprian of Carthage</name>, <title>De laude
+                                martyrii</title></head>
+
+                        <head type="James">
+                            <title>de laude martirii</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="56" locusStart="129v" locusEnd="129v">
+
+                        <head type="CCC"><name type="author">Felix</name>, <title>Letter to <name type="person">Cyprian
+                                    of Carthage</name></title></head>
+
+                        <head type="James">
+                            <title><name type="person">Felicis</name> ad <name type="person">Cyprianum</name></title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="57" locusStart="129v" locusEnd="130r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            20</title></head>
+
+                        <head type="James">
+                            <title><name type="author">Ciprianus</name> ad romanos</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="58" locusStart="130r" locusEnd="130v">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            32</title></head>
+
+                        <head type="James">
+                            <title><name type="author">Cyprianus</name> presbiteris etc.</title>
+                        </head>
+
+                        <incipit>Quales litteras</incipit>
+
+                    </msItem>
+                    <msItem n="59" locusStart="130v" locusEnd="130v">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            47</title></head>
+
+                        <head type="James">
+                            <title>ad <name type="person">Cornelium</name> quinta</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="60" locusStart="130v" locusEnd="131r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            54</title></head>
+
+                        <head type="James">
+                            <title>ad <name type="person">Maximum</name> presbiter, <name type="person">Urbanum</name>
+                                etc.</title>
+                        </head>
+
+                    </msItem>
+                    <msItem n="61" locusStart="131r" locusEnd="131v">
+
+                        <head type="CCC">
+                            <title>Letter to <name type="person">Cyprian of Carthage</name> (Epistulae ad Cyprianum et
+                                alios, 78)</title>
+                        </head>
+
+                        <head type="James">
+                            <title>ad <name type="person">Lucium</name> et qui cum eo sunt</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="62" locusStart="131v" locusEnd="136r">
+
+                        <head type="CCC"><name type="author">Firmilian</name>, <title>Letter to <name type="person"
+                                    >Cyprian of Carthage</name> (Epistulae ad Cyprianum et alios, 75)</title></head>
+
+                        <head type="James">
+                            <title><name type="author">Firmiliani</name> ad <name type="person">Cyprianum</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="63" locusStart="136r" locusEnd="136r">
+
+                        <head type="CCC"><name type="author">Maximus</name>, <name type="author">Urbanus</name>, <name
+                                type="author">Sidonius</name> and <name type="author">Macarius</name>, <title>Letter to
+                                    <name type="person">Cyprian of Carthage</name> (Epistulae ad Cyprianum et alios,
+                                53)</title></head>
+
+                        <head type="James">
+                            <title><name type="person">Maximi</name>, <name type="person">Urbani</name>, etc. ad <name
+                                    type="person">Cyprianum</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="64" locusStart="136r" locusEnd="136v">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            16</title></head>
+
+                        <head type="James">
+                            <title>ad clerum de quibusdam presbiteris etc.</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="65" locusStart="136v" locusEnd="137v">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            15</title></head>
+
+                        <head type="James">
+                            <title>ad martires qui lapsis petierunt pacem dari</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="66" locusStart="137v" locusEnd="138r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            17</title></head>
+
+                        <head type="James">
+                            <title>ad plebem significans quod ad eum martires de lapsis petierunt</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="67" locusStart="138r" locusEnd="138r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            18</title></head>
+
+                        <head type="James">
+                            <title>ad clerum pro lapsis etc.</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="68" locusStart="138r" locusEnd="138v">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            19</title></head>
+
+                        <head type="James">
+                            <title>in qua rescribit clero de hiis qui ad pacem festinant</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="69" locusStart="138v" locusEnd="138v">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            26</title></head>
+
+                        <head type="James">
+                            <title>ad clerum non temere pacem dandam</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="70" locusStart="138v" locusEnd="139r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            25</title></head>
+
+                        <head type="James">
+                            <title>ad <name type="person">Caldonium</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="71" locusStart="139r" locusEnd="139r">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            9</title></head>
+
+                        <head type="James">
+                            <title><name type="place">Rome</name> clero de redicione <name type="person"
+                                >Urbici</name></title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="72" locusStart="139r" locusEnd="139v">
+
+                        <head type="CCC"><name type="author">Cyprian of Carthage</name>, <title>Epistola
+                            29</title></head>
+
+                        <head type="James">
+                            <title>ad clerum insinuans quod utrasque <name type="place">rome</name> literas
+                                misisset</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="73" locusStart="139v" locusEnd="142v">
+
+                        <head type="CCC"><name type="author">pseudo-Cyprian of Carthage</name>, <title>De montibus <name
+                                    type="place">Sina</name> et <name type="place">Sion</name></title></head>
+
+                        <head type="James">
+                            <title>de duobus montibus id est de <name type="place">monte syna</name> et de <name
+                                    type="place">monte syon</name> contra iudeos</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="74" locusStart="142v" locusEnd="144v">
+
+                        <head type="CCC"><name type="author">Novatian</name>, <title>Epistula xxxi inter opera <name
+                                    type="person">Sancti Cypriani</name></title></head>
+
+                        <head type="James">
+                            <title>(de laude <name type="person">Cypriani</name>) Inter uarios et multiplices</title>
+                        </head>
+
+                        <incipit locusNew="142v">Inter uarios et multiplices</incipit>
+
+                        <explicit locusNew="143v">humilitas atque subieccio</explicit>
+
+                        <incipit locus="143v">Hoc est quod penitenciam probat</incipit>
+                        <explicit locusNew="144r">Bene uale frater in christo</explicit>
+                        <rubric locusNew="144r">Finito libro sit laus et gloria christo</rubric>
+                        <ab locusNew="144r">A smudged inscription (late) below</ab>
+
+                    </msItem>
+
+
+                </msContents>
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF, CF 2nd</p>
+                            <p>msCheck: RJR August 2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

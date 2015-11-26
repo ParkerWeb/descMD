@@ -1,0 +1,151 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC207">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>207</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Lib. ab Al. 6</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Isidore of Pelusium et al., Letters. Hugo Etherianus, De haeresibus Graecorum. Manuel
+                    Calecas, Contra Graecos</head>
+                <head type="James">Isidorus Pelusiota, Cyrillus etc. Hugo Etherianus. Manuel Calecas</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">296</height>
+                        <width unit="mm">215</width>
+                    </measureGrp><measureGrp type="James">11.4 x 8.8</measureGrp>, <extent>ff. circa 400</extent>. Cent.
+                        <origDate>xvi (first half)</origDate>, <handNote>in several hands, apparently
+                    foreign</handNote>.</p>
+
+
+                <p function="Provenance">Given by <name type="person">Richard Palmer</name>, as I gather from the
+                    college copy of Parker's Register (see Introduction). He was of Yorkshire, admitted in
+                        <date>1604</date>, B.D. in <date>1619</date>: Fellow in <date>1613</date>, Vicar of Grantchester
+                    in <date>1622</date>, Precentor of York the same year: died in <date>1631</date>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i + 1-364 + ii</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="48v">
+                        <head type="CCC">
+                            <name type="author">Isidore of Pelusium et al.</name>, <title>Letters</title>
+                        </head>
+
+                        <ab>Latin versions of letters of <name type="author">Isidore of Pelusium</name> (12 ff.), <name
+                                type="author">Cyril</name>, <name type="author">John of Antioch</name>, <name
+                                type="author">Nestorius</name> etc., and documents relating to the Council of <name
+                                type="place">Chalcedon</name> etc., about 50 ff. in all</ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="49r" locusEnd="196v">
+                        <head type="CCC">
+                            <name type="author">Hugo Etherianus</name>, <title>De haeresibus Graecorum de processione
+                                spiritus sancti</title>
+                        </head>
+
+                        <rubric locusNew="49r"><name type="author">Hugo Etherianus</name> de processione spiritus
+                            sancti</rubric>
+
+                        <incipit locusNew="49r">Intencio huius prologi</incipit>
+                        <rubric locusNew="49r">Primi libri prologus</rubric>
+                        <incipit locusNew="49r"><name type="person">Moyses</name> quondam ex collocutione dei</incipit>
+                        <ab>Text</ab>
+                        <incipit locusNew="50v">Beatam et immortalem trinitatem</incipit>
+                        <ab><ref type="bibl" target="Despontius 1677a"><hi rend="italic">Bibl. Patr.</hi> XXII
+                                1189</ref>. <ref type="bibl" target="Migne 202"><hi rend="italic">P. L.</hi> CCII
+                                231</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="197r" locusEnd="364v">
+                        <head type="CCC">
+                            <name type="author">Manuel Calecas</name>, <title>Contra Graecos de processione sancti
+                                spiritus (transl. by <name type="author">Ambrogio Traversari OSB Camald. (Ambrose of
+                                    Camaldoli)</name>)</title></head>
+
+                        <rubric locusNew="197r"><name type="author">Ambrosius</name> de processione spiritus
+                            sancti</rubric>
+                        <ab>(libri 18)</ab>
+                        <incipit locusNew="197r">Domino sancto ac beatissimo <name type="person">pape
+                            martino</name></incipit>
+                        <rubric locusNew="198r">Incipit auctoris prologus</rubric>
+                        <incipit locusNew="198r">Quoniam quidem fraterne dilectionis</incipit>
+                        <ab>Liber I</ab>
+                        <incipit locusNew="200r">Cum dominus noster Ihesus Christus discipulis discerit (?)</incipit>
+                        <ab>It is the version of <name type="author">Manuel Calecas</name> de erroribus Graecorum by
+                                <name type="author">Ambrogio Traversari</name>: printed in <ref type="bibl"
+                                target="Despontius 1677b"><hi rend="italic">Bibl. Patr. Lugd.</hi> XXVI 382</ref> and
+                            elsewhere. See <ref type="bibl" target="Fabricius 1808"><hi rend="italic">Fabr. Bibl.
+                                    Gr.</hi> xi 453</ref></ab>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: KAW 5/08/08, NJC 3/12/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

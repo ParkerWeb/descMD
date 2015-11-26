@@ -1,0 +1,333 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC150">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>150</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>O. 17</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>223</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">William Pore OCist, Nouale. Peter the Chanter et al.</head>
+                <head type="James">Willelmi Pore Novale. Petrus Cantor</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">297</height>
+                        <width unit="mm">196</width>
+                    </measureGrp>, <measureGrp type="James">12.8 x 7.8</measureGrp>, <extent>ff. 147 + 7</extent>,
+                        <layout>several volumes in double columns: varying number of lines</layout>. Cent.
+                        <origDate>xiii</origDate>
+                    <handNote>in several hands</handNote>.</p>
+
+                <p function="Multivolume" rend="withinContents"><lb/><label>Volume I:</label>
+                    <layout>
+                        <supplied>Double columns.</supplied>
+                    </layout><lb/>
+                    <label>Volume II:</label>
+                    <layout>Double columns of 50 lines</layout>.<lb/>
+                    <label>Volume III:</label>
+                    <layout>Text in double columns</layout>, <handNote>good black hand</handNote>: <layout>leaves
+                        irregularly shaped and varying in the number of lines</layout>.<lb/>
+                    <label>Volume IV:</label>
+                    <layout>Single lines and tabular form</layout>. <lb/><label>Volume V:</label>
+                    <layout>Double columns of 41 lines</layout>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>a<num>?8</num> (1, 2 stuck together, 6 canc.) 1<num>12</num> 2<num>12</num>
+                            3<num>10</num> 4<num>8</num> | 5<num>12</num> (3 canc., five leaves inserted at different
+                        places) 6<num>10</num>-9<num>10</num> | 10<num>12</num> 11<num>8</num> (5 canc.) |
+                            12<num>8</num> (5 canc.) | 13<num>8</num>-15<num>8</num> (wants 8)</collation>.</p>
+
+                <p function="Additions">On the flyleaf <locus>iiv</locus> Note on the corporal assumption of the Virgin
+                    and some scribbles.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-vii + 1-147 + a</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="frm enm">Latin, Anglo-Norman and Middle English.</textLang>
+                    <label>Contents</label>
+
+
+                    <milestone n="I" unit="volume"/>
+                    <msItem n="1" locusStart="iiir" locusEnd="viiv">
+                        <head type="CCC">
+                            <name type="author">William Pore OCist</name>, <title>Nouale</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carmen versibus resonantibus scriptum ad <name type="person">Henricum abbatem de
+                                    Swineshead</name></title>
+                        </head>
+                        <ab>
+                            <quote>Incipit, <q>Noscere debetis pictoribus atque poetis.</q></quote>
+                        </ab>
+                        <ab>
+                            <quote>In nota marginali liber sic describitur; <q>Nota quod causa materialis hujus libri in
+                                    parte est donum <name type="person">Henrici abbatis de Swynesheued</name>: in quadam
+                                    est gramatica et in quadam est moralis: in qua tanguntur quedam proverbia communia:
+                                    in majori parte casus viales quos auctor hujus operis cum discipulis suis percepit
+                                    in redeundo de <name type="place">Swynesheued</name> ad scolas post natalia festa
+                                    ibidem celebrata; et in parte tangit proprietates avium et brutorum ad Latine
+                                    eloquentie opulentiam et ad puerorum instructionem. Causa autem efficiens est
+                                    intellectus autoris motus est ad predicta describenda metrice: formalis autem est
+                                    modus agendi qui metricus est; finalis est dicti abbatis commendatio cum ceteris que
+                                    tanguntur in causa materiali. Titulus hic incipit novale dictum a quodam novo metro
+                                    soli dicto abbati appropriate.</q></quote>
+                        </ab>
+                        <ab>
+                            <quote>Ex primis versibus acrosticis apparet nomen autoris fuisse <name type="author"
+                                    >Willelmum Pore</name>.</quote>
+                        </ab>
+                        <ab>col. 1 has text, col. 2 notes</ab>
+                        <ab locus="iiir">
+                            <lg>
+                                <l>Noscere debetis pictoribus atque poetis</l>
+                                <l>Quelibet audere datur equum posse tenere</l>
+                                <l>Cur mea figmenta non praues hoc docume(n)ta</l>
+                                <l>Que fere quingenta numero sunt per metra lenta</l>
+                                <l>Abbas care uale tuus est liber iste nouale</l>
+                                <l>Nam metrum tale tibi continet hic speciale</l>
+                                <l>Tangit penale. tangit quandoque iocale</l>
+                                <l>Nunc est morale, proprium nunc nunc generale</l>
+                                <l>Nunc cronographale. nunc sistit gramaticale</l>
+                                <l>Nunc topographale. per causam sic uariale</l>
+                            </lg>
+                        </ab>
+                        <ab>The acrostic begins: It reads <name type="author">Willelmus Pore</name><lb/>
+                            <lg>
+                                <l>Vult mens factorum quedam metrare tuorum</l>
+                                <l>Inclita nostrorum casus simul et puerorum</l>
+                            </lg></ab>
+                        <ab>On f. <locus>iiiv</locus> is a more elaborate acrostic on the name <name type="person"
+                                >Henricus Abbas de Swineshevid</name>. <layout>It is in five columns, each line usually
+                                of five words</layout>, each column forming the same acrostic: <figure
+                                xml:id="figure339a"/></ab>
+
+                        <ab>
+                            <layout>The text then resumes in two columns</layout>
+                        </ab>
+                        <incipit locus="iiiv">O flos abbatum decus ordinis intitulatum</incipit>
+                        <ab>The poem is chiefly occupied with an account of the difficulties of the journey from <name
+                                type="place">Swineshead</name> owing to ice and cold, and with an invective against a
+                            garcio named <name type="person">William Gybard</name></ab>
+                        <explicit locus="vir">
+                            <lg>
+                                <l>Qui mihi solamen tribuitque metrando iuuamen</l>
+                                <l>Huic iteres amen, amen iteretur et Amen</l>
+                            </lg>
+                        </explicit>
+                        <ab>In col. 2 are more verses <handNote>in a larger hand</handNote>, some to <name type="person"
+                                >Abbot Henry</name></ab>
+                        <ab>Also</ab>
+                        <ab locus="vir">
+                            <lg>
+                                <l>Post dolor ad beramdun vice uersa corruet ense</l>
+                                <l>Innumerum wlgus Innumerique duces</l>
+                                <l>Morte repentina mors altera morteque bina</l>
+                            </lg>
+                        </ab>
+                        <ab>Margin: <q>Isti tres uersus fuerunt reuelati cuidam mulieri dormienti per tres dies et
+                                totidem noctes</q></ab>
+                        <ab>There is also an English line</ab>
+                        <ab>
+                            <q>&#254;an (or &#447;an) creu kattes an &#447;an wasit dey. rybaudye</q>
+                        </ab>
+                        <ab locus="viv">blank</ab>
+                        <ab locus="viir">table to <supplied>item</supplied> no. 2</ab>
+                        <ab locus="viiv">blank</ab>
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+                    <msItem n="2" locusStart="1r" locusEnd="98r">
+                        <head type="CCC">
+                            <name type="author">Peter the Chanter</name>, <title>Verbum abbreuiatum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Petri Cantoris Parisiensis</name> verbum abbreviatum</title>
+                        </head>
+                        <ab>
+                            <quote>Hic liber multas notulas habet quae sunt in textu scriptae in multis aliis
+                                libris.</quote>
+                        </ab>
+                        <rubric locus="1r">Quod breuitati sit studendum</rubric>
+                        <incipit locus="1r">Uerbum abbreuiatum faciet dominus etc. Si enim uerbum</incipit>
+                        <ab>(<ref type="bibl" target="Migne 205">CCV 23</ref>)</ab>
+                        <ab locus="43r"><handNote>The hand changes</handNote>, and in this quire (5) are many additions
+                            both marginal and on inserted leaves. They concern chapters 45 de officio prelatorum to 67
+                            contra mollientes arcum sacre scripture</ab>
+                        <ab locus="59r">
+                            <handNote>Another change of hand</handNote>
+                        </ab>
+                        <explicit locus="98r">inmensum et inexplicable</explicit>
+                        <rubric locusNew="98r">Explicit Pater noster pro anima Notarii</rubric>
+                    </msItem>
+
+                    <milestone n="III" unit="volume"/>
+                    <msItem n="3" locusStart="98r" locusEnd="114r">
+                        <head type="CCC">
+                            <title>Biblical extracts</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De vita et doctrina sacerdotis</title>
+                        </head>
+                        <ab locus="98r">Table of chapters to no. 3</ab>
+                        <ab>I. De uita et doctrina sacerdotis</ab>
+                        <ab>107. De uita eterna</ab>
+                        <incipit locus="99r">Ecclesiasticus. Aurum et argentum confla et facito uerbis tuis stateram. In
+                            exodo Saga dupplicabantur, etc.</incipit>
+                        <ab>Each section is a collection of short extracts</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="114r">Incorruptio autem proximum facit ei deo .i. similem</explicit>
+                    </msItem>
+
+                    <msItem n="4" locusStart="114v" locusEnd="117v">
+                        <head type="CCC">
+                            <name type="author">John of Garland</name>, <title>De mysteriis ecclesiae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carmen ad <name type="person">Fulconem episcopum Londoniensem</name> de ritibus
+                                ecclesiasticis</title>
+                        </head>
+                        <ab><handNote>Another hand</handNote>, <layout>double columns of 51 etc. lines</layout></ab>
+                        <ab>(By <name type="author">Joh. de Garlandia</name>)</ab>
+                        <incipit locus="114v">Anglia quo fulget quo gaudet presule claro</incipit>
+                        <ab>(<ref type="bibl" target="Migne 150">CL 1591</ref>)</ab>
+                        <ab locus="114v"><name type="place">Lundonie</name> quo <name type="place">parisius</name>
+                            scrutante sophiam</ab>
+                        <ab>Ends</ab>
+                        <explicit locusNew="177v">
+                            <lg>
+                                <l>Qui fuit ecclesie directa columpna, fenestra</l>
+                                <l>Lucida, Turribulum redolens, campana sonora</l>
+                                <l>Ad finem libri sit laus et gloria christi</l>
+                            </lg>
+                        </explicit>
+
+                    </msItem>
+
+                    <milestone n="IV" unit="volume"/>
+                    <msItem n="5" locusStart="118r" locusEnd="122r">
+                        <head type="CCC">
+                            <name type="author">Robert Grosseteste</name>, <title>Templum Domini</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Exhortatio ad sacerdotes [sive tractatus <name type="author">Roberti Grosteste</name>
+                                episcopi <name type="person">Lincoln</name>, de sacramentis ecclesiae et articulis
+                                fidei.]</title>
+                        </head>
+                        <ab locus="118r"><name type="author">Roberti Grosseteste</name> Templum domini (no title)</ab>
+                        <incipit locus="118r">Templum domini sanctum est quod estis uos</incipit>
+                        <ab locus="122r">Ends unfinished</ab>
+                        <ab>Some notes <handNote>in other hands</handNote> follow</ab>
+                    </msItem>
+
+                    <msItem n="6" locusStart="122v" locusEnd="124v">
+                        <head type="CCC">
+                            <title>Medical receipts</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Remedia ad guttam fistulam, etc.</title>
+                        </head>
+                        <ab locus="122v">
+                            <handNote>In a very rough large hand</handNote> (<date>xiii</date>)</ab>
+                        <ab locus="122v">Receipts, one in French</ab>
+                        <ab locus="122v">
+                            <q>La reste(?) bof garit les bos et les vaches de moreine etc.</q>
+                        </ab>
+                        <ab locus="124v">blank</ab>
+                    </msItem>
+
+                    <milestone n="V" unit="volume"/>
+                    <msItem n="7" locusStart="125r" locusEnd="146v">
+                        <head type="CCC">
+                            <name type="author">Innocent III (Lotharius de Segnis)</name>, <title>De missarum
+                                mysteriis</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Innocentius papa III</name>. de officio missae</title>
+                        </head>
+                        <rubric locus="125r">Incipit prephacio <name type="author">Innocentii pape tertii</name> de
+                            officio misse</rubric>
+                        <incipit locusNew="125r">Tria sunt precipue in quibus lex diuina consistit</incipit>
+                        <ab>(<ref type="bibl" target="Migne 217">CCXVII 773</ref>)</ab>
+                        <explicit locus="146v">et continue totum censui subscribendum</explicit>
+                        <rubric locusNew="146v">Explicit liber <name type="author">Innocencentii pape tercii</name> De
+                            officio misse Hic debet subsequi canon</rubric>
+                        <ab>Among scribbles at the end I note</ab>
+                        <ab locus="146v"> Inconstans animus oculus uagus instabilis pes<lb/> Sunt signa hominis de quo
+                            michi nulla bona spes </ab>
+                        <ab>Some accounts (<date>xv</date>, relating to taking a degree)</ab>
+                        <ab locus="147r">
+
+                            <q>Sol. pro gycgys<lb/> Pro ciro<abbr rend="superscript">fis</abbr> soph<abbr
+                                    rend="superscript">tis</abbr> ii<abbr rend="superscript">d</abbr><lb/> Pro ob<abbr
+                                    rend="superscript">ne</abbr> (?) i d ...<lb/> Pro prandio viij<abbr
+                                    rend="superscript">s</abbr> vij<abbr rend="superscript">d</abbr><lb/> Pro bedellis
+                                    v<abbr rend="superscript">s</abbr> iiij<abbr rend="superscript">d</abbr><lb/> Pro
+                                senescallo xii<abbr rend="superscript">d</abbr> (twice)<lb/> Pro ordinario ...<abbr
+                                    rend="superscript">s</abbr><lb/> Pro scolis x...<abbr rend="superscript"
+                                >d</abbr></q>
+
+                        </ab>
+                        <ab locus="147r">Also: Mem. de 2<abbr rend="superscript">o</abbr> libris viz de <name
+                                type="person">Aug.</name> de ciuitate dei et de sermonibus dominicalibus</ab>
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: KW 23/9/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

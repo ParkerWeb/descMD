@@ -1,0 +1,252 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC306">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>306</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>T. 3</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>287</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Albertanus of Brescia (Albertanus Brixiensis), Works</head>
+                <head type="James">Albertanus Brixiensis</head>
+                <head type="Nasmith">Varia opera Albertani causidici Brixiensis</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">248</height>
+                        <width unit="mm">138</width>
+                    </measureGrp>, <measureGrp type="James">9.8 x 5.5</measureGrp>, <extent>ff. 4 + 92</extent>,
+                        <layout>44 lines to a page</layout>. Cent. <origDate>xiv early</origDate>, <handNote>in good
+                        legal hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>4</num>, 1<num>8</num>-11<num>8</num> 12<num>4</num></collation>.</p>
+
+                <p function="Provenance">From the Dominicans of <name type="place">London</name>. On <locus
+                        locusNew="ivv">ivr</locus> at top (<date>xv</date>):<lb/><q>Iste liber est communitatis ffratrum
+                        predicatorum <name type="place">london</name> mutuatus ffratri <name type="person">Johanni
+                            Tille</name>. ff. 8.</q></p>
+
+                <p function="Research">Cf. <ref type="ms" target="CCC299">MS 299</ref>.</p>
+
+                <p function="Research" rend="afterContents">Cf. a copy at <ref type="ms" target="CSS048">Sidney Sussex
+                        College, no. 48</ref> in <ref type="bibl" target="James 1895c">my Catalogue</ref>.</p>
+
+                <p function="Additions">ff. <locus>ir</locus>-<locus>iiv</locus> blank: on ff.
+                        <locus>iiir</locus>-<locus>ivv</locus>
+                    <handNote>a table in the original hand, of the chapters of the first three books</handNote>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a + i-iv + 1-92 + b-c</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="7r">
+                        <head type="CCC">
+                            <name type="author">Albertanus of Brescia</name>, <title>Ars loquendi et tacendi</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De doctrina tacendi et loquendi liber compositus et compilatus sub
+                                    <date>MCCXLV</date> de mense Decembris</title>
+                        </head>
+                        <ab locus="1r">
+                            <decoNote>Blue and red initial</decoNote>
+                        </ab>
+                        <incipit locus="1r">Inicio et medio ac fine</incipit>
+                        <explicit locus="7r">ut eterna gaudia nos faciat peruenire</explicit>
+                        <rubric locusNew="7r">Explicit liber de doctrina, etc. ... sub <date>m<abbr rend="superscript"
+                                    >l</abbr> cc xlv</date> de mense decembris</rubric>
+                    </msItem>
+
+
+
+                    <msItem n="2" locusStart="7r" locusEnd="28r">
+                        <head type="CCC">
+                            <name type="author">Albertanus of Brescia</name>, <title>De consolatio et consilio</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Liber consolationis et consilii compilatus atque compositus sub MCCXLVI in mensibus
+                                Aprilis et Maii</title>
+                        </head>
+                        <rubric locus="7r">In christi nomine incipiunt rubrice libri consolationis et consilii</rubric>
+                        <incipit locus="7r">Quoniam multi sunt qui in aduersitatibus</incipit>
+                        <explicit locus="28r">cum gaudio et leticia recesserunt</explicit>
+                        <rubric locus="28r">Explicit liber consolationis etc. ... sub <date>m cc xlvj</date>. In
+                            mensibus Aprilis et Maii</rubric>
+                    </msItem>
+
+
+                    <msItem n="3" locusStart="28v" locusEnd="73r">
+                        <head type="CCC">
+                            <name type="author">Albertanus of Brescia</name>, <title>De amore et dilectione Dei</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Liber de amore et dilectione Dei et proximi et aliarum rerum et de forma vitae quem
+                                    <name type="author">Albertanus</name> ... compilavit ac scripsit cum esset in
+                                carcere domini imperatoris <name type="person">Federici</name> in civitate <name
+                                    type="place">Cremonae</name> in quo positus fuit cum esset capitaneus <name
+                                    type="person">Gavardi</name> ad defendendum locum ipsum ad utilitatem communitatis
+                                    <name type="place">Brixiae</name> anno Domini <date>millesimo ducentesimo tricesimo
+                                    octavo</date> de mense Augusti in die sancti Alexandri quo obsidebatur civitas <name
+                                    type="place">Brixiae</name> per eundem imperatorem, indictione undecima</title>
+                        </head>
+                        <rubric locus="28v">Incipit liber de amore et dileccione dei et proximi et aliarum rerum et de
+                            forma vite. Liber primus</rubric>
+                        <incipit locus="28v">Inicium mei tract(at)us sit</incipit>
+                        <rubric locus="34v">De amore et dileccione proximi liber secundus</rubric>
+                        <incipit locus="34v">Habito tractatu</incipit>
+                        <explicit locus="52v">vegetari atque gaudere</explicit>
+                        <rubric locus="52v">De amore et dilectione aliarum rerum corporalium. liber tercius</rubric>
+                        <incipit locus="52v">Tractatu habito de amore et dilectione proximi</incipit>
+                        <explicit locus="73r">ad quos ille nos conducat qui sine fine uiuit et regnat. Amen</explicit>
+                        <rubric locus="73r">Explicit liber de amore, etc. ... per eundem Imperatorem Indiccione
+                            xj</rubric>
+                    </msItem>
+
+
+                    <msItem n="4" locusStart="73r" locusEnd="76r">
+                        <head type="CCC">
+                            <name type="author">Albertanus of Brescia</name>, <title>Sermo I</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sermo habitus inter causidicos et notarios super confirmatione vitae illorum</title>
+                        </head>
+                        <rubric locus="73r">Hic est sermo quem <name type="author">Albertanus</name>, etc.</rubric>
+                        <incipit locus="73r">Congregacio nostra in nomine domini</incipit>
+                    </msItem>
+
+
+                    <msItem n="5" locusStart="76r" locusEnd="79v">
+                        <head type="CCC">
+                            <name type="author">Albertanus of Brescia</name>, <title>Sermo II</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sermo factus super illuminatione et super spirituali et corporali refectione et quae
+                                sint necessaria in refectione</title>
+                        </head>
+
+                        <rubric locus="76r">Sermo factus super illuminacione, etc.</rubric>
+                        <incipit locus="76r">Orate domini fratres ut misterio</incipit>
+                    </msItem>
+
+
+                    <msItem n="6" locusStart="79v" locusEnd="83v">
+                        <head type="CCC">
+                            <name type="author">Albertanus of Brescia</name>, <title>Sermo III</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sermo habitus inter fratres minores et causidicos Brixienses</title>
+                        </head>
+
+                        <rubric locus="79v">Incipit sermo secundus quem <name type="author">Albertanus</name>,
+                            etc.</rubric>
+                        <incipit locus="79v">Fratres mei ad honorem dei</incipit>
+                    </msItem>
+
+
+                    <msItem n="7" locusStart="83v" locusEnd="87v">
+                        <head type="CCC">
+                            <name type="author">Albertanus of Brescia</name>, <title>Sermo IV</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sermo ad cognoscendum quae sint necessaria in convivio et quomodo debeamus
+                                intelligere super egenos et pauperes</title>
+                        </head>
+
+                        <rubric locus="83v">Sermo factus ad cognoscendum, etc.</rubric>
+                        <incipit locus="83v">Domine labia mea aperies</incipit>
+                    </msItem>
+
+
+                    <msItem n="8" locusStart="87v" locusEnd="89v">
+                        <head type="CCC">
+                            <name type="author">Albertanus of Brescia</name>, <title>Sermo V</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sermo habitus inter causidicos Brixienses apud fratres minores super doctrina timoris
+                                Domini</title>
+                        </head>
+
+                        <rubric locus="87v">Hic est sermo quem <name type="author">Albertanus Causidicus</name>,
+                            etc.</rubric>
+                        <incipit locus="87v">Rogate deum fratres ut ministerio</incipit>
+                    </msItem>
+
+
+                    <msItem n="9" locusStart="89v" locusEnd="92v">
+                        <head type="CCC">
+                            <name type="author">Peter Damian OSB</name>, <title>De omnibus ordinibus</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De omnibus ordinibus omnium hominum in hoc seculo viventium</title>
+                        </head>
+
+                        <rubric locus="89v">De omnibus ordinibus, etc.</rubric>
+                        <incipit locus="89v">Episcopi attendite dei uerba</incipit>
+                        <ab>Ends unfinished</ab>
+                        <explicit locus="90v">supra modum non habeat ulla fidelis anima</explicit>
+                        <ab><locus>91r</locus>-<locus>92v</locus> blank</ab>
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJM 20/03/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

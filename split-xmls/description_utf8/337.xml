@@ -1,0 +1,266 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC337">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>337</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>K. 14</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>119</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Defensor of Ligug&#233;, Liber scintillarum. Richard of Wetheringsett, Summa Qui
+                    bene praesunt. pseudo-Robert Grosseteste, Summa uitiorum</head>
+                <head type="James">Scintillarium, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">227</height>
+                        <width unit="mm">155</width>
+                    </measureGrp><measureGrp type="James">9 x 6</measureGrp>, <extent>ff. 3 + 207</extent>,
+                        <layout>double columns of 42 lines</layout>. Cent. <origDate>xiii</origDate>, <handNote>very
+                        probably in one hand throughout: very well written</handNote>.</p>
+                <p><label>Collation:</label>
+                    <collation>3 flyleaves, 1<num>10</num> 2<num>14</num> 3<num>14</num> (14 canc.) | 4<num>16</num>
+                            5<num>16</num> 6<num>18</num> | 7<num>12</num> 8<num>14</num> 9<num>12</num>-13<num>12</num>
+                            14<num>16</num> 15<num>12</num> 16<num>6</num></collation>.</p>
+                <p><label>2 fo.:</label>
+                    <secFol>ac timore</secFol>.</p>
+
+                <p function="Provenance">An erasure on f. <locus>iir</locus> at top: <q>Liber scintillarum secundum
+                            <name type="author">bedam</name> de uerbis ewangel ... cum aliis contentis<lb/><name
+                            type="person">Jo&#299;s (?) de Wyrcestre (?)</name> monachi ecclesie cant (?)</q>. The
+                    book is very probably from <name type="place">Christ Church, Canterbury</name>, but I do not find it
+                    in existing catalogues.</p>
+
+                <p function="Additions"><handNote>In the same hand</handNote>
+                    <supplied>(f. <locus>iir</locus>)</supplied>:<lb/>
+                    <q>Hec continentur in hoc uolumine et hoc ordine<lb/> Species vii peccatorum mortalium,<lb/> De
+                        institucione festi omnium sanctorum<lb/> Admonitio <name type="author">Augustini</name> ad
+                        legendam sacram scripturam.<lb/> Liber scintillarum secundum <name type="author"
+                        >bedam</name><lb/> Item tractatus qui bene presunt<lb/> Item tractatus de viciis capitalibus et
+                        eorum oppositis uirtutibus et aliis contentis.</q></p>
+
+
+
+                <p type="CCC">
+                    <foliation>ff. a + i-iii + 1-207 + b</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="enm">Latin and Middle English.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="iv" locusEnd="iv">
+
+
+
+                        <head type="Nasmith">
+                            <title>Quomodo apostoli obierunt</title>
+                        </head>
+
+                        <ab>On <locus locusNew="iv">ir</locus> with other notes:<lb/>
+                            <q><name type="person">Petrus</name>-Crucifixus pedes sursum capud deorsum.<lb/>
+                                <name type="person">Paulus</name>-Decollatus.<lb/>
+                                <name type="person">Andreas</name>-Crucifixus funis ligatus capud ad celum longam habens bar(bam).<lb/>
+                                <name type="person">Iacobus</name>-Decollatus.<lb/>
+                                <name type="person">Johannes</name>-In doleo missus.<lb/>
+                                <name type="person">Thomas</name>-Gladio confossus.<lb/>
+                                <name type="person">Jacobus minor</name>-Cum baculo percussus in capite.<lb/>
+                                <name type="person">Philippus</name>-Crucifixus capud ad celum cum quatuor clauis.<lb/>
+                                <name type="person">Bartholomeus</name>-Viuus excoriatus.<lb/>
+                                <name type="person">Matheus</name>-Transfixus per medium.<lb/>
+                                <name type="person">Simon</name>-Crucifixus cum quatuor clauis capud ad celum longam
+                                habens barbam.<lb/>
+                                <name type="person">Judas thadeus</name>-Cum gladio transfixus per medium.<lb/>
+                                <name type="person">Mathias</name>-In capite cum securi percussus.<lb/>
+                                <name type="person">Barnabas</name>-Flamma combustus.<lb/>
+                                <name type="person">Marchus</name>-Extra villam tractus.</q>
+                            <lb/>These are interesting, being evidently intended as guide to artists wishing to
+                            represent the deaths of the apostles</ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="iiir" locusEnd="iiiv">
+
+
+                        <head type="James">
+                            <title>Species septem peccatorum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Species septem peccatorum mortalium</title>
+                        </head>
+
+
+
+
+                        <ab>A series of questions for confessors</ab>
+                        <incipit locusNew="iiir">Superbisti. ita ut. aliquem irrideres uel iactares te habere quod non
+                            habuisti, etc.</incipit>
+                    </msItem>
+
+                    <msItem n="3" locusStart="1r" locusEnd="2r">
+
+
+                        <head type="CCC"><name type="author">pseudo-Augustine</name>, <title>Sermones ad fratres in
+                                eremo (sermo 56)</title></head>
+
+                        <head type="Nasmith">
+                            <title>Ammonitio <name type="author">Sancti Augustini</name>, qua ostenditur quam bonum sit
+                                lectionem divinam legere et quam sit nobis malum ab illa inquisitione desistere</title>
+                        </head>
+
+                        <rubric locusNew="1r">Incipit ammonitio <name type="author">augustini</name>, etc.</rubric>
+                        <ab>(<ref type="bibl" target="Migne 040"><supplied>P. L.</supplied> XL 1339</ref>)</ab>
+                        <incipit locusNew="1r">Propitio Christo fratres karissimi ita lectionem diuinam</incipit>
+                        <explicit locusNew="2r">stelle in perpetuas eternitates quod ipse prestare dignetur qui cum
+                            patre et spiritu Sancto uiuit et regnat</explicit>
+                    </msItem>
+
+                    <msItem n="4" locusStart="2r" locusEnd="37v">
+                        <head type="CCC"><name type="author">Defensor of Ligug&#233;</name>, <title>Liber
+                                scintillarum</title></head>
+                        <head type="Nasmith">
+                            <title>Liber scintillarum <name type="author">venerabilis Bedae</name> presbiteri diversarum
+                                scientiarum, ideo sic dictus quia scintillae valent ad parandum incendium, ita
+                                sententiae diversorum patrum hic collectae valent et utilissimae sunt ad accendendas
+                                mentes fidelium</title>
+                        </head>
+                        <rubric locus="2r">Libri subsequentis capitula</rubric>
+                        <rubric locus="2v">Incipit liber scintillarum <name type="author">venerabilis Bede</name>,
+                            etc.</rubric>
+                        <ab>(<ref type="bibl" target="Migne 088"><supplied>P. L.</supplied> LXXXVIII 597</ref>)</ab>
+                        <incipit locusNew="2v">Dominus dicit in euangelio Maiorem hac dilectionem</incipit>
+                        <explicit locusNew="37r">interior homo nutritur et pascitur</explicit>
+                        <rubric locusNew="37r">Explicit liber scintillarum</rubric>
+                        <ab>Paragraphs <handNote>in another hand</handNote></ab>
+                        <rubric locus="37r">Qualiter orationes debent terminari</rubric>
+                        <incipit locusNew="37r">Hec festa subscripta ex toto ferianda sunt per annum (secundum concilium
+                                <name type="place">Oxonie</name>)</incipit>
+                        <ab locusNew="37r">Translation of <name type="person">S. Thomas</name> has the name erased</ab>
+                        <ab locusNew="37r">Further notes on feasts and days of blood-letting</ab>
+                        <ab>f. <locus>37v</locus> blank</ab>
+                    </msItem>
+
+
+                    <msItem n="5" locusStart="38r" locusEnd="87v">
+                        <head type="CCC"><name type="author">Richard of Wetheringsett</name>, <title>Summa Qui bene
+                                praesunt</title></head>
+                        <head type="Nasmith">
+                            <title><name type="person">Gulielmi de Montibus</name> summula qui vocatur <q>qui bene
+                                    presunt</q></title>
+                        </head>
+                        <rubric locus="38r">Tractatus <name type="person">Magistri Willelmi de Montibus</name> quondam
+                            Cancellarij lincoln</rubric>
+                        <ab>(title added <origDate>xv</origDate>)</ab>
+                        <incipit locusNew="38r">Qui bene presunt presbiteri</incipit>
+                        <explicit locusNew="86v">hic ergo erit consummatus. Deo gratias</explicit>
+                        <rubric locusNew="86v">Explicit summula que uocatur qui bene presunt</rubric>
+                        <ab locus="87r">Later notes: <q>Dotes corporis glorificati</q>, Name of Jesus, etc.</ab>
+                        <ab><locus>87v</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="6" locusStart="88r" locusEnd="207v">
+                        <head type="CCC"><name type="author">pseudo-Robert Grosseteste</name>, <title>Summa
+                                uitiorum</title></head>
+                        <head type="Nasmith">
+                            <title>Liber alius scintillarum</title>
+                        </head>
+                        <rubric locus="88r">Incipit capitula libri Sintillarii</rubric>
+                        <ab>(about 80)</ab>
+                        <ab locusNew="88r">
+                            <lg>
+                                <l>De superbia</l>
+                                <l>...</l>
+                                <l>de diuersis rebus collectis</l>
+                            </lg>
+                        </ab>
+                        <ab>Text</ab>
+                        <incipit locusNew="88r">Superbia est elatio uitiosa que inferiorem despiciens</incipit>
+                        <ab>This is given by <ref type="bibl" target="Tanner 1748">Tanner</ref> as the incipit of <name
+                                type="person">Grosseteste</name>'s <hi rend="italic">Summa de vitiis</hi> (from <ref
+                                type="ms" target="CUL115">University Library Ll.1.15</ref>). It occurs in <ref type="ms"
+                                target="OBL410">Laud Misc. 544</ref> (8ff. only) ending: <q>reprehensibiles exhibet
+                                clericos</q>: followed by <hi rend="italic">Egredietur virga</hi> and other sermons</ab>
+
+                        <ab>At top of f. <locus>148r</locus> are some lines in English</ab>
+                        <ab locusNew="148r">
+                            <q>Wo so sit at te hale cuppe to kippe. ant ne his nout on haise mit te drie lippe. Ţe deuel
+                                sal in helle mit his soule wippe</q>
+                        </ab>
+                        <ab>The end of this tract is not clearly marked. It seems to disappear into miscellaneous
+                            questiones and sermons, with many exempla</ab>
+                        <ab>On f. <locus>169v</locus> is a heading</ab>
+                        <rubric locusNew="169v">Sermo de beata <name type="person">Maria Magdalene</name> secundum <name
+                                type="author">fratrem Walterum</name></rubric>
+                        <incipit locusNew="169v"><name type="place">Babylon</name> dilecta mea posita es michi in
+                            miraculum</incipit>
+                        <ab>From about <locus>186r</locus> the headings are alphabetical. <name type="person"
+                                >Adam</name>
+                            <supplied>(f. <locus>186r</locus>)</supplied> - Ignorancia <supplied>(f.
+                                <locus>200v</locus>)</supplied></ab>
+                        <ab>On f. <locus>201r</locus>
+                            <handNote>the hand changes</handNote> and we end with a series of stories mainly from the
+                                <hi rend="italic">Vitae Patrum</hi></ab>
+                        <ab locusNew="205v">On the last page the <q>merita visionis corporis Christi</q>
+                            <handNote>in another hand</handNote></ab>
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF, BA, CF 2nd</p>
+                            <p>msCheck: NJM 07.08.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

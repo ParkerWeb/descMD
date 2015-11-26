@@ -1,0 +1,181 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC505">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>505</idno>
+                    <altIdentifier type="Elbing">
+                        <idno>N. 7</idno>
+                    </altIdentifier>
+
+                </msIdentifier>
+                <head type="CCC">Spiritual and Medical Tracts. Bulgarus of Bologna, Commentarium in Digestorum 'De
+                    diuersis regulis iuris antiqui'</head>
+                <head type="James">[Untitled]</head>
+                <p function="Codicology"><material>Paper and vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">295</height>
+                        <width unit="mm">197</width>
+                    </measureGrp>, <measureGrp type="James">11.4 x 7.9</measureGrp>, <extent>ff. 92 + 39</extent>,
+                        <layout>two volumes</layout>. Cent. <origDate>xiv? and xiii</origDate>.</p>
+                <p function="Multivolume"><lb/><label>Volume I</label>. <material>paper</material>, <layout>52, etc.
+                        lines to a page</layout>.<lb/>
+                    <label>Volume II</label>. <material>vellum</material>, <layout>double columns of 52 lines</layout>,
+                        <handNote>in several hands</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <lb/><label>Volume I:</label>
+                    <collation>1<num>10</num> (10 mut.) 2<num>10</num> 3<num>12</num> 4<num>12</num> 5<num>10</num>
+                            6<num>12</num> 7<num>12</num> 8<num>14</num></collation>.<lb/>
+                    <label>Volume II:</label>
+                    <collation>i<num>8</num> (wants 5, 6) ii<num>8</num> (8 canc.) iii<num>8</num> iv (two) gap ||
+                            v<num>8</num> vi<num>8</num></collation>.</p>
+
+                <p function="Provenance"><name type="person">Mary Pernham</name> on f. <locus>2v</locus>.</p>
+                <p function="Additions">Old binding, red skin over boards, old label &#183;121&#183; Bosses. Two
+                    metal tags at bottom of first cover, remains of two metal staples at bottom of second cover,
+                    straps.</p>
+                <p function="Additions">Covers lined with service-book (<origDate>xiv</origDate>) and grammatical verses
+                        (<origDate>xiii</origDate>, <origDate>xiv</origDate>).</p>
+                <p type="CCC">
+                    <foliation>ff. a-e (loose material) + i + 1-131</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="ger">Latin and German.</textLang>
+
+                    <label>Contents</label>
+
+
+                    <milestone n="I" unit="volume"/>
+                    <msItem n="1" locusStart="2v" locusEnd="92v">
+                        <head type="CCC">
+                            <name type="author">Heinrich of Herford</name>, <title>Catena aurea</title>
+                        </head>
+                        <ab>Title partly cut</ab>
+                        <rubric locus="1r" locusNew="2v">Incipit (ansa) prima cathene auree uel probleumata et primo de
+                            anima et potenciis eius</rubric>
+                        <incipit locusNew="2v">Cur anima hominis per creacionem est producta</incipit>
+                        <ab>f. <locus>10r</locus>-<locus>10v</locus> mut.: a second division appears to begin on f.
+                                <locus>10v</locus></ab>
+                        <ab locus="15r">Ansa III. Some German rubrics occur</ab>
+                        <ab locus="22r"><supplied>Ansa</supplied> IV. Tract. de q causis Bertoldi</ab>
+                        <ab>After the 7th ansa the divisions cease to be marked, and after f. <locus locusNew="63r"
+                                >62v</locus> even initials are not put in</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="92v">queque post (?) futura sunt seculorum seculis Benedictus in omnia
+                            seculorum secula amen</explicit>
+                        <ab locus="92v">A charm against fire in a house, containing the names of the four
+                            archangels</ab>
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+                    <msItem n="2" locusStart="93r" locusEnd="98v">
+                        <head type="CCC">
+                            <name type="author">Johannes Mesue (Masawaih al-Mardini)</name>, <title>De consolatione
+                                medicinarum simplicium (De simplicibus medicinis)</title>
+                        </head>
+                        <rubric locus="1r" locusNew="93r">Incipit liber <name type="author">hebemesuhe</name> de
+                            simplicibus medicinis</rubric>
+                        <incipit locusNew="93r">In nomine dei misericordis cuius tuitu sermo recipit gratiam</incipit>
+                        <incipit locusNew="93r">Quatuor intencionum aggregabimus sermonem</incipit>
+                        <ab>Apparently one quire only: six leaves remain</ab>
+                    </msItem>
+
+                    <msItem n="3" locusStart="99r" locusEnd="115v">
+                        <head type="CCC">
+                            <title>Antidotarium <name type="person">Nicholai</name> (incomplete)</title>
+                        </head>
+                        <ab locus="7r" locusNew="99r">Part of an antidotary</ab>
+                        <ab><handNote>Change of hand</handNote> (and perhaps of treatise) at f. <locus locusNew="106r"
+                                >14r</locus></ab>
+                        <ab>ff. <locus locusNew="106r">14r</locus>-<locus locusNew="115v">23v</locus> are also an
+                            antidotary, <handNote>all in one hand</handNote></ab>
+                        <ab>Ending</ab>
+                        <explicit locus="23v" locusNew="115v">ex humore grosso et indurato</explicit>
+                        <rubric locusNew="115v">Explicit sententia antidotarii <name type="person">magistri
+                                Nicholaij</name> secundum <name type="person">auicennam</name> et <name type="person"
+                                >macrum</name></rubric>
+                    </msItem>
+
+                    <msItem n="4" locusStart="116r" locusEnd="130r">
+                        <head type="CCC">
+                            <name type="author">Bulgarus of Bologna</name>, <title>Commentarium in Digestorum 'De
+                                diuersis regulis iuris antiqui'</title>
+                        </head>
+                        <ab locus="24r" locusNew="116r">Civil Law <handNote>in a fine hand, probably Italian</handNote>,
+                            of cent. <origDate>xiii</origDate>. Text in large script followed by gloss in smaller
+                            script</ab>
+                        <ab>Gloss</ab>
+                        <incipit locusNew="116r">Regula est breuis rerum narratio</incipit>
+                        <ab>Text</ab>
+                        <incipit locusNew="116r">Paulus. Regula est que rem que est breuiter enarrat</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="38r" locusNew="130r">Paulus l'. lxviiii. seruus rei l. causa abesse non
+                            potest</explicit>
+                        <ab>On <locus locusNew="130v">38v</locus>, <locus locusNew="131r">39r</locus> a list
+                            alphabetical of subjects of which the entries down to Cautio are erased</ab>
+                        <ab>Ends</ab>
+                        <explicit locusNew="131r">
+                            <lg>
+                                <l>Utilitas.</l>
+                                <l>Christianus</l>
+                            </lg>
+                        </explicit>
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 17/12/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

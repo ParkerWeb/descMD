@@ -1,0 +1,213 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC465">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>465</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>N. 36</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>200</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Ordinal of Norwich</head>
+                <head type="James">Consuetudines Norwicenses</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">167</height>
+                        <width unit="mm">110</width>
+                    </measureGrp>, <measureGrp type="James">6.5 x 4.5</measureGrp>, <extent>ff. 1 + 162</extent>,
+                        <layout>25-26 lines to a page</layout>. Cent. <origDate>xiv early</origDate>, <handNote>very
+                        well written, with additions of cent.<date> xiv</date></handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num> 2<num>12</num>-4<num>12</num> (10 canc.) 5<num>12</num> (8
+                        canc.) 6<num>12</num>-14<num>12</num></collation>.</p>
+
+                <p function="Provenance">From Norwich Priory. On f. <locus>ir</locus> and <locus>iv</locus> the mark J.
+                    III: also Ordinale fratris <name type="person">R. de Lok</name>.</p>
+
+                <p function="Additions"><name type="person">Blomefield</name>'s mark <figure xml:id="figure396b"/> is on
+                    f. <locus>ir</locus>. On f. <locus>ir</locus> two notes (<origDate>xiv late</origDate>): <lb/> a.
+                    Item quando homini religioso (?) imponitur silence ... <lb/> b. A. d. <date>m<abbr
+                            rend="superscript">o</abbr> ccc<abbr rend="superscript">o</abbr> lxx<abbr rend="superscript"
+                            >o</abbr></date> per N. priorem ordinatum fuit ... quod ... non ibunt in villam nisi cum
+                    capis, etc.<lb/> On f. <locus locusNew="iv">iiv</locus> some dicta and verses. It is part of a waste
+                    leaf: the writing runs vertically. <lb/>On f. <locus>1r</locus> notes for Holy Week.<lb/> On ff.
+                        <locus>1v</locus><supplied>-<locus>2v</locus></supplied> are supplementary orders like those on
+                    f. <locus>ir</locus> and <handNote>mostly in the same hand</handNote>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i + 1-162 + c-d</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1.1" locusStart="3r" locusEnd="8v">
+                        <head type="CCC">
+                            <title>Kalendar of Norwich</title>
+                        </head>
+
+                        <ab locus="3r">Kalendar <decoNote>in red and black</decoNote></ab>
+                        <ab locusNew="3v">
+                            <hi rend="bold">February </hi><lb/> 19 Obiit <name type="person">Nicholas prior</name></ab>
+
+                        <ab locusNew="4r">
+                            <hi rend="bold">March</hi><lb/> 16 Obiit <name type="person">Mabilie de Lakenham</name><lb/>
+                            24 Passio <name type="person">Sancti Willelmi Martyris</name></ab>
+
+
+                        <ab locusNew="5r">
+                            <hi rend="bold">May</hi><lb/> 20 <name type="person">Ethelberti Regis et Martyris</name>
+                        </ab>
+
+
+                        <ab locusNew="5v">
+                            <hi rend="bold">June</hi><lb/> 17 <name type="person">Botulphi</name>
+                            <decoNote>red</decoNote>
+                            <lb/> 23 <name type="person">Etheldrede</name>
+                        </ab>
+
+
+                        <ab locusNew="6r">
+                            <hi rend="bold">July</hi><lb/> 31 <name type="person">Neoti Abbatis</name>
+                            <name type="person">Germani Episcopi</name>
+                            <decoNote>red</decoNote>
+                        </ab>
+
+
+                        <ab locusNew="6v">
+                            <hi rend="bold">August</hi><lb/> 11 <name type="person">Taurini Episcopi</name>
+                            <decoNote>red</decoNote><lb/> 16 Obiit <name type="person">Thomas Episcopus</name></ab>
+
+
+                        <ab locusNew="7r">
+                            <hi rend="bold">September</hi><lb/> 16 Translacio Reliquiarum <decoNote>red</decoNote>.
+                                <name type="person">Pandulfus Episcopi</name><lb/> 24 Dedicatio <name type="place"
+                                >ecclesiae Norwyc</name>. <decoNote>red</decoNote>, with octave</ab>
+
+
+                        <ab locusNew="7v">
+                            <hi rend="bold">October</hi><lb/> 6 <name type="person">Fidis Virginis</name>,
+                                <decoNote>red</decoNote><lb/> 7 <name type="person">Oside Virginis Martyris</name><lb/>
+                            12 <name type="person">Eborard Episcopus</name><lb/> 17 Translatio <name type="person"
+                                >Sancte Etheldrede</name>, <decoNote>red</decoNote><lb/> 18 <name type="person">Iohannes
+                                Episcopus</name><lb/> 21 Obiit <name type="person">henricus de lakenham prior
+                                Norwyci</name><lb/> 22 <name type="person">Elyas prior</name>
+                        </ab>
+
+
+                        <ab locusNew="8r">
+                            <hi rend="bold">Nov</hi><lb/> Both <name type="person">Edmunds</name> in
+                                <decoNote>red</decoNote></ab>
+
+
+                        <ab locusNew="8v">
+                            <hi rend="bold">December</hi><lb/> 16 Antiphoni quomodo fiet</ab>
+
+                    </msItem>
+
+                    <msItem n="1.2" locusStart="9r" locusEnd="162v">
+                        <head type="CCC">
+                            <title>Customary of Norwich</title>
+                        </head>
+
+                        <rubric locus="9r">Incipiunt consuetudines <name type="place">ecclesie Norwyc</name>. per
+                            annum</rubric>
+
+                        <incipit locusNew="9r">Sabbato aduentus domini</incipit>
+
+                        <rubric locusNew="131r">Incipit ordo lectionum ad prandium per totum annum</rubric>
+
+                        <rubric locus="132r">De lectione ad collacionem</rubric>
+                        <rubric locusNew="132r">Ad mandatum</rubric>
+
+                        <rubric locus="133r">De prephationibus</rubric>
+                        <incipit locusNew="134r">Quibus diebus dicatur Credo</incipit>
+
+                        <rubric locus="134r">De commemoratione <name type="person">Sancte Marie</name> per totum
+                            annum</rubric>
+
+                        <rubric locus="136v">De processi(oni)bus in ecclesia ad vesperas et ad matinas</rubric>
+
+                        <rubric locus="138r">Incipit ordo processionum claustralium dominicis diebus</rubric>
+
+                        <ab locus="146v">Of responses, of incense, etc., ending with</ab>
+                        <rubric locusNew="146v">De presente defuncto, etc.</rubric>
+
+                        <rubric locusNew="147v">De necgligentia corporis et sanguinis domini nostri Ihesu
+                            Christi</rubric>
+
+                        <rubric locus="151v">Officium ad professionem faciendam</rubric>
+
+                        <ab locus="152v">Versiculi. Benedictiones. Antiphons</ab>
+
+                        <ab>In smaller hands</ab>
+                        <rubric locus="159v">Obseruancie in sepultura monachi </rubric>
+
+                        <ab locusNew="160v">Miscellaneous supplementary ordinances (<date>1351</date>, <date>1379</date>
+                            are named)</ab>
+
+
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: NJC 31/10/2008</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,250 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC333">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>333</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>T. 8</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>290-1</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Berengarius Fredoli, Tractatus de excommunicatione. Bonagratia de Bergamo, Casus
+                    papales et episcopales. Roger Conway OFM, Defensio religionis mendicantium. Hermannus de Saxonia,
+                    Casus abstracti a iure</head>
+                <head type="James">Berengarii summa, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">226</height>
+                        <width unit="mm">149</width>
+                    </measureGrp>, <measureGrp type="James">8.7 x 6</measureGrp>, <extent>ff. 6 + 68 + 108 + 4</extent>,
+                        <layout>24 and 30 lines to a page</layout>. Cent. <origDate>xiv late</origDate>, <handNote>in
+                        several hands</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>6</num>, 1<num>12</num>-5<num>12</num> 6<num>8</num> |
+                            7<num>12</num>-15<num>12</num> | 16<num>4</num></collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>in partes</secFol>.</p>
+
+                <p>The first six leaves (numbered 1-5) blank except for notes and list of <hi rend="italic"
+                    >casus</hi>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-32 (33 missing) + 34-40 (41 missing) + 42-48 (49 missing) + 50-127 + 127a +
+                        128-166 + 166a + 167-182 (183 missing) + 184-187 + iii-iv</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="6r" locusEnd="65r">
+                        <head type="CCC"><name type="author">Berengarius Fredoli</name>, <title>Tractatus de
+                                excommunicatione</title></head>
+                        <head type="Nasmith">
+                            <title>Summa domini <name type="author">Berengarii</name> cardinalis, magni penitentiarii
+                                domini papae, de omnibus casibus juris, in quibus quis est excommunicatus ipso
+                                facto</title>
+                        </head>
+
+                        <ab>
+                            <decoNote>Cardinal's hat in red at the top</decoNote>
+                        </ab>
+
+                        <rubric locus="6r">Incipit summa domini <name type="author">Berengarii</name> Cardinalis magni
+                            penitenciarij domini pape de omnibus casibus iuris in quibus quis est excommunicatus ipso
+                            facto</rubric>
+
+                        <incipit locusNew="6r">Quoniam excommunicatos non vitare tam communicantibus quam excommunicatis
+                            periculosum existit</incipit>
+
+                        <ab>Ends with Reconciliacio apostate a fide</ab>
+
+                        <explicit locusNew="65r">ut in nomine domini nostri Ihesu Christi signo crucis signetur in vitam
+                            eternam. Amen</explicit>
+
+                        <rubric locusNew="65r">Explicit extractus casuum iuris per dominum Berengarium Cardinalem magnum
+                            penitenciarium domini pape</rubric>
+
+                        <ab>The author was <name type="author">Berenger Fredol</name>, Bishop of Beziers</ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="65v" locusEnd="76v">
+                        <head type="CCC"><name type="author">Bonagratia de Bergamo</name>, <title>Casus papales et
+                                episcopales cum explanatione praedictorum</title></head>
+                        <head type="Nasmith">
+                            <title>Tractatus <name type="author">fratris de Bona Gratia</name> de eadem re, cui
+                                annectuntur casus episcopis reservati et penitentiae in confessione injungendae</title>
+                        </head>
+
+                        <rubric locus="65v">Tractatus <name type="author">ffratris de Bona gratia</name></rubric>
+                        <incipit locusNew="65v">Religiosi absoluentes ubi non possunt non semper incurrunt
+                            excommunicacionis sentenciam </incipit>
+                        <explicit locusNew="69v">in apparatu super 7<abbr rend="superscript">m</abbr> librum de
+                            priuilegiis ubi agitur de casubus a iure expressis</explicit>
+                        <rubric locusNew="69v">Explicit</rubric>
+                        <rubric locus="69v">Sequuntur hic casus reseruati episcopis secundum <name type="author"
+                                >Hostiensem</name></rubric>
+                        <incipit locusNew="69v">In summa libro 5<abbr rend="superscript">o</abbr> Rubrica de penitenciis
+                            et remissionibus</incipit>
+                        <rubric locus="70v">Casus episcopales secundum <name type="author">Willelmum Durandi</name> in
+                            repostorio iuris</rubric>
+                        <rubric locus="72v">Penitencie taxate per iura iniungende in confessione</rubric>
+                        <ab>ff. <locus>74r</locus>-<locus>76v</locus> blank</ab>
+
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+
+                    <msItem n="3" locusStart="77r" locusEnd="123v">
+                        <head type="CCC"><name type="author">Roger Conway OFM</name>, <title>Defensio religionis
+                                mendicantium (De confessionibus contra <name type="person"
+                            >Armachanum</name>)</title></head>
+                        <head type="Nasmith">
+                            <title>Frater <name type="author">Rogerus de Conway</name> contra <name type="person"
+                                    >Armachanum</name></title>
+                        </head>
+
+                        <ab>
+                            <handNote>A smaller hand</handNote>
+                        </ab>
+                        <incipit locus="77r">Confessio et pulcritudo in conspectu eius, etc.</incipit>
+                        <ab>
+                            <decoNote>A nice initial in gold, blue ground: a Franciscan friar in skull cap seated with
+                                open book on desk, facing R. </decoNote>
+                        </ab>
+
+                        <explicit locusNew="123v">ab omni iudiciorum limine repellatis precludendo aditum sibi et aliis
+                            similia perpetrandi</explicit>
+
+                        <rubric locusNew="123v">Explicit libellus ffratris <name type="author">Rogeri de Conewaye</name>
+                            iudicialiter datus dominis cardinalibus contra dominum <name type="person">Armachanum
+                                Episcopum</name> et ad suum libellum responsiuus</rubric>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="123v" locusEnd="126r">
+
+                        <head type="Nasmith">
+                            <title>Bullae papales de licentia concedenda fratribus ordinis minorum audiendi
+                                confessiones</title>
+                        </head>
+
+                        <ab>Extracts from decretals</ab>
+                        <ab>a.</ab>
+                        <rubric locusNew="123v">Omnis utriusque sexus fidelis</rubric>
+                        <ab>(in quinto decretalium)</ab>
+                        <ab>b.</ab>
+                        <rubric locusNew="123v">Dudum <name type="person">bonefacius 8<abbr rend="superscript"
+                                >us</abbr></name></rubric>
+                        <ab>c.</ab>
+                        <rubric locus="124v"><name type="person">Innocencius</name>. Tenorem quarundam literarum ...
+                                <name type="person">Johannis pape xxii</name></rubric>
+                        <ab>(to <name type="person">Roger of Conway</name>: anno pontifico septimo)</ab>
+
+                    </msItem>
+
+                    <msItem n="5" locusStart="126r" locusEnd="135v">
+                        <head type="CCC"><name type="author">Hermannus de Saxonia</name>, <title>Casus abstracti a
+                                iure</title></head>
+                        <head type="Nasmith">
+                            <title>Casus abstracti a jure per fratrem et magistrum <name type="author">Hermannum</name>
+                                de provincia Saxoniae per capitulum generale apud Saturium examinati et
+                                approbati</title>
+                        </head>
+
+                        <rubric locusNew="126r">Sequitur tractatus alius <name type="author">magistri Hermanni</name> de
+                            ordine ffratrum minorum</rubric>
+
+                        <incipit locusNew="126r">Terminos posuisti quem non transgredientur in ps<abbr
+                                rend="superscript">o</abbr> vna illa inmaculata columba</incipit>
+                        <explicit locusNew="135v">premissis uel alicui premissorum contrarie</explicit>
+                        <rubric locusNew="135v">Explicit casus abstracti a iure per ffratrem et magistrum <name
+                                type="author">Hermannum</name> de prouincia saxonie per capitulum generale apud Saturium
+                            examinati et approbati</rubric>
+
+                    </msItem>
+
+                    <msItem n="6" locusStart="136r" locusEnd="182v">
+
+                        <head type="Nasmith">
+                            <title>Tractatus alius de casibus excommunicationis</title>
+                        </head>
+
+                        <ab>No title. <decoNote>Border in blue and red</decoNote></ab>
+                        <incipit locusNew="136r">Quoniam sub penam excommunicacionis late cuius absolucio sedi
+                            apostolice reseruatur interdictum est religiosis ne excommunicatos a canone preter quam in
+                            casibus a iure ... expressis ... absoluere presumant</incipit>
+                        <explicit locusNew="136r">notanda est compilatio infra scripta que in 14 particulas est
+                            distincta</explicit>
+                        <ab>Subjects of the 14 parts</ab>
+                        <ab>Text</ab>
+                        <incipit locus="136v">Excommunicacionem incurrit qui se gerit pro apostolico</incipit>
+                        <ab>Unfinished, ending in the eleventh part (out of 14), on <locus locusNew="182v"
+                            >183v</locus></ab>
+                        <ab>The following 4 leaves are ruled but blank</ab>
+
+
+                    </msItem>
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJC 29.05.2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

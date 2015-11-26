@@ -1,0 +1,673 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC459">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>459</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>N. 14</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>178</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Miscellaneous Moral, Penitential and Theological Treatises and Sermons</head>
+                <head type="James">Lotharius, Basilius, Miscellanea</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">162</height>
+                        <width unit="mm">112</width>
+                    </measureGrp>, <measureGrp type="James">6.5 x 4</measureGrp>, <extent>ff. 3 + 159</extent>,
+                        <layout>29-33 lines to a page</layout>. Cent. <origDate>xiii</origDate>, <handNote>in several
+                        very good hands</handNote>. </p>
+
+
+
+                <p><label>Collation:</label>
+                    <collation>3 flyleaves, 1<num>10</num> 2<num>12</num> 3<num>10</num> 4<num>10</num> 5<num>12</num>
+                            6<num>10</num>-8<num>10</num> 9<num>14</num> 10<num>10</num>-12<num>10</num> 13<num>12</num>
+                            14<num>10</num> (one canc.) 15<num>12</num> (wants 9 and 12 (?))</collation>.</p>
+                <p><label>2 fo.:</label>
+                    <secFol>dinis sine fetore</secFol>.</p>
+
+                <p function="Provenance">The presence of the sermon by <name type="author">Wadi<supplied
+                            agent="JamesCorrigenda">n</supplied>gham</name>, and the name of a Bishop of Lincoln,
+                    suggest <name type="place">Lincoln</name> as the district whence the book comes.</p>
+                <p function="Additions">On f. <locus>ir</locus>-<locus>iv</locus> scribbles. On f. <locus>ir</locus> in
+                    large letters : Ro Net.</p>
+                <p function="Additions">On f. <locus>iir</locus> (<origDate>xv early</origDate>):<lb/> Emanuel<lb/> Quem
+                    retinent stille non est bonus armiger ille<lb/> Ecce ve crux et auis elige que tibi mauis<lb/>
+                    Utrimcque pena grauis sed mulier pessima quavis<lb/> and pen-trials.</p>
+                <p function="Additions">f. <locus>iiv</locus> blank.</p>
+                <p function="Additions">On f. <locus>iiir</locus> capitula to no. 1 <handNote>in a hand of cent.
+                            <origDate>xiv early</origDate></handNote>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-iii + 1-158 + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="eng">Latin and English.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="22v">
+                        <head type="CCC">
+                            <name type="author">Innocent III (Lotharius de Segnis)</name>, <title>De miseria humanae
+                                conditionis</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Liber de miseria humanae conditionis editus a <name type="author">Lothario</name>
+                                diacono cardinali S. S. <name type="person">Sergii</name> et <name type="person"
+                                    >Bachi</name>, et postea <name type="person">Innocentius</name> papa tertius
+                                appellatus est</title>
+                        </head>
+                        <rubric locusNew="1r">Incipit liber de miseria humane condicionis, etc. (as Nasmith)</rubric>
+                        <incipit locusNew="1r">Domino patri karissimo P. portuensi episcopo <name type="author"
+                                >lotharius</name>, etc.</incipit>
+                        <incipit locusNew="1r">Quare de uulua matris egressus sum</incipit>
+                        <ab>(<ref type="bibl" target="Migne 217"><supplied>P. L.</supplied> CCXVII 701</ref>)</ab>
+                        <explicit locusNew="22v">ignis ardens in secula seculorum. Amen</explicit>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="23r" locusEnd="30v">
+                        <head type="CCC">
+                            <name type="author">Basil of Caesarea</name>, <title>Regula</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Regula beati <name type="author">Basilii</name> episcopi Capadociae</title>
+                        </head>
+                        <ab>
+                            <handNote>Change of hand</handNote>
+                        </ab>
+                        <rubric locus="23r">Incipit regula beati <name type="author">Basilii</name> episcopi
+                            capadocie</rubric>
+                        <ab>(<ref type="bibl" target="Migne 103"><supplied>P. L.</supplied> CIII 684</ref>)</ab>
+                        <incipit locusNew="23r">Audi fili ammonitionem patris tui</incipit>
+                        <explicit locusNew="23r">omnis aduersitas anime</explicit>
+                        <rubric locusNew="23r">Explicit prologus</rubric>
+                        <rubric locusNew="23r">Incipit capitulum primum</rubric>
+                        <incipit locusNew="23r">Si ergo cupis fili militare domino</incipit>
+                        <explicit locusNew="30v">que preparauit deus diligentibus se</explicit>
+                        <ab>Note from <name type="author">Anselm</name></ab>
+                        <incipit locus="30v">Qui presidet in religione</incipit>
+                        <explicit locusNew="30v">in dormitorio corporis impigra refectio</explicit>
+                    </msItem>
+
+                    <msItem n="3" locusStart="30v" locusEnd="36v">
+                        <head type="CCC">
+                            <name type="author">Robert Grosseteste</name>, <title>De confessione (sermo 15)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Tractatus de confessione</title>
+                        </head>
+                        <head type="James">
+                            <title>On Confessors, by <name type="author">Grosseteste</name></title>
+                        </head>
+                        <incipit locusNew="30v">Quoniam cogitatio hominis confitebitur tibi. Confitendum est</incipit>
+                        <explicit locusNew="36v">alicuius talis uicarii copiam et confitendi potentiam</explicit>
+                        <rubric locusNew="36v">Explicit</rubric>
+                        <ab>Cf. <ref type="ms" target="OLC056">Lincoln Coll. Oxf. MSS. Lat. 56, 105</ref></ab>
+                    </msItem>
+
+                    <msItem n="4.1" locusStart="36v" locusEnd="37r">
+                        <head type="CCC">
+                            <name type="author">William de Montibus</name>, <title>Quomodo religiosi monendi sunt ad
+                                confitendum (De poenitentia religiosorum)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Tractatus de penitentia religiosis injungenda</title>
+                        </head>
+                        <ab>
+                            <hi rend="bold">a.</hi>
+                        </ab>
+                        <incipit locus="36v">Petisti amice ut tibi aliquod scribendo traderem compendium quo scire
+                            posses quo modo uiri religiosi ammonendi sunt ad confitendum ... breuiter dicere
+                            temptabo</incipit>
+                        <incipit locusNew="36v">Prelatus ergo siue qui uicem eius optinet</incipit>
+                        <explicit locusNew="37r">grauiorem et prolixiorem penitentiam iniungi <supplied agent="NJM"
+                                >(sicut)</supplied></explicit>
+                        <ab>It seems unfinished</ab>
+                    </msItem>
+
+                    <msItem n="4.2" locusStart="37r" locusEnd="38r">
+                        <head type="CCC">
+                            <title>Tractatus de poenitentia de septem chordis</title>
+                        </head>
+                        <ab>
+                            <hi rend="bold">b.</hi>
+                        </ab>
+                        <incipit locusNew="37r">Qui est ex deo verba dei audit. Audiant uerba mea quoniam
+                            potuerunt</incipit>
+                        <ab>Treats de septem chordis</ab>
+                        <explicit locusNew="38r">ad uerbum uite peruenire. quod nobis concedat qui uiuit et regnat per
+                            omnia secula seculorum. Amen</explicit>
+                    </msItem>
+
+                    <msItem n="4.3" locusStart="38r" locusEnd="43v">
+                        <head type="CCC">
+                            <title>Tractatus de poenitentia de resurrectione</title>
+                        </head>
+                        <ab>
+                            <hi rend="bold">c.</hi>
+                        </ab>
+                        <incipit locusNew="38r">Si habes brachium sicut deus. et si uoce simili tonas</incipit>
+                        <ab>(On the resurrection)</ab>
+                        <explicit locusNew="43v">et carnis speciositatem in generali resurrectione. quod nobis prestare
+                            dignetur qui uiuit et regnat per omnia secula seculorum. Amen</explicit>
+                        <ab>
+                            <hi rend="bold">d.</hi>
+                        </ab>
+                        <ab>Notes in a later hand</ab>
+                        <ab locusNew="43v">Tres sunt uirtutes sathane, etc.</ab>
+                    </msItem>
+
+                    <msItem n="5" locusStart="44r" locusEnd="53r">
+                        <head type="CCC">
+                            <name type="author">Thomas of Woburn OCist</name>, <title>Solacium animae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Solatium animae</title>
+                        </head>
+                        <rubric locus="44r">Solatium anime</rubric>
+                        <rubric locusNew="44r">Salutes cuiusdam sapientis</rubric>
+                        <incipit locusNew="44r">Meo me totum. Nichil dixi et totum dixi</incipit>
+                        <explicit locusNew="53r">adhuc habeo multa tibi dicere perfectiora et uiciniora saluti. Val
+                            t.</explicit>
+                        <ab>Notes</ab>
+                        <ab locus="53r">de decem preceptis</ab>
+                        <rubric locusNew="53r">de frui et uti</rubric>
+                    </msItem>
+
+                    <msItem n="6" locusStart="53v" locusEnd="54r">
+                        <head type="CCC">
+                            <name type="author">pseudo-Bernard of Clairvaux OCist</name>, <title>De periculo
+                                temptationis</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Bernardus</name> de periculo temptationis</title>
+                        </head>
+                        <rubric locus="53v"><name type="author">Bernardus</name> de periculo temptationis</rubric>
+                        <incipit locusNew="53v">Dinam attende. si domi sedesset</incipit>
+                        <explicit locusNew="54r">requiem summam tenet</explicit>
+                    </msItem>
+
+                    <msItem n="7" locusStart="54v" locusEnd="74v">
+                        <head type="CCC">
+                            <name type="author">pseudo-Augustine</name>, <title>De spiritu et anima</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Augustinus</name> de spiritu et anima</title>
+                        </head>
+                        <head type="James">
+                            <title><name type="author">Augustine</name> de spiritu et anima</title>
+                        </head>
+                        <ab><handNote>Later hand</handNote>: extract from <name type="author">Augustinus</name> ad <name
+                                type="person">Jeronimam</name> de origine anime</ab>
+
+                        <ab locus="55r">
+                            <handNote>Not in the hand of nos. 2 sqq.</handNote>
+                        </ab>
+                        <incipit locusNew="55r">Igitur querendum quid sit animus</incipit>
+                        <ab>(<ref type="bibl" target="Migne 040"><supplied>P. L.</supplied> XL 779</ref>)</ab>
+                        <ab locus="55v">Prologus</ab>
+                        <explicit locusNew="71r">aliud non sit quam ratio</explicit>
+                        <rubric locusNew="71r">(Explicit liber <name type="author">Augustinus</name> de spiritu et
+                            anima)</rubric>
+                        <ab locusNew="71r">Further notes de anima</ab>
+                        <incipit locus="71r">Anima est tanquam principium animalium </incipit>
+                        <ab locus="72v">Later note on Gehenna</ab>
+                        <ab>Sermons (<origDate>xiii-xiv</origDate>)</ab>
+                        <incipit locusNew="73r">Ecce sacerdos magnus ... Iste sanctus fuit sacerdos</incipit>
+                        <ab>Miscellaneous notes on the ten pieces of silver, Abraham, Apostles' Creed, etc.</ab>
+                    </msItem>
+
+                    <msItem n="8" locusStart="75r" locusEnd="81r">
+                        <head type="CCC">
+                            <name type="author">Richard the Premonstratensian</name>, <title>De canone missae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Summa Mag. <name type="author">Ioannis Cornubiensis</name> qualiter fiat sacramentum
+                                altaris per virtutem sanctae crucis, et de VII canonibus vel ordinibus missae</title>
+                        </head>
+                        <ab>
+                            <handNote>Hand of no. 2, etc.</handNote>
+                        </ab>
+                        <rubric locus="75r">Summa magistri <name type="author">Johannis cornubiensis</name></rubric>
+                        <ab>(as Nasmith)</ab>
+                        <ab>(<ref type="bibl" target="Migne 177"><supplied>P. L.</supplied> CLXXVII 455</ref>)</ab>
+                        <incipit locusNew="75r">In uirtute sancte crucis et sacramento altaris magna est
+                            conueniencia</incipit>
+                        <explicit locusNew="81r">in duabus primis est conueniencia. In tercio uero
+                            differentia</explicit>
+                        <rubric locusNew="81r">Explicit</rubric>
+                        <ab>This copy is mentioned by <ref type="bibl" target="Tanner 1748">Tanner</ref></ab>
+                        <ab locus="81r">Notes on effusio sanguinis and petitio</ab>
+                    </msItem>
+
+                    <msItem n="9" locusStart="81r" locusEnd="84v">
+                        <head type="CCC">
+                            <name type="author">Nicholas of Waddingham</name>, <title>Sermon</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sermo Mag. <name type="author">Nich. de Wadingham</name> cancellarii Lincoln</title>
+                        </head>
+                        <rubric locus="81r">Sermo magistri <name type="author">Nich. de Wadingham</name>. Cancell.
+                            Lincoln</rubric>
+                        <incipit locusNew="81v">Ecce elongaui fugiens. ut dicit iob. Milicia est uita hominis</incipit>
+                        <explicit locusNew="84v">ut sit sabbatum ex sabbato sicut dicit ysa. Ad quod nos perducat Ihesu
+                            Christe qui uiuit et regnat per omnia secula seculorum. Amen</explicit>
+                    </msItem>
+
+                    <msItem n="10" locusStart="84v" locusEnd="84v">
+                        <head type="CCC">
+                            <title>Expositiones apostolorum nominum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Expositiones apostolorum nominum</title>
+                        </head>
+                        <rubric locus="84v">Exposiciones apostolorum nominum</rubric>
+                        <ab locusNew="84v">Robur</ab>
+                        <ab locusNew="84v">Petrus- firmus syriae cephas grece<lb/>
+                            <name type="person">Andreas</name> uirilis ander .n. <abbr rend="superscript">uel
+                                robur</abbr> Rubur, etc. </ab>
+                        <ab>and other notes</ab>
+                    </msItem>
+
+                    <msItem n="11" locusStart="85r" locusEnd="85v">
+                        <head type="CCC">
+                            <title>De predestinatione</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De predestinatione</title>
+                        </head>
+                        <ab>
+                            <handNote>In another hand</handNote>
+                        </ab>
+                        <rubric locus="85r">Quid sit predestinatio et in quo differat a presencia (prescientia)</rubric>
+                        <incipit locusNew="85r">Predestinacio uero de bonis salutaribus est</incipit>
+                    </msItem>
+
+                    <msItem n="12" locusStart="86r" locusEnd="98r">
+                        <head type="CCC">
+                            <name type="author">Anselm of Canterbury OSB</name>, <title>De conceptu uirginali et de
+                                originali peccato</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Summa quaedam <name type="author">Anselmi</name> archiepiscopi de originali
+                                peccato</title>
+                        </head>
+                        <rubric locus="86r">Summa quedam <name type="author">anselmi</name> archiepiscopi de originali
+                            peccato</rubric>
+                        <ab locusNew="86r">Capitula</ab>
+                        <ab>Text</ab>
+                        <incipit locusNew="86r">Ad uidendum qualiter hominem assumpsit deus</incipit>
+                        <ab>(<ref type="bibl" target="Migne 158"><supplied>P. L.</supplied> CLVIII 433</ref>)</ab>
+                        <ab locus="98r">
+                            <handNote>The last paragraphs in another hand</handNote>
+                        </ab>
+                        <explicit locusNew="98r">probari poterit</explicit>
+                        <rubric locusNew="98r">Explicit</rubric>
+                        <ab locus="98r">Note on anima Christi</ab>
+                    </msItem>
+
+                    <msItem n="13" locusStart="98v" locusEnd="98v">
+                        <head type="CCC">
+                            <title>Utrum demones intrent corpora hominum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Utrum demones intrent corpora hominum substantialiter</title>
+                        </head>
+                        <rubric locus="98v">Utrum demones, etc.</rubric>
+                        <ab><handNote>Hand of no. 2</handNote>, etc.</ab>
+                        <incipit locusNew="98v">Quod in homines introeant atque ab eis expulsi exeant euangelium
+                            declarat</incipit>
+                    </msItem>
+
+                    <msItem n="14" locusStart="99r" locusEnd="107v">
+                        <head type="CCC">
+                            <name type="author">Robert de Curzon</name>, <title>De septem septenis</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Robertus de Curtun</name> de VII septenis</title>
+                        </head>
+                        <rubric locusNew="99r">Incipit prologus magistri <name type="author">Roberti de Cursun
+                                (?Curtun)</name> in libro de vii<abbr rend="superscript">tem</abbr> septenis</rubric>
+                        <incipit locus="99r">De difficillimis scripturus tam excellenti quam sapienti uiro</incipit>
+                        <ab>(<ref type="bibl" target="Migne 199"><supplied>P. L.</supplied> CXCIX 945</ref>)</ab>
+                        <explicit locusNew="99r">uestre disceptione pericie</explicit>
+                        <rubric locusNew="99r">Incipit liber. Prima septena de vii modis eruditionis</rubric>
+                        <incipit locusNew="99r">Caldei et greci sapientiam querunt</incipit>
+                        <explicit locusNew="107v">certitudinem communicare dignetur expolicius</explicit>
+                        <rubric locusNew="107v">(Explicit de 7 septenis)</rubric>
+                        <ab>Mentioned by <ref type="bibl" target="Tanner 1748">Tanner</ref></ab>
+                    </msItem>
+
+                    <msItem n="15" locusStart="108r" locusEnd="108v">
+                        <head type="CCC">
+                            <title>De adventu Domini</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De adventu Domini</title>
+                        </head>
+                        <rubric locus="108r">De aduentu domini</rubric>
+                        <incipit locusNew="108r">Christo ueniente figura in ueritatem Prophecia in manifestationem lex
+                            in euangelium uersa est</incipit>
+                        <explicit locusNew="108v">Noua semper iocunditas et secura felicitas</explicit>
+                        <ab>Later verses</ab>
+                        <incipit locus="108v">sit tibi potus aqua cibus aridus aspera uestis, etc. </incipit>
+                    </msItem>
+
+                    <msItem n="16" locusStart="109r" locusEnd="112v">
+                        <head type="CCC">
+                            <name type="author">Alanus ab Insula (Alain de Lille)</name>, <title>De sex alis
+                                cherubim</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">S. Augustini</name> libellus qui dicitur Cherub de
+                                confessione</title>
+                        </head>
+                        <ab locus="109r">
+                            <decoNote>A badly drawn (late) six-winged Cherub</decoNote>
+                        </ab>
+                        <ab>Rubric</ab>
+                        <rubric locusNew="109r"><name type="author">Sanctus Augustinus</name>. Incipit libellus qui
+                            dicitur Cherub de confessione</rubric>
+                        <ab>Text</ab>
+                        <incipit locusNew="109v">Prima ala est confessio enim (l. non) laudis</incipit>
+                        <explicit locusNew="112v">eternaque fruens beatitudine ad quam nos perducat deus</explicit>
+                        <rubric locusNew="112v">Explicit liber qui dicitur Cherub de confessione <name type="author"
+                                >Augustini</name></rubric>
+                        <ab>Elsewhere ascribed to <name type="person">Clement of Lanthony</name>, etc. See <ref
+                                type="ms" target="CCC066">MS 66</ref>, etc.</ab>
+                    </msItem>
+
+                    <msItem n="17" locusStart="112v" locusEnd="113v">
+                        <head type="CCC">
+                            <title>De conflictu uitiorum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De conflictu vitiorum</title>
+                        </head>
+                        <rubric locus="113r" locusNew="112v">De conflictu vitiorum</rubric>
+                        <rubric locusNew="113r">De superbia uel uana gloria</rubric>
+                        <incipit locusNew="113r">In altum erige. nam. Deus humilia respicit et alta a longe
+                            cognoscit<lb/>Inobediens esto. nam. Obedientes et mites diligit deus, etc.</incipit>
+
+                    </msItem>
+
+                    <msItem n="18" locusStart="114r" locusEnd="125r">
+                        <head type="CCC">
+                            <name type="author">Roger of Salisbury</name>, <title>Verborum significationes super librum
+                                Sententiarum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Expositiones vocabulorum theologicorum</title>
+                        </head>
+                        <head type="James">
+                            <title>Explicatio uerborum in Sententiis <name type="author">P. Lombardi</name></title>
+                        </head>
+                        <incipit locusNew="114r">Cupientes pro modulo nostre sapientie super hiis que theologicis
+                            deseruiunt inquisitionibus et nobis et aliis minus prouectis ingressum faciliorem
+                            preparare</incipit>
+                        <explicit locusNew="114r">porrigimus corrigendum</explicit>
+                        <incipit locusNew="114r">Omnis doctrina de rebus uel de rerum signis esse perhibetur</incipit>
+                        <explicit locusNew="125r">creationis et recreationis breuitatis causa dicta
+                            sufficientur</explicit>
+                        <ab>Another copy in <ref type="ms" target="OBC230">MS. Balliol 230</ref></ab>
+                        <ab locus="125r" locusNew="125v">Note on the sign of the cross</ab>
+                    </msItem>
+
+                    <msItem n="19" locusStart="125v" locusEnd="128v">
+                        <head type="CCC">
+                            <title>Questiones de sacramento altaris</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Questiones de sacramento altaris</title>
+                        </head>
+                        <ab locus="125v">
+                            <handNote>A smaller hand</handNote>
+                        </ab>
+                        <incipit locusNew="125v">Queritur cum sub utraque specie sit corpus christi quare laicis tantum
+                            datur sub specie panis</incipit>
+                        <incipit locusNew="126r">Queritur cum dicitur hoc est corpus meum quid determinatur per hoc,
+                            etc.</incipit>
+                    </msItem>
+
+                    <msItem n="20" locusStart="129r" locusEnd="135r">
+                        <head type="CCC">
+                            <title>Expositio super canonem missae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Expositio ad canonem missae</title>
+                        </head>
+                        <ab>
+                            <hi rend="bold">a.</hi>
+                        </ab>
+                        <rubric locusNew="129r">Expositio super canonem misse</rubric>
+                        <ab>(<handNote>one of the former hands</handNote>)</ab>
+                        <incipit locusNew="129r">Post acclamantium preconium subditus secretum silentium</incipit>
+                        <ab>(<ref type="bibl" target="Migne 217"><supplied>P. L.</supplied> CCXVII 839</ref>.
+                            Innocent)</ab>
+                        <explicit locusNew="132r">manducauit cum discipulis secundum illud. et conuescens precepit eis,
+                            etc.</explicit>
+                        <ab>
+                            <hi rend="bold">b.</hi>
+                        </ab>
+                        <ab locus="133r" locusNew="132r">In margin. fr. <name type="person">adam de ma(risco
+                            ?)</name></ab>
+                        <rubric locusNew="132r"><name type="person">Simon</name> onie filius, etc.</rubric>
+                        <incipit locusNew="132r"><name type="person">Symon</name> interpretatur exaudiens
+                            merorem</incipit>
+                        <explicit locusNew="132v">deuota contemplationis diuine desideria. Ad que nos, etc.</explicit>
+                        <ab>Verses</ab>
+                        <rubric locus="133v" locusNew="132v">de tunsione pectoris </rubric>
+                        <ab locus="134r" locusNew="133r">Cause principales. Versifice</ab>
+                        <incipit locusNew="133r">Efficiens causa deus est. formalis ydea finalis bonitas moralis yle,
+                            etc.</incipit>
+                        <ab locus="135r" locusNew="133v">Notes in more than one hand on the lily, Books of the Bible,
+                            nigra sum sed formosa</ab>
+                        <ab locus="135v" locusNew="134v">Paupertas, from <name type="author">Bernard</name></ab>
+                        <ab locus="136r" locusNew="135r">Parables</ab>
+                    </msItem>
+
+                    <msItem n="21" locusStart="135r" locusEnd="139v">
+                        <head type="CCC">
+                            <name type="author">William de Turba OSB</name>, <title>Verses on <name type="person">Thomas
+                                    Becket</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Versus in honorem <name type="person">Thomae Becket</name></title>
+                        </head>
+                        <ab locus="136r" locusNew="135r">
+                            <handNote>Larger hand</handNote>
+                        </ab>
+                        <incipit locus="136r" locusNew="135r">
+                            <lg>
+                                <l>Annus <date when-iso="1170">millenus centenus septuagenus</date></l>
+                                <l>Primus erat primas quo ruit ense <name type="person">thomas</name>.</l>
+                                <l>In rate rector obit. in asilo tutor. in ara</l>
+                                <l>Presbiter. in caulis pastor. in arce vigil</l>
+                            </lg>
+                        </incipit>
+                        <incipit locus="136v" locusNew="135v">
+                            <lg>
+                                <l>Archileuita <name type="person">thomas</name> et cancellarius anglis</l>
+                                <l>Regia diuino iura tenore dabat</l>
+                            </lg>
+                        </incipit>
+                        <ab>Ends</ab>
+                        <explicit locusNew="139v">
+                            <lg>
+                                <l>Huic surdi claudi ceci mutique frequentant</l>
+                                <l>Quos audire facit ire videre loqui</l>
+                                <l>Annus millenus, etc. ut supra-ense <name type="person">thomas</name></l>
+                                <l>Ad laudem Christi cui cum patre paraclitoque</l>
+                                <l>Est laus est uirtus est sine fine decus. Amen</l>
+                            </lg>
+                        </explicit>
+                        <explicit locusNew="139v">Accidit autem hoc tritici granum anno verbi incarnati. <date>m<abbr
+                                    rend="superscript">o</abbr> c<abbr rend="superscript">o</abbr> lxxi<abbr
+                                    rend="superscript">o</abbr></date> Anno ortus sui xlviii<abbr rend="superscript"
+                                >o</abbr>, etc. Regnante in <name type="place">francia</name>
+                            <name type="person">Lodouico</name>. In <name type="place">Anglia</name>. <name
+                                type="person">Henrico secundo</name></explicit>
+                    </msItem>
+
+                    <msItem n="22" locusStart="140r" locusEnd="147r">
+                        <head type="CCC">
+                            <title>De tribus statibus religionis</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>De tribus statibus religionis</title>
+                        </head>
+                        <rubric locus="140r">De tribus statibus religionis</rubric>
+                        <incipit locusNew="140r">Samaritanus infudit uinum et oleum</incipit>
+                        <ab>followed by various notes and extracts, e.g.</ab>
+                        <rubric locus="141r">de filio prodigo</rubric>
+                        <incipit locus="141r">Siclus et stater</incipit>
+                        <ab locus="141v">Appearances of Christ</ab>
+                        <rubric locusNew="142r">Iohannnes constant</rubric>
+                        <incipit locus="142r">Conceptus est <name type="person">Johannes</name> Luna xi<abbr
+                                rend="superscript">a</abbr> quando oportebat iudeos scenophegie ieiunium inchoare,
+                            etc.</incipit>
+                        <ab>(A long note, explaining <q>He must increase, but I must decrease</q>.)</ab>
+                        <ab locus="142v">Offerings of magi</ab>
+                        <rubric locus="143r">de ceco illuminato a Ihesu</rubric>
+                        <ab locus="143v">Ages of man and the world</ab>
+                        <ab locus="144v">The Cross, height, etc.</ab>
+                        <ab locus="145v">Parable of Samaritan</ab>
+                        <incipit locus="146v">Quid debeat legi in Refectorio per annum</incipit>
+                    </msItem>
+
+                    <msItem n="23" locusStart="147v" locusEnd="149v">
+                        <head type="CCC">
+                            <name type="author">Stephen Langton</name>, <title>Sermons (2)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sermones duo <name type="author">Stephani [Langton]</name> archiepiscopi
+                                Cantuar</title>
+                        </head>
+                        <ab>
+                            <handNote>Hand of no. 2, etc.</handNote>
+                        </ab>
+                        <rubric locus="147v">Sermo magistri Stephani Cantuar. Archiep.</rubric>
+                        <incipit locusNew="147v">Ostende nobis domine misericordiam tuam</incipit>
+                        <rubric locus="148v">Item sermo eiusdem cuius est supra</rubric>
+                        <incipit locusNew="148v">Dominus prope est. Salomon ait</incipit>
+                    </msItem>
+
+                    <msItem n="24" locusStart="150r" locusEnd="151r">
+                        <head type="CCC">
+                            <title>Sermon on <q>Quae est ista quae ascendit</q></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sermo in <q>Quae est ista quae ascendit</q></title>
+                        </head>
+                        <ab locus="151r">
+                            <handNote>Another hand</handNote>
+                        </ab>
+                        <incipit locusNew="150r">Que est ista que ascendit ... secundum <name type="person">Jero.</name>
+                            hec est uox angelorum admiratiue querencium</incipit>
+                    </msItem>
+
+                    <msItem n="25" locusStart="151v" locusEnd="155v">
+                        <head type="CCC">
+                            <name type="author">Alexander of Hales OFM (attrib.)</name>, <title>Dictionarium cum
+                                commento</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Versus quidam cum commentario</title>
+                        </head>
+                        <head type="James">
+                            <title><name type="author">Alex. de Hales (?)</name> Dictionarium cum commento</title>
+                        </head>
+                        <ab locus="151v"><handNote>Another hand</handNote>, <decoNote>text in large letters, comment
+                                small</decoNote></ab>
+
+                        <ab>Text</ab>
+                        <incipit locusNew="151v">Cespitat in phalleris hippus blactaque supinus</incipit>
+                        <ab>Gloss</ab>
+                        <incipit locusNew="151v">Cespes est gleba herbida</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="153v" locusNew="155v">
+                            <lg>
+                                <l>Tuber est asparagus fungus boletus eandem</l>
+                                <l>Diuersa uoce retinent vim significandi</l>
+                            </lg>
+                        </explicit>
+                        <ab locusNew="156r">Scribbles: Confiteor, etc. On f. <locus>156v</locus> the same begins in
+                            large letters probably as a copy. Also in English the words <q>my mother</q> and <q>hary
+                                auger b hog</q></ab>
+                        <ab locus="157r">music roughly written</ab>
+                        <ab locus="157v">Reuerendo in Christo patri ac domino d. <name type="person">Johannes
+                                lyncolniensis</name> ep. dei gracia</ab>
+                        <ab locusNew="157v">Also <name type="person">Emanuell Thomas</name></ab>
+                        <ab locus="158v">Pater noster, etc.</ab>
+                        <ab locus="159r">
+                            <name type="person">John dyng</name>
+                        </ab>
+                        <ab locus="159v">scribbled verses, etc.</ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJM 29/01/2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

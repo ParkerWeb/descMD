@@ -1,0 +1,148 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+
+                <msIdentifier xml:id="CCC261">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>261</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>N. 16</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>180</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">John of Gaddesden, Rosa medicinae</head>
+
+                <head type="James">Iohannes de Gaddesden Rosa medicinae</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">260</height>
+                        <width unit="mm">195</width>
+                    </measureGrp><measureGrp type="James">10.5 x 7.7</measureGrp>, <extent>ff. 4 + 232 + 1</extent>,
+                        <layout>double columns of 42 lines</layout>. Cent. <origDate>xv</origDate>, <handNote>in a clear
+                        hand, brown ink</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>a<num>4</num> 1<num>12</num> 2<num>12</num> 3<num>14</num> 4<num>12</num>-18<num>12</num>
+                            19<num>14</num>, 1 flyleaf</collation>.</p>
+
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-iv + 1-232 + v + c</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="ir" locusEnd="232v">
+
+                        <head type="CCC"><name type="author">John of Gaddesden</name>, <title>Rosa
+                            medicinae</title></head>
+
+
+                        <head type="James">
+                            <name type="author">Iohannes de Gaddesden</name>
+                            <title>Rosa medicinae</title>
+                        </head>
+
+
+                        <ab locus="ir">Capitula of the five books in a later hand</ab>
+                        <ab>ff. <locus>iiir</locus>-<locus>ivv</locus> blank</ab>
+                        <ab>At top of f. <locus>1r</locus> the letter N. The same occurs at bottom of f.
+                                <locus>232v</locus></ab>
+                        <ab>Text</ab>
+                        <incipit locus="1r"><name type="person">Galienus</name> primo de ingenio sanitatis. Non visites
+                            nimis curias et aulas</incipit>
+                        <ab locus="38v" locusNew="37v">Liber II</ab>
+                        <ab locus="183r"><supplied>Liber</supplied> III</ab>
+                        <ab locus="225r"><supplied>Liber</supplied> IV</ab>
+                        <ab locus="229v"><supplied>Liber</supplied> V</ab>
+                        <ab>Ending</ab>
+                        <explicit locus="232r">Alia possint hic dici sed non uacat mihi modo</explicit>
+                        <rubric locusNew="232r">Explicit rosa medicine magistri <name type="author">Johannis de
+                                gadesden</name>. deo sint gracie infinite qui ad hunc finem perduxit. Amen</rubric>
+                        <ab>
+                            <handNote>In the same hand:</handNote>
+                        </ab>
+                        <incipit locus="232r">Emplastrum quod gracia dei appellatur</incipit>
+                        <ab>Ending f. <locus>232v</locus></ab>
+                        <ab>Flyleaf blank</ab>
+
+
+                    </msItem>
+
+
+
+
+
+
+
+                </msContents>
+
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text:copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, CF 2nd</p>
+                            <p>msCheck: NJM 01.06.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

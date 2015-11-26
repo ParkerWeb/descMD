@@ -1,0 +1,557 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC099">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>99</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Misc. X</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Alchemical Tracts</head>
+
+                <head type="James">Alchemica</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">365</height>
+                        <width unit="mm">260</width>
+                    </measureGrp>
+                    <measureGrp type="James">14.3 x 10</measureGrp>, <extent>ff. 129 + 1</extent>, <layout>49 lines to a
+                        page</layout>. Cent. <origDate>xv</origDate>, <handNote>in clear book-hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num> (+1) 2<num>8</num>-16<num>8</num>, old pagination
+                        incorrect</collation>.</p>
+
+                <p function="Additions">On the flyleaf is pasted a piece of vellum with a list of contents (27 items)
+                    cent. <origDate>xvi early</origDate>, also a piece of paper with an alchemical extract.</p>
+                <p>Texts from Ecclus. 3 and Jo. 17 are written on this page.</p>
+                <p>At top of f. <locus>1r</locus> various crosses: ? and ?; ? (possibly for <name type="person">Dr John
+                        Dee</name>; or else to symbolize the Trinity): the figures 4 4 and a <hi rend="italic">crux
+                        ansata</hi> &#9765;.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i + pp. 1-234 + 234a-b + 235-256 + ff. c-d</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1" locusEnd="6">
+
+                        <head type="CCC">
+                            <name type="author">Khalid</name> , <title>Questiones et responsiones</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Questiones <name type="person">Kalid regis</name> ad <name type="person"
+                                    >Morienum</name> Romanum</title>
+                        </head>
+
+                        <incipit locus="1"><name type="person">Moriene</name> manifesta michi magisterium</incipit>
+                        <explicit locusNew="6">malum exitum habentia</explicit>
+                        <rubric locusNew="6">Explicit <name type="person">morieni</name> tractatus</rubric>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="6" locusEnd="11">
+
+                        <head type="CCC">
+                            <title>De occulto lapide philosophorum</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Tractatus qui dicitur, Planta arborem</title>
+                        </head>
+
+                        <ab>
+                            <quote>Habetur hic tractatus de verbo in verbum in speculo Alchimiae: vide infra 21</quote>
+                        </ab>
+
+                        <incipit locus="6">Planta arborem et edifica tibi domum</incipit>
+                        <explicit locusNew="11">consolidans et perseuerans</explicit>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="11" locusEnd="13">
+
+                        <head type="CCC">
+                            <name type="author">Razes (Abu Bakr Muhammad Ibn Zakariyya al-Razi)</name>,
+                                <title>Practica</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Practica <name type="author">Rasis</name></title>
+                        </head>
+
+
+                        <incipit locus="11">In dei nomine et cum eius adiutorio. Reducamus primo corpora</incipit>
+                        <explicit locusNew="13">et plumbum rubeum (?) ...</explicit>
+
+                    </msItem>
+
+
+                    <msItem n="4" locusStart="13" locusEnd="15">
+
+                        <head type="CCC">
+                            <name type="author">Razes (Abu Bakr Muhammad Ibn Zakariyya al-Razi)</name>, <title>Flores
+                                secretorum</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Flores secretorum <name type="author">Rasis</name> de regimine quatuor
+                                naturarum</title>
+                        </head>
+
+                        <incipit locus="13">In dei nomine amen. Scito fili quia sapientes</incipit>
+                        <explicit locusNew="15">premissi capituli sequitur effectus</explicit>
+
+                    </msItem>
+
+                    <msItem n="5" locusStart="15" locusEnd="16">
+
+                        <head type="CCC">
+                            <title>Senior mireris</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Tractatus qui dicitur, Senior Mireris</title>
+                        </head>
+
+                        <head type="James">
+                            <title>Senior mereri</title>
+                        </head>
+                        <incipit locus="15">Cum queris quid sit lapis</incipit>
+                        <explicit locusNew="16">nunquam indigebit</explicit>
+
+                    </msItem>
+
+                    <msItem n="6" locusStart="16" locusEnd="18">
+
+                        <head type="CCC">
+                            <name type="author">Alphidius</name>, <title>De lapide philosophorum</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Documenta <name type="author">Mireris</name></title>
+                        </head>
+
+
+                        <incipit locus="16">Scito fili quia hunc librum scripsi</incipit>
+                        <explicit locusNew="18">inefficax cesses</explicit>
+
+                    </msItem>
+
+                    <msItem n="7" locusStart="18" locusEnd="20">
+
+                        <head type="CCC">
+                            <name type="author">John Dastin</name>, <title>Epistola ad <name type="person">episcopum
+                                    Iohannem XXII</name> de alchemia</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Iohannis Dasten</name></title>
+                        </head>
+
+                        <ab>(<name type="author">Dastin</name>)</ab>
+                        <incipit locus="18">Hoc est secretum secretorum</incipit>
+                        <explicit locusNew="20">scripsi quam breuius potui</explicit>
+
+                    </msItem>
+
+                    <msItem n="8" locusStart="21" locusEnd="35">
+
+                        <head type="CCC">
+                            <name type="author">Nicolaus de Comitibus (?)</name>, <title>Speculum alchemiae</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Tractatus nobilis <name type="author">Nicholai comitis</name></title>
+                        </head>
+
+
+                        <incipit locus="21">In nomine domini Amen. Ut ad perfectam scienciam</incipit>
+                        <explicit locusNew="35">qui dat sapienciam sapientibus. Amen</explicit>
+
+                    </msItem>
+
+                    <msItem n="9" locusStart="35" locusEnd="92">
+
+                        <head type="CCC">
+                            <name type="author">Jabir ibn Hayyan (attrib.)</name>, <title>Summa perfectionis
+                                magisterii</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title><name type="author">Geberi</name> summa perfecti magisterii</title>
+                        </head>
+
+                        <incipit locus="36">Totam nostram scienciam quam ex libris antiquorum</incipit>
+                        <explicit locusNew="92">Ad artis igitur excelse perquisicionem hec dicta sufficiant</explicit>
+
+                    </msItem>
+
+                    <msItem n="10" locusStart="93" locusEnd="96">
+
+                        <head type="CCC">
+                            <name type="author">Jabir ibn Hayyan (attrib.)</name>, <title>Secreta secretorum
+                                abbreuiata</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Secreta secretorum in opere Solaris et lunaris, <name type="author">Geber</name>
+                                abbreviata</title>
+                        </head>
+
+                        <incipit locus="93">Omnes huius sciencie inuestigatores</incipit>
+                        <explicit locusNew="96">et dealbabitur peculiose</explicit>
+
+                    </msItem>
+
+                    <msItem n="11" locusStart="96" locusEnd="98">
+
+                        <head type="CCC">
+                            <name type="author">John Dastin</name>, <title>Visio super artem alchemicam</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Visio <name type="author">Iohannis Dastin</name></title>
+                        </head>
+
+                        <incipit locus="96">Cum omni natura constancium</incipit>
+                        <explicit locusNew="98">poma collegimus...timemus</explicit>
+
+                    </msItem>
+
+                    <msItem n="12" locusStart="99" locusEnd="102">
+
+                        <head type="CCC">
+                            <title>Alchemical treatise variously ascribed to <name type="author">John of
+                                Damascus</name>, <name type="author">Uguictius</name> and <name type="author"
+                                    >Arisleus</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Tractatus qui dicitur Lumen intelligentiae</title>
+                        </head>
+
+                        <incipit locus="99">In nomine domini Amen. ffili karissime scias Spiritus domini
+                            ferebatur</incipit>
+                        <explicit locusNew="102">deus meus sit merces tua per infinita secula seculorum. Amen</explicit>
+
+                    </msItem>
+
+                    <msItem n="13" locusStart="102" locusEnd="106">
+
+                        <head type="CCC">
+                            <name type="author">Johannes Tectinensis</name>, <title>Alchemy</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Tractatus <name type="author">Ioannis Tectivensis</name></title>
+                        </head>
+
+                        <incipit locus="102">Hec res prima confricetur</incipit>
+                        <explicit locusNew="106">consequi mereantur in tuo nomine. Amen</explicit>
+
+                    </msItem>
+
+                    <msItem n="14" locusStart="106" locusEnd="108">
+
+                        <head type="CCC">
+                            <name type="author">Ramón Lull</name>, <title>Aurum potabile</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Aurum potabile <name type="author">Raymundi</name></title>
+                        </head>
+
+                        <incipit locus="106">Respice aurum potabile</incipit>
+                        <explicit locusNew="108">habet humanitatem</explicit>
+
+                    </msItem>
+
+                    <msItem n="15" locusStart="109" locusEnd="121">
+
+                        <head type="CCC">
+                            <name type="author">William of Tunis (attrib.)</name>, <title>Lilium Paridis</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Lilium Paridis Philosophi</title>
+                        </head>
+
+                        <rubric locusNew="109">Incipit liber paridis philosophi</rubric>
+                        <ab>(not Phebi)</ab>
+                        <incipit locus="109">Naturam circa solem et lunam</incipit>
+                        <explicit locusNew="121">perfecit hoc opus in 80 diebus</explicit>
+
+                    </msItem>
+
+
+                    <msItem n="16" locusStart="122" locusEnd="143">
+
+                        <head type="CCC">
+                            <name type="author">John Dastin</name>, <title>Rosarium</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Rosarius Phebi, aliter vocatus liber <name type="author">Ioannis
+                                Dasten</name></title>
+                        </head>
+
+                        <rubric locus="122">Incipit liber philosophi (glossed phebi) de lapide philosophorum</rubric>
+                        <incipit locus="122">Desiderabile desiderium</incipit>
+                        <explicit locusNew="143">et est thesaurus preciosus et incomparabilis</explicit>
+                        <rubric locusNew="143">Explicit liber Phebi philosophi (added alibi vocatur liber <name
+                                type="author">Joannis Dasten</name>)</rubric>
+                    </msItem>
+
+                    <msItem n="17" locusStart="144" locusEnd="149">
+
+                        <head type="CCC"><name type="author">Arnold of Villanova</name>, <title>Rosarius
+                                (prologue)</title></head>
+
+                        <head type="Nasmith">
+                            <title>Rosarius minor sive Theorica <name type="author">Arnoldi de Villa nova</name></title>
+                        </head>
+
+                        <rubric locus="144">Rosarius minor (<name type="author">Arnaldi de villa noua</name>)</rubric>
+                        <ab>Added: <q>Theorica habetur pro libro textuali ut patet in commento eiusdem</q></ab>
+
+                        <incipit locus="144">Liber abbreuiatus comprobatus</incipit>
+                        <explicit locusNew="149">nullus unquam philosophus tradidit meliora</explicit>
+
+                    </msItem>
+
+                    <msItem n="18" locusStart="150" locusEnd="163">
+
+                        <head type="CCC">
+                            <name type="author">Arnold of Villanova</name>, <title>Rosarius maior siue Practica</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Rosarius major sive Practica <name type="author">Arnoldi de Villa nova</name></title>
+                        </head>
+
+                        <rubric locus="150">Capitula (32) precede</rubric>
+
+                        <incipit locus="150">Manifestum est autem operacionem</incipit>
+                        <explicit locusNew="163">esse de numero sapientum antiquorum</explicit>
+                        <rubric locusNew="163">Explicit rosarius maior philosophorum uerissimus et in arte nostra
+                            optimus</rubric>
+                    </msItem>
+
+                    <msItem n="19" locusStart="164" locusEnd="182">
+
+                        <head type="CCC">
+                            <name type="author">Arnold of Villanova</name>, <title>Commentarium in libros suos et in
+                                libros aliorum philosophorum</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Commentarium <name type="author">Arnoldi de Villa nova</name> in libros suos et
+                                libros aliorum philosophorum</title>
+                        </head>
+
+
+                        <incipit locus="164">Incipiunt uerba commentaria primi libri <name type="author">Arnaldi de
+                                uilla noua</name> ac phebi ac paridis philosophorum</incipit>
+                        <explicit locusNew="182">quod et tradidi uobis in nomine domini. Amen</explicit>
+                        <rubric locusNew="182">Explicit liber secundus practicus <name type="author">arnaldi de villa
+                                noua</name></rubric>
+                    </msItem>
+
+                    <msItem n="20" locusStart="183" locusEnd="188">
+                        <head type="CCC">
+                            <name type="author">Arnold of Villanova</name>, <title>Tract dedicated to Semita
+                                semite</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Tractatus qui incipit, <q>O venerande pater</q></title>
+                        </head>
+                        <ab>
+                            <quote>
+                                <q>Est epistola <name type="person">Avicenae</name> ad <name type="person">Abazez</name>
+                                    patrem suum de re tecta. Est potius flos florum <name type="person"
+                                    >Arnoldi</name>.</q>
+                            </quote>
+                        </ab>
+                        <incipit locus="183">O uenerande pater gracias ago deo</incipit>
+                        <explicit locusNew="188">quam possis percipere racione</explicit>
+                        <ab>14 Verses</ab>
+
+                        <ab locusNew="188">
+                            <lg>
+                                <l>Nam si nature uulgo secreta paterent</l>
+                                <l>...</l>
+                                <l>Sunt preciosa magis cum rarius inueniuntur</l>
+                            </lg>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="21" locusStart="189" locusEnd="194">
+                        <head type="CCC">
+                            <title>Speculum alchemiae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Speculum Alchimiae</title>
+                        </head>
+                        <ab>
+                            <quote>Quaere an <name type="person">Rogeri Bacon</name>?</quote>
+                        </ab>
+                        <incipit locus="189">Sciendum est quia philosophi per 4<abbr rend="superscript">or</abbr> uerba
+                            hoc opus compleuerunt</incipit>
+                        <explicit locusNew="194">sufficiunt intellectum habentibus</explicit>
+
+                    </msItem>
+
+                    <msItem n="22" locusStart="195" locusEnd="208">
+                        <head type="CCC"><name type="author">Bernard of Treves</name>, <title>Responsio ad <name
+                                    type="person">Thomam de Bononia</name></title></head>
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Barnardi Trevirensis</name> ad <name type="person"
+                                    >Thomam de Bononia medicum</name></title>
+                        </head>
+                        <incipit locus="195">Obsequiis michi possibilibus premissis. Egregie doctor</incipit>
+                        <ab>(Notes to title a. Est epistola <name type="author">Comitis Trevirensis</name> ad <name
+                                type="person">Thomam de Bononia medicum</name>. b. 2<abbr rend="superscript">a</abbr>
+                            epistola <name type="author">Barnardi magni philosophi</name> et sunt 3<abbr
+                                rend="superscript">es</abbr> epistolae eiusdem philosophi)</ab>
+                        <explicit locusNew="208">esse calidum et humidum</explicit>
+                        <rubric locusNew="208">Explicit epistola cuiusdam philosophi (viz. <name type="author">Barnardi
+                                magni</name>)</rubric>
+
+                        <rubric locusNew="208"><name type="person">Al. de la Brett</name> ut in <name type="place"
+                                >Trayer</name> co. gg. cum ceteris uel ut in alio libro uocatur <name type="author"
+                                >Barnardus Treuerensis</name></rubric>
+
+                    </msItem>
+
+                    <msItem n="23" locusStart="208" locusEnd="213">
+                        <head type="CCC">
+                            <name type="author">Thomas of Bologna</name>, <title>Epistola ad <name type="person"
+                                    >Bernardum Treuirensem</name> de lapide philosophico</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Secunda epistola ejusdem</title>
+                        </head>
+
+                        <incipit locus="208">In altissimis laudibus micat amicicia</incipit>
+                        <explicit locusNew="213">secretario michi utriusque fideli</explicit>
+
+                    </msItem>
+
+                    <msItem n="24" locusStart="214" locusEnd="248">
+                        <head type="CCC">
+                            <name type="author">Iohannes de Rupescissa OFM</name>, <title>Quinta essentia</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Johannes de Rupescissa</name> de consideratione quintae
+                                essentiae</title>
+                        </head>
+
+                        <incipit locus="214">Primus liber etc. In nomine domini nostri Ihesu Christi incipit liber de
+                            famulatu philosophie etc. Dixit <name type="person">Salomon</name>. Sapiencie ca<abbr
+                                rend="superscript">o</abbr> 7<abbr rend="superscript">o</abbr></incipit>
+                        <explicit locusNew="247">uel in eius absencia aqua ardens</explicit>
+                        <ab>? unfinished, p. <locus>248</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="25" locusStart="249" locusEnd="254">
+                        <head type="CCC">
+                            <name type="author">Iohannes de Rupescissa OFM</name>, <title>Liber lucis</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Idem de essentia quinta Mercurii sive liber Lucis</title>
+                        </head>
+
+                        <rubric locus="249">Essencia 5<abbr rend="superscript">a</abbr> Mercurii [a. per Arnoldum], b.
+                            per <name type="author">Johannem de Rupescissa</name> et vocatur Liber Lucis</rubric>
+
+                        <incipit locus="249">Materia lapidis est res vilis</incipit>
+                        <explicit locusNew="254">qui quidem tiranni punientur a domino nostro Ihesu Christo cui est etc.
+                            per infinita secula seculorum. Amen</explicit>
+                        <ab>Some crosses etc. and ? and ? are added in a hand of cent. <origDate>xvi</origDate></ab>
+
+                    </msItem>
+
+                    <msItem n="26" locusStart="255" locusEnd="256">
+                        <head type="CCC">
+                            <title>Dicta philosophorum</title>
+                        </head>
+
+                        <ab>A leaf of an imperfect tract beginning</ab>
+
+                        <incipit locus="255">Philosophi naturales <name type="person">Auicenna</name>, <name
+                                type="person">Hermes</name>, <name type="person">Aurinius</name>, <name type="person"
+                                >Arsinus</name>, <name type="person">Morienus</name>, <name type="person">Ceber</name>,
+                                <name type="person">Jpermenides</name>, <name type="person">Casiarius</name>, <name
+                                type="person">Exennius</name>, <name type="person">Pictagoras</name> et alii</incipit>
+
+                    </msItem>
+                </msContents>
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJC 8.10.07</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

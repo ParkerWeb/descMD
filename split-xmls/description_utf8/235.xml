@@ -1,0 +1,122 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC235">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>235</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Lib. ab Al. 33</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Homilies</head>
+                <head type="James">Homiliae</head>
+                <p function="Codicology"><material>Vellum and paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">209</height>
+                        <width unit="mm">148</width>
+                    </measureGrp><measureGrp type="James">8.3 x 5.8</measureGrp>, <extent>ff. 4 + 200</extent>,
+                        <layout>31 lines to a page</layout>. Cent. <origDate>xv</origDate>, <handNote>in an ugly current
+                        hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>4</num> 1<num>10</num> 2<num>10</num> 3<num>12</num> (one canc.)
+                            4<num>10</num>-7<num>10</num> (wants 5-10) 8<num>10</num> (wants 5-10) 9<num>10</num>
+                            10<num>10</num> 11<num>12</num> (wants 11) 12<num>10</num> (wants 8-10) 13<num>10</num>
+                        (wants 1, 2) 14<num>10</num> 15<num>12</num> 16<num>10</num> (wants 2-4) 17<num>12</num>
+                            18<num>12</num> (wants 11, 12) 19<num>12</num> 20<num>12</num> (wants 12) 21<num>6</num>
+                        (+1)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>oleo caritatis</secFol>.</p>
+
+                <p function="Additions">A few notes are on the flyleaves.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-iv + 1-80 + 80a + 81-210 + v + c</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="210v">
+                        <head type="CCC">
+                            <title>Homilies</title>
+                        </head>
+
+                        <ab>Text begins</ab>
+                        <rubric locus="1r">Omelia prima</rubric>
+                        <incipit locusNew="1r">Cum appropinquasset Ihesus etc. Mt. 21, Mr. xi, Luc. xix et Jo. xii, in
+                            sententia. Hoc euuangelium potest sic introduci. Karissimi tempus presens dicitur
+                            aduentus</incipit>
+                        <ab>There are 54 homilies. The last, on Mulier que paciebatur fluxum sanguinis, ends</ab>
+                        <explicit locus="193v" locusNew="203v">In resurrectione iustorum. Ad quam retribucionem uos
+                            perducat qui sine fine etc.</explicit>
+                        <rubric locusNew="203v">Explicit hic liber deo gracias</rubric>
+                        <ab locus="194r" locusNew="204r">Table. AduentusYpocrite</ab>
+                        <ab locus="198v" locusNew="208v">List of Homilies</ab>
+                        <ab>A few notes follow</ab>
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: NJM 3/12/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,272 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC022">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>22</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>L. 4</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>125</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Isidore of Seville, Etymologiae, Synonyma. Bestiary</head>
+                <head type="James">Isidori Etymologiae et Synonyma. Bestiarius etc.</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">374</height>
+                        <width unit="mm">244</width>
+                    </measureGrp>, <measureGrp type="James">14.6 x 10</measureGrp>, <extent>ff. 20 + 181</extent>,
+                        <layout>mostly double columns of 42 lines</layout>. Cent. <origDate>xii and xiv</origDate>,
+                        <handNote>in a very fine hand</handNote>. </p>
+
+                <p function="Multivolume"><lb/><label>Volume I:</label> Cent. <origDate>xiv</origDate>, <layout>3
+                        columns to a page</layout>.<lb/><label>Volume II:</label> Cent. <origDate>xii</origDate>,
+                        <layout>double columns</layout>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>12</num> b<num>10</num> (wants 9, 10) | I<num>8</num>-XIX<num>8</num>
+                            XX<num>10</num> (wants 10) | XXI<num>8</num> XXII<num>8</num> XXIII<num>?</num>
+                        (four)</collation>.</p>
+
+
+
+                <p><label>2 fo.:</label><lb/>
+                    <hi rend="italic">in tab.</hi>
+                    <secFol>4. 8<abbr rend="superscript">o</abbr>. sacra</secFol>.<lb/>
+                    <hi rend="italic">in lib.</hi>
+                    <secFol>n. principatui</secFol>.</p>
+
+                <p function="Research">This is No. 147 in Mommsen's list of MSS. of the Chron. Isid. Iunioris (<ref
+                        type="bibl" target="Mommsen 1894">MGH. <hi rend="italic">Chron. min.</hi> II 416</ref>).</p>
+
+
+
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-xx + 1-181 + c-d</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+                    <milestone n="I" unit="volume"/>
+                    <msItem n="1" locusStart="ir" locusEnd="xxv">
+                        <head type="CCC">
+                            <name type="author">Isidore of Seville</name>, <title>Etymologiae (index)</title>
+                        </head>
+
+                        <head type="James">
+                            <title>Tabula super <name type="author">Isidori</name> etymologias</title>
+                        </head>
+                        <incipit locusNew="ir">Primus liber <name type="author">Ysidori</name> habet capitula
+                            28</incipit>
+                        <ab>Ends f. <locus>xxv</locus></ab>
+                        <rubric locus="xxv">Explicit Tabula <name type="author">Ysidori</name></rubric>
+
+
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+                    <msItem n="2" locusStart="1r" locusEnd="161r">
+                        <head type="CCC">
+                            <name type="author">Isidore of Seville</name>, <title>Etymologiae</title>
+                        </head>
+
+                        <head type="James">
+                            <name type="author">Isidori</name>
+                            <title>Etymologiae</title>
+                        </head>
+                        <ab>(<ref type="bibl" target="Migne 082">P. L. LXXXII</ref>)</ab>
+                        <rubric locusNew="1r">Incipiunt Epistole <name type="author">Ysidori</name> ad <name
+                                type="person">Braulionem</name></rubric>
+                        <ab>Five letters, the last ending</ab>
+                        <explicit locusNew="2v">conditor huius codicis disputauit</explicit>
+                        <ab locus="2v">Capitula. Subjects of the books</ab>
+                        <ab locusNew="2v">Capitula libri primi</ab>
+                        <rubric locusNew="2v">Incipit liber primus de disciplina</rubric>
+                        <incipit locusNew="3r">Disciplina a discendo</incipit>
+                        <ab locusNew="3r">
+                            <decoNote>Handsome initial in blue, green and red. Each book has a similar one</decoNote>
+                        </ab>
+                        <ab>
+                            <decoNote>Initials of chapters are mostly in plain colour, red and green and
+                                white</decoNote>
+                        </ab>
+                        <ab locus="161r">Liber XX ends</ab>
+                        <explicit locusNew="161r">ignis ardore siccetur</explicit>
+                        <ab>No colophon</ab>
+
+                    </msItem>
+
+
+                    <msItem n="3" locusStart="161r" locusEnd="161v">
+                        <head type="CCC">
+                            <title>Descriptio terrae sanctae</title>
+                        </head>
+
+                        <head type="James">
+                            <title>On the holy places of <name type="place">Jerusalem</name> etc.</title>
+                        </head>
+                        <incipit locusNew="161r">Si quis ab occidentalibus partibus <name type="place">ierusalem</name>
+                            adire uoluerit solis ortum semper teneat</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="161v">In sinistra parte est mons dominus uidit, ubi locutus est dominus cum
+                                <name type="person">abraham</name> ubi et ipse <name type="person">abraham</name> filium
+                            suum <name type="person">ysaac</name> immolare uoluit</explicit>
+                        <ab>Cf. <ref type="bibl" target="Tobler 1874">Tobler's <hi rend="italic">Innominatus</hi> VII
+                                    (<hi rend="italic">Descriptiones Terrae Sanctae</hi>, p. 100)</ref></ab>
+
+                    </msItem>
+
+
+                    <msItem n="4" locusStart="162r" locusEnd="169v">
+                        <head type="CCC">
+                            <title>Bestiary</title>
+                        </head>
+
+                        <ab locus="162r">A Bestiary. The first leaf gone</ab>
+                        <ab>Begins in the section <q>de Vulpe</q>, followed by</ab>
+                        <incipit locusNew="162r">Est animal quod dicitur monocheros latine uero unicornis</incipit>
+                        <ab locusNew="169r">The last section (<q>Est arbor que dicitur mandragora in partibus
+                                orientis</q>) ends</ab>
+                        <explicit locusNew="169r">statim a demonio deuoratus est et periit</explicit>
+                        <ab>
+                            <decoNote>There are illustrations in the text in outline, washed with colour: no
+                                backgrounds: the execution rough but effective</decoNote>
+                        </ab>
+                        <ab locus="162r">1. <decoNote>Unicorn with head on lap of maiden: a man pierces
+                            it</decoNote></ab>
+                        <ab locusNew="162r">2. <decoNote>Hunter blows horn: beaver bites its glands off</decoNote></ab>
+                        <ab locusNew="162r">3. <decoNote>Ydrus, winged serpent, penetrating crocodile (four-footed
+                                beast)</decoNote></ab>
+                        <ab locus="162v">4. <decoNote>Crocodile devouring man</decoNote></ab>
+                        <ab locusNew="162v">5. <decoNote>Hyena, winged beast, fluttering over a tomb with a cross at
+                                each end</decoNote></ab>
+                        <ab locus="163r">6. <decoNote>Two wild asses</decoNote></ab>
+                        <ab locusNew="163r">7. <decoNote>Two monkeys sit and converse</decoNote></ab>
+                        <ab locusNew="163r">8. <decoNote>A wild goat</decoNote></ab>
+                        <ab locus="163v">9. <decoNote>Three beasts follow a blue panther</decoNote></ab>
+                        <ab locus="164r">10. <decoNote>A winged hairy dragon</decoNote></ab>
+                        <ab locusNew="164r">11. <decoNote>Weasels</decoNote></ab>
+                        <ab locusNew="164r">12. <decoNote>Two deer</decoNote></ab>
+                        <ab locus="164v">13. <decoNote>Elephant lies on its back with legs in air: another elephant with
+                                castle and warriors</decoNote></ab>
+                        <ab locus="165r">14. <decoNote>Wolves: one bites his foot</decoNote></ab>
+                        <ab locus="165v">15. <decoNote>R. Dog assaulting murderer: on L. the murderer's hands are being
+                                bound: the dog's dead master lies below</decoNote></ab>
+                        <ab locusNew="165v">16. <decoNote>Ibex leaping from rock on to its horns: another
+                                ibex</decoNote></ab>
+                        <ab locus="166r">17. <decoNote>The <q>lapides igniferi</q> represented as four half-length human
+                                figures, two of them springing out of a <q>steel</q> such as was used for striking
+                                sparks</decoNote></ab>
+                        <ab locusNew="166r">18. <decoNote>The winged sea beast <q>sarra</q> attacks a ship with men in
+                                it</decoNote></ab>
+                        <ab locusNew="166r">19. <decoNote>Chaladrius looking away from a sick man in bed</decoNote></ab>
+                        <ab locusNew="166r">20. <decoNote>Four pelicans (small blue birds)</decoNote></ab>
+                        <ab locus="166v">21. <decoNote>Owl (not like)</decoNote></ab>
+                        <ab locusNew="166v">22. <decoNote>Eagles teach an eaglet to look at the sun</decoNote></ab>
+                        <ab locusNew="166v">23. <decoNote>Phoenix: on R. it burns in its nest</decoNote></ab>
+                        <ab locus="167r">24. <decoNote>Two hoopoes pull out the feathers of their parent</decoNote></ab>
+                        <ab locusNew="167r">25. <decoNote>Ants</decoNote></ab>
+                        <ab locus="167v">26. <decoNote>Two sirens, one ending as fish, the other as bird</decoNote></ab>
+                        <ab locusNew="167v">27. <decoNote>Ibis bringing snake to its young in nest</decoNote></ab>
+                        <ab locusNew="167v">28. <decoNote>A coot</decoNote></ab>
+                        <ab locus="168r">29. <decoNote>Aspidochelone: ship anchored to it and tree growing in its head,
+                                which a man is about to cut with axe</decoNote></ab>
+                        <ab locusNew="168r">30. <decoNote>Partridges</decoNote></ab>
+                        <ab locusNew="168r">31. <decoNote>Aspis. On L. it emerges, a beast with legs and ears, from its
+                                hole: a man tickles it (?). On R. is a dog on its hind legs attacking or caressing a
+                                woman</decoNote></ab>
+                        <ab locus="168v">32. <decoNote>Ostrich</decoNote></ab>
+                        <ab locusNew="168v">33. <decoNote>Doves</decoNote></ab>
+
+                        <ab locusNew="168v">34. <decoNote>Salamander twined round a tree. On R. two men carry off a tub
+                                slung on a pole: probably containing apples which the beast has poisoned by its
+                                breath</decoNote></ab>
+                        <ab locus="169r">35. <decoNote>Doves</decoNote></ab>
+                        <ab locusNew="169r">36. <decoNote>Tree with doves perched in it. On L. a dragon lying in wait
+                                for them</decoNote></ab>
+                        <ab locus="169v">blank</ab>
+
+                    </msItem>
+
+
+                    <msItem n="5" locusStart="170r" locusEnd="181v">
+                        <head type="CCC">
+                            <name type="author">Isidore of Seville</name>, <title>Synonyma</title>
+                        </head>
+
+                        <rubric locus="170r">Incipit prologus in librum beati <name type="author">Ysidori</name> qui
+                            uocatur sinonima</rubric>
+                        <ab>(<ref type="bibl" target="Migne 083">P. L. LXXXIII 825</ref>)</ab>
+                        <incipit locusNew="170r">In subsequenti hoc libro</incipit>
+                        <rubric locusNew="170r">Incipit argumentum</rubric>
+                        <incipit locusNew="170r">Uenit nuper ad manus</incipit>
+                        <explicit locusNew="170r">ammonentis rationis</explicit>
+                        <ab>Text</ab>
+                        <incipit locusNew="170r">Anima mea in angustiis est</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="181v">Tu mihi supra uitam meam places. Amen</explicit>
+
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 31/10/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

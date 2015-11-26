@@ -1,0 +1,192 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC364">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>364</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>19. 13</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Medical Tracts. Iohannitius, Hippocrates, Theophilius, Philaretus, Galen</head>
+                <head type="James">Medica</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">242</height>
+                        <width unit="mm">160</width>
+                    </measureGrp>, <measureGrp type="James">9.5 x 6.3</measureGrp>, <extent>ff. 2 + 85</extent>,
+                        <layout>24 lines to a page</layout>. Cent. <origDate>xiii</origDate>
+                    <handNote>in a fine hand</handNote>.</p>
+
+                <p><label>Collation:</label> 2 flyleaves, <collation>1<num>8</num>-10<num>8</num> 11<num>6</num> (wants
+                        6)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>epar</secFol>.</p>
+
+                <p function="Provenance">From <name type="place">St. Augustine's, Canterbury</name>: on f.
+                        <locus>iv</locus>:<lb/> Liber <name type="person">Will<abbr rend="superscript">i</abbr> de
+                        Elham</name> qui intitulatur ysagoge ad tegni <name type="person">Galieni</name>.<lb/> De
+                    librario <name type="place">S. Aug. Cant.</name> Dist. xiiij<abbr rend="superscript">a</abbr>. Gra.
+                        III<abbr rend="superscript">us</abbr>.<lb/>
+                    <ref type="bibl" target="James 1903"><hi rend="italic">Ancient Libraries</hi>, p. 336, no.
+                        1202</ref>.</p>
+
+                <p function="Additions"><handNote>On f. <locus>iir</locus> a paragraph in a small hand<lb/>Cuiuslibet
+                        artis perfectio et integritas ad hominis usum<lb/>mentions various celebrated physicians and
+                        gives some definitions, ending:<lb/>Capitulum est brevis explicatio alicuius rei totius summam
+                        in se continens.<lb/>List of contents in the neat hand which appears in <ref type="ms"
+                            target="CTC115">Trinity College B. 4. 1.</ref></handNote><lb/>f. <locus>iiv</locus>
+                    blank.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-ii + 1-85 + c-d</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="13v">
+                        <head type="CCC">
+                            <name type="author">Iohannitius (Hunayn ibn Ishaq al-'Ibadi)</name>, <title>Isagoge ad Artem
+                                paruuum Galeni (transl. by <name type="author">Constantinus Africanus</name>)</title>
+                        </head>
+                        <rubric locus="1r">Incipiunt ysagoge <name type="author">Iohannicii</name> ad Tegni <name
+                                type="person">Galieni</name></rubric>
+                        <incipit locus="1r">Medicina diuiditur in duas partes</incipit>
+                        <explicit locus="13v">Boni maliue discretione</explicit>
+                        <rubric locus="13v">Expliciunt ysagoge <name type="author">Iohannicii</name> ad Tegni <name
+                                type="person">Galieni</name></rubric>
+                    </msItem>
+
+                    <msItem n="2" locusStart="13v" locusEnd="28r">
+                        <head type="CCC">
+                            <name type="author">Hippocrates</name>, <title>Aphorismata (transl. by <name type="person"
+                                    >Constantinus Africanus</name>)</title>
+                        </head>
+                        <rubric locus="13v">Incipit liber afforismorum <name type="author">ypocratis</name></rubric>
+                        <incipit locus="14r">Uita breuis ars longa</incipit>
+                        <ab>
+                            <handNote>Scholia in the hand of f. <locus locusNew="iir">1r</locus></handNote>
+                        </ab>
+                        <explicit locus="28r">desiccat corpora</explicit>
+                        <rubric locus="28r">Explicit liber afforismorum</rubric>
+                    </msItem>
+
+                    <msItem n="3" locusStart="28r" locusEnd="37v">
+                        <head type="CCC">
+                            <name type="author">Hippocrates</name>, <title>Prognostica cum commento <name type="person"
+                                    >Galieni</name> (transl. by <name type="person">Constantinus
+                                Africanus</name>)</title>
+                        </head>
+                        <rubric locus="28r">Incipit liber pronosticorum <name type="author">ypocratis</name></rubric>
+                        <incipit locus="28v">Omnis qui medicine artis studio</incipit>
+                        <explicit locus="37v">exposite ordine preceptorum</explicit>
+                        <rubric locus="37v">Explicit liber pronosticorum</rubric>
+                    </msItem>
+
+                    <msItem n="4" locusStart="37v" locusEnd="50r">
+                        <head type="CCC">
+                            <name type="author">Theophilus</name>, <title>Liber urinarum</title>
+                        </head>
+                        <rubric locus="38v" locusNew="37v">Incipit liber urinarum <name type="author"
+                            >theophili</name></rubric>
+                        <incipit locus="37v">De urinarum differentia negotium</incipit>
+                        <explicit locus="50r">conuenienter exposuimus</explicit>
+                    </msItem>
+
+                    <msItem n="5" locusStart="50r" locusEnd="54v">
+                        <head type="CCC">
+                            <name type="author">Philaretus</name>, <title>Liber pulsuum (preface)</title>
+                        </head>
+                        <head type="James">
+                            <title>Liber pulsuum <name type="author">philareti</name></title>
+                        </head>
+                        <incipit locus="50r">Intentionem habemus in presenti conscriptione</incipit>
+                        <explicit locus="54r">et hec nobis sufficiunt ad presentia</explicit>
+                        <ab>
+                            <decoNote>Diagrams neatly drawn in red and blue on f.
+                                <locus>54r</locus>-<locus>54v</locus></decoNote>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="6" locusStart="55r" locusEnd="85r">
+                        <head type="CCC">
+                            <name type="author">Galen</name>, <title>Tegni (Ars parua)</title>
+                        </head>
+                        <head type="James">
+                            <title>Tegni <name type="person">Galieni</name></title>
+                        </head>
+                        <incipit locus="55r">Tres sunt omnes doctrine</incipit>
+                        <explicit locus="84r">terminabo in eis orationem</explicit>
+                        <ab>Followed by paragraphs <handNote>in another very neat hand</handNote>
+                        </ab>
+                        <incipit locus="84r">(R)esuptiua uero et enutriens in conualescentibus</incipit>
+                        <explicit locus="85r">De omnibus futuros dicere alias immo fortasse uel duobus libris
+                            inscriptionem habituris. <name type="person">Galieni</name> de pro ... is
+                            conscriptionibus</explicit>
+                        <rubric locus="85r">Explicit liber tengni <name type="person">Galieni</name> Iatri (?)</rubric>
+                        <incipit locus="85r">Signa mortis. frons rubet</incipit>
+                        <explicit locus="85r">senes uero dormiunt</explicit>
+                        <ab locus="85v">blank</ab>
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 10/4/08</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

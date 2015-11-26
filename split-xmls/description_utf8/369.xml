@@ -1,0 +1,394 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC369">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>369</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>11. 8</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>329</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Chronicon regum Angliae ab adventu Saxonum ad Henricum III, continuatio eiusdem
+                    chronice ad Edwardum III</head>
+                <head type="James">Chronica, etc.</head>
+                <p function="Codicology"><material>Vellum and paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">221</height>
+                        <width unit="mm">143</width>
+                    </measureGrp>, <measureGrp type="James">8.5 x 5.8</measureGrp>, <extent>ff. 47</extent>,
+                        <layout>several volumes, varying numbers of lines</layout>. Cent. <origDate>xv and
+                        xiv</origDate>, <handNote>irregularly written in various rather careless and ugly
+                        hands</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1 (eleven (vide diagram) + slip) 2<num>12</num> (12 canc.) 3<num>8</num> 4<num>10</num> 5
+                        (paper: seven)</collation>. <figure xml:id="figure205b"/></p>
+
+                <p function="Provenance">Possibly from <name type="place">Lichfield</name>: see on f.
+                    <locus>40v</locus>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-8 + 8a + 9-48 + iii-iv</foliation>.</p>
+
+                <msContents>
+
+                    <textLang mainLang="lat" otherLangs="eng">Latin and English.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="4r">
+                        <head type="CCC">
+                            <title>Descriptio genealogiae comitum Cestriae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Descriptio genealogiae comitum Cestriae a primo comite <name type="person"
+                                    key="Hugh d'Avranches">Hugone Lupo</name> ad ultimum comitem <name type="person"
+                                    key="John de Scotia">Iohannem de Scotia</name></title>
+                        </head>
+                        <ab><layout>In double columns of 35 lines</layout>. Cent. <origDate>xiv-xv</origDate></ab>
+                        <incipit locusNew="1r">Descriptio geneolagie comitatum (!) cestrie a primo comite <name
+                                type="person" key="Hugh d'Avranches">hugone lowe latine lupo cognomine</name> usque ad
+                            ultimum comitem <name type="person" key="John de Scotia">iohannem de Scocia</name></incipit>
+                        <explicit locusNew="3v">Anno domini <date>m<abbr rend="superscript">o</abbr> cc<abbr
+                                    rend="superscript">o</abbr> liiij<abbr rend="superscript">o</abbr></date>
+                            <name type="person">henricus rex anglie</name> dedit <name type="person">Edwardo</name>
+                            filio suo primogenito comitatum cestrie et sic omnes primogeniti Regum anglie deinceps facti
+                            sunt comites Cestrie</explicit>
+                        <rubric locusNew="4r">Explicit etc.</rubric>
+                    </msItem>
+
+
+
+                    <msItem n="2" locusStart="4r" locusEnd="4v">
+                        <head type="CCC">
+                            <title>Laus Angliae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Laus Angliae: - tempora quibus ordines religiosi fundebantur - catalogus regum
+                                Saxonum, in uno folio</title>
+                        </head>
+
+                        <ab>
+                            <handNote>In other hands</handNote>
+                        </ab>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">a</hi>
+                            </ab>
+                            <rubric locus="4r">Ita scripsit quidam de laudibus anglie</rubric>
+                            <incipit locusNew="4r">
+                                <lg>
+                                    <l>Illa quidem longe celebri splendore beata</l>
+                                    <l>Glebis lacte fauis supereminet insula cuntis</l>
+                                    <l>...</l>
+                                    <l>Testis <name type="place" key="Ely">hely</name> formosa situ <name type="place"
+                                            >roucestria</name> visu</l>
+                                </lg>
+                            </incipit>
+                        </seg>
+
+                        <seg>
+                            <ab>
+                                <hi rend="bold">b</hi>
+                            </ab>
+                            <rubric locusNew="4r">Profecia domini <name type="person">Thome Wodstoke</name> quondam
+                                ducis glowcestrie</rubric>
+                            <incipit locusNew="4r">In domino confido morte dura nunc perio ob hoc dura morte
+                                peribunt</incipit>
+                            <explicit locusNew="4r">cordis eius sculpete in lapide cognito nam longe dies eius Deum
+                                venerari memento</explicit>
+                        </seg>
+
+                        <seg>
+                            <ab>
+                                <hi rend="bold">c</hi>
+                            </ab>
+                            <ab locus="4r">Dates of founding of Orders</ab>
+                            <incipit locusNew="4r">
+                                <lg>
+                                    <l>Anno domini <date>nongentes' xij</date>. Incepit ordo Cluniacensis</l>
+                                    <l>...</l>
+                                    <l>Anno domini <date>M<abbr rend="superscript">lo</abbr> cc<abbr rend="superscript"
+                                                >mo</abbr> decimo</date> Minorum</l>
+                                </lg>
+                            </incipit>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">d</hi>
+                            </ab>
+                            <ab locus="4v">Lists of Saxon kings (<layout>three columns</layout>)</ab>
+                            <ab><name type="place">Kent</name>. <name type="place">West Saxons</name>. <name
+                                    type="place">Mercia</name>. <name type="place">Northumbria</name>. <name
+                                    type="place">East Anglia</name>. <name type="place">East Saxons</name>. <name
+                                    type="place">South Saxons</name></ab>
+
+                            <ab>(1) <name type="person">Hengestus</name> - <name type="person">Baldredus</name><lb/>(2)
+                                    <name type="person">Cerdicius</name> - <name type="person">Egbrichtus</name><lb/>
+                                (3) <name type="person">Criddam</name> - <name type="person">Burchredus</name><lb/>(4)
+                                    <name type="person">Ida</name> - <name type="person">Ethelbertus</name><lb/> (5)
+                                    <name type="person">Vffa</name> - <name type="person">Eadwardus</name><lb/>(6) <name
+                                    type="person">Sledda</name> - <name type="person">Swythredus</name><lb/> (7) <name
+                                    type="person">Ellam</name> - <name type="person">Ethelwaldus</name></ab>
+                        </seg>
+                        <seg>
+                            <ab>
+                                <hi rend="bold">e</hi>
+                            </ab>
+                            <ab>Notes</ab>
+                            <incipit locusNew="4v">Anno domini <date>quadringetesimo quinquagesimo</date> vocati a rege
+                                    <name type="person">Wortigerno</name> Saxones</incipit>
+                            <explicit locusNew="4v">quorum duces fuerunt <name type="person">horsus</name> et <name
+                                    type="person">hengestus</name></explicit>
+                            <ab locusNew="4v">Conquestus anglie per <name type="person">Willelmum ducem normannie</name>
+                                <date>in festo Sancti Kalixti anno gracie m<abbr rend="superscript">mo</abbr> sexagesimo
+                                    sexto</date></ab>
+                            <incipit locusNew="4v">Anno gracie <date>dccc<abbr rend="superscript">o</abbr> .xxx. vj<abbr
+                                        rend="superscript">o</abbr></date> primo anno regni regis <name type="person"
+                                    >Edelwolphi</name> immisit dominus velut examina apum gentes crudelissimas</incipit>
+                            <explicit locusNew="4v">Et xxx<abbr rend="superscript">ta</abbr> annis terram hanc
+                                desolauerunt</explicit>
+                            <ab locusNew="4v">Anno <date>millesimo cc<abbr rend="superscript">o</abbr></date> ante
+                                incarnionem ... <name type="person">brutus</name> uenit, etc.</ab>
+                            <ab locusNew="4v">et regnauit xxiiij annis</ab>
+                        </seg>
+
+                    </msItem>
+
+
+                    <msItem n="3" locusStart="5r" locusEnd="40v">
+                        <head type="CCC">
+                            <title>Chronicon regum Angliae ab adventu Saxonum ad <name type="person">Henricum
+                                III</name>. anno <date>1216</date>, lib. vi</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Chronicon regum Angliae ab adventu Saxonum ad <name type="person">Henricum
+                                III</name>. anno <date>1216</date>, lib. vi </title>
+                        </head>
+
+                        <ab>
+                            <quote>Sextus liber continet catalogum episcopatuum abbatiarum prioratuum castellorum et
+                                decanatuum in quolibet Angliae comitatu, in comitatibus <name type="place">Leonis</name>
+                                et <name type="place">Fife</name> in <name type="place">Scotia</name>, et in <name
+                                    type="place">Wallia</name>; et an monachi vel moniales erant, albi vel nigri vel
+                                grisei. Opus ut videtur seculo <date>xiii</date> compilatum, episcopatus enim <name
+                                    type="person">Carliolensis</name> novus dicitur</quote>
+                        </ab>
+
+                        <ab locus="5r">Chronicle. Liber primus</ab>
+                        <rubric locusNew="5r">De participatione Anglie et quot regna fuerunt? in ea</rubric>
+
+                        <incipit locusNew="5r">Primum igitur erat regnum Cantuariorum. Secundum erat Westsaxonum ... et
+                            ab Anglis Anglia nuncupatur</incipit>
+
+                        <rubric locusNew="5r">De origine Anglorum</rubric>
+
+                        <incipit locusNew="5r">De tribus <name type="place">Germanie</name> populis venerunt
+                            angli</incipit>
+
+                        <ab locusNew="11v">Ends with list of kings to <name type="person">Henry V</name></ab>
+                        <ab locusNew="12r">Liber II</ab>
+                        <rubric locus="12r">De <name type="person">Ina</name> rege</rubric>
+
+                        <ab locusNew="17r">Liber III</ab>
+                        <rubric locus="17r">De <name type="person">Ricicardo duce Normannie</name> qui appellatus est
+                            filius <name type="person">will<abbr rend="superscript">i</abbr> Long spy</name></rubric>
+                        <ab>ff. <locus locusNew="17v">15v</locus> - <locus locusNew="22v">19r</locus> are from Liber V,
+                            Liber III continues at f. <locus locusNew="23r">20r</locus></ab>
+                        <ab>Liber IV</ab>
+                        <rubric locus="22v" locusNew="25v">Quomodo <name type="person">Robertus Willelmum
+                                Bastardum</name> genuit</rubric>
+                        <ab>But on f. <locus>30r</locus> we have Explicit liber tercius: followed by a note on the
+                            books</ab>
+                        <ab>Primus liber de particione anglie et quot regna fuerunt in ea, etc.</ab>
+                        <ab>Liber secundus de historiis anglorum usque ad conquestum et de gestis eorum</ab>
+                        <ab>Liber tercius de gestis normannorum usque ad <name type="person">Will. Bastard</name></ab>
+                        <ab>Item Liber quartus de gestis normannorum usque ad conquestum anglie per <name type="person"
+                                >Willelmum Bastardum</name></ab>
+                        <ab>Liber quintus de conquestus Anglie per <name type="person">Willelmum Bastardum</name> et de
+                            regibus succedentibus</ab>
+                        <ab>Liber sextus de descripcione comitatuum tocius britannie et de summa domuum
+                            religiosorum</ab>
+                        <ab>
+                            <handNote>In another hand:</handNote>
+                        </ab>
+                        <ab locus="30r">Notes on events in <date>1203</date>, <date>1204</date></ab>
+                        <ab locus="30v">Genealogy from <name type="person">Priam</name> to <name type="person"
+                                >Brutus</name>, and back to <name type="person">Noah</name></ab>
+                        <ab locus="31r">
+                            <handNote>Continues in former hand</handNote>
+                        </ab>
+                        <incipit locusNew="31r">Anno igitur domini <date>m<abbr rend="superscript">o</abbr> c<abbr
+                                    rend="superscript">o</abbr> nonagesimo nono</date> successit eidem <name
+                                type="person">Ricardo</name>
+                            <name type="person">Iohannes</name> frater suus</incipit>
+                        <explicit locusNew="32r">diaconus iudeus effectus degradatus est et in ignem a laicis
+                            proiectus</explicit>
+                        <ab>Liber VI</ab>
+                        <ab locus="32r">List of counties</ab>
+                        <incipit locusNew="32r">Has itaque sciras uel comitatus alio quidam numerant ordine,
+                            etc.</incipit>
+                        <ab locus="32v">List of religious houses and castles by counties. <supplied>(<layout>The list is
+                                    in tabular form, in three columns, arranged horizontally</layout>)</supplied></ab>
+
+                        <rubric locusNew="32v">I. <name type="place">Cancia</name></rubric>
+
+                        <ab locusNew="32v">
+                            <lg>
+                                <l><supplied>(Column I)</supplied> Archiepiscopatus</l>
+                                <l>
+                                    <supplied>(Column II)</supplied>
+                                    <name type="place">Cantuarie Sancte Trinitatis</name>
+                                </l>
+                                <l><supplied>(Column III)</supplied> monachi nigri</l>
+                            </lg>
+                        </ab>
+                        <ab>The last are <name type="place">Durham</name>, In <name type="place">Scocia</name> In <name
+                                type="place">loeneis (Lothian)</name> regis Scocie, In comitatu de <name type="place"
+                                >ffyff</name> in <name type="place">Scocia</name>, Episcopatus et Abbatie in <name
+                                type="place">Wallia</name></ab>
+                        <ab locus="40v">Ending</ab>
+                        <ab>Notes <handNote>in other hands</handNote> on <name type="person">St Chad</name> (one perhaps
+                                <handNote>in the hand of <name type="person">Roger Wall of
+                            Lichfield</name></handNote>)</ab>
+                        <ab>See <ref type="bibl" target="Hardy 1871">Hardy III</ref> 39, 43, 282</ab>
+
+                    </msItem>
+
+
+                    <msItem n="4" locusStart="41r" locusEnd="47r">
+                        <head type="CCC">
+                            <title>Continuatio ejusdem chronici (regum Angliae ab adventu Saxonum ad <name type="person"
+                                    >Henricum III</name>) ad <name type="person">Edwardum III</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Continuatio ejusdem chronici (regum Angliae ab adventu Saxonum ad <name type="person"
+                                    >Henricum III</name>) ad <name type="person">Edw. III</name></title>
+                        </head>
+
+                        <ab locus="41r">
+                            <material>Paper</material>
+                        </ab>
+                        <rubric locusNew="41r">Anno gracie <date>m<abbr rend="superscript">o</abbr> cc<abbr
+                                    rend="superscript">o</abbr> xvj<abbr rend="superscript">o</abbr></date></rubric>
+                        <incipit locusNew="41r"><name type="person">Henricus rex</name> filius <name type="person">regis
+                                Johannis</name> puer nouem annorum iussu Walonis legati unctus est in regem</incipit>
+                        <ab>Ends in <date>1337</date></ab>
+                        <ab locusNew="46v">Dominus Rex cepit lanam ad certum numerum saccorum, etc.</ab>
+                        <explicit locusNew="46v">tam mercatorum quam aliorum</explicit>
+                        <ab locus="46r" locusNew="47r">blank</ab>
+
+                    </msItem>
+
+
+                    <msItem n="5" locusStart="47v" locusEnd="48r">
+                        <head type="CCC">
+                            <title>Poem 'On the Rebellion of <name type="person">Jack Straw</name>'</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Versus de insurrectione plebis regnante <name type="person">Ricardo II</name></title>
+                        </head>
+
+                        <ab>
+                            <quote>Princip.<lb/>
+                                <q>Tax has tenet us alle, probat hoc mors tot validorum</q><lb/>
+                                <q>The kyng the of hade smalle fuit in manibus cupidorum.</q></quote>
+                        </ab>
+
+                        <rubric locus="46v" locusNew="47v">
+                            <date>xvi<abbr rend="superscript">o</abbr> kalendas Augusti anno domini millesimo ccc<abbr
+                                    rend="superscript">o</abbr> septuagesimo vij<abbr rend="superscript">o</abbr></date>
+                            Coronacio <name type="person">Regis Ricardi secundi</name> post conquestum anno etatis sue
+                            vndecimo</rubric>
+                        <incipit locusNew="47v">Tax has tenet vs alle probat hoc mors tot validorum ... baculus capiatur
+                            et equs</incipit>
+                        <ab>
+                            <ref type="bibl" target="Wright 1859">Wright, Political Poems (Rolls I 224)</ref>
+                        </ab>
+
+                    </msItem>
+
+
+                    <msItem n="6" locusStart="48v" locusEnd="48v">
+                        <head type="CCC">
+                            <title>Genealogy of the Hastangs family</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Genealogia familiae de <name type="person">Hastangs</name></title>
+                        </head>
+
+                        <rubric locus="47v" locusNew="48v">Gradus consanguinitatis talis est</rubric>
+                        <incipit locusNew="48v">Stipes et pater vocabatur <name type="person">Robertus de hastang</name>
+                            de quo processit <name type="person">Johannes hastang</name> filius suus et heres ac eciam
+                            quedam <name type="person">Johanna</name>, etc.</incipit>
+                        <ab><name type="person">Katherine</name> daughter of <name type="person">John</name> quondam
+                            uxor <name type="person">Radulphi Comitis Stafford</name> her daughter <name type="person"
+                                >Johanna</name> uxor domini <name type="person">Nicholi de Beeke</name></ab>
+                        <ab>her dau. <name type="person">Elizabet</name> uxor domini <name type="person">Roberti de
+                                Swynneston</name> in alia parte ultimo descripto adhuc viuentis</ab>
+                        <ab>The issue of <name type="person">Johanna Hastang</name> is then given</ab>
+
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 18/3/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

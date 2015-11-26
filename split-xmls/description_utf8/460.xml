@@ -1,0 +1,310 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC460">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>460</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Q. 10</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>262</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Robert Grosseteste (attrib.), Correctorium totius Bibliae. Alexander Nequam OSA,
+                    Corrogationes Promethei. Bartholomew Cotton OSB, Compilationes de libro Britonis</head>
+                <head type="James">Alex. Nequam, Brito, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">171</height>
+                        <width unit="mm">111</width>
+                    </measureGrp>, <measureGrp type="James">6.6 x 4.5</measureGrp>, <extent>ff. 1 + 182</extent>,
+                        <layout>27, 22 etc. single lines to page, and double columns of 35 lines</layout>. Cent.
+                        <origDate>xiii-xiv</origDate>, <handNote>in a good many hands</handNote>.</p>
+
+
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>12</num> 2<num>12</num> | 3<num>12</num> 4<num>14</num>
+                            5<num>12</num>-7<num>12</num> (wants 12) | 8<num>12</num>-13<num>12</num> (+ seven, (8
+                        wanting 8) after 9th leaf) | 14<num>8</num> | 15<num>10</num></collation>.</p>
+                <p><label>2 fo.:</label>
+                    <secFol>dictionis</secFol>.</p>
+
+                <p function="Provenance">From <name type="place" key="Thetford-001">Thetford</name> or <name
+                        type="place" key="Norwichx-001">Norwich</name>, probably the former.</p>
+
+                <p function="Additions">f. <locus>ir</locus>, pasted over, has prayers and receipts (2) on it. On f.
+                        <locus>iv</locus> a list of contents, followed by an erasure over which a Parkerian note
+                    (reference to <name type="person">Bale</name>) has been written.</p>
+                <p function="Additions"><name type="person">Bartholomew de Cotton</name> was a <name type="place"
+                        >Norwich</name> monk. See <ref type="bibl" target="Luard 1859">Luard's edition of his <hi
+                            rend="italic">Historia Anglicana</hi> in the Rolls Series, especially p. xviii</ref>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i + 1-182 + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="frm">Latin with occasional Anglo-Norman words in item
+                        2.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="24v">
+                        <head type="CCC">
+                            <name type="author">Robert Grosseteste (attrib.)</name>, <title>Correctorium totius
+                                Bibliae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author" key="Alexande-002">Alexandri Nequam</name> correctorium
+                                Bibliorum</title>
+                        </head>
+                        <rubric locus="1r">Correctorium biblie [per <name type="author" key="Alexande-002">Alex.
+                                Nequam</name> added <origDate>xvi</origDate>]</rubric>
+                        <incipit locusNew="1r">
+                            <lg>
+                                <l>Pupplica collegi cupiens prodesse pusillis</l>
+                                <l>...</l>
+                                <l>Attestante beda dux non onerosa legendo</l>
+                            </lg>
+                        </incipit>
+                        <rubric locusNew="1r">Finito prohemio incipit correctorium</rubric>
+                        <incipit locus="1r">Ut igitur de iam propositis aliquid (?) euidencius agatur a prosodia sic
+                            ordimur</incipit>
+                        <ab>Sections on orthography and 'distinctio' follow. Then (f. <locus>3v</locus>)</ab>
+                        <rubric locus="3v">In prologo biblie</rubric>
+                        <incipit locusNew="3v"><name type="person">Pauline</name> frater simplex pausa. <name
+                                type="person">Ambrosius</name> etc. Gl&#769;utino. S&#769;ubdola.
+                            Memph&#769;iticos, etc.</incipit>
+                        <ab>Ends with</ab>
+                        <rubric locusNew="24v">Apocalipsis</rubric>
+                        <explicit locusNew="24v">
+                            <lg>
+                                <l>scintillat ut aurum.</l>
+                                <l>Publica qui texit hic correctorius exit</l>
+                                <l>Si bene sit sic sic si non quis non maledixit</l>
+                            </lg>
+                        </explicit>
+                        <rubric locusNew="24v">Explicit correctorium super ordinem librorum Biblie</rubric>
+                    </msItem>
+
+                    <msItem n="2" locusStart="25r" locusEnd="37v">
+                        <head type="CCC">
+                            <name type="author">Alexander Nequam OSA</name>, <title>Corrogationes Promethei</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Tractatus ejusdem super Promattheum</title>
+                        </head>
+                        <ab locus="25r">
+                            <handNote>Smaller hand</handNote>
+                        </ab>
+                        <rubric locusNew="25r">Incipit tractatus <name type="author" key="Alexande-002">Alex.
+                                Nequam</name> secundum promatheum</rubric>
+                        <incipit locusNew="25r">Quoniam gramatice partes sint ortographia prosodia sunanologia (?) uel
+                            sintesis, etc.</incipit>
+                        <rubric locus="34r">Hic incipiunt prologi biblie secundum promatheum</rubric>
+                        <incipit locusNew="34r">Antequam ad expositionem partium librorum bibliotece</incipit>
+                    </msItem>
+
+                    <msItem n="3.1" locusStart="37v" locusEnd="68r">
+                        <head type="CCC">
+                            <name type="author">Alexander Nequam OSA (attrib.)</name>, <title>Corrogationes Promethei
+                                (alphabetical version)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Ejusdem elucidarium bibliothecae</title>
+                        </head>
+                        <incipit locus="37v">Posthec de singulis libris bibliotece</incipit>
+                        <ab>Words explained Abissus-Zelatus est legem .i. zelum doloris et inuidie habuit propter legem
+                            suam</ab>
+                        <rubric locusNew="68r">Explicit compendium super promatheum <name type="author"
+                                key="Alexande-002">Alexandri Nequam</name></rubric>
+                        <ab>followed by two short notes, and then a tract on accentuation</ab>
+                    </msItem>
+
+                    <msItem n="3.2" locusStart="68r" locusEnd="85v">
+                        <head type="CCC">
+                            <title>Tract on accentuation</title>
+                        </head>
+                        <rubric locus="67v" locusNew="68v">de accentu in mediis sillabis</rubric>
+                        <incipit locusNew="68v">Vocalis ante vocalem in diccionibus latinis corripitur</incipit>
+                        <ab>Ends with some general rules</ab>
+                        <explicit locus="85v">ut perlego obaudit</explicit>
+                    </msItem>
+
+                    <msItem n="4" locusStart="86r" locusEnd="152r">
+                        <head type="CCC">
+                            <name type="author">Bartholomew Cotton OSB</name>, <title>Compilationes de libro
+                                Britonis</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Optimae compilationes de libro Britonis secundum ordinem Alphabeti per <name
+                                    type="author">Bartholomeum de Cottune</name> compilatae A. D.
+                                <date>1291</date></title>
+                        </head>
+                        <ab>
+                            <handNote>In the first hand</handNote>
+                        </ab>
+                        <rubric locus="86r">Incipiunt optime compilaciones de libro britonis secundum ordinem alphabeti
+                            per <name type="author">bartholomeum de Cottune</name> compilate anno domini <date
+                                when-iso="1291">m<abbr rend="superscript">o</abbr> ducentesimo nonogesimo
+                            primo</date></rubric>
+                        <incipit locusNew="86r">Incipiendum est de a. Et nota quod a est preposicio, etc.</incipit>
+                        <ab>Ends with verses written over erasure</ab>
+                        <explicit locusNew="151r">
+                            <lg>
+                                <l>Hic ego doctorum compegi uerba sacrorum</l>
+                                <l> ...</l>
+                                <l>Te precor almorum comitem me fac monachorum</l>
+                                <l>Sorte beatorum quod sim uelut unus eorum</l>
+                            </lg>
+                        </explicit>
+                        <ab>Cf. <ref type="ms" target="CCC479">MS 479</ref></ab>
+                        <rubric locusNew="151r">Explicit compilacio de libro britonis [per <name type="author"
+                                >Bartholomeum de Cottune</name>
+                            <origDate>xvi</origDate>]</rubric>
+                        <ab locus="151v">some short notes <handNote>in another hand</handNote></ab>
+                        <ab locus="152r">Then <handNote>in a similar hand</handNote>, formulae relating to banns of
+                            marriage, etc.</ab>
+                    </msItem>
+
+                    <msItem n="5" locusStart="152v" locusEnd="153r">
+                        <head type="CCC">
+                            <title>Excommunication of despoilers of <name type="place">Thetford Priory</name>
+                                <date>1358</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sententia excommunicationis lata a <name type="person">Roberto de Totebrygge</name>
+                                episcopi Norwicensis commissario in eos qui monasterium de <name type="place"
+                                    >Thetford</name> spoliaverunt, <date>2 Feb. 1358</date></title>
+                        </head>
+                        <ab locus="152v">
+                            <handNote>In the same hand</handNote>
+                        </ab>
+                        <incipit locusNew="152v"><name type="author">Robertus de Totebrigge Rector ecclesie de
+                                Thoreswey</name> venerabilis patris domini <name type="person">Thome dei gratia
+                                Norwicensis episcopi</name> corector et comissarius generalis decanus de blakeborne
+                                <name type="place">Bokeland</name> et <name type="place">theford</name> (to the
+                            clergy)</incipit>
+                        <ab>The Prior and Convent of <name type="place">Thetford</name> have complained of a trespass,
+                            vessels stolen from the kitchen, fish caught, plants damaged</ab>
+                        <explicit locusNew="153r">Dat. apud <name type="place">thefford</name>
+                            <date when-iso="1358">xxii die febr. anno domini m<num>o</num> ccc<num>o</num>
+                                    lviii<num>o</num></date></explicit>
+                    </msItem>
+
+                    <msItem n="6" locusStart="153v" locusEnd="164v">
+                        <head type="CCC">
+                            <name type="author">John Stratford</name>, <title>Constitutiones de uita clericorum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Constitutiones quaedam ecclesiasticae</title>
+                        </head>
+                        <ab locus="153v">Constitutions</ab>
+                        <incipit locusNew="153v">Constituimus et voluimus quod in cunctis ecclesiis parochialibus per
+                            archidiaconos constitutis uniformis sit peticio decimarum</incipit>
+                        <ab locus="154v">blank</ab>
+                        <ab>The inserted leaves <handNote>in a somewhat earlier hand</handNote></ab>
+                        <rubric locus="155r">De vita et honestate clericorum rubrica</rubric>
+                        <incipit locusNew="155r">Exterior habitus mores et condiciones intrinsecas personarum frequenter
+                            ostendit</incipit>
+                        <ab locus="162r">Continued in the hand of 5</ab>
+                        <ab locus="164v">ending unfinished or imperfect</ab>
+                    </msItem>
+
+                    <msItem n="7" locusStart="165r" locusEnd="172v">
+                        <head type="CCC">
+                            <title>Exposition prefacionis missae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Expositio praefationis missae</title>
+                        </head>
+                        <ab>
+                            <layout>Double columns</layout>
+                        </ab>
+                        <rubric locus="165r">Exposicio prefacionis Misse</rubric>
+                        <incipit locusNew="165r">Te igitur post prefacionem significantem (?) ea que precesserunt
+                            christi passionem</incipit>
+                        <ab>Ends imperfectly in the exposition of the Lord's Prayer (<hi rend="italic">in
+                            celis</hi>)</ab>
+                    </msItem>
+
+                    <msItem n="8" locusStart="173r" locusEnd="182v">
+                        <head type="CCC">
+                            <name type="author">Hugh of Saint-Cher OP</name>, <title>Expositio missae siue Speculum
+                                ecclesiae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Speculum ecclesie</title>
+                        </head>
+                        <ab><handNote>A larger hand</handNote>, <layout>double columns</layout></ab>
+                        <rubric locus="173r">Incipit speculum ecclesie et primo de uestibus</rubric>
+                        <incipit locusNew="173r">Dicit apostolus ad epheseos. Induite uos armatura dei</incipit>
+                        <explicit locusNew="182v">oratio misericordiam dei significat que precedit et subsequitur
+                            hominem in bonis operibus</explicit>
+                        <rubric locusNew="182v">Explicit tractatus misse</rubric>
+                        <ab>By <name type="author">Hugo de S. Caro</name>. Attributed to <name type="person">John
+                                Peckham</name></ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJM 9.1.2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

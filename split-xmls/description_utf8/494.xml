@@ -1,0 +1,129 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC494">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>494</idno>
+                    <altIdentifier type="Stanley">
+                        <idno/>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno/>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Laurent d'Orléans OP, La somme le roi, translated into Middle English</head>
+                <head type="James">[Untitled]</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">200</height>
+                        <width unit="mm">142</width>
+                    </measureGrp>, <measureGrp type="James">7.9 x 5.8</measureGrp>, <extent>ff. 117</extent>, <layout>25
+                        lines to a page</layout>. Cent. <origDate>xv</origDate>, <handNote>in two clear
+                    hands</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>quire gone | 1<num>12</num>-10<num>12</num> (wants 10-12)</collation>.</p>
+
+                <p function="Provenance">In the cover <supplied>(f. <locus>iv</locus>)</supplied>:<lb/> Ex dono
+                    dignissimi viri <name type="person">Johannis Boothe</name>
+                    <name type="place">Collegii Corp. X<abbr rend="superscript">ti</abbr> in Cant.</name> dudum socii.<lb/>
+                    <name type="person">John Booth</name> was Fellow <date>1627-40</date>. He bequeathed a printed book
+                    to the College and says <name type="person">Masters</name> (<ref type="bibl"
+                        target="Masters and Lamb 1831">Lamb, p. 175</ref>) <q>at the same time a MS. of his own was
+                        presented, whose contents I could never learn.</q> Probably this is the volume in question.</p>
+                <p>Numbered 40 among printed books.</p>
+                <p function="Additions">Old stamped binding over boards, clasps gone.</p>
+                <p function="Additions">The covers are lined with portions of 2 leaves <supplied>(f.
+                            <locus>ir</locus>-<locus>iv</locus>, f. <locus>iir</locus>-<locus>iiv</locus>)</supplied> of
+                    a <origDate>xiv</origDate>th cent. MS. <layout>in double columns</layout> in French prose, perhaps
+                    from a romance. The name <name type="person">Galelzout</name>
+                    <supplied>(Galehot)</supplied> occurs several times.</p>
+                <p>An English version of the <hi rend="italic">Somme le Roy</hi> of <name type="author">Frere
+                        Laurent</name>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i + 1-117 + ii. Partially imaged: front cover exterior and interior + ff. 49r-53v +
+                        back exterior only</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="enm" otherLangs="fro">Middle English with Old French on pastedowns.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="117v">
+                        <head type="CCC">
+                            <name type="author">Laurent d'Orléans OP</name>, <title>La somme le roi, translated into
+                                English</title></head>
+                        <ab locus="1r">Begins imperfectly</ab>
+                        <incipit locus="1r">unauysed he deyeth that lerneth not to deye. thu shuldest lerne to dye if
+                            thu kowdest weel lefe</incipit>
+                        <ab locus="34r">Liber II</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="117v">to whom be all honour wiche vs brynge to hys companye where is euere
+                            lastyng lyf. Amen</explicit>
+                        <rubric locus="117v">This book compyled and made yn frensch a frer prechour at the Requeste of
+                                <name type="person">Phylypp the kyng of fraunce</name> the yer of thyncarnacion of our
+                            lord <date>m<abbr rend="superscript">l</abbr> cc lxxix</date></rubric>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, SP, CF</p>
+                            <p>msCheck: SP 12/8/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

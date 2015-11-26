@@ -1,0 +1,268 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC511">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>511</idno>
+                    <altIdentifier type="Elbing">
+                        <idno>N. 13</idno>
+                    </altIdentifier>
+
+                </msIdentifier>
+                <head type="CCC">Medical Tracts and Receipts</head>
+                <head type="James">[Untitled]</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">280</height>
+                        <width unit="mm">195</width>
+                    </measureGrp>, <measureGrp type="James">11 x 7.5</measureGrp>, <extent>ff. 139</extent>,
+                        <layout>various numbers of lines to a page</layout>. Cent. <origDate>xiii late</origDate>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>12</num>-4<num>12</num> 5<num>14</num> 6<num>12</num> | 7<num>8</num>-9<num>8</num>
+                        (8 canc.) 10<num>12</num> (wants 3) 11<num>12</num> 12<num>12</num> 13<num>6</num>
+                        (+1)</collation>.</p>
+
+                <p function="Provenance">Probably written in <name type="place">England</name>.<lb/> The binding is that
+                    of the bulk of the Parker MSS., of <date>cent. xviii</date>.<lb/> The book is clearly not one of the
+                    Elbing collection though reckoned with them in an old manuscript list. It does not contain <name
+                        type="person">Mary Pernham</name>'s name, and is not in a German hand.</p>
+                <p function="Additions">On f. <locus>1r</locus> top L. corner is <q>hanle</q>.</p>
+                <p function="Additions" rend="withinContents"><decoNote>There are some small drawings, grotesques, etc.,
+                        in the margin</decoNote> and occasionally glosses in French and English.</p>
+                <p type="CCC">
+                    <foliation> ff. 1-79 + 79a + 80-89 + 89a + 90-93 (94 missing) + 95-98 (99 missing) + 100-139
+                    </foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="frm enm">Latin, Anglo-Norman and English.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="59r">
+                        <head type="CCC">
+                            <name type="author">Constantinus Africanus OSB</name>, <title>Viaticum</title>
+                        </head>
+
+                        <head type="James">
+                            <title><name type="author">Constantini Africani</name> Breuiarius</title>
+                        </head>
+                        <ab>
+                            <layout>Double columns of 39 lines</layout>
+                        </ab>
+                        <incipit locusNew="1r">Quoniam quidem (?) ut in rethorica tullius omne inquit
+                            expetendum</incipit>
+                        <explicit locusNew="1r">et quo libro inueniat</explicit>
+                        <ab locusNew="1r">Capitula. De allopicia - De epilepsia</ab>
+                        <rubric locusNew="1r">De allopicia</rubric>
+                        <incipit locusNew="1r">Capillus ex fumo grosso nascitur</incipit>
+                        <ab locus="10v">Liber II</ab>
+                        <ab locus="17v"><supplied>Liber</supplied> III</ab>
+                        <ab><handNote>change of hand</handNote> on ff. <locus>22r</locus> and <locus>25r</locus></ab>
+                        <ab locus="27r">Liber IV</ab>
+                        <ab locus="36r"><supplied>Liber</supplied> V</ab>
+                        <ab locus="46r"><supplied>Liber</supplied> VI</ab>
+                        <ab locus="50v"><supplied>Liber</supplied> VII</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="59r">concule marine incense cum ro multum ualent</explicit>
+                    </msItem>
+
+                    <msItem n="2" locusStart="59v" locusEnd="74r">
+                        <head type="CCC">
+                            <name type="author">pseudo-Galen</name>, <title>Anatomia uiuorum</title>
+                        </head>
+                        <rubric locus="59v">Liber anathomie incipit</rubric>
+                        <incipit locusNew="59v">Medicorum anathomiam necesse est precognoscere</incipit>
+                        <explicit locusNew="74r">et tardatur consolidacio</explicit>
+                        <rubric locus="74r">Explicit Anathomia</rubric>
+                        <ab>On f. <locus>74r</locus>-<locus>74v</locus> are medical verses, receipts, words written
+                            backwards, simple cyphers <decoNote>and sketches</decoNote>, but nothing to indicate
+                            provenance</ab>
+                    </msItem>
+
+                    <msItem n="3" locusStart="75r" locusEnd="80v">
+                        <head type="CCC">
+                            <name type="author">Giles of Corbeil</name>, <title>De urinis, with the commentary of <name
+                                    type="person">Gilbertus Anglicus</name></title>
+                        </head>
+
+                        <head type="James">
+                            <title><name type="author">Egidius of Corbeil</name>: versus de urinis</title>
+                        </head>
+                        <ab>Text <layout>28 and 25 lines to a page and marginal comment</layout></ab>
+                        <incipit locusNew="75r">Dicitur urina quoniam sit renibus una</incipit>
+                        <ab>Gloss</ab>
+                        <incipit locusNew="75r"><name type="author">Egidius</name> facit de urinis metricum tractatum ut
+                            in memoria facilius habeatur</incipit>
+                        <ab>Ends</ab>
+                        <explicit locusNew="80v">Aggrauat et cumulat mala circumstancia culpam</explicit>
+                        <rubric locusNew="80v">Expliciunt uersus <name type="author">egidii</name></rubric>
+                        <ab>Others follow</ab>
+                        <incipit locus="80v">Sicut aque pure color est qui dicitur albus</incipit>
+                        <ab locus="81v">A receipt <hi rend="italic">Pro osse fracto</hi> of cent.
+                                <origDate>xv</origDate> partly in English</ab>
+                    </msItem>
+
+                    <msItem n="4" locusStart="81v" locusEnd="93v">
+                        <head type="CCC">
+                            <name type="author">Archimatheus Salernitanus (attrib.)</name>, <title>Modus medendi</title>
+                        </head>
+
+                        <head type="James">
+                            <title>Tractatus de modo medendi</title>
+                        </head>
+                        <ab>
+                            <layout>Double columns of 36 lines</layout>
+                        </ab>
+                        <incipit locusNew="81v">In medendis corporibus et maxime purgandis</incipit>
+                        <ab locus="93v">Ends (imperfectly?) with section on <hi rend="italic">Dyagdium</hi></ab>
+                        <ab>f. <locus>94r</locus>-<locus>94v</locus> gone</ab>
+                    </msItem>
+
+                    <msItem n="5" locusStart="95r" locusEnd="113r">
+                        <head type="CCC">
+                            <name type="author">Isaac Iudaeus (Ishaq Ibn Suleiman)</name>, <title>De dietis
+                                uniuersalibus et particularibus (transl. by <name type="person">Constantinus
+                                    Africanus</name> or <name type="person">Gerard of Cremona</name>)</title>
+                        </head>
+                        <head type="James">
+                            <title>Diete particulares <name type="author">Isaac</name></title>
+                        </head>
+                        <ab>
+                            <layout>double columns of 53 lines</layout>
+                        </ab>
+                        <ab>Beginning with liber II</ab>
+                        <incipit locusNew="95r">Compleuimus in primo libro</incipit>
+                        <ab locus="103r">Liber III</ab>
+                        <ab locus="106v"><supplied>Liber</supplied> IV</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="113r">in urinalibus creat uiis</explicit>
+                        <rubric locusNew="113r">Expliciunt diete particulares secundum <name type="author"
+                            >Ysaac</name></rubric>
+                        <ab locusNew="113r">Receipts one in French (<origDate>xiii</origDate>) Icci sunt le xxxiii
+                            chapitres pour rancle, others in English (<origDate>xv</origDate>
+                            <handNote>in the hand of f. <locus>81v</locus></handNote>)</ab>
+                    </msItem>
+
+                    <msItem n="6" locusStart="113v" locusEnd="134v">
+                        <head type="CCC">
+                            <name type="author">John of Saint-Paul</name>, <title>Breuiarum de signis morborum
+                                (practica) (incomplete)</title>
+                        </head>
+                        <ab locus="113v">Platearius</ab>
+                        <incipit locusNew="113v">Amicum induit qui iustis amicorum precibus</incipit>
+                        <ab>Ends unfinished on <hi rend="italic">Lepra</hi></ab>
+                        <explicit locus="134v">rubea fiunt in corpore minuta</explicit>
+                    </msItem>
+
+                    <msItem n="7" locusStart="135r" locusEnd="135r">
+                        <head type="CCC">
+                            <title>Medical receipt</title>
+                        </head>
+                        <ab>Column 1</ab>
+                        <ab locus="135r">A receipt in Latin <handNote>in the <origDate>xvth cent.</origDate>
+                                hand</handNote></ab>
+                        <incipit locusNew="135r">Contra dolorem in brachiis, etc.</incipit>
+                    </msItem>
+
+                    <msItem n="8" locusStart="135r" locusEnd="136r">
+                        <head type="CCC">
+                            <title>Medical receipts</title>
+                        </head>
+                        <ab>Column 2</ab>
+                        <ab locus="135r">Receipts in Latin <origDate>xiii</origDate></ab>
+                        <incipit locusNew="135r">Apostolicon sic fit</incipit>
+                        <ab locus="136r">Receipts <origDate>xv</origDate></ab>
+                    </msItem>
+
+                    <msItem n="9" locusStart="136v" locusEnd="138v">
+                        <head type="CCC">
+                            <name type="author">John of Saint-Paul</name>, <title>De simplicium medicinarum
+                                uirtutibus</title>
+                        </head>
+
+                        <head type="James">
+                            <title>De simplicibus medicinis</title>
+                        </head>
+                        <ab>
+                            <layout>Six columns on a page</layout>
+                        </ab>
+                        <incipit locus="136v">Cogitanti mihi de simplicium medicinarum uirtutibus</incipit>
+                        <explicit locus="138v">secundum <name type="person">haly .iii.</name> et <name type="person"
+                                >ypocrates</name> de regendis</explicit>
+                        <ab>The next (and last leaf) is numbered f. <locus>147r</locus>-<locus>147v</locus></ab>
+                    </msItem>
+
+                    <msItem n="10" locusStart="147r" locusEnd="147r">
+                        <head type="CCC">
+                            <title>De urinis</title>
+                        </head>
+                        <head type="James">
+                            <title>De urinis</title>
+                        </head>
+                        <rubric locus="147r">Plurima sunt que ad urine iudicium exiguntur</rubric>
+                        <ab locus="147v">Receipts in other hands <origDate>xiii</origDate> and <origDate>xiv</origDate>,
+                            three of the former being in French</ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 17/12/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,435 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC318">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>318</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>D. 11</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>41</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Lives of Saints and Romances</head>
+                <head type="James">Ailredi Vita S. Edwardi. Eadmeri Vita Anselmi. Apollonius Tyrius, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">237</height>
+                        <width unit="mm">165</width>
+                    </measureGrp><measureGrp type="James">9.3 x 6.7</measureGrp>, <extent>ff. 4 + 184 + 73 + 4</extent>,
+                        <layout> single and double columns, two volumes</layout>. Cent. <origDate>xii</origDate>,
+                        <handNote>in the <name type="place">Christ Church</name> hand or one modelled
+                    thereon</handNote>.</p>
+
+
+
+                <p function="Multivolume"><lb/><label>Volume I:</label>
+                    <layout>25 lines to a page</layout>.<lb/>
+                    <label>Volume II:</label>
+                    <layout>Double columns of 36 and 26 lines</layout>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>a<num>4</num> I<num>8</num>-XXIII<num>8</num> || a<num>8</num> b<num>8</num> (4 canc.)
+                            c<num>6</num> d<num>8</num> e<num>8</num> f<num>8</num> (8 canc.) g<num>8</num>
+                            h<num>4</num> | i<num>10</num> k<num>8</num> (wants 8) | b<num>4</num></collation>.</p>
+
+                <p function="Additions">On f. <locus>iir</locus> a list of contents (<origDate>xii</origDate>): <q>In
+                        hoc <supplied>libro</supplied> continentur hec opuscula. (1) Vita <name type="person">sancti
+                            eadwardi Regis et confessoris</name> ... (11) Historia <name type="person">apollonii
+                            tyrii</name></q>.<lb/>
+                    <decoNote>In red</decoNote>: <q>Liber <name type="place">Sancti Andree apostoli de
+                            Rouecestria</name> qui eum alienauerit anathema sit. Amen</q>.</p>
+
+                <p function="Additions">On <locus locusNew="iiir">iir</locus> some incomplete notes
+                        (<origDate>xii</origDate>):<lb/><q>Vel. ecce salus mundi<lb/> Salue summa salus. uerbum patris.
+                        hostia sacra<lb/> Viua caro. deitas integra. uerus homo.<lb/> Aue principium nostre
+                        creationis</q> etc. in tabular form.</p>
+
+                <p function="Additions">On <locus locusNew="iiiv">iiv</locus> a list of chapters (1-24) of the Life of
+                        <name type="person">St Edward</name> (<origDate>xiii</origDate>)</p>
+
+                <p function="Provenance">On f. <locus>ivv</locus>: <q>Hic liber datus <name type="person">Mattheo
+                            Cantuar</name> a <name type="person">decano roffensi</name></q>.</p>
+                <p function="Provenance">At bottom of p. <locus>1</locus> on a slip replacing a cut-off margin: <q>Liber
+                        de Claustro <name type="place">Roffensi</name>. Per <name type="person">fratrem Willelmum de
+                            Cornubia</name> monachum</q>.</p>
+
+                <p function="Research">I do not find this book mentioned in the old catalogues <ref type="bibl"
+                        target="Coates 1866">Arch. Cant. VI</ref>, etc. and <ref type="ms" target="LBLB12">Royal MS. 2
+                        B. XII</ref>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a + i-iv + pp. 1-172 + 172a-b + 173-202 + 202a-b + 203-322 + 322a-b + 323-450
+                        (451-452 missing) + 453-518 + f. b</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="1" locusEnd="140">
+                        <head type="CCC"><name type="author">Aelred of Rievaulx OCist</name>, <title>Vita <name
+                                    type="person">Sancti Edwardi regis et confessoris</name></title></head>
+                        <head type="Nasmith">
+                            <title><name type="author">Eilredi Rievallensis abbatis</name> vita <name type="person"
+                                    >sancti Edwardi regis et confessoris</name></title>
+                        </head>
+                        <rubric locus="1">Incipit prologus domini <name type="author">Eilredi rieuallensis
+                                abbatis</name> de uita <name type="person">Sancti eadwardi Regis et confessoris</name>
+                            pridie nonas Januarii</rubric>
+                        <incipit locusNew="1">Multis ueterum studio fuisse didicimus</incipit>
+                        <explicit locusNew="3">cum eo optineas felicitatem</explicit>
+                        <rubric locusNew="3">Explicit prologus</rubric>
+                        <rubric locusNew="3">Incipit epistola <name type="author">aeilredi abbatis Rieuallis</name> ad
+                                <name type="person">abbatum Laurentium Westmonasterii</name></rubric>
+                        <incipit locus="3">Dilecto et diligendo et intimis uisceribus</incipit>
+                        <explicit locusNew="5">opitulatione donetur</explicit>
+                        <rubric locusNew="5">Explicit epistola</rubric>
+                        <rubric locus="5">Incipit vita beatissimi confessoris Christi <name type="person">aedwardi
+                                gloriosi regis anglorum</name></rubric>
+                        <incipit locusNew="6">Gloriosi ac deo dilecti <name type="person">regis aedwardi</name>
+                            uitam</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="129" locusNew="139">omnium corda commovit (vel -nuit)</explicit>
+                        <rubric locusNew="140">Explicit vita <name type="person">Sancti aedwardi</name> regis</rubric>
+
+                        <ab>In <ref type="bibl" target="Twysden 1652">Twysden's Decem Scriptores</ref>, <ref type="bibl"
+                                target="Migne 195">P. L. CXCV</ref> etc.</ab>
+                        <ab>Cf. <ref type="ms" target="CCC161">MS 161. 16</ref></ab>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Bollandists 1898-99">BHL 2423</ref>
+                            </supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="2" locusStart="140" locusEnd="297">
+                        <head type="CCC">
+                            <name type="author">Eadmer of Canterbury OSB</name>, <title>Vita <name type="person">Sancti
+                                    Anselmi</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>[<name type="author">Eadmeri</name>] vita <name type="person">Anselmi Cantuariensis
+                                    archiepiscopi</name></title>
+                        </head>
+
+                        <rubric locus="140">Incipit prefatio sequentis operis</rubric>
+                        <incipit locusNew="140">Quoniam multas et antecessorum nostrorum temporibus</incipit>
+                        <explicit locusNew="141">sine illo sufficere posse pronuntio</explicit>
+                        <rubric locusNew="141">Explicit prefatio</rubric>
+                        <rubric locus="141">Incipit liber primus de vita et conuersatione <name type="person">Anselmi
+                                Cantuariensis archiepiscopi</name></rubric>
+                        <incipit locusNew="141">Instituta vite et conuersationis <name type="person"
+                            >Anselmi</name></incipit>
+                        <ab locus="210">Liber II</ab>
+                        <ab locusNew="269">
+                            <handNote>Change of hand at p. <locus>269</locus></handNote>
+                        </ab>
+
+                        <explicit locusNew="297">ad notitiam retributionis uite et conuersationis eius. sit itaque deo
+                            omnipotenti patri et filio et sancto Spiritui laus et gratiarum actio nunc et per omnia
+                            seculorum secula. amen</explicit>
+
+                        <ab>See <ref type="bibl" target="Rule 1884">M. Rule, Eadmeri Historia, etc., p. lxxxviii, Rolls
+                                Series</ref>. He uses this MS. (which he calls C) for his text, printed in that
+                            volume</ab>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Bollandists 1898-99">BHL 525-6</ref>
+                            </supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="297" locusEnd="355">
+                        <head type="CCC">
+                            <name type="author">Gilbert Crispin OSB</name>, <title>Vita <name type="person">Herluini
+                                    abbatis</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Vita <name type="person">Herlewini Beccensis abbatis</name></title>
+                        </head>
+                        <incipit locus="297">Quoniam in re militari que quis memoratu digna egit</incipit>
+                        <explicit locusNew="298">monachum fieri portentum habebatur</explicit>
+                        <incipit locusNew="298">A danis qui <name type="place">normanniam</name> primi
+                            obtinuere</incipit>
+                        <ab>Ends p. <locus>355</locus> with the epitaph</ab>
+                        <explicit locusNew="355">Credere namque tuis hoc licet ex meritis</explicit>
+
+                        <ab><ref type="bibl" target="d'Achery 1648">App. ad Opp. Lanfranci 1648, p. 32</ref>, <ref
+                                type="bibl" target="Migne 150">P. L. CL</ref></ab>
+                        <ab>Attributed to <name type="author">Gilbertus Crispinus</name>, Abbot of Westminster</ab>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Bollandists 1898-99">BHL 3836</ref>
+                            </supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="4" locusStart="356" locusEnd="362">
+                        <head type="CCC">
+
+                            <title>Vita <name type="person">venerabilis Bedae</name></title>
+
+                        </head>
+                        <head type="Nasmith">
+                            <title>Vita <name type="person">venerabilis Bedae</name> presbiteri</title>
+                        </head>
+                        <ab locusNew="356">
+                            <handNote>In a different hand</handNote>
+                        </ab>
+                        <rubric locus="356">Incipit vita <name type="person">uenerabilis Bede</name> presbiteri</rubric>
+                        <incipit locusNew="356">Venerabilis <supplied agent="RJR"
+                            >domini</supplied><!--Correcting James' "dei"--> famulus <name type="person">Beda</name>
+                            presbiter et monachus natus est in <name type="place">prouincia
+                            northanhimbrorum</name></incipit>
+                        <explicit locusNew="357">ipsius de semetipso dicta congruum subiungere uidetur</explicit>
+                        <incipit locusNew="357">Ego inquit <name type="person">Beda</name> famulus christi</incipit>
+                        <explicit locus="359">quibus scriptura sancta contexta est. Cum ergo hos libros peruigili studio
+                            edidisset obiit. vii<abbr rend="superscript">mo</abbr> kal. Junii. ... <name type="person"
+                                >cuthbertus</name> ... ad condiscipulum taliter scribens</explicit>
+                        <incipit locusNew="359">Dilectissimo inquit in Christo collectori <name type="person"
+                                >cuthwino</name></incipit>
+                        <ab>No Anglo-Saxon passage occurs</ab>
+                        <explicit locusNew="362">ineruditio lingue facit</explicit>
+                        <rubric locusNew="362">Explicit uita uenerabili <name type="person">Bede</name>
+                            presbiteri</rubric>
+
+                        <ab>Printed by <ref type="bibl" target="Whelock 1643">Whelock in the preface to his edition of
+                                the Historia</ref>, from this MS. <ref type="bibl" target="Hardy 1862a">Hardy I
+                                454</ref>. Cf. <ref type="bibl" target="Henschenius et al 1688b">Acta Sanctorum, May,
+                                VII 720</ref></ab>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Bollandists 1898-99">BHL 1070</ref>
+                            </supplied>
+                        </ab>
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="5" locusStart="363" locusEnd="404">
+                        <head type="CCC">
+                            <name type="author">pseudo-Calixtus II (Guido of Burgundy)</name>, <title>Liber <name
+                                    type="person">Sancti Iacobi</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Calixtus</name> de miraculis et translatione <name type="person"
+                                    >sancti Jacobi</name> cum epistola <name type="author">Leonis papae</name> de eadem
+                                translatione</title>
+                        </head>
+
+                        <rubric locus="363">Incipit prefatio <name type="person">Calixti pape</name> de miraculis <name
+                                type="person">Sancti Iacobi apostoli</name> et de translatione corporis eius</rubric>
+                        <incipit locusNew="363"><name type="person">Calixtus episcopus</name> ... Heroibus
+                            famosissimis</incipit>
+                        <explicit locusNew="364">describitur statuimus</explicit>
+                        <rubric locus="364">Prologus <name type="person">Calixti pape</name> super translatione <name
+                                type="person">Sancti Iacobi apostoli</name></rubric>
+                        <incipit locusNew="364">Hanc <name type="person">beati Iacobi</name> translationem a nostro
+                            codice excludere</incipit>
+                        <incipit locus="365">Clericus quidam mihi notus</incipit>
+                        <incipit locusNew="365">Post saluatoris nostri passionem</incipit>
+
+                        <explicit locusNew="370">perhenniter manet in secula seculorum. Amen</explicit>
+                        <rubric locus="370">Epistola <name type="author">Leonis pape</name> de translatione <name
+                                type="person">Sancti Jacobi apostoli</name></rubric>
+                        <incipit locusNew="370">Noscat uestra fraternitas dilectissimi rectores</incipit>
+                        <rubric locus="372">De tribus sollempnitatibus <name type="person">Sancti Iacobi</name></rubric>
+                        <incipit locusNew="372"><name type="person">Beatus lucas euangelista</name> in actibus</incipit>
+                        <explicit locusNew="375">et decorabantur</explicit>
+                        <rubric locus="375">De miraculis <name type="person">Sancti Iacobi</name> que <name
+                                type="author">Calixtus papa</name> in unum collegit</rubric>
+                        <incipit locusNew="375">Opere precium est <name type="person">beati Iacobi apostoli</name>
+                            miracula</incipit>
+                        <ab locusNew="376">Capitula</ab>
+                        <rubric locus="376">Incipit liber miraculorum <name type="person">Sancti Jacobi
+                            apostoli</name></rubric>
+                        <incipit locusNew="377"><name type="person">Beatus Iacobus apostolus</name> cum summa obedientie
+                            passionis dolorem</incipit>
+
+                        <explicit locusNew="404">in his sacris sollempniis prestante domino nostro Ihesu Christo qui
+                            uiuit et regnat in secula. amen</explicit>
+                        <rubric locusNew="404">Expliciunt miracula <name type="person">Sancti Jacobi
+                            apostoli</name></rubric>
+
+                        <ab>See <ref type="bibl" target="Sollerius et al 1729">Acta Sanctorum, July, vol. VI
+                            47</ref></ab>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Bollandists 1898-99">BHL 4072</ref>
+                            </supplied>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="6" locusStart="405" locusEnd="454">
+                        <head type="CCC">
+                            <name type="author">pseudo-Turpinus</name>, <title>Historia <name type="person">Caroli
+                                    magni</name> et <name type="person">Rolandi</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Turpini</name> historia <name type="person">Caroli
+                                magni</name></title>
+                        </head>
+                        <rubric locusNew="405">Incipit liber <name type="author">Turpini archiepiscopi Remensis</name>
+                            quomodo <name type="person">karolus magnus</name> rex francorum adquisiuit <name
+                                type="place">hispaniam</name>. Hunc librum dicit <name type="person">Calixtus
+                                papa</name> esse autenticum. Quomodo <name type="person">Sanctus Jacobus
+                                apostolus</name> apparuit etc.</rubric>
+                        <incipit locusNew="405">Gloriosissimus Christi <name type="person">apostolus Iacobus</name>
+                            aliis apostolis</incipit>
+                        <ab locusNew="421">
+                            <handNote>Change of hand at p. <locus>421</locus></handNote>
+                        </ab>
+                        <ab>Ends p. <locus>454</locus> (falling of wall at <name type="place">Grenoble</name>)</ab>
+                        <explicit locusNew="454">et est mirabile in oculis nostris.<lb/> Qui legis hoc carmen <name
+                                type="author">Turpino</name> posce iuuamen. Ut pietate dei subueniatur ei</explicit>
+                        <rubric locusNew="454">Explicit liber <name type="author">Turpini</name> archiepiscopi de gestis
+                                <name type="person">regis karoli</name></rubric>
+                        <ab>Cf. <ref type="ms" target="CCC292">MS 292</ref>, <ref type="ms" target="CCC414">MS
+                            414</ref></ab>
+                    </msItem>
+
+                    <msItem n="7" locusStart="454" locusEnd="459">
+                        <head type="CCC">
+                            <name type="author">pseudo-Calixtus II (Guido of Burgundy)</name>, <title>De inventione
+                                corporis <name type="person">Turpini</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Calixtus papa</name> de inventione corporis <name type="person"
+                                    >Turpini</name></title>
+                        </head>
+
+                        <rubric locus="454"><name type="author">Calixtus papa</name> de inuentione corporis
+                                <supplied>Turpini</supplied> archiepiscopi et martiris</rubric>
+                        <incipit locusNew="455">Beatus <name type="person">Turpinus remensis</name> archiepiscopus
+                            christi martyr</incipit>
+                        <rubric locus="456">De altumaiore cordube</rubric>
+                        <incipit locus="458">De hoc quod nauari de uera prosapia non sunt geniti</incipit>
+                        <explicit locusNew="459">sua predicatione ad deum conuertit</explicit>
+                        <ab>On these two items see <ref type="bibl" target="Ward 1883">H. L. D. Ward, <hi rend="italic"
+                                    >Catalogue of Romances</hi> I 546 sqq.</ref></ab>
+
+                    </msItem>
+
+                    <msItem n="8" locusStart="459" locusEnd="476">
+                        <head type="CCC">
+
+                            <title>Vita <name type="person">Sanctae Theclae</name></title>
+
+                        </head>
+                        <head type="Nasmith">
+                            <title>Vita <name type="person">sanctae Theclae</name> virginis et martiris</title>
+                        </head>
+
+                        <rubric locusNew="459">Incipit uita <name type="person">Sanctae Tecle</name> uirginis et
+                            martyris</rubric>
+                        <incipit locusNew="459">Tempore illo ascendente <name type="person">paulo</name>
+                            <name type="place">ychonium</name> post <name type="place">antiochie</name> fugam facti sunt
+                            ei comites <name type="person">demas</name>
+                            <name type="person">ermogenes</name> et <name type="person">alexander
+                            erarius</name></incipit>
+                        <ab>Ends</ab>
+                        <explicit locusNew="472">Et hec locuta profecta est <name type="place">seleutiam</name> et
+                            multos ibi illuminauit et requieuit in beata pace. Deo gratias amen</explicit>
+                        <ab>The beginning conforms to the version designated Ba by <ref type="bibl"
+                                target="Gebhardt 1902">von Gebhardt (<hi rend="italic">Lat. Übersetz. d. Acta Pauli et
+                                    Theclae</hi>, Texte u. Unters. N. F. VII 2: 1902, p. 2</ref>): the conclusion is not
+                            exactly that of any version he gives, but is most like d. He does not mention this copy.
+                                <ref type="bibl" target="Grabe 1698">Grabe, <hi rend="italic">Spicilegium</hi> I 120
+                                etc.</ref></ab>
+                        <ab>pp. <locus>473</locus> - <locus>476</locus> blank</ab>
+                        <ab>
+                            <supplied agent="RJR">
+                                <ref type="bibl" target="Bollandists 1986">BHL 8020n</ref>
+                            </supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="9" locusStart="477" locusEnd="516">
+                        <head type="CCC">
+
+                            <title>Historia <name type="person">Apollonii regis Tyri</name></title>
+
+                        </head>
+                        <head type="Nasmith">
+                            <title>Vita <name type="person">Appolonii Tyrii</name></title>
+                        </head>
+
+                        <ab locusNew="477">(<handNote>In the hand of no. 5</handNote>)</ab>
+                        <incipit locus="477">In ciuitate <name type="place">antiochia</name> rex fuit <name
+                                type="person">antiochus</name> nomine a quo et ipsa ciuitas</incipit>
+                        <explicit locus="509">alium bibliotece sue exposuit</explicit>
+                        <rubric locus="509">Explicit</rubric>
+                        <ab>Ed. <ref type="bibl" target="Riese 1871">Riese (Teubner, 1871): this copy is mentioned on p.
+                                vii</ref></ab>
+                        <ab>On p. <locus>510</locus>, beginning of a late list of contents</ab>
+                        <rubric locus="511">Incipiunt capitula in vitam <name type="person">Anselmi
+                            archiepiscopi</name></rubric>
+                        <ab locusNew="511">
+                            <handNote>In Parkerian hand</handNote>
+                        </ab>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF, BA</p>
+                            <p>msCheck: foliation check, BA - awaiting title check RJR - complete 6/11/2008</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,153 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC031">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>31</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>M. 10</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>148</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Stephen Langton, Commentaries on the Minor Prophets</head>
+
+                <head type="James">Stephanus Langton super xii Prophetas</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">333</height>
+                        <width unit="mm">233</width>
+                    </measureGrp><measureGrp type="James">13.4 x 9.5</measureGrp>, <extent>ff. 190 + 2</extent>,
+                        <layout>double columns of 37 and 45 lines</layout>. Cent. <origDate>xiii</origDate>,
+                        <handNote>in two good hands</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num>-3<num>8</num> | I<num>8</num>-VIII<num>8</num> (wants 6)
+                            IX<num>8</num>-XXI<num>8</num> (wants 8, replaced by slip)</collation>.</p>
+
+
+                <p function="Provenance">From <name type="place">Coggeshall</name>. On flyleaf an inscription in black
+                    and red occupying the whole page:<lb/>
+                    <q>In hoc uolumine continentur per ordinem<lb/> Textus duodecim prophetarum.<lb/> Expositio eorum a
+                            <name type="author">magistro Stephano Cantuariensi Archiepiscopo</name>.<lb/> Et notandum
+                        quod littera que in textu non est rubricata in sequenti opere est exposita.<lb/> Que autem est
+                        rubricata non est exposita.<lb/> Liber <name type="place">Sancte Marie Coggeshale</name></q></p>
+
+                <p>On margin <origDate>xvi early</origDate>: <lb/>
+                    <name type="person">Master Skelton</name>s docters of cownsell<lb/> Docter Rest and docter
+                    quyett<lb/> Docter myrthe and docter dyett.<lb/></p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i + 1-190 + ii + c-d</foliation>.</p>
+
+
+
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="24v">
+
+                        <head type="CCC">
+                            <title>Text of the minor prophets</title>
+                        </head>
+
+                        <rubric locus="1r">Textus duodecim prophetarum</rubric>
+
+                        <ab>Initial and part of f. <locus>1r</locus> at top cut off and supplied in cent.
+                                <origDate>xvi</origDate>.</ab>
+                        <ab>Ends f. <locus>24r</locus> verso blank</ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="25r" locusEnd="iir">
+
+                        <head type="CCC">
+                            <name type="author">Stephen Langton</name>, <title>Commentaries on the minor
+                                prophets</title>
+                        </head>
+
+                        <head type="James">
+                            <title><name type="author">Stephanus Langton</name> super xii Prophetas</title>
+                        </head>
+
+
+                        <rubric locus="25r">Incipit exposicio moralis <name type="author">magistri Stephani de
+                                Langetune</name> super duodecim prophetas</rubric>
+                        <incipit locus="25r">Ossa duodecim prophetarum pululant de loco suo</incipit>
+                        <ab>The last leaf of <name type="person">Malachi</name> is gone and is supplied by a slip from a
+                            closely written MS. of cent. <origDate>xiii</origDate> ending</ab>
+                        <explicit locus="iir">sedebit <name type="place">Jerusalem</name> secura</explicit>
+
+                    </msItem>
+
+                </msContents>
+
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF, CF 2nd</p>
+                            <p>msCheck: CF 3.7.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

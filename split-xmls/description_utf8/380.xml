@@ -1,0 +1,177 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC380">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>380</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>I. 11</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>306</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Robert of Cricklade OSA, Speculum fidei</head>
+                <head type="James">Rob. Krikeladensis Speculum fidei</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">212</height>
+                        <width unit="mm">154</width>
+                    </measureGrp><measureGrp type="James">8.4 x 6</measureGrp>, <extent>ff. 2 + 133</extent>, <layout>23
+                        lines to a page</layout>. Cent. <origDate>xii late</origDate>, <handNote>in a very beautiful
+                        upright hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num>, 1<num>8</num>-16<num>8</num> 17<num>6</num> (wants 6)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>Incipiunt quod cogitatio de omni ligno</secFol>.</p>
+
+
+                <p function="Provenance">Perhaps from <name type="place">Malmesbury</name>. Leland (<ref type="bibl"
+                        target="Leland 1774d">Collectanea IV</ref> I 57) saw a copy of it there.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-ii + 1-133 + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="iiv" locusEnd="132v">
+                        <head type="CCC"><name type="author">Robert of Cricklade OSA</name>, <title>Speculum
+                                fidei</title></head>
+
+                        <head type="Nasmith">
+                            <title><name type="author">Roberti Krikeladensis</name>, cognomento Canuti, prioris
+                                Oxenefordiae, speculum fidei, libri iv</title>
+                        </head>
+
+                        <ab>ff. <locus>ir</locus>-<locus>iir</locus> blank; on f. <locus>iiv</locus>, <handNote>in a
+                                very similar hand to the rest</handNote>, this preliminary notice</ab>
+                        <incipit locus="iiv">Quicumque uoluerit hoc opuspulum (!) nostrum legere et in eo catholice
+                            fidei tramitem considerare, legat primum eulogium uenerabilis <name type="person">pape
+                                Alexandri tercii</name> quod scripsit <name type="person">Willelmo Senonensi
+                                archiepiscopi</name> ... ne forte abhorreat quod in isto opusculo [<hi rend="italic"
+                                >marginalia</hi> Vide lib. 3, cap. 4 and 5] <name type="person">petrum quondam
+                                parisiacensis ecclesie episcopum</name> appello heresiarcam. Alexander, etc. Cum in
+                            nostra esses presentia olim constitutus</incipit>
+                        <ab>The doctrine condemned is <q>quod Christus secundum quod est homo non est aliquid</q></ab>
+                        <explicit locusNew="iiv">sed ipsa penitus detestentur. Dat. verul. v. kal. Jun.</explicit>
+                        <ab locusNew="iiv">Hoc addo ut habeas omnia scripta eius suspecta quoniam in plerisque locis
+                            inter mella ueritatis spargit fel heresiace falsitatis</ab>
+                        <rubric locus="1r">Incipiunt capitula primi libri (xxii)</rubric>
+                        <rubric locus="2r">Incipit prologus <name type="author">Roberti Krikeladensis</name> cognomento
+                            canuti prioris oxenefordie in librum qui intitulatur speculum fidei</rubric>
+                        <incipit locusNew="2r">Fidei catholice qua unus deus creditur et colitur</incipit>
+                        <explicit locusNew="2r">quicquid hic minus se inuenisse arbitratur</explicit>
+                        <rubric locusNew="2r">Explicit prologus</rubric>
+                        <rubric locusNew="2r">Incipit prefatio</rubric>
+                        <incipit locusNew="2r">Exposuit me morsibus malignantium reuerentia tua optime comes</incipit>
+                        <explicit locusNew="2v">tanto patrocinio fretus despicio</explicit>
+                        <rubric locusNew="2v">Explicit prefatio</rubric>
+
+                        <rubric locus="2v">Incipit libri primis. i capitulum. Quod unus deus sit colendus</rubric>
+                        <incipit locusNew="2v">Audi israel dominus deus tuus deus unus est. In deuteronomio <name
+                                type="person">moyses</name> legem recapitulando</incipit>
+                        <ab locusNew="2v">
+                            <decoNote>A beautiful initial: inner ground gold, outer blue, edged with green dragon forms,
+                                whitish beasts and conventional foliage, recalling the <name type="place">Christ
+                                    Church</name> style</decoNote>
+                        </ab>
+                        <ab>Liber II</ab>
+                        <ab locus="25v">Capitula</ab>
+                        <ab locus="26v">Prologue</ab>
+                        <ab locus="27r">Text</ab>
+
+                        <ab locusNew="27r">
+                            <decoNote>Initial very fine. Half-length of Christ full-face, holding before Him a blank
+                                scroll, by both hands. Inner ground red. Initial plain gold and colour, outer ground
+                                purplish, edged with green. Very fine work</decoNote>
+                        </ab>
+                        <ab>Liber III</ab>
+                        <ab locus="55r">Capitula</ab>
+                        <ab locus="56v">Prologue</ab>
+                        <ab locus="57r">Text</ab>
+
+                        <ab locusNew="57r">
+                            <decoNote>Fine initial of the same type as that to Liber I, but without animal
+                                forms</decoNote>
+                        </ab>
+
+                        <ab>Liber IV</ab>
+                        <ab locus="93r">Capitula</ab>
+                        <ab locus="95v">Prologue</ab>
+                        <ab locus="96r">Text</ab>
+
+                        <ab locusNew="96r">
+                            <decoNote>Initial in gold, conventional foliage and beasts on red ground: outer ground
+                                purple, as in liber II, edged with green; a very beautiful effect</decoNote>
+                        </ab>
+                        <ab>Ends</ab>
+                        <explicit locus="132v">cum presertim in tribus libellis quos de conubio patriarche <name
+                                type="person">iacob</name> conscripsi abundanter super his deo donante
+                            disputauerim</explicit>
+                        <rubric locus="132v">Explicit Speculum fidei</rubric>
+                        <ab>f. <locus>133r</locus>-<locus>133v</locus> blank except for late scribbles</ab>
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: CF 5.11.2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

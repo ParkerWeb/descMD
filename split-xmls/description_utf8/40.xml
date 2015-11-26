@@ -1,0 +1,157 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC040">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>40</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>P. 18</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>253</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+
+                <head type="CCC">Francesco Petrarca, De remediis utriusque fortunae</head>
+
+                <head type="James">Petrarcha de remediis utriusque fortunae</head>
+
+
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">340</height>
+                        <width unit="mm">240</width>
+                    </measureGrp><measureGrp type="James">13.4 x 9.5</measureGrp>, <extent>ff. 128</extent>,
+                        <layout>double columns of 44 lines</layout>. Cent. <origDate>xiv late</origDate>, <handNote>in
+                        fine upright English hand</handNote>, <decoNote>with good ornaments</decoNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>8</num>-q<num>8</num></collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>censebat artem</secFol>.</p>
+
+                <p function="Provenance">At the bottom of <locus>33v</locus> is pencilled: <q>Johannes Bl...uell decanus
+                        assaph.</q> This must be <name type="person">John Blodwell</name>, Dean of St Asaph's from
+                        <date>1418</date> to <date>1442</date>. He died in <date>1462</date>, and his magnificent brass
+                    is in <name type="place">Balsham Church</name> not far from <name type="place">Cambridge</name>.
+                        <supplied agent="JamesCorrigenda">Some books were given by Blodwell to <name type="place"
+                            >Queens' College</name> (<ref type="bibl" target="Searle 1867">Searle, <hi rend="italic"
+                                >Hist</hi>. I 53</ref>) but this was not among them.</supplied></p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-84 + iii-v</foliation>.</p>
+
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="127v">
+
+                        <head type="CCC"><name type="author">Francesco Petrarca</name>, <title>De remediis utriusque
+                                fortunae</title></head>
+
+                        <head type="James">
+                            <name type="author">Petrarcha</name>
+                            <title>de remediis utriusque fortunae</title>
+                        </head>
+
+                        <ab>Title in red in the upper margin of f. <locus>1r</locus></ab>
+                        <rubric locus="1r"><name type="author">Francisci petrarche</name>. Incipit liber de remediis
+                            utriusque fortune</rubric>
+                        <ab><decoNote>Border in blue and pink (white-dotted) on bar of gold</decoNote>.
+                                <decoNote>Initial in the same colours on gold ground</decoNote></ab>
+                        <rubric locusNew="1r">Prologus in librum primum de remediis</rubric>
+                        <incipit locusNew="1r">Cum res fortunasque hominum cogito</incipit>
+                        <explicit locus="2v">parcium proporcione formosum</explicit>
+                        <rubric locus="3r">De etate florida et spe longioris uite. Capitulum 1</rubric>
+                        <ab>
+                            <decoNote>Initials to chapters are normally in blue with red flourishing</decoNote>
+                        </ab>
+                        <ab>Liber I ends</ab>
+                        <explicit locus="57r" locusNew="58r">nisi te spes illa fefellerit</explicit>
+                        <rubric locusNew="58r">Explicit liber primus qui est de remediis prospere fortune</rubric>
+                        <rubric locus="57r" locusNew="58r">Incipit liber secundus qui est de remediis aduerse
+                            fortune</rubric>
+                        <ab>Prologue</ab>
+                        <incipit locusNew="58r">Ex omnibus que uel mihi</incipit>
+                        <ab><decoNote>Initial as for liber I</decoNote>. <decoNote>Partial border, with red lion's
+                                head</decoNote></ab>
+                        <ab>Ends</ab>
+                        <explicit locus="126r">curam hanc hisque uiuentibus</explicit>
+                        <rubric locusNew="126r"><name type="author">Francisci petrarche</name> de fflorencia lauriati
+                            poete explicit liber secundus de remediis utriusque fortune Deo gratia</rubric>
+                        <rubric locus="126r">Rubrice capitulorum libri primi</rubric>
+                        <rubric locus="127r">libri secundi</rubric>
+                        <ab>f. <locus>128r</locus>-<locus>128v</locus> blank</ab>
+
+
+                    </msItem>
+
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, CF 2nd</p>
+                            <p>msCheck: NJM 10.7.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

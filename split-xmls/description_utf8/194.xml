@@ -1,0 +1,367 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC194">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>194</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>E. 8</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>50</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Peter of Blois, archdeacon of Bath, De conuersione Sancti Pauli. Scala mundi. Martin of
+                    Troppau OP, Chronica pontificum et imperatorum. Peter of Ickham OSB, Compilatio de gestis Britonum
+                    et Anglorum etc.</head>
+                <head type="James">P. Blesensis, etc. Scala Mundi. Chronicon Martini Poloni. Chronicon P. de Ickham,
+                    etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">286</height>
+                        <width unit="mm">190</width>
+                    </measureGrp><measureGrp type="James">11.3 x 7.5</measureGrp>, <extent>ff. 3 + 75 + 54 + 47 +
+                        6</extent>, <layout>three main volumes</layout> of cent. <origDate>xiv (and xv)</origDate>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>a<num>4</num> (wants 1) 1<num>12</num> 2<num>14</num> 3<num>12</num> 4<num>12</num>
+                        (several cancels) 5<num>4</num> 6<num>6</num> (folding leaves) 7<num>4</num> 8<num>12</num>
+                        (wants 12) | I<num>8</num>-VII<num>8</num> (wants 5, 6) | A<num>12</num> B<num>14</num> (12
+                        canc.) C<num>10</num> D<num>12</num> | b<num>6</num></collation>.</p>
+
+                <p>I use the old foliation.</p>
+
+                <p function="Additions">The first leaf, blank, has been cut out, on the second (f. <locus>1r</locus>) is
+                    a list of contents <q>Continentur hec isto in libro subscripta</q> (<date>xv late</date>).</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-78 (79 missing) + 80-132 (133 missing) + 134-181 (182-216 missing) + 217-222
+                        + iii-iv</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1v" locusEnd="3r">
+                        <head type="CCC"><name type="author">Peter of Blois, archdeacon of Bath</name>, <title>De
+                                conuersione <name type="person">Sancti Pauli</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Tractatus <name type="author">Petri Blessensis</name> de conversione sancti
+                                Pauli</title>
+                        </head>
+
+
+                        <ab>Cent. <date>xv</date>. <layout>40 lines to a page</layout></ab>
+                        <incipit locus="1v">Recolenda est cum exultacione</incipit>
+                        <ab>(<ref type="bibl" target="Migne 207"><supplied>P. L.</supplied> CCVII 791</ref>)</ab>
+                        <explicit locusNew="3r">ad reuelacionem glorie domini nostri Ihesu Christi cui est honor et
+                            gloria in secula seculorum. Amen</explicit>
+                        <rubric locusNew="3r">Explicit paruus tractatus de conuersione <name type="person">Sancti
+                                Pauli</name> apostoli secundum <name type="author">Petram Blesencem</name> quod R.
+                            E.</rubric>
+                    </msItem>
+
+                    <msItem n="2" locusStart="3v" locusEnd="3v">
+                        <head type="CCC"><name type="author">pseudo-Augustine</name>, <title>De creatione primi hominis
+                                (ch. 35 of pseudo-Augustine, <hi rend="italic">De spiritu et anima</hi>)</title></head>
+
+                        <head type="Nasmith">
+                            <title><name type="author">Augustinus</name> de creatione primi hominis</title>
+                        </head>
+
+
+                        <ab><handNote>Small hand</handNote>, cent. <date>xv</date></ab>
+                        <rubric locusNew="3v"><name type="author">Augustini</name> de creacione primi hominis liber
+                            incipit</rubric>
+                        <ab>(<ref type="bibl" target="Migne 040"><supplied>P. L.</supplied> XL 1213</ref>, <ref
+                                type="bibl" target="Migne 161">CLXI 967</ref>)</ab>
+                        <incipit locusNew="3v">Tanta dignitas humane condicionis</incipit>
+                        <explicit locusNew="3v">mirabilius in secundo reformauit</explicit>
+                        <rubric locusNew="3v">Explicit</rubric>
+                    </msItem>
+
+                    <msItem n="3" locusStart="4r" locusEnd="4r">
+                        <head type="CCC"><name type="author">Richard Rolle of Hampole (attrib.)</name>, <title>Meditatio
+                                breuissima</title></head>
+
+                        <head type="Nasmith">
+                            <title>Meditatio brevissima <name type="author">Ricardi Hampole</name></title>
+                        </head>
+
+                        <rubric locus="4r">Beatus <name type="author">Ricardus hermita</name></rubric>
+                        <ab>(xv)</ab>
+                        <incipit locusNew="4r">Amicam autem adamaui</incipit>
+                        <explicit locusNew="4r">consilium continue concupisco</explicit>
+                        <ab>Si tuam animam vis saluare consocia hominum quantum potes deuitare. quod Corf. Et memorare
+                            nouissima tua et in eternum non peccabis</ab>
+                        <ab>Ergo quid sis quid fueris quid eris semper mediteris</ab>
+                    </msItem>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="4" locusStart="4v" locusEnd="79v">
+                        <head type="CCC">
+                            <title>Scala mundi</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Scala mundi, sive tabulae chronologicae genealogicae et historicae</title>
+                        </head>
+
+                        <ab>First main volume of cent. <date>xiv early</date> in annalistic form with fifty years to a
+                            page. <decoNote>Illustrated with small pictures in good style</decoNote></ab>
+
+                        <ab>
+                            <quote>Continuantur eadem manu ad annum <date>1340</date>, et dehinc alia ad annum
+                                    <date>1450</date>: pars vero chronologica deducitur usque ad annum
+                                <date>1619</date>, nitidissime scripta, nonnullisque delineationibus templorum,
+                                &amp;c. ornata</quote>
+                        </ab>
+
+                        <rubric locus="4v">Hic incipit liber qui vocatur Scala Mundi</rubric>
+
+                        <rubric locusNew="4v">De creatione mundi et opere prime diei</rubric>
+                        <ab>
+                            <decoNote>A band of small rectangular pictures goes down the L. side of text<lb/> 1 (top).
+                                God creates angels: they fall. A sphere on R. full of heads of angels. A single row at
+                                the top remain steadfast. A mass below is falling<lb/> 2. Creation of firmament. A
+                                sphere with band across it<lb/> 3. Of trees<lb/> 4. Of sun, moon and stars<lb/> 5. Of
+                                birds and fish<lb/> 6. In four small compartments, creation of beasts, of <name
+                                    type="person">Adam</name>, of <name type="person">Eve</name>. Expulsion<lb/> 7. God
+                                resting. Angels on R. and L.</decoNote>
+                        </ab>
+
+                        <ab>
+                            <decoNote>At top of f. <locus>5r</locus> a picture. An angel in air in C. hands two tunics
+                                to <name type="person">Adam</name> with spade and <name type="person">Eve</name> with
+                                distaff</decoNote>
+                        </ab>
+                        <ab>
+                            <decoNote>Genealogical lines are carried down the pages</decoNote>
+                        </ab>
+                        <ab locus="7r">
+                            <decoNote>Picture of Ciuitas <name type="person">enoch</name></decoNote>
+                        </ab>
+                        <ab locus="21v">
+                            <decoNote>Ark</decoNote>
+                        </ab>
+                        <ab locus="23v">
+                            <decoNote>Tower of Babel</decoNote>
+                        </ab>
+                        <ab locus="25r">
+                            <decoNote>
+                                <name type="place">Nineveh</name>
+                            </decoNote>
+                        </ab>
+                        <ab locus="30v">
+                            <decoNote>
+                                <name type="place">Red Sea</name>
+                            </decoNote>
+                        </ab>
+                        <ab>
+                            <decoNote>Many pictures of cities</decoNote>
+                        </ab>
+                        <ab locus="46v">
+                            <decoNote>Annunciation. Two figures, ground of red and green</decoNote>
+                        </ab>
+                        <ab locus="47v">
+                            <decoNote>Crucifixion with the <name type="person">Virgin</name> and <name type="person"
+                                    >John</name>. Purple ground</decoNote>
+                        </ab>
+                        <ab locus="55r">
+                            <decoNote>Boy with two bodies born at <name type="place">Emaus</name> about <date>395</date>
+                                A.D.</decoNote>
+                        </ab>
+                        <ab locus="57r">
+                            <decoNote><name type="place">Stonehenge</name>. <name type="person">Michael</name> and
+                                dragon</decoNote>
+                        </ab>
+                        <ab>
+                            <decoNote><locus>58r</locus> sqq. are folding leaves showing the lines of Saxon
+                                kings</decoNote>
+                        </ab>
+                        <ab locus="59r">
+                            <decoNote>Boy with four legs. Merman</decoNote>
+                        </ab>
+                        <ab locus="66r">
+                            <decoNote>Woman with two bodies</decoNote>
+                        </ab>
+                        <ab locus="71r">
+                            <decoNote><name type="person">St Dominic</name> and another Dominican. Green ground. <name
+                                    type="person">St Francis</name> (in white) preaching to birds. Yellow ground.
+                                Crucifix seen in air at <name type="place">Dunstable</name>. Red ground</decoNote>
+                        </ab>
+                        <ab>The last entry in the original hand seems to be at f. <locus>74r</locus>: <q>
+                                <date>1338</date>
+                                <name type="person">Lodowicus iiii<abbr rend="superscript">us</abbr></name>
+                            </q></ab>
+                        <ab>The years are carried on to <date>1619</date> by the original hand. Later hands make some
+                            few entries, some concerning the Franciscan order, e.g., Martyrdom of <name type="person"
+                                >Will. Walden</name>, f. <locus>74r</locus></ab>
+                        <ab>The latest is the death of (<name type="person">Ayscough</name>) the Bishop of Sarum <q>et
+                                eodem anno communis fuit insurrexio populi in <name type="place">anglia</name></q></ab>
+                        <ab>Ends f. <locus>79v</locus></ab>
+
+
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="5" locusStart="80r" locusEnd="132r">
+                        <head type="CCC"><name type="author">Martin of Troppau OP</name>, <title>Chronica pontificum et
+                                imperatorum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Chronicon <name type="author">Martini Poloni</name> papae penitentiarii, sive
+                                historia et successio imperatorum et pontificum Romanorum a Christo nato ad annum
+                                    <date>1306</date>, et continuata ad annum <date>1342</date></title>
+                        </head>
+                        <ab>
+                            <quote><q>Recognita et per ipsum auctius reddita quam in codicibus impressis.</q> Inter
+                                    <name type="person">Leonem V</name>. et <name type="person">Benedictum IIII</name>.
+                                interseritur <name type="person">Ioanna papissa</name>
+                            </quote>
+                        </ab>
+                        <ab>f. <locus>80r</locus> blank, except a <date>xvi</date>th cent. title</ab>
+                        <ab>Chronicon Martini begins f. <locus>80v</locus>. Pontifices and Imperatores, as usual,
+                            occupying alternate pages</ab>
+                        <rubric locus="80v">Pontifices</rubric>
+                        <incipit locus="80v">Anno xlii<abbr rend="superscript">o</abbr>
+                            <name type="person">octouiani augusti</name> natus est Ihesus Christus in <name type="place"
+                                >bethleem</name></incipit>
+                        <rubric locus="81r">Imperatores</rubric>
+                        <incipit locus="81r">Post natiuitatem domini nostri Ihesu Christi <name type="person">octouiani
+                                augusti</name> imperauit</incipit>
+                        <ab>Cent. <date>xiv</date>, <layout>41 lines to a page</layout></ab>
+                        <ab>Some hands which appear in vol. I as annotators appear here also</ab>
+                        <ab locus="131v">A note on <name type="person">John XXII</name>, and notices of <name
+                                type="person">Benedict XII</name> and <name type="person">Clement V</name>, are added
+                            later</ab>
+                        <ab locus="132r">Imperatores end (vacante imperio. temp. <name type="person">martini
+                            III</name>)</ab>
+                        <explicit>misericorditer a domino largiuntur. et qui scripsit hec uidit ea</explicit>
+                        <ab>(miracles at death of <name type="person">Martin III</name>)</ab>
+                        <ab>ff. <locus>132v</locus>, <locus>134r</locus>-<locus>134v</locus> blank<supplied>; ff.
+                                133r-133v missing</supplied></ab>
+
+                    </msItem>
+
+                    <msItem n="6" locusStart="135r" locusEnd="181v">
+                        <head type="CCC"><name type="author">Peter of Ickham OSB</name>, <title>Compilatio de gestis
+                                Britonum et Anglorum</title></head>
+                        <head type="Nasmith">
+                            <title><name type="author">Petri de Yckham</name> compilatio de gestis Britonum et Anglorum
+                                ex <name type="person">Bruto</name>
+                                <name type="person">Beda</name> et aliis auctoribus a prima antiquitate ad annum
+                                    <date>1265</date>, et alia manu ad annum <date>1283</date></title>
+                        </head>
+
+                        <ab>
+                            <quote>Ad finem desunt nonnulla</quote>
+                        </ab>
+
+                        <ab>Same hand as <supplied>item</supplied> 5</ab>
+                        <rubric locus="135r">Compilacio de gestis britonum et anglorum</rubric>
+                        <incipit locus="135r">Non solum audiendis scripture sacre uerbis</incipit>
+                        <ab>The attribution of this to <name type="author">P. de Yckham</name> rests on very little.
+                                <ref type="bibl" target="Caius 1568">Dr Caius (<hi rend="italic">de antiq. Cant.</hi>
+                                61)</ref> names <name type="person">Robert Remington</name> as the author</ab>
+                        <ab>Hand changes on f. <locus>168r</locus> (<date>1264</date>) and again on f.
+                                <locus>170v</locus></ab>
+                        <ab locus="181v">Ends imperfectly in <date>1283</date>: <q>et ibi adiudicatus est morti</q></ab>
+                        <ab>There is a gap in the foliation: 182-216 are gone</ab>
+                        <ab>
+                            <ref type="bibl" target="Hardy 1871">Hardy III 165, 221, 271</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="7" locusStart="217r" locusEnd="221r">
+                        <head type="CCC">
+                            <title>Triginta duo gradus scalae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Triginta duo gradus scalae</title>
+                        </head>
+
+                        <ab>
+                            <handNote>Hand of cent. <date>xv</date>: ugly</handNote>
+                        </ab>
+                        <incipit locus="217r">Primus gradus huius sacratissime scale est fides</incipit>
+                        <ab>A pencilled name, possibly <name type="person">Hall</name>, erased in lower margin</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="221r">ascendere valeatis amen, hec (?) <name type="person"
+                            >Augustinus</name></explicit>
+                        <ab>f. <locus>221v</locus> blank. An erased inscription (<date>xvi</date>): <q>This boke to be
+                                IIs... and againe till Candlemas next.<lb/> By me <name type="person">(? Stephanus)
+                                    batema(n?)</name></q></ab>
+                        <ab>On f. <locus>222r</locus> in large hand (<date>xv-xvi</date>): <q><name type="place"
+                                    >Hospicium beate / Marie extra / bisshopsgate</name> hunc / Vendicat librum /</q>
+                            <lb/> In smaller hand: <q>an<abbr rend="superscript">o</abbr> dni. m<abbr rend="superscript"
+                                    >lio</abbr> quingentesimo / vices <supplied>(struck through)</supplied> tricesimo
+                                    ij<abbr rend="superscript">o</abbr> d<abbr rend="superscript">us</abbr> will<abbr
+                                    rend="superscript">mus</abbr> / maior prior an<abbr rend="superscript">o</abbr> R.
+                                regis h. viii<abbr rend="superscript">i</abbr> / vicesimo xxiiij<abbr rend="superscript"
+                                    >to</abbr> / per me <name type="person">Johannem Stones</name></q></ab>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJC 20.11.07</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

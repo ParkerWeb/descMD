@@ -1,0 +1,151 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC255">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>255</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>O. 18</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>222</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">John de Burgo, Pupilla oculi. Synodal Constitutions</head>
+
+                <head type="James">Pupilla Oculi</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">280</height>
+                        <width unit="mm">205</width>
+                    </measureGrp><measureGrp type="James">11.2 x 8</measureGrp>, <extent>ff. 2 + 20 + 211</extent>,
+                        <layout>double columns of 34 lines</layout>. Cent. <origDate>xiv late or xv early</origDate>,
+                        <handNote>in a pretty hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, a<num>8</num> b<num>8</num> c<num>4</num>. 1<num>8</num>-26<num>8</num> 27
+                        (three), 1 flyleaf</collation>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-c + i-xx + 1-212</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="ir" locusEnd="xixr">
+
+                        <head type="CCC">
+                            <title>Table</title>
+                        </head>
+
+                        <ab locus="ir">Table</ab>
+                        <incipit locusNew="ir">Abbas</incipit>
+                        <explicit locusNew="xixr">Ypocrisis</explicit>
+
+                        <ab>ff. <locus>xixv</locus>-<locus>xxv</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="1r" locusEnd="209v">
+
+                        <head type="CCC"><name type="author">John de Burgo</name>, <title>Pupilla oculi</title></head>
+
+                        <head type="James">
+                            <title>Pupilla Oculi</title>
+                        </head>
+
+                        <ab>Text</ab>
+                        <incipit locus="1r">Humane condicio nature</incipit>
+                        <explicit locusNew="206r">sub numero denario parcium terminatur</explicit>
+                        <rubric locusNew="206r">Explicit pupilla oculi editus a magistro <name type="author">Johanne de
+                                burgo</name> cancellario uniuersitatis cantabrigiae et sacre pagine professore anno
+                            domini <date>m<abbr rend="superscript">o</abbr>. ccc<abbr rend="superscript">o</abbr>.
+                                    lxxxv<abbr rend="superscript">o</abbr></date></rubric>
+
+                        <ab locus="206v">Directions to priests and form of excommunication</ab>
+                        <incipit locusNew="206v">Sacerdos parochialis multa debet suis parochianis diebus dominicis
+                            prout expedire uiderit</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="209v">cum casibus hic premissis uel aliquibus premissorum</explicit>
+                        <rubric locusNew="209v">Explicit modus pronunciandi sententias excommunicacionis</rubric>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="209v" locusEnd="211v">
+
+                        <head type="CCC">
+                            <title>Synodal Constitutions</title>
+                        </head>
+
+                        <rubric locus="209v">Incipiunt constituciones sinodales</rubric>
+
+                        <incipit locusNew="209v">Debentes racionem de uobis bonam reddere</incipit>
+
+                        <ab>Ends</ab>
+                        <explicit locus="211v">in archidiaconatu nostro donec fuerit presentatus</explicit>
+                        <rubric locusNew="211v">Expliciunt constituciones sinodales</rubric>
+
+                    </msItem>
+
+                </msContents>
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text:copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, BA, CF</p>
+                            <p>msCheck: NJM 31.05.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

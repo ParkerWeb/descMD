@@ -1,0 +1,177 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC260">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>260</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>N. 18</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>189</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Musica Hogeri. Musica enchiriadis. Scholica enchiriadis. Commemoratio brevis</head>
+                <head type="James">Musica</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">272</height>
+                        <width unit="mm">193</width>
+                    </measureGrp><measureGrp type="James">10.5 x 7.8</measureGrp>, <extent>ff. 54</extent>, <layout>28
+                        lines to a page</layout>. Cent. <origDate>x</origDate>, <handNote>in a fine upright Carolingian
+                        minuscule</handNote>.</p>
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num> (wants 1) 2<num>8</num> 3<num>8</num> 4<num>6</num>
+                            5<num>8</num>-7<num>8</num> (+1)</collation>.</p>
+
+                <p function="Provenance">From <name type="place">Christ Church, Canterbury</name>. On f.
+                        <locus>1r</locus> is: <q>MVSICA HOGERI. TT.</q> (<ref type="bibl" target="James 1903"><hi
+                            rend="italic">Ancient Libraries</hi>, p. 8, no. 44 and p. xxxiii</ref>). Also, in red chalk:
+                        <q>TW</q>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-54 + iii-iv</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1.1" locusStart="1r" locusEnd="2v">
+
+
+                        <head type="CCC">
+                            <title>Musica <name type="author">Hogeri</name> (<name type="author">Boethius</name>, <hi
+                                    rend="italic">De institutione musica</hi> (V, 17-19))</title>
+                        </head>
+
+                        <ab locusNew="1r">Title in capitals</ab>
+                        <rubric locusNew="1r">Excerptiones <name type="author">Hogeri Abbatis</name> ex auctoribus
+                            musicae artis</rubric>
+                        <ab locusNew="1r">Below this a spacethen a table of numbers</ab>
+                        <ab>Text begins:</ab>
+                        <incipit locusNew="1r"><name type="person">Architas</name> vero cuncta ratione constituens non
+                            modo sensum auriis inprimis consonantiis obseruare neglexit</incipit>
+
+                        <ab>No. 1 is the work of <name type="author">Hucbald</name> and is one of the two best copies.
+                            It has been printed by <ref type="bibl" target="Gerbert 1784">Gerbert</ref>. See <ref
+                                type="bibl" target="Coussemaker 1841">Coussemaker, <hi rend="italic">Mémoire sur
+                                    Hucbald</hi>, 1841</ref></ab>
+
+
+                    </msItem>
+
+                    <msItem n="1.2" locusStart="3r" locusEnd="18r">
+                        <head type="CCC">
+                            <title>Musica enchiriadis</title>
+                        </head>
+                        <explicit locus="18r">Pandit multa musice rationis miracula prestantissimus auctor <name
+                                type="person">BOETIUS</name> ... Cuius si deus annuerit sequens opusculum aliquod
+                            continebit exceptum. Huiusce oratiuncule ponamus hic finem</explicit>
+
+                        <ab>No. 1 is the work of <name type="author">Hucbald</name> and is one of the two best copies.
+                            It has been printed by <ref type="bibl" target="Gerbert 1784">Gerbert</ref>. See <ref
+                                type="bibl" target="Coussemaker 1841">Coussemaker, <hi rend="italic">Mémoire sur
+                                    Hucbald</hi>, 1841</ref></ab>
+                    </msItem>
+
+                    <msItem n="2" locusStart="18r" locusEnd="51v">
+
+
+                        <head type="CCC">
+
+                            <title>Scholica enchiriadis</title>
+
+                        </head>
+
+                        <rubric locus="18r">Incipit Scolica Enchiriadis de arte musica</rubric>
+                        <incipit locusNew="18r">Musica quid est? Bone modulandi scientia</incipit>
+                        <explicit locusNew="51v">proportio et symphoniam seruat. tropique retinet modum</explicit>
+                        <ab>The <decoNote>musical illustrations</decoNote> on ff. <locus>30r</locus>,
+                            <locus>30v</locus>, <locus>31r</locus> are added by a <handNote>later hand</handNote></ab>
+
+                        <ab>No. 2 is the Enchiridion of <name type="author">Odo</name> who has been identified with
+                                <name type="person">Odo of Cluny</name>, <ref type="bibl" target="Gerbert 1784">Gerbert
+                                I 251</ref>. (<ref type="bibl" target="Migne 132">P. L. CXXXII 981</ref>.)</ab>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="51v" locusEnd="54v">
+
+
+                        <head type="CCC">
+                            <title>Commemoratio breuis de tonis et psalmis modulandis (fragment)</title>
+                        </head>
+
+                        <rubric locusNew="51v">Incipit commemoratio breuis de tonis et psalmis modulandis</rubric>
+                        <incipit locusNew="51v">Debitum seruitutis nostre qui ad ministerium laudationis domini
+                            deputamur</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="53v">Sequitur modulatio psalmi eleuata isque (blank) in deuterum
+                            excellentem</explicit>
+                        <ab><locus>54r</locus> is blank</ab>
+                        <ab><locus>54v</locus> covered with paper has <decoNote>a mathematical figure or two</decoNote>,
+                            but no text</ab>
+
+                        <ab>No. 3 is again the work of <name type="author">Hucbald</name>, edited by <ref type="bibl"
+                                target="Gerbert 1784">Gerbert</ref>. (<ref type="bibl" target="Migne 132">P. L. CXXXII
+                                1026</ref>.) See <ref type="bibl" target="Coussemaker 1841">Coussemaker, <hi
+                                    rend="italic">Mémoire sur Hucbald</hi>, 1841</ref></ab>
+                    </msItem>
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA</p>
+                            <p>msCheck: BA 7/10/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

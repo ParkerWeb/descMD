@@ -1,0 +1,216 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC019">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>19</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Under D. 8</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>368</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Ivo of Chartres, Decretum (in 17 parts)</head>
+                <head type="James">Ivonis Carnotensis Decretum</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">335</height>
+                        <width unit="mm">238</width>
+                    </measureGrp>, <measureGrp type="James">13.1 x 9.2</measureGrp>, <extent>ff. 334 + 1</extent>,
+                        <layout>double columns of 44 lines</layout>. Cent. <origDate>xii</origDate>, <handNote>in the
+                        characteristic <name type="place" key="ChristCh-001">Christ Church (Canterbury)</name>
+                        hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num>-27<num>8</num> (4 canc.) 28<num>8</num>-42<num>8</num> (wants
+                        8)</collation>.</p>
+
+                <p function="Provenance">At top of f. <locus>1r</locus> (<origDate>xiv</origDate>) and elsewhere in the book:<lb/>
+                    <q>Decreta <name type="author" key="IvoofCha-001">Yuonis</name> de claustro <name type="place"
+                            key="ChristCh-001">ecclesie Christi Cantuar</name>.</q><lb/> On the right is the old mark
+                        <figure xml:id="figure36a"/>.<lb/> See <ref type="bibl" target="James 1903"><hi rend="italic"
+                            >Ancient Libraries</hi>, p. 52, no. 351</ref>.</p>
+
+                <p function="Additions">On the flyleaf a list of Popes and durations of their reigns from <name
+                        type="person" key="Benedict-001">Benedict I</name> (<date>574</date>) to <name type="person"
+                        key="Honorius-001">Honorius II</name> (<date>1124</date>).</p>
+                <p function="Additions"><handNote>Another hand continues</handNote> with names only from <name
+                        type="person" key="Innocent-001">Innocent II</name> (<date>1130</date>) to <name type="person"
+                        key="Honorius-002">Honorius III</name> (<date>1216-27</date>).</p>
+
+                <p function="Research" rend="afterContents">On a curious confusion (arising from this MS.) between <name
+                        type="author" key="IvoofCha-001">Ivo</name> and <name type="person" key="JohnSton-001">John
+                        Stone</name> see <ref type="bibl" target="Searle 1902">W. G. Searle, <hi rend="italic">Christ
+                            Church, Canterbury</hi>, Camb. Ant. Soc. p. xi</ref> etc.</p>
+
+                <p function="Research">On the <hi rend="italic">Decretum</hi>, MSS. of which are rare, see <ref
+                        type="bibl" target="Fournier 1897">P. Fournier <hi rend="italic">Les Collections Canoniques
+                            attribuées ŕ Yves de Chartres</hi> (<hi rend="italic">Bibl. de L'École des Chartes</hi>
+                        1897, p. 40)</ref>. This copy is not mentioned.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i + 1-334 + c-d</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="334v">
+                        <head type="CCC">
+                            <name type="author" key="IvoofCha-001">Ivo of Chartres</name>, <title>Decretum (in 17
+                                parts)</title>
+                        </head>
+                        <ab>
+                            <decoNote>Title in red capitals</decoNote>
+                        </ab>
+                        <rubric locus="1r">Incipit prologus domni <name type="author" key="IvoofCha-001">luonis
+                                Carnotensis</name> episcopi ante collectiones ecclesiasticarum regularum de conuenientia
+                            et dispensatione earundem</rubric>
+                        <ab>(<ref type="bibl" target="Migne 161">P. L. CLXI 47</ref>)</ab>
+                        <incipit locus="1r">Exceptiones ecclesiasticarum regularum partim ex epistolis romanorum
+                            pontificum</incipit>
+                        <explicit locus="5r">quid in unaquaque parte sibi necessarium querere debeat</explicit>
+                        <incipit locus="5r">Prima pars continet de fide etc.</incipit>
+                        <explicit locus="5v">Septima decima pars continet speculatiuas sanctorum patrum sententias de
+                            fide caritate et spe</explicit>
+                        <rubric locus="5v">De speculo <name type="person">Augustini</name></rubric>
+                        <incipit locus="5v">Quis ignorat in scripturis sanctis idest legitimis</incipit>
+                        <explicit locus="6r">prompta et aperta fastidiunt</explicit>
+                        <ab>Space follows</ab>
+                        <rubric locus="6r">Que esse propria diuine trinitatis senserint catholici tractatores</rubric>
+                        <incipit locus="6r">Omnes quos legere potui</incipit>
+                        <explicit locus="6r">essentia quam greci usiam uocant</explicit>
+                        <rubric locus="6r">Hec prima pars continet de fide etc.</rubric>
+                        <incipit locus="6r">Credimus in unum deum</incipit>
+                        <ab locus="30r">Pars II</ab>
+                        <ab locus="51v"><supplied>Pars</supplied> III</ab>
+                        <ab locus="72r"><supplied>Pars</supplied> IV</ab>
+                        <ab locus="91r"><supplied>Pars</supplied> V</ab>
+                        <ab locus="132r"><supplied>Pars</supplied> VI</ab>
+                        <ab locus="167v"><supplied>Pars</supplied> VII</ab>
+                        <ab locus="182r"><supplied>Pars</supplied> VIII</ab>
+                        <ab locus="206v"><supplied>Pars</supplied> IX (wrongly numbered X in headline: no number given
+                            in the rubric)</ab>
+                        <ab locus="216v"><supplied>Pars</supplied> X</ab>
+                        <ab locus="236r"><supplied>Pars</supplied> XI</ab>
+                        <ab locus="247v"><supplied>Pars</supplied> XII</ab>
+                        <ab locus="255r"><supplied>Pars</supplied> XIII (numbered XIV in headline)</ab>
+                        <ab locus="262v"><supplied>Pars</supplied> XIV (XV)</ab>
+                        <ab locus="273r"><supplied>Pars</supplied> XV (XVI)</ab>
+                        <ab locus="288v"><supplied>Pars</supplied> XVI (XVII)</ab>
+                        <ab locus="311v" locusNew="311r">Ending (the Right half of the leaf, blank, cut off)</ab>
+                        <explicit locusNew="311r">uel in aliud transferunt</explicit>
+                        <ab locus="312r"><supplied>Pars</supplied> XVII (unnumbered)</ab>
+                        <rubric locus="312r">Hec pars continet speculatiuas etc.</rubric>
+                        <ab>(as above, in table)</ab>
+                        <incipit locus="312r">Tanta dignitas humane conditionis</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="332v">locus uenerabilis in quo infantes aluntur</explicit>
+                        <rubric locus="332v">Explicit liber. Deo gratias</rubric>
+                        <ab>See also <ref type="ms" target="CCC094">MS 94</ref></ab>
+                        <ab>
+                            <handNote>In a later hand</handNote>
+                        </ab>
+                        <incipit locus="332v">(E)x concilio Triburiensi.<lb/>Si quis in atrio ecclesie pugnam</incipit>
+                        <ab>(3&#189; lines)</ab>
+                        <ab>
+                            <handNote>In the first hand</handNote>
+                        </ab>
+                        <rubric locus="333r">
+                            <name type="person">Iohannes Episcopis</name>
+                            <name type="person">Anselmo Lemonecine ecclesie</name>
+                        </rubric>
+                        <incipit locus="333r">Ad limina beatorum petri et pauli</incipit>
+                        <ab>(case of a layman, <name type="person">Stephanus</name>, baptizing his child, and being
+                            punished by divorce = <ref type="bibl" target="Jaffe 1885-8">Jaffe 3258</ref>. Collated by
+                                <ref type="bibl" target="Hampe 1897">Hampe, Neues Archiv, XXII 668</ref>)</ab>
+                        <explicit locus="333r">aliquatenus separari debuissent</explicit>
+                        <ab>
+                            <handNote>In the hand of the first flyleaf</handNote>
+                        </ab>
+                        <ab locus="333v">Extracts from Councils</ab>
+                        <ab>Ex sinodo habita <name type="place" key="Romexxxx-001">Rome</name> a beato <name
+                                type="person">Eugenio</name> pp. (<ref type="bibl" target="Pertz 1837">MGH. Leges II
+                                App. 15, 35 Necessaria etenim</ref>)</ab>
+                        <ab>Also. <name type="person" key="UrbanIIx-001">Urbani II</name> (<ref type="bibl"
+                                target="Jaffe 1885-8">Jaffe 5760</ref>). <name type="person" key="PaschalI-001"
+                                >Paschalis II</name> (<ref type="bibl" target="Jaffe 1885-8">Jaffe 6492</ref>). <name
+                                type="person" key="Calixtus-001">Calixti II</name> habita <name type="place"
+                                key="Reimsxxx-001">Remis</name> (A.D. <date>1119</date>)</ab>
+                        <ab>The last 'ex decreto <name type="person" key="Eutychia-001">Eutychiani</name>'</ab>
+                        <rubric locus="334v">Statuta concilii a <name type="person">Willelmo Archiepiscopo
+                                Cantuariensi</name>....apud <name type="place" key="Westmins-001"
+                            >Westmonasterium</name>... anno incarnation domini nostri Ihesu Christi <date>M. C.
+                                XXVII</date> Regni vero <name type="person">Henrici</name> gloriosi regis anglorum
+                            xxvii</rubric>
+                        <incipit locus="334v">Ecclesiae et ecclesiastica beneficia</incipit>
+                        <explicit locus="334v">quam agninis uel cattinis nigris</explicit>
+                        <ab>Confirmation of the above</ab>
+                        <incipit locus="334v"><name type="person">Henricus</name> rex anglie archiepiscopis
+                            etc.</incipit>
+                        <explicit locus="334v">Teste <name type="person">Rogero episcopo Salesberiensi</name> et <name
+                                type="person">Gaufrido cancellario</name> et <name type="person">Rannulfo</name> comite
+                            cestrie apud <name type="place" key="Londonxx-001">lundoniam</name></explicit>
+                        <ab>Another text in <ref type="bibl" target="Wilkins 1737a">Wilkins Conc. I 408</ref>.</ab>
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 4/4/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

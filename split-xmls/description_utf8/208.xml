@@ -1,0 +1,114 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC208">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>208</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Lib. ab Al. 5</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>381</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Commentary in French on the Epistle to the Romans</head>
+                <head type="James">Commentaire sur L'Épitre aux Romains</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">311</height>
+                        <width unit="mm">210</width>
+                    </measureGrp><measureGrp type="James">12.1 x 8.4</measureGrp>, <extent>ff. cir. 200</extent>,
+                        <layout>mostly 51 lines to a page</layout>. Cent. <origDate>xvi</origDate>, <handNote>well
+                        written</handNote>.</p>
+
+                <p function="Decoration"><decoNote>On the flyleaf <supplied>(f. <locus>ir</locus>)</supplied> a drawing
+                        of a coat of arms: three hammers (two and one), a crosier behind the shield</decoNote>.</p>
+
+                <p function="Provenance">
+                    <quote>Ad initium codicis <q>Anno Domini <date>1588 Sept. 18</date>. <name type="person">Henricus
+                                Aldrich</name> dedit <name type="place">collegio Corporis Christi in Cantabrigia</name>
+                            in minore bibliotheca servandum.</q><lb/> Ad finem <q>Ex dono <name type="person">A. R.
+                                Cevalerii</name> linguae Hebraicae professoris <date>1572</date>.</q></quote>
+                </p>
+
+                <p><name type="person">Chevalier</name>'s inscription is on the flyleaf <supplied>(f.
+                        <locus>vv</locus>)</supplied> at the end.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a + i-ii + 1-166 + iii-vi</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="fre">French.</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="166v">
+                        <head type="CCC">
+                            <title>Commentary on the Epistle to the Romans in French</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Commentaire sur l'Épitre aux Romains</title>
+                        </head>
+
+                        <incipit locus="1r"><name type="person">Sainct Paul</name> encores viuant en ce monde disoit au
+                            second chap. des gal. que ce nestoit point luy qui viuoit mais que cestoit crist
+                            etc.</incipit>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJC 11.10.07</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "@vocab": "http://bibframe.org/vocab/",
+    "bf": "http://bibframe.org/vocab/",
+    "id": "@id",
+    "note": "http://stanford.edu/notes/ns/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "type": "@type",
+    "value": "rdf:value"
+  },
+  "hasInstance": {
+    "contains": [
+      {
+        "extent": "iv-iiir",
+        "title": {
+          "type": "Title",
+          "value": "Algorism"
+        },
+        "type": "Instance"
+      },
+      {
+        "extent": "1r-234v",
+        "title": {
+          "type": "Title",
+          "value": "Thomas Gray, ScalaChronica"
+        },
+        "type": "Instance"
+      }
+    ],
+    "hasItem": {
+      "heldBy": {
+        "label": "Corpus Christi College",
+        "type": "Organization"
+      },
+      "id": "http://linked-data.stanford.edu/parker/ms/CCC133",
+      "identifiedBy": [
+        {
+          "scheme": "CCC",
+          "type": "LocalIdentifier",
+          "value": "CCC133"
+        },
+        {
+          "scheme": "Stanley",
+          "type": "LocalIdentifier",
+          "value": "F. 4"
+        },
+        {
+          "scheme": "TJames",
+          "type": "LocalIdentifier",
+          "value": "59"
+        }
+      ],
+      "note": [
+        {
+          "type": "note:ProvenanceNote",
+          "value": ""
+        }
+      ],
+      "subLocation": "Parker Library",
+      "type": "Item"
+    },
+    "id": "http://linked-data.stanford.edu/parker/ms/CCC133_instance",
+    "language": "Anglo-Norman, Latin and Middle English.",
+    "type": "Manuscript"
+  },
+  "id": "http://linked-data.stanford.edu/parker/ms/CCC133_work",
+  "title": [
+    {
+      "type": "Title",
+      "value": "Algorism. Thomas Gray, Scala Chronica"
+    },
+    {
+      "type": "VariantTitle",
+      "value": "Algorismus. Scala Cronica",
+      "variantType": "James"
+    }
+  ],
+  "type": "Work"
+}

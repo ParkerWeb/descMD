@@ -1,0 +1,838 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC404">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>404</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>G. 5</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>71</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Miscellany of Prophecy Texts compiled by Henry of Kirkstead OSB</head>
+                <head type="James">Prophetiae</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">213</height>
+                        <width unit="mm">135</width>
+                    </measureGrp>, <measureGrp type="James">8.4 x 5.6</measureGrp>, <extent>ff. 3 + 107</extent>,
+                        <layout>mostly 44 lines to a page</layout>, <handNote>but in several hands</handNote>. Cent.
+                        <origDate>xiv (and xiii?)</origDate>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>3 flyleaves, 1<num>8</num> 2<num>10</num> 3<num>8</num> 4<num>12</num> (+1) 5<num>4</num>
+                            6<num>12</num>-9<num>12</num> (wants 9-12) | 10<num>8</num> | 11<num>6</num> (+1) 12
+                        (five)</collation>.</p>
+
+                <p function="Provenance">From <name type="place">Bury St Edmunds</name>. On f. <locus>iiiv</locus>
+                    <handNote>in <name type="person">Boston</name>'s (?) hand</handNote>:<lb/> Quaternus monachorum
+                        <name type="place">Sancti Edmundi</name> quem scripsit pro maiori parte ffrater <name
+                        type="person">Henricus de Kirkestede</name> in quo subscripta continentur videlicet (list
+                    follows). <lb/>Also on f. <locus>1r</locus> at top <decoNote>in red</decoNote>: Liber <name
+                        type="place">sancti edmundi</name>, and the pressmark <decoNote>in black</decoNote>
+                    &#729;P&#729; 163. <hi rend="italic">P</hi> no doubt stands for <hi rend="italic"
+                        >Prophetiae</hi>.</p>
+                <p function="Additions">The first two flyleaves are portions of leaves of a law-book of cent.
+                        <date>xii-xiii</date>, <layout>in double columns of 34 lines</layout>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-iii + 1-6 + 6a + 7-107 + c</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="3v">
+                        <head type="CCC">
+                            <title>Prophetia Sibyllae Tiburtinae</title>
+                        </head>
+
+
+                        <rubric locus="1r">Incipit prophecia sibille que floruit ante incarnacionem domini a<abbr
+                                rend="superscript">o</abbr>
+                            <date>dc<abbr rend="superscript">o</abbr> lx<abbr rend="superscript"
+                            >o</abbr></date></rubric>
+                        <incipit locusNew="1r">Sibille generaliter omnes femine dicuntur prophetantes</incipit>
+                        <ab>(Vision of the nine suns)</ab>
+                        <ab locusNew="3v">intonuit dicens. Iudicii signum tellus sudore madescet etc.</ab>
+
+                        <explicit locusNew="3v">et ipsi regnabunt cum illo in secula seculorum. Amen</explicit>
+                        <rubric locusNew="3v">Explicit prophecia Sibille</rubric>
+                        <ab locusNew="3v">Note from <name type="person">Augustine</name> on the Sibylline acrostic</ab>
+                        <ab>Often printed under <name type="person">Bede</name>'s name. Also in <ref type="bibl"
+                                target="Opsopeus and Castalionis">Opsopoeus, Oracula Sibyllina, p. 515, etc.</ref> See
+                                <ref type="bibl" target="Alexandre 1853">Alexandre, Orac. Sib. II 290</ref>. <ref
+                                type="bibl" target="Migne 090">P.L. XC</ref> 1181</ab>
+
+                    </msItem>
+
+
+
+                    <msItem n="2" locusStart="4r" locusEnd="6v">
+                        <head type="CCC"><name type="author">pseudo-Methodius</name>, <title>De initio et fine
+                                saeculi</title></head>
+
+                        <head type="James">
+                            <title>Note from the Martyrology on <name type="person">Methodius</name></title>
+                        </head>
+
+                        <rubric locusNew="4r">In nomine Christi incipit liber <name type="person">methodii</name>
+                            episcopi ecclesiae paterensis et martiris Christi quem de hebreo et greco sermone transtulit
+                            in latinum, i. de principio seculi et inter regna gencium et de fine seculorum quem <name
+                                type="person">beatus Ieronimus</name> in suis opusculis collaudauit et eciam magister in
+                            historia</rubric>
+                        <incipit locusNew="4r">Sciendum nobis est fratres karissimi quomodo in principio</incipit>
+                        <explicit locusNew="6v">eripere dignetur qui cum etc.. ..per infinita secula seculorum.
+                            Amen</explicit>
+                        <rubric locusNew="6v">Explicit liber <name type="person">Methodii</name> de principio et fine
+                            mundi</rubric>
+                        <ab>Other copies in <ref type="ms" target="CCC059">MS 59. 12</ref>, <ref type="ms"
+                                target="CCC066">MS 66. 26</ref>, <ref type="ms" target="CCC288">MS 288. 10</ref>. <ref
+                                type="bibl" target="Sackur 1898">Sackur, Sibyllinische Texte</ref></ab>
+                        <ab locusNew="6ar">Here intervenes a slip <handNote>in <name type="person">Boston</name>'s
+                                hand</handNote></ab>
+                        <incipit locusNew="6ar">Vide de antichristo in quodam paruo quaterno apud <name type="place"
+                                >babewell</name> qui sic incipit Quem phiseus de iusticia. uel sic in 3<abbr
+                                rend="superscript">o</abbr> folio post principium Nichil amarius peccato, etc. In fine
+                            quaterni habetur breuis tractatus metricus qui dicitur breuis ortulus. Cuius Rubrica est hec
+                            Incipit libellus qui potest dici breuis ortulus eo quod breuiter in eo tanquam in ortulo
+                            fructus dulces excerpantur. versus in fine libelli. Non me despicias quia non sum corpore
+                            magnus. Ortulus iste breuis micia poma gerit. Tractatus de antichristo sic incipit De
+                            antichristo scire volentes etc. finis. seculum iudicabit. et ita esse prefixit et
+                            attitulatur albino</incipit>
+                        <ab><name type="place">Babwell</name> was the Franciscan convent outside <name type="place"
+                                >Bury</name></ab>
+
+                    </msItem>
+
+
+                    <msItem n="3" locusStart="7r" locusEnd="7r">
+                        <head type="CCC">
+                            <title>Tractatus de Antichristo</title>
+                        </head>
+                        <rubric locus="7r">Quibus dies iudicii manifestatur et per quem</rubric>
+                        <incipit locusNew="7r">Uenientibus nobis in (de) <name type="place">galilea</name> in <name
+                                type="place">ierusalem</name> vii<abbr rend="superscript">a</abbr> die ante pascha dixit
+                            mihi dominus de passione sua multa et de resurrectione et de nouissimis temporibus et de
+                            aduentu antichristi</incipit>
+                        <ab locusNew="7r">Exiet inquit princeps virtutis belial ab oriente faciens portenta magna et
+                            signa multa in aduentu suo dicens ego sum christus et multi seducentur in nomine eius.
+                            ffaciet autem signa quecunque ego feci preter solum mortuum suscitare. Plures autem populi
+                            credent in illum et illi etiam qui in me crediderunt. propter hoc tibi dico <name
+                                type="person">mathee</name> ut predicas omnibus fidelibus ne seducantur ab illo. Erit
+                            autem posicio eius vir macer et longus. Macris pedibus. porecta coma longam habens faciem
+                            longumque nasum fellinis (<hi rend="italic">marg</hi>. festiuis) oculis in inferioribus
+                            partibus. dente uno demptus in superiori parte notabilis lepram habens in fronte partem
+                            candoris in coma super frontem. Ista signa illi erunt immutabilia sed in aliis se euertere
+                            poterit. Et quando veniet in <name type="place">ierusalem</name> adorabit eum rex nomine
+                            flato. Exurgent ergo viri prudentes x et viij<abbr rend="superscript">o</abbr> ab <name
+                                type="place">ierusalem</name> et stabunt coram illo redarguentes eum. Et videns quod
+                            redarguitur indurabitur cor suum et iubebit eos incendi et aras <name type="place"
+                                >ierusalem</name> dicens. Veniat deus vester in quo speratis et liberet vos. Tunc dicent
+                            iusti. Non fecit hoc christus filius dei. sed ait exaudiet illos pater meus et ego reuertar
+                            ad illos cum caterua magna. Illi autem electi sperantes aduentum meum carnem non comedent
+                            vinum non bibent. sed esca erit eis olera et domus spelunce. mulieres inimice. mendacium
+                            apud illos non erit. filii eorum ante parentes non morientur et dormient in lecto suo
+                            scientes diem exitus sui suorumque superabunt opera plusquam philosophorum. Post hec michael
+                            arcangelus canet tuba et reuertar in <name type="place">ierusalem</name> et antichristus
+                            confundetur et fugiet ad boream et colliget gog et magog. et veniet gaudens et pungnabit in
+                                <name type="place">monte oliueti</name>. et mittam summum militem uirtutis mee et tanget
+                            castra eorum. et cadent omnes. Tunc mittam spiritum meum in boream et nothum et affricum et
+                            colligentur omnes quidam autem accipient ignem gehenne quidam autem nouitatem lucis mee.
+                            Tunc Sol sepcies fulgebit clarius quam ante solebat. post mille uero annos electi mei quasi
+                            hora una dormient et dabit illis pater meus regnum sempiternum. ffelices ergo qui credent
+                            quoniam iudicabunt. quid faciam in illis diebus. Respondit mihi. Vade euangelizare omni
+                            creature regnum dei <hi rend="footnote">Evidently there is a break here. The portion of the
+                                tract which is attributed to <name type="person">St Matthew</name> (and which I have not
+                                seen elsewhere) ends at this point, and what follows is an excerpt from some other
+                                writing of the type of <name type="person">pseudo-Methodius</name></hi>. In nouissimo
+                            tempore consummacionis mundi appropinquante die iudicii exient gog et magog alieque gentes
+                            quas <name type="person">alexander</name> in finibus aquilonis includet deuastantes <name
+                                type="place">terram israel</name> et uniuersa mala exercent in ea. Exurget autem in illo
+                            tempore regnum romanorum et subiciet sibi has gentes et filios <name type="person"
+                                >ismael</name> et uincet eos et regnum christianorum defendet. Subiugabit iugo pessimo
+                            saracenos. Iste siquidem rex ut in sequentibus patet ex ethiopibus genealogiam ducet unde
+                            est illa prophetia <name type="person">dauid</name> dicentis. <name type="place"
+                                >Ethiopia</name> preueniet manus eius deo. nec immerito. non enim est regnum sub celo
+                            quod possit superare regnum christianorum. Post hec ascendet rex ille romanorum in <name
+                                type="place">ierusalem</name> uenietque in <name type="place">golgatha</name> loco ubi
+                            affixum est lignum sancte crucis et tollet coronam de capite suo ponetque super crucem.
+                            expandensque manus suas in celum tradet regnum christianorum deo patri omnipotenti et
+                            assumetur sancta crux in celum cum corona regis. Cum autem dominus postea uenerit iudicare
+                            seculum per ignem apparebit sancta crux ante eum ad arguendum infidelium audaciam unde
+                            apostolus. Tunc destruetur omnis principatus et potestas per uniuersum mundum ut appareat
+                            filius perdicionis .i. antichristus. Erit autem regnum antichristi tempus et tempora et
+                            dimidium temporis .i. per tres annos et dimidium. In hiis diebus pluuie non erunt super
+                            terram nec nubes discurrent et erit fames magna in terra flumina siccabuntur et pisces
+                            peribunt et homines pre fame ualida morientur nec erit qui eos sepeliat et erit fetor et
+                            putredo mortuorum super faciem terre. Postea apparebit signum filii hominis in celo .i.
+                            sancta crux. et ueniet dominus et interficiet filium perdicionis spiritu oris sui et
+                            iudicabit seculum per ignem. Hic est finis seculi et diei iudicii in terra. beati qui parati
+                            sunt quando hec fient</ab>
+                        <explicit locusNew="7r">Post iudicium autem celum nouum et terra noua erit preparata omnibus
+                            sanctis. ubi cum deo et sanctis angelis eius leticia perficietur sempiterna. Amen</explicit>
+                        <rubric locusNew="7r">Explicit</rubric>
+                        <ab>At bottom of f. <locus>7r</locus> is this contemporary note:</ab>
+                        <ab locus="7r"> Iste tractatus est ualde defectiuus </ab>
+                        <ab>(Another hand)</ab>
+                        <ab locus="7r"> Vide tractatum de antichristo notabilem in paruo libro nigro cum bestiario in
+                            gallicis quondam <name type="person">h. de brigham</name>
+                        </ab>
+                    </msItem>
+
+
+                    <msItem n="4" locusStart="7v" locusEnd="8v">
+                        <head type="CCC">
+                            <title>Tractatus de duratione mundi</title>
+                        </head>
+
+                        <ab>
+                            <handNote>In a larger rougher script</handNote>
+                        </ab>
+                        <rubric locus="7v">De duracione mundi secundum <name type="author">eusebium</name></rubric>
+                        <ab>Note at bottom:</ab>
+                        <ab locusNew="7v"> Iste tractatus est similiter defectiuus </ab>
+                        <incipit locusNew="7v">Intende secundum <name type="person">eusebium</name> inclusum in (blank)
+                            suis et secundum fratrem columpinensem in collacione sua. Deus in creacione mundi operatus
+                            est per septenas. Constituit enim primo mundum duraturum per vii mille annos et disposuit
+                            ipsum per vii dies qui deuoluuntur qualibet septimana. et illuminauit ipsum per vii planetas
+                            positas in vii speris celorum etc. ... et hoc asserit frater <name type="person"
+                                >columbinus</name> quod completo anno domini <date>m. ccc. xvi<abbr rend="superscript"
+                                    >o</abbr></date> apparebit in <name type="place">ierusalem</name>
+                            antichristus</incipit>
+                        <explicit locusNew="8v">bruta animalia comedent super altare <name type="person">petri</name> et
+                                <name type="person">pauli</name>. Clerici uero superuenientes cooperient tonsuras suas
+                            et denegabunt se esse clericos [def. finis]</explicit>
+
+                    </msItem>
+
+
+                    <msItem n="5" locusStart="9r" locusEnd="38v">
+                        <head type="CCC"><name type="author">Hildegard of Bingen OSB</name>, <title>Prophecy
+                                texts</title></head>
+
+                        <ab>
+                            <handNote>In the former hand</handNote>
+                        </ab>
+                        <rubric locus="9r">Incipit epistola super prophetiam <name type="person">beate hildegardis
+                                virginis</name> in libro qui dicitur pentacronon siue speculum temporum
+                            futurorum</rubric>
+                        <incipit locusNew="9r">Honorabilibus viris semper in christo diligendis <name type="person"
+                                >magistro raymundo scolastico</name> et <name type="person">magistro regnero canonicis
+                                Sancti Stephani in maguncia</name>
+                            <name type="person">ffrater gebeno</name> dictus prior cisterciensis in <name type="place"
+                                >herbebac</name></incipit>
+                        <explicit locusNew="9r">antequam in manus multorum ueniens pupplicetur</explicit>
+                        <ab>See <ref type="bibl" target="Pez 1721-9">Pez, <hi rend="italic">Anecd.</hi> III 3.
+                            630</ref></ab>
+                        <rubric locus="9v">Incipit prologus dicti <name type="author">Gebenonis prioris</name></rubric>
+                        <incipit locusNew="9v">De antichristo nostris temporibus diuersi diuersa proponentes</incipit>
+                        <explicit locusNew="9v">ipsi honor et gloria in secula seculorum. Amen</explicit>
+                        <ab>
+                            <ref type="bibl" target="Pitra 1882">Pitra, <hi rend="italic">Anal. Sac.</hi> VIII 484</ref>
+                        </ab>
+                        <rubric locus="9v">Item prologus eiusdem <name type="person">Gebenonis prioris</name> quod
+                            sancta uirgo obscure et inusitato stilo loquitur</rubric>
+                        <incipit locusNew="9v">Libros <name type="person">beate hildegardis</name> plurimi legere
+                            fastidiunt</incipit>
+                        <ab>
+                            <ref type="bibl" target="Pitra 1882">Pitra, <hi rend="italic">Anal. Sac</hi>. VIII 484</ref>
+                        </ab>
+                        <explicit locusNew="10r">spiritus sancti qui loquitur in illis</explicit>
+                        <rubric locus="10r">Incipiunt capitula</rubric>
+                        <ab>(of the three parts)</ab>
+                        <rubric locus="11v">Prologus <name type="author">sancte hildegardis uirginis</name> de
+                            reuelacionibus sibi ostensis</rubric>
+                        <incipit locusNew="11v">Et ecce xliii<abbr rend="superscript">o</abbr> temporalis cursus mei
+                            anno</incipit>
+                        <ab>
+                            <ref type="bibl" target="Pitra 1882">Pitra, <hi rend="italic">Anal. Sac</hi>. VIII 503</ref>
+                        </ab>
+                        <explicit locusNew="12r">et ea in consciencia animi sui consciebat</explicit>
+                        <rubric locus="12r">Incipit prophecia <name type="author">sancte hildegardis uirginis</name> de
+                            quinque futuris temporibus que ceperunt a<abbr rend="superscript">o</abbr> m<abbr
+                                rend="superscript">o</abbr> c<abbr rend="superscript">o</abbr> in libro ciuias. Liber
+                            iste vocatur pentacronon siue speculum temporum futurorum</rubric>
+                        <incipit locusNew="12r">Vidi ad aquilonem et ecce ibi quinque bestie</incipit>
+                        <ab locus="28v">Pars II</ab>
+                        <ab locus="31v">Pars III</ab>
+                        <ab locus="36r">The text is interrupted here by the insertion of capitulum 2 of Pars II omitted
+                            on f. <locus>29r</locus>. (Epistola <name type="author">sancte Hildegardis</name> ad
+                            colonienses)</ab>
+                        <ab locus="37v">It resumes here, ending <locus>38v</locus></ab>
+                        <explicit locusNew="38v">ut uita eorum a fidelibus monachis deuitetur monet</explicit>
+                        <rubric locusNew="38v">Explicit Liber qui dicitur pentacronon siue speculum temporum futurorum
+                            de prophecia <name type="author">sancte virginis hildegardis</name> que tempore quo erat
+                            quinquennis spiritum habuit prophecie et incepit prophetare anno etatis sue xliii<abbr
+                                rend="superscript">o</abbr> circa annum christi m<abbr rend="superscript">m</abbr>
+                                c<abbr rend="superscript">m</abbr> xlij<abbr rend="superscript">m</abbr></rubric>
+
+                        <rubric locus="38v">Ex prophecia sibille</rubric>
+                        <ab>(against the Friars)</ab>
+
+                        <incipit locusNew="38v">Filia syon corona capitis tui inclinabitur quia non recognoscis ...
+                            surget enim proximis temporibus gens alte tonsa variis et vilibus induta pannis et in eis
+                            permittet diabolus esse tantam castitatem, etc.</incipit>
+
+                        <explicit locusNew="38v">in melius reformabitur status tuus</explicit>
+                        <ab>Cf. <ref type="ms" target="CCC107">MS 107. 9</ref>, <ref type="ms" target="CCC288">MS 288.
+                                10</ref></ab>
+                        <rubric locus="38v">Item ex epistola cuiusdam Sibille</rubric>
+                        <incipit locusNew="38v">Exeunt equi nigri et erunt quasi columpna ecclesie et per eos tota
+                            corruet ecclesia, etc.</incipit>
+                        <incipit locusNew="38v"><name type="person">Ioachim abbas</name> in concordanciis suis de fine
+                            mundi sic ait<lb/> Nouissime autem omnium uenient alte tonsi, etc.</incipit>
+                        <ab locusNew="38v">Margin. Nota propheciam de tonsura modernorum</ab>
+
+                    </msItem>
+
+
+                    <msItem n="6" locusStart="39r" locusEnd="43r">
+                        <head type="CCC">
+                            <title>Reuelacio mirabilis super statu totius ecclesiae</title>
+                        </head>
+
+                        <ab>
+                            <handNote>In another hand, of earlier type</handNote>
+                        </ab>
+                        <rubric locus="39r">Reuelacio mirabilis super statu totius ecclesie et precipue super hiis que
+                            contingent in diebus predicatorum et minorum</rubric>
+                        <incipit locusNew="39r">Sanctissimo fratri ... <name type="person">iacobo ... tusculano
+                                episcopo</name>
+                            <name type="person">magister L. suus clericus et seruus humillimus</name>. Magnopere me
+                            dante studium tenuitatis proprie pro modulo efficax ut miracula que omnipotens deus per
+                            beatum confessorem hyspaniarum doctorem <name type="person">ysidorum</name> nostris
+                            obtutibus cotidie mirabiliter representat ...<lb/> ... ex precepto domini patris <name
+                                type="person">suery</name> sanctissimi ordinis predicatorum hyspaniarum prioris litteris
+                            commendarem aduenit heremita quidam de partibus astitelarum nomine <name type="person"
+                                >iohannes</name> ... qui a beato <name type="person">ysidoro</name> se fatebatur missum
+                            et ut que asserebat scriberem in presentia quorundam fratrum ordinis predicatorum imperauit
+                            dicens</incipit>
+                        <rubric locusNew="39r">Incipit Reuelacio</rubric>
+                        <incipit locusNew="39r">Cum essem inquit in oratione hora diei nona vidi cuiusdam inenarrabilis
+                            pulcritudinis similitudinem corporis</incipit>
+                        <explicit locusNew="39v">se esse christi vicarium glorietur. acta est huius visionis reuelacio
+                            anno ab incarnacione domini <date>m<abbr rend="superscript">o</abbr> cc<abbr
+                                    rend="superscript">o</abbr> xx vi<abbr rend="superscript">o</abbr></date></explicit>
+                        <ab locus="39v">Notes in another hand on the eucharist</ab>
+
+                        <ab>f. <locus>40r</locus>-<locus>40v</locus> blank</ab>
+                        <ab locus="41r">On <supplied>this page</supplied> the end of the <hi rend="italic">prophecia de
+                                Papis</hi> (see <supplied>item</supplied> no. 10) beginning with <name type="person"
+                                >Clement VI</name> (<date>1342-52</date>) and continuing <hi rend="italic">De papa
+                                futuro Post eum</hi>. Ending (<hi rend="italic">de ultimo papa</hi>):</ab>
+                        <explicit locusNew="41r">infernus te expectat terribilis es et quis resistet tibi</explicit>
+                        <rubric locusNew="41r">Explicit prophecia de papis</rubric>
+                        <ab locusNew="41r">
+                            <supplied>
+                                <decoNote>On this page, a pricked outline of the beaver that appears on f.
+                                        <locus>95r</locus></decoNote>
+                            </supplied>
+                        </ab>
+
+                        <ab locus="41v">blank</ab>
+                        <ab locus="42r">old pencil notes</ab>
+                        <ab locus="42v"><date>xvi</date>th century note on <name type="person">Joachim Abbas</name>
+                            (from <name type="person">Gesner</name>)</ab>
+                        <ab locus="43r">blank</ab>
+
+                    </msItem>
+
+
+                    <msItem n="7" locusStart="43v" locusEnd="64v">
+                        <head type="CCC"><name type="author">pseudo-Joachim of Fiore</name>, <title>De seminibus
+                                scripturarum</title>
+                        </head>
+
+                        <ab locus="43v">In the hand of <supplied>item</supplied> no. 1, etc.</ab>
+                        <incipit locusNew="43v">Semen cecidit in terram bonam et ortum fecit fructum centuplum. ita
+                            littere que semina scripturarum sunt faciunt fructum centuplum. unde quelibet littera
+                            secundum <name type="person">ioachim</name> in hoc libro significat suum
+                            centenarium</incipit>
+
+                        <explicit locusNew="43v">sextus millenarius resurget omnis homo</explicit>
+                        <rubric locus="44r">Incipit liber <name type="person">Ioachim abbatis</name> de seminibus
+                            litterarum vel scripturarum</rubric>
+                        <incipit locusNew="44r">Queso te lector huius opusculi ne presumpcionem nostram telnere arguas
+                            donec ad uliguem libellum hunc perlegas</incipit>
+                        <explicit locusNew="64v">et hoc facto totum restitutum esset ad tempus</explicit>
+                        <rubric locusNew="64v">Explicit liber <name type="author">Joachim Abbatis</name> de seminibus
+                            litterarum</rubric>
+
+                    </msItem>
+
+
+                    <msItem n="8" locusStart="65r" locusEnd="67r">
+                        <head type="CCC">
+                            <title>De Antichristo et fine mundi</title>
+                        </head>
+
+                        <rubric locus="65r">De Antichristo et fine mundi</rubric>
+                        <incipit locusNew="65r">Pro aduentu antichristi est notandum quod antichristum et diem iudicii
+                            infra breue tempus fore est verisimile. et hoc persuadetur phisice philosophice astrologice
+                            poetice et theologice</incipit>
+
+                        <explicit locusNew="65v">Ergo diem iudicii et antichristum cito fore est verisimile</explicit>
+
+                        <rubric locusNew="65v">Explicit</rubric>
+
+                        <incipit locus="65v">Huic sentencie concordat <name type="person">methodius</name> in magna
+                            parte sed <name type="person">ioachim abbas</name> in libro de seminibus litterarum
+                            nequaquam (<handNote>paler ink</handNote>) nec <name type="person">henricus de
+                                huntedon</name> in fine cronicorum suorum (<handNote>former ink</handNote>) ubi sic
+                            scribit idem <name type="person">henricus huntedon</name>. Ad vos iam loquar qui in tercio
+                            millenario circa centesimum et sexagesimum nonum annum eritis</incipit>
+
+                        <explicit locusNew="66r">prestante Ihesu Christe racionabiliter credo. Hec <name type="person"
+                                >henr. huntedoniensis</name> in fine cronicorum suorum cui concordat in scriptis suis
+                                <name type="person">herbertus episcopus norwicensis</name> vir prudens et
+                            doctissimus</explicit>
+
+                        <incipit locus="66r">Anno ab incarnacione domini <date>m<abbr rend="superscript">o</abbr> c<abbr
+                                    rend="superscript">o</abbr> xcv<abbr rend="superscript">o</abbr></date> extitit
+                            quidam abbas in <name type="place">ytalia</name> de ordine cisterciensis qui quandam
+                            exposicionem super vii visiones apocalipsis edidit</incipit>
+
+                        <explicit locusNew="66v">et nefarie tirannidi audeat uel possit rebellando resistere</explicit>
+
+                        <rubric locusNew="66v">Hec in libro visionum apud <name type="place">Sibetone</name> et apud
+                                <name type="place">Coggeshale</name></rubric>
+
+                        <ab><name type="place">Sibton</name> was a <name type="place">Suffolk</name> house</ab>
+                        <ab locus="67r">blank</ab>
+
+                    </msItem>
+
+
+                    <msItem n="9" locusStart="67v" locusEnd="87v">
+                        <head type="CCC"><name type="author">pseudo-Joachim of Fiore</name>, Commentary on Cyril of
+                            Constantinople OCarm, <title>Oraculum angelicum</title></head>
+
+                        <rubric locus="67v">Descripcio tabellarum et oraculi <name type="person">fratris Cirilli montis
+                                Carmeli heremite</name></rubric>
+                        <incipit locusNew="67v"><name type="person">Frater gilbertus anglicus magnus</name> ille
+                            theologus qui et ipse hunc librum satis curiose exposuit in sue exposicionis exordio hec
+                            uerba descripsit. Cum ad monasterium cluniacense</incipit>
+                        <explicit locusNew="67v">nec eo minus prosesserit in misse misteriis</explicit>
+                        <incipit locusNew="67v">Ego <name type="person">frater petrus maymeti</name> ordinis beate marie
+                            de carmelo existens scolaris parisius</incipit>
+                        <explicit locusNew="67v">erant curiose et mirabiliter depicti</explicit>
+                        <rubric locusNew="67v">Epistola <name type="person">Cirilli</name> etc. ut hic infra</rubric>
+                        <ab>See <ref type="ms" target="CGC388">Gonv. and Cai. MS. 388</ref>. Printed, Venice 1517
+                            etc.</ab>
+                        <rubric locus="68r">Epistola <name type="author">cirilli</name> ad <name type="person">abbatem
+                                Joachim</name> de oraculo misso sibi de celo missarum solennia celebranti</rubric>
+                        <incipit locusNew="68r">Homini tocius sapiencie septiformi columpna</incipit>
+                        <explicit locusNew="68r">conuertas in solem clarissimi intellectus</explicit>
+                        <rubric locusNew="68r">Explicit Epistola</rubric>
+                        <rubric locusNew="68r">Incipit prologus eiusdem <name type="author">cirilli</name> super
+                            oraculum ei missum</rubric>
+                        <incipit locusNew="68r">Igitur cum pro ueneranda celebritate <name type="person">beate
+                                hilarionis</name></incipit>
+                        <explicit locusNew="68v">et in ictu oculi disparuit</explicit>
+                        <rubric locusNew="68v">Epistola <name type="author">Ioachim</name> rescripta ad <name
+                                type="person">cirillum</name></rubric>
+                        <incipit locusNew="68v">Stelle manenti in ordine sanctitatis</incipit>
+                        <explicit locusNew="70r">quod ipsi descripserunt. Vale miles Christi</explicit>
+                        <rubric locusNew="70r">Explicit epistola <name type="author">Ioachim</name> rescripta ad <name
+                                type="person">Cirillum</name></rubric>
+
+                        <rubric locusNew="70r">Incipit oraculum de celo missum <name type="author">cirillo</name> missam
+                            celebranti uisibiliter oblatum per angelum et corporaliter commendatum</rubric>
+                        <ab>(with the comment of <name type="person">Joachim</name>: the text of <name type="person"
+                                >Cyril</name>
+                            <decoNote>underlined in red</decoNote>)</ab>
+                        <incipit locusNew="70r">Tempore annorum Christi <date>mille ducentorum quinquaginta et quatuor
+                                februarii kalendas octauo</date> sol orietur inter muros periurii limphis uallatos in
+                            ora leonis .i. contracti 70 anni</incipit>
+
+                        <ab>Text ends</ab>
+                        <explicit locusNew="87v">felix que (?qui) mundo collegerit sextarios 30. hic non inuidebit
+                            superbe (?) cornutis a tergo</explicit>
+                        <ab>Comment</ab>
+                        <explicit locusNew="87v">portantibus magna capucia post tergum in modum cornu</explicit>
+                        <rubric locusNew="87v">Explicit</rubric>
+
+                    </msItem>
+
+
+                    <msItem n="10" locusStart="88r" locusEnd="95v">
+                        <head type="CCC"><name type="author">pseudo-Joachim of Fiore</name>, <title>Prophetiae de papis
+                                (Vaticinia de papis)</title></head>
+
+                        <ab><handNote>An earlier hand, regular Gothic</handNote>. <layout>A paragraph at top of each
+                                page and <decoNote>the rest occupied by a fine, clear, bold outline
+                                drawing</decoNote></layout></ab>
+                        <ab>Headlines by <name type="person">Boston</name></ab>
+                        <rubric locus="88r">Incipit prophecie <name type="author">Joachim abbatis</name> de
+                            papis</rubric>
+                        <seg>
+                            <rubric locusNew="88r">prophecia de <name type="person">papa Nicholao iii</name>
+                                    (<date>1277</date>)</rubric>
+                            <incipit locusNew="88r">Genus nequam ursa catulos pascens etc.</incipit>
+
+                            <ab locusNew="88r">
+                                <decoNote>L. Bear suckling four whelps. R. Pope in chasuble and peaked tiara with long
+                                    cross staff</decoNote>
+                            </ab>
+                        </seg>
+                        <seg>
+                            <rubric locus="88v"><supplied>prophecia</supplied> de <name type="person">Martino iiii<abbr
+                                        rend="superscript">o</abbr></name> (<date>1281</date>)</rubric>
+
+                            <ab locusNew="88v">
+                                <decoNote>L. Pope with cross staff, banner by him. R. Serpent with dog's head attacked
+                                    by two birds</decoNote>
+                            </ab>
+                        </seg>
+                        <seg>
+                            <rubric locus="89r"><supplied>prophecia</supplied> de <name type="person">honorio iiii<abbr
+                                        rend="superscript">o</abbr></name> (<date>1285</date>)</rubric>
+                            <ab locusNew="89r">
+                                <decoNote>Pope in C. Boy on L. Unicorn R. Nimbed eagle displayed above</decoNote>
+                            </ab>
+                        </seg>
+                        <seg>
+                            <rubric locus="89v"><supplied>prophecia</supplied> de <name type="person">Nicholao iiii<abbr
+                                        rend="superscript">o</abbr> de ordine minorum</name>
+                                (<date>1288</date>)</rubric>
+
+                            <ab locusNew="89v">
+                                <decoNote>R. Bearded man holds sickle and winged figure. L. two crowned heads in
+                                    medallions. Above: head (large) on blade of serrated sickle</decoNote>
+                            </ab>
+                        </seg>
+                        <seg>
+                            <rubric locus="90r"><supplied>prophecia</supplied> de <name type="person">celestino v<abbr
+                                        rend="superscript">o</abbr> heremita</name> (<date>1294</date>)</rubric>
+                            <ab locusNew="90r">
+                                <decoNote>Cow on L. Pope on R. standing on a pedestal</decoNote>
+                            </ab>
+                        </seg>
+                        <seg>
+                            <rubric locus="90v"><supplied>prophecia</supplied> de <name type="person">Bonefacio
+                                        viii<abbr rend="superscript">o</abbr></name> (<date>1294</date>)</rubric>
+                            <ab>
+                                <decoNote locusNew="90v">L. Bear suckling five whelps. R. King</decoNote>
+                            </ab>
+                        </seg>
+                        <seg>
+                            <rubric locus="91r"><supplied>prophecia</supplied> de <name type="person">Benedicto xi<abbr
+                                        rend="superscript">o</abbr> de ord. predicatorum</name>
+                                (<date>1303</date>)</rubric>
+                            <ab locusNew="91r">
+                                <decoNote>Church. Below a hooded head blowing upwards</decoNote>
+                            </ab>
+                        </seg>
+                        <seg>
+                            <rubric locus="91v"><supplied>prophecia</supplied> de <name type="person">clemente v<abbr
+                                        rend="superscript">o</abbr></name> (<date>1305</date>)</rubric>
+                            <ab locusNew="91v"><decoNote>L. Two hands, a dog, three banners crossed. Pope on
+                                    R.</decoNote> Note below <handNote>in <name type="person">Boston</name>'s
+                                    hand</handNote></ab>
+                        </seg>
+                        <seg>
+                            <rubric locus="92r"><supplied>prophecia</supplied> de <name type="person">Johanne xxii<abbr
+                                        rend="superscript">o</abbr></name> (<date>1316</date>)</rubric>
+                            <ab locusNew="92r">
+                                <decoNote>A great chair. A hand below on L.</decoNote>
+                            </ab>
+                        </seg>
+                        <rubric locus="92v"><supplied>prophecia</supplied> de <name type="person">Benedicto xii<abbr
+                                    rend="superscript">o</abbr></name> (<date>1334</date>)</rubric>
+                        <ab locusNew="92v">
+                            <decoNote>Man seated on tomb (?). Woman with crossed arms. A small tombstone on L. Star
+                                (black) above</decoNote>
+                        </ab>
+                        <rubric locus="93r"><supplied>prophecia</supplied> de <name type="person">Clemente vi<abbr
+                                    rend="superscript">o</abbr></name> (<date>1342</date>)</rubric>
+                        <ab locusNew="93r">
+                            <decoNote>Angel holding tiara seated on back of a beast with a bear's (?) head at each end.
+                                Two dogs in front, back to back</decoNote>
+                        </ab>
+                        <seg>
+                            <rubric locus="93v"><supplied>prophecia</supplied> de <name type="person">Innocentio vi<abbr
+                                        rend="superscript">o</abbr></name> (<date>1352</date>)</rubric>
+                            <ab locusNew="93v">
+                                <decoNote>Pope on L. Angel with long sceptre touches his mitre</decoNote>
+                            </ab>
+                        </seg>
+                        <seg>
+                            <rubric locus="94r"><supplied>prophecia</supplied> de <name type="person">Urbano v<abbr
+                                        rend="superscript">o</abbr></name> (<date>1362</date>)</rubric>
+                            <ab locusNew="94r">
+                                <decoNote>Nimbed Pope throned with rich arras behind held up by an angel on each
+                                    side</decoNote>
+                            </ab>
+                        </seg>
+                        <seg>
+                            <rubric locus="94v"><supplied>prophecia</supplied> de <name type="person">Gregorio xi<abbr
+                                        rend="superscript">o</abbr></name> (<date>1370</date>)</rubric>
+                            <ab locusNew="94v">
+                                <decoNote>Pope in low mitre holding tall tiara and book</decoNote>
+                            </ab>
+                        </seg>
+                        <seg>
+                            <rubric locus="95r"><name type="person">Urbanus vi<abbr rend="superscript">us</abbr></name>
+                                    (<date>1378</date>)</rubric>
+                            <ab>(No text)</ab>
+                            <ab locusNew="95r">
+                                <decoNote>A very good picture of a beaver, coloured dark brown</decoNote>. <supplied>
+                                    <decoNote>There is a pricked outline of this beaver on f. 41r</decoNote>
+                                </supplied>
+                            </ab>
+                        </seg>
+                        <ab locus="95v">blank</ab>
+                        <ab>For the conclusion see above, on f. <locus>41r</locus></ab>
+
+                    </msItem>
+
+
+                    <msItem n="11" locusStart="96r" locusEnd="107v">
+                        <head type="CCC">
+                            <title>Prophecies on the English Kings, on Antichrist, and other texts</title>
+                        </head>
+
+                        <ab>
+                            <handNote>The former hand</handNote>
+                        </ab>
+                        <rubric locus="96r">Incipit prophecie de regibus anglorum</rubric>
+                        <seg>
+                            <ab><hi rend="bold">a</hi>.</ab>
+                            <rubric locus="96r"><name type="person">Adelredus Abbatus Rieuallis</name> in vita <name
+                                    type="person">Sancti Eduuardi</name> confessoris</rubric>
+                            <incipit locusNew="96r"><name type="person">Sanctus eduuardus rex et confessor</name>
+                                gloriosus die <name type="person">sanctorum innocencium</name> proximo ante ipsius
+                                obitum</incipit>
+                            <explicit locusNew="96v">aut aliud tempus quo hec expleantur expectat</explicit>
+                            <rubric locusNew="96v">Hec <name type="person">Athelredus Abbatus rieuallis</name> in vita
+                                    <name type="person">Sancti Eduuardi</name></rubric>
+                        </seg>
+                        <seg>
+                            <ab><hi rend="bold">b</hi>.</ab>
+                            <rubric locus="96v">Aliter</rubric>
+                            <incipit locusNew="96v">Arbor fertilis a primo trunco decisa</incipit>
+                            <explicit locusNew="97v">et rumor operis alpes transcendet</explicit>
+                        </seg>
+                        <seg>
+                            <ab><hi rend="bold">c</hi>.</ab>
+                            <incipit locusNew="97v">Eclipsis solis anno domini <date>m<abbr rend="superscript">o</abbr>
+                                        ccc<abbr rend="superscript">o</abbr> lxxi<abbr rend="superscript">o</abbr>
+                                        xxv<abbr rend="superscript">o</abbr> die mensis maii</date> v<abbr
+                                    rend="superscript">a</abbr> hora xxxvj<abbr rend="superscript">a</abbr> minuta
+                                secundum libros astrologorum significat guerram terribilem</incipit>
+
+                            <explicit locusNew="97v">cum fulgure et tonitruo periculoso</explicit>
+                        </seg>
+                        <seg>
+                            <ab><hi rend="bold">d</hi>.</ab>
+                            <rubric locus="98r">
+                                <name type="person">Willelmus conquestor</name>
+                            </rubric>
+                            <incipit locusNew="98r">Aquila neustrie periurium vindicaturus</incipit>
+                            <ab locusNew="98v">Ends (after <name type="person">Edward III</name>)</ab>
+                            <incipit locusNew="99r"><name type="person">Catulus linxius</name> in lupum rapidum
+                                conuertetur</incipit>
+                            <explicit locusNew="99r">et ad sidera conuolabit</explicit>
+                        </seg>
+                        <seg>
+                            <ab><hi rend="bold">e</hi>.</ab>
+                            <rubric locus="99r">Versus</rubric>
+                            <incipit locusNew="99r">Anglia transmutet leopardum lilia galli, etc.</incipit>
+                            <ab locusNew="99r">
+                                <lg>
+                                    <l>Mens cor cur cupiunt lex Christi vera iocunda (<date>m ccc lxvi</date>), etc.</l>
+                                    <l>Confert hic rome plus laudis quam sibi roma, etc.</l>
+                                </lg>
+                            </ab>
+                        </seg>
+                        <seg>
+                            <ab><hi rend="bold">f</hi>.</ab>
+                            <incipit locus="99v">Quando ego <name type="person">thomas Cantuariensis
+                                    archiepiscopus</name> exul ab <name type="place">Anglia</name></incipit>
+                            <explicit locusNew="99v">in quodam vase plumbeo</explicit>
+                        </seg>
+                        <seg>
+                            <ab><hi rend="bold">g</hi>.</ab>
+                            <rubric locus="100r">Prophecie <name type="person">Ioachim</name> in maiori libro de
+                                concordanciis</rubric>
+                            <incipit locusNew="100r">Anno domini <date>m<abbr rend="superscript">o</abbr> ccc<abbr
+                                        rend="superscript">o</abbr> L<abbr rend="superscript">o</abbr></date> corruent
+                                nobiles</incipit>
+                            <explicit locusNew="100r">audientur noua de antichristo</explicit>
+                            <rubric locusNew="100r">Ista prophecia fuit promulgata anno domini <date>m<abbr
+                                        rend="superscript">o</abbr> cc<abbr rend="superscript">o</abbr> lxxxviii<abbr
+                                        rend="superscript">o</abbr></date> prout patet in quodam tractatu de antichristo
+                                questione vij<abbr rend="superscript">a</abbr></rubric>
+                            <ab>A blank space</ab>
+                        </seg>
+                        <seg>
+                            <ab><hi rend="bold">h</hi>.</ab>
+                            <incipit locusNew="100r">Narrat <name type="person">henricus huntedon</name> in suis
+                                cronicis libro 6<abbr rend="superscript">o</abbr> circa principium quod quidam vir
+                                sanctus predixit Anglis</incipit>
+                        </seg>
+                        <seg>
+                            <ab><hi rend="bold">i</hi>.</ab>
+                            <incipit locus="100v">Anno domini <date>m. cc. lxxxviii<abbr rend="superscript"
+                                    >o</abbr></date> facta est visio mirabilis in ciuitate <name type="place"
+                                    >tripolis</name> ... Cedrus alta libani succidetur, etc.</incipit>
+                            <explicit locusNew="100v">si vera essent omnia que referebant</explicit>
+                        </seg>
+                        <seg>
+                            <ab><hi rend="bold">k</hi>.</ab>
+                            <incipit locus="100v">Visio cuiusdam fratris <name type="person">Iohannis de palma ordinis
+                                    cisterciensis</name> super statu ecclesie futuro quam habuit parum ante promocionem
+                                    <name type="person">pape bonefacii viii</name></incipit>
+                            <explicit locusNew="102r">et tunc tempora incipient antichristi. Et cum hec dixisset
+                                disparuit</explicit>
+                        </seg>
+                        <seg>
+                            <ab><hi rend="bold">l</hi>.</ab>
+                            <incipit locus="102r">Subscriptos rumores scripsit frater <name type="person">Willelmus de
+                                    Blofeld</name> in <name type="place">anglia</name> anno domini <date>m<abbr
+                                        rend="superscript">o</abbr> ccc<abbr rend="superscript">o</abbr> xlix<abbr
+                                        rend="superscript">o</abbr></date> cuidam fratri conuentus fratrem predictatorum
+                                    <name type="place">norwicensis </name></incipit>
+                            <ab locusNew="102r">(<hi rend="italic">marg</hi>. Mendacium)</ab>
+                            <explicit locusNew="102v">antichristus veniet et se ostendet</explicit>
+                        </seg>
+                        <seg>
+                            <ab><hi rend="bold">m</hi>.</ab>
+                            <incipit locus="102v">Anno gracie <date>m<abbr rend="superscript">o</abbr> ccc<abbr
+                                        rend="superscript">o</abbr> xlviii<abbr rend="superscript">o</abbr></date> misit
+                                    <name type="person">rex Swecie</name> mense octobris ad <name type="person">regem
+                                    Anglie</name> petens unam de filiabus suis sibi dari in uxorem. Item scripsit eidem
+                                quandam visionem cuiusdam matrone dicte terre Swasie de iure regis anglie ad regnum
+                                francie sub forma que sequitur</incipit>
+
+                            <incipit locusNew="102v">Excellentissimis principibus ... dominis <name type="person"
+                                    >philippo</name> et <name type="person">eduuardo</name> ... magnus eadem gratia
+                                    <name type="person">rex Swecie</name>, etc.</incipit>
+                            <explicit locusNew="103r">Scriptum anno gracie <date>m<abbr rend="superscript">o</abbr>
+                                        ccc<abbr rend="superscript">o</abbr> xlviii<abbr rend="superscript"
+                                    >o</abbr></date>. Sabbato in albis nostro sub sigillo</explicit>
+                            <ab>Vision of <name type="person">St Bridget</name></ab>
+                        </seg>
+
+
+                        <seg>
+                            <ab><hi rend="bold">n</hi>.</ab>
+                            <rubric locus="103r">Responsio facta anno domini <date>m<abbr rend="superscript">o</abbr>
+                                        ccc<abbr rend="superscript">o</abbr> lvi<abbr rend="superscript">o</abbr></date>
+                                per quendam patrem qui tenetur captus in carcere per dominum papam ad <name
+                                    type="person">Episcopum Tholosanum</name>, etc.</rubric>
+                            <incipit locusNew="103r">Vos misistis ad me hanc scedulam</incipit>
+                            <explicit locusNew="103v">quod possidet non retinebit quia rota fortune iam venit ad
+                                cursum</explicit>
+                            <ab>
+                                <handNote>Change of hand</handNote>
+                            </ab>
+                        </seg>
+
+
+                        <seg>
+                            <ab><hi rend="bold">o</hi>.</ab>
+                            <rubric locus="104r">De quadam coniunccione</rubric>
+                            <incipit locusNew="104r">Reuerende domine si occurrit memorie vestre Rogasti fratrem <name
+                                    type="person">robertum de pullham</name> quod mitteret uobis melius iudicium quod
+                                posset habere in <name type="place">Oxonia</name> de illa coniunccione</incipit>
+                            <explicit locusNew="104v">ex quibus patet quod hec coniunccio etc.</explicit>
+                        </seg>
+
+                        <seg>
+                            <ab><hi rend="bold">p</hi>.</ab>
+                            <rubric locus="104v"><name type="person">Johannes Tholosanus</name> et omnes magistri
+                                eiusdem loci omnibus</rubric>
+                            <incipit locusNew="104v">Quoniam recessit lex a clero</incipit>
+                            <explicit locusNew="105r">aliis innumeris beneficiis pepercit deus. Amen</explicit>
+                        </seg>
+
+
+                        <seg>
+                            <ab><hi rend="bold">q</hi>.</ab>
+                            <rubric locus="105r">Litera missa pape de partibus achaie</rubric>
+                            <incipit locusNew="105r">Morbosanus (or -lanus) baelem cum fratribus <name type="person"
+                                    >chelaby</name> et <name type="person">jurbahit</name> ... Nuper auribus nostris
+                                intonuit quod vos ad preces</incipit>
+                            <explicit locusNew="105v">presertim circa <name type="place">Gotham</name> et <name
+                                    type="place">Dalmaciam</name> uiriliter proponimus visitare. Datum anno
+                                    <date>Machameti septimo</date> cum innumerabili christianorum in trocta <name
+                                    type="place">Saldemari</name> (?) iuxta les <name type="place">Gincas</name>
+                                (?)</explicit>
+                        </seg>
+
+                        <seg>
+                            <ab><hi rend="bold">r</hi>.</ab>
+                            <ab locus="106r">On a comet of <date>1315</date></ab>
+                            <incipit locusNew="106r">Omnibus studentibus in stellarum sciencia qui scripcit hanc cedulam
+                                corrigendam</incipit>
+                            <explicit locusNew="107r">eclipsabitur luna uniuersaliter et a principio usque in finem per
+                                3 horas et modicum plus</explicit>
+                            <ab locus="107v">
+                                <decoNote>a large Lombardic M in outline</decoNote>
+                            </ab>
+                        </seg>
+
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJM 18.7.2008</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

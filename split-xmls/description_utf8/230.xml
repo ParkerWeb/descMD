@@ -1,0 +1,144 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC230">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>230</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Lib. ab Al. 21</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Publius Papinius Statius, Thebais</head>
+                <head type="James">Statii Thebais</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">230</height>
+                        <width unit="mm">125</width>
+                    </measureGrp>, <measureGrp type="James">9.05 x 5</measureGrp>, <extent>ff. 83</extent>, <layout>51
+                        lines to a page</layout>. Cent. <origDate>xii</origDate>, <handNote>very neatly
+                        written</handNote>. Glosses added. <decoNote>Untidy drawings on some of the
+                    margins</decoNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>I<num>8</num>-VI<num>8</num> (+1) VII gone VIII<num>8</num>-X<num>8</num>
+                        XI<num>10</num></collation>.</p>
+
+                <p function="Provenance">Given by <name type="person">Daniel Rogers</name>.</p>
+
+                <p function="Additions">There are many glosses. I have not seen any in vernacular. <decoNote>The
+                        marginal drawings are sometimes very funny</decoNote>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i + 1-83 + ii</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="frm">Latin with single Anglo-Norman note.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="83v">
+                        <head type="CCC">
+                            <name type="author">Publius Papinius Statius</name>, <title>Thebais</title>
+                        </head>
+                        <ab locus="1r">Liber I</ab>
+                        <incipit locus="1r">Fraternas acies</incipit>
+                        <ab locus="8r">Liber II . With argument</ab>
+                        <incipit locus="8r">Ut maya genitus</incipit>
+                        <ab locus="15r">Liber III. With argument</ab>
+                        <ab locus="22r">Liber IV. No argument</ab>
+                        <ab locus="30r">Liber V. No argument</ab>
+                        <ab locus="37r">Liber VI. No argument</ab>
+                        <ab locus="45v">Liber VII. No argument</ab>
+                        <ab>Ends imperfectly with line 488</ab>
+                        <explicit locusNew="49v">asspexit achivos</explicit>
+                        <ab>A quire gone</ab>
+                        <ab locus="50r">Liber VIII. 1-418 gone. Begins 419</ab>
+                        <incipit locus="50r">Nec locus</incipit>
+                        <ab locus="53r">Liber IX. No argument</ab>
+                        <ab locus="60v">Liber X</ab>
+                        <ab locus="69r">Liber XI</ab>
+                        <ab locus="75v">Liber XII</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="83r">referentur honores</explicit>
+                        <rubric locusNew="83r"><name type="author">Pampinii</name> Surculi Thebaidos lib. XII<abbr
+                                rend="superscript">mus</abbr> explicit</rubric>
+                        <ab>Twelve lines</ab>
+                        <ab locusNew="83r">
+                            <lg>
+                                <l>Adsociat profugum tideo primus polinicem</l>
+                                <l>...</l>
+                                <l>Argiam flentem narrat duodenus et ignem</l>
+                            </lg>
+                        </ab>
+                        <rubric locusNew="83r">Explicit iste liber poscat sua dona magister</rubric>
+                        <ab>On f. <locus>83v</locus> a scribble, <origDate>xiii</origDate></ab>
+                        <ab locusNew="83v">
+                            <q>Ascum trecher amy <name type="person">Johan de powey (? fowey) le sun</name></q>
+                        </ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: BLA 29/09/08, ELB final check 20/1/2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "@vocab": "http://bibframe.org/vocab/",
+    "bf": "http://bibframe.org/vocab/",
+    "id": "@id",
+    "note": "http://stanford.edu/notes/ns/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "type": "@type",
+    "value": "rdf:value"
+  },
+  "hasInstance": {
+    "contains": [
+      {
+        "extent": "1v-16v",
+        "title": {
+          "type": "Title",
+          "value": "Jerome, Vita Sancti Pauli primiheremitae"
+        },
+        "type": "Instance"
+      },
+      {
+        "extent": "17r-66r",
+        "title": {
+          "type": "Title",
+          "value": "Felix of Crowland, Vita SanctiGuthlaci"
+        },
+        "type": "Instance"
+      }
+    ],
+    "hasItem": {
+      "heldBy": {
+        "label": "Corpus Christi College",
+        "type": "Organization"
+      },
+      "id": "http://linked-data.stanford.edu/parker/ms/CCC389",
+      "identifiedBy": [
+        {
+          "scheme": "CCC",
+          "type": "LocalIdentifier",
+          "value": "CCC389"
+        },
+        {
+          "scheme": "Stanley",
+          "type": "LocalIdentifier",
+          "value": "G. 2"
+        },
+        {
+          "scheme": "TJames",
+          "type": "LocalIdentifier",
+          "value": "68"
+        }
+      ],
+      "note": [
+        {
+          "type": "note:ProvenanceNote",
+          "value": ""
+        }
+      ],
+      "subLocation": "Parker Library",
+      "type": "Item"
+    },
+    "id": "http://linked-data.stanford.edu/parker/ms/CCC389_instance",
+    "language": "Latin and Old English.",
+    "type": "Manuscript"
+  },
+  "id": "http://linked-data.stanford.edu/parker/ms/CCC389_work",
+  "title": [
+    {
+      "type": "Title",
+      "value": "Lives of the Hermits Paul and Guthlac"
+    },
+    {
+      "type": "VariantTitle",
+      "value": "Vita Pauli. Vita Guthlaci",
+      "variantType": "James"
+    }
+  ],
+  "type": "Work"
+}

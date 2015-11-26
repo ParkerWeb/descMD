@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "@vocab": "http://bibframe.org/vocab/",
+    "bf": "http://bibframe.org/vocab/",
+    "id": "@id",
+    "note": "http://stanford.edu/notes/ns/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "type": "@type",
+    "value": "rdf:value"
+  },
+  "hasInstance": {
+    "contains": [
+      {
+        "extent": "1r-22r",
+        "title": {
+          "type": "Title",
+          "value": "Register of Books in the libraries of Corpus Christi College,Cambridge"
+        },
+        "type": "Instance"
+      },
+      {
+        "extent": "36r-22v",
+        "title": {
+          "type": "Title",
+          "value": "Register of Plate belonging to Corpus Christi College,Cambridge"
+        },
+        "type": "Instance"
+      }
+    ],
+    "hasItem": {
+      "heldBy": {
+        "label": "Corpus Christi College",
+        "type": "Organization"
+      },
+      "id": "http://linked-data.stanford.edu/parker/ms/CCC490",
+      "identifiedBy": [
+        {
+          "scheme": "CCC",
+          "type": "LocalIdentifier",
+          "value": "CCC490"
+        },
+        {
+          "scheme": "Stanley",
+          "type": "LocalIdentifier",
+          "value": "none"
+        },
+        {
+          "scheme": "TJames",
+          "type": "LocalIdentifier",
+          "value": "none"
+        }
+      ],
+      "note": [
+        {
+          "type": "note:ProvenanceNote",
+          "value": ""
+        }
+      ],
+      "subLocation": "Parker Library",
+      "type": "Item"
+    },
+    "id": "http://linked-data.stanford.edu/parker/ms/CCC490_instance",
+    "language": "Latin.",
+    "type": "Manuscript"
+  },
+  "id": "http://linked-data.stanford.edu/parker/ms/CCC490_work",
+  "title": [
+    {
+      "type": "Title",
+      "value": "Register of Books and Plate belonging to Corpus Christi College, Cambridge"
+    },
+    {
+      "type": "VariantTitle",
+      "value": "Register",
+      "variantType": "James"
+    }
+  ],
+  "type": "Work"
+}

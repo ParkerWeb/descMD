@@ -1,0 +1,186 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC499">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>499</idno>
+                    <altIdentifier type="Elbing">
+                        <idno>N. 1</idno>
+                    </altIdentifier>
+
+                </msIdentifier>
+                <head type="CCC">Honorius Augustodunensis, Commentary on the Song of Songs. New Testament. Homilies.
+                    Michael of Massa (Michele Beccucci de Massa) OESA, Historia passionis Jesu Christi</head>
+                <head type="James">[Untitled]</head>
+                <p function="Codicology"><material>Vellum and paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">290</height>
+                        <width unit="mm">220</width>
+                    </measureGrp>, <measureGrp type="James">11.5 x 8.5</measureGrp>, <extent>ff. 1 + 312</extent>,
+                        <layout>mostly double columns of 45 lines</layout>. Cent. <origDate>xiv-xv</origDate>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>16</num> 2<num>12</num>-4<num>12</num> 5<num>2</num>
+                            6<num>12</num>-16<num>12</num> (6 canc.) 17<num>12</num> 18<num>12</num> (6 canc.)
+                            19<num>12</num>-26<num>12</num> 27<num>8</num> (8 lining cover)</collation>.</p>
+                <p function="Provenance">The name of <name type="person">Mary Pernham</name> is on f.
+                    <locus>3v</locus>.</p>
+                <p function="Additions">Original binding, rough skin over wooden boards, five plain metal bosses on each
+                    cover, and a metal tag at middle bottom of first cover, two straps for clasps. Paper label
+                        (<origDate>xv</origDate>) inscribed 48(?). Water-mark &#183;R&#183;</p>
+                <p function="Additions">The upper margins of the paper leaves are tender from damp. As a rule the middle
+                    sheet of each quire is of vellum, in quire 1 the outer sheet is also of vellum and quire 5 is a
+                    single sheet of vellum.</p>
+                <p function="Additions">The covers are lined with portions of a <handNote>closely written</handNote>
+                    <origDate>xivth cent.</origDate> MS. perhaps philosophical.</p>
+                <p function="Additions">List of contents on the flyleaf <supplied>(f.
+                    <locus>iv</locus>)</supplied>:<lb/> In isto vol. continentur libri subscripti.<lb/> In principio
+                    cantica canticorum cum glosa.<lb/> Registrum ewangeliorum de tempore et de sanctis per annum cum
+                    quota.<lb/> Item nouum testamentum.<lb/> Item omelie Gregorii.<lb/> Item concordancia ewangelia de
+                    passione domini.</p>
+                <p type="CCC">
+                    <foliation> ff. i + 1-52 + 52a (loose slip) + 53-164 + 164a (loose slip) + 165-264 + 264a (loose
+                        slip) + 265-294 + 294a (loose slip) + 295-312 </foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="52v">
+                        <head type="CCC">
+                            <name type="author">Honorius Augustodunensis</name>, <title>Commentary on the Song of
+                                Songs</title>
+                        </head>
+                        <head type="James">
+                            <title>Cantica canticorum</title>
+                        </head>
+                        <ab>Text</ab>
+                        <rubric locus="2v">Epistola auctoris</rubric>
+                        <incipit locusNew="2v">Donum sapientie cum salomone poscenti</incipit>
+                        <rubric locus="2v">Prologus in libros salomonis (glossed)</rubric>
+                        <incipit locus="2v">In principiis librorum tria</incipit>
+                        <ab>Gloss begins</ab>
+                        <incipit locus="3v">Filius regis iherusalem desponsauit sibi</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="51v">Nunc teneo portum quo michi cursus erat</explicit>
+                        <ab>blank <supplied>(f. <locus>52r</locus>-<locus>52v</locus>)</supplied></ab>
+                    </msItem>
+
+                    <msItem n="2" locusStart="53r" locusEnd="54v">
+                        <head type="CCC">
+                            <title>Gospel readings for the year</title>
+                        </head>
+                        <head type="James">
+                            <title>Register of Gospels for the year</title>
+                        </head>
+                        <ab>The only noteworthy Saint is <name type="person">Elizabeth</name></ab>
+                    </msItem>
+
+                    <msItem n="3" locusStart="55r" locusEnd="164v">
+                        <head type="CCC">
+                            <title>New Testament</title>
+                        </head>
+                        <head type="James">
+                            <title>Nouum Testamentum</title>
+                        </head>
+                        <ab>Evv. (Mc. and Jo. only have prologues)</ab>
+                        <ab>Acts (no prol., ends <q>iudicari</q>)</ab>
+                        <ab>Paul. Epp. (prol. Primum queritur. Romani sunt qui. Romani sunt in.)</ab>
+                        <ab>Col. follows 2 Thess. Laod. between Tit. and Philem.</ab>
+                        <ab>Cath. Epp., Apoc. List of books</ab>
+                    </msItem>
+
+                    <msItem n="4" locusStart="164v" locusEnd="294r">
+                        <head type="CCC">
+                            <title>Homilies</title>
+                        </head>
+                        <head type="James">
+                            <title>Homiliae</title>
+                        </head>
+                        <ab>(1) Cum appropinquasset</ab>
+                        <rubric locusNew="164v">Homelia <name type="person">Johannis episcopi</name></rubric>
+                        <incipit locusNew="164v">Puto ipsa res exigit</incipit>
+                        <ab>(<ref type="bibl" target="Migne PG 056"><hi rend="italic">P.G.</hi> LVI 834</ref>)</ab>
+                        <ab locusNew="290v">The last is <name type="person">Gregorii</name> on Homo quidam erat
+                            diues</ab>
+                    </msItem>
+
+                    <msItem n="5" locusStart="294v" locusEnd="306r">
+                        <head type="CCC">
+                            <name type="author">Michael of Massa (Michele Beccucci de Massa) OESA</name>,
+                                <title>Historia passionis Jesu Christi</title>
+                        </head>
+                        <head type="James">
+                            <title>Concordia de passione domini (<name type="author">Michael de Massa</name>)</title>
+                        </head>
+                        <ab>Prologue</ab>
+                        <incipit locus="294v">Extendit manum et arripuit gladium</incipit>
+                        <ab locus="298r">The harmonised and glossed text begins f. <locus>298r</locus> and ends f.
+                                <locus>306r</locus></ab>
+                        <explicit locusNew="306r">inhabitare valeamus in secula seculorum. Amen</explicit>
+                        <rubric locusNew="306r">Explicit gloriosa passio domini nostri Ihesu Christi per manus <name
+                                type="person">Bartholomei</name>, etc.</rubric>
+                        <ab locus="306r"><handNote>In a later hand</handNote>, a list of the Homilies</ab>
+                        <ab locusNew="312r">Some badly written notes in the last cover</ab>
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJM 30/01/2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

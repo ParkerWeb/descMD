@@ -1,0 +1,190 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC033">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>33</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>P. 2</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>232</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Glossed Gospels of Mark and John</head>
+
+                <head type="James">Marcus et Johannes Glosati</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">338</height>
+                        <width unit="mm">220</width>
+                    </measureGrp>
+                    <measureGrp type="James">13.2 x 8.5</measureGrp>, <extent>ff. 151 + 1</extent>, <layout>text 19
+                        lines, gloss about double</layout>. Cent. <origDate>xii-xiii early</origDate>, <handNote>very
+                        finely written</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>6</num> 2<num>8</num> 3<num>10</num>-8<num>10</num> (10 canc.) |
+                            9<num>10</num>-15<num>10</num> 16<num>6</num> 17 (two)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>et perfecti</secFol>.</p>
+
+                <p function="Provenance">Possibly from <name type="place">St Albans</name>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i + 1-151</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="73v">
+
+                        <head type="CCC">
+                            <title>Glossed Gospel of St Mark</title>
+                        </head>
+
+                        <head type="James">
+                            <title>Marcus glosatus</title>
+                        </head>
+
+                        <ab locus="1r">Prologue</ab>
+                        <incipit locusNew="1r">
+                            <name type="person">Marcus euangelista</name>
+                        </incipit>
+                        <ab locusNew="1r">
+                            <decoNote>Good initial in colour (blue, green, red)</decoNote>
+                        </ab>
+                        <ab>Gloss</ab>
+                        <incipit locusNew="1r">Quatuor sunt qualitates</incipit>
+                        <ab locus="2v">Text</ab>
+                        <ab locusNew="2v">
+                            <decoNote>Very fine ladder-like initial (I) in gold and colour. Initial F (of fuit) joined
+                                to the above has a picture (gold ground) of <name type="person">John</name> in blue
+                                skin-garment baptizing a man (not Christ) who crouches in green water on R.</decoNote>
+                        </ab>
+                        <ab>Ends f. <locus>73v</locus></ab>
+                        <ab>Gloss ends</ab>
+                        <explicit locusNew="73v">signa committantur</explicit>
+                        <rubric locusNew="73v">Explicit liber <name type="person">Marci</name></rubric>
+                        <ab locusNew="73v">
+                            <handNote>An additional note in smaller hand follows</handNote>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="74r" locusEnd="147r">
+
+                        <head type="CCC">
+                            <title>Glossed Gospel of St John</title>
+                        </head>
+
+                        <head type="James">
+                            <title>Johannes glosatus</title>
+                        </head>
+
+                        <ab locus="74r">Prologue</ab>
+                        <incipit locusNew="74r">Hic est <name type="person">Iohannes</name></incipit>
+                        <ab locusNew="74r">
+                            <decoNote>Very fine initial in gold and colour</decoNote>
+                        </ab>
+                        <ab>Gloss headed</ab>
+                        <rubric locusNew="74r">Prologus <name type="person">Augustini</name></rubric>
+                        <incipit locusNew="74r">Omnibus diuine scripture paginis</incipit>
+                        <ab locus="75v">Text</ab>
+                        <ab locusNew="75v">
+                            <decoNote>Splendid initial, length of page, conventional foliage in colours on gold,
+                                containing three medallions: a. Christ half-length, holding book and staff surmounted by
+                                a cross pattee and blessing; b. The Crucifixion (four nails) with <name type="person"
+                                    >Virgin</name> and <name type="person">St John</name>, sun and moon; c. Blue eagle
+                                with scroll <q>in principio</q></decoNote>
+                        </ab>
+
+                        <ab>Ends f. <locus>147r</locus></ab>
+                        <ab>gloss ends</ab>
+                        <explicit locusNew="147r">nubentur</explicit>
+
+                    </msItem>
+
+
+                    <msItem n="3" locusStart="147v" locusEnd="151v">
+
+                        <head type="CCC">
+                            <name type="author">William de Montibus</name>, <title>Poeniteas cito</title>
+                        </head>
+
+                        <ab locusNew="147v"><handNote>In another hand</handNote> the poem attributed to <name
+                                type="author">Johannes de Garlandia</name></ab>
+                        <incipit locus="147v">Peniteas cito peccator cum sit miserator</incipit>
+                        <ab>
+                            <handNote>Text in large hand: gloss in smaller hand intervening between lines</handNote>
+                        </ab>
+                        <ab>Ends</ab>
+                        <explicit locus="150r">Affectus. causa, uicium. persona notetur</explicit>
+                        <ab>(<ref type="bibl" target="Hauréau 1879">Hauréau in <hi rend="italic">Notices et
+                                    Extraits</hi> XXVII pt 2, no. 5</ref>)</ab>
+                        <ab><locus>150v</locus>-<locus>151v</locus> blank</ab>
+
+                    </msItem>
+
+                </msContents>
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF, CF 2nd</p>
+                            <p>msCheck: RJR 3.8.07</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

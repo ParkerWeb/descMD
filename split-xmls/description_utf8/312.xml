@@ -1,0 +1,302 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC312">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>312</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>H. 10</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>90</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Goscelin of Saint-Bertin, Works on St Augustine of Canterbury</head>
+                <head type="James">Goscelini Vita S. Augustini, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">240</height>
+                        <width unit="mm">175</width>
+                    </measureGrp>, <measureGrp type="James">9.5 x 7</measureGrp>, <extent>ff. 2 + 146</extent>,
+                        <layout>24 lines to a page</layout>. Cent. <origDate>xi-xii</origDate>, <handNote>in a large
+                        rather rough black hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num>, I<num>10</num> (one canc.) II<num>10</num> III<num>8</num>-XIV<num>8</num>
+                            XV<num>10</num> XVI<num>8</num>-XVIII<num>8</num> (wants 6-8)</collation>: old pagination
+                    incorrect but used here.</p>
+
+                <p function="Provenance">On f. <locus>ir</locus>:<lb/>
+                    <q>Di. IX<abbr rend="superscript">a</abbr> Gra V<abbr rend="superscript">us</abbr>.<lb/> Vita et
+                        uirtutes <name type="person">S. Augustini</name> anglorum apostoli sociorumque cum C.<lb/>Liber
+                            <name type="person">S. Augustini Cantuar</name>.</q></p>
+
+                <p function="Provenance">It is <ref type="bibl" target="James 1903">no. 939 in the catalogue, <hi
+                            rend="italic">Ancient Libraries</hi>, p. 297</ref>. Other similar books are <ref type="ms"
+                        target="LBLV20">Vesp. B. XX</ref>, <ref type="ms" target="LBLH05">Harley 105</ref>; <ref
+                        type="ms" target="LAM159">Lambeth 159</ref> is a <date>xv</date>th cent. copy made at <name
+                        type="place">Christ Church</name>.</p>
+                <p function="Provenance">On f. <locus>iiv</locus> in pencil:<lb/><q>Mater cunctorum salua cetum
+                        monachorum quod <name type="person">Bachon</name>
+                        <supplied agent="RJR">
+                            <decoNote>(followed by a little flower)</decoNote>
+                        </supplied><lb/>Spes infirmorum miserans miserere tuorum.</q></p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-ii + pp. 1-54 (55-56 missing) + 57-76 (77-78 missing) + 79-176 (177-78
+                        missing) + 179-202 (203-204 missing) + 205-218 + 218a-b + 219-246 (247-248 missing) + 249-300 +
+                        ff. c-d</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1" locusEnd="104">
+                        <head type="CCC">
+                            <name type="author">Goscelin of Saint-Bertin</name>, <title>Historia maior de aduentu <name
+                                    type="person">Sancti Augustini</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author">Gocelini</name> historia major de vita et virtutibus <name
+                                    type="person">S. Augustini</name> Anglorum apostoli, et de adventu ipsius
+                                sociorumque ejus in <name type="place">Britanniam</name></title>
+                        </head>
+
+                        <ab locus="1"><handNote>At top in <name type="person">Parker</name>'s red chalk</handNote>:
+                                <q>Historia maior</q></ab>
+                        <ab locusNew="1">
+                            <decoNote>Title in red capitals</decoNote>
+                        </ab>
+                        <rubric locus="1">Incipit Epistola in vitam <name type="person">Sancti Augustini</name> anglorum
+                            apostoli</rubric>
+                        <ab locusNew="1">
+                            <decoNote>In green and red capitals</decoNote>
+                        </ab>
+                        <incipit locus="1">Dominis karissimis et paterne dilectionis filiis ecclesie <name type="person"
+                                >Sancti Augustini</name> cum suo reuerendo monasteriarcha</incipit>
+                        <ab locus="1"><handNote>In margin added in cent. <origDate>xii</origDate></handNote>,
+                                <decoNote>in red letters in a blue frame</decoNote>, <q>Epistola magistri <name
+                                    type="author">Gocelini</name></q></ab>
+
+                        <ab locus="3">
+                            <handNote>Five lines of f. 2 <supplied>(p. <locus>3</locus>)</supplied> are re-written in
+                                cent. <origDate>xii-xiii</origDate></handNote>
+                        </ab>
+                        <explicit locus="4">et seruicii deuoti quamuis ingrati</explicit>
+                        <rubric locus="4">Explicit epistola</rubric>
+                        <ab locus="4">Capitula, <handNote>partly re-written
+                            (<origDate>xii-xiii</origDate>)</handNote></ab>
+                        <rubric locus="9">Incipit libellus de vita et uirtutibus <name type="person">Sancti
+                                Augustini</name> anglorum apostoli et de aduentu ipsius sociorumque eius in <name
+                                type="place">Brittanniam</name></rubric>
+                        <incipit locus="9">Potentissimus triumphator mundialis tiranni</incipit>
+                        <ab><ref type="bibl" target="Henschenius et al 1688a">Acta SS., May 26</ref>. <ref type="bibl"
+                                target="d'Achery and Mabillon 1688-1701">Mabillon, Acta SS. O.S.B. I 485</ref>. <ref
+                                type="bibl" target="Migne 080">Migne, P.L. LXXX 43</ref></ab>
+                        <explicit locus="104">sequens libellus enarrabit. qui per omnia secula regnans semper in sanctis
+                            se mirabilem ostendit</explicit>
+                        <rubric locus="104">Explicit vita <name type="person">Sancti Augustini</name> Anglorum
+                            apostoli</rubric>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="104" locusEnd="187">
+                        <head type="CCC">
+                            <name type="author">Goscelin of Saint-Bertin</name>, <title>Historia maior de miraculis
+                                    <name type="person">Sancti Augustini</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Ejusdem historia major de miraculis <name type="person">S. Augustini</name></title>
+                        </head>
+
+                        <rubric locus="104">Incipit capitula miraculorum <name type="person">Sancti Augustini</name>
+                            (xxix)</rubric>
+                        <incipit locusNew="104">I. De raptore pallii etc.</incipit>
+                        <incipit locus="107">Cum Danorum adhuc exercitus paganorum Doroberniam obsideret</incipit>
+                        <explicit locus="187">cuius tam ueracia ostendit uaticinia. Benedicta domini gloria in sancto
+                            suo ubique operantis mirabilia</explicit>
+                        <rubric locusNew="187">Explicit liber miraculorum <name type="person">Sancti
+                            Augustini</name></rubric>
+                        <ab locusNew="187">[<handNote>Pencilled in lower margin</handNote>: <q>
+                                <name type="person">Bachon</name>
+                            </q>
+                            <supplied agent="RJR">(or Bachoun, <decoNote>followed by a little
+                                flower</decoNote>)</supplied>.]</ab>
+                        <ab><ref type="bibl" target="d'Achery and Mabillon 1688-1701">Mabillon, l. c. 521</ref>. <ref
+                                type="bibl" target="Henschenius et al 1688">Acta SS., May 26, p. 397</ref></ab>
+                    </msItem>
+
+                    <msItem n="3" locusStart="187" locusEnd="212">
+                        <head type="CCC">
+                            <name type="author">Goscelin of Saint-Bertin</name>, <title>Sermo in festiuitate <name
+                                    type="person">Sancti Augustini</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Ejusdem sermo in festivitate <name type="person">S. Augustini</name> Anglorum
+                                apostoli</title>
+                        </head>
+
+                        <rubric locus="187">Sermo in festiuitate <name type="person">Sancti Augustini</name> Anglorum
+                            apostoli</rubric>
+                        <incipit locus="188">Preclara diei presentis solemnitas fratres karissimi immensa
+                            nobis</incipit>
+                        <explicit locus="212">electorum societate perpetuo regnatura. qui cum patre et spiritu sancto
+                            uiuit et regnat deus per omnia secula seculorum. Amen</explicit>
+                        <ab><ref type="bibl" target="Hardy 1862a">Hardy I, p. 200</ref>. Also in <ref type="ms"
+                                target="LBLV20">Vesp. B. xx.</ref></ab>
+                    </msItem>
+
+                    <msItem n="4" locusStart="212" locusEnd="255">
+                        <head type="CCC">
+                            <name type="author">Goscelin of Saint-Bertin</name>, <title>Historia minor de aduentu Sancti
+                                Augustini</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Ejusdem historia minor de adventu beatissimi Anglorum apostoli <name type="person"
+                                    >Augustini</name> sociorumque ejus in <name type="place">Britanniam</name> et de
+                                ipsius virtutibus</title>
+                        </head>
+
+                        <rubric locus="212">Incipit prephatio sequentis operis</rubric>
+                        <ab>(<origDate>xii</origDate>)</ab>
+                        <rubric locus="213">Historia minor (<name type="person">Parker</name>)</rubric>
+                        <rubric locus="213">Prephatio domini <name type="author">Gocelini</name></rubric>
+                        <ab>(<origDate>xii</origDate>)</ab>
+                        <incipit locus="213">Omnibus piis ecclesiarum anglie patribus quidam infimus</incipit>
+                        <explicit locus="214">contra improbos studeant celebrare</explicit>
+                        <rubric locus="214">Explicit prefatio</rubric>
+                        <rubric locus="214">Capitula (41)</rubric>
+                        <rubric locus="217">Incipit libellus de aduentu Beatissimi anglorum apostoli <name type="person"
+                                >Augustini</name> sociorumque eius in <name type="place">britanniam</name> et de ipsius
+                            uirtutibus</rubric>
+                        <ab>(<origDate>xiii</origDate>)</ab>
+                        <incipit locus="217">Fortem armatum cuius atrium mundus</incipit>
+                        <ab>
+                            <ref type="bibl" target="Wharton 1691b">Wharton, <hi rend="italic">Anglia Sacra</hi> II
+                                51</ref>
+                        </ab>
+                        <explicit locus="255">solariter prelucerent</explicit>
+                        <rubric locus="255">Explicit uita <name type="person">Sancti Augustini</name> Anglorum
+                            apostoli</rubric>
+                    </msItem>
+
+                    <msItem n="5" locusStart="255" locusEnd="271">
+                        <head type="CCC">
+                            <name type="author">Goscelin of Saint-Bertin</name>, <title>Historia minor de miraculis
+                                    <name type="person">Sancti Augustini</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Ejusdem historia minor de miraculis <name type="person">S. Augustini</name></title>
+                        </head>
+
+                        <rubric locus="255">Incipit capitula miraculorum <name type="person">Sancti Augustini</name>
+                            (23)</rubric>
+                        <rubric locus="257">Incipit miracula <name type="person">Sancti Augustini</name> post eius
+                            sidereum triumphum declarata</rubric>
+                        <incipit locus="257">Ab exercitu danorum fugatis omnibus</incipit>
+                        <explicit locus="271">quo animal suum tutaretur deliberauit</explicit>
+                        <ab>
+                            <ref type="bibl" target="Hardy 1862a">Hardy I 197</ref>
+                        </ab>
+
+                    </msItem>
+
+                    <msItem n="6" locusStart="272" locusEnd="300">
+                        <head type="CCC">
+                            <title>Lections and prayers for the feast of <name type="person">St Augustine</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Lectiones et preces in festis <name type="person">S. Augustini</name></title>
+                        </head>
+
+                        <rubric locus="272">In natali <name type="person">Sancti Augustini</name> anglorum apostoli
+                            (lectio prima)</rubric>
+                        <incipit locus="272">Anno ab incarnatione domini quingentesimo octogesimo secundo mauricius ab
+                            augusto</incipit>
+                        <explicit locus="277">auxiliante domino qui uiuit et regnat per omnia secula
+                            seculorum</explicit>
+                        <ab locus="277">Die II-VI lectiones 3</ab>
+                        <ab locus="284">Dominica infra octavas. lectt. 8</ab>
+                        <ab locus="287" locusNew="288">Ultima octauorum lectt. 8</ab>
+                        <explicit locus="293">ubi in eterna memoria celestis regni depositum thesaurizauit</explicit>
+                        <ab locus="294">Responses etc. <decoNote>with music on four-line stave</decoNote></ab>
+                        <incipit locus="294">Regnas <name type="person">augustine</name> augustis seculi
+                            sullimior</incipit>
+                        <ab>These lections etc. occur also in <ref type="ms" target="LAM159">MS. Lambeth 159</ref></ab>
+                        <ab locus="296">
+                            <handNote>In another hand (<origDate>xii</origDate>)</handNote>
+                        </ab>
+                        <rubric locus="296">In vigilia <name type="person">Sancti Augustini</name> oratio</rubric>
+                        <incipit locus="296">Concede...uenturam beati <name type="person">augustini</name> confessoris
+                            tui</incipit>
+                        <rubric locus="296">In die oratio</rubric>
+                        <incipit locus="296">Deus qui nos ueneranda festiuitatis hodierne solennia</incipit>
+                        <ab>Five other collects follow</ab>
+                        <ab>pp. <locus>298</locus>-<locus>300</locus> blank</ab>
+                        <ab>on p. <locus>300</locus> is pasted <handNote>a slip inscribed
+                            (<date>xv</date>)</handNote></ab>
+                        <ab locusNew="300">
+                            <q>Anglis et apostole presul<lb/><name type="person">Augustine</name> pater pie presul
+                                apostole noster | <name type="person">Augustine</name> pater meritis nos protege
+                                semper<lb/>Laus tibi pro meritis auxiliare tuis | Sub pietatis ope pie pastor ouile
+                                tuere</q>
+                        </ab>
+                        <ab locusNew="300">There is also the name <name type="person">Suorder</name>
+                                (<origDate>xvi</origDate>)</ab>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, but not by a second person</p>
+                            <p>msCheck: RJR 5/9/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,138 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC132">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>132</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Sub B. 9</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>354</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Verbal Process of the Transactions of the Commissioners of Mary Tudor, Dowager Queen of
+                    France, for the Recovery of her Dowry</head>
+
+                <head type="James">Procčs-Verbal (Mary Tudor)</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">310</height>
+                        <width unit="mm">260</width>
+                    </measureGrp><measureGrp type="James">12.3 x 10.5</measureGrp>, <extent>ff. 174</extent>, <layout>17
+                        long lines to a page</layout>. Cent. <origDate>xvi (1525)</origDate>, <handNote>in an atrocious
+                        law hand</handNote>. </p>
+                <p><label>Collation:</label>
+                    <collation>1<num>12</num>-10<num>12</num> 11<num>10</num> 12<num>12</num>-14<num>12</num>
+                            15<num>6</num>, 2 flyleaves</collation>.</p>
+
+
+
+                <p function="Additions">On the last leaf <supplied> f. <locus>173r</locus>
+                    </supplied> is pasted a bit of a <origDate>xv</origDate>th cent. account book (of Royal accounts).
+                    It is entirely concerned with wine. Some entries are: <lb/>
+                    <q>Domine Regine Dacorum <hi rend="footnote">i.e. <name type="person">Philippa</name>, daughter of
+                                <name type="person">Henry IV</name>.</hi> pro naue sua vituland. uersus partes dacie iij
+                        pip. malues.</q>
+                    <lb/>
+                    <q>D<abbr rend="superscript">no</abbr> de Louell xv sex. iij pich. vini vasc.</q><lb/>
+                    <q><name type="person">Thome Beaufort</name>.</q><lb/>
+                    <q><name type="person">D<abbr rend="superscript">no</abbr> Thome</name> et <name type="person"
+                                >D<abbr rend="superscript">no</abbr> humfr.</name> filiis regis.</q></p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-iii + 1-173 + iv</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="fre" otherLangs="lat">French and Latin.</textLang>
+
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="171v">
+
+                        <head type="CCC">
+                            <title>Verbal process of the transactions of the commissioners of <name type="person">Mary
+                                    Tudor, dowager queen of France</name>, for the recovery of her dowry</title>
+                        </head>
+
+
+                        <head type="James">
+                            <title>Procčs-Verbal (<name type="person">Mary Tudor</name>)</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Proces verbal des transactions des commissaires de <name type="person">Marie
+                                    d'Angleterre</name>, reine douairiere de France, duchesse de Suffolk, &amp;c.
+                                pour le recouvrement de sa douaire</title>
+                        </head>
+
+
+
+                    </msItem>
+
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, CF 2nd</p>
+                            <p>msCheck: NJC 6.3.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

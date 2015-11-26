@@ -1,0 +1,130 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC293">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>293</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>R. 7</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>160</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">William Langland, Piers Plowman</head>
+                <head type="James">Piers Plowman</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">250</height>
+                        <width unit="mm">160</width>
+                    </measureGrp><measureGrp type="James">9.8 x 6.3</measureGrp>, <extent>ff. 64</extent>, <layout>34
+                        and 37 lines to a page</layout>. Cent. <origDate>xiv late</origDate>, <handNote>in two rough
+                        clear hands</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1 slip stuck on flyleaf, 1<num>8</num>-3<num>8</num> (5 canc.)
+                            4<num>8</num>-7<num>8</num> 8<num>10</num> (wants 1)</collation>.</p>
+
+                <p function="Additions">The slip on flyleaf <supplied>(<locus>iiv</locus>)</supplied> has: <q>God spede
+                        the plowgh<lb/>and send vs corne ynowgh</q>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + pp. 1-128 + ff. iii-iv</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="enm">Middle English.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1" locusEnd="128">
+                        <head type="CCC">
+                            <name type="author">William Langland</name>, <title>Piers Plowman</title>
+                        </head>
+
+                        <ab locusNew="79">
+                            <handNote>The hand changes at quire 6</handNote>
+                        </ab>
+                        <ab>quire 7 ends</ab>
+                        <ab locusNew="110">
+                            <q>ffor al we ben breţeren ţau&#541; we be dyuersly clopyd</q>
+                        </ab>
+                        <ab>Quire 8 begins</ab>
+                        <ab locusNew="111">
+                            <q>J take witnesse quod he at holy writ apertye</q>
+                        </ab>
+                        <ab>Ends</ab>
+
+                        <explicit locus="64v" locusNew="128">ygan a wake</explicit>
+                        <rubric locusNew="128">Explicit secundus et ultimus de dobett</rubric>
+
+                        <ab>
+                            <decoNote>There are some odd rough pencil drawings, e.g. p. <locus>113</locus></decoNote>
+                        </ab>
+                        <ab>Professor Skeat gives the following account of this MS. in his <ref type="bibl"
+                                target="Skeat 1869">edition Vol. II, p. lxxii</ref>:<lb/>
+                            <q>xxxv. Text C, group e. Denoted by S.<lb/> Imperfect, having lost c. ix 268 - x 194, c.
+                                xvi 80 - 156, the whole of Passus xvii - xxi and xxii 8 - 323. Yet the text is
+                            good</q></ab>
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: BLA 29/9/08; NJM 3/12/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

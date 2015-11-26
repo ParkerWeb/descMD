@@ -1,0 +1,417 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC292">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>292</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Misc. 21</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Geoffrey of Monmouth, Historia regum Britanniae. pseudo-Turpinus, Historia Caroli magni
+                    et Rolandi. Charters, etc.</head>
+                <head type="James">Galfr. Monumethensis. Historia Turpini. Chartae, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">245</height>
+                        <width unit="mm">175</width>
+                    </measureGrp>, <measureGrp type="James">9.7 x 7 (and smaller)</measureGrp>, <extent>ff. 1 +
+                        123</extent>, <layout>several volumes</layout>of cent. <origDate>xiii-xvi</origDate>.</p>
+
+
+
+                <p function="Multivolume" rend="withinContents"><lb/><label>Volume I:</label> ff.
+                        <locus>1r</locus>-<locus>12v</locus>
+                    <handNote>in two hands</handNote> of cent. <origDate>xvi</origDate>, <handNote>the first imitating
+                        black letter print and having woodcut initials pasted in</handNote>. With f. <locus>13r</locus>
+                    begins the original manuscript, cent. <origDate>xiii late</origDate> (not <date>xii</date> as <ref
+                        type="bibl" target="Hardy 1862a">Hardy</ref> says), <handNote>in a clear hand</handNote>,
+                        <layout>34 lines to a page</layout>: has suffered from damp.<lb/><label>Volume II:</label> Six
+                    leaves of cent. <origDate>xvi</origDate>.<lb/><label>Volume III:</label> A quire of cent.
+                        <origDate>xiv</origDate>
+                    <handNote>in charter hand</handNote>, <layout>29 lines to a page</layout>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num> 2<num>4</num> || 3 (five) 4<num>8</num>-13<num>8</num> 14 (two)
+                        | 15<num>2</num> || 16<num>6</num> | 17<num>16</num></collation>.</p>
+
+                <p function="Additions">f. <locus>ir</locus>-<locus>iv</locus> blank.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i + 1-123</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <milestone n="I" unit="volume"/>
+                    <msItem n="1" locusStart="1r" locusEnd="78v">
+                        <head type="CCC">
+                            <name type="author" key="Geoffrey-001">Geoffrey of Monmouth</name>, <title>Historia regum
+                                Britanniae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title><name type="author" key="Geoffrey-001">Galfridi Monumetensis</name> historia
+                                Britanniae</title>
+                        </head>
+                        <ab>
+                            <quote>Ubique concordat, etsi non semper ad verbum, cum editione Heidelburgiana, in libros
+                                tamen non dividitur: historiae inseruntur prophetiae <name type="person"
+                                    key="Merlinxx-001">Merlini</name> ut in exemplaribus impressis</quote>
+                        </ab>
+                        <rubric locus="1r">Inclitissimo...<name type="person">Roberto Claudio Cestriae duci</name>,
+                            etc.</rubric>
+                        <incipit locusNew="1r">Cum mecum multa</incipit>
+                        <ab>This first section ends in the story of <name type="person" key="Cordeill-001"
+                                >Cordeilla</name></ab>
+                        <explicit locusNew="12v">obtulerit utcunque maritem (!)</explicit>
+                        <incipit locusNew="13r">(Illud) autem affirrmo</incipit>
+                        <ab>At f. <locus>42v</locus> we have the prophecies of <name type="person" key="Merlinxx-001"
+                                >Merlin</name></ab>
+                        <incipit locusNew="42v">Nondum autem ad hunc locum</incipit>
+                        <incipit locus="43r">Coegit me <name type="person">alexander</name></incipit>
+                        <incipit locusNew="43r">Sedente itaque <name type="person" key="Vortiger-001"
+                            >uortegorno</name></incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="78v">tran(s)ferre curaui</explicit>
+                        <ab><ref type="bibl" target="Hardy 1862a">Hardy</ref> I 342 says <q>This MS. is supposed to
+                                represent the work in its earliest form and is divided into four books.</q> But the
+                            division into books is not indicated by rubrics. Hardy's account is otherwise confused</ab>
+                    </msItem>
+
+                    <msItem n="2" locusStart="79r" locusEnd="101v">
+                        <head type="CCC">
+                            <name type="author" key="pseudo-T-001">pseudo-Turpinus</name>, <title>Historia <name
+                                    type="person" key="Charlema-001">Caroli magni</name> et <name type="person"
+                                    >Rolandi</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Historia <name type="author">Turpini Remensis</name> ecclesiae archiepiscopi de
+                                famosissimo rege <name type="person" key="Charlema-001">Karolo magno</name>, qui terram
+                                    <name type="place">Hispanicam</name> et <name type="place">Galetianam</name> a
+                                potestate Saracenorum liberavit, ad <name type="person">Leoprandum</name></title>
+                        </head>
+                        <ab>
+                            <quote>Ad finem adduntur, De morte <name type="person">Turpini</name> et Genealogiae regum
+                                Gallorum et Anglorum usque ad <name type="person">Philippum III</name>. et <name
+                                    type="person">Edwardum I</name></quote>
+                        </ab>
+                        <rubric locus="79r">Incipit Epistola beati <name type="person">Turpini</name> Archiepiscopi ad
+                                <name type="person">leoprandum</name></rubric>
+                        <incipit locusNew="79r"><name type="author">Turpinus</name> dei gratia</incipit>
+                        <ab>(<ref type="bibl" target="Ward 1883">Ward, Cat. of Romances I</ref>, 546 and 574)</ab>
+                        <explicit locusNew="79r">deo placeas Amen</explicit>
+                        <rubric locus="79r">Incipit historia <name type="author">turpini Remensis</name> ecclesiae
+                            archiepiscopi de famo(sissimo) Rege <name type="person" key="Charlema-001">karolo
+                                magno</name> quomodo terram <name type="place">hispanicam</name> et <name type="place"
+                                >galetianam</name> a potestate sarracenorum liberauit</rubric>
+                        <ab locusNew="79r">Capitula</ab>
+                        <ab>Text</ab>
+                        <rubric locus="79v">De hoc quod apostolus <name type="person">Iacobus</name>
+                            <name type="person" key="Charlema-001">Karolo</name> apparuit</rubric>
+                        <incipit locusNew="79v">Gloriosissimus namque Christi apostolus</incipit>
+                        <ab locusNew="99v">Ends imperfectly in the chapter de miraculo <name type="person"
+                                >Rotholandi</name> (at <name type="place" key="Grenoble-001">Grenoble</name>)</ab>
+                        <ab>The last 3 chapters <lb/>(<name type="person">Calixtus</name> de inuentione corporis beati
+                                <name type="person">Turpini</name><lb/>De altu maiore cordube<lb/>Quod nauarii de vera
+                            prosapia non sunt geniti)<lb/>are supplied on ff. <locus>100r</locus>-<locus>101v</locus>
+                            <handNote>by a hand of cent. <date>xvi</date></handNote>, ending f. <locus>101v</locus> with
+                            a section</ab>
+                        <explicit locus="101v">Anno ... <date>d.ccc.lxxvj</date>
+                            <name type="person">Rollo</name> cum suis ... mortuo <name type="person">Henrico</name>
+                            regnauit <name type="person">Edwardus</name> filius eius</explicit>
+
+                    </msItem>
+
+
+
+                    <milestone n="II" unit="volume"/>
+                    <msItem n="3" locusStart="102r" locusEnd="107v">
+                        <head type="CCC">
+                            <title>Testimonia historicorum de jure regis Angliae in regnum Scotiae</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Testimonia historicorum de jure regis Angliae in regnum Scotiae</title>
+                        </head>
+                        <ab locus="102r">blank</ab>
+                        <incipit locusNew="102v">Hec est conuentio et finis quam <name type="person">Willelmus Rex
+                                Scotie</name> fecit domino suo <name type="person">Henrico</name></incipit>
+                        <incipit locusNew="102v">Conuocatis per dominum <name type="person">Edwardum Regem Anglie</name>
+                            illustrem apud <name type="place" key="Norhamxx-001">Norham</name> super <name type="place"
+                                key="Tweed(Ri-001">Twedam</name> prelatis</incipit>
+                        <ab>Testimonies from Chronicles</ab>
+                        <explicit locusNew="107v">et episcopatum suum in pace habere permittat</explicit>
+                        <ab>Copied in <ref type="ms" target="CCC110">MS 110. 3</ref></ab>
+                    </msItem>
+
+
+                    <milestone n="III" unit="volume"/>
+                    <msItem n="4" locusStart="108r" locusEnd="110r">
+                        <head type="CCC">
+                            <title>Articuli cleri, <date>1316</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Articuli cleri in parliamento <name type="place" key="Lincolnx-001">Lincoln</name>.
+                                    <date>9 <name type="person">Edw. II</name></date></title>
+                        </head>
+
+                        <rubric locus="108r">Statuta edita tempora <date><name type="person" key="EdwardII-001">Edwardi
+                                    secundi</name> an<abbr rend="superscript">o</abbr> x<abbr rend="superscript"
+                                    >o</abbr></date> apud <name type="place" key="Yorkxxxx-001">Eboracum</name> in
+                            quibus locum habet regia prohibicio</rubric>
+                        <ab>(This title is of cent. <date>xv</date>)</ab>
+                        <ab>Margin</ab>
+                        <ab locusNew="108r">Magna carta concessa eidem clero per eundem in hec uerba
+                            (<date>xiv</date>)</ab>
+                        <ab>Text</ab>
+                        <incipit locusNew="108r">Rex omnibus ... Sciatis quod cum dudum temporibus
+                            progenitorum</incipit>
+                        <explicit locusNew="110r">Apud <name type="place" key="Yorkxxxx-001">Eboracum</name>
+                            <date>vicesimo quarto die Novembri anno regni nostri decimo</date></explicit>
+
+                    </msItem>
+
+
+                    <msItem n="5" locusStart="110v" locusEnd="112v">
+                        <head type="CCC">
+                            <title>Bull 'Scimus Fili', <date>27 June 1299</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Litera missa regi Anglia <name type="person" key="EdwardI,-001">Edwardo I</name>. per
+                                    <name type="person" key="Boniface-001">Bonifacium papam</name>, quod regnum scotiae
+                                non est nec fuit de feodo regis Anglia sed ab antiquis temporibus pleno jure pertinuit
+                                ad ecclesiam Romanam</title>
+                        </head>
+
+                        <incipit locus="110v"><name type="person" key="Boniface-001">Bonifacius episcopus</name> Scimus
+                            fili</incipit>
+                        <explicit locusNew="112v">
+                            <name type="place" key="Anagnixx-001">Anagni</name>
+                            <date>5 kalendas Julii pontificatus anno quinto</date>
+                        </explicit>
+                        <ab>Copied in <ref type="ms" target="CCC110">MS 110. 2</ref></ab>
+
+                    </msItem>
+
+
+                    <msItem n="6" locusStart="112v" locusEnd="116v">
+                        <head type="CCC">
+                            <title><name type="author" key="EdwardI,-001">Edward I</name>, Reply to the Bull 'Scimus
+                                Fili'</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Epistola <name type="person" key="EdwardI,-001">Edwardi I</name>. ad papam de jure
+                                suo in regnum Scotiae, data <date>7 Maii, 1301</date></title>
+                        </head>
+
+                        <incipit locus="112v">Sanctissimo in Christo patri. Infra scripta non in forma</incipit>
+                        <explicit locusNew="116v">Apud <name type="place">Remesoye</name>
+                            <date>7 Maii anno domini 1301</date> et <date>regni nostri 29</date></explicit>
+                        <ab>Copied in <ref type="ms" target="CCC110">MS 110. 4</ref></ab>
+
+                    </msItem>
+
+
+                    <msItem n="7" locusStart="116v" locusEnd="118v">
+                        <head type="CCC">
+                            <title>Litera quam comites et barones Angliae miserunt domino papae super negotio Scotorum,
+                                data apud <name type="place" key="Lincolnx-001">Lincoln</name>. <date>12 Feb.
+                                    1301</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Litera quam comites et barones Angliae miserunt domino papae super negotio Scotorum,
+                                data apud <name type="place" key="Lincolnx-001">Lincoln</name>. <date>12 Feb.
+                                    1301</date></title>
+                        </head>
+
+                        <incipit locus="116v">Sanctissimo etc.</incipit>
+                        <ab locusNew="118v"><name type="place" key="Lincolnx-001">Lincoln</name>. <date>12 Februarii
+                                anno <supplied>domini</supplied> 1300</date></ab>
+                        <ab>Copied in <ref type="ms" target="CCC110">MS 110. 5</ref></ab>
+
+                    </msItem>
+
+
+                    <msItem n="8" locusStart="118v" locusEnd="119r">
+                        <head type="CCC">
+                            <title>Literae <name type="author" key="Boniface-001">Bonifacii papae</name> ad
+                                archiepiscopum Cantuar. ut presentet regi literas quas misit pro Scotis</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Literae <name type="author" key="Boniface-001">Bonifacii papae</name> ad
+                                archiepiscopum Cantuar. ut presentet regi literas quas misit pro Scotis, data <date>4
+                                    kalend. Jan. pontif. I<abbr rend="superscript">mo</abbr></date></title>
+                        </head>
+
+                        <incipit locus="118v">
+                            <name type="author" key="Boniface-001">Bonifacius</name>
+                        </incipit>
+                        <explicit locusNew="119r">
+                            <name type="place" key="Anagnixx-001">Anagni</name>
+                            <date>4 kalendas Julii pontificatus anno quinto</date>
+                        </explicit>
+                        <ab>(a note that it should precede the two last items)</ab>
+
+                    </msItem>
+
+
+                    <msItem n="9" locusStart="119r" locusEnd="120v">
+                        <head type="CCC">
+                            <title>Epistola archiepiscopi [<name type="place" key="Winchels-001">Winchelsey</name>] ad
+                                papam, in qua prolixe narrat difficultates et pericula, qua subivit in itinere suo in
+                                    <name type="place" key="Scotland-001">Scotiam</name> ad regem cum literis papae,
+                                data apud <name type="place" key="Otfordxx-001">Otteford</name>
+                                <date>8 Idus Octob. 1300</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Epistola archiepiscopi [<name type="place" key="Winchels-001">Winchelsey</name>] ad
+                                papam, in qua prolixe narrat difficultates et pericula, qua subivit in itinere suo in
+                                    <name type="place" key="Scotland-001">Scotiam</name> ad regem cum literis papae,
+                                data apud <name type="place" key="Otfordxx-001">Otteford</name>
+                                <date>8 Idus Octob. 1300</date></title>
+                        </head>
+
+                        <incipit locus="119r">Sanctissimo patri in Christo ... <name type="person"
+                            >Robertus</name></incipit>
+                        <explicit locusNew="120v">
+                            <name type="place" key="Otfordxx-001">Ottefford</name>
+                            <date>1. Idus Octobris anno domini 1300</date>
+                        </explicit>
+                        <ab>(erasure follows)</ab>
+
+                    </msItem>
+
+
+                    <msItem n="10" locusStart="120v" locusEnd="121v">
+                        <head type="CCC">
+                            <title>Carta <name type="person" key="EdwardII-001">Edwardi II</name>. confirmans statutum
+                                de Westmonasterii I <name type="person" key="EdwardI,-001">Edwardi I</name>. de
+                                protectione bonorum ecclesiae, data apud <name type="place" key="Yorkxxxx-001"
+                                    >Eboracum</name>
+                                <date>24 Nov. A. R. 10<abbr rend="superscript">o</abbr></date>
+                                (<date>1316</date>)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta <name type="person">Edwardi II</name>. confirmans statutum de Westmon. I <name
+                                    type="person" key="EdwardI,-001">Edw. I</name>. de protectione bonorum ecclesiae,
+                                data apud <name type="place" key="Yorkxxxx-001">Ebor.</name>
+                                <date>24 Nov. A. R. 10<abbr rend="superscript">o</abbr></date></title>
+                        </head>
+
+                        <ab locusNew="120v">
+                            <handNote>Another hand</handNote>
+                        </ab>
+                        <explicit locusNew="121v">
+                            <name type="place" key="Yorkxxxx-001">Eboracum</name>
+                            <date>24 Novembris anno regni decimo</date>
+                        </explicit>
+
+                    </msItem>
+
+
+                    <msItem n="11" locusStart="121v" locusEnd="123r">
+                        <head type="CCC">
+                            <title>Breve ejusdem regis vicecomiti Kant. directum pro executione statuti Westmonasterii
+                                I</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Breve ejusdem regis vicecomiti Kant. directum pro executione ejusdem statuti</title>
+                        </head>
+
+                        <ab locus="121v" locusNew="122v">Same date <supplied>[<date>24 Novembris anno regni
+                                    decimo</date>]</supplied></ab>
+
+                    </msItem>
+
+
+                    <msItem n="12" locusStart="123r" locusEnd="123v">
+                        <head type="CCC">
+                            <title>Treaty of <name type="place" key="Edinburg-001">Edinburgh</name> - <name type="place"
+                                    key="Northamp-001">Northampton</name>, <date>1328</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta <name type="person" key="EdwardII-002">Edwardi III</name>. qua dimittit se de
+                                omni jure in regnum Scotiae</title>
+                        </head>
+
+                        <ab locus="123r">
+                            <handNote>In a hand of cent. <date>xvi</date></handNote>
+                        </ab>
+
+                        <rubric locusNew="123r">Haec charta refertur in schotichronicon libro decimo tercio capitulum 13
+                            sed quis pinxit <name type="person">iconem</name> (or <name type="person">leonem</name>)
+                            ipse considera. circa anno domini <date>1328</date>. <name type="person" key="EdwardII-002"
+                                >Edw. 3</name><!--James changes Leonem to leonem in corrigenda--></rubric>
+                        <ab>(see <ref type="ms" target="CCC110">MS 110. 6</ref>)</ab>
+
+                        <incipit locusNew="123r">Uniuersis ... <name type="person" key="EdwardII-002">Edwardus</name>
+                            ... cum nos nonnullique predecessores nostri</incipit>
+                        <explicit locusNew="123v">nulliusque esse volumus valoris vel momenti. In cuius rei
+                            etc.</explicit>
+
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 28/03/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

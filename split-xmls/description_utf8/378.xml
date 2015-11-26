@@ -1,0 +1,299 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC378">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>378</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>15. 2</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>337</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Logic Texts</head>
+                <head type="James">
+                    <title>Logica</title>
+                </head>
+                <head type="Nasmith">
+                    <title>Sophistria academiae Cantabrigiensis</title>
+                </head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">220</height>
+                        <width unit="mm">150</width>
+                    </measureGrp>, <measureGrp type="James">8.5 x 5.8</measureGrp>, <extent>ff. 107</extent>,
+                        <layout>20-41 lines to a page</layout>. Cent. <origDate>xv</origDate>, <handNote>in several
+                        hands, much contracted</handNote>.</p>
+
+
+
+                <p><label>Collation:</label>
+                    <collation>1<num>18</num> 2<num>16</num>-4<num>16</num> (+ 8 between 15 and 16) 5<num>12</num>
+                            6<num>10</num> (wants 10?) 7<num>10</num> 8 (two)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>Lex</secFol> or <secFol>vera aliquid</secFol>.</p>
+
+                <p function="Provenance">A collection of tracts on Logic: cf. <ref type="ms" target="CCC244">no.
+                        244</ref>: probably written at <name type="place">Cambridge</name>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-108 + iii-iv</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="34v">
+                        <head type="CCC">
+                            <title>Summule</title>. <title>De consequentia</title>. <title>De suppositionibus</title>
+                        </head>
+                        <incipit locus="1r">Proposicio est oratio indicatiua congrua et perfecta</incipit>
+                        <ab locus="34v">Ends with verses</ab>
+                        <ab>=<ref type="ms" target="CCC244">MS 244. 1</ref></ab>
+                        <explicit locus="34v">Si sit discretum discrete semper habetur</explicit>
+                        <rubric locus="34v">Explicit communis tractatus. Quod (erased: l...sted)</rubric>
+                    </msItem>
+
+
+                    <msItem n="2" locusStart="34v" locusEnd="45v">
+                        <head type="CCC">
+                            <title>De resolubilibus</title>
+                        </head>
+                        <head type="James">
+                            <title>Tractatus aureus</title>
+                        </head>
+
+                        <ab>After a diagrammatic formula </ab>
+                        <incipit locus="34v">Terminus est in quem resoluitur proposicio</incipit>
+                        <explicit locus="45v">ut nullus homo currit</explicit>
+                        <rubric locus="45v">Explicit <title>tractatus aureus</title> quod <name type="author"
+                                >bartholomeus</name></rubric>
+                    </msItem>
+
+
+                    <msItem n="3" locusStart="45v" locusEnd="47v">
+                        <head type="CCC">
+                            <title>De dictionibus que habent vim confundendi</title>. <title>De modo dandi
+                                contradictoria</title>
+                        </head>
+
+                        <incipit locus="45v">Sequitur de dictionibus que habent vim confundendi terminos</incipit>
+                        <explicit locus="47v">vel iste homo currit</explicit>
+                    </msItem>
+
+
+                    <msItem n="4" locusStart="48r" locusEnd="57v">
+                        <head type="CCC">
+                            <name type="author" key="RichardB-001">Richard Billingham</name>,
+                                <title>Obligationes</title>
+                        </head>
+
+                        <incipit locus="48r">Obligacio est quedam ars me<abbr rend="superscript">te</abbr> in qua quis
+                            apponens potest obligare respondentem</incipit>
+                        <ab>
+                            <decoNote>Has rather a pretty pen and ink initial</decoNote>
+                        </ab>
+                        <ab locus="57r">Ends unfinished (?)</ab>
+                        <ab locus="57v">blank</ab>
+                    </msItem>
+
+
+                    <msItem n="5" locusStart="58r" locusEnd="66v">
+                        <head type="CCC">
+                            <title>De objectionibus consequentarium</title>
+                        </head>
+
+                        <incipit locus="58r">Consequenciarum quedam sunt obiectiones ponende et soluende</incipit>
+                        <ab locus="64v">Ends unfinished (?)</ab>
+                        <ab>ff. <locus>65r</locus>-<locus>66v</locus> blank</ab>
+                    </msItem>
+
+
+                    <msItem n="6.1" locusStart="67r" locusEnd="68r">
+                        <head type="CCC">
+                            <title>De reduplicationibus</title>
+                        </head>
+
+                        <incipit locus="67r">Pro faciliori iuuenum Informacione viam ostendo probabilem de
+                            reduplicatiuis</incipit>
+                        <explicit locus="68r">ad sua inferiora descendere, etc. finis</explicit>
+
+                    </msItem>
+
+                    <msItem n="6.2" locusStart="68v" locusEnd="76v">
+                        <head type="CCC">
+                            <name type="author" key="ThomasNe-001">Thomas Netter of Walden OCarm (attrib.)</name>,
+                                <title>Introductiones naturalium</title>
+                        </head>
+
+                        <incipit locus="68v">Natura est duplex scilicet natura naturans et natura naturata</incipit>
+                        <ab>=<ref type="ms" target="CCC244">MS 244. 5</ref></ab>
+                        <ab>
+                            <decoNote>On ff. <locus>74v</locus>, <locus>75r</locus> are drawings of various sorts of
+                                bodies. A mace with battlemented head, the Ptolemaic sphere, a pear, an arrow-head, a
+                                stone (?) with a face in it, etc.</decoNote>
+                        </ab>
+                        <ab>ff. <locus>75v</locus>-<locus>76v</locus> blank</ab>
+                    </msItem>
+
+
+                    <msItem n="7" locusStart="77r" locusEnd="81v">
+                        <head type="CCC">
+                            <title>De insolubilibus</title>
+                        </head>
+
+                        <incipit locus="77r">Quatuor sunt diuisiones proposicionum quarum prima est hec</incipit>
+                        <ab locus="80v">?unfinished</ab>
+                        <ab>ff. <locus>81r</locus>-<locus>81v </locus>blank</ab>
+                        <ab>=<ref type="ms" target="CCC244">MS 244. 3</ref></ab>
+                    </msItem>
+
+
+                    <msItem n="8" locusStart="82r" locusEnd="86v">
+                        <head type="CCC">
+                            <title>Tractatus argumentationis</title>
+                        </head>
+
+                        <incipit locus="82r">Iuxta hunc textum tactum in libro periarmenias de quolibet dicitur
+                            affirmacio uel negacio</incipit>
+                        <ab>=<ref type="ms" target="CCC244">MS 244. 2</ref></ab>
+                        <ab>Ends</ab>
+                        <explicit locus="84v" locusNew="85v">non ens est non homo</explicit>
+                        <ab>f. <locus locusNew="86r">85r</locus>-<locus locusNew="86v">85v </locus>blank</ab>
+                    </msItem>
+
+
+                    <msItem n="9" locusStart="87r" locusEnd="92v">
+                        <head type="CCC">
+                            <title>Logical tracts. Incipiunt <q>Quidlibet incipit esse quod sit sopisma</q> and <q>Nulla
+                                    differunt quod sophisma sit verum</q></title>
+                        </head>
+
+                        <incipit locus="86r" locusNew="87r">Quidlibet incipit esse quod sit sopisma</incipit>
+                        <ab>=<ref type="ms" target="CCC244">MS 244. 7</ref></ab>
+                        <incipit locus="88r" locusNew="89r">Nulla differunt quod sophisma sit uerum</incipit>
+                        <ab>ff. <locus locusNew="91r">90r</locus>-<locus locusNew="92v">91v</locus> blank</ab>
+                    </msItem>
+
+
+                    <msItem n="10" locusStart="93r" locusEnd="96v">
+                        <head type="CCC">
+                            <title>Logical tract. Incipit <q>Sophisma est hoc. scitum est non scitum</q></title>
+                        </head>
+
+                        <incipit locus="92r" locusNew="93r">Sophisma est hoc. scitum est non scitum</incipit>
+                        <ab>ff. <locus locusNew="94v">93v</locus>-<locus locusNew="96v">95v </locus>blank</ab>
+                    </msItem>
+
+
+                    <msItem n="11" locusStart="97r" locusEnd="99v">
+                        <head type="CCC">
+                            <title>Logical tract. Incipit <q>Necessarium est non necessarium probatur sic</q></title>
+                        </head>
+
+                        <incipit locus="96r" locusNew="97r">Necessarium est non necessarium probatur sic</incipit>
+                        <ab>ff. <locus locusNew="98r">97r</locus>-<locus locusNew="99v">98v</locus> blank</ab>
+                    </msItem>
+
+
+                    <msItem n="12" locusStart="100r" locusEnd="102v">
+                        <head type="CCC">
+                            <title>Liber apparentiarum</title>
+                        </head>
+
+                        <incipit locus="99r" locusNew="100r">Circa materiam apparencie multa concurrunt dubia</incipit>
+                        <ab locus="100v" locusNew="101v">
+                            <decoNote>On lower margin a rather good drawing of a man's bust with triangle described on
+                                it</decoNote>
+                        </ab>
+                    </msItem>
+
+
+                    <msItem n="13" locusStart="103r" locusEnd="104v">
+                        <head type="CCC">
+                            <title>Logical tract. Incipit <q>Pro materia de proposicione equiuocacio
+                                terminorum</q></title>
+                        </head>
+
+                        <incipit locus="102r" locusNew="103r">Pro materia de proposicione equiuocacio terminorum
+                            (?)</incipit>
+                        <ab locus="103v" locusNew="104v">blank</ab>
+                    </msItem>
+
+
+                    <msItem n="14" locusStart="105r" locusEnd="108v">
+                        <head type="CCC">
+                            <name type="author" key="WilliamC-001">William Chubbes (attrib.)</name>, <title>Introductio
+                                logices</title>
+                        </head>
+
+                        <incipit locus="104r" locusNew="105r">Bene fundatum pre exigit debitum fundamentum</incipit>
+                        <ab locus="106r" locusNew="107r">Ends unfinished (?)</ab>
+                        <ab>ff. <locus locusNew="107v">106v</locus>-<locus locusNew="108r">107r</locus> blank</ab>
+                        <incipit locus="107v" locusNew="108v">Barbara celarent, etc.</incipit>
+                        <ab>The <name type="person">Rev. Christopher Wordsworth</name> suggests that Art. 14 is the
+                            original Benefundatum of <name type="person">Will. Chubbes</name>, first master of <name
+                                type="place">Jesus College</name>. The incipit here agrees with that given by <ref
+                                type="bibl" target="Bale 1902">Bale (Index, p. 149)</ref> for his work</ab>
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 27/05/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

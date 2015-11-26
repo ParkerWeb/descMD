@@ -1,0 +1,371 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC281">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>281</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>D. 7</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>38</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Geoffrey of Monmouth, Historia regum Britanniae. Annals (Incarnation-1339) etc. Thomas
+                    de la More (attrib.), Vita et mors Edwardi II regis (excerpt). Gesta Francorum</head>
+                <head type="James">Galfr. Monumethensis. Annales, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">255</height>
+                        <width unit="mm">175</width>
+                    </measureGrp><measureGrp type="James">10 x 7</measureGrp>, <extent>ff. 2 + 79 + 54 + 22</extent>,
+                        <layout>varying numbers of lines to a page</layout>: three volumes: I, cent.
+                        <origDate>xii</origDate>. II, cent. <origDate>xii-xiv</origDate>. III, cent.
+                        <origDate>xii</origDate>.</p>
+
+                <p function="Multivolume" rend="withinContents"><lb/><label>Volume II:</label> Begins in a hand of cent.
+                        <date>xii</date>, <layout>30 lines to a page</layout>. <lb/>
+                    <label>Volume III:</label> In <handNote>a good hand</handNote> of cent. <date>xii</date>, <layout>29
+                        lines to a page</layout>.</p>
+
+
+                <p><label>Collation:</label><lb/>
+                    <label>Volume I:</label>
+                    <collation>a<num>2</num> 1<num>8</num>-4<num>8</num> (wants 6-8) 5<num>8</num>-9<num>8</num>
+                            10<num>6</num> 11<num>4</num>.</collation><lb/><label>Volume II:</label>
+                    <collation>a<num>12</num> b<num>8</num> (wants 8) c<num>8</num> (wants 8) d<num>8</num>
+                            e<num>12</num> f<num>8</num></collation>.<lb/><label>Volume III:</label>
+                    <collation>A<num>8</num>-C<num>8</num> (wants 7, 8)</collation>.</p>
+
+
+                <p><label>2 fo.:</label>
+                    <secFol>Pluribus quoque</secFol>.</p>
+
+                <p function="Additions">On f. <locus>iv</locus> a note of <name type="person">Parker</name>'s time:<lb/>
+                    In the masters Lodginge<lb/><name type="author">Gaufridus monumetensis</name><lb/>Annales
+                    Burtonenses<lb/>Historiola de terra sancta.</p>
+
+                <p function="Additions">On f. <locus>iir</locus> a note on <name type="person">Geoffrey of
+                        Monmouth</name>. <supplied>f. <locus>iibv</locus> is a paper leaf previously covering f.
+                            <locus>iiv</locus> and now lifted</supplied> on which are carefully written verses
+                        (<date>xvi</date>):<lb/> Strenua cunctorum delectant gesta proborum<lb/> In quibus armorum micat
+                    ars et laus animorum.<lb/> Ending:<lb/> Monte minutensis <name type="person">Galfridus</name> acutus
+                    ut ensis<lb/> Transtulit intensis studiis hec dulcia musis<lb/> Frater wallensis <name type="person"
+                        >madocus</name> edeirnianensis<lb/> Ex libris densis collegit nos refouens his.</p>
+
+
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-ii + iib + 1-155 + c-d</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="1r" locusEnd="79v">
+
+
+                        <head type="CCC"><name type="author">Geoffrey of Monmouth</name>, <title>Historia regum
+                                Britanniae</title></head>
+
+                        <head type="Nasmith">
+                            <title><name type="author">Galfredi Monumetensis</name> historia Brittanniae</title>
+                        </head>
+
+                        <ab>Text</ab>
+                        <rubric locus="1r">Incipit prefatio in libro Brittonum</rubric>
+                        <incipit locusNew="1r">Cum mecum multa et de multis</incipit>
+                        <explicit locusNew="1r">Opusculo igitur meo <name type="person">Rodberte dux
+                                claudiocestrie</name> etc. ... interno congratulatur affectu</explicit>
+                        <rubric locusNew="1r">Explicit prefatio</rubric>
+                        <rubric locusNew="1r">Incipit liber</rubric>
+                        <incipit locusNew="1r"><name type="place">Brittannia</name> insularum optima</incipit>
+                        <ab>
+                            <layout>The first quires have 29 and 36 lines to a page respectively</layout>
+                        </ab>
+                        <ab locus="19v">Liber II (numbered later)</ab>
+                        <ab locus="26r">Liber III</ab>
+                        <explicit locusNew="29r">existimantes numen esse in illo</explicit>
+                        <ab locus="29r">(Liber 4)</ab>
+                        <incipit locus="29r">Nondum autem ad hunc locum</incipit>
+                        <explicit locusNew="29r">ei cum huiusmodi litteris direxi</explicit>
+                        <ab>f. <locus>29v</locus> blank</ab>
+                        <ab>These first quires have been written to supply another copy which wanted them</ab>
+
+                        <ab locus="30r">This copy now begins: Coegit me <name type="person">alexander
+                                lincoliensis</name></ab>
+                        <ab><handNote>A good hand</handNote>, <layout>29 lines to a page</layout>: <handNote>a second
+                                scribe begins near the end of line 7 on f. <locus>30r</locus></handNote></ab>
+                        <ab locus="35r">Prophecies end</ab>
+                        <explicit locus="35r">inter sydera conficient</explicit>
+                        <incipit locusNew="35r">Cum igitur hec et alia</incipit>
+                        <ab>
+                            <decoNote>Initial in colour</decoNote>
+                        </ab>
+                        <ab locusNew="35r">Liber V, marked (<date>xvi</date>) on this page: Nec mora</ab>
+                        <ab>Liber VI at f. <locus>40r</locus> and f. <locus>41r</locus>, Eodem tempore pascentius, and
+                            Apparente itaque</ab>
+                        <ab locus="45v">Liber VII, Defuncto igitur</ab>
+                        <ab locus="67r">Liber VIII</ab>
+                        <ab locus="70r">Liber IX</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="77r">transferre curaui</explicit>
+
+                        <ab>Poem</ab>
+
+                        <incipit locus="77v">
+                            <lg>
+                                <l>Venimus ad naues conscendere me prohibebat</l>
+                                <l>Inperiosa satis causa, timere mori</l>
+                            </lg>
+                        </incipit>
+
+                        <incipit locusNew="78r">
+                            <lg>
+                                <l>Emenso pelago cum demum gallus ad anglos</l>
+                                <l>Applicui placuit applicuisse mihi</l>
+                            </lg>
+                        </incipit>
+
+                        <ab>Ending</ab>
+                        <explicit locus="78v" locusNew="78r">
+                            <lg>
+                                <l>Ingenii precium facies promittere leta</l>
+                                <l>Ac monstrare potest officiosa manus</l>
+                            </lg>
+                        </explicit>
+
+                        <incipit locusNew="78v">
+                            <lg>
+                                <l><name type="place">Anglia</name> terra ferax et fertilis angulus orbis</l>
+                            </lg>
+                        </incipit>
+
+                        <explicit locusNew="79r">
+                            <lg>
+                                <l>Terminat hora diem terminat auctor opus</l>
+                            </lg>
+                        </explicit>
+
+                        <ab>In a hand of cent. <date>xvi</date></ab>
+
+                        <ab>
+                            <hi rend="bold">a.</hi>
+                        </ab>
+                        <rubric locus="79r">Epitaphium <name type="person">Lewelini magni</name></rubric>
+                        <ab>
+                            <lg>
+                                <l>Hic iacet anglorum tortor tutor wenedorum,</l>
+                                <l>Princeps Wallorum <name type="person">Lewelinus</name> regula morum</l>
+                                <l>Gemma coeuorum flos regum pretentorum,</l>
+                                <l>Forma futurorum dux lux laus lex populorum</l>
+                            </lg>
+                        </ab>
+                        <ab>
+                            <hi rend="bold">b.</hi>
+                        </ab>
+                        <rubric locusNew="79r">De <name type="person">Sancto Patricio</name></rubric>
+                        <ab>
+                            <lg>
+                                <l>Hic iacent in duno tumulo tumulantur in uno,</l>
+                                <l><name type="person">Brigida</name>
+                                    <name type="person">patricius</name> atque <name type="person">columba</name>
+                                    pius</l>
+                            </lg>
+                        </ab>
+                        <ab>f. <locus>79v</locus> blank <supplied>except for sixteenth-century scribbles</supplied></ab>
+
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="2" locusStart="80r" locusEnd="127r">
+                        <head type="CCC">
+                            <title>Chronicon S. Andreae in Antona Sempentrionalis</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Annales a nativitate Christi ad annum <date>1339</date></title>
+                        </head>
+                        <ab>
+                            <quote>Ad imum primae paginae <q>Iste liber est de <name type="place">communitate
+                                        Burtoniae</name>, qui eum alienaverit anathema sit, Amen.</q></quote>
+                        </ab>
+                        <ab>
+                            <quote>Ex hac inscriptione codici quidem coaeva, folio vero non inscripta sed eidem
+                                agglutinata, hi annales a <name type="person">Parkero</name>
+                                <name type="person">Jamesio</name> et <name type="person">Stanley</name> nominati sunt
+                                annales de <name type="place">Burton</name>; recte tamen observavit <name type="person"
+                                    >Cl. Stanley</name> eos ab impressis prorsus esse diversos. Codicem diligenter
+                                evolventi occurrerunt multa quae mihi fidem fecerunt eos a quodam monacho cenobii <name
+                                    type="place">S. Andreae apud Northampton</name> conscriptos esse. Primo enim notatur
+                                successio abbatum <name type="place">Cluniacensium</name>, cujus ordinis fuit hoc
+                                cenobium: secundo, nulla fit mentio <name type="place">monasterii de Burton</name>, sed
+                                fundatio <name type="place">domus S. Andreae</name> per <name type="person">Simonem
+                                    comitem de Northampton</name> occurrit ad annum <date>1083</date>, tertio, ad annum
+                                    <date>1237</date> sunt haec verba <q>In hoc <name type="place">monasterio beati
+                                        Andreae</name> quoddam mirabile contigit.</q><lb/> Usque ad annum
+                                    <date>1206</date> eadem manu scribuntur, postea diversis; anno <date>1249</date>
+                                inseritur edictum Gallica lingua scriptum <name type="person">Edwardi I</name>. quando
+                                    <name type="place">Scotiam</name> intravit, et genealogia eorum qui jus suum
+                                asseruerunt in illud regnum</quote>
+                        </ab>
+
+                        <ab>In annalistic form. Years from Annus domini I: a line to each, every 10th year in red. Few
+                            entries at first</ab>
+                        <ab>On a slip of vellum pasted on to f. <locus locusNew="80r">1r</locus>, Iste liber est de
+                                <name type="place">communitate burtonie</name> qui eum alienauerit anathema sit. amen
+                                (<date>xv late</date>)</ab>
+
+                        <ab><decoNote>The page is headed in red and green capitals</decoNote>: Anni ab incarnatione
+                            Domini</ab>
+                        <ab>There are a few late additions, e.g. at <date>141</date> a.d.: hic baptizati sunt nouem ex
+                            doctoribus et scolaribus <name type="place">cantebrigie</name></ab>
+                        <ab><date>532</date> of <name type="person">Agapitus</name>: hic instituit doctores sacre
+                            theologie</ab>
+                        <ab>Great interest is shown in the Cluniac order and its saints</ab>
+                        <ab>At <date>1083</date> is a later note: Hoc anno <name type="person">Simon comes
+                                Northamton</name> edificauit <name type="place">domum Sancti Andree</name></ab>
+                        <ab><date>1101</date> added: Item inuencio <name type="person">Sancte Milburge</name> apud <name
+                                type="place">wenlok</name></ab>
+
+                        <ab>
+                            <handNote>The hand (probably two hands) preserves uniformity to the end of f. <locus
+                                    locusNew="98v">19v</locus> (<date>1140</date>), an obviously different one begins at
+                                f. <locus locusNew="99r">20r</locus> leaving irregular spaces for the years. It
+                                continues to f. <locus locusNew="103v">24v</locus> (<date>1206</date>) and goes on
+                                writing the numbers of the years perhaps as far as <date>1218</date>. But the entries
+                                are in different and smaller hands. There are many of these. They continue to f. <locus
+                                    locusNew="113v">34v</locus> (<date>1294</date>)</handNote>
+                        </ab>
+                        <ab locus="35r" locusNew="114r">Then intervenes a document of <name type="person">Edward
+                                I</name> asserting his claim to <name type="place">Scotland</name></ab>
+
+                        <ab>
+                            <handNote>The hand of <date>1294</date> resumes on f. <locus locusNew="117r">38r</locus>
+                                with <date>1295</date> and goes on to <date>1303</date></handNote>
+                        </ab>
+                        <ab>
+                            <handNote>On f. <locus locusNew="118r">39v</locus> a hand of much more current type begins
+                                and goes on to f. <locus locusNew="125v">46v</locus> (<date>1330</date>): a second hand
+                                of the same type continues to f. <locus locusNew="127r">48r</locus>
+                                (<date>1339</date>)</handNote>
+                        </ab>
+
+                        <explicit locus="48r" locusNew="127r">et <date>mense marcio</date> regressus est rex in <name
+                                type="place">angliam</name></explicit>
+                        <ab>
+                            <supplied agent="JamesCorrigenda">Some of the additions relating to <name type="place"
+                                    >Cambridge</name> are quoted by <ref type="bibl" target="Caius 1568">Caius <hi
+                                        rend="italic">De Antiq. Acad</hi>., p. 73</ref></supplied>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="3" locusStart="127v" locusEnd="128r">
+                        <head type="CCC"><name type="author">Thomas de la More (attrib.)</name>, <title>Vita et mors
+                                    <name type="person">Edwardi II regis</name> (excerpt)</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Excerpta ex <name type="author">Thoma de la More</name> de morte <name type="person"
+                                    >Edwardi II</name></title>
+                        </head>
+
+                        <ab>
+                            <handNote>In a Parkerian hand</handNote>
+                        </ab>
+                        <rubric locus="48v" locusNew="127v"><name type="author">Thomas de la Moore</name> in libro suo
+                            de morte et vita <name type="person">Edwardi secundi</name></rubric>
+                        <incipit locusNew="127v">Mittuntur littere increpatorie custodibus (<name type="place">Castri de
+                                Barkley</name>)</incipit>
+                        <explicit locusNew="128r">minis terribilibus in fugam coactiuis affligere non
+                            cessauit</explicit>
+                        <ab>ff. <locus locusNew="128v">49v</locus>-<locus locusNew="133v">54v</locus> ruled but
+                            blank</ab>
+
+                    </msItem>
+
+                    <milestone n="III" unit="volume"/>
+
+                    <msItem n="4" locusStart="134r" locusEnd="155v">
+                        <head type="CCC">
+                            <title>Gesta Francorum et aliorum Hierosolimitanorum</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Expeditio contra Turcos circa annum <date>1094</date></title>
+                        </head>
+
+                        <ab>
+                            <quote>Extat inter gesta Dei per Francos sub hoc titulo <q>Gesta Francorum et aliorum
+                                    Hierosolymitanorum</q></quote>
+                        </ab>
+
+                        <incipit locusNew="134r">Cum iam appropinquasset ille terminus</incipit>
+
+                        <ab>
+                            <handNote>The hand of the last 5.5 leaves is different</handNote>
+                        </ab>
+                        <ab>Ends</ab>
+                        <explicit locusNew="155v">Hoc bellum actum est ii idus augusti largiente domini nostri Ihesu
+                            Christi cui est honor et gloria nunc et semper et per infinita seculorum secula dicat omnis
+                            spiritus. Amen</explicit>
+                        <ab>In <ref type="bibl" target="Bongars 1611a">Bongars, <hi rend="italic">Gesta Dei per
+                                    Francos</hi>, p. 1 (Gesta Francorum et aliorum Hierosolymitanorum)</ref></ab>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJC 8/4/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

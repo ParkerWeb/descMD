@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "@vocab": "http://bibframe.org/vocab/",
+    "bf": "http://bibframe.org/vocab/",
+    "id": "@id",
+    "note": "http://stanford.edu/notes/ns/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "type": "@type",
+    "value": "rdf:value"
+  },
+  "hasInstance": {
+    "contains": [
+      {
+        "extent": "1-330",
+        "title": {
+          "type": "Title",
+          "value": "Robert Grosseteste, Epistolae (1-126)"
+        },
+        "type": "Instance"
+      },
+      {
+        "extent": "330-395",
+        "title": {
+          "type": "Title",
+          "value": "Robert Grosseteste, De cura pastorali (epistola127)"
+        },
+        "type": "Instance"
+      }
+    ],
+    "hasItem": {
+      "heldBy": {
+        "label": "Corpus Christi College",
+        "type": "Organization"
+      },
+      "id": "http://linked-data.stanford.edu/parker/ms/CCC453",
+      "identifiedBy": [
+        {
+          "scheme": "CCC",
+          "type": "LocalIdentifier",
+          "value": "CCC453"
+        },
+        {
+          "scheme": "Stanley",
+          "type": "LocalIdentifier",
+          "value": "O. 27"
+        },
+        {
+          "scheme": "TJames",
+          "type": "LocalIdentifier",
+          "value": "227"
+        }
+      ],
+      "note": [
+        {
+          "type": "note:ProvenanceNote",
+          "value": ""
+        }
+      ],
+      "subLocation": "Parker Library",
+      "type": "Item"
+    },
+    "id": "http://linked-data.stanford.edu/parker/ms/CCC453_instance",
+    "language": "Latin.",
+    "type": "Manuscript"
+  },
+  "id": "http://linked-data.stanford.edu/parker/ms/CCC453_work",
+  "title": [
+    {
+      "type": "Title",
+      "value": "Robert Grosseteste, Epistolae (1-126), De cura pastorali (epistola 127)"
+    },
+    {
+      "type": "VariantTitle",
+      "value": "Rob. Grosseteste Epistolae",
+      "variantType": "James"
+    }
+  ],
+  "type": "Work"
+}

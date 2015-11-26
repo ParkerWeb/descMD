@@ -1,0 +1,150 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC409">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>409</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>N. 28</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>203</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Cicero (M. Tullius Cicero), De finibus bonorum et malorum</head>
+                <head type="James">M. T. Cicero de Finibus</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">205</height>
+                        <width unit="mm">139</width>
+                    </measureGrp>, <measureGrp type="James">8 x 5.5</measureGrp>, <extent>ff. 84</extent>, <layout>30
+                        lines to a page</layout>. Cent. <origDate>xv</origDate>, <handNote>in a beautiful small Roman
+                        hand</handNote>. </p>
+
+
+
+                <p><label>Collation:</label>
+                    <collation>1<num>10</num>-8<num>10</num> 9 (four)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>nostrum scribendi</secFol>.</p>
+
+                <p function="Provenance">At top of f. <locus>1r</locus> in what seems <handNote>an Italian
+                        hand</handNote> is a press-mark L. 8.</p>
+
+                <p function="Decoration"><decoNote>The rubrics (in capitals) are very faint and the decorative initials
+                        also</decoNote>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-84 + iii</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="81v">
+                        <head type="CCC">
+                            <name type="author" key="">Cicero (M. Tullius Cicero)</name>, <title>De finibus bonorum et
+                                malorum</title>
+                        </head>
+
+                        <rubric locus="1r"><name type="author" key="">M. Tullii Ciceronis Arpinatis</name> de finibus
+                            bonorum et malorum liber primus incipit feliciter. Lege fel</rubric>
+                        <incipit locusNew="1r">Non eram nescius <name type="person" key="">brute</name></incipit>
+                        <ab locus="14r">Liber II</ab>
+                        <ab locus="36v"><supplied>Liber</supplied> III</ab>
+                        <ab locus="50r"><supplied>Liber</supplied> IV</ab>
+                        <ab locus="64r"><supplied>Liber</supplied> V</ab>
+
+                        <explicit locus="81v">Ad <name type="person" key="">pomponium</name> perreximus omnes</explicit>
+                        <rubric locusNew="81v">Finis</rubric>
+
+                        <ab locusNew="81v">
+                            <decoNote>In Gothic letter</decoNote>
+                        </ab>
+                        <rubric locusNew="81v">hinc cum recedas reminiscas claudere librum. Amen</rubric>
+                        <ab locus="82r">blank</ab>
+                        <ab>On ff. <locus>82v</locus>-<locus>83v</locus>
+                            <handNote>in Italic hand</handNote></ab>
+                        <rubric locusNew="82v">Incipit epitaphia <name type="person" key="">ciceronis</name> edita a xii
+                            sapientibus <name type="person">basilio</name> ... <name type="person">maximino</name> et
+                                <name type="person">vitali</name></rubric>
+                        <ab locusNew="82v">
+                            <q>
+                                <name type="person">Basilius</name>
+                            </q>
+                        </ab>
+                        <incipit locusNew="82v">Hic iacet arpinas manibus tumulatus amici</incipit>
+                        <explicit locusNew="83v">Seruitio patriam destituit patriam</explicit>
+
+                        <ab>
+                            <ref type="bibl" target="Riese 1869">
+                                <hi rend="italic">Anthologia Latina</hi> 603-614</ref>
+                        </ab>
+                        <ab>f. <locus>84r</locus>-<locus>84v</locus> blank</ab>
+
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 15/12/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

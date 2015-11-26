@@ -1,0 +1,142 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC052">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>52</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>O. 2</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>208</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Peter Lombard, Gloss on the Pauline Epistles (Magna glosatura)</head>
+                <head type="James">Petri Lombardi Glossa in Epistolas Pauli</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">340</height>
+                        <width unit="mm">230</width>
+                    </measureGrp><measureGrp type="James">13.5 x 9</measureGrp>, <extent>ff. 203 + 5</extent>,
+                        <layout>double columns of 52 lines</layout>. Cent. <origDate>xii</origDate>, <handNote>in a fine
+                        upright hand, not very large</handNote>. <decoNote>Text in red, commentary in black.
+                        Extraordinarily gay initials to the Epistles in blue, red, green, without gold</decoNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num> b<num>2</num> 1<num>8</num>-25<num>8</num> 26 (three), 1
+                        flyleaf</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>Paulus</secFol>.</p>
+                <p><label>3 fo.:</label> ut totum.</p>
+
+                <p function="Additions">On flyleaf (<origDate>xv, xvi</origDate>) <q>prec. 16s. 8d.</q></p>
+                <p>There was an inscription in red on f. <locus>ivv</locus>: it has been carefully erased and is
+                    probably irrecoverable.</p>
+                <p>On ff. <locus>iiiv</locus>, <locus>ivr</locus> are written passages from <name type="author"
+                        >Augustine</name> de Trinitate, <name type="author">Hilary</name> de Trinitate etc. <handNote>in
+                        a hand of cent. <origDate>xii</origDate></handNote>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-iv + 1-203 + v + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="eng">Latin with English in notes on flyleaves.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="203v">
+                        <head type="CCC">
+                            <name type="author">Peter Lombard</name>, <title>Gloss on the Pauline Epistles (Magna
+                                glosatura)</title>
+                        </head>
+                        <head type="James">
+                            <title><name type="author">Petri Lombardi</name> Glossa in Epistolas <name type="person"
+                                    >Pauli</name></title>
+                        </head>
+
+
+                        <incipit locusNew="1r">Principia rerum requirenda sunt</incipit>
+                        <ab>
+                            <ref type="bibl" target="Migne 191"><supplied>P. L.</supplied> CXCI 1297</ref>
+                        </ab>
+                        <explicit locusNew="1v">ante salutationem dicens</explicit>
+                        <ab locus="2r">Romans</ab>
+                        <ab locus="50v">1 Corinthians</ab>
+                        <ab locus="86v">2 Corinthians</ab>
+                        <ab locus="105r">Galatians</ab>
+                        <ab locus="122r">Ephesians</ab>
+                        <ab locus="133v">Philippians</ab>
+                        <ab locus="141v">Colossians</ab>
+                        <ab locus="148v">1 Thessalonians</ab>
+                        <ab locus="154r">2 Thessalonians</ab>
+                        <ab locus="157v">1 Timothy</ab>
+                        <ab locus="166r">2 Timothy</ab>
+                        <ab locus="171r">Titus</ab>
+                        <ab locus="173v">Philemon</ab>
+                        <ab locus="174v">Hebrews</ab>
+                        <explicit locusNew="202v">et alia dei munera. sit cum omnibus uobis</explicit>
+                        <rubric locusNew="202v">Explicit deo gracias</rubric>
+                        <ab>On the last flyleaf (top and bottom cut off) are some receipts in Latin and English, of
+                            cent. <origDate>xv late or xvi early</origDate></ab>
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJM 09.08.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

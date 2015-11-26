@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "@vocab": "http://bibframe.org/vocab/",
+    "bf": "http://bibframe.org/vocab/",
+    "id": "@id",
+    "note": "http://stanford.edu/notes/ns/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "type": "@type",
+    "value": "rdf:value"
+  },
+  "hasInstance": {
+    "contains": [
+      {
+        "extent": "1r-88v",
+        "title": {
+          "type": "Title",
+          "value": "Henry Lovelich, The History of the HolyGrail"
+        },
+        "type": "Instance"
+      },
+      {
+        "extent": "88v-200v",
+        "title": {
+          "type": "Title",
+          "value": "Henry Lovelich, Merlin"
+        },
+        "type": "Instance"
+      }
+    ],
+    "hasItem": {
+      "heldBy": {
+        "label": "Corpus Christi College",
+        "type": "Organization"
+      },
+      "id": "http://linked-data.stanford.edu/parker/ms/CCC080",
+      "identifiedBy": [
+        {
+          "scheme": "CCC",
+          "type": "LocalIdentifier",
+          "value": "CCC080"
+        },
+        {
+          "scheme": "Stanley",
+          "type": "LocalIdentifier",
+          "value": "Sub. B. 5"
+        },
+        {
+          "scheme": "TJames",
+          "type": "LocalIdentifier",
+          "value": "350"
+        }
+      ],
+      "note": [
+        {
+          "type": "note:ProvenanceNote",
+          "value": ""
+        }
+      ],
+      "subLocation": "Parker Library",
+      "type": "Item"
+    },
+    "id": "http://linked-data.stanford.edu/parker/ms/CCC080_instance",
+    "language": "Middle English and Latin.",
+    "type": "Manuscript"
+  },
+  "id": "http://linked-data.stanford.edu/parker/ms/CCC080_work",
+  "title": [
+    {
+      "type": "Title",
+      "value": "Henry Lovelich, The History of the Holy Grail, Merlin"
+    },
+    {
+      "type": "VariantTitle",
+      "value": "Louelich. The Graal. Merlin",
+      "variantType": "James"
+    }
+  ],
+  "type": "Work"
+}

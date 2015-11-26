@@ -1,0 +1,184 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+
+                <msIdentifier xml:id="CCC017">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>17</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>L. 5</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>126</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Augustine, Tractatus in euangelium Iohannis, and other works</head>
+
+                <head type="James">Augustinus super Iohannem etc.</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">372</height>
+                        <width unit="mm">244</width>
+                    </measureGrp><measureGrp type="James">14.7 x 9.5</measureGrp>, <extent>ff. 246</extent>,
+                        <layout>double columns of 44, 38, 47 etc. lines</layout>. Cent. <origDate>xii</origDate>,
+                        <handNote>in several good hands</handNote>. <decoNote>Interesting initials</decoNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1<num>6</num> 2<num>8</num>-31<num>8</num> (8 a fragment)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>leuaui oculos</secFol>.</p>
+
+                <p function="Provenance">On f. <locus>1r</locus> at top <q>B</q> (<origDate>xv</origDate>, small). On
+                    margin <q>Robart mas.r..</q> (in pencil) <q>Johannes Bell</q> or <q>Bett</q> in ink
+                        (<origDate>xv</origDate>): possibly from <name type="place">Norwich</name>.</p>
+
+
+                <p function="Writing" rend="afterContents"><handNote>The first hand is a rather round one</handNote>;
+                        <handNote>narrower and more conventional hands follow</handNote>: all seem contemporary.</p>
+
+                <p function="Decoration" rend="afterContents"><decoNote>The initials are very odd: some containing fish
+                        and birds have reminiscences of such Celtic work as is in <ref type="ms" target="CCC197B">MS
+                            197</ref>. They are of somewhat rude execution. Red and green are prevailing
+                        colours</decoNote>. <decoNote>The initial on f. <locus>1r</locus>, a panelled letter, has a
+                        Celtic flavour</decoNote>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i + 1-248 + ii</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="241r">
+
+                        <head type="CCC">
+                            <name type="author">Augustine</name>, <title>Tractatus in euangelium <name type="person"
+                                    >Iohannis</name></title>
+                        </head>
+
+                        <head type="James">
+                            <name type="author">Augustinus</name>
+                            <title>super Iohannem: tractatus cxxiv</title>
+                        </head>
+
+
+
+                        <ab>(<ref type="bibl" target="Migne 035">P. L. XXXV 1479</ref>)</ab>
+                        <incipit locus="1r">Intuentes quod modo audiuimus</incipit>
+                        <ab>The days on which certain portions are read are marked in the margin <handNote>in an early
+                                hand</handNote></ab>
+                        <ab>Tract cxxiv ends</ab>
+                        <explicit locus="239r" locusNew="241r">compellerer meum terminare sermonem</explicit>
+
+                    </msItem>
+
+
+                    <msItem n="2" locusStart="241v" locusEnd="247r">
+
+                        <head type="CCC">
+                            <name type="author">Augustine</name>, <title>De praesentia Dei (epistola 187)</title>
+                        </head>
+
+
+                        <head type="James">
+                            <name type="author">Augustinus</name> ad <name type="person">Dardanum</name>
+                        </head>
+
+
+                        <ab>(<ref type="bibl" target="Migne 033"><supplied>P. L.</supplied> XXXIII 832</ref>)</ab>
+
+                        <ab>
+                            <handNote>In a smaller hand</handNote>
+                        </ab>
+
+                        <incipit locus="239v" locusNew="241v">Fateor me frater dilectissime <name type="person"
+                                >dardane</name></incipit>
+                        <explicit locus="247r">medicinam qua concedis et ueniam</explicit>
+                        <rubric locusNew="247r">Explicit</rubric>
+
+                    </msItem>
+
+
+                    <msItem n="3" locusStart="247r" locusEnd="248r">
+
+                        <head type="CCC">
+                            <name type="author">John Chrysostom</name>, <title>Sermo in parascheue</title>
+                        </head>
+
+                        <ab>
+                            <handNote>In another hand</handNote>
+                        </ab>
+
+                        <rubric locus="246r" locusNew="247r">Sermo <name type="author">beati Johannis crisostomi</name>
+                            in parascheue</rubric>
+                        <incipit locusNew="247r">Conuenientes ad st[r]ationem ecclesie matris</incipit>
+                        <explicit locus="248r">perpetua claritate prestante ipso domino nostro Iesu Christi qui cum
+                            patre et spiritu sancto uiuit et regnat in secula seculorum. Amen</explicit>
+
+                    </msItem>
+
+                </msContents>
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, CF 2nd</p>
+                            <p>msCheck: RJR</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

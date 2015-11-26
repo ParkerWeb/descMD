@@ -1,0 +1,168 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC200">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>200</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>V. 3</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>302</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Baldwin of Ford OCist, De sacramento altaris</head>
+
+                <head type="James">Baldewinus de sacramento altaris</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">275</height>
+                        <width unit="mm">190</width>
+                    </measureGrp><measureGrp type="James">10.8 x 7.5</measureGrp>, <extent>ff. 103 + 4</extent>,
+                        <layout>double columns of 30 lines</layout>. Cent. <origDate>xii late</origDate>, <quote>seculo
+                            <origDate>xii</origDate> exeunti vel <origDate>xiii</origDate> ineunti scriptus</quote>,
+                        <handNote>in two fine large upright hands</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 slip, 1 flyleaf , 1<num>8</num>-13<num>8</num> (wants 8), 2 flyleaves</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>nitatem quoque</secFol>.</p>
+
+
+
+                <p function="Additions">On the slip <supplied>(f. <locus>cv</locus>)</supplied> is: Incipit liber domini
+                        <name type="author" key="BaFo01">Baldeuuini Archiep. C(ant)</name> De inestimabili sacramento
+                    ueritatis ueteris (et no) ui testamenti.<lb/> On the flyleaf <supplied>(f.
+                        <locus>ir</locus>)</supplied> in a large hand: <name type="author" key="BaFo01"
+                        >Baldewynus</name> de inestimabili sacramento.<lb/> On the verso <supplied>(f.
+                        <locus>iv</locus>)</supplied>
+                    <name type="person" key="MaPa01">Parkerian</name> notes on <name type="author" key="BaFo01"
+                        >Baldwin</name>.<lb/>
+                    <quote>De hoc codice sic scripsit <name type="person" key="MaPa01">Parkerus</name>: <q>Hic liber
+                            proprius codex <name type="author">Baldwini</name> scriptus manu sua dum erat archiepiscopus
+                            Cantuariensis, tam accurate ut vix reperies aliquam mendam (quantum ad scriptionem attinet)
+                            per totum librum. Quamvis fortasse ad ornatiorem scripturam aliquorum versuum suppletio fit
+                            per literam puncto supposito, ut per librum aliquoties videre licet. Ecce
+                        diligentiam!</q><lb/> Nescio qua autoritate fretus haec dixit vir reverendissimus, cum enim de
+                        novo paucis abhinc annis compingebantur codices nostri, operculis bibliopegi incuria abjectis
+                        multa hujusmodi indicia perierunt. Sed forsan huic opinioni ansam praebuerunt sequentia verba
+                        minio in codice subnotata: <q>Verum cum autoritas tua me premeret ut de inestimabili sacrificio
+                            veritatis aliqua scribenda dictitarem et dictata scriberem</q> Minime tamen exhinc sequitur
+                        codicem propria manu <name type="author">Baldwini</name> fuisse scriptum; ex codice enim
+                        autographo in omnia sequentia exemplaria necessario transcribebantur haec verba; preterea ex
+                        epistola nuncupatoria satis liquet <name type="author">Baldwinum</name> adhuc monachum fuisse
+                        Fordensem quando haec scripsit, codex tamen noster effigiem ejus habet vesti pontificali et
+                        pallio indutam. Sed etsi pro autographo non habendus sit, haud tamen longe post autoris aevum
+                        scriptum puto.</quote>
+                </p>
+
+                <p function="Provenance">From <name type="place">Christ Church, Canterbury</name>: no. 94 in Eastry's
+                    Catalogue (<ref type="bibl" target="James 1903"><hi rend="italic">Ancient Libraries</hi>, pp. 26,
+                        507</ref>).</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-c + i + pp. 1-209 + ff. d-e</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1" locusEnd="205">
+                        <head type="CCC"><name type="author" key="BaFo01">Baldwin of Ford OCist</name>, <title>De
+                                sacramento altaris</title></head>
+
+                        <head type="James">
+                            <name type="author" key="BaFo01">Baldewinus</name>
+                            <title>de sacramento altaris</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title><name type="author" key="BaFo01">Baldwinus archiepiscopus Cantuariensis</name> de
+                                inestimabili sacramento altaris</title>
+                        </head>
+
+                        <incipit locus="1">Amantissimo domino et patri <name type="person">B(artholomeo)</name> dei
+                            gratia exoniensi frater <name type="person">B(aldewinus) fordensis</name>
+                            monasterii</incipit>
+                        <ab locusNew="1"><decoNote>Initial <supplied>on p. <locus>1</locus></supplied>: the archbishop
+                                in mitre, light pink chasuble with pall, green dalmatic, and alb, seated facing R.
+                                writing</decoNote>. <decoNote>Gold ground</decoNote></ab>
+                        <ab locusNew="1">On the R. upper corner an erased mark <q>b</q> (for bl or bs)</ab>
+                        <explicit locus="2">reuereri quod imperas. uale</explicit>
+
+                        <rubric locus="2">Quid sit ordo</rubric>
+
+
+                        <incipit locusNew="2">Magnum et profundum noui uerique mysterium sacrificii</incipit>
+                        <!--<ab locusNew="41"><decoNote>marginal drawing of a bagpipe</decoNote></ab>-->
+                        <ab><handNote>Hand changes </handNote>at p. <locus>97</locus></ab>
+
+                        <ab>Ends</ab>
+                        <explicit locus="205">et memoriam habundantie suauitatis eius eructabunt</explicit>
+
+                        <ab>A late erasure on p. <locus>206</locus></ab>
+                        <ab>Two flyleaves <supplied>(pp. <locus>207</locus>-<locus>210</locus>)</supplied>
+                            <origDate>xiv(?)</origDate> much contracted: apparently de predicamentis</ab>
+
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, BA, CF</p>
+                            <p>msCheck: NJM 27.3.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

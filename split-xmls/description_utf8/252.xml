@@ -1,0 +1,244 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+
+                <msIdentifier xml:id="CCC252">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>252</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>H. 5</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>86</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">James of Milan OFM, Stimulus amoris. Planctus beatae Mariae uirginis. Bernard Ayglier
+                    OSB, Commentary on Regula Sancti Benedicti. Jocelin of Furness OCist, Vita Sanctae Helenae</head>
+
+                <head type="James">Stimulus Amoris, etc.</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">287</height>
+                        <width unit="mm">175</width>
+                    </measureGrp><measureGrp type="James">11.3 x 6.8</measureGrp>, <extent>ff. 184 + 1</extent>,
+                        <layout>38 lines to a page</layout>. Cent. <origDate>xiv early</origDate>, <handNote>in a fine
+                        large script, by two scribes at least</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num>-8<num>8</num> 9<num>10</num> 10<num>10</num>
+                            11<num>8</num>-17<num>8</num> 18<num>10</num> 19<num>10</num>
+                        20<num>8</num>-22<num>8</num></collation>.</p>
+
+
+                <p function="Provenance">From <name type="place">Norwich</name>. On f. <locus>183v</locus>
+                    <handNote>in a large hand</handNote> is: <q>Liber fratris <name type="person">iohannis de
+                            Reynham</name> monachi Norwici quem ipse in parte scripsit et in parte scribi fecit. cuius
+                        anime propicietur deus.</q></p>
+
+
+                <p function="Additions">In another hand <supplied>(f. <locus>183v</locus>)</supplied>: <q>In 7 14 and 4
+                        (i.e. God) is al my loue.</q><lb/> On f. <locus>ir</locus> is an original list of contents
+                    headed:<lb/> Isti libri continentur in hoc uolumine.<lb/> Quedam consuetudines siue constituciones
+                    quas habent prelati <name type="place">francie</name> procedendi in negocio contra fratres
+                    predicatores et minores.<lb/> (This is not now in the volume: cf. the documents prefixed to <ref
+                        type="ms" target="CCC264">MS 264</ref>.)<lb/> Liber de stimulo amoris, etc.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i + 1-184 + ii</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="48v">
+
+
+                        <head type="CCC"><name type="author">James of Milan OFM</name>, <title>Stimulus
+                            amoris</title></head>
+                        <head type="James">
+                            <title>Stimulus Amoris</title>, etc. </head>
+                        <rubric locus="1r">Incipit libellus qui dicitur stimulus amoris diuini</rubric>
+                        <ab>(wrongly ascribed to <name type="person">Bonaventura</name>)</ab>
+                        <ab locus="1r">Prologue</ab>
+                        <incipit locusNew="1r">Liber iste qui stimulus</incipit>
+                        <ab>Capitula</ab>
+
+                        <rubric locusNew="1r">Capitulum I</rubric>
+                        <incipit locusNew="1r">Currite gentes undique</incipit>
+
+                        <ab locus="18v">Pars II</ab>
+                        <ab locus="30v"><supplied>Pars</supplied> III</ab>
+
+
+                        <ab locus="41r">
+                            <handNote>Hand changes on f. <locus>41r</locus></handNote>
+                        </ab>
+
+                        <ab>Ends</ab>
+                        <explicit locus="48v" locusNew="48r">laudet deum omnis spiritus. Amen</explicit>
+
+                        <rubric locus="48v">Explicit meditaciones cuiusdam simplicis cordati et pauperculi discalciati
+                            et contemptibilis denudati sapientissimorum ruditissimi electorum infimi et minorum minimi.
+                            Deo gracias</rubric>
+
+                        <ab>Cf. <ref type="ms" target="CCC137">MS 137. 3</ref></ab>
+
+
+                    </msItem>
+
+
+
+
+                    <msItem n="2" locusStart="48v" locusEnd="52r">
+
+                        <head type="CCC">
+                            <title>Planctus beatae Mariae uirginis</title>
+                        </head>
+
+                        <head type="James">
+                            <title>Planctus Beatae Virginis Mariae de passione Christi</title>
+                        </head>
+
+                        <incipit locus="48v">Quis dabit capiti meo aquam</incipit>
+                        <explicit locusNew="52r">puro et mundo corde. benedicti sint qui diligunt eam et super omnia sit
+                            benedictus filius eius Iesus Christus dominus noster qui cum, etc.</explicit>
+
+                    </msItem>
+
+
+
+                    <msItem n="3" locusStart="52r" locusEnd="166r">
+
+                        <head type="CCC">
+                            <name type="author">Bernard Ayglier OSB</name>, <title>Commentary on Regula <name
+                                    type="person">Sancti Benedicti</name></title>
+                        </head>
+
+                        <rubric locus="52r">Incipit exposicio super regulam <name type="person">beati benedicti</name>
+                            edita a <name type="author">bernardo</name> abbate cassinensis</rubric>
+
+
+                        <incipit locusNew="52r">Legitur in prouerbiis doctrina prudencium facilis</incipit>
+
+                        <explicit locusNew="52v">peticionibus postulastis</explicit>
+
+                        <rubric locus="53r">Incipit prologus regule</rubric>
+                        <incipit locusNew="53r">Ausculta. aliqua littera habet obsculta</incipit>
+                        <ab>Text of the Rule written in red</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="166r">regni sui perueniamus eternam. Amen</explicit>
+                        <rubric locusNew="166r">Explicit regula <name type="person">Sancti Benedicti</name> secundum
+                                <name type="author">bernardum</name> abbatem monasterii Cassinensis</rubric>
+                        <ab>Cf. <ref type="ms" target="CCC137">MS 137. 2</ref></ab>
+
+                    </msItem>
+
+
+                    <msItem n="4" locusStart="166v" locusEnd="182v">
+
+                        <head type="CCC">
+                            <name type="author">Jocelin of Furness OCist</name>, <title>Vita <name type="person">Sanctae
+                                    Helenae</name></title>
+                        </head>
+
+
+                        <rubric locus="166v">Incipit prologus in uitam <name type="person">Sanctae
+                            Helene</name></rubric>
+
+                        <incipit locusNew="166v">Licet protoparentalis preuaricacio</incipit>
+                        <explicit locusNew="167r">habet qui iudicet eum</explicit>
+                        <rubric locusNew="167r">Explicit prologus</rubric>
+                        <rubric locusNew="167r">Incipit uita</rubric>
+                        <incipit locusNew="167r">Temporibus <name type="person">dyocleciani</name> et <name
+                                type="person">maximiani</name> augustorum dominabatur dux quidam illustris <name
+                                type="person">Coel</name></incipit>
+
+                        <explicit locusNew="180v">regnum eternum transmigrauit. Ad quod nos meritis et precibus <name
+                                type="person">sanctissime helene</name></explicit>
+
+                        <rubric locusNew="180v">Explicit uita <name type="person">Sanctae helene regine</name></rubric>
+
+                        <rubric locus="180v">Incipit de translacione ipsius</rubric>
+                        <incipit locusNew="180v">Quidam sacerdos remensis dyocesis <name type="person"
+                            >theogisus</name></incipit>
+
+                        <explicit locusNew="182v">inherentem funi piscator gratanter accepit</explicit>
+
+                        <ab>This is by <name type="author">Jocelin of Furness</name>. Extracts from it are in MS. <ref
+                                type="ms" target="OBL469">Bodley 240</ref>. It is not noticed in <ref type="bibl"
+                                target="Bollandists 1898-99">BHL.</ref>
+                            <ref type="bibl" target="Hardy 1862a">Hardy I 34</ref></ab>
+
+                        <ab>ff. <locus>183r</locus>, <locus>184r</locus> and <locus>184v</locus> blank</ab>
+
+                    </msItem>
+
+
+                </msContents>
+
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text:copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, BA, CF</p>
+                            <p>msCheck: NJM 01.06.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

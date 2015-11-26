@@ -1,0 +1,154 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC416">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>416</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>N. 35</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>199</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Amalarius of Metz, Liber officialis</head>
+                <head type="James">Amalarius</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">206</height>
+                        <width unit="mm">128</width>
+                    </measureGrp>, <measureGrp type="James">8 x 5</measureGrp>, <extent>ff. 1 + 152</extent>, <layout>35
+                        lines to a page</layout>. Cent. <origDate>xii</origDate>, <handNote>in a good clear pointed
+                        upright hand</handNote>. </p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>12</num> (+1) 2<num>12</num>-6<num>12</num> 7<num>10</num>
+                            8<num>12</num> 9<num>10</num> 10<num>12</num>-12<num>12</num> (12 canc.)
+                        13<num>12</num></collation>.</p>
+
+                <p function="Provenance">From <name type="place">Ely</name>. On the margin of f. <locus>1r</locus> is
+                    the Ely mark <figure xml:id="figure308b"/></p>
+
+                <p function="Additions">On f. <locus>ir</locus> with other scribbles is:<lb/> In hoc uolumine
+                    continentur hij libri:<lb/> (re-written in cent. <date>xv</date>: <name type="author"
+                        >Amalarius</name> de matutinis ....../<lb/> completoriis ordinibus et eorum ....../ ).<lb/> In
+                    hoc uol. etc.<lb/>
+                    <name type="author">Amalarius</name> de ecclesiasticis institucionibus<lb/>
+                    <name type="person">Ieronimus</name> de signis xv dierum ante diem iudicii<lb/> dicta cuiusdam
+                    sapientis de antichristo<lb/>
+                    <name type="person">Alquinus</name> de uirtutibus ad <name type="person">Widonem com.</name><lb/>
+                    Phisialogus de naturis bestiarum<lb/> Prouerbia <name type="person">Salomonis</name>.<lb/>
+                    Itinerarium <name type="person">antonii</name><lb/> Qualiter <name type="person">S.
+                        Augustinus</name> uenit in <name type="place">angliam</name> iussu <name type="person">beati
+                        Gregorii</name><lb/> Gesta <name type="person">Apollonii Tirii</name><lb/> Conuersio <name
+                        type="person">Sancti Eustachii</name>.<lb/> Hunc librum dedit <name type="person">Willelmus
+                        sacerdos de <name type="place">stradesete</name></name> cuius memoriam cum oratione faciat qui
+                    in eo legerit.</p>
+
+                <p function="Additions"><supplied>The scribbles on f. <locus>ir</locus> include</supplied> a receipt in
+                    Latin (<date>xii-xiii</date>). <date>xvi</date>th cent. notes.</p>
+                <p function="Additions">f. <locus>iv</locus> pasted over.</p>
+                <p function="Additions">At bottom of f. <locus>2r</locus> the number 108 (<date>xvi early</date>)</p>
+                <p function="Additions" rend="withinContents">The last two leaves are torn. The verso of the last leaf
+                        <supplied>(f. <locus>153v</locus>)</supplied> is pasted over. It was seemingly blank.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i + 1-153</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="153r">
+                        <head type="CCC">
+                            <name type="author">Amalarius of Metz</name>, <title>Liber officialis</title>
+                        </head>
+
+
+                        <rubric locus="1r">Capitula prioris libelli (41)</rubric>
+                        <rubric locus="1v">Continentia cause secuture scriptionis</rubric>
+                        <incipit locusNew="1v">Ubi <name type="person">Sanctus Agustinus</name> exponit euuangelium
+                            illud. omnia ergo quecunque uultis</incipit>
+                        <ab>(<ref type="bibl" target="Migne 105">
+                                <supplied>P. L.</supplied> CV</ref> 991)</ab>
+                        <explicit locusNew="1v">Itaque mihi prima inquisitio est de septuagesima cuius finis constat in
+                            primo mense</explicit>
+                        <rubric locusNew="1v">De Septuagesima</rubric>
+                        <incipit locusNew="2r">Septuagesima computatur secundum titulationem sacramentorum</incipit>
+                        <ab locus="49v">Liber II</ab>
+                        <ab locus="67r"><supplied>Liber</supplied> III</ab>
+                        <ab locus="106v"><supplied>Liber</supplied> IV</ab>
+                        <ab>On f. <locus>140v</locus> is scribbled <date>xv</date>, <name type="person">Johannes
+                                hadenham</name>
+                        </ab>
+                        <explicit locus="153r"><name type="person">paulus</name> concludit ceteras orationes</explicit>
+                        <incipit locusNew="153r">Suscipe clementissime pater hanc oblationem</incipit>
+                        <explicit locusNew="153r">Obtulit in sacrificio qui uiuit et regnat deus in secula seculorum.
+                            amen</explicit>
+
+
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, SP, CF</p>
+                            <p>msCheck: SP 11/8/08.</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

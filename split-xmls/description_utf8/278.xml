@@ -1,0 +1,162 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+
+                <msIdentifier xml:id="CCC278">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>278</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>O. 6</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>210</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Psalter (Middle English and Anglo-Norman)</head>
+
+                <head type="James">Psalter, English and French</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">266</height>
+                        <width unit="mm">170</width>
+                    </measureGrp><measureGrp type="James">10.5 x 6.8</measureGrp>, <extent>ff. 2 + 149</extent>,
+                        <layout>36 lines to a page</layout>. Cent. <origDate>xiv early</origDate>, <handNote>in a fine
+                        large hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num> 1<num>8</num>-18<num>8</num> 19<num>4</num> (+1)</collation>.</p>
+
+                <p function="Provenance">From <name type="place">Norwich Priory</name>, I believe: on f.
+                        <locus>1r</locus> at top is the mark <q>N. xlvij</q>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-ii + 1-149 + c-d</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="enm" otherLangs="frm lat">Middle English, Anglo-Norman and Latin.</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="90r">
+
+                        <head type="CCC">
+                            <title>Psalter in Middle English verse</title>
+                        </head>
+
+                        <head type="James">
+                            <title>Psalter in English verse</title>
+                        </head>
+                        <ab>Titles of Psalms are given in Latin. <decoNote>Initials, partly flourished, in blue and
+                                red</decoNote></ab>
+                        <rubric locusNew="1r">Beatus uir</rubric>
+                        <incipit locusNew="1r">
+                            <lg>
+                                <l>Seli beern &#254;at nouht is gon</l>
+                                <l>In ye red of wichked man</l>
+                                <l>And in strete of sinful nouth he stod</l>
+                                <l>Ne sat in sete of scorn (or storn) vn gode</l>
+                            </lg>
+                        </incipit>
+
+                        <ab>The signs for y and &#254; appear identical</ab>
+                        <ab>The beginnings of verses are in Latin in the margin</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="90r">
+                            <lg>
+                                <l>Looues yhe him wel yurch ye land</l>
+                                <l>In chimbes ful wel ringand</l>
+                                <l>Looues him in chimbes of miryhe and blisse</l>
+                                <l>Alle kin gost looue louerd yat isse. Amen</l>
+                            </lg>
+                        </explicit>
+
+                        <ab><locus>90v</locus> blank</ab>
+
+                        <ab>Ed. by <ref type="bibl" target="Stevenson 1843">Stevenson, <hi rend="italic">Anglo-Saxon and
+                                    early English Psalters</hi>, Surtees Society, 1843-4</ref><ref type="bibl"
+                                target="Stevenson 1847"/>, from other MSS</ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="91r" locusEnd="147r">
+
+                        <head type="CCC">
+                            <title>Psalter in Anglo-Norman prose</title>
+                        </head>
+                        <head type="James">
+                            <title>Psalter in French</title>
+                        </head>
+                        <ab><handNote>in the same hand</handNote> with beginnings of verses in Latin in the margin as
+                            before</ab>
+
+                        <rubric locus="91r">Beatus uir</rubric>
+                        <incipit locusNew="91r">Bonuref li ber ki nen ala el cunseil des feluns: e en la ueie des
+                            pecheurs ne stut e en la chaere de pestilencie ne sist</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="147r">Loez lui en cymbales bien sunanz: loez lui en cymbales de leesce:
+                            chascuns esspiriz loez le seignur</explicit>
+                        <ab><locus>147v</locus> blank</ab>
+
+                    </msItem>
+
+                </msContents>
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text:copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, BA</p>
+                            <p>msCheck: NJM 18.6.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

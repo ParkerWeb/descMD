@@ -1,0 +1,363 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC468">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>468</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>N. 15</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>179</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Psalter (Latin and Greek)</head>
+                <head type="James">Psalterium Latino-Graecum</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">153</height>
+                        <width unit="mm">113</width>
+                    </measureGrp>, <measureGrp type="James">6.1 x 4.5</measureGrp>, <extent>ff. 10 + 158</extent>,
+                        <layout>double columns of 30 lines</layout>. Cent. <origDate>xiii late</origDate>, <handNote>in
+                        a very good small hand</handNote>. <decoNote>Initials of verses are in blue in the L. column, in
+                        red in the R. column</decoNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, a<num>8</num> (+1) | 1<num>10</num> (7 canc.) 2<num>8</num>-9<num>8</num>
+                            10<num>12</num> 11<num>8</num>-18<num>8</num> (+4*) 19<num>8</num></collation>.</p>
+
+                <p function="Additions">f. <locus>ir</locus> is blank: on f. <locus>iv</locus> a diagram of a method of
+                    writing numerals, which results in the following series of characters, written separately on R.</p>
+
+                <p>
+                    <figure xml:id="figure399b"/>
+                </p>
+
+                <p>These signs are identical with those given by <name type="person">Matthew Paris</name> (Historia
+                    Maiora V 285, ed. <ref type="bibl" target="Luard 1872">Luard</ref>) as having been brought from
+                        <name type="place">Greece</name> by <name type="person">John of Basingstoke</name>.</p>
+
+
+
+                <p function="Provenance">On f. <locus>iir</locus> (<date>xiii-xiv</date>): psalterium grecum prioris
+                    (erased) <name type="person">Gregorii</name>.</p>
+
+                <p function="Provenance" rend="afterContents">I have elsewhere (<ref type="bibl" target="James 1899"
+                        >Sources</ref>, p. 10) shewn that this is the Psalter of <name type="person">Gregory of
+                        Huntingdon, Prior of Ramsey (fl. cir. 1250)</name>. It is named among his books in the
+                    fragmentary catalogue of <name type="place">Ramsey</name> library, printed in Chron. Abb.
+                    Ramesiensis (<ref type="bibl" target="Macray 1886">Rolls</ref>, p. 365). He possessed two Greek
+                    Psalters besides a good many Hebrew books.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a + i-x + 1-158 + b-c</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="gre frm">Latin and Greek with some verses in
+                        Anglo-Norman.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="iiv" locusEnd="iiiv">
+                        <head type="CCC">
+                            <title>List of Greek prepositions</title>
+                        </head>
+
+                        <ab locus="iiv">In a hand of cent. <date>xiii late</date>, a list of Greek prepositions and
+                            their meanings</ab>
+                        <incipit locusNew="iiv">apo longitudinem. unde apologus dicitur ab apo quod est longe et logos
+                            sermo <lb/> priuacionem. unde apocalipsis ab apo quod est de et calipsos uelacio</incipit>
+                        <ab>The other prepositions are: ypo, yper, epi, peri, para, chata, meta, dia, ana, anti,
+                            amphi</ab>
+                        <ab>ypres prope. ex hoc ut quidam dicunt dicitur interpres. en, sin, pros</ab>
+
+                    </msItem>
+
+                    <msItem n="2.1" locusStart="ivr" locusEnd="xv">
+                        <head type="CCC">
+                            <title>Miscellaneous verses and prognostics</title>
+                        </head>
+
+                        <ab>
+                            <handNote>In a different and thicker hand</handNote>
+                        </ab>
+                        <ab locus="ivr">a.</ab>
+                        <incipit locusNew="ivr">In principio creauit deus ... faciem abissi</incipit>
+                        <explicit locusNew="ivr">propter hoc fecit deus duo luminaria ... Circulus lune constat ex xix
+                            annis. Circulus autem solis ex xx octo annis</explicit>
+
+                        <ab locus="vr" locusNew="ivr">b. </ab>
+                        <ab>Miscellaneous verses</ab>
+                        <incipit locusNew="ivr">Cultor erat gratus bene degens fiat amatus</incipit>
+                        <ab>On numbers, kalendar, compotus</ab>
+                        <ab>Note</ab>
+                        <incipit locusNew="viv">Sciendum quod dies dicitur dupliciter</incipit>
+
+                        <ab locus="viir">c. </ab>
+                        <ab>Change of hand. Prognostics of <name type="person">Esdras</name></ab>
+                        <incipit locusNew="viir">Signum quod ostendit dominus <name type="person">hesdre prophete</name>
+                            ut ostenderet filiis hominum. kal. ianuarii si fuerint die dominico hyemps bona
+                            erit</incipit>
+
+                        <ab>See <ref type="bibl" target="Tischendorf 1866">Tischendorf, Apoc. Apocr.</ref> and <ref
+                                type="bibl" target="Mercati 1901">Mercati, Studi e testi 5 (1901)</ref>, p. 74 for other
+                            texts</ab>
+
+                        <incipit locusNew="viir">Olim dictum erat in <name type="place">gallia</name> quod spiritus
+                            nequam de iiii filiis <name type="person">regis Hnr II</name> taliter creditur prophetasse.
+                            li plus beus a <name type="place">martheus</name>. li marchis a <name type="place"
+                                >paris</name>. li peteuin a <name type="place">limozin</name>. li sanztere mora en bere
+                                <name type="person">Hnr.</name>
+                            <name type="person">gaufridus</name>. <name type="person">Ricard</name>. <name type="person"
+                                >Iohannes</name></incipit>
+                        <ab>(<handNote>Much corrected by the original hand</handNote>)</ab>
+
+                        <ab locusNew="viiv">d.</ab>
+                        <ab>Verses on trees (11)</ab>
+
+                        <incipit locusNew="viiv">
+                            <lg>
+                                <l>Fraxinus et corulus planus et salix acer ornus</l>
+                            </lg>
+                        </incipit>
+
+
+                        <explicit locusNew="viiv">
+                            <lg>
+                                <l>Fucus auellana glans nux castanea barra</l>
+                            </lg>
+                        </explicit>
+
+                        <ab locus="viiv">e.</ab>
+                        <ab>On avarice</ab>
+
+                        <incipit locusNew="viiv">
+                            <lg>
+                                <l>Captiuata largitas longe relegatur</l>
+                                <l>Exulansque probitas misere fugatur </l>
+                                <l>Dum uirtuti prauitas praue nouercatur </l>
+                                <l>Imperat cupiditas atque principatur</l>
+                            </lg>
+                        </incipit>
+
+
+
+                        <explicit locusNew="viiir">
+                            <lg>
+                                <l>Redimuntur scelera mediante precio</l>
+                                <l>Cuius offert dextera mundus abit uicio</l>
+                                <l>Et euadit aspera et expirat ulcio</l>
+                                <l>Sic excusant munera quos accusat accio</l>
+                            </lg>
+                        </explicit>
+
+
+                        <ab locus="viiir">f.</ab>
+                        <ab>Prognostics of thunder according to the zodiacal signs</ab>
+                        <incipit locusNew="viiir">
+                            <lg>
+                                <l>Accedens quicunque cupis cognoscere uerba</l>
+                                <l>Lucida laudanda uera probata bona</l>
+                            </lg>
+                        </incipit>
+                        <ab>Ends</ab>
+                        <explicit locusNew="xr">
+                            <lg>
+                                <l>Esto memor quod si tonitrum duo signa ministrat</l>
+                                <l>Iudicium primum non feret immo sequens</l>
+                            </lg>
+                        </explicit>
+
+                        <ab locus="xr">g.</ab>
+                        <ab>Proverbial verses</ab>
+                        <incipit locusNew="xr">Cui satis est quod habet satis illum constat habere</incipit>
+
+                        <ab>On f. <locus>xv</locus> in a large hand</ab>
+                        <incipit locusNew="xv">Aspiciens. ueterem. circum. quasi. quis. benedicta</incipit>
+
+
+                        <ab locus="xv">h. </ab>
+                        <ab>
+                            <handNote>Hand of cent. <date>xvi</date></handNote>
+                        </ab>
+                        <rubric locusNew="xv">Noys sermo ad hominem</rubric>
+                        <ab>(22 lines)</ab>
+                        <incipit locusNew="xv">
+                            <lg>
+                                <l>Sensilis hic mundus mundi melioris ymago</l>
+                                <l>Vt plenus plenis partibus esse queat</l>
+                            </lg>
+                        </incipit>
+
+
+
+                        <explicit locusNew="xv">
+                            <lg>
+                                <l>Vt indeflexos leges celique meatus</l>
+                                <l>Exemplar uite possit habere sue</l>
+                            </lg>
+                        </explicit>
+
+                    </msItem>
+
+                    <msItem n="2.2" locusStart="1r" locusEnd="9v">
+                        <head type="CCC">
+                            <title>Kalendar of <name type="place">Ramsey Abbey</name></title>
+                        </head>
+
+                        <ab>
+                            <handNote>The main hand begins</handNote>
+                        </ab>
+                        <ab>Kalendar <decoNote>in red, blue and black</decoNote></ab>
+
+
+                        <ab><hi rend="bold">January</hi><lb/>
+                            <name type="person">Maurus</name> red, <name type="person">Wulstan</name> blue<lb/>
+                            <hi rend="bold">February</hi><lb/> 28. <name type="person">Osuualdi archiepiscopi</name> blue<lb/>
+                            <hi rend="bold">March</hi><lb/>
+                            <name type="person">Cuthbert</name> red. Erasures (red) on 29 and 31<lb/>
+                            <hi rend="bold">April</hi><lb/> 11. <name type="person">Guthlacii</name> red<lb/> 19. <name
+                                type="person">Ćlphegii archiepiscopi martyris</name> red<lb/> 24. Inuentio <name
+                                type="person">Sancti yuonis archiepiscopi</name> blue<lb/>
+                            <hi rend="bold">May</hi><lb/>
+                            <name type="person">Dunstan</name> red, <name type="person">Augustine</name> blue<lb/>
+                            <hi rend="bold">June</hi><lb/> 10. Translatio <name type="person">Sancti yuonis
+                                archiepiscopi</name> blue, with octave<lb/> 23. <name type="person">Etheldrede</name>
+                            xii lectiones<lb/> 30. <name type="person">Marcialis episcopi</name>
+                            <lb/>
+                            <hi rend="bold">July</hi><lb/> 17. <name type="person">Kenelmi regis</name> in red<lb/> 31.
+                                <name type="person">Neoti abbatis</name> et <name type="person">Germani episcopi</name> red<lb/>
+                            <hi rend="bold">September</hi><lb/> 10. <name type="person">Eguuini episcopi</name> red<lb/>
+                            16. <name type="person">egithe Virginis</name> (!)<lb/> 22. Dedicatio <name type="place"
+                                >ecclesie Ram(esie)</name> blue <lb/>
+                            <hi rend="bold">October</hi><lb/> 8. Translatio <name type="person">Sancti Osuualdi</name>
+                            blue<lb/> 17. <name type="person">Ćthelredi</name> et <name type="person">ćthelbricti</name> blue<lb/>
+                            <hi rend="bold">November</hi><lb/> 16. <name type="person">Ćdmundi Confessoris</name>
+                            red<lb/> 17. <name type="person">Hugonis episcopi</name> blue<lb/> 20. <name type="person"
+                                >Ćdmundi Regis martyris</name> red<lb/>
+                            <hi rend="bold">December</hi><lb/> 4. Tumulatio <name type="person">Sancti Benedicti</name>
+                            red</ab>
+                        <ab>ff. <locus>7r</locus>-<locus>9v</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="2.3" locusStart="10r" locusEnd="158v">
+                        <head type="CCC">
+                            <title>Psalter in Latin and Greek. Litany (fragment)</title>
+                        </head>
+
+                        <head type="James">
+                            <title>Psalter in Latin (Gallican version), and Greek in Latin letters</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Psalterium Latino-Graecum, viz. Latinum ex una parte paginae, ex altera Graecum
+                                literis Latinis scriptum</title>
+                        </head>
+
+                        <ab>
+                            <quote> Psalmus primus sic incipit:<lb/> Beatus vir qui non abiit in consilio<lb/> impiorum,
+                                et in via peccatorum non<lb/> stetit, et iin cathedra pestilentiae non<lb/> sedit<lb/>
+                                Macharios anir os ku keporeutihi en<lb/> buli asebon ke en odo amartholon uc<lb/> esti
+                                ke epi cathedran limon uck eka- thisen<lb/>
+                            </quote>
+                        </ab>
+
+                        <ab>I give as a specimen Ps. iii</ab>
+
+                        <ab locusNew="11r">
+                            <figure xml:id="figure402b"/>
+                        </ab>
+
+                        <ab>It will be seen that the Greek contains a good many mistakes</ab>
+                        <ab locusNew="18r">In Ps. xiii the verses Sepulcrum patens-ante oculos eorum have no equivalent
+                            in the Greek</ab>
+                        <ab>Titles are in Latin only</ab>
+                        <ab>On and after ff. <locus>81v</locus>, <locus>82r</locus> the two inner columns are every now
+                            and then given to the Greek and the two outer to the Latin. This is not continuous.
+                            Sometimes the Latin and Greek change places irregularly: after about f. <locus>100r</locus>
+                            the old arrangement is resumed</ab>
+                        <ab>At Ps. cx (cxi) is the note: alfabetum hebreum. quere super hunc locum in triplici
+                            psalterio</ab>
+                        <ab>The lower part of f. <locus>125v</locus> is blank, without defect in the text. On f.
+                                <locus>126v</locus> a blank is left and the latter half of Ps. cxviii (cxix) Jod (manus
+                            tuae fecerunt me) is wanting</ab>
+                        <ab>After f. <locus>145v</locus> is an inserted leaf in the same hand but larger script
+                                <supplied>(f. <locus>146r</locus>-<locus>146v</locus>)</supplied>, containing a supply
+                            of an omission on f. <locus locusNew="147r">146r</locus></ab>
+                        <ab>Ps. cli Pusillus eram follows on f. <locus locusNew="147v">146v</locus></ab>
+                        <ab>At the end, in the Greek column</ab>
+                        <rubric locusNew="147v">exelipon i psalmi <name type="person">dauid tu basileos</name>. Expl.
+                            psalmi <name type="person">dauid regis</name></rubric>
+                        <rubric locus="146v" locusNew="147v">Incipiunt cantica</rubric>
+                        <ab>Asma <name type="person">ysaye profite</name>. Cant. <name type="person">Ezechie</name>,
+                                <name type="person">Anne</name>, <name type="person">Moysi</name> (1), <name
+                                type="person">Abbacuc</name>, <name type="person">Moysi</name> (2), Benedicite,
+                            Benedictus, Magnificat, Nunc dimittis, Pater noster, Credo (printed by <ref type="bibl"
+                                target="Elrington and Todd 1847-64g">Ussher, De Symbolis, Opera VII 307, 8</ref>) </ab>
+                        <ab>Ending</ab>
+
+                        <explicit locus="158v">Vitam eternam. Amen. Zoin eonion amin</explicit>
+
+                        <ab>Litany, in Latin only, in two columns. Apostles: <name type="person">Marcialis</name>.
+                            Martyrs: <name type="person">Stephane</name>, <name type="person">Clemens</name>, <name
+                                type="person">Syxte</name>, <name type="person">Dionisii</name> cum sociis <name
+                                type="person">Thoma</name>
+                            <name type="person">Nigasi</name> cum sociis, <name type="person">Gereon</name>. cum sociis
+                            ending here imperfectly</ab>
+
+                    </msItem>
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJM 5.11.2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

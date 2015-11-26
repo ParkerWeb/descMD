@@ -1,0 +1,135 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC498">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>498</idno>
+                    <altIdentifier type="Stanley">
+                        <idno/>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno/>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Walter Map (attrib.), Viri beatissimi sacerdotes dei. Pro reconsiliacione ecclesie vel
+                    cimiterii </head>
+                <head type="James">[Untitled]</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">210</height>
+                        <width unit="mm">150</width>
+                    </measureGrp>, printed book, at the end are <extent>8 leaves of vellum (the last stuck to the
+                        cover)</extent>.</p>
+
+                <p function="Additions">Printed book 184. (Methodius, etc.) <supplied>Parker Library catalogue number
+                        SP.184 (4 and 5).</supplied></p>
+
+                <p type="CCC">
+                    <foliation> ff. 1-8 </foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="1v">
+                        <head type="CCC">
+                            <name type="author">Walter Map (attrib.)</name>, <title>Viri beatissimi sacerdotes
+                                dei</title>
+                        </head>
+                        <ab>On f. <locus>1r</locus> which is of cent. <origDate>xv</origDate> is the poem</ab>
+                        <incipit locusNew="1r">
+                            <lg>
+                                <l>Viri beatissimi sacerdotes dei</l>
+                                <l>Precones altissimi lucerne diei</l>
+                            </lg>
+                        </incipit>
+                        <ab>ending</ab>
+                        <explicit locusNew="1v">
+                            <lg>
+                                <l>Ut cum exueritis clamidem carnalem</l>
+                                <l>Induat vos dominus stolam eternalem. Amen</l>
+                            </lg>
+                        </explicit>
+                        <ab>
+                            <ref type="bibl" target="Wright 1841">Wright, <hi rend="italic">Poems of W. Mapes</hi>, p.
+                                45</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="2" locusStart="2r" locusEnd="8v">
+                        <head type="CCC">
+
+                            <title>Pro reconsiliacione ecclesie vel cimiterii</title>
+
+                        </head>
+                        <ab>On the next four leaves of cent. <origDate>xv late</origDate>
+                            <handNote>in a current hand</handNote> is the office</ab>
+                        <rubric locusNew="2r">Pro reconsiliacione ecclesie vel Cimiterii</rubric>
+                        <ab>ending with the Mass for that occasion</ab>
+                        <ab>The remaining leaves are blank except for scribbles</ab>
+                        <ab locusNew="8r">On the last is the name of <name type="person">Ric. Smyth notarius
+                                publicus</name></ab>
+                        <ab locusNew="8r">Also: <name type="person">J. Dod (?) de Chagforde</name> queritur de <name
+                                type="person">J. Sylley</name> ...</ab>
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 16/12/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

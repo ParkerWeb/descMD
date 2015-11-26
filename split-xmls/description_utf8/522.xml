@@ -1,0 +1,111 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC522">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>522</idno>
+                    <altIdentifier type="Elbing">
+                        <idno>N. 24</idno>
+                    </altIdentifier>
+
+                </msIdentifier>
+                <head type="CCC">Peter Lombard, Sententiarum libri IV</head>
+                <head type="James">[Untitled]</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">281</height>
+                        <width unit="mm">201</width>
+                    </measureGrp>, <measureGrp type="James">11 x 8.2</measureGrp>, <extent>ff. 404</extent>, <layout>30
+                        lines to a page</layout>. Cent. <origDate>xv</origDate>, <handNote>clearly
+                    written</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>12</num>-10<num>12</num> 11<num>14</num> 12<num>12</num>-33<num>12</num>
+                            34<num>6</num></collation>.</p>
+
+
+                <p function="Binding">Binding without bosses or tags: boards almost wholly gone.</p>
+                <p type="CCC">
+                    <foliation>ff. i-iv + 1-404</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="402v">
+                        <head type="CCC">
+                            <name type="author">Peter Lombard</name>, <title>Sententiarum libri IV</title>
+                        </head>
+                        <head type="James">
+                            <title>Sententiae <name type="author">Petri Lombardi</name></title>
+                        </head>
+                        <ab locus="1r">Prologus</ab>
+                        <incipit locus="1r">Cupientes</incipit>
+                        <ab locus="2r">Capitula</ab>
+                        <ab locus="5v">Text. Complete. <decoNote>Neat initials</decoNote></ab>
+                        <ab>A portion of an <origDate>eleventh? century</origDate> service-book has been used to protect
+                            the middles of the quires</ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: 8/1/2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

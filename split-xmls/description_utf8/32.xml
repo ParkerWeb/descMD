@@ -1,0 +1,233 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC032">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>32</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>P. 6</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>241</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Commentary in Middle English on the Gospels of Mark and Luke and the Pauline
+                    Epistles</head>
+
+                <head type="James">Commentary in English on Mark, Luke and the Pauline Epistles</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">335</height>
+                        <width unit="mm">243</width>
+                    </measureGrp><measureGrp type="James">13.1 x 9.8</measureGrp>, <extent>ff. 208 + 8</extent>,
+                        <layout>double columns of 51-54 lines</layout>. Cent. <origDate>xiv</origDate>, <handNote>in
+                        three or two clear hands</handNote>.</p>
+                <p><label>Collation:</label>
+                    <collation>2 flyleaves, 1<num>12</num>-4<num>12</num> 5<num>8</num> | 6<num>12</num>-12<num>12</num>
+                            13<num>14</num> | 14<num>12</num>-17<num>12</num> 18 (six), 6 flyleaves</collation>.</p>
+                <p function="Provenance">It appears from a letter in this collection (<ref type="ms" target="CCC114B">MS
+                        114 no. 302</ref>) that this book was sent from <name type="place">Canterbury</name> by <name
+                        type="person">Thomas Becon</name> when prebendary of Canterbury to <name type="person"
+                        key="MaPa01">Archbishop Parker</name></p>
+
+
+
+                <p function="Research">Examined in 1907 by <name type="person">H. Tiden</name> of <name type="place"
+                        >Upsala</name>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-ii + 1-208 + iii-viii + c-d</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="enm" otherLangs="lat">Middle English and Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="56v">
+
+                        <head type="CCC">
+                            <title>Commentary on St Mark's Gospel in Middle English</title>
+                        </head>
+
+                        <head type="James">
+                            <title>Gloss upon St Mark in English</title>
+                        </head>
+
+
+                        <rubric locus="1r">Seynte <name type="person">Marke</name> ewangeliste &#254;e chosene of
+                            god</rubric>
+                        <incipit locusNew="1r">Inicium ewangelii etc. &#254;e bigynnynge of &#254;e gospel
+                            etc.</incipit>
+                        <incipit locusNew="1r"><name type="person">Mathew</name> seys &#254;e gospel of the son of
+                            dauyd</incipit>
+                        <ab locusNew="1r"><decoNote>At top a rude sketch of the lion</decoNote>, with title in English,
+                            partly cut off</ab>
+                        <ab>On f. <locus>8v</locus> margin: <q>beati qui audiunt verbum dei etc.</q><lb/>
+                            <q><name type="person">Nicolas lenakars</name> scripsit</q> (<origDate>xv</origDate>)</ab>
+
+                        <ab locus="55r" locusNew="54r">(cap. xvi) <decoNote>Rude marginal sketch of Christ stepping out
+                                of the tomb</decoNote>.<lb/>
+                            <q>Here is expownyng of &#254;e gospel on Asturday</q></ab>
+                        <ab locus="57r" locusNew="56r">
+                            <decoNote>Rude sketch of the Ascension. The Virgin in C.</decoNote> English rubric </ab>
+
+                        <ab>Ends</ab>
+                        <explicit locus="56v">&#254;e whylke regnys w<abbr rend="superscript">t</abbr> &#254;e
+                            fadyr and &#254;e holy goste and worldys wi&#254;outen ende. Amen</explicit>
+
+                        <rubric locusNew="56v">Here endis &#254;e glose of <name type="person">Marke</name>
+                            &#254;ee ewangelist in Englissche tunge Thankyde be god. Amen</rubric>
+
+                        <ab locus="56v">
+                            <decoNote>Rude sketch of Christ throned as judge</decoNote>
+                        </ab>
+
+                    </msItem>
+
+
+
+                    <msItem n="2" locusStart="57r" locusEnd="154v">
+                        <head type="CCC">
+                            <title>Commentary on St Luke's Gospel in Middle English</title>
+                        </head>
+                        <head type="James">
+                            <title>English gloss on <name type="person">Luke</name></title>
+                        </head>
+
+                        <incipit locus="57r">&#222;of it be writen &#254;at dyuers has wryten</incipit>
+
+                        <ab locus="57r"><decoNote>Rough initial, gold and red, the length of the page. At bottom rude
+                                sketch of winged ox</decoNote>, with title in English</ab>
+                        <ab locus="59r"><decoNote>Sketch of the Annunciation</decoNote>. English rubric</ab>
+                        <ab locus="60v"><decoNote> Visitation</decoNote>. <q>(Her) is &#254;e metyng (of M)ari and
+                                of Elisa(beth)</q></ab>
+                        <ab locus="63v">
+                            <decoNote>Angel and <q>Twey scheperdus</q></decoNote>
+                        </ab>
+                        <ab locus="64r">
+                            <decoNote>Nativity</decoNote>
+                        </ab>
+                        <ab locus="64v">
+                            <decoNote>Presentation</decoNote>
+                        </ab>
+                        <ab locus="78v">
+                            <decoNote>Bust of Christ</decoNote>
+                        </ab>
+                        <ab locus="85v">
+                            <decoNote><name type="person">Mary Magdalene</name> holding casket</decoNote>
+                        </ab>
+                        <ab locus="102v">
+                            <decoNote>Assumption. Virgin in vesica carried by four angels</decoNote>
+                        </ab>
+                        <ab locus="106r">
+                            <decoNote>Crowned Virgin holding child</decoNote>
+                        </ab>
+                        <ab>Ends</ab>
+                        <explicit locus="154v">and lofynge of oure lord ihesu cryst to whom be ioy and blys
+                            wi&#254;outen ende</explicit>
+                        <rubric locusNew="154v">Amen god be worschipped. And for &#254;o luf of god pray for
+                            &#254;oo drawer and alsso. for &#254;o wryter</rubric>
+                    </msItem>
+
+
+
+
+                    <msItem n="3" locusStart="155r" locusEnd="208v">
+
+                        <head type="CCC">
+                            <title>Commentary on the Pauline Epistles in Middle English</title>
+                        </head>
+
+
+                        <head type="James">
+                            <title>English gloss on the Pauline Epistles</title>
+                        </head>
+
+
+                        <incipit locus="155r"><name type="person">Paulus</name> seruus etc. <name type="person"
+                                >Poule</name> seruaunt of ihesu crist</incipit>
+
+                        <ab>The English consists of a verse for verse translation with short glosses, which are
+                            underlined</ab>
+
+                        <ab locus="172r"><decoNote>Chalice and host in margin</decoNote> (I Cor.)</ab>
+                        <ab locus="178v">
+                            <decoNote><q>a pokoc</q> (peacock) in red</decoNote>
+                        </ab>
+                        <ab locus="188r"><decoNote>Busts of man and woman</decoNote> (Eph. v)</ab>
+
+                        <ab locus="193r">The Latin text of the Epistle to the Laodiceans follows Colossians, a blank
+                            space is left for the English. In this is scribbled <q><name type="person">henry
+                                    walker</name> owyth thys book god mak hym a good man amen</q></ab>
+
+                        <ab locus="200r">
+                            <decoNote>Bust of Bishop (<name type="person">Titus</name>)</decoNote>
+                        </ab>
+                        <ab locus="207v" locusNew="201v"><decoNote>The child in the manger</decoNote> (Heb. i)</ab>
+
+                        <ab>Ends</ab>
+                        <explicit locus="208v">Brethere of ytalye greete &#541;ou weel. Grace bee wi&#254;
+                            &#541;ou all. Amen</explicit>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, SP, CF</p>
+                            <p>msCheck: NJM 10.7.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

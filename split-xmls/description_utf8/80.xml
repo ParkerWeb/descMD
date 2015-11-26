@@ -1,0 +1,135 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC080">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>80</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Sub. B. 5</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>350</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Henry Lovelich, The History of the Holy Grail, Merlin</head>
+                <head type="James">Louelich. The Graal. Merlin</head>
+                <p function="Codicology"><material>Paper and Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">395</height>
+                        <width unit="mm">279</width>
+                    </measureGrp>, <measureGrp type="James">15.6 x 11</measureGrp>, <extent>ff. 200</extent>,
+                        <layout>double columns of 65, 69, 74 etc. lines</layout>. Cent. <origDate>xv</origDate>,
+                        <handNote>in a current hand</handNote>. </p>
+
+                <p function="Additions"><material>Vellum</material> guards from a MS. of cent. <origDate>xii</origDate>
+                    with Lessons from I Reg.</p>
+
+                <p><label>Collation:</label>
+                    <collation>A gone B<num>16</num> (wants 1-9: 10, 11 are now ff. 197, 198: 12-16 in situ)
+                            C<num>16</num> D<num>16</num> (wants 4) E<num>16</num>-O<num>16</num> [B 10, 11] P (1 and 2
+                        left)</collation>.</p>
+
+
+
+                <p function="Additions">Marginal scribbles occur, per totum quod cok, f. <locus>24v</locus> and
+                    elsewhere: on the later leaves, lists of Latin verbs (alphabetical from A to H) with numbers
+                    attached, also notes of theological character (f. <locus>192r</locus>). </p>
+
+
+
+
+                <p type="CCC">
+                    <foliation>ff. i-iii + 1-200 + iv-v</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="enm" otherLangs="lat">Middle English and Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="88v">
+                        <head type="CCC"><name type="author">Henry Lovelich</name>, <title>The History of the Holy
+                                Grail</title></head>
+
+
+                        <head type="James">
+                            <title>The History of the Saint Graal by <name type="author">Henry Louelich</name></title>
+                        </head>
+                        <ab>beginning imperfectly (what is now f. <locus>197r</locus> contains the beginning of what is
+                            left: it was originally f. 10) ending f. <locus>88v</locus></ab>
+                        <ab>Ed. <ref type="bibl" target="Furnivall 1861">Furnivall, Roxburghe Club 1861-3</ref><ref
+                                type="bibl" target="Furnivall 1863"/>, and <ref type="bibl" target="Furnivall 1874">E.
+                                E. T. S. Extra series (1874 etc.)</ref></ab>
+
+                    </msItem>
+
+
+                    <msItem n="2" locusStart="88v" locusEnd="200v">
+                        <head type="CCC"><name type="author">Henry Lovelich</name>, <title>Merlin</title></head>
+
+                        <head type="James">
+                            <title>Merlin</title>
+                        </head>
+
+                        <ab locus="200v">Ending imperfectly</ab>
+                        <ab>Ed. <ref type="bibl" target="Kock 1904">E. A. Kock. E. E. T. S. Extra series
+                            (1904)</ref></ab>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, SP, CF</p>
+                            <p>msCheck: NJC 29.10.2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,142 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC434">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>434</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>R. 9</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>162</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">New Testament in Middle English</head>
+                <head type="James">English Version of N.T.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">201</height>
+                        <width unit="mm">135</width>
+                    </measureGrp>, <measureGrp type="James">7.8 x 5.3</measureGrp>, <extent>ff. 1 + 159</extent>,
+                        <layout>22 lines to a page</layout>. Cent. <origDate>xiv late</origDate>, <handNote>clearly
+                        written</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num>-20<num>8</num> (wants 8). Old foliation incorrect but used by
+                        me</collation>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i + pp. 1-254 + 254a + 255a + 255-320 + ff. c-d</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="enm">Middle English.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="3" locusEnd="319">
+                        <head type="CCC">
+                            <title>New Testament in Middle English</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>A dialogue in old English between a brother and his sister, in which the latter
+                                expressing her desire to be instructed in the faith, her brother translates for her
+                                instruction the epistles, acts of the apostles, and part of St. Matthew's gospel</title>
+                        </head>
+
+                        <ab>
+                            <quote>Haec versio aliquantulum differt a Wicleviana, sive quod sit cujusdam alii, sive quod
+                                librarii, qui eam transcripserunt, semper ea usi sint libertate ut juxta proprium idioma
+                                emendarent</quote>
+                        </ab>
+
+                        <ab><locus locusNew="3">1r</locus> headed</ab>
+                        <rubric locusNew="3"><name type="person">Maria</name>, Ihesus, <name type="person"
+                                >Iohannes</name></rubric>
+
+                        <incipit locusNew="3">God made mankynd aftir hys owne Image</incipit>
+
+                        <ab>A break at <locus locusNew="29">xiiiir</locus> after</ab>
+                        <ab locusNew="29">hou&#541; in ţe ferste moneţ of</ab>
+                        <ab>Half a page blank. Continues <locus locusNew="30">xiiiiv</locus></ab>
+                        <ab locusNew="30">Suuster ţre aposteles ţat weren most priue</ab>
+
+                        <ab>The Catholic Epistles follow: Peter, James, John, Jude</ab>
+
+                        <ab locus="xxxviiv" locusNew="76">Pauline Epistles</ab>
+
+                        <ab locus="iix iix xviii" locusNew="197">Acts</ab>
+
+                        <ab locus="clxiii" locusNew="303">Matthew, ending imperfectly in vi 13 (The Lord's Prayer)</ab>
+
+                        <explicit locusNew="319">but delyuer us of euyl. Amen</explicit>
+
+                        <ab>See <ref type="bibl" target="Forshall and Madden 1850a">Forshall and Madden I xii</ref></ab>
+
+                        <ab>Transcribed in <date>1882</date> for <name type="person">Canon W. Cooke</name>, who
+                            possessed another copy (now at <name type="place">Selwyn College</name>). The whole of the
+                            text is printed, mainly from this and the <ref type="ms" target="CSCL19">Selwyn College
+                                copy</ref>, but with the help of three other MSS. which contain parts of the text, by
+                                <ref type="bibl" target="Paues 1904">Miss A. Paues, Fellow of Newnham College, and Ph.D.
+                                of Upsala, in <hi rend="italic">A Fourteenth Century English Biblical Version</hi>,
+                                Cambridge 1904</ref></ab>
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: KW 2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

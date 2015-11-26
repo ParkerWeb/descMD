@@ -1,0 +1,445 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC217">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>217</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Lib. ab Al. 1</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>371</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Peter the Chanter, Libellus de contrarietatibus Sacrae Scripturae. William de Montibus,
+                    Speculum poenitentis. Pictor in carmine. Miscellaneous Exegetical Tracts</head>
+                <head type="James">Petrus Cantor. W. de Montibus. Pictor in Carmine</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">253</height>
+                        <width unit="mm">180</width>
+                    </measureGrp>, <measureGrp type="James">10.1 x 7</measureGrp>, <extent>ff. 374</extent>,
+                        <layout>double and single columns</layout>, <handNote>in many hands of cent.
+                            <origDate>xiii</origDate>, mostly small and pointed</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num> (1 stuck to cover) 2<num>4</num> 3<num>8</num> 4<num>4</num> 5<num>8</num>
+                            6<num>6</num> 7<num>10</num> 8<num>8</num>-10<num>8</num> (+ slip)
+                            11<num>8</num>-13<num>8</num> 14<num>10</num> 15<num>8</num> 16<num>4</num>
+                            17<num>12</num>-19<num>12</num> 20<num>8</num> 21<num>8</num> (wants 7, 8) 22<num>10</num>
+                            23<num>14</num> 24<num>12</num> 25<num>14</num> 26<num>8</num>
+                            27<num>12</num>-29<num>12</num> 30<num>8</num> (wants 8) 31<num>12</num>-38<num>12</num> (11
+                        stuck to cover, wants 12)</collation>.</p>
+
+
+
+                <p function="Provenance">From <name type="place">Worcester</name>; inside the cover is written
+                        <supplied>(f. <locus>1v</locus>)</supplied>:<lb/>
+                    <q>Liber monasterii <name type="place">Wygornie</name></q>.</p>
+                <p function="Additions">Old binding, velvet (brown-green) over boards: two clasps. Label under horn on
+                    front cover: Tractatus de contrarietatibus Scripture cum aliis opusculis plurimis
+                        (<origDate>xvi</origDate>). This binding is uniform with that of <ref type="ms" target="CCC087"
+                        >MS 87</ref> and of <ref type="ms" target="CTC138">Trin. Coll. B. 4. 24</ref>.</p>
+
+
+
+                <p type="CCC">
+                    <foliation>ff. 1-31 + 32a + 32-37 + 37a + 38-64 + 65a + 65-364. Partially imaged: front cover
+                        exterior and interior + ff. 1r-21r + 25r + 209r + back cover exterior and
+                    interior</foliation>.</p>
+
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="frm">Latin with occasional Anglo-Norman words in item
+                        15.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="2r" locusEnd="10v">
+                        <head type="CCC"><name type="author">Peter the Chanter</name>, <title>Libellus de
+                                contrarietatibus Sacrae Scripturae</title></head>
+
+                        <head type="Nasmith">
+                            <title>Tractatus [<name type="author">Petri Cantoris</name>] de contrarietatibus
+                                scripturae</title>
+                        </head>
+                        <ab locus="2r">
+                            <layout>Double columns of 60 lines</layout>
+                        </ab>
+                        <incipit locusNew="2r">Uidemus nunc per speculum et in enigmate</incipit>
+                        <explicit locusNew="10v">capilli omnes numerati sunt</explicit>
+                        <ab>
+                            <ref type="bibl" target="???">(<hi rend="italic">Hist. Litt.</hi> XV 298)</ref>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="2" locusStart="10v" locusEnd="12v">
+                        <head type="CCC"><name type="author">Bede the Venerable</name>, <title>De schematibus et
+                                tropis</title></head>
+                        <head type="Nasmith">
+                            <title>Liber <name type="author">Cassiodori</name> de figuris vel modis locutionum, quae a
+                                grammaticis scemata et tropi dicuntur, missus ad <name type="person">Gubertum</name>
+                                diaconum</title>
+                        </head>
+                        <ab>
+                            <quote>Opus spurium, <name type="person">Bedae</name> ut vult <name type="person"
+                                    >Cavesius</name> potius attribuendum</quote>
+                        </ab>
+                        <rubric locus="10v">Incipit liber <name type="author">cassiodorii</name> etc.</rubric>
+                        <ab>(<name type="author">Beda</name> de schematibus: <ref type="bibl" target="Keil 1880">Keil,
+                                    <hi rend="italic">Gramm. Lat.</hi> VII 200</ref>)</ab>
+                        <incipit locusNew="10v">Solet aliquotiens in scripturis ordo uerborum</incipit>
+                        <explicit locusNew="11v">memores uxoris <name type="person">Loth</name></explicit>
+                        <incipit locus="11v">Quoniam series que in arte gramatica corrigende sunt</incipit>
+                        <ab>(Extracts)</ab>
+                        <ab>f. <locus>12v</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="3" locusStart="13r" locusEnd="20v">
+                        <head type="CCC">
+                            <title>Expositions on parts of the Old and New Testament</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Expositiones in diversos locos veteris et novi testamenti</title>
+                        </head>
+                        <ab locus="13r">
+                            <layout>Single lines, 60-61 to a page</layout>
+                        </ab>
+                        <incipit locusNew="13r">In principio creauit ... ergo in principio creatum fuit celum</incipit>
+                        <ab>A series of expository paragraphs: no order is observable</ab>
+                        <ab>f. <locus>20v</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="4" locusStart="21r" locusEnd="24v">
+                        <head type="CCC">
+                            <title>Sermons and lectures</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sermones seu lectiones habitae ad scholares quosdam theologicos</title>
+                        </head>
+                        <ab locus="21r">
+                            <layout>Double columns of 52 lines</layout>
+                        </ab>
+                        <incipit locusNew="21r">Egredimini filie syon et uidete ... Ad uos scolares maxime theologos
+                            sermo iste dirigitur</incipit>
+                        <incipit locus="22v">Quicumque ad sacre scripture paginam erudiendus</incipit>
+                        <incipit locus="22v">Facies mihi tentorium</incipit>
+                        <explicit locusNew="24r">non ad mensuram</explicit>
+                        <ab>f. <locus>24v</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="5" locusStart="25r" locusEnd="96v">
+                        <head type="CCC">
+                            <title>Exposition on the Psalms</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Expositio in psalmos</title>
+                        </head>
+                        <ab locus="25r">
+                            <layout>Double columns of 52 lines: to some extent in tabular form</layout>
+                        </ab>
+                        <incipit locusNew="25r">Beatus uir</incipit>
+                        <ab locusNew="25r">(<decoNote>handsome initial</decoNote>)</ab>
+                        <incipit locusNew="25r">In hac serie potest distingui septiformis gratia spiritus</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="96v">carnis curam in desideriis ne feceritis</explicit>
+                        <rubric locusNew="96v">Explicit. Salua sit reuerentia <name type="person">Thome</name></rubric>
+                    </msItem>
+
+                    <msItem n="6" locusStart="97r" locusEnd="147v">
+                        <head type="CCC">
+                            <title>Sermons and expositions on the Old and New Testament</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Plurimi sermones seu expositiones in vetus et novum testamentum</title>
+                        </head>
+                        <ab locus="97r"><layout>Begins with 42 lines to a page</layout>: at f. <locus>115r</locus>
+                            <handNote>the hand changes</handNote> (after a gap) and <layout>there are 60 (and more)
+                                lines to a page</layout></ab>
+                        <incipit locusNew="97r">Post regulas fidei euangelico dogmate promulgatas</incipit>
+                        <ab><handNote>The second hand seems to begin imperfectly</handNote> at f. <locus>115r</locus>.
+                            The first beginning of a sermon, on f. <locus>115r</locus>, is</ab>
+                        <incipit locusNew="115r">Ecce ego sternam per ordinem lapides tuos</incipit>
+                        <ab>Up to f. <locus>118v</locus> the writing is rather irregular</ab>
+                        <ab locus="119r">A late title Sermo de trinitate bonus</ab>
+
+                        <incipit locusNew="119r">Uerbo domini celi firmati sunt</incipit>
+                        <ab>Only the last three <supplied>sermons</supplied> have titles</ab>
+                        <rubric locusNew="143r">Ascension</rubric>
+                        <rubric locusNew="144v">Pentecost</rubric>
+                        <rubric locusNew="146r">Sermo ad monachos Cistercienses</rubric>
+                        <incipit locusNew="146r">Omnia tempus habent</incipit>
+                        <ab locus="146v" locusNew="147v">Ending</ab>
+                    </msItem>
+
+                    <msItem n="7" locusStart="148r" locusEnd="151r">
+                        <head type="CCC"><name type="author">William de Montibus</name>, <title>Speculum
+                                poenitentis</title></head>
+                        <head type="Nasmith">
+                            <title>Speculum penitentis editum a magistro <name type="author">Willelmo de Montibus</name>
+                                cancellario <name type="place">Lincoln.</name></title>
+                        </head>
+                        <incipit locus="147r" locusNew="148r">De peccatorum agnitione tractatum teximus
+                            perutilem</incipit>
+                        <explicit locusNew="151r">deinceps totum ex ordine dicat</explicit>
+                        <rubric locusNew="151r">Explicit speculum penitentis</rubric>
+                        <ab>(<name type="author">Will. de Montibus</name>)</ab>
+                    </msItem>
+
+                    <msItem n="8" locusStart="151v" locusEnd="168v">
+                        <head type="CCC">
+                            <title>Sermons</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Alii sermones</title>
+                        </head>
+                        <incipit locus="151v">Transi hospes orna mensam</incipit>
+                        <ab>Three Sermons in this hand</ab>
+                        <ab><handNote>Change of hand</handNote>: at f. <locus>155r</locus> begin <layout>double columns
+                                of 56 lines</layout></ab>
+                        <incipit locus="155r">In tribus commendabilis est beata maria</incipit>
+                        <ab>At f. <locus>163r</locus>
+                            <layout>single lines again, 64 to a page</layout></ab>
+
+                        <incipit locus="163r">Secundo Machab. liij. Machabeus suos armauit non clipei et haste
+                            munitione</incipit>
+                        <ab>These are notes for use in sermons</ab>
+                        <ab locus="166r">A tract of explanation of Greek words</ab>
+                        <incipit locusNew="166r">Episcopus dicitur ab epy quod est supra et scopes quod est intendens
+                            uel solitudo uel casa uel inspectio</incipit>
+                        <explicit locusNew="167v">elisei campi apud inferos ubi anime piorum requiescunt</explicit>
+                        <ab>f. <locus>168r</locus> - f. <locus>168v</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="9" locusStart="169r" locusEnd="187r">
+                        <head type="CCC"><name type="author">William de Montibus</name>, <title>Tropi</title></head>
+                        <head type="Nasmith">
+                            <title>Tropi magistri <name type="author">Willelmi [de Montibus]</name> cancellarii Lincoln.
+                                ad theologicam facultatem collecti</title>
+                        </head>
+                        <ab>
+                            <layout>About 54 lines to a page</layout>
+                        </ab>
+                        <incipit locus="169r">Dei dona dispensamus pulsantibus claues hostiorum porrigimus</incipit>
+                        <explicit locusNew="187r">figura conuersionis et transpositionis</explicit>
+                    </msItem>
+
+                    <msItem n="10" locusStart="187v" locusEnd="209r">
+                        <head type="CCC"><name type="author">William de Montibus</name>, <title>Numerale</title></head>
+
+                        <head type="James">
+                            <title>Numerale</title>
+                            <name type="author">Gul. de Montibus</name>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Summa theologiae</title>
+                        </head>
+                        <ab>
+                            <handNote>In the same hand</handNote>
+                        </ab>
+                        <incipit locus="187v">Introducendis in facultatem theologicam quedam compendiose
+                            prelibantur</incipit>
+                        <explicit locusNew="209r">in aliis opusculis nostris copiosius sunt exarata</explicit>
+                        <rubric locusNew="209r">Explicit</rubric>
+                    </msItem>
+
+                    <msItem n="11" locusStart="209r" locusEnd="218v">
+                        <head type="CCC"><name type="author">Geoffrey de Vinsauf</name>, <title>Tria sunt (Documentum de
+                                arte versificandi)</title></head>
+                        <head type="Nasmith">
+                            <title>Documenta <name type="author">Galfridi Vinest-sauf</name> de modo et arte dictandi et
+                                versificandi</title>
+                        </head>
+                        <ab>
+                            <layout>Double columns of 58 lines</layout>
+                        </ab>
+                        <incipit locus="209r">Tria sunt circa que cuiuslibet operis uersatur artificium</incipit>
+
+                        <explicit locusNew="218r">Rideat et pulset lasciua decentius etas</explicit>
+
+
+                        <rubric locusNew="218r">Explicit documenta magistri <name type="author">Galfridi le Vin est
+                                sauf</name></rubric>
+                        <ab>f. <locus>218v</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="12" locusStart="219r" locusEnd="226v">
+                        <head type="CCC">
+                            <title>Pictor in carmine</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Versus picturis in ecclesiis locandis adaptati</title>
+                        </head>
+                        <ab>
+                            <quote>In prologo autor graviter invehit in presumtionem nefandam pictorum, qui ecclesias
+                                monstris et chimeris impleverunt, et dicit se hos versus scripsisse ad moderandam eorum
+                                licentiam et informandam ignorantiam</quote>
+                        </ab>
+                        <ab>
+                            <layout>Double columns of 62 lines</layout>
+                        </ab>
+                        <ab>The tract called <hi rend="italic">Pictor in Carmine</hi>, of which perhaps the best copy is
+                                <ref type="ms" target="CCC300">MS 300</ref> in this library</ab>
+                        <ab>The present copy has the prologue</ab>
+                        <incipit locus="219r">Dolens in sanctuario dei</incipit>
+                        <explicit locusNew="219r">copia temperare</explicit>
+                        <ab>Printed by <ref type="bibl" target="Delisle 1880">Delisle, <hi rend="italic"
+                                    >M&#233;langes de pal&#233;ographie</hi>, p. 206,</ref> from a Phillipps MS.
+                            Then follows the list of subjects with marginal references</ab>
+                        <ab>Then the text</ab>
+                        <rubric locusNew="222v">Colloquium Gabrielis etc.</rubric>
+                        <rubric locusNew="222v">Dixit Deus serpenti</rubric>
+                        <incipit locusNew="222v">Femina tritura capud anguis et hunc domitura</incipit>
+                        <ab>With marginal notes: the text ends abruptly (on the Baptism)</ab>
+                        <explicit locusNew="225v">Sic aqua baptiste dedit obsequium tibi christe</explicit>
+                        <ab>f. <locus>226r</locus> - f. <locus>226v</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="13" locusStart="227r" locusEnd="269v">
+                        <head type="CCC"><name type="author">Petrus Riga</name>, <title>Aurora</title>. <name
+                                type="author">Matthew of Vendôme</name>, <title>In Tobiam paraphrasis
+                            metrica</title></head>
+                        <head type="Nasmith">
+                            <title><name type="author">Petri de Riga</name> Aurora</title>
+                        </head>
+                        <ab>
+                            <quote>Desunt libri Hester, Judith, Job, Cantica Canticorum, historia evangelica et Actus
+                                apostolorum</quote>
+                        </ab>
+                        <ab locus="227r">
+                            <layout>Double columns of 60 lines</layout>
+                        </ab>
+                        <rubric locusNew="227r">Incipit prefatio in librum subsequentem</rubric>
+                        <incipit locusNew="227r">Sodalium meorum petitio</incipit>
+                        <explicit locusNew="227r">patenter illuxit</explicit>
+                        <rubric locusNew="227r">Explicit prologus</rubric>
+                        <rubric locusNew="227r">Incipit liber <name type="author">magistri Petri</name> cuius titulus
+                            est aurora</rubric>
+                        <incipit locusNew="227r">Prima facta die duo celum terra leguntur</incipit>
+                        <ab>The contents are: Genesis - 4 Regum, lib. Machabeorum, lib. Josephi</ab>
+                        <ab>(Symone quod debet morti soluente, Johannes)</ab>
+                        <ab>This ends</ab>
+                        <explicit locusNew="260r">Septem predictis consona queque uides</explicit>
+
+                        <incipit locusNew="260r">Ecce petis liber, recipis pater alme timorem</incipit>
+
+                        <explicit locusNew="260r">Pacificum reddit. es filius ec(c)e uocandus</explicit>
+
+
+                        <rubric locusNew="260r">Explicit liber <name type="author">magistri Petri</name> qui dicitur
+                            aurora</rubric>
+
+                        <ab>The Thobias of <name type="author">Math. Vindocinensis</name> follows</ab>
+                        <rubric locus="260r">Incipit prefatio in librum Thobie</rubric>
+                        <incipit locusNew="260r">Ecclesie turonensis apex ouium speculator</incipit>
+                        <rubric locusNew="260r">Incipit liber</rubric>
+                        <incipit locusNew="260r">Ex agro ueteri uirtutum semina. morum</incipit>
+                        <ab>
+                            <ref type="bibl" target="Migne 205">CCV 933</ref>
+                        </ab>
+                        <ab>Ends</ab>
+                        <explicit locus="269r">Tobiam merito relligione sequi</explicit>
+                        <rubric locusNew="269r">Explicit liber Tobie</rubric>
+                        <ab>f. <locus>269v</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="14" locusStart="270r" locusEnd="317v">
+                        <head type="CCC">
+                            <title>Tract on the Holy Scripture</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Tractatus theologicus de difficultatibus S. Scripturae</title>
+                        </head>
+                        <ab>
+                            <layout>63 lines to a page</layout>
+                        </ab>
+                        <incipit locus="270r">Difficile quod durum quod graue quod asperum</incipit>
+                        <ab>Treats of the books from Genesis to 2 Chron. ending with a notice of Daniel</ab>
+                        <explicit locusNew="317v">in mediam ducens secum danielem prophetam remeauit</explicit>
+                        <ab locusNew="317v">and a list of the kings</ab>
+                        <ab>Cf. <ref type="ms" target="CCC030">MS 30. 1</ref>. <name type="person">Andreas
+                                Victorinus</name></ab>
+                    </msItem>
+
+                    <msItem n="15" locusStart="318r" locusEnd="362v">
+                        <head type="CCC"><name type="author">Alexander Nequam OSA</name>, <title>Corrogationes
+                                Promethei</title></head>
+
+                        <head type="James"><name type="author">Alexandri Neckam</name>. <title>Corrogationes
+                                Promethei</title></head>
+                        <head type="Nasmith">
+                            <title>Tractatus de arte theologica, in quo primum traduntur regulae interpretationis, et
+                                postea applicantur ad diversos locos singulorum librorum S. Scripturae</title>
+                        </head>
+
+                        <incipit locusNew="318r">Ferrum situ rubiginem ducit</incipit>
+                        <ab><handNote>The hand changes</handNote> after a few leaves</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="352v" locusNew="362v">excellentiorem esse angelica</explicit>
+                        <rubric locusNew="362v">Explicit</rubric>
+                        <ab>See <ref type="bibl" target="Meyer 1896b">P. Meyer, <hi rend="italic">Notices et
+                                    Extraits</hi> XXXV 2 (1897)</ref></ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: CF 8.1.2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

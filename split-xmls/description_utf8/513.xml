@@ -1,0 +1,120 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC513">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>513</idno>
+                    <altIdentifier type="Elbing">
+                        <idno>N. 15</idno>
+                    </altIdentifier>
+
+                </msIdentifier>
+                <head type="CCC">Sermons by Hermannus of Leipzig and others </head>
+                <head type="James">[Untitled]</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">315</height>
+                        <width unit="mm">210</width>
+                    </measureGrp>, <measureGrp type="James">12.3 x 8.8</measureGrp>, <extent>ff. 261</extent>,
+                        <layout>double columns of 36 lines</layout>. Cent. <origDate>xv</origDate>, <handNote>in an ugly
+                        hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>12</num>-20<num>12</num> (12 blank torn out) 21<num>12</num> 22<num>12</num> (wants
+                        11, 12)</collation>.</p>
+
+                <p function="Provenance"><name type="person">Mary Pernham</name> on f. <locus>2v</locus>.</p>
+                <p function="Additions">Binding, white skin over boards: tags gone: no label: bosses and straps.</p>
+                <p function="Additions">At top of f. <locus>1r</locus>:<lb/> Orate pro anima <name type="person">d.
+                        Symonis Pegen (?)</name>.</p>
+                <p function="Additions">On f. <locus>1r</locus> the beginning of the sermon which is written again on f.
+                        <locus>2r</locus>.</p>
+                <p type="CCC">
+                    <foliation>ff. 1-93 + 93a + 94-261</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="ger">Latin and German.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="219r">
+                        <head type="CCC"><title>Sermons</title> by <name type="author">Hermannus of Leipzig</name> and
+                            others</head>
+                        <head type="James">
+                            <title>Sermones de Tempore</title>
+                        </head>
+                        <incipit locusNew="1r">Exiit edictum ... Scribit propheta <name type="person">ysa.</name>
+                                ca<abbr rend="superscript">o</abbr> no<abbr rend="superscript">o</abbr> de hodierna
+                            festiuitate</incipit>
+                        <ab>After a sermon in Oct. Pasche. (<q>Cum esset sero</q>) is a colophon</ab>
+                        <rubric locus="219r">Explicit liber iste</rubric>
+                        <ab>Other sermons follow <handNote>in various hands</handNote> and there are a good many blank
+                            leaves</ab>
+                        <ab>In the last cover is a note in German:</ab>
+                        <ab> Dy pharrer uf der ner ... haben czwetracht myt der gemeyne van dess tames wegen.<lb/> ...
+                            dy synd dy vyer sachen do van man dy pharrer ledig sprycht.<lb/> Her (erasure) dedit </ab>
+                        <ab>The old list describes the book thus: Glossa super articulis Fidei, Orat. Domin., x
+                            Praeceptis, et Fest. totius anni </ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, SP, CF</p>
+                            <p>msCheck: SP 9/2/09</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

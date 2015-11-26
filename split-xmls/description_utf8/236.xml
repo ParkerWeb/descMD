@@ -1,0 +1,223 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC236">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>236</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Lib. ab Al. 26</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Marcus Valerius Martialis, Epigrammata</head>
+                <head type="James">Martialis</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">210</height>
+                        <width unit="mm">145</width>
+                    </measureGrp>, <measureGrp type="James">8.5 x 5.7</measureGrp>, <extent>ff. 71</extent>, <layout>34
+                        lines to a page</layout>. Cent. <origDate>xiii early</origDate>, <handNote>well
+                        written</handNote>. </p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num> (+4*) 2<num>8</num>-4<num>8</num> (+1) 5<num>8</num> (+1)
+                            6<num>8</num>-8<num>8</num> 9<num>4</num></collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>quid magni</secFol>.</p>
+
+
+                <p function="Provenance">Given by <name type="person">Daniel Rogers</name>.</p>
+                <p function="Additions">At top of f. <locus>1r</locus> (<origDate>xiii</origDate>): <name type="author"
+                        >Marcialis</name> coquus.</p>
+                <p function="Additions">At bottom <supplied>of f. <locus>1r</locus></supplied> in a faint hand perhaps
+                    foreign:<lb/> Inter libros socratis et aliorum xxii<abbr rend="superscript">us</abbr>. prec.
+                        iiii<abbr rend="superscript">s</abbr>.<lb/> in cathenc<abbr rend="superscript">ur</abbr>.</p>
+                <p function="Additions">
+                    <supplied>At ff. <locus>ar</locus>-<locus>av</locus>, <locus>br</locus>-<locus>bv</locus>, a
+                        fragment from 2 Corinthians</supplied>
+                </p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a + i-ii + 1-71 + iii+iv + b. Partially imaged: front cover exterior and interior +
+                        ff. a + i-ii + 1-10 + back cover exterior and interior</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="71r">
+                        <head type="CCC">
+                            <name type="author">Marcus Valerius Martialis</name>, <title>Epigrammata</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>
+                                <name type="author">Martialis</name>
+                            </title>
+                        </head>
+                        <ab locus="1r">Liber I. Preface</ab>
+                        <incipit locusNew="1r">Spero me consecutum</incipit>
+                        <ab locus="7v">Liber II 2</ab>
+                        <incipit locusNew="7v">Creta dedit</incipit>
+                        <ab locus="12r">Liber III. Ending with 99</ab>
+                        <ab locus="15r">Liber IV</ab>
+                        <incipit locusNew="15r">Cesaris alma dies</incipit>
+                        <ab locusNew="19r">Ending with V 84</ab>
+                        <ab locus="19r">Liber VI 2</ab>
+                        <incipit locusNew="19r">Lusus erat</incipit>
+                        <ab locus="23r">Liber VII</ab>
+                        <incipit locusNew="23r">Accipe</incipit>
+                        <ab locus="27v">Liber VIII</ab>
+                        <incipit locusNew="27v">Omnes mei libelli</incipit>
+                        <ab locusNew="31r">Ending with 80</ab>
+                        <ab locus="31r">Liber IX. Without prologue</ab>
+                        <incipit locusNew="31r">Late lucebis sublimi pectore uates</incipit>
+                        <ab locus="36v">blank: 36 is an added leaf</ab>
+                        <ab locus="37r">Liber X 2</ab>
+                        <incipit locusNew="37r">Festinata prior</incipit>
+                        <ab locusNew="41v">Ending with 103</ab>
+                        <ab locus="41v">Liber XI 2</ab>
+                        <incipit locusNew="41v">Triste supercilium</incipit>
+                        <ab locusNew="46r">Ending with IV 80-89</ab>
+                        <ab locus="46r">Liber XII (parts of V and XI)</ab>
+                        <ab locus="57r">Liber XIII (XII), XII I</ab>
+                        <incipit locusNew="57r">Retia dum cessant</incipit>
+                        <ab locusNew="59v">To end of XII 48. 1</ab>
+                        <explicit locusNew="59v">uilia ponis</explicit>
+                        <ab>The rest of f. <locus>59v</locus> blank. Continues on f. <locus>60r</locus> with Liber XIII
+                            2</ab>
+                        <incipit locusNew="60r">Nasutus</incipit>
+                        <ab>to 127</ab>
+                        <explicit locusNew="64r">facta rosa est</explicit>
+                        <ab locusNew="64r">Liber XIV 1</ab>
+                        <incipit locusNew="64r">Sintesibus</incipit>
+                        <ab>to 223</ab>
+                        <explicit locusNew="71r">lucis aues</explicit>
+                        <ab>On f. <locus>71r</locus> various medieval verses are added</ab>
+                        <ab>(a)</ab>
+                        <incipit locusNew="71r">Res erit archana de pellicea ueterana</incipit>
+                        <ab>(b)</ab>
+                        <incipit locusNew="71r">Pontificum struma</incipit>
+                        <ab><ref type="bibl" target="Wright 1841">Mapes, <hi rend="italic">Poems</hi></ref>, p. 85</ab>
+                        <ab>(c)</ab>
+                        <incipit locusNew="71r"><name type="person">Hubertum</name> locus iste capit</incipit>
+                        <ab>(<name type="person">Archbishop Hubert Walter</name>)</ab>
+                        <ab>Ends</ab>
+                        <explicit locusNew="71r">Pastorem precibus Cantia pasce tuum</explicit>
+                        <ab>(d)</ab>
+                        <incipit locusNew="71r">Capram restituis quam cum rapuisset in usus</incipit>
+                        <ab>(e)</ab>
+                        <incipit locusNew="71r">Improbe cur audes caudas reprehendere, cuius</incipit>
+                        <ab>(f)</ab>
+                        <incipit locusNew="71r">Canonicas non canonicos uos esse probatis</incipit>
+                        <ab>(g)</ab>
+                        <incipit locusNew="71r">
+                            <lg>
+                                <l>Palma nicos resonat laos populum. <name type="person">nicolaus</name></l>
+                                <l>Sum quasi populi palma. memento mei</l>
+                            </lg>
+                        </incipit>
+                        <ab>f. <locus>71v</locus>, col. 1</ab>
+                        <ab>(h)</ab>
+                        <incipit locusNew="71v">Imperialis apex cui seruit poplite flexo</incipit>
+                        <ab>(i)</ab>
+                        <incipit locusNew="71v">Vinum transmissum me non facit esse remissum</incipit>
+                        <ab>Col. 2</ab>
+                        <ab>(k)</ab>
+                        <incipit locusNew="71v">Bella benigna bonis</incipit>
+                        <ab>(l)</ab>
+                        <incipit locusNew="71v">In spe sum sine spe</incipit>
+                        <ab>(m)</ab>
+                        <ab locusNew="71v">On SS. <name type="person">Paul</name>, <name type="person">Clement</name>,
+                                <name type="person">Stephen</name>, <name type="person">Laurence</name></ab>
+                        <incipit locusNew="71v">Digna ferunt dignis gladius pelagus lapis ignis</incipit>
+                        <ab>Cf. <ref type="ms" target="CCC023">MS 23</ref></ab>
+                        <ab>(n)</ab>
+                        <incipit locusNew="71v">Gratior agricole longi solet esse laboris</incipit>
+                        <ab>(o)</ab>
+                        <incipit locusNew="71v">
+                            <lg>
+                                <l><name type="person">Rex Ricarde</name> iaces sed si mors cederet annis</l>
+                                <l>Victa timore tui cederet illa tuis</l>
+                            </lg>
+                        </incipit>
+                        <ab>(p)</ab>
+                        <incipit locusNew="71v">Clerice cum nupta nunquam sine teste loquaris</incipit>
+                        <ab>(q)</ab>
+                        <incipit locusNew="71v">
+                            <lg>
+                                <l>Dicitur a capite capito cum sit capitonis</l>
+                                <l>Pars melior capito de capitone capud</l>
+                            </lg>
+                        </incipit>
+                        <ab>Others added faintly on lower margin</ab>
+
+
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: SP 3/11/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

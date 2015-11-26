@@ -1,0 +1,133 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC182">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>182</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>D. 6</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>37</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Middle English Prose Brut Chronicle</head>
+                <head type="James">Chronicle of England</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">288</height>
+                        <width unit="mm">200</width>
+                    </measureGrp><measureGrp type="James">11.2 x 8</measureGrp>, <extent>ff. 179 + 1</extent>,
+                        <layout>29 lines to a page</layout>. Cent. <origDate>xv</origDate>
+                    <handNote>clearly written in a rather current hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num> (6, 7 of cent. <date>xvi</date>) 2<num>8</num> (1-6 of cent.
+                            <date>xvi</date>) 3<num>8</num>-22<num>8</num> (6-8 of cent. <date>xvi</date>) 23
+                        (three)</collation>.</p>
+
+
+
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i + 1-60 + 60a + 61-179 + ii + c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="enm" otherLangs="lat">Middle English and Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="179v">
+                        <head type="CCC">
+                            <title>Middle English prose Brut chronicle (Extended Version)</title>
+                        </head>
+                        <incipit locus="1r">Here begynneth a booke in Englissh tonge called Brute of <name type="place"
+                                >Englonde</name> or the cronicles of <name type="place">Englonde</name> compilinge and
+                            treatynge of the saide lande etc.</incipit>
+                        <explicit locusNew="1r">conteynyng cc and xxxvij chapiters</explicit>
+                        <ab rend="beforeContents">
+                            <decoNote>f. <locus>1r</locus> is finely bordered in gold and colour in characteristic
+                                English style and has decorative initial on gold ground, somewhat rubbed</decoNote>
+                        </ab>
+                        <incipit locusNew="1r">The pr(o)loge of this booke declareth and tellith howe ţis lande was
+                            furst callid <name type="place">Albioun</name></incipit>
+                        <explicit locusNew="1r">and slowe many of hem</explicit>
+                        <incipit locusNew="1r">Sum tyme in the noble lande of <name type="place">Surr'</name></incipit>
+                        <ab>A fragment of the original f. <locus>6r</locus> (see collation above) is inserted after f.
+                                <locus>60v</locus></ab>
+                        <ab>At f. <locus>151r</locus> (ch. 239: death of <name type="person">Edward III</name>) is a
+                            note by <name type="person">Parker</name>: <q>hic terminatur unus liber</q> (a reference to
+                                <ref type="ms" target="CCC174">MS 174</ref>)</ab>
+                        <ab>Ends with ch. 245</ab>
+                        <explicit locusNew="179v">restid him in the castell tille the toun was sette in Rule and
+                            Goueranase (!)</explicit>
+                        <ab>Colophon (<date>xvi</date>)</ab>
+                        <rubric locusNew="179v">Explicit usque ad annum 7<abbr type="superscript">m</abbr>
+                            <name type="person">Henrici quinti</name></rubric>
+                        <ab>The last edition is by <ref type="bibl" target="Brie 1906">Dr F. Brie (E. E. T.
+                            S.)</ref></ab>
+                        <ab>On a fly-leaf is a <name type="person">Parkerian</name> note from <name type="author"
+                                >Goscelin</name>'s <hi rend="italic">Life of <name type="person">St
+                                Augustine</name></hi>, and the <hi rend="italic">Scala Chronica</hi></ab>
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJC 9.10.07</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

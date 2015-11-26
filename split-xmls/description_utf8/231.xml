@@ -1,0 +1,188 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC231">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>231</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Lib. ab Al. 21</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Terence, Comedies</head>
+                <head type="James">Terentius</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">228</height>
+                        <width unit="mm">165</width>
+                    </measureGrp><measureGrp type="James">9 x 6.5</measureGrp>, <extent>ff. 105</extent>, <layout>26-27
+                        lines to a page</layout>. Cent. <origDate>xii early</origDate>, <handNote>in several good round
+                        hands. Written in <name type="place">Germany</name>: there is considerable irregularity in the
+                        changes of hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 (five: wants 1, some cancelled after 3) 2 (five) 3 (three, all canc. after 3)
+                            4<num>8</num> (7, 8 canc.) 5<num>8</num>-10<num>8</num> (8 canc.)
+                            11<num>8</num>-15<num>8</num> (wants 8)</collation>.</p>
+
+                <p function="Provenance">Probably given by <name type="person">Dan. Rogers</name>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-iii + 1-105 + iv-vi + c-d</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="19v">
+                        <head type="CCC">
+                            <name type="author">Terence</name>, <title>Andria</title>
+                        </head>
+                        <head type="James">
+                            <title>Andria</title>
+                        </head>
+
+                        <ab>Begins imperfectly in the argument</ab>
+                        <ab locus="1r">nuptias. ignorans glicerium suam esse filiam</ab>
+                        <incipit locusNew="1r">Sensus quidem tocius fabule hic est. Comicus ea miro dilatauit
+                            modo</incipit>
+                        <explicit locusNew="1r">uos ualete et plaudite siue fauete et Plaudite</explicit>
+                        <rubric locusNew="1r">Incipit <name type="author">publii terentii afri</name> andria acta ludis
+                            etc.</rubric>
+                        <incipit locusNew="1r">Natus in excelse tectis <name type="place">cartaginis</name>
+                            altis</incipit>
+                        <explicit locusNew="1r">Hoc quicumque legit sic puto cautus erit</explicit>
+                        <rubric locusNew="1r">Incipit argumentum <name type="author">terentii</name> in andriam</rubric>
+                        <incipit locusNew="1v">Sorore falso</incipit>
+                        <rubric locus="1v">Incipit prologus in andriam</rubric>
+                        <incipit locusNew="1v">Poeta cum primum</incipit>
+                        <ab>Text, written as prose, begins f. <locus>2r</locus>. f. <locus>3r</locus>-<locus>3v</locus>
+                            is misplaced</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="19v">Calliopius recensui</explicit>
+                    </msItem>
+
+                    <msItem n="2" locusStart="20r" locusEnd="42r">
+                        <head type="CCC">
+                            <name type="author">Terence</name>, <title>Eunuchus</title>
+                        </head>
+
+                        <incipit locus="20r">Argumentum totius fabule perbreuiter dicendum est quam satis in ipso
+                            contextu</incipit>
+                        <explicit locusNew="20v">sequentia perlegens animaduertere quiuerit</explicit>
+                        <rubric locusNew="20v">Incipit Eunuchus</rubric>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="42v" locusEnd="61v">
+                        <head type="CCC">
+                            <name type="author">Terence</name>, <title>Heauton timorumenos</title>
+                        </head>
+
+                        <head type="James">
+                            <title>Heautontimorumenos</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="61v" locusEnd="76v">
+                        <head type="CCC">
+                            <name type="author">Terence</name>, <title>Adelphoe</title>
+                        </head>
+
+                        <head type="James">
+                            <title>Adelphoe</title>
+                        </head>
+
+                    </msItem>
+
+                    <msItem n="5" locusStart="76v" locusEnd="92r">
+                        <head type="CCC">
+                            <name type="author">Terence</name>, <title>Hecyra</title>
+                        </head>
+
+                        <head type="James">
+                            <title>Hechyra</title>
+                        </head>
+
+                        <ab>Quires 14, 15 are of a very different quality of vellum, but contemporary with the rest</ab>
+                        <ab>In the middle of f. <locus>90r</locus> the text of Hecyra breaks off and a portion of
+                            Phormio, Act v, Sc. 7, intervenes, continuing to the end of f. <locus>90v</locus>. With f.
+                                <locus>91r</locus> Hecyra is resumed and ends on f. <locus>92r</locus></ab>
+
+                    </msItem>
+
+                    <msItem n="6" locusStart="92r" locusEnd="105v">
+                        <head type="CCC">
+                            <name type="author">Terence</name>, <title>Phormio</title>
+                        </head>
+
+
+                        <ab locus="92r">Phormio begins</ab>
+                        <ab>Ends imperfectly in Act V, Sc. 7</ab>
+                        <explicit locusNew="105v">nullus sum. PHR. Ex qua filiam</explicit>
+                        <ab>This being the end of the portion of text which was intruded at f. <locus>90r</locus>:
+                                <handNote>it is here recopied in another hand</handNote></ab>
+                        <ab>There are some marginal scholia, <handNote>in an exceedingly pretty round
+                                minuscule</handNote></ab>
+                        <ab>In a good many places the text has been re-written where the original ink had disappeared
+                            owing to the defective surface of the vellum</ab>
+
+                    </msItem>
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: BA 30/9/2008; NJM 3/12/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

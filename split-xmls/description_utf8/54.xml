@@ -1,0 +1,159 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC054">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>54</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>M. 11</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>149</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Odo of Canterbury OSB, Commentary on Genesis-Numbers</head>
+
+                <head type="James">Odo super IV Libros Moysi</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">341</height>
+                        <width unit="mm">225</width>
+                    </measureGrp><measureGrp type="James">13.4 x 8.5</measureGrp>, <extent>ff. 170 + 1</extent>,
+                        <layout>double columns of 38, 37, 47 lines</layout>. Cent. <origDate>xii late</origDate>,
+                        <handNote>in two or three hands: clear, but not specially good</handNote>. <decoNote>The
+                        initials are very noticeably rough and ugly, on thick grounds of colour, blue and
+                        green</decoNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>12</num>-4<num>12</num> 5<num>10</num> 6<num>10</num>
+                            7<num>8</num>-19<num>8</num> (wants 7, 8)</collation>.</p>
+
+
+                <p function="Provenance">From <name type="place">Coggeshall</name>. <name type="person">Leland</name>
+                        (<ref type="bibl" target="Leland 1775d">Collectanea IV 162</ref>) saw the book at <name
+                        type="place">Coggeshall</name>.<lb/> On the flyleaf: <q>Liber <name type="place">sancte Marie
+                            Coggeshal</name><lb/>
+                        <name type="author">Odo</name> super quatuor libros <name type="person">Moysi</name></q>.<lb/> A
+                    late note on <name type="author">Odo</name> follows.</p>
+
+                <p function="Provenance" rend="afterContents">The book was very probably written at <name type="place"
+                        >Coggeshall</name>. The imperfections suggest a provincial origin.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-iii + 1-170 + iv-v</foliation>.</p>
+
+
+
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="170v">
+
+
+                        <head type="CCC"><name type="author">Odo of Canterbury OSB</name>, <title>Commentary on
+                                Genesis-Numbers</title></head>
+
+
+                        <head type="James">
+                            <name type="author">Odo</name>
+                            <title>super IV Libros Moysi</title>
+                        </head>
+
+
+
+                        <rubric locusNew="1r">Incipit <name type="author">Odo</name> super iiii<abbr rend="superscript"
+                                >or</abbr> libros <name type="person">moysi</name></rubric>
+                        <incipit locus="1r">Operis subditi materia lex est</incipit>
+                        <explicit locusNew="2r">subtilius potuerit perscrutari</explicit>
+                        <rubric locus="2r">Incipit liber genesis</rubric>
+
+                        <rubric locusNew="2r">In principio ... terram</rubric>
+
+                        <incipit locusNew="2r">Primus nobis occurrit liber geneseos</incipit>
+
+                        <ab locus="67v">Exodus. <decoNote>Initial on green ground</decoNote>
+                        </ab>
+
+
+                        <ab locus="123r">Leviticus. <decoNote>Curious initial: green ground</decoNote>
+                        </ab>
+
+
+                        <ab locus="152v">Numbers. <decoNote>Curious initial: green ground</decoNote>
+                        </ab>
+                        <ab>Ends</ab>
+                        <explicit locus="170v">que sunt super <name type="place">Iordanen</name> e regione <name
+                                type="place">Iericho</name></explicit>
+                        <rubric locusNew="170v">Explicit feliciter</rubric>
+
+                    </msItem>
+
+                </msContents>
+
+
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, SP, CF</p>
+                            <p>msCheck: RJR 20.07.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

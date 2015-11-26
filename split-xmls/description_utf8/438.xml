@@ -1,0 +1,323 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC438">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>438</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Q. 2</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>255</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Gervase of Canterbury OSB, Gesta regum etc.</head>
+                <head type="James">Gervase of Canterbury, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">193</height>
+                        <width unit="mm">136</width>
+                    </measureGrp>, <measureGrp type="James">7.6 x 5.5</measureGrp>, <extent>ff. 8 + 48 + 132 + 21 + 41 +
+                        12</extent>, <layout>double and single columns of 33, 32, 27 lines</layout>, several volumes of
+                    cent. <origDate>xiii-xv</origDate>, <handNote>in a careful hand</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>8</num>, 1<num>12</num>-4<num>12</num> | 5<num>10</num> 6<num>10</num>
+                            7<num>12</num>-12<num>12</num> 13<num>8</num>-17<num>8</num> | 18<num>12</num> (+1)
+                            19<num>8</num> | 20<num>12</num>-22<num>12</num> 23 (five) |
+                    24<num>12</num></collation>.</p>
+
+                <p function="Provenance">From <name type="place">Christ Church, Canterbury</name>: apparently not in the
+                    catalogues. <ref type="bibl" target="James 1903"><hi rend="italic">Ancient Libraries</hi>, p.
+                        528</ref>.</p>
+
+                <p function="Additions">On f. <locus locusNew="1v">iv</locus> note (<origDate>xv</origDate>):
+                        <date>1434. 13<abbr rend="superscript">o</abbr> kal. May</date> o(biit) <name type="person"
+                        >Iohannes Brun Ciuis et Balliuus Cant.</name> qui dedit <name type="place">ecclesie Christi
+                        Cant.</name>
+                    <name type="place">Manerium Beukysburne</name> quod comparauit pro 1100 marcis a<abbr
+                        rend="superscript">o</abbr>
+                    <date>1434 13 kal. may</date>. (<ref type="bibl" target="Stubbs 1880">Stubbs, Gervase of Canterbury
+                        II, p. xlix</ref>.)<lb/> On f. <locus locusNew="2r">iir</locus> chronograms: <name type="person"
+                        >Henrici</name> perci corpora caede madentis (m. ccc. iii.) . Cancia flere potest quia <name
+                        type="person">thomas</name> cessit arundel (m. ccc. ll. iii., 1403) . computa literas numerales.
+                        <ref type="bibl" target="Stubbs 1880">Stubbs, l. c.</ref><lb/> On iiv (p. <locus locusNew="2v"
+                        >2</locus>) (<origDate>xv</origDate>): Secunda pars <name type="author">Gervasii monachi</name>
+                    <name type="place">ecclesie Christi Cant.</name></p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + 1-262 + c-d</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="enm frm">Latin, Middle English and Anglo-Norman.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="5v" locusEnd="8v">
+                        <head type="CCC">
+                            <title>List of kings of England from the conquest to <name type="person">Henry
+                                IV</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Catalogus regum <name type="place">Angliae</name> a conquestu ad <name type="person"
+                                    >Henricum IV</name></title>
+                        </head>
+
+                        <ab><locus locusNew="3r">3</locus>-<locus locusNew="5r">7</locus> blank</ab>
+
+                        <ab><layout>Single lines</layout>. <origDate>Cent. xiv-xv</origDate>. <ref type="bibl"
+                                target="Stubbs 1880">Stubbs, l. c.</ref></ab>
+                        <rubric locus="8" locusNew="5v">Catalogus Regum <name type="place">Anglie</name> a
+                            conquestu</rubric>
+                        <incipit locus="8" locusNew="5v"><name type="person">Willelmus conquestor</name> dux normann.
+                            applicuit in <name type="place">anglia</name> cum exercitu suo</incipit>
+                        <ab locusNew="7v">The last entry (of <name type="person">Henry IV</name>) is in another
+                            hand</ab>
+                        <explicit locusNew="7v">prope feretrum <name type="person">S. thome</name> martiris
+                            gloriosi</explicit>
+                        <ab><locus locusNew="8r">13</locus>, <locus locusNew="8v">14</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="9r" locusEnd="18v">
+                        <head type="CCC">
+                            <name type="author">Gervase of Canterbury OSB</name>, <title>Mappa mundi</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title><name type="author">Gervasii Dorobernensis</name> mappa mundi</title>
+                        </head>
+
+                        <ab><layout>Double columns</layout>. Cent. <origDate>xiii. Second half</origDate></ab>
+                        <rubric locus="15" locusNew="9r">Proemium in mappam mundi</rubric>
+                        <incipit locusNew="9r"><name type="place">Anglicane insule</name> situs et temperies</incipit>
+                        <ab>
+                            <ref type="bibl" target="Stubbs 1880">Stubbs II, p. 414</ref>
+                        </ab>
+                        <ab locusNew="18v">Ending with valuation of Scottish bishoprics <handNote>in another
+                                hand</handNote></ab>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="19r" locusEnd="56v">
+                        <head type="CCC">
+                            <name type="author">Macer (attrib.)</name>, <title>De uiribus herbarum</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Liber <name type="author">Macri</name> de viribus herbarum</title>
+                        </head>
+
+                        <ab>
+                            <layout>Single lines</layout>
+                        </ab>
+                        <rubric locus="35" locusNew="19r">Incipit liber <name type="author">macri</name> de uiribus
+                            herbarum de arthemesea</rubric>
+                        <ab locusNew="19r">(In gallico hermoyse. in Angl. Mugwed: margin)</ab>
+                        <incipit locusNew="19r">Herbarum quasdam dicturus carmine uires</incipit>
+                        <ab>A few names in French and English in the margins</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="106" locusNew="54v">sic apta solucio fiet</explicit>
+                        <ab locusNew="54v">Note from <name type="author">Papias</name> on coriandrum</ab>
+                        <ab><locus locusNew="55r">107</locus>-<locus locusNew="56v">110</locus> blank</ab>
+
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="57r" locusEnd="209v">
+                        <head type="CCC">
+                            <name type="author">Gervase of Canterbury OSB</name>, <title>Gesta regum</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Chronica <name type="author">Gervasii</name> a <name type="person">Bruto</name> ad
+                                    <name type="person">regem Ioannem</name>, cum continuatione ad annum
+                                    <date>1316</date></title>
+                        </head>
+
+                        <ab>Double columns</ab>
+                        <rubric locus="111" locusNew="57r">Incipiunt excepciones breuissime de numero et gestis regum
+                                <name type="place">britannie</name></rubric>
+                        <incipit locusNew="57r">Cum multa mecum animo reuoluerem</incipit>
+                        <ab>The 'Gesta Regum.' <ref type="bibl" target="Stubbs 1880">Stubbs, p. 4</ref></ab>
+                        <ab><handNote>Hand changes at <locus locusNew="149r">295</locus></handNote>: at <locus
+                                locusNew="189r">375</locus> single lines and <handNote>change of hand</handNote>: <locus
+                                locusNew="198r">393</locus>-<locus locusNew="198v">394</locus> an inserted leaf with
+                            account of resignation of <name type="person">Celestine V</name>: <handNote>in a good
+                                hand</handNote> (<ref type="bibl" target="Stubbs 1880">Stubbs II 308</ref>)</ab>
+                        <ab><handNote>Various hands appear on <locus locusNew="201v">400</locus>-<locus locusNew="205v"
+                                    >408</locus></handNote>. (<ref type="bibl" target="Stubbs 1880">Stubbs II
+                                318-324</ref>)</ab>
+                        <ab><locus locusNew="205v">408</locus>-<locus locusNew="209v">416</locus> are mostly in the hand
+                            of <locus locusNew="5v">8</locus> sqq.</ab>
+                        <ab locus="408" locusNew="205v">Chronograms. <ref type="bibl" target="Stubbs 1880">Stubbs, p.
+                                324 note</ref></ab>
+                        <rubric locusNew="206r">Bellum de peyters</rubric>
+                        <ab>
+                            <ref type="bibl" target="Stubbs 1880">Stubbs, p. l</ref>
+                        </ab>
+                        <ab>Miscellaneous notes. <ref type="bibl" target="Stubbs 1880">Stubbs, pp. lii-liii</ref></ab>
+                        <ab locus="414" locusNew="208v">Account of Council of <name type="place">Cloveshoo</name></ab>
+
+                        <incipit locusNew="208v">Anno domini <date>dcc<abbr rend="superscript">mo</abbr> xlij</date>
+                            <name type="person">Cutbertus archiepiscopus dorobernie</name></incipit>
+                        <explicit locusNew="209v">hiis legibus constitutis subscripsi</explicit>
+                    </msItem>
+
+                    <msItem n="5" locusStart="210r" locusEnd="251r">
+                        <head type="CCC">
+                            <name type="author">Gervase of Canterbury OSB</name>, <title>Actus pontificum <name
+                                    type="place">Cantuariensis ecclesiae</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title><name type="author">Gervasii</name> actus pontificum <name type="place"
+                                    >Cantuarie</name> a <name type="person">S. Augustino</name> ad <name type="person"
+                                    >Hubertum</name></title>
+                        </head>
+
+                        <ab><layout>Double columns</layout>. Cent. <origDate>xiii</origDate>: <handNote>hand of pp.
+                                    <locus>111</locus> sqq.</handNote>
+                        </ab>
+                        <rubric locus="417" locusNew="210r">Incipit prologus in actus pontificum <name type="place"
+                                >Cantuarie ecclesie</name></rubric>
+                        <incipit locusNew="210r">Quia nomina regum <name type="place">britannie</name></incipit>
+                        <ab>
+                            <ref type="bibl" target="Stubbs 1880">Stubbs II 325-411</ref>
+                        </ab>
+                        <ab><handNote><locus locusNew="251r">509</locus> is in the hand of <locus locusNew="5v"
+                                    >8</locus> etc.</handNote>: text ends</ab>
+                        <explicit locusNew="251r">hanc <name type="person">Rex Iohannes</name> ecclesie
+                            subtraxit</explicit>
+                        <ab>The same hand of cent. <origDate>xv</origDate> continues</ab>
+
+                    </msItem>
+
+                    <msItem n="6" locusStart="251v" locusEnd="257r">
+                        <head type="CCC">
+                            <name type="author">Gervase of Canterbury OSB</name>, <title>Successio pontificum <name
+                                    type="place">Cantuariensis ecclesiae</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Successio eorundem ab <name type="person">Augustino</name> ad <name type="person"
+                                    >Ioannem Stafford</name></title>
+                        </head>
+
+                        <rubric locus="510" locusNew="251v">Quantum archiepiscopi <name type="place">Cantuarie</name> in
+                            archiepiscopatu vixerunt</rubric>
+                        <ab locusNew="251v">beginning with <name type="person">Augustine</name>. (<ref type="bibl"
+                                target="Stubbs 1880">Stubbs, p. liii</ref>)</ab>
+                        <ab locusNew="255v">no. 59, <name type="person">Henry Chicchele</name> is <handNote>in another
+                                hand</handNote>: ends with the name only of no. 60 <name type="person">John
+                                Stafford</name></ab>
+
+                        <ab><locus locusNew="256r">519</locus> has the set-off of some writing, but is blank. <locus
+                                locusNew="256v">520</locus>, <locus locusNew="257r">521</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="7" locusStart="257v" locusEnd="260r">
+                        <head type="CCC">
+                            <title>The clerical tenth of <date>1402</date> extracted from royal accounts by <name
+                                    type="person">Thomas Chillenden</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Decima omnium bonorum temporalium et spiritualium <name type="place">ecclesiae
+                                    Christi Cantuarie</name> extracta de rotulis domini regis A. D. <date>1402</date>,
+                                per <name type="person">Thomam Chillendene priorem</name></title>
+                        </head>
+
+                        <rubric locus="522" locusNew="257v">Decima omnium bonorum temporalium et spiritualium <name
+                                type="place">ecclesie Christi Cantuarie</name> extracta de rotulis domini Regis a. d.
+                                    <date>m<abbr rend="superscript">o</abbr> cccc<abbr rend="superscript">o</abbr>
+                                    ij<abbr rend="superscript">o</abbr></date> per <name type="person">Thomam
+                                Chillyndene priorem</name></rubric>
+                        <ab><locus locusNew="259r">525</locus>-<locus locusNew="260r">527</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="8" locusStart="260v" locusEnd="262v">
+                        <head type="CCC">
+                            <name type="author">Alexander VI</name>, <title>Bull granting <name type="person">Thomas
+                                    Bourgchier archbishop of Canterbury</name> license to canonize <name type="person"
+                                    >Anselm of Canterbury</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Copia bullae <name type="author">Alexandri papae</name> concessa sancto <name
+                                    type="person">Thomae Cantuariensi archiepiscopo</name> de canonizatione <name
+                                    type="person">sancti Anselmi</name> ejusdem ecclesiae archiepiscopi</title>
+                        </head>
+                        <rubric locus="528" locusNew="260v">Copia bulle <name type="author">Alexandri pape</name>
+                            concessa <name type="person">Sancto Thome Cantuariensi archiepiscopo</name> de canonizacione
+                                <name type="person">Sancti Anselmi</name> eiusdem ecclesie Archiepiscopi</rubric>
+                        <ab>
+                            <handNote>In another hand</handNote>
+                        </ab>
+                        <ab><locus locusNew="261r">529</locus> blank</ab>
+                        <ab>Extract (<origDate>xv</origDate>)</ab>
+                        <incipit locus="530" locusNew="261v">Videtur itaque mihi claustralis vita</incipit>
+                        <ab>
+                            <ref type="bibl" target="Stubbs 1880">Stubbs, p. liii</ref>
+                        </ab>
+                        <ab locus="531" locusNew="262r">Notes. <ref type="bibl" target="Stubbs 1880">Stubbs, p. liii,
+                                liv</ref></ab>
+                        <ab><locus locusNew="262v">532</locus> covered with paper</ab>
+                    </msItem>
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA, CF</p>
+                            <p>msCheck: NJC 15/12/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

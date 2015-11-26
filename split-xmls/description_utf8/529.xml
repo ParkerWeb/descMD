@@ -1,0 +1,171 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC529">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>529</idno>
+                    <altIdentifier type="Elbing">
+                        <idno>N. 31</idno>
+                    </altIdentifier>
+
+                </msIdentifier>
+                <head type="CCC">Augustinus Triumphus de Ancona OESA, Tractatus super Ave Maria. Matthew of Krakow,
+                    Postilla de sanctis. Conradus of Soltau (Zolco), Commentary on Firmiter credimus</head>
+                <head type="James">[Untitled]</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">295</height>
+                        <width unit="mm">215</width>
+                    </measureGrp>, <measureGrp type="James">11.6 x 8.2</measureGrp>, <extent>ff. 292</extent>,
+                        <layout>single lines 19, and double columns 55, etc. lines</layout>. Cent.
+                        <origDate>xiv-xv</origDate>, <handNote>in several hands</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>18</num> | 2<num>12</num> 3<num>12</num> 4<num>10</num>
+                            5<num>12</num>-16<num>12</num> | 17<num>12</num>-23<num>12</num> |
+                        24<num>12</num></collation>.</p>
+
+                <p function="Provenance"><name type="person">Mary Pernham</name> on f. <locus>3v</locus>.</p>
+                <p function="Binding">Binding as usual, bosses gone, three metal tags. Paper label 40.</p>
+                <p type="CCC">
+                    <foliation>ff. i-iii + 1-292 + iv-vi</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+                    <milestone n="I" unit="volume"/>
+                    <msItem n="1" locusStart="1v" locusEnd="18v">
+                        <head type="CCC">
+                            <title>Concordantiae passionis domini</title>
+                        </head>
+                        <head type="James">
+                            <title>Concordantiae passionis domini</title>
+                        </head>
+                        <incipit locusNew="1v">Ante diem festum pasche</incipit>
+                        <explicit locusNew="18r">cum custodibus</explicit>
+                        <rubric locusNew="18r">Expliciunt concordancie passionis domini nostri Ihesu Christi</rubric>
+                        <ab>Few notes have been added, but the margins are wide and meant to receive them</ab>
+                        <ab locus="18v">blank</ab>
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+                    <msItem n="2" locusStart="19r" locusEnd="53v">
+                        <head type="CCC"><name type="author">Augustinus Triumphus de Ancona OESA</name>,
+                                <title>Tractatus super Ave Maria</title></head>
+                        <head type="James">
+                            <title><name type="author">Aug. de Ancona</name> super Aue Maria</title>
+                        </head>
+                        <incipit locusNew="19r">Quatuor michi tremorem ac timorem faciunt</incipit>
+                        <explicit locusNew="45r">acquirat saluationem. Amen</explicit>
+                        <rubric locusNew="45r">Explicit tractatus super Aue fratris <name type="author">Augustini de
+                                Ancona ordinis fr. heremitarum sancti augustini</name></rubric>
+                        <ab locus="45r">Tytuli questionum eiusdem tractatus</ab>
+                        <ab>ff. <locus>46v</locus>-<locus>53v</locus> blank</ab>
+                    </msItem>
+
+                    <milestone n="III" unit="volume"/>
+                    <msItem n="3" locusStart="54r" locusEnd="196v">
+                        <head type="CCC"><name type="author">Matthew of Krakow</name>, <title>Postilla de
+                                sanctis</title></head>
+                        <rubric locus="54r">Incipiunt postille per circulum anni de sanctis et primo de <name
+                                type="person">Sancto Andrea apostolo</name></rubric>
+                        <incipit locusNew="54r">Ambulans Ihesus ... hic dicit haymo</incipit>
+                        <ab>The Sanctoral includes <name type="person">Adalbert</name>, <name type="person"
+                            >Vitus</name>, <name type="person">Procopius</name>, <name type="person">Augustine</name>,
+                                <name type="person">Ludmilla</name>, <name type="person">Wenceslas</name>, de SS.
+                            quinque fratribus (after <name type="person">Martin</name>), <name type="person"
+                                >Elizabeth</name></ab>
+                        <explicit locusNew="186r">me vidente ad maiorem (?) eorum confusionem. hec gorra(m).
+                            Amen</explicit>
+                        <ab locus="186r">Table follows</ab>
+                        <ab>ff. <locus locusNew="191r">190r</locus>-<locus>196v</locus> blank</ab>
+                    </msItem>
+
+                    <milestone n="IV" unit="volume"/>
+                    <msItem n="4" locusStart="197r" locusEnd="280v">
+                        <head type="CCC"><name type="author">Conrad of Soltau (Zolco)</name>, <title>Commentary on
+                                Firmiter credimus (Summa de trinitate et fide catholica)</title></head>
+                        <head type="James">
+                            <title>Lectura capituli Firmiter credimus</title>
+                        </head>
+                        <incipit locusNew="197r">Firmiter hoc credimus ... fidem orthodoxam .i. katholicam solidum et
+                            primum omnium virtutum</incipit>
+                        <explicit locusNew="274v">trinitas indiuidua in secula seculorum</explicit>
+                        <rubric locusNew="274v">Explicit lectura capituli firmiter credimus de summa Trinitate et fide
+                            katholica. Completa in studio heydelbergensi per <name type="person">Conradum
+                                Zolconem</name> sacre theologie doctorem vel professorem</rubric>
+                        <ab locus="275r">Tytuli questionum</ab>
+                        <ab>ff. <locus>277r</locus>-<locus>280v</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="5" locusStart="281r" locusEnd="292v">
+                        <head type="CCC"><name type="author">Fulgentius of Ruspe (pseudo-Augustine)</name>, <title>De
+                                fide ad <name type="person">Petrum</name></title></head>
+                        <rubric locus="281r"><name type="author">Augustinus</name> de fide ad <name type="person"
+                                >petrum</name></rubric>
+                        <incipit locusNew="281r">Epistolam fili <name type="person">petre</name></incipit>
+                        <ab locus="292r">Ending</ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJM 04/02/2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

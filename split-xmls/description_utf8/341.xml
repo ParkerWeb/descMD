@@ -1,0 +1,124 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC341">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>341</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>9. 1</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>325</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Eadmer of Canterbury OSB, Historia nouorum in Anglia</head>
+                <head type="James">Eadmeri Historia Novorum</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">382</height>
+                        <width unit="mm">265</width>
+                    </measureGrp><measureGrp type="James">15 x 10.6</measureGrp>, <extent>pp. 166 written</extent>.
+                    Cent. <origDate>xvi</origDate>, <handNote>in a good clear hand</handNote>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + iia + iib + pp. 1-154 (155-156 missing) + 157-166 + ff. iii-v</foliation>.</p>
+
+                <p function="Provenance">It is a transcript of <ref type="ms" target="CCC452">MS. 452</ref> and
+                    according to the belief of Mr Rule (<ref type="bibl" target="Rule 1884">Eadmeri Historia, Rolls
+                        Series</ref>, p. xii) was made at <name type="place">Cambridge</name> while <ref type="ms"
+                        target="CCC452">MS. 452</ref> was in the possession of <name type="person">Dr Henry
+                    Johns</name>. A letter from <name type="person">Robinson Bishop of Bangor</name> to <name
+                        type="person">Parker</name> (<ref type="ms" target="CCC114B">MS 114, no. 179</ref>) deals with a
+                    transcript of <name type="author">Eadmer</name>'s <hi rend="italic">History</hi>.</p>
+
+
+                <p><supplied>Bound on hinges on f. <locus>iir</locus></supplied> is a <material>vellum leaf</material>
+                    (6.8 x 4.5) with <layout>33 lines of text to a page</layout>
+                    <handNote>in the <name type="place">Christ Church</name> hand</handNote>. On this see <ref
+                        type="bibl" target="Rule 1884">Mr Rule</ref>, p. 1 (and xi). It is <q>of identical penmanship
+                        with</q>
+                    <ref type="ms" target="CCC452">no. 452</ref> and contains the text of pp. 233-5 of the edition
+                    beginning: <q>permissum est. Zepherinus quoque martir</q>, and ending: <q>quapropter uident suum est
+                        consecret</q>.</p>
+
+                <p>Another vellum leaf <handNote>in the same hand</handNote>, also <supplied>bound on hinges on f.
+                            <locus>iir</locus></supplied>, has the capitula (35) of the <hi rend="italic">Vita
+                        Anselmi</hi> of <name type="author">Eadmer</name>, liber I: on this is the name: <q>Joannis
+                        Episcopi London.</q> i.e. <name type="person">John Stokesley</name>, <date>1530</date>.</p>
+                <p>See <ref type="bibl" target="Rule 1884">Rule</ref>, p. xi, etc. and pp. 305-7 where the text of the
+                    capitula is given, with the variants of this leaf.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1" locusEnd="166">
+
+
+                        <head type="CCC"><name type="author">Eadmer of Canterbury OSB</name>, <title>Historia nouorum in
+                                    <name type="place">Anglia</name></title></head>
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: RJR 3.8.07</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

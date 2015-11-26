@@ -1,0 +1,224 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC229">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>229</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Lib. ab Al. 23</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Nonius Marcellus, De compendiosa doctrina</head>
+
+                <head type="James">Nonius Marcellus</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">240</height>
+                        <width unit="mm">170</width>
+                    </measureGrp>
+                    <measureGrp type="James">9.6 x 6.8</measureGrp>, <extent>ff. 79</extent>, <layout>double columns of
+                        48 lines</layout>. Cent. <origDate>xii-xiii</origDate>, <handNote>in a very good small pointed
+                        hand</handNote>.</p>
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num>-10<num>8</num> (wants 8)</collation>.</p>
+
+                <p function="Additions">Vellum cover.</p>
+
+                <p function="Provenance">Given by <name type="person">Daniel Rogers</name>? A slip is cut out of the top
+                    and the bottom of f. <locus>1r</locus>.<lb/> At top of f. <locus>1r</locus> (<date>xvi</date>) prae.
+                        26<abbr rend="superscript">s</abbr> 8<abbr rend="superscript">d</abbr>.</p>
+
+                <p function="Additions">On f. <locus>79v</locus> are some scribbles, one (<date>xv</date>):
+                            <lb/><q><name type="author">Nonius marcellus</name> Romane lingue Interpres <lb/>non
+                        mediocris hoc compendioso opere suo latini <lb/>eloquii studiosos cultores mirum in modum
+                        etc.</q><lb/> Attached is what might be a signature: B. dior(?).</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. 1-79</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="79r">
+
+                        <head type="CCC"><name type="author">Nonius Marcellus</name>, <title>De compendiosa
+                                doctrina</title></head>
+
+                        <head type="James">
+                            <name type="author">Nonius Marcellus</name>
+                        </head>
+
+
+
+                        <ab>Begins</ab>
+
+
+                        <incipit locus="1r">De proprietate sermonum. Senium est tedium</incipit>
+                        <ab locus="2r">
+                            <handNote>Hand changes on f. <locus>2r</locus></handNote>
+                        </ab>
+                        <explicit locus="10r">in cohortibus centurionum appellati</explicit>
+
+
+
+                        <rubric locus="10r">Incipit littera per a</rubric>
+                        <ab locus="10r">(Capitulum II, ed. <ref type="bibl" target="Godefroy 1595"
+                            >Gothofredus</ref>)</ab>
+                        <incipit locusNew="10r">Apud iuxta sisenna historiograffus lib. iiij</incipit>
+
+
+
+                        <ab locus="27r">(Capitulum III.) Angiportus begins</ab>
+
+
+
+                        <ab locus="33r">(Capitulum IV.) Aduorsum</ab>
+
+
+
+                        <ab locus="60v"><supplied>Capitulum</supplied> V</ab>
+
+
+
+                        <ab locus="64r"><supplied>Capitulum</supplied> VI</ab>
+
+
+
+                        <ab locus="66v"><supplied>Capitulum</supplied> VII</ab>
+
+
+
+                        <ab locus="68v"><supplied>Capitulum</supplied> VIII</ab>
+
+
+
+                        <ab locus="70r"><supplied>Capitulum</supplied> IX</ab>
+                        <rubric locus="70r">Incipit de generibus et casibus</rubric>
+
+
+
+                        <ab locus="71v"><supplied>Capitulum</supplied> X</ab>
+                        <ab locus="71v">No rubric or break</ab>
+                        <incipit locusNew="71v">Feruit pro feruet</incipit>
+
+
+
+                        <ab locus="72r"><supplied>Capitulum</supplied> XI</ab>
+
+
+
+                        <ab locus="73v"><supplied>Capitulum</supplied> XII</ab>
+
+
+
+                        <ab locus="76r"><supplied>Capitulum</supplied> XIII</ab>
+                        <rubric locus="76r">Incipit de genere nauigiorum</rubric>
+
+
+
+
+                        <ab locus="76r"><supplied>Capitulum</supplied> XIV</ab>
+                        <rubric locus="76r">Incipit de genere vestimentorum</rubric>
+
+
+
+
+                        <ab locus="77r"><supplied>Capitulum</supplied> XV</ab>
+                        <rubric locus="77r">Incipit de genere vasorum uel poculorum</rubric>
+
+
+
+                        <ab locus="78r"><supplied>Capitulum</supplied> XVI</ab>
+                        <rubric locus="78r">Incipit de genere vel colore vestimentorum</rubric>
+
+
+
+                        <ab locus="78r"><supplied>Capitulum</supplied> XVII</ab>
+                        <rubric locus="78r">Incipit de genere ciborum vel pomorum</rubric>
+
+
+
+                        <ab locus="78v"><supplied>Capitulum</supplied> XVIII</ab>
+                        <rubric locus="78v">Incipit de genere armorum</rubric>
+
+
+
+                        <ab locus="79r"><supplied>Capitulum</supplied> XIX</ab>
+                        <rubric locus="79r">Incipit de propinquitate</rubric>
+
+                        <ab>Ending</ab>
+                        <explicit locusNew="79r">uetustissimis scriptoribus</explicit>
+
+
+
+
+
+
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, BA, CF</p>
+                            <p>msCheck: RJR 24.07.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -1,0 +1,921 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC316">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>316</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Q. 12</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>265</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Works by Hugh of Saint-Victor OSA, Augustine, Alexander of Canterbury OSB, and
+                    others</head>
+                <head type="James">Hugo super Dionysium. Augustini quaedam. Anselmi quaedam, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">240</height>
+                        <width unit="mm">162</width>
+                    </measureGrp>
+                    <measureGrp type="James">9.2 x 6.4</measureGrp>, <extent>ff. 3 + 216 + 1 + 1</extent>, <layout>36
+                        lines to a page</layout>. Cent. <origDate>xiii (early)</origDate>, <quote>seculo
+                            <origDate>xiv</origDate> scriptus</quote>, <handNote>in a very good regular
+                    hand</handNote>.</p>
+                <p><label>Collation:</label>
+                    <collation>3 flyleaves, I<num>8</num>-XVIII<num>8</num> (wants 7, 8) XIX (one) | gap |
+                            XXXIV<num>10</num> XXXV<num>12</num> XXXVI<num>8</num> XXXVII<num>12</num> (+2)
+                            XXXVIII<num>8</num> (+2) XXXIX<num>12</num> XL<num>8</num> (wants 8), 1
+                    flyleaf</collation>.</p>
+                <p function="Provenance">On top of the last flyleaf <supplied>(f. <locus>vr</locus>)</supplied>: <q>De
+                        communitate conuentus fratrum ordinis predicatorum <name type="place">London</name>.</q> below
+                    which is an erasure (cf. <ref type="ms" target="CCC299">MS 299</ref>, <ref type="ms" target="CCC306"
+                        >MS 306</ref>).</p>
+                <p>On f. <locus locusNew="iiv">ir</locus>, <locus locusNew="iiir">iir</locus> is a
+                        <origDate>xvith</origDate> cent. list of contents.</p>
+                <p function="Provenance">f. <locus locusNew="ivr">iiir</locus> is a bit of a deed of <date>1515</date>
+                    in the name of <name type="person">Thomas Godsalve</name>, Public Notary of <name type="place"
+                        >Norwich diocese</name> (cf. <ref type="ms" target="CCC166">MS 166</ref>), mentioning <name
+                        type="person">Richard (Nykke)</name> Bishop of <name type="place">Norwich</name>. His notarial
+                    mark and device <q>Veritas liberabit iustos</q> are on the margin.</p>
+                <p type="CCC">
+                    <foliation>ff. i-iv + 1-216 + v-vi</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+                    <msItem n="1" locusStart="1r" locusEnd="63v">
+
+                        <head type="CCC"><name type="author">Hugh of Saint-Victor OSA</name>, <title>Commentary on <name
+                                    type="person">pseudo-Dionysius</name>' Hierarchia caelestis</title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title><name type="author">Dyonisius Areopagita</name> de angelica hierarchia cum
+                                commentario [<name type="author" key="HuSV01">Hugonis de Sancto Victore</name>?]</title>
+                        </head>
+
+                        <head type="James">
+                            <title><name type="author" key="HuSV01">Hugo</name> on the Hierarchy of <name type="person"
+                                    >Dionysius</name></title>
+                        </head>
+
+                        <incipit locusNew="1r">Iudei signa querunt</incipit>
+                        <ab>(<ref type="bibl" target="Migne 175"><supplied>P. L.</supplied> CLXXV 923</ref>)</ab>
+                        <rubric locus="3v">Liber expositionis primus</rubric>
+
+                        <incipit locusNew="3v">Primus liber <name type="person">dionisii</name></incipit>
+                        <explicit locusNew="63v">sanctitas condescendit</explicit>
+
+
+                    </msItem>
+
+
+
+                    <msItem n="2" locusStart="63v" locusEnd="71r">
+                        <head type="CCC"><name type="author">Hugh of Saint-Victor OSA</name>, <title>De sacramentis
+                                legis naturalis et scriptae dialogus</title></head>
+                        <head type="Nasmith">
+                            <title><name type="author" key="HuSV01">Hugonis de Sancto Victore</name> didascalion</title>
+                        </head>
+                        <rubric locus="63r" locusNew="63v">Anima</rubric>
+                        <incipit locusNew="63v">Quid fuit priusquam mundus fieret</incipit>
+                        <ab>(<ref type="bibl" target="Migne 176"><supplied>P. L.</supplied> CLXXVI 17</ref>)</ab>
+                        <explicit locusNew="71r">si bene grates</explicit>
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="71v" locusEnd="81r">
+                        <head type="CCC"><name type="author">Augustine</name>, <title>De moribus ecclesiae
+                                catholicae</title></head>
+                        <head type="Nasmith">
+                            <title><name type="author">Aurelii Augustini</name>, oratoris eximii, <name type="place"
+                                    >Hipponensis</name> episcopi de moribus catholicae ecclesiae</title>
+                        </head>
+
+
+                        <head type="James">
+                            <title>Extract from Retractations</title>
+                        </head>
+                        <ab>Text</ab>
+                        <incipit locus="72r">In aliis libris satis opinor</incipit>
+                        <ab>(<ref type="bibl" target="Migne 032"><supplied>P. L.</supplied> XXXII 1309</ref>)</ab>
+
+
+                    </msItem>
+
+
+
+
+                    <msItem n="4" locusStart="81r" locusEnd="90v">
+
+                        <head type="CCC"><name type="author">Augustine</name>, <title>De moribus
+                            manicheorum</title></head>
+
+                        <head type="Nasmith">
+                            <title>Liber ejusdem de moribus Manichaeorum</title>
+                        </head>
+
+
+                        <head type="James">
+                            <title>De moribus manicheorum (ibid.)</title>
+                        </head>
+                        <incipit locusNew="81r">Nulli esse arbitror dubium</incipit>
+
+
+                    </msItem>
+
+
+
+                    <msItem n="5" locusStart="90v" locusEnd="100r">
+
+                        <head type="CCC"><name type="author">Augustine</name>, <title>Contra epistulam
+                            manichaei</title></head>
+
+                        <head type="Nasmith">
+                            <title>Liber ejusdem contra epistolam Manichaei quem vocant fundamentum fidei</title>
+                        </head>
+
+                        <head type="James">
+                            <title>Extract from Retractations</title>
+                        </head>
+                        <ab>Text</ab>
+                        <incipit locusNew="90v">Unum uerum deum</incipit>
+                        <ab>(<ref type="bibl" target="Migne 042"><supplied>P. L.</supplied> XLII 173</ref>)</ab>
+
+                    </msItem>
+
+
+                    <msItem n="6" locusStart="100r" locusEnd="108v">
+
+                        <head type="CCC"><name type="author">Augustine</name>, <title>De opere monachorum</title></head>
+
+                        <head type="Nasmith">
+                            <title>Liber ejusdem de opere monachorum</title>
+                        </head>
+
+                        <ab locus="100r">Prologue</ab>
+                        <incipit locus="100r">Ut de opere monachorum</incipit>
+                        <ab>(<ref type="bibl" target="Migne 040"><supplied>P. L.</supplied> XL 547</ref>)</ab>
+                        <incipit locusNew="100r">Iussioni tue sancte frater aureli</incipit>
+
+                    </msItem>
+
+
+                    <msItem n="7" locusStart="108v" locusEnd="116v">
+
+                        <head type="CCC"><name type="author">Fulgentius of Ruspe (pseudo-Augustine)</name>, <title>De
+                                fide ad <name type="person">Petrum</name></title></head>
+
+                        <head type="Nasmith">
+                            <title>Liber ejusdem de fide ad <name type="person">Petrum</name></title>
+                        </head>
+
+
+                        <incipit locus="108v">Epistolam fili <name type="person">petri</name></incipit>
+                        <ab>(<ref type="bibl" target="Migne 040"><supplied>P. L. </supplied> XL 573</ref>)</ab>
+
+                    </msItem>
+
+
+                    <msItem n="8" locusStart="116v" locusEnd="118v">
+
+                        <head type="CCC"><name type="author">pseudo-Augustine (perhaps Quoduultdeus)</name>, <title>De
+                                quatuor uirtutibus caritatis (sermo 106)</title></head>
+
+                        <head type="Nasmith">
+                            <title>Sermo ejusdem de quatuor virtutibus caritatis</title>
+                        </head>
+
+                        <incipit locus="116v">Desiderium caritatis</incipit>
+                        <ab>(<ref type="bibl" target="Migne 047"><supplied>P. L.</supplied> XLVII 1127</ref>)</ab>
+
+                    </msItem>
+
+
+                    <msItem n="9" locusStart="118v" locusEnd="120v">
+
+                        <head type="CCC"><name type="author">Augustine</name>, <title>De doctrina
+                            christiana</title></head>
+
+                        <head type="Nasmith">
+                            <title>Sermo ejusdem de doctrina christianorum</title>
+                        </head>
+
+
+                        <incipit locus="118v">Locutus est ad nos</incipit>
+                        <ab>(<ref type="bibl" target="Migne 034"><supplied>P. L.</supplied> XXXIV 15</ref>)</ab>
+
+                    </msItem>
+
+
+                    <msItem n="10" locusStart="120v" locusEnd="121v">
+
+                        <head type="CCC"><name type="author">Augustine</name>, <title>Sermo ad iuuenes</title></head>
+
+                        <head type="Nasmith">
+                            <title>Sermo ejusdem ad juvenes</title>
+                        </head>
+
+                        <incipit locus="120v">Ad uos mihi sermo est</incipit>
+                        <ab>(<ref type="bibl" target="Migne 039"><supplied>P. L.</supplied> XXXIX 1706</ref>)</ab>
+
+                    </msItem>
+
+
+                    <msItem n="11" locusStart="121v" locusEnd="123r">
+
+                        <head type="CCC"><name type="author">Augustine</name>, <title>Epistola 127</title></head>
+
+                        <head type="Nasmith">
+                            <title>Exortarius <name type="person">Augustini</name> de reddendo voto</title>
+                        </head>
+
+
+                        <incipit locus="122r">Dominis eximiis meritoque</incipit>
+                        <ab>(<ref type="bibl" target="Migne 033"><supplied>P. L.</supplied> XXXIII 483</ref>)</ab>
+
+                    </msItem>
+
+
+                    <msItem n="12" locusStart="123r" locusEnd="127v">
+
+                        <head type="CCC"><name type="author">Augustine</name>, <title>Sermo de X chordis (sermo
+                                9)</title></head>
+
+                        <head type="Nasmith">
+                            <title>Sermo ejusdem de decem cordis</title>
+                        </head>
+
+
+                        <incipit locus="123r">Dominus et deus noster</incipit>
+                        <ab>(<ref type="bibl" target="Migne 038"><supplied>P. L.</supplied> XXXVIII 75</ref>)</ab>
+
+                    </msItem>
+
+
+
+                    <msItem n="13" locusStart="127v" locusEnd="128v">
+
+                        <head type="CCC"><name type="author">Caesarius of Arles</name>, <title>Sermo de decem praeceptis
+                                et decem plagis Aegypti (sermo 100a)</title></head>
+
+                        <head type="Nasmith">
+                            <title>De decem plagis</title>
+                        </head>
+
+                        <incipit locus="127v">Non sine causa est</incipit>
+                        <ab>(<ref type="bibl" target="Migne 039"><supplied>P. L.</supplied> XXXIX 1783</ref>)</ab>
+
+                    </msItem>
+
+
+                    <msItem n="14" locusStart="128v" locusEnd="129r">
+
+                        <head type="CCC"><name type="author">pseudo-Augustine</name>, <title>De spiritu et
+                            anima</title></head>
+
+                        <head type="Nasmith">
+                            <title>Sermo <name type="author">Augustini</name> qualiter homo factus est ad imaginem et
+                                similitudinem Dei</title>
+                        </head>
+
+                        <incipit locus="128v">Tanta dingnitas humane</incipit>
+                        <ab>(<ref type="bibl" target="Migne 040"><supplied>P. L.</supplied> XL 1213</ref>s)</ab>
+
+                    </msItem>
+
+
+                    <msItem n="15" locusStart="129r" locusEnd="133r">
+
+                        <head type="CCC"><name type="author">Augustine</name>, <title>Sermones de poenitentia (sermones
+                                351 and 393)</title></head>
+
+                        <head type="Nasmith">
+                            <title>Sermo ejusdem de penitentia</title>
+                        </head>
+
+                        <incipit locus="129r">Quam sit utilis et necessaria</incipit>
+                        <ab>(<ref type="bibl" target="Migne 039"><supplied>P. L.</supplied> XXXIX 1535</ref>)</ab>
+
+                    </msItem>
+
+
+
+                    <msItem n="16" locusStart="133r" locusEnd="139v">
+
+                        <head type="CCC"><name type="author">Isidore of Seville</name>, <title>De differentiis
+                                rerum</title></head>
+
+                        <head type="Nasmith">
+                            <title>Liber <name type="author">Isiodori</name> junioris de differenciis</title>
+                        </head>
+
+
+                        <ab>Prologue</ab>
+                        <incipit locus="133r">Nonnulli norunt quod iste</incipit>
+                        <ab>(<ref type="bibl" target="Migne 083"><supplied>P. L.</supplied> LXXXIII 69</ref>)</ab>
+                        <incipit locusNew="133r">Inter deum et dominum</incipit>
+
+
+                    </msItem>
+
+
+                    <msItem n="17" locusStart="139v" locusEnd="140v">
+
+                        <head type="CCC"><name type="author">pseudo-Seneca</name>, <title>De morum
+                            institutione</title></head>
+
+                        <head type="Nasmith">
+                            <title>Liber <name type="author">Senecae</name> de institutione morum</title>
+                        </head>
+
+                        <incipit locus="139v">Omne peccatum actio est</incipit>
+                        <ab>(<ref type="bibl" target="Hase ????">Hase III 462</ref>)</ab>
+                        <explicit locusNew="140v">socios tue beatitudinis</explicit>
+
+
+                    </msItem>
+
+
+                    <msItem n="18" locusStart="140v" locusEnd="143v">
+
+                        <head type="CCC"><name type="author">Seneca</name>, <title>De clementia</title></head>
+
+                        <head type="Nasmith">
+                            <title>Liber ejusdem de clementia ad <name type="person">Neronem</name></title>
+                        </head>
+
+
+                        <incipit locus="140v">Scribere de clementia <name type="person">nero</name> cesar</incipit>
+                        <explicit locusNew="142r">inter feras similitudo morum</explicit>
+                        <rubric locusNew="142r">Explicit liber secundus lucii annei <name type="author">senece</name> de
+                            clementia ad <name type="person">neronem</name></rubric>
+
+                        <rubric locus="142v">Incipit eiusdem ad eundem de eadem re</rubric>
+                        <incipit locusNew="142v">Ut de clementia scriberem <name type="person">nero cesar</name> una me
+                            uox tua</incipit>
+                        <ab>Ends imperfectly</ab>
+                        <explicit locus="142v">Quam si quis a sapiente exigit prope est</explicit>
+                        <ab>f. <locus>143r</locus>-<locus>143v</locus> blank</ab>
+
+                    </msItem>
+
+
+
+
+                    <msItem n="19" locusStart="144r" locusEnd="149v">
+
+                        <head type="CCC"><name type="author">Augustine</name>, <title>De natura et origine animae, book
+                                1</title></head>
+
+                        <head type="Nasmith">
+                            <title>Liber <name type="author">Augustini</name> de natura et origine animae ad <name
+                                    type="person">Renatum</name></title>
+                        </head>
+
+                        <incipit locus="144r">Sinceritatem tuam</incipit>
+                        <ab>(<ref type="bibl" target="Migne 044"><supplied>P. L.</supplied> XLIV 475</ref>)</ab>
+
+
+                    </msItem>
+
+
+                    <msItem n="20" locusStart="149v" locusEnd="154r">
+
+                        <head type="CCC"><name type="author">Augustine</name>, <title>De natura et origine animae, book
+                                2</title></head>
+
+                        <head type="Nasmith">
+                            <title>Liber ejusdem ad <name type="person">Petrum</name> presbiterum de eadem re</title>
+                        </head>
+                        <incipit locus="149v">Domino dilectissimo fratri</incipit>
+                    </msItem>
+
+
+
+                    <msItem n="21" locusStart="154r" locusEnd="165v">
+                        <head type="CCC"><name type="author">Augustine</name>, <title>De natura et origine animae, book
+                                3</title></head>
+
+                        <head type="Nasmith">
+                            <title>Liber ejusdem ad <name type="person">Vincentium Victorem</name> de eadem re</title>
+                        </head>
+
+                        <incipit locus="154r">Quod mihi ad te scribendum</incipit>
+                        <ab>(<ref type="bibl" target="Migne 044"><supplied>P. L.</supplied> XLIV 509</ref>)</ab>
+                        <ab locus="158r">Liber II</ab>
+                        <explicit locusNew="165v">remotis plausibus alienis</explicit>
+
+
+                    </msItem>
+
+
+                    <msItem n="22" locusStart="166r" locusEnd="187v">
+
+                        <head type="CCC"><name type="author">Augustine</name>, <title>De diuersis quaestionibus
+                                LXXXIII</title></head>
+
+                        <head type="Nasmith">
+                            <title>Retractatio de diversis questionibus LXXXIII</title>
+                        </head>
+
+                        <rubric locus="166r">Retractatio</rubric>
+                        <ab>Text</ab>
+                        <incipit locus="167r">Utrum anima a se ipsa</incipit>
+                        <ab>(<ref type="bibl" target="Migne 040"><supplied>P. L.</supplied> XL 11</ref>)</ab>
+
+
+
+                    </msItem>
+
+
+                    <msItem n="23" locusStart=" 188r" locusEnd="189v">
+                        <head type="CCC"><name type="author">Drogo of Laon</name>, <title>Liber de diuinis
+                                officiis</title></head>
+                        <head type="Nasmith">
+                            <title>De nocturnis vigiliis et horis diei</title>
+                        </head>
+
+                        <incipit locus="188r">Dominus filios <name type="place">israel</name> de dura
+                            seruitute</incipit>
+                        <ab>(<name type="author">Ivo Carnotensis</name>
+                            <ref type="bibl" target="Migne 166"><supplied>P. L.</supplied> CLXVI 1557</ref>)</ab>
+                        <explicit locus="189r">ubi obdormiscere eum collocauerat</explicit>
+                        <ab locus="189r">Extracts on the penitence of <name type="person">Solomon</name></ab>
+
+                        <rubric locusNew="189r">
+                            <name type="person">Augustinus</name>
+                        </rubric>
+                        <rubric locusNew="189r"><name type="author">Jeronimus</name> in x<abbr rend="superscript"
+                                >o</abbr> viii<abbr rend="superscript">o</abbr> super <name type="person"
+                                >Ezechielem</name></rubric>
+                        <rubric locusNew="189r">
+                            <name type="person">Ambrosius</name>
+                        </rubric>
+                        <rubric locusNew="189v">Item <name type="person">Ambrosius</name> in apologia <name
+                                type="person">David</name></rubric>
+                        <ab>last</ab>
+                        <rubric locusNew="189v">Aiunt libri Hebrei</rubric>
+
+                        <incipit locusNew="189v"><name type="person">Salomonem</name> quinquies tractum</incipit>
+
+                    </msItem>
+
+
+
+
+                    <msItem n="24" locusStart=" 189v" locusEnd="191r">
+
+                        <head type="CCC"><name type="author">Eucherius, bishop of Lyon</name>, <title>Formulae
+                                spiritualis intelligentiae (excerpt)</title></head>
+
+                        <head type="Nasmith">
+                            <title>Sermo <name type="author">beati Hieronimi</name> presbiteri de essentia et
+                                invisibilitate et immensitate Dei</title>
+                        </head>
+
+
+                        <incipit locus="189v">Omnipotens deus pater et filius et spiritus sanctus unus atque
+                            trinus</incipit>
+                        <ab>(XI 138 <supplied>actually <ref type="bibl" target="Migne 050">P. L. L 729</ref></supplied>,
+                                <ref type="bibl" target="Vallarsi 1766-72">Vallarsi</ref>)</ab>
+
+                    </msItem>
+
+
+
+                    <msItem n="25" locusStart="191r" locusEnd="191v">
+
+                        <head type="CCC"><name type="author">Isidore of Seville</name>, <title>Etymologiae (excerpt on
+                                paradise and its rivers from book 14)</title></head>
+
+
+                        <head type="Nasmith">
+                            <title><name type="author">Isidorus</name> de paradiso et ejus fluviis ex libro XIV
+                                etimologiarum</title>
+                        </head>
+
+                        <incipit locus="191r">Paradisus est locus in orientis partibus</incipit>
+
+                    </msItem>
+
+
+                    <msItem n="26" locusStart="191v" locusEnd="192v">
+
+                        <head type="CCC"><name type="author">Jerome</name>, <title>Epistula ad Euangelum presbyterum de
+                                    <name type="person">Melchisedech</name> (epistola 73)</title></head>
+
+                        <head type="Nasmith">
+                            <title>Sententia <name type="author">beati Hieronimi</name> presbiteri de <name
+                                    type="person">Melchisedech</name></title>
+                        </head>
+
+                        <incipit locus="191v">Misisti mihi uolumen</incipit>
+                        <ab>(<ref type="bibl" target="Migne 022"><supplied>P. L.</supplied> XXII 676</ref>)</ab>
+
+
+                    </msItem>
+
+
+                    <msItem n="27" locusStart="192v" locusEnd="194v">
+
+                        <head type="CCC">
+                            <title>Notes from Scripture on the Wisdom of <name type="person">Solomon</name></title>
+                        </head>
+
+                        <head type="Nasmith">
+                            <title>Expositio quarundam authoritatum sanctorum</title>
+                        </head>
+
+                        <ab locus="192v">Notes on Wisdom, Proverbs, Ecclesiastes etc. including <q>mulier fortis</q>
+                            <supplied>(<locus>193r</locus>)</supplied></ab>
+                        <incipit locusNew="192v">Benignus est spiritus sapientie</incipit>
+
+                    </msItem>
+
+
+
+                    <msItem n="28.1" locusStart="194v" locusEnd="196v">
+
+                        <head type="CCC"><name type="author">Alexander of Canterbury OSB</name>, <title>Liber ex dictis
+                                    <name type="person">beati Anselmi</name> (first recension)</title></head>
+
+                        <head type="Nasmith">
+                            <title>Sermo <name type="author">Anselmi</name> archiepiscopi de dedicatione
+                                ecclesiae</title>
+                        </head>
+
+                        <incipit locusNew="194v">Quia sancta sollemnia dedicationis</incipit>
+                    </msItem>
+
+                    <msItem n="28.2" locusStart="196v" locusEnd="198v">
+                        <head type="CCC"><name type="author">Alexander of Canterbury OSB</name>, <title>Liber ex dictis
+                                    <name type="person">beati Anselmi</name> (first recension), continued</title></head>
+                        <ab><supplied>James Item</supplied> 28a</ab>
+
+                        <incipit locus="196v">Nichil requirit deus a nobis nisi bonitatem</incipit>
+
+                        <rubric locus="197r">Qualiter subditi debent uiuere ut cum proximis prelatis et deo pacem et
+                            concordiam habeant</rubric>
+                        <incipit locusNew="197r">Licet noueritis domini et fratres qualiter uiuere debeatis</incipit>
+
+                    </msItem>
+
+
+                    <msItem n="29" locusStart="198v" locusEnd="198v">
+
+                        <head type="CCC"><name type="author">Alexander of Canterbury OSB</name>, <title>Liber ex dictis
+                                    <name type="person">beati Anselmi</name> (first recension), continued</title></head>
+
+                        <head type="Nasmith">
+                            <title>Quomodo bonus homo de omnibus hominibus bonis et malis lucratur</title>
+                        </head>
+
+                        <incipit locus="198v">Bonus homo de omnibus bonis et malis</incipit>
+
+
+                    </msItem>
+
+                    <msItem n="30" locusStart="198v" locusEnd="200v">
+
+                        <head type="CCC"><name type="author">Alexander of Canterbury OSB</name>, <title>Liber ex dictis
+                                    <name type="person">beati Anselmi</name> (first recension), continued</title></head>
+
+
+                        <head type="Nasmith">
+                            <title>De XIIII partibus eternae beatudinis sive commoditatis quarum VII sunt quae corpori
+                                aptantur et VII quae animae ascribuntur quas si acquirit quisquis bonus
+                                efficitur</title>
+                        </head>
+
+
+                        <incipit locus="198v">Superius enunciatum esse meminimus que sunt habenda in edificatione
+                            bonitatis</incipit>
+
+                    </msItem>
+
+
+                    <msItem n="31" locusStart="200v" locusEnd="201r">
+
+                        <head type="CCC"><name type="author">Alexander of Canterbury OSB</name>, <title>Liber ex dictis
+                                    <name type="person">beati Anselmi</name> (first recension), continued</title></head>
+
+
+                        <head type="Nasmith">
+                            <title>Quomodo dicitur bonus homo quadratus lapis</title>
+                        </head>
+
+                        <incipit locus="200v">Quadrato lapidi operatur uir iustus</incipit>
+
+                    </msItem>
+
+
+
+                    <msItem n="32" locusStart="201r" locusEnd="201r">
+
+                        <head type="CCC"><name type="author">Alexander of Canterbury OSB</name>, <title>Liber ex dictis
+                                    <name type="person">beati Anselmi</name> (first recension), continued</title></head>
+
+
+                        <head type="Nasmith">
+                            <title>Quot modis sentitur Deus</title>
+                        </head>
+
+
+
+                    </msItem>
+
+                    <msItem n="33" locusStart="201r" locusEnd="201v">
+
+                        <head type="CCC"><name type="author">Alexander of Canterbury OSB</name>, <title>Liber ex dictis
+                                    <name type="person">beati Anselmi</name> (first recension), continued</title></head>
+
+                        <head type="Nasmith">
+                            <title>De trina divisione studiorum omnium hominum</title>
+                        </head>
+
+
+
+                    </msItem>
+
+                    <msItem n="34" locusStart="201v" locusEnd="202r">
+
+                        <head type="CCC"><name type="author">Alexander of Canterbury OSB</name>, <title>Liber ex dictis
+                                    <name type="person">beati Anselmi</name> (first recension), continued</title></head>
+
+
+                        <head type="Nasmith">
+                            <title>Quot genera virtutum sunt</title>
+                        </head>
+
+
+                    </msItem>
+
+
+                    <msItem n="35" locusStart="202r" locusEnd="202r">
+
+                        <head type="CCC"><name type="author">Alexander of Canterbury OSB</name>, <title>Liber ex dictis
+                                    <name type="person">beati Anselmi</name> (first recension), continued</title></head>
+
+                        <head type="Nasmith">
+                            <title>Quot causis vivant homines</title>
+                        </head>
+
+
+                    </msItem>
+
+
+                    <msItem n="36" locusStart="202r" locusEnd="203r">
+
+                        <head type="CCC"><name type="author">Alexander of Canterbury OSB</name>, <title>Liber ex dictis
+                                    <name type="person">beati Anselmi</name> (first recension), continued</title></head>
+
+
+                        <head type="Nasmith">
+                            <title>Qualiter quis ad perfectionem tendat et in pace vivat</title>
+                        </head>
+
+                    </msItem>
+
+
+
+                    <msItem n="37" locusStart="203r" locusEnd="203r">
+
+                        <head type="CCC"><name type="author">Alexander of Canterbury OSB</name>, <title>Liber ex dictis
+                                    <name type="person">beati Anselmi</name> (first recension), continued</title></head>
+
+                        <head type="Nasmith">
+                            <title>Quatuor sunt modi precipiendi et quatuor obediendi</title>
+                        </head>
+
+                    </msItem>
+
+
+
+                    <msItem n="38" locusStart="203r" locusEnd="203v">
+
+                        <head type="CCC"><name type="author">Alexander of Canterbury OSB</name>, <title>Liber ex dictis
+                                    <name type="person">beati Anselmi</name> (first recension), continued</title></head>
+
+                        <head type="Nasmith">
+                            <title>De pace facienda</title>
+                        </head>
+
+                    </msItem>
+
+
+
+                    <msItem n="39" locusStart="203v" locusEnd="205r">
+
+                        <head type="CCC"><name type="author">Alexander of Canterbury OSB</name>, <title>Liber ex dictis
+                                    <name type="person">beati Anselmi</name> (first recension), continued</title></head>
+
+                        <head type="Nasmith">
+                            <title>De septem gradibus montis humilitatis</title>
+                        </head>
+
+                    </msItem>
+
+
+                    <msItem n="40" locusStart="205r" locusEnd="205v">
+
+                        <head type="CCC"><name type="author">Alexander of Canterbury OSB</name>, <title>Liber ex dictis
+                                    <name type="person">beati Anselmi</name> (first recension), continued</title></head>
+
+                        <head type="Nasmith">
+                            <title>Quid sit detractio</title>
+                        </head>
+
+                    </msItem>
+
+
+                    <msItem n="41" locusStart="205v" locusEnd="206r">
+
+                        <head type="CCC"><name type="author">Alexander of Canterbury OSB</name>, <title>Liber ex dictis
+                                    <name type="person">beati Anselmi</name> (first recension), continued</title></head>
+
+                        <head type="Nasmith">
+                            <title>Quae sunt habenda ut bonus efficiatur</title>
+                        </head>
+
+                    </msItem>
+
+
+
+                    <msItem n="42" locusStart="206r" locusEnd="207r">
+
+                        <head type="CCC"><name type="author">Alexander of Canterbury OSB</name>, <title>Liber ex dictis
+                                    <name type="person">beati Anselmi</name> (first recension), continued</title></head>
+
+
+                        <head type="Nasmith">
+                            <title>Quod bonitas cujusque fidelis omnibus hominibus sit utilis et insensibili - angelis
+                                atque Deo et mala malis</title>
+                        </head>
+
+                        <ab><supplied>Items</supplied> 28a <supplied>(28.1)</supplied> - 42 are surely one treatise</ab>
+                        <ab>Perhaps ending</ab>
+                        <explicit locus="207r">et quod deus dederit de alia in sequentibus dicatur</explicit>
+
+
+                    </msItem>
+
+
+
+
+                    <msItem n="43" locusStart="207r" locusEnd="207v">
+
+                        <head type="CCC"><name type="author">Alexander of Canterbury OSB</name>, <title>Liber ex dictis
+                                    <name type="person">beati Anselmi</name> (first recension), continued</title></head>
+
+                        <head type="Nasmith">
+                            <title>Dicta <name type="author">Anselmi</name> archiepiscopi</title>
+                        </head>
+
+
+                        <rubric locus="207r">Dicta <name type="author">Anselmi</name> archiepiscopi</rubric>
+
+                        <incipit locusNew="207r">Omnis actio laudabilis siue reprehensibilis</incipit>
+
+
+                    </msItem>
+
+
+
+                    <msItem n="44" locusStart="207v" locusEnd="208r">
+
+                        <head type="CCC"><name type="author">Alexander of Canterbury OSB</name>, <title>Liber ex dictis
+                                    <name type="person">beati Anselmi</name> (first recension), continued</title></head>
+
+
+                        <head type="Nasmith">
+                            <title>De tribus naturis animae ac tribus delectationibus et quanta anima sit legitima vel
+                                formatrix</title>
+                        </head>
+
+
+                    </msItem>
+
+
+                    <msItem n="45" locusStart="208r" locusEnd="208r">
+
+                        <head type="CCC"><name type="author">Alexander of Canterbury OSB</name>, <title>Liber ex dictis
+                                    <name type="person">beati Anselmi</name> (first recension), continued</title></head>
+
+                        <head type="Nasmith">
+                            <title>De appetitu cui ratio dominatur</title>
+                        </head>
+
+
+                    </msItem>
+
+
+
+                    <msItem n="46" locusStart="208r" locusEnd="208v">
+
+                        <head type="CCC"><name type="author">Alexander of Canterbury OSB</name>, <title>Liber ex dictis
+                                    <name type="person">beati Anselmi</name> (first recension), continued</title></head>
+
+
+                        <head type="Nasmith">
+                            <title>De sedibus humilitatis quas superbia non nunquam invadit</title>
+                        </head>
+
+
+                    </msItem>
+
+
+
+                    <msItem n="47" locusStart="208v" locusEnd="216v">
+
+                        <head type="CCC"><name type="author">Alexander of Canterbury OSB</name>, <title>Liber ex dictis
+                                    <name type="person">beati Anselmi</name> (first recension), continued (De
+                                miraculis)</title></head>
+
+
+                        <head type="Nasmith">
+                            <title>Quare delectatur Deus potius in jejuniis vigiliis et afflictionibus hominum quam in
+                                satietate et quiete</title>
+                        </head>
+
+                        <ab>On ff. <locus>208v</locus>-<locus>214v</locus> are stories told by or of <name type="person"
+                                >Anselm</name></ab>
+
+                        <ab locus="214r"><name type="person">Anselmus</name>
+                            <name type="person">Hugoni</name> incluso</ab>
+                        <ab locus="214v"><name type="person">Anselm</name> to Prior <name type="person">Baldric of
+                                Bec</name></ab>
+                        <ab locus="215v">Dicta sapientum</ab>
+
+                        <incipit locusNew="215v">Nulle sunt occultiores insidie quam hee que latent in similitudine
+                            officii <name type="person">Cicero</name></incipit>
+                        <ab>Ending</ab>
+                        <explicit locus="216v">Qualis uulgus erit talia corda gerit</explicit>
+
+                        <ab locusNew="vr">There are scribbled notes on the flyleaf <supplied>(f.
+                                    <locus>vr</locus>-<locus>vv</locus>)</supplied></ab>
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, SP, BA</p>
+                            <p>msCheck: RJR 9/9/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

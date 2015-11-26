@@ -1,0 +1,448 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC476">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>476</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Under D. 7</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>364</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Prophecies of Merlin. Annales Sancti Pauli Londoniensis. 14 charters and laws</head>
+                <head type="James">Chronica etc. Londinensia</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">140</height>
+                        <width unit="mm">92</width>
+                    </measureGrp>, <measureGrp type="James">5.4 x 4</measureGrp>, <extent>ff. 3 + 182</extent>,
+                        <layout>21 lines to a page</layout>. Cent. <origDate>xiv early</origDate>, <handNote>in
+                        charter-like hand</handNote>.</p>
+
+
+
+                <p><label>Collation:</label>
+                    <collation>a<num>4</num> (wants 4), 1<num>8</num>-5<num>8</num> | 6<num>8</num>-15<num>8</num>
+                            16<num>10</num> 17<num>8</num>-19<num>8</num> 20<num>6</num> 21<num>8</num> 22<num>4</num>
+                            23<num>6</num> 24<num>4</num></collation>.</p>
+                <p><label>2 fo.:</label>
+                    <secFol>ex fixa</secFol>.</p>
+
+                <p function="Provenance">From <name type="place">London</name>.<lb/> An entry in <ref type="bibl"
+                        target="Bale 1902">Bale's <hi rend="italic">Index</hi> (Poole and Bateson, p. 490)</ref> throws
+                    a little light on the history of the volume:<lb/> Chronicon incerti autoris ab a. d.
+                        <date>1064</date> usque ad ann. <date>1275</date>.<lb/> lib. I. Sanctus <name type="person">rex
+                        Edwardus</name> migrauit.<lb/> Iter iusticiariorum lib. I. Prosecutio facta tempore <name
+                        type="person">domini Ioannis</name>.<lb/> Ex domo <name type="person">Gerbrandi
+                        Oxoniensis</name>.<lb/> Also on p. 29 is a notice of the prophecy of Merlin with its comment
+                        <q>ex officina Gerbrandi bibliopole,</q> clearly from our MS.</p>
+                <p function="Research">Used by <ref type="bibl" target="Liebermann 1903">Liebermann (<hi rend="italic"
+                            >Gesetze</hi>)</ref> and called by him Cc.</p>
+                <p><layout>The first tract is in double columns</layout>.</p>
+
+
+
+                <p type="CCC">
+                    <foliation>ff. a-d + i-iii + 1-182 + e-g</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="frm">Latin and Anglo-Norman.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="ir" locusEnd="40v">
+                        <head type="CCC">
+
+                            <title>Prophecies of Merlin</title>
+
+                        </head>
+                        <head type="Nasmith">
+                            <title>Prophetiae Merlini cum commentario, ut videtur, Caradoci</title>
+                        </head>
+                        <ab>
+                            <quote>Major pars harum prophetiarum caret commentario et saltem gaudet glossa
+                                interlineari</quote>
+                        </ab>
+
+                        <rubric locus="1r" locusNew="ir">Historiam Britonum doctus scripsit <name type="author"
+                                >Caradocus</name>
+                            <lb/>Post <name type="person">Caduualladrum</name> regia sceptra notans
+                                (<origDate>xvi</origDate>)</rubric>
+                        <rubric locus="1r">Uerba <name type="author">Galfridi munemutensis</name> que ego posui in
+                            continuacione hystorie ut pateret aditus ad sequencia</rubric>
+                        <ab locusNew="1r">[Note by <name type="person">Bale</name>: Autor putatur <name type="author"
+                                >Caradocus</name> lancarbanensis]</ab>
+                        <incipit locusNew="1r">Non bene autem ad hunc locum historie perueneram cum diuulgato de merlino
+                            rumore</incipit>
+                        <explicit locusNew="1r">cum meis litteris eidem direxi</explicit>
+                        <incipit locusNew="1r">Cogit me <name type="person">Alexander</name></incipit>
+                        <explicit locusNew="1r">prophetias merlini transferre</explicit>
+                        <rubric locusNew="1r">Incipit prefacio hec in merlinum</rubric>
+                        <incipit locusNew="1r">Ferunt historie quod <name type="person">vortigernus</name> rex Britonum
+                            post regni sui inuasionem</incipit>
+                        <explicit locusNew="2r">tali uoluminis sui fecit exordium</explicit>
+                        <ab locus="2v">
+                            <decoNote>A full-page drawing: figures in outline: ground partly coloured: good spirited
+                                work, a little rough; some gold is used.<lb/> Two round-headed arches surmounted by red
+                                and brown battlements and turrets.<lb/> In L. <hi rend="italic">Rex <name type="person"
+                                        >Vortigernus</name></hi> (name in capitals round the arch) throned, cross-legged
+                                with sword point upwards.<lb/> In R. <hi rend="italic">Vates Merlinus</hi>, a boy in
+                                cloak, tunic, breeches tied at the knees, hose, and shoes, bareheaded: holding a blank
+                                scroll and pointing downwards.<lb/> Below under two low arches a white and a red dragon,
+                                each winged and two-legged, face each other. Over the white one on L. is <hi
+                                    rend="italic">Saxonicus populus hic figuratur</hi>, over the other <hi rend="italic"
+                                    >gentes britonum significat</hi></decoNote>
+                        </ab>
+                        <ab locus="3r">The prophecies of Merlin from <name type="author">Geoffrey</name> follow. The
+                            text <handNote>in larger script with interlinear glosses</handNote>, in the inner column.
+                                <handNote>Comment in smaller script in outer column</handNote></ab>
+                        <ab>
+                            <hi rend="italic">Text</hi>
+                        </ab>
+                        <incipit locusNew="3r">Sedente itaque <name type="place">Vortigerno</name></incipit>
+                        <ab>(Galfr. Monum. lib. VII)</ab>
+                        <ab>
+                            <hi rend="italic">Comm.</hi>
+                        </ab>
+                        <incipit locusNew="3r">Sedente itaque eo i. deliberante et disponente de turri
+                            edificanda</incipit>
+                        <ab locus="16v">The comment ends, unfinished</ab>
+                        <ab locus="40v">Text ends</ab>
+                        <explicit locus="40v">sonitum inter sidera conficient</explicit>
+                        <ab>Gloss</ab>
+                        <explicit locusNew="40v">eritque celum nouum et terra noua translato hoc mundo uel hoc
+                            modo</explicit>
+                        <rubric locusNew="40v">Expliciunt dicta merlini vatis</rubric>
+                    </msItem>
+
+                    <msItem n="2" locusStart="41r" locusEnd="120v">
+                        <head type="CCC">
+
+                            <title>Annales <name type="place">Sancti Pauli Londoniensis</name>
+                                    (<date>1064</date>-<date>1274</date>)</title>
+
+                        </head>
+                        <head type="Nasmith">
+                            <title>Annales Angliae a morte <name type="person">Edwardi confessoris</name> ad annum
+                                    <date>1274</date></title>
+                        </head>
+                        <ab locus="41r">Chronicle <decoNote>with handsome initial</decoNote></ab>
+                        <ab>(<ref type="bibl" target="Hardy 1871">Hardy III 207</ref>)</ab>
+                        <incipit locusNew="41r"><date>mlxiiij</date>. Sanctus <name type="person">Rex Edwardus</name>
+                            migrauit ad dominum et sepultus est die Epiphanie apud <name type="place">Westm</name>.
+                            Eodem die coronatus est <name type="person">Rex Haraldus</name></incipit>
+                        <ab>Ends in <date>1274</date></ab>
+                        <explicit locusNew="118r">Dominus quidem <name type="person">Philippus Rex ffrancie</name> omnes
+                            terras redditus et possessiones ipsius <name type="person">G(astoni)</name>
+                            <hi rend="footnote">sc. <name type="person">Gaston de Bierne</name></hi> seisiuit non
+                            permittens eundem emolumentum quantumcumque modicum inde possidere donec gratiam coram facie
+                            domini Regis Anglie valeret promereri</explicit>
+                        <ab>See the <hi rend="italic">Annales London</hi>. in <ref type="bibl" target="Stubbs 1882"
+                                >Stubbs, <hi rend="italic">Chron. of Edw. I</hi>, I 84</ref>. Also <ref type="bibl"
+                                target="Liebermann 1888">MGH. XXVIII</ref>. <name type="person">Miss Bateson</name> had
+                            examined the text: <ref type="bibl" target="Liebermann 1903">see note, Liebermann, p.
+                                xxi</ref></ab>
+                        <ab>ff. <locus>118v</locus>-<locus>120v</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="3" locusStart="121r" locusEnd="130v">
+                        <head type="CCC">
+                            <title>Case of <name type="person">Hugh de Waltham</name>, clerk, in the Exchequer, for
+                                pardon of Ł200 owed to the crown in the purpresive of <name type="person">Leo the
+                                    Jew</name> (temp <name type="person">John</name>)</title>
+
+                        </head>
+                        <head type="Nasmith">
+                            <title>Prosecutio facta tempore <name type="person">domini Iohannis de Gisorcio maioris
+                                    London</name> per <name type="person">Hugonem de Waltham</name> clericum coram
+                                baronibus de scaccario ad exonerandum cives et vicecomites dictae civitatis de V marcis
+                                annuis exactis in pipa inter purpresturas de quodam mesuagio quod <name type="person"
+                                    >Leo judeus</name> tenuit et quod fuit <name type="person">Martini de Virly</name>
+                                in <name type="place">Melkstrete</name> et de exoneratione CC li. de arrearagiis
+                                dictarum V marcarum. In Rotulo XXXI<abbr rend="italic">o</abbr> R. h.</title>
+                        </head>
+                        <ab locus="121r">Title as in Nasmith</ab>
+                        <ab>Apparently ended <date>6 Edw. II</date></ab>
+                        <ab>Ends</ab>
+                        <explicit locus="129v">et lx s. de eadem de lx annis preteritis</explicit>
+                        <ab>f. <locus>130r</locus>-<locus>130v</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="4" locusStart="131r" locusEnd="138v">
+                        <head type="CCC">
+                            <title>Rules for the royal justices sitting at the <name type="place">Tower of
+                                London</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Modus et ordo de itinere justiciariorum domini regis ad <name type="place">turrim
+                                    London</name></title>
+                        </head>
+                        <head type="James">
+                            <title>Modus et ordo, etc.</title>
+                        </head>
+                        <ab>
+                            <quote>Hic habentur leges et consuetudines observandae infra praedictam civitatem in
+                                placitis coronae</quote>
+                        </ab>
+
+                        <incipit locusNew="131r">In primis cum eisdem Baronibus et ciuibus ratum fuerit</incipit>
+                        <explicit locusNew="138v">nisi tantummodo communis reuelacio populi per ciuitatem</explicit>
+                        <rubric locusNew="138v">Explicit modus et ordo de Itinere Justiciar. domini Regis ad <name
+                                type="place">turr. London</name></rubric>
+                    </msItem>
+
+                    <msItem n="5" locusStart="139r" locusEnd="148r">
+                        <head type="CCC">
+                            <title>Magna Carta, re-issue of <date>1225</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Magna charta confirmata <date>9 Hen. III</date></title>
+                        </head>
+                        <ab locus="139r">Magna charta confirmata <date>9 Hen. III</date></ab>
+                        <ab>Later note at end</ab>
+                        <ab locusNew="148r">
+                            <q>Confirmat. per <name type="person">Ed. primum filius (!) Henr. secundi</name> Dat. per
+                                manum suam ap. <name type="place">Westm.</name>
+                                <date>xxviii die marc. a. r. sui xxviii</date></q>
+                        </ab>
+                    </msItem>
+
+                    <msItem n="6" locusStart="148r" locusEnd="150r">
+                        <head type="CCC">
+                            <title>Sentence of excommunication for those violating the <date>1225</date> re-issue of
+                                Magna Carta</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Sententia excommunicationis pronuntiata in eos qui hanc chartam violaverint</title>
+                        </head>
+                        <ab locus="147r" locusNew="148r">Sententia excommunicationis</ab>
+                        <incipit locusNew="148r">Anno domini <date>mill. cc liii<abbr rend="superscript">o</abbr> Idus
+                                Maii</date> in maiori Aula Regia Westm., etc.</incipit>
+                        <incipit locus="148v" locusNew="149v">Omnes utlagati pro foresta tempore <name type="person">H.
+                                regis</name> aui nostri usque ad primam coronacionem veniant ad pacem</incipit>
+                    </msItem>
+
+                    <msItem n="7" locusStart="150r" locusEnd="151v">
+                        <head type="CCC">
+                            <title>Charter of <name type="person">Henry III</name> to the citizens of <name type="place"
+                                    >London</name>, <date>17th July 1217</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta <name type="person">Henrici III</name>. concessa civibus <name type="place"
+                                    >London</name>
+                                <date>anno regni 1<abbr rend="superscript">o</abbr></date></title>
+                        </head>
+                        <ab>Charta <name type="person">Henr. III</name> ciuibus <name type="place">london</name>. <name
+                                type="place">Shoreham</name>, <date>17 July anno primo</date></ab>
+                    </msItem>
+
+                    <msItem n="8" locusStart="152r" locusEnd="154v">
+                        <head type="CCC">
+                            <title>Confirmation of <name type="person">John</name>'s charter to the sheriffs of <name
+                                    type="place">London</name> and <name type="place">Middlesex</name>, <date>5th July
+                                    1199</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta <name type="person">regis Ioannis</name> de vicecomitatu <name type="place"
+                                    >London</name> et <name type="place">Middlesex</name> eisdem concessa, <date>anno
+                                    regni I<abbr rend="superscript">o</abbr></date></title>
+                        </head>
+                        <ab>Charta <name type="person">Johannis</name>, ap. <name type="place">doneville super
+                                Tokam</name>, <date>5 July anno I<abbr rend="superscript">mo</abbr></date></ab>
+                        <ab>f. <locus locusNew="152v">151v</locus>, <locus locusNew="153r">152r</locus> accidentally
+                            left blank</ab>
+                    </msItem>
+
+                    <msItem n="9" locusStart="155r" locusEnd="155v">
+                        <head type="CCC">
+                            <title>Charter of <name type="person">John</name> regarding fish weirs in the <name
+                                    type="place">Thames</name> and <name type="place">Medway</name>, <date>27th June
+                                    1199</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta <name type="person">Ioannis regis</name> de kydellis in <name type="place"
+                                    >Thamesia</name> et <name type="place">Medeweya</name> amovendis <date>anno regni
+                                        I<abbr rend="superscript">o</abbr></date></title>
+                        </head>
+                        <ab>Charta <name type="person">Johannis</name>, de kydellis. <name type="place">Shoreham</name>,
+                                <date>27 June anno I<abbr rend="superscript">mo</abbr></date></ab>
+                    </msItem>
+
+                    <msItem n="10" locusStart="156r" locusEnd="157r">
+                        <head type="CCC">
+                            <title>Charter of <name type="person">Richard I</name> to <name type="place">London</name>,
+                                    <date>23rd April 1194</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta <name type="person">Ricardi regis</name> de libertatibus civium <name
+                                    type="place">Lond.</name>
+                                <date>anno regni 5<abbr rend="superscript">to</abbr></date></title>
+                        </head>
+                        <ab>Charta <name type="person">Ricardi</name>. <name type="place">Wynton.</name>, <date>23 Ap.
+                                anno 5<abbr rend="superscript">o</abbr></date></ab>
+                    </msItem>
+
+                    <msItem n="11" locusStart="157v" locusEnd="160v">
+                        <head type="CCC">
+                            <title>Charter of <name type="person">Henry III</name> pardoning the barons of London feudal
+                                aids at the marriage of <name type="person">Richard of Cornwall</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta <name type="person">Henrici III</name>. quod barones civitatis <name
+                                    type="place">London</name> gratis fecerunt servitium de sutellaria in nuptiis <name
+                                    type="person">Ricardi comitis Cornubiae</name> et non ex aliquo debito <date>anno
+                                    regni 28<abbr rend="superscript">o</abbr></date></title>
+                        </head>
+                        <ab>Charta <name type="person">Henrici III</name>. <name type="place">Westm.</name>, <date>24
+                                Nov. anno 28<abbr rend="superscript">o</abbr></date></ab>
+                        <ab><locus>158r</locus>-<locus>160v</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="12" locusStart="161r" locusEnd="162r">
+                        <head type="CCC">
+                            <title>Royal charter granting the right to farm <name type="place">Middlesex</name> to the
+                                citizens of <name type="place">London</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta regia de comitatu <name type="place">Middlesex</name> civibus <name
+                                    type="place">London</name> ad firmam dato pro CCC lib. etc.</title>
+                        </head>
+                        <ab>Charta regia, <handNote>in smaller hand</handNote>. <ref type="bibl"
+                                target="Liebermann 1903">Liebermann, p. 524</ref></ab>
+                    </msItem>
+
+                    <msItem n="13" locusStart="162v" locusEnd="163r">
+                        <head type="CCC">
+                            <title>Royal charter of the liberties of <name type="place">London</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Carta regia de libertatibus civitatis <name type="place">London</name></title>
+                        </head>
+                    </msItem>
+
+                    <msItem n="14" locusStart="163v" locusEnd="168v">
+                        <head type="CCC">
+                            <title>Questions of the royal justices concerning places in the <name type="place">city of
+                                    London</name> and the answers of the citizens</title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Exceptiones quas justiciarii proposuerunt civibus <name type="place">London</name>
+                                super placitis <date>10 Hen. III</date>. et responsiones eorundem singulis
+                                exceptionibus</title>
+                        </head>
+                        <rubric locus="163v">Hic incipiunt excepciones quas Justiciarii proposuerunt <name type="place"
+                                >ciuibus london</name> super placitis anno coronacionis Regis <name type="person"
+                                >Henrici tercii</name> x<abbr rend="superscript">mo</abbr> et responsiones eorundem
+                            singulis excepcionibus sicut inferius continetur</rubric>
+                        <incipit locusNew="164r">Inquirendum est ciuibus qualiter Archiepiscopi, etc.</incipit>
+                        <explicit locusNew="167v">de seruicio suo reddendo ad terminos</explicit>
+                        <ab>f. <locus>168r</locus>-<locus>168v</locus> blank</ab>
+                    </msItem>
+
+                    <msItem n="15" locusStart="169r" locusEnd="173v">
+                        <head type="CCC">
+                            <title><name type="person">Edward I</name>'s ordinance against felons,
+                                <date>1300</date></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Ordinatio <name type="person">Edwardi I</name>. contra felonias <date>anno regni
+                                        28<abbr rend="superscript">o</abbr></date>, <hi rend="italic"
+                                >Gallice</hi></title>
+                        </head>
+                        <ab locus="169r">Ordinatio <name type="person">Edwardi I</name>, <handNote>larger
+                                hand</handNote></ab>
+                        <incipit locus="169r"><name type="person">Edwardus</name> ... Cum ad maiorem
+                            tranquillitatem</incipit>
+                        <explicit locusNew="170r"><name type="place">Westm.</name>, <date>16 Nov. anno xxi<abbr
+                                    rend="superscript">o</abbr></date></explicit>
+                        <incipit locusNew="170r">Pur ceo qe de iour en iour</incipit>
+                        <ab locus="173v">Ending imperfectly</ab>
+                        <explicit locus="173v">Espeyes coteus e autres meins armes e toutz les autres qe auer</explicit>
+                    </msItem>
+
+                    <msItem n="16" locusStart="174r" locusEnd="182v">
+                        <head type="CCC">
+                            <title><name type="person">William I</name>'s confirmation of the laws of <name
+                                    type="person">Edward the Confessor</name></title>
+                        </head>
+                        <head type="Nasmith">
+                            <title>Leges et libertates concessae a <name type="person">Willelmo Conquestore</name>
+                                <date>anno regni 4<abbr rend="superscript">to</abbr></date></title>
+                        </head>
+                        <ab>
+                            <handNote>Hand of no. 12</handNote>
+                        </ab>
+                        <incipit locus="174r">Post adquisicionem Anglie per <name type="person">Willm ducem
+                                normann.</name> idem Rex. <name type="person">Will.</name>
+                            <date>anno regni sui quarto</date></incipit>
+                        <explicit locusNew="177r">ubi tunc temporis non erat nisi una et sic ceperunt minui</explicit>
+                        <ab>The <ref type="ms" target="CLRO03">Guildhall <hi rend="italic">Liber Memorandorum</hi></ref>
+                            also ends at this point. <ref type="bibl" target="Liebermann 1903">Liebermann, pp.
+                                627-633</ref></ab>
+                        <ab>ff. <locus>177v</locus>-<locus>182r</locus> blank</ab>
+                        <ab locus="178r">an erasure</ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJC 14/10/2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

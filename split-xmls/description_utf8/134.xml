@@ -1,0 +1,154 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC134">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>134</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>P. 8</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>239</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Berengaudus, Expositio super septem uisiones libri Apocalypsis</head>
+                <head type="James">Berengaudus Super Apocalypsim</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">315</height>
+                        <width unit="mm">200</width>
+                    </measureGrp><measureGrp type="James">12.25 x 8</measureGrp>, <extent>ff. 170 + 3</extent>,
+                        <layout>30 lines to a page</layout>. Cent. <origDate>xii</origDate>, <handNote>in more than one
+                        very round and black hand</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num> i<num>8</num>-xiii<num>8</num> (3 canc.) xiv<num>8</num>-xvi<num>8</num>
+                        (one canc.) xvii<num>8</num>-xxi<num>8</num> xxii<num>4</num> b<num>1</num></collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>at age penitentiam</secFol>.</p>
+
+                <p function="Provenance">The flyleaves <supplied>(<locus>iv</locus>-<locus>iiv</locus>,
+                            <locus>iiir</locus>)</supplied> are fragments of an account roll. On the first, land
+                        <q>iuxta <name type="place">Burghbrygg</name></q> is mentioned. On the second is the entry <q>de
+                        manerio de <name type="place">Alwalton</name>.</q> On that at the end <q>ad Rectoriam de <name
+                            type="place">Wermer</name>.</q> Alwalton suggests <name type="place">Peterborough</name>:
+                    but <name type="place">Pentney</name> (see below) is also possible.</p>
+
+                <p type="CCC">
+                    <foliation>ff. aa-bb + a-b + i-ii + 1-170 + iii + c-d</foliation>.</p>
+
+                <p function="Addition">On ff. <locus>1r</locus>-<locus>1v</locus> are two letters of <name type="author"
+                        >Thomas Becket</name>
+                    <handNote>in a hand of cent. <origDate>xii late or xiii early</origDate></handNote>.<lb/> 1. <name
+                        type="author">T. dei gr. Cant. Arch.</name> etc. ven. fratri eadem gratia Norwic. episcopo
+                    excommunicating <name type="person">Comes Hugo</name>, the <name type="person">Bishops of
+                        London</name> and <name type="person">Sarum</name>, <name type="person">Thomas fil.
+                        Bernard.</name>, <name type="person">Rand, de Broc</name>, <name type="person">Rodb. de
+                        Broc</name> etc.<lb/> 2. <name type="person">Th. d. g. Cant. Arch.</name> etc. dilectis filiis
+                    Canonicis Panteneiens. (? of <name type="place">Pentney in Norfolk</name>) excommunicating <name
+                        type="person">Comes Hugo</name>.<lb/> A note: <q>Anno <name type="person">Greg. pape VI</name>.
+                        in sancta synodo habitus est sermo de corpore et sang. Christi et diuersi diuersa sencientes. ut
+                        habetur in registro Greg. primo folio. Denique <name type="person">Berengarius</name>
+                    etc.</q></p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="2r" locusEnd="170v">
+                        <head type="CCC">
+                            <name type="author">Berengaudus</name>, <title>Expositio super septem uisiones libri
+                                Apocalypsis</title>
+                        </head>
+
+                        <ab locus="2r" rend="withinContents">At top, old title: <q><name type="author"
+                                    >Berengaldus</name> super Apocalipsin</q></ab>
+
+                        <rubric locus="2r">Incipit liber Apocalipsin. id est Revelationis</rubric>
+                        <ab>(<decoNote>red capitals</decoNote>)</ab>
+                        <incipit locusNew="2r">Apocalipsis Ihesu Christi etc.</incipit>
+                        <ab locusNew="2r">
+                            <decoNote>Fine initial in red outline: grounds purple and yellow</decoNote>
+                        </ab>
+                        <ab>(Text of Apoc. IIII)</ab>
+                        <rubric locus="4v">Incipit expositio prime visionis in Apocalipsin</rubric>
+                        <incipit locusNew="4v"><name type="person">Beatum Johannem</name> apostolum et
+                            evangelistam</incipit>
+                        <ab>(<ref type="bibl" target="Migne 017"><supplied>P. L.</supplied> XVII 765 (843)</ref>)</ab>
+                        <ab locusNew="4v">
+                            <decoNote>Fine initial in red outline: yellow panelling: grotesque human figures</decoNote>
+                        </ab>
+                        <ab>
+                            <decoNote>The subsequent visions have plainer initials on red and green</decoNote>
+                        </ab>
+                        <ab>Ends</ab>
+                        <explicit locus="170r">participes esse mereamur. qui cum patre et spiritu sancto uiuit et regnat
+                            in secula seculorum. Amen</explicit>
+                        <rubric locusNew="170r">Explicit expositio libri apocalipsis</rubric>
+                        <incipit locusNew="170r">Quisquis nomen auctoris scire</incipit>
+                        <explicit locus="170v">vel certe in melius commutandum</explicit>
+                        <rubric locus="170v">Explicit liber</rubric>
+
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJM 31/07/08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

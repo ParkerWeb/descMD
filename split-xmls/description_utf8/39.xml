@@ -1,0 +1,148 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC039">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>39</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>P. 16</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>243</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+
+                <head type="CCC">Vincent of Beauvais OP, Speculum naturale, books 2-17</head>
+
+                <head type="James">Vincentii Speculum Naturale I-XV</head>
+
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">240</height>
+                        <width unit="mm">215</width>
+                    </measureGrp><measureGrp type="James">13.3 x 8.5</measureGrp>, <extent>ff. 384 + 6</extent>,
+                        <layout>double columns of 45 lines</layout>. Cent. <origDate>xiv early</origDate>,
+                        <handNote>very well written</handNote>. Flyleaves, 2 at the beginning and 4 at the end from a
+                        <origDate>xiv-xv</origDate>th century copy of a commentary on <name type="person">Job</name> in
+                    double columns, badly written.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num>, 1<num>8</num>-48<num>8</num> b<num>4</num></collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>diffinire uolens</secFol>.</p>
+
+
+
+
+                <p function="Provenance">At top of f. <locus>1r</locus> (<origDate>xv-xvi</origDate>) is the word or
+                    name <q>May</q>. On f. <locus>384v</locus> near the bottom in old pencil: <q>I (or X) C. xii</q>. At
+                    top of f. <locus>1r</locus> an inscription has probably been cut off. I have an impression from the
+                    character of the writing (coupled with the press-mark, if press-mark it be, at the end) that the
+                    book is from <name type="place">Norwich Priory</name>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-21 + 21a + 22-388 + iii-iv</foliation>.</p>
+
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="3r" locusEnd="384v">
+
+                        <head type="CCC"><name type="author" key="ViBe01">Vincent of Beauvais OP</name>, <title>Speculum
+                                naturale, books 2-17</title></head>
+
+                        <head type="James">
+                            <name type="author" key="ViBe01">Vincentii</name>
+                            <title>Speculum Naturale I-XV</title>
+                        </head>
+
+
+                        <ab>Without title: libri I - XV (II - XVII). <hi rend="footnote">Note that in the printed
+                                editions Liber I is the compiler's Preface to the whole Speculum, which is not in this
+                                copy. Liber I of this MS. therefore = Liber II of the print and so on. Further, books X
+                                and XI of the print are here shortened (esp. book X) into one book, Liber IX. Liber X of
+                                the MS. therefore = XII of the print and so on, XV of the MS. = XVII of the
+                            print.</hi></ab>
+
+
+
+                        <rubric locus="1r" locusNew="3r">De diuersis mundi acceptionibus ex libro qui dicitur ymago
+                            mundi</rubric>
+                        <incipit locusNew="3r">Mundi factura quinque modis describitur</incipit>
+                        <ab>Liber XV ends</ab>
+                        <explicit locus="384v">ubi de columba. Hec de auibus dicta sufficiant</explicit>
+                        <rubric locusNew="384v">Explicit liber XV<abbr rend="superscript">us</abbr> sequitur XVI<abbr
+                                rend="superscript">us</abbr>.</rubric>
+                        <ab>In col. 2, <handNote>in a different and smaller hand</handNote></ab>
+                        <rubric locusNew="384v">Incipiunt virtutes Rose marine</rubric>
+                        <incipit locusNew="384v">Recipe florem ipsum in panno</incipit>
+                        <explicit locusNew="384v">ab omni infirmitate custodit</explicit>
+
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, SP, CF 2nd</p>
+                            <p>msCheck: NJM 10.7.2007</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

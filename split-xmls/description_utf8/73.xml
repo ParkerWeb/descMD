@@ -1,0 +1,182 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC073">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>73</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>M. 1</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>139</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Nicholas de Gorran OP, Commentary on Matthew, Mark, the Catholic Epistles,
+                    Revelation</head>
+                <head type="James">Gorham Super Novum Testamentum</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">438</height>
+                        <width unit="mm">300</width>
+                    </measureGrp>, <measureGrp type="James">17.2 x 12</measureGrp>, <extent>ff. 372 + 2</extent>,
+                        <layout>double columns of 60 lines</layout>. Cent. <origDate>xv</origDate>, <handNote>in at
+                        least three clear hands</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>2</num>, 1<num>8</num>-18<num>8</num> 19<num>2</num> |
+                            20<num>8</num>-47<num>8</num> 48 (two)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>virtuosis</secFol>.</p>
+
+
+                <p>The upper corner (outside) has been eaten away throughout the book.</p>
+                <p>The flyleaf at the beginning <supplied>(ff. <locus>ir</locus>-<locus>iiv</locus>)</supplied> is a
+                    leaf of a large folio service-book (Antiphoner) with music on four-line stave: in double columns, of
+                    cent. <origDate>xv</origDate>. It has a long <hi rend="italic">Regula de historiis</hi>.</p>
+
+                <p>There is a handsomely written <origDate>xvi</origDate>th cent. note on f. <locus>iiv</locus> on <name
+                        type="author">Gorham</name>'s date and works, but I have not detected any name of owner. The
+                    book is rather like <ref type="ms" target="CCC001">MS 1</ref>.</p>
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-ii + 1-372 + c-d</foliation>.</p>
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="146v">
+                        <head type="CCC">
+                            <name type="author">Nicholas de Gorran OP</name>, <title>Commentary on Matthew</title>
+                        </head>
+
+                        <rubric locus="1r">Postilla super Matheum</rubric>
+                        <incipit locus="1r">Matheus presens prologus in tres partes diuiditur</incipit>
+                        <ab locusNew="1r">
+                            <decoNote>Good partial border and initial in gold and colour of characteristic English
+                                work</decoNote>
+                        </ab>
+                        <ab>Ends</ab>
+                        <explicit locus="145r">bona sine fine mansura ad que nos perducat qui est benedicta in secula
+                            seculorum. Amen</explicit>
+                        <incipit locusNew="145r">Queritur hic. data est michi potestas</incipit>
+                        <ab>Ends unfinished</ab>
+                        <explicit locusNew="145r">Item queritur de forma baptismi</explicit>
+                        <ab><locus>145v</locus>-<locus>146v</locus> blank <supplied>(but ruled)</supplied></ab>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="147r" locusEnd="274v">
+                        <head type="CCC">
+                            <name type="author">Nicholas de Gorran OP</name>, <title>Commentary on Mark</title>
+                        </head>
+
+                        <head type="James">
+                            <title>Super Marcum</title>
+                        </head>
+                        <incipit locus="147r">Filii <name type="place">Syon</name> exultate et letamini</incipit>
+                        <ab locusNew="147r">
+                            <decoNote>Partial border and initial as before: very good</decoNote>
+                        </ab>
+                        <explicit locusNew="272v">confirmante sequentibus signis. Amen</explicit>
+                        <rubric locusNew="272v">Expliciunt pistole (postille) ffratris <name type="author">Nicholai de
+                                Gorham</name> super Marcum</rubric>
+                        <ab>ff. <locus>273r</locus>-<locus>274v</locus> blank <supplied>(but ruled)</supplied></ab>
+
+
+                    </msItem>
+
+                    <msItem n="3" locusStart="275r" locusEnd="325v">
+                        <head type="CCC">
+                            <name type="author">Nicholas de Gorran OP</name>, <title>Commentary on the Catholic
+                                Epistles</title>
+                        </head>
+
+                        <head type="James">
+                            <title>Super Epistolas Catholicas</title>
+                        </head>
+                        <incipit locus="275r">Misse sunt epistole ex regis nomine</incipit>
+                        <ab locusNew="275r">
+                            <decoNote>Partial border and initial</decoNote>
+                        </ab>
+                        <explicit locusNew="324v">ne alii imitentur ipsos Deo gracias. qui est benedictus in secula
+                            seculorum. Amen</explicit>
+                        <ab>f. <locus>325r</locus>-<locus>325v</locus> blank</ab>
+
+                    </msItem>
+
+                    <msItem n="4" locusStart="326r" locusEnd="372v">
+                        <head type="CCC">
+                            <name type="author">Nicholas de Gorran OP</name>, <title>Commentary on Revelation</title>
+                        </head>
+
+                        <head type="James">
+                            <title>Super Apocalypsim</title>
+                        </head>
+                        <incipit locus="326r">Cognouit dominus omnem scientiam</incipit>
+                        <ab type="326r">
+                            <decoNote>Partial border and initial</decoNote>
+                        </ab>
+                        <explicit locusNew="372r">inmensus infinitus et eternus qui est deus benedictus in secula
+                            seculorum. Amen</explicit>
+                        <rubric locusNew="372r">Expliciunt postille ffratris <name type="author">Nicholai de
+                                Gorham</name> super Apocalipsym</rubric>
+                        <ab><locus>372v</locus> blank</ab>
+
+                    </msItem>
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: NJC 22.05.08</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

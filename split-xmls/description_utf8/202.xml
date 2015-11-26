@@ -1,0 +1,266 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+
+                <msIdentifier xml:id="CCC202">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>202</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>T. 7</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>293</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+
+                <head type="CCC">Symmachus, Epistolae. Glossed Proverbs and Ecclesiastes</head>
+
+                <head type="James">Symmachi Epistolae. Parabolae et Ecclesiastes glosati</head>
+
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">268</height>
+                        <width unit="mm">178</width>
+                    </measureGrp>
+                    <measureGrp type="James">10.5 x 7</measureGrp>, <extent>ff. 3 + 28 + 71 + 1</extent>, two volumes.
+                    Cent. <origDate>xii late and xiii</origDate>, <handNote>both well written</handNote>.</p>
+
+                <p function="Multivolume" rend="withinContents"><lb/><label>Volume I:</label>
+                    <layout>40 lines to a page</layout>. <handNote>Upright hand, rather narrow and pointed</handNote>.
+                    No title.<lb/><label>Volume II:</label> Cent. <origDate>xiii?</origDate>
+                    <handNote>a rather round hand</handNote>: <layout>text 25 and 22 lines to a page. Gloss in narrow
+                        columns at the sides, and sometimes interlinear</layout>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>a<num>4</num> (wants 4) 1<num>8</num> 2<num>8</num> 3<num>12</num> || A<num>8</num> (+1*)
+                            B<num>8</num>-F<num>8</num> G<num>6</num> H<num>8</num> I<num>8</num>, 1
+                    flyleaf</collation>.</p>
+
+
+
+
+                <p><label>2 fo.:</label>
+                    <secFol>his uicibus</secFol>.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + i-iii + 1-100 + c-d</foliation>
+                </p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+
+                    <milestone n="I" unit="volume"/>
+
+
+                    <msItem n="1" locusStart="ir" locusEnd="28v">
+
+                        <head type="CCC"><name type="author">Symmachus</name>, <title>Epistolae</title></head>
+
+                        <head type="James">
+                            <title><name type="author">Symmachi</name> Epistolae</title>
+                        </head>
+
+                        <ab locus="ir"><supplied>previously</supplied> covered with paper</ab>
+                        <ab>f. <locus>iv</locus> blank</ab>
+                        <ab locus="iir">Moral notes, some from <name type="author">Gregory</name> (7 lines)</ab>
+                        <ab locus="iiv">Provisions of a Council relating to monastic affairs, in two hands
+                                (<origDate>xiii</origDate>) beginning imperfectly</ab>
+                        <incipit locusNew="iiv">in sexta feria prime ebdomade .xl. in capitulis a suis prelatis
+                            excommunicati publice denuntient ... conspiratores autem omnes uocant qui inter se
+                            confederantur ad subuersionem ordinis</incipit>
+                        <ab>Ends</ab>
+                        <explicit locusNew="iiv">ut de melioracione uel deterioracione monasterii reddantur
+                            cerciores</explicit>
+                        <ab locus="iiir">
+                            <handNote>A hand of cent. <origDate>xii late</origDate></handNote>
+                        </ab>
+                        <incipit locusNew="iiir"><name type="person">Fulgentius</name> afer genere scripsit ad <name
+                                type="person">catum</name></incipit>
+                        <explicit locusNew="iiir">parcium certe bonarum pars magna <name type="person"
+                            >fulgentius</name></explicit>
+                        <incipit locusNew="iiir"><name type="person">Sidonius</name> lugdunensis genere facit illius
+                            ciuitatis mentionem</incipit>
+                        <explicit locusNew="iiiv">fuerunt anni lx. viii<abbr rend="superscript">o</abbr></explicit>
+                        <incipit locus="iiiv"><name type="person">Simmachus</name> genere Romanus tempore <name
+                                type="person">Constantini</name></incipit>
+                        <explicit locusNew="iiiv">et nunc nullo ueterum minor noster <name type="person">simmacus</name>
+                            luxuriatur</explicit>
+
+                        <ab>With f. <locus>1r</locus> the volume properly begins</ab>
+
+                        <incipit locus="1r">Ne mihi uicio uertatur intermissio litterarum</incipit>
+                        <ab>(<name type="author">Symmachi</name> Epistolae 1 1)</ab>
+                        <ab locusNew="1r">
+                            <decoNote>Initial in red and green. Subsequent initials in red and green
+                                alternately</decoNote>
+                        </ab>
+                        <ab>Very few addresses of letters are given. There are some on ff. <locus>1r</locus>,
+                                <locus>2r</locus> and others on ff. <locus>17r</locus> sqq.</ab>
+
+                        <ab>The last two are <name type="author">Symmachi</name> Epistolae IX 140, 141</ab>
+                        <incipit locusNew="28v">Prima mihi causa scribendi</incipit>
+                        <incipit locusNew="28v">Postquam de freto ficulo litteras tuas sumpsi</incipit>
+
+                        <ab>ending</ab>
+                        <explicit locus="28v">suffragii tui nisus adiuuerit. Vale</explicit>
+
+                        <ab>This is the Florilegium of the Letters of <name type="author">Symmachus</name>, of which
+                            many copies exist. It was used by <name type="person">Vincent (<q>of Beauvais</q></name>) in
+                            the <hi rend="italic">Speculum Historiale</hi>. See the edition by <ref type="bibl"
+                                target="Seeck 1883">Seeck in <hi rend="italic">Mon. Germ. Hist.</hi>, p.
+                            xxviii</ref></ab>
+
+                    </msItem>
+
+
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="2" locusStart="29r" locusEnd="76v">
+                        <head type="CCC">
+                            <title>Glossed Proverbs</title>
+                        </head>
+
+                        <head type="James">
+                            <title>Parabolae glosatae</title>
+                        </head>
+
+
+                        <ab><locus locusNew="29r">1r</locus> blank</ab>
+                        <ab locus="1v" locusNew="29v">Prologue of <name type="author">Jerome</name> (Jungat epistola)
+                                <handNote>in a small hand</handNote></ab>
+                        <ab locus="2r" locusNew="30r">The same <handNote>in large hand</handNote>. <decoNote>Initial in
+                                gold with red, blue and green filling</decoNote></ab>
+
+
+                        <ab>Gloss</ab>
+                        <incipit locus="3r" locusNew="31r">Parabole <name type="person">salomonis</name> affectu
+                            patris</incipit>
+                        <ab>Text of Proverbs begins on f. <locus locusNew="31v">3v</locus></ab>
+                        <ab locusNew="31v">
+                            <decoNote>Large initial <supplied agent="RJR"
+                                >P</supplied><!--James has "V," but that is clearly in error--> with pale brown field:
+                                gold and colour. In the head of it, blue ground, <name type="person">Salomon</name>
+                                (inscription in white capitals) throned holds up a roll and speaks to the young <name
+                                    type="person">Rehoboam</name> in red seated on R.</decoNote>
+                        </ab>
+                        <ab>Ends</ab>
+                        <ab>Gloss</ab>
+                        <explicit locus="48r" locusNew="76r">opera que fecit</explicit>
+                        <ab><locus locusNew="76v">48v</locus> blank</ab>
+
+
+                    </msItem>
+
+
+                    <msItem n="3" locusStart="77r" locusEnd="99v">
+
+
+                        <head type="CCC">
+                            <title>Glossed Ecclesiastes</title>
+                        </head>
+
+                        <head type="James">
+                            <title>Ecclesiastes glosatus</title>
+                        </head>
+
+                        <ab locus="49r" locusNew="77r">Ecclesiastes glossed</ab>
+                        <ab>Gloss</ab>
+                        <incipit locusNew="77r">Omnia uana canit rutilo sub sole secundus. Cui res est phisicas
+                            enumerare labor</incipit>
+                        <incipit locusNew="77r">Omnia que a bono creata sunt</incipit>
+                        <ab locusNew="77r">
+                            <decoNote>Initial not inserted</decoNote>
+                        </ab>
+                        <ab>Ends</ab>
+                        <ab>Gloss</ab>
+                        <explicit locus="71r" locusNew="99r">recipiet unusquisque prout gessit</explicit>
+                        <ab locus="71v" locusNew="99v">A poem</ab>
+                        <incipit locusNew="99v">
+                            <lg>
+                                <l>Fas et nephas ambulant pene passu pari</l>
+                                <l>Produgus non redimit uicium auari</l>
+                                <l>Virtus temperancie quadam singulari</l>
+                                <l>Habet medium ad utrumque uicium caute contemplari</l>
+                            </lg>
+                        </incipit>
+
+                        <explicit locusNew="99v">
+                            <lg>
+                                <l>Si legisse memoras eticam <name type="person">catonis</name></l>
+                                <l>In qua scriptum legitur 'ambula cum bonis' </l>
+                                <l>Cum ad dandi gloriam animum disponis</l>
+                                <l>Supra cetera prius hoc considera quis sit dignus donis</l>
+                            </lg>
+                        </explicit>
+
+                        <ab>Not printed</ab>
+                        <ab locusNew="100r">The fly-leaf is blank</ab>
+
+                    </msItem>
+                </msContents>
+
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, BA, CF</p>
+                            <p>msCheck: RJR 3.8.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+
+
+
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

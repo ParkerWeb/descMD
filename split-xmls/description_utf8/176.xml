@@ -1,0 +1,152 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC176">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>176</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>K. 7</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Printed Books Edited by Matthew Parker</head>
+
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">297</height>
+                        <width unit="mm">195</width>
+                    </measureGrp>. Cent. <origDate>1574</origDate>, printed.</p>
+
+
+
+                <p><name type="person">Nasmith</name> identifies the book with 112 in <ref type="bibl"
+                        target="James 1600">T. James</ref> (and <ref type="bibl" target="Bernard and Wanley 1697">Cat.
+                        MSS. Angl.</ref>), but <ref type="bibl" target="James 1600">T. James</ref> does not include any
+                    printed books in his list. His 112 is almost certainly <name type="person">Nasmith</name>'s 240.</p>
+
+
+
+
+                <p type="CCC">
+                    <foliation>ff. a-b + pp. Ai-Axii + A1-A48 + Bi-Bxii + B1-B382 (383, 384 omitted) + B385-B418 + B418a
+                        + B418b + B419-B468 + Ci-Civ + C1-C38 + C38a + C38b + C39-C146 + C146a-f + C147-C199 + Cv-Cix +
+                        ff. c-d</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="ang">Latin and Old English.</textLang>
+
+                    <label>Contents</label>
+
+
+
+                    <msItem n="1" locusStart="Ai" locusEnd="A48">
+
+                        <head type="CCC"><name type="person">Parker</name>'s edition of <name type="author"
+                            >Asser</name>, <title><name type="person">Ćlfredi</name> regis res gestae</title></head>
+                        <head type="Nasmith">
+                            <title><name type="person">Ćlfredi</name> regis res gestae, autore <name type="author"
+                                    >Asserio Menevensi</name>; typis Saxonicis</title>
+                        </head>
+
+                        <ab>Printed by <name type="person">John Day</name> (<date>1574</date>). <ref type="bibl"
+                                target="Sayle 1900">Sayle, Catalogue, no. 870</ref>. <ref type="bibl"
+                                target="British Museum 1884">B. M. p. 32</ref></ab>
+
+
+                    </msItem>
+
+
+
+                    <msItem n="2" locusStart="Bi" locusEnd="B468">
+
+                        <head type="CCC">Printed edition of <name type="author">Thomas Walsingham</name>,
+                                <title>Historia breuis</title></head>
+                        <head type="Nasmith">
+                            <title>Historia brevis <name type="author">Thomas Walsingham</name>, <name type="place"
+                                    >Londini</name>
+                                <date>1574</date></title>
+                        </head>
+
+                        <ab>Printed by <name type="person">Henry Bynneman</name>, <date>1574</date>. <ref type="bibl"
+                                target="Sayle 1900">Sayle, no. 1479</ref>. <ref type="bibl" target="British Museum 1884"
+                                >B. M. p. 1566</ref></ab>
+
+
+                    </msItem>
+
+
+                    <msItem n="3" locusStart="Ci" locusEnd="Cix">
+
+                        <head type="CCC">Printed edition of <name type="author">Thomas Walsingham</name>,
+                                <title>Ypodigma Neustriae</title></head>
+                        <head type="Nasmith">
+                            <title>Ejusdem Ypodigma Neustriae, <name type="place">Londini</name>
+                                <date>1574</date></title>
+                        </head>
+
+                        <ab>Printed by <name type="person">John Day</name>, <date>1574</date>. <ref type="bibl"
+                                target="Sayle 1900">Sayle, no. 844.</ref>
+                            <ref type="bibl" target="British Museum 1884">B. M. p. 1566</ref></ab>
+
+
+                    </msItem>
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, but not by a second person</p>
+                            <p>msCheck: RJR 6.7.2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

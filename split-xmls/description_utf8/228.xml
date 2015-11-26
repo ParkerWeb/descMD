@@ -1,0 +1,218 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC228">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>228</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Lib. ab Al. 20</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Claudianus Claudius, Claudianus maior. De raptu Proserpinae. Bernardus Silvestris,
+                    Cosmographia (Megacosmos)</head>
+                <head type="James">Claudianus</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">238</height>
+                        <width unit="mm">135</width>
+                    </measureGrp>, <measureGrp type="James">9.3 x 5.3</measureGrp>, <extent>ff. 130</extent>, <layout>37
+                        lines to a page</layout>. Cent. <origDate>xiii</origDate>.</p>
+                <p><label>Collation:</label>
+                    <collation>I<num>8</num>-XVI<num>8</num> XVII<num>2</num></collation>.</p>
+                <p function="Provenance">Given by <name type="person">Daniel Rogers</name>. The note on f.
+                        <locus>130v</locus> seems to indicate a connexion with <name type="place">Beauvais</name> or its
+                    district.</p>
+                <p function="Additions">At the bottom of f. <locus>1r</locus> is: A <name type="person">Jehan de
+                        Hangest</name> (<origDate>xv-xvi</origDate>).</p>
+                <p function="Research">Mentioned in the edition in <ref type="bibl" target="Mommsen 1898">
+                        <hi rend="italic">Mon. Germ. Hist.</hi> , pp. cxxiii, cliii</ref> as belonging to the second
+                    class of authorities.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i + 1-130 + ii</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+
+                    <msItem n="1" locusStart="1r" locusEnd="130r">
+                        <head type="CCC"><name type="author">Claudianus Claudius</name>, <title>Claudianus
+                            maior</title>; <title>De raptu Proserpinae</title>; <name type="author">Bernardus
+                                Silvestris</name>, <title>Cosmographia (Megacosmos)</title></head>
+
+                        <!-- Subdivide items -->
+                        <rubric locus="1r">Prefatio in librum <name type="author">Claudi Claudiani</name></rubric>
+                        <incipit locusNew="1r">Phebeo domitus</incipit>
+                        <ab locusNew="1r">
+                            <decoNote>Initial: gold ground, Apollo in blue shooting a red arrow</decoNote>
+                        </ab>
+                        <rubric locusNew="1r">Incipit liber in Rufinum primus</rubric>
+                        <ab locusNew="1r">
+                            <decoNote>Initial: Man in pink seated with open book, gold ground</decoNote>
+                        </ab>
+                        <ab locus="6r">Liber II</ab>
+                        <ab locus="13r">De Bello Gildonico</ab>
+                        <rubric locusNew="13r">Prefatio</rubric>
+                        <incipit locusNew="13r">Pandite defensum</incipit>
+                        <rubric locus="20r">In Eutropium liber primus</rubric>
+                        <incipit locusNew="20r">Semiferos partus</incipit>
+                        <ab locus="27r">Liber II</ab>
+                        <ab locus="36r">Fessenna de nuptiis <name type="person">Honorii</name></ab>
+                        <incipit locusNew="36r">Princeps chorusco</incipit>
+                        <ab locus="37v">Epithalamium de nuptiis <name type="person">Honorii</name></ab>
+                        <ab locus="43r">Panegyricus de tertio consulatu</ab>
+                        <ab locus="46r">In eundem in iiii<abbr rend="superscript">o</abbr> consulatus dictus</ab>
+                        <ab locus="55r">Panegiricus dictus <name type="person">Theodore</name> consuli</ab>
+                        <ab locus="60v" locusNew="59v">De consulatu Stiliconis primus</ab>
+                        <ab locus="65r">Liber II</ab>
+                        <ab locus="71v">Liber III</ab>
+                        <ab locus="77r">Panegiricus de VI consulatu <name type="person">Honorii</name> Augusti</ab>
+                        <ab locus="86v">De bello getico</ab>
+                        <incipit locus="95v">Solitas galea fulgere comas (Fescenn.)</incipit>
+                        <ab locus="96r">Descriptio portus myrnensis (Epigr.). Ad aeternalem (without title). Descr.
+                            armenti</ab>
+                        <ab locusNew="96r">(Descr. Insulae.) Est procul ingenti</ab>
+                        <ab locusNew="96r">(De Iracundo.) In iaculum</ab>
+                        <rubric locusNew="96r">De quadriga marmorea</rubric>
+                        <rubric locus="96v">De policaste et pertica (perdicca)</rubric>
+                        <rubric locusNew="96v">De histrice</rubric>
+                        <rubric locus="97r">De byrro castoreo</rubric>
+                        <rubric locusNew="97r">In sepulcrum penose (speciosae)</rubric>
+                        <rubric locusNew="97r">De Balneis quintianis</rubric>
+                        <rubric locus="97v">In Podagricum</rubric>
+                        <rubric locusNew="97v">Ad maximum qui ei mel misit</rubric>
+                        <rubric locusNew="97v">De paupere amante</rubric>
+                        <incipit locusNew="97v">Paupertas me</incipit>
+                        <rubric locusNew="97v">Et eodem</rubric>
+                        <incipit locusNew="97v">Esuriens pauper</incipit>
+                        <rubric locusNew="97v">De piis fratribus de statu[r]is eorum</rubric>
+                        <rubric locus="98r">De mulabus Gallicis</rubric>
+                        <ab locus="98v">Epistola ad <name type="person">gennadium</name> ex proconsule</ab>
+                        <ab locusNew="98v">De senatore (!) ueronensi</ab>
+                        <ab locus="99r">De <name type="person">theodoro</name> et <name type="person"
+                            >adriano</name></ab>
+                        <incipit locusNew="99r"><name type="person">Manlius</name> indulget</incipit>
+                        <ab locusNew="99r">Prefatio ad adrianum</ab>
+                        <incipit locusNew="99r">Usque adeone</incipit>
+                        <ab locus="100r">In Aletium questorem</ab>
+                        <ab locusNew="100r">De lucusta</ab>
+                        <ab locusNew="100r">Ephithalamius dictus (Palladii et Celerinae)</ab>
+                        <ab locus="102v">Aponus</ab>
+                        <ab locus="103v">Phenix</ab>
+                        <ab locus="105v">Nilus</ab>
+                        <ab locus="106r">Magnes</ab>
+                        <ab locus="106v">Laus Serene</ab>
+                        <ab locus="110r">Epistola ad Serenam</ab>
+                        <ab locus="111r">De saluatore</ab>
+                        <rubric locusNew="111r">De cristallo</rubric>
+                        <incipit locusNew="111r">Possedit</incipit>
+                        <rubric locusNew="111r">De eodem</rubric>
+                        <incipit locusNew="111r">Ninphe que tegitis</incipit>
+                        <ab locus="112r">Epistola ad Olimbrium</ab>
+                        <ab locusNew="112r">Ad Probi(n)um</ab>
+                        <rubric locus="112v">De apro et leone</rubric>
+                        <ab locusNew="112v">In curetium</ab>
+                        <ab locusNew="112v">De curetio</ab>
+                        <ab locusNew="112v">De concha</ab>
+                        <ab locus="113r">De muneribus <name type="person">Honorii</name> Imp</ab>
+                        <ab locusNew="113r">(De equo <name type="person">Honorii</name>)</ab>
+                        <ab locusNew="113r">De phaleris equi a sebena (Serena) missis</ab>
+                        <ab locus="113v">De torpidine</ab>
+                        <ab locus="114r">In <name type="person">Iacobum</name> magistrum militum</ab>
+                        <ab locusNew="114r">In fera (in sphaeram) <name type="person">Archimedis</name></ab>
+                        <ab locusNew="114r">De gigantomachia</ab>
+                        <ab locus="116r">(De Raptu Proserpinae)</ab>
+                        <ab>The division of the books is not marked</ab>
+                        <ab locus="119r">Liber II</ab>
+                        <ab locus="124v">Liber III</ab>
+                        <ab>Ends imperfectly in lib. III 370</ab>
+                        <explicit locus="128v">Tollebant gemine capita inuiolata cupressus</explicit>
+                        <ab>ff. <locus>129r</locus>-<locus>130v</locus>, though in the same hand, belong to a different
+                            text, viz. the Megacosmus of <name type="author">Bernardus Silvestris</name></ab>
+                        <ab>f. <locus>129r</locus> begins</ab>
+                        <incipit locus="129r">(C)redantur oculos p&#773;d&#773; captiuant animum uocalis orphei
+                            siderei uultus et simplices uisus euridices</incipit>
+                        <explicit locusNew="129r">et lirico sub cantico iam spiritum sollicitum remouit</explicit>
+                        <rubric locusNew="129r">Sonus amantis in vere</rubric>
+                        <incipit locusNew="129r">De terre gremio regn pregnatio progreditur et in partum soluitur
+                            uiuifico calore</incipit>
+                        <explicit locusNew="129r">Rideo dum uideo uirum longi temporis qui ad annos nestoris ingreditur
+                            et sequitur amorem</explicit>
+                        <rubric locusNew="129r">Conquestus de uirgine corrupta</rubric>
+                        <incipit locusNew="129r">Ex ungue primo teneram nutrieram</incipit>
+                        <ab>Apparently continues to near the end of <locus>129v</locus></ab>
+                        <ab>Then follows</ab>
+                        <rubric locusNew="129v">Summa operis</rubric>
+                        <incipit locusNew="129v">In huius operis primo libro qui megacosmus .i. maior mundus
+                            uocatur</incipit>
+                        <explicit locusNew="130r">sequitur genesis animantium et terre</explicit>
+                        <ab>On f. <locus>130v</locus> a note</ab>
+                        <ab locusNew="130v"> Duobus enim existentibus mox consequens est unum esse prout uidemus in iam
+                            dictis dictis (so) dominus offic. curie <name type="place">baluacensis</name> querelam que
+                            uertebatur inter m. et b. sacerdotes voluit expedire sub hac forma. Omnibus </ab>
+
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: ELB 2/2/2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

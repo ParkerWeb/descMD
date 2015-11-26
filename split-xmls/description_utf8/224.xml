@@ -1,0 +1,134 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC224">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>224</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>Lib. ab Al. 18</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>vac.</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Gospel of St Mark in Greek</head>
+                <head type="James">Evangelium Marci Graece</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">243</height>
+                        <width unit="mm">152</width>
+                    </measureGrp>, <measureGrp type="James">9.6 x 6</measureGrp>, <extent>ff. 56</extent>, <layout>18
+                        lines to a page</layout>. Cent. <origDate>xvi</origDate>, <handNote>neatly
+                    written</handNote>.</p>
+
+                <p function="Binding">Stamped binding, panel on front cover with SS. <name type="person"
+                        >Sebastian</name> and <name type="person">Barbara</name>. Inscription: Tout se passe fors aymer
+                    Dieu. <name type="person">Iulien des Jardins</name>. On the other cover a panel of <name
+                        type="person">Saint Yues</name>.</p>
+                <p function="Provenance">Given by <name type="person">Daniel Rogers</name>.</p>
+                <p function="Provenance">
+                    <supplied agent="JamesCorrigenda">An anonymous note in the Catalogue attributes this to <name
+                            type="author">Spartiates</name> about <date>1480</date>.</supplied>
+                </p>
+
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num>-7<num>8</num></collation>. The quires are numbered &#953;&#947; to
+                    &#953;&#952; as if part of a larger book.</p>
+
+
+                <p type="CCC">
+                    <foliation>ff. i-iii + 1-56. Partially imaged: front cover exterior and interior + ff. ir-iiiv,
+                        1r-25v + back cover exterior and interior</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="gre" otherLangs="frm">Greek with Middle French inscription on the
+                        cover.</textLang>
+                    <label>Contents</label>
+
+
+                    <msItem n="1" locusStart="1r" locusEnd="55r">
+                        <head type="CCC">
+                            <title>Gospel of <name type="author">St Mark</name> in Greek</title>
+                        </head>
+
+                        <ab>The Greek text of <name type="author">St Mark</name>'s Gospel without any comment</ab>
+
+                        <ab>Ends</ab>
+                        <explicit locus="55r">&#963;&#951;&#956;&#949;&#943;&#969;&#957;.
+                            &#945;&#787;&#956;&#768;&#951;&#957;</explicit>
+
+                        <rubric locusNew="55r">&#964;&#949;&#955;&#959;&#962;.
+                            &#964;&#969;&#837;&#785; &#952;&#949;&#769;&#969;&#837;
+                            &#964;&#969;&#837;&#785;
+                            &#945;&#788;&#947;&#943;&#969;&#837;
+                            &#960;&#955;&#949;&#943;&#963;&#964;&#951;
+                            &#967;&#940;&#961;&#953;&#962;</rubric>
+                        <rubric locusNew="55r">
+                            <supplied agent="PE">&#932;&#917;&#923;&#927;&#931;
+                                &#964;&#969;&#837;&#785;
+                                &#952;&#949;&#769;&#969;&#837;
+                                &#964;&#969;&#837;&#785;
+                                &#945;&#788;&#947;&#943;&#969;
+                                &#960;&#955;&#949;&#943;&#963;&#964;&#951;
+                                &#967;&#945;&#961;&#953;&#962;</supplied>
+                        </rubric>
+                    </msItem>
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, CF</p>
+                            <p>msCheck: PE 14.11.2008</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

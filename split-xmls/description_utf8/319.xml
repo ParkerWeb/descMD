@@ -1,0 +1,182 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC319">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>319</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>N. 8</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>172</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head type="CCC">Petrus Comestor, Historia scholastica (excerpts). Honorius Augustodunensis, Gemma
+                    animae siue De diuinis officiis</head>
+                <head type="James">Historiae Scholasticae Pars. Honorii Gemma Animae, etc.</head>
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">232</height>
+                        <width unit="mm">170</width>
+                    </measureGrp><measureGrp type="James">9.2 x 6.8</measureGrp>, <extent>ff. 93 + 84</extent>,
+                        <layout>double columns of 32, 34, 38 lines</layout>. Cent. <origDate>xiii and xii
+                        late</origDate>, <handNote>in several very good hands</handNote>.</p>
+
+
+                <p><label>Collation:</label>
+                    <collation>1<num>8</num>-8<num>8</num> 9<num>6</num> 10<num>8</num>-12<num>8</num> (wants 8) |
+                            I<num>8</num>-VIII<num>8</num> IX<num>6</num> X<num>8</num> XI<num>8</num> (wants 7,
+                        8)</collation>.</p>
+
+                <p><label>2 fo.:</label>
+                    <secFol>his temporibus</secFol>.</p>
+
+                <p function="Additions">At bottom of f. <locus>1r</locus> is an inscription of two lines carefully erased:<lb/>
+                    <q>Hic est liber sci ... e abbis ... s. quem qui abstulerit<lb/> anathema sit maranatha</q>. </p>
+
+                <p function="Provenance">Probably <name type="place">St Albans</name> (or possibly <name type="place"
+                        >Belvoir</name>) is the source of the volume; the inscription is conceived on just the same
+                    lines as those in St Albans books.</p>
+
+                <p type="CCC">
+                    <foliation>ff. i-iii + 1-177 + iv-v (uncut)</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+                    <label>Contents</label>
+
+                    <milestone n="I" unit="volume"/>
+
+                    <msItem n="1" locusStart="1r" locusEnd="52v">
+                        <head type="CCC">
+                            <name type="author">Petrus Comestor</name>, <title>Historia scholastica (excerpts on
+                                Maccabees and the Gospels)</title>
+                        </head>
+
+                        <ab><supplied>Items</supplied> 1 and 2 contain the latter part of the <hi rend="italic">Historia
+                                Scholastica</hi></ab>
+
+                        <rubric locus="1r">De commendatione <name type="person">Iohannis Ircani</name></rubric>
+                        <incipit locusNew="1r">Mortuo <name type="person">simone</name> qui ultimus quinque filiorum
+                                <name type="person">mathatie</name></incipit>
+                        <ab>continuing with the Gospel history: the section <q>De ascensione</q> ends</ab>
+                        <explicit locusNew="52v">subuectus est <name type="person">helias</name> ascendit scilicet
+                            Ihesus propria uirtute</explicit>
+
+                    </msItem>
+
+                    <msItem n="2" locusStart="53r" locusEnd="92v">
+                        <head type="CCC">
+                            <name type="author">Petrus Comestor</name>, <title>Historia scholastica (excerpts on
+                                Acts)</title>
+                        </head>
+
+                        <rubric locus="53r">Historia Actuum secundum <name type="author">Magistrum p(etrum)
+                                mand(ucatorem)</name> a <name type="person">Willelmo pictauense</name>
+                            conscripta</rubric>
+                        <incipit locusNew="53r">Anno nono decimo imperii <name type="person">Tyberii Cesaris</name>
+                            adhuc procuratore <name type="place">iudee</name>
+                            <name type="person">pilato</name></incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="92r">et in loco magis honorabili scilicet in catacumbis</explicit>
+                        <ab>The <ref type="ms" target="WCLQ02">MS. Q. 2 in the Chapter Library of Worcester
+                                Cathedral</ref> contains the same portion of the History</ab>
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+
+                    <msItem n="3" locusStart="93r" locusEnd="177v">
+                        <head type="CCC">
+                            <name type="author">Honorius Augustodunensis</name>, <title>Gemma animae siue De diuinis
+                                officiis</title>
+                        </head>
+                        <ab>
+                            <handNote>In a finer and earlier hand</handNote>
+                        </ab>
+                        <rubric locus="1r" locusNew="94r">Incipiunt gemma ecclesie</rubric>
+                        <ab>Ascribed in a later note here to <name type="person">Amalarius</name></ab>
+                        <ab>(really Gemma animae of <name type="author">Honorius of Autun</name>)</ab>
+                        <incipit locusNew="94r">Agmen in castris eterni regis</incipit>
+                        <ab>(<ref type="bibl" target="Migne 172"><supplied>P. L.</supplied> CLXXII</ref> 542)</ab>
+                        <ab locusNew="94r">
+                            <decoNote>Gold initial, external ground puce, internal blue with patterns</decoNote>
+                        </ab>
+                        <explicit locusNew="94r">liceat interesse</explicit>
+                        <rubric locusNew="94r">Explicit epistola</rubric>
+                        <rubric locus="1r" locusNew="94r">Incipit prefatio subsequentis operis</rubric>
+                        <incipit locusNew="94r">Postquam christo fauente pelagus scripture</incipit>
+                        <explicit locusNew="94r">uentosque tranquillat</explicit>
+                        <rubric locusNew="94r">Epistola auctoris ad eos qui rogauerunt eum scribere</rubric>
+                        <incipit locusNew="94r">Plerosque uesania captos piget</incipit>
+                        <explicit locusNew="94v">diuino offitio ornatur</explicit>
+                        <ab>(corr. to decoratur)</ab>
+                        <rubric locus="1v" locusNew="94v">Explicit Prefatio</rubric>
+                        <rubric locusNew="94v">Summa tocius operis de qua scripturus est</rubric>
+                        <incipit locusNew="94v">In primis igitur de missa</incipit>
+                        <explicit locusNew="94v">rite subiungamus</explicit>
+                        <rubric locusNew="94v">Incipit liber primus de missa, etc.</rubric>
+                        <incipit locusNew="94v">Missa a quatuor causis nomen accepit</incipit>
+                        <ab locus="35r" locusNew="128r">Liber II</ab>
+                        <ab locus="64r" locusNew="157r"><supplied>Liber</supplied> III</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="84r" locusNew="177r">copiosum fructum in gaudio metant</explicit>
+                        <ab locusNew="177r">(Explicit liber qui dicitur gemma ecclesie)</ab>
+                        <ab locusNew="177v">On <locus locusNew="177v">84v</locus> (<date>xv</date>) <handNote>in a neat
+                                hand</handNote>: <q>hoc <name type="place">London</name> suus</q></ab>
+                    </msItem>
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt SP</p>
+                            <p>markup: SP</p>
+                            <p>markupCheck: checked by SP, BA 2nd, CF</p>
+                            <p>msCheck: NJM 01/08/08</p>
+                            <p>remarks: </p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

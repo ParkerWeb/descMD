@@ -1,0 +1,186 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC309">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>309</idno>
+                    <altIdentifier type="Stanley">
+                        <idno>T. 5</idno>
+                    </altIdentifier>
+                    <altIdentifier type="TJames">
+                        <idno>295</idno>
+                    </altIdentifier>
+                </msIdentifier>
+
+                <head type="CCC">Theological Material in Three Booklets by Richard of Saint-Victor OSA, Petrus Alfonsi
+                    and Augustine</head>
+
+                <head type="James">Ricardus de S. Victore. Petrus Alfunsus</head>
+
+                <p function="Codicology"><material>Vellum</material>, <measureGrp type="CCC">
+                        <height unit="mm">250</height>
+                        <width unit="mm">170</width>
+                    </measureGrp>
+                    <measureGrp type="James">10 x 6.5</measureGrp>, <extent>ff. 1 + 36 + 42 + 8 + 1</extent>, more than
+                    one volume of cent. <origDate>xii</origDate>, <origDate>xiii</origDate>, in good style.</p>
+
+                <p function="Multivolume" rend="afterContents"><lb/><label>Volume I:</label>
+                    <layout>29 lines to a page</layout>: <handNote>in a good type of hand of cent.
+                            <origDate>xii</origDate></handNote>, with some irregularities. <lb/><label>Volume
+                        II:</label>
+                    <layout>Double columns of 40 etc. lines</layout>, <handNote>in two rather rough hands probably of
+                        cent. <origDate>xiii early</origDate></handNote>. <lb/><label>Volume III:</label>
+                    <layout>Double columns of 33 lines</layout>, <handNote>a good hand of cent.
+                        <origDate>xii</origDate></handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>8</num>-4<num>8</num> 5<num>4</num> | 6<num>8</num>-10<num>8</num> 11
+                        (two) | 12<num>8</num> | 1 flyleaf</collation>.</p>
+
+                <p function="Provenance">From <name type="place">St Mary's Abbey, York</name> (cf. <ref type="ms"
+                        target="CCC181">MS 181</ref>, <ref type="ms" target="CCC451">MS 451</ref>)</p>
+                <p function="Additions">The flyleaves <supplied>(ff. <locus>iir</locus>, <locus>iiv</locus>,
+                            <locus>iiir</locus>, <locus>iiiv</locus>)</supplied> are each formed of most part of two
+                    leaves of a copy of the <hi rend="italic">Bellum Jugurthinum</hi> of <name type="author"
+                        >Sallust</name> written in cent. <origDate>xi</origDate>. None of the 4 leaves is complete, one
+                    side of each was covered with paper.</p>
+                <p function="Additions">At the bottom of f. <locus>1r</locus> in <handNote>a hand of cent.
+                            <origDate>xiv</origDate></handNote> is:<lb/>
+                    <q>In hoc vol. continetur<lb/>
+                        <name type="author">Ricardus de S. Victore</name> de contemplacione siue de xii patriarchis.<lb/>
+                        <name type="author">Petrus Alfunsus</name> de confutacione iudeorum.<lb/> Epistola <name
+                            type="author">dioscori</name> ad <name type="person">S. Augustinum</name>.<lb/> Epistola
+                            <name type="author">Augustini</name> ad <name type="person">dioscorum</name>.</q><lb/>
+                    <q>Jn: L 24</q>
+                </p>
+
+                <p type="CCC">
+                    <foliation>ff. i-ii + 1-86 + iii-iv</foliation>.</p>
+
+                <msContents>
+                    <textLang mainLang="lat">Latin.</textLang>
+
+                    <label>Contents</label>
+                    <milestone n="I" unit="volume"/>
+                    <msItem n="1" locusStart="1" locusEnd="36v">
+                        <head type="CCC">
+                            <name type="author">Richard of Saint-Victor OSA</name>, <title>Beniamin minor</title></head>
+                        <head type="Nasmith">
+                            <title><name type="author">Ricardus Anglicus</name>, superior <name type="place">Sancti
+                                    Victoris Parisiis</name>, de patriarchis, de studio sapientiae et ejus
+                                commendatione</title>
+                        </head>
+                        <rubric locus="1r">Incipit liber <name type="author">ricardi anglici</name> suprioris <name
+                                type="place">S. uictoris parisius</name> de patriarchis. De studio sapientie et eius
+                            commendatione</rubric>
+                        <incipit locusNew="1r"><name type="person">Beniamin</name> adolescentulus in mentis
+                            excessu</incipit>
+                        <ab>(<ref type="bibl" target="Migne 196"><supplied>P. L.</supplied> CXCVI 1</ref>)</ab>
+                        <ab>Ends</ab>
+                        <explicit locus="36r">diuine reuelationi humana ratio aplaudit</explicit>
+                        <ab><locus>36v</locus> blank</ab>
+                    </msItem>
+
+                    <milestone n="II" unit="volume"/>
+                    <msItem n="2" locusStart="37r" locusEnd="78v">
+                        <head type="CCC"><name type="author">Petrus Alfonsi</name>, <title>Dialogus contra
+                                iudaeos</title></head>
+                        <head type="Nasmith">
+                            <title><name type="author">Petri Alphonsi</name> dialogus adversus Judaeos</title>
+                        </head>
+                        <incipit locus="37r">Uni et eterno primo qui caret principio</incipit>
+                        <ab>(<ref type="bibl" target="Migne 157"><supplied>P. L.</supplied> CLVII 535</ref>)</ab>
+                        <explicit locusNew="37r">nomen eius benedictum in secula seculorum amen</explicit>
+                        <rubric locusNew="37r">Explicit prephatio</rubric>
+                        <rubric locusNew="37r">Incipit liber primus</rubric>
+                        <incipit locusNew="37r">Dixit sequentis speris compositor. Omnipotens suo spiritu</incipit>
+                        <ab>Ends</ab>
+                        <explicit locus="78v">finem meliorem quam principium tibi prestet. qui uiuit et regnat per omnia
+                            seculorum secula. Amen</explicit>
+                    </msItem>
+                    <milestone n="III" unit="volume"/>
+                    <msItem n="3.1" locusStart="79r" locusEnd="79r">
+                        <head type="CCC"><name type="author">Dioscorus</name>, <title>Epistula ad
+                            Augustinum</title></head>
+                        <head type="Nasmith">
+                            <title>Epistola <name type="author">Dioscori</name> ad <name type="person">S.
+                                    Augustinum</name>, et <name type="author">S. Augustini</name> ad <name type="person"
+                                    >Dioscorum</name>. Desunt quaedam ad finem</title>
+                        </head>
+                        <rubric locus="79r">Incipit Epistola <name type="author">dioscori</name> ad <name type="person"
+                                >Sanctum Augustinum</name></rubric>
+                        <ab>(<ref type="bibl" target="Migne 032"><supplied>P. L.</supplied> XXXII 437</ref>)</ab>
+                        <incipit locusNew="79r">Proemiari apud te non solum superfluum est</incipit>
+                        <explicit locusNew="79r">dignationem tuam salutat</explicit>
+                        <rubric locusNew="79r">Explicit Epistola <name type="author">Dioscori</name> ad <name
+                                type="person">Sanctum Augustinum</name></rubric>
+                    </msItem>
+
+                    <msItem n="3.2" locusStart="79r" locusEnd="86v">
+                        <head type="CCC"><name type="author">Augustine</name>, <title>Epistula ad Dioscorum (epistola
+                                118), incomplete</title></head>
+                        <rubric locus="79r">Incipit Epistola <name type="author">Sancti Augustini</name> ad eum</rubric>
+                        <incipit locusNew="79r">Tu me innumerabilium questionum turba</incipit>
+                        <ab>Ends imperfectly</ab>
+                        <explicit locus="86v">sed acutissimorum hominum ingenia id etiam negotium</explicit>
+                        <ab>(incomplete)</ab>
+                    </msItem>
+
+                </msContents>
+
+                <additional>
+
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt CF</p>
+                            <p>markup: CF</p>
+                            <p>markupCheck: checked by CF, BA</p>
+                            <p>msCheck: RJR 23.8.2007</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

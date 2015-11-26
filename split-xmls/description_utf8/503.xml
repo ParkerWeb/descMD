@@ -1,0 +1,343 @@
+<TEI>
+
+
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus Christi College Cambridge / PARKER-ON-THE-WEB</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition - 560catalogueAfter</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M.R. James, <title>Descriptive Catalogue of the Manuscripts in the Library of Corpus Christi
+                        College</title>, Cambridge 1912</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The James Catalogue was digitized then marked up following the TEI P5 Guidelines. The customized
+                    model was provided by Giuliano Di Bacco, stored in an ODD file (parkerweb.xml): the latter was
+                    written by GDB using ROMA vers. 2.x, with manual adaptations. The ODD file is used as a source to
+                    compile the actual schema used to validate the xml: it is advisable to compile it in RelaxNG sintax
+                    (parkerweb.rnc) through ROMA.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <front/>
+
+        <body>
+
+            <msDesc>
+                <msIdentifier xml:id="CCC503">
+                    <country>UK</country>
+                    <settlement>Cambridge</settlement>
+                    <institution>Corpus Christi College</institution>
+                    <repository>Parker Library</repository>
+                    <idno>503</idno>
+                    <altIdentifier type="Elbing">
+                        <idno>N. 5</idno>
+                    </altIdentifier>
+
+                </msIdentifier>
+                <head type="CCC">Willelmus Durandus the Elder, Aureum confessorum. Penitential, Decretal, Historical and
+                    Spiritual Tracts</head>
+                <head type="James">[Untitled]</head>
+                <p function="Codicology"><material>Paper</material>, <measureGrp type="CCC">
+                        <height unit="mm">290</height>
+                        <width unit="mm">217</width>
+                    </measureGrp>, <measureGrp type="James">11.5 x 8.8</measureGrp>, <extent>ff. 1 + 157</extent>,
+                        <layout>largely in double columns of 43 and 42 lines, also (at end) of 63 lines</layout>. Cent.
+                        <origDate>xv</origDate>, <handNote>in several hands</handNote>.</p>
+
+                <p><label>Collation:</label>
+                    <collation>1 flyleaf, 1<num>12</num> 2<num>12</num> 3<num>14</num> 4<num>12</num>-6<num>12</num>
+                        (wants 10-12) 7<num>12</num> 8<num>10</num> 9<num>12</num> 10<num>10</num> (xi, xii gone) |
+                            13<num>16</num> 14<num>4</num> | 15<num>12</num> 16<num>12</num> (wants 11,
+                    12)</collation>.</p>
+
+                <p function="Provenance">The name of <name type="person">Mary Pernham</name> in the cover
+                            <supplied>(<locus>ev</locus>)</supplied>.</p>
+                <p function="Additions">Binding as no. 1 <supplied>(<ref type="ms" target="CCC499">MS
+                        499</ref>)</supplied>. The bosses remain but no staple or clasps.</p>
+                <p function="Additions">List of contents in the cover <supplied>(<locus>ev</locus>)</supplied> (which I
+                    quote where necessary).</p>
+                <p type="CCC">
+                    <foliation>ff. a-e + ia + 1-157 + f-i</foliation>.</p>
+
+
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="ger">Latin and German.</textLang>
+
+                    <label>Contents</label>
+
+
+                    <milestone n="I" unit="volume"/>
+                    <msItem n="1" locusStart="iar" locusEnd="38v">
+                        <head type="CCC"><name type="author">Willelmus Durandus the Elder</name>, <title>Aureum
+                                confessorum (expanded version by <name type="author">Stephanius of
+                                Roudnice</name>)</title>
+                        </head>
+                        <head type="James">
+                            <title>Primo aureum confessorum</title>
+                        </head>
+                        <ab locus="1r" locusNew="iar">The first leaf in a different hand from the rest</ab>
+                        <incipit locus="1r" locusNew="iar">Quoniam ut apostollus prima ad Cor. iiij. Omnia
+                            honestate</incipit>
+                        <ab>begins</ab>
+                        <incipit locus="2r" locusNew="1r">Ut eo lucidius hiis qui jura non norunt tytuli
+                            decretalium</incipit>
+                        <ab>Ends</ab>
+                        <explicit locusNew="34r">in aliis multis capitulis superius allegatur</explicit>
+                        <rubric locusNew="34r">Explicit aureum confessorum</rubric>
+                        <ab>
+                            <handNote>In another hand</handNote>
+                        </ab>
+                        <rubric locus="34r">Acus Sibille</rubric>
+                        <incipit locusNew="34r">Est quoddam opus <name type="place">Rome</name> sapienter a sapientibus
+                            et studentibus edificatum ad modum turris</incipit>
+                        <ab>inscribed with letters p. p. p. S. S. S., etc., which were interpreted by <name
+                                type="person">Bede</name> when he visited <name type="place">Rome</name>; whence the
+                            pope conferred on him the title of venerable</ab>
+                        <explicit locusNew="34r">Sicque mos inoleuit quod in omnibus omeliis suis venerabilis
+                            intitulatur et nuncupatur</explicit>
+                        <ab>ff. <locus>34v</locus>-<locus>38v</locus> blank</ab>
+                    </msItem>
+                    <milestone n="II" unit="volume"/>
+                    <msItem n="2" locusStart="39r" locusEnd="62v">
+                        <head type="CCC">
+                            <title>Tract on penitence</title>
+                        </head>
+                        <head type="James">
+                            <title>Tractatus valde bonus et necessarius de penitencia</title>
+                        </head>
+                        <incipit locusNew="39r">Cum omnis etas ab adolescencia prona sit</incipit>
+                        <explicit locusNew="61r">simplici fornicacione</explicit>
+                        <rubric locusNew="61r">Explicit de bigamis Quia, etc.</rubric>
+                        <ab>ff. <locus>61v</locus>-<locus>62v</locus> blank</ab>
+                    </msItem>
+                    <milestone n="III" unit="volume"/>
+                    <msItem n="3" locusStart="63r" locusEnd="71v">
+                        <head type="CCC">
+                            <name type="author">Iohannes de Deo</name>, <title>Apparatus Decretorum (Decretum
+                                abbreviatum)</title>
+                        </head>
+                        <head type="James">
+                            <title>Abreuiacio tocius decreti prosayce et metrice</title>
+                        </head>
+                        <ab>a.</ab>
+                        <incipit locusNew="63r">Liber decretorum distinctus est in tres partes</incipit>
+                        <ab>b.</ab>
+                        <incipit locus="66v">
+                            <lg>
+                                <l>Si quis in hoc opere facto per metra studere</l>
+                                <l>Appetit in genere decreta potest retinere</l>
+                                <l>...</l>
+                                <l>Cum sit canon ibi debent in pectore scribi</l>
+                            </lg>
+                        </incipit>
+                        <rubric locusNew="70v">Explicit abreuiacio tocius decreti</rubric>
+                        <ab>f. <locus>71r</locus>-<locus>71v</locus> blank</ab>
+                    </msItem>
+                    <milestone n="IV" unit="volume"/>
+                    <msItem n="4" locusStart="72r" locusEnd="100v">
+                        <head type="CCC">
+                            <title>Statutes of <name type="person">Arnestus, Archbishop of Prague</name></title>
+                        </head>
+                        <head type="James">
+                            <title>Statuta <name type="person">domini Arnesti Archiep. Pragensis</name> valde
+                                necessarius (!) curatis</title>
+                        </head>
+                        <incipit locusNew="72r">Statutum <name type="person">domini Arnesti</name> sic dicit. Nullus
+                            presbiter parochianum alterius sine proprii licencia sacerdotis</incipit>
+                        <ab>With questions on each paragraph. Ends with an alphabetical table</ab>
+                        <rubric locusNew="100v">ffinis statutorum Reuerendissimi in Christo patris et domini <name
+                                type="person">domini Arnesti Archiepiscopi Pragensis</name> et apostolici sedis legati.
+                            Amen</rubric>
+                    </msItem>
+
+                    <msItem n="5" locusStart="100v" locusEnd="105v">
+                        <head type="CCC">
+                            <name type="author">Iohannes de Missa (Misna)</name>, <title>Inhibitiones sacramenti
+                                eucharistiae</title>
+                        </head>
+                        <rubric locus="100v">Incipiunt inhibitiones sacramenti eukaristie collecte per <name
+                                type="person">domini Joh. de misna</name> presbiteri anno domini <date>m<abbr
+                                    rend="superscript">o</abbr> ccc<abbr rend="superscript">o</abbr> nonagesima
+                                quarta</date></rubric>
+                        <ab>Cap. 1</ab>
+                        <incipit locusNew="100v">Item primo omnibus hereticis manifestis</incipit>
+                        <explicit locusNew="102v">laborem considerat et dolorem</explicit>
+                        <ab locus="102v">Sermon on David</ab>
+                        <incipit locusNew="102v">Tytulus ps. Dauid. cum venit ad eum nathan</incipit>
+                    </msItem>
+                    <milestone n="V" unit="volume"/>
+                    <msItem n="6" locusStart="106r" locusEnd="109r">
+                        <head type="CCC">
+                            <name type="author">pseudo-Bernard of Clairvaux OCist</name>, <title>Speculum
+                                peccatoris</title>
+                        </head>
+                        <head type="James">
+                            <title>Speculum peccatoris</title>
+                        </head>
+                        <ab>(<ref type="bibl" target="Migne 040"><supplied>P. L.</supplied> XL 983</ref>)</ab>
+                        <incipit locusNew="106r">Quoniam karissimi in via huius seculi</incipit>
+                        <explicit locusNew="109r">vitam eternam possideas. quam tibi concedat qui, etc.</explicit>
+                        <rubric locusNew="109r">Explicit speculum peccatoris</rubric>
+                    </msItem>
+
+                    <msItem n="7" locusStart="109r" locusEnd="116r">
+                        <head type="CCC">
+                            <title>Auctoritates diuersorum sanctorum doctorum</title>
+                        </head>
+                        <head type="James">
+                            <title>Auctoritates diuersorum sanctorum doctorum</title>
+                        </head>
+                        <incipit locusNew="109r"><name type="person">Bernardus</name> in 2<abbr rend="superscript"
+                                >a</abbr> omelia super missus</incipit>
+                    </msItem>
+                    <milestone n="VI" unit="volume"/>
+                    <msItem n="8.1" locusStart="116v" locusEnd="130r">
+                        <head type="CCC">
+                            <name type="author">Peter of Poitiers</name>, <title>Genealogia historiarum</title>
+                        </head>
+                        <head type="James">
+                            <title>Narraciones hystoriarum valde compendiose s. ab <name type="person">adam</name>.
+                                Inchoans per patriarchas, Judices, Reges, prophetas et sacerdotes usque ad
+                                Christum</title>
+                        </head>
+                        <incipit locusNew="116v">Considerantes sacre historie prolixitatem</incipit>
+                        <incipit locusNew="116v"><name type="person">Adam</name> in agro damasceno formatur</incipit>
+                        <ab>Text on L. page: <decoNote>genealogical tree on R.</decoNote></ab>
+                        <explicit locusNew="129v">genuisse <name type="person">Joachim</name> patrem marie
+                            virginis</explicit>
+                    </msItem>
+                    <msItem n="8.2" locusStart="130v" locusEnd="131r">
+                        <head type="CCC">
+                            <title>Map of the Holy Land</title>
+                        </head>
+                        <ab locus="130v">
+                            <decoNote>A rough map or diagram of the Holy Land</decoNote>
+                        </ab>
+                        <ab locus="131r"><handNote>In another hand</handNote> some notes from the Jewish Law (Exod.,
+                            Deut., etc.)</ab>
+                    </msItem>
+                    <msItem n="8.3" locusStart="131v" locusEnd="134v">
+                        <head type="CCC">
+                            <title>List of Emperors and Popes</title>
+                        </head>
+                        <ab locus="131v">Lists of Emperors and Popes, synchronised</ab>
+                        <ab>With a few historical notes</ab>
+                        <ab>The last is</ab>
+                        <ab locusNew="134r"> a. d. <date>1270</date> predictus <name type="person">karolus</name> romam
+                            venit nauigio venit in apuliam bello habito <name type="person">manfred. regno</name> et
+                            vita priuauit </ab>
+                        <ab locus="134v">List of heretics</ab>
+                        <incipit locusNew="134v"><name type="person">Arius</name> presbiter in allexandria in multis
+                            turbauit fidem</incipit>
+                        <ab locusNew="134v">Also a list of the clauses of the Creed assigned to the several
+                            Apostles</ab>
+                    </msItem>
+
+                    <msItem n="9" locusStart="135r" locusEnd="135v">
+                        <head type="CCC">
+                            <title>Foundations of religious houses in <name type="place">Gdansk</name> and <name
+                                    type="place">Marienburg (Malburk)</name></title>
+                        </head>
+                        <ab locus="135r">The text of f. <locus>135r</locus>-<locus>135v</locus> is wholly in German,
+                                <handNote>in two hands</handNote>, and consists of historical entries</ab>
+                        <ab>a.</ab>
+                        <ab>Foundation of Religious Orders</ab>
+                        <incipit locusNew="135r">Anno do<abbr rend="superscript">i</abbr>
+                            <date>iiij<abbr rend="superscript">c</abbr> et xxx</date> vart gestift d. orden Regulares
+                            canonici under sce Augustini regel<lb/> ...<lb/> A<abbr rend="superscript">o</abbr> d.
+                                <date>m. cc. lxx</date>. wart gestift das closter Olyua bi <name type="place"
+                                >gdanczk</name>.<lb/> A<abbr rend="superscript">o</abbr> d. <date>m. ccc. ix</date>. Jar
+                            wart danczk gewune. dor noch in den neesten jar kouften di heren das lant czu
+                            pomeren</incipit>
+                        <ab>b.</ab>
+                        <incipit locusNew="135r">Was by <name type="person">meister Wynrichsz von knyprode</name>
+                            gecziten geschen ist etc. vnd dor noch.<lb/> Anno d<abbr rend="superscript">ni</abbr>
+                            <date>m. ccc. lxj</date>. wart kynstot <name type="person">herczog von littawen</name>
+                            gevangen vnd gebrocht kcu <name type="place">marienburg</name> vnd entqwam vs dem
+                            gevengnisse</incipit>
+                        <ab>Ends</ab>
+                        <explicit locusNew="135v">A. d. <date>m. cccc. xxx<abbr rend="superscript">o</abbr></date>
+                            vorstarb <name type="person">herczog Wytawt</name> vnd <name type="person">herczog
+                                Swutergayl</name> wart eyntrechticleich gekorn zu lytteuichen herren</explicit>
+                    </msItem>
+
+                    <msItem n="10" locusStart="136r" locusEnd="151v">
+                        <head type="CCC">
+                            <name type="author">John Buridan</name>, <title>Quaestiones in De anima</title>
+                        </head>
+                        <head type="James">
+                            <title>Questiones <name type="person">mag. Biridoon</name> super libros de anima ualde
+                                bone</title>
+                        </head>
+                        <incipit locusNew="136r">Queritur utrum anima sit subiectum proprium et adequatum</incipit>
+                        <ab>
+                            <handNote>Very closely written</handNote>
+                        </ab>
+                        <explicit locusNew="151v">formati et patent questiones, de anima reuerendi <name type="person"
+                                >mag. biridani</name></explicit>
+                    </msItem>
+
+                    <msItem n="11.1" locusStart="152r" locusEnd="156v">
+                        <head type="CCC">
+                            <name type="author">Vincent of Beauvais OP</name>, <title>Speculum historiale (extract -
+                                Historia de <name type="person">Joseph</name> et <name type="person"
+                                >Aseneth</name>)</title>
+                        </head>
+                        <head type="James">
+                            <title>Historia de <name type="person">asseneth</name> uxore <name type="person"
+                                    >Josephi</name>. Extracted from <name type="author">Vincentii</name> Spec.
+                                Hist.</title>
+                        </head>
+
+                        <incipit locusNew="152r"><name type="person">Joseph</name> natus anno patris sui xc<abbr
+                                rend="superscript">o</abbr></incipit>
+                        <explicit locus="153v">collectis super lectulum suum pedibus obiit</explicit>
+                    </msItem>
+                    <msItem n="11.2" locusStart="157r" locusEnd="157v">
+                        <head type="CCC">
+                            <title>Various notes</title>
+                        </head>
+                        <ab>In the last cover, various notes</ab>
+                        <ab locusNew="157r">Virtutes agnus dei (10 lines)</ab>
+                        <incipit locusNew="157r">Balsamus et munda cera cum crismatis unda</incipit>
+                        <ab locusNew="157r"> Heynrich. gut. korn. hat. ffrederich. Johan Gobil Echart </ab>
+                        <ab locusNew="157r">Receipt in German</ab>
+                        <ab> Nym wisen burnsteyn jngeber </ab>
+                        <ab locusNew="157r">Lines on feasts: A. Geor., B. philippi</ab>
+                        <ab locusNew="157r">Signs of death: Fronte rubet, etc.</ab>
+                    </msItem>
+
+
+
+
+                </msContents>
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>text: copied from James.txt BA</p>
+                            <p>markup: BA</p>
+                            <p>markupCheck: checked by BA, CF</p>
+                            <p>msCheck: NJM 2/2/2009</p>
+                            <p>remarks:</p>
+                        </recordHist>
+                    </adminInfo>
+                </additional>
+            </msDesc>
+
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>
